@@ -1,0 +1,295 @@
+Minor and trace element emissions from post-combustion CO2 capture from coal: Experimental and equilibrium calculations
+
+Highlights
+•
+Tested pilot scale, 25kWth CO2 capture reactor, using Ca-based CO2 sorbent.
+•
+Flue gas trace element emission sampling based on EPA Method 29.
+•
+EDS analysis undertaken of Ca-based sorbent for elemental analysis.
+•
+Sensitivity analysis carried out on MTDATA software, for 9 and 21 trace elements.
+•
+Thermodynamic equilibrium modelling undertaken to support experimental work.
+Abstract
+Elemental partitioning, including gaseous elemental emissions from pilot scale (25kWth), post combustion CO2 capture using a Ca-based sorbent, have been investigated for naturally occurring elemental impurities found in limestone, that have the potential to be released to the environment under carbonation and calcination conditions.
+Inductively Coupled Plasma-Mass Spectrometry (ICP-MS) analysis of Longcliffe SP52 limestone was undertaken to identify other impurities present, and the effect of sorbent mass and SO2 concentration on elemental partitioning in the carbonator between solid sorbent and gaseous phase was investigated, using a bubbler sampling system.
+Samples were analysed using ICP-MS, which showed that sorbent mass and SO2 concentration in the carbonator effected the concentrations of gaseous trace elements sampled.
+Thermodynamic modelling of the carbonation and calcination process was also undertaken, based on molar quantities of trace elements identified from ICP-MS analysis of limestone, which provided useful information with regards to element stability and partitioning under realistic CO2 capture conditions.
+
+Introduction
+Calcium looping is a method of CO2 capture which utilises fluidised bed technology, whereby a particulate bed is fluidised using a gas within a reactor.
+In this case the particulate bed comprises a limestone-derived CO2 sorbent, and the fluidising gas comprises CO2-containing flue gas.
+The calcium looping cycle makes use of the reversible carbonation reaction, and the subsequent CO2 capture and release process is therefore cyclic.
+The equilibrium carbonation-calcination reaction is provided by Eq.
+(1), whereby carbonation is exothermic and calcination is endothermic.
+The reactors for carbonation (carbonator) and calcination (calciner) are separate, meaning that there is no gaseous exchange between the two, ensuring the efficiency of the process is optimised.(1)CaO+CO2↔CaCO3ΔH°r=±178kJmol-1
+The use of limestone as a CO2 sorbent in fluidised bed carbon capture systems from coal, is gaining attention due to the high availability, low cost, and potential for high CO2 sorption efficiency of Ca based sorbents.
+However, limestone is a naturally-occurring material, and always contains other species in the form of trace elements.
+The high temperature conditions under which carbonation and calcination occur, present opportunities for trace elements to be released to the environment, thereby representing a potential source of environmental contamination, in addition to that produced from coal combustion.
+A large amount of research has been carried out on the use of limestone in the calcium looping cycle as a method of CO2 capture, but to date only minimal work has been carried out on the potential pollutants that may be produced by the calcium looping cycle as a result of limestone impurities.
+Environmental and human health problems can arise from emissions of toxic heavy metals, with Pb, As, Hg, Cd, Cr and Zn of particular cause for concern.
+In addition, the presence of such trace elements may cause technical uncertainties within energy production systems, including corrosion of construction materials [1,2].
+Several studies have shown that trace elements released from coal during energy processes tend to partition either between gaseous emissions, or ash residues, dependant on their volatility.
+Based on this partitioning tendency, it has been suggested that trace elements can be classed into three main groups [3-5]:•
+Group I elements - least volatile, partition into ash residues e.g.
+Mn, Be, Co, Cr.
+•
+Group II elements - moderate volatility, partition between ash residues and gaseous phase.
+As gases cool, vapour species condense onto particulate matter e.g.
+As, Cd, Pb, Sb.
+•
+Group III elements - High volatility and unlikely to condense from vapour phase e.g., Hg, and Se.
+Group III and Group II elements are considered to represent the greatest risk to the environment and human health due to their increased volatility compared to Group I elements.
+These groups describe element behaviour, and therefore are considered valid regardless of the process in question.
+Córdoba et al. [6] investigated the partitioning of elements in a pulverised coal combustion power plant fitted with wet limestone flue gas desulphurisation (FGD).
+The most volatile elements including S and F were retained by the FGD-derived gypsum, whilst moderately volatile elements including As and B were for the most part retained in the fly ash.
+Gaseous emissions were below European directive 2001/80/EC limits for large combustion plants and the pollutant release and transfer register (Pollutant Release and Transfer Registry (PRTR)) threshold values, with the exception of Hg emissions and particulate Se, As, Zn, Cu, Ni, and Cr.
+The fate of trace elements was investigated in a 90kW oxy-combustion pilot plant fed with coal and limestone [7].
+It was shown that 82% of elemental Hg was emitted in the exhaust gas, as was 81% of Cl.
+It was further suggested that the relatively low temperatures, and high Ca content in the system from limestone use promoted condensation and sorption of sulphate, fluoride and chloride species.
+Meij [4] analysed the concentrations and distributions of trace elements within coal-fired power plants fitted with FGD technology, employing limestone as an SO2 sorbent.
+It was found that the predominant source of trace elements within the FGD plants were from limestone, suggesting that the use of limestone-derived CO2 sorbents may represent a further potential source of trace elements within power stations, and in turn may impact on downstream processes.
+Further, Sager [8] also suggests that lime used for gas scrubbing within a power plant may introduce trace elements to the system, including As, Pb, Cd and Zn.
+By contrast, Furimsky [9] concluded that limestone sorption of trace elements may have a diluting effect on trace element content in coal ash, whilst Cheng et al. [10] suggested lime (CaO) may be beneficial in reducing trace element emissions from coal combustion.
+Metal oxides other than CaCO3 have been identified in limestone, including MgO, Al2O3, SiO2 and Fe2O3, in addition to trace elements [11,12] whilst Barber [13] concluded that Ca, Mg, Mn and Sr are mainly restricted to the carbonate fraction of limestone, and that 'mineralogical associations' of trace elements in limestone are complex.
+With regards to elemental emissions from limestone use during the calcium looping cycle for CO2 capture, Dean [14] carried out experiments at the bench scale to investigate the effect of coal use on limestone-derived sorbent trace element inventory.
+Experiments carried out without coal use showed no change in sorbent trace element inventory.
+Batch experiments carried out using La Jagua coal showed an increase in the concentration of Ba, Cr, K, Mn, Sr, and Ti, whilst concentrations of B, Na and K remain the same, whilst for Cu there was a small decrease.
+For continuous experiments comparing 2 different coals and refuse-derived fuel (RDF), an increase in Al content was observed suggesting some ash mixed in with the sorbent.
+The concentrations of Ba, K, Sr and Zn remained the same for all fuels.
+For Lea Hall coal, there was an increase in B over eight cycles from ∼20 to 40ppm, though not for La Jagua.
+For Cu, sorbent concentrations in the first cycle (∼15ppm) remained the same over eight cycles for the two coals, but increased over five cycles in the presence of RDF from ∼20ppm to ∼180ppm.
+Na remained the same for the sorbent cycled in the presence of La Jagua, but there was an increase in results for Lea Hall coal and RDF from ∼250 to ∼550ppm and from ∼200 to 400ppm respectively, expected given that the Na content of the La Jagua coal is an order of magnitude lower than of the other two fuels.
+Ti remained the same for La Jagua over eight cycles, though saw an increase in the sorbent cycled in the presence of RDF over five cycles from ∼50ppm to ∼150ppm.
+There appear to be no further studies available in the literature investigating elemental partitioning as a result of limestone use in the calcium looping cycle.
+Several studies within the literature make use of thermodynamic equilibrium modelling software in predicting trace element release during energy production.
+Thompson and Argent [15,16] have used thermodynamic equilibrium modelling to investigate trace element mobilisation under both combustion and air-blown gasification conditions.
+One of the most widely used software packages, Metallurgical and Thermodynamic Databank (MTDATA), designed and produced by the National Physical Laboratory (NPL), UK, has been used to investigate trace element release including during combustion of wood bark [17], combustion of sewage sludge with Polish coal [18], in investigating trace element release from biomass-fuelled gasification systems [19], and in investigating trace element, including mercury, emissions from gasification and combustion conditions [20].
+Goni et al. [21] utilised MTDATA to model fusibility during combustion of different coal blends, and confirmed that the equilibrium calculations were a valid tool in doing so.
+Khodier et al. [1] used MTDATA to model the combustion and deposition process when co-firing miscanthus with coal, and concluded it a useful predictive tool to support experimental analytical techniques.
+With regards to CCS in particular, MTDATA has been used to predict the impact of impurities on CO2 transport in relation to the pipeline transport of dense phase CO2 from a capture plant to a subsurface storage site [22], but otherwise, it can be concluded that there is limited data available in the literature with regards to using thermodynamic modelling to support experimentally-derived trace element emissions results from CO2 capture.
+This objective of this study was to experimentally investigate the elemental partitioning between solid sorbent and gaseous release from the use of limestone-derived CO2 sorbent, within a 25kWth pilot scale CO2 capture reactor.
+In order to support the experimental study, MTDATA has been used here to investigate the likely compounds to be formed under realistic reaction conditions, and also to examine the stability of those compounds under typical Ca looping conditions.
+Experimental procedure
+Pilot scale CO2 capture facility
+Elemental partitioning, including emissions tests were carried out in a 25kWth pilot scale CO2 capture reactor, comprising a 4.3m high, 0.1m diameter, entrained flow bed carbonator, and a 1.2m high, 0.165m diameter, bubbling fluidised bed calciner, as shown in Fig. 1.
+Two cyclones present at the exit of the carbonator, ensure solids recycling to the calciner, and minimise particulate emissions to the atmosphere.
+Two loop seals, one located at the base of the first cyclone leading to the calciner, and the other located between the lower third of the two reactors, allow the controlled transfer of solids between the two reactors, whilst at the same time preventing gas transfer in order to maintain process efficiency.
+A total of thirteen pressure tappings along the length of the carbonator, and seven pressure tappings along the length of the calciner, allow pressure analysis of the system.
+Temperatures within the reactors were measured using K-type thermocouples with metal sheaths.
+Gases were introduced into the reactor using rotameters to ensure accurate flow rates.
+Continuous looping experiments were undertaken to investigate the effect of 4.5kg, 6kg and 13kg bed inventory, and SO2 concentrations of 0ppm, 1000ppm and 2000ppm for a bed inventory of 13kg, on elemental partitioning between solid sorbent and gaseous emissions.
+Sorbent analysis
+Inductively Coupled Plasma-Mass Spectrometry (ICP-MS) analysis was undertaken of Longcliffe SP52 limestone from the UK, to determine the quantities of elemental impurities present in the naturally occurring rock, for which the major, minor and trace elements are given in Table 1, and ICP-MS results are provided in Table 2.
+Throughout the literature, there are varying definitions for major, minor and trace elements.
+In this case, major elements are defined as those of concentration >10ppm, minor elements are of concentration between 1 and 10ppm, and trace elements are of concentration <1ppm.
+The ICP-MS process uses high temperature argon plasma to generate positively-charged ions from the sample, allowing concentrations of such ions to then be measured and quantified.
+Mg appears to be the element found in the highest concentration (5.75ppm), as expected given the presence of a dolomitic fraction (CaMg(CO3)2) in most naturally occurring limestone.
+Other elements found at higher concentrations appear to be Na, Al, P, K, Mn, Fe, Sr, Ba and Pb, all found at concentrations of over 26ppb.
+ICP-MS analysis confirmed the presence of Al and Fe in similar quantities (414.5 and 354.8ppm respectively).
+Samples taken after testing were also analysed using ICP-MS and compared to a blank acid digestion sample, to identify changes in elemental concentration as a result of use in the calcium looping cycle process.
+Ca-derived sorbents sampled before, during and after tests were analysed for changes in morphology using environmental scanning electron microscopy (SEM) and electron dispersive spectroscopy (EDS).
+The SEM-EDS analysis provides useful data, but due to it having a smaller range than ICP-MS, cannot show data for elements below a certain concentration, and therefore shows data for fewer elements than ICP-MS.
+Nonetheless, EDS data is useful in outlining trends for the elements which are analysed, and for supporting results achieved using ICP-MS.
+Flue gas analysis
+An ADC 7000 gas analyser was used to measure real time online levels of CO2 and O2 in combustion gases from the carbonator and calciner, during pilot scale CO2 capture tests.
+CO2 and O2 concentrations from the carbonator for a typical test are provided in Fig. 2.
+Elemental sampling from the reactor took place from the carbonator.
+Although the carbonator operates at lower temperatures (600-700°C) than the calciner (800-950°C) and therefore elemental release may be slightly lower due to lower volatility, it was considered that compared to the calciner, the carbonator will be exposed to the flue gas in its entirety, and also in terms of location of the sampling equipment the carbonator was the most suitable reactor from which to sample.
+The elemental sampling method was undertaken in accordance with US Environmental Protection Agency (EPA) Method 29: Determination of Metals Emissions from Stationary Sources [23].
+The experimental set up, as outlined in Fig. 3, comprises a 'sampling train' consisting of several bubblers through which a stack sample of the flue gas is passed.
+Several bubblers contain aqueous acidic dilution to allow collection of condensed trace elements in the flue gas which passes through.
+A pump allows the gas to be sampled through the bubblers, and a dry gas meter allows the recording of the volume of gas which is sampled.
+A glass filter prevents particulate matter from passing through the bubblers.
+Prior to, and between each experiment, the glassware is acid washed in 10% HNO3 acid in order to prevent contamination.
+Further details of the procedure are provided in EPA Method 29 [23].
+The sampling system was started as the reactor was heating up, at approximately 30min prior to the beginning of the experiment.
+This allowed the sampling of gases for a longer time period, and to take into account any emissions prior to the start of the actual experiment, which may occur as both the reactor material and Ca-based CO2 sorbent were heated.
+Although the majority of element release is likely to occur at the start of each test, with emissions likely to decrease to a steady level as looping cycles continue, the sampling of the initial release is important to identify total emissions.
+Sampling was stopped when the burner was turned off, and therefore at the end of experiment.
+Results are therefore shown for average test durations of approximately 2h.
+Elemental analysis of the acidic solution was carried out using ICP-MS.
+Thermodynamic modelling
+Chemical equilibrium models have proven useful in estimating flue gas compositions and elemental partitioning from energy processes [1].
+The MTDATA software computes chemical equilibrium based on Gibbs free energy minimisation, allowing the identification of the most prevalent species in a reaction, under specific conditions, including temperature and pressure.
+Thermodynamic modelling using MTDATA software was undertaken in addition to pilot scale tests, in a bid to improve understanding of the likely compounds and associated phase formation of elements under carbonation and calcination conditions.
+Modelling was undertaken for 4 major elements (C, Ca, O, and H) and up to 9 minor elements (Ba, Cd, Cr, K, Mg, Ni, Sr, Ti, and Zn) based on those which are considered to be most volatile, have the greatest negative impact on the environment and health, and which were present in the highest quantities in the limestone as identified by ICP-MS analysis as outlined in Table 2, in order to investigate partitioning behaviour under pilot scale CO2 capture conditions.
+The multiphase module of MTDATA was used in the modelling, combined with the Scientific Group Thermodata Europe (SGTE) database, in order to predict compound/phase formation for the complete temperature range, from temperatures of 600°C, up to 750°C for carbonation and 1000°C for calcination, in steps of 20°C, and at atmospheric pressure.
+Molar quantities, based on ICP-MS analysis of the limestone, for each of the elements being investigated were entered into the model.
+Results and discussion
+Elemental partitioning - experimental effect of sorbent mass
+Major elements
+Fig. 4 shows the effect of bed inventory on major element concentration for solid samples taken from the carbonator.
+Samples were acid digested and analysed using ICP-MS, and compared with acid digestion blanks in order to obtain the final values.
+The effect of bed inventory is apparent, with concentrations of Fe in particular increasing from 319ppm to 4598ppm for bed inventories of 4.5kg and 13kg respectively.
+Similarly, concentrations of Cr, Mn, Zn and Pb also increased with increasing inventory.
+For Cr, no positive recording was made for the lowest bed inventory of 4.5kg, but recordings were made at 6kg and 13kg.
+For Mg, Al, Si, Ti, Sr and Y concentrations appeared to slightly decrease with increasing bed inventory.
+Results of ICP-MS flue gas analysis provided in Fig. 5 show that most of the major elements present in the carbonator flue gas increase with the mass of the limestone in the reactor.
+However, some elements are only present for the largest bed inventory of 13kg e.g., Ti, Cr, and Mn.
+However, all elements included within Fig. 5 can be considered to be at very low concentrations of <2ppm.
+Those elements at the higher concentrations in the flue gas include Na, Si, K, Zn, and Br.
+For Na in particular which was present in reduced amounts in the solid, this suggests that some of it may be partitioning to the flue gas for bed inventories 6 and 13kg.
+For Na, Al, K and Fe, the lowest bed inventory of 4.5kg resulted in a concentration in the flue gas which was less than that of the blank sample, values which then increased for the higher bed inventories.
+This suggests that a certain amount of these elements is being absorbed, perhaps by the sorbent in the case of Fe, or by the reactor itself.
+In the case of P, decreased values compared to the blank were found for bed inventories of 4.5kg and 13kg, but an increased value for 6kg inventory.
+However, the values are very low at <0.01ppm and this anomalous result may be due to analytical errors.
+Overall, although concentrations in the flue gas are small at <2ppm, increasing bed inventory does appear to increase the concentration of the majority of major elements present in the flue gas.
+Minor elements
+Fig. 6 shows the concentrations of minor elements in the solid sorbent, where increasing bed inventory resulted in increasing values observed for Co, Ni, Cu, Mo, Cd, and Sn.
+In the case of Cu and Sn, values were obtained that were lower than that of the blank for a bed inventory of 4.5kg, which then increased to values of 22 and 0.22ppm respectively for 13kg.
+In the case of Gd, Dy and U, small decreases in concentration were found for an increasing inventory, however values are low at <1ppm and the changes observed are small.
+The remaining elements (Zr, Le, Ce, Pt, and Nd) recorded an increase in concentration for 6kg over 4.5kg, and then a decrease from 6kg to 13kg.
+All minor element flue gas concentrations were <0.1ppm and therefore considered negligible.
+Trace elements
+Fig. 7 shows solid concentrations of trace elements, of which only Rb, Nb and W were found at concentrations greater than 0.1ppm.
+W showed the greatest change, with concentration increasing from 0.06 to 0.42 to 0.74ppm for inventories 4.5, 6 and 13kg respectively.
+All trace element flue gas concentrations were found at a concentration of <0.1ppm and therefore considered negligible.
+As expected for major, minor and trace elements, the concentration is generally higher by several orders of magnitude for solids samples compared to flue gas samples.
+It is clear that in the cases where elemental concentration decreased with increasing bed inventory, this is mostly seen for period 3 elements (Mg, Al, and Si), and some lanthanide rare earth metals (Sm, Gd, Dy, and Rb) and U.
+The geochemistry of limestone is complex, with various hydrous and anhydrous forms of the mineral available.
+Naturally formed CaCO3 (termed 'CaCO3 I' for the purposes of this study) generally has a rhombohedral-hexagonal lattice system, and is stable at atmospheric pressures and Longcliffe SP52 can be assumed to be in this form.
+Other forms of CaCO3 (II-V) are formed over ranges of both increasing temperature and pressure [24].
+Each Ca2+ in the CaCO3 structure is bonded with six oxygen atoms, resulting in a charge of +1/3 per bond.
+Similarly, the O in each CO3 group is bonded with two Ca2+ ions, meaning each CO3 group is coordinated to six Ca ion.
+This provides alternating layers of Ca and CO3 groups [25].
+Elemental impurities have three possible locations for bonding in CaCO3 [26]:•
+Substitution via cation exchange for Ca2+ occurs for 90-95% of elements e.g., Fe, Mn, and Sr.
+•
+Adsorption onto crystal faces to balance charge inbalances e.g., Na, and K.
+•
+Inclusion of additional mineral phases within the CaCO3.
+Due to the hexagonal structure of the crystals, spaces between the cations allow elements with an ionic radii smaller than Ca2+, such as Fe, Mn, Cd, Co, Ni, Zn, and Cu to be incorporated with the crystal structure.
+For the cases where elemental concentration increased with increasing bed inventory, the elements concerned were mostly those of low volatility (Be, Cr, and Mn), transition metals (Fe, Co, Ni, Cu, Zn, Nb, Mo, Rh, Cd, and W), and group 6 metals (Pb, and Sn).
+Elements that have low volatility are most likely to partition to solid phases within the reactor, and therefore it would be expected that the concentration of the low volatility elements would increase for a greater bed inventory.
+The transition metals have high melting points because of strong metallic bonds resulting from the presence of unpaired electrons, resulting in low volatility.
+Most also have a charge of 2+, allowing substitution for Ca2+ within the CaCO3 lattice.
+Iron oxides are also able to sequester transition metal cations and thus are able to immobilise other transition metal impurities [27], thus accounting for the general increase in transition metal concentration with bed inventory.
+For Pb and Sn, of which Pb is considered to be a Group II element, and Sn is considered to be between Group I and Group II, both are emitted mostly in coal fly ashes in coal combustion [28], and therefore could be considered to partition to the solid phase in the calcium looping cycle.
+Further, it was noted that non-volatile elements have been found more likely to condense out with particulate matter, resulting in an increase in trace element concentration with a decrease in sorbent size [3,29].
+Sager [8] found that introduction of limestone increased Pb, Cd and Mn emissions, but these were immediately sorbed from the vapour phase onto particulates.
+With regards to the elemental species that decrease in concentration with increasing bed inventory, Mg, Al and Si oxides are generally considered primary components of limestone in addition to Ca.
+However, no Si was detected from ICP-MS analysis of unreacted limestone, which can be attributed to low Si detection limits on the ICP-MS in question; although EDS analysis shows decreasing Si concentrations with increasing bed inventory (Fig. 8).
+MgO and Al2O3 can be considered to have extended ionic structures, whilst SiO2 has an extended covalent structure, meaning that all have high melting and boiling points, requiring large amounts of energy to volatilize them.
+Therefore, they are considered to be of low volatility, but the increase of these elements in the flue gas analysis suggests that they are being removed from the sorbent under the high temperature conditions in the fluidised bed.
+The literature suggests that limestone can be used to capture Ni, Pb and Cd, thus accounting for the increased concentration of these three elements with increasing bed inventory [30].
+By contrast, it has also been suggested that interaction, and therefore capture of Ni with Ca-bearing materials is of minor significance [31] although it would appear that this is not the case in this study.
+With regard to the lanthanides, when investigating limestone formation and rare earth element prevalence, Nagarajan et.al.
+[32] found a negative correlation of rare earth elements and CaO.
+It is suggested that in general the absorption of lanthanide cations is weak, and therefore they have low molar absorption coefficients, due to shielding of the 4f orbitals by the filled 5s and 5p sub-shells [33].
+The low cation exchange capacity of the lanthanides may explain the small decreases in concentration in limestone, with increasing bed inventory.
+Mass balance
+A mass balance for the carbonator is provided as Table 3 calculated based on the incoming and outgoing concentrations of elements.
+It shows that partitioning was always higher to the solid samples than in the flue gas samples, with very low concentrations portioning to the flue gas in all cases.
+SEM-EDS analysis
+SEM-EDS analysis of sorbent sampled from the carbonator after each test was undertaken to determine the percentage weight of the elemental species present.
+The results as shown in Fig. 8 confirm that increasing bed inventory generally increases the presence of Al, Fe and Cu.
+Al was identified in the unreacted sample at a weight% of 0.34, but this increased to similar values of 0.67% and 0.66% for 4.5kg and 6kg samples respectively, with a much higher value of 3.98% for 13kg sample of sorbent.
+This increase in Al% weight with increasing sorbent mass may be because there is a greater amount of Al present originally, or because the limestone acts as a sorbent for Al, which is also considered the case for Fe and Cu.
+Further, Al is likely to form Ca aluminates which are important constituents of cement.
+The EDS results indicate similar quantities of C, O and Ca between tests, although values for the samples that had undergone testing are slightly lower for C and O, and slightly higher for Ca, compared to the unreacted limestone sample, implying that the small change was a result of chemical reactions.
+Although the values are small, a steady decrease in Si weight% was recorded with increasing sorbent mass, implying removal of Si from limestone in the capture process.
+However the lowest value was recorded for the unreacted limestone.
+Elemental partitioning - experimental effect of SO2 concentration
+Major elements
+Fig. 9 shows that increasing SO2 concentration has some effect on major element concentration in solids.
+Concentrations of Mg, Al, Si, P, K, Br, Sr, Y, Ba and Pb appear to decrease as SO2 concentration increases.
+However, there appears to be little difference between concentrations for 1000 and 2000ppm, the greatest change in concentration being from 0 to 1000ppm SO2.
+The trend in the batch experiments whereby concentrations of elements at 1000ppm were generally lower than at 0 and 2000ppm, is also seen for some elements in the looping cycle test including Cr, Mn and Fe, but not to the same extent as was seen in the batch tests.
+Ti shows the same trend for these tests as for single column tests, with 1000ppm SO2 showing higher concentrations of Ti (135ppm for single column, 407ppm for looping test) compared to 0 and 2000ppm SO2 at values close to 10ppm Ti in both tests.
+Zn is the only major element showing a clear increase in concentration with SO2, increasing from 9.4 to 14.1 to 66.8ppm for SO2 concentrations of 0, 1000 and 2000ppm respectively.
+Fig. 10 shows how gaseous major element concentrations were affected by flue gas SO2 concentration.
+Concentrations of all were very low at <1ppm, with Fe and Si present in the highest concentrations at 0.63 and 0.51ppm respectively.
+For several elements, 1000ppm SO2 resulted in either the highest concentrations, as was the case for Na, Al, and Si, or the lowest concentrations, as was the case for Fe, when compared to 0 and 2000ppm SO2.
+Minor elements
+1000ppm SO2 concentration in looping cycle tests again appears to have some influence in reducing the concentration of some minor elements in the sorbent, when compared to 0 and 2000ppm SO2 (Fig. 11).
+This is the case for the elements Co, Ni, Zr, Mo, Cd, Sn and Ce.
+For the remainder of the elements shown, there was a small decrease in value with increasing SO2, other than for Cu which saw a small increase in value from 9.74 to 14.13ppm for 0ppm and 2000ppm SO2 respectively.
+All minor element flue gas concentrations were <0.1ppm and therefore considered negligible.
+Trace elements
+Fig. 12 shows that increasing SO2 concentration does influence trace element sorbent concentration, and for B in particular, concentrations rose from 2ppm to 2.6ppm for 0 and 1000ppm SO2 respectively.
+W showed a decrease with increasing SO2 concentration from 1.3ppm to 0.08ppm for 0 and 1000ppm SO2 respectively.
+Although trends are evident for the trace elements, concentrations are low, reducing the reliability of the results and in turn affecting the reliability of the trends observed.
+All trace element flue gas concentrations were <0.1ppm and therefore considered negligible.
+The results show that looping cycle tests carried out in the presence of increasing concentrations of SO2 resulted in, for the most part, a decrease in elemental concentrations in both solid sorbent and flue gas samples.
+A small number of elements appeared to increase in concentration with increasing SO2 concentration, including Zn, Cu, B and Yb.
+Iron cation exchange sites may account for the increase in concentration of the transition metals Zn and Cu.
+The larger molar volume of CaSO4 (46cm3/mol) compared to CaCO3 (37cm3/mol) may affect ion-exchange or covalent bonding within the pore structure, causing enhanced trace element release in the majority of cases.
+The fact that emissions do not increase linearly with increasing sorbent mass or SO2 concentration implies that the chemistry of the system is complex.
+Mass balance
+A mass balance showing effects of increasing SO2 concentration on elemental partitioning for the carbonator is provided as Table 4, calculated based on the incoming and outgoing concentrations of elements.
+A mass balance closure value of 1 indicates outgoing concentrations equal to incoming concentrations, and as shown by the low closure values, partitioning was always higher to the solid samples than in the flue gas samples, with very low concentrations portioning to the flue gas.
+SEM-EDS analysis
+Fig. 13 confirms that SO2 concentration appears to have had an effect on C, O and Ca weight%, with C and O decreasing with increasing SO2, and Ca increasing slightly with increasing SO2.
+This suggests that the presence of SO2 decreases the extent to which CaO is able to convert to carbonate in the carbonator, the reactor from which the solid samples were taken.
+It is widely accepted that the presence of SO2 during the carbonation reaction produces CaSO4 on the sorbent particle pore surfaces, which reduces the extent to which CO2 can diffuse into pore space and react to form CaCO3 [34].
+As expected, the weight% of S present in the sorbent samples increased from 0.81% to 4.73%, to 10.32% for SO2 concentrations of 0, 1000 and 2000ppm respectively, with a value of 0% for unreacted limestone.
+The value of 0% for unreacted limestone, but the presence of S identified during ICP-MS analysis (Table 2) may be due to the higher range that ICP-MS analysis can undertake.
+In terms of other element species, an SO2 concentration of 1000ppm appears to result in higher weight% values for Al, Fe, Mg and Si, than for SO2 concentrations of 0ppm and 2000ppm SO2, with Fe, Mg and Si not present at other SO2 concentrations.
+This result is unexpected, but it may be that, as mentioned previously in Section 3.2 the higher concentration of SO2, and in turn CaSO4, results in greatly reduced available pore space and therefore bonding between these species, when compared to 1000ppm SO2.
+In turn, it may be that the presence of 1000ppm SO2 causes some corrosion of the stainless steel reactor itself, resulting in small deposits on the sorbent particles, although it would be expected that if this were the case, higher values would also be achieved for 2000ppm SO2.
+Miller et al. [35] investigated the influence of SO2 on trace element behaviour during wood-bark combustion, and concluded that SO2 increased emissions of Cd, but reduced emissions of As and Hg.
+Overall, it is apparent that the interactions that take place in the presence of SO2 are complex.
+Thermodynamic modelling - sensitivity analysis
+A sensitivity analysis was carried out using MTDATA, in order to determine the effect of the presence of certain trace elements on the formation of compounds.
+The analysis was carried out using the statistical method 'non-parametric Kruskal-Wallis ANOVA by ranks', using STATISTICA software (CSS Statistica/W, Release 5.0 with Industrial units, Statsoft UK).
+This method allows the comparison of two or more independent samples, and uses the sum of the difference between mean ranks of the samples, as the statistic.
+This then provides an indication of whether the absence of an element input to the model has an effect on the stability of a certain compound in the model output.
+Due to extended calculation times required, a sensitivity analysis was carried out firstly for nine trace elements (Ba, Cd, Cr, K, Mg, Ni, Sr, Ti, and Zn) and then for twenty-one trace elements (Li, Be, Mg, Al, K, Ti, V, Cr, Mn, Fe, Co, Ni, Zn, As, Se, Sr, Cd, Sb, Ba, Hg, and Pb), in addition to the four 'base' elements (Ca, C, O, and H) (always considered to be present from limestone and gas input), based on those which are considered to be most volatile, have the greatest negative impact on the environment and health, and which were present in the highest quantities in the limestone as identified by ICP-MS analysis, as outlined in Table 2.
+MTDATA was run for all of 'base' elements and either the nine or twenty-one trace elements present, and the data recorded.
+One trace element was then removed to see the effect on compound stability and formation.
+For the next run, this trace element was included, and the next trace element removed, and so on.
+The results for carbonation and calcination respectively, are shown in Tables 5 and 6.
+The results identify that for both carbonation and calcination, Mg has a strong link with the presence of many compounds, including CaCO3.
+In the case of the sensitivity analysis based on 9 elements, Mg appears to be the only element that has a link with the presence of compound formation in the model output.
+However, in the case of the sensitivity analysis based on 21 elements, a greater number of elements have an link with the presence of compounds formed under carbonation conditions, including Mg and Al, having an effect on the greatest number of compounds.
+The increased number of elements that have an effect on the presence of compounds under calcination conditions compared to carbonation conditions again may be due to the increased temperatures at which calcination is carried out, thus allowing the less volatile elements to react, due to an increased amount of thermal energy available for activation energies.
+It is also apparent that increasing the number of trace elements present in the model, increases the chemical interactions that are likely to take place.
+For example, when 21 trace elements are included in the model in addition to the four base elements, there are a greater number of compounds that are affected by the presence or absence of another trace element, compared to when only 9 elements are included in the model.
+Thermodynamic modelling - effect of sorbent mass
+MTDATA estimates of the likely compound formation and associated phases for varying quantities of sorbent, are shown in Figs.
+14-16.
+The results identify that under carbonation conditions the molar quantities of species in equilibrium with combustion gases and limestone, increase as sorbent mass in the reactor increases, and results appear consistent with experimental data for transition metals in particular (Figs.
+4-6).
+Values for gaseous Cd concentrations increased from 8.0E-05 for 4.5kg, to 6.0E-05 for 6kg, to 2.0E-04 for 13kg, at 740°C.
+Similarly for Zn, molar gaseous emissions increased from 9.0E-04 for 4.5kg, to 7.0E-4 for 6kg, to 2.0E-03 for 13kg, at all temperatures.
+These trends are consistent with the majority of the species present.
+Gaseous KOH concentrations however reaches its maximum value at 720°C for 4.5kg, before then declining in value, whereas for 6kg and 13kg, the temperature at which the maximum value is reached at 740°C and 760°C respectively.
+This shows the effect that increasing mass has on the thermodynamic equilibrium for a minority of species present.
+Mg was identified as one of the primary impurities of limestone (Table 2).
+Fig. 15 identifies that increasing sorbent mass increases the amount of solid MgO and MgCaO2 at the relevant temperatures at which they are stable, but increasing sorbent mass has no effect on the temperature at which both compounds are stable.
+Fig. 16 shows a similar trend whereby increasing sorbent mass also increases the mass of solid CaCO3 and CaO present.
+Thermodynamic modelling - effect of SO2 concentration
+It is apparent from the results of MTDATA thermodynamic equilibrium modelling that increasing SO2 concentration during carbonation has an effect on the species present at equilibrium.
+Fig. 17 shows that the addition of SO2 allows the formation of S-based compounds that would not otherwise form if SO2 was not introduced.
+For example at 0ppm SO2 gaseous Ni and Zn are present, but at 1000ppm and 2000ppm SO2, ZnS is also formed, but only NiS is formed in place of Ni.
+Experimental data (Fig. 11) identifies a general decrease in Ni concentration with increasing SO2 concentration, but it would be expected that this would be found as Ni rather than NiS, given the oxidative conditions in the reactor, and the requirement of reducing conditions for H2S, and in turn NiS formation.
+Increasing SO2 concentration appears to have no effect on the stability of gaseous Cd or Ba(OH)2, although experimental data (Fig. 9) confirms a decrease with Ba with increasing SO2 concentration.
+SO2 does appear to have some influence on the stability of gaseous Zn and ZnS, whereby increasing SO2 concentration appears to reduce the amount of gaseous Zn up until 780°C, above which temperature the amount of Zn reaches stability at -1.49/mol, regardless of the concentration of SO2 present.
+Experimental data (Fig. 10) however confirms decreasing Zn concentration with increasing SO2 from 0ppm to 2000ppm SO2.Thermodynamic equilibrium data shows there is a small influence on the stability of gaseous K, with increasing SO2 concentration slightly reducing the amount of gaseous K.
+For example, at 700°C and 0ppm SO2, calculations show there to be -4.59/mol, compared to -4.75/mol with 2000ppm SO2.
+This however is the opposite of what experimental data (Fig. 10) suggests.
+Gaseous ZnS formation increases with SO2 concentration, from -6.9/mol at 900°C for 1000ppm SO2 to -6.7/mol for 2000ppm SO2.
+Again, the predicted formation of sulphides is unexpected given the O2 concentration in the carbonator (Fig. 4), and highlights the limitations of MTDATA compared to experimental data.
+Fig. 18 shows that at approximately 700°C and with 0ppm SO2, the stability of solid MgO decreases, whilst in its place the stability of solid MgCaO2 increases to become the predominant Mg species.
+Increasing concentrations of SO2 appear to increase the temperature at which the stability of MgO decreases and the stability of MgCaO2 increases.
+For example at 2000ppm, the temperature at which MgO reaches its minimum and MgCaO2 starts increasing is at approximately 740°C.
+Fig. 19 shows that increasing SO2 concentration has minimal effect on the stability of CaCO3 which reaches a minimum at approximately 860°C, but SO2 does have a small effect on the stability of CaO, with higher SO2 concentrations increasing the temperature at which CaO is first formed, from 780°C with 0ppm to 820°C with 2000ppm SO2.
+The model suggests that solid CaS is formed in the presence of SO2 under conditions typical of carbonation, and higher concentrations of which result in higher amounts of CaS formed.
+The results show that thermodynamic modelling is a useful means of supporting experimental data with regards to gaseous trace element compositions and elemental partitioning, over a range of temperature conditions relevant to Ca-based CO2 capture.
+However, there may be several reasons for the various discrepancies noted, primarily that MTDATA calculates the reactions at equilibrium, and assumes that the reactions go to completion, when in reality, this may not be the case.
+In addition, the model databases may not contain all of the compounds relevant to the required experimental conditions, and thermodynamic equilibrium data may not be available for all compounds at all required temperatures.
+Diffusion rates through sorbent pores are also an important factor in CO2 capture efficiencies.
+Work carried out by Bhatia and Perlmutter [36] proposed the 'Random Pore Model' which describes kinetically-controlled fluid-solid reactions, taking into account factors including boundary layers and product layer diffusion.
+These influences are important when considering experimental reaction rates and in turn efficiencies, but unfortunately are not aspects that can be included when using thermodynamic equilibrium modelling to simulate reactions.
+Conclusion
+Gaseous element emissions sampling from Cranfield's pilot scale, 25kWth CO2 capture reactor using a limestone-derived CO2 sorbent, was undertaken for a sorbent mass of 4.5kg, 6g and 13kg, and also for SO2 concentration of 0ppm, 1000ppm and 2000ppm SO2 in the carbonator reactor.
+Element emissions to the gaseous phase appeared to be influenced by sorbent mass, with the majority of species increasing in concentration as sorbent mass increased.
+Increasing SO2 concentration also appeared to have an effect on gaseous trace element emissions, although the effect appeared to differ depending upon the element concerned, with some increasing in concentration, and other decreasing in concentration as SO2 concentration increased, suggesting complex underlying chemistry.
+The mass balances however show that compared to the concentration of elements in the sorbent, the concentrations partitioning to the gaseous phase is very low.
+Thermodynamic modelling was undertaken to verify the likely elemental speciation and partitioning under CO2 capture conditions, results of which have proved useful in supporting the experimental work.
+The experimental results provide valuable information with regards to scale up of CO2 capture technology incorporating the Ca-looping cycle, and thermodynamic modelling can be considered a useful instrument in supporting this work, particularly with regards to elemental emissions.
+Acknowledgments
+The authors wish to acknowledge the Engineering and Physical Sciences Research Council (EPSRC Grant No: EP/G06279X/1) for financial support of the project, Sheffield University for carrying out ICP-MS analysis of Longcliffe SP52 limestone, and M. Roskilly for his technical support with the project.
+

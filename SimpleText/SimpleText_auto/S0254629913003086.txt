@@ -1,0 +1,178 @@
+Rhizosphere acid and alkaline phosphatase activity as a marker of P nutrition in nodulated Cyclopia and Aspalathus species in the Cape fynbos of South Africa
+
+Abstract
+Cyclopia and Aspalathus species are important economic legumes in the Cape fynbos of South Africa, as they are used for making Honeybush and Rooibos tea, and for trade in the cut wild flower industry.
+The aim of this study was to assess acid and alkaline phosphatase activity in the rhizosphere of Cyclopia genistoides, Cyclopia subternata, Aspalathus caledonensis and Aspalathus aspalathoides as an indicator of P supply and P nutrition in the nutrient-poor soils of the Cape fynbos.
+Whether at Kokrivier or Kanetberg, the P enzyme activities were much higher in the rhizospheres of the legumes C. genistoides, C. subternata, A. caledonensis, and A. aspalathoides compared to those of the non-legumes Leucadendron strictum, Elegia thyrsoidea and Mimetes cucullatus, or bulk soil.
+As a result, plant-available P concentration in the rhizosphere, as well as shoot P levels closely mirrored acid and alkaline phosphatase activity in the rhizosphere of each plant species.
+Relative to younger plants, older Cyclopia species exhibited, much greater acid and alkaline phosphatase activity in the rhizosphere and this again resulted in much higher plant-available rhizosphere P. C. subternata plants developed from cuttings at Kanetberg showed greater rhizosphere acid and alkaline phosphatase activity than seedlings and bulk soil.
+As a result, the concentration of plant available-P and organic P were much higher in the rhizosphere of cuttings than seedlings, leading to greater shoot P in cuttings than seedlings.
+Taken together, these data suggest that rhizosphere P enzyme activity can be used as a good indicator of P supply and P nutrition in Cyclopia cuttings and seedlings, but less so in Aspalathus species in the Cape fynbos.
+The enhanced P nutrition in plants from cuttings probably accounts for the higher tea yields obtained by farmers when they use cuttings instead of seedlings in their plantations.
+Highlights
+•
+We measured acid and alkaline phosphatase activity in rhizosphere soils relative to bulk soils of fynbos legumes.
+•
+We concurrently measured P levels in rhizosphere and shoots.
+•
+We found significantly higher acid/alkaline phosphatase activity in rhizosphere soils relative to non-rhizosphere bulk soils.
+•
+Acid and alkaline activity increased with age of Cyclopia plants.
+•
+Plants developed from cuttings increased acid/alkaline phosphatase activity over seedlings.
+
+Introduction
+Phosphorus is the second most important mineral nutrient for plant growth after N.
+Although total phosphate is abundant in many soils, it is largely unavailable for root uptake (Lambers et al., 2008), because, about 20-80% of soil P occurs in organic forms (Richardson et al., 2009).
+Soil P easily forms insoluble complexes with cations, and/or incorporated into organic matter by microbes (Tran et al., 2010; Vance et al., 2003).
+Even where P is applied as fertilizer, more than 80% becomes unavailable for plant uptake through adsorption, precipitation, or microbial immobilization (Holford, 1997; Mόzner et al., 2012).
+Thus crop yield on the 30-40% of the world's arable land is limited by P availability (Kochian et al., 2004; Lambers et al., 2006; Vance et al., 2003).
+In low P soils, both plants and microbes have developed various strategies for enhancing P supply.
+These include acidification of the rhizosphere, exudation of organic acids (Dakora and Phillips, 2002), and secretion of extracellular phosphatases (Kanu and Dakora, 2009, 2012; Kanu et al., 2007; Makoi et al., 2010; Zhao et al., 2010).
+Acid phosphatases are enzymes of plant origin (Tarafdar et al., 2001), while alkaline phosphatases are secreted by bacteria, fungi and earthworms (Hebrien and Neal, 1990) and function catalytically above pΗ 7.
+These enzymes catalyze the cleavage of mineral P from organic phosphate esters, in acidic and alkaline soils that are low in P (Nannipieri et al., 2011), thus making P more available in these soils.
+Organic P from soil organic matter is therefore the main substrate for P supply by phosphatases in natural and agricultural ecosystems.
+Soils of the Cape fynbos are characterized by low organic matter, low pΗ (pH3-5), and low nutrient levels (Dakora, 2012), especially plant-available N (0.001-0.002% N, or 1 to 2mgNg-1soil) and P (0.00004 to 0.00037% P, or 0.4-3.7μgPg-1; Cramer, 2010).
+Furthermore, soils of the fynbos biome contain between 58-77% organic P and 2-88% inorganic P, which is Fe-bound and unavailable to plants (Straker, 1996).
+Despite these nutrient constraints, the fynbos is rich in many indigenous legume genera and species.
+For example, the genus Aspalathus consists of 281 species that are endemic to the Cape Floristic Region (Boatwright and Cupido, 2011), while Cyclopia has 24 species that uniquely occur only in the Cape fynbos (Du Toit et al., 1998).
+N limitation in legumes of the fynbos is overcome by high levels of N2 fixation.
+For example, Aspalathus linearis and Cyclopia species can contribute over 100kgNha-1 annually to the fynbos biome (Moufhe and Dakora, 1999; Spriggs and Dakora, 2008).
+However, little is known about P nutrition in fynbos legumes.
+Different mechanisms have been proposed for enhanced P supply and mineral uptake by fynbos species.
+Mycorrhizal infection of fynbos legumes has been suggested to enhance P supply by the symbiosis (Harrison, 1999), just as formation of cluster roots has been regarded as a way of increasing P nutrition in fynbos legumes (Kanu et al., 2013; Lambers and Shane, 2007; Lamont, 1982).
+We have, in fact, shown that cluster root formation by A. linearis in the Cape fynbos does not only improve P nutrition, but also increases the assimilation of other nutrients such as Ca, K, Mg, Na, Al, Fe, Mn, Zn and Cu (data not shown), clearly indicating that cluster root formation is a major mechanism for nutrient acquisition in the nutrient-poor fynbos.
+So far, little information exists on the mechanisms of P supply to native legumes of the fynbos.
+Yet some of them have economic importance.
+The 24 Cyclopia species, for example, are a source of Honeybush tea, a herbal beverage that is emerging as a major income earner that contributes about R12 million to the South African economy (DAFF, Department of Agriculture, Fisheries and Forestry, 2012).
+Similarly, some of the 281 Aspalathus species and most Leucadendron species are exported as cut wild flowers (Criley, 2000; Reinten et al., 2011), while A. linearis produces Rooibos tea, another herbal beverage that contributes about R500 million to the South African economy (Joubert and de Beer, 2011; http://www.busrep.co.za).
+A. linearis is among the many species of the genus Aspalathus that is perceived to be suitable for phytoremediation (Kanu et al., 2013).
+There is therefore a need to understand the mechanisms underlying P supply to native species in a very low P environment.
+The aim of this study was to measure rhizosphere acid and alkaline phosphatase activity as an indicator of P supply and availability.
+This was achieved by measuring acid and alkaline phosphatase activity in bulk and rhizosphere soils and comparing that with P concentrations in both systems.
+Finally, a measure of increased P availability in the rhizosphere was used to track P levels in plant shoots.
+For comparison, non-legume plant species were sampled from each site as the legumes and included in this study.
+The test plant species used in this study are shown in Table 1, together with their collection sites, uses and nutrition-related biological traits.
+The data showed a relationship between acid and alkaline phosphatase in the rhizosphere and P availability in the rhizosphere, which was ultimately linked to P concentration in shoots.
+Materials and methods
+Collection and processing of rhizosphere and bulk soils
+Rhizosphere soil (defined as soil rich in roots, and/or soil adhering to the roots and influenced by root activity) was collected together with bulk soils from 0 to 30cm depth at Koksrivier near Gansbaai, and Kanetberg near Riversdale, in the Western Cape Province of South Africa.
+A minimum of 5 and maximum of 10 soil samples were cored from each farm as rhizosphere or non-rhizosphere bulk soils.
+The rhizosphere soil was cored at a distance of 1 to 2mm from the plant roots, while bulk non-rhizosphere soil (free from roots) was collected in between rows of Cyclopia and Aspalathus plants.
+The samples were transferred into pre-labelled plastic bags and transported to the laboratory, where they were stored at -4°C until bioassay of enzyme activity.
+Subsamples of soil were however air-dried, sieved (2.0mm), and used for measuring soil P concentration.
+Rhizosphere soils of non-legumes were similarly collected and processed for comparison with those of legumes.
+Plant harvest and processing
+Young shoots of 5 to 10 replicate legume plants (10 shoots per plant) (from which rhizosphere soils were collected) were harvested at crown level, oven-dried (60°C), weighed, and milled to a fine powder (0.85mm) for analysis of P. Adjacent non-legume plants were similarly harvested and processed for P analysis for comparison with legumes.
+Determination of pΗ and plant-available P in rhizosphere and bulk soils
+To measure pΗ, 50mL 0.01M CaCl2 was added to 10g of soil sample which had been air-dried and sieved (2mm).
+The mixture was shaken for 30min, allowed to settle, and the pΗ measured using a pΗ meter.
+Extractable P in each of the 5 to 10 replicate soils was determined by the citric acid method, using the modification of Du Plessis and Burger (1964).
+A 20g of the air-dried soil sample was extracted in 200mL of 1% (w/v) citric acid, heated to 80°C shaken for 2min at 10-min intervals over 1-h period and filtered.
+A 50mL aliquot was heated to dryness on a water bath, digested with 5mL of concentrated HCl and HNO3, evaporated to dryness on water bath, and 5mL of concentrated HNO3 and 20mL of deionized water added.
+The mixture was then heated to dissolve the dry residue, and the sample filtered.
+Measurement of P was done directly by aspiration on a calibrated simultaneous inductively coupled plasma-mass spectrometer (IRIS/AP HR DUO Thermo Electron Corporation, Franklin, Massachusetts, USA).
+Measurement of P in plant shoots
+Measurement of P in plant shoots was determined by ashing 1.0g of finely ground sample (0.85mm) in a porcelain crucible at 500°C overnight.
+The ash was dissolved in 5mL of 6M HCl and placed in an oven at 50°C for 30min, followed by addition of 35mL deionised water.
+The mixture was filtered through Whatman #1 filter paper, and the concentration of P in plant extracts determined using inductively coupled plasma mass spectrometry (Giron, 1973).
+Assay of acid and alkaline phosphatase activity in bulk and rhizosphere soils
+Bioassay of phosphatase activity was done as described by Tabatabai (1994).
+About 1g of moist soil sample (stored at -4°C) was weighed in duplicates into polypropylene vials for each of the 5 to 10 replicate soil samples.
+Acid or alkaline phosphatase activity was determined by adding 4mL of a pН buffer (pН 6.5 for acid and pΗ 11 for alkaline phosphatases), and 1mL of 0.1M disodium phenylphosphate as a substrate.
+The mixture in polypropylene vials was incubated at 37°C for 1h.
+At the end of incubation, 1mL of 0.5M CaCl2 and 4mL of 0.5M NaOH were added to stop the reaction, the mixture was filtered through Whatman #2 filter paper and the supernant analyzed using a UV-VIS spectrophotometer at 420nm.
+Absorbance of filtrates was compared with p-nitrophenol standards.
+For each assay, a control was included to account for non-enzymatic substrate hydrolysis.
+Statistical analysis
+Statistical analyses were carried out using a STATISTICA 2 analytical software program 2007 (StatSoft Inc, 2005).
+A 1-Way ANOVA was performed to compare the means of phosphatase enzyme activity as well as P concentration in soil and shoots of each species.
+Where significant differences were found, the Duncan Multiple Range Test was used to separate treatment means at p≤0.05.
+Results
+Soil pΗ
+Although the rhizosphere pΗ of each species was generally lower than that of the corresponding bulk soil, these were not statistically significant.
+The mean values of rhizosphere and bulk soil were respectively 4.32 and 4.48, 4.12 and 4.48, and 4.12 and 4.20 for Cyclopia genistoides, Aspalathus species and Cyclopia subternata.
+The rhizosphere pΗ of the test species were also similar in magnitude.
+Soil P, shoot P and Acid/alkaline phosphatase activity in rhizosphere and bulk soils from Koksrivier and Kanetberg
+Acid and alkaline phosphatase activity in rhizosphere soil of C. genistoides established in 1997 and 2005 at Koksrivier were measured and found to be significantly (p≤0.05) higher than that of bulk soil (Table 2).
+A comparison of phosphatase activity between years showed that C. genistoides planted in 1997 had higher rhizosphere acid and alkaline phosphatase activity than those established in 2005 (Table 2).
+P concentration was measured in both bulk and rhizosphere soil of C. genistoides to determine whether the differences in acid and alkaline phosphatase activity affected P availability.
+Plant-available inorganic P concentration was much greater in the rhizosphere soil of C. genistoides than bulk soil (Table 2).
+Organic P levels however were greater in non-rhizosphere bulk soil compared to rhizosphere of C. genistoides established in 1997 (Table 2).
+The greater enzyme activity in the rhizosphere of C. genistoides from the 1997 plantation resulted in equally greater rhizosphere inorganic P concentration compared to C. genistoides in 2005 plantation (Table 2).
+A comparison of shoot P concentration between C. genistoides grown in 1997 and a non-legume, Gnidia anomala showed no differences, younger shoots of the legume however accumulated greater P concentration compared to another non-legume, Tetraria bromoides (Table 2).
+A similar assay of enzymes was done for C. subternata planted at Kanetberg in 1999 and 2002.
+The data showed that acid phosphatase activity was again higher in the rhizosphere soils of C. subternata compared to bulk soil (Table 3).
+Rhizosphere soil of C. subternata established in 1999 showed significantly greater acid and alkaline phosphatase activity to that grown in 2002 (Table 3).
+Measurement of inorganic and organic P levels in both bulk and rhizosphere soil revealed significantly greater P levels in rhizosphere soil than bulk soil (Table 3).
+Determination of P concentration in shoots of C. subternata plants showed higher P levels when compared to the two non-legumes, Leucadendron strictum and Elegia thyrsoidea (Table 3).
+Acid phosphatase activity, soil P and shoot P of C. genistoides compared with Aspalathus caledonensis, A. aspalathoides and the non-legume Mimetes cucullatus at Koksrivier
+The marked differences in acid phosphatase between bulk and rhizosphere soil of C. genistoides and C. subternata led to further field tests that compared the enzyme activity of C. genistoides with two Aspalathus species and the non-legume Mimetes cucullatus at Koksrivier.
+The data generally showed much higher acid phosphatase activity in the legumes relative to non-legume.
+C. genistoides had the highest enzyme activity, followed by A. caledonensis, A. aspalathoides, and Mimetes cucullatus (Fig. 1A).
+For each species, rhizosphere plant-available inorganic P concentration closely mirrored rhizosphere enzyme activity, except for A. caledonensis which had high enzyme activity but low rhizosphere inorganic P level (Fig. 1B).
+In a trend almost opposite that of the inorganic P, the non-legume, Mimetes cucullatus showed greater rhizosphere organic P (Fig. 1C).
+To ascertain plant response to the species differences in rhizosphere P availability, shoot P concentration was measured and found to closely mirror rhizosphere inorganic P concentration of C. genistoides, A. aspalathoides and M. cucullatus, but not A. caledonensis (Fig. 1D).
+A comparison of acid/alkaline phosphatase activity, soil P, and shoot P in the rhizosphere of Cyclopia cuttings vs. seedlings
+Two adjacent C. subternata plantations developed from seedlings and cuttings at Kanetberg were assessed for phosphatase enzyme activity in bulk and rhizosphere soil.
+Rhizosphere soil from both cuttings and seedlings showed greater enzyme activity than bulk soil.
+However, the acid and alkaline phosphatase activity was higher in cuttings than seedlings (Table 4).
+Determination of both inorganic and organic P showed both planting material to possess greater P level in rhizosphere than non-rhizosphere bulk soil (Table 4).
+However, the cuttings showed much greater plant-available inorganic and organic P concentration in rhizosphere soil than seedlings (Table 4).
+The marked differences in P availability and accumulation in the rhizosphere resulted in statistically greater shoot P levels in cuttings than seedlings, legume shoot P was also statistically greater than those of the non-legumes Erica multiflora and E. thyrsoidea (Table 4).
+Discussion
+Can acid/alkaline phosphatase activity in the rhizosphere serve as an indicator of P supply to Cyclopia species?
+The Cape fynbos is characterized by low concentrations of mineral nutrients in soil, especially P and N.
+While N requirement in legumes is often met by symbiotic N2 fixation, P supply is enhanced through a range of mechanisms which include development of mycorrhizal symbiosis, formation of cluster roots, alteration in root architecture, production of root exudates, as well as induction of phosphatase enzyme activity (Maseko and Dakora, 2013).
+Some nutrition-related biological traits of the test species used in this study are listed in Table 1.
+The aim of this part of the study was to assess acid and alkaline phosphatase activity as an indicator of P supply in the rhizosphere of C. genistoides from a plantation at Koksrivier.
+The data revealed a significant relationship between acid/alkaline phosphatase activity in the rhizosphere of C. genistoides and P concentration in the soil around the roots.
+Whether planted in 1997 or 2005, both acid and alkaline phosphatase activities in the rhizosphere of C. genistoides showed higher activity compared to bulk soils (Table 2).
+There was also increased P enzyme activity in the rhizosphere of older C. genistoides plants compared to their younger counterparts (Table 2).
+These higher P enzyme activities resulted in markedly greater plant-available inorganic P concentrations in the rhizosphere compared to bulk soil, and in the rhizosphere of older plants compared to younger ones (Table 2).
+The greater acid/alkaline phosphatase activity also resulted in changes in soil organic P. As the activity of soil phosphatases increased (Table 2), there was a marked and significant decrease in rhizosphere organic P compared to the bulk soil, and a decrease in rhizosphere organic P of older plants compared to their younger counterparts (Table 2).
+Similar findings have been reported for a number of agricultural species (Asmar et al., 1995; Chen et al., 2002; Radersma and Grierson, 2004; Tarafdar and Jungk, 1987).
+Our data therefore suggest that the increase in acid/alkaline phosphatase activity in the rhizosphere of Cyclopia resulted in greater inorganic P supply from organic sources relative to bulk soil, where there was low P enzyme activity, and therefore low P concentration.
+The greater acid phosphatase activity in the rhizosphere of older Cyclopia plants also resulted in increased Pi supply in the rhizosphere of older compared to younger plants (Table 2).
+However, the increased plant-available P in the rhizosphere was not reflected in tissue P concentrations, perhaps suggesting that plants adapted to low-nutrient soils such as fynbos biome, inherently take up small quantities of nutrients even with high nutrient supply (Witkowski, 1991).
+To confirm that rhizosphere P enzyme activity is a proxy for P supply in the rhizosphere, a similar study was conducted at Kanetberg using C. subternata planted in 1999 and 2002.
+The data again revealed markedly high acid phosphatase enzyme activity in the rhizosphere than bulk soil, and in the rhizosphere of older than younger C. subternata plants.
+As a result, organic and inorganic P levels were lower in magnitude in the rhizosphere of older plants, but not statistically (Table 3).
+There was also much greater organic and inorganic and P concentrations in the rhizosphere relative to bulk soil (Table 3).
+It is important to note that the non-legume T. bromoides recorded lower P concentration in shoots at Koksrivier in 2005 compared to nodulated C. genistoides (Table 2).
+Similarly, the non-legumes L. strictum and E. thyrsoidea also showed much lower P levels in shoots at Kanetberg in 1999 and 2002, respectively, relative to the N2-fixing C. subternata (Table 3).
+While these high P concentrations in shoots of Cyclopia species could be attributed to P enzyme activity in the rhizosphere, it is well documented that N2-fixing legumes generally accumulate greater mineral nutrients in their organs than cereals (Broadley et al., 2003; Fageria, 2004; Pedersen et al., 2002).
+While the mechanism remains unknown, the greater P concentration in Cyclopia shoots over the non-legumes T. bromoides, L. strictum and E. thyrsoidea could well be further evidence that N2-fixing shrub/tree legumes also accumulate more minerals than their non-fixing counterparts.
+Whatever the case, the greater P assimilation by C. genistoides, C. subternata, A. caledonensis and A. aspalathoides over non-legumes at Koksrivier and Kanetberg could suggest that, for these legume species endemic to the low-P fynbos environment, rhizosphere acid/alkaline phosphatase activity is potentially a good measure of P availability.
+To further assess if the increase in P supply observed here enhances P nutrition in other fynbos legumes, rhizosphere soils of two Aspalathus species growing in the same field at Koksrivier as C. genistoides were sampled together with the non-legume Mimetes cucullatus and C. genistoides as control.
+The rhizosphere soils were assayed for acid/alkaline phosphatase activity.
+The data revealed marked differences between and among the four test species, with C. genistoides exhibiting significantly higher acid phosphatase activity, followed by A. caledonensis, A. aspalathoides and M. cucullatus (Fig. 1A).
+Although the rhizosphere soil of Aspalathus caledonensis had the second highest P enzyme activity, rhizosphere Pi was lowest for that species (Fig. 1B).
+However, of the other test plants, the rhizosphere concentration of plant-available Pi was higher in C. genistoides and A. aspalathoides, and least in the non-legume, M. cucullatus (Fig. 1B).
+Because of the low acid phosphatase activity in the rhizosphere of the non-legume M. cucullatus, the level of organic P substrate was much greater compared to C. genistoides, A. caledonensis and A. aspalathoides (Fig. 1C).
+However, measuring P in shoots revealed significantly greater concentrations in A. caledonensis (Fig. 1D) [the species with the lowest rhizosphere Pi], suggesting that the low concentration in the A. caledonensis rhizosphere was due to rapid uptake by roots, thus creating a depletion in rhizosphere inorganic P (Fig. 1B).
+Such variation in P assimilation has been reported for other plant species and genotypes (Betrand et al., 1999; Chen et al., 2002; Hedley et al., 1994; Shi et al., 2004; Zhao et al., 2010; Zoysa et al., 1997, 1999), and could be inherently related to a greater P demand by A. caledonensis compared to the other co-occurring fynbos species such as A. aspalathoides and C. genistoides.
+As found by Silberbush et al. (1981), the intensity of acid phosphatase enzyme exudation is strongly influenced by the P demand of the plant species.
+Is the expression of acid/alkaline phosphatase activity different in the rhizosphere of cuttings and seedlings of Cyclopia species?
+The Honeybush tea farmers in the Cape of South Africa use both seeds and cuttings as planting material in their tea plantations with greater preference for cuttings.
+From interviews with farmers regarding the choice of Honeybush tea planting material, Gleason (2004) found that farmers have observed a huge variation in tea yield during the second and third year of tea production from seeds.
+Moreover, the majority of Cyclopia plants grown from seeds generally exhibited retarded growth.
+Furthermore, less than 15% of C. subternata plants established from seed were productive by the fifth year of cultivation.
+By contrast, C. subternata plants established from cuttings generally produced twice the dry matter yield of seedlings of the same age.
+The aim of this part of the study was to assess whether P nutrition is a factor in the variation of tea yield on farmers' fields.
+As described before, this was done using bioassays of P enzyme activity in rhizosphere soils, as well as P in shoots of tea plants.
+The data revealed higher acid and alkaline phosphatase activity in the rhizosphere soil of cuttings than seedlings (Table 4).
+As a result, there was markedly greater organic and inorganic P concentrations in the rhizosphere soil of cuttings relative to seedlings (Table 4).
+Possibly due to increased uptake of this available P, shoot P concentrations were also greater in C. subternata plants established from cuttings than seedlings.
+As observed at Koksrivier and Kanetberg, Cyclopia grown from seedlings also showed greater P levels in shoots compared to the non-legumes E. thyrsoidea and Erica multiflora, a finding consistent with data for N2-fixing grain legumes and non-fixing cereals (Broadley et al., 2003; Fageria, 2004; Pedersen et al., 2002).
+At Koksrivier, the shoot P levels of nodulated A. caledonensis, A. aspalathoides and C. genistoides were also greater than those of the non-legume M. cucullatus (Fig. 1D), suggesting that even with tree/shrub species, legumes accumulate more nutrient elements than non-legumes.
+Using an agricultural legume, Makoi et al (2010) reported significant correlations between plant-available P and acid phosphatase activity in the rhizosphere of cowpea grown in fynbos soils.
+In this study, we also found a significantly positive correlation between acid phosphatase activity and organic P levels in the rhizosphere of the test legumes (Table 5).
+This could be interpreted to mean that the more the organic-P substrate in the rhizosphere, the greater the enzyme activity, and hence P availability in the rhizosphere for root uptake.
+However, with accumulation of inorganic P in the rhizosphere, acid phosphatase activity can get suppressed (Nannipieri et al., 2011; Treseder and Vitousek, 2001).
+In conclusion, our results suggest that acid/alkaline phosphatase activity in the rhizosphere of Cyclopia and Aspalathus species growing in the low-P soils of the Cape fynbos can be used as a predictor of P supply and P assimilation in the rhizosphere of those legumes.
+We, however, acknowledge that other mechanisms such as cluster root formation and mycorrhizal infection could have contributed to P uptake by the test legumes (Table 1), as cluster root-forming A. linearis has been found to accumulate P in addition to other essential nutrient elements in the nutrient-poor Cape fynbos.
+Acknowledgements
+The South African Research Chair in Agrochemurgy and Plant Symbioses, the National Research Foundation, and the Tshwane University of Technology are acknowledged for supporting the research of FDD, and for providing a bursary to STM.
+We are grateful to the farmers (Mr Fritz Joubert and Mrs Rica Joubert at Koksrivier, and Mr Matie Taljaard and Mrs Erica Taljaard at Kanetberg) for allowing us to collect plant and soil samples from their commercial Honeybush tea plantations.
+

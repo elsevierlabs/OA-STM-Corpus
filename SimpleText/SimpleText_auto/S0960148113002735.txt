@@ -1,0 +1,272 @@
+Aerodynamic and electrical evaluation of a VAWT farm control system with passive rectifiers and mutual DC-bus
+
+Abstract
+A wind farm with a simple electrical topology based on passive rectifiers and a single inverter (mutual topology) is compared to a more complex topology where each turbine has a separate inverter (separate topology).
+In both cases, the turbines are controlled electrically by varying the extracted power with the rotational velocity as control signal.
+These two electrical topologies are evaluated with respect to the absorbed power for a farm of four turbines placed either on a line or in a square configuration.
+The evaluation is done with a vortex model for the aerodynamics, coupled with a model of the electromechanical system.
+Simulations predict that individual control is beneficial for aerodynamically independent turbines if the wind speeds differ significantly between the turbines.
+If the differences in wind speed are caused by one turbine operating in the wake of another, the deviations in power output between the topologies are less prominent.
+The mutual topology can even deliver more power than the separate topology when one turbine is in the wake of another turbine if the wind speed changes rapidly.
+Highlights
+•
+A VAWT farm is simulated with vortex model coupled with electric model.
+•
+An electric system with passive rectifiers and a mutual DC-bus has been evaluated.
+•
+The proposed electric system is viable for a vertical axis wind turbine farm.
+•
+The aerodynamic interactions between the turbines is important for the evaluation.
+•
+The inter turbine distance is far more important than the electrical topology.
+
+Introduction
+Wind turbines are typically placed in farms where the turbines are in close proximity to each other.
+This can have economical benefits due to synergy effects such as common grid connection and infrastructure.
+The most common type of wind turbine is the horizontal axis turbine with active pitch control [1].
+This work is devoted to the straight bladed vertical axis turbine without pitch control, whereby the rotational velocity is the only parameter left for control of the turbine.
+A comparison between the different design concepts is found in Ref.
+[2].
+Pitch regulation for vertical axis turbines has previously been studied, see e.g.
+Refs.
+[3-5].
+However, pitch is not considered here since it increases turbine complexity.
+The number of constructed wind farms with straight bladed vertical axis turbines is quite limited, hence limiting the amount of empirical results.
+Simulations of vertical axis turbine farms have indicated that such turbines can be placed relatively close to each other with good performance for quite a wide range of incoming wind directions [6-8].
+The interaction between two turbines has been tested experimentally in a towing tank [9].
+These simulations and experiments are limited to turbines at constant rotational velocity, while for a control system study, variations in wind speeds and rotational velocities for the different turbines are of interest.
+In Ref.
+[10], a control strategy where the extracted power is proportional to the cube of the wind speed was applied to a horizontal axis turbine.
+The simulations in Ref.
+[11] predict that a similar strategy should work for vertical axis turbines as well and this work is an extension of that work to turbine farms.
+Although a rectifier and an inverter for each turbine can be used, a less complex approach is to connect several turbines to the same inverter.
+This electrical system has been studied in Refs.
+[12-14] and several different electrical topologies have also been studied in Refs.
+[15-17].
+All these studies focus on the electrical system of the farm, while the aerodynamic modelling is limited to prescribed power coefficients of the turbines.
+Further, all these studies only consider horizontal axis turbines.
+The present work considers vertical axis turbines and provides a more elaborate aerodynamic description.
+Time dependent aerodynamic simulations of the turbines are coupled with simulations of the electrical control system.
+The method includes the fluctuations in torque, which are characteristic to straight bladed vertical axis turbines.
+These torque fluctuations cause small variations in the rotational velocity of the turbines.
+The method also includes the mutual aerodynamic interaction of the turbines, making it possible to study the control system behaviour when one turbine is in the wake of another.
+The vertical axis wind turbine in this study is similar to the 200 kW turbine built by Vertical Wind AB [18], which has a turbine height of 24 m, diameter of 26 m and uses a permanent magnet (PM) synchronous generator.
+Control strategy
+The tip speed ratio of a turbine is defined as(1)λ=rωV∞,where r is the turbine radius, ω is the rotational velocity and V∞ is the asymptotic wind speed.
+Maximal power absorption occurs at roughly the same tip speed ratio regardless of wind speed.
+Consequently, many control strategies strive to maintain the correct tip speed ratio by adjusting the rotational velocity.
+Accurate real time wind speed measurements can be used to determine the proper rotational velocity.
+A weakness of this approach is that this data is typically not available.
+A method to control a single turbine without knowledge of the wind speed is presented in Ref.
+[10] and a brief overview is given here: For the given control strategy, there will be an equilibrium where the extracted power equals the turbine power (Pe=P), see Fig. 1.
+For maximum power capture, this equilibrium should occur at the tip speed ratio λmax that gives the highest power coefficient CPmax:(2)Pe=P=12CPmaxρAV∞3=12CPmaxρAr3ω3λmax3=k2ω3.
+As can be seen in Eq.
+(2), the extracted power increases as the cube of the rotational velocity as long as the tip speed ratio and the power coefficient are constant.
+If the extracted power is higher than the turbine power, the rotational velocity decreases, while it increases if the extracted power is lower.
+For low tip speed ratios, this control strategy may cause the turbine to stop, see Fig. 1.
+In this work a more stable strategy is implemented:(3){Pe=0ω≤ω0,Pe=k1ω2(ω-ω0)ω0<ω≤ω1,Pe=k2ω3ω1<ω≤ω2,Pe=k3ω2(ω-ω2)+k2ω2ω2ω2<ω,where(4)k1=ω1ω1-ω0k2due to continuity at ω=ω1.
+This latter strategy (Fig. 2) maintains a higher rotational velocity at low wind speeds, i.e. the turbine is prevented from stopping at the cost of a slightly lower power coefficient at low and steady wind speeds.
+The purpose of the ω2<ω case is to decrease the tip speed ratio at high wind speeds in order to reduce power absorption and mechanical loads.
+The control system is optimised for 6 m/s wind speed.
+The control system starts to extract power for a tip speed ratio of 4 at 3 m/s wind speed, uses the cubical behaviour between wind speeds 4.5 m/s and 9 m/s, and starts to decrease tip speed ratio above.
+For simplicity, k1=k3.
+These are the same control system parameters as in Ref. [11].
+Farm control system
+The most direct approach to farm control is to control each turbine separately as described in Section 2.
+This is referred to as the separate topology.
+Individual control of a permanent magnet (PM) generator can be implemented with one rectifier and inverter for each turbine.
+Alternatively individual turbine control can be achieved with active rectifiers and/or DC-DC converters, which allow the entire farm to share the grid side inverter.
+For the separate topology, all turbines are operated according to Eq. (3).
+The complexity of the electrical system is reduced if all generators are connected to a mutual DC-bus through passive rectifiers.
+This is referred to as the mutual topology, see Fig. 3.
+The separate and mutual topologies are identical if the "farm" consists of a single turbine.
+The only active component in the mutual topology is the grid side inverter, thereby limiting the control parameters to the total extracted power from the farm.
+An outline of the system benefits of the mutual topology is found in Ref.
+[19].
+This topology tends to set an upper limit for the turbine rotational velocities, where the limit is proportional to the DC-bus voltage.
+This prevents all turbines from operating at optimal tip speed ratio if wind speed variations exist between the turbines.
+The total power extracted from the turbines is chosen as(5)Pe,tot=∑i=1NPe(ωi),where Pe(ωi) is given in Eq.
+(3), N is the number of turbines in the farm and ωi is the rotational velocity of turbine i.
+With this choice, both topologies yield identical behaviour if all turbines experience equal wind speed.
+For different wind speeds, the average rotational velocity is higher for the mutual topology, compared to the separate topology, due to the cubic behaviour of the extracted power.
+This causes the turbines that experience high wind speeds to have tip speed ratios closer to the optimal values than the turbines that experience low wind speeds.
+This is beneficial, as it is the turbines experiencing the higher wind speeds that deliver most of the power.
+Optimising each turbine individually works well if all turbines are aerodynamically independent.
+For an aerodynamically coupled problem, the characteristics of the control strategy will change.
+If the reason for the lower wind speed of one turbine is that it is in the wake of another, decreasing the rotational velocity of the upstream turbine will decrease its power absorption (if it was running at optimal rotational velocity before), but will at the same time leave more energy for the turbine downstream.
+More information regarding the flow in a horizontal axis wind turbine farm can be found in Refs.
+[20,21] and farm control systems are presented in e.g.
+Refs. [22,23].
+The vortex method
+The aerodynamic simulations are performed with the same two-dimensional vortex method as described in Ref.
+[11], and only the basic working principles are described here.
+The vortex model is used to calculate the velocity field, while an empirical model is used to determine lift and drag coefficients.
+This choice was made to substantially increase the speed of the code, as solving the boundary layer with the vortex method is computationally demanding.
+The empirical force coefficients are calculated from the data in Ref.
+[24] combined with the dynamic stall model developed by Gormont [25] and later improved by Massé [26] using the parameters suggested by Berg [27].
+The code uses a panel to calculate the angle of attack from the velocity [28].
+This angle of attack, combined with the Reynolds number, is used by the empirical force model to obtain the force coefficients.
+The lift coefficient is later used to calculate the circulation according to the Kutta Joukowski lift formula (as suggested in Ref.
+[29]) and the vortex released from a blade is obtained as the change in circulation for the blade.
+Tip vortex corrections are applied using finite wing theory.
+By combining the empirical model with the vortex model, only one vortex is released from each blade at each time step, which enables fast simulations.
+To further increase the computational speed, vortices far away from the turbines are merged to reduce the total number of vortices.
+Electrical system
+This paper considers a simple and robust turbine design described in Ref.
+[30].
+Each turbine is connected to a direct driven cable wound PM generator.
+PM generators are rugged and have low losses since no power or additional components are required to magnetise the rotor.
+The current of each generator is rectified with a passive diode rectifier.
+Passive diode rectifiers are reliable since no control system is required and the switching frequency is low.
+The rectified current charges a capacitance which, in turn, supplies power to an AC grid via an inverter.
+A drawback of the mutual topology is that the turbines are not controlled individually.
+The electromotive force of a permanent magnet synchronous machine is proportional to the angular velocity of the rotor.
+A generator with a diode rectifier does not deliver current to the DC-bus if the greatest line to line voltage of the generator is smaller than the DC-bus voltage.
+Therefore, no power will be provided by a generator that operates below a threshold speed that is proportional to the DC-bus voltage.
+With the mutual topology, all generators are connected to the same DC-bus and start delivering power at the same rotational speed.
+The separate topology does not have this limitation since each turbine has a separate DC-bus.
+Grid losses and the efficiency of active power electronic devices are outside the scope of this paper.
+Instead only internal losses of the diode rectifiers and the generators are considered.
+The individual control is implemented with one rectifier and inverter for each turbine.
+Separate and mutual topology
+In both the mutual and separate topology, the DC-bus voltage of bus n changes according to(6)dUDC,ndt=-IL,n-∑i∈xnIr,iCn,where Ir,i is the rectified current from generator i, xn is the set of turbines connected to DC-bus n, Cn is the bus capacitance and IL,n is the current drawn by the inverter.
+Here, the bus capacitance per generator is equal for both topologies.
+The expression for the total extracted power from the farm is the same for both topologies,(7)Pfarm=∑n(Pe(ωn)-Ploss,n),where Ploss,n compensates for internal power losses.
+Eq.
+(7) is satisfied on a per turbine basis with load currents of(8)IL,i=Pgen,iUDC,iwith the separate topology.
+With the mutual topology, Eq.
+(7) is satisfied by drawing the total load current(9)IL,1=PfarmUDC,1.
+Further details on the implementation of the electrical system model, including parameter values, are found in Ref. [11].
+Losses
+The electrical system has three principal loss mechanisms.
+The resistive loss in the armature of a generator is(10)Pr=R∑k=a,c,bIk2,where R is the per phase resistance and Ik are the phase currents.
+The rectified current from the generator is(11)Ir=12∑k=a,b,c|Ik|.
+The rectified current is roughly proportional to the generator torque.
+The loss due to the forward voltage drop of the diode rectifier is(12)PD=2IrUD.
+The power loss in the stator core due to hysteresis and eddy currents in the stator sheets is(13)Pc=khω+keω3/2+kcω2,where kh, ke and kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [31].
+Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.
+Simulations
+The first part of the simulations evaluate the differences between the two topologies for approximately static wind conditions and aerodynamically independent turbines, where different asymptotic wind speeds are set for different turbines.
+The second part studies aerodynamically coupled turbines in static wind fields.
+Several farm configurations are studied at various incident wind directions.
+In this part, all variations in wind speed between the turbines originate from aerodynamic interactions between the turbines.
+The third part investigates the performance of the control systems for aerodynamically coupled turbines and rapid variations in wind speed.
+All simulation cases are performed with four turbines.
+This relatively small number of turbines was chosen to keep the simulation times reasonable.
+Aerodynamically independent turbines
+The first simulations concern turbines without mutual aerodynamic interaction.
+This corresponds to turbines which are spaced very far apart.
+In the simulations, the asymptotic wind speeds are slowly changed according to Fig. 4.
+All turbines are allowed a settling time of approximately 100 revolutions before the wind speed variations are initiated.
+The wind speed variations are performed during a time interval that is 10 times longer than the settling time.
+Fig. 5 shows that the rotational velocities with the mutual topology are within a narrower span than the velocities under the separate topology.
+The significant change in behaviour for the mutual topology at time 1800 s occurs when the turbine that experiences the lowest wind speed (turbine 4) stops delivering power and all turbine power is used to overcome the generator core loss.
+The mutual topology is unable to extract power from turbine 4 since the higher rotational velocity causes both a reduced CP (57% of the separate topology at 1800 s) and an increased core loss.
+The separate topology is able to extract power from turbine 4 until 2700 s due to the lower rotational velocity.
+At the time when the mutual topology stops extracting power from turbine 4, the rest of the turbines increase their rotational velocities faster, as the increases in delivered power from turbines 1 and 2 no longer are compensated for by a decrease in power from turbine 4, see Eq.
+(5).
+This is most beneficial for turbine 1, which obtains a better tip speed ratio and hence increases its efficiency.
+This is seen in Fig. 6, where the ratios between the mutual topology and the separate topology are displayed for each turbine.
+At the same point, turbine 3 starts to decrease its power coefficient at a higher rate, as the tip speed ratio for this turbine instead becomes less beneficial.
+Even though the reduced turbine power absorption for the mutual topology appears significant for both turbines 3 and 4 (see Fig. 6), those two turbines are the ones that deliver the least energy.
+A small increase in efficiency for turbine 1 can easily compensate for lower efficiency of turbines 3 and 4, see Fig. 7.
+At the worst case at time 1800 s, the delivered power for the mutual topology is slightly below 93% of the delivered power for the separate topology.
+This corresponds to a speed difference of around 5.4 m/s between the highest and the lowest wind speeds.
+The different losses in the electrical system with different topologies can be seen by comparing the turbine power and the delivered power in Fig. 7.
+The higher average rotational speed with the mutual topology increases the core loss, which dominates the total losses for this system at the studied wind speeds, see Fig. 8.
+The resistive losses with the mutual topology are slightly higher than for the separate topology.
+This originates from turbine 1 which rotates at a lower speed than the corresponding turbine with the separate topology, see Eqs. (8)-(10).
+In the case with significant differences in wind speed between different turbines, it is investigated if the total power for the mutual topology can be increased through modification of the extracted power according to(14)Pe,k=k∑i=1NPe(ωi).
+At the time with the largest differences, i.e. at 1800 s, the overall power is increased by less than one percent with k in the range 0.8-0.9, which would cause a slight increase in rotational velocity.
+The small increase indicates that Eq.
+(5) is a reasonable choice also in the case of large wind speed differences between turbines.
+Turbine farm
+Two different farm configurations with 4 turbines each are tested, one where all turbines are located on a line, which according to Refs.
+[7,8] should be a good layout if the wind mainly comes from one direction.
+The second configuration is a square configuration, which better illustrates the behaviour of the control systems when turbines operate in the wakes of others.
+Both configurations are simulated with turbine spacings of 3 and 6 turbine diameters (see Fig. 9).
+The simulations are performed as several separate simulations with different incoming wind directions, all with wind speed 7 m/s.
+The extracted power is given in Fig. 10 for the line configuration and in Fig. 11 for the square configuration.
+The line configuration performs well for a wide range of incident wind angles.
+With 3D turbine spacing, the extracted power starts to decrease significantly for an incident angle of 70°, while the 6D spacing performs well up to 80°.
+With higher angles of incident wind, the performance of the downwind turbines is reduced, since they are inside the wake of the upwind turbines.
+The square configuration does in general show lower performance than the line configuration, except for incident angles close to 90°, as only two turbines in the square configuration are located downwind here.
+The small asymmetry around 45° for the square configuration is explained by the small asymmetry in the turbines themselves, as the rotational direction of the turbine slightly affects the wake behind it.
+The square configuration is more sensitive to the turbine spacing as a wider range of incidence angles causes a performance loss, compare Figs.
+10 and 11.
+It is therefore advisable to have a larger turbine spacing for the square configuration than for the line configuration.
+The differences between the mutual and the separate topologies are generally very small.
+For the line configuration at low incident wind angles, both topologies can be expected to work well, as the mutual interactions between the turbines are small.
+The trends do however continue over the entire interval of angles of incidence.
+When a turbine operates in the wake of another, the mutual topology causes the upstream turbine to extract less energy due to the lower rotational velocity.
+This leaves more energy for the downstream turbine which gives more even energy absorption than with the separate topology.
+Therefore, the topology is not as important if the differences in wind speed are caused by mutual turbine interaction, compared to the independent turbines in Section 6.1.
+The most significant difference is the 45° wind angle for the square configuration.
+Here, two of the turbines are operating without any turbine behind them and should therefore operate at the tip speed ratio of independent turbines.
+For the other two turbines (middle turbines), one is in the wake of the other and it should therefore be a viable strategy to reduce the extraction for the first turbine for a higher power extraction on the second turbine.
+The main issue here is that the two relatively independent turbines cause the mutual rotational velocity to increase, hence over-rotating the two middle turbines, thereby decreasing their efficiency.
+Further, the rotational velocities of the two independent turbines are too low as the two middle turbines absorb less energy than the two independent turbines.
+This causes the independent turbines to operate at a too low tip speed ratio, hence reducing their performance.
+The conclusion is that if all turbines are coupled to each other (or coupled in even pairs as for the square configuration at 0° and 90°), the difference in extracted power is very small between the topologies.
+However, if some turbines are coupled together while others are approximately independent, more energy will be absorbed with the separate topology.
+Dynamic simulations
+The final simulations are performed with varying wind velocities for different turbines in the same simulation.
+To create a varying velocity field within the given model, several additional vortices are inserted from the start of the simulation.
+The additional vortices are given byxi=-R(150.5+i),i=0,1,2,…,599,yi=-2Rsin(π10xi),Γi=180sin(0.03πxi),where (xi,yi) are the vortex positions and Γi are the vortex strengths.
+The particular values for these positions and strengths are chosen to get quite large fluctuations in the wind speed, while still originating from a simple expression.
+The vortices will in time form a pattern similar to a Karman street.
+The wind speeds at the turbine positions in the square configuration with 3 turbine diameters are found in Fig. 12.
+The shape is similar for the line configuration, although not identical as the turbine positions are different.
+The wind speeds in Fig. 12 are obtained from the case with the separate topology by calculating the velocity contribution from only these additional vortices at the center position of each turbine.
+The extracted powers as functions of time are presented in Fig. 13 for the line configuration and in Fig. 14 for the square configuration.
+In both cases, a low-pass filter has been applied to remove the effects of the power fluctuations during the revolution due to the torque ripple.
+The sinusoidal behaviour of the power can be related to the Karman-street behaviour of the velocity field.
+In total, the line configuration with the separate topology extracts 1.7% more energy than the mutual topology in the time interval from 200 s to 1400 s.
+For the square configuration, the mutual topology extracts 6.2% more energy in the same time interval.
+The mutual topology tends to keep all turbines at more similar rotational velocities than the separate topology.
+For the line configuration, where the turbines are nearly independent, this is disadvantageous as it does not allow each turbine to fully adapt to the changes in wind speed.
+It was seen in Section 6.1 that for large variations in wind speed between the turbines, the separate topology should perform better, which is seen here.
+Ref.
+[11] predicts that for rapid wind speed changes, it can be advantageous to keep the rotational velocity high to extract power at a high power coefficient for high wind speeds if the wind speed fluctuations are faster that the turbine response time.
+This is a possible explanation of the relatively good performance of the mutual topology.
+For the square configuration, the mutual topology performed better than the separate topology.
+One observed issue with the separate topology is that the turbines in front easily get high rotational velocities for the peak wind speeds.
+It is shown in Ref.
+[11] that for rapid increases in wind speed, the turbine temporarily obtains a higher rotational velocity and power before the wake has formed.
+For rapid decreases in wind speed, the existing wake causes an additional drop in wind speed.
+Hence the rotational velocity and the extracted power drop below the steady state value before the wake has drifted away.
+For the square configuration, a rapid increase in wind speed causes the front turbine to obtain a high rotational velocity, which generates a large wake behind the turbine.
+This large wake will drift into the downwind turbine, hence reducing the rotational velocity of the second turbine.
+This effect is seen in Fig. 15 at 1050 and 1170 s, where an increase in rotational velocity for turbines 1 and 3 in the separate case is followed by a rapid decrease in rotational velocity for turbine 3.
+The mutual topology does not suffer from this issue, as it prevents the turbines in the front from obtaining too high rotational velocities, while keeping the rotational velocity of the turbines in the back higher.
+As the additional vortices are inserted at the initialization of the simulation and drift with the flow velocity, the wakes of the turbines will affect the motion of these vortices.
+The wind speeds in Fig. 12 are therefore not identical to the wind speeds for the mutual topology, and some of the differences seen in Figs.
+13-15, such as the low rotational velocity for the separate topology at time 1130 s, can be explained by these differences in wind speed.
+Discussion
+The aim in this work is not to find the strategy that maximises power production, as this would be an extensive task and likely very turbine specific, hence requiring a much more advanced aerodynamic model.
+The aim is instead to show that a simple topology, such as the mutual DC-bus, can be a viable solution for the control of a vertical axis turbine farm as it can obtain relatively good performance without the need for wind speed measurements and additional electrical components.
+The control system used with the separate topology works well for independent turbines, but it is not optimised for turbine farms.
+The dynamic simulation case, where the mutual topology performed better than the separate topology only shows that it worked better than this particular implementation of individually controlled turbines.
+As individual turbine control has more parameters to control, maximum obtainable aerodynamic performance should at least be as high as the mutual topology, as individual control could copy the rotational velocities from the mutual topology.
+Active rectification both allows for individual turbine control and a mutual DC-bus [15].
+Active rectification should also decrease the power loss in the generator winding, since currents can be drawn at unity power factor, although the possible increase of the generator efficiency with active rectification is only 0.1-0.5% in a similar case with the same turbine and generator [11].
+However, active rectifiers are more complex and have higher internal losses than passive diode rectifiers.
+The aerodynamic model is two-dimensional and some issues regarding the two-dimensional approximation have been discussed in Ref.
+[11], such as over-estimation of power coefficients due to neglected aerodynamic losses etc.
+For the wind farm case, the two-dimensional approximation may be less accurate, as the distance between the turbines generally is larger than the turbine height.
+Further, the two-dimensional approximation should overestimate the mutual interaction as no flow expansion occurs in the vertical direction.
+The model does not include dissipation of the wake due to turbulence, velocity gradients, viscosity etc.
+The extracted power from a turbine in another turbines wake is therefore not as accurate as a more realistic full three-dimensional model, especially when the distances between the turbines are large.
+The model has problems with the accuracy at low tip speed ratios due to the high angles of incidence as the Gormont model only handles light stall.
+This should not be a major concern at tip speed ratio 4, where most simulations are performed.
+This can however affect the simulations in some of the cases where all turbines are operated at similar rotational velocities, but with different wind speeds.
+Conclusions
+Simulations with aerodynamically independent turbines have indicated that a mutual DC-bus with passive rectification is a viable design choice unless the variations in wind speed are very large.
+If the wind speed differences among the turbines are due to the turbines' mutual interaction, the mutual and the separate topologies are almost equal in performance.
+This illustrates the importance of including the aerodynamic interaction between the turbines when the viability of a control system is analysed.
+It is furthermore shown that the array configuration and the distance between the turbines are far more important than the electrical topology for the energy capture.
+According to the dynamic simulations, the separate topology is only slightly more efficient for the line configuration, while the mutual topology obtained better results for the square configuration.
+Power loss in the cores of the generators is larger when the mutual topology is used.
+Acknowledgements
+This work was financially supported by the Swedish Energy Agency, Statkraft AS, Vinnova and Uppsala University within the Swedish Centre for Renewable Electric Energy Conversion.
+

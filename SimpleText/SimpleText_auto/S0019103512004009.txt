@@ -1,0 +1,686 @@
+The escape of heavy atoms from the ionosphere of HD209458b.
+I.
+A photochemical-dynamical model of the thermosphere
+
+Highlights
+► We developed a new model to explain the FUV transit observations of HD209458b.
+► We find a qualitative agreement between the model and the observed atmosphere.
+► We constrain the mass loss rate and escape mechanism based on stellar heating.
+► We present density profiles for the detected heavy atoms and ions.
+► Diffusive separation of heavy species is prevented by the escape of H and protons.
+Abstract
+The detections of atomic hydrogen, heavy atoms and ions surrounding the extrasolar giant planet (EGP) HD209458b constrain the composition, temperature and density profiles in its upper atmosphere.
+Thus the observations provide guidance for models that have so far predicted a range of possible conditions.
+We present the first hydrodynamic escape model for the upper atmosphere that includes all of the detected species in order to explain their presence at high altitudes, and to further constrain the temperature and velocity profiles.
+This model calculates the stellar heating rates based on recent estimates of photoelectron heating efficiencies, and includes the photochemistry of heavy atoms and ions in addition to hydrogen and helium.
+The composition at the lower boundary of the escape model is constrained by a full photochemical model of the lower atmosphere.
+We confirm that molecules dissociate near the 1μbar level, and find that complex molecular chemistry does not need to be included above this level.
+We also confirm that diffusive separation of the detected species does not occur because the heavy atoms and ions collide frequently with the rapidly escaping H and H+.
+This means that the abundance of the heavy atoms and ions in the thermosphere simply depends on the elemental abundances and ionization rates.
+We show that, as expected, H and O remain mostly neutral up to at least 3Rp, whereas both C and Si are mostly ionized at significantly lower altitudes.
+We also explore the temperature and velocity profiles, and find that the outflow speed and the temperature gradients depend strongly on the assumed heating efficiencies.
+Our models predict an upper limit of 8000K for the mean (pressure averaged) temperature below 3Rp, with a typical value of 7000K based on the average solar XUV flux at 0.047AU.
+We use these temperature limits and the observations to evaluate the role of stellar energy in heating the upper atmosphere.
+
+Introduction
+The detection of hot atomic hydrogen in the upper atmosphere of HD209458b (Vidal-Madjar et al., 2003, 2004) has inspired numerous attempts to model physical and chemical processes in highly irradiated atmospheres, including rapid escape as one of the most challenging aspects.
+Subsequent detection of heavy atoms and ions (Vidal-Madjar et al., 2004; Linsky et al., 2010) point out the need for more complex models that include the chemistry associated with these species as well as the collision coupling between them and the major species.
+Indeed, close-in extrasolar planets offer a natural laboratory to constrain the theory of rapid escape, including hydrodynamic escape.
+This is important because aspects of the theory are controversial, and yet rapid escape is believed to have played a role in shaping the early evolution of the atmospheres in the Solar System (e.g., Zahnle and Kasting, 1986; Hunten et al., 1987).
+Escape may also be a crucial factor in determining atmospheric conditions and habitability of super-Earths and Earth-like planets around M dwarfs (e.g., Tarter et al., 2007) that may be amenable to spectroscopic studies in the near future (e.g., Charbonneau et al., 2009).
+The basic ideas about the nature of the upper atmospheres around close-in EGPs were laid out almost as soon as the first planet, 51 Peg b (Mayor and Queloz, 1995), was detected.
+For instance, Coustenis et al. (1998) argued that heating by the stellar EUV radiation and interaction with the stellar wind leads to high temperatures of several thousand Kelvins in the upper atmosphere and exosphere of close-in EGPs.
+They also suggested that the upper atmosphere is primarily composed of atoms and ions, and that hydrodynamic escape might be able to drag species heavier than H and He into the exosphere.
+At the same time, Schneider et al. (1998) argued that material escaping from the atmospheres of close-in EGPs would form a potentially observable comet-like tail.
+When Vidal-Madjar et al. (2003, 2004) detected the transits of HD209458b in the stellar FUV emission lines, they also argued that the planet is followed by comet-like tail of escaping hydrogen, and that hydrodynamic escape is required to drag oxygen and carbon atoms to the thermosphere.
+The model of Yelle (2004, 2006) was the first attempt to model the aeronomy and escape processes in detail and most of the assumptions in that work have been adopted by subsequent investigators.
+It solved the vertical equations of continuity, momentum, and energy for an escaping atmosphere, including photochemistry in the ionosphere and transfer of stellar XUV radiation.
+Based on a composition of hydrogen and helium, the results demonstrated that H2 dissociates in the thermosphere, which at high altitudes is dominated by H and H+.
+The model also showed that stellar heating leads to temperatures of ∼10,000K in the upper atmosphere, and predicted an energy-limited mass loss rate of 4.7×107kgs-1 (Yelle, 2006).
+Yelle (2004) argued that conditions beyond ∼3Rp were too complex and uncertain to be modeled reliably and therefore chose an upper boundary at 3Rp, rather than at infinity, as adopted in early solar wind models.
+This led to a requirement for boundary conditions for the fluid equations at a finite radius.
+Yelle (2004) required consistency between fluid and kinetic simulations, based on the well established fact that kinetic and fluid approaches provide consistent results for the escape flux (e.g., Lemaire and Scherer, 1973).
+This led to subsonic velocities of a few kms-1 in his model - although the presence of a sonic point at a higher altitude was not ruled out.
+Many other models for the upper atmospheres of close-in EGPs have been published (e.g., Lammer et al., 2003; Lecavelier des Etangs et al., 2004; Jaritz et al., 2005; Tian et al., 2005; Erkaev et al., 2007; Garcia Munoz, 2007; Schneiter et al., 2007; Penz et al., 2008; Holström et al., 2008; Murray-Clay et al., 2009; Stone and Proga, 2009; Guo, 2011; Trammell et al., 2011).
+These include one-dimensional, two-dimensional, and three-dimensional models that make different assumptions regarding heating efficiency, the effect of stellar tides, photochemistry, and the escape mechanism.
+Despite significant differences in the temperature and velocity profiles, almost all of the existing models agree that close-in EGPs such as HD209458b are surrounded by an extended, hot thermosphere that is undergoing some form of escape.
+Most of the models to date concentrate on the distribution of H and H+ in the upper atmosphere.
+Garcia Munoz (2007) developed the only model to address the presence of O and C+ in the thermosphere (Vidal-Madjar et al., 2004; Linsky et al., 2010).
+This model is otherwise similar to Yelle (2004), but it includes the photochemistry of heavy ions, atoms, molecules, and molecular ions.
+It also extends to higher altitudes, and includes the effect of substellar tidal forces and stellar wind, albeit in an approximate manner.
+Koskinen et al. (2007a,b) developed a three-dimensional model for the thermospheres of EGPs at wide orbits.
+They pointed out that the atmospheres of close-in EGPs do not escape hydrodynamically unless they receive enough stellar XUV energy to dissociate molecules in the EUV heating layer below the exobase.
+Although their results are limited to the specific case of H2, they can be generalized as follows.
+The most important molecules H2 (through the formation of H3+), CO, H2O, and CH4 act as strong infrared coolants in the thermosphere.
+High temperatures and rapid escape are only possible once these molecules are dissociated.
+Koskinen et al. (2007b) showed that H2 dissociates in the thermosphere of a Jupiter-type planet orbiting a Sun-like star within 0.2AU.
+Once H2 dissociates, it is reasonable to assume that other molecules dissociate too.
+At this point the pressure scale height is enhanced by a factor of ∼10 when H becomes the dominant species in the thermosphere and temperatures reach 10,000K.
+It should be noted that a composition of H and H+ with high temperatures does not guarantee that the atmosphere escapes hydrodynamically.
+For instance, Koskinen et al. (2009) showed that hydrodynamic escape is extremely unlikely to occur on a planet such as HD17156b because of its high mass and eccentric orbit.
+These types of results have implications on statistical studies that characterize the escape of planetary atmospheres by relying on the so-called energy-limited escape (e.g., Watson et al., 1981; Lecavelier des Etangs, 2007; Sanz-Forcada et al., 2010).
+These studies often include an efficiency factor in the mass loss rate that is based on the heating efficiency of the upper atmosphere (e.g., Lammer et al., 2009).
+Unless the atmosphere is escaping rapidly, the heating efficiency could be considerably larger than the fraction of energy that actually powers escape through adiabatic cooling.
+Under diffusion-limited escape or in the Jeans regime the energy-limited escape rate is just an upper limit and the true escape rate can be lower.
+Ideally, the uncertainties in the models can be limited by detailed observations of the escaping species.
+At present, multiple observations are only available for HD209458b, and they reveal the presence of H, O, C+, and Si2+ at high altitudes in the thermosphere (Vidal-Madjar et al., 2003, 2004; Linsky et al., 2010).
+Visible and infrared observations have also revealed the presence of Na, H2O, CH4, and CO2 in the lower atmosphere (Charbonneau et al., 2002; Knutson et al., 2008; Swain et al., 2009).
+Taken together, these observations are beginning to reveal the composition and thermal structure in the atmosphere of HD209458b.
+The purpose of the current paper is to characterize the density profiles of all of the detected species in the thermosphere, and to explain the presence of the heavy atoms and ions at high altitudes in the upper atmosphere.
+The results can be used to infer some basic properties of the atmosphere.
+To this end, we introduce a one-dimensional escape model for the upper atmosphere of HD209458b that includes the photochemistry of heavy atoms and ions.
+As pointed out above, previous models agree broadly on the qualitative nature of the thermosphere but the temperature, density, and velocity profiles predicted by them differ significantly (see Section 3.1).
+Some authors have argued that the density of H in the thermosphere is not sufficient to explain the observed transit depths (see Koskinen et al. (2010a) for a review), thus lending support to alternative interpretations of the observations such as the presence of energetic neutral atoms (Holström et al., 2008) or a comet-like tail of hydrogen shaped by radiation pressure (Vidal-Madjar et al., 2003).
+Accurate modeling of the thermosphere is required to enable better judgment between different explanations of the observations.
+The differences between previous models arise from different assumptions regarding heating rates and boundary conditions.
+In addition to modeling the density profiles of the detected heavy species, we have improved these aspects of the calculations in our work.
+For instance, the lower boundary conditions are constrained by results from a detailed photochemical model of the lower atmosphere (Lavvas et al., in preparation).
+With regard to the upper boundary conditions, we demonstrate that for HD209458b the extrapolated 'outflow' boundary conditions (e.g., Tian et al., 2005) are consistent with recent results from kinetic theory (Volkov et al., 2011a,b) as long as the upper boundary is at a sufficiently high altitude - although uncertainties regarding the interaction of the atmosphere with the stellar wind may limit the validity of both boundary conditions.
+We highlight the effect of heating efficiency and stellar flux on the density and temperature profiles, and constrain the likely heating rates by using photoelectron heating efficiencies based on the results of Cecchi-Pestellini et al. (2009) and our own estimates (Section 3.1).
+As a result we provide a robust qualitative description of the density profiles, and constrain the mean temperature and velocity profile in the thermosphere.
+A second paper by Koskinen et al. (2012) (Paper II) compares our results directly with the observations.
+Methods
+Hydrodynamic model
+We use a one-dimensional escape model for HD209458b (Rp=1.32RJ, Mp=0.69MJ, a=0.047AU) that is similar to the models of Yelle (2004) and Garcia Munoz (2007).
+Because such models are extensively discussed in the literature, we include only a brief overview of the model here, with the emphasis on how it differs from previous work.
+The model solves the one-dimensional equations of motion for an escaping atmosphere composed of several neutral and ionized species:(1)∂ρs∂t+1r2∂∂r(r2ρsv)+1r2∂∂r(r2Fs)=∑tRst(2)∂(ρv)∂t+1r2∂∂r(r2ρv2)=-ρg-∂p∂r+fμ(3)∂(ρE)∂t+1r2∂∂r(r2ρEv)=ρQR-p1r2∂∂r(r2v)+1r2∂∂rr2κ∂T∂r+Φμwhere ρs is the density of species s, v is the vertical velocity, Fs is the diffusive flux of species s, Rst is the net chemical source term for species s, fμ is a force term arising from viscous acceleration, E=cvT is the specific internal energy of the gas, QR is the specific net radiative heating rate, κ is the coefficient of heat conduction, and Φμ is the viscous dissipation functional (e.g., O'Neill and Chorlton, 1989).
+The total density and pressure are given by ρ=∑sρs and p=∑snskT, respectively, where electrons contribute to the total pressure.
+We assumed equal temperatures for the neutral species, ions and electrons, and calculated the electron density at each altitude from the requirement of charge neutrality.
+The model solves separate continuity equations for each species, but treats the atmosphere otherwise as a single fluid.
+The differences in the velocities of the individual species are taken into account by including the diffusive flux Fs.
+We calculated the fluxes by solving simultaneous equations for multiple species based on the diffusion equation given by Chapman and Cowling (1970) Eq.
+(18.2,6), p.344.
+We also included a force term due to the ambipolar electric field given by eE=-(1/ne)dpe/dr, where the subscript e refers to electrons, that can be important in highly ionized flows.
+The collision terms account for neutral-neutral, resonant and non-resonant ion-neutral, and Coulomb collisions.
+This method is in principle similar to those of Yelle (2004) and Garcia Munoz (2007).
+We verify that the single temperature and diffusion approximations are valid for HD209458b based on our results in Section 3.2.2.
+The model includes heat conduction and terms due to viscosity in both the momentum and energy equations.
+Thus the equations are consistent with the level of approximation in the Navier-Stokes (NS) equations.
+The NS equations themselves are a simplification of the 13-moment solution to the Boltzmann equation (e.g., Gombosi, 1994) that is valid when the Knudsen number Kn=Λ/L≪1, where Λ is the mean free path and L is the typical length scale for significant changes in density or temperature.
+Broadly speaking, the equations are valid below the exobase, and terms due to heat conduction and viscosity gain significance as Kn→1.
+We note that the exobase on HD209458b is typically located at a very high altitude (see Section 3.1), and viscosity and heat conduction are not particularly important.
+We included species such as H, H+, He, He+, C, C+, O, O+, N, N+, Si, Si+, Si2+, and electrons in the hydrodynamic model.
+We also generated simulations that included Mg, Mg+, Na, Na+, K, K+, S, and S+, but the presence of these species did not affect the density profiles of H, O, C+, or Si2+ significantly.
+The model includes photoionization, thermal ionization, and charge exchange between atoms and ions.
+The reaction rate coefficients for these processes are listed in Table 1.
+Multiply charged ions were included only if the ionization potential of their parent ion was sufficiently low compared to the thermal energy and radiation field in the upper atmosphere.
+We note that our model also includes impact ionization by thermal electrons.
+In general, this can be important for species with low ionization potential such as alkali metals (e.g., Batygin and Stevenson, 2010), although we find photoionization to be more significant in the thermosphere (see Section 3.2).
+In order to simulate photochemistry in a numerically robust fashion, we coupled the dynamical model with the ASAD chemistry integrator developed at the University of Cambridge (Carver et al., 1997).
+In most cases we used the IMPACT integration scheme that is provided by ASAD.
+We did not include any molecules in the present simulations, and thus placed the lower boundary of the hydrodynamic model at p0=1μbar (see Section 2.1.1).
+Molecular chemistry is not significant in the thermosphere, where our results agree qualitatively with Garcia Munoz (2007) despite simpler chemistry (see Section 3.2).
+This is an important result because it implies that complex molecular photochemistry does not need to be included in the models for the thermosphere.
+However, the chemistry of molecular ions may be important on HD209458b below the 0.1μbar level and it needs to be studied in greater detail.
+The upper atmosphere is heated by stellar XUV radiation.
+We simulated heating and photoionization self-consistently by using the model density profiles and the UV spectrum of the average Sun.
+The spectrum covers wavelengths between 0.1 and 3000Å.
+The XUV spectrum between 0.1 and 1050Å was generated by the SOLAR2000 model (Tobiska et al., 2000).
+It includes strong emission lines separately and weaker lines binned by 50Å.
+The Lyman α line was included with a wavelength spacing of 0.5Å from Lemaire et al. (2005) and the rest of the spectrum was taken from Woods and Rottman (2002).
+We assumed that most of the Lyman α radiation absorbed by H is resonantly scattered and does not contribute significantly to the heating of the atmosphere.
+This is because the lifetime of the 2p state of H is only 1.6ns, compared with the typical collision timescale of ∼1s near the temperature peak in the thermosphere of HD209458b.
+References for photoabsorption cross sections of the different species are included in Table 1.
+In general, we divided the incident stellar flux by a factor of 4 to account for uniform redistribution of energy around the planet.
+This is expected to be approximately valid in the lower thermosphere based on the three-dimensional simulations of Koskinen et al. (2010b).
+In the extended upper thermosphere, on the other hand, radiation passes through to the night side and leaves only a small region free of direct heating (e.g., see Fig. 2 of Koskinen et al. (2007b)).
+The current model also includes heating due to photoabsorption by C, O, N, and metals.
+This is relatively insignificant - although it leads to some additional heating in the lower thermosphere by FUV radiation.
+Heating of the thermosphere is mostly driven by photoionization and the generation of photoelectrons, although direct excitation of atoms and molecules may also play a role.
+Photoelectrons excite, ionize, and dissociate atoms and molecules until they lose enough energy and become thermalized i.e., share their energy with thermal electrons in Coulomb collisions.
+Thermal electrons share their energy with ions and eventually, the neutral atmosphere.
+In highly ionized atmospheres such as on HD209458b the photoelectron heating efficiency can be close to 100% (Cecchi-Pestellini et al., 2009), depending on the energy of the photoelectrons.
+We used scaled heating efficiencies that depend on photoelectron energy to estimate the net heating efficiency in the atmosphere (Section 3.1).
+Generally, we refer to two different definitions of heating efficiency in Section 3.1 in order to highlight the effect of heating efficiency on the temperature and velocity profiles.
+The net heating efficiency ηnet is defined simply as the fraction of the absorbed stellar energy that heats the atmosphere.
+Photoelectron heating efficiency, on the other hand, applies to photoelectrons with energy Ep=hν-Is, where Is is the ionization potential of species s and hν is the energy of the ionizing photon.
+The photoelectron heating efficiency is the fraction of Ep that heats the thermosphere, and it is generally higher than ηnet because it does not account for recombination.
+The net heating efficiency is often used to calculate mass loss rates for extrasolar planets (e.g., Lammer et al., 2009).
+Therefore it is important not to confuse these two definitions of heating efficiency.
+We included radiative cooling by recombination under the assumption that the thermosphere is optically thin to the emitted photons.
+This implies that the ionization potential energy Is never contributes to heating at any levels.
+We also considered the influence of Lyman α cooling by excited H, although this cooling rate is uncertain and likely to be low for HD209458b.
+We discuss the effect of different cooling rates further in Section 3.1.
+Lower boundary conditions
+As stated above, we placed the lower boundary of the hydrodynamic model at p0=1μbar and did not include H2 or other molecules in the model.
+This decision was motivated by photochemical calculations for HD209458b (Lavvas et al., in preparation) that we used to constrain the lower boundary condition.
+The photochemical model was originally developed for the atmosphere of Titan (Lavvas et al., 2008a,b) but it was recently expanded to simulate EGP atmospheres.
+It calculates the chemical composition from the deep troposphere (1000bar) up to the thermosphere above the 0.1nbar level by solving the coupled continuity equations for all species based on a database of ∼1500 reaction rate coefficients and 103 photolysis processes.
+Forward and reverse rates are included for each reaction with the ratio of the rate coefficients defined by thermochemical data.
+Thus, the results are consistent with thermochemical equilibrium at deep atmospheric levels but differences develop at higher altitudes due to photolysis, diffusion, and eddy mixing.
+At the lower boundary the chemical abundances of the main species (H, C, N, and O) are set to their thermodynamic equilibrium values and, depending on the vertical temperature profile and their abundances, species are allowed to condense.
+Fig. 1 shows the mixing ratios of H2, H, H2O, O, CH4, CO, CO2, and C as a function of altitude from the photochemical model.
+In general, the results are similar to those of Moses et al. (2011).
+The H2/H transition is located near 1μbar.
+At lower pressures, the mixing ratio of H2 decreases rapidly with altitude and falls below 0.1 above the 0.1μbar level.
+In agreement with Garcia Munoz (2007), the dissociation of H2 is caused by dissociation of H2O, which leads to the production of OH radicals that attack the H2 molecules.
+We note that the exact location of the H2/H transition depends on the temperature profile and, depending on the thermal structure, it could occur even below the 1μbar level.
+The major oxygen-bearing molecules, CO and H2O, have roughly equal abundances from 10 to 10-5bar.
+This is in line with thermochemical equilibrium at the temperatures and pressures relevant to HD209458b (Lodders and Fegley, 2002).
+H2O and CO are effectively dissociated at pressures lower than 0.3 and 0.1μbar, respectively.
+We note that molecular abundances could be significant at 0.1-1μbar, and technically the results of the hydrodynamic calculations are only valid above the 0.1μbar level.
+The presence of molecules such as H2, H2O, and CO can lead to enhanced UV heating as well as efficient radiative cooling by H3+, H2O and CO in the 0.1-1μbar region.
+The photochemical model also includes the chemistry of silicon.
+Due to condensation into forsterite and enstatite (e.g., Visscher et al., 2010), the abundance of Si in the observable atmospheres of giant planets was thought to be negligible and thus the photochemistry of silicon in planetary atmospheres has not been studied before.
+The photochemical calculations indicate that, in agreement with thermochemical calculations (Visscher et al., 2010), SiO is the dominant silicon-bearing gas.
+SiO dissociates in the thermosphere at a similar pressure level as H2O and CO.
+We note that the detection of Si2+ in the thermosphere implies that silicon does not condense in the atmosphere of HD209458b (Paper II).
+In addition to composition, lower boundary conditions are required for temperature and velocity.
+We specified T0 and p0 at the lower boundary, and used them to calculate ρ0 from the ideal gas law.
+The steady state continuity equation ρ0v0r2=Fc, where Fc is the flux constant, was used to calculate the velocity v0 at the lower boundary during each time step.
+The flux constant is solved self-consistently by the model, and it depends largely on the terms in the energy equation.
+In general we assumed that T0≈1300K, which is close to the effective temperature of the planet.
+We note that this temperature is largely unconstrained.
+Radiative transfer models for close-in EGPs (e.g., Showman et al., 2009 and references therein) do not account for heating by stellar UV radiation or possible opacity sources created by photochemistry (e.g., Zhanle et al., 2009).
+Therefore these models may not accurately predict the temperature at the base of the thermosphere.
+Sing et al. (2008a,b) used observations of the Na D line profile to constrain the temperature profile in the upper atmosphere.
+They suggested that Na condenses into clouds near the 3mbar level, and thus predicted a deep minimum in temperature in this region that is required for condensation.
+The detection of Si2+ implies that condensation of Na in the lower atmosphere is unlikely (Paper II), and thus this result is unreliable.
+Relying on the same observations, Vidal-Madjar et al. (2011a,b) predicted that the temperature increases steeply from 1300K to 3500K near the 1μbar level.
+However, their method to retrieve the temperature relies on the density scale height of Na to express the optical depth along the line of sight (LOS).
+This is not consistent with the argument that Na is depleted above the 3mbar level.
+If such a depletion takes place, the density scale height of Na is not the same as the scale height of the atmosphere and it cannot be used to retrieve temperatures.
+Upper boundary conditions
+Previous models of the thermosphere disagree on the details of the density and temperature profiles (e.g., Yelle, 2004; Tian et al., 2005; Garcia Munoz, 2007; Murray-Clay et al., 2009).
+This is partly due to different boundary conditions, although assumptions regarding the heating rates and composition are probably more important (see Section 3.1).
+Unfortunately, the planetary wind equations can have an infinite number of both subsonic and supersonic solutions.
+In time-dependent models, the upper boundary conditions in particular can determine if the solution is subsonic or supersonic, and they can alter the temperature and velocity profiles (e.g., Garcia Munoz, 2007).
+The choice of proper boundary conditions is therefore important.
+Volkov et al. (2011a,b) studied the escape of neutral atmospheres under different circumstances by using the kinetic Monte Carlo (DSMC) method.
+Because the fluid equations are a simplification of the kinetic equations at low values of Kn, the hydrodynamic model should ideally be consistent with the DSMC results both above and below the exobase.
+Volkov et al. (2011a,b) found that the nature of the solutions depends on the thermal escape parameter X0=GMpm/kT0r0 and the Knudsen number Kn0 at the lower boundary r0 of a region where diabatic heating is negligible.
+They argued that hydrodynamic escape is possible when X0<2-3 (see also Opik, 1963; Hunten, 1973).
+When X0≳3, on the other hand, the sonic point is at such a high altitude that the solution is practically subsonic and with X0≳6 the escape rate is similar to the thermal Jeans escape rate.
+The results of the DSMC calculations can be incorporated into hydrodynamic models with appropriate upper boundary conditions.
+Volkov et al. (2011a,b) suggest that the modified Jeans escape rate, which is based on the drifting Maxwellian velocity distribution function, is a good approximation of the DSMC results in fluid models, consistent with Yelle (2004).
+In order to contrast the modified Jeans upper boundary conditions (hereafter, the modified Jeans conditions) with other possibilities, we used them and the extrapolated upper boundary conditions (hereafter, the 'outflow' conditions) adopted by Tian et al. (2005) and Garcia Munoz (2007) in our simulations.
+In general, we placed the upper boundary at 16Rp.
+The impact of the boundary conditions is discussed in Section 3.1.5.
+We formulated the outflow conditions simply by extrapolating values for density, temperature and velocity with a constant slope from below.
+For the modified Jeans conditions, we calculated the effusion velocity vs at the upper boundary separately for each species by using Eq.
+(9) from Volkov et al. (2011b).
+Using this equation violates the conservation of electric charge at the upper boundary because the small mass of the electrons causes their velocity to be much larger than the velocity of the protons.
+In reality charge separation is prevented by the generation of an ambipolar electric field that ensures that the vertical current is zero at the upper boundary.
+This electric field causes the ions to escape faster while it slows the electrons down.
+Effectively this lowers the escape velocity vesc=2GM/r of the ions and increases the escape velocity of the electrons.
+In order to incorporate the ambipolar electric field in the modified Jeans conditions we expressed the Jeans parameters for ions and electrons as:(4)Xi=GMmikTr-ϕeqikT(5)Xe=GMmekTr+ϕe|qe|kTwhere ϕe is the ambipolar electric potential, qi,e is the electric charge and subscripts i and e stand for ions and electrons, respectively.
+We used these Jeans parameters to calculate the effusion velocities for the electrons and ions, and then solved iteratively for ϕe by using the condition of zero current i.e., ne|qe|ve=∑iniqivi.
+This approach is consistent with kinetic models for the solar and polar winds (Lemaire and Scherer, 1971a,b).
+Having obtained the correct effusion velocities for the charged and neutral species, we evaluated the mass weighted outflow velocity from:(6)v=1ρ∑sρsvsand used this velocity as an upper boundary condition.
+The values of temperature and density that are required for this calculation were extrapolated from below.
+As the model approaches steady state, the solution approaches a value of v at the upper boundary that is consistent with the modified Jeans velocity.
+Numerical methods
+We solved the equations of motion on a grid of 400-550 levels with increasing altitude spacing.
+The radius rn from the center of the planet at level n is thus given by a geometric series (e.g., Garcia Munoz, 2007):(7)rn=r1+∑i=1n-1fciδz0where r1=1.08Rp, δz0=10km, and fc=1.014.
+We solved the equations of motions in two parts, separating advection (Eulerian terms) from the other (Lagrangian) terms.
+The Lagrangian solution is performed first, and all variables are updated before advection.
+We used the flux conservative van Leer scheme (e.g., van Leer, 1979) for advection, and the semi-implicit Crank-Nicholson scheme (e.g., Jacobson, 1999) to solve for viscosity and conduction in the momentum and energy equations, respectively.
+We employed a time step of 1s in all of our calculations.
+Despite the sophisticated numerical apparatus, the model is still occasionally unstable, particularly in the early stages of new simulations.
+The primary source of the instabilities are pressure fluctuations (sound waves) that are not balanced by gravity.
+We used a two-step Shapiro filter (Shapiro, 1970) periodically to remove numerical instabilities.
+We assumed that a steady state has been reached once the flux constant Fc is constant with altitude and the flux of energy is approximately conserved.
+Results
+Temperature and velocity profiles
+In this section we constrain the range of mean temperatures and velocities based on stellar heating in the thermosphere of HD209458b and similar close-in EGPs.
+We discuss the general dependency of the temperature and velocity profiles on the net heating efficiency and stellar flux, and relate this discussion to new temperature and velocity profiles for HD209458b that are based on realistic photoelectron heating efficiencies calculated specifically for close-in EGPs.
+This discussion is necessary because the temperature and velocity profiles from previous models of the upper atmosphere differ significantly, and the differences affect the density profiles of the observed species (see Section 3.2).
+As an example, Fig. 2 shows the temperature profiles based on several earlier models.
+In addition to boundary conditions, the discrepancies evident in this figure arise from different assumptions about the heating rates.
+General dependency
+We note that the thermal structure in the upper atmospheres of the giant planets in the Solar System is not very well understood despite modeling and observations that are far more extensive than those available for extrasolar planets (e.g., Yelle and Miller, 2004).
+It is therefore useful to test the reaction of the model to different heating rates and profiles.
+We used our model to calculate temperature and velocity profiles based on different heating efficiencies and stellar fluxes.
+These profiles are shown in Fig. 3.
+First, we used the average solar spectrum (Section 2.1) and varied the net heating efficiency ηnet from 0.1 to 1.
+Second, we multiplied the solar spectrum by factors of 2×, 10×, and 100×, and used ηnet=0.5.
+The range of enhanced fluxes covers solar maximum conditions and stars that are more active than the Sun.
+In each case we assumed that ηnet is constant and does not vary with altitude.
+We used planetary parameters of HD209458b and set the upper boundary to 16Rp with outflow boundary conditions, and the lower boundary to the 1μbar level with a temperature of 1300K.
+A net heating efficiency of 50% is similar to the heating efficiency in the jovian thermosphere (Waite et al., 1983), and we may consider this as a representative case of a typical gas giant (hereafter, the H50 model).
+The maximum temperature in the H50 model is 11,500K and the temperature peak is located near 1.5Rp (p=0.3nbar).
+As ηnet varies from 0.1 to 1, the peak shifts from 1.4Rp (0.5nbar) to 1.9Rp (0.1nbar) and the maximum temperature varies from 10,000K to 13,200K.
+It is interesting to note that the temperature profile depends strongly on the heating efficiency but the location of the peak and the maximum temperature depend only weakly on ηnet.
+This is because the vertical velocity increases with heating efficiency, leading to more efficient cooling by faster expansion that controls the peak temperature while enhanced advection and high altitude heating flatten the temperature gradient above the peak.
+As a result, the temperature profile is almost isothermal when ηnet=1.
+It is also interesting that the temperature profiles in the models that are based on ηnet=0.5 and the solar flux enhanced by factors of 2-100 differ from models with the average solar flux and a higher heating efficiency.
+For instance, one might naively assume that a model with ηnet=0.5 and 2× the average solar flux would be similar to a model with the average solar flux and ηeta=1.
+Surprisingly, this is not the case - despite the fact that the mass loss rates from these models are identical.
+This is because of the way radiation penetrates into the atmosphere - doubling the incoming flux is not the same as doubling the heating rate at each altitude for the same flux.
+As the stellar flux increases further, the temperature peak shifts first to higher altitudes, and then to lower altitudes so that for the 100× case the peak is located again near 1.5Rp.
+Despite the hugely increased stellar flux, the peak temperature is only 18,300K for the 100× case.
+This is again because the enhanced adiabatic and advective cooling driven by faster expansion control the temperature even in the absence of efficient radiative cooling mechanisms.
+Koskinen et al. (2010a) suggested that the mean temperature of the thermosphere below 3Rp can be constrained by observations, and used their empirical model to fit temperatures to the H Lyman α transit data (Vidal-Madjar et al., 2003; Ben-Jaffel, 2007, 2008).
+A quantity that can be compared with their results is the pressure averaged temperature of the hydrodynamic model, which is given by:(8)Tp¯=∫p1p2T(p)d(lnp)ln(p2/p1)For ηnet ranging from 0.1 to 1, the pressure averaged temperature below 3Rp varies from 6200K to 7800K for the average solar flux.
+In the H50 model the pressure averaged temperature is 7000K.
+We note that T¯p is a fairly stable feature of our solutions - in contrast to the details of the temperature profile and velocities it is relatively insensitive to different assumptions about the boundary conditions and heating efficiencies.
+Obviously, T¯p depends on the stellar flux, although it only increases to 9800K in the 100× case.
+Koskinen et al. (2010a) inferred a mean temperature of 8250K in the thermosphere of HD209458b with p0=1μbar (the M7 model).
+Taken together with our results based on solar XUV fluxes, this implies a relatively high heating efficiency.
+Alternatively, with ηnet=0.5 it may imply that the XUV flux of HD209458b is 5-10 times higher than the corresponding solar flux.
+This type of an enhancement is not impossible.
+The activity level of the star depends on its rotation rate, and the rotation rate of HD209458 may be twice as fast as the rotation rate of the Sun (Silva-Valio, 2008).
+However, the uncertainty of the observed H Lyman α transit depths accommodates a range of temperatures, and thus we are unable to derive firm constraints on the heating rates from the observations.
+In general, though, the pressure averaged temperature provides a useful connection between observations and temperatures predicted by models that can be exploited to constrain heating rates.
+The effect of changing the heating efficiency on the velocity profile is quite dramatic.
+As ηnet ranges from 0.1 to 1 (with the average solar flux), the velocity at the upper boundary increases from 2.6kms-1 to 25kms-1.
+However, the velocity does not increase linearly with stellar flux or without a bound - in the 100× case the velocity at the upper boundary is only 30kms-1.
+An interesting qualitative feature of the solutions is that the sonic point moves to a lower altitude with increasing heating efficiency or stellar flux.
+With ηnet=0.1 the isothermal sonic point is located above the upper boundary whereas with ηnet=1 it is located at 4Rp.
+This behavior is related to the temperature gradient and it is discussed further in Section 3.1.3.
+Basically the sonic point, when it exists, moves further from the planet as the high altitude heating rate decreases.
+It is now clear that assumptions regarding the heating efficiency and radiative transfer have a large impact on the temperature and velocity profiles and the results from the previous models reflect this fact (see Fig. 2).
+The differences between models have implications on the interpretation of observations.
+For instance, Vidal-Madjar et al. (2003) and Linsky et al. (2010) suggested that the UV transit observations probe the velocity structure of the escaping gas.
+Obviously, the nature of this velocity structure depends on the properties of the upper atmosphere.
+On the other hand, Ben-Jaffel and Hosseini (2010) argued that the observations point to a presence of hot energetic atoms and ions within the Roche lobe of the planet.
+We believe that it is important to properly quantify the role of stellar heating in creating the hot, escaping material before other options are pursued.
+This means that detailed thermal structure calculations that rely on a proper description of photoelectron heating efficiencies are required.
+Below we discuss a new approach to modeling the temperature profile in the thermosphere of HD209458b and its impact on the velocity and density profiles.
+Energy balance and temperatures on HD209458b
+In the previous section we discussed models where the net heating efficiency ηnet was fixed at a constant value at all altitudes.
+In this section we discuss more realistic models of HD209458b that rely on new approximations of photoelectron heating efficiency and derive an estimate of ηnet based on these models.
+Here we also include radiative cooling from recombination and, in one case, H Lyman α emissions by excited H (Murray-Clay et al., 2009).
+Our aim was to calculate the most likely range of temperatures in the thermosphere of HD209458b based on average solar fluxes.
+Fig. 4 shows the temperature and velocity profiles at 1-5Rp based on different approximations (see Table 2 for the input parameters).
+Model C1 assumes a constant photoelectron heating efficiency of 93% at all altitudes and photoelectron energies.
+This heating efficiency is appropriate for photoelectrons created by 50eV photons at an electron mixing ratio of xe=0.1 (Cecchi-Pestellini et al., 2009).
+Model C2 is otherwise similar to C1 but the heating efficiency varies with photoelectron energy and altitude (see below).
+Models C3 and C4 are also based on C1, but C3 includes the substellar tidal forces in the equations of motion (e.g., Garcia Munoz, 2007) and C4 includes Lyman α cooling.
+All of these models are based on the outflow boundary conditions for temperature, velocity, and density.
+Cecchi-Pestellini et al. (2009) also estimated the heating efficiencies for photoelectrons released by photons of energy E≳50eV at different values of the electron mixing ratio xe.
+We used their heating efficiencies for xe=0.1 in the C2 model.
+They parameterized their results in terms of the vertical column density NH of H.
+We fitted the heating efficiency as a function of NH for 50eV photons with a regular transmission function, and modified this function accordingly for different cutoff altitudes and heating efficiencies of photons with different energies (see Figs.
+3 and 4 of Cecchi-Pestellini et al. (2009)).
+We note that xe≈0.1 near the temperature peak of our models and thus the results are appropriate for our purposes.
+However, they are only applicable to photons with E≳50eV.
+We used simple scaling to estimate the heating efficiencies for low energy photons with E<50eV.
+As NH increases, the heating efficiency for 50eV photons saturates at 93%.
+We assumed that the saturation heating efficiency for low energy photons is also 93%.
+In reality, this heating efficiency may be closer to 100% but the difference is small.
+In order to estimate the altitude dependence of the heating efficiency, we note that the rate of energy deposition by Coulomb collisions between photoelectrons of energy Ep and thermal electrons with a temperature T can be estimated from:(9)-dFEdr=L(Ep,e)Φpene(eVcm-3s-1)where FE is the flux of energy, Φpe is the photoelectron flux (cm-2s-1), ne is the density of thermal electrons (cm-3) andL(Ep,e)=3.37×10-12ne0.03Ep0.94Ep-EeEp-0.53Ee2.36(eVcm2)
+with Ee=8.618×10-5Te is the stopping power (Swartz et al., 1971).1
+Due to a historical precedent, the units here are in cgs.
+1 Assuming that all of the energy is deposited by electrons that are thermalized within a path element dr, we can estimate the e-folding length scale for thermalization of photoelectrons with different energies as follows:(10)Λpe≈EpneLWe calculated Λpe for different photoelectrons based on the C1 model, and compared the result with the vertical length scale H of the atmosphere.
+The latter is either the scale height or Rp, depending on which is shorter.
+When Λpe/H≳0.005-0.01 we assumed that the heating efficiency decreases with altitude according to the transmission function for 50eV photons.
+The limiting value was chosen to obtain a rough agreement with the results of Cecchi-Pestellini et al. (2009) for 50eV photons, and it implies that the heating efficiency approaches zero when Λpe/H≳0.1.
+We parameterized the result in terms of the column density of H based on the density profiles of the C1 model, and connected our results for low energy photoelectrons smoothly with the results of Cecchi-Pestellini et al. (2009) for photons with E≳50eV.
+We then generated the C2 model from the C1 model with the new heating efficiencies.
+Fig. 5 shows the resulting heating efficiencies for 20, 30, 48, and 100eV photons.
+Fig. 6 shows the volume heating rate due to EUV photons of different energies as a function of pressure based on the C2 model.
+The maximum temperature of 12,000K is reached near 1.5Rp (p=0.6nbar).
+This region is heated mainly by EUV photons with wavelengths between 200 and 900Å (E=14-62eV).
+The saturation heating efficiency of 93% for these photons is higher than the corresponding heating efficiency in the jovian thermosphere (Waite et al., 1983).
+This is because of strong ionization that leads to frequent Coulomb collisions between photoelectrons and thermal electrons.
+Radiation with wavelengths shorter than 300Å (E>40eV) or longer than 912Å (13.6eV) penetrates past the temperature peak to the lower atmosphere.
+The heating efficiency for photons with E>25eV approaches zero at high altitudes where heating is mostly due to low energy EUV photons.
+The net heating efficiency for the C2 model is ηnet=0.44 (Table 2), which is close to the H50 model.
+The location of the peak and maximum temperature in the C2 model agree with the H50 model, but the temperature at higher altitudes in the C2 model decreases much more rapidly with altitude than in the H50 model.
+Fig. 7 shows the terms in the energy equation based on the C2 model.
+In line with previous studies, stellar heating is mainly balanced by adiabatic cooling.
+Advection cools the atmosphere at low altitudes below the temperature peak, whereas at higher altitudes it acts as a heating mechanism.
+In fact, above 2Rp the adiabatic cooling rate is higher than the stellar heating rate because thermal energy is transported to high altitudes by advection from the temperature peak.
+The radiative cooling term that is centered near 1.3Rp arises from recombination following thermal ionization.
+Recombination following photoionization is included implicitly in the model and the rate is not included in the output.
+Conduction is not significant at any altitude in the model.
+We note that the rates displayed in Fig. 7 balance to high accuracy, thus implying that the simulation has reached steady state.
+The differences between the C1 and C2 models are subtle.
+The peak temperatures are similar, and the temperature profiles generally coincide below 3Rp.
+Above this radius the temperature in the C2 model decreases more rapidly with altitude than in the C1 model and subsequently the sonic point moves to higher altitudes above the model domain.
+The results indicate that the assumption of a constant photoelectron heating efficiency is appropriate below 3Rp whereas at higher altitudes it changes the nature of the solution.
+This should not be confused with the assumption of a constant ηnet, which leads to a different temperature profile when compared with either C1 and C2 (see Fig. 3).
+In general, the maximum and mean temperatures in models C1-C4 are relatively similar.
+Thus we conclude that the mean temperature in the thermosphere of HD209458b is approximately 7000K and the maximum temperature is 10,000-12,000K.
+The substellar tide is included in the C3 model.
+We included it mainly to compare our results with previous models (Garcia Munoz, 2007; Penz et al., 2008; Murray-Clay et al., 2009).
+The substellar tide is not a particularly good representation of the stellar tide in a globally averaged sense.
+In reality, including tides in the models is much more complicated than simply considering the substellar tide (e.g., Trammell et al., 2011).
+Compared to the C1 model, the maximum temperature in the C3 model is cooler by ∼1000K and at high altitudes the C3 model is cooler by 1000-2000K.
+The velocity is faster and hence adiabatic cooling is also more efficient.
+The substellar tide drives supersonic escape (see also, Penz et al., 2008) and the sonic point in the C3 model is at a much lower altitude than in the C1 model (see Section 3.1.3).
+However, it is not clear how the sonic point behaves as a function of latitude and longitude.
+Given that the tide is also likely to induce horizontal flows, it cannot be included accurately in 1D models.
+Murray-Clay et al. (2009) argued that radiative cooling due to the emission of Lyman α photons by excited H is important on close-in EGPs.
+The photons are emitted when the 2p level of H, which is populated by collisions with thermal electrons and other species, decays radiatively.
+We included this cooling mechanism in the C4 model by using the rate coefficient from Glover and Jappsen (2007) that includes a temperature-dependent correction to the rate coefficient given by Black (1981).
+We also included an additional correction factor of 0.1 based on detailed level population and radiative transfer calculations by Menager et al. (2011).
+The effect of Lyman α cooling is largest near the temperature peak where the C4 model is 1500K cooler than the C1 model, but generally the difference is not large.
+We note that the H Lyman α cooling rate here cannot be generalized as such to other EGPs because the level populations and opacities depend on the thermal structure and composition of the atmosphere.
+Critical points
+As we have pointed out, the location of the sonic point depends on the energy equation through the temperature profile.
+Here we show that the use of the isothermal approximation in estimating the location of the sonic point can lead to significant errors unless the atmosphere really is isothermal.
+The inviscid continuity and momentum equations can be combined to give an expression for the critical point ξc of a steady-state solution (Parker, 1965):(11)-ddξc2ξ2=-1ξ2dc2dξ+2c2ξ3=W2ξ4where ξ=r/r0,c=kT/m is the isothermal speed of sound, W=GMp/r0, and m is the mean atomic weight.
+It is often assumed that the vertical velocity at the critical point is given by v2=c2(ξc) so that the critical point coincides with the isothermal sonic point (Parker, 1958).
+However, Parker (1965) suggested that subsonic solutions are also possible if the density at the base of the flow exceeds a critical value determined from the energy equation.
+In fact, he argued that conduction at the base of the corona may not be sufficient to drive a supersonic solar wind.
+This led him to suggest that supersonic expansion is possible only if there is significant heating of the corona over large distances above the base.
+For an isothermal atmosphere with a temperature T0, Eq.
+(11) reduces to the famous result for the altitude of the sonic point (Parker, 1958):(12)ξc=W22c02where W2/c02 is the thermal escape parameter X0 at the lower boundary r0.
+The isothermal sonic point in the C1 model is located at 7.2Rp where c(ξc)=7.2kms-1.
+The volume averaged temperature of the C1 model below this point is approximately 7100K.
+Assuming that r0=Rp, T0=7100K, and m=mH, X0∼16 and Eq.
+(12) yields ξc∼8.
+In this case the analytic result agrees fairly well with the hydrodynamic model if one accounts for partial ionization of the atmosphere by assuming that the mean atomic weight2
+The mean atomic weight can be less than 1 because electrons contribute to the number density but not significantly to the mass density.
+2 is m=0.9mH.
+On the other hand, the isothermal sonic point in the C2 model is at 15.4Rp where c(ξc)=4.1kms-1.
+This is because the temperature gradient of the model is steeper than the corresponding gradient in the C1 model.
+The volume averaged mean temperature below 15Rp in the C2 model is 3900K.
+With this temperature and m=mH, Eq.
+(12) predicts a sonic point at 14.6Rp.
+However, at 15Rp the atmosphere is mostly ionized and m=0.6mH.
+With this value, the sonic point from Eq.
+(12) would be located at 8.8Rp.
+These examples show that there are significant caveats to using Eq.
+(12) to estimate the altitude of the sonic point on close-in EGPs without accurate knowledge of the temperature and density profiles.
+A variety of outcomes are possible and it is difficult to develop a consistent criteria for choosing values of T and m that would produce satisfactory results.
+Another problem is that the atmosphere is not isothermal.
+In fact, the temperature gradient above the heating peak in models C1-C4 (Table 2) is relatively steep, and in some cases it approaches the static adiabatic gradient (T∝r-1) as defined by Chamberlain (1961).
+Assuming that the temperature profile can be fitted with c2=c02/ξβ above the heating peak, the estimated values of β for the C1 and C2 models are 0.7 and 0.9, respectively.
+We note that the velocity in the C1 model exceeds the isentropic speed of sound (cγ=γkT/m, where γ=5/3) at 9.8Rp, where cγ=8.7kms-1.
+This altitude is significantly higher than the altitude of the isothermal sonic point.
+The velocity in the C2 model does not exceed the isentropic speed of sound below the upper boundary of 16Rp.
+Thus the temperature profile has a significant impact on the nature of the solution and the escape mechanism.
+This means that estimating the altitude of the sonic point without observations and detailed models for guidance is almost certain to produce misleading results.
+Past models for the upper atmosphere of HD209458b have predicted a variety of altitudes for the sonic point.
+On the other hand, Yelle (2004) pointed out that stellar heating in the thermosphere is mostly balanced by adiabatic cooling and our calculations confirm this.
+Parker (1965) argued that the critical point stretches to infinity when β→1 i.e., as the temperature gradient is close to adiabatic.
+Based on this, we should perhaps expect that the sonic point on close-in EGPs is located at a fairly high altitude.
+This is confirmed by our hydrodynamic simulations.
+In all of our models except for one, the sonic point is located significantly above 5Rp.
+The exception is the C3 model, which includes the substellar tide.
+The isentropic sonic point in this model is located at 3.9Rp, where cγ=8.2kms-1.
+This is because the substellar tide leads to a lower effective value of the potential W.
+However, the tidal potential depends on latitude and longitude, and the substellar results cannot be generalized globally.
+Mass loss rates
+Here we evaluate the mass loss rates based on our models.
+We define the mass loss rate simply as:(13)Ṁ=4πr2ρv
+We note that the solar spectrum that we used in this study contains the total flux of 4×10-3Wm-2 at wavelengths shorter than 912Å (the ionization limit of H) when normalized to 1AU.
+This value is close to the average solar flux of 3.9×10-3Wm-2 at the same wavelengths (e.g, Ribas et al., 2005).
+In order to simulate a global average, we divided the flux by a factor of 4 in the model.
+This means that the incident flux on HD209458b at 0.047AU with wavelengths shorter than 912Å in our model is 0.45Wm-2.
+The net heating efficiencies given in Table 2 are based on this value.
+Considering first the models with constant ηnet ranging from 0.1 to 1 (see Section 3.1.1), the mass loss rate varies almost linearly with ηnet from 107kgs-1 and 108kgs-1 while the pressure averaged temperature below 3Rp changes only by 1500K.
+This is because in a hydrodynamic model such as ours the net energy has nowhere else to go but adiabatic expansion and cooling, and thus escape is energy-limited.
+The bulk of the energy is absorbed below 3Rp, and the mass loss rate is largely set by radiative transfer in this region.
+The mass loss rate for HD209458b predicted by the C2 model is 4.1×107kgs-1 (ηnet=0.44).
+The C3 model has the highest mass loss rate, although this rate is only higher by a factor of 1.13 than the mass loss rate in the C1 model.
+Thus we predict a mass loss rate of 4-6×107kgs-1 from HD209458b based on the average solar flux at 0.047AU.
+Garcia Munoz (2007) demonstrated that the mass loss rate is insensitive to the upper boundary conditions even when they have a large impact on the temperature and velocity profiles, particularly at high altitudes.
+Indeed, complex hydrodynamic models are not required to calculate mass loss rates under energy-limited escape as long as reasonable estimates of the net heating efficiency are available.
+It is also important to note that the current estimates of mass loss rates based on the observations (e.g., Vidal-Madjar et al., 2003) are not direct measurements.
+Instead, they are all based on different models.
+However, models that predict the same mass loss rate can predict different transit depths and models predicting different mass loss rates can match the observations equally well.
+Thus the models should not be judged on how well they agree with published mass loss rates but rather on how well they agree with the observed density profiles or transit depths.
+Hydrodynamic models with realistic heating rates are required to match the observations, and the mass loss rate then follows.
+The globally averaged mass loss rate of about 4-6×107kgs-1 from HD209458b agrees well with similar estimates calculated by Yelle (2004, 2006) and Garcia Munoz (2007), respectively, but it is significantly larger than the value calculated by Murray-Clay et al. (2009).
+These authors report a mass loss rate of 3.3×107kgs-1 based on the substellar atmosphere.
+When multiplied by 1/4 this corresponds to a global average rate of about 8.3×106kgs-1.
+However, the substellar mass loss rate is also enhanced by tides, so a comparable global average taking this into account would be even less than 8.3×106kgs-1, which is already roughly a factor of 6 smaller than our calculations.
+The Murray-Clay et al. (2009) models differ in many respects from the models described here including the treatment of boundary conditions and radiative cooling, the numerical approach, and the adoption of a gray approximation for stellar energy deposition.
+In order to explore the reason for the disagreement in escape rates, we have modified our model to implement the gray assumption by using the approach described in Murray-Clay et al. (2009) (see Section 3.2).
+Specifically, we adopted an incident flux3
+By chance the incident flux is equal to the mean solar flux divided by 4 that we used as a 'globally averaged' value.
+Here, however, it is taken to be the substellar value.
+3 of 0.45Wm-2 and a mean photon energy of 20eV.
+The mass loss rate based on the substellar atmosphere for this model is 2.8×107kgs-1, in good agreement with the Murray-Clay et al. (2009) results.
+Thus, the difference between the Murray-Clay et al. (2009) models and the others is due to the gray assumption, and the fact that they estimated the incident flux on HD209458b based on the solar flux integrated between 13eV and 40eV.
+This energy range contains only about 25% of the total solar flux at energies higher than 13.6eV.
+Although not discussed by Murray-Clay et al. (2009), the restricted energy range is likely an attempt to account for the fact that the absorption cross section decreases with energy implying that photons of sufficiently high energy will be absorbed too deep in the atmosphere to affect escape or the thermal structure, or composition of the thermosphere.
+Whether this is true, however, depends on the composition and temperature of the atmosphere.
+The gray assumption also fails to include the fact that the net heating efficiency increases with higher photon energy.
+These difficulties highlight the basic problem with a gray model, that the results can only be accepted with confidence if verified by a more sophisticated calculation or direct observations.
+Constraints from kinetic theory
+Hydrodynamic models should be consistent with kinetic theory of rarefied media even if the modeled region is below the exobase.
+This is because the atmosphere is escaping to space, and the density decreases with altitude, falling below the fluid regime at some altitude above the exobase.
+Therefore the conditions in the exosphere affect the flow solutions even below the exobase.
+Inappropriate use of the hydrodynamic equations can lead one to overestimate the flow velocity and mass loss rate, and these errors also affect the temperature and density profiles.
+Thus it is important to demonstrate that the hydrodynamic solutions agree with constraints from kinetic theory (e.g., Volkov et al., 2011a,b).
+As an example, we calculated Kn0 and X0 (see Section 2.1.2) based on the C1 and C2 models.
+The Knudsen number Kn depends on the mean collision frequency, and it is much smaller than unity at all altitudes below 16Rp.
+Thus the exobase is located above the model domain (see also Murray-Clay et al., 2009).
+Calculating values for X0 is complicated by the broad stellar heating profile.
+We consider the region where stellar heating is negligible to be where the flux of energy(14)E∞=FccpT+12v2-GMpr-κr2∂T∂ris approximately constant.
+This criteria is consistent with the equations of motion, and it means that r0 that should be used to calculate X0 is above the upper boundary of our model because significant stellar heating persists at all altitudes.
+Thus we evaluated values of X near the upper boundary for guidance.
+We also calculated the values with both the mass of the proton (XH) and the mean atomic weight (X).
+In the C1 model, XH decreases with altitude, and above 11.4Rp it has values of less than 3.
+The mean atomic weight near the upper boundary is ∼0.6amu, and thus the general value of X<2 above 11.1Rp.
+The sonic point in the C1 model is below 11Rp, and it is in a region where stellar heating is significant.
+In the C2 model, both X and XH are greater than 3 at all altitudes below 16Rp.
+In fact, X increases with altitude above 9Rp because the temperature gradient parameter exceeds unity.
+Thus the values X in the C1 and C2 models are consistent with the difference in altitude between the sonic points in these models (see Section 3.1.3).
+Indeed, our results show, in line with Parker's original ideas about the solar wind, that supersonic escape is possible if there is significant heating of the atmosphere over large distances above the temperature peak.
+Such heating flattens the temperature gradient and brings the sonic point closer to the planet.
+We note that there are some caveats to applying the simple criteria based on Kn0 and X0 to close-in extrasolar planets.
+The upper atmospheres of these planets are strongly ionized, and the DSMC simulations of Volkov et al. (2011a,b) apply only to neutral atmospheres.
+Partly due to ionization, the collision frequencies in the thermospheres of close-in planets are also high.
+Further, the atmospheres are affected by a broad stellar heating profile in altitude whereas the DSMC calculations do not include any diabatic heating.
+However, the results of Volkov et al. (2011a,b) also indicate that consistency with kinetic theory can be enforced approximately by applying the modified Jeans conditions to the hydrodynamic model at some altitude close to the exobase.
+This result is likely to be more general, and it applies to ionized atmospheres as long as ambipolar diffusion is taken into account (see Section 2.1.2).
+We compared the temperature and velocity profiles from the C1 and C2 models with results from similar models C5 and C6 that use the modified Jeans conditions.
+Note again that our version of the modified Jeans conditions includes the polarization electrostatic field that is required in strongly ionized media.
+Fig. 8 shows the temperature and velocity profiles from the models.
+There is no difference between the C5 model and the C1 model as long as the upper boundary of the C5 model is at a sufficiently high altitude.
+In this case we extended it to 36Rp.
+When the upper boundary is placed at lower altitudes, the flow decelerates and the temperature increases near the upper boundary.
+A comparison between the C2 and C6 models provides an example of the difference that can arise when the modified Jeans boundary conditions are used significantly below the exobase.
+A better agreement is achieved if the upper boundary of the C6 model is placed at a slightly higher altitude.
+In summary, we have shown that the C1 and C2 models are both consistent with kinetic theory.
+We note that extending the models to 16Rp or higher is not necessarily justified because it ignores the complications arising from the possible influence of the stellar tide, the stellar wind, and interactions of the flow with the magnetic field of the planet or the star.
+We placed the upper boundary at a relatively high altitude to make sure that the boundary is well above the region of interest, but generally we do not consider our results to be accurate above 3-5Rp.
+Instead, our results provide robust lower boundary conditions for multidimensional models of the escaping material outside the Roche lobe of the planet.
+Such models often cannot include detailed photochemical or thermal structure calculations.
+The results from the more complex models can then be used to constrain the upper boundary conditions in 1D models.
+This type of an iteration is a complex undertaking, and it will be pursued in future work.
+Density profiles
+In this section we provide a qualitative understanding of the density profiles and transition altitudes that affect the interpretation of the observations.
+Based on the gas giants in the Solar System it might be expected that heavy species undergo diffusive separation in the thermosphere.
+If this were the case, the transit depths in the O I, C II, and Si III lines (Vidal-Madjar et al., 2004; Linsky et al., 2010) should not be significantly higher than the transit depth at visible wavelengths.
+It is therefore important to explain why diffusive separation does not take place in the thermosphere of HD209458b, and to clarify why H and O remain mostly neutral while C and Si are mostly ionized.
+Also, doubly ionized species such as Si2+ are not common in planetary ionospheres, and their presence needs to be explained.
+In order to do this, we modeled the ionization and photochemistry of the relevant species, and prove that diffusive separation does not take place.
+In order to illustrate the results, Fig. 9 shows the density profiles of H, H+, He, He+, O, O+, C, C+, Si, Si+, and Si2+ from the C2 model.
+The location of the H/H+ transition obviously depends on photochemistry, but it also depends on the dynamics of escape.
+With a fixed pressure at the lower boundary, a faster velocity leads to a transition at a higher altitude.
+Thus the transition occurs near 3.1Rp in the C2 model whereas in the C1 and C3 models it occurs at 3.8Rp and 5Rp, respectively.
+These results disagree with Yelle (2004) and Murray-Clay et al. (2009) who predicted a lower transition altitude, but they agree qualitatively with the solar composition model of Garcia Munoz (2007).
+They also agree with the empirical constraints derived by Koskinen et al. (2010a) from the observations.
+Once again, the differences between the earlier models and our work arise from different boundary conditions, and assumptions regarding heating rates and photochemistry.
+We demonstrate this by reproducing the results of Murray-Clay et al. (2009) with our model.
+In order to do so, we set the lower boundary to 30nbar with a temperature of 1000K, and included the substellar tide in the equations of motion.
+We only included H, H+, and electrons in the model, and used the recombination rate coefficient and Lyman α cooling rate from Murray-Clay et al. (2009).
+We also calculated the heating and ionization rates with the gray approximation by assuming a single photon energy of 20eV for the stellar flux of 0.45Wm-2 at the orbital position of HD209458b.
+Fig. 10 shows the density profiles of H and H+ based on this model (hereafter, the MC09 model).
+The H/H+ transition in the MC09 model occurs near 1.4Rp.
+If we replace the gray approximation with the full solar spectrum in this model, the H/H+ transition moves higher to 2-3Rp.
+This is because photons with different energies penetrate to different depths in the atmosphere, extending the heating profile in altitude around the heating peak.
+This is why the temperature at the 30nbar level in the C2 model is 3800K and not 1000K.
+In order to test the effect of higher temperatures in the lower thermosphere, we extended the MC09 model to p0=1μbar (with T0=1300K) and again used the full solar spectrum for heating and ionization.
+With these conditions, the H/H+ transition moves up to 3.4Rp, in agreement with the C2 model.
+We conclude that the unrealistic boundary conditions and the gray approximation adopted by Murray-Clay et al. (2009) and Guo (2011) lead to an underestimated overall density of H and an overestimated ion fraction.
+Thus their density profiles yield a H Lyman α transit depth of the order of 2-3% i.e., not significantly higher than the visible transit depth.
+We note that Yelle (2004) also predicted a relatively low altitude of 1.7Rp for the H/H+ transition - despite the fact that his model does not rely on the gray approximation and the lower boundary is in the deep atmosphere.
+The reason for the low altitude of the H/H+ transition in this case is the neglect of heavy elements.
+In the absence of heavy elements, H3+ forms near the base of the model and subsequent infrared cooling balances the EUV heating rates.
+This prevents the dissociation of H2 below the 10nbar level.
+In reality, reactions with OH and thermal decomposition dissociate H2 near the 1μbar level (see Section 2.1.1) and cooling by H3+ is negligible at all altitudes.
+It should be noted that even if H2 does not initially dissociate, H3+ can be removed from the lower thermosphere in reactions with carbon and oxygen species (e.g., Garcia Munoz, 2007) unless these species undergo diffusive separation.
+The subsequent lack of radiative cooling will then dissociate H2 again near the 1μbar level.
+In our models, charge exchange with oxygen (reactions R14 and R15 in Table 1) dominates the photochemistry of H below 3Rp and charge exchange with silicon (R25, R26) is also important below 1.4Rp.
+These reactions are secondary in a sense that they require the ions to be produced by some other mechanism.
+In fact, H+ is mainly produced by photoionization (P1), although thermal ionization (R3) is also important near the temperature peak.
+The production rates are mainly balanced by loss to radiative recombination (R1).
+The net chemical loss timescale for H is longer than the timescale for advection above 1.7Rp.
+This allows advection from below to replenish H at higher altitudes.
+The density profiles of O and O+ are strongly coupled to H and H+ by charge exchange (see also Garcia Munoz, 2007).
+As a result, the O/O+ transition occurs generally near the H/H+ transition.
+For instance, in the C2 model it is located near 3.4Rp.
+The same is not true of carbon.
+The C/C+ transition occurs at a much lower altitude than the H/H+ and O/O+ transitions.
+For instance, in the C2 model it is located near 1.2Rp.
+C+ is mainly produced by photoionization (P4), although thermal ionization (R8) and charge exchange with He+ (R13) are also important near the temperature peak.
+The production is balanced by loss to radiative recombination (R10).
+The chemical loss timescale for C is shorter than the timescale for advection below 1.8Rp.
+Thus advection is unable to move the C/C+ transition to altitudes higher than 1.2Rp.
+Silicon is almost fully ionized near the lower boundary of the model.
+Much of the Si+ below 4Rp is produced by charge exchange of Si with H+, He+, and C+ (R22, R23, R24).
+The low ionization potential of Si (8.2eV) means that Si+ can also be produced by thermal ionization (R18), and photoionization (P6) by stellar FUV radiation and X-rays that propagate past the EUV heating peak.
+Above 4Rp, Si+ is mostly produced by photoionization.
+Linsky et al. (2010) suggested that the balance of Si+ and Si2+ depends on charge exchange with H+ and H, respectively, and our results confirm this.
+However, the location of the Si+/Si2+ transition also depends on the dynamics.
+For instance, in the C2 model it occurs near 5.8Rp while in the C1 model it occurs near 8.5Rp.
+Thus slow outflow and high temperatures favor Si2+ as the dominant silicon species as long as the flux constant is high enough to overcome diffusive separation (Paper II).
+We have now explained the presence of the atoms and ions that have been detected in the thermosphere of HD209458b.
+Due to advection and charge exchange, H and O are predominantly neutral up to about 3Rp and give rise to the observed transit depths in the H Lyman α and O I lines.
+Carbon, on the other hand, is ionized at a low altitude and thus C+ is also detectable in the upper atmosphere.
+Si+ is the dominant silicon species below 5Rp, but charge exchange with H ensures that there is also a significant abundance of Si2+ in the atmosphere.
+We note that these conclusions are only valid if the heavier species are carried along to high altitudes by the escaping hydrogen.
+We show that this is the case below in Section 3.2.2.
+The EUV ionization peak (EIP) layer
+Koskinen et al. (2010b) explored the properties of the ionospheres of EGPs at different orbital distances from a Sun-like host star by using a hydrostatic general circulation model (GCM) that also includes realistic heating rates, photochemistry, and transport of constituents.
+They predicted that the EIP layer on HD209458b is centered at 1.35Rp where the electron density is ne=6.4×1013m-3 and xe∼3×10-2.
+In the C2 model, the EIP layer is centered at 1.3Rp (p=2nbar) where ne=4.4×1013m-3 and xe=3.7×10-2.
+The vertical outflow velocity at 1.3Rp is 90ms-1.
+Thus the results of Koskinen et al. (2010b) were not significantly affected by the simplifying assumptions of the GCM.
+This means that hydrostatic GCMs can be extended to relatively low pressures as long as the escape rates are incorporated as boundary conditions.
+We also calculated the plasma frequency based on the electron densities in the C2 model.
+This constrains the propagation of possible radio emissions from the ionosphere.
+The ordinary plasma frequency ωp/2π exceeds 12MHz at all altitudes below 5Rp and reaches a maximum of almost 64MHz in the EIP layer.
+This presents a limitation on the detection of radio emissions from the ionospheres of close-in EGPs.
+Any emissions that originate from the ionosphere at 1-5Rp and have frequencies lower than 10-70MHz can be screened out by the ionosphere itself.
+We note that a detection of radio emissions from an EGP has not yet been achieved (e.g., Bastian et al., 2000; Lazio and Farrell, 2007; Lecavelier des Etangs et al., 2011; Grieß meier et al., 2011).
+Such a detection would be an important constraint on the magnetic field strength and the ionization state of the source region (e.g., Grieß meier et al., 2007).
+Models of the ionosphere are required to predict radio emissions from the possible targets.
+The escape of heavy atoms and ions
+In this section we verify a posteriori that the velocity and temperature differences between different species in the thermosphere of HD209458b are small.
+This demonstrates that the single fluid approximation of the momentum and energy equations is valid, and that diffusive separation of the heavy species does not take place.
+Our model includes velocity differences between different species by including all of the relevant collisions between them through the inclusion of diffusive fluxes in the continuity equations.
+However, we have explicitly assumed that Tn=Ti=Te, and this assumption in particular needs to be verified.
+Also, the diffusion approach to the continuity equation is only valid if the velocity differences between the species are reasonably small.
+We calculated the collision frequencies based on the C2 model, and found that collisions with neutral H dominate the transport of heavy neutral atoms such as O below 3.5Rp.
+At altitudes higher than this, collisions with H+ are more frequent.
+In Paper II we demonstrate that a mass loss rate of 6×106kgs-1 is required to prevent diffusive separation of O (the heaviest neutral species detected so far) in the thermosphere.
+The mass loss rate in our models is Ṁ>107kgs-1 and thus O is dragged along to high altitudes by H.
+On the other hand, collisions with H+ dominate the transport of heavy ions such as Si+ as long as the ratio [H+]/[H]≳10-4 (Paper II).
+This explains why Coulomb collisions in our models are more frequent than heavy ion-H collisions at almost all altitudes apart from the immediate vicinity of the lower boundary.
+These collisions are much more efficient in preventing diffusive separation than collisions with neutral H.
+Fig. 11 compares the timescale for diffusion τD for O and Si+ with the timescale for advection τv based on the C2 model.
+In both cases, τD≫τv and thus diffusion is not significant.
+This implies that there are no significant velocity differences between heavy atoms and hydrogen.
+We note that Coulomb collisions of doubly ionized species with H+ are more frequent than collisions between a singly ionized species and H+.
+Thus diffusion is even less significant for a species like Si2+.
+We verified these results from our simulations by switching diffusion off in the model and rerunning the C2 model.
+As a result the density of the heavy atoms and ions increased slightly at high altitudes, but the differences are not significant - the results were nearly identical to the density profiles of the original simulation.
+We note that the atmosphere can also be mixed by vertical motions associated with circulation that are sometimes parameterized in one-dimensional models by the eddy diffusion coefficient Kzz (e.g., Moses et al., 2011).
+This mechanism is efficient in bringing the heavy elements to the lower thermosphere but it is unlikely to mix the atmosphere up to 3Rp and beyond.
+Also, there is no generally accepted method of estimating the degree of global mixing based on circulation models, and most circulation models for EGPs do not adequately treat the relevant energy deposition and forcing mechanisms in the upper atmosphere.
+Thus there is considerable uncertainty over the values of Kzz and rapid escape is a much more likely explanation for the lack of diffusive separation on HD209458b.
+In fact, the calculations of Koskinen et al. (2007b) show that the temperature in the thermosphere of planets such as HD209458b is high enough to practically guarantee an effective escape rate.
+The only way to prevent this is to provide enough radiative cooling to offset most of the XUV flux, but there are no radiative cooling mechanisms efficient enough to achieve this in a thermosphere composed of atoms and ions.
+As we noted above, the temperatures of the electrons, ions, and neutrals are roughly equal in the thermosphere of HD209458b.
+In order to show this, we assumed that photoelectrons share their energy with thermal electrons, which then share this energy further with ions and neutrals.
+We also assumed that the collisions frequencies between the species are higher than the timescale for advection.
+If the velocity differences between the species are negligible, the steady state 5-moment energy equations for thermal electrons and ions (Schunk and Nagy, 2000) can be used to obtain the following approximations4
+Note that conduction and viscosity are not important in the thermosphere of HD209458b.
+4:(15)Te-Ti≈13mimeqRkneνei(16)Ti-Tn≈13mi+mnmiqRkniνinwhere qR is the volume heating rate, and νei and νin are the electron-ion and ion-neutral momentum transfer collision frequencies, respectively.
+We calculated the temperature differences for H, H+, and electrons based on the C2 model.
+The difference between the electron and ion temperatures decreases with altitude and is mostly less than 2K.
+The difference between the ion and neutral temperatures, on the other hand, increases with altitude.
+The ion temperature is approximately 10K higher than the neutral temperature near 5Rp and the difference reaches 150K at 16Rp.
+In both cases, the temperature differences are negligible compared to the temperature of the thermosphere.
+Further, the timescale for advection in the C2 model is always significantly longer than the relevant collision timescales.
+Thus we have shown that Te≈Ti≈Tn and that Eqs.
+(15) and (16) are approximately valid.
+Discussion and conclusions
+We have constructed a new model for the upper atmosphere of HD209458b in order to explain the detections of H, O, C+, and Si2+ at high altitudes around the planet (Vidal-Madjar et al., 2003, 2004; Linsky et al., 2010).
+There are many different interpretations of the observed transits in the H Lyman α line (Vidal-Madjar et al., 2003; Ben-Jaffel, 2007, 2008; Holström et al., 2008; Koskinen et al., 2010a), and these interpretations rely on results from models of the upper atmosphere that are based on many uncertain assumptions (see Section 3.1.1 and Koskinen et al. (2010a) for a review).
+Also, the detection of heavy atoms and ions in the thermosphere is not without controversy, and the detection of Si2+ is particularly intriguing.
+Thus these observations present several interesting challenges to modelers.
+The observed transit depths are large, and substantial abundances of the relevant species are required to explain the observations.
+However, on every planet in the Solar System heavier species are removed from the thermosphere by molecular diffusion and doubly ionized species are not commonly observed.
+Also, the observations imply that H and O remain mostly neutral in the thermosphere while C and Si are mostly ionized at a relatively low altitude.
+Hydrodynamic models coupled with chemistry and thermal structure calculations are required to explain the detection of these species in the upper atmosphere and the differences between their density profiles.
+Ours is the first such model that benefits from repeated detections of both neutral atoms and ions to constrain the composition and temperature.
+Koskinen et al. (2010a) demonstrated that the H Lyman α transit observations (Ben-Jaffel, 2007, 2008) can be explained with absorption by H in the thermosphere if the base of the hot layer of H is near 1μbar, the mean temperature within the layer is about 8250K, and the atmosphere is mostly ionized above 3Rp.
+These parameters are based on fitting the data with a simple empirical model of the upper atmosphere.
+The density and temperature profiles from our new hydrodynamic model agree qualitatively with these constraints, demonstrating that the basic assumptions of Koskinen et al. (2010a) are reasonable.
+This confirms once again that a comet-like tail (Vidal-Madjar et al., 2003) or energetic neutral atoms (Holström et al., 2008) are not necessarily required to explain the H Lyman α observations.
+In line with recent results by Moses et al. (2011) and the empirical constraints mentioned above, we used a photochemical model of the lower atmosphere to show that H2 dissociates near the 1μbar level.
+Above this level, the lack of efficient radiative cooling and strong stellar EUV heating lead to high temperatures.
+We constrained the range of possible mean (pressure averaged) temperatures based on the average solar flux by using the hydrodynamic model to calculate temperatures with different heating efficiencies.
+For net heating efficiencies between 0.1 and 1, the mean temperature below 3Rp varies from 6000K to 8000K.
+This means that 8000K is a relatively strict upper limit on the mean temperature if the XUV flux of HD209458 is similar to the corresponding flux of the Sun.
+A mean temperature of 8250K estimated from the observations implies the presence of an additional non-radiative heat source, or that the XUV flux from HD209458 is higher than the average solar flux.
+Given that our best estimate of the net heating efficiency is 0.44 (see Section 3.1.2), the XUV flux of H209458 would have to be 5-10 times higher than the average solar flux to cause a mean temperature of 8250K (see Section 3.1.1).
+If the mean XUV flux of HD209458 is generally higher than the solar flux and the observations took place during stellar maximum, such an enhancement is not impossible.
+This would also lead to higher outflow velocity and mass loss rate.
+However, the uncertainty in the observed transit depths is also large (Ben-Jaffel, 2008, 2010), and it can accommodate a range of temperatures.
+Therefore our reference model C2 with a mean temperature of 7200K also agrees qualitatively with the empirical constraints.
+In this respect, it is interesting to note that with 100× solar flux, the mean temperature is still only 9800K.
+Temperatures significantly higher than 8000K (e.g., Ben-Jaffel and Hosseini, 2010) therefore imply a strong non-radiative heat source.
+In contrast to the mean temperature, the velocity and details of the temperature profile depend strongly on the heating efficiency and stellar flux (see Section 3.1.1).
+They are also sensitive to the upper and lower boundary conditions.
+This explains the large range of temperature and density profiles predicted by earlier models that arise from different boundary conditions and assumptions about the stellar flux, radiative transfer, and heating efficiencies.
+The differences highlight the need for accurate thermal structure calculations that are constrained by the available observations.
+These calculations are important because the density profiles of the detected species depend on the temperature and velocity profiles, and inappropriate assumptions made by the models can bias the interpretation of the observations.
+In the absence of stellar gravity, the location of the sonic point and the outflow speed also depend on the heating efficiency.
+As the heating efficiency increases from 0.1 (in models with the average solar flux), the high altitude temperature increases and the sonic point moves to lower altitudes, reaching down to 4Rp with a net heating efficiency of 1.
+We found that supersonic solutions are possible as long as there is significant heating over a large altitude range above the temperature peak.
+This conclusion is supported both by the hydrodynamic model and new constraints from kinetic theory (Volkov et al., 2011a,b).
+However, the isentropic sonic point of the C2 model is located above the model domain.
+In principle, this is an interesting result but it should be treated with caution.
+We used parameterized heating efficiencies for low energy photons, and the location of the sonic point is very sensitive to the temperature profile.
+Also, the stellar tide can enhance the escape rates at the substellar and antistellar points.
+We did not include this effect because it may produce horizontal flows that cannot be modeled in 1D.
+As long as the upper boundary is at a sufficiently high altitude, we found that the results based on the outflow boundary conditions and modified Jeans conditions are identical (see Section 3.1.5).
+This shows that our simulations are roughly consistent with kinetic theory.
+An agreement between these two types of boundary conditions on HD209458b is an interesting theoretical result.
+It shows that the boundary conditions for hydrodynamic escape are appropriate in this case.
+However, an upper boundary at 16Rp or higher is not necessarily justified for other reasons because we did not consider the effect of the possible planetary magnetic field, interaction of the atmosphere with the stellar wind, or horizontal transport (e.g., Stone and Proga, 2009; Trammell et al., 2011).
+We chose an upper boundary at a high altitude in order to preserve the integrity of the solution in our region of interest below 5Rp.
+The purpose of this work is to model energy deposition and photochemistry in this region.
+These aspects are often simplified in more complex models to a degree that it may be difficult to separate the effect of multiple dimensions and other complications from differences arising simply because of different assumptions about heating efficiencies and chemistry.
+Also, the uncertainty in the observations does not necessarily justify the introduction of more free parameters to the problem until the basic properties of the thermosphere are better understood.
+However, technically we do not consider our solutions to be accurate far above 3-5Rp.
+Instead, our results provide robust lower boundary conditions for more complex multidimensional models that characterize the atmosphere outside the Roche lobe of the planet.
+Results from such models can then be used to constrain the upper boundary conditions of the 1D models further.
+In order to model the density profiles of the detected species in the ionosphere, we assumed solar abundances of the heavy elements (Lodders, 2003), although this assumption can be adjusted as required to explain the observations (Paper II).
+As we already stated we found that H2, H2O, and CO dissociate above the 1μbar level, releasing H, O, and C to the thermosphere (see also Moses et al., 2011).
+We note that the detection of Si2+ in the upper atmosphere implies that silicon does not condense into clouds of forsterite and enstatite in the lower atmosphere as argued by e.g., Visscher et al. (2010).
+The dominant Si species is then SiO, which dissociates at a similar pressure level as the other molecules.
+In fact, practically all molecules dissociate below 0.1μbar.
+This leads to an important simplification in hydrodynamic models of the thermosphere.
+The complex chemistry of molecular ions does not need to be included as long as the lower boundary is above the dissociation level.
+We found that the H/H+ transition occurs near 3Rp or, depending on the velocity profile, at even higher altitudes.
+The O/O+ transition is coupled to the H/H+ transition through charge exchange reactions.
+Thus both H and O are mostly neutral up to the boundary of the Roche lobe at 3-5Rp.
+In contrast, C is ionized near the 1μbar level and C+ is the dominant carbon species in the thermosphere.
+Si is also ionized near the 1μbar level, and the balance between Si+ and Si2+ is determined by charge exchange with H+ and H, respectively.
+Si+ is the dominant silicon ion below 5Rp but the abundance of Si2+ is also significant.
+We found that neutral heavy atoms are dragged to the thermosphere by the escaping H, while heavy ions are transported efficiently by the escaping H+.
+Thus the advection timescale is much shorter than the diffusion timescale of the detected species, and diffusive separation does not take place in the thermosphere.
+We also verified that the neutral, ion, and electron temperatures are roughly equal.
+Taken together, these results imply that the thermospheres of close-in EGPs can differ fundamentally from the gas giant planets in the Solar System.
+For instance, the thermosphere of HD209458b is composed mainly of atoms and atomic ions, and diffusive separation of the common heavy species is prevented by the escape of H and H+.
+It is important to note, however, that results such as these cannot be freely generalized to other extrasolar planets.
+As in the Solar System, each planet should be studied separately.
+For instance, the dissociation of molecules depends on the temperature profile that is shaped by the composition through radiative cooling and stellar heating.
+The mass loss rate and escape velocity, that determine whether diffusive separation takes place or not, depends on the escape mechanism that again depends on the temperature and composition of the upper atmosphere.
+The results from different models can only be verified by observations that are therefore required for multiple planets if we are to characterize escape in different systems and under different conditions.
+Acknowledgments
+We are grateful to A.
+Volkov for reading the manuscript and providing useful feedback.
+We thank H.
+Menager, M. Barthelemy, J.-M.
+Grießmeier, N.
+Lewis, D.
+S.
+Snowden, and C.
+Cecchi-Pestellini for useful discussions and correspondence.
+We also acknowledge the "Modeling atmospheric escape" workshop at the University of Virginia and the International Space Science Institute (ISSI) workshop organized by the team "Characterizing stellar and exoplanetary environments" for interesting discussions and an opportunity to present our work.
+The calculations for this paper relied on the High Performance Astrophysics Simulator (HiPAS) at the University of Arizona, and the University College London Legion High Performance Computing Facility, which is part of the DiRAC Facility jointly funded by STFC and the Large Facilities Capital Fund of BIS.
+SOLAR2000 Professional Grade V2.28 irradiances are provided by Space Environment Technologies.
+

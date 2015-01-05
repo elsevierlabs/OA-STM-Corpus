@@ -1,0 +1,309 @@
+Robust VAWT control system evaluation by coupled aerodynamic and electrical simulations
+
+Abstract
+A control system for a vertical axis wind turbine is presented.
+The electric load is determined solely from the rotational velocity and the characteristics of the turbine, thus measurements of the incoming wind speed are not required.
+The control system is evaluated with an aerodynamic vortex model coupled with an electrical model.
+Three different sets of control system parameters are tested, representing different tradeoffs between a high power absorption and achieving a fast control strategy with high stability.
+The simulations show that the three control strategies provide a similar power absorption as a reference strategy based on known wind speed.
+For dynamic simulations with fast changes in wind speed, the fast control strategies are beneficial.
+All control strategies are stable throughout the simulations when proper power absorption characteristics of the turbine are used.
+It is also shown that if peak power absorption is estimated at a too low tip speed ratio, the control strategies may inadvertently stop the turbine.
+Highlights
+•
+A coupled aerodynamic - electric simulation model is presented.
+•
+A control strategy for VAWT that does not require wind measurements is evaluated.
+•
+Accuracy of control strategy versus convergence speed is analysed.
+•
+The sensitivity of the control parameters is investigated.
+
+Introduction
+Wind turbines are generally divided into horizontal axis wind turbines (HAWT) and vertical axis wind turbines (VAWT) [1].
+This work focuses on the VAWT, which is omnidirectional, implying that a yaw mechanism is not needed.
+Another advantage of the VAWT is that the vertical axis allows the generator to be placed on ground, which simplifies construction and maintenance.
+A disadvantage of this design is that at low tip speed ratios(1)λ=rωV∞,the turbine torque is low, which implies that the generator has to be operated as a motor to start the turbine.
+In Eq.
+(1), r is the turbine radius, ω is the turbine rotational velocity and V∞ is the asymptotic wind speed.
+Another characteristic feature of the VAWT is the cyclic loads from the aerodynamic forces on the blades.
+A common design consideration is if a pitch mechanism should be included or not.
+The most common design is a HAWT with pitch regulation, where the turbine characteristics can be changed by varying the blade pitch angle [2].
+Pitch control for a VAWT has been used to improve performance for turbines operating at low tip speed ratios by avoiding stall [3,4].
+The present investigation considers turbines optimised for higher λ, where the effects of stall are much smaller.
+Pitch regulation of a VAWT further requires that the pitch angle is changed around the entire revolution, and such a mechanism is an additional source of mechanical failure.
+Furthermore, many models for pitch control of a VAWT require knowledge of the wind direction, adding the requirement for additional sensors [5,6].
+For these reasons, pitch is not investigated here.
+Instead, this paper considers a more robust way to control the turbine, where the turbine rotational velocity is the only control parameter.
+The rotational velocity can be controlled via the power extracted by the generator (c.f.
+Fig. 1).
+The investigation here treats control strategies which operate without measurements of the wind speed and where the generator torque is determined from the rotational velocity of the turbine.
+Similar strategies have been applied for HAWTs [7], but the low aerodynamic power of VAWTs at low λ requires a separate investigation into the applicability of these models for the vertical axis case.
+The study of the control system is based on an aerodynamic simulation model for the turbine performance coupled with a model for the electrical system.
+The control system is embedded into the electrical system.
+This approach gives full control of the input parameters and makes a study of the performance of the complete system possible.
+Control theory
+The power extracted from a turbine is(2)P=12CPρAV∞3,where A is the turbine area, ρ is the fluid density and CP is the power coefficient.
+The power coefficient is primarily a function of the tip speed ratio but does also depend on the Reynolds number, as can be seen in Fig. 2, where the turbine has been simulated for different wind speeds.
+Turbine details are described in Section 5.
+The peak of the power coefficient curves occurs at approximately the same tip speed ratio λmax.
+The peak value of the power coefficient, CPmax, is higher for higher wind speeds since the stall angle increases and the drag decreases for a wing with increased Reynolds number.
+The angular acceleration of the turbine is determined by(3)ω˙=P-PeJω,where Pe is the total mechanical power absorbed by the generator and J is the combined angular inertia of the turbine and drive train.
+Most control strategies strive to maintain the λ that optimises CP by varying Pe.
+One way to accomplish this is to rely on real-time measurements of the wind speed, combined with an estimate of λmax.
+This paper investigates control strategies where the extracted power is determined from the rotor speed alone, i.e.
+Pe=Pe(ω).
+Fig. 1 shows the variation of aerodynamic power, P, with the rotational velocity for a given wind speed.
+In the same figure, an example of a control strategy based on the extracted power is illustrated.
+According to Eq.
+(3), the turbine will increase its rotational velocity whenever P>Pe, decrease its rotational velocity if P<Pe and the control strategy will have an equilibrium whenever P=Pe.
+In the case of Fig. 1, there is one stable region for high rotational velocities, while for too low rotational velocities, the extracted power is higher than the aerodynamic power and the turbine will stop.
+The speed of the control strategy depends on the difference between the turbine torque T=P/ω and the generator torque Te=Pe/ω, as this is the torque that accelerates/decelerates the turbine, see Eq.
+(3).
+If this strategy operates at the stable equilibrium and there is an increase in wind speed, the aerodynamic power will increase, hence P>Pe and the turbine will accelerate until a new equilibrium is reached (compare with Fig. 5).
+Similarly, a decrease in wind speed will decrease the turbine rotational velocity.
+The aim of the control strategy is, for each wind speed, to have a stable equilibrium at a rotational velocity that gives a high power coefficient.
+To tune this strategy for the highest power coefficient at a given wind speed, both λmax and CPmax have to be known at this speed.
+Studied control strategies
+One control strategy is to adjust the extracted power to be proportional to the cube of the rotational velocity (strategy A),(4)Pe*=k2ω3,where k2 is a constant and Pe* is the target mechanical power.
+This control strategy has been used for HAWTs before, see Ref.
+[7].
+The normalised extracted power is(5)CPe=Pe*12ρAV∞3,which, by using Eqs.
+(1) and (4), can be rewritten as(6)CPe=k212ρAλ3R3.
+Note that Eq.
+(6) only depends on λ, whereby the strategy has a similar behaviour for different wind speeds.
+The normalised extracted power is plotted in Fig. 2.
+The control strategy is designed to have its stable equilibrium at the peak of the 6 m/s curve and power extraction is thereby optimised at this velocity.
+As the power coefficient increases with the wind speed, there is a small shift in the equilibrium tip speed ratio λe towards higher values for increasing wind speeds.
+Fig. 2 shows that this strategy is stable for all rotational velocities at the wind speeds 6 m/s and 12 m/s, while for 3 m/s, the turbine will stop if the tip speed ratio drops below 2.2.
+At low tip speed ratios, the turbine acceleration is low for all wind speeds due to the close proximity of CP and CPe.
+One way to avoid the problem with an unstable region for the 3 m/s curve, and to obtain a faster control strategy, is to introduce a second order term according to(7){Pe*=0ω≤ω0,Pe*=k1ω2(ω-ω0)ω>ω0,where and k1 and ω0 are constants (strategy B).
+For the control strategy showed in Fig. 3, k1 and ω0 are chosen so that the turbine starts to absorb power at λ=4 for 3 m/s wind speed and maximum CP is still obtained for 6 m/s.
+With this modification of the control strategy, the tip speed ratio will be higher at low wind speeds (λe=5.2 at 3 m/s) and lower at high wind speeds (λe=3.7 at 12 m/s) compared to the design value λmax=4.1 at 6 m/s.
+For the 3 m/s and 6 m/s cases, the new strategy has larger differences between extracted and absorbed power for all values below the equilibrium, while for the 12 m/s case, only the region below λ=2 shows larger margins.
+These larger differences in power, combined with a smaller range of rotational velocities, provide a faster control at the expense of steady state operation further away from λmax.
+Note that forcing the turbine to operate at lower tip speed ratio for high wind speeds can be favourable from a structural mechanical point of view as it reduces structural loads.
+The third case (strategy C), is a mix of the two previous strategies, where strategy A is used in a middle region between ω1 and ω2, and a more rapid change in extracted power is used between ω0 to ω1 and above ω2 up to the rated rotational velocity.
+This is accomplished by(8){Pe*=0ω≤ω0,Pe*=k1ω2(ω-ω0)ω0<ω≤ω1,Pe*=k2ω3ω1<ω≤ω2,Pe*=k3ω2(ω-ω2)+k2ω2ω2ω2<ω,where(9)k1=ω1ω1-ω0k2due to continuity.
+The parameter values for strategies A-C are given in Table 1.
+The upper limit, ω2, in Eq.
+(8) should be chosen with regard to structural and electrical aspects of the system.
+Optimal parameter values depend on desired turbine operation where structural, mechanical and electrical considerations are important.
+The equilibrium of strategy C is identical to that of strategy A between 4.5 m/s and 9 m/s, and ω0 is kept to the same value as in strategy B.
+For simplicity, k1=k3 is chosen, which slightly lowers the tip speed ratio at high wind speeds.
+The differences between strategies B and C can be seen from a comparison of Figs.
+3 and 4.
+At low tip speed ratios for 12 m/s, the extracted power of strategy C is somewhat closer to the aerodynamic power, but it has larger margins at tip speed ratios closer to the peak.
+The decrease in tip speed ratio for the equilibrium is a reasonable design choice since lower rotational velocity reduces the forces on the turbine at high wind speed.
+The 3 m/s case has its equilibrium at λ=4.9 instead of 5.2, while still having large differences between P and Pe* at low tip speed ratios.
+To further illustrate the control strategies at low rotational velocities, the power and torque are plotted against the rotational velocity in Fig. 5 and are compared to the aerodynamic torque for wind speeds of 4.5 m/s and 6 m/s.
+The equilibria in the power plot illustrate the steady state performance while the speed of the control strategy is directly proportional to the difference in torque.
+For the 6 m/s equilibrium, the higher slope of strategy B in the torque plot corresponds to a more rapid response of this strategy.
+Further, the decreased generated torque of strategy C (compared to A) at ω≲1.4 shows the improvements in response times for this strategy at low rotational velocities.
+To compare all three strategies for the whole interval between 3 m/s and 12 m/s, the equilibrium tip speed ratio is plotted in Fig. 6, where it is seen that strategy A keeps the tip speed ratio relatively constant, while strategy B has the largest variations.
+The lower plot in Fig. 6 illustrates the penalty in power production caused by the different control strategies, where the power reduction factor is defined as(10)Pl=CPmax-CP(λe)CPmax.
+Fig. 6 shows the amount of non-extracted power resulting from turbine operation at a non-optimal tip speed ratio.
+For all schemes, the reduction of captured power is less than 2% for wind speeds above 4 m/s.
+Strategy C behaves almost as good as strategy A over the major part of the interval, and it should be noted that the loss at 12 m/s is intentional to reduce mechanical loads.
+The control strategies A-C are designed for the variable rotational velocity operational regime.
+For a real control system, additional limitations are necessary to prevent the turbine from exceeding rated power and rotational velocity.
+Sensitivity analysis
+For each strategy A-C, one parameter is of particular importance for optimisation of the power extraction (k2 for strategies A and C and k1 for strategy B).
+This parameter is determined from λmax and CPmax, where all strategies in Section 2 are designed for CPmax=0.43 and λmax=4.1.
+In the present analysis, the power coefficient curves are determined through simulations.
+Power coefficient curves for real turbines are not known.
+Therefore, the sensitivity of the control strategies, with respect to errors in λmax and CPmax, needs to be investigated.
+Errors in λmax will have a stronger effect on the control strategies than errors in CPmax since the relation between rotational velocity and power is cubic, c.f.
+Eq.
+(4).
+For strategy A, a 10% overestimation of λmax is equivalent to a 25% underestimation of CPmax.
+With an overestimated λmax, power extraction is reduced but the system stability is improved.
+Consequently, an underestimated λmax decreases stability, see Fig. 7.
+For 3 m/s, the turbine will not run at all with strategy A, as the extracted power is larger than the turbine power.
+The same strategy should run for 6 m/s and 12 m/s, but with small margins, and the turbine will stop in the 6 m/s case if the tip speed ratio drops below 2.
+Strategy C still works for the 3 m/s and 6 m/s cases, but with small margins in the 6 m/s case.
+This highlights the importance of knowing relevant turbine characteristics prior to designing the control strategy.
+For stable operation, it is better to overestimate than to underestimate λmax.
+Vortex method
+All aerodynamic simulations are performed with a vortex method, which is a time dependent simulation model based on the vorticity formulation of the incompressible version of Navier-Stokes equations [8].
+This is a Lagrangian method, which discretizes the vorticity field using point vortices.
+The vorticity is a conserved quantity within the fluid and new vortices can only be injected from the turbine boundaries.
+When a turbine is simulated, vortices are released from the turbine blades and propagate with the flow velocity.
+Here, it is assumed that the viscosity is zero, which for high Reynolds numbers is an acceptable assumption outside the boundary layer.
+Simulation of the boundary layer is computationally demanding and therefore not feasible if many revolutions are to be simulated.
+To create a fast simulation code, an additional model is required.
+There are two common approaches to this problem; the first is to use the Kutta condition [9], which gives the inviscid solution with zero drag force and neglects stall.
+The second is to use an empirical model for the forces, which requires external data, but includes drag forces and stall, which gives a more realistic power from the turbine.
+The model chosen for this study uses empirical lift and drag coefficients and a dynamic stall model to handle large angles of attack.
+The chosen dynamic stall model is the model developed by Gormont [10] and later modified by Massé [11] with the parameters suggested by Berg [12].
+Lift and drag coefficients are obtained from Ref. [13].
+To implement the empirical model, the angle of attack is calculated from the flow velocity using a linear panel method as described in Ref.
+[14].
+The circulation for the inviscid case is calculated from the Kutta condition, and by comparing with the circulation for a wing in homogeneous wind, the circulation is converted into the corresponding angle of attack.
+The empirical model uses this angle of attack to calculate the forces, and the Kutta Joukowski lift formula is used (as in Ref.
+[15]) to recover the circulation, which is now lower than the inviscid circulation if flow separation starts to occur.
+The magnitude of the vortices released into the flow is determined from the change in circulation for the blades, and one vortex is released from each blade at each time step.
+A two-dimensional vortex model is chosen in order to avoid the computational cost of a three-dimensional model.
+A drawback is that tip losses cannot be calculated directly from this model.
+As a simplified model, finite wing theory can be used to obtain some of the losses due to tip vortices.
+The finite wing theory equations are applied in a similar way as done by Paraschivoiu for the stream-tube model [16], e.g.(11)a0=1.8π(0.8tbc),(12)CL=CL∞1+a0πAR,(13)αe=α-CLπARand(14)CD=CD∞+CL2πARare used as follows: The reduced angle of attack is calculated using Eqs.
+(11)-(13), then, the dynamic stall model is used to obtain lift and drag coefficients and finally, the induced drag is calculated from Eq.
+(14).
+Here, tb is the blade thickness, c the chord, CL∞ and CD∞ the lift and drag coefficients for infinitely long blades, AR the aspect ratio, α the angle of attack without the corrections and αe the corrected angle of attack.
+Another three-dimensional effect is the support structure for the blades, which has been neglected in the current work.
+For more information regarding struts, see Refs. [17-19].
+The tangential is(15)FT=(CLsinφ-CDcosφ)12ρchVr2,where φ is the angle of relative wind, h the turbine height and Vr the relative wind speed.
+The turbine torque can be calculated by summation over the blades as(16)T=∑NbrFT,where r is the turbine radius and Nb is the number of blades.
+Electromechanical system
+This section presents the ordinary differential equations used to model the electrical and mechanical parts of the energy conversion system.
+A passive diode rectifier and a DC-AC converter are used to supply the converted energy to a utility grid.
+Diode rectifiers are robust and do not require a controller.
+The diode rectifier has small internal power loss, compared to other semiconductor based rectifiers, since the switching occurs at zero current and a diode has a small forward voltage drop.
+The primary drawback of passive rectification, compared to active rectification, is that the armature currents have high harmonic content, causing generator torque fluctuations and increased armature resistive loss [20].
+The harmonic content of the armature currents can be reduced by adding inductance on the DC-side [21].
+Here the simplest system without extra inductance is considered.
+The model used for the electrical system is shown in Fig. 8, and all model parameters of the electromechanical model are presented in Table 2.
+The generator is modelled as Y-connected Thévenin equivalents of the three generator phases with the neutral terminal disconnected.
+It follows from Kirchhoff's circuit laws that(17)L(ⅆI1ⅆt-ⅆI2ⅆt)=ε1-ε2-U1+U2-R(I1-I2)L(ⅆI2ⅆt-ⅆI3ⅆt)=ε2-ε3-U2+U3-R(I2-I3)I1+I2+I3=0where εn and Un are electromotive forces and terminal voltages respectively.
+The nth emf is(18)εn=Λωsin(NPPθ-n2π3)where Λ is the flux linkage and NPP is the number of pole pairs.
+The power extracted from the electromotive forces is(19)Pg=∑n=1,2,3Inεn.
+The voltage of the nth terminal of the generator is approximated by(20)Un=UDC+2UD2erf(InΔI),where UD is the forward voltage drop of one diode.
+Approximation Eq.
+(20) simplifies the automatic error control of the used ODE solver package.
+The approximation approaches ideal diodes as ΔI approaches zero.
+It follows from Kirchhoff's first law that the rectified generator current, Ir, is(21)Ir=12∑n=1,2,3|In|.
+The capacitor charges according to(22)ⅆUDCⅆt=Ir-IeC,and the power delivered to the load is(23)PL=ILUDC.
+Losses
+The electrical system has three principal loss mechanisms.
+The resistive loss in the generator armature(24)Pr=R∑n=1,2,3In2,loss due to the forward voltage drop in the diode rectifier(25)PD=2IrUDand loss in the stator core(26)Pc=khω+keω3/2+kcω2,where kh,ke,kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [23].
+Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.
+The instantaneous power absorbed by the generator, Pe, is the sum of core loss and converted power(27)Pe=Pg+Pc.
+On average, the power delivered to the load is(28)PL=Pe-Pc-Pr-PD,due to preservation of energy.
+Generator efficiency is defined as(29)ηg=1-∫Pr+Pcⅆt∫Pg+Pcⅆt.
+Several methods, such as adding a DC-side inductor or using an active rectifier, can be used to reduce the harmonic content of the armature currents and thereby reducing the armature resistive loss.
+An active rectifier can draw currents with low harmonic content at unity power factor thus minimising the resistive loss for a given voltage and power level.
+At unity power factor, the armature current is proportional to the phase emf; it then follows from Eqs.
+(18), (19), (24) and (27) that the armature resistive loss is(30)Pr′=2R3(PgωΛ)2,when ωΛ≠0 and the phase currents are drawn at unity power factor.
+Core loss can be reduced by reducing thickness of the stator laminations or using stator material with lower hysteresis loss.
+Load control implementation
+Control strategies A-C are implemented by controlling the load current so that the average of the extracted power Pe from the turbine is as close as possible to the power Pe* prescribed by the applied control strategy.
+Energy cannot flow "backwards" through the diode rectifier and, therefore, it is not possible to extract a power that is lower than that of the core loss of the generator.
+Furthermore, the load current is always kept positive, i.e. the grid is never used to charge the capacitor.
+The load current is(31)IL=max(0,Pe*-Pc-Pr-PDUDC),where Pe* is a, control strategy specific, function of ω.
+In this paper, control strategies A-C are compared to a reference control strategy.
+The reference strategy uses both the asymptotic wind speed and the rotational velocity as control signals.
+In the reference strategy, the voltage level of the DC-bus, rather than the load current, is controlled by a PI-regulator.
+Control of the voltage level is chosen since it simplifies the implementation of speed control.
+Voltage control is physically equivalent to current control in the sense that the only way to regulate the capacitor voltage is through control of the load current.
+The UDC setpoint depends only on the asymptotic wind speed V∞.
+The mapping from V∞ to UDC is determined in a simulated torque sweep where the voltage level is regulated so that the optimal tip speed ratio is maintained throughout the sweep.
+A limited integrating term is added to the controller to compensate for torque fluctuations during wake formation.
+Detailed modelling of a DC-AC converter is outside the scope of this paper.
+The DC-AC converter, for a system of this size, often consists of a DC-DC step and an IGBT based two-level inverter, but several other topologies exists [24].
+The simple model of the DC-AC converter used here is realistic to the extent that capacitor is large enough to smoothen switching transients.
+Interaction of electromechanical and aerodynamic model
+The combined electromechanical and aerodynamic system is simulated according to the following two step scheme (two steps for each model):1.
+The aerodynamic code calculates the aerodynamic torque T1 at the given time and propagates all vortices.
+2.
+The electromechanical model uses this torque to calculate the rotor angle and speed after a virtual time step Δt.
+3.
+The aerodynamic code calculates the aerodynamic torque T2 after the virtual time step with the updated rotor angle and speed from the electromechanical model.
+Vortex positions are recalculated using the average vortex velocities between the two steps.
+4.
+The electromechanical model assumes that the torque varies linearly between T1 and T2 during the time step, recalculates the new rotor angle and speed and transfers these values to the aerodynamic model.
+As the time constants of the electromechanical model are much smaller than for the vortex model, each electromechanical step is simulated with the lsoda library11
+http://www.ccl.net/cca/software/SOURCES/C/kinetics2/index.shtml [accessed 20.20.2013].
+ with variable step length, i.e. each step Δt of the electromechanical model usually corresponds to many internal steps.
+Simulations
+All simulations are performed using the aerodynamic vortex code in Section 3, which provides realistic turbine torque ripple and wake effects, coupled with the electrical model in Section 4, which includes additional ripple effects from the rectification.
+This reasonably realistic system simulation helps avoiding the design of a control system that only works for idealised systems.
+In the dynamic tests of the control system, the asymptotic wind speed is changed during the simulation to determine how well the control system adapts the rotational velocity.
+All studies are performed with control strategies A-C and compared to a reference strategy outlined in Section 4.2.
+The reference strategy uses prior knowledge of the asymptotic wind speed to maintain constant and optimal λ but it is not allowed to operate the generator as a motor.
+The turbine chosen for the simulations is similar to the 3 bladed 200 kW turbine built by vertical wind [22], and has a height of 24 m and a diameter of 26 m.
+Due to the two-dimensional simplification of the simulation code, the exact chord cannot be simulated as it varies with height.
+Therefore, a chord of 0.75 m is chosen, which is a good approximation to the actual turbine.
+Step response
+The first study evaluates system performance during a step change in wind speed.
+The wind speed is stepwise changed from 3 m/s to 6 m/s, then up to 10 m/s, followed by a decrease to 6 m/s and finally to 3 m/s.
+The wind speed and turbine tip speed ratio are plotted in Fig. 9.
+As expected, the reference strategy has the fastest step response.
+The reference strategy is especially fast when the wind speed is reduced since the maximum generator torque is high while acceleration is limited by the turbine torque.
+Strategies B and C are faster than A for the step change from 3 m/s to 6 m/s, which is due to higher initial rotational velocities and the larger difference between extracted and aerodynamic power.
+Strategies A-C are designed for 6 m/s and will eventually reach the optimal tip speed ratio at this wind speed.
+The deviations in λ from λmax for strategy A at 3 m/s and 12 m/s are due to the Reynolds number dependence of CPmax, while the deviations for strategies B and C are due to design choices.
+The overshoot for strategies A-C, both for increasing and decreasing wind speed is an aerodynamic effect.
+When the wind speed is increased, the wake behind the turbine is not fully developed, which results in a higher aerodynamic torque during the formation of the wake.
+For decreasing wind speeds, the wake is over-developed, giving less aerodynamic torque, and the wake has to drift away before a steady state is obtained.
+Oscillating wind speed
+The second study concerns how the control system handles oscillating wind speeds.
+The wind speed is set to oscillate between 3 m/s and 8 m/s and the frequency of the oscillation is varied, see Fig. 10.
+At low oscillation frequencies, strategies A and C work well.
+While A starts to drop in efficiency quite early, strategy C keeps a higher efficiency a bit longer and appears to be a better strategy in general for this case, although the two strategies are similar.
+For higher frequencies, strategy B is better than both A and C.
+At frequencies above 0.018 Hz, the reference control strategy starts to drop rapidly in performance.
+The explanation is found in Fig. 11, where strategies A-C obtain higher average tip speed ratios for higher oscillation frequencies.
+For all strategies A-C, the difference in aerodynamic and generator torque is larger when the wind speed is increasing, i.e. when λ is slightly less than λmax, than when the wind speed is decreasing.
+Hence, the average tip speed ratio increases with increasing wind frequency.
+For the reference strategy, λ=λmax is maintained whenever the wind speed is decreasing.
+However, turbine torque is insufficient to maintain optimal λ when the wind speed increases rapidly, i.e. the average λ decreases with increasing wind frequency.
+As the power is proportional to the cube of the wind speed, keeping the correct tip speed ratio at high wind speeds is more important, which is the reason for the improved performance of strategies A-C, compared to the reference control strategy, during very rapid wind oscillations.
+The control strategies are also tested with a higher average wind speed (9.5 m/s, compared to 5.5 m/s) and the results are found in Fig. 12.
+In this high wind speed case, all strategies perform well and the differences between the strategies are only a few percent.
+At this point, the reference strategy delivers the most power, followed by strategy A, then C and finally B.
+As mentioned before, the lower power extraction for strategy C, as compared to strategy A, is intentional to reduce structural loads.
+Because of the smaller variations in λ there are smaller differences in delivered power between the strategies in the high wind speed case.
+Furthermore, the increased wind speed increases the aerodynamic torque and thereby reduces the time constants of the mechanical system, which is another reason why the drop in delivered power is not as significant in the high wind speed case.
+The small increase in power for higher wind frequencies is an aerodynamic effect and according to the present simulation model, it is actually possible to extract slightly more power in the oscillating case.
+However, this increase is small and considering aerodynamic model uncertainties and approximations, such as that the wind speed changes are implemented as a change of asymptotic wind speed, further studies are required to determine if this effect is physical.
+The small variations between each simulation point in Fig. 12 are within the simulation uncertainty, caused by the unsteady nature of the vortex wake.
+Electrical analysis
+The total system performance depends both on aerodynamic and electrical performance.
+While Section 2 only discusses the control strategies from an aerodynamic point of view, the simulations (Figs.
+10 and 12) present the delivered power to the electrical load, see Eq. (23).
+The generator efficiency, defined in Eq.
+(29), is presented in Fig. 13.
+Strategies A-C lead to similar generator efficiencies, the two major trends being that increased average wind speed causes a higher generator efficiency while a higher frequency of the wind speed reduces the generator efficiency.
+In the high wind speed case at low frequencies, the generator efficiency of the reference strategy is similar to that of the other strategies.
+However, the generator efficiency with the reference strategy is lower at high wind frequencies.
+This reduced efficiency is due to high resistive loss caused by the high generator torque during the rapid oscillations.
+In the low wind speed case at wind frequencies of 0.01-0.03 Hz, the generator efficiency is higher with the reference strategy than with the other strategies, since strategies A-C operate at too high rotational velocities and thereby increase the already dominant core loss.
+In the low wind speed case at wind frequencies above 0.003 Hz, the reference strategy causes a too low average tip speed ratio which reduces energy capture, see Figs.
+10 and 11.
+The resistive loss constitutes 19-27% of the generator losses in the high wind speed case and 5-7% of the generator losses in the low wind speed case.
+Drawing currents at unity power factor would reduce the resistive loss by up to 17% in the high wind speed case and 12% in the low wind speed case, which corresponds to an increase of the generator efficiency by 0.1-0.5%.
+The diode loss constitutes 2-3% of the total loss.
+Discussion
+In general, all tested control strategies work well for the considered turbine and the differences between them are small.
+These results are however only valid for this given turbine and requires that the real turbine actually behaves as the model predicts.
+The aerodynamic simulation tool model is two-dimensional, which introduces an error in the simulated power and the real power coefficients are most likely lower.
+This is presumably not crucial for the validity of the control strategy.
+The vortex model gives a reasonable power coefficient curve, and a real curve will have a similar shape, even if it peaks at a somewhat different power coefficient.
+The dynamic stall model in the vortex code cannot handle deep stall accurately.
+This means that all results at lower tip speed ratios are inaccurate.
+Experiences from the test setup in Marsta [25] indicate that the actual power coefficient at low tip speed ratios is higher than the simulated values, which increases the stability of the control strategy and should therefore not be an issue for the chosen control strategy.
+These issues do however mean that the specific parameters for the control system used in this article may not be the best suited parameters for a real turbine.
+Instead, the actual power coefficient curve should be measured to create a good control strategy.
+The sensitivity analysis shows that if no measured data exists for the power coefficient curve, a reasonable control strategy can still be created as long as λmax can be calculated with some accuracy, as this is the most important parameter.
+Once λmax is known, CPmax should be possible to estimate from simulation data combined with data from other similar turbines.
+For more stable operation, a too high λmax can be chosen, which causes slightly less power but higher stability.
+Another simulation issue is that wind speed changes through modified asymptotic wind speed are not a fully realistic model, as the wind speed is changes instantaneously in the entire domain.
+This approximation should work for slow wind speed changes but be less accurate for rapid changes.
+This model error is most prominent for the step change in wind speed.
+The simulations in this paper are intended to show the characteristics of the control strategies themselves.
+Even if the values in oscillating winds are not exact, the trends should still be valid, showing that the control strategies are capable of handling variations in wind speed.
+The results show that the studied control strategies work if the power coefficient curve has a similar shape as the ones used in the article.
+No studies have been performed on a turbine with much higher solidity, which would peak at a lower tip speed ratio, as the simulation tool is not designed for this region.
+Further analysis is therefore required to investigate how the control strategy would work for such a turbine.
+Conclusions
+A simple control system, which only uses the rotational velocity as input, can be sufficient for controlling a vertical axis turbine.
+A combined aerodynamic-electrical simulation model has been used to evaluate the effectiveness of the control system.
+The simulated performance is only slightly lower than for a reference control strategy with known wind speed.
+The difficulties of proper wind speed measurements make this simplified control strategy an attractive option.
+By decreasing the extracted energy at low rotational velocities, better stability can be achieved.
+For rapidly oscillating wind conditions, this modification can also increase the extracted power.
+The control strategy relies on accurate estimates of CPmax and, even more importantly, λmax.
+For system stability a slight overestimation of λmax is beneficial.
+Acknowledgements
+This work was financially supported by the Swedish Energy Agency, Statkraft AS, Vinnova and Uppsala University within the Swedish Centre for Renewable Electric Energy Conversion.
+

@@ -1,0 +1,143 @@
+Halide doping effects on transparent conducting oxides formed by aerosol assisted chemical vapour deposition
+
+Abstract
+We report on the effect of halide doping on the Aerosol-assisted Chemical Vapour Deposition of tin oxide.
+Specifically, the importance of precursor interactions is highlighted.
+A halide exchange reaction involving part substitution of the tin precursor is believed to occur in the solvent; the complex acting as a marker for improved films with improved transparent-conducting properties.
+Precursor mixtures of butyltin trichloride and potassium halide (X=F, Cl, Br, I) in propan-2-ol were deposited at a substrate temperature of 450°C using air carrier gas.
+Hall Effect results indicate that fluorine gave the best performing n-type transparent conducting thin films that exhibited high optical transparency (>80% at 550nm) and resistivity values of 4.9×10-4Ω.cm, with charge carrier density and carrier mobility values of 8.85×1020cm-3 and 15cm3/V.s respectively.
+Such parameters yield high figures of merit.
+Highlights
+► Halide-doped tin oxide films were grown on glass using AACVD.
+► Fluorine is confirmed as the most effective dopant for TCO applications.
+► A halide exchange process resulting in a direct tin-dopant bond in the precursor.
+► This structure is thought a marker to higher-performing films.
+
+Introduction
+Transparent conducting oxides (TCOs) are a class of multifunctional material which demonstrate both electrical conductivity and optical transparency over visible light wavelengths.
+This is made possible due to their intrinsic semiconducting nature and wide bandgap (>3.2eV) respectively [1,2].
+The coincidence of two highly useful physical properties means that such materials find use in diverse roles such as flat panel displays and solar cell applications [2-4].
+Tin oxide (SnO2) based TCOs are increasingly used due to their impressive TCO properties and their relative inexpense as compared to the traditional alternative; Indium-Tin-Oxide (ITO) [5].
+The high performance properties are due to the ability to dope the SnO2 framework, enhancing the intrinsic n-type semiconducting properties by an order of magnitude or more [1].
+The best SnO2 dopant to date has been fluorine (FTO).
+It introduces an extra charge carrier into the system per dopant ion; its effectiveness attributed to the ease with which it substitutes for oxygen within the SnO2 framework.
+Doping with fluorine also introduces donor levels localised to the conduction band, so improving the n-type electrical properties [1,3].
+Since the integrity of the bandgap is largely preserved, optical transparency properties are also maintained which allows the concurrence of two normally conflicting physical phenomena.
+Aerosol-assisted Chemical Vapour Deposition (AACVD) is a widely used thin film preparation.
+The technique involves the transport of precursors within a vapourised solvent over a heated substrate, whereby the precursors effect thin film formation [6-8].
+Doped-SnO2 formation in AACVD requires the presence of tin, oxygen and dopant sources, delivered either together within the same solution or from separate solutions.
+It has been found that the choice of precursor components and reactions prior to deposition have a marked effect on the resultant TCO properties [9].
+FTO and other doped-SnO2 materials have also been deposited using atmospheric-pressure CVD (APCVD), spray pyrolysis, sol-gel dip coating and sputtering [5,10-12].
+The aim of this paper is thus to investigate the effects of halide dopants on the TCO properties of SnO2.
+Furthermore, the effects of these dopants on the general precursor chemistry will also be investigated.
+The results reinforce the position of fluorine as the best dopant and yield insight into the interaction between precursor components prior to thin film deposition; namely that of a halide exchange reaction.
+Experimental details
+All chemicals were used as bought; butyltintrichloride (95%; Sigma-Aldrich), potassium fluoride (98%; Aldrich), potassium chloride (99.5%; Analar), potassium bromide (99+ %; Aldrich), potassium iodide (99.8%; Analar), and propan-2-ol (Merck).
+Filtered compressed air was obtained through a house line.
+Deposition was carried out on 3.2mm thick plain soda-lime silica float glass with a 50nm thick SiO2 barrier layer, as supplied by Pilkington NSG.
+All substrates were pre-washed with soaped water, propan-2-ol and acetone then dried in air prior to loading into the reactor.
+Synthesis
+The single-source AACVD FTO precursor was made by mixing butyltin trichloride (MBTC; 0.2moldm-3), potassium halide (KX; where X=F, Cl, Br or I) (6wt.%-X) and propan-2-ol.
+The mixture was stirred for 12h then filtered prior to deposition to remove the precipitate.
+The AACVD was carried out in a flat-bed, cold-walled tubular reactor, as described elsewhere [6,13].
+A thermocouple controlled carbon block heater maintained substrate temperatures.
+Depositions were carried out on Pilkington silica-coated barrier glass in order to prevent the leaching of ions from the glass into the thin film.
+A second piece of float glass was suspended 8mm above the substrate, silica-side down in order to ensure a laminar flow of the gas/aerosol.
+Films were deposited at 450°C with substrates heated to the desired temperature before deposition and cooled in air ambient in the reactor after deposition.
+AACVD was carried out using the pneumatic aerosol generation method employing a TSI Model 3076 Constant Output Atomiser utilising filtered, compressed air carrier gas operating at constant 200kPa pressure.
+Deposition times were kept constant at 30min.
+Analysis
+X-ray diffraction (XRD) measurements were made on a Bruker GADDS D8 diffractometer in a glancing angle configuration using a Cu-Kα X-ray source.
+Readings were taken over a 2θ range of 10-66°.
+Diffraction patterns were analysed for crystallinity, orientation, phase purity and crystallite size against a corundum (Al2O3) standard.
+Powder XRD (PXRD) measurements of precipitates were made on a Bruker D4 flat plate powder x-ray diffractometer using a Cu-Kα X-ray source over the 15-70° 2 θ range.
+Raman spectroscopy measurements were carried out on a Renishaw 1000 invia UV-visible spectrometer under ambient conditions.
+A 514.5nm laser source was used to probe the film over the 100-1100cm-1 wavenumber range.
+Scanning electron microscopy (SEM) images were obtained using a JEOL JSM-6301F Field Emission SEM at a 5keV accelerating voltage.
+Samples were coated with gold prior to deposition.
+Images were examined to determine the surface morphology and grain growth characteristics.
+Room temperature Transmittance-Reflectance (T-R) profiles were taken using a Perkin Elmer Fourier Transform Lambda 950 UV-visible spectrophotometer over a 250-3000nm wavelength range against an air background.
+Film thickness measurements were carried out on a Filmetrics F20 analyser in against an as-supplied FTO reference.
+Room temperature Hall Effect measurements were carried out on an Ecopia HMS-3000 in the Van der Pauw configuration.
+Measurements were taken using a 0.58T permanent magnet and a current of 0.1μA.
+Tests were carried out on samples cut to squares measuring ≈1×1cm.
+Silver paint (Agar Scientific) was used to form ohmic contacts, the integrity of which was tested prior to measurement.
+The Hall Effect method was used to find the resistivity, charge carrier mobility and charge carrier density.
+Results and discussion
+Halide-doped tin oxide films of fluorine-tin-oxide (F-TO), chlorine-tin-oxide (Cl-TO), bromine-tin-oxide (Br-TO) and iodine-tin-oxide (I-TO) were synthesised.
+The as-deposited films were adherent, transparent and could be readily replicated.
+Film deposition occurred on the bottom plate of glass inside the reactor.
+The films were adherent, passing the scotch tape test and were impervious to common solvents.
+However, they could be marked with a brass pen.
+The XRD spectra of films obtained under the different regimes are shown in Fig. 1.
+Texture coefficient values quantifying changes in preferred orientation and estimated Scherrer crystallite sizes are noted in Table 1.
+The sub-micrometre film thicknesses meant that a slight broad hump was visible at low 2θ angles; due to diffraction from the amorphous glass substrate.
+In all cases films exhibit the well-known tetragonal cassiterite structure of SnO2, with near phase-pure polycrystalline films obtained [1,14].
+The sole anomalous peak found at 31° is attributed to the persistent kinetic SnO(101) phase of tin oxide which seemed to increase in intensity with halide size, indicating a greater presence of mixed tin oxide phases.
+This implies that the halide dopants act as a kinetic obstruction to the formation of SnO2; the effects amplified with increasing halide size.
+For all doped films, there is a strong preferred orientation along the (211) direction, as demonstrated by texture coefficient calculations; larger values indicating greater directionality [6,15].
+This plane is thought to have the most stable thin film orientation and so is favoured during initial film formation, with low growth rates and with increasing film thickness [16-18].
+Scherrer crystallite size calculations [19] (see Table 1) show that all dopants produce films with average crystallite sizes of the order of nanometre dimensions.
+Values also indicate doping with fluorine results in smaller average crystallites as compared to the other halide dopants.
+However, larger halide doping did not cause further increases in average crystallite size.
+The collated Raman spectra for the doped films are displayed in Fig. 2 along with a powder SnO2 reference.
+All vibrations conform to the expected SnO2 A1g, B2g and Eg reference peaks, indicating the predominance and integrity of the SnO2 structure.
+The lack of differences between spectra may indicate the minimal incorporation of dopants within the structure.
+However, given the low intensity of Raman patterns produced from thin film samples it was difficult to compare peak shifts and broadenings that are associated with doping.
+The broadened nature of the peaks is due to both the thin film nature and nanocrystalline dimensions of the products [20].
+The greater broadening observed for the Eg band, which is thought to be sensitive to singly ionised oxygen vacancies, is attributed to film non-stoichiometry [21].
+The nanocrystalline properties of the films are evidenced by both the broad SnO2 grain surface vibration band at ≈570cm-1 and the peak at ≈250cm-1, reinforcing calculated crystallite values [22,23].
+Top-down SEM images of the different doped samples are shown in Fig. 3 below along with an undoped SnO2 thin film sample.
+The images show the crystalline nature of the films as indicated by XRD.
+The microstructure is polycrystalline with continuous grain distributions of varying sizes.
+The well-known facetted structure of doped tin oxide thin films is again observed and is indicative of a surface-nucleated thin film growth process [6,24,25].
+The images indicate that all the halides induce marked morphological changes upon doping.
+Average grain sizes seem to reflect the relationship as found for average crystallite size; FTO grains being smaller than those of other halide dopants between which there is little difference.
+In all cases, preparation of the single-source precursor formed a precipitate that was filtered from the precursor mixture prior to deposition.
+Regardless of the dopant salt added, analysis of the precipitates indicated the presence of appreciable quantities of potassium chloride, KCl, although small amounts of the original potassium salt were also identified in certain cases (see Fig. 4).
+This indicates a potential halide-exchange mechanism between the halide from the salt (KX) and a chlorine atom from the MBTC precursor.
+This postulated exchange may be a marker towards higher-performing films [26].
+The halide exchange occurred despite the hard-bonding nature of the potassium halide salts and their poor solubility in the propan-2-ol carrier solvents, thus indicating the favourability of this process.
+The fact that this exchange seems to have occurred at a Sn-Cl MBTC bond rather than the weaker SnC bond is notable.
+We have also observed the same exchange process with ammonium halide salts.
+Hall Effect measurements identified all films as n-type semiconductors.
+Charge carrier concentration, mobility and resistivities are listed in Table 1.
+The effects of the dopants were clear, with far higher charge carrier concentration, (N), than those found for undoped SnO2 thin films (1017-19cm-3 range) [1,2,5].
+Films also show reasonably good charge carrier mobility, (μ), values, which may be constricted due to the high charge carrier concentration values obtained.
+The characteristic antagonistic nature between N and μ is observed; the optimisation of this trade-off being extremely important for functional applications [27].
+The N and μ values combine to yield the resistivity, ρ, and sheet resistance, Rsheet (a commonly used thin film measurement), values.
+These compare favourably with current commercial standards [6].
+Fluorine is found to be the most effective dopant in terms of charge carrier generation resulting in the lowest ρ and Rsheet values of the set.
+The effect of differences between other halide dopants on electrical performance is less marked, as evidenced by their similar electrical conductivity properties.
+Fig. 5 gives the optical characteristics of the doped-SnO2 films.
+The transmittance-reflectance profiles for all the films show good optical transmittance properties in the visible range, with transparencies in the region of 80% making them suitable for most functional applications, which require a minimum 75% transmittance level [5].
+The characteristic IR-reflectance characteristics of doped SnO2 films as caused by the presence of a large concentration of charge carriers are also observed [28].
+The fluorine-doped SnO2 thin film demonstrates the highest energy plasmon absorption edge attributed to its superior charge carrier generation (see Table 1).
+Whilst the effects of the fluorine dopant are clear, the differences between the alternative halide-doped SnO2 thin films are quite marginal, however there is seemingly a trend for an increased red-shift in the plasmon absorption edge with increasing halide size.
+Optical bandgap, Eopt, values were calculated using the TAUC method; extrapolating the linear section of an (ahυ)2 vs E/eV plot (see Table 1) [29].
+All bandgaps were larger than the reported 3.6eV value for bulk SnO2.
+This indicated the extensive presence of dopant donor levels, corroborating the large charge carrier concentration values seen in Hall Effect measurements.
+This effect resulted in a Moss-Burstein blue-shift of the bandgap to higher values [5].
+The Eopt values highlight the effectiveness of all the halides as useful dopants for SnO2-based TCOs, correlating with the large N-values.
+However, the differences between the dopant-induced Eopt values are less clear-cut.
+The Urbach tail refers to the sub-bandgap relationship between the absorption coefficient and photon energy [30].
+The value, as given by Eu, is an indicator of the degree of disorder induced by the thermal and structural defects which cause the density of states to extend into the bandgap.
+The greater the width of the tail, the greater is the degree of disorder [31].
+Tail widths were calculated by taking the inverse gradient of the linear sub-bandgap section of a ln α vs E/eV plot.
+Eu is found to correlate positively with N, indicating that the greater presence of charge carriers comes at the expense of structural defects, thought to be induced by the halide dopants.
+This then accounts for the negative correlation between Eu and μ, where the greater presence of defects increases the number of scattering centres; ionised impurity scattering being the predominant scattering phenomenon in TCOs [32-34].
+A figure-of-merit (F.o.M.) value which accounts for both electrical and optical characteristics of the films has been included in Table 1.
+This has been calculated from;σ/α=-RsheetlnT+R-1where T and R refer to transmittance and reflectance respectively.
+A higher value denotes superior TCO properties [35].
+The data demonstrates an inverse relationship between halide size and effectiveness as a TCO material; the high I-TO value due to a thicker film.
+Fluorine is thus the superior dopant demonstrating an F.o.M. value greater than the other halides.
+Conclusions
+We have elucidated an important reaction step in the formation of halide-doped SnO2 TCOs, namely a highly selective halide exchange process which takes place even in the most unfavourable of reaction conditions.
+The resultant substituted tin-dopant precursor complex is thought to be an important marker in the formation of high-performing SnO2-based TCOs.
+We have also demonstrated that high-performing TCOs can be obtained from doping SnO2 with halide dopants using AACVD.
+The results reinforce the position of fluorine as the best halide dopant yielding the highest performing polycrystalline SnO2-TCOs of small crystallite dimensions, with carrier mobilities of 15cm3/V.s, carrier concentrations of 8.85×1020cm-3 and optical transmittance of 80% over visible light wavelengths.
+These FTO thin films compare well with current commercial standards and can potentially be produced more safely and at lower cost.
+Acknowledgements
+IPP and NN thank the EPSRC for funding through the UCL MMMS Doctoral Training Centre.
+Pilkington-NSG is thanked for glass substrates.
+

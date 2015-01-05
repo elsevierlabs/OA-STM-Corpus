@@ -1,0 +1,1602 @@
+Sets of lengths in maximal orders in central simple algebras
+
+Abstract
+Let O be a holomorphy ring in a global field K, and R a classical maximal O-order in a central simple algebra over K.
+We study sets of lengths of factorizations of cancellative elements of R into atoms (irreducibles).
+In a large majority of cases there exists a transfer homomorphism to a monoid of zero-sum sequences over a ray class group of O, which implies that all the structural finiteness results for sets of lengths-valid for commutative Krull monoids with finite class group-hold also true for R.
+If O is the ring of algebraic integers of a number field K, we prove that in the remaining cases no such transfer homomorphism can exist and that several invariants dealing with sets of lengths are infinite.
+
+Introduction
+Let H be a (left- and right-) cancellative semigroup and H× its group of units.
+An element u∈H∖H× is called irreducible (or an atom) if u=ab with a,b∈H implies that a∈H× or b∈H×.
+If a∈H∖H×, then l∈N is a length of a if there exist atoms u1,…,ul∈H with a=u1⋅⋯⋅ul, and the set of lengths of a, written as L(a), consists of all such lengths.
+If there is a non-unit a∈H with |L(a)|>1, say 1<k<l∈L(a), then for every n∈N, we have L(an)⊃{kn+ν(l-k)|ν∈[0,n]}, which shows that sets of lengths become arbitrarily large.
+If H is commutative and satisfies the ACC on divisorial ideals, then all sets of lengths are finite and non-empty.
+Sets of lengths (and all invariants derived from them, such as the set of distances) are among the most investigated invariants in factorization theory.
+So far research has almost been entirely devoted to the commutative setting, and it has focused on commutative noetherian domains, commutative Krull monoids, numerical monoids, and others (cf.
+[1,12,27,28,26,20,7]).
+Recall that a commutative noetherian domain is a Krull domain if and only if the monoid of non-zero elements is a Krull monoid and this is the case if and only if the domain is integrally closed.
+Suppose that H is a Krull monoid (so completely integrally closed and the ACC on divisorial two-sided ideals holds true).
+Then the monoid of divisorial two-sided ideals is a free abelian monoid.
+If H is commutative (or at least normalizing), this gives rise to the construction of a transfer homomorphism θ:H→B(GP), where B(GP) is the monoid of zero-sum sequences over a subset GP of the class group G of H.
+Transfer homomorphisms preserve sets of lengths, and if GP is finite, then B(GP) is a finitely generated commutative Krull monoid, whose sets of lengths can be studied with methods from combinatorial number theory.
+This approach has lead to a large variety of structural results for sets of lengths in commutative Krull monoids (see [27,24] for an overview).
+Only first hesitant steps were taken so far to study factorization properties in a non-commutative setting (for example, quaternion orders are investigated in [19,18,16]), semifirs in ([14,15], semigroup algebras in [37]).
+The present paper provides an in-depth study of sets of lengths in classical maximal orders over holomorphy rings in global fields.
+Let O be a commutative Krull domain with quotient field K, A a central simple algebra over K, R a maximal order in A, and R• the semigroup of cancellative elements (equivalently, R is a PI Krull ring).
+Any approach to study sets of lengths, which runs as described above and involves divisorial two-sided ideals, is restricted to normalizing Krull monoids [25, Theorem 4.13].
+For this reason we develop the theory of divisorial one-sided ideals.
+In Section 3 we fix our terminology in the setting of cancellative small categories.
+Following ideas of Asano and Murata [5] and partly of Rehm [45,46], we provide in Section 4 a factorization theory of integral elements in arithmetical groupoids, and introduce an abstract transfer homomorphism for a subcategory of such a groupoid (Theorem 4.15).
+In Section 5 the divisorial one-sided ideal theory of maximal orders in quotient semigroups is given, and Proposition 5.16 establishes the relationship with arithmetical groupoids.
+Theorem 5.23 is a main result in the abstract setting of arithmetical maximal orders (Remarks 5.17.2 and 5.24.1 reveal how the well-known transfer homomorphisms for normalizing Krull monoids fit into our abstract theory).
+For maximal orders over commutative Krull domains, we see that all sets of lengths are finite and non-empty (Corollary 5.30).
+In Section 6 we demonstrate that classical maximal orders over holomorphy rings in global fields fulfill the abstract assumptions of Theorem 5.23, which implies the following structural finiteness results on sets of lengths.
+Theorem 1.1
+Let O be a holomorphy ring in a global field K, A a central simple algebra over K, and R a classical maximal O-order of A.
+Suppose that every stably free left R-ideal is free.
+Then there exists a transfer homomorphism θ:R•→B(CA(O)), whereCA(O)=F×(O)/{aO|a∈K×,av>0 for all archimedean places v of K where A is ramified} is a ray class group of O, and B(CA(O)) is the monoid of zero-sum sequences over CA(O).
+In particular,1.
+The set of distances Δ(R•) is a finite interval, and if it is non-empty, then minΔ(R•)=1.
+2.
+For every k∈N, the union of sets of lengths containing k, denoted by Uk(R•), is a finite interval.
+3.
+There is an M∈N0 such that for every a∈R• the set of lengths L(a) is an AAMP with difference d∈Δ(R•) and bound M.
+Thus, under the additional hypothesis that every stably free left R-ideal is free, we obtain a transfer homomorphism to a monoid of zero-sum sequences over a finite abelian group.
+Therefore, sets of lengths in R are the same as sets of lengths in a commutative Krull monoid with finite class group.
+If A satisfies the Eichler condition relative to O, then every stably free left R-ideal is free by Eichlerʼs Theorem.
+In particular, if K is a number field and O is its ring of algebraic integers, then A satisfies the Eichler condition relative to O unless A is a totally definite quaternion algebra.
+Thus in this setting Theorem 1.1 covers the large majority of cases, and the following complementary theorem shows that the condition that every stably free left R-ideal is free is indeed necessary.
+Theorem 1.2
+Let O be the ring of algebraic integers in a number field K, A a central simple algebra over K, and R a classical maximal O-order of A.
+If there exists a stably free left R-ideal that is not free, then there exists no transfer homomorphism θ:R•→B(GP), where GP is any subset of an abelian group. Moreover,1.
+Δ(R•)=N.
+2.
+For every k⩾3, we have N⩾3⊂Uk(R•)⊂N⩾2.
+The proof of Theorem 1.2 is based on recent work of Kirschmer and Voight [39,40], and will be given in Section 7.
+If H is a commutative Krull monoid with an infinite class group such that every class contains a prime divisor, then Kainrath showed that every finite subset of N⩾2 can be realized as a set of lengths ([38], or [27, Section 7.4]), whence Δ(H)=N and Uk(H)=N⩾2 for all k⩾2.
+However, we explicitly show that in the above situation no transfer homomorphism is possible, implying that the factorization of R• cannot be modeled by a monoid of zero-sum sequences.
+A similar statement about sets of lengths in the integer-valued polynomials, as well as the impossibility of a transfer homomorphism to a monoid of zero-sum sequences, was recently shown by Frisch [21].
+Preliminaries
+Let N denote the set of positive integers and put N0={0}∪N.
+For integers a,b∈Z, let [a,b]={x∈Z|a⩽x⩽b} denote the discrete interval.
+All semigroups and rings are assumed to have an identity element, and all homomorphisms respect the identity.
+By a factorization we always mean a factorization of a cancellative element into irreducible elements (a formal definition follows in Section 3).
+In order to study factorizations in semigroups we will have to investigate their divisorial one-sided ideal theory, in which the multiplication of ideals only gains sufficiently nice properties if one considers it as a partial operation that is only defined for certain pairs of ideals.
+This is the reason why we introduce our concepts in the setting of groupoids and consider subcategories of these groupoids.
+Throughout the paper there will be many statements that can be either formulated "from the left" or "from the right", and most of the time it is obvious how the symmetric statement should look like.
+Therefore often just one variant is formulated and it is left to the reader to fill in the symmetric definition or statement if required.
+Small categories as generalizations of semigroups
+Let H be a small category.
+In the sequel the objects of H play no role, and therefore we shall identify H with the set of morphisms of H.
+We denote by H0 the set of identity morphisms (representing the objects of the category).
+There are two maps s,t:H→H0 such that two elements a,b∈H are composable to a (uniquely determined) element ab∈H if and only if t(a)=s(b).22
+This choice of t and s is compatible with the usual convention for groupoids, but unfortunately opposite to the usual convention for categories.
+ For e,f∈H0 we set H(e,f)={a∈H|s(a)=e,t(a)=f}, H(e)=H(e,e), H(e,⋅)=⋃f′∈H0H(e,f′) and H(⋅,f)=⋃e′∈H0H(e′,f).
+Note that an element e∈H lies in H0 if and only if s(e)=t(e)=e, ea=a for all a∈H(e,⋅) and ae=a for all a∈H(⋅,e).
+A semigroup may be viewed as a category with a single object (corresponding to its identity element), and elements of the semigroup as morphisms with source and target this unique object.
+In this way the notion of a small category generalizes the usual notion of a semigroup (H is a semigroup if and only if |H0|=1).
+We will consider a semigroup to be a small category in this sense whenever this is convenient, without explicitly stating this anymore.
+For A,B⊂H we write AB={ab∈H|a∈A,b∈Bandt(a)=s(b)} for the set of all possible products, and if b∈H, then Ab=A{b} and bA={b}A.
+An element a∈H is called left-cancellative if it is an epimorphism (ab=ac implies b=c for all b,c∈H(t(a),⋅)), and it is called right-cancellative if it is a monomorphism (ba=ca implies b=c for all b,c∈H(⋅,s(a))), and cancellative if it is both.
+The set of all cancellative elements is denoted by H•, and H is called cancellative if H=H•.
+The set of isomorphisms of H will also be called the set of units, and we denote it by H×.
+A subcategory D⊂H is wide if D0=H0.
+In line with the multiplicative notation, if H and D are two small categories, we call a functor f:H→D a homomorphism (of small categories).
+Explicitly, a map f:H→D is a homomorphism if f(H0)⊂D0 and whenever a,b∈H with t(a)=s(b) then also f(a)⋅f(b) is defined (i.e., t(f(a))=s(f(b))) and f(ab)=f(a)f(b).
+If H is a commutative semigroup, and D⊂H is a subsemigroup, then a localization D-1H with an embedding H↪D-1H exists whenever all elements of D are cancellative, and in particular H has a group of fractions if and only if H is cancellative.
+If H is a non-commutative semigroup and D⊂H, then a semigroup of right fractions with respect to D, HD-1, in which every element can be represented as a fraction ad-1 with a∈H, d∈D, together with an embedding H↪HD-1, exists if and only if D is cancellative and D satisfies the right Ore condition, meaning aD∩dH≠∅ for all a∈H and d∈D.
+For a semigroup of left fractions, D-1H, one gets the analogous left Ore condition, and if D satisfies both, the left and the right Ore condition, then every semigroup of right fractions is a semigroup of left fractions and conversely.
+In this case we write D-1H=HD-1.
+If H• satisfies the left and right Ore condition, we also write q(H)=H(H•)-1=(H•-1)H for the corresponding semigroup of fractions.
+The notion of semigroups of fractions generalizes to categories of fractions with analogous conditions [23].
+Let H be a small category, and D⊂H• a subset of the cancellative elements.
+Then D admits a calculus of right fractions if D is a wide subcategory of H and it satisfies the right Ore condition, i.e., aD∩dH≠∅ for all a∈H and d∈D with s(a)=s(d).
+In that case there exists a small category HD-1 with (HD-1)0=H0 and an embedding j:H→HD-1 (i.e., j is a faithful functor) with j|H0=id and such that every element of HD-1 can be represented in the form j(a)j(d)-1 with a∈H, d∈D and t(a)=t(d), j(D)⊂H× and it is universal with respect to that property, i.e., if f:H→S is any homomorphism with f(D)⊂S×, then there exists a unique D-1f:HD-1→S such that D-1f∘j=f.
+We can assume H⊂HD-1 and take j to be the inclusion map, and we call HD-1 the category of right fractions of H with respect to D.
+If D also admits a left calculus of fractions, then HD-1 is also a category of left fractions, and we write HD-1=D-1H.
+A monoid is a cancellative semigroup satisfying the left and right Ore condition (following the convention of [25]).
+Every monoid has a (left and right) group of fractions which is unique up to unique isomorphism.
+A semigroup H is called normalizing if aH=Ha for all a∈H.
+It is easily checked that a normalizing cancellative semigroup is already a normalizing monoid.
+Let M be a directed multigraph (i.e., a quiver).
+For every edge a of M we write s(a) for the vertex that is its source and t(a) for the vertex that is its target.
+The path category on M, denoted by F(M), is defined as follows: It consists of all tuples y=(e,a1,…,ak,f) with k∈N0, e, f vertices of M and a1,…,ak edges of M with either k=0 and e=f or k>0, s(a1)=e, t(ai)=s(ai+1) for all i∈[1,k-1] and t(ak)=f.
+The set of identities F(M)0 is the set of all tuples with k=0, and given any tuple y as above, s(y)=(e,e) and t(y)=(f,f).
+Composition is defined in the obvious manner by concatenating tuples and removing the two vertices in the middle.
+We identify the set of vertices of M with F(M)0 so that (e,e)=e.
+Every subset M of a small category H will be viewed as a quiver, with vertices {s(a)|a∈M}∪{t(a)|a∈M} and for each a∈M a directed edge (again called a) from s(a) to t(a).
+Groupoids
+A groupoid G is a small category in which every element is a unit (i.e., every morphism is an isomorphism).
+If e,f,e′,f′∈G0 and there exist a∈G(e,f) and b∈G(e′,f′), then(1){G(e,e′)→G(f,f′),x↦a-1xb is a bijection.
+For all e∈G0 the set G(e) is a group, called the vertex group or isotropy group of G at e.
+If f∈G0 and a∈G(e,f), then, taking b=a, the map in (1) is a group isomorphism from G(e) to G(f).
+If G(e) is abelian, it can be easily checked that this isomorphism does not depend on the choice of a: If a,a′∈G(e,f), thena′(a-1xa)a′-1=(a′a-1)x(aa′-1)=(a′a-1)(aa′-1)x=x.
+In particular, if G is connected (meaning G(e,e′)≠∅ for all e,e′∈G0) and one vertex group is abelian, then all vertex groups are abelian, and they are canonically isomorphic.
+In this case we define for e∈G0 and x∈G(e) the set (x)={a-1xa|a∈G(e,⋅)}, and the universal vertex group asG={(x)|x∈G(e),e∈G0}.
+G indeed has a natural abelian group structure: For every e∈G0 there is a bijection je:G(e)→G, x↦(x) inducing the structure of an abelian group on G, and because the diagrams commute for every choice of e,f∈G0 and a∈G(e,f), this group structure is independent of the choice of e, yielding a canonical group isomorphism je:G(e)→G for every e∈G0.
+We will use calligraphic letters to denote elements of G.
+If X∈G, then the unique representative of X in G(e), je-1(X), will be denoted by Xe.
+If G is a groupoid, and H⊂G is a subcategory, then HH-1 denotes the set of all right fractions of elements of H.
+Furthermore, HH-1⊂G is a subgroupoid if and only if H satisfies the right Ore condition.
+Krull monoids and Krull rings
+A monoid H is called a Krull monoid if it is completely integrally closed (in other words, a maximal order) and satisfies the ACC on divisorial two-sided ideals.
+A prime Goldie ring R is a Krull ring if it is completely integrally closed and satisfies the ACC on divisorial two-sided ideals (equivalently, its monoid R• of cancellative elements is a Krull monoid; see [25]).
+The theory of commutative Krull monoids is presented in [32,27].
+The simplest examples of non-commutative Krull rings are classical maximal orders in central simple algebras over Dedekind domains (see Section 5.2).
+We discuss monoids of zero-sum sequences.
+Let G=(G,0G,+) be an additively written abelian group, GP⊂G a subset and let Fab(GP) be the (multiplicatively written) free abelian monoid with basis GP.
+Elements S∈Fab(GP) are called sequences over GP, and are written in the form S=g1⋅⋯⋅gl where l∈N0 and g1,…,gl∈GP.
+We denote by |S|=l the length of S. Such a sequence S is said to be a zero-sum sequence if σ(S)=g1+⋯+gl=0G.
+The submonoidB(GP)={S∈Fab(GP)|σ(S)=0}⊂Fab(GP) is called the monoid of zero-sum sequences over GP.
+It is a reduced commutative Krull monoid, which is finitely generated whenever GP is finite [27, Theorem 3.4.2].
+Moreover, every commutative Krull monoid possesses a transfer homomorphism onto a monoid of zero-sum sequences, and thus B(GP) provides a model for the factorization behavior of commutative Krull monoids [27, Section 3.4].
+Arithmetical invariants
+In this section we introduce our main arithmetical invariants (rigid factorizations, sets of lengths, sets of distances) and transfer homomorphisms in the setting of cancellative small categories.
+Throughout this section, let H be a cancellative small category.
+H is reduced if H×=H0.
+An element u∈H∖H× is an atom (or irreducible) if u=bc with b,c∈H implies b∈H× or c∈H×.
+By A(H) we denote the set of all atoms of H, and call H atomic if every a∈H∖H× can be written as a (finite) product of atoms.
+A left ideal of H is a subset I⊂H with HI⊂I, and a right ideal of H is defined similarly.
+A principal left (right) ideal of H is a set of the form Ha (aH) for some a∈H.
+If H is a commutative monoid, then p∈H∖H× is a prime element if p|ab implies p|a or p|b for all a,b∈H.
+Proposition 3.1
+If H satisfies the ACC on principal left and right ideals, then H is atomic.
+Proof
+We first note that if a,b∈H then aH=bH if and only if a=bε with ε∈H×, and similarly Ha=Hb if and only if a=εb with ε∈H×.
+[We only show the statement for the right ideals.
+The non-trivial direction is showing that aH=bH implies a=bε.
+Since aH=bH implies a=bx and b=ay with x,y∈H, we get a=a(yx) and b=b(xy).
+Since H is cancellative, this implies xy=t(b)=s(x) and yx=t(a)=s(y), hence y=x-1 and therefore x,y∈H×.] Claim A
+If a∈H∖H×, then there exist u∈A(H) and a0∈H such that a=ua0.
+Proof of Claim A
+Assume the contrary.
+Then the setΩ={a′H|a′∈H∖H× such that there are no u∈A(H),a0∈H with a′=ua0} is non-empty, and hence, using the ascending chain condition on the principal right ideals, possesses a maximal element aH with a∈H∖H×.
+Then a∉A(H), and therefore a=bc with b,c∈H∖H×.
+But aH⊊bH since c∉H×, and thus maximality of aH in Ω implies b=ub0 with u∈A(H) and b0∈H.
+But then a=u(b0c), a contradiction. □
+We proceed to show that every a∈H∖H× is a product of atoms.
+Again, assume that this is not the case.
+ThenΩ′={Ha′|a′∈H∖H× such that a′ is not a product of atoms} is non-empty, and hence possesses a maximal element Ha with a∈H∖H× (this time using the ascending chain condition on principal left ideals).
+Again a∉A(H) as otherwise it would be a product of atoms.
+By Claim A, a=ua0 with u∈A(H) and a0∈H.
+Since a∉A(H), a0∉H×.
+Moreover, Ha⊊Ha0 since u∉H× and therefore a0=u1⋅⋯⋅ul with l∈N and u1,…,ul∈A(H).
+Thus a=uu1⋅⋯⋅ul is a product of atoms, a contradiction. □
+The following definition provides a natural notion of an ordered factorization (called a rigid factorization) in a cancellative small category.
+It is modeled after a terminology by Cohn [14,15].
+Let F(A(H)) denote the path category on atoms of H.
+We defineH××rF(A(H))={(ε,y)∈H××F(A(H))|t(ε)=s(y)}, and define an associative partial operation on H××rF(A(H)) as follows: If (ε,y),(ε′,y′)∈H××rF(A(H)) with ε,ε′∈H×,y=(e,u1,u2,…,uk,f)∈F(A(H))andy′=(e′,v1,v2,…,vl,f′)∈F(A(H)), then the operation is defined if t(y)=s(ε′), and(ε,y)⋅(ε′,y′)=(ε,(e,u1,…,ukε′,v1,v2,…,vl,f′))if k>0, while (ε,y)⋅(ε′,y′)=(εε′,y′) if k=0.
+In this way H××rF(A(H)) is again a cancellative small category (with identities {(e,(e,e))|e∈H0} that we identify with H0 again, s(ε,y)=s(ε) and t(ε,y)=t(y)).
+We define a congruence relation ∼ on it as follows: If (ε,y),(ε′,y′)∈H××rF(A(H)) with y, y′ as before, then (ε,y)∼(ε′,y′) if k=l, εu1⋅⋯⋅uk=ε′v1⋅⋯⋅vl∈H and either k=0 or there exist δ2,…,δk∈H× and δk+1=t(uk) such thatε′v1=εu1δ2-1andvi=δiuiδi+1-1for all i∈[2,k].
+Definition 3.2
+The category of rigid factorizations of H is defined asZ⁎(H)=(H××rF(A(H)))/∼.
+For z∈Z⁎(H) with z=[(ε,(e,u1,u2,…,uk,f))]∼ we write z=εu1⁎⋯⁎uk and the operation on Z⁎(H) is also denoted by ⁎.
+The length of z is |z|=k.
+There is a surjective homomorphism π:Z⁎(H)→H, induced by multiplying out the elements of the factorization in H, explicitly π(z)=εu1u2⋅⋯⋅uk∈H.
+For a∈H, we define Z⁎(a)=ZH⁎(a)=π-1({a}) to be the set of rigid factorization of a.
+To simplify the notation, we make the following conventions:•
+If, for a rigid factorization z=εu1⁎⋯⁎uk∈Z⁎(H), we have k>0 (i.e., π(z)∉H×), then the unit ε can be absorbed into the first factor u1 (replacing it by εu1), and we can essentially just work in F(A(H))/∼, with ∼ defined to match the equivalence relation on H××rF(A(H)).
+•
+If H is reduced but |H0|>1, we often still write s(u1)u1⁎⋯⁎uk instead of the shorter u1⁎⋯⁎uk, as k=0 is allowed and in the path category there is a different empty path for every e∈H0.
+Remark 3.3
+1.
+If H is reduced, then Z⁎(H)=F(A(H)).
+If H is not reduced, the H× factor allows us to represent trivial factorizations of units, and the equivalence relation ∼ allows us to deal with trivial insertion of units.
+In the commutative setting these technicalities can easily be avoided by identifying associated elements and passing to the reduced monoid Hred={aH×|a∈H}.
+Unfortunately, associativity (left, right or two-sided) is in general no congruence relation in the non-commutative case.
+2.
+If H is a commutative monoid, then Z⁎(H)≅H××F(A(Hred)), where F(A(Hred)) is the free monoid on A(Hred), while a factorization in this setting is usually defined as an element of the free abelian monoid Z(H)=Fab(A(Hred)), implying in particular that factorizations are unordered while rigid factorizations are ordered.
+The homomorphism π:Z⁎(Hred)→Hred obviously factors through the multiplication homomorphism Z(Hred)→Hred, and the fibers consist of the different permutations of a factorization.
+In the following we will only be concerned with invariants related to the lengths of factorizations, which may as well be defined using rigid factorizations.
+Definition 3.4
+Let a∈H.1.
+We callL(a)=LH(a)={|z|∈N0|z∈Z⁎(a)} the set of lengths of a.
+2.
+The system of sets of lengths of H is defined as L(H)={L(a)⊂N0|a∈H}.
+3.
+A positive integer d∈N is a distance of a if there exists an l∈L(a) such that {l,l+d}∈L(a) and L(a)∩[l+1,l+d-1]=∅.
+The set of distances of a is the set consisting of all such distances and is denoted by Δ(a)=ΔH(a).
+The set of distances of H is defined asΔ(H)=⋃a∈HΔ(a).
+4.
+We define Uk(H)=⋃L∈L(H),k∈LL for k∈N0.
+5.
+H is half-factorial if |L(a)|=1 for all a∈H (equivalently, H is atomic and Δ(H)=∅).
+We write b|Hra if a∈Hb and similarly b|Hla if a∈bH.
+Definition & Lemma 3.5
+Let H⊂D be subcategories of a groupoid.
+The following are equivalent:(a)
+For all a,b∈H, b|Dra implies b|Hra.
+(b)
+HH-1∩D=H.
+ H⊂D is called right-saturated if these equivalent conditions are fulfilled.
+Proof
+(a) ⇒ (b): Let c=ab-1 with a,b∈H, t(a)=t(b) and c∈D.
+Then cb=a, i.e., b|Dra and hence also b|Hra.
+Since the left factor is uniquely determined as c=ab-1, it follows that c∈H.
+(b) ⇒ (a): Let b|Dra.
+There exists c∈D with cb=a, and thus c=ab-1.
+Therefore c∈HH-1∩D=H, hence b|Hra. □
+Definition 3.6
+Let B be a reduced cancellative small category.
+A homomorphism θ:H→B is called a transfer homomorphism if it has the following properties:(T1)
+B=θ(H) and θ-1(B0)=H×.
+(T2)
+If a∈H, b1,b2∈B and θ(a)=b1b2, then there exist a1,a2∈H such that a=a1a2, θ(a1)=b1 and θ(a2)=b2.
+The notion of a transfer homomorphism plays a central role in studying sets of lengths.
+It is easily checked that the following still holds in our generalized setting (cf.
+[27, §3.2] for the commutative case, [25, Proposition 6.4] for the non-commutative monoid case).
+Proposition 3.7
+If θ:H→B is a transfer homomorphism, then LH(a)=LB(θ(a)) for all a∈H and hence all invariants defined in terms of lengths coincide for H and B.
+In particular,•
+L(H)=L(B),
+•
+Uk(H)=Uk(B) for all k∈N0,
+•
+ΔH(a)=ΔB(θ(a)) for all a∈H, and Δ(H)=Δ(B).
+Proposition 3.8
+Let H be a cancellative small category, G a finite abelian group and θ:H→B(G) a transfer homomorphism.
+Then H is half-factorial if and only if |G|⩽2.
+If |G|⩾3, then we have1.
+Δ(H) is a finite interval, and if it is non-empty, then minΔ(H)=1,
+2.
+for every k⩾2, the set Uk(H) is a finite interval,
+3.
+there exists an M∈N0 such that for every a∈H the set of lengths L(a) is an almost arithmetical multiprogression (AAMP) with difference d∈Δ(H) and bound M.
+Proof
+By the previous lemma it is sufficient to show these statements for the monoid of zero-sum sequences B(G) over a finite abelian group G.
+B(G) is half-factorial if and only if |G|⩽2 by [27, Proposition 2.5.6].
+The first statement is proven in [29], the second can be found in [24, Theorem 3.1.3].
+For the definition of AAMPs and a proof of 3 see [27, Chapter 4]. □
+The description in 3 is sharp by a realization theorem of W.A.
+Schmid [49].
+Factorization of integral elements in arithmetical groupoids
+In this section we introduce arithmetical groupoids and study the factorization behavior of integral elements.
+In Section 5 we will see that the divisorial fractional one-sided ideals of suitable semigroups form such groupoids.
+Thus in non-commutative semigroups arithmetical groupoids generalize the free abelian group of divisorial fractional two-sided ideals familiar from the commutative setting (see Proposition 4.6 and Remark 4.16).
+This abstract approach to factorizations was first used by Asano and Murata in [5].
+We follow their ideas and also those of Rehm in [45,46], who studies factorizations of ideals in rings in a different abstract framework.
+The notation and terminology for lattices follows [30], a reference for l-groups is [51].
+Proposition 4.12 is the main result on factorizations of integral elements in a lattice-ordered groupoid (due to Asano and Murata).
+We introduce an abstract norm homomorphism η, and as the main result in this section, we present a transfer homomorphism to a monoid of zero-sum sequences in Theorem 4.15.
+Definition 4.1
+A lattice-ordered groupoid (G,⩽) is a groupoid G together with a relation ⩽ on G such that for all e,f∈G01.
+(G(e,⋅),⩽|G(e,⋅)) is a lattice (we write ∧e′ and ∨e′ for the meet and join),
+2.
+(G(⋅,f),⩽|G(⋅,f)) is a lattice (we write ∧f″ and ∨f″ for the meet and join),
+3.
+(G(e,f),⩽|G(e,f)) is a sublattice of both G(e,⋅) and G(⋅,f).
+Explicitly: For all a,b∈G(e,f) it holds that a∧e′b=a∧f″b∈G(e,f) and a∨e′b=a∨f″b∈G(e,f).
+If a,b∈G and s(a)=s(b) we write a∧b=a∧s(a)′b and a∨b=a∨s(a)′b.
+If t(a)=t(b) we write a∧b=a∧t(a)″b and a∨b=a∨t(a)″b.
+By 3 this is unambiguous if s(a)=s(b) and t(a)=t(b) both hold.
+The restriction of ⩽ to any of G(e,⋅), G(⋅,f) or G(e,f) will in the following simply be denoted by ⩽ again.
+(Keep in mind however that ⩽ need not be a partial order on the entire set G, and ∧ and ∨ do not represent meet and join operations on the entire set G in the order-theoretic sense.)
+An element a of a lattice-ordered groupoid is called integral if a⩽s(a) and a⩽t(a), and we write G+ for the subset of all integral elements of G.
+Definition 4.2
+A lattice-ordered groupoid G is called an arithmetical groupoid if it has the following properties for all e,f∈G0:(P1)
+For a∈G, a⩽s(a) if and only if a⩽t(a).
+(P2)
+G(e,⋅) and G(⋅,f) are modular lattices.
+(P3)
+If a⩽b for a,b∈G(e,⋅) and c∈G(⋅,e), then ca⩽cb.
+Analogously, if a,b∈G(⋅,f) and c∈G(f,⋅), then ac⩽bc.
+(P4)
+For every non-empty subset M⊂G(e,⋅)∩G+, sup(M)∈G(e,⋅) exists, and similarly for M⊂G(⋅,f)∩G+.
+If moreover M⊂G(e,f) then supG(e,⋅)(M)=supG(⋅,f)(M).
+(P5)
+G(e,f) contains an integral element.
+(P6)
+G(e,⋅) and G(⋅,f) satisfy the ACC on integral elements.
+For the remainder of this section, let G be an arithmetical groupoid.
+P5 implies in particular G(e,f)≠∅ for all e,f∈G0, i.e., G is connected.
+If e,e′∈G0 and c∈G(e′,e), then G(e,⋅)→G(e′,⋅), x↦cx is an order isomorphism by P3, and similarly every d∈G(f,f′) induces an order isomorphism from G(⋅,f) to G(⋅,f′).
+P2 could therefore equivalently be required for a single e and a single f∈G0.
+Moreover, since the map (G(e,⋅),⩽)→(G(⋅,e),⩾), x↦x-1 is also an order isomorphism (Lemma 4.3.1) and the property of being modular is self-dual, it is in fact sufficient that one of G(e,⋅) and G(⋅,e) is modular for one e∈G0.
+Using P5 we also observe that it is sufficient to have the ACC on integral elements on one G(e,⋅) and one G(⋅,f): If, say, a1⩽a2⩽a3⩽⋯ is an ascending chain of integral elements in G(e′,⋅) and c∈G(e,e′) is integral, then ca1⩽ca2⩽ca3⩽⋯ is an ascending chain of integral elements in G(e,⋅) (Lemma 4.3.2), hence becomes stationary, and multiplying by c-1 from the left again shows that the original chain also becomes stationary.
+We summarize some basic properties that follow immediately from the definitions.
+Lemma 4.3
+Let e,f∈G0.1.
+a⩽x⇔a-1⩾x-1 holds if either a,x∈G(e,⋅) or a,x∈G(⋅,f).
+In particular, for a∈G the following are equivalent: (a) a⩽s(a); (b) a⩽t(a); (c) a-1⩾s(a); (d) a-1⩾t(a).
+2.
+Let a∈G(e,f).
+If x∈G(⋅,e) and y∈G(f,⋅) are integral, then xa⩽a and ay⩽a.
+3.
+If a∈G(e,f), x∈G(⋅,e) and y∈G(f,⋅), then(i)
+x(a∨b)=xa∨xb and x(a∧b)=xa∧xb if b∈G(e,⋅),
+(ii)
+(a∨b)y=ay∨by and (a∧b)y=ay∧by if b∈G(⋅,f).
+4.
+Let ∅≠M⊂G(e,⋅) and x∈G(⋅,e).
+If supG(e,⋅)(M) exists, then also supG(s(x),⋅)(xM) exists, and sup(xM)=xsup(M).
+Moreover, then also infG(⋅,e)(M-1) exists and inf(M-1)=sup(M)-1.
+Analogous statements hold for ∅≠M⊂G(⋅,f) and x∈G(f,⋅).
+5.
+G(e,⋅), G(⋅,f), G(e,f) and in particular G(e) are conditionally complete as lattices.
+6.
+The set G+ of all integral elements forms a reduced wide subcategory of G, and G=q(G+) is the groupoid of (left and right) fractions of this subcategory.
+7.
+For every a∈G(e,f), there exist b∈G(e) and c∈G(f) with b⩽a and c⩽a.
+Proof
+1. Assume first s(x)=s(a).
+By P3, a⩽x if and only if x-1a⩽t(x).
+By P1 this is equivalent to x-1a⩽t(a).
+Again by P3 this is equivalent to x-1⩽a-1.
+The case t(x)=t(a) is proven similarly.
+(a) ⇔ (b) and (c) ⇔ (d) by P1.
+For (a) ⇔ (c) set x=s(a).
+2. Since x⩽t(x)=s(a), we have xa⩽s(a)a=a by P3.
+Similarly, by⩽y.
+3. We show (i), (ii) is similar.
+Since a⩽a∨b and b⩽a∨b, P3 implies xa⩽x(a∨b) and xb⩽x(a∨b), thus xa∨xb⩽x(a∨b).
+Thereforea∨b=(x-1xa)∨(x-1xb)⩽x-1(xa∨xb), and multiplying by x from the left gives x(a∨b)⩽xa∨xb.
+Dually, x(a∧b)=xa∧xb.
+4. Let c=sup(M).
+Then for all m∈M, xm⩽xc, hence xc is an upper bound for xM.
+If d∈G(s(x),⋅) is another upper bound for xM, then m⩽x-1d for all m∈M, hence c⩽x-1d and thus xc⩽d.
+Therefore xc=sup(xM).
+For d∈G(e,⋅) we have m⩽d for all m∈M if and only if m-1⩾d-1 (in G(⋅,e)), and inf(M-1)=sup(M)-1 follows.
+5. We show the claim for G(e,⋅), for G(⋅,f) the proof is similar.
+Let ∅≠M⊂G(e,⋅) be bounded, say x⩽m⩽y for some x,y∈G(e,⋅) and all m∈M.
+Then y-1M⊂G(t(y),⋅) is integral, hence sup(y-1M) exists by P4, and sup(M)=ysup(y-1M) by 4.
+Similarly, M-1x⊂G(⋅,t(x)) is integral, and therefore sup(M-1x) exists, implying inf(M)=sup(M-1)-1=xsup(M-1x)-1.
+The proof for G(e,f) is similar but uses in addition supG(t(y),⋅)(y-1M)=supG(⋅,f)(y-1M) (from P4), to ensure that the supremum lies in G(e,f) again.
+6. By 2 and the fact that every e∈G0 is integral by definition, G+ forms a wide subcategory of G.
+If a∈G+∖G0, then a<s(a), thus a-1>s(a) and therefore a-1 is not integral.
+Hence the subcategory of integral elements is reduced.
+Let x∈G and e=s(x).
+Then a=x∧e⩽e, hence a is integral.
+Since a⩽x, also x-1a⩽t(x) is integral.
+Set b=x-1a.
+Then x=ab-1 with a,b∈G+.
+Similarly one can find c,d∈G+ with x=d-1c.
+7. By P5 there exist integral b′∈G(f,e) and c′∈G(e,f).
+Set b=ab′ and c=c′a.
+Then b⩽a, c⩽a and b∈G(e), c∈G(f). □
+For e,f∈G it is immediate from the definitions that G+(e,⋅)=G(e,⋅)∩G+, G+(⋅,f)=G(⋅,f)∩G+ and G+(e,f)=G(e,f)∩G+.
+Moreover, G+(e,⋅) is a sublattice of G(e,⋅), G+(⋅,f) is a sublattice of G(⋅,f), and G+(e,f) is a sublattice of G(e,f).
+If a,b∈G+(e,⋅), then a⩽b if and only if b|G+la as a=b(b-1a), and b-1a is integral if and only if a⩽b.
+Similarly, if a,b∈G+(⋅,f), then a⩽b if and only if b|G+ra.
+Correspondingly, for integral elements with the same left (right) identity, we may view the join and meet operations as left (right) gcd and lcm.
+Definition & Lemma 4.4
+For u∈G the following are equivalent:(a)
+u is maximal in G+(s(u),⋅)∖{s(u)},
+(b)
+u is maximal in G+(⋅,t(u))∖{t(u)},
+(c)
+u∈A(G+).
+ An element u∈G satisfying these equivalent conditions is called maximal integral.
+Proof
+(a) ⇒ (b): By definition, u is maximal in G(s(u),⋅) with u<s(u).
+If u⩽y<t(u) with y∈G(⋅,t(u)), then uy-1⩽yy-1=s(y), hence uy-1∈G(s(u),⋅) is integral, and therefore u<uy-1⩽s(u).
+By maximality of u in the first set, therefore uy-1=s(u), whence y=u and u is maximal in the second set.
+(b) ⇒ (c): Assume u=vw with v,w∈G+∖G0.
+Then u<w<t(u), contradicting the maximality of u in G+(⋅,t(u)).
+(c) ⇒ (a): Let v∈G+(s(u),⋅) with u⩽v<s(u).
+Then u=v(v-1u) with v and v-1u integral, and since v∉G0 necessarily v-1u∈G0, i.e., u=v. □
+Lemma 4.5
+Let U be an l-group.
+For p∈U the following are equivalent:(a)
+p is maximal integral,
+(b)
+p is a prime element in U+,
+(c)
+p∈A(U+).
+Proof
+(a) ⇔ (c) is shown as in Definition & Lemma 4.4.
+It suffices to show (a) ⇒ (b) and (b) ⇒ (c).
+Let e be the identity of U.
+(a) ⇒ (b): Let p be maximal in U+ with p≠e.
+Assume p|ab for a,b⩽e.
+That means ab⩽p.
+Assume a⩽̸p.
+Then b=(a∨p)b=ab∨pb⩽p∨pb=p, i.e., p|b.
+(b) ⇒ (c): Let p be a prime, p=ab with a,b⩽e.
+Say p|a, i.e., a⩽p.
+Then a⩽p⩽a implies p=a and therefore b=e. □
+Proposition 4.6
+1.
+If G is a group (i.e., |G0|=1), then G is the free abelian group with basis A(G+), and G+ is the free abelian monoid with basis A(G+).
+Moreover gcd(a,b)=a∨b and lcm(a,b)=a∧b.
+2.
+Let M be a set, F the free abelian group with basis M, and H⊂F the free abelian monoid with the same basis.
+A lattice order is defined on F by a⩽b if a=cb with c∈H, and (F,⩽) is an arithmetical groupoid with F+=H and M=A(F+).
+3.
+For every e∈G0, the group isomorphism je:G(e)→G induces the structure of an arithmetical groupoid on G, and the induced structure on G is independent of the choice of e.
+G (G(e)) is a free abelian group and G+ (G(e)+) is a free abelian monoid with basis A(G+) (A(G(e)+)).
+Moreover, je(G(e)+)=G+ and je(A(G(e)+))=A(G+).
+Proof
+1. G is an l-group, and by Lemma 4.3.5 it is conditionally complete.
+Therefore G is commutative [51, Theorems 2.3.1(d) and 2.3.9].
+Since it satisfies the ACC on integral elements, G+ is atomic (Proposition 3.1).
+By the previous lemma, every atom of G+ is a prime element, and therefore G+ is factorial.
+Because it is also reduced, G+ is the free abelian monoid with basis A(G+).
+Now G=q(G+) implies that G is the free abelian group with basis A(G+).
+Finally, gcd(a,b)=a∨b and gcd(a,b)=a∧b for a,b∈G+ follow because c⩽d if and only if d|c for all c,d∈G+.
+2. Clearly ⩽ defines a lattice order on F, and the properties of an arithmetical groupoid are, except for P2, either trivial, or easily checked.
+For P2 recall that every l-group is distributive, hence modular, as a lattice [51, Theorem 2.1.3(a)].
+Now F+=H and A(F+)=M are immediate from the definitions.
+3. For every e∈G0 the vertex group G(e) is an arithmetical groupoid, as is easily checked.
+Via the group isomorphism je:G(e)→G therefore G gains the structure of an arithmetical groupoid.
+If f∈G0 and c∈G(e,f), then for all x,y∈G(e) we have x⩽y⇔c-1xc⩽c-1yc, and since jf-1∘je(x)=c-1xc, the induced order on G is independent of the choice of e.
+By 1, applied to G, respectively G(e), the remaining claims follow (for je(A(G+))=A(G(e)+) use the characterization of atoms as maximal integral elements from Lemma 4.5). □
+Let [a,b], [c,d] be intervals in a lattice.
+Recall that [a,b] is down-perspective to [c,d] if c=a∧d and b=a∨d.
+Moreover, [a,b] is perspective to [c,d] if either [a,b] is down-perspective to [c,d], or [c,d] is down-perspective to [a,b].
+The intervals [a,b], [c,d] are projective if there exists a finite sequence of intervals [a,b]=[a0,b0],[a1,b1],…,[ak,bk]=[c,d] such that [ai-1,bi-1] is perspective to [ai,bi] for all i∈[1,k].
+(See [30, Chapter I.3.5].)
+Definition 4.7
+1.
+An element a∈G+(e,f) is transposable to an element b∈G+(e′,f′) if there exists an element c∈G+(e,e′) such that [a,e] is down-perspective to [cb,c].
+Explicitly: b=c-1(c∧a) and c∨a=e.
+2.
+An element a∈G+ is projective to an element b∈G+ if there exists a sequence of integral elements a=c0,c1,…,cn,cn+1=b, such that for any pair of successive elements (ci,ci+1) either ci is transposable to ci+1 or ci+1 is transposable to ci.
+It is easily checked that being transposable is a transitive and reflexive relation (but not symmetric), and projectivity is an equivalence relation.
+Note that in a modular lattice perspective intervals are isomorphic [30, p.
+308, Theorem 348], and therefore in particular the lengths of [a,s(a)] and [b,s(b)] coincide if a is projective to b.
+Lemma 4.8
+If a, b, c are as in the definition of transposability, then cb=c∧a=ad for some d∈G+ and c is transposable to d.
+Proof
+Since c∧a⩽a, there exists an integral d with ad=c∧a, and cb=c∧a by definition of transposability.
+The claim follows from d=a-1(c∧a) and c∨a=e. □
+Lemma 4.9
+If two lattice intervals [a,b] and [c,d] of G(e,⋅) are projective, then the integral elements b-1a and d-1c are projective to each other in the sense of the previous definition.
+Proof
+It suffices to show that if the lattice interval [a,b] is down-perspective to [c,d], then b-1a is transposable to d-1c.
+Then a=bx, d=by and c=dz=byz with x,y,z∈G+.
+Since [a,b] is down-perspective to [c,d], we getb=a∨d=bx∨by=b(x∨y)and thereforex∨y=s(x)=t(b),andc=a∧d=bx∧by=b(x∧y)and thereforex∧y=b-1c=yz.
+Thus d-1c=z=y-1(x∧y) with y∈G(t(b),t(d)), and hence x=b-1a is transposable to d-1c. □
+Definition & Lemma 4.10
+For every a∈G,{X∈G|Xs(a)⩽a}={X∈G|Xt(a)⩽a}, and we write G⩽a for this set.
+The lower bound Φ:G→G is defined by Φ(a)=sup(G⩽a).
+Proof
+Let X∈G.
+Recall from Section 2.2 that Xs(a)=js(a)-1(X) denotes the unique representative of X in G(s(a)), and that Xt(a)=a-1Xs(a)a.
+We have to show that Xs(a)⩽a if and only if Xt(a)⩽a, but this follows from Xs(a)⩽a⇔a-1Xs(a)a⩽a-1aa=a. □
+With the definition of Φ and the notation of Section 2.2 we have: If a∈G(e,f), then Φ(a)e=sup{x∈G(e)|x⩽a}∈G(e), Φ(a)f=sup{x∈G(f)|x⩽a}∈G(f), Φ(a)f=a-1Φ(a)ea=b-1Φ(a)eb for all b∈G(e,f) and Φ(a)=je(Φ(a)e)=jf(Φ(a)f).
+Lemma 4.11
+Let e,f∈G0.1.
+If a,b∈G(e,⋅) or a,b∈G(⋅,f) with a⩽b, then Φ(a)⩽Φ(b).
+In particular, if a∈G+, then Φ(a)∈G+.
+2.
+If a∈G(e,f), b∈G(f,⋅) then Φ(a)Φ(b)⩽Φ(ab).
+If moreover a,b∈G+, then Φ(ab)⩽Φ(a)∧Φ(b), and if furthermore Φ(a) and Φ(b) are coprime, then Φ(ab)=Φ(a)Φ(b).
+3.
+If u∈A(G+), then Φ(u)∈G+ is prime.
+4.
+Let u,v∈G+ be projective elements.
+If u∈A(G+), then v∈A(G+), and Φ(u)=Φ(v).
+Proof
+1. Immediate from the definition of Φ.
+2. Observe that c=a-1Φ(a)e∈G(f,e) is integral.
+ThereforeΦ(a)eΦ(b)e=acΦ(b)e=acc-1Φ(b)fc=aΦ(b)fc⩽aΦ(b)f⩽ab, and hence Φ(a)Φ(b)⩽Φ(ab).
+Let now a, b be integral.
+Then 1 implies Φ(ab)⩽Φ(a) and Φ(ab)⩽Φ(b), so Φ(ab)⩽Φ(a)∧Φ(b).
+The last statement follows because Φ(a)∧Φ(b)=lcm(Φ(a),Φ(b)) in G+.
+3. By Lemma 4.5 it suffices to show Φ(u)∈A(G+).
+If e=s(u), then it suffices to prove Φ(u)e∈A(G(e)+) (by Proposition 4.6.3).
+Assume that Φ(u)e=ab with a,b∈G(e) such that a<e and b<e.
+Then b∨u=e, since b>ab=Φ(u)e, and thereforeu⩾ab∨au=a(b∨u)=a, a contradiction to a>ab=Φ(u)e.
+4. We first show that v is maximal integral, and may assume that either u is transposable to v or v is transposable to u.
+Let e=s(u) and f=s(v).
+Assume first that u is transposable to v via c∈G+(e,f).
+Then [u,e] is down-perspective to [cv,c], and since G(e,⋅) is modular, the intervals are isomorphic, hence have the same length (namely 1).
+Multiplying from the left by c-1 therefore also [v,f] has length 1, and thus v is maximal integral.
+If v is transposable to u, one argues along similar lines.
+For the remainder of the claim we may now assume that u is transposable to v (since we already know that v is also maximal integral).
+Let again c∈G+(e,f) be such that cv=c∧u and e=c∨u.
+If p=Φ(u)e, then c-1pc=Φ(u)f.
+Since pc⩽c∧p⩽c∧u=cv, we get c-1pc⩽v and therefore Φ(v)⩾Φ(c-1pc)=Φ(Φ(u)f)=Φ(u).
+By 3, Φ(u) is prime and thus maximal integral in G+, which implies Φ(u)=Φ(v). □
+The converse of Lemma 4.11.3 is false in general: A non-maximal integral element can have a prime lower bound.
+Proposition 4.12
+1.
+The category G+ is half-factorial.
+Explicitly: Every a∈G+ possesses a rigid factorizations(a)u1⁎⋯⁎uk∈Z⁎(a) with k∈N0 and u1,…,uk∈A(G+) and the number of factors, k∈N0, is uniquely determined by a.
+Moreover, if s(a)v1⁎⋯⁎vk∈Z⁎(a) is another rigid factorization with v1,…,vk∈A(G+), then there exists a permutation τ∈Sk such that uτ(i) is projective to vi for all i∈[1,k].
+In particular, Φ(uτ(i))=Φ(vi) for all i∈[1,k].
+2.
+Any two rigid factorizations of a∈G+ can be transformed into each other by a number of steps, each of which only involves replacing two successive elements by two new ones.
+3.
+(Transposition.) If a=uv with u,v∈A(G+) and Φ(u)=P, Φ(v)=Q, Q≠P, then there exist uniquely determined v′,u′∈A(G+) such that Φ(v′)=Q, Φ(u′)=P and uv=v′u′.
+Explicitly,u′=a∨Pt(a),u′∧v=a,u′∨v=t(a),v′=a∨Qs(a),u∧v′=a,u∨v′=s(a). So u is transposable to u′ and v′ is transposable to v.
+4.
+Given any permutation τ′∈Sk, there exist w1,…,wk∈A(G+), such thats(a)w1⁎⋯⁎wk∈Z⁎(a) and Φ(wi)=Φ(uτ′(i)) for all i∈[1,k].
+Proof
+1, 2.
+We observe that rigid factorizations of a correspond bijectively to maximal chains of the sublattice [a,s(a)] of G(s(a),⋅): If s(a)u1⁎⋯⁎uk∈Z⁎(a), then s(a)>u1>u1u2>⋯>u1⋅⋯⋅uk=a is a chain in [a,s(a)] and since u1,…,uk are maximal integral, it is in fact a maximal chain of [a,s(a)].
+Conversely, if s(a)=x0>x1>x2>⋯>xk=a is a maximal chain of [a,s(a)] then we set ui=xi-1-1xi for all i∈[1,k].
+These elements are maximal integral, i.e., atoms of G+, and a=xk=s(a)x1(x1-1x2)⋅⋯⋅(xk-2-1xk-1)(xk-1-1xk)=s(a)u1⋅⋯⋅uk.
+By P6, [a,s(a)] satisfies the ACC, but also the DCC because if s(a)=x0⩾x1⩾⋯⩾a is a descending chain in [a,s(a)], then x0-1a⩽x1-1a⩽⋯⩽a-1a=t(a) is an ascending chain in G+(⋅,t(a)) and therefore becomes stationary again by P6.
+Being a modular lattice, [a,s(a)] is therefore of finite length.
+The claims now follow from the Jordan-Hölder Theorem for modular lattices (see e.g., [30, p.
+333, Theorem 377]).
+The existence of maximal chains implies that G+ is atomic (alternatively, use Proposition 3.1 together with the ACC on integral elements).
+For half-factoriality, and projectivity of the factors, assume that s(a)=x0>x1>x2>⋯>xk=a and s(a)=y0>y1>y2>⋯>yl=a are two maximal chains from which rigid factorizations with factors ui=xi-1-1xi for i∈[1,k] and vi=yi-1-1yi for i∈[1,l] are derived.
+Then the uniqueness part of the Jordan-Hölder Theorem implies k=l and that there exists a permutation τ∈Sk such that [xτ(i),xτ(i)-1] is projective to [yi,yi-1] for all i∈[1,k].
+By Lemma 4.9, this implies that uτ(i) is projective to vi for all i∈[1,k].
+Finally, 2 follows in a similar manner by induction on the length of a.
+Fix a composition series of [u1∧v1,a].
+This gives rise to refinements of s(a)>u1>u1∧v1>a and s(a)>v1>u1∧v1>a to composition series of [a,s(a)].
+Applying the induction hypothesis to u2⁎⋯⁎uk (respectively v2⁎⋯⁎vk), and the rigid factorization derived from the refined chain t(u1)>u1-1(u1∧v1)>⋯>u1-1a (respectively t(v1)>v1-1(u1∧v1)>⋯>v1-1a) one proves the claim.
+3. Let e=s(u), q=Qe and set v′=uv∨q.
+We first show: Claim A
+q⩽̸u.
+Claim B
+v′∧u=uv.
+Claim C
+v′ is maximal integral.
+Proof of Claim A
+Suppose q⩽u.
+Then Q⩽Φ(u)=P, a contradiction to P and Q being distinct prime elements of G+ (Lemma 4.11.3). □
+Proof of Claim B
+Since G(e,⋅) is modular and uv⩽u,v′∧u=(uv∨q)∧u=uv∨(q∧u).
+Because q⩽̸u (Claim A), we have q>q∧u⩾qu and thus, by maximality of u, qu=q∧u. Thereforeuv∨(q∧u)=uv∨qu=uv∨uQt(u)=u(v∨Qt(u))=uv.□
+Proof of Claim C
+Since uv is a product of two atoms and G+ is half-factorial, it suffices to show uv<v′<e.
+Suppose first uv=v′.
+Then q⩽uv⩽u, contradicting Claim A.
+Assume now v′=e.
+Then u=e∧u=v′∧u, and by Claim B therefore u=uv, contradicting v<s(v). □
+Existence. We have uv=v′u′ with v′∈A(G+) (by Claim C) and u′=v′-1uv∈G+.
+Since G+ is half-factorial, this necessarily implies u′∈A(G+).
+By definition of v′, Q⩽Φ(v′)<1G, where the latter inequality is strict because v′<e.
+Thus Φ(v′)=Q and 1 implies Φ(u′)=P.
+Uniqueness. If v″u″=uv with Φ(v″)=Q, then v″<e and v″⩾uv∨q=v′.
+By Claim C, v′ is maximal integral and thus v″=v′, and then also u″=u′.
+Explicit formulas.
+Since e⩾u∨v′⩾Φ(u)e∨Φ(v′)e=Pe∨Qe=(P∨Q)e=(1G)e=e, it follows that u∨v′=e.
+By Claim B, u∧v′=uv=a.
+The equalities u′=a∨Pt(a), u′∧v=a and u′∨v=t(a) are shown similarly.
+4. Write τ′ as a product of transpositions and use 3. □
+Proposition 4.12.3 gives an explicit and complete description of the possible relations between two maximal integral elements with coprime lower bound.
+The case where the lower bounds coincide is more complicated (there can be no relations, or many), but in the case where we will need it, it is quite simple (see Section 7.2).
+Corollary 4.13
+If H⊂G+ is a subcategory, then LH(a) is finite and non-empty for all a∈H.
+If for every prime P∈G+ and all (equivalently, one) e∈G0 the set {u∈A(G+)|Φ(u)=P and s(u)=e} is finite, then ZH⁎(a) is finite for all a∈H.
+Proof
+Using that G+ is reduced, it follows from P6 that H satisfies the ACC on principal left and right ideals, and hence ZH⁎(a)≠∅.
+If s(a)u1⁎⋯⁎uk∈ZH⁎(a) with k∈N0 and u1,…,uk∈A(H), then in particular ui<s(ui) for all i∈[1,k], and therefore k is bounded by the length of the factorization of a in G+.
+A similar argument shows the second claim. □
+The properties that all sets of lengths, respectively that all sets of factorizations, are finite have been studied a lot in the commutative setting.
+Note, if H is a commutative monoid and a∈H, then ZH(a) is finite if and only if ZH⁎(a) is finite.
+Definition & Lemma 4.14
+There exists a unique groupoid epimorphism η:G→G such that η(u)=Φ(u) for all u∈A(G+).
+We call η the abstract norm of G.
+Proof
+We need to show existence and uniqueness of such a homomorphism.
+Let a∈G+, and let s(a)u1⁎⋯⁎uk∈Z⁎(a) with u1,…,uk∈A(G+).
+Since the sequence of Φ(u1),…,Φ(uk) is, up to order, uniquely determined by a (Proposition 4.12), it follows that we can define η(a)=Φ(u1)⋅⋯⋅Φ(uk), and this is a homomorphism G+→G+ with η(u)=Φ(u) for all u∈A(G+).
+G is the category of (left and right) fractions of G+, and hence η extends to a unique groupoid homomorphism η:G→G.
+To verify that η is surjective, let first P∈G be a prime element of G+, and let e∈G0.
+Let u∈G+(e,⋅) be a maximal integral element with Pu⩽u.
+Then Φ(u)=P, and therefore η(u)=P.
+The claim follows since G is the free abelian group with basis A(G+). □
+In general η≠Φ, since Φ need not be a homomorphism, but from Lemma 4.11.2 it follows that for integral a the prime factorizations of Φ(a) and η(a) have the same support and vP(η(a))⩾vP(Φ(a)) for all primes P of G+.
+Theorem 4.15
+Let G be an arithmetical groupoid, η:G→G the abstract norm, H a right-saturated subcategory of G+, and C=G/q(η(H)).
+For G∈G set [G]=Gq(η(H))∈C, and CM={[η(u)]∈C|u∈A(G+)}.
+Assume that1.
+for a∈G with s(a)∈H0, a∈HH-1 if and only if η(a)∈q(η(H)),
+2.
+for every e∈G0 and g∈CM, there exists an element u∈A(G+) such that s(u)=e and [η(u)]=g.
+ Then there exists a transfer homomorphism θ:H→B(CM).
+Proof
+Let θ:H→B(CM) be defined as follows: For a∈H and s(a)u1⁎⋯⁎uk∈ZG+⁎(a) with u1,…,uk∈A(G+), set θ(a)=[η(u1)]⋅⋯⋅[η(uk)]∈B(CM) (in particular, identities are mapped to the empty sequence).
+We have to show that this definition depends only on a, and not on the particular rigid factorization into maximal integral elements chosen.
+Let s(a)v1⁎⋯⁎vk∈ZG+⁎(a) be another such rigid factorization.
+Then there exists a permutation τ∈Sk with η(ui)=Φ(ui)=Φ(vτ(i))=η(vτ(i)) (due to Proposition 4.12.1 and by definition of η).
+Therefore [η(u1)]⋅⋯⋅[η(uk)]=[η(v1)]⋅⋯⋅[η(vk)].
+With this definition θ is a homomorphism: Obviously θ(e)=1B(CM) for all e∈H0, and if b∈H with t(a)=s(b) and s(b)w1⁎⋯⁎wl∈Z⁎(b) is a rigid factorization of b into maximal integral elements, then s(a)u1⁎⋯⁎uk⁎w1⁎⋯⁎wl is a rigid factorization of ab. Thusθ(ab)=[η(u1)]⋅⋯⋅[η(uk)][η(w1)]⋅⋯⋅[η(wl)]=θ(a)θ(b).
+We still have to check that θ has properties T1 and T2.
+If θ(a)=1B(CM), then a possesses an empty factorization into maximal elements, hence a∈G0∩H=H0=H×.
+θ is surjective: θ(e)=1B(CM) for any e∈H0.
+Let k∈N and g1⋅⋯⋅gk∈B(CM).
+By definition of CM and our second assumption, there exists an element u1∈A(G+) with [η(u1)]=g1 and s(u1)∈H0.
+Again by our second assumption, for all i∈[2,k], there exist ui∈A(G+) with s(ui)=t(ui-1) and [η(ui)]=gi.
+With a=u1⋅⋯⋅uk∈G we get [η(a)]=[η(u1)⋅⋯⋅η(uk)]=[η(u1)]+⋯+[η(uk)]=0∈C and s(a)∈H0, and hence η(a)∈q(η(H)).
+By our first assumption, therefore a∈HH-1, and since moreover a is integral in G and H is right-saturated in G+, we get a∈H and θ(a)=g1⋅⋯⋅gk.
+θ satisfies T2: Let a∈H, θ(a)=ST with S,T∈B(CM) and S=g1⋅⋯⋅gk, T=gk+1⋅⋯⋅gl, where k∈N0 and l∈N⩾k.
+By Proposition 4.12.4, we can find a rigid factorization s(a)u1⁎⋯⁎ul∈Z⁎(a) with ui∈A(G+) and [η(ui)]=gi for all i∈[1,l].
+Let b=s(a)u1⋅⋯⋅uk and c=t(b)uk+1⋅⋯⋅ul.
+Then a=bc.
+Since s(b)∈H0 and [η(b)]=σ(S)=0, the first assumption implies b∈HH-1∩G+=H.
+Then s(c)∈H0 and c∈H follows similarly.
+Finally, θ(b)=S and θ(c)=T. □
+The theorem remains true if H is a left-saturated subcategory of G+, and in the first condition the set HH-1 is replaced by H-1H, and the condition s(a)∈H0 is replaced by t(a)∈H0.
+Similarly, one can replace the second condition by a symmetrical one, requiring t(u)=e instead of s(u)=e (in the proof of the surjectivity of θ one then first chooses uk, followed by uk-1 and so on).
+Remark 4.16
+If G is a group, then G+ is the free abelian monoid with basis A(G+) (Proposition 4.6).
+As a saturated submonoid of this free abelian monoid, H is therefore a reduced commutative Krull monoid [27, Theorem 2.4.8].
+Since η=idG and HH-1=η(H)η(H)-1 the first condition is trivially satisfied, and because of G0={1}, the second condition is also trivially satisfied.
+Conversely, let H be a normalizing Krull monoid.
+Then Hred={aH×|a∈H} is a reduced commutative Krull monoid, isomorphic to the monoid of its non-zero principal ideals [25, Corollary 4.14].
+The latter is a submonoid of the divisorial fractional ideals of H, which form the free abelian monoid of integral elements in the free abelian group of divisorial ideals of H.
+In this way we recover the well-known transfer homomorphism for Krull monoids as given for example in [27, Proposition 3.4.8] for commutative Krull monoids, and in [25, Theorem 6.5] for normalizing Krull monoids.
+We continue the discussion of normalizing Krull monoids in Remarks 5.17.2 and 5.24.1, where the divisorial two-sided ideal theory appears as a special case of the divisorial one-sided ideal theory.
+Divisorial ideal theory in semigroups
+In this section we develop a divisorial one-sided ideal theory in semigroups.
+This follows again original ideas of Asano and Murata and generalizes the corresponding theory in rings and the theory of divisorial two-sided ideals in cancellative semigroups (see [2,34,3,4,6,5,17] for classical treatments, and [42,32,33,25,36] for more modern treatments in this area).
+In particular, the one-sided ideal theory of classical maximal orders over Dedekind domains is a special case of the theory presented here.
+The divisorial fractional one-sided ideals with left- and right-orders maximal in a fixed equivalence class of orders form a groupoid as studied in the previous section (this was in fact the motivation for Brandt to introduce the notion of a groupoid, see [9,10]).
+We connect the factorization theory of elements of a maximal order H with the one for the cancellative small category of integral principal ideals with left- and right-order conjugate to H, and apply results from the previous section to the factorization of elements in H•.
+The main result in this section is Theorem 5.23.
+After having derived it we discuss in detail the case of rings, and of classical maximal orders (Section 5.1 and Section 5.2).
+A semigroup Q is called a quotient semigroup if every cancellative element is invertible in Q, in short Q•=Q×.
+A subsemigroup H⊂Q is a right order in Q if H(H∩Q•)-1=Q, and H is a left order in Q if (H∩Q•)-1H=Q.
+H is an order in Q if it is a left and a right order.
+We summarize the connection between a subsemigroup H⊂Q being an order, and Q being a semigroup of (left and right) fractions of H.
+Lemma 5.1
+Let Q be a quotient semigroup, and H⊂Q a subsemigroup.1.
+If H is an order in Q, then H•=H∩Q• and Q=q(H).
+2.
+If q(H)=Q, then H•=H∩Q• and H is an order in Q.
+3.
+If H is an order in Q, H′ is a subsemigroup of Q and there exist a,b∈Q• with aHb⊂H′, then H′ is an order in Q.
+Proof
+1. It suffices to show H•=H∩Q•, and the inclusion H∩Q•⊂H• is clear.
+Let a∈H•, and q,q′∈Q with aq=aq′.
+Since H is a right order in Q, there exist c,d∈H and s∈H∩Q• with q=cs-1 and q′=ds-1, where we can choose a common denominator because H∩Q• satisfies the right Ore condition in H.
+Then ac=ad, and, because a∈H•, also c=d, showing q=q′.
+Since H is a left order it follows in the same way that a is right-cancellative in Q•, and hence a∈H∩Q•.
+2. It again suffices to show H•=H∩Q•, and this follows in the same way as in 1.
+3. It suffices to show that every q∈Q has representations of the form q=cs-1=t-1d with c,d∈H′ and s,t∈H′∩Q•.
+Since H is an order in Q, there exist c′,d′∈H and s′,t′∈H∩Q• with a-1qa=c′s′-1 and bqb-1=t′-1d′.
+Setting c=ac′b, d=ad′b, s=as′b and t=at′b, the claim follows. □
+For the remainder of this section, let Q be a quotient semigroup.
+If H and H′ are orders in Q, then H is (Asano-)equivalent to H′, written H∼H′, if there exist a,b,c,d∈Q• with aHb⊂H′ and cH′d⊂H.
+This is an equivalence relation on the set of orders in Q.
+An order H is maximal if it is maximal within its equivalence class with respect to set inclusion.
+A feature of the non-commutative theory is that often there is no unique maximal order in a given equivalence class, and in fact in the most important cases we study there are usually infinitely many, but only finitely many conjugacy classes of them.
+In studying the divisorial one-sided ideal theory of a maximal order H, one has to study the ideal theory of all maximal orders in its equivalence class at the same time.
+Let H,H′⊂Q be subsemigroups (not necessarily orders), and let X,Y⊂Q.
+As in the previous sections XY={xy|x∈X,y∈Y}.
+X is a left H-module if HX⊂X, and a right H′-module if XH′⊂X.
+It is an (H,H′)-module if it is a left H- and a right H′-module, i.e., HXH′⊂X.
+We define(Y:rX)={q∈Q|Xq⊂Y}and(Y:lX)={q∈Q|qX⊂Y}.
+Every left H-module is an (H,{1})-module, and similarly every right H′-module is a ({1},H′)-module.
+We set Ol(X)=(X:lX) and Or(X)=(X:rX).
+Lemma 5.2
+Let H, H′ be subsemigroups of Q and let X be an (H,H′)-module.1.
+(H:rX) and (H′:lX) are (H′,H)-modules.
+2.
+X⊂(H:l(H:rX)) and X⊂(H′:r(H′:lX)).
+3.
+Ol(X) and Or(X) are subsemigroups of Q.
+4.
+(Ol(X):rX)=(Or(X):lX)={q∈Q|XqX⊂X}.
+5.
+X⊂Ol(X) if and only if X⊂Or(X) if and only if X2⊂X.
+Proof
+1. XH′(H:rX)H⊂X(H:rX)H⊂HH=H and similarly for (H′:lX).
+2. X(H:rX)⊂H by definition of (H:rX) and thus X⊂(H:l(H:rX)).
+The other identity is proven analogously.
+3. Clearly 1∈Ol(X) and Ol(X)Ol(X)X⊂Ol(X)X⊂X implies Ol(X)Ol(X)⊂Ol(X).
+The claim for Or(X) is shown similarly.
+4. We show (Ol(X):rX)={q∈Q|XqX⊂X}.
+Let q∈Q.
+Then XqX⊂X is equivalent to Xq⊂Ol(X), which in turn is equivalent to q∈(Ol(X):rX).
+5. Immediate from the definitions of Ol(X) and Or(X). □
+Definition 5.3
+For X⊂Q as in Lemma 5.2, we defineX-1=(Ol(X):rX)=(Or(X):lX)={q∈Q|XqX⊂X}andXv=(X-1)-1.
+Definition 5.4
+Let H and H′ be orders in Q.1.
+A fractional left H-ideal is a left H-module I such that I∩Q•≠∅ and (H:rI)∩Q•≠∅.
+2.
+A fractional right H′-ideal is a right H′-module I such that I∩Q•≠∅ and (H′:lI)∩Q•≠∅.
+3.
+If I is a fractional left H-ideal and a fractional right H′-ideal, then I is a fractional (H,H′)-ideal.
+4.
+A fractional H-ideal is a fractional (H,H)-ideal.
+5.
+I is a left H-ideal if it is a fractional left H-ideal and I⊂H.
+A right H′-ideal is defined analogously.
+6.
+If I is a left H-ideal and a right H′-ideal, then I is an (H,H′)-ideal.
+7.
+An H-ideal is an (H,H)-ideal.
+8.
+A fractional left H-ideal I is integral if I⊂Ol(I) (equivalently, I⊂Or(I)).
+The same definition is made for fractional right H′-ideals.
+If H is a maximal order, then the notions of a left H-ideal and that of an integral fractional left H-ideal coincide (this will follow from Lemma 5.6.1 and Lemma 5.6.2).
+We will sometimes call a fractional left (right) H-ideal one-sided to emphasize that it need not be a fractional right (left) H-ideal, or two-sided to emphasize that it is indeed a fractional H-ideal.
+We recall some properties of fractional left H-ideals and first observe the following.
+Lemma 5.5
+If H is an order in Q and I is a fractional left H-ideal, then Ol(I) and Or(I) are orders.
+I is a fractional (Ol(I),Or(I))-ideal.
+Proof
+Let a∈I∩Q•, and let b∈(H:rI)∩Q•.
+By definition, H⊂Ol(I) and since H is an order and Ol(I) a semigroup, it is also an order.
+Ol(I)I⊂I and b∈(Ol(I):rI) imply that I is a fractional left Ol(I)-ideal.
+Since b∈(Ol(I):rI)=(Or(I):lI), it holds that bOl(I)a⊂bI⊂Or(I), and since Or(I) is a semigroup and Ol(I) an order, Or(I) is also an order.
+Therefore I is also a fractional right Or(I)-ideal. □
+The previous lemma implies that it is no restriction to require I to be a fractional (H,H′)-ideal over it, say, being a fractional left H-ideal (set H′=Or(I)).
+Lemma 5.6
+Let H and H′ be orders in Q, and let I be a fractional (H,H′)-ideal.1.
+The orders H, H′, Ol(I) and Or(I) are all equivalent.
+2.
+If H is maximal, then Ol(I)=H, and similarly, if H′ is maximal, then Or(I)=H′.
+3.
+(H:rI) is a fractional right H-ideal, and (H′:lI) is a fractional left H′-ideal.
+4.
+If J is a fractional left H-ideal, then I∩J and I∪J are fractional left H-ideals.
+5.
+If (Im)m∈M is a non-empty family of left H-ideals for some index set M, then ⋃m∈MIm is a left H-ideal.
+6.
+If H″ is an order, and K is a fractional (H′,H″)-ideal, then IK is a fractional (H,H″)-ideal.
+Proof
+1. By definition of the right and left order, H⊂Ol(I) and H′⊂Or(I).
+Let a∈I∩Q•, b∈(H:rI)∩Q• and c∈(H′:lI)∩Q•.
+Then Ol(I)ab⊂Ib⊂H and caOr(I)⊂H′, so H∼Ol(I) and H′∼Or(I).
+Finally, cHa⊂cI⊂H′ and aH′b⊂H imply H∼H′.
+2. By 1, Ol(I)∼H and by definition of the left order H⊂Ol(I).
+Maximality of H implies H=Ol(I).
+Analogously, H′=Or(I) if H′ is maximal.
+3. (H:rI) is an (H′,H)-module, and (H:rI)∩Q•≠∅ because I is a fractional left H-ideal.
+Since I⊂(H:l(H:rI)), also (H:l(H:rI))∩Q•≠∅, and thus (H:rI) is a fractional right H-ideal.
+Similarly one shows that (H′:lI) is a fractional left H′-ideal.
+4. Clearly H(I∩J)⊂I∩J and if c∈(H:rI)∩Q•, then (I∩J)c⊂Ic⊂H.
+It remains to show I∩J∩Q•≠∅.
+Let a∈I∩Q• and b∈J∩Q•.
+Then a=a′s-1 and b=b′s-1 with a′,b′,s∈H∩Q• (we can choose a common denominator using the right Ore condition).
+By the left Ore condition there exist a″∈H∩Q• and b″∈H with a″a′=b″b′.
+Then a″a′s-1=b″b′s-1∈I∩J∩Q•.
+For the union, again H(I∪J)⊂I∪J, and there exists a∈(I∪J)∩Q•.
+It remains to show (H:r(I∪J))∩Q•≠∅.
+But (H:r(I∪J))=(H:rI)∩(H:rJ), and we are done by applying our previous statement about the intersection to the fractional right H-ideals (H:rI) and (H:rJ).
+5. Set I=⋃m∈MIm.
+Then HI⊂I and I∩Q•≠∅ are clear, and Im⊂H for all m∈M implies 1∈(H:rI).
+6. Certainly HIKH″⊂IK.
+If a∈I∩Q• and b∈K∩Q•, then ab∈IK∩Q•.
+Let c∈(H:rI)∩Q• and d∈(H′:rK)∩Q•.
+Then IKdc⊂IH′c⊂Ic⊂H, i.e., dc∈(H:rIK)∩Q•.
+If c′∈(H′:lI)∩Q• and d′∈(H″:lK)∩Q•, then d′c′IK⊂d′H′K⊂d′K⊂H″, i.e., d′c′∈(H″:lIK)∩Q•. □
+Lemma 5.7
+Let H and H′ be orders in Q.1.
+If H∼H′, then there exist a,b∈H′• with aH′b⊂H.
+If moreover H⊂H′, then we can even take a,b∈H•.
+2.
+If H∼H′ and H⊂H′, then there exists an order H″ and a,b∈H• such that H⊂H″⊂H′ and H″b⊂H and aH′⊂H″.
+3.
+The following statements are equivalent:(a)
+H∼H′.
+(b)
+There exists a fractional (H,H′)-ideal.
+(c)
+There exists a fractional (H′,H)-ideal.
+Proof
+1. There exist x,y∈Q• with xH′y⊂H.
+Since H′ is an order in Q, x=ac-1 and y=d-1b with a,b∈H′ and c,d∈H′∩Q•.
+If H⊂H′ we even take a,b,c,d∈H.
+Then aH′b⊂ac-1H′d-1b⊂H.
+2. Using 1 choose a,b∈H• with aH′b⊂H.
+Let H″=H∪aH′∪HaH′.
+Then it is easily checked that H″H″⊂H″ and obviously H⊂H″, thus H″ is an order.
+Moreover, H″⊂H′, H″b⊂H and aH′⊂H″, as claimed.
+3. (a) ⇒ (b): By 1 there exist a,b∈H• with aHb⊂H′ and c,d∈H′• with cH′d⊂H.
+Define I=HbcH′.
+Clearly I is an (H,H′)-module with bc∈I∩Q•.
+Since aI=aHbcH′⊂H′cH′⊂H′ and Id=HbcH′d⊂HbH⊂H, I is a fractional (H,H′)-ideal.
+(b) ⇒ (a): By Lemma 5.6.1.
+(a) ⇔ (c) follows by symmetry, swapping the roles of H and H′. □
+Lemma 5.8
+Let H be an order in Q.
+The following statements are equivalent.(a)
+H is a maximal order.
+(b)
+If I is a fractional left H-ideal, then Ol(I)=H and if J is a fractional right H-ideal, then Or(I)=H.
+(c)
+If I is a fractional H-ideal, then Or(I)=Ol(I)=H.
+(d)
+If I is an H-ideal, then Or(I)=Ol(I)=H.
+Proof
+(a) ⇒ (b): By Lemma 5.6.2, Ol(I)=H and Or(J)=H.
+(b) ⇒ (c) ⇒ (d): Trivial.
+(d) ⇒ (a): Assume H′ is an order equivalent to H and H⊂H′.
+Applying Lemma 5.7.2 we find an equivalent order H″ with H⊂H″⊂H′ and a,b∈Q• with aH′⊂H″ and H″b⊂H.
+Let I={x∈Q|H″x⊂H}.
+Then I is an H-ideal, and H″⊂Ol(I), implying H″=H by (d).
+Set J={x∈Q|xH′⊂H}.
+Then J is again an H-ideal (we use a∈J since H″=H), and H′⊂Or(J) implies H′=H. □
+Lemma 5.9
+Let H be a maximal order in Q, let I and J be fractional left H-ideals, and let K be a fractional left Or(I)-ideal.1.
+Ol(I)=H, I-1 is a fractional right H-ideal with Or(I-1)=H and Iv is a fractional left H-ideal with Ol(Iv)=H and I⊂Iv.
+Moreover, Ol(I)v=Hv=H.
+2.
+If a∈Q•, then Ha is a fractional left H-ideal with Or(Ha)=a-1Ha, (Ha)-1=a-1H and (Ha)v=Ha.
+Ha is integral (equivalently, a left H-ideal), if and only if a∈H•.
+3.
+If I⊂J then J-1⊂I-1 and Iv⊂Jv.
+4.
+I⊂Iv=(Iv)v, Iv-1=(I-1)v=I-1 and Ol(Iv)=Ol(I)=Ol(I)v=H.
+5.
+(Iv∩Jv)v=Iv∩Jv.
+6.
+(I∪J)v=(Iv∪J)v=(I∪Jv)v=(Iv∪Jv)v.
+7.
+If Or(I) and Or(K) are also maximal, then (IK)v=(IvK)v=(IKv)v=(IvKv)v.
+Proof
+1. By Lemma 5.6.2, Ol(I)=H, and thus Lemma 5.6.3 implies that I-1=(H:rI) is a right H-ideal.
+By the symmetric statement of what we just showed for fractional right H-ideals, therefore Or(I-1)=H and Iv is a fractional left H-ideal.
+Applying the first part of the statement to Iv yields Ol(Iv)=H.
+Now I⊂Iv follows from Lemma 5.2.2, and Hv=H from H-1=(H:rH)=H.
+2. Since a∈Ha∩Q• and a-1∈(H:rHa), Ha is a fractional left H-ideal.
+Certainly a-1Ha⊂Or(Ha).
+Conversely, if x∈Or(Ha), then ax∈Ha and thus x∈a-1Ha, so that altogether Or(Ha)=a-1Ha.
+Moreover, (Ha)a-1H⊂H and if Hax⊂H for x∈Q•, then ax∈H and hence x∈a-1H, implying (Ha)-1=a-1H.
+Finally, (Ha)v=Ha because (Ha)v=((Ha)-1)-1=Ha.
+Ha is a left H-ideal if and only if it is integral due to maximality of H, and Ha⊂H if and only if a∈H∩Q•=H•.
+3. If x∈Q with Jx⊂H, then Ix⊂Jx⊂H, and hence J-1⊂I-1.
+By 1, J-1 and I-1 are fractional right H-ideals with Or(I-1)=Or(J-1)=H, and we apply the symmetric statement for right fractional H-ideals to obtain Iv⊂Jv.
+4. By 1, I-1 is a fractional right H-ideal with Or(I-1)=H, and Iv is a fractional left H-ideal with Ol(Iv)=H.
+Moreover, also by 1, I⊂Iv and I-1⊂(I-1)v=[(I-1)-1]-1=Iv-1.
+It follows from 3, that Iv⊂(Iv)v and I-1=Iv-1.
+Therefore (Iv)v=(Iv-1)-1⊂(I-1)-1=Iv, whence Iv=(Iv)v.
+5. Iv∩Jv⊂(Iv∩Jv)v⊂(Iv)v∩(Jv)v=Iv∩Jv.
+6. I∪J⊂Iv∪J⊂Iv∪Jv⊂(I∪J)v and by taking divisorial closures, and 4, the claim follows.
+7. We use Or(Iv)=Or(I) and Ol(K)=Ol(Kv) (from 1).
+We have IK⊂IvK⊂IvKv, and similarly IK⊂IKv⊂IvKv (by 1).
+By 3, this implies (IK)v⊂(IKv)v⊂(IvKv)v and (IK)v⊂(IvK)v⊂(IvKv)v.
+To prove the claim it suffices to show (IvKv)v⊂(IK)v, which will follow from 3 and 4 if we show IvKv⊂(IK)v.
+Since IK(IK)-1⊂Ol(I), we have K(IK)-1⊂(Ol(I):rI)=I-1=Iv-1, where the last equality is due to 4.
+Multiplying by Iv from the right gives K(IK)-1Iv⊂Iv-1Iv.
+By definition, Iv-1Iv⊂Or(Iv).
+Since Or(Iv)=Or(I)=Ol(K), therefore K(IK)-1Iv⊂Ol(K).
+Now (IK)-1Iv⊂K-1=Kv-1 (using 4 again).
+Multiplying by Kv from the right and using Or(Kv)=Or(K), we obtain (IK)-1IvKv⊂Or(K).
+Since Ol((IK)-1)=Or(K), this implies IvKv⊂((IK)-1)-1=(IK)v. □
+Definition 5.10
+Let H be an order in Q.
+A fractional left or right H-ideal I is called divisorial if I=Iv.
+If I is a fractional left H-ideal for a maximal order H, then it is not necessarily true that Or(I) is again a maximal order.
+The next proposition shows that for divisorial fractional left or right H-ideals with H maximal, already both, Ol(I) and Or(I), are maximal.
+We can define an associative partial operation, the v-product, by I⋅vJ=(IJ)v when J is a divisorial fractional left Or(I)-ideal.
+Moreover it shows that every divisorial fractional left or right ideal is v-invertible, i.e., invertible with respect to this operation.
+Proposition 5.11
+Let H be a maximal order in Q.
+Let I be a fractional left H-ideal. Then:1.
+Ol(I-1) is a maximal order.
+In particular, Or(Iv) is a maximal order.
+2.
+(II-1)v=Ol(I) and if Or(I) is also maximal, then (I-1I)v=Or(I).
+3.
+If I is a divisorial fractional left H-ideal, J a divisorial fractional left Or(I)-ideal and K a divisorial fractional left Or(J)-ideal, then(I⋅vJ)⋅vK=I⋅v(J⋅vK).
+Proof
+1. Because H is maximal, Ol(I)=H.
+Trivially, Or(I)⊂Ol(I-1).
+Let H′⊃Ol(I-1) be an order with H′∼Ol(I-1).
+Then J=IH′I-1 is an (H,H)-module and if a∈I∩Q• and b∈I-1∩Q•, then ab∈J and moreoverJ2=IH′I-1IH′I-1⊂IH′Ol(I-1)H′I-1=IH′I-1=J, showing that J is an integral left Ol(J)-ideal.
+We claim H=Ol(J).
+Since H=Ol(I)⊂Ol(J) and H is maximal, it suffices to show Ol(J)∼H.
+To this end we first show bJa⊂H′:bJa=bIH′I-1a⊂I-1IH′I-1I⊂Or(I)H′Or(I)=H′.
+Since H′∼H, there exist c,d∈Q• with cH′d⊂H.
+Since ab∈J∩Q• therefore cb(Ol(J)ab)ad⊂cbJad⊂H, proving the claim.
+Therefore, from the definition of J, H′I-1⊂(J:rI)⊂(Ol(J):rI)=(H:rI)=I-1 and thus H′⊂Ol(I-1), and, because we started out with the converse inclusion, also H′=Ol(I-1).
+Now Or(Iv)=Ol(I-1) implies the "in particular" statement.
+2. We have to show (II-1)v=Ol(I) and (I-1I)v=Or(I), and we check the first equality as the second one then follows analogously.
+The inclusion II-1⊂Ol(I) implies (II-1)v⊂Ol(I)v=Ol(I).
+It remains to prove Ol(I)⊂(II-1)v.
+Due to maximality of Ol(I), it holds that Ol(II-1)=Ol(I), and therefore II-1(II-1)-1⊂Ol(I).
+Thus I-1(II-1)-1⊂I-1, and (II-1)-1⊂Or(I-1)=Ol(I).
+By Lemma 5.9.3, therefore Ol(I)⊂(II-1)v.
+3. Using Lemma 5.9.7, which can be applied due to 1, ((IJ)vK)v=(IJK)v=(I(JK)v)v. □
+Corollary 5.12
+If H is a maximal order, then every order H′ with H′∼H is contained in a maximal order equivalent to H.
+Proof
+By Lemma 5.7.3, there exists a fractional (H,H′)-ideal I.
+Then Iv is divisorial, Or(Iv)∼Ol(Iv)=H, H′⊂Or(Iv) and by Proposition 5.11.1 Or(Iv) is maximal. □
+Corollary 5.13
+Let α denote an equivalence class of maximal orders of Q.
+LetFv(α)={I|I is a divisorial fractional left (or right) H-ideal with H∈α} andIv(α)={I|I is a divisorial left (or right) H-ideal with H∈α}.
+Then (Fv(α),⋅v,⊂) is a lattice-ordered groupoid, with identity elements the maximal orders in α.
+If I, J are in Fv(α) with Ol(I)=Ol(J) or Or(I)=Or(J), then I∧J=I∩J and I∨J=(I∪J)v.
+Moreover, Iv(α) is the subcategory of integral elements.
+Proof
+For I∈Fv(α) we have Ol(I)⋅vI=I=I⋅vOr(I).
+If J∈Fv(α), then the v-product I⋅vJ is defined whenever Or(I)=Ol(J), and then I⋅vJ is a divisorial fractional (Ol(I),Or(J))-ideal.
+The v-product is associative when it is defined (Proposition 5.11.3).
+Therefore Fv(α) with ⋅v as composition is a category where the set of identities is the set of maximal orders, α, and for I∈Fv(α) we have s(I)=Ol(I) and t(I)=Or(I).
+This category is a groupoid due to Proposition 5.11.2.
+On Fv(α) set inclusion defines a partial order, and obviously also the restrictions to {I∈Fv(α)|Ol(I)=H} and {I∈Fv(α)|Or(I)=H} for H∈α, given by set inclusion in these subsets, are partial orders.
+Let I,J∈Fv(α) with Ol(I)=Ol(J).
+Then I∩J∈Fv(α) and (I∪J)v∈Fv(α) (by Lemmas 5.6 and 5.9), and clearly they are the infimum respectively supremum of {I,J} in {I∈Fv(α)|Ol(I)=H}, making this set lattice-ordered.
+Symmetric statements hold if Or(I)=Or(J).
+If Ol(I)=Ol(J) and Or(I)=Or(J) both hold, then also Ol(I∩J)=Ol((I∪J)v)=Ol(I) and Or(I∩J)=Or((I∪J)v)=Or(I) both hold.
+Therefore (Fv(α),⊂) is a lattice-ordered groupoid with the claimed meet and join.
+It is immediate from the definitions that Iv(α) is the subcategory of integral elements of this lattice-ordered groupoid. □
+Definition & Lemma 5.14
+An order H is bounded if it satisfies the following equivalent conditions:(a)
+Every fractional left H-ideal and every fractional right H-ideal contains a fractional (two-sided) H-ideal.
+(b)
+Every left H-ideal and every right H-ideal contains a (two-sided) H-ideal.
+(c)
+For all a∈Q• there exist b,c∈Q• such that bH⊂Ha and Hc⊂aH.
+(d)
+For all a∈Q• there exist b,c∈Q• such that Ha⊂bH and aH⊂Hc.
+(e)
+For all a∈Q•, HaH is a fractional (two-sided) H-ideal.
+(f)
+For all a∈Q• there exists a fractional (two-sided) H-ideal I with a∈I.
+(g)
+If M⊂Q and a,b∈Q• with aMb⊂H, then there exist c,d∈Q• with cM⊂H and Md⊂H.
+Proof
+(a) ⇒ (b): Trivial.
+(b) ⇒ (c): Let a∈Q•.
+Then a=d-1c with c,d∈H∩Q•, and Ha=Hd-1c⊃Hc.
+By (b), Hc contains an H-ideal J. If b∈J∩Q•, then bH⊂J⊂Ha.
+The symmetric claim follows similarly.
+(c) ⇒ (d): By (c) applied to a-1, there exist b,c∈Q• with b-1H⊂Ha-1 and Hc-1⊂a-1H.
+Then Ha⊂bH and aH⊂Hc.
+(d) ⇒ (e): HaH is an (H,H)-module and contains the element a∈Q•.
+Let b,c∈Q• with Ha⊂bH and aH⊂Hc.
+Then HaH⊂bH and HaH⊂Hc, hence b-1∈(H:lHaH) and c-1∈(H:rHaH).
+(e) ⇒ (f): Trivial.
+(f) ⇒ (g): aM⊂Hb-1⊂Hb-1H, and the latter being contained in a fractional H-ideal, there exists a′∈Q•∩(H:lHb-1H) and thus a′aM⊂H.
+Similarly, Mb⊂a-1H⊂Ha-1H, and there exists a b′∈Q•∩(H:rHa-1H).
+Thus Mbb′⊂H.
+(g) ⇒ (a): Let I be a fractional left H-ideal and a∈I∩Q•.
+Then (Ha-1)a⊂H and so there exists a b∈Q• such that b(Ha-1)⊂H, and thus bH⊂Ha.
+Therefore HbH⊂Ha⊂I and HbH is a fractional H-ideal contained in I (as b∈HbH, a-1∈(H:rHbH) and, by (g) again, there exists a c∈Q• with c(Hb)⊂H, whence c∈(H:lHbH)).
+The case where I is a fractional right H-ideal is similar. □
+Lemma 5.15
+1.
+Let H and H′ be orders in Q.
+If H is bounded and H∼H′, then H′ is also bounded.
+2.
+Let H and H′ be bounded equivalent maximal orders of Q.
+Then there exists an (H,H′)-ideal I.
+Proof
+1. Because H∼H′ and H is bounded, there exist c,d∈Q• with cH⊂H′⊂dH (using (c) and (d) of the equivalent characterizations of boundedness).
+We verify condition (c) for H′.
+Let a∈Q•.
+Then cHa⊂H′a, and there exists an x∈Q• with xH⊂Ha.
+Then cxH⊂H′a and finally cxd-1H′⊂cxH⊂H′a.
+Similarly, one finds z∈Q• with H′z⊂aH′.
+2. We show: If H and H′ are bounded equivalent maximal orders, then H′H is a fractional (H′,H)-ideal.
+Then (H′H)-1 is an (H,H′)-ideal (since Or(H′H)=H by maximality of H and H⊂H′H, Lemma 5.9.3 implies (H′H)-1⊂H; similarly, one shows (H′H)-1⊂H′).
+Clearly H′H is an (H′,H)-module and 1∈H′H.
+We need to show that there exist a,b∈Q• with H′Ha⊂H′ and bH′H⊂H.
+Since H and H′ are bounded and equivalent there exist a,b∈Q• with Ha⊂H′ and bH′⊂H, and the claim follows. □
+Proposition 5.16
+Let α be an equivalence class of maximal orders in Q.
+(Fv(α),⋅v,⊂) is an arithmetical groupoid if and only if all H∈α (equivalently, one H∈α) satisfy the following three conditions:(A1)
+H satisfies the ACC on divisorial left H-ideals and the ACC on divisorial right H-ideals,
+(A2)
+H is bounded,
+(A3)
+the lattice of divisorial fractional left H-ideals is modular, and the lattice of divisorial right H-ideals is modular.
+Proof
+From Corollary 5.13 we already know that Fv(α) is a lattice-ordered groupoid.
+As in the discussion after Definition 4.2 and from Lemma 5.15, we see that if one representative H∈α satisfies A1-A3, then the same is true for all H′∈α.
+Assume first that A1-A3 hold.
+Then P1 holds due to Lemma 5.2.5, property P2 is just A3 in the present setting.
+P3 follows easily: If I⊂J are divisorial fractional left H-ideals, and K is a divisorial fractional right H-ideal, then KI⊂KJ and therefore K⋅vI=(KI)v⊂(KJ)v=K⋅vJ, and similarly for the symmetric statement.
+P4 also holds: Let (Im)m∈M be a non-empty family of divisorial left H-ideals.
+Then (⋃m∈MIm)v⊂H is also a divisorial left H-ideal, and if (Im)m∈M is a family of (H,H′)-ideals with H′∈α, then the divisorial closure of the union is again an (H,H′)-ideal.
+P6 is just A1.
+A2 implies P5: If H,H′∈α, then there exists an (H,H′)-ideal I by Lemma 5.15.2.
+Then Iv is as required in P5.
+Assume now that (Fv(α),⋅v,⊂) is an arithmetical groupoid, and H∈α.
+Then P2 implies A3, and P6 implies A3.
+From P5 we can derive A2: Let I be a fractional left H-ideal, and x∈I∩Q•.
+Then Hx∈Fv(α).
+By P5, there exists J∈Iv(α) with Ol(J)=Or(Hx) and Or(J)=H.
+Thus HxJ is a fractional H-ideal, and HxJ⊂I.
+We proceed similarly if I is a fractional right H-ideal. □
+Remark 5.17
+1.
+From the discussion after Definition 4.2, we also see that we can equivalently formulate A3 as "the lattice of divisorial fractional left (right) H-ideals is modular", as the property for the other side then holds automatically.
+2.
+Let H be a normalizing monoid.
+By definition of a monoid, H satisfies the left and right Ore condition, hence it is an order in its quotient group.
+Lemma 5.9.2 shows that every fractional left or right H-ideal is in fact already a two-sided H-ideal, and thus H is bounded.
+Assume that H is a normalizing Krull monoid.
+Then α={H}, and the lattice-ordered groupoid Fv(α) is in fact a group.
+The lattice of divisorial fractional H-ideals is then modular, even distributive [51, Theorem 2.1.3(a)], and hence by the previous theorem an arithmetical groupoid.
+Definition 5.18
+We call a maximal order H satisfying A1-A3 an arithmetical maximal order.
+If α is its equivalence class of arithmetical maximal orders, then we denote by Mv(α)⊂Iv(α) the (quiver of) maximal integral elements.
+Let from here on H be an arithmetical maximal order in Q, and let α be its equivalence class of arithmetical maximal orders.
+By Lemma 5.9.2, every principal left ideal Ha with a∈H• is a divisorial left H-ideal with inverse a-1H∈Fv(α).
+LetH(α)={H′a∈Iv(α)|H′∈α,a∈H′•}.
+The v-product coincides with the usual proper product on H(α).
+Thus (H(α),⋅)⊂(Iv(α),⋅v) is a wide subcategory, with the product IJ=I⋅J=I⋅vJ for I,J∈H(α) defined whenever Or(I)=Ol(J), and then Ol(IJ)=Ol(I) and Or(IJ)=Or(J).
+The inclusion (H(α),⋅)⊂(Iv(α),⋅v) is left- and right-saturated.
+By HH(α) (or shorter, HH, since H determines α) we denote the subcategory of H(α) where the left and right orders of every element are not only equivalent but in fact conjugate to H.
+Explicitly,HH=HH(α)={d(Ha)d-1∈Iv(α)|a∈H•,d∈Q•}.
+If H′∈α, then HH=HH′ if and only if H′ and H are conjugate.
+Again the inclusion (HH,⋅)⊂(H(α),⋅) is left- and right-saturated, and thus so is the inclusion (HH,⋅)⊂(Iv(α),⋅v).
+The following simple lemma gives a correspondence between H and HH.
+Lemma 5.19
+Let d∈Q•.1.
+If a,a1,a2∈H• with a=a1a2, then d-1(Ha)d=d-1(Ha2)d⋅d-1a2-1(Ha1)a2d∈HH with d-1(Ha2)d,d-1a2-1(Ha1)a2d∈HH.
+2.
+If a∈H• and d-1(Ha)d=I2⋅I1 with I1,I2∈HH, then there exist a1,a2∈H• with I2=d-1(Ha2)d, I1=d-1a2-1(Ha1)a2d and a=a1a2.
+3.
+If a1,a2,b1,b2∈H• with Ha2=Hb2 and a2-1(Ha1)a2=b2-1(Hb1)b2, then there exist ε1,ε2∈H× with b1=ε1a1ε2-1 and b2=ε2a2.
+In particular, for a∈H• we have a∈A(H•) if and only if d-1(Ha)d∈A(HH).
+Proof
+1. The multiplication is defined because Or(d-1(Ha2)d)=d-1a2-1Ha2d=Ol(d-1a2-1(Ha1)a2d).
+The remaining statements are then clear.
+2. Since Ol(I2)=d-1Hd we have I2=d-1Hda2′ with a2′∈(d-1Hd)•, and hence, with a2=da2′d-1∈H•, I2=d-1(Ha2)d.
+Then Ol(I1)=Or(I2)=d-1a2-1Ha2d, and therefore similarly I1=d-1a2-1(Ha1′)a2d with a1′∈H•.
+Hence d-1(Ha)d=d-1(Ha1′a2)d, and thus a=εa1′a2 with ε∈H×.
+Taking a1=εa1′ the claim follows.
+3. Since Ha2=Hb2, there exists an ε2∈H× with b2=ε2a2.
+Thena2-1(Ha1)a2=b2-1(Hb1)b2=a2-1ε2-1(Hb1)ε2a2=a2-1(Hb1ε2)a2, and thus there exists ε1∈H× with ε1a1=b1ε2, i.e., b1=ε1a1ε2-1. □
+Observe that we may view a rigid factorization Ha2⁎a2-1(Ha1)a2∈Z⁎(HH) as a multiplicative way of writing the chain H⊃Ha2⊃Ha1a2.
+Proposition 5.20
+Let a∈H•.
+For every d∈Q• there is a bijection ZH⁎(a)→ZHH⁎(d-1(Ha)d), given byu1⁎u2⁎⋯⁎uk↦d-1(Huk)d⁎(d-1uk-1(Huk-1)ukd)⁎⋯⁎(d-1uk-1⋅⋯⋅u2-1(Hu1)u2⋅⋯⋅ukd).
+If θ¯:HH→B is a transfer homomorphism to a reduced cancellative small category B and having the additional property that θ¯(d-1(Ha)d)=θ¯(Ha) for all a∈H• and d∈Q•, then it induces a transfer homomorphism θ:H•→Bop given by θ(a)=θ¯(Ha).
+Proof
+The claimed bijection follows by iterating the previous lemma.
+We need to verify that θ is a transfer homomorphism and first check that θ is a homomorphism: For a,b∈H•θ(ab)=θ¯(Hab)=θ¯(Hb⋅b-1(Ha)b)=θ¯(Hb)⋅θ¯(b-1(Ha)b)=θ¯(Hb)⋅θ¯(Ha)=θ(a)⋅opθ(b), and if a∈H× then Ha=H, whence θ(a)=θ¯(H)∈B0.
+We verify T1: Let b∈B.
+Then there exist d∈Q• and a∈H• with θ¯(d-1(Ha)d)=b, hence θ(a)=b.
+If a∈H• with θ(a)∈B0, then θ¯(Ha)∈B0, hence Ha∈(HH)0, i.e., Ha=H and a∈H×.
+It remains to check T2: Let a∈H• and b1,b2∈B with θ(a)=b1⋅opb2.
+Then θ¯(Ha)=b2b1, hence there exist a1,a2∈H• with Ha=Ha2⋅a2-1(Ha1)a2 and θ¯(Ha2)=b2, θ¯(a2-1(Ha1)a2)=b1.
+This implies a=εa1a2 with ε∈H×, and θ(εa1)=b1, θ(a2)=b2. □
+Remark 5.21
+The condition θ¯(d-1(Ha)d)=θ¯(Ha) implies in particular |θ¯(HH)0|=1.
+Thus in fact B is necessarily a semigroup.
+Let G be the universal vertex group of Fv(α), and let η:Fv(α)→G be the abstract norm, as defined in the previous section.
+Lemma 5.22
+1.
+If I∈Fv(α) and d∈Q•, then η(d-1Id)=η(I).
+2.
+q(η(HH))=q({η(Ha)|a∈H•})={η(Hq)|q∈Q•}.
+Proof
+1. It suffices to verify the claim for maximal integral I∈Iv(α).
+If P∈Iv(α) is the maximal divisorial two-sided Ol(I)-ideal contained in I, then d-1Pd is the maximal divisorial two-sided ideal contained in d-1Id, and since d-1Pd=(Ol(d-1Id)d-1Ol(I))⋅vP⋅v(Ol(I)dOl(d-1Id)) we have η(I)=(P)=(d-1Pd)=η(d-1Id)∈G.
+2. The first equality is immediate from 1.
+For the second equality, note that if q=ab-1 with a,b∈H•, then (using 1 multiple times and the fact that η is a homomorphism)η(Hq)=η(Hab-1)=η(Hb-1⋅b(Ha)b-1)=η(Hb-1)η(b(Ha)b-1)=η(bH)-1η(Ha)=η(b-1(bH)b)-1η(Ha)=η(Ha)η(Hb)-1.□
+Applying Theorem 4.15 to the present situation, we obtain a transfer homomorphism HH→B(CM) if we impose some additional crucial conditions on H.
+Theorem 5.23
+Let Q be a quotient semigroup, H an arithmetical maximal order in Q, and α its equivalence class of arithmetical maximal orders.1.
+For all a∈H•, LH•(a) is finite and non-empty.
+If, for every maximal divisorial H-ideal P, the number of maximal divisorial left H-ideals I with P⊂I is finite, then ZH•⁎(a) is finite for all a∈H•.
+2.
+Let PH•={η(Hq)|q∈Q•}⊂G, C=G/PH•, and CM={[η(I)]∈C|I∈Iv(α) maximal integral}. Assume:(i)
+A divisorial fractional left H-ideal I is principal if and only if η(I)∈PH•.
+(ii)
+For all H′∈α and all g∈CM there exists a maximal divisorial left H′-ideal with [η(I)]=g.
+ Then there exists a transfer homomorphism θ:H•→B(CM).
+Proof
+By Proposition 5.16, (Fv(α),⋅v,⊂) is an arithmetical groupoid, and Iv(α) is its subcategory of integral elements.
+(HH,⋅) is a left- and right-saturated subcategory of (Iv,⋅v).
+1. This follows immediately from Corollary 4.13 and Proposition 5.20.
+2. Let I be a fractional left H′-ideal with H′=dHd-1.
+Then I is principal if and only if the fractional left H-ideal d-1Id is, and this is the case if and only if η(I)=η(d-1Id)∈PH•=q(η(HH)) (where the last equality is due to the previous lemma).
+Therefore the first condition of Theorem 4.15 is satisfied.
+Condition (ii) of the present theorem is equivalent to the second condition of Theorem 4.15.
+Thus there exists a transfer homomorphism θ¯:HH→B(CM) as in Theorem 4.15.
+By Proposition 5.20, there exists a transfer homomorphism θ:H•→B(CM). □
+Remark 5.24
+1.
+We continue our discussion from Remark 5.17.
+Let H be a normalizing Krull monoid.
+Then α={H}, Ha=HaH=aH for all a∈Q• and associativity is a congruence relation [25, Lemma 4.4.1], thus Hred={H×a|a∈H} with the induced operation is also a monoid.
+Therefore H=HH={HaH|a∈H}≅Hred and G=Fv(α) is the free abelian group on the maximal divisorial (two-sided) H-ideals, while Iv(α) is the free abelian monoid on the same basis.
+In the previous theorem we therefore have G=G, η=id, PH•={Hq|q∈Q•}, and hence C is the divisorial class group of H, and CM is the set of divisorial ideal classes that contain a maximal divisorial H-ideal.
+The second condition of the theorem is trivially true by virtue of |G0|=1 and the definition of CM, and the first condition is trivially true because η=id.
+We thus get a transfer homomorphism H→B(CM) (induced from the transfer homomorphism Hred≅HH→B(CM)), which is the same one as in [25, Theorem 6.5].
+2.
+If H is a maximal order satisfying only A1 and A3, then LH•(a) is finite and non-empty for all a∈H•.
+In Section 4 one may drop P5 and P6, and still obtain Proposition 4.12.1 in the weaker form that, for each a∈G+, either ZG+⁎(a)=∅ or |LG+(a)|=1 (and of course without any statement about Φ, which can only be defined in the presence of P5).
+This is possible because P6 is only used to show existence of a rigid factorization of a.
+A sufficient condition for ZG+⁎(a)≠∅ is that G+(s(a),⋅) and G+(⋅,t(a)) satisfy the ACC.
+If H satisfies A1, then G+(e,⋅) and G+(⋅,e) with e∈(HH)0 (corresponding to conjugate orders of H) satisfy the ACC, and as in Corollary 4.13 one shows that LHH(a) is finite and non-empty for all a∈HH.
+Hence the same is true for H•.
+Rings
+Suppose that Q=(Q,+,⋅) is a quotient ring in the sense of [42, Chapter 3] (but recall that we in addition require it to be unital, as we do for all rings).
+Then (Q,⋅) is a quotient semigroup.
+In the remainder of this section we show that the ring-theoretic divisorial one-sided ideal theory for maximal orders in (Q,+,⋅) coincides with the semigroup-theoretic one.33
+In [42, Chapter 5] the terminology "reflexive" is used in place of "divisorial".
+ If R is a ring-theoretic order in Q, then a fractional left R-ideal I in the semigroup-theoretic sense is a fractional left R-ideal in the ring-theoretic sense if and only if I-I⊂I (see [42, §3.1.11] for the usual definition).
+Let for the remainder of this subsection Q=(Q,+,⋅) be a quotient ring.
+Lemma 5.25
+Let H be an order in the multiplicative semigroup (Q,⋅) and I a fractional left H-ideal (in the semigroup-theoretic sense).
+Consider the following statements:(a)
+I-I⊂I.
+(b)
+Ol(I) is a subring of Q.
+(c)
+Or(I) is a subring of Q.
+ Then (a) ⇒ (b) and (a) ⇒ (c).
+If H is a maximal order and I is divisorial, then (a) ⇔ (b) ⇔ (c).
+Proof
+Assume that (a) holds.
+We show (b): Let a,b∈Ol(I).
+Then aI⊂I and bI⊂I and hence (a-b)I⊂aI-bI⊂I-I⊂I, thus a-b∈Ol(I).
+Assume now that H is maximal, I=Iv and (b) holds.
+We show (a).
+Let a,b∈I=Iv=(I-1)-1.
+Then aI-1⊂Ol(I), and bI-1⊂Ol(I), whence (a-b)I-1⊂aI-1-bI-1⊂Ol(I)-Ol(I)=Ol(I) and thus a-b∈(I-1)-1=I. □
+Lemma 5.26
+A ring-theoretic order R in Q is maximal in the ring-theoretic sense if and only if it is maximal in the semigroup-theoretic sense.
+Proof
+We show that if R is maximal in the ring-theoretic sense, then it is maximal in the semigroup-theoretic sense, as the other direction is trivial.
+Let I be a fractional left R-ideal in the semigroup-theoretic sense.
+Then 〈RI〉 is a fractional left R-ideal in the ring-theoretic sense, and using R⊂Ol(I), it follows that Ol(I)⊂Ol(〈I〉R).
+Maximality of R in the ring-theoretic sense implies R=Ol(〈I〉R), hence also R=Ol(I).
+Similarly, if J is a fractional right R-ideal in the ring-theoretic sense then Or(J)=R.
+Therefore Lemma 5.8 implies that R is maximal in the semigroup-theoretic sense. □
+As before let α be an equivalence class of maximal orders of (Q,⋅) in the semigroup-theoretic sense.
+Lemma 5.27
+Let H∈α and assume that H is a subring of Q (i.e., an order in Q in the ring-theoretic sense).1.
+Every H′∈α is a subring of Q (and therefore an order in Q in the ring-theoretic sense).
+2.
+If I is a divisorial fractional left H-ideal and J is a divisorial fractional left Or(I)-ideal, then{ab|a∈I,b∈J}v=(〈{ab|a∈I,b∈J}〉H)v, i.e., the semigroup-theoretic v-product coincides with the ring-theoretic one.
+3.
+If I and J are divisorial fractional left H-ideals, then (I∪J)v=(I+J)v.
+Proof
+1. By Lemma 5.7.3 there exists a fractional (H,H′)-ideal I.
+By maximality of H and H′, also Ol(Iv)=H and Or(Iv)=H′ and the claim follows from Lemma 5.25 applied to Iv.
+2. Write I⋅SJ={ab|a∈I,b∈J} for the semigroup-theoretic ideal product and I⋅RJ=〈{ab|a∈I,b∈J}〉H for the ring-theoretic one.
+Then I⋅SJ⊂I⋅RJ, and both of these sets are fractional left H-ideals (in the semigroup-theoretic sense).
+Therefore (I⋅SJ)v⊂(I⋅RJ)v.
+For the converse inclusion, it suffices to show I⋅RJ⊂(I⋅SJ)v, but this is true because by Lemma 5.25 (I⋅SJ)v is additively closed.
+3. Clearly I∪J⊂I+J and both sets are fractional left H-ideals (for I+J proceed as in the proof of Lemma 5.6.4; in particular observe (H:rI∪J)⊂(H:rI+J)).
+As before it therefore suffices to show I+J⊂(I∪J)v.
+This again holds due to Lemma 5.25. □
+Altogether, if R is a maximal order in Q in the ring-theoretic sense, then it does not matter whether we form Fv(α) by using the ring-theoretic or the semigroup-theoretic notions.
+We use the same notion of boundedness for ring-theoretic orders as in Definition & Lemma 5.14; for semiprime Goldie rings this coincides with the notion in [42].
+Theorem 5.28
+Let R be a maximal order in a quotient ring Q, α its equivalence class of maximal orders in the semigroup-theoretic sense, and β its equivalence class of maximal orders in the ring-theoretic sense.
+Then α=β and Fv(α)=Fv(β), where the latter is the ring-theoretic analogue of Fv(α).
+If R is bounded, satisfies the ACC on divisorial left R-ideals and on divisorial right R-ideals, and the lattice of divisorial fractional left (right) R-modules is modular, then (R,⋅) is an arithmetical maximal order in (Q,⋅) in the semigroup-theoretic sense.
+In particular, the conclusions of Theorem 5.23 hold for R.
+Proof
+By Lemma 5.27.1, α=β, and by Lemma 5.25, Fv(α)=Fv(β) as sets.
+By Lemma 5.27, the v-product, meet and join coincide, and hence Fv(α)=Fv(β) as lattice-ordered groupoids.
+The remaining claims follow from this. □
+In [46, §5(d)], Rehm gives examples for bounded maximal orders E, that are prime and satisfy the ACC on divisorial two-sided E-ideals, but do not satisfy the ACC on divisorial left E-ideals or the ACC on divisorial right E-ideals.
+In fact (unless one takes the special case where E itself is a quotient ring), the orders E are not even atomic.
+However, these orders are not Goldie, as they are not of finite left or right uniform dimension, and do not satisfy the ACC on left or right annihilator ideals.
+Before going to maximal orders in central simple algebras, we discuss principal ideal rings.
+Example 5.29
+Principal ideal rings
+Let R be a bounded order in a quotient ring Q.
+Assume that every left R-ideal and every right R-ideal is principal.
+By the characterization in Lemma 5.8, R is then already a maximal order, and it satisfies A1-A3.
+Thus HR=Iv(α), and facts about the rigid factorizations in Iv(α) trivially descend to facts about rigid factorizations of R•.
+Examples we have in mind include bounded skew polynomial rings D[X,σ], where D is a division ring and σ:D→D is an automorphism, and the Hurwitz quaternions Z[1,i,j,1+i+j+ij2] with i2=-1, j2=-1 and ij=-ji.
+Both of these examples are left- and right-euclidean domains, and hence principal ideal rings.
+In this way we can for example rediscover Theorem 2 in [16, §5].
+Let Q be a quaternion algebra over a field K with char(K)≠2, and a∈Q•∖K×.
+Then nr(a)=aa¯∈K× and tr(a)=a+a¯∈K.
+For the polynomial ring Q[X] in the central variable X, thereforef=X2-tr(a)X+nr(a)=(X-cac-1)(X-ca¯c-1)for all c∈Q•, and thus |ZQ[X]⁎(f)|=∞ if K is infinite.
+(But these rigid factorizations are usually considered to be identical factorizations, and Q[X], being left- and right-euclidean, is even a UFD with suitable definitions, see for example [8, Chapter 3.2] and [14, Chapter 3].) In terms of ideal theory, every element X-cac-1 with c∈Q• generates a maximal left Q[X]-ideal lying above the maximal two-sided Q[X]-ideal Q[X]f.
+If also d∈Q•, then Q[X](X-cac-1)=Q[X](X-dad-1) if and only if cac-1=dad-1, i.e., d-1c∈K(a).
+Classical maximal orders over Dedekind domains in CSAs
+Let O be a commutative domain with quotient field K.
+By a central simple algebra A over K, we mean a K-algebra with dimK(A)<∞, which is simple as a ring, and has center K.
+Then A is artinian because it is a finite-dimensional K-algebra, and hence it is a quotient ring (in an artinian ring, every non-zero-divisor is invertible [42, §3.1.1], hence it is a quotient ring and an element is left-cancellative if and only if it is right-cancellative if and only if it is cancellative).
+By Posnerʼs Theorem [42, §13.6.6], a ring R is a prime PI ring if and only if it is an order in a central simple algebra, and hence in particular, prime PI rings are bounded Goldie rings.
+Furthermore, PI Krull rings are characterized as those maximal orders in central simple algebras whose center is a commutative Krull domain [35, Theorem 2.4].
+We start with a simple corollary of Theorem 5.28.
+Corollary 5.30
+If R is a PI Krull ring, then LR•(a) is finite and non-empty for all a∈R•.
+Proof
+We only have to verify the conditions of Theorem 5.28.
+By [35, Theorem 2.4] the various notions of Krull rings coincide for prime PI rings.
+Thus R is a bounded Chamarie-Krull ring.
+The ACC on divisorial left R-ideals and divisorial right R-ideals follows from [11] (or [31, Corollary 3.11]).
+Moreover, for every divisorial prime R-ideal P, the set of regular elements modulo P, denoted C(P), is cancellative, satisfies the left and right Ore condition, and for the localization RC(P)=RC(P)⊂Q every left (right) RC(P)-ideal is principal [11, Proposition 2.5].
+The lattice of divisorial fractional left (right) RC(P)-ideals is hence modular.
+Using the ACC on divisorial left and right R-ideals, one checks as in the commutative case that IvRC(P)=(IRC(P))v for a fractional right R-ideal I.
+Suppose now I, J, K are divisorial fractional right R-ideals, and K⊂I.
+We have to check I∩(J+K)v=((I∩J)+K)v.
+But (I∩(J+K)v)RC(P)=IRC(P)∩(JRC(P)+KRC(P))v and ((I∩J)+K)vRC(P)=((IRC(P)∩JRC(P))+KRC(P))v, and thus, by modularity in the localizations, they are equal for every divisorial prime R-ideal P.
+The claim now follows from [11, Lemme 2.7], by which the global divisorial fractional right R-ideals can be recovered as intersections from the local ones. □
+Using Remark 5.24.2, we get the above result even for more general classes of rings, namely for Dedekind prime rings and bounded Chamarie-Krull rings (cf. [11]).
+But the aim of this subsection is to restrict to the situation where the base ring O is a Dedekind domain, as a preparation for the structural results on sets of lengths in the setting of holomorphy rings.
+Suppose that O is a Dedekind domain.
+A ring R is a classical O-order of A if O⊂R, R is finitely generated as O-module and KR=A.
+R is a classical maximal O-order if it is maximal with respect to set inclusion within the set of all classical O-orders.
+Such classical maximal O-orders as well as their ideal theory are well-studied, in particular Reinerʼs book [47] provides a thorough description of them.
+If R is a classical O-order, then it is a ring-theoretic order in A in the sense we discussed, and it is a maximal order if and only if it is a classical maximal O-order (for this see [42, §5.3]).
+The set of all classical maximal O-orders forms an equivalence class of (ring-theoretic) maximal orders, call it β for a moment.
+If we write α for the same semigroup-theoretic equivalence class of maximal orders (i.e., α=β as sets, but we view the elements of β as rings and those of α just as semigroups), then Fv(α)=Fv(β) by Theorem 5.28.
+Next, we recall that our notion of ideals coincides with that of [47] and [53] in the case of maximal orders, thereby seeing how the one-sided ideal theory of classical maximal O-orders is a special case of the semigroup-theoretic divisorial one-sided ideal theory developed in this section.
+We also recognize the abstract norm homomorphism η of Section 4 as a generalization of the reduced norm of ideals (in the sense of [47, §24]).
+Lemma 5.31
+Let I⊂A and let T be a classical O-order in A.
+The following are equivalent:(a)
+I is a fractional left T-ideal in the ring-theoretic sense (i.e., as in [42, §3.1.11]).
+(b)
+I is a finitely generated O-module with KI=A and TI⊂I.44
+Here KI={λa|λ∈K,a∈I}={∑i=1nλiai|λi∈K,ai∈I}=K⊗OI.
+ If T is maximal, then in addition the following statements are equivalent to the previous ones:(c)
+I is a divisorial fractional left T-ideal in the semigroup-theoretic sense (Definitions 5.4 and 5.10).
+(d)
+I is a divisorial fractional left T-ideal in the ring-theoretic sense (i.e., a reflexive fractional left T-ideal as in [42, §5.1]).
+Proof
+(a) ⇒ (b): Recall that I is a fractional left T-ideal in the ring-theoretic sense if TI⊂I, I+I⊂I and there exist x,y∈A× with x∈I and Iy⊂T.
+O is the center of T, and T is finitely generated over the noetherian ring O.
+Since Iy⊂T, therefore also I is a finitely generated O-module.
+Writing x-1=rc-1 with r∈T• and c∈O• we see that c=rx∈I∩O•.
+If a∈A is arbitrary, then a=r′d-1 with r′∈T, d∈O• and therefore a=(r′c)(c-1d-1)∈KI.
+(b) ⇒ (a): Certainly TI⊂I and I+I⊂I.
+We have to find x,y∈A× with x∈I and Iy⊂T.
+Since KI=A, there exist λ∈K× and x∈I∩A× with 1=λx (in fact even x∈K×).
+If I=〈y1,…,yl〉O with y1,…,yl∈I, then due to KT=A there exists a common denominator y∈O• with yiy∈T, hence Iy⊂T.
+Let now T be maximal.
+(d) ⇒ (a) is trivial, and (a) ⇒ (d) follows because T is a Dedekind prime ring, and hence every fractional left T-ideal (in the ring-theoretic sense) is invertible (see [42, §5.2.14] or [47, §22, §23] for the more specific case where R is a maximal order in a CSA), and therefore divisorial.
+(c) ⇔ (d) follows from Lemma 5.25. □
+A subset I⊂A satisfying the second condition of the previous lemma and additionally Ol(I)=T is considered to be a left T-ideal in [47] and [53].
+Thus, a left T-ideal in the sense of [47,53] is (in our terms) a fractional left T-ideal in the ring-theoretic sense with Ol(I)=T.
+If T is maximal, then the extra condition Ol(I)=T is trivially satisfied, and the definitions are equivalent, but for a non-maximal order the definitions do not entirely agree (we will only need to work with ideals of maximal orders).
+Since all I∈Fv(α) are invertible (i.e., II-1=Ol(I) and I-1I=Or(I) for the ring-theoretic products), the v-product coincides with the usual proper product of ideals: I⋅vJ=I⋅J whenever I,J∈Fv(α) with Or(I)=Ol(J).
+Therefore, Fv(α) is the groupoid of all normal ideals of A in Reinerʼs terminology (O is fixed implicitly).
+To be able to apply our abstract results we still have to check that A1 through A3 are true for α: A1 follows because every R∈α is noetherian, while A2 is true because every fractional left R-ideal with R∈α in fact even contains a non-zero element of the center (cf.
+[42, Prop.
+5.3.8(i) and (ii)] or see "(b) ⇒ (a)" of the last proof).
+Since every fractional left (right) R-ideal is divisorial, A3 follows from the modularity of the lattice of left (right) R-modules.
+Writing F×(O) for the non-zero fractional ideals of the commutative Dedekind domain O, and G for the universal vertex group of Fv(α), we have the following.
+Lemma 5.32
+If R,R′∈α and P∈G, then PR∩O=PR′∩O∈max(O) and there is a canonical bijection{P|P∈G maximal integral}→max(O), inducing an isomorphism of free abelian groups r:G→∼F×(O).
+The inverse map is given by p↦(P) where P is the unique maximal (two-sided) R-ideal lying over p.
+If R is unramified at p, then P=Rp.
+If all residue fields of O are finite, and η:Fv(α)→G is the abstract norm homomorphism, then r∘η=nrA/K.
+Proof
+All but the last statement follow from [47, Theorem 22.4].
+Since r∘η and nrA/K are both homomorphisms Fv(α)→F×(O), it suffices to verify equality for M a maximal integral left R′-ideal with R′∈α, where it holds due to [47, Theorem 24.13]. □
+Proof of Theorem 1.1
+Throughout this section, let K be a global field and O be a holomorphy ring in K.55
+For us, O is a holomorphy ring if it is an intersection of all but finitely many of the valuation domains associated to valuations of K.
+ Furthermore, let A be a central simple algebra over K, and R a classical maximal O-order.
+Setting PA={aO|a∈K×,av>0 for all archimedean places v of K where A is ramified}, and denoting by CA(O)=F×(O)/PA the corresponding ray class group, we have the following.
+Lemma 6.1
+Let r be as in Lemma 5.32.
+Then r induces an isomorphismG/PR•≅CA(O), where PR•={η(Rx)|x∈A×}⊂G.
+Proof
+By Lemma 5.32, r∘η=nrA/K.
+The isomorphism follows because nr(Rx)=Onr(x) for all x∈A×, and nr(A×)={a∈K×|av>0 for all archimedean places v of K where A is ramified} by the Hasse-Schilling-Mass theorem on norms [47, Theorem 33.15]. □
+Lemma 6.2
+For all classical maximal O-orders R′, and all g∈CA(O), there exist infinitely many maximal left R′-ideals I with [nr(I)]=g.
+Proof
+Let g∈CA(O).
+Then there exist infinitely many distinct maximal ideals p of O with [p]=g: The number field case for O=OK, the ring of algebraic integers, can be found in [27, Corollary 2.11.16] or [43, Corollary 7 to Proposition 7.9].
+The general case then follows because O is obtained from OK by localizing at finitely many maximal ideals, hence the induced epimorphism CA(OK)→CA(O) yields the statement.
+For the function field case see [27, Proposition 8.9.7].
+For each p∈max(O) with [p]=g and every maximal left R′-ideal M with p⊂M, we have [nr(M)]=[p]=g ([47, Theorem 24.13], or use Lemma 5.32). □
+In the following equivalent characterizations of the first condition of Theorem 1.1, "left" may be replaced by "right" in each statement; this follows easily from the first statement.
+We write LC(R) for the finite set of isomorphism classes of fractional left R-ideals, i.e., [I]=[J] in LC(R) if and only if J=Ix with x∈A×.
+The reduced norm induces a surjective map of finite sets μR:LC(R)→CA(O), given by [I]↦[nr(I)].
+Lemma 6.3
+The following are equivalent.(a)
+A fractional left R′-ideal with R′ conjugate to R is principal if and only if nr(I)∈PA.
+(b)
+A fractional left R-ideal is principal if and only if nr(I)∈PA.
+(c)
+Every fractional left R-ideal I with [nr(I)]=0 is principal.
+(d)
+For the map of finite sets μR:LC(R)→CA(O) it holds that |μR-1(0)|=1.
+(e)
+Every stably free left R-ideal is free.
+(f)
+Every finitely generated projective R-module that is stably free is free.
+Proof
+The equivalence of (a), (b), (c) and (d) is trivial.
+The remaining equivalences follow from standard literature: (f) ⇒ (e) is true because R is hereditary noetherian.
+(e) ⇒ (f): Let M≠0 be a stably free finitely generated projective R-module.
+Then M≅Rn⊕I for some left R-ideal I and n∈N0 ([47, Theorem 27.8] or [42, §5.7.8]).
+I is stably free and hence free by (e), but then so is M.
+To see (d) ⇔ (e) it suffices to recall that CA(O) is isomorphic to the projective class group C(R) (see e.g.
+[52, Corollary 9.5]) and that LC(R) is just the set of isomorphism classes of locally free R-modules of rank one, i.e., the map μR corresponds to LF1→C(R), [I]↦[I]-[R] in the notation of [52].
+(See also [47, Theorem 35.14] or [22] for the number field case.) □
+Proof of Theorem 1.1
+By Theorem 5.28, R is an arithmetical maximal order in Q.
+We verify conditions (i) and (ii) of Theorem 5.23.
+Let I be a fractional left R-ideal.
+By Lemma 6.1, η(I)∈PR• if and only if nr(I)∈PA.
+By Lemma 6.3, and the fact that every stably free left R-ideal is free, this is the case if and only if I is principal, thus condition (i) holds.
+Condition (ii) holds due to Lemma 6.2.
+By Lemma 6.1, C≅CA(O), and by Lemma 6.2, therefore C=CM.
+Hence there exists a transfer homomorphism θ:R•→B(CA(O)).
+The remaining claims in the theorem follow from this by Proposition 3.8. □
+Remark 6.4
+If more generally O′ is an arbitrary Dedekind domain with quotient field the global field K, then there is a transfer homomorphism to either B(CA(O′)) or B(CA(O′)∖{0}), depending on whether or not O′ contains prime elements.
+Only Lemma 6.2 has to be adapted: O′ is a localization of a holomorphy ring O, and hence there is an epimorphism CA(O)→CA(O′).
+This implies that every class g∈CA(O′)∖{0} contains a maximal ideal (see [13] for details).
+Therefore, for all classical maximal O′-orders R′ and all g∈CA(O′)∖{0}, there exists a maximal left R′-ideal I with [nr(I)]=g.
+The trivial class however may or may not contain a maximal ideal.
+In either case, the statements 1-3 of Theorem 1.1 hold true.
+Thanks to Kainrath for pointing this out.
+Proof of Theorem 1.2
+Throughout this section, let OK be the ring of algebraic integers in a number field K, A a central simple algebra over K, and R a classical maximal OK-order in A having a stably free left R-ideal that is not free.
+Furthermore, the discriminant of A is denoted byD=∏p∈max(OK)Ais ramified atpp◃OK.
+The aim of this section is to prove Theorem 1.2.
+The existence of a stably free left R-ideal that is not free implies that A is a totally definite quaternion algebra and that K is totally real.
+(Note, that conversely, for all but finitely many isomorphism classes of such classical maximal OK-orders in totally definite quaternion algebras there exist stably free left R-ideals that are non-free.) We proceed in three subsections.
+Reduction
+We state two propositions and show how they imply Theorem 1.2.
+The proofs of these two propositions will then be given in Section 7.3.
+Proposition 7.1
+There exists a totally positive prime element p∈OK, a non-empty subset E⊂{2,3,4} and for every l∈N0 an atom yl∈A(R•) such thatLR•(ylp)={3}∪(l+E).
+(We emphasize that E does not depend on l.)
+Proposition 7.2
+If L∈L(R•) and n∈N, then n+L={n+l|l∈L}∈L(R•).
+Proof of Theorem 1.2 (based on Proposition 7.1 and Proposition 7.2)
+We first show that there is no transfer homomorphism R•→B(GP) for any subset GP of an abelian group.
+Assume to the contrary that θ:R•→B(GP) is such a transfer homomorphism.
+Claim A
+If S∈B(GP) and U∈A(B(GP)), then maxLB(GP)(SU)⩽|S|+1.
+Proof
+Let S=g1⋅⋯⋅gl, with l=|S| and g1,…,gl∈GP, and suppose that SU=T1⋅⋯⋅Tk with k∈N and T1,…,Tk∈A(B(GP)).
+Then for every i∈[1,k] either Ti|U, but then already Ti=U, or gj|Ti for some j∈[1,l].
+This shows k⩽|S|+1. □
+By Proposition 7.1, there exists a totally positive prime element p∈OK, and for every l∈N0 an atom yl∈A(R•) with maxLR•(ylp)⩾l+2.
+But, if l⩾|θ(p)|, thenl+2⩽maxLR•(ylp)=maxLB(GP)(θ(yl)θ(p))⩽|θ(p)|+1⩽l+1, a contradiction.
+In order to show Δ(R•)=N, we choose d∈N.
+Let p and E be as in Proposition 7.1 and set ϵ=minE.
+If l=d+3-ϵ and yl as in Proposition 7.1, then we find d=(l+ϵ)-3∈ΔR•(ylp).
+Let k∈N⩾3.
+By definition, we have Uk(R•)⊂N⩾2.
+Thus it remains to show that for every k′⩾3 there exists an element a∈R• with {k,k′}⊂L(a).
+Assume without restriction that k⩽k′ and let k=3+n with n∈N0.
+Using Proposition 7.1, we find an element a′∈R• with {3=k-n,k′-n}∈L(a′), and hence by Proposition 7.2 there exists an element a∈R• with {k,k′}∈L(a). □
+Preliminaries
+Algebraic number theory.
+Our notation mainly follows Narkiewicz [43].
+Let L/K be an extension of number fields.
+Then DL/K is the relative different, NL/K the relative field norm, dL/K=NL/K(DL/K) is the relative discriminant and dK=dK/Q the absolute discriminant (we tacitly identify ideals of Z with their positive generators for the absolute discriminant and norm).
+If O⊂OK is an order, then fO is the conductor of O in OK and h(O)=|Pic(O)| is the class number of O.
+Given a∈L with minimal polynomial f∈K[X] over K, δL/K(a)=f′(a) is the different of a.
+Completion at a prime p∈max(OK) is denoted by a subscript p, e.g., OK,p, Kp, and so on.
+If m◃OK is a squarefree ideal, thenCm+(OK)={a∈F×(OK)|(a,m)=OK}/{aOK|a∈K× is totally positive,a≡1modm} denotes the corresponding ray class group.
+We will repeatedly make use of the fact that every class in Cm+(OK) contains infinitely many maximal ideals of OK [43, Corollary 7 to Proposition 7.9].
+Quaternion algebras.
+We follow [53,41], and [39,40] for computational aspects.
+Denote by ⋅¯:A→∼Aop the anti-involution given by conjugation of elements.
+ThennrA/K(x)=nr(x)=xx¯=x¯xandtrA/K(x)=tr(x)=x+x¯for all x∈A.
+Every element x∈A satisfies an equation of the formx2-tr(x)x+nr(x)=0, and if x∈A∖K, then K(x)/K is a quadratic field extension.
+From the equation above we see that NK(x)/K=nrA/K|K(x) and TrK(x)/K=trA/K|K(x).
+A classical OK-order T of A is called a classical Eichler (OK)-order if it is the intersection of two classical maximal OK-orders.66
+Though unconventional, we keep the qualifier "classical" for consistency with the earlier sections.
+ The reduced discriminant of a classical OK-order T takes the form DN where N◃OK is the level of T.
+Furthermore, because A is totally definite, we have [T×:OK×]<∞ for the unit group, and CA(OK)=C+(OK) is the narrow class group of OK.
+As in the previous section, LC(R) is the set of isomorphism classes of left R-ideals, and μR:LC(R)→C+(OK), [I]↦[nr(I)].
+Proposition 7.3
+Let C∈N.
+Let p∈max(OK) with p∤dKD, and such thath+Mw2(NK/Q(p)+1)-2wNK/Q(p)⩾C.
+Then, for every c∈LC(R) with μR(c)=[p], there exist at least C maximal left (right) R-ideals of reduced norm p and class c.
+Here h+=|C+(OK)| is the narrow class number, and w and M are constants depending on D (see [39,40]).
+Proof
+Although not explicitly stated in this way, this is proved by Kirschmer and Voight in [39,40]: In the proof of [39, Proposition 7.7], a lower bound on the entries of a matrix T′ (in their notation) is derived, which immediately gives a lower bound on the entries of a matrix T(p) (in their notation).
+This is exactly what we need, as is clear from their definition of T(p). □
+Optimal embeddings.
+Let L/K be a quadratic field extension, and T a classical Eichler OK-order in A of squarefree level N◃OK.
+If O is an order in L, every embedding ι:O→T gives rise to a unique embedding ι:L→A, and ι is an optimal embedding if ι(L)∩T=O.
+For a∈T×, O→T, x↦aι(x)a-1 is then another such embedding.
+The number of optimal embeddings up to conjugation by units is bounded above by a constant (depending only on D and N) times h(O) (see [53, Corollaire III.5.12]).
+Since [T×:OK×] is finite, the total number of optimal embeddings of O into T is still bounded by a constant times h(O).
+Quadratic forms.
+We use a theorem about representation numbers of totally positive definite quadratic forms over totally real fields.
+Let V be an n-dimensional K-vector space.
+An OK-lattice L of rank n is a finitely generated OK-submodule of V that generates V (over K).
+Together with a quadratic form q:V→K with q(L)⊂OK, (L,q) it is a quadratic lattice.
+For a∈OK we setr(L,a)=|{x∈L|q(x)=a}|.
+An element a∈OK is locally represented everywhere by (L,q) if it is represented by the completion Lv=L⊗OKOK,v for all places v of K.
+The following result is a special case of Theorem 5.1 in [50].
+Proposition 7.4
+Let (L,q) be a quadratic OK-lattice of rank four and suppose that q is totally positive definite.
+Then, for every η>0 and s∈N0, there exists a constant Cη,s>0, such that for all a∈OK that are locally represented everywhere by L, with |NK/Q(a)| sufficiently large and ps∤aOK if Lp is anisotropic, the asymptotic formular(L,a)=r(genL,a)+O(|NK/Q(a)|1118+ε) holds withr(genL,a)⩾Cη,s⋅NK/Q(a(〈q(L)〉OK)-1)1-η.
+In particular, r(L,a) is of order of magnitude |NK/Q(a)|1-η.
+If T is any classical OK-order and I any left T-ideal (in particular if I=T), then the restriction of the reduced norm to I makes (I,nr|I) into a quadratic OK-lattice of rank four and this is the situation that we will apply this result to.
+Ideal theory in R.
+Let α be the set of all classical maximal OK-orders in A (i.e., the equivalence class of the maximal order R).
+Conjugation extends to ideals: For I∈Fv(α) define I¯={x¯|x∈I}.
+Then I¯ is a fractional (Or(I),Ol(I))-ideal, I⋅I¯=Ol(I)nr(I), and I¯⋅I=Or(I)nr(I), and hence I-1=I¯⋅(Ol(I)nr(I))-1=(nr(I)Or(I))-1⋅I¯.
+Fv(α) takes a particularly simple form: If p|D then there exists a maximal two-sided R-ideal P with P2=p, nr(P)=p and if I is a left or right R-ideal with nr(I)=pk, then I=Pk.
+If p∤D, then P=pR is the maximal two-sided R-ideal lying above p, and Rp/Pp≅M2(OK,p/pp)≅M2(FNK/Q(p)).
+In particular there are NK/Q(p)+1 maximal left R-ideals (respectively maximal right R-ideals) with reduced norm p.
+If M, N are two distinct maximal left R-ideals with nr(M)=nr(N)=p, then M∩N=P (since the composition length of M2(FNK/Q(p)) is two).
+This implies that if M⋅M′=N⋅N′ with maximal integral M′,N′∈Fv(α), then M⋅M′=N⋅N′=P, and thus necessarily M′=M¯, N′=N¯.
+We therefore explicitly know all relations between maximal integral elements of Fv(α): From Proposition 4.12 we know that all relations are generated from those between pairs of products of two elements and it also characterizes the only relation between maximal integral elements of coprime reduced norm.
+With the discussion above we now also know the relations between two maximal integral elements of the same reduced norm: Either there are none, or the product is P.
+A left R-ideal I is primitive if it is not contained in an ideal of the form Ra with a◃OK.
+If nr(I)=pk with p∈max(OK) and I is primitive, then it has a unique rigid factorization in Iv(α).
+Proofs of Proposition 7.1 and Proposition 7.2
+We start with some lemmas.
+Lemma 7.5
+Let T be a classical OK-order in A.
+For all but finitely many associativity classes of totally positive prime elements q∈OK we have: If x∈T with nr(x)=q and x2=εq for some ε∈T×, then ε=-1.
+Proof
+x satisfies the polynomial equation x2-tr(x)x+nr(x)=0.
+Substituting x2=εq and nr(x)=q yields(2)tr(x)x=(1+ε)q.
+It will thus suffice to show that for all but finitely many OKq, we have tr(x)=0.
+Assume that q∈OK is a totally positive prime element, x∈T with x2=εq and tr(x)≠0.
+Then K(x)=K(ε) by (2).
+Let L=K(ε).
+Since ε∈L∩T×⊂OL×,OLq=OLεq=(OLx)2, and therefore q ramifies in OL, implying OKq|dL/K.
+Hence, for fixed L there are only finitely many possibilities for OKq, and moreover there are only finitely many possibilities for L=K(ε) because [T×:OK×] is finite since A is totally definite.77
+It should be pointed out that an even stronger statement is true.
+For any fixed totally real field K, there are only finitely many totally imaginary quadratic extensions that have larger unit group (i.e., weak unit defect), while all other totally imaginary quadratic extensions L/K have OL×=OK× (i.e., strong unit defect).
+This follows from [OL×:μ(L)OK×]∈{1,2} [54, Theorem 4.12]: For ε∈OL× we have ε2=ηζ with ζ∈μ(L) and η∈OK×.
+But ord(ζ)|[L:Q]=2[K:Q] and if γ∈(OK×)2, then ηγζ yields the same extension.
+Since [OK×:(OK×)2]<∞ there are therefore only finitely many such extensions.
+This argument is due to Remak in [48, §3].
+ Thus there are, up to associativity, only finitely many such q. □
+Lemma 7.6
+Let T be a classical OK-order in A.
+For every M∈N there exists a C∈N such that for all totally positive prime elements q∈OK with q∈nrAp/Kp(Tp) for all p∈max(OK) and NK/Q(q)⩾C|{a∈T|nr(a)=q and a2≠-q}|⩾M.
+Proof
+Let q be a totally positive prime element of OK.
+We derive an upper bound with order of magnitude NK/Q(q)log(NK/Q(q))2[K:Q]-1 on the number of elements a∈T with a2=-q (based on counting optimal embeddings).
+Comparing this to the lower bound of order of magnitude NK/Q(q)1-η for the number of elements a∈T with nr(a)=q obtained from Proposition 7.4 will give the result.
+If a∈T with nr(a)=q and a2=-q, then OK[a]⊂T is isomorphic to the order OK[-q] in the relative quadratic extension K(-q).
+We determine an upper bound the number of embeddings of OK[-q] into T.
+For this we may without loss of generality assume that T is a classical Eichler order of squarefree level, for otherwise we may replace it by a classical Eichler order of squarefree level in which it is contained (e.g., a classical maximal order), and bound the number of embeddings there.
+Let L=K(-q).
+Since f=X2+q is the minimal polynomial of -q over K, we get for the different δL/K(-q)=f′(-q)=2-q.
+Therefore, we find for the conductor of OK[-q] in OL,fOK[-q]=δL/K(-q)DL/K-1|2OL (cf.
+[43, Proposition 4.12 and Theorem 4.8]).
+Since 2OL⊂OK[-q]⊂OL and |OL/2OL|=2[L:Q], there are at most 22[L:Q] orders in OL that contain OK[-q].
+For any such order O with OK[-q]⊂O⊂OL, we haveh(O)=h(OL)|(OL/fO)×||(O/fO)×|⩽h(OL)2[L:Q] (cf.
+[44, §I.12.9 and §I.12.11]).
+The number of optimal embeddings of O into T is bounded by a constant times h(O), and hence the total number of embeddings of OK[-q] into T is bounded by a constant times h(OL), where the constant does not depend on q.
+Combining the upper boundh(OL)≪|dL|log(|dL|)[L:Q]-1 (cf.
+[43, Theorem 4.4]), withdL=NL/Q(DL/Q)=NL/Q(DK/Q)NL/Q(DL/K)⩽dK22[L:Q]|NL/Q(-q)|=dK22[L:Q]NK/Q(q) (here DL/K|2-qOL was used), we obtainh(OL)≪NK/Q(q)log(NK/Q(q))[L:Q]-1, and thus an upper bound of the same order for |{a∈T|nr(a)=q and a2=-q}|.
+By Proposition 7.4, for every η>0 and sufficiently large (in norm) q with q being locally represented everywhere by the norm form, |{a∈T|nr(a)=q}| grows with order of magnitude NK/Q(q)1-η, and the claim follows, by choosing η small enough, say η<14. □
+Remark 7.7
+For any classical OK-order T of A there are infinitely many pairwise non-associated totally positive primes q∈OK that are locally represented everywhere by nrA/K on T.
+This can easily be seen as follows: Let DN◃OK be the discriminant of T.
+If p∈max(OK) with p∤DN, then Tp≅M2(OK,p) and thus nrAp/Kp(Tp)=OK,p.
+If p|DN, since center(Tp)=OK,p, certainly still every square of OK,p is represented by nrAp/Kp on Tp (in fact, if p|D but p∤N then Tp is isomorphic to the unique classical maximal OK,p-order in the unique quaternion division algebra over Kp, for which nr(Tp)=OK,p also holds).
+By Henselʼs Lemma therefore every totally positive prime element q∈OK with q≡1mod4DN is locally represented everywhere by nrA/K on T.
+But there are infinitely many pairwise non-associated such primes, because every class of the ray class group C4DN+(OK) contains infinitely many pairwise distinct maximal ideals, and primes q of the required form correspond exactly to the trivial class in C4DN+(OK).
+Lemma 7.8
+Let q be a totally positive prime element of OK.
+Let I be a non-principal right R-ideal with nr(I)=qmOK for some m∈N, and J be a left S=Ol(I)-ideal with nr(J)=qnOK for some n∈N such that: I≅J (as left S-ideals) and I (respectively J) is not contained in any principal left S-ideal except S itself, and not contained in any principal right Or(I)-ideal (respectively right Or(J)-ideal) except Or(I) (respectively Or(J)) itself.
+Assume further that a∈S with nr(a)=q and a2S≠qS.1.
+For all l∈N, (alJ¯a-l)alI is a principal right R-ideal and an atom of HR•.
+In particular, alqm∈A(R•) for all l∈N.
+2.
+J¯I∈A(HR•) if it is primitive.
+In particular if m=n=1 and I≠J, then J¯I∈A(HR•).
+Proof
+Since I is not contained in any principal right R-ideal, it is in particular not contained in qR, hence primitive.
+Similarly, J is primitive.
+Let M1⁎⋯⁎Mm∈ZIv(α)⁎(I) and N1⁎⋯⁎Nn∈ZIv(α)⁎(J), with M1,…,Mm,N1,…,Nn∈Mv(α), be the unique rigid factorizations of I and J.
+1. Since I≅J as left S-ideals, (alJ¯a-l)alI=alJ¯I is principal.
+A rigid factorization of it is given by(alNn¯a-l)⁎⋯⁎(alN1¯a-l)⁎(alSa-l)a⁎(al-1Sa-(l-1))a⁎⋯⁎(aSa-1)a⁎M1⁎⋯⁎Mm with Mi,alNj¯a-l,(al-kSa-(l-k))a∈Mv(α) for i∈[1,m], j∈[1,n] and k∈[0,l-1].
+By the restrictions imposed on I, J and a, this is the only rigid factorization of alJ¯I.
+Since any non-empty proper subproduct starting from the left (or the right) is non-principal, it is an atom in HR•.
+The "in particular" statement follows by setting J=I, as then alJ¯I=alqmR∈A(HR•) and because of Proposition 5.20, therefore alqm∈A(R•).
+2. By primitivity,Nn¯⁎⋯⁎N1¯⁎M1⁎⋯⁎Mm∈ZIv(α)⁎(J¯I) is the unique rigid factorization of J¯I, and since as before no non-empty proper subproduct from the left (or the right) is principal, it is an atom in HR•.
+For the "in particular" statement, note that if m=n=1 (i.e., I and J are both maximal left S-ideals), then J¯I=qR if and only if I=J, and otherwise J¯I is necessarily primitive. □
+Lemma 7.9
+Let I be a left R-ideal, S=Or(I), and a∈R∩S.
+Then∏i=1l(al-i+1Ra-(l-i+1))a⋅I=alI=(alIa-l)al=(alIa-l)⋅∏i=1l(al-i+1Sa-(l-i+1))a with the left-most and the right-most expressions being proper products of(al-i+1Ra-(l-i+1))a,I,(al-i+1Sa-(l-i+1))a,alIa-l∈Iv(α).
+(The products have to be read in ascending order with "i=1" to the very left.)
+Proof
+The formulas are clear, and so is that the products are proper ones.
+The key point is that these one-sided ideals are indeed integral.
+But this is so because a∈S, hence a∈akSa-k for all k∈N0, implying that (akSa-k)a∈Iv(α), and similarly a∈R, thus (akRa-k)a∈Iv(α). □
+Lemma 7.10
+Let M be a maximal left R-ideal, and N a maximal left Or(M)-ideal.
+If M⋅N=N′⋅M′, then M¯⋅N′=N⋅M′¯.
+Proof
+Since Or(M¯)=Ol(M)=Ol(N′) and Or(N)=Or(M′)=Ol(M′¯) the product is proper.
+We haveM¯⋅N′⋅M′=M¯⋅M⋅N=nr(M)Ol(N)⋅N=N⋅Or(N)nr(M)=N⋅M′¯⋅M′, and thus M¯⋅N′=N⋅M′¯. □
+Proof of Proposition 7.1
+Let p∈OK be a totally positive prime element with pOK∤dKDN and with nr(p) satisfying the bound of Proposition 7.3 for the classical maximal order R (with C=1).
+Then there exists a maximal right R-ideal U with nr(U)=pOK that is non-free (i.e., non-principal) but is stably free (i.e., [nr(U)]=0 in C+(OK)).
+Let U=U0,…,Ur be the maximal left Ol(U)-ideals of reduced norm pOK (of which there are r+1=NK/Q(p)+1).
+By Lemma 7.6, there exists a totally positive prime element q∈OK, qOK∤pdKDN, and an elementa∈Ol(U)∩⋂j=0rOr(Uj)with nr(a)=q and a2≠-q, and in fact, by Lemma 7.5, we may make this choice such that a2≠εq for any ε∈R×.
+In addition, we may take NK/Q(q) to be sufficiently large to satisfy the bound of Proposition 7.3 for Ol(U) (with C=2).
+Then there exist distinct left Ol(U)-ideals I and J such that I≅J≅U and nr(I)=nr(J)=qOK.
+Set S=Or(I), and observe that S≅R, because U≅I.
+By Lemma 7.8, (alJ¯a-l)alI∈A(HS•) for all l∈N0, say (alJ¯a-l)alI=ylS with yl∈A(S•).
+We consider the principal right S-ideal Xl=(alJ¯a-l)alIp⊂S, say Xl=xlS with xl∈S•.
+We will first determine all possible rigid factorizations of Xl in Iv(α).
+As in Lemma 7.8, the right S-ideal (alJ¯a-l)alI has reduced norm ql+2OK, is primitive, and thus possesses a unique rigid factorization,(alJ¯a-l)⁎(alOl(I)a-l)a⁎(al-1Ol(I)a-(l-1))a⁎⋯⁎(aOl(I)a-1)a⁎I∈ZIv(α)⁎((alJ¯a-l)alI), with the l+2 factors alJ¯a-l, (al-kOl(I)a-(l-k))a for k∈[0,l-1] and I all in Mv(α).
+For an element with a unique rigid factorization we make the convention of identifying the element and its factorization when this is notationally convenient.
+For principal ideals we omit the order and only write the generator if it is clear from the neighboring elements in the factorization what the order must be.
+For example, we can write the previous rigid factorization as alJ¯a-l⁎al⁎I.
+Xl has (r+1)(l+42) rigid factorizations: They arise from the different rigid factorizations Ui⁎Ui¯∈ZIv(α)⁎(Ol(U)p) for i∈[0,r] and the possible transpositions of Ui and Ui¯.
+We denote the rigid factorization of Xl that arises from alJa-l⁎al⁎Ui⁎Ui¯⁎I by transposing the one-sided ideals of norm p to the positions m∈[-1,l+1] and n∈[m,l+1] in the factorization by Fi,m,n: Here, the left-most position in the rigid factorization is denoted by -1, the right-most by l+1.
+So, by "the rigid factorization obtained by transposing Ui to the position -1 and Ui¯ to l+1" we mean the unique rigid factorization of Xl that has a factor of norm pOK as the first factor and as the last factor, and that can be transformed into alJ¯a-l⁎al⁎Ui⁎Ui¯⁎I by transposition of maximal integral elements with coprime norm.
+For i∈[0,r] let Vi∈Mv(α) and Mi∈Mv(α) be defined by Ui¯I=MiVi¯ under transposition, and let Wi∈Mv(α) and Ni∈Mv(α) be defined by WiNi¯=J¯Ui under transposition.
+({Vi|i∈[0,r]} is then the set of all r+1 left S=Or(I)-ideals of reduced norm p.
+Similarly {Wi|i∈[0,r]} is then the set of all r+1 left Or(J)-ideals of reduced norm p, and since Or(I)≅Or(J) the sets are actually conjugate under conjugation by an element of A×.) By Lemma 7.10 we then also have UiMi=IVi and Wi¯J¯=Ni¯Ui¯ under transposition.
+Using Lemma 7.9 to see that a transposes "nicely" with Ui and Ui¯, we can explicitly describe all Fi,m,n as follows:Case 1.
+If m=n=-1:Fi,m,n=alWia-l⁎alWi¯a-l⁎alJ¯a-l⁎al⁎I.
+Case 2.
+If m=-1 and 0⩽n⩽l:Fi,m,n=alWia-l⁎alN¯ia-l⁎an⁎al-nUi¯a-(l-n)⁎al-n⁎I.
+Case 3.
+If 0⩽m⩽n⩽l:Fi,m,n=alJ¯a-l⁎am⁎al-mUia-(l-m)⁎an-m⁎al-nUi¯a-(l-n)⁎al-n⁎I.
+Case 4.
+If m=-1 and n=l+1:Fi,m,n=alWia-l⁎alNi¯a-l⁎al⁎Mi⁎Vi¯.
+Case 5.
+If 0⩽m⩽l and n=l+1:Fi,m,n=alJ¯a-l⁎am⁎al-mUia-(l-m)⁎al-m⁎Mi⁎Vi¯.
+Case 6.
+If m=n=l+1:Fi,m,n=alJ¯a-l⁎al⁎I⁎Vi⁎Vi¯.
+ For each of these rigid factorizations of the ideal Xl in Iv(α) we can form minimal subproducts of principal one-sided ideals (starting from the left or the right) to obtain a representation of Xl as a product in HS• (and hence a representation of xl as a product of elements of S•).
+But only when each of these minimal principal subproducts is an atom of HS• this gives rise to an actual rigid factorization of xl into atoms.
+We discuss the individual cases one-by-one:Case 1.
+If m=n=-1: If Wi is non-principal, then this does not give rise to a rigid factorization into atoms, as the first principal factor is al(WiWi¯)a-l=al(pOr(J))a-l, and this is not an atom (since there is at least one element in {Wi|i∈[0,r]} that is principal by Proposition 7.3).
+If on the other hand Wi is principal, then this gives rise to a rigid factorization of Xl in HS• of length 3, with atomic factors alWia-l, alWi¯a-l and (alJ¯a-l)alI, which in turn gives rise to a rigid factorization of length 3 of xl∈S.
+Case 2.
+If m=-1 and 0⩽n⩽l:Case 2a.
+If Ui≅I: Then the last principal factor is necessarily (al-nUi¯a-(l-n))al-nI.
+If n<l, then transposing Ui¯ to the right shows that this is not an atom in HS•.
+If n=l then Ui¯I=MiVi¯ is an atom if and only if Vi is non-principal.
+Since also Ui≅J, the factor WiNi¯=J¯Ui is principal, and, because J¯ and Ui¯ are non-principal, this is either an atom (if Wi is non-principal), or a product of two atoms (if Wi is principal).
+So if Vi is non-principal we get a rigid factorization of length either l+2 or l+3, and if Vi is principal we get no rigid factorization into atoms.
+Case 2b.
+If Ui≇I: Then either there are no non-trivial principal factors (if Wi is non-principal), or the first factor is Wi and the remaining product does not factor into non-trivial principal factors.
+But then this second factor is not an atom, because after transposition of Ui¯ to the very left of the second factor (i.e., position 0), we have a principal factor Wi¯.
+So in any case, this does not give rise to a rigid factorization into atoms.
+Case 3.
+If 0⩽m⩽n⩽l: If I≇Ui, then there are no non-trivial principal factors, and hence no rigid factorization into atoms is obtained.
+If I≅Ui, then the first principal factor is (alJ¯a-l)am(al-mUia-(l-m)), and the last one is (al-nUi¯a-(l-n))al-nI.
+If m>0 (or n<l), then by transposing Ui to the left in the first factor (or Ui¯ to the right in the second factor) once, we see that this does not give rise to a rigid factorization into atoms.
+Consider now m=0 and n=l.
+If Vi is principal, then J¯Ui=ViKi¯ implies that the first factor alJ¯Uia-l is no atom, and hence again we get no rigid factorization into atoms.
+Analogously we get no rigid factorization into atoms if Wi is principal.
+If on the other hand Vi and Wi are both non-principal then J¯Ui is an atom, and so is Ui¯I.
+Thus we obtain a rigid factorization of Xl (and hence of xl) of length l+2.
+(It is then in fact the same one as the one obtained from Case 2 in the same situation.)
+Case 4.
+If m=-1 and n=l+1:Case 4a.
+If Ui≅I: Then WiNi¯ and MiVi¯ are both principal.
+If Wi is non-principal, then WiNi¯=J¯Ui is an atom since J is non-principal.
+If Wi is principal, then WiNi¯ is a product of two atoms.
+Similarly, MiVi¯ is either an atom or a product of two atoms.
+So in this case we get a rigid factorization of length l+2, l+3 or l+4.
+(In the case that Vi is non-principal, it is the same one as in Case 2.
+In the case that Vi and Wi are both non-principal it is the same as in Case 3 in the same situation.)
+Case 4b.
+If Ui≇I: Then WiNi¯ and MiVi¯ are both non-principal.
+If Wi is principal, but Vi¯ is not, then the second principal factor is necessarily (alNi¯a-l)alMiVi¯, and this cannot be split as a non-trivial product of principal factors.
+But transposing Vi¯ to the very left in this factor gives a principal factor Wi¯, hence (alNi¯a-l)alMiVi¯ is not an atom.
+Arguing analogously, if Vi¯ is principal but Wi is not, no rigid factorization into atoms is obtained.
+Finally, if Wi and Vi are both principal, we get a rigid factorization into 3 atoms.
+Case 5.
+If 0⩽m⩽l and n=l+1: This is analogous to Case 2.
+Case 6.
+If m=n=l+1: This is analogous to Case 1.
+Since there is at least one i∈[0,r] for which Wi is principal, we get at least one rigid factorization of xl of length 3 from Case 1.
+For i=0, Ui≅I, so Case 4 gives at least one factorization with length in [l+2,l+4].
+Note that which of the lengths in [l+2,l+4] occur in Case 2, Case 3, and Case 4 depends only on the principality of certain one-sided ideals, and not on l.
+Thus we have shown that there exists a set ∅≠E⊂{2,3,4} such that, for any choice of l∈N0,LS•(xl)={3}∪(l+E), and xl has the claimed form xl=ylp with yl∈A(S•) and p a totally positive prime element of OK.
+Since S≅R, the same is true for R. □
+Remark 7.11
+1.
+In the proof, the classical OK-orderT=Ol(U)∩⋂j=0rOr(Uj) is maximal at every prime r∈max(OK) with r≠pOK (thus Tr≅M2(OK,r) if r∤pD and Tr is isomorphic to the unique classical maximal OK,r-order in the unique quaternion division algebra over Kr if r|D).
+At p=pOK, it is not hard too see by local calculations thatTp≅{(abp2ca+pd)|a,b,c,d∈OK,p}.
+But Tp is not a classical Eichler order, and so neither is T.
+2.
+If r∈max(OK) we can find infinitely many pairwise non-associated totally positive prime elements q∈OK such that r splits in K(-q), and infinitely many pairwise non-associated totally positive prime elements q∈OK such that r is inert in K(-q): We may restrict ourselves to q with NK/Q(q) odd, and qOK≠r.
+Let r′=r1+vr(4).
+If -q≡1modr′, then -q is a square in OK/r′ and hence r splits in K(-q).
+If -q≡amodr′, with a a non-square in OK/r′, then r is inert in K(-q).
+It therefore suffices to show that in every class of (OK/r′)× there are infinitely many pairwise non-associated totally positive prime elements of OK.
+Since we have the exact sequence1→OK×,+/{x∈OK×,+|x≡r′1}→(OK/r′)×→Cr′+(OK)→C+(OK)→1 (cf.
+[43, Lemma 3.2], [44, Exercises VI.1.12, VI.1.13]), it suffices that every class in the kernel of Cr′+(OK)→C+(OK) contains infinitely many pairwise non-associated prime elements.
+But this is so, because in fact every class of Cr′+(OK) contains infinitely many pairwise distinct maximal ideals (cf.
+[43, Corollary 7 to Proposition 7.9]).
+3.
+Using the previous observation to find a suitable element a in the proof, we can replace Lemma 7.6 by a simpler one if D≠OK: Choosing the totally positive prime element q∈OK such that a prime divisor r|D splits in K(-q), the field K(-q) does not embed into A at all (see e.g.
+[53, Theoreme III.3.8] or [41, Theorem 7.3.3]).
+If D=OK, we may make use of the fact that the particular classical order T in the proof is contained in a classical Eichler order of squarefree level p.
+Taking q such that p is inert in K(-q), the formulas for counting optimal embeddings [53, Corollaire III.5.12] show that no order of K(-q) embeds into T.
+For this approach we only need the qualitative statement of Proposition 7.4, but not the order of magnitude.
+Proof of Proposition 7.2
+It suffices to prove the claim for n=1.
+Let a in R•, and let{I1(1)⁎⋯⁎Ik(1),…,I1(l)⁎⋯⁎Ik(l)}=ZIv(α)⁎(Ra)⊂F(Mv(α)) be the set of all rigid factorizations of Ra in Iv(α).
+Using Proposition 7.4, we can choose a totally positive prime element q∈OK with q∤nr(a) and such that there exists an x∈A× with nr(x)=q andx∈T=⋂i=1l⋂j=1kOl(Ij(i))∩Or(Ij(i)).
+We claim L(xa)=1+L(a).
+The rigid factorizations of Rxa in Iv(α) are given by all possible transpositions of x to any position inI1(i)⁎⋯⁎Im(i)⁎x, for all i∈[1,l].
+But, since x∈T, it follows from Lemma 7.9 that any such rigid factorization is of the formI1(i)⁎⋯⁎Im(i)⁎x⁎x-1Im+1(i)x⁎⋯⁎x-1Ik(i)x for m∈[0,k].
+We see that for the principal subproducts this does not change anything except insert one additional factor (corresponding to x) at some position.
+Thus, for each i∈[1,l], I1(i)⁎⋯⁎Im(i)⁎x⁎x-1Im+1(i)x⁎⋯⁎x-1Ik(i)x gives rise to a rigid factorization of ax in R• of length l+1 if and only if I1(i)⁎⋯⁎Ik(i) gives rise to a rigid factorization of a of length l. □
+Acknowledgments
+I thank Alfred Geroldinger for suggesting the topic, and him and Franz Halter-Koch for reading preliminary versions of this manuscript and providing many valuable comments.
+

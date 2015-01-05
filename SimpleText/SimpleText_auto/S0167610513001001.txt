@@ -1,0 +1,196 @@
+An assessment of a three-beam Doppler lidar wind profiling method for use in urban areas
+
+Abstract
+Currently there are few observations of the urban wind field at heights other than rooftop level.
+Remote sensing instruments such as Doppler lidars provide wind speed data at many heights, which would be useful in determining wind loadings of tall buildings, and predicting local air quality.
+Studies comparing remote sensing with traditional anemometers carried out in flat, homogeneous terrain often use scan patterns which take several minutes.
+In an urban context the flow changes quickly in space and time, so faster scans are required to ensure little change in the flow over the scan period.
+We compare 3993h of wind speed data collected using a three-beam Doppler lidar wind profiling method with data from a sonic anemometer (190m).
+Both instruments are located in central London, UK; a highly built-up area.
+Based on wind profile measurements every 2min, the uncertainty in the hourly mean wind speed due to the sampling frequency is 0.05-0.11ms-1.
+The lidar tended to overestimate the wind speed by ≈0.5ms-1 for wind speeds below 20ms-1.
+Accuracy may be improved by increasing the scanning frequency of the lidar.
+This method is considered suitable for use in urban areas.
+Graphical abstract
+Highlights
+•
+There is a need for more wind speed data collected above rooftop level in cities.
+•
+Remote sensing instruments can measure throughout the boundary layer.
+•
+Rapid evolution of the flow above cities means a short scan time is needed.
+•
+Data using a 3-beam Doppler lidar profiling method was compared with an anemometer.
+•
+The 3-beam method was found to be suitable for use in urban areas.
+
+Introduction
+Comprehensive knowledge of the urban wind field is important to a wide variety of applications, including air quality, micro-generation of electricity and building design.
+Dispersal of pollutants in urban areas is a well-studied area and data for this, and for studies of rooftop wind turbines, may be obtained using conventional instrumented masts, or roof-mounted equipment.
+It is often challenging to obtain wind profile data in urban areas as it is generally not possible to use radiosondes or tethered balloons within a city, and erecting masts at the height of many tall buildings is not feasible.
+The majority of studies of the urban boundary layer (UBL) have, therefore, been carried out using instrumented masts or roof-mounted instruments.
+This has led to a lack of observations at greater heights (Roth, 2000), a problem which may be solved if remote sensing instruments such as sodars and lidars can be successfully deployed in urban environments.
+Wind profile data, as opposed to the point measurements collected by traditional anemometers, are essential to the compilation of a complete urban wind climatology.
+Given the sometimes complex way in which wind profiles adjust to the urban surface, this information could be extremely useful for calculating potential wind loadings on tall buildings, as well as for producing accurate weather forecasts for urban areas.
+Another potential advantage of using remote sensing is that it is relatively simple to acquire data from above the roughness sublayer (RSL).
+Within the RSL the flow is directly influenced by roughness elements at the surface, such as trees and buildings, and may vary widely in the horizontal as well as the vertical.
+If we wish to obtain data that is representative of the wider surface, our measurements must be made above the RSL, which can be considered to extend up to 2-5 times the mean building height (Rotach, 1999; Cheng and Castro, 2002).
+This can be difficult to achieve using, for example, an anemometer, as this type of instrument is generally mounted on a mast or building, which are both likely to be within the RSL.
+There are several scan types that may be employed to obtain wind profiles using a Doppler lidar including Velocity Azimuth Display (Browning and Wexler, 1968), Range Height Indicator (Davies et al., 2003) and Doppler Beam Swinging (Pearson et al. 2009).
+A VAD scan involves making observations at a single elevation angle and many azimuth angles, so that the lidar beam describes a cone.
+An RHI scan takes samples at a single azimuth angle, and many elevations, so that the lidar samples a vertical 'slice' of the atmosphere.
+During a DBS scan the lidar measures vertically, and then tilted in at least two other perpendicular directions (e.g. north and east).
+Because a DBS scan involves scanning in fewer directions than an RHI or VAD scan, it can be completed more quickly (i.e. in seconds rather than minutes).
+These three scans can all be carried out using a single Doppler lidar, but two or more lidars may also be used to measure different components of the wind in a common volume (Collier et al., 2005), or to create a 'virtual tower' (Calhoun et al., 2006) using intersecting RHI scans for measuring wind profiles.
+Before deciding which scan type to use, it is necessary to consider the likely characteristics of the local wind field.
+Pearson et al. (2009) suggest that Doppler Beam Swinging (DBS) is suitable for areas where the flow cannot be considered to be uniform over the area sampled during a velocity azimuth display (VAD) scan, or steady over the time it takes for such a scan to be completed.
+The much shorter time required to complete a DBS scan should allow unsteady flow to be captured more completely because many scans may be completed in the same time required to carry out a VAD scan.
+Due to the extremely rough nature of the urban surface, high turbulence intensities may be found up to a substantial distance above the mean building height, suggesting that a DBS scan may be suitable for use in observing the urban wind field.
+This paper builds on the work of Pearson et al. (2009) by testing the DBS scanning method in an urban setting.
+As part of the ACTUAL project (Advanced Climate Technology Urban Atmospheric Laboratory) a pulsed Doppler lidar was located in central London, at a site on the Marylebone Road, with the aim of making observations throughout the UBL.
+Wind speed observations from the lidar using the DBS method were compared with data from a sonic anemometer located at 190m during the period 06/07/2010-11/01/2012.
+An estimate of the uncertainty of the lidar wind speeds was calculated and the suitability of the DBS method for urban wind profiling was assessed.
+Method
+Instrument locations
+The two instrument sites are located within central London, UK (Fig. 1).
+A HALO Photonics Streamline pulsed Doppler lidar is located on the roof of the Westminster City Council building (WCC) on the Marylebone Road (51.5213°N, 0.1606°W), and a sonic anemometer is positioned on an open lattice tower on top of the BT Tower (51.5215°N, 0.1389°W).
+See Barlow et al. (2011b) for wind-tunnel simulations of flow around the tower, and Wood et al. (2010) for previous work carried out at this site.
+The heights of the lidar and anemometer above local ground level are 18m and 190m, respectively, and the distance between the two sites is 1.6km.
+The area around the two sites is primarily commercial and residential, although there are two large parks in the vicinity.
+The nearest point of Regent's Park (1.66km2) is 0.4km to the north-east of WCC, and 0.7km north-west of the BT Tower.
+The nearest point in Hyde Park is located 0.9km to the south of WCC and 1.7km to the south-west of the BT Tower.
+Hyde Park extends westwards and, together with the adjacent Kensington Gardens, comprises 2.53km2 of grass, lake and woodland.
+Within 1-10km of the BT Tower (the tower's approximate source area in neutral conditions-Wood et al., 2010) the mean building height is 8.8±3.0m, so the instruments at the top of the BT Tower are ≈22 times the mean building height (Wood et al., 2010).
+In order to compare data from an anemometer with the lidar, the height above ground of the anemometer must exceed the minimum range of the lidar.
+In this case, this means the anemometer must be at least 105m above ground (see Section 2.2.1).
+The BT Tower site provides a rare opportunity to collect data continuously so far above an urban surface, allowing a long-term comparison with the lidar.
+To avoid interference with the lidar data from turbulence generated by the tower, the lidar must be sited further from the tower than the length of the wake, which is estimated to be ten times the width of the tower, or 10×20m=200m.
+The WCC site is far enough away that the BT Tower's wake will not affect the lidar measurements, and the choice to use this site was made to build on previous work (Barlow et al., 2009; Harrison et al., 2012).
+Instruments
+Doppler lidar
+The lidar used here is a pulsed, heterodyne Doppler lidar.
+It is eye-safe, and the scan pattern is configurable by the user (for an example, see Wood et al., 2013).
+The lidar has several built-in scanning modes, including a DBS wind profiling setting which is used here.
+Some technical specifications for this lidar configuration are given in Table 1.
+Observations of light scattered from aerosol particles in the atmosphere are received as a function of time from transmission to detection.
+Data are combined by the lidar software into 30 m-long gates along the lidar beam.
+Although there are 80 gates, the data from the first three are not useable as the geometry of the lidar causes only part of the return signal at short distances to be detected (Wandinger, 2005).
+The seemingly low maximum Doppler velocity (±11ms-1) refers to the maximum measurable unambiguous velocity along the beam; it is still possible to measure higher horizontal wind speeds when measurements from several beams are trigonometrically combined.
+Doppler beam swinging (DBS)
+The DBS method of lidar wind profiling uses a beam pointed consecutively in three directions: vertically, tilted east and tilted north (Fig. 2).
+The pre-programmed DBS mode of the lidar takes two consecutive samples in each direction, with each sample taking 1s to obtain and 2.5s to process.
+The entire scan cycle is completed in approximately 21s.
+The interval between scans is set to the allowed minimum of 120s.
+This translates to an effective sampling frequency of 0.008Hz.
+The radial velocities VRN (north-tilted), VRE (east-tilted), and VRZ (vertical) are:(1)VRN=vsinγ+wcosγ(2)VRE=usinγ+wcosγ(3)VRZ=wwhere u, v, and w are the east-west, north-south and vertical components of the wind, and γ is the angle between the tilted and vertical beams.
+In this case γ=15°.
+The radial velocities are then used to calculate the horizontal wind components:(4)u=(VRE-VRZcosγ)/sinγ(5)v=(VRN-VRZcosγ)/sinγ
+The magnitude of the horizontal wind is then U=u2+v2.
+Compared to other lidar wind profiling methods (e.g. VAD), which take many more samples, DBS is relatively fast.
+Given that each DBS scan samples only 6s of data, averaging is required to give more accurate mean wind speeds, which is discussed in Section 2.2.4.
+Lidar measurement error
+The theoretical standard deviation of a single Doppler lidar velocity estimate can be approximated using an equation derived from Rye and Hardesty (1993) (Eq.
+(6)) In this context, a single velocity estimate consists of many pulses averaged over several seconds to produce an estimate of the error in the Doppler velocity (Barlow et al., 2011a, after Pearson et al., 2009):(6)σe=(Δv22αNp(1+1.6α+0.4α2))0.5where Np is the accumulated photon count:(7)Np=SNR⋅M⋅nand α is the ratio of the lidar detector photon count to the speckle count:(8)α=SNR(2π)0.5(Δv/B)Δv is the signal spectral width, SNR is the signal to noise ratio, M is the number of points per range gate, n is the number of pulses averaged, and B is the bandwidth.
+The relevant values for the lidar used in this study are given in Table 2.
+σe=0.15ms-1 was selected as the maximum acceptable uncertainty for a single lidar wind speed measurement.
+This is equivalent to a minimum SNR threshold of ~-20dB and is close to the threshold used by Barlow et al. (2011a).
+Pearson et al. (2009) found that the threshold SNR for a reliable Doppler estimate was ~-23dB.
+An upper SNR threshold of 2dB is applied to filter out returns from cloud and rain droplets (Pearson et al. 2009).
+The final quality control applied to the lidar data is the removal of data collected in the first 3 gates, as they are unreliable.
+This results in a blind area in the first 90m of the lidar beam.
+Sampling error
+Because of the rapid variation in wind speed in the UBL, each wind speed profile obtained by the lidar must be regarded as a snapshot, rather than as representative of the mean wind speed.
+In order to produce a more reliable estimate of the mean wind speed, the data was averaged into one-hour blocks.
+This relatively long time period is used because the lidar has a low sampling frequency (0.008Hz).
+Because the time between scans is larger than the integral timescale of the flow, the error on the mean wind speed measured by the lidar can be estimated as the uncertainty attributed to the sampling frequency, which is estimated in this section.
+The error variance σx¯2 in the mean wind speed due to the sampling frequency when the time between scans is greater than the integral timescale may be estimated as follows (Kaimal and Finnigan, 1994):(9)σx¯2=σx2Nwhere N=T/Δt, and σx¯2 is the variance of the dataset.
+T is the averaging period, and Δt is the time between scans (120s).
+Table 3 shows the mean, median and interquartile range of the lidar error due to the sampling rate for T=3600s over the 3993h of the data set.
+It is possible to mitigate the effects of a low sampling frequency by increasing the averaging period, although over longer time periods, the data is likely to be statistically non-stationary.
+For these reasons, an averaging period of T=3600s is used in the comparison between the lidar and the sonic anemometer.
+Sonic anemometer
+The sonic anemometer is a Gill Instruments R3-50.
+It measures both horizontal (u, v) and vertical (w) components of the wind and samples at a rate of 20Hz.
+It is located on a 12.2m tall scaffolding tower at the top of the main BT Tower, with a number of other meteorological instruments (Fig. 3).
+The head of the anemometer is raised ≈750mm above the other instruments, and has good exposure to all wind directions.
+This instrument will be used as a reference with which to compare wind data gathered by the lidar.
+The position of the sonic anemometer, and the lidar gate to which it was compared (≈190m above ground level), mean that they are likely to be above the roughness sublayer.
+The depth of the roughness sublayer may be expected to be between ≈18m and ≈45m, which correspond to 2 and 5 times the mean building height, respectively (Britter and Hanna, 2003; Cheng and Castro, 2002).
+This means that the flow being measured will be more homogeneous than the flow close to the ground.
+Because the interval between samples taken by this instrument is smaller than the integral timescale, the sampling error must be estimated using a slightly different method than that applied to the lidar.
+The error variance in each hour can be estimated as:(10)σx¯2=σx2N/τwhere τ is the integral timescale of the flow.
+The spectra of the horizontal flow are calculated using the method used by Wood et al. (2010), which is also used to determine the integral lengthscale Λ.
+The integral timescale is then τ=Λ/U¯, where U¯ is the mean wind speed.
+In order to evaluate the performance of the DBS scanning technique, data from the sonic anemometer at the BT Tower was compared with data from the lidar gate corresponding to the height of the BT Tower instruments.
+The distance between the instruments (1.6km) means that it is not expected that the comparison will reveal an exact match.
+Possible reasons for this could be influences of the different sites, differing surface types upwind of the two instruments, or evolution of the flow between the two sites.
+The purpose of this study, however, is to test the long-term performance of the DBS method.
+If the method produces good estimates of the mean wind speed, a strong linear correlation would be expected between the data from the two instruments.
+In this case a slope not significantly different from one, and an intercept close to zero would be expected, with some amount of scatter due to the distance between the instruments.
+Results and discussion
+If the sonic anemometer is to be used to evaluate the accuracy of the lidar-measured wind speeds, confidence in the accuracy of the wind speeds measured by this instrument must be high.
+In a previous study Barlow et al. (2011b) carried out wind tunnel simulations of the flow around BT Tower and the lattice tower on which the anemometer is located.
+During these simulations it was observed that both the tower and the lattice distorted the flow at the position of a sonic anemometer installed on top of the lattice, and correction factors were developed for this position.
+These correction factors cannot be directly applied to the data presented here, as the sonic anemometer has been moved since the original installation.
+Although the corrections applied by Barlow et al. (2011b) were small (≈2% of the mean wind speed), data from the sonic anemometer are examined here to determine whether flow distortion has a substantial effect on the instrument in this new position.
+Since the new position is higher, and therefore further from the lattice tower, it is expected that any error will be smaller.
+Whether or not the instrument is being affected by flow distortion from the tower, or turbulent wakes shed by other objects may be determined by calculating the turbulence intensity associated with each wind direction.
+This can be calculated as:(11)TI=σU/U¯where U¯ is the 60min averaged wind speed, and σU is the standard deviation of the wind speed over the same hour-long period.
+A peak in the turbulence intensity suggests that the instrument is being affected by the wake from another object.
+Fig. 4 shows the median turbulence intensity measured by the sonic anemometer within each 15° sector.
+In most sectors, the median turbulence intensity is close to 0.2 which is in line with the findings of Barlow et al. (2009).
+There is also a broad peak of ≈0.4 apparent in the 90° sector centred on north.
+If this was the result of interference by the turbulent wake of a nearby object, a sharper peak would be expected.
+The small magnitude and broad width of this peak suggest that the source of the turbulence is further away, and the direction is consistent with the flow being distorted by the scaffolding tower.
+Data collected when the sonic anemometer records a wind direction between 315° and 45° are removed as wind speed data from the sonic anemometer in these conditions is considered to be unreliable.
+Effect of tilt
+Another potential source of error in the lidar wind speed measurements is a tilting of the instrument so that the beam is slightly offset from its intended position.
+This would mean that, for example, when the beam is in the vertical position, it will not only be measuring vertical motion; it will capture some horizontal motion as well.
+This would give inaccurate estimates of the horizontal wind speed.
+The same effect would occur if the flow was distorted by the local terrain so that it consistently intersected the lidar beam at an angle from the horizontal.
+It is possible to determine whether a tilt or deflection of the flow is present by fitting a function of the form Asin(θ+B)+C to a plot of θ=tan-1(w/U) against wind direction, where A is the tilt angle, B-90 is the azimuth direction in which the tilt occurs, C is a vertical offset from zero, w is the mean vertical wind speed and U is the mean horizontal wind speed.
+The method used here is the same as that used by Barlow et al. (2011b) to determine whether a sonic anemometer mounted on the BT Tower was tilted.
+Fig. 5 shows θ=tan-1(w/U) against wind speed in gate closest to the height of the BT Tower (midpoint=180m).
+Below the median wind speed of 7.83ms-1 the variability in θ increases dramatically.
+Low wind speeds are often associated with unstable conditions where larger fluctuations in w would be more common, increasing the variability in θ.
+In fitting the sine function only data where the horizontal wind speed was greater than the median wind speed were used, in order to reduce the variability in θ.
+A sine function was fitted to the data using a least squares method (Fig. 6).
+Table 4 lists all of the coefficients (A=tilt angle, B=azimuth+90° and C=vertical offset) which describe the sine functions fitted to the data recorded at the same height as in Fig. 5.
+The upper and lower bounds of the coefficients (95% confidence intervals) are also listed.
+The tilt of the instrument is estimated to be of the order of 0.5°.
+The direction of the tilt is not consistent with the location of any slopes in the surrounding area, so it is thought that the instrument itself is tilted, rather than the flow being displaced from horizontal by the local terrain.
+The tilt is corrected during processing using a rotation matrix.
+Instrument comparison
+Fig. 7 shows the 60min averaged horizontal wind speeds obtained using the lidar DBS method and the sonic anemometer.
+The lidar-derived wind speeds are taken from the range gate closest to the height of the sonic anemometer.
+The midpoint of this gate is 180m.
+A linear fit has been applied to the data using a weighted total least squares, with the weighting determined by the sampling error of each hourly mean wind speed from both the sonic anemometer and the lidar (Section 2.2.4).
+Despite the large horizontal distance between the two instruments, and the low sampling frequency of the lidar, there is a close agreement between the datasets (0.99x+0.81).
+There is a large spread in the data around the fitted curve (root mean squared error=1.12ms-1), especially when compared with similar studies carried out in flat, homogeneous terrain, with less favourable conditions filtered out (for example, Gottschall et al., 2012).
+Some of the spread may be explained by the sampling error (as discussed in Section 2.2.4.), and some by the distance between the two instruments (Bradley et al., 2012).
+The fact that the slope of the linear fit is not significantly different from one and that the intercept is close to zero give confidence that this method is suitable for long-term wind speed observations.
+Separating the data into stable, neutral and unstable conditions shows small differences based on stability (Table 5).
+The stability was determined by the stability parameter ζ=z′/L, where L=-u⁎3/(κg(w′T′¯)/T) is the Obukhov length, κ=0.41 is the von Karman constant, g=9.81ms-2 is acceleration due to gravity, w′Τ′¯ is the mean heat flux (w' and T′ being fluctuations about the means), T is the air temperature, the friction velocity u⁎2=u′w′2¯+v′w′2¯ and z′=190-4.3; the height of the sensor minus a displacement height (Wood et al., 2010).
+Neutral conditions were defined as |ζ|<0.1, unstable conditions as ζ<-0.1 and stable conditions as ζ>0.1.
+The linear fit is best during stable conditions, with the y-intercept at 0.36, compared to 0.81 when all of the data is used, and 1.05 in unstable conditions.
+Fig. 8 shows the mean difference between wind speeds measured by the lidar and sonic anemometer against anemometer wind speed.
+The data was divided into bins of 1ms-1.
+The error bars show the standard error of the data in each bin.
+The mean difference between the two instruments remains fairly constant, with the lidar overestimating the wind speed by between 0 and 0.5ms-1.
+At wind speeds greater than 20ms-1 the lidar appears to be overestimating the wind speed.
+Further observations would be required to determine whether this is an accurate reflection of the performance of this method at very high wind speeds.
+Conclusions
+A three-beam Doppler lidar wind profiling method, consisting of one vertical beam and two tilted beams (elevation 75°), was evaluated to determine whether it was suitable for use in urban areas.
+The reference instrument used was a sonic anemometer located at 190m above ground, at a site 1.6km from the lidar.
+After removing data from the sonic anemometer affected by flow distortion, and correcting for a ≈0.5° tilt of the lidar, the data from the two instruments were compared.
+The horizontal wind speeds were averaged over 60min to reduce variability.
+A strong correlation was found between the two datasets, although the lidar has a tendency to overestimate the wind speed by ≈0-0.5ms-1 at speeds of less than 20ms-1.
+At higher wind speeds there are few data, so it is not possible to draw a robust conclusion for these conditions.
+The error in the lidar-derived wind speeds varies with the stability of the atmosphere; from 0.36ms-1 in stable conditions, to 1.05ms-1 in unstable conditions, and 0.86ms-1 in neutral conditions.
+There is a considerable amount of spread around the fitted curve, which can be attributed to the low sampling frequency of the lidar (30 scans per hour), and the large distance between the instruments (1.6km).
+This result could be improved by increasing the sampling frequency of the lidar, as well as using instruments located closer together.
+The 3-beam DBS wind profiling method is considered to be appropriate for use in urban locations.
+This method is capable of providing accurate wind speed data throughout the depth of the urban boundary layer suitable for both wind engineering and meteorological applications.
+Acknowledgements
+Thanks to BT and Westminster City Council (Steve Neville) for use of their buildings; to Stuart Bradley, Sue Grimmond and Humphrey Lean for useful discussion and comments; to Ewan O'Connor for assistance with lidar data archiving and quality assurance; to Rosy Wilson, Andrew Lomas, Dawn Turner, Marc Stringer, Gary Robinson, John Lally and HALO Photonics for technical support; to EPSRC EP/G029938/1 and UK Met Office (CASE award) for funding.
+

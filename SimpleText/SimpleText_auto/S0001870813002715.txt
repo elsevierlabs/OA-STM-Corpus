@@ -1,0 +1,404 @@
+Bergman spaces of natural G-manifolds
+
+Abstract
+Let G be a unimodular Lie group, X a compact manifold with boundary, and M the total space of a principal bundle G→M→X so that M is also a strongly pseudoconvex complex manifold.
+In this work, we show that if there exists a point p∈bM such that TpG is contained in the complex tangent space TpcbM of bM at p, then the Bergman space of M is large.
+Natural examples include the gauged G-complexifications of Heinzner, Huckleberry, and Kutzschebauch.
+
+Introduction
+General setting
+Let M be a complex manifold with nonempty, smooth, strongly pseudoconvex boundary bM and M¯=M∪bM so that M is the interior of M¯, and dimC(M)=n+1.
+Also assume that M¯ is a closed subset in M˜, a complex neighborhood of M¯ of the same dimension on which the complex structure on M˜ extends that of M and every point of M¯ is an interior point of M˜.
+Denote by O(M) the space of holomorphic functions on M.
+Suppose that a Lie group G acts by biholomorphisms on M˜, and that M is invariant under this action.
+We assume that the G acts on M¯ freely, properly, and cocompactly.
+This means that the map G×M→M×M given by (g,p)→(g⋅p,p) is proper, that the stabilizer of each p∈M is trivial, and that the quotient space M¯/G is compact, where from now on we denote by g⋅p the action of the group element g∈G on the point p∈M.
+Choosing a G-invariant measure μ, smooth on M˜, and restricting it to M¯, we define the Bergman space L2O(M,μ) as L2(M,μ)∩O(M).
+Compactness of the quotient and invariance of the measure imply that L2O(M,μ) does not depend on μ, provided that the measure is smooth on M¯.
+Thus we will omit mention of the measure henceforth and write L2O(M) for the Bergman space.
+In the following result, we use the notation Tpc(bM) for the complex tangent space Tp(bM)∩iTp(bM), and the unimodularity assumption means that the Lie group G admits a biinvariant Haar measure, see [9].
+Theorem 1.1
+Let G be a unimodular group acting properly, freely and cocompactly by biholomorphisms on a complex manifold M with strongly pseudoconvex boundary bM and suppose that, for some p∈bM, we have Tp(G⋅p)⊂Tpc(bM).
+Then we have dimG(L2O(M))=∞.
+Remark 1.2
+A thorough description of the G-dimension can be found in [9], but for our purposes here let us just mention that this result implies that the Bergman space is infinite-dimensional over C as any space of positive G-dimension is infinite-dimensional over C.
+An example in [5] shows that the nontriviality of the Bergman space is not automatic, even in strongly pseudoconvex manifolds admitting a cocompact Lie group action by biholomorphisms.
+Since G acts in M by measure-preserving biholomorphisms, its action induces a unitary representation of G in L2O(M).
+By the methods of [3], it can be shown that the representation R obtained is non-trivial and in fact we have
+Corollary 1.3
+kerR is compact.
+Our method of analyzing the Bergman space is derived from a partial differential equations approach to several complex variables due to Morrey, Spencer, Kohn, and others.
+This involves the analysis of a self-adjoint boundary value problem for an operator □ similar to the Hodge Laplacian and is called the ∂¯-Neumann problem.
+For any integers p,q with 0⩽p,q⩽n+1 denote by C∞(M,Λp,q) the space of all C∞ forms of type (p,q) on M.
+The antiholomorphic exterior derivative ∂¯=∂¯|p,q defines a linear map ∂¯:C∞(M,Λp,q)→C∞(M,Λp,q+1).
+If it can be established that∂¯u=ϕ has a square-integrable, smooth solution u whenever ϕ∈L2 belongs to C∞(M¯,Λ0,1) and satisfies the compatibility condition ∂¯ϕ=0, then we may construct L2-holomorphic functions.
+The first step is to use the pseudoconvexity property of the boundary to construct a function f∈L2, holomorphic in a neighborhood Ux of x in M¯, that blows up just at x.
+The function f is usually chosen to be the reciprocal of the Levi polynomial.
+Next, we can take a smooth function χ with support in Ux that is identically equal 1 close to x.
+Extending χf by zero on the rest of M, we obtain a function, which we also call χf, defined everywhere and smooth away from x.
+Furthermore, ∂¯(χf)=(∂¯χ)f=0 near x, so ∂¯χf can be extended smoothly to the boundary.
+If we can now find a smooth solution u to ∂¯u=∂¯χf, then Φ=χf-u will be holomorphic and must be singular at x since u is smooth up to the boundary.
+In particular, Φ will be non-trivial.
+Let us describe the construction of solutions u∈L2(M) to ∂¯u=ϕ with ϕ∈L2(M,Λ0,1), ∂¯ϕ=0, noting that solutions will only be determined modulo the kernel of ∂¯ (i.e. the square-integrable holomorphic functions).
+First, we pass to an analysis of a self-adjoint operator as follows.
+Since the Hilbert space adjoint ∂¯⁎ of ∂¯ satisfies im∂¯⁎¯=(ker∂¯)⊥, we will look for u of the form u=∂¯⁎v satisfying(1)∂¯∂¯⁎v=ϕ.
+In order to eliminate the compatibility condition on ϕ, let us add a term, ∂¯⁎∂¯v, to obtain a new operator and equation(2)□v:=(∂¯∂¯⁎+∂¯⁎∂¯)v=ϕ, in which ϕ need not be assumed to satisfy ∂¯ϕ=0.
+By von Neumannʼs theorem, the ∂¯-Neumann Laplacian □ is self-adjoint with its natural boundary conditions and, when ∂¯ϕ=0 is true, Eq.
+(2) reduces to Eq.
+(1).
+This is shown by applying ∂¯ to Eq.
+(2), which gives that ∂¯∂¯⁎∂¯v=0 and in turn implies 0=〈∂¯∂¯⁎∂¯v,∂¯v〉=‖∂¯⁎∂¯v‖L2(M)2.
+Thus the new term in Eq.
+(2) vanishes when the compatibility condition holds.
+The Laplacian is elliptic but its natural ∂¯-Neumann boundary conditions are not.
+Still, it turns out that the gain at the boundary depends on the geometry of the boundary, and the best such situation is that which we assume, in which the boundary is strongly pseudoconvex.
+In this case, the operator gains one degree on the Sobolev scale in neighborhoods of bM and so global estimates including both interior and boundary neighborhoods gain only one degree.
+Our method of solution of Eq.
+(2) is to establish that □ satisfies a generalized Fredholm property.
+Classically, this means that the spaces ker□ and coker□ are finite-dimensional, i.e. on a (closed) subspace of finite complex codimension in L2(M,Λp,q), q>0, the Laplacian is a Hilbert space isomorphism.
+In the case of compact M¯, we can use the Rellich lemma and the operatorʼs Sobolev gain to obtain the finite-dimensionality of those spaces.
+This completely characterizes the solvability of □.
+The G-Fredholm property of the ∂¯-Neumann problem
+In the case of a noncompact manifold, an operator A may fail to be Fredholm regardless of its Sobolev gain.
+That is, the kernel and/or cokernel of A may be infinite-dimensional and/or the image of A may not be closed.
+Thus, our solvability theory in the G-manifold case will be worked in terms of a generalized Fredholm property valid for G-invariant subspaces of L2.
+The corresponding dimension is obtained by replacing the ordinary meaning of the complex dimension by the value of von Neumannʼs G-trace trG which takes finite values on some closed, G-invariant subspaces of L2(M) which are infinite-dimensional over C.
+For this dimension to be defined, we need that Mʼs symmetry group G be a unimodular group [9], and that the quotient X=M¯/G be a compact manifold.
+Making appropriate choices of metric on M and in the vector bundles over M and using a Haar measure on G, we obtain Hilbert spaces of sections on which the G-action is unitary.
+This action allows us to define an trace trG in the algebra of operators commuting with the action of G.
+For the case in which M=G, the G-dimension has a simple definition.
+The algebra of operators LG⊂B(L2(G)) commuting with the right action of G is a von Neumann algebra consisting of some left convolutions λκ against distributions κ on G.
+On this algebra there is a unique trace trG agreeing withtrG(λκ⁎λκ)=∫Gds|κ(s)|2, whenever λκ∈B(L2(G)) and κ∈L2(G) [9, §§5.1, 7.2].
+In order to measure invariant projections in B(L2(M))G, one uses the tensor product TrG=trG⊗trL2(M/G).
+Restricting this trace to orthogonal projections PL onto G-invariant subspaces L provides a dimension function dimG,dimG(L)=TrG(PL).
+With this idea of dimension, one generalizes the classical definition of Fredholm operator.
+Definition 1.4
+A G-invariant operator A:H1→H2 is said to be G-Fredholm if dimGkerA<∞ and if there exists a closed, invariant subspace Q⊂im(A) so that dimG(H2⊖Q)<∞.
+The principal result of [10] is the following:
+Theorem 1.5
+Let M be a complex manifold with boundary which is strongly pseudoconvex.
+Let G be a unimodular Lie group acting freely and properly by holomorphic transformations on M so that M/G is compact.
+Then, for q>0, the ∂¯-Neumann Laplacian □ in L2(M,Λp,q) is G-Fredholm.
+In other words, as the Laplacian G-Fredholm, it is an isomorphism in the orthogonal complement of a closed, invariant subspace of finite G-dimension.
+Remark 1.6
+Examples of manifolds satisfying the hypotheses of the theorem are the gauged G-complexifications of [6] for unimodular Lie groups.
+The unimodularity of G is necessary for the definition of the G-Fredholm property [9].
+See also [13] (where the G-Fredholm property is extended to a wider class of invariant operators), [12] and [14] (where the Laplacian is studied without unimodularity assumptions on G).
+The Levi problem on G-bundles
+The G-Fredholm property established earlier provides that the image of the Laplacian nontrivially intersects any closed, invariant subspace of L2(M) of large enough dimension.
+On the other hand, the Paley-Wiener theorem of [1] provides that if a closed, invariant subspace of L2(M) contains an element with compact support, then it is infinite-G-dimensional.
+Thus, if 〈u〉 denotes the closure of the complex vector space generated by translates of u∈Cc∞, we have im□∩〈∂¯χf〉≠{0}, which is the basis of the construction of the Bergman space.
+To be more precise, we need subspaces in im□∩〈∂¯χf〉∩C∞(M¯,Λ0,1) of arbitrarily large G-dimension in order to solve our problem.
+These are constructed in [11] as images under ∂¯ of subspaces of L2 generated by convolutions as follows,《χf》δ={RΔχf:Δ∈imPδ}, where (RΔu)(p)=∫GdtΔ(t)u(pt), RΔ∂¯u=∂¯RΔu, and Pδ is some invariant projection in L2(G).
+If the projections Pδ are chosen appropriately, the convolution kernels Δ∈imPδ will be smooth and so elements u∈《χf》δ will have ∂¯u∈C∞(M¯,Λ0,1).
+If it happens that u∉C∞(M¯), then Kohnʼs nontriviality argument can be applied with u replacing χf.
+This motivates the introduction of the property called amenability in [11]:
+Definition 1.7
+Let G→M→pX be a principal G-bundle and let ξ:X¯→M be a piecewise continuous section so that ξ|p(suppχ) is continuous.
+The action of G on M is called amenable if there exist an x∈bM and τ>0 so that if f is a Levi polynomial at x, then (1) χf-τ∈L2(M), (2) ‖χf-τ(⋅,ξ)‖L1(G)<∞ for all ξ∈p(suppχ), and (3) for any nonzero Δ∈C∞(G), we have RΔχf-τ∉C∞(M¯).
+Remark 1.8
+Let us point out that our nonstandard use of the term amenable refers to actions rather than groups intrinsically and is unrelated to the existence of an invariant mean on the group as in the property due to von Neumann.
+In [11] it is shown that conditions (1) and (2) hold for 0<2τ<dimG.
+The main result of [11] and the motivation for much of the present work is
+Theorem 1.9
+Let G and M be as in Theorem 1.5 and assume that the action of G in M is amenable.
+It follows that the Bergman space L2O(M) is infinite-G-dimensional.
+Remark 1.10
+In [3] we apply this theorem to establish the nontriviality of the Bergman spaces of some natural G-manifolds; we describe these in Section 5.
+Integrals on the Heisenberg group
+Verifying in practice the condition described in Definition 1.7 leads, rather concretely, to the estimation of certain integrals with parameter performed on the group G.
+In this section we present an example that will serve as a model for the general situation of Theorem 1.1.
+Note that, since the integrals to estimate have a local character, a global assumptions like cocompactness of the action plays no role and in the following example it is in fact not satisfied.
+Let (z0,z) be complex coordinates for Cn+1≅C×Cn.
+The Siegel domain Dn+1 is defined asDn+1={(z0,z)∈Cn+1:Imz0>|z|2} and the Levi polynomial of bDn+1 at 0 is given by Λ(z0,z)=z0.
+For ϵ>0 sufficiently small, the curve λ:[0,ϵ)→Cn+1:s↦(is,0) is a path to zero in Dn+1.
+Note that this path is also normal in R2n+2≅Cn+1 to T0(bDn+1).
+There is a convenient coordinatization of bDn+1 in terms of the Heisenberg group in n dimensions Hn as follows.
+That boundary is modeled geometrically as the Lie group whose underlying manifold is R×Cn with coordinates (t,ζ1,ζ2,…,ζn)=(t,ζ) and whose group law is given by(t,ζ)⋅(t′,ζ′)=(t+t′+2Im(ζ⋅ζ′),ζ+ζ′),where ζ⋅ζ′=∑1nζjζ¯j′.
+The group Hn acts on Cn+1 by holomorphic, affine transformations which preserve Dn+1 and bDn+1 as follows: if (t,ζ)∈Hn and z∈Cn+1, then define(t,ζ)⋅z=(z0+t+i|ζ|2+2i∑1nzjζ¯j,z1+ζ1,…,zn+ζn).
+The action of a group element (t,ζ)∈Hn on the Levi polynomial Λ(z)=z0 is then(3)((t,ζ)⁎Λ)(z)=z0+t+i|ζ|2+2i∑1nzjζ¯j and, in particular for (z0,z)=(0,0), this expression reduces to(4)((t,ζ)⁎Λ)(0,0)=t+i|ζ|2.
+Suppose that bM as above coincides with bDn+1.
+We will verify that the action of any subgroup G⊂{(0,ζ)}⊂Hn is amenable.
+The group G consists of points (0,ζ)∈Hn with ζ belonging to a certain subset S⊂Cn with the property z,z′∈S⇒z⋅z′∈R, for example, S=Rn⊂Cn.
+Along the path λ(s), we get(5)(RΔχΛ-τ)(λ(s))=∫SdζΔ(0,ζ)((0,ζ)⁎χ(λ(s)))[i(s+|ζ|2)]τ≈∫Bdz[i(s+|ζ|2)]τ≈∫0ϵdrrd-1[i(s+r2)]τ.
+Taking sufficiently many derivatives and putting s=0, the resulting integral is manifestly divergent, so from this we conclude that the convolution is not smooth to the boundary.
+Note that we obtain a singular convolution from subgroups whose orbits satisfy the tangency condition assumed in Theorem 1.1.
+Our proof of the theorem depends on the fact that, as it turns out, the general case is a sufficiently small perturbation of this Heisenberg group case to preserve this divergent behavior.
+Unitary representations of Lie groups
+Unitary representations of Lie groups in L2-spaces of holomorphic functions have been studied intensely, and although the abstract theory of Lie group representations is highly developed, it has been long considered important to provide geometric realizations of these representations.
+The Borel-Weil theorem is an important example in which representations are realized as holomorphic functions on a space related to the group.
+Also, the Mackey program of construction of unitary representations of Lie groups and Harish-Chandra theory are connected to our setting [7].
+As our present analytical techniques rely ultimately on the methods of the L2-index theorem of Atiyah, it seems worthwhile to mention here that the first example application of that theorem in the original paper [2] was in the construction of L2-holomorphic representation spaces for SL(2,R) belonging to the discrete series.
+Though our method is a long-reaching development of this method, the initial content dates from the index theorem.
+To our aesthetic, it seems most attractive to take the natural geometric, complex G-manifolds constructed in [6] and investigate their Bergman spaces.
+Thus these manifolds will provide the starting points of our main class.
+Integrals of the Levi polynomial over submanifolds
+In this section we discuss the divergence of integrals analogous to (5).
+The integrals in question will be performed over a submanifold O⊂bM, as well as over a 1-parameter family of submanifolds approaching it.
+We think of O as the orbit through p∈bM of some G-action, but for the moment we do not make this assumption.
+The validity of our approach depends on the fact that the divergence properties of these integrals are invariant under a smooth change of coordinates and of the measure, and as such, they are insensitive to the presence of a group structure on O.
+We will prove that under a certain order assumption on O, these divergence properties are the same as those of (5).
+Later, we will see that this assumption is automatically satisfied when O is an orbit.
+Choice of coordinates and Levi polynomial
+As we will be interested in only the local picture, we may, without loss of generality, model our situation on a fixed, small neighborhood in Cn+1 as follows.
+Definition 2.1
+Fix p∈bM.
+We will say that a system of local coordinates (z0=x0+iy0,z), where z=(z1=x1+iy1,…,zn=xn+iyn), is adapted to (bM,p) if p↔(0,0) and T0(bM) is spanned by {∂/∂x0,∂/∂xj,∂/∂yj}1⩽j⩽n.
+Remark 2.2
+Obviously, any set of coordinates can be brought to this form by a complex linear transformation.
+Moreover, if the coordinates are fixed as above, then the complex tangent space T0c(bM)=T0(bM)∩iT0(bM) is spanned by {∂/∂xj,∂/∂yj}1⩽j⩽n.
+If such coordinates are fixed, we select uniquely an equation for bM by solving for Imz0:(6)bM={(z0,z)∈Cn+1:Imz0=f(Rez0,z)} where f(Rez0,z)=O(2) is a smooth, real-valued function.
+We express the second-order Taylor expansion f2 of f in the following way,(7)f2(Rez0,z)=Rez0⋅ℓ(Rez0,z)+2ReP(z)+L(z,z¯), where ℓ is a real-valued, linear function in (Rez0,z), while P and L correspond to the parts (involving only z) of type, respectively, (2,0) and (1,1) of the second-order expansion.
+The notation L(z,z¯) is used to emphasize the fact that L is a real-valued polynomial of degree 2 in z.
+Since bM is strongly pseudoconvex, L(z,z¯), the restriction of the Levi form to T0c(bM), is positive and Hermitian.
+We define an adapted Levi polynomial Λ(z0,z) byΛ(z0,z)=z0-2iP(z).
+Note that our definition does not coincide with the standard definition of the Levi polynomial associated to the defining function ρ(z0,z)=Imz0-f(Rez0,z) as in [8], for example.
+Nevertheless, we can show that Λ is still a support function for bM at 0.
+Lemma 2.3
+With Λ(z0,z) as defined above, for a small enough neighborhood U of 0 the following hold:•
+{Λ=0}∩U∩bM={0},
+•
+the restriction of Λ to M∩U takes values in C∖{w∈C:Rew=0,Imw⩽0}.
+ In particular, a branch of logΛ is well-defined on M∩U.
+Proof
+By definition, we have ReΛ(z0,z)=Rez0+2ImP(z) and ImΛ(z0,z)=Imz0-2ReP(z).
+If q=(z0q,zq) is such that Λ(q)=0 and q∈bM, we have that2ReP(zq)=Imz0q=2ImP(zq)ℓ(2ImP(zq),zq)+2ReP(zq)+L(zq,z¯q)+O(3), from which we getL(zq,z¯q)+O(3)=0.
+If q lies in a sufficiently small neighborhood U of 0, the condition above implies that zq=0, hence z0q=0 and q=0, which proves the first point.
+Let q∈M be such that ReΛ(q)=0.
+We obtain thatImz0q>2ImP(zq)ℓ(2ImP(zq),zq)+2ReP(zq)+L(zq,z¯q)+O(3), which impliesImΛ(q)=Imz0q-2ReP(zq)>L(zq,z¯q)+O(3).
+If q belongs to U, the expression on the right-hand side is positive, thus the second point is proved. □
+An order 3 vanishing condition
+Let O⊂bM be a real submanifold of dimension 2n with 0∈O.
+We will show in Section 2.4 how to extend our arguments to manifolds of smaller dimensions.
+We are now in a position to describe our main assumption.
+Definition 2.4
+If the restriction of ReΛ to O vanishes to order at least 3 at 0 we will say that the order 3 condition is satisfied.
+Remark 2.5
+Denote by π the projection of Cn+1 onto T0(bM), and let Σ={Λ=0}.
+The order 3 condition is then equivalent to the property that π(O) and π(Σ) have order of contact at least two at zero.
+We now check that our hypothesis is invariantly defined.
+Lemma 2.6
+The order 3 condition does not depend on the choice of (adapted) local coordinates about p.
+Proof
+Let (z0′,z′) be another set of adapted local coordinates around p↔0.
+Since its differential at 0 must preserve T0(bM), the map giving the change of coordinates between (z0,z) and (z0′,z′) can be expressed up to a real scaling factor asz0=z0′+F(z0′,z′),z=G(z0′,z′) where F(z0′,z′)=O(2) is a holomorphic function and G(z0′,z′):Cn+1→Cn is a holomorphic mapping whose differential with respect to the variables z′ has non-vanishing determinant at 0.
+We denote by F2 the second-order expansion of F:F2(z0′,z′)=z0′κ(z0′,z′)+E(z′) where κ is a complex linear function and E is a homogeneous polynomial of degree 2 in the variables z′.
+We also write G=G1+O(2), where G1(z0′,z′)=α(z0′)+β(z′) is again a complex linear map.
+Let{Rez0=h(z),Imz0=f(h(z),z)} be a set of equations for the orbit O around 0 in the coordinates (z0,z).
+The order 3 condition gives that h(z)=-2ImP(z)+O(3) and in particular, O must be tangent to T0c(bM).
+In the coordinates (z0′,z′), the hypersurface bM is locally defined by(8)Imz0′+ImF(z0′,z′)=f(Rez0′+ReF(z0′,z′),G(z0′,z′)) and the orbit O by{Rez0′+ReF(z0′,z′)=h(G(z0′,z′)),Imz0′+ImF(z0′,z′)=f(h(G(z0′,z′)),G(z0′,z′))}.
+Let f′(z0′,z′) be uniquely defined in such a way that {Imz0′=f′(z0′,z′)} is a local defining equation for bM.
+To verify the order 3 condition in the new coordinates, we compute the second-order Taylor expansion f2′ of f′,f2′(Rez0′,z′)=Rez0′ℓ′(Rez0′,z′)+2ReP′(z′)+L′(z′,z¯′).
+To this end, we examine the second-order jet of (8).
+Obviously, we need only to consider f2, F2 and G1:Imz0′=-ImF2(z0′,z′)+f2(Rez0′,G1(z0′,z′))+O(3).
+We expand the right-hand side of the previous expression in a polynomial in Rez0′, Imz0′ and z′.
+Any monomial of this expansion which is of the form QImz0′ with Q=O(1) can be replaced, using (8), by Q(-ImF(z0′,z′)+f(Rez0′+ReF(z0′,z′),G(z0′,z′))), which is O(3) and thus can be ignored.
+Performing the computation we obtainImz0′=Rez0′ℓ′(Rez0′,z′)-ImE(z′)+2ReP(β(z′))+L(β(z′),β(z′)¯)+O(3) for a suitable linear form ℓ′, which gives in particularP′(z′)=iE(z′)/2+P(β(z′)).
+It follows that the Levi polynomial Λ′(z0′,z′) has the expressionΛ′(z0′,z′)=z0′+E(z′)-2iP(β(z′)).
+Now, we turn to the second-order jet of the defining equations for O in the new coordinates:Rez0′=-ReF2(z0′,z′)+h2(G1(z0′,z′)),Imz0′=-ImF2(z0′,z′)+f2(0,G1(z0′,z′)).
+Combining these we obtainRez0′=h′(z′)=-ReE(z′)-2ImP(β(z′))+O(3) which implies that the order 3 condition holds in the new coordinates (z0′,z′). □
+Remark 2.7
+The previous lemma also holds for a manifold O′ of dimension lower than 2n.
+In fact, π(O′) has order of contact at least 2 with π(Σ) if and only if it is contained in a 2n-dimensional manifold O with the same property.
+Estimation of the integrals
+By results of [4, §18], about a point p∈bM there exists a neighborhood Up⊂M˜ and local complex coordinates Z=(z0,z)∈C×Cn such that(1)
+p↔0∈Cn+1;
+(2)
+bM={(z0,z)∈Cn+1:Imz0=|z|2+O(|z0||z|+|z|3)}.
+ Remark 2.8
+Condition (2) means that the hypersurface bM osculates the boundary of the Siegel domainDn+1={(z0,z)∈Cn+1:Imz0>|z|2} to first order at zero, and to second-order along the variables z.
+This means that the surfaces bM∩{z0=0} and bDn+1∩{z0=0} osculate to order 2.
+In such coordinates, the Levi polynomial of bM at 0 is given by Λ(Z)=z0, moreover, for ϵ>0 sufficiently small, the curve λ:[0,ϵ):M→Cn+1:s↦(is,0) is a path to zero in M, normal in R2n+2≅Cn+1 to T0(bM).
+We now perform an analysis on bM analogous to the one in Section 1.4 for bDn+1≅Hn.
+The tangent space at the origin of bM at 0 is given by T0(bM)={Imz0=0}; denote by π:Cn+1→T0(bM) the orthogonal projection.
+We can then express π(O) as{(z0,z):Rez0=h(z),Imz0=0} where h is a smooth, real-valued function defined in a neighborhood of 0 in (0,z) such that h(0)=0 and, because of the order 3 condition, h(z)=O(|z|3).
+Note that, in particular, the tangent space of π(O) at 0 is {z0=0}=T0c(bM).
+Alternatively, we can consider a smooth parametrization Γ:Cn→π(O)⊂R×Cn≅T0(bM) taking the formCn∋ζ→(h(ζ),ζ)=(O(|ζ|3),ζ).
+Since bM is given as the zero set of Imz0-f with f as in (6), and since O⊂bM, it follows that the mapCn∋ζ→P(ζ):=(h(ζ),f(h(ζ),ζ),ζ)∈Cn+1(Rez0,Imz0,z) gives a smooth parametrization of O.
+We are interested in the following integral, keeping the notation RΔχΛ-τ only in analogy to (5):(9)(RΔχΛ-τ)(0)=∫CndζΔ(P(ζ))χ(P(ζ))[Λ(P(ζ))]τ≈∫Bdζ[h(ζ)+i(f(h(ζ),ζ))]τ=∫Bdζ[h(ζ)+i(|ζ|2+O(|ζ|3))]τ, where we use the notation ≈ to express that the quotient of the two integrands is a smooth function not vanishing at 0.
+The last equality follows from the fact that f(Rez0,z)=|z|2+O(|Rez0||z|+|z|3), and that along the parametrization we have Rez0(P(ζ))=h(ζ)=O(|ζ|3) and z(P(ζ))=ζ=O(|ζ|).
+This integral is then a perturbation of the one computed for the Heisenberg group at s=0, obtained by adding the "high order terms" h(ζ) and O(|ζ|3).
+Collecting |ζ|2 in the denominator of (9),∫Bdζ|ζ|2τ(h(ζ)|ζ|2+i+O(|ζ|))τ, we have that h(ζ)/|ζ|2→0 for ζ→0.
+This is enough to prove that the integral diverges for large τ, but, as in the case of the Heisenberg group, we actually need to look at the behavior of this integral along a one-parameter family of submanifolds rather than just along O.
+Let us now, then, consider the path in Cn+1 given by λ(s)=(is,0), where s∈R+, and an arbitrary, smooth 1-parameter family of submanifolds Os such that λ(s)∈Os and O0=O.
+We choose a map Γ:R+×Cn→Cn+1 with the following properties:•
+Γ(s,0)=λ(s);
+•
+for each fixed s∈R+, the map Γ(s,⋅) parametrizes Os;
+•
+for each fixed s∈R+, the map Γ(s,z) is of the form (A(s,z)+iB(s,z),z).
+ From these properties we deduce the following expression for Γ(s,z)=(A(s,z)+iB(s,z),z):A(s,z)=h(z)+s(z⋅a(s,z)),B(s,z)=f(h(z),z)+s(1+z⋅b(s,z)) for some smooth maps a,b:R+×Cn→Cn.
+We remark that here we employ the notation v⋅w to denote the Euclidean scalar product of two vectors v,w∈Cn.
+In the following, we will replace our Levi polynomial with the more convenient Λ=-iz0.
+With this new definition for Λ we obtain the integral(RΔχΛ-τ)(λ(s))≈∫Bdζ[-i(h(ζ)+s(ζ⋅a(s,ζ)))+(f(h(ζ),ζ)+s(1+ζ⋅b(s,ζ)))]τ, which we rewrite after collecting (s+|ζ|2)τ as(RΔχΛ-τ)(λ(s))≈∫Bdζ(s+|ζ|2)τ1[f(h(ζ),ζ)+s+sζ⋅b(s,ζ)s+|ζ|2-ih(ζ)+sζ⋅a(s,ζ)s+|ζ|2]τ=∫Bdζ(s+|ζ|2)τcos(τarctan(θ(s,ζ)))+isin(τarctan(θ(s,ζ)))[(f(h(ζ),ζ)+s+sζ⋅b(s,ζ)s+|ζ|2)2+(h(ζ)+sζ⋅a(s,ζ)s+|ζ|2)2]τ/2 where we setθ(s,ζ)=-h(ζ)+sζ⋅a(s,ζ)f(h(ζ),ζ)+s+sζ⋅b(s,ζ).
+The key observation is the following:
+Lemma 2.9
+We have θ(s,ζ)→0 as (s,ζ)→0.
+Proof
+We have|θ(s,ζ)|⩽|h(ζ)||f(h(ζ),ζ)+s+sζ⋅b(s,ζ)|+s|ζ||a(s,ζ)||f(h(ζ),ζ)+s+sζ⋅b(s,ζ)|=θ1(s,ζ)+θ2(s,ζ).
+Choose a small enough neighborhood V of (0,0) in R+×Cn such that for (s,ζ)∈V∖{(0,0)} we have s(1+ζ⋅b(s,ζ))>0.
+Since f(h(ζ),ζ)>0, in such a neighborhood the denominator is positive, thusθ1(s,ζ)=|h(ζ)|f(h(ζ),ζ)+s(1+ζ⋅b(s,ζ))⩽|h(ζ)|f(h(ζ),ζ)=O(|ζ|3)|ζ|2+O(|ζ|3) where the last equality is due to the order 3 condition.
+It follows that θ1(s,ζ)→0 for (s,ζ)→0.
+For the remaining term we haveθ2(s,ζ)⩽s|ζ||a(s,ζ)|s(1+ζ⋅b(s,ζ))=O(|ζ|)1+O(|ζ|) which also approaches 0 when (s,ζ)→0. □
+For the sake of notational convenience, we also letQ(s,ζ)=f(h(ζ),ζ)+s+sζ⋅b(s,ζ)s+|ζ|2,R(s,ζ)=h(ζ)+sζ⋅a(s,ζ)s+|ζ|2.
+By arguments similar to those in Lemma 2.9, it is easy to verify that Q(s,ζ)→1 and R(s,ζ)→0 as (s,ζ)→0.
+Now, we consider polar coordinates ζ=(Ω,r) in B∖{0}≅S×(0,1) and compute our integral in these coordinates.
+Applying Fubini,(RΔχΛ-τ)(λ(s))≈∫(0,1)drr2n-1(s+|r|2)τI(s,r) whereI(s,r)=∫SdΩcos(τarctan(θ′(s,Ω,r)))+isin(τarctan(θ′(s,Ω,r)))(Q′2(s,Ω,r)+R′2(s,Ω,r))τ/2.
+Here θ′,Q′ and R′ are, respectively, the expressions of θ,Q and R in polar coordinates.
+As a consequence of Lemma 2.9 and of the discussion above, we obtain that I(s,r)→C for r→0, uniformly in s∈R+, where C=Area(S) is a real, positive constant.
+In particular, the sign of ReI(s,r) is positive and bounded below for (s,r) small enough.
+It follows thatRe(RΔχΛ-τ)(λ(s))⩾C′∫(0,1)drr2n-1(s+|r|2)τ for some C′>0 and s small enough, hence it diverges for s→0 when τ≫0.
+General dimension
+Let us assume that the dimension m of O is lower than 2n.
+By hypothesis, the tangent space of π(O) at 0 is contained in T0c(S)={z0=0}.
+Since we are principally interested in the case when O is totally real, we will actually let m⩽n and suppose that T0(π(O)) is spanned by ∂/∂x1,…,∂/∂xm.
+Letting x′=(x1,…,xm), x″=(xm+1,…,xn) and y=(y1,…,yn), a set of defining functions for π(O) can be written in the following way:{(z0,z):Rez0=h(x′),Imz0=0,x″=g1(x′),y=g2(x′)} where g1 and g2 are vector-valued functions that vanish to first order at 0.
+Moreover, because of the order 3 condition, the function h vanishes up to third order at 0.
+As before, we will consider a smooth parametrization Rm→π(O), of the formRm∋ξ→(h(ξ),ξ,g1(ξ),g2(ξ))∈T0(M)≅R(Rez0)×Cn(z) where we have split the z-space according to the decomposition z=(x′,x″,y).
+Writing z(ξ) for (ξ,g1(ξ),g2(ξ)), a parametrization of O is thus given byRm∋ξ→P(ξ)=(h(ξ),f(h(ξ),z(ξ)),z(ξ))∈Cn+1(Rez0,Imz0,z).
+Analogously to before, we define a mapping Γ:R+×Rm→Cn+1, with Γ(s,ξ)=(A(s,ξ)+iB(s,ξ),C(s,ξ)) whereA(s,ξ)=h(ξ)+s(ξ⋅a(s,ξ)),B(s,ξ)=f(h(ξ),z(ξ))+s(1+ξ⋅b(s,ξ)),C(s,ξ)=z(ξ)+sc(s,ξ) for some smooth maps a,b:R+×Rm→Rm and c:R+×Rm→Cn, parametrizing the manifold Os through the point λ(s)=(is,0).
+Again with the choice of the Levi polynomial as Λ=-iz0, we then need to evaluate the following integral:(10)(RΔχΛ-τ)(λ(s))≈∫Bdξ[-i(h(ξ)+s(ξ⋅a(s,ξ)))+(f(h(ξ),z(ξ))+s(1+ξ⋅b(s,ξ)))]τ.
+We need only observe now thatf(h(ξ),z(ξ))=|z(ξ)|2+O(|ξ|3)=|ξ|2+O(|ξ|3), where the first equality is due the order 3 condition and the second follows from the facts that by definition |z(ξ)|2=|ξ|2+|g1(ξ)|2+|g2(ξ)|2 and g1(ξ),g2(ξ) are both O(|ξ|2).
+This is all that is needed to prove the analogue of Lemma 2.9 for the argument θ(s,ξ)=-(h(ξ)+sξ⋅a(s,ξ))/(f(h(ξ),z(ξ))+s+sξ⋅b(s,ξ)).
+The divergence of the integral for a sufficiently large τ follows then in the same way as before, namely,(11)(RΔχΛ-τ)(λ(s))≈∫(0,1)drrm-1(s+|r|2)τI(s,r) where I(s,r) approaches, uniformly in s, a fixed, positive constant for r→0.
+Some properties of the orbit
+In this section, we will establish some consequences of the hypothesis Tp(G⋅p)⊂Tpc(bM).
+First of all, we derive its implications regarding the dimension of the orbit through p.
+If S if a hypersurface of Cn+1, we denote by T(S) its tangent bundle, by Tc(S) its complex tangent bundle and by CT(S),CTc(S) their respective complexifications.
+Lemma 3.1
+Let S be a strongly pseudoconvex hypersurface of Cn+1, 0∈S, and let M be a CR submanifold of S, 0∈M, such that T(M)⊂Tc(S).
+Then M is totally real and, in particular, dimRM⩽n.
+Proof
+Consider the following decompositions of the complexified tangent bundles:CT(S)=CTc(S)⊕T=T1,0(S)⊕T0,1(S)⊕T,CT(M)=CTc(M)⊕R=T1,0(M)⊕T0,1(M)⊕R, where T and R are the following transversal subbundles: (1) T is of dimension 1 and corresponds to the "bad" direction; (2) R can have larger dimension.
+Assuming, by contradiction, that M is not totally real, it follows that Tc(M), and thus T1,0(M), are non-trivial.
+If L is a smooth section of T1,0(M) in a neighborhood of 0 in M, then [L,L¯] is a section of CT(M).
+Hence by hypothesis, it is a section of CTc(S) along M. Consider, now, any smooth extension of L to a section of T1,0(S) over a neighborhood of 0 in S, which we denote by L˜.
+Note that, if p∈M, the value of the bracket [L˜,L˜¯](p), performed in S, coincides with [L,L¯](p), performed in M. Since S is strongly pseudoconvex, we have that πT[L˜,L˜¯](0)≠0 where πT is the projection on the T-space and, in particular, [L˜,L˜¯](0)∉CT0c(S).
+This is a contradiction since [L,L¯](0)∈CT0c(S) as observed above. □
+Corollary 3.2
+Let G be a Lie group, acting freely by biholomorphisms on an (n+1)-dimensional complex manifold with strongly pseudoconvex boundary S∋0, and denote by G0=0⋅G the orbit of G through 0.
+If T0(G0)⊂T0c(S) then dimRG⩽n.
+Proof
+Since G acts by biholomorphisms, Tpc(G0) has the same dimension at every p∈G0, which means that G0 is a CR submanifold of S. By the same reason the condition T0(G0)⊂T0c(S) implies T(G0)⊂Tc(S).
+The previous lemma then yields dimRG0⩽n, thus dimRG⩽n. □
+Remark 3.3
+It follows that, in the example of the Heisenberg group (see Section 1.4), there cannot be any subgroup contained in {(0,z)} of dimension bigger than n.
+Remark 3.4
+The results above also hold, with small adaptations to the proof, when we just assume that S is of finite commutator type rather than strongly pseudoconvex.
+Next, we will show that, under the same hypothesis, the orbit O=G⋅0 must satisfy the order 3 condition.
+Proposition 3.5
+If the orbit O of G through 0∈bM verifies T0(O)⊂T0c(bM), then it satisfies the order 3 condition.
+Proof
+We start by verifying the claim when dimRO=dimRG=1.
+In this case TeG is spanned by a single vector v.
+The image of v by the differential of the action is a vector field V, defined in a neighborhood of 0 in M, which is tangent to every orbit of G.
+Since G acts by biholomorphisms, we have V=ReZ for a non-singular holomorphic vector field Z.
+By a choice of complex coordinates (z0,z1,…,zn)=(z0,z), we can assume that Z=∂/∂z1, so that V=∂/∂x1 and the orbits of G are parametrized by G≅R∋t→(z0,t,…,zn)∈Cn+1.
+Note that, by hypothesis, ∂/∂x1∈T0c(bM) hence, up to a linear transformation, we can assume that T0c(M) is spanned by ∂/∂xj,∂/∂yj (1⩽j⩽n), i.e. that (z0,z) are adapted coordinates.
+Choose, as before, a local defining equation for bM of the form {Imz0=f(Rez0,z)}.
+Since bM is G-invariant, f does not depend on the variable x1.
+We express the second-order expansion f2 of f according to Eq.
+(7) and we concentrate on P(z), the homogeneous holomorphic polynomial of degree 2 giving the harmonic part of the expansion.
+We can writeP(z)=Q(z′)+z1ℓ(z′)+αz12 where Q(z′) and ℓ(z′) are, respectively, a homogeneous polynomial of degree 2 and a complex linear function in z′=(z2,…,zn), and where α∈C.
+We claim that α∈R.
+Indeed, consider the expression of f2 in the real coordinates (xj,yj)0⩽j⩽n.
+Since f2 does not depend on x1, the only one of its monomials which includes only the variables (x1,y1) is of the form cy12 for some c∈R.
+Since cy12=-c/4(z12+z¯12-2z1z¯1), it follows that α=-c/4∈R.
+In particular, if for t∈R we define z(t)=(t,0,…,0), we have P(z(t))=αt2, which implies ImP(z(t))≡0.
+Let γ(t)=(0,t,0,…,0)=(0,z(t))∈Cn+1 parametrize the orbit O of G through 0 - also notice that in these coordinates O coincides with π(O).
+With Λ(z0,z)=z0-2iP(z), we haveReΛ(γ(t))=2ImP(z(t))≡0, thus the order 3 condition is certainly satisfied.
+By Lemma 2.6 and Remark 2.7, the condition is also verified in the original coordinates.
+Let us now turn to the general case.
+Let g=TeG be the Lie algebra of G, and let U be a neighborhood of 0 in g such that the exponential map is a diffeomorphism U→exp(U) onto a neighborhood of the identity in G.
+It follows that the map Γ:U→O defined asU∋v→Γ(v)=exp(v)⋅0∈O⊂T0(bM) gives a regular parametrization of a neighborhood of 0 in O.
+We must verify that the function ReΛ(Γ(v)), defined on U, vanishes to third order at 0, which is equivalent to verifying that, for every fixed w∈g with |w|=1, the function R∋t→ReΛ(Γ(tw)) vanishes to third order at 0.
+This is the same as checking the order 3 condition for the (local) 1-parameter real subgroup Gw of G generated by w; since of course the tangent space of the orbit Ow of Gw is contained in T0(O)⊂T0c(bM), by the discussion above we have that our condition is satisfied for Ow. □
+The tangency condition implies amenability
+Let μ be a smooth G-invariant measure on M, and choose p∈bM for which the tangency condition is satisfied.
+A small G-invariant neighborhood U of p in M˜ is diffeomorphic to Bk×G with k=2n+2-d.
+The pull-back of μ|U by a diffeomorphism ϕ:Bk×G→U is then a product measure ν′⊗ν, where ν′ is some smooth measure on Bk and the Haar measure ν is biinvariant since G is unimodular.
+If Δ∈L1(G), a convolution operator RΔ is defined on L2(M) (see [11]) by(RΔu)(z)=∫Gdν(t)Δ(t)u(z⋅t) where z∈M, t∈G and u∈L2(M).
+Lemma 4.1
+Let Δ∈L2(G) and h∈L1(M).
+Then RΔh∈L2(M).
+Proof
+See [3, Lemma 7]. □
+In particular, if Λ is the Levi polynomial at p,χ∈Cc∞(M˜) and 0<τ<d/2, we have RΔχΛ-τ∈L2(M) since in this case χΛ-τ∈L1(M) [11].
+We also remark that the set of Δ which are admissible in the definition of amenability given in there is a G-invariant, smooth subspace of L2(G), thus, by translating and rescaling Δ we can assume Δ(e)=1.
+Our aim is to show that RΔχΛ-τ does not extend smoothly through p, and in order to do so we will look at its behavior along a certain curve [0,1]∋s→λ(s)∈M¯ ending at p.
+Note that, if χ is suitably chosen, the support of χΛ-τ lies on U.
+Also, we can choose the diffeomorphism ϕ mentioned above in such a way that ϕ(0,e)=p.
+Let U be any neighborhood of e in G and let u=χΛ-τ.
+It follows that(RΔu)(λ(s))=∫Udν(t)Δ(t)u(λ(s)⋅t)+∫G∖Udν(t)Δ(t)u(λ(s)⋅t)=R1(s)+R2(s) and R2(s) is a smooth function since u(λ(s)⋅t) is smooth and bounded for (s,t)∈[0,1]×(G∖U).
+Thus, we shall concentrate on R1(s) for a small enough neighborhood U.
+Setting v=u∘ϕ and γ(s)=ϕ-1(λ(s)), γ(s)=(γ1(s),γ2(s))⊂Bk×U, we can rewrite R1(s) asR1(s)=∫Udν(t)Δ(t)v(γ1(s),γ2(s)⋅t).
+We will show that Re(∂jR1(s)/∂sj)→∞ as s→0 by giving a lower estimate for the real part of the integrand.
+We point out that this property does not depend on the choice of a smooth measure on Bk×U, or, for our purposes, just of a family of smooth measures μs on {λ(s)}×U varying smoothly with respect to the parameter s∈[0,1].
+After a choice of local adapted coordinates in a neighborhood of p∈bM, consider the path λ(s) defined in Section 2.3, and the parametrization (s,ξ)→Γ(s,ξ) of the orbits of G through λ(s) given in Section 2.4.
+The push-forward of dξ by Γ induces, in a neighborhood of p, a measure on the orbits of G through λ.
+By the discussion above, we may define on a small enough neighborhood U, γ1([0,1])×U, the pull-back of this measure by the diffeomorphism ϕ.
+With this choice, the integral R1(s) becomes precisely the one considered in (10).
+We can now conclude the proof of Theorem 1.1.
+Lemma 4.2
+Let G act freely on a complex manifold M with boundary, and suppose that the orbit O of G through p∈bM satisfies Tp(O)⊂Hp(bM).
+It follows that the action of G is amenable.
+Proof
+With the complex coordinates around p given in Section 2.3, we take Λ=-iz0.
+Choose τ=(d-1)/2.
+Using (11) and noticing that the integrand is non-singular for s≠0, so that the differentiation under the integral sign is justified, we get∂∂s(R1(s))≈∫(0,1)drrd-1(s+|r|2)τ+1I(s,r)+∫(0,1)drrd-1(s+|r|2)τ∂∂sI(s,r)=I1+I2.
+Since ∂I(s,r)/∂s is smooth, I2 is absolutely convergent for s→0 by the choice of τ.
+From Lemma 3.5 we have (in the notation of Section 2.4) that h(ξ)=O(|ξ|3), so that the discussion before Eq.
+(11) applies.
+Therefore ReI1 is divergent for s→0, and we conclude that R1(s) is not smooth at s=0.
+Hence RΔχΛ-τ is not smooth at p along the curve λ(s), which shows that the action is amenable. □
+Complexification of free G-actions
+HHK tubes
+Let X and G be, respectively, a real-analytic manifold of dimension n and a Lie group acting freely and properly on X by real-analytic transformations.
+In [6] it is shown that any such G-action can be extended to a free and proper action by biholomorphisms on a neighborhood of X in its complexification XC⊃X.
+In the same work, the authors also construct a G-invariant, strongly plurisubharmonic, non-negative function φ which vanishes on X, thus by setting(12)Mϵ={φ<ϵ}⊂XC for ϵ>0 sufficiently small, one obtains a strongly pseudoconvex G-manifold Mϵ on which G acts freely by holomorphic transformations.
+Note, however, that the construction in [6] also applies to the much more general case of a proper, not necessarily free G-action.
+In the paper, the manifolds Mϵ are called gauged G-complexifications of X.
+By construction, they are Stein manifolds and so possess a rich collection of holomorphic functions O(Mϵ) which is invariant under the induced group action.
+The purpose of this section is to show that the Bergman space L2O(Mϵ) is also non-trivial.
+In order to achieve this, we prove that the sufficient condition of Theorem 1.1 is satisfied when X does not coincide with the underlying manifold of G.
+We refer to [3] for a treatment of the case G=X.
+Proposition 5.1
+Let X,G and Mϵ be as in the previous paragraph, with dimRG<dimRX.
+If ϵ is small enough, there exists a point p∈bMϵ such that the tangency condition of Theorem 1.1 is satisfied at p.
+In order to prove the proposition, we fix any point q∈X and we choose local complex coordinates z=(z1,…,zn), zj=xj+iyj, for a neighborhood U of q in XC such that q↔0 and X∩U↔{yj=0,j=1,…,n}.
+By [3, Lemma 3] we may assume that up to a complex linear transformation we have(13)φ(z)=∑j=1nyj2+O(|z|3) and that T0(G⋅0) is spanned by ∂/∂xj, j=1,…,d where d=dimRG.
+First, however, we will limit ourselves to the case where d=1 and T0(G⋅0) is spanned by ∂/∂x1.
+For any q∈U∖X, we consider the complex tangent space H(q)=Tqc(bMφ(q)) of the level set bMφ(q)={φ=φ(q)} of the function φ through z, and define the set CG=(X∩U)∪{q∈U:Tq(G⋅q)⊂H(q)}.
+In the following lemma, J is the standard complex structure, orthogonality is intended with respect to the standard Euclidean metric in the coordinates z, and ∇ denotes the gradient associated to this metric.
+Lemma 5.2
+For some small neighborhood U′ of 0 in Cn, the set CG∩U′ is a smooth hypersurface of U′.
+Proof
+Up to a holomorphic change of coordinates, we can assume that the action of G is generated by the vector field ∂/∂x1; notice that we can choose this coordinate change in such a way that its linear part at 0 is the identity, which implies that φ still admits the expansion (13).
+Moreover, in the new coordinates φ does not depend on the variable x1 and ∂/∂x1∈〈∇φ(q)〉⊥ for all q; hence the set CG coincides with the set {q∈U:∂/∂x1∈〈J∇φ(q)〉⊥}.
+Again by (13),∇φ(z)=2∑j=1nyj∂∂yj+O(|z|2),J∇φ(z)=-2∑j=1nyj∂∂xj+O(|z|2) from which we deriveJ∇φ(z)=(-2y1+k(z))∂∂x1+V(z) where V(z)∈〈∂/∂x1〉⊥ and k(z)=O(|z|2).
+It follows that CG is given by {-2y1+k(z)=0}; by the implicit function theorem, CG is a smooth hypersurface of a small enough neighborhood of 0. □
+Remark 5.3
+From the proof of the previous lemma also follows that the tangent hyperplane of CG at 0 is given by 〈∂/∂y1〉⊥.
+In fact, the gradient of the defining function -2y1+k(z) at 0 is a multiple of ∂/∂y1, and the same is true in the original coordinates because the linear part of the coordinate change equals the identity.
+Proof of Proposition 5.1
+Now, we turn back to the case when the dimension of G is arbitrary, and we define the set CG in the same way as before.
+Select a collection G1,…,Gd of local 1-parameter subgroups of G with the property that T0(Gj⋅0) is generated by ∂/∂xj for all j=1,…,d.
+For q in a small neighborhood U″ of 0 in Cn, then, we have that Tq(G⋅q) is spanned by the union of the Tq(Gj⋅q) for 1⩽j⩽d.
+It follows thatU″∩CG=U″∩⋂j=1dCGj.
+By Lemma 5.2, up to shrinking U″, each CGj is a smooth hypersurface; by Remark 5.3, then, we derive that T0(CGj)=〈∂/∂yj〉⊥, which implies that the CGj intersect transversally.
+Since d<n, it follows that CG is a smooth submanifold of U″ of real dimension strictly bigger than n.
+In particular, CG does not coincide with X∩U″, and as a consequence it must intersect bMϵ for ϵ small enough.
+Any p∈CG∩bMϵ satisfies the claim of the proposition. □
+Example
+Let X=Sθ1×Rx1, G=Rt, and let T=C/R be the complex cylinder.
+The complexification XC of X is given by T×C, in which we consider coordinates (z0=θ+iy0,z1) where θ∈S1, y0∈R, z1∈C.
+A tube Mϵ around X can be realized as a domain of XC as follows:Mϵ={(z0,z1):y02+y12<ϵ2}⊂T×C.
+Define, now, for any fixed c∈R an action ϕc of R on X byϕc(t)(θ,x1)=(θ+ct,x1+t)∈S1×R for all t∈R.
+For any fixed c, this action extends by the same formula to an action on XC by biholomorphic transformations which, moreover, preserve each Mϵ.
+It is also clear that both the action ϕc and its extension are free and cocompact on, respectively, X and M¯ϵ.
+A computation shows that, indeed, the tangency condition for the action ϕc holds along the ϕc-invariant submanifold of bMϵ given by{(z0,z1)∈T×C:y02+y12=ϵ2,y1=-cy0}⊂bMϵ.
+Thus Theorem 1.1 applies, showing that dimGL2O(Mϵ)=∞.
+Moreover, it shows that almost every point of bMϵ is a (weakly) peaking point.
+We remark that in this case, because of the presence of cocompact lattices, the methods of [5] already apply.
+However, even under the hypothesis of unimodularity a Lie group does not, in general, admit such a lattice, see [15].
+

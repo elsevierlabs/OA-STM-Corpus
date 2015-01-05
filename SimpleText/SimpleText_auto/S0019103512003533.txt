@@ -1,0 +1,404 @@
+Magnetosphere-atmosphere coupling at Saturn: 1 - Response of thermosphere and ionosphere to steady state polar forcing
+
+Highlights
+► We self-consistently calculate Saturn magnetosphere-ionosphere-thermosphere coupling.
+► Magnetospheric energy controls flow of mass and energy in Saturn's thermosphere.
+► Thermospheric dynamics are key to understanding high latitude energy balance.
+► H3+ observations combined with our simulations may constrain H2 (v⩾4) abundances.
+Abstract
+We present comprehensive calculations of the steady state response of Saturn's coupled thermosphere-ionosphere to forcing by solar radiation, magnetospheric energetic electron precipitation and high latitude electric fields caused by sub-corotation of magnetospheric plasma.
+Significant additions to the physical processes calculated in our Saturn Thermosphere Ionosphere General Circulation Model (STIM-GCM) include the comprehensive and self-consistent treatment of neutral-ion dynamical coupling and the use of self-consistently calculated rates of plasma production from incident energetic electrons.
+Our simulations successfully reproduce the observed high latitude temperatures as well as the latitudinal variations of ionospheric peak electron densities that have been observed by the Cassini Radio Science Subsystem experiment (RSS).
+We find magnetospheric energy deposition to strongly control the flow of mass and energy in the high and mid-latitude thermosphere and thermospheric dynamics to play a crucial role in driving this flow, highlighting the importance of including dynamics in any high latitude energy balance studies on Saturn and other Gas Giants.
+By relating observed H3+ column emissions and temperatures to the same quantities inferred from simulated atmosphere profiles we identify a potential method of better constraining the still unknown abundance of vibrationally excited H2 which strongly affects the H3+ densities.
+Our calculations also suggest that local time variability in H3+ column emission flux may be largely driven by local time changes of H3+ densities rather than temperatures.
+By exploring the parameter space of possible high latitude electric field strengths and incident energetic electron fluxes, we determine the response of thermospheric polar temperatures to a range of these magnetospheric forcing parameters, illustrating that 10keV electron fluxes of 0.1-1.2mWm-2 in combination with electric field strengths of 80-100mVm-1 produce H3+ emissions consistent with observations.
+Our calculations highlight the importance of considering thermospheric temperatures as one of the constraints when examining the state of Saturn's magnetosphere and its coupling to the upper atmosphere.
+
+Introduction
+For the Gas Giants in our Solar System the coupling between magnetospheres and atmospheres is likely to play a key role for the energy and momentum balance of their thermospheres and ionospheres.
+While the same can be said to be the case at polar latitudes on Earth, its global energy balance due to closer proximity to the Sun is most of the time dominated by solar heating.
+Magnetospheric forcing on Earth is controlled by the interaction between the solar wind and magnetosphere via the Dungey cycle (Dungey, 1961), while on Jupiter the planet's rotation represents the primary generator of electric fields and driver of magnetospheric currents which ultimately lead to auroral emissions and enhanced ionospheric Pedersen and Hall currents (e.g., Clarke et al., 2004, Cowley et al., 2004, Bougher et al., 2005).
+On Saturn, evidence from auroral observations indicates that planetary rotation and solar wind both play a role, though their exact relative importance is still subject of debate (Clarke et al., 2009).
+As first described by Hill (1979), corotation of magnetospheric plasma with a Gas Giant Planet such as Jupiter and Saturn is ultimately ensured by transfer of angular momentum from the upper atmosphere to the magnetosphere via a system of field-aligned Birkeland currents.
+In the magnetosphere the Birkeland current system is closed via radial currents in the equatorial plane which via j×B accelerations drive the plasma towards corotation.
+In the ionosphere the Birkeland currents close predominantly via field-perpendicular Pedersen currents which exert westward (against the sense of planetary rotation) acceleration on the ionospheric plasma and, via ion-neutral collisions, onto thermospheric neutrals.
+The upper atmosphere at auroral latitudes where this coupling occurs will thus corotate to a lesser extent with the planet which, in the rotating frame of the planet, is manifested via westward wind velocities in the thermosphere.
+Furthermore, the Pedersen and Hall currents cause thermal heating, often referred to as Joule heating, due to the ionosphere's resistivity.
+Using a radial profile of magnetospheric plasma velocities inferred from Voyager plasma observations and assuming fixed ionospheric conductances of 1mho, Cowley et al. (2004) calculated the associated field aligned currents and resulting ionospheric Joule heating rates of around 2.5TW per hemisphere, considerably larger than energy from the direct precipitation of electrons (globally ⩽0.06TW) and solar EUV heating (globally 0.15-0.27TW) (Müller-Wodarg et al., 2006).
+Using simultaneous observations of fields and plasmas in Saturn's magnetosphere from Cassini and UV images from the Hubble Space Telescope (HST), Cowley et al. (2008) confirmed their earlier general results but revised the assumed conductances in the southern (summer-) hemisphere up from 1 to 4mho.
+Signatures of magnetosphere-atmosphere coupling are the auroral emissions that have been studied on Saturn in the EUV and FUV (emitted by H, H2) and in the IR (emitted by H3+) (Kurth et al., 2009; Melin et al., 2011).
+The EUV/FUV emissions are associated primarily with energetic electron precipitation at energies ranging from 5 to 30keV (Sandel et al., 1982; Gérard et al., 2004; Gustin et al., 2009; Lamy et al., 2010).
+Galand et al. (2011) studied the response of Saturn's ionosphere to precipitation of hard (10keV) and soft (500eV) electrons using their suprathermal electron transport code.
+They self-consistently calculated the ionisation rates and used these as input to the ionospheric model of Moore et al. (2010) to infer the resulting profiles of ion and electron densities.
+Galand et al. (2011) calculated Pedersen and Hall conductances as a function of precipitating particle energy and energy flux, deriving a square-root dependency of the conductances to energy flux for hard electrons.
+They also found the soft electrons to be important as a source of thermal electron heating but to have a minor influence upon the conductances.
+The present study investigates magnetosphere-atmosphere coupling, specifically its effects on Saturn's polar thermosphere and ionosphere.
+Our goal is to present a comprehensive assessment of the effects of magnetospheric currents on temperatures, dynamics and composition.
+Using a global model of Saturn's coupled thermosphere and ionosphere (Moore et al., 2004, 2010; Müller-Wodarg et al., 2006; Galand et al., 2009, 2011), we self-consistently calculate for the first time the response of the coupled thermosphere-ionosphere system to a range of values for energetic particle precipitation flux and high latitude electric fields.
+Through comparisons of our calculations with observed thermospheric temperatures, we define the ranges of magnetospheric parameters that are consistent with atmospheric observations, thereby presenting a framework for using the atmosphere as an additional constraint in quantitatively describing Saturn's coupled magnetosphere/atmosphere system.
+Our study extends the work of Galand et al. (2011) in that it calculates the response of the neutral atmosphere to changing conductances, while their calculations had assumed a constant background neutral atmosphere.
+Our calculations show that thermospheric dynamics are crucial in determining the thermal structure in the polar atmosphere, highlighting the limitation of any 1-D thermal balance calculation which cannot include horizontal and resulting vertical dynamics.
+In Section 2 we introduce the model and provide in Section 2.5 an overview of the simulation input parameters.
+Results for key physical quantities are presented in Section 3 alongside comparisons with observations.
+We provide a broader discussion of our findings including the limitations of our approach in Section 4.
+The STIM model
+The main tool in this study is the Saturn Thermosphere Ionosphere Model (STIM), a General Circulation Model (GCM) that treats the global response of Saturn's upper atmosphere to solar and magnetospheric forcing.
+Key physical quantities calculated by the code include global neutral temperatures, global densities of neutral and ion constituents, as well as neutral winds and ion drifts.
+In Sections 2.1, 2.2, 2.3, 2.4 we describe key components of STIM along with recent updates.
+We list the range of simulations presented in this study in Section 2.5.
+Thermosphere-ionosphere GCM
+Our simulations originate from two codes developed side-by-side but separately, namely, the Saturn Thermosphere GCM (Müller-Wodarg et al., 2006) and Saturn 1-D Ionosphere Model (Moore et al., 2004) which were subsequently fully coupled to form the Saturn Thermosphere Ionosphere Model (STIM).
+The thermosphere component globally solves the non-linear Navier-Stokes equations of momentum, continuity and energy on a spherical pressure level grid.
+The momentum equation includes terms such as pressure gradients, viscous drag, Coriolis acceleration, curvature accelerations and advection.
+The energy equation includes all processes of internal energy redistribution, such as advection, adiabatic heating and cooling as well as molecular and turbulent conduction.
+Solar EUV heating is calculated through explicit line-of-sight integration of solar irradiance attenuation (the Lambert-Beer Law), assuming solar spectra derived from the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED)/Solar EUV Experiment (SEE) (Woods et al., 2005; Woods, 2008) and heating efficiencies of 50%, a value in agreement with estimates for Jupiter by Waite et al. (1983).
+While we include direct solar EUV heating in our calculations, it has a negligible influence on the energy balance of Saturn's thermosphere, as shown earlier by Müller-Wodarg et al. (2006).
+We show in Section 3 that the main importance of solar EUV radiation lies in its ionising role that leads to conductivities, Joule heating and ion drag which in turn affect the thermospheric energy budget and dynamics.
+A new addition to the thermospheric energy equation is the inclusion of H3+ cooling, a process known to be important on Jupiter (Miller et al., 2006, 2010).
+At thermospheric temperatures typically found on Saturn (320-500K, Nagy et al., 2009), we do not expect H3+ cooling to play an important role, but we included the process to be able to assess its importance for cases where polar magnetospheric heating raises temperatures above ∼500K.
+We implemented globally the H3+ cooling rates of Miller et al. (2010) in the form of a parameterisation as a function of local thermospheric temperature and H3+ density.
+The STIM GCM calculates the transport by winds and molecular and turbulent diffusion of key neutral species (H, H2, He, CH4, H2O), following the procedures outlined by Müller-Wodarg et al. (2006).
+The global spherical grid has flexible resolution.
+For simulations in this study we assumed spacing in latitude and longitude of 2° and 10°, respectively, and a vertical resolution of 0.4 scale heights.
+Our time integration step was 5s and we ran the code for 500 Saturn rotations to reach steady state.
+Fully coupled chemically and dynamically to the thermosphere is a global ionosphere model based largely on the 1-D model of Moore et al. (2004).
+Neutral species undergo primary ionisation by solar EUV photons, assuming the solar spectra specified above.
+We include secondary ionisation by suprathermal photoelectrons using the parameterisation of Moore et al. (2009).
+The ions (H+, H2+, H3+, He+, CH3+, CH4+, CH5+, H2O+, H3O+) undergo reactions of charge exchange with neutral species and recombination with electrons, following the chemical scheme of Moore et al. (2004), with additional reactions for hydrocarbon ions CH3+, CH4+ and CH5+, as given by Moses and Bass (2000).
+We assume Te=Ti=Tn, a reasonable approximation as the relevant chemistry is not strongly influenced by Te (Moore et al., 2008).
+We calculate ion velocities resulting from accelerations by magnetospheric electric fields, collisions with neutral gas particles and field-aligned diffusion (Moore et al., 2004).
+The ion continuity equation is solved considering photo- and particle ionisation, chemical sources and sinks as well as transport by winds and diffusion.
+As shown by Moore et al. (2004), the ionosphere throughout the region studied here (near the main ionospheric peak) is largely in photochemical equilibrium, so dynamics have little influence on the ion distribution.
+This was predicted from comparison of transport and chemical lifetimes by Moore et al. (2004) and with the fully coupled model used here we confirm their finding.
+In particular, neutral winds are of little importance to the ion distribution.
+This is different from what is found in other atmospheres including those of Earth, Venus and Titan.
+Water and vibrationally excited H2
+Two important components of the ionospheric photochemistry in STIM are the ion charge exchange reactions with ambient neutral water molecules and with vibrationally excited H2.
+As shown by Moses and Bass (2000) and Moore et al. (2004), the dominant ion produced through solar ionisation in Saturn's ionosphere is H2+ which primarily results from solar radiation absorption by the dominant neutral species near the main ionospheric peak, H2 (Galand et al., 2009).
+The H2+ produced is rapidly lost through charge exchange reactions with H2, forming H3+, a shorter lived ion (relative to H+) whose presence in the auroral regions of Saturn has been confirmed by ground-based observations (Stallard et al., 1999).
+Another primary ion produced is H+ which as an atomic ion recombines very slowly with free electrons, making it potentially longer-lived than H3+.
+As a result, H+ becomes a key ion alongside H3+ despite the H+ production rate near the ionospheric peak being lower by about an order of magnitude than that of H2+.
+In the absence of any further chemical sink, H+ becomes the dominant ion on Saturn and due to its long lifetime barely varies with local time (Moore et al., 2004).
+A pattern of no appreciable diurnal behaviour is in contradiction to Saturn Electrostatic Discharge (SED) measurements (Kaiser et al., 1984; Fischer et al., 2011) and the dawn/dusk asymmetries observed by the Cassini Radio Science Subsystem (RSS) experiment (Nagy et al., 2006; Kliore, 2009).
+This dawn-dusk asymmetry suggests ionospheric recombination timescales of the dominant ion on Saturn's nightside to be of the order of a few hours, giving ions enough time to recombine on the nightside and their densities to be reduced in the dawn sector.
+Two chemical processes have been investigated over the past decades which could effectively destroy H+ ions, thereby reducing its (and the ionosphere's) chemical lifetime, generating local time variations in Saturn's ionosphere.
+These are the charge exchange reactions of H+ with water,(1)H++H2O→H2O++Hand with vibrationally excited H2,(2)H++H2(ν⩾4)→H2++HThe reaction rate of (1) assumed in STIM is given by kH2O=8.2×10-9cm3s-1 (Anicich, 1993).
+Moore et al. (2006) presented a comparison of calculated ionospheric densities with low latitude Cassini RSS observations (Nagy et al., 2006) and concluded that the observed dawn-dusk asymmetry in the ionosphere at low latitudes was best reproduced by the model when imposing an external influx of neutral water molecules into the low- to mid-latitude upper atmosphere at a rate of (0.5-1.0)×107cm-2s-1.
+In their more extensive recent study, Moore et al. (2010) obtained a best fit between latitudinal profiles of Total Electron Content (TEC) in model and data when imposing the water flux as a Gaussian profile centered on the equator with a peak value of 0.5×107cm-2s-1 and full width half maximum (FWHM) of 23.5° latitude.
+Fig. 1 shows the influx of water that we assume as upper boundary condition in the present study, as specified in Moore et al. (2010).
+Our model calculates the global transport of water molecules by diffusion and advection, and thereby their horizontal and vertical redistribution in the thermosphere.
+In imposing a peak water influx at equatorial latitudes, rather than a latitudinally more uniform distribution, we follow the notion that the bulk of gaseous water in the saturnian system would originate from the plumes of Enceladus and impact Saturn's upper atmosphere as a neutral constituent, thereby being unaffected by the magnetosphere and concentrated in the equatorial plane (Moore et al., 2006, 2010).
+Globally integrated, our assumed water influx amounts to 5×1026s-1.
+Assuming a water source rate from Enceladus of 1×1028s-1 (Jurac and Richardson, 2007; Cassidy and Johnson, 2010), this implies that we assume 5% of the produced water being lost to Saturn's atmosphere, slightly less than the values of 10% and 7% obtained by Jurac and Richardson (2007) and Cassidy and Johnson (2010), respectively.
+For reaction (2) above, as discussed by Moore et al. (2010) and Galand et al. (2011), the basic reaction rate of H+ with vibrationally excited H2 has recently been updated to a value of (0.6-1.3)×10-9cm3s-1 (Huestis, 2008).
+However, a large uncertainty remains in the fractional abundance of H2(ν⩾4) required for the reaction to proceed.
+Moore et al. (2010) defined an "effective" reaction rate (k1∗), the product of the rate k1 for reaction (2) and the volume mixing ratio, χ, of H2(ν⩾4) relative to H2:k1∗=k1·χ(H2(ν⩾4))[cm3s-1].
+Thus the uncertainty in the population of vibrationally excited H2 manifests itself in the reaction rate k1∗ of reaction (2).
+Moore et al. (2010), in the light of additional Cassini RSS observations, revisited their k1∗ rate and concluded that the best fit between model and observations was obtained when multiplying the original reaction rate of Moses and Bass (2000) by a factor of 0.125 which, with a revised average base reaction rate (from k1=2×10-9 to k1=1×10-9cm3s-1) (Huestis, 2008), corresponds effectively to a reduction of the assumed volume mixing ratio of H2(ν⩾4) by a factor of 4 with respect to that assumed by Moses and Bass (2000).
+For a more detailed discussion see Moore et al. (2010) and Galand et al. (2011).
+The auroral region, which is the focus of the present study, is subject to energetic electron precipitation from Saturn's magnetosphere.
+We expect such precipitation to enhance the population of vibrationally excited H2.
+As a result, we have assumed a H2(ν⩾4) abundance of twice the value assumed by Moses and Bass (2000).
+This approach was also followed by Galand et al. (2011).
+We have adopted this value globally, even though H2(ν⩾4) abundances are expected to be lower at non-auroral latitudes.
+Tests with STIM that we carried out for this study have revealed that such variations of H2(ν⩾4) at low and mid latitudes have little influence on the overall response of the thermosphere-ionosphere system to auroral forcing.
+Ion drag and Joule heating
+Key new additions to the thermospheric component of STIM with respect to that of Müller-Wodarg et al. (2006) are the inclusion of dynamical (momentum) coupling between the thermospheric neutrals and ionospheric ions and self-consistent calculations of Joule heating.
+In the absence of an external electric field, ions are constrained in their motion by the magnetic field.
+The neutral gases have collisional interactions with ions leading to a viscous-type force damping the motion of the neutral gases relative to that of the ions.
+When an external electric field is present, the ions are accelerated and the same collisional interaction leads to an acceleration of the neutral gases in the direction of ion motion.
+This latter interaction becomes important at auroral latitudes where an electric field is present.
+The ion drag term can, in general, be expressed as(3)ani=-νniu-vwhere ani denotes the acceleration due to neutral-ion collisions in the atmosphere, νni is the neutral-ion collision frequency and u, v are the neutral and ion velocities, respectively.
+In our model we implement the ion drag term in a different form, following the procedure used by Fuller-Rowell and Rees (1981), whereby the ion drag term is instead expressed as a function of the current density J in the ionosphere:(4)ani=-νniu-v=1ρJ×Bwhere B denotes the ambient magnetic field in Saturn's ionosphere (Davis and Smith, 1990), and ρ is the atmospheric neutral mass density.
+In the simulations presented here, we enforced hemispheric symmetry in the magnetic field.
+We calculate the current density J by using a generalisation of Ohm's law(5)J=σ̲·E+u×Bwhere σ̲ denotes the 3×3 conductivity tensor, E is an externally applied electric field (or internal polarisation field) and u×B represents the dynamo field.
+Thus, (E+u×B) is the electric field in the neutral rest frame.
+Following Rishbeth and Garriott (1969), we assume the concept of layer conductivities, whereby the conducting layer is assumed to have a limited vertical extent and may thus instead be expressed as a 2×2 tensor in the horizontal (latitudinal, zonal), given by(6)σ̲=σP/sin2(I)σH/sin(I)-σH/sin(I)σPHere, σP and σH denote the Pedersen and Hall conductivities, respectively, and I is the dip angle of the magnetic field B.
+We calculate σP and σH self-consistently in the model at every grid point.
+Combining the 2-D version of (5) with (6) yields expressions for the latitudinal (jθ) and longitudinal (jϕ) components of the current density as(7)jθ=σPsin2(I)Eθ+uϕBr-σHsin(I)-Eϕ+uθBrand(8)jϕ=σPEϕ-uθBr-σHsin(I)Eθ+uϕBrwhere Eθ and Eϕ denote meridional and zonal components of the electric convection or polarisation field, uθ and uϕ are the meridional and zonal neutral wind components and Br is the radial magnetic field.
+With Eq.
+(4) we obtain for the meridional and zonal ion drag acceleration terms the expressions(9)ani,θ=1ρjϕ·Brand(10)ani,ϕ=-1ρjθ·Brwhich are added to the neutral wind momentum equation of Müller-Wodarg et al. (2006).
+The above implementation is consistent with that commonly used by General Circulation Models for Earth, such as the Coupled Thermosphere Ionosphere Model (CTIM) by Fuller-Rowell et al. (1996).
+While the above treatment assumes the layer conductivity concept, which neglects vertical currents, we have in a test version of STIM also implemented the ion drag term in its more generalised form using the full 3×3 conductivity tensor and found almost identical results.
+In the interest of simplicity and computing speed we have thus retained the 2×2 treatment in our model.
+When currents flow in the ionosphere, an environment which is not perfectly conducting, resistive heating occurs, a process often referred to as Joule heating.
+Following the treatment of Fuller-Rowell and Rees (1981), we express the rate of Joule heating per unit mass using the relation(11)qJoule=1ρJ·E=1ρjθEθ+jϕEϕNote that the electrical current J in the Joule heating term (Eq.
+(5)) includes the effect of neutral winds.
+Physically this means that the above expression for Joule heating consists of two components, the thermal heating of the atmosphere by electrical currents and the change of kinetic energy of the atmospheric gases which results from the momentum change due to ion drag (Eqs.
+(9) and (10)).
+Sometimes this latter component of heating is referred to as "ion drag heating".
+While the thermal heating by currents, qJoule∗, can only be a positive quantity, the ion drag heating, qJoule, can also attain negative values, implying loss of kinetic energy of the neutral atmosphere (Vasyliũnas and Song, 2005).
+The Joule heating expression (Eq.
+(11)) is added to the neutral gas energy equation of Müller-Wodarg et al. (2006).
+The ion drag and Joule heating terms are thus calculated self-consistently in STIM, assuming a given external electric field E and auroral electron precipitation.
+This electric field originates from the departure of regions in Saturn's magnetosphere from corotation due to plasma production from internal sources.
+Thus E represents in our calculations a key parameter determining the coupling between magnetosphere and ionosphere.
+In a fully two-way coupled ionosphere-magnetosphere model, the value of E would change in response to atmospheric conditions, but we currently do not include this feedback in our model and define a fixed value of E based on calculations of Cowley et al. (2004).
+Auroral electron precipitation
+At polar latitudes, Saturn is known to possess auroral ovals which have been observed in the UV (Judge et al., 1980; Clarke et al., 1981; Gustin et al., 2009; Lamy et al., 2009), IR (Geballe et al., 1993; Stallard et al., 1999) and at visible wavelengths, as reviewed by Kurth et al. (2009).
+They are signatures of magnetosphere-ionosphere-thermosphere coupling processes, such as precipitation of energetic electrons and ions into the upper atmosphere, yielding ionisation, excitation, dissociation and heating.
+Particle ionisation processes exceed solar primary and secondary ionisation in the auroral regions.
+Ionisation at auroral latitudes due to precipitating suprathermal electrons thus plays a key role not only locally, but more globally due to the currents that can then flow, which in turn substantially affect the global energy balance.
+To account for auroral particle ionisation processes, we calculate ionisation rates from suprathermal magnetospheric electrons using the electron transport model of Galand et al. (2011).
+Populations with a mean energy of 10keV have been identified at Saturn in Voyager Ultraviolet Spectrometer (UVS), Hubble Space Telescope (HST), Cassini Plasma Spectrometer (CAPS) and Cassini Ultraviolet Imaging Spectrograph (UVIS) observations (Sandel et al., 1982; Gérard et al., 2004; Grodent et al., 2010).
+While we have the option of specifying any electron population in our model, we have chosen for this study to focus on 10keV electrons.
+Additionally, we can independently specify the latitudinal distribution as well as any local time variations of the energy flux.
+The production rate resulting from the incident electron population is proportional to the assumed energy flux.
+Simulation settings
+In simulating the response of Saturn's coupled thermosphere-ionosphere system to magnetospheric forcing, we varied two key parameters in the model, namely, the energy flux of precipitating auroral 10keV electrons and the auroral electric field strength.
+Table 1 provides a summary of all simulations, which will hereafter be referred to by their run codes (R1-R19).
+We have run all simulations for solar minimum conditions (May 15, 2008), identical to the fluxes used by Galand et al. (2009, 2011).
+Simulations R1-R18 assume equinox conditions, while R19 is identical to R15 but for southern hemisphere summer conditions.
+We find however the overall seasonal variations in Saturn's upper atmosphere outside of the auroral regions to be of secondary importance only.
+All simulations were run to steady state for 500 Saturn rotations.
+While the ionosphere reaches steady state conditions considerably earlier, the thermosphere is characterised by long thermal time scales, thus requiring long run times before a steady state is reached.
+Even so, we note that no evidence is available to determine whether or not Saturn's upper atmosphere is in thermal equilibrium.
+Fig. 2 shows the azimuthal (equatorward) electric field strength that we applied in all simulations.
+The (co-)latitude variations are consistent with calculations by Cowley et al. (2004) but we chose to vary the peak electric field strength from a maximum value equal to that of Cowley et al. (2004) (E⩽95mVm-1, solid line) to scalings of 0.9 and 0.8 times their value (E⩽85mVm-1 (dotted) and E⩽76mVm-1 (dashed), respectively).
+In applying these scalings we explore the sensitivity of the atmosphere to uncertainties and any variation in the electric field strength.
+The field is applied symmetrically in both hemispheres (pointing southward in the northern hemisphere and northward in the southern hemisphere) and assumed independent of local time and longitude.
+The black box in Fig. 2 indicates the location of maximum precipitating energetic electron flux assumed in this study.
+It coincides with the location of sudden change in the degree of corotation.
+This shear may contribute towards the acceleration of the particles into the atmosphere (Cowley et al., 2004).
+The electric field strength mapped into the polar upper atmosphere is effectively a measure of the degree of corotation of plasma in Saturn's magnetosphere.
+A lower electric field strength implies a higher degree of corotation for any given value of conductance.
+While not a free parameter per se, enough uncertainties in the observed degree of plasma corotation in Saturn's magnetosphere (Stallard et al., 2004) and in the modelling of associated electric fields justify investigating the atmosphere response to variations of E within ≈20%.
+In reality the electric field will be more complex, including a zonal field component as well as longitude, latitude and temporal variations, but this is a reasonable first attempt.
+The ionospheric plasma densities, and thereby Pedersen and Hall conductivities in the auroral region, are primarily controlled by the second parameter we vary, the incident electron energy flux.
+We assume a single population of electrons (10keV), though in reality other energies are also present.
+We assume five different levels of electron energy flux which we allow to vary with local time.
+Local time-averages of the fluxes we assumed are listed in Table 1 as 0.07, 0.12, 0.17, 0.22, 0.62 and 1.24mWm-2.
+The black line in Fig. 3 shows the local time variation of incident electron energy flux that we assume for the representative case of simulation R15 (see Table 1) at the latitude of maximum incident flux (78° in both hemispheres, see also black marker in Fig. 2).
+Fluxes in Fig. 3 vary from 0.03mWm-2 at midnight to 1.3mWm-2 at 08:00h Solar Local Time (SLT).
+These local time variations are consistent with those inferred from Hubble Space Telescope (HST) auroral observations in the UV analysed by Lamy et al. (2009), scaled to our assumed average incident flux of 0.62mWm-2 in R15 and to different averages for other simulations, as listed in Table 1.
+The local time dependence of the incident electron flux is combined in the model with a latitudinal Gaussian weighting function centered around 78° latitude, assuming a FWHM of 1.4°.
+In response to particle precipitation and associated ion production rates, the self-consistently calculated ionospheric plasma densities are locally enhanced, generating an increase in Pedersen and Hall conductances as well as thermal Joule heating.
+The red curve of Fig. 3 shows the resulting Pedersen conductances which range from 5mho at 00:40h SLT to 16.7mho at 08:40h SLT, with an average of 11.5mho.
+Conductances at Saturn are considerably larger than those at Jupiter due to the weaker magnetic field at Saturn.
+Note the 40min SLT (corresponding to ∼17min real time) delay in local time between the maximum in precipitation and that in conductances.
+This delay, identified also by Galand et al. (2011) at similar magnitude, is associated with photochemical lifetimes in the ionosphere.
+The purely thermal component of Joule heating, qJoule∗ (shown as height-integrated quantity by the dashed blue line in Fig. 3), responds simultaneously to changes in conductance, with a similar delay to the precipitation flux.
+However, as discussed in Section 2.3 the actual heating rate, qJoule, in the atmosphere due to Pedersen and Hall currents needs to take into account the neutral wind velocities as well and is shown in Fig. 3 as solid blue line.
+Values range from 13.9mWm-2 at 00:00h SLT to 72mWm-2 at 07:20h SLT.
+As a result of westward neutral winds the maximum in Joule heating thus interestingly occurs before the maximum in electron precipitation.
+This highlights the importance of considering neutral winds when calculating auroral energy deposition rates.
+We furthermore note in the figure that height-integrated thermal Joule heating exceeds the height-integrated total Joule heating at all local times, implying that energy is transferred to the thermosphere throughout the day.
+The difference between the solid and dashed blue curves is larger during local times of enhanced ion production.
+Following Eq.
+(11) with Eqs.
+(7) and (8) it can be shown that under the assumption of Eϕ=0 (as is the case in our simulations), the sign of the expression [σPuϕ-σHuθsin(I)] determines whether Joule heating is enhanced (positive sign) or reduced (negative sign) due to neutral winds.
+While we find the sign of this term to become positive in parts of the bottomside ionosphere, it is negative throughout the ionospheric peak region and above.
+In a height-integrated sense, thus, energy is at that particular latitude transferred to the thermosphere.
+At other latitudes (not shown) the energy flow locally becomes opposite to that.
+Simulation results
+Simulations R15 and R19 serve as representative cases for average levels of magnetospheric forcing under equinox and solstice conditions, respectively.
+Comparisons with ionosphere and thermosphere observations are used to validate these simulations.
+In Section 3.5 we explore the sensitivity of Saturn's upper atmosphere to changes in magnetosphere forcing by analysing the results of all simulations listed in Table 1.
+Ionosphere
+Vertical profiles of noontime ionospheric plasma densities are shown in Fig. 4 for the case of R15.
+The left panel shows profiles in the region of maximum electron precipitation (78°) while the right panel shows densities at the sub-solar point (latitude 0°).
+Black lines denote the total electron density, blue lines are H+ and red lines H3+ densities.
+Not shown individually are profiles of other ions calculated in the model, namely H2+, CH3+, CH4+, CH5+, H2O+ and H3O+.
+The hydrocarbon densities populate the bottomside ionosphere, accounting for most of the electron density below around 1000km altitude.
+Calculated electron densities are about a factor of 10 larger in the auroral region than at the equator.
+Furthermore, the principal ion at the equator is H3+ while in the auroral region it is H+.
+This difference is primarily due to differences in neutral composition, specifically the presence of water at equatorial latitudes.
+As shown in Fig. 1, we assume a water influx over the equator and ignore water chemistry poleward of around 40° latitude.
+H2O is particularly effective in removing H+ from the ionosphere via the charge-exchange reaction given in Eq.
+(1) which generates an ionosphere richer in molecular ions and depleted in H+.
+Ionisation rates for 10keV electrons peak in the lower ionosphere near 800km above the 1bar level (Galand et al., 2011), explaining the bottomside secondary maximum in electron densities in the left panel.
+Fig. 5 shows the peak electron densities in Saturn's ionosphere as a function of latitude.
+The "plus" and "star" symbols are values observed by the Cassini RSS experiment for dusk and dawn conditions, respectively (Nagy et al., 2006; Kliore, 2009).
+Blue and red lines are calculated peak electron densities from simulations R15 (equinox) and R19 (southern hemisphere summer), respectively, for dusk (solid lines) and dawn (dashed) conditions.
+The RSS observations were made between 2005 and 2008 when Saturn was transitioning from southern hemisphere summer to near-vernal equinox conditions.
+Our calculated values for equinox (blue) and solstice (red) capture the range of observed values, thus validating our simulations and furthermore indicating that the observed trends between 2005 and 2008 can be accounted for by changes in solar ionisation.
+At low latitudes our calculations reproduce well the observed differences between dusk and dawn densities.
+This validates our calculated equatorial ion composition shown in Fig. 4 (right panel), as the dominance of H3+ there generates sufficiently short ion recombination times to produce the observed dawn-dusk asymmetry.
+The range of observed peak electron densities is well captured by our calculations.
+To-date radio occultations have not yet observed Saturn's ionosphere within the auroral oval.
+For clarity, modeled auroral electron density values are not fully captured with the chosen axis range in Fig. 5.
+Calculated peak densities at latitude 78° at dusk/dawn (06:00/18:00 SLT) are 2.2×105cm-3/2.0×105cm-3 for the equinox simulation (R15, blue) and for solstice (R19, red) they are 2.4×105cm-3/2.2×105cm-3 in the summer hemisphere (78°S) and 2.2×105cm-3/2.0×105cm-3 in the winter hemisphere (78°N).
+Thus, seasonal differences in solar ionisation in the auroral region near the 06:00/18:00 SLT sectors amount to no more than around 10% of the local plasma density.
+Despite the longer chemical lifetimes of H+ relative to H3+, chemistry still dominates over dynamics.
+As calculated by Moore et al. (2004), the overall chemical lifetime of Saturn's ionosphere below 2500km is τC⩽10-2s.
+Meridional wind speeds in the auroral region (discussed in Section 3.3) are below 200ms-1, giving an approximate transport time scale of τu≈103s, considerably longer than τC.
+Diffusive time scales for ions are around 105s near the ionospheric peak.
+Thus the ionosphere of Saturn near the peak is approximately in photochemical equilibrium.
+Furthermore, the large inclination angles of the B field at high latitudes imply primarily vertical redistribution of plasma by horizontal neutral winds.
+Thus, horizontal thermospheric winds are ineffective in redistributing plasma densities to regions outside of the regions of particle precipitation, giving rise to the sharp boundaries between regions with and without precipitation seen in Fig. 5.
+Thermosphere temperatures
+Diurnally-averaged thermospheric temperatures, as calculated in simulation R15, are presented in Fig. 6 for the southern hemisphere (with those in the northern hemisphere being identical).
+We find daily variations of polar temperatures to be less than 6K and thus virtually negligible, despite the strong diurnal variation of electron precipitation and thereby Joule heating (Fig. 3).
+The reasons for this are the long thermal time scales in Saturn's upper atmosphere combined with the fast planetary rotation rate.
+This justifies discussing diurnally-averaged quantities hereafter.
+To-date a single polar exospheric temperature value for Saturn has been published from UV stellar occultations and yielded an exospheric temperature of 418±54K at 82°S (Vervack and Moses, 2012).
+Temperatures poleward of 75° latitude above the 10-5mbar level in our calculations reach between 350 and 500K, consistent with the value of Vervack and Moses (2012) and the range of observed auroral H3+ temperatures on Saturn of (380-420)±70K (Melin et al., 2007).
+Thermospheric temperatures poleward of 80° decrease slightly (⩽50K) when moving to higher levels in the atmosphere above 10-5mbar.
+This decrease, as will be shown later, is associated with adiabatic cooling due to atmospheric expansion there.
+Thus we find the thermosphere to be approximately isothermal above 10-5mbar to within ∼50K, implying that observed H3+ temperatures (Stallard et al., 1999; Melin et al., 2007) are almost the same as exospheric temperatures in polar regions on Saturn.
+The same is suggested by the similarity of exospheric temperatures inferred from Voyager UVS observations at 82°S of 418±54K (Vervack and Moses, 2012) to temperatures inferred from ground-based observations of H3+ IR emissions of 400±50K (Melin et al., 2007), even though these observations were not made at the same time.
+Our calculated polar temperatures in R15 thus agree well with observations.
+At lower latitudes our calculations do not capture observed values well.
+Fig. 6 shows that exospheric temperatures decrease from around 450K near the pole to around 180K near the equator.
+Voyager 2 UVS occultations of δ-Sco suggested an exospheric temperature of 420±30K near 29.5°N (Smith et al., 1983), while a recent reanalysis of Voyager UVS data inferred a value of 488±14K (Vervack and Moses, 2012).
+These and other observations suggest low and mid-latitude exospheric temperatures on Saturn to be of the order of 450K, roughly twice the value shown in Fig. 6.
+Our model is presently unable to reproduce observed low and mid-latitude exospheric temperatures on Saturn, illustrating that magnetospheric energy is not being transported from the polar to the equatorial regions.
+This is related to Saturn's fast rotation rate and the sub-corotation of the auroral thermosphere, which ultimately generates a meridional wind transporting energy from equator to pole in the deep atmosphere, thus cooling down the equatorial regions (Smith et al., 2007).
+However, since this study is concerned with polar temperatures only we will defer discussion of the equatorial temperature problem to future investigations.
+Dynamics and composition
+Auroral forcing directly controls polar thermospheric temperatures through the effects of Joule heating (see Section 3.4).
+Additionally, the associated ion drag and pressure gradients have a profound influence on thermospheric winds, which in turn also control the energy balance and thus temperatures.
+Fig. 7 shows vertical profiles of diurnally-averaged meridional (left panel), zonal (middle panel) and vertical winds (right panel).
+Local time variations in all wind components above the 10-5mbar level are below 1%, making the display of diurnally-averaged quantities there plausible.
+In the deeper atmosphere at and below 10-5mbar however the ion-neutral momentum coupling is more efficient and causes considerable local time variations in neutral wind velocities.
+There the displayed diurnal averages do not fully capture the wind behaviour, which we will discuss separately below.
+Fig. 7 displays thermospheric wind velocities in the southern hemisphere for a near-auroral latitude of 82°S (solid line), high mid-latitude of 60°S (dashed) and low mid-latitude of 40°S (dotted).
+Velocities are defined as positive southward (here, poleward), eastward and upward.
+In the region poleward of the auroral oval (solid line) meridional winds near 10-5mbar are directed poleward, away from the region of Joule heating.
+At levels above 4×10-7mbar they reverse direction and blow away from the pole, towards the equator.
+Equatorward winds in the upper thermosphere persist towards mid-latitudes as well (dashed and dotted lines), but decreasing from around 200ms-1 near the pole to around 40ms-1 at mid-latitudes and zero at the equator (not shown).
+The wind pattern is symmetric in both hemispheres and thus indicates a global meridional circulation cell driven at polar latitudes and consisting of a large pole-to-equator circulation in the upper thermosphere followed by a return flow at lower levels.
+The polar forcing via ion drag generates strong westward (sub-corotating) winds at peak velocities of around 1300ms-1 near 82° latitude and ∼1600ms-1 near 78° (not shown).
+In order to relate zonal wind velocities near the ionospheric peak to the degree of corotation of the upper atmosphere, Fig. 8 shows latitudinal profiles of the atmospheric angular velocity relative to Saturn's rotational velocity, ω/ΩS.
+The solid black line displays the magnetospheric plasma angular velocity of Cowley et al. (2004) from which the electric field used in our simulations (Fig. 2) was derived.
+The solid blue line is the atmosphere's diurnally-averaged angular velocity near the ionospheric peak.
+The magnetospheric sub-corotation via electric fields mapped into the upper atmosphere is related to sub-corotation of the upper atmosphere with ω/ΩS≈0.45 near 78° latitude in simulation R15 (high precipitation; solid blue line in Fig. 8).
+The magnitude of ω/ΩS is affected by the conductivity of the ionosphere.
+In simulation R6 (low precipitation, dashed line), the peak incident electron flux is around 20% the value of R15, resulting in maximum Pedersen conductances of 1.4mho in R6 (versus 11.2mho in R15) and ω/ΩS≈0.60 in R6.
+Thus, the lower conductances in R6 lead to a lesser degree of sub-corotation in the atmosphere.
+At reduced conductances angular momentum is less efficiently transferred from the upper atmosphere to the magnetosphere.
+The right panel of Fig. 7 shows vertical divergence winds in Saturn's upper atmosphere.
+These are wind velocities generated by the divergence of horizontal winds.
+They represent the motion of atmospheric gases relative to levels of fixed pressure (rather than simple expansion/contraction of the atmosphere) (Rishbeth and Müller-Wodarg, 1999).
+In our shown simulation (R15) upwelling occurs above the ionospheric peak (near 10-5mbar) and downwelling below.
+The vertical divergence wind generates composition changes in the atmosphere relative to pressure levels, which are presented in Fig. 9 for simulation R15.
+Solid lines represent mole fractions of neutral gases at 78° and dashed curves are mole fractions over the equator.
+The high latitude upwelling identified in Fig. 7 enhances mole fractions of heavier gases (He, blue) at a given pressure level and reduces those of lighter gases (H, black).
+We see wind-induced composition changes only above the 10-5mbar pressure level and not below since eddy mixing is the dominant process transporting gases below the homopause (near 10-4mbar in our model) and vertical gradients of mixing ratios are small there.
+Hence the auroral CH4 profile (green) is identical to that at the equator.
+We note that H2O is present only over the equator since we specified a topside influx of water which peaked over the equator (Fig. 1), so densities at auroral latitudes are negligible.
+Not shown in Fig. 9 is the dominant gas (H2) which is given by 1-∑iXi,Xi being the mole fractions of the gases shown in the figure.
+H2 mole fractions are close to 1 and, being the principal gas throughout the domain examined, are little affected by vertical motion in the atmosphere.
+One important aspect of thermospheric dynamics is the overall transport of gases which they induce.
+To examine this, Fig. 10 displays the neutral gas mass flux in Saturn's upper atmosphere which results from neutral wind transport of gases in simulation R15.
+The figure displays height- and longitude-integrated mass fluxes from meridional winds (solid line), zonal winds (dotted) and vertical divergence winds (dashed).
+Mass fluxes particularly emphasise the importance of dynamics in the lower thermosphere (below the 10-5mbar pressure level) where wind velocities are smaller (see Fig. 7) but mass densities considerably larger than in the upper thermosphere.
+Considerable meridional transport occurs in the auroral region, transporting material away from the sub-auroral thermosphere (76-78°) primarily into the polar cap region (poleward of 78°) and to a smaller extent equatorward as well (solid line in Fig. 10).
+Vertical transport ensures continuity throughout, supplying mass from the deeper atmosphere to the 76-78° latitude region and transporting material downward in the polar cap area (dashed line in Fig. 10).
+Note that the downward wind velocities seen in the right panel of Fig. 7 are the dominant cause of this mass flux in the polar cap, by far offsetting the upwelling that is seen at higher levels where the atmospheric densities are considerably lower.
+Similarly, the meridional wind velocities in Fig. 7 (left panel) near the ionospheric peak are responsible for the bulk of meridional mass transport, rather than the high-altitude winds.
+Zonal mass fluxes (dotted line in Fig. 10) are negligible (despite the larger zonal wind velocities) since zonal mass density gradients are negligible.
+Energy balance
+We now examine the thermospheric energy balance in the auroral region.
+Fig. 11 shows diurnally-averaged energy terms at (78°S) from simulation R15.
+Solid lines denote energy sources and dashed lines are energy sinks.
+The dominant energy source is total Joule heating (green) which includes the contribution from thermospheric neutral winds according to Eq.
+(11), illustrated also in Fig. 3.
+As expected for Saturn, and the polar regions in particular, solar EUV heating (black) plays only a minor role.
+Vertical molecular conduction (blue) acts mostly as an energy sink in the upper thermosphere, conducting the energy down into the lower thermosphere (below around 10-4mbar) where it is deposited and represents a key energy source.
+Horizontal advection (red) provides the main energy sink in the region of peak heating, due to meridional winds transporting the energy equatorward.
+In the upper thermosphere energy is transported from the hotter polar region towards the equator, so advection acts as an energy source near 78°.
+Vertical upward winds provide a further key energy sink in the region via adiabatic cooling (magenta) and vertical advection (cyan).
+Cooling by H3+ IR emissions (grey) plays a minor role on Saturn, unlike what is found on Jupiter (Miller et al., 2010; Bougher et al., 2005; Achilleos et al., 1998).
+Our calculations illustrate that dynamics play a key role in controlling the energy balance on Saturn, particularly in the auroral region.
+The mass flux of Fig. 10 can be regarded as representing the bulk energy flow in the atmosphere and thus ultimately also helps to understand the thermal structure (Fig. 6), including the cold equatorial temperatures.
+As can be inferred from Fig. 10, auroral (magnetospheric) energy is transported by meridional winds primarily into the polar cap region, explaining the temperature maximum there (Fig. 6).
+Equatorward energy transport is negligible despite the upper thermosphere pole-to-equator winds (left panel of Fig. 7) since those occur in a region where the atmospheric density is considerably lower and hence energetically insignificant.
+Sensitivity to magnetospheric forcing parameters
+Having focused so far on simulations for specific high latitude magnetospheric forcing conditions, we now explore the parameter space of possible electric field and particle precipitation fluxes to examine the atmospheric sensitivity to magnetospheric forcing.
+Diurnally-averaged temperatures at the peak ionospheric density level (10-5mbar) and latitude 78° from simulations R1-R18 (Table 1) are shown in the upper panel of Fig. 12 as a function of 10keV electron energy flux and peak electric field strength.
+As discussed in Section 3.2 (and shown for R15 in Fig. 6) the temperatures may be regarded as representing to within ±50K exospheric and H3+ temperatures.
+While the values are based on equinox simulations, we found seasonal differences to be insignificant, generating temperature changes of ⩽10K.
+The bottom panel of Fig. 12 shows as a function of 10keV electron energy flux and peak electric field strength the column emission rates of H3+ calculated from the vertical profiles of H3+ densities and temperatures of simulations R1-R18.
+High latitude temperatures in Saturn's upper atmosphere published until recently had values below ∼460K (Melin et al., 2007; Vervack and Moses, 2012), but Melin et al. (2011) and Stallard et al. (2012) have shown that H3+ emission may be brighter than previously indicated, and temperatures hotter.
+Using high resolution Cassini Visual and Infrared Mapping Spectrometer (VIMS) images, Melin et al. (2011) inferred temperatures of a segment of the auroral oval of 440±50K.
+Even higher temperatures in Saturn's auroral oval of (563-624)±30K were derived from Cassini VIMS observations by Stallard et al. (2012), so auroral temperatures on Saturn up to around 650K are within the observed range.
+The thick red line in the upper panel Fig. 12 highlights the 650K contour line and thus roughly separates values of polar temperatures that have been observed on Saturn (T⩽650K) from those that as yet have not been observed (T>650K).
+The general trend we find in our simulations is that polar temperatures increase with electric field strength and electron energy flux.
+At a given energy flux of 1.2mWm-2 the temperatures increase from 450K to 850K (by a factor of ∼1.9) when increasing the electric field strength from 80mVm-1 to 100mVm-1.
+At the lower energy flux of 0.2mWm-2 the temperature changes from 450K to 550K, or by a factor of ∼1.2 for the same change in electric field.
+Thus, temperatures are less responsive to electric field variations when ionospheric conductivities (at lower energy fluxes) are smaller.
+A wider implication of this finding is that Saturn's thermosphere responds less efficiently to magnetospheric input bursts when it is less ionised and more efficiently when in a more ionised state, either due to enhanced electron energy fluxes or due to enhanced solar EUV ionisation (at solar maximum).
+For the case of magnetic storms, therefore, Saturn's upper atmosphere responds stronger to variations in magnetic field if they were preceded by enhancements in precipitating electron fluxes.
+The temperature changes with electron energy flux depend on the electric field strength that was set.
+For a moderate field strength of 80mVm-1 the temperature is virtually constant when increasing the energy flux from 0.2 to 1.2mWm-2, while at E=100mVm-1 it increases from ∼550K to 850K.
+Thus we can make the more general statement that for low to moderate electric field strength Saturn's thermospheric temperatures are more responsive to changes in electric field strength than incident energetic electron flux of 10keV particles.
+Temperatures are less responsive to changes in energy flux for soft (500eV) electrons (not shown) as these do not penetrate deep enough into the atmosphere to significantly affect Pedersen and Hall conductances (Galand et al., 2011).
+A further finding from the upper panel of Fig. 12 relates to possible restrictions on combinations of electric field strength and 10keV electron energy flux.
+The bottom left half of the figure (below the thick red line) represents a range of observed temperatures on Saturn (400-650K) and thus of "allowed" combinations of electric field strength and particle flux.
+In contrast, combinations of these two magnetospheric forcing parameters that result in temperatures in the top right part of the figure (above the red line) need to be treated with caution as they produce temperatures in excess of observations.
+A magnetospheric electric field of ∼100mVm-1 mapped into the ionosphere would in combination with at 10keV electron flux of 1mWm-2 generate thermosphere temperatures of ∼800K, well in excess of observed values.
+This combination of values cannot thus occur for extended periods on Saturn.
+Most temperature constraints on Saturn's polar thermosphere derive from the analysis of H3+ emissions, so for a more direct comparison of our simulations we have calculated the total wavelength integrated column emission rates of H3+ which are shown in the bottom panel of Fig. 12.
+We find emission rates to range from (0.1-3.0)×10-5Wm-2sr-1, which is well within the range of observed emission rates.
+The implication of this is further discussed in Section 4.
+Finally, it is of interest to relate H3+ emissions in Saturn's auroral region to column temperature and H3+ density.
+Fig. 13 displays these quantities as a function of local time for latitude 78°S for the case of simulation R15.
+Temperature (black) varies by 5K (or ∼1%) while H3+ column density changes from around (1-15)×1015m-2, a factor of 15 variation.
+The IR column emission (red) changes with local time from a minimum near midnight of 0.1×10-6Wm-2sr-1 to a maximum emission near 08:00h SLT of 14×10-6Wm-2sr-1, a factor of 140 variation.
+We see from this that variations in IR emissions in our simulations are driven primarily by changes in H3+ abundance and to a lesser extent by temperature changes.
+The peaks of all quantities in Fig. 13 near 08:00 SLT are related to the maximum in 10keV electron energy flux which occurs near 08:00 SLT (black line in Fig. 3) which leads to maximum H3+ densities there as well.
+As the particle ionisation source decreases towards later hours, fast dissociative recombination of H3+ leads to an almost immediate decrease of its densities as well.
+The IR brightness may thus be directly related to the incident particle energy flux or any other major ionisation source.
+Discussion and conclusions
+Our simulations over a range of magnetospheric forcing parameters and seasons successfully reproduce observed ionospheric densities and high latitude temperatures.
+Analysis of the simulations gives a basic understanding of the processes that control the dynamics and energy balance in Saturn's high latitude coupled thermosphere and ionosphere.
+We have seen that magnetospheric forcing is responsible for the bulk of energy and mass transport in the atmosphere, driving bulk atmospheric internal mass, momentum and energy redistribution.
+Joule heating is a major direct contributor to the energy balance, but internal redistribution of this energy by dynamics is crucial as well.
+Thermospheric winds driven by ion drag and Joule-heating induced pressure gradients play a key role in determining the high latitude energy balance and, more far-reaching, in controlling the global distribution - or lack thereof - of magnetospheric energy deposited at high latitudes.
+Under the range of conditions examined in this study the general pattern is consistently that of polar energy being "trapped" at high latitudes and not propagating equatorward.
+This behaviour results from poleward mass and energy transport in the lower thermosphere, a response previously reported by Smith et al. (2007) with identical conclusions.
+We find the sub-corotation of the high latitude thermosphere, which results from magnetospheric plasma sub-corotation and associated electric fields, to be a relatively localised phenomenon which does not extend equatorward of around 65° latitude, beyond which the upper atmosphere is in near co-rotation with the planet.
+At reduced atmospheric conductances we find angular momentum to be less efficiently transferred from the upper atmosphere to the magnetosphere, thus directly relating precipitating particle mean energy and energy flux to the efficiency of the magnetosphere-atmosphere dynamical coupling processes.
+Our results are directly dependent upon the assumed magnetospheric plasma velocity profile (and high latitude electric field), so any future revisions of our assumed profile (Fig. 8, black line) in the context of Cassini plasma observations in Saturn's magnetosphere will similarly affect our results in terms of wind velocities, degree of atmospheric co-rotation and thermal structure, moderately shifting with latitude the basic interaction patterns that we identified in our calculations.
+Our simulations demonstrate that dynamical coupling to Saturn's ionosphere via ion drag (Eq.
+(3)) critically controls the pattern of thermospheric winds at high latitudes.
+Radio science observations of Saturn's ionosphere over the past decades (Atreya et al., 1984; Nagy et al., 2006; Kliore, 2009) have revealed a high degree of variability.
+Our simulations successfully reproduce the overall latitudinal trend of peak electron densities (Fig. 5), suggesting that the overall neutral-ion collisional coupling calculations are likely to be realistic in our model as well, but in looking at a steady state situation we have not considered the effects of a variable ionosphere.
+Such observed variations in electron density may have an influence on thermospheric dynamics as well, particularly near the ionospheric peak where we found horizontal winds to vary greatly with local time, responding directly to auroral forcing.
+A forthcoming second part of this study will examine variability in Saturn's thermosphere-ionosphere system.
+Despite strong thermospheric winds at high latitudes we find photochemical equilibrium to hold remarkably well throughout, reducing any role of thermospheric horizontal winds in redistributing ionisation and giving rise to sharp boundaries in ion densities between the auroral and non-auroral regions.
+Such sharp boundaries may in practice affect the propagation of radio waves through the atmosphere, which may be of relevance during radio occultation measurements at auroral latitudes.
+To-date no radio science observations have probed the vertical structure of the auroral ionosphere, so our simulations can only be validated there using available H3+ IR observations.
+In our calculations the dominant ion at the ionospheric peak varies with latitude.
+At mid and high latitudes including the auroral region H+ is the principal ion, while at low latitudes it is H3+ - a consequence of our assumed influx of H2O there.
+The shorter chemical lifetimes of H3+ give rise to dawn-dusk asymmetries which have been observed near the equator and are captured remarkably well in our calculations, supporting the notion of an influx of H2O, most likely from Enceladus.
+As a result of the dominance of H+ away from the equator (outside of the region of H2O influx), chemical lifetimes there increase, thus reducing the chemical sinks and leading to a build-up of ionisation, despite the higher zenith angles at mid latitudes and reduced solar photo-ionisation.
+The increase of peak ion density away from the equator is entirely consistent with observations by Cassini RSS (Nagy et al., 2006; Kliore, 2009; Moore et al., 2010).
+At auroral latitudes the main peak in ion production is due to particle ionisation from incident electrons (Galand et al., 2011).
+It should be noted, as discussed in Section 2.2, that the H3+ densities for any given ionisation rate however depend also on the largely unknown abundance of vibrationally excited H2.
+We assumed twice the value of Moses and Bass (2000), but how realistic is this choice? If the incident electron energy and energy flux are known (from UV auroral observations), it may be possible to constrain the abundance of H2(ν⩾4) by comparing observed H3+ emission rates and inferred temperature values to the same quantities calculated from simulated atmospheric temperature and H3+ profiles.
+We found temperatures for large electric field strengths and energy fluxes (upper panel of Fig. 12) to partly exceed the observed values, while at the same time the inferred H3+ emission rates (bottom panel of Fig. 12) were entirely within observed ranges.
+This suggests either that our calculations underestimate emission rates or that observed temperatures should in fact be larger for the observed emission rates.
+The more likely of these options is that our calculations underestimate the ionospheric H3+ column densities, which itself may be due to us assuming too low abundances of H2(ν⩾4).
+Our calculations thus highlight the potential of constraining H2(ν⩾4) abundances in the auroral regions via analysis of H3+ emissions.
+Despite direct solar EUV heating of Saturn's upper atmosphere representing a minor energy source only, it is however important to note that solar EUV and shorter wavelength radiation is responsible for the majority of ionisation, and thus conductivity, outside of the narrow band of high latitude electron precipitation.
+This, in turn, may control thermospheric temperatures.
+As shown in Fig. 2, the region of magnetospheric electric field is considerably wider than the electron precipitation region, so the Joule heating region extends over a much wider region as well.
+Therefore, solar radiation does affect high latitude temperatures by means of its role as source of ionisation.
+This causes hemispheric differences in high latitude temperatures at solstice.
+In our solstice simulation (R19) we find exospheric temperatures averaged from 74°S to 90°S (the summer polar region) of 490K, while averaging over the same latitude band in the northern (winter) hemisphere gives a value of 430K.
+This difference of 60K is a direct result of enhanced ionisation in the summer hemisphere, leading to stronger Joule heating there.
+We expect solar cycle variations of high latitude temperatures to lie within the same approximate range, stronger in the summer hemisphere than winter hemisphere, where solar ionisation is considerably weaker.
+The solar ionisation-induced hemispheric differences in atmospheric conductivity should similarly affect the magnetosphere, highlighting an interesting Sun-atmosphere-magnetosphere coupling chain that deserves more thorough examination in future studies.
+Our calculations assumed fixed electrical fields at high latitudes and we did not change these in response to changing conditions in the atmosphere.
+In principle, enhanced conductivity would lead to more efficient transport of angular momentum from atmosphere to magnetosphere, thus reducing the departure from co-rotation there and the generated electric field which maps into the upper atmosphere.
+By keeping the electric field constant we assume a continuous supply of new material into Saturn's magnetosphere which is ionised and maintains a continuous lag from co-rotation.
+This aspect of coupling from atmosphere to magnetosphere is not considered in our model.
+Smith and Aylward (2008) developed a simple model of Saturn's coupled thermosphere-ionosphere-magnetosphere which considered the feedback from atmosphere to magnetosphere, but assumed a constant ionosphere which did not change in response to thermospheric and magnetospheric conditions.
+The effects of the feedback on the magnetosphere did however have little influence on the atmosphere behaviour, which is the focus of our study here.
+Future developments, though, should ideally focus on an upper atmosphere model such as STIM which considers the full feedback to the magnetosphere as well, thereby providing the possibility of using additional observational constraints from the magnetosphere to validate the calculations.
+According to the simulations of our study magnetospheric energy cannot explain the observed thermospheric temperatures at low and mid latitudes.
+While the "energy crisis" is not the focus of this study, this result emphasises the need to consider thermospheric winds when examining the energy balance, rendering problematic the use of 1-D models which by nature cannot account for winds.
+In exploring the parameter space of two magnetospheric forcing parameters, electric field strength and incident particle flux, we have demonstrated that the upper atmosphere observations (in particular, H3+ IR emissions) need to be considered when examining Saturn's magnetosphere.
+Sub-corotation of plasma in the magnetosphere will affect atmospheric temperatures and dynamics, and a multi-instrument analysis is necessary to ensure that any magnetospheric observations are consistent with those of the atmosphere.
+In applying STIM to an examination of this coupling we have shown that multi-dimensional time-dependent models of the coupled thermosphere-ionosphere-magnetosphere are a powerful and important tool in understanding the exchange of energy and momentum between the regions and in ultimately understanding the global energy balance of Gas Giants within and beyond our Solar System.
+Acknowledgments
+This work was supported, in part, by a grant from the NASA Planetary Atmosphere Program (PATM) to Boston University.
+During part of this work I.M.-W. was funded by a Royal Society University Research Fellowship.
+M.G. and I.M.-W. were partially supported by a UK Science and Technology Facilities Council (STFC) grant to Imperial College London.
+We would like to thank the International Space Science Institute (ISSI) Bern for their kind hospitality and support of the International Team on Saturn Aeronomy (166), which helped advance through very valuable discussions amongst the Team Members many topics raised in this study.
+The H3+ cooling code has been developed as part of the European Modelling and Data Analysis Facility (EMDAF) under construction by Europlanet RI, the European Union funded network of planetary scientists (see http://europlanet.projects.phys.ucl.ac.uk/europlanetjra3).
+The authors would like to thank both reviewers of this paper for their constructive and helpful comments.
+

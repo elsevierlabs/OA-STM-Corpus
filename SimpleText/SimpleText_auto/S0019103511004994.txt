@@ -1,0 +1,332 @@
+The Cassini Enceladus encounters 2005-2010 in the view of energetic electron measurements
+
+Highlights
+► Ramp-like features in electron intensities in the low-energy channels.
+► High-energy depletions upstream for electrons with energies above the resonant energy.
+► "Dust"-related peaks in the electron data correlated with data from other instrument onboard Cassini.
+Abstract
+The moon Enceladus, embedded in Saturn's radiation belts, is the main internal source of neutral and charged particles in the Kronian magnetosphere.
+A plume of water ice molecules and dust released through geysers on the south polar region provides enough material to feed the E-ring and also the neutral torus of Saturn and the entire magnetosphere.
+In the time period 2005-2010 the Cassini spacecraft flew close by the moon 14 times, sometimes as low as 25km above the surface and directly through the plume.
+For the very first time measurements of plasma and energetic particles inside the plume and its immediate vicinity could be obtained.
+In this work we summarize the results of energetic electron measurements in the energy range 27keV to 21MeV taken by the Low Energy Magnetospheric Measurement System (LEMMS), part of the Magnetospheric Imaging Instrument (MIMI) onboard Cassini in the vicinity of the moon in combination with measurements of the magnetometer instrument MAG and the Electron Spectrometer ELS of the plasma instrument CAPS onboard the spacecraft.
+Features in the data can be interpreted as that the spacecraft was connected to the plume material along field lines well before entering the high density region of the plume.
+Sharp absorption signatures as the result of losses of energetic electrons bouncing along those field lines, through the emitted gas and dust clouds, clearly depend on flyby geometry as well as on measured pitch angle/look direction of the instrument.
+We found that the depletion signatures during some of the flybys show "ramp-like" features where only a partial depletion has been observed further away from the moon followed by nearly full absorption of electrons closer in.
+We interpret this as partially/fully connected to the flux tube connecting the moon with Cassini.
+During at least two of the flybys (with some evidence of one additional encounter) MIMI/LEMMS data are consistent with the presence of dust in energetic electron data when Cassini flew directly through the south polar plume.
+In addition we found gradients in the magnetic field components which are frequently found to be associated with changes in the MIMI/LEMMS particles intensities.
+This indicates that complex electron drifts in the vicinity of Enceladus could form forbidden regions for electrons which may appear as intensity drop-outs.
+
+Introduction
+Enceladus, one out of currently 62 satellites of Saturn, orbits the planet at a distance of 3.95 Saturn radii RS (1RS=60,268km) and is embedded in the radiation belts of Saturn's inner magnetosphere.
+Even with a small radius REnc of only 252km and an apparent similarity to other icy moons, this moon is by far the most important internal source of dust, neutral gas and plasma in the saturnian system and especially in the magnetosphere.
+As already inferred from data of the first flybys of the Pioneer 11 (1979), Voyager 1 (1980) and Voyager 2 (1981) spacecraft, respectively (Smith et al., 1981; Krimigis et al., 1982), this moon plays the same role Io does for the jovian system.
+The Cassini spacecraft, in orbit around Saturn since July 2004, has flown by Enceladus 14 times between 2005 and 2010.
+Data from Cassini instrument teams identified a plume of water geysers above the so called "tigerstripes" on the south pole of the moon (Dougherty et al., 2006; Porco et al., 2006).
+This discovery is one of the most important findings to better understand the saturnian magnetosphere.
+The material released in the form of water gas, ice molecules and dust (Waite et al., 2006; Spahn et al., 2006) from those geysers is the main source of the E-ring and the neutral torus and is the major plasma source of water group ions in the magnetosphere.
+A summary of Enceladus findings from Cassini measurements is very well presented by Spencer et al. (2009).
+The interaction between energetic electrons and the moon essentially is given by the individual motion of the particles.
+Energetic charged particles bounce along the magnetic field lines between the north and south pole of Saturn and drift azimuthally at the same time.
+A moon or any other object (ring material or ring arcs, plume material, neutral gas, dust, etc.) blocks and absorbs some of those bouncing particles, appearing as an absorption signature in the differential intensities of the measured particles in a given energy range.
+The gaps in the distribution due to those losses are categorized as macrosignatures and microsignatures (Selesnick, 1993).
+While the macrosignatures are seen at all local times and latitudes the microsignatures are highly dependent on the longitudinal distance between the observer (spacecraft) and the absorbing body (for a mathematical description see van Allen et al. (1980), Thomsen and van Allen (1980) and also Roussos et al. (2007)).
+Particles are lost in that region of the magnetosphere when encountering the moon but refilled in time by particle sources or diffusion processes.
+The depths of the absorption signature in the particle intensities can be used to determine the amount of material causing the loss of energetic particles as a function of longitudinal distance with respect to Enceladus if the loss processes are known and one of them involves interaction with gas or dust.
+In addition to the bounce motion up and down along the field lines the charged particles magnetically drift perpendicular to the B→×∇B→ direction.
+Since both B→ and ∇B→ are disturbed around Enceladus, the electron motion will also be disturbed, modifying to some extent the flux distribution in the moon's vicinity.
+Therefore, particle fluxes may reflect integrated effects of the disturbed field environment around a moon, seen in the particles that drift across it.
+Ions and electrons drift in opposite directions around the planet.
+Cassini data analysis provided the opportunity to confirm earlier findings from previous missions.
+Effects in the local particle distributions have been studied in the literature.
+Paranicas et al. (2005) studied the first encounter E0 of the Cassini spacecraft with Enceladus.
+The authors made it clear that upstream of the moon it is only expected to measure an absorption signature of MeV electrons.
+Nothing should be seen in energy channels below the "resonance" energy (Thomsen and van Allen, 1980).
+The presence of microsignatures in MeV electrons upstream of the moon therefore are a strong indicator of a fresh absorption caused by the moon itself.
+Jones et al. (2006) investigated the effect of the plume on energetic particles in the magnetosphere and analyzed the response of charged particle measurements from the Low Energy Magnetospheric Measurement System (LEMMS) onboard Cassini.
+Khurana et al. (2007) studied the magnetic measurements from the flybys E0-E2 in terms of mass-loading while Tokar et al. (2009) found in CAPS plasma data freshly-produced water-group ions and heavier water dimer ions HxO2+ during encounters E3 and E5.
+Kempf et al. (2008) studied the dust particles in the E-ring close to Enceladus and found its vertical distribution to be 4300km or 17 REnc thick.
+Jones et al. (2009) found that negatively and positively charged particles of nanometer scales are released through the vents in the south polar region.
+Farrell et al. (2009) reported electron density dropouts near Enceladus during flyby E3 most probably caused by absorption by sub-millimeter size water ice grains in the plume.
+Coates et al. (2010) reported negative ions in plume measurements of the Electron Spectrometer CAPS/ELS and Teolis et al. (2010) investigated the density and structure of Enceladus' south polar plume during E3 and E5 by using data of the Cassini ion neutral mass spectrometer INMS and indicated that 100kg of plume water vapor escapes every second and spreads out uniformly.
+In addition they detected fine-grained ice concentrated in the jets of the multiple local sources along the tigerstripes.
+Farrell et al. (2010) studied the modified plasma of Saturn's magnetosphere in the vicinity of Enceladus.
+They pointed out that a cloud of dust exists around the moon extending at least 20 REnc both north and south of the equator, while Shafiq et al. (2011) reported dusty plasma measurements during encounter E3.
+Besides the data analysis theoretical work, analytic modelling, and especially numerical simulations have been performed recently (Jia et al., 2010b,; Tenishev et al., 2010; Cassidy and Johnson, 2010; Kriegel et al., 2009; Omidi et al., 2010; Simon et al., 2011).
+In those studies the environment of Enceladus has been simulated and parameters like the local gas distribution, the importance of dust near the moon and the implications for the magnetosphere have been determined.
+Tseng and Ip (2011) predicted Enceladus to be an important source of Saturn's ring atmosphere and ionosphere theoretically, and suggested additional plasma and particle data to compare with their predictions.
+Recently evidence of an Enceladus footprint in Saturn's auroral zone has been reported by Pryor et al. (2011).
+Cravens et al. (2011) studied the Enceladus torus theoretically based on CAPS measurements and found two populations: a denser part near 4 REnc and a less dense and more radially extended part.
+Finally Hartogh et al. (2011) inferred that the activity on Enceladus is even likely the source of water in the upper atmosphere of Saturn, underlining the importance of that moon for the saturnian system as a whole.
+All these investigations show the importance of Enceladus studies to better explain the source- and transport processes in Saturn's magnetosphere.
+In this paper we present an overview of energetic electron measurements (27keV to 21MeV) obtained by the Low Energy Magnetospheric Measurement System (LEMMS) onboard the Cassini spacecraft during the first 14 close encounters with Enceladus (E0-E13) between 2005 and 2010.
+Instrumentation and data analysis
+We use data taken by the Low Energy Magnetospheric Measurement System (LEMMS), part of the Magnetospheric Imaging Instrument (MIMI) onboard Cassini.
+MIMI/LEMMS is able to measure the intensities, energy spectra, and pitch angle distributions of energetic charged ions and electrons separately in the energy range between about 20keV and several tens of MeV.
+Particles are measured simultaneously from two opposite directions (low-energy telescope (LE) and high-energy telescope (HE)).
+Low-energy electrons and ions measured in LE are separated by a strong internal magnet.
+Electrons are bent towards the two different detectors E and F while ions are detected in detectors A and B.
+The HE consists of a stack of five detectors.
+The species and energy separation is performed by coincidence measurements between these detectors.
+Data are recorded in rate channels.
+The instrument is mounted on top of a movable turntable which rotates about the -y-axis of the spacecraft within 86s, nominally.
+The -y-axis points in the direction of the remote sensing instruments (often pointed towards the planet or another object).
+Under this configuration MIMI/LEMMS is therefore scanning in the x-z-plane of the spacecraft coordinate system allowing very good pitch angle coverage.
+Unfortunately the turntable stopped rotating in the beginning of 2005 for unknown reasons after the release of the Huygens probe.
+Therefore during all the Enceladus encounters MIMI/LEMMS was not rotating anymore.
+Since then the low-energy telescope points at an angle of 77.45° away from the -z direction towards the -x-direction (see Fig. 1).
+The advantage of that non-rotating mode is the time resolution of the instrument which is 16 times better than in the rotating mode (5.65s) for the rate channels or 0.66s for the priority channels instead of 86s for a given pointing/pitch angle).
+This enables us to measure small-scale, short-lived features in the data set.
+Incoming ions and electrons are separated through a strong internal magnet.
+Semiconductor detector sets are positioned in different places inside the instrument enabling us to measure ions and electrons in a variety of energy channels.
+The angular resolution is restricted by the field-of-view of the instrument's apertures and look direction (limitation in measured pitch angle) of the MIMI/LEMMS sensors.
+In the calculation of the pitch angle it is assumed that all particles enter through the central entrance of the instrument's apertures with opening angles of 15° and 30° for low-energy and high-energy end, respectively.
+This value has to be subtracted from 180° to get the measured particle pitch angle for the high-energy end.
+The apertures have 7 (LE-end) and 19 (HE-end) entrance holes allowing particles to enter the instrument with a variety of angles relative to the central hole.
+Good pitch angle coverage can only be achieved if the spacecraft itself is rotating.
+This is often the case during the downlink periods when the spacecraft antenna of Cassini points towards Earth.
+However, during the close moon encounters the spacecraft is not rotating and is often reoriented before and after closest approach so that the remote-sensing instruments (camera and spectrometers) have the moon in their field-of-view.
+As a consequence the measurable pitch angle of the incoming charged particles also changes which makes the data more difficult to interpret.
+MIMI/LEMMS also performs a Pulse Height Analysis (PHA) for the low-energy end separately for the detectors E and F (for electrons with energies of 6.7-2300keV) and for ion detector A (ions with energies of 12-833keV) enabling a good energy resolution of up to 256 channels.
+As pointed out by Paranicas et al. (2005) and Roussos et al. (2007) each energy channel of the MIMI/LEMMS instrument measures the sum of a real signal and a background noise signal.
+The most relevant background for this study is penetrating radiation affecting primarily the low-energy electron channels (C-channels).
+To identify periods where the signal/noise-ratio is good enough checks are performed with data of the omni-directional channel G1 which is primarily counting MeV electrons only.
+Furthermore if the time vs. intensity curves of electrons measured in the C-channels follow the curves of channel G1 then we do not consider the data in the C-channels to be real.
+If the energy of the measured electrons is lower than the resonant energy for a given orbital distance from the planet an absorption feature should be observed only downstream of the moon as described above while the bite-out in the high-energy channels should only be observed upstream of the moon.
+Therefore assuming to a first order that electrons are not deflected from magnetic field gradients and/or flow perturbations and the absorption signature appears on the "wrong" side of the moon simultaneous to the high-energy channels it could be an indication of "bad" data.
+A complete description of the MIMI instrument can be found in Krimigis et al. (2004).
+The latest MIMI/LEMMS energy channel passbands can be found in Krupp et al. (2009).
+In this paper we used measurements only from a representative subset of available energy channels and concentrated on electrons only.
+In order to avoid confusion between flyby number and channel number we put the flyby numbers in italic fonts.
+For the interpretation of the energetic electron data we use measurements of the magnetometer MAG onboard the spacecraft (Dougherty et al., 2004) and we correlate the MIMI/LEMMS with plasma electron measurements of the Electron Spectrometer ELS, part of the Cassini Plasma Spectrometer Investigation CAPS (Young et al., 2004).
+Observations
+The times of all Enceladus encounters between 2005 and 2010, closest approach distances and type of encounter are summarized in Table 1.
+We subdivided the encounters into flybys parallel to the equatorial plane ("eq north" and "eq south") and high latitude flybys ("hl").
+As pointed out above, high-energy ions are absent from regions magnetically connected to the orbit of the moon around the planet (Enceladus macrosignature).
+Therefore we concentrate on MIMI/LEMMS measurements of electrons with different energies and with two different pitch angles 180° apart from each other given by the look directions of the low-energy- and high-energy end of the MIMI/LEMMS instrument relative to the local magnetic field.
+In addition we derive the dust ram angle of incoming dust particles on Keplerian orbits relative to the MIMI/LEMMS look direction where the motion of the spacecraft is taken into account (0° means that dust is moving coaligned to the instrument's symmetry axis).
+Finally these overview plots include the radial, azimuthal, and north-south components of the measured magnetic field from the MAG instrument.
+Energetic electrons observed by the MIMI/LEMMS sensor bounce along the field lines and drift perpendicular to B→×∇B→, which, away from Enceladus, is along Enceladus' orbit.
+If they encounter a moon or any other dense material like a plume, they get absorbed (whole or partially) and leave a dropout signature in the electron intensities (except at the previously mentioned resonance energy where the drift motion of the electron and the orbital motion of the moon are the same and no absorption is expected).
+At the orbit of Enceladus the resonance energy is at about 1MeV for 90° equatorial pitch angle and about 1.3MeV for electrons with 30° pitch angle (Roussos et al., 2007) assuming full corotation at the distance of the moon.
+For 80% of corotation, as published by Wilson et al. (2009, 2010), the resonant energies change to 0.69MeV and 0.84MeV for 90° and 30° pitch angle.
+It is worth noting that flow stagnation or slow down close to Enceladus will further change the resonant energy.
+Upstream of the moon, the flow perturbation changes gradually (see more quantitative details in the discussion section of that paper).
+Electrons with energies greater than the resonance energy drift opposite to the direction of the plasma motion (corotation), relative to the moon.
+Therefore any absorption signature related to the moon upstream is caused by high-energy electrons.
+Vice versa downstream of the moon: only electrons with energies less than the resonance energy can be absorbed.
+In the following we distinguish between electrons measured in the low-energy end (channels C1-C7 and BE) and measured in the high-energy end (E0, E4 and E6) plus G1 as an omnidirectional channel serving as a proxy for penetrating radiation.
+Since those penetrators are electrons only it is also a proxy for omnidirectional flux profiles at the distance of Enceladus.
+Equatorial north flybys E0, 12, and 13
+An overview of the electron measurements from the MIMI/LEMMS instrument in the vicinity of Enceladus for the flybys E0, E12, and E13 is shown in Fig. 2.
+Those encounters were slightly north of the equatorial plane.
+The time period selected is ±10min around closest approach which is marked by a solid line.
+Absorption signatures are clearly visible in most of the displayed electron channels C1, C3, E0, E6, BE, and G1 (same is true for those not displayed here).
+The nominal energy passbands are given on the right-hand side of Fig. 2.
+Only the measurements in channel C1 during flybys E0 and E13 show no absorption signatures (off scale for E13).
+As mentioned above the region in the vicinity of a moon where electrons are absorbed (upstream or downstream) depends on their energy.
+Therefore it is important to know the flyby geometry during each encounter.
+Fig. 3 shows the trajectory of Cassini during the flybys E0, E12, and E13 close to the moon inside of 10 Enceladus radii REnc.
+We show the spacecraft trajectories projected into the xy-, xz-, and yz-planes of a coordinate system where the moon is in the center (x in plasma flow direction, y towards the planet and z northward).
+This frame is often referred to as the Enceladus Interaction System (ENIS).
+The individual flybys are labelled with the flyby numbers E0-E13, respectively.
+The measured differential intensity of electrons (56-100keV) as measured in MIMI/LEMMS channel C3 is plotted in a color-code along the trajectory.
+Blue means low intensities, red1
+For interpretation of color in Figs.
+2-10, the reader is referred to the web version of this article.
+1 and white high intensities.
+Clearly visible is a lack of electrons in this channel in the vicinity of the moon.
+The highest count rates further away from the moon are more typical of a magnetospheric distribution in that region of Saturn's magnetosphere.
+The variation in the measured intensities are a combination of dynamic changes in the magnetosphere and from the fact that MIMI/LEMMS sampled different pitch angles during the individual flybys.
+Flyby E0 was upstream of the moon north of the equator (left panel of Fig. 2).
+The absorption signatures are found approximately 8 REnc distance from the moon and at about 5 REnc above the equatorial plane.
+Absorption signatures "drift" relative to the background particle flow.
+North/south depletions exist because of the fast bounce motion.
+The bite-out signature is seen in all channels upstream of the moon indicating that high-energy electrons with energies greater than the resonance energy are lost at the moon while drifting upstream.
+Consequently this means that the responses in channel C3 as well as in channel E0 designed to measure electrons with energies of several tens to hundreds of keV are contaminated and dominated by MeV electrons for that particular flyby.
+This does not mean that at all times those channels are contaminated by high-energy penetrators.
+Therefore this flyby is a good example to demonstrate the simple scenario: high-energy depletions upstream only, no low-energy features unless the penetrators are significant.
+The dropout size is comparable to the diameter of Enceladus which means that the absorption takes place at the surface of the moon.
+Flybys E12 and E13 (middle and right panels of Fig. 2) were nearly identical in terms of the flyby geometry, directly above the north pole of the moon with a minimum distance of only 50km.
+Cassini was slightly downstream of the moon during encounter E12 and slightly upstream during E13.
+The details of the measurements for those two flybys are shown in Fig. 4.
+Intensities of electrons with different energies and look directions are shown in detail in the upper four panels on a linear scale.
+The lower two panels show the measured local pitch angle (115° during E12 and about 75° for E13) of the low-energy telescope of MIMI/LEMMS and the azimuthal component of the measured magnetic field Bϕ.
+We use sometimes the Bϕ component as an index of field-aligned current perturbations in the system.
+Such currents may exist in the Alfvén-wing system or represent discontinuities as predicted by Saur et al. (2007).
+Discontinuities in Bϕ could be useful in identifying the location where Cassini was magnetically connected to the surface of Enceladus.
+The intensities for electrons with tens to hundreds keV energies (e.g. in channel C3) show a "ramp"- or step-like depletion (marked by red and green areas in Fig. 4A) before or after the deep absorption signature.
+The electron intensity drops gradually or sometimes in two steps from magnetospheric levels to background levels.
+It is interesting that the sharp ramps are mostly seen in the sub-Saturn upstream and in the anti-Saturn downstream region.
+This may be coincidence and has to be checked during the upcoming encounters for consistency.
+For both encounters the differential intensity drops to background levels between the two red lines as indicated in Fig. 4A when Cassini is directly north of the moon (see Fig. 4B) and the spacecraft is directly connected to the Enceladus flux tube, where all electrons are absorbed.
+This is exactly the region where the -∇xBϕ- drops, indicating weaker field-aligned currents.
+In addition we could identify an "interaction" region during both flybys (marked in yellow) for electrons with MeV energies above the resonant energy.
+The differential intensities drop to background levels inside that region.
+For E13 this region is completely upstream while for E12 the region is up- and downstream.
+In addition a sharp drop-out spike is observed during the E12 flyby after closest approach downstream in channels BE and E4 coinciding with sharp gradients in Bϕ.
+Finally we checked the azimuthal component of the measured magnetic field (lowest panel of Fig. 4A).
+This blue-shaded region marks the time period (or region around Enceladus) of changes in the azimuthal magnetic field component.
+We observed large negative values in Bϕ (in anti-corotation direction) which is consistent with an Alfvén-wing type of interaction (Neubauer, 1980).
+Equatorial south flybys E1, 7, 8, 9, 10, and 11
+The responses of energetic electrons inside the MIMI/LEMMS instrument during the equatorial south flybys are summarized in Fig. 5.
+Flyby geometries are shown in Fig. 6.
+The shape and the width of the dropout signatures vary with energy and from flyby to flyby partially caused by the differences in the flyby geometry, and partially by changes in the magnetosphere.
+Depletion signatures are present in all electron channels shown, except C1 and C3 during flyby E10.
+The flyby distances varied between 99km and 2550km.
+Flybys E8 and E11 were further south with respect to the moon's orbital plane than all the others.
+Flybys E1 and E10 were upstream of the moon with respect to the corotational plasma flow direction, E8 was downstream (but far south).
+Drop-out signatures in all the selected channels indicate that the bite-out is caused by high-energy electrons lost at the moon drifting upstream.
+Field-aligned particles (0 and 180° pitch angle) only could be observed during encounter E1.
+Flyby E11 was a downstream flyby far south of the moon outside the plotting range of Fig. 6.
+The drop-out features during flyby E11 in the low-energy channels C1, C3, and E0 are comparable to the flyby E1 measurements.
+The intensity profile is asymmetric at least in high-energy channel BE.
+During the flybys E7 and E9 Cassini crossed the south polar region within the densest part of the plume.
+Fig. 7 shows more details of the energetic electron responses during encounters E7, E8, and E9.
+"Ramp"-like signatures are marked by green and red-colored areas and arrows.
+The region where background values in channel C3 have been observed are marked by the red solid lines (for E7 and E9 only).
+In yellow the high-energy interaction region measured in channels BE, E4, and G1 is marked again, as for the north equatorial flybys.
+During E7 inbound a gradual decrease from magnetospheric levels followed by a sharp drop to background levels is observed.
+The high-energy interaction area is obviously not identical for the selected channels and is wider for higher energies.
+It is worth noting that we observed an additional spike during flyby E7 in higher-energy channels similar to the spike observed during northern equatorial flyby E12 again associated with large Bϕ gradients.
+The Bϕ-component gradually changed to negative values, remained nearly unchanged when background levels in the low-energy channels have been observed (between the two red lines).
+During flyby E8 the intensities of all channels increased caused by the reorientation of Cassini during the flyby and therefore a change in pitch angle.
+Sharp "ramps" are seen on both sides of the drop-out signature.
+The high-energy interaction region is quite small as a result of the flyby distance combined with the small overlap with the Enceladus flux tube and/or the small overlap with the Alfvén-wing (Simon et al., 2011) together with pitch angle changes during the encounter.
+The Bϕ-component changed from negative to positive and back to negative values during the encounter.
+During encounter E9 a sharp decrease upstream and a step-like "ramp" downstream has been observed in the low-energy channel C3.
+A very clear and sharp signature in the high-energy channels (marked in yellow) could be observed slightly shifted upstream compared to the low-energy feature.
+The azimuthal magnetic field component Bϕ turned negative and remained nearly unchanged during the time period when background level measurements in low-energy electrons have been observed, very similar to encounter E7.
+High-latitude flybys E2, 3, 4, 5, and 6
+The energetic electron intensities measured during the high-latitude flybys at Enceladus are summarized in Fig. 8.
+The flyby trajectories of those 5 high-latitude encounters are shown in Fig. 9 again in an Enceladus-centered coordinate system (ENIS).
+The electron responses during the encounters in the various MIMI/LEMMS channels are quite different from each other, partially because of the differences in the trajectories and also because of the spacecraft orientation (look direction of the detector telescopes).
+Important for the interpretation of the high-latitude flybys is also the pointing of the detector heads relative to both the magnetic field lines and to the direction of the incoming dust particles (dust ram angle).
+The flyby geometries of flyby E4, E5, and E6 are nearly identical while the pitch angle and dust ram angle coverage are in one nearly identical orientation for flyby E3 and E5, and in a different almost identical orientation for E4 and E6.
+The trajectory of flyby E3 projected into the x-z-plane is slightly different compared to E4, E5, and E6.
+Encounter E2 happened upstream of the moon, all the other flybys were downstream and north of moon on the inbound path and upstream south outbound.
+In this paper we will not go into any details for flyby E2 (see Jones et al. (2006)) and concentrate on the others.
+To study the remaining high-latitude flybys in more detail we show the electron intensities for low-energy channel C1 and for high-energy channel E6 in Fig. 10 as a function of z.
+The flyby trajectories are color-coded with the differential intensity as measured in channel C3.
+The intensities of low-energy electrons measured during flyby E5 is higher by a factor of about 2 compared to the measurements taken during E4 and E6, most probably caused by differences in the magnetosphere during those different time periods.
+The values from flyby E3 are intermediate.
+Those fluctuations are common throughout the magnetosphere of Saturn and are not special to flybys nor to Enceladus.
+The most obvious features in the electron data for flybys E3-E6 are:•
+"Ramp" signatures: During flybyE3 the "ramp" was observed at about 4 REnc above the equatorial plane and 2 REnc downstream in low-energy electron intensities.
+In contrast a similar feature was observed as far north as 20 REnc and 12 REnc downstream during E5.
+There is also some evidence of ramps in the high-energy channel E6 at about 16 REnc north (low-energies) and at about 6 REnc south (high-energies).
+•
+Large-scale high-energy drop-outs upstream and south of the moon: During flybys E3 and E5 the intensities of high-energy electrons drop to background levels during the crossing of the plume region, recovered gradually and reached magnetospheric values 25 REnc below the equatorial plane and up to 10 REnc upstream.
+During flybys E4 and E6 this interaction region is much smaller.
+The magnetospheric values were reached between 5 and 10 REnc south and about 5 REnc upstream.
+•
+Intensity peaks related to dust: We observed additional peaks in a variety of channels supposed to measure low-energy electrons.
+During flybys E4, E5 and E6 the peaks are observed shortly after closest approach when Cassini went inside the densest part of the south polar plume.
+The locations of the peaks in various MIMI/LEMMS channels correlate well with peaks in the dust measurements of the Cosmic Dust Analyzer CDA onboard the spacecraft (Kempf, private communications) and with the reported negatively charged dust grain signatures in plasma measurements of the CAPS/ELS instrument (Jones et al., 2009) onboard the spacecraft.
+The largest signature in MIMI/LEMMS data was observed during flyby E5 illustrated in Fig. 11 where electron energy spectrograms from the low-energy end of MIMI/LEMMS (upper panel) and from CAPS/ELS (lower panel) are plotted together (only data from anode 5 is plotted which points approximately in the same direction as the low-energy head of MIMI/LEMMS).
+Closest approach is marked by a white line.
+During that flyby MIMI/LEMMS pointed nearly into the dust ram direction with very high relative velocity of 17.7km/s.
+The peaks in both data sets correlate very well.
+The particles measured in the high-energy telescope of MIMI/LEMMS are likely responsible for the high-energy magnetospheric background of CAPS/ELS measurements.
+Therefore the blue-colored areas in Fig. 11 mean that the penetration radiation background is substantially removed during those periods.
+The absorption signature above the resonant energy of about 700keV is clearly visible in the MIMI/LEMMS energy spectrogram.
+These are electrons that cross the downstream interaction region before they reach Cassini.
+In this region electric and magnetic fields are significantly disturbed resulting in more complex drifts, especially for electrons with higher energies.
+This can potentially be an explanation why a "broadening" of the drop-out signature is observed.
+Summary and discussion
+The 14 flybys of Cassini at the moon Enceladus shed new light on the interaction of material released from the moon and the magnetosphere.
+The variety of the flyby trajectories offered the opportunity to study the environment north and south of the equatorial plane as well as the plume directly southward of the moon during the high-latitude flybys.
+The electron measurements obtained by the MIMI/LEMMS in the energy range between 15keV and several MeV onboard Cassini showed that the drift and bounce motion of the electrons perpendicular and along the B→×∇B→lines cause drop-out signatures in the distribution of electrons by the moon itself and by any material in the environment around the moon.
+It was found that there are regions along the spacecraft trajectories where the electron intensity drops partially in the so called "ramp-like" depletion features followed by full intensity drop-outs in the low-energy electron measurements.
+One possible interpretation is that full drop-outs occurs when a magnetic flux tube fully connects the moon with the spacecraft.
+All electrons within that flux tube are absorbed by the moon.
+They cannot escape absorption due to their gyro- or bounce motion since the associated length scales are much smaller than the diameter of Enceladus.
+Partial absorption could be caused by the presence of an extended plume cloud.
+For a finite energy passband channel, if all of the particles lose just a little energy in the gas/grain interaction, some will slip out of the passband giving a partial decrease in flux.
+However, Kollmann et al. (2011) showed that the intensity of electrons in the E-ring could also increase during the interaction between neutral gas and dust grains.
+Inside the plume the conditions are different and therefore it is unclear how the intensity is changed by the interaction.
+The ramp-like signatures were observed during flybys E3, 5, 6(?), 7, 8, 9, 12, 13 as summarized in Table 2.
+The questions of why this "boundary" most of the time is very sharp and abrupt remains.
+From the existence of disturbances in the electromagnetic fields in the presence of a electrically conducting moon it is expected that the drifts of energetic particles are also very disturbed.
+Energetic electrons are strongly affected and forbidden depletion region around the moon are created.
+Such "ramp"-like signatures in low-energy electron data are not unique to Enceladus and have also been observed near other moons in the Solar System, e.g.
+in the vicinity of the jovian moon Europa during encounter E4 of the Galileo spacecraft in 1996 (Paranicas et al., 2005).
+As described by Schulz and Eviatar (1977) the absorption near an electrically conducting moon is depending on species and energy.
+The drift of energetic electrons in the equatorial plane of Enceladus's interaction region has several components:•
+An energy-independent (ExB)-component from corotation, along the +x-direction (Vcorot).
+•
+A gradient and curvature drift component towards -x resulting from gradient and curvature of B from Saturn's dipole field.
+The intensity of this drift (Vdipole) increases with energy and tends to cancel Vcorot at the Keplerian resonant energy Erk), as discussed earlier.
+This is typically around 700keV to 1MeV for equatorially mirroring particles, far from Enceladus.
+•
+An energy-independent (ExB)-component from velocity perturbations near Enceladus (Vfdisturb).
+At the equatorial plane these perturbations can lead to non-zero velocities along the y-direction.
+The x-velocity components of this perturbation tend to reduce Vcorot upstream of the moon.
+Overall, Vfdisturb tends to cause a flow deflection around the conducting obstacle (Fig. 12, top row panels).
+The model we use here by Ip (1982) describes this flow disturbance by two parameters: the parameter "a", which indicates which fraction of corotation speed achieved at the surface of the moon's effective flux tube, and the parameter "R", which describes the radius of the effective flux tube.
+Here we used a=0.1 and R=1REnc.
+Upstream of the moon, the flow perturbation reaches gradually from a=1 to a=0.1 (and the opposite downstream from the moon).
+Obviously, since upstream Vcorot+Vfdisturb≈a*Vcorot<Vcorot, the resonant energy where the total (ExB) x-component drift is cancelled occurs at lower values as we get closer to the moon, and can reach values as low as 100keV.
+At the locations where energy resonance is achieved, the y-component of Vfdisturb starts to become dominant.
+This causes a significant distortion visible in the streamlines near Enceladus.
+The distortion maximizes around the resonant energy (Fig. 12, third row from the top).
+High energy electrons that come initially from upstream (initial energy lower than Erk) and achieve the resonant energy as they progressively move closer to Enceladus, will reverse their motion and never encounter the moon (third row from the top-right).
+On the other hand, high energy electrons that come initially from downstream (initial energy greater than Erk) will tend to be focused on the moon.
+This is due to the fact that the initial drift velocity (Vcorot+Vdipole) is towards -x.
+Adding a -x velocity component to a perturbation that tends to deflect the flow around the obstacle, gives a total drift vector pointing towards the moon.
+Focusing of streamlines of these energetic electrons may then lead to a wider depletion for these energies, upstream of the moon (Fig. 12, bottom panels, left).
+At energies much higher than Erk, Vdipole dominates and drifts tend to follow lines of equal B, which in this calculation are parallel to the x-axis.
+•
+Another drift component would arise from magnetic field perturbations near the moon.
+Such disturbances may become significant at high energies, where gradient and curvature drifts start to dominate.
+These are not included in this simplified model here, since we do not have a magnetic field model coupled with the flow perturbation given in Ip (1982).
+Gradient-curvature drifts in the interaction region may lead to significant drift perturbations along the x and y-directions.
+We are currently working on tracing electrons in simulated interaction regions from hybrid, MHD or other analytical approaches (Kriegel et al., 2009; Saur et al., 2007).
+Results will be shown in future studies.
+At this stage, drift paths drawn in Fig. 12 are more appropriate to illustrate how changes in the E, B environment near Enceladus may affect electron distributions and lead to the appearance of forbidden regions.
+These should not be considered for direct comparison with LEMMS observations at this stage, although at low energies (e.g. ≈20keV), where gradient and curvature drifts are much less significant, our simulated streamlines may be closer to reality (e.g. Fig. 7, middle panels, top).
+What these simple calculations in principle also show is that streamlines become increasingly complex and the forbidden regions become larger, as we approach the resonant energy.
+This is something that we see sometimes in MIMI/LEMMS data (flybys E3, E5).
+As we go to higher energies, our approach shows that forbidden regions tend to disappear.
+However, at E≫Erk, gradient/curvature drifts from field perturbations near Enceladus become very important.
+Since these drifts are not modelled here, we cannot be conclusive at this stage about how forbidden regions would behave.
+We also note that our calculations are only done for equatorially mirroring particles (90° pitch angle).
+Both equatorial flybys E7 and E8 (observing at approximately 90deg around closest approach) reveal "ramps" in the lowest energy channels of MIMI/LEMMS, on both sides of Enceladus.
+We believe that observation of forbidden (or partial) access for keV electrons is indeed visible during flybys E7 and E8.
+While in principle the same drift physics discussed before apply for non-equatorially mirroring particles, we expect that drift perturbation effects would be reduced to some extent, especially for the highest energies measured with MIMI/LEMMS.
+The reason is that magnetic field perturbations are more intense (compared to the background field parameters) near Enceladus than at high latitudes: non-equatorially mirroring particles are bouncing along the field lines and spend less time near Enceladus during one bounce period.
+This may explain for instance why the electron depletion during flybys E0 and E2 are equal to 1 moon diameter, but may not explain why depletions at flybys E3 and E5 become so broad at high energies, although MIMI/LEMMS is oriented far from 90° pitch angle.
+Variability of the interaction region between different flybys, may play a role.
+We believe answers for these discrepancies may be given by tracing energetic electrons in simulated interaction regions and by also understanding better the exact responses of the MIMI/LEMMS channels.
+In addition to the absorption features in the electron data there is also evidence that MIMI/LEMMS detected additional signals correlated with dust measurements from the CDA detector and CAPS spectrometer.
+There are three possibilities to explain those additional peaks: (1) directly measured dust, or (2) directly measured electrons, or (3) instrumental effects.
+Directly measured charged dust would require that the dust grains entering the low-energy aperture of MIMI/LEMMS are bent in the internal magnetic field towards the electron detector E. Assuming a bend radius of about 1cm with a 800 G internal magnetic field the mass of a singly charged dust grain cannot be higher than 4.3amu which is much lighter than those dust particles measured by the dust instrument CDA and therefore cannot account for the correlation between the peaks in MIMI/LEMMS and CDA.
+Another consideration could be that a dust grain hitting the E and F low-energy electron detectors triggers the 15keV threshold.
+Having the corresponding velocity of the incoming dust (17.7km/s) would mean that the dust grain has to have a mass of about 9300amu.
+However, this corresponds to a gyroradius of about 20m, too big to reach directly detector E or F.
+From this it follows that incoming dust particles could only hit detector A directly.
+Finally the fact that we observed some of those peaks in the high-energy aperture HE of MIMI/LEMMS makes it difficult to correlate it with direct dust hits.
+As described in the instrumentation section HE consists of a set of five detectors where multiple coincidences between the detectors are used to determine ions or electrons and their energies.
+HE electron channels like channel E4 are double-coincidence measurements.
+This would require that the dust particle entering HE penetrates through the front Aluminum foil, the first detector (150μm thick), the second detector (700μm thick) and gets stuck in detector 3.
+This is very unlikely.
+Directly measured electrons in the corresponding energy ranges cannot be fully ruled out.
+However, the fact that those peaks are highly correlated to the CDA dust measurements would mean that within the high-density plume of gas and dust grains some of the energetic electrons survive and are not lost.
+We consider this possibility also not very likely.
+Since the MIMI/LEMMS instrument was not built to measure dust we cannot rule out instrumental issues.
+If dust reaches one of the detectors inside the low-energy aperture a cloud of plasma could be produced creating electrons during the impact.
+However, their energies should only extend up to several hundreds of eV to keV range, still too low to be measured by the dedicated electron detectors with a threshold energy of 15keV.
+Another possibility could be that the power supplies of the various detectors "react" after a massive dust particle hit the detectors, creating a false signal at a huge count rate.
+Therefore we think that the "dust"-signals in MIMI/LEMMS is a false signal and cannot be used to determine further dust parameters, although they might be caused by the incoming dust grains.
+Future investigations
+Cassini will continue to perform relatively close encounters with Enceladus, as summarized in Table 3.
+Each of the additional encounters will shed further light on the interaction of the material released from the plume and the corotating particles in the saturnian magnetosphere.
+In addition the outcome of the studies related to Enceladus can also be helpful in better understanding the environment of other "active" moons in our Solar System, e.g.
+the jovian moon Europa where unusual magnetic field disturbances measured during one of the Galileo flybys have been reported by Kivelson et al. (2009), which could be related to dynamic effects in the jovian magnetosphere or by (less effective as compared to Enceladus) plume activity on Europa.
+Future missions to Jupiter will be able to study the activity and dynamics of icy satellites in more detail.
+Acknowledgments
+The German contribution of the MIMI/LEMMS Instrument was in part financed by the German BMWi through the German Space Agency DLR under Contracts 50 OH 0103, 50 OH 0801, 50 OH 0802, 50 OH 1101 and by the Max Planck Society.
+G.H.J. and C.S.A. were supported by UK Science and Technology Facilities Council Advanced and Postdoctoral Fellowships, respectively.
+We thank Andreas Lagg (MPS) for extensive software support, Martha Kusterer and Jon Vandegriff (both JHUAPL) for reducing the MIMI data, and Getyn Lewis and Lin Gilbert (both MSSL/UCL) for reducing the CAPS/ELS data.
+

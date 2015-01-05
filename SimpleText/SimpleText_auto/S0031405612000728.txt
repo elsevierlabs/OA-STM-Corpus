@@ -1,0 +1,299 @@
+Soil structural responses to alterations in soil microbiota induced by the dilution method and mycorrhizal fungal inoculation
+
+Abstract
+This investigation examines the effect of manipulating soil microbial community composition and species richness on the development of soil structure over a seven month period in planted (with or without mycorrhizal fungi) and in unplanted macrocosms.
+The dilution method effectively resulted in soil communities with consistently contrasting levels of species (TRF) richness.
+In particular, the 10-6 dilution of field soil resulted in less rich communities in bare unplanted soil than did the 10-1 soil dilution.
+However, this was not the case in planted soils where root activity was a powerful influence on species richness.
+After seven months, principal components analysis (PCA) separated bacterial community composition primarily on planting regime; planted mycorrhizal, planted non-mycorrhizal and bare soil treatments all contained different bacterial community compositions.
+A consistent finding in planted and unplanted soils was that aggregate stability was positively correlated with small pore sizes.
+Mycorrhizal colonisation decreased plant biomass and also resulted in reduced soil bacterial species richness, lower percentage organic matter and smaller pore sizes relative to planted but non-mycorrhizal soils.
+However, soil aggregate stability and water repellency were increased in these (mycorrhizal) soils probably due to AMF hyphal activities including enmeshment and/or glomalin production.
+In contrast, bacterial TRF richness was positively correlated with aggregate stability in the bare and non-mycorrhizal planted soils.
+Soil organic carbon was an important factor in all treatments, but in the bare soil where there was no additional input of labile C from roots, the percentage C could be directly related to fungal TRF richness.
+The less species rich bare soil contained more organic C than the more species rich bare soil.
+This suggests a degree of redundancy with regard to mineralisation of organic matter when additional, more utilisable C sources are unavailable.
+Understanding the effects of microbial diversity on functional parameters is important for advancing sustainable soil management techniques, but it is clear that soil is a dynamic ecosystem.
+
+Introduction
+It is widely acknowledged that soil systems are extremely diverse and complex (Giller et al. 1997; Torsvik and Øvreås 2002; Fitter 2005).
+Estimates of numbers of bacteria inhabiting soil range from 104 to 106 species in one gram of soil (Torsvik et al. 1990; Gans et al. 2005).
+Soil micro-organisms are vital for plant growth, nutrient cycling, decomposition and soil quality, yet relatively little is known about the role of biodiversity in this context.
+Characteristics of soil structure such as aggregation develop as a result of numerous factors including wet-dry cycles, clay flocculation, root activity, burrowing by soil organisms, fungal hyphal activity and microbial exudation (Tisdall and Oades 1982; Dexter 1988; Kleinfelder et al. 1992; Czarnes et al. 2000; Bossuyt et al. 2001; Denef et al. 2002; Scullion et al. 2002).
+Tisdall and Oades (1982) stated the importance of bacteria, fungi and roots as binding and stabilising agents within the soil environment, with their temporal contribution ranging from weeks to years.
+Feeney et al. (2006) suggested that soil structure and water repellency can be influenced by root and microbial activity extremely quickly.
+Their investigation showed that the number of aggregates of >2000μm and their water repellency both significantly increased over a 30day period; this was attributed to increased fungal activity, particularly in the rhizosphere.
+These authors used X-ray micro-Computed Tomography (μCT) to show that micro-organisms have an impact on development of soil structure and in particular on pore size distribution within aggregates.
+It is widely acknowledged that soil microbes significantly contribute to many soil ecosystem functions.
+What is not known however is how microbially diverse the soil ecosystem needs to be in order to maintain such functions.
+Relatively few experiments have attempted to differentiate between interacting organisms when considering the relative importance of biota on soil structure (Hallett et al. 2009).
+Investigations that have concentrated on microbial populations have either been field studies focussing on reclamation or intensification gradients (Gomez et al., 2004), or relatively short-term laboratory culture studies (Franklin and Mills 2006).
+The dilution method of modifying microbial diversity has been frequently used in mineral soils (Griffiths et al. 2001; Wertz et al. 2006, 2007), peat (Dimitriu et al. 2010) and sewage (Franklin and Mills 2006).
+It is primarily used as a means of lowering species richness so functional ability can be correlated with biodiversity.
+Rarely is the function studied in this context related to soil porosity and the development of soil structure.
+This investigation aimed to measure the relationship between microbial community structure and soil physical properties such as aggregate stability, pore size and pore distribution.
+Macrocosms of sieved sterile soil were inoculated with one of two dilutions of field soil to create microbial communities differing in species richness.
+Additional treatments included planting with Plantago lanceolata (± arbuscular mycorrhizal inoculum) or leaving the soil unplanted.
+The soil pore architecture was quantified from images derived by X-ray Computed Tomography (CT) and Terminal-Restriction Fragment Length Polymorphism (T-RFLP) analysis was used to characterise the microbial communities.
+Although roots and mycorrhizal fungi influence soil structure through their activity (Tisdall and Oades 1982; Angers and Caron 1998; Czarnes et al. 2000; Read et al. 2003), the relative importance of bacterial and saprotrophic fungal diversity in the development and maintenance of soil structure, has yet to be fully explored.
+Materials and methods
+Macrocosm setup
+Sandy loam soil (Dunnington Heath series) was collected from 5 to 20cm depth from the University of Nottingham farm site at Sutton Bonington, Leicestershire, UK (SK 512 267).
+The soil had the following physical characteristics: Sand 66%, silt 18%, clay 16%, organic matter 3.7% and pH 7.35.
+Soil was air dried and sieved to <2mm before γ-irradiating at 25kGy (Isotron Ltd, Daventry, UK).
+Sterilised soil was packed into macrocosms (7.4cm internal diameter, 15.5cm high, with a 400μm mesh base) to a bulk density of 1.1gcm-3.
+Mycorrhizal treatments were inoculated with 6g of crude arbuscular mycorrhizal fungal (AMF) inoculum consisting of root material, spores and an expanded clay carrier placed 5cm beneath the soil surface.
+The inoculum was added as a layer rather than mixed homogeneously into the potting soil primarily to prevent it from directly affecting the structure of the soil and to allow it to be readily identified when the columns were imaged.
+Further, seedling roots had to penetrate the layer and this maximised initial contact with the inoculum.
+The inoculum contained five different Glomus species in combination (G. intraradices, G. microagregatum, G. mosseae, G. geosporum and G. claroides) (PlantWorks Ltd, Sittingbourne, Kent, UK).
+Non-mycorrhizal (NM) treatments consisted of sterilised inoculum and sieved unsterilised washings.
+Columns were inoculated with indigenous micro-organisms originating from the fresh field soil, applied as one of two dilutions (Salonius 1981; Griffiths et al. 2001).
+Soil was serially diluted in sterile Ringer's solution (Dickinson et al. 1975) starting from a 10-1 (1:10) dilution up to 10-6.
+Half the columns received the 10-1 dilution and the other half were treated with the 10-6 dilution; columns were initially saturated with the appropriate solution and then drained to field capacity.
+The experimental design was a factorial setup with further treatments superimposed onto each dilution amendment as follows: (i) bare soil, (ii) planted with P. lanceolata pre-germinated seedlings (at 1 true-leaf stage)+sterilised mycorrhizal inoculum, (iii) planted with P. lanceolata seedlings+live mycorrhizal inoculum.
+Two replicate columns were used for repeated non-destructive assessment of soil structure at 1, 3, 5 and 7months from transplanting seedlings, using X-ray CT.
+A further three replicate columns were destructively harvested per treatment after one and three months, and four replicate columns harvested after five and seven months to give a total of 84 harvested columns.
+Columns were maintained in a glasshouse at 20°C (±5°C) with supplementary lighting to give a 16-h day.
+Soil columns were maintained at field capacity by watering with sterile (autoclaved) deionised water; the quantity added was determined by weight.
+At each destructive harvest, a series of analyses were undertaken as described below.
+Plant and mycorrhizal measurements
+At each destructive harvest, root and shoot biomass were measured following oven drying at 80°C until constant weight.
+Prior to drying, sub-samples of roots were weighed, cleared in 10% KOH and after rinsing in water, stained using 0.1% Chlorazol Black E lactoglycerol solution containing equal volumes of 80% lactic acid, glycerol and deionised water (Brundrett et al. 1984).
+After staining, the roots were transferred into glycerol for destaining and storage.
+Colonisation was quantified according to McGonigle et al. (1990) at ×200 magnification and data expressed as per cent root length colonised.
+Quantifying soil biomass
+After the root systems had been removed, the soil was homogenised gently prior to sub-sampling for immediate determination of soil moisture and organic matter content (loss on ignition).
+Additional 25g sub-samples were analysed for microbial biomass-C using the fumigation-extraction method described by Vance et al. (1987) and quantified using a correction factor of 0.45 (Wu et al. 1990).
+Characterisation of microbial communities using T-RFLP analysis
+DNA was extracted from the soil using a PowerSoil DNA kit (Mo-Bio Laboratories Inc., Carlsbad, CA, USA) since this particular kit enables DNA cleaning.
+DNA extracted from the soil was amplified in the ITS-2 region for fungi and the 23S ribosomal subunit for bacteria.
+The fungal primers for amplification of the ITS-2 region were 5.8Sfor (5′-GCA TCG ATG AAG AAC GCA GC-3′) and FITSrev (5′-dyeD3 ATA TGC TTA AGT TCA GCG GGT-3′), labelled with the green WellRED dyeD3 (Sigma-Proligo, Gillingham, UK).
+The bacterial primers for amplification of the 23S ribosomal subunit (Anthony et al. 2000) were 23S for (5′-GCG ATT TCY GAA YGG GGR AAC CC-3′) and the reverse primer (23Srev) (5′-dyeD4 TTC GCC TTT CCC TCA CGG TAC T-3′), labelled with the blue WellRED dyeD4 (Sigma-Proligo, Gillingham, UK).
+Bacterial and fungal restriction digests were undertaken using the restriction enzyme HaeIII and buffer 2 (New England BioLabs, Hitchin, Hertfordshire, UK) for fungal samples and enzyme MseI and buffer C (Promega, Southampton, UK) for bacterial samples prior to analyses on a CEQ 8000 DNA analysis system (Beckman Coulter Inc., High Wycombe, UK).
+The relative abundance of each peak occurring (within each sample) at a dye signal greater than 100 was included in assessment, as this ruled out any background signal interference, with any shoulder peaks (associated with base pair addition through the use of PCR amplification) removed from analysis by grouping fragments with a band width of 1.25bp (Edel-Hermann et al. 2004; Hodgetts et al. 2007).
+Bacterial TRFs selected for analysis ranged from 104bp to 488bp and fungal TRFs from 62 to 495bp.
+Aggregate size and stability
+Samples of soil were air dried for 7-14days after which aggregate size distribution was determined by gently sieving a 25g homogenised sub-sample through nine sieves: 4000, 2000, 1000, 500, 425, 300, 212, 106 and 53μm.
+The mass retained on each sieve was weighed, recorded and the percentage mass in each fraction calculated.
+From aggregate size distributions, the coefficient of uniformity (Kézdi 1974) was used to numerically illustrate the differences in distributions where large and small aggregates co-existed.
+Aggregate stability was determined by the fast wetting (slaking) technique developed by Le Bissonnais (1996) and expressed as mean weight diameter (MWD).
+Aggregate hydraulic properties
+Aggregate hydraulic properties were measured by a miniaturised infiltrometer (Leeds-Harrison et al. 1994; Hallett and Young 1999).
+Further sub-samples of the air dried soil were sieved to 2-5mm, prior to oven drying at 40°C for 24h.
+The infiltration device was constructed with capillary tubing, glass tubing (3.5mm internal diameter) and a 200μl pipette tip.
+In order to assess the hydraulic conductivity, the sorptivity of water flowing into soil aggregates at five different heads of water was measured (0, -10, -20, -30 and -40mm).
+Water repellency (R) was determined through measurements of the ethanol (Se) and water sorptivity (Sw) at the -20mm head.
+Ethanol infiltration is not affected by hydrophobic substances and hence isolates the influence of the pore structure on wetability.
+The repellency index (R) of individual aggregates was calculated from:R=1.95SeSwwith the constant accounting for the differences in surface tension and viscosity.
+X-ray Computed Tomography (CT)
+Soil structural analysis was undertaken non-destructively using a Venlo H series, X-ray CT Scanner (H 350/225 CT; X-TEK, Tring, Hertfordshire, UK).
+A 2mm primary copper filter was placed near the X-ray source to eliminate X-ray scatter, in addition to a 4mm secondary copper filter placed at the detector to prevent detector saturation (i.e. when the input to the detector exceeds the total capacity) and beam hardening (Taina et al. 2008).
+Gain and offset correction was applied to all of the diodes within the detector by applying a black (offset) and white (gain) reference to adjust for exposure variations.
+Macrocosms were scanned at 175kV and 3μA, with an exposure time of 90ms.
+The samples were placed 145mm away from the detector and scanned to collect a single image at 6 pre-determined depths according to each particular experimental layout.
+Images were processed using AnalySIS® (Soft Imaging Systems (SIS), Münster, Germany) to segment pore space.
+The image resolution was 65.4μmpixel-1.
+Initial images were cropped to 52.97mm×50.69mm (810pixel×775pixel), to remove the sides of the macrocosm from the image, in addition to boundary effects such as cracks that occasionally ran down the edges of the macrocosm.
+Image filtering was performed to improve quantification of pore features by (1) an 'optimise contrast' function, providing a maximisation of the contrast, allowing contrast enhancement; (2) a 'median filter' which smoothed the image; (3) a 'lowpass filter' that acted as a noise reduction filter; (4) a 'sharpen filter', that emphasises detail and is used after noise reduction to reduce the influence of artefacts.
+Binarisation of the images was undertaken using a modified auto-threshold (where the overflow value was set as 48%), since the default settings did not satisfactorily separate the soil solids from the pore space.
+No binary filters were applied to these images since no improvement to the previously acquired images were observed.
+From processed binary images measurements of the overall image porosity, the individual pore size (area) and the distribution of pores (nearest neighbour statistics) were determined and expressed as an average of the 6 slices.
+Statistical analysis
+All analyses were conducted using GenStat Release 13.1 (Lawes Agricultural Trust).
+Analysis of variance (ANOVA) was performed on data using soil dilution (10-1 and 10-6), planting regime (defined as either bare soil, planted non-mycorrhizal or planted mycorrhizal) and harvest time (month) as factors.
+Data for pore size and nearest neighbour distance were analysed by repeated measures ANOVA.
+Data were transformed where appropriate.
+TRF richness was determined from the number of peaks.
+Principal Components Analysis (PCA) was carried out on T-RFLP data that had been transformed into relative abundance data.
+Here, the peak height for each individual TRF was divided by the cumulative value for each sample.
+The covariance matrix was used on these normalised data as recommended by Culman et al. (2008) with principal component (PC) scores analysed by ANOVA.
+General linear regressions were performed on biological measurements to determine which factors contributed to the soil physical parameters.
+In GenStat 'all possible models' were fitted and evaluated using Akaike and adjusted R2 values.
+This enabled more than one explanatory model to be selected if appropriate.
+Results
+Plant biomass
+In the planted macrocosms, root biomass significantly increased each month (month as a single factor in ANOVA, F3,37=70.50, P<0.001) whilst shoot growth only increased up to the third month and thereafter remained constant apart from a slight decrease in month seven (month as a single factor, F3,37=27.07, P<0.001, Fig. 1).
+Root to shoot ratio remained constant in months 1 and 3 (mean ratios 0.4 and 0.3 respectively) but increased in months 5 and 7 (1.98 and 2.58 respectively; month as a single factor, F3,37=51.49, P<0.001, LSD=0.45) reflecting the difference in root and shoot biomass at these harvest points.
+Arbuscular mycorrhizal colonisation significantly reduced both root (AM colonisation as a single factor, F1,37=12.51, P=0.001) and shoot (F1,37=13.93, P<0.001) biomass but did not affect root/shoot ratio.
+Whole plant dry weight was 7.34g in the absence of AMF and 5.00g in the presence of inoculum (F1,37=14.83, P<0.001, data combined over the 7months).
+Soil dilution amendment did not affect plant growth and there were no significant interactions between the factors (dilution, AMF, month of harvest).
+Effects of dilution treatment and planting on microbial community structure
+In the T-RFLP analysis, 68 bacterial TRFs (terminal restriction fragments) were observed in total: Over the 7month period 14 TRFs were present in all treatments (i.e. in bare soil, mycorrhizal and non-mycorrhizal planted soils at both dilution treatments across all harvests); 13 TRFs were present only in soils treated with the 10-1 dilution of soil slurry and absent from the 10-6 dilution treatments (planted and unplanted combined) and 14 TRFs were present in the planted treatments and absent from the macrocosms containing bare soil (dilution treatments combined).
+Six bacterial TRFs were associated with the planted arbuscular mycorrhizal (AM) treatment but not with the planted non-mycorrhizal (NM) treatment.
+A greater number of fungal TRFs were observed overall (97 TRFs): over the 7month period 15 fungal TRFs were present in all treatments; 28 TRFs were observed in planted macrocosms but not in those containing bare soil and 10 fungal TRFs were observed in the planted AM treatments compared to the planted NM macrocosms.
+Of the fungal TRFs, 17 were present in soil treated with the 10-1 soil slurry dilution but absent from the 10-6 treatments.
+In any one dilution/planting regime per month, an overall average (grand mean) of 11 bacterial and 12 fungal TRFs were observed in sufficient abundance to be included in the analysis.
+The number of bacterial TRFs identified (TRF richness) was lower in the bare unplanted and the NM planted soils amended with the 10-6 dilution than in the equivalent treatments amended with the 10-1 soil dilution one month after the experiment was established.
+This trend became less clear over the duration of the investigation until after 7months the effect of dilution treatment was no longer evident, although TRF richness in the NM soils was greater than in the soil which had AM fungi present (ANOVA: dilution×planting regime×month effect, F6,50=3.72, P=0.004, LSD=6.3, Fig. 2a).
+In months 3 and 5, the number of TRFs in the 10-1 AMF treatment was greater than in the 10-6 AMF treatment (data not shown) but by month 7 differences had disappeared (Fig. 2a).
+Fungal TRF richness followed similar trends (Fig. 2b) although data were more variable.
+Unplanted (bare) soil contained fewer fungal TRFs than planted soils (planting regime, F2,47=5.03, P=0.010) overall.
+The number of fungal TRFs remained constant over all 7months whereas the number of bacterial TRFs fell from an average (across all treatments) of 16 in month one to an average of 10 in month 7 (month as a single factor, F3,50=15.62, P<0.001).
+PCA analysis of the microbial communities illustrated the complexity of these interactive effects.
+Using data across the 7-month period the first three principal components explained 62% of the total variance in bacterial community structure (PC1, 35%; PC2, 16%; PC3, 11%) and 58% of the fungal community structure (PC1, 29%; PC2, 17%; PC3, 12%).
+PCA analysis separated out the bacterial communities associated with the mycorrhizal plants and the bare soil amended with the 10-6 soil dilution (Fig. 3a).
+Several complex interactions were evident from analysis of variance of the bacterial PC1 scores (all months included) but the greatest variation in the data was explained by the dilution treatment; the bacterial communities were different in the 10-1 (mean score -6.8) from the 10-6 treatments (5.7) (dilution as a single factor in ANOVA, F1,50=12.07, P=0.001), and planting regime as a single factor (F2,50=6.42, P=0.003) also resulted in distinct bacterial communities (-0.7, bare soil; -8.4, NM plants; 7.4, AM plants; LSD=8.9).
+Bacterial communities in month 7 were separated from all other months (the average PC score for months 1-5 inclusive was -2.9 whilst for month 7 it was 11.1; month as a single factor, F3,50=4.85, P=0.005).
+ANOVA of PC2 scores (all months included) separated the mycorrhizal treatments from the NM and unplanted bare soils (4.3, bare soil; 0.8, NM plants; -7.6, AM plants; LSD=5.6; planting regime as a single factor, F2,50=9.58, P<0.001).
+Dilution (F1,50=5.33, P=0.025), planting regime (F2,50=7.03, P=0.002) and harvest (F3,50=14.70, P<0.001) were also influential in PC3.
+Since months 1 and 7 were consistently separated from 3 and 5 when all data were analysed, PCA analyses were also conducted separately on data for each month.
+Months 3 and 5 were similar so data are shown for months 5 and 7 (Fig. 3b and c).
+In month 5 the first 3 principal components explained 71% of the variance in the bacterial community composition (PC1, 41%; PC2, 17%; PC3, 13%) and 74% in month 7 (PC1, 45%; PC2, 22%; PC3, 7%).
+PC3 became less important as time progressed.
+In month 5 there was some differentiation based on dilution treatment (ANOVA of PC scores: PC1, dilution effect, P=0.014; PC2, dilution×planting regime effect, P=0.045).
+In month 7, the key factor separating the bacterial communities was planting regime (ANOVA of PC scores: Planting regime as a single factor, PC1, P=0.001; PC2, P=0.001) and any influence of dilution treatment had disappeared by month 7.
+Most of the variation in the ANOVA of PC1 scores for the complete fungal community data set was associated with planting regime (F2,47=16.47, P<0.001) and month (F3,47=11.28, P<0.001) as single factors (Fig. 4a) although there were several weaker interactions.
+PC2 differentiated between soil dilution as a single factor (10-1, 5.1; 10-6, -3.5; F1,47=14.33, P<0.001) and this accounted for most of the variation in the ANOVA of PC2 data.
+Dilution (P=0.001), planting regime (P<0.001) and month (P=0.011) were all influential in the PC3 scores.
+By month 7, the key difference in fungal communities was observed between the 10-1 and 10-6 dilution treatments associated with the unplanted bare soil treatments (Fig. 4b; PC1 and PC2 explaining 28% and 23% of the total variance in the fungal community data respectively).
+Arbuscular mycorrhizal colonisation
+In plants inoculated with AM fungi, percent root length colonised was similar in months 1 and 3 (28% and 29% respectively, arcsine square root transformed data) and in months 5 and 7 (56% and 52% respectively).
+Harvest time (single factor in ANOVA, F3,16=7.24, P=0.003, LSD=16) was the only factor to affect AM colonisation.
+Percent root length containing arbuscules followed a similar trend (harvest as a single factor, F3,16=9.19, P<0.001).
+Hyphae and arbuscules were not observed in uninoculated plants.
+There was a significant positive relationship between percent root length colonised and microbial biomass-C (linear regression, P=0.014).
+Microbial biomass-C
+Microbial biomass-C was affected by all treatments both as individual factors and as interaction terms.
+Most of the variation in the ANOVA was accounted for by planting regime as a single factor (F2,40=153.03, P<0001; bare soil, 101μgCg-1soil; NM, 258μgCg-1; AM, 164μgCg-1; LSD=18.2) but a planting regime×dilution interaction (F2,40=11.65, P<0.001, LSD=25.8) and a dilution×month interaction (F3,40=32.27, P<0.001) were evident.
+Microbial biomass-C was similar in the bare soil at both dilution treatments but in the planted soils, a greater microbial biomass was present in the 10-1 amended soils (Fig. 5).
+In months 3 and 5, biomass-C was greatest in the 10-1 treatments relative to the 10-6 treatments but this soil dilution effect had disappeared by month 7 (data not shown).
+Total organic carbon
+Percentage organic carbon based on loss on ignition was significantly lower in the mycorrhizal planted treatments than in the non-mycorrhizal planted, or the bare soil (planting regime as a single factor, F2,57=27.90, P<0.001).
+The carbon content of the bare soil was reduced in columns amended with the 10-1 dilution relative to those treated with the 10-6 suspension but this trend was not evident in the planted soils (planting regime×dilution interaction, F2,57=6.37, P=0.003, LSD=0.05, Fig. 5b).
+Soil aggregate characteristics
+Soil aggregate stability (mean weight diameter, MWD) did not differ with planting regime in soils treated with the 10-6 dilution.
+However, MWD was significantly lower in the bare unplanted and the NM planted soils amended with the 10-1 dilution compared to equivalent planting regimes amended with the 10-6 dilution (Fig. 6a).
+Soils from mesocosms containing mycorrhizal plants had similar MWD values irrespective of soil dilution treatment (dilution×planting regime interaction in ANOVA, F2,56=4.82, LSD=0.08, P=0.012, Fig. 6a).
+Aggregates from the soil with mycorrhizal plants and from soils amended with the 10-6 dilution were more stable than those from the 10-1 bare and NM treatments, although all fall within the accepted classification as 'stable'.
+Mean weight diameter (MWD) was greatest in month 3 (1.9mm) and thereafter aggregate stability declined to 0.9mm in month 7 (month as a single factor, F3,56=459.24, P<0.001).
+The greatest differences in planting regime occurred in month 3 with aggregates from soils with mycorrhizal plants having a greater MWD (and therefore greater stability) than aggregates from either bare soil or from NM treatments.
+By month 5, aggregates from soils from AM mesocosms had a greater MWD than those from NM mesocosms and any advantage was lost by month 7 when stability was the same irrespective of treatment (month×planting regime interaction, F6,56=3.76, P=0.003, LSD=0.117; Fig. 6b).
+When general linear regressions (GLM) were conducted on aggregate stability using the whole data set to determine which biological parameters (bacterial and fungal TRF richness, root biomass and microbial biomass-C) were influential, the model that explained the most variation in the data (based on the lowest Akaike and highest adjusted R2 values) included 3 terms: bacterial TRF richness (P=0.012), microbial biomass-C (P<0.001) and root dry weight (P=0.036).
+Bacterial TRF richness and stability were positively correlated (Fig. 6c), whilst there were negative relationships between stability and microbial biomass-C and stability and root dry weight.
+When data from the NM planted soils were analysed separately, the influence of microbial biomass-C disappeared and the terms that explained the data were bacterial TRF richness (P=0.006) and root dry weight (P<0.001).
+In the mycorrhizal system, microbial biomass-C (P<0.001), root dry weight (P<0.001) and bacterial TRF richness (P=0.048) were significant terms.
+In contrast to the other planting regimes (NM and bare soil) bacterial TRF richness was negatively correlated with aggregate stability in the mycorrhizal soils.
+The only significant biological term to explain aggregate stability in the bare soil was bacterial TRF richness (P=0.019).
+Aggregate size (coefficient of uniformity based on aggregate size distribution, ASDCU) was generally consistent in months 1 and 3 but by month 5 ASDCU in the bare soils was significantly greater than in either of the planted treatments.
+The same trend was observed in month 7 although the difference between the bare soils amended with the two dilution treatments at month 5 is significant, but not at month 7 (dilution×planting regime×month interaction in ANOVA, F6,83=2.68, P=0.023, LSD=1.49; Fig. 8c).
+At both months 5 and 7, ASDCU was greater in the bare soils than in either planted (AM or NM) soil.
+Dilution treatment resulted in larger ASDCU values in the 10-6 amended bare soils than in the 10-1 treatments indicating that the 10-1 dilution treatment resulted in more uniform soil aggregate sizes.
+Conversely, the 10-1 dilution amended NM planted soils, possessed larger ASDCU values than those associated with the 10-6 dilution in month 5.
+This trend was not significant in months 3 or 7; nor was the trend significant for the mycorrhizal treatment in month 5.
+Averaged over the 7-month period, ASDCU was similar in the planted soils irrespective of dilution treatment, but larger in the bare soil amended with the 10-6 dilution (P=0.008).
+There was a negative relationship between ASDCU and both aggregate stability (P=0.018) and root dry weight (P=0.013) where larger ASDCU values were associated with reduced aggregate stability and with lower root weights when the whole data set was analysed.
+Aggregate stability and ASDCU was also negatively correlated in the bare soil treatments.
+Aggregate water repellency (R index) was similar in months 1 and 3 (mean R values 1.97 and 1.92 respectively) with a measurable increase in repellency in month 5 which remained at month 7 (2.41 and 2.16 respectively) (month as a single factor in ANOVA, F3,55=5.60, P=0.002, LSD=0.27).
+No other factors significantly affected the R index although there was a trend towards increased repellency in the planted treatments compared to the bare soil from month 3 onwards (planting regime×month interaction, F6,55=2.14, LSD 0.46, P=0.063, Fig. 7).
+The optimum GLM that explained the water repellency data for the whole data set was root dry wt.
+(P<0.001) and fungal TRF richness (P=0.018).
+There was a positive relationship between R index and root dry weight and a negative relationship between fungal TRF richness and R index.
+When these data were analysed separately according to planting regime, water repellency in the mycorrhizal macrocosms could be potentially explained by three different models.
+The first of these included the terms bacterial TRF richness (P<0.001) and microbial biomass-C (P=0.006); the second included bacterial TRF richness (P=0.003) and root dry weight (P=0.013) and the third included fungal TRF richness (P=0.015) and root dry weight (P=0.004).
+Based on lowest Akaike and highest adjusted R2 values the first of the three is the optimum model.
+Bacterial and fungal TRF richness was negatively correlated with water repellency whilst microbial biomass-C and root dry weight were positively correlated with water repellency.
+These models did not explain water repellency in the non-mycorrhizal planted macrocosms.
+When data relating to the bare and non-mycorrhizal macrocosms were analysed together by GLM, root dry wt.
+was significant (P=0.022) but when the NM and bare soils were analysed separately, none of the biological parameters had any effect on water repellency.
+Soil pore characteristics
+Total porosity (%) was consistently lower in the bare soil treated with the 10-6 dilution compared to the bare soil with the 10-1 amendment.
+This observation was consistent and significant in all months apart from month 7 when porosity was the same in bare soil irrespective of dilution treatment.
+Dilution amendment did not significantly affect porosity of planted soils (either NM or AM) at any point in the investigation although porosity of the NM planted soils was consistently greater than that of the mycorrhizal planted soils (dilution×planting regime×month interaction, F6,72=3.25, LSD=5.5, P=0.016; Fig. 8a).
+However there was a significant relationship between total porosity and bacterial TRF richness (Fig. 8b).
+Dilution treatment affected pore size in the bare soil and the AM planted soil but not statistically in the NM soil.
+Microbial richness/community composition had a different effect on pore size in the planted soils than in the bare soils.
+Planting generally increased pore size in soil amended with the 10-6 dilution but not in soil amended with the 10-1 (dilution×planting regime interaction, F2,35=22.18, LSD=0.049, P<0.001, Fig. 8c).
+The distance between pore spaces was less in the planted (NM and AM) soil than in the bare soil within macrocosms amended with the 10-1 dilution.
+In contrast, there was no statistically significant effect of plant roots on nearest neighbour distance in soils amended with the 10-6 dilution treatment even though there appeared to be a reduction in nearest neighbour distance in the bare soil (dilution×planting regime interaction, F2,35=7.32, LSD=0.046, P=0.002, data not shown).
+Discussion
+The aim of the current investigation was to determine whether fungal and bacterial species richness would affect the development of soil structural properties (e.g. aggregate stability and pore size) over a 7-month period and establish whether changes in genetic composition would be brought about by the presence of roots (either mycorrhizal or non-mycorrhizal).
+Since the premise of the investigation was to quantify the relationship between biological richness and soil structural changes over time, the soils were not pre-incubated prior to the start of the experiment.
+Therefore, microbial communities were allowed to develop during the course of the 7month experiment either in the presence of mycorrhizal or non-mycorrhizal roots, or in unplanted soil, thereby allowing root associated changes in community development to be measured.
+Others, for example Griffiths et al. (2001) and Wertz et al. (2006), incubated soils for 9 or 4.8months respectively to allow microbial communities to develop a similar biomass before biodiversity/function relationships were studied.
+In this investigation, the progression of soil structural development together with microbial compositional changes over time and in tandem with root development was characterised.
+Dilution led to compositional changes in the soil microbial community and these changes were modified by the presence of plant roots and duration of the experiment.
+Overall, dilution resulted in greater bacterial richness and this effect lasted for the longest period of time in the bare soil treatments, although bacterial richness was greater in 10-1 dilution amended soils which also contained mycorrhizal plants during months 3 and 5.
+The dilution treatment influenced bacterial TRF richness for up to 5months depending on the planting regime but not thereafter.
+Fungal TRF richness broadly followed similar trends but the influence of dilution in the bare soils was still evident after 7months.
+It is clear from the PCA analysis that by month 7, the bacterial community structure was primarily affected by the planting regime and communities were separated out according to the presence of roots, AM fungi, or whether the soil was left bare; dilution was unimportant at that stage.
+The fungal communities were relatively unaffected by mycorrhizal status of the plants by month 7, but PCA differentiated between the dilution treatments in the bare soil.
+AM fungal colonisation resulted in increased aggregate stability relative to NM planted and bare soil treatments as would be expected and this was most noticeable in soils amended with the 10-1 dilution and also in months 3 and 5.
+AMF are known to improve aggregate stability as a result of glomalin production (Wright and Upadhyaya 1998; Wright and Anderson 2000; Rillig and Steinberg 2002; Rillig et al. 2002) and/or by the action of extraradical hyphae that enmesh and physically bind soil particles (Tisdall and Oades 1982; Bearden and Petersen 2000).
+Piotrowski et al. (2004) demonstrated that aggregate stability varies with fungal-plant combination; the mycorrhizal inoculum used in this investigation was a mixed species inoculum since field plants will be subjected to more than one species.
+It is interesting that aggregate stability was no different in NM planted than in bare soils amended with the 10-1 dilution despite microbial biomass-C being significantly greater in NM plants from month 3 onwards.
+In pot experiments it is possible for roots to negatively affect aggregate stability because of high root densities; however in this investigation, aggregate stability was similar in the bare and NM soils at early harvests, before roots reached their maximum density.
+This suggests that aggregate stability was influenced by factors other than microbial biomass or root size per se.
+The pots were not visibly 'root bound' at the end of the experiment and this observation is supported by the aggregate stability and porosity data.
+The total porosity was similar between months 5 and 7 but would be expected to decrease in month 7 if roots had reached a deleterious mass, as all root material was classified as soil as opposed to pore space during image analysis.
+General linear regressions were conducted to determine relationships between the biological parameters and MWD; terms included in the optimum model were bacterial TRF richness, microbial biomass-C and root dry weight.
+The negative relationships observed between both root dry weight and microbial biomass-C with aggregate stability were not anticipated.
+Root systems are usually considered as binding agents in soils as a result of the effects of their penetration and expansion (Tisdall and Oades, 1982).
+Hallett et al. (2009) concluded from their work on tomato (mycorrhizal and mycorrhizal-defective mutants) that plants, irrespective of mycorrhizal status, have the greatest impact on soil stability.
+Data from the current investigation show that in the P. lanceolata system, 'background' microbial richness and community structure in addition to AMF status were important positive determinants of aggregate stability.
+The minimal difference observed in aggregate stability between the NM planted soil and the bare soil is interesting.
+Aggregate stability was greater in mycorrhizal soils overall, although this was not the case in every month of the experiment, suggesting that aggregate stability is dynamic.
+Furthermore across all months, bacterial TRF richness was positively correlated with aggregate stability in the bare soil and the NM planted treatments.
+In contrast, bacterial TRF richness was negatively correlated with aggregate stability in the mycorrhizal soils, where it is possible that bacterial richness was reduced by extraradical AM fungal hyphae or glomalin production.
+Neither of these parameters was measured here, although they are both known to increase hydrophobicity in aggregates.
+However, the system was more complex than the correlations using all the data might suggest, since dilution and month affected bacterial richness in the AM treatments.
+In the present study, both aggregate stability and repellency were reduced in month 7; specifically the degree of reduction in repellency was less in the mycorrhizal soils than in the non-mycorrhizal soils.
+In the mycorrhizal soils, aggregate water repellency was also negatively correlated with bacterial (and fungal) TRF richness but positively correlated with root size and microbial biomass-C.
+It is likely that mycorrhizal hyphae contributed to the microbial biomass-C measured here which might explain why microbial biomass-C was not a factor in the model explaining repellency in the NM soils.
+In the mycorrhizal soils the relationship between microbial biomass-C and aggregate stability was negative, whilst it was positive for repellency.
+The GLM regressions used data for all 7months but the system was dynamic across the months.
+For example, aggregate stability was greater in the mycorrhizal soils in month 3, yet repellency increased in months 5 and 7.
+The positive relationship observed between per cent root length colonised and microbial biomass-C is likely to be the result of increasing hyphal length in the soil, or possibly an enhancement of other microbial species too, since internal AMF root colonisation may not reflect the extraradical hyphal biomass.
+Aggregate turnover rates range from 4 to 88days (De Gryze et al. 2005, 2006); an increase in aggregate stability observed here over a 60day period (from the first to third month harvest) and an increase in aggregate water repellency over a 120day period (from the first to fifth month harvest) is comparable to that observed by others.
+Mycorrhizal colonisation resulted in reduced plant growth and therefore less root material in the soil.
+In the tomato study conducted by Hallett et al. (2009) root mass was similar in their wild-type and mycorrhizal-defective tomatoes whilst in this study, root length was significantly reduced in the mycorrhizal plants compared to the NM counterparts.
+Therefore the impact of roots on aggregation and repellency was proportionally even less in the mycorrhizal treatments than in the NM soils.
+Negative growth effects resulting from AM colonisation have been previously reported (Grace et al. 2008; Verbruggen et al. 2012).
+Maintaining a mycorrhizal symbiosis is costly for the plant; around 15-20% of photosynthates are directed to the AM fungus (Jakobsen and Rosendahl 1990) and this will be a drain to the plant if root C exudation is not reduced.
+Up to 20% of a plant's photosynthates may be released into soil from roots (Hütsch et al. 2002) and this may be limited if other costs are enforced on the plant.
+The experimental soil was high in available P (43.5±4.4mgkg-1) therefore growth depressions may be due to fungal C demand.
+However, Grace et al. (2008) concluded that AM fungal-induced growth depressions in barley (Hordeum vulgare) were not related to C drain because there was no correlation between percent root length colonised and the degree of reduced growth.
+These authors concluded that the plant's contribution to direct P-uptake was reduced when mycorrhizal and suggested that post-transcriptional or post-translational control of plant P-uptake is controlled by AMF.
+Martin et al. (2012) demonstrated positive mycorrhizal growth responses in P. lanceolata when grown in the same experimental soil as that used in the current investigation.
+These authors showed that dual inoculation with Glomus intraradices and G. mosseae resulted in the greatest growth response observed, but adding a third species (G. geosporum) lessened the response.
+A five-species mixture was used in the current investigation; the multispecies inoculum used here did not benefit the plant in terms of growth response.
+Interestingly, the percentage total C in the soil was significantly less in the mycorrhizal treatments than in the NM planted soils suggesting either a reduced input or faster utilisation.
+This observation is unlikely to be due to undetected fine root fragments remaining in the soil because there was little difference between the total C content of the NM and the bare soils overall.
+Bacterial TRF richness and microbial biomass-C were both greater in the NM planted soils than in the mycorrhizal or bare soils, with bare soil having the lowest biomass-C (data pooled across months).
+Therefore mycorrhizal colonisation resulted in soil with reduced bacterial richness overall compared to equivalent NM soil.
+The trend was less noticeable for fungal TRFs because the mycorrhizal fungi would have contributed to the data.
+Therefore the contribution to aggregate stability and repellency in the mycorrhizal soils was likely to be primarily due to AMF hyphae and/or glomalin production, although increased biomass of fewer bacterial or saprotrophic fungal species could also be a factor.
+Carbon released from the greater mass of NM plant roots likely sustained the higher degree of bacterial TRF richness and activity, whilst the relative lack of activity in the bare soil would have minimised changes in C-content of the soil.
+The differences in bacterial community composition between bare and planted soil observed here corroborate observations made by others on rhizosphere versus bare soil (Baudoin et al. 2002; Marschner and Baumann 2003; Remenant et al. 2009).
+The greater percentage organic C in the 10-6 (less species rich) bare soil compared to the bare 10-1 soil suggests that a level of redundancy in the 10-6 soil was occurring in terms of mineralisation of the organic matter present.
+Indeed Garcia-Pausas and Paterson (2011) demonstrated that mineralisation of soil organic matter (OM) is determined by microbial community composition and further, showed that addition of labile C promoted mineralisation of soil OM.
+It is likely that lower fungal community richess in the 10-6 bare soil would have contributed to any reduced mineralisation of organic matter.
+The dilution effects on soil OM were absent from the planted soils in the current experiment, although the AMF treatments had significantly less soil OM than either of the other planting regimes (bare soil and NM planted), possibly because of reduced root mass and species richness in addition to C losses to the AM fungi.
+However, sufficient labile C may have been released into the soil from roots to 'prime' mineralisation of the soil OM resulting in a lower amount overall.
+The additional root mass in the NM plants and lack of metabolic costs due to AMF would contribute to OM release into the soil and limit the need for soil micro-organisms to mineralise recalcitrant soil carbon (DeForest et al. 2004; Garcia-Pausas and Paterson 2011).
+In the bare soil the 10-1 dilution resulted in larger pores with greater distances between them than in soils that received the 10-6 dilution, where pore size was more uniform (smaller) with shorter distances between them.
+The larger pores resulted in greater total porosity in the bare soils amended with 10-1 dilution.
+Interestingly, aggregate stability was greater in the bare 10-6 treatment than in the bare 10-1 dilution treatment.
+Pore space is important for channelling gas, water and nutrients through the soil and the larger perimeters of more sizeable pores are ideal habitats for micro-organisms.
+Nunan et al. (2001) observed bacteria colonies near pore spaces and suggested that pores act as nutrient rich habitats for soil micro-organisms.
+Whilst bacterial species richness was modified over time, fungal richness was greater in the bare 10-1 amended soils than the 10-6 equivalents for the duration of the investigation.
+What is unknown is whether the larger pores in the 10-1 bare soil maintained this fungal species richness or whether the fungal community resulted in increased pore sizes.
+Organic carbon is known to increase aggregate stability and according to Dal Ferro et al. (2012), ultramicropores enhanced aggregate stability and organic carbon influenced pore size distribution in their study using a 3D network model.
+This corroborates the data here since the 10-6 dilution (bare soil) had a larger proportion of organic C, smaller and more uniform pore distribution and greater aggregate stability.
+Since microbial biomass-C was similar in those two treatments, it can be concluded that (fungal) species richness was the primary cause of the increased porosity and of reduced aggregate stability in the bare 10-1 soil, probably because of increased metabolic activity of the fungi and of the bacterial constituents.
+In the planted systems, root activity changed the dynamic, so that larger pores were observed in the 10-6 dilution amended soils with greater distances between them than in the 10-1 treatments.
+This affected porosity of the mycorrhizal planted soils but not of the NM planted soils, where porosity was similar irrespective of dilution.
+Overall (all data combined), the AM planted soils had smaller pore sizes and lower total porosity than the NM planted soils, but greater aggregate stability.
+This is in agreement with Bearden (2001) who concluded that AMF hyphae led to soils with groups of small pores.
+There is a trend in this study between smaller pore sizes and increased aggregate stability.
+Feeney et al. (2006) reported increased soil porosity within bulk and rhizosphere soil over a 30day period and concluded that the soil biota altered their habitat in favour of a more porous and aggregated structure.
+The findings here for porosity in the unplanted (bare) soils are in agreement with Feeney et al. (2006), although data relating to porosity in the rhizosphere and mycorrhizosphere do not corroborate Feeney et al. (2006).
+Total porosity in planted soils with AMF was consistently lower than that of the NM planted and bare soils from months 3 to 7.
+Feeney et al. (2006) worked at a resolution of 4.4μm, whilst the smallest pores imaged here were 65μm.
+Whilst the coarser resolution here may have been a factor in explaining the different findings, the complexity of soil-plant-microbial dynamics in influencing soil structural properties should be highlighted and caution applied when interpreting data from pot experiments.
+Changes in porosity generally take place over much longer periods than aggregate turn over, particularly at a field scale, where the development of soil structure can take many months to years (Elliott and Coleman 1988; Boersma and Kooistra 1994).
+The dilution method used here resulted in altered microbial species richness, which was influenced primarily by planting regime and mycorrhizal colonisation.
+The design of the experiment made it possible to determine the relative influences of these parameters on soil porosity and aggregate stability in addition to soil organic carbon.
+Acknowledgements
+We are grateful to the Natural Environment Research Council (NERC) for the PhD Studentship that funded this work and to the Agricultural Development Advisory Service (ADAS) for additional support.
+The authors wish to thank Chris Fox and Linda Staniforth for their technical expertise.
+

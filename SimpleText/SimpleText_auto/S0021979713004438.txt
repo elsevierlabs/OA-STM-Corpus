@@ -1,0 +1,265 @@
+In situ investigations of Fe3+ induced complexation of adsorbed Mefp-1 protein film on iron substrate
+
+Graphical abstract
+Highlights
+•
+Pure iron was used as substrate for study of mussel adhesive protein adsorption.
+•
+Multianalytical in situ studies of the protein film forming and complexation.
+•
+Spectroscopy analysis was assisted by ab initial computational modeling.
+•
+Details of the film formation, structure, property, and compaction mechanism.
+•
+Tri-catechol/Fe3+ complexation leads to compaction of the surface protein film.
+Abstract
+A range of in situ analytical techniques and theoretical calculations were applied to gain insights into the formation and properties of the Mefp-1 film on iron substrate, as well as the protein complexation with Fe3+ ions.
+Adsorption kinetics of Mefp-1 and the complexation were investigated using QCM-D.
+The results suggest an initially fast adsorption, with the molecules oriented preferentially parallel to the surface, followed by a structural change within the film leading to molecules extending toward solution.
+Exposure to a diluted FeCl3 solution results in enhanced complexation within the adsorbed protein film, leading to water removal and film compaction.
+In situ Peak Force Tapping AFM was employed for determining morphology and nano-mechanical properties of the surface layer.
+The results, in agreement with the QCM-D observations, demonstrate that addition of Fe3+ induces a transition from an extended and soft protein layer to a denser and stiffer one.
+Further, in situ ATR-FTIR and Confocal Raman Micro-spectroscopy (CRM) techniques were utilized to monitor compositional/structural changes in the surface layer due to addition of Fe3+ ions.
+The spectroscopic analyses assisted by DFT calculations provide evidence for formation of tri-Fe3+/catechol complexes in the surface film, which is enhanced by Fe3+ addition.
+
+Introduction
+In recent years, mussel adhesive proteins (MAPs) excreted from marine mussels have gained great interest in the scientific community for their film forming ability on various substrates.
+Currently, at least five different proteins (Mefp-1 to Mefp-5: denotation for Mytilus edulis foot protein hereafter) from the blue mussels have been isolated and characterized [1,2].
+Mefp-1 was the first one to be purified, and it is regarded as the primary component of the cuticle of Mytilid treads.
+Mefp-1 contains a high level of peptides with catecholic functional groups present in the primary structure as peptidyl (3,4-di-hydroxypheny)-l-alanine (DOPA) [3-7,2,1].
+The coherent accumulation of Mefp-1 and Fe3+ has been confirmed in the cuticle of Mytilid byssus, and Fe3+ is an integral part of the cuticle that provides exceptional stability due to formation of Fe3+/DOPA complexes [8-11].
+DOPA is a bi-dentate, each Fe3+ ion can bind one, two, or three DOPA ligands, depending mainly on the pH and the Fe3+/DOPA ratio [12,13].
+Complexation has been reported to occur at Fe3+ concentration as low as 10μM, and the Fe3+ ions provide significant and fully reversible intermolecular bridging of Mefp-1 layers on mica surfaces, forming multivalent tri-Fe3+/DOPA complexes [13].
+Metal-mediated bridging of Mefp-1 films has considerable potential for its non-toxic and multifunctional properties.
+Due to the increasing interest of industries, including biomedical and medical oriented industry, the detailed understanding of the complexation process of Mefp-1 and Fe3+ on different material surfaces becomes more crucial.
+Some investigations of the Mefp-1/Fe3+ complexation have been performed in vitro [11,14,15], and Fe3+ induced bridging in Mefp-1 films on a model surface has been demonstrated by using ex situ techniques [13].
+However, to the author's knowledge, no study has described Mefp-1/Fe3+ complexation on a base metal substrate using in situ analytical techniques.
+We have recently explored the possibility to use Mefp-1 for corrosion protection of carbon steel [16-18], and a deep understanding of the protein film formation and complexation process on iron substrate is of great importance for improving the protection performance of the adsorbed protein film.
+This study considers two issues related to Mefp-1 film formation on such substrates.
+The first is the adsorption kinetics of Mefp-1 on an oxidized iron substrate, which is more complex but more relevant for corrosion protection applications than inorganic or organic model surfaces used in other studies [19].
+The other issue considered in this work is the composition and properties of the Fe3+ bridged Mefp-1 film formed on the iron substrate.
+To gain relevant information, we have utilized quartz crystal microbalance with dissipation monitor (QCM-D), in situ AFM, in situ attenuated total reflectance Fourier-transform infrared spectroscopy (ATR-FTIR), in situ Confocal Raman Micro-spectroscopy (CRM) for the measurements, and also density functional theory (DFT) calculations to assist the interpretation of spectroscopic data.
+The QCM-D offers information on adsorption kinetics, adsorbed mass including trapped water, and the viscous and elastic properties of adsorbed layers [20].
+This technique has previously been used for Mefp-1 studies on model silica surfaces [19,21], whereas an oxidized iron surface was used in this study.
+In situ Peak Force tapping AFM measurements were performed to investigate the morphology and nano-mechanical properties of the adsorbed film.
+Further, in situ ATR-FTIR and in situ CRM were performed on the iron substrate to obtain chemical information of the adsorbed Mefp-1 film before and after exposure to aqueous solutions containing Fe3+ ions.
+Materials and methods
+Protein and solutions
+The Mefp-1 with a purity of 92% (impurity is mainly aggregation/degradation products of Mefp-1) was supplied by Biopolymer Products AB (Gothenburg, Sweden).
+The details of the extraction and purification processes of Mefp-1 are described elsewhere [22].
+Mefp-1 is a large and basic hydrophilic protein, having a molecular weight of about 108kDa and a high isoelectric point about 10 [23,24].
+It is known that Mefp-1 is highly positive charged at neutral pH [25].
+The Mefp-1 was delivered as a 25mg/ml aqueous solution containing 1wt.% citric acid and stored as received in dark at+4°C before use.
+A solution containing 1wt.% citric acid, at pH 7-8, was prepared as the buffer solution, and the pH was adjusted by sodium hydroxide solution.
+Just 3min prior to measurement, Mefp-1 was added from its stock solution to the buffer solution to give a concentration of 0.1mg/mL.
+The 10μM FeCl3 solution was prepared by dissolving a small amount of FeCl3⋅6H2O in pure water.
+All chemicals used were of analytical purity and aqueous solutions were made using pure water with resistivity of 18MΩcm as prepared by Milli-Q system.
+Substrates
+The substrate in QCM-D and in situ AFM measurements were quartz crystals coated with a 100nm thick iron film (Q-Sense, Gothenburg, Sweden).
+These sensors have a fundamental resonance frequency of 4.95MHz.
+The in situ ATR-FTIR measurements utilized an iron film ca.
+30nm thick that was deposited on a ZnSe internal reflection element (IRE) by high-vacuum evaporation using a Univex 300 vacuum evaporator (Leybold Vaccum).
+The evaporator was equipped with a quartz crystal microbalance thickness monitor to control the thickness of deposited layer.
+For deposition of pure iron film, ultra-pure iron (99.99%) target were used.
+A bare ZnSe crystal was also used as substrate for comparison.
+For in situ CRM measurements, a pure iron sheet sample was wet ground with SiC grinding paper successively to 1200 grits and then cleaned ultrasonically with ethanol.
+The nominal composition of the pure iron (Stena Stal AB, Slovak Republic) is 99.87wt.% Fe, 0.06wt.% C, 0.06wt.% N, and 0.014wt.% S.
+To obtain a relatively stable substrate during the measurements, all iron substrates were pre-conditioned in a 10wt.% NaOH solution overnight to form a thin oxidized surface layer, followed by rinsing with 99.5% pure ethanol and drying with a gentle stream of nitrogen gas prior to use.
+The alkaline treatment of the iron surface results in formation of hematite (α-Fe2O3), which will be shown and discussed in relation to Fig. 9.
+The hematite surface contains different types of surface hydroxyl groups that differ by their coordination to the substrate [26].
+The hematite surface is amphoteric due to the possibility of protonization and deprotonization of the surface hydroxyl groups.
+In neutral solution, the ξ-potential has been found to be slightly positive [27,28].
+The water contact angle on our hematite surface is 69±3°, and the open circuit potential relative to Ag/AgCl is -0.72V, which is similar to that of iron due to the small thickness of the oxide layer.
+QCM with dissipation monitoring, QCM-D
+A QCM-D instrument, which is a highly sensitive balance based on the measurement of changes in the resonance frequency of a quartz crystal oscillator, was used to study the film formation and complexation processes.
+The instrument used was a Q-sense E4 microbalance (Q-sense, Gothenburg).
+The temperature of the measuring cell was controlled at 25±0.02°C, and the resonant frequency of the oscillator (f) and the energy dissipation value (D) were recorded simultaneously as a function of time.
+The baseline was determined using the buffer solution without protein.
+The dissipation is a measure of the amplitude decay rate of the crystal oscillation when the voltage is switched off, which is defined as D=Ed/(2πEs), where Ed is the energy dissipated during one period of oscillation and Es is the stored energy.
+The combination of dissipation measurement with the frequency monitoring allows the determination the adsorbed mass as well as viscoelastic properties of the protein layers, from which changes in the orientation or conformational state of the protein adsorbed may be inferred [29].
+The Sauerbrey equation [30] is commonly used to obtain the sensed mass (m) from the change in resonance frequency (Δf).
+It assumes that the adsorbed film is evenly distributed, rigid and thin, and for this situation the change in resonance frequency is only due to the mass of the adsorbed film, including water hydrodynamically trapped in the film.
+However, the Mefp-1 film is soft (viscoelastic) and contains a high content of water [31], and therefore, evaluation based on the Voigt model is more accurate and informative since it utilizes frequency and dissipation data from multiple harmonics (overtones) and allows estimations of thickness, shear elastic modulus, and shear viscosity of the adsorbed film.
+The model assumes that the bulk solution is purely viscous and Newtonian, and the adsorbed film is uniform, the viscoelastic properties are frequency independent in the utilized frequency range (15-25MHz), and that there is no slip between the adsorbed layer and the crystal during shearing [20,32].
+The frequency change and the dissipation change are given as:(1)Δf=Im(β)2πtqρqand(2)ΔD=-Re(β)πftqρqwhereβ=ξf2πfηf-iμf2πf1-αexp(2ξ1tf)1+αexp(2ξ1tf)·α=ξ1ξ22πfηf-iμf2πfηb+1ξ1ξ22πfηf-iμf2πfηb-1,ξ1=-(2πf)2ρfμf+i2πfηf,ξ2=i2πfρbηbwhere μ is the elastic shear modulus, η is the shear viscosity, f is the oscillation frequency, t is the thickness, and ρ is the density of the adsorbed film.
+The subscripts q, f, and b refer to crystal quartz, film, and bulk solution, respectively.
+In this work, results at two overtones (third and fifth) were fitted to the Voigt model using QTools software v3.0.12.518.
+The QCM-D measurements were repeated two times, and the same trend was observed.
+In situ AFM imaging and nano-mechanical measurement
+In situ Peak Force tapping mode AFM measurements were performed on iron QCM crystals (coated with iron) with a pre-adsorbed Mefp-1 film, immersed in buffer solution and FeCl3 solution, respectively.
+The measurements provide nanometer resolution images of topography and nano-mechanical properties of the adsorbed protein films.
+The AFM instrument (Multimode, Nanoscope V, Bruker) is equipped with a fluid cell with inlets and outlets allowing solution exchange.
+Rectangular silicon cantilevers with spring constant of 0.7N/m and resonant frequency range of 120-180kHz (SCANASYST-FLUID+, BRUKER) were employed for the measurements.
+The Peak Force AFM images were obtained using a controlled feedback force of 1.1nN, and quantitative information of several surface mechanical properties was obtained simultaneously [33,34].
+The principle of the technique has been explained in the literatures [35,36].
+In brief, (as shown in Fig. 1), the Peak Force AFM measurement allows determination of surface deformation as the difference between the tip-sample separation at the peak force and at a given percentage of the peak force (15% in this study).
+The tip-sample adhesion force is determined from the difference between the zero force and the minimum force experienced during tip retraction, and the dissipated energy during one approach-retraction measurement cycle is evaluated from the area between the trace and retrace curve.
+Moreover, combined with the Derjaguin-Muller-Toporov (DMT) model [37,38], the elastic modulus of the surface can be obtained from the force curve where the sample and the tip are in contact [35].
+To obtain the correct DMT modulus values, the tip radius needs to be known.
+This value can be obtained by calibration against a surface with known elastic modulus.
+In our case, we used a polystyrene surface with a Young's modulus of 2.7GPa.
+According to the calibration result, the spring constant was 0.7N/m and the tip radius was 10nm.
+During measurements, the topographical image and the above-mentioned nano-mechanical property maps are obtained simultaneously from the force vs. separation curves, each collected in about 0.5ms.
+The Nanoscope Analysis v.120 software (Bruker) was used for image analysis.
+A second order polynomial flattening algorithm was performed to remove the titling slope of topography images, and the surface roughness parameters Rq and Ra were determined.
+Rq is the standard deviation of the Z-values of the surface, calculated as:(3)Rq=Σ(Zi)2NAnd Ra is the arithmetic average of the absolute values of the surface height deviations:(4)Ra=1N∑j=1N|Zj|
+All other images remained as originally obtained.
+For the quantitative comparison of the nano-mechanical properties of the adsorbed Mefp-1 film before and after Fe3+ enhanced complexation, mean Z-values of the property data were calculated by the software.
+The mean value for a quantity across an image is the average of the values obtained at each pixel and it is calculated as:(5)Mean value=1N∑j=1NZjwhere Zj is the local value at pixel j and N is the number of pixels.
+In situ ATR-FTIR
+The ATR-FTIR measurements were performed using a Varian 7000 spectrometer equipped with a linearized Mercury cadmium telluride (MCT) detector.
+The ATR measurements were performed using a custom made grazing angle total reflectance accessory (GATRTM from Harrick), with a removable hemispherical IRE and with incident beam angle of 65°.
+The absorbance spectra were obtained as an average of 600 scans across the wavenumber region 4500-600cm-1, with a resolution of 8cm-1.
+The ATR-FTIR spectra were recorded using the Varian Resolution Pro software 4.3 as single beam spectra before and after introduction of buffer solution and then also after different times during the exposure to solutions containing Mefp-1 or FeCl3.
+The spectra are presented in the absorbance format, -log(R/R0), where R is the reflected intensity of the sample and R0 is the reflected intensity of the background, and obtained by taking the ratio of a single beam at a certain exposure time in Mefp-1 and FeCl3vs.
+a single beam spectrum obtained in the buffer solution.
+In situ CRM analysis
+In situ CRM measurements were performed using an iron substrate in the Mefp-1 solution and also using such surfaces with a pre-adsorbed Mefp-1 film in the FeCl3 solution.
+The CRM instrument was a WITec alpha300 system (WITec GmbH, Germany), equipped with a 532nm laser for excitation, and an oil immersion objective with 100×magnification and numerical aperture (NA) of 1.25.
+The optical parameters give a lateral resolution of 260nm.
+During a CRM measurement, a droplet of the liquid was placed on the substrate and covered by a microscope glass slide, which gave an approximate thickness of the liquid layer of 10μm.
+Raman spectra were recorded with an integration time of 0.2s, and the data were analyzed using the WITec Project 2.06 software.
+DFT calculations
+Density functional theory (DFT) calculations within the Kohn-Sham formalism [39] were performed for a number of model compounds that included the catechol unit of the DOPA residues as well as parts of the protein backbone.
+We also studied complexes between a Fe3+ ion and one or more catechol units and water molecules.
+All computations were performed using software Gaussian 09 suite [40].
+The model compounds were subjected to geometry optimizations followed by computations of time dependence-DFT electronic absorption spectra, IR spectra, and pre-resonance Raman spectra.
+In order to produce reliable resonance Raman spectra, computations need to reproduce any electronic absorption bands that lie in the vicinity of the excitation wavelength used in the CRM experiment.
+We tested different exchange-correlation functionals and found the recently developed long range corrected ωB97X functional [41] to be best suited to reproduce the charge-transfer bands found in complexes between Fe3+ and catechols.
+The LACVP+basis set, which corresponds to the 6-31+G(d) basis for first and second row atoms and an augmented LANL2DZ ECP-basis set for heavier atoms, was used for all computations.
+Vibrational spectra were computed within the harmonic approximation, and the obtained vibrational frequencies need to be scaled down in comparison with experimental spectra.
+This is the standard procedure when comparing theoretical and experimental spectra, since the computed frequencies are always too large due to the lack of anharmonicity corrections.
+In addition, the harmonic potentials are sensitive to electron correlation, and the scaling factor will differ depending upon the exchange-correlation functional and the basis set used.
+For the ωB97X/LACVP∗+ level of theory, a scaling factor for the vibrational frequency of 0.94-0.95 was found to give good agreement between theory and experiment for most vibrational bands.
+The exception was vibrations involving Fe-O bonds for which a scaling factor closer to unit was more appropriate.
+Results and discussion
+Kinetic aspects of layer formation and complexation
+The adsorption of Mefp-1 on an oxidized iron surface was followed in real time using QCM-D as illustrated in Fig. 2.
+The sensed mass determined with QCM-D includes the mass of the adsorbed protein and that of water that is hydrodynamically coupled to the layer.
+This mass will be referred to as the "sensed mass" in this article to distinguish it from the adsorbed mass of the protein.
+The exposure to the Mefp-1 solution leads to initial rapid adsorption, as expected for a protein showing high affinity for the adsorbent.
+After this initial rapid adsorption, a slower increase in the sensed mass is observed, suggesting a continuous build-up of the Mefp-1 layer.
+Since the substrate is a pre-conditioned iron surface that is not as stable as a model silica surface, the adsorption of Mefp-1 was interrupted after 10min to prevent non-negligible corrosion of the substrate within the period of measurement.
+The protein solution was removed by injection of a protein free 10μm FeCl3 solution into the cell, which allows the investigation of Fe3+ enhanced complexation of the pre-adsorbed protein layer.
+As shown in Fig. 2, the exposure of the adsorbed layer to the FeCl3 solution leads to a decrease in the sensed mass, which can arise from removal of some loosely bound Mefp-1 and/or some of the coupled water in the protein layer.
+Further information can be obtained from the change in the dissipation (ΔD) values.
+For a soft film, the decay time of the oscillation in the quartz resonator is small, and the dissipation value is high, whereas for a rigid film, the dissipation value is smaller.
+The plot of the change in dissipation (ΔD) as a function of the change in frequency (Δf) is quite informative [42] and can be used for visualizing structural changes in adsorbed layers.
+Such plots in Fig. 3 illustrate the changes in the Mefp-1 adsorption step and the subsequent rinsing step with FeCl3.
+During Mefp-1 adsorption (Fig. 3a), ΔD initially increases linearly with decreasing frequency.
+However, the slope of the curve increases when Δf exceeds about 25Hz.
+This clear increase in the slope suggests that the film becomes more extended as the adsorption approaches its equilibrium value.
+The transition range in the ΔD-Δf curve corresponds to the transition range between the fast and slow adsorption regime marked with arrow "a" in Fig. 3a.
+This structural change may be explained as being due to increased repulsion between neighboring molecules at higher surface coverage.
+During the exposure to the 10μM FeCl3 solution, Δf becomes less negative with time (Fig. 3b), which indicates that complexation between DOPA groups in Mefp-1 and Fe3+ causes significant removal of water from the adsorbed protein layer.
+The ΔD-Δf curve obtained in the FeCl3 solution (Fig. 3b) shows that ΔD first decreases linearly with deceasing Δf, indicating formation of a more compact layer.
+This process is rapid as seen by the drop in the thickness and the sensed mass shown in Fig. 2.
+However, after the point marked as "b" in Fig. 3b, ΔD increases somewhat, a feature that could be due to increasing net positive charge of the Mefp-1/Fe3+ surface film as compared to the Mefp-1 layer prior to Fe3+ addition and thus caused by increased electrostatic repulsion within the layer.
+Based on the increased mass and the assumption that the surface was relatively stable within the measurement time, the Voigt modeling gives values of the average film thickness of the order of 7nm and 4nm for the Mefp-1 layer before and after exposure to the FeCl3 solution, respectively.
+However, in reality, the adsorbed Mefp-1 layer on iron substrate is not uniform at micro scale, as revealed in the AFM measurements below.
+Structural and nano-mechanical properties of the adsorbed Mefp-1 films
+In situ nano-mechanical mapping was performed on an iron substrate with a pre-adsorbed Mefp-1 layer, immersed in the citric acid buffer solution and the 10μM FeCl3 solution, respectively.
+The topography images are shown in Fig. 4, presenting the starting surface in the buffer solution at pH 7-8 (Fig. 4a).
+Since the iron surface was pre-conditioned in 10% NaOH, the surface mainly consists of Fe2O3 as confirmed by the CRM measurement.
+The Rq value is 3.91nm over a 500nm×500nm scanned area.
+The topograpical images of the Mefp-1 layer adsorbed on the iron surface in the buffer solution and in the FeCl3 solution are shown in Fig. 4b and c, respectively.
+The adsorption of the protein leads to a smearing of the features seen on the surface prior to the Mefp-1 adsorption, compare Fig. 4a and b.
+By comparing the Z-range of the surface with and without the Mefp-1 film (Table 1), it is seen that the adsorption of Mefp-1 does not lead to any significant change in the height variation, which indicates a full coverage of the Mefp-1 film on the surface.
+Fig. 4c presents the topography of the Mefp-1 film exposed to the FeCl3 solution; by comparing with Fig. 4b and the Z-range in Table 1, it is observed that the introduction of Fe3+ induced a negligible decrease in the height variation, which remains predominantly due to the roughness of the substrate surface.
+In addition to the topography images, the Peak Force tapping AFM measurements also provide information on nano-scale mechanical properties of the surface, i.e., deformation, adhesion, dissipation, and elastic modulus.
+The images in Fig. 5 show the nano-mechanical properties of the different surfaces, obtained simultaneously with the topography images in Fig. 4, respectively.
+The calculated mean values of each mechanical property image for the adsorbed Mefp-1 films before and after exposure to the FeCl3 solution are provided in Table 2.
+The property images in Fig. 5 and mean values in Table 2 show that the Fe3+ enhanced complexation of the adsorbed Mefp-1 film results in less deformation, a slightly lower adhesion force between the tip and the adsorbed protein film, and a lower energy dissipation as the tip is tapping over the surface.
+The DMT modulus data are fitted values from curves obtained as the tip is retracted after the initial deformation, which is a measure of the surface hardness.
+The results clearly show that Fe3+ complexation of the adsorbed Mefp-1 film results in a large increase in the modulus (average value from 38MPa to 185MPa).
+In summary, all these results indicate that the Fe3+ enhanced complexation increases the stiffness of the Mefp-1 film, which results in a denser film.
+In this senses, the Peak Force tapping AFM observations are consistent with the decreased dissipation value and thickness observed in the QCM-D measurements.
+Chemical information of Mefp-1 films before and after complexation
+Mefp-1 film formation on iron substrate
+ATR-FTIR was employed for obtaining in situ the chemical information of Mefp-1 films formed on the oxidized iron surface.
+After the addition of the Mefp-1 into the buffer solution, the IR spectra were recorded after different time of exposure, as shown in Fig. 6a.
+The negative band in the region around 3050-3650cm-1 is the combined result of negative water bands due to decreased water content in the vicinity of the iron oxide covered ZnSe crystal and positive O-H and N-H stretching bands from Mefp-1 following its adsorption on the surface.
+The spectra also show positive bands in the region around 2800-3200cm-1 due to amino acid zwitterions (H3N+-CH-CO2) and C-H stretching vibrations from the adsorbed Mefp-1 molecules[43,44].
+The part of the spectra below 1700cm-1 is similar to the IRAS spectrum of non-crosslinked Mefp-1 absorbed on carbon steel that was analyzed in our earlier study [17].
+The bands that are similar for the two surfaces, oxidized iron and ZnSe, can be assigned to vibrations of the protein backbone and of the DOPA side chain without a need to consider the influence of the oxidized iron surface.
+On the basis of our DFT calculations and our previous work we make the following assignments for the main bands.
+The very strong band around 1640cm-1 is associated with the C-O stretching of amide groups of the backbone (Amide I).
+The strong and broad peak around 1550cm-1 has contributions from two different types of transitions, i.e.
+N-H bending of the backbone (Amide II) and aromatic C-C stretching of the catechol aromatic ring of the DOPA residue.
+However, it should be noted that there are some clear differences between the spectrum of Mefp-1 adsorbed on oxidized iron surface (Fig. 6b) as compared to that obtained on the ZnSe crystal (Fig. 6c).
+The spectrum of Mefp-1 on the iron substrate displays a strong peak at 1485cm-1 (Fig. 6b) that is entirely absent for Mefp-1 on the ZnSe surface (Fig. 6c).
+Further, the shoulder at 1423cm-1 of the peak at 1450cm-1 (1454cm-1 on ZnSe) is only found for Mefp-1 on the iron substrate.
+A more pronounced difference is the strong peak at 1258cm-1 present for Mefp-1 on the iron substrate, which is replaced by a much weaker peak at 1243cm-1 for Mefp-1 on the ZnSe surface.
+Regarding the three peaks that are absent on ZnSe surface, i.e., the strong peaks at 1485cm-1 and 1258cm-1 and the shoulder at 1423cm-1, it can be noted that these peaks were also absent or much diminished in ATR-IR spectra for Mefp-1 absorbed on polystyrene and poly(octadecyl methaacrylate) reported by Baty et al. [45].
+The 1485cm-1 and 1258cm-1 peaks were, however, present in our IRAS spectrum for Mefp-1 absorbed on carbon steel, but they disappeared upon oxidation of the DOPA residues [17].
+The shoulder at 1423cm-1 could not be observed in the IRAS spectrum but that may be due to the lower resolution of that spectrum.
+Thus, based on these observations, it seems clear that at least the 1485cm-1 and 1258cm-1 peaks are associated with catechol rings and their appearance requires the presence of Fe3+ in some form.
+We performed DFT computations on different model compounds with catechol groups complexed to Fe3+, and our results suggest that the 1485cm-1 and 1258cm-1 bands arise from a significant fraction of catechols (Cat) of the DOPA residues being complexed to Fe3+ in the classical Fe(Cat)3 fashion.
+The computed IR spectrum for such a complex is dominated by two strong bands that, after scaling the vibrational frequency by a factor of 0.945, reproduce the locations of the 1485cm-1 and 1258cm-1 bands of the experimental spectrum (Fig. 7).
+The computed intensity of each of these bands is one order of magnitude higher than that of bands that traditionally are considered as very strong, such as a carbonyl stretching band.
+This extreme intensity enhancement is an effect of the large charge polarization of the [Fe(Cat)3]3- complex due to the strongly positive Fe3+ being surrounded by three negatively charged catechols.
+Because of the charge polarization, vibrations that result in unsymmetrical distortions of the complex will induce large dipole moment changes and therefore have very large IR intensities.
+The very large intensities of these peaks have the consequence that even if only a fraction of the catechol units are complexed to Fe3+ these transitions will show up in the IR spectrum.
+Thus, it seems that the most proper explanation for the 1485cm-1 and 1258cm-1 bands is symmetrical coordination of three catechols to Fe3+.
+In complexes with two catechols of the type [Fe(Cat)2(H2O)2]-, the theoretical spectrum has only one strong peak, at around 1260cm-1, but with an intensity that is a factor five lower than that in the Fe(Cat)3 complex.
+The [Fe(Cat)(H2O)4]+ complex has no strongly enhanced peak.
+The shoulder at 1423cm-1 cannot be explained from this type of symmetrical complexes but has been observed earlier in IR spectra of Mefp-1 upon addition of Fe3+[46].
+Thus, it may arise from complexation between Fe3+ and catechols, but potentially from less symmetrical complexes.
+In conclusion, our analysis strongly indicates that Fe(Cat)3 complexes are formed in the adsorbed Mefp-1 film due to the release of Fe3+ from the oxidized iron surface.
+But the existence of other types of complexes between Fe3+ and catechol-groups cannot be discarded as such complexes may not result in clear fingerprints in the IR spectrum.
+Fe3+ complexation of the adsorbed Mefp-1 film
+Fig. 8 shows the in situ ATR-FTIR spectra of the oxidized iron surface with pre-adsorbed Mefp-1 film obtained after exposure to the 10μM FeCl3 solution for different times.
+Comparing with the 15min Mefp-1 spectrum (Fig. 6a), the intensity of negative water band is relatively larger after exposing the Mefp-1 layer to the FeCl3 solution (Fig. 8a), which indicates that water is released from the pre-adsorbed Mefp-1 layer.
+Therefore, it is reasonable to conclude that the addition of the Fe3+ makes the Mefp-1 film more compact, in agreement with the QCM-D and AFM results.
+It should be noted that the spectra obtained with the addition of FeCl3 are remarkably similar to those without the FeCl3 addition but after sufficiently long exposure in the Mefp-1 solution, which indicates that Fe3+ could also be generated from the oxidized iron surface.
+We note that the broad and unresolved 1540cm-1 peak is more clearly split into two separate peaks at 1550cm-1 and 1536cm-1 (Fig. 8b).
+This is not surprising since the DFT analysis showed that the 1540cm-1 peak had contributions from both the backbone and the catechol unit, and that these bands may be influenced differently by the change in aqueous solvation when the water content of the protein film becomes reduced.
+It should also be recognized that the effect of subtracting the water spectrum may influence the two spectra slightly differently in this region.
+However, more importantly the peaks, at 1485cm-1 and 1260cm-1 (Fig. 8b), which we have associated with the complexation between catechol and Fe3+, remain largely unaltered both in terms of frequencies and intensities.
+This supports our earlier hypothesis that Fe3+ could be generated from the oxidized iron surface during the exposure to Mefp-1 solution and forms [Fe(Cat)3]3- complexes..
+The shoulder at 1423cm-1 (marked with arrow in Fig. 8b) seems to be slightly enhanced upon addition of FeCl3, and this could indicate some differences in the geometry of the complexes.
+Both QCM-D and AFM results show compaction of the Mefp-1 film with introduction of the FeCl3 solution, whereas the ATR-FTIR spectra suggest the formation of same type of complexes with and without FeCl3 addition.
+It could be that without the addition of FeCl3 most complexes are formed near the iron oxide surface since the Fe3+ that is released from the surface is immediately bound to the catechols.
+However, with the addition of the FeCl3 solution, a much more enhanced uniform complexation takes place throughout the adsorbed protein film, leading to those changes detected by the QCM-D and AFM measurements.
+In situ CRM analysis
+CRM measurements were also performed with the oxidized iron surface.
+Although CRM has lower signal sensitivity, the Raman spectra provide information over a larger wavenumber range than the ATR-FTIR spectra.
+Moreover, the DOPA peaks present a resonance enhancement upon Fe3+ complexation in Raman spectra.
+A single CRM spectrum of the oxidized iron surface is shown in Fig. 9, the main peaks which indicate that the dominant surface oxide is α-Fe2O3 spectrum [47], but the presence of minor amount of other oxides and/or hydroxides cannot be ruled out.
+When the oxidized iron surface was exposed to the Mefp-1 solution, there is no visible Mefp-1 band on the CRM spectrum after 1min exposure (Fig. 10a).
+After 10min exposure, some organic related bands can be observed in the range of 1200-1600cm-1 (Fig. 10a), suggesting an increase in the adsorbed Mefp-1 amount.
+However, the bands are relatively broad, characteristic peaks of the Mefp-1 were not distinguishable, which is mainly due to the concentration of the protein solution being low (0.1mg/ml), so the amount of Mefp-1 adsorbed on the oxidized iron surface was not sufficient to be detected clearly by the CRM.
+After 10min of exposure to the Mefp-1 solution, the oxidized iron surface was rinsed with the buffer solution and then exposed to a 10μM FeCl3 solution, which in principle may lead to a further decrease in the amount of the adsorbed Mefp-1.
+However, in the FeCl3 solution, the resonance-enhanced peaks typical for Fe(Cat)3 complexes begin to appear in the Raman spectrum after a few minutes (Fig. 10b).
+The same peaks could also be discerned from our reference calculation of pre-resonance Raman spectra of the [Fe(Cat)3]3- complex (Fig. 11).
+In agreement with earlier assignments, we found that the resonance-enhanced peaks in the region of 460-700cm-1 are related to vibrations of the C-O groups bonded to the central Fe3+.
+The peak at 547cm-1 has been assigned to δ,ν-chelate, and the peaks at 591 and 638cm-1 to νFe-O [48,49].
+There are also several resonance-enhanced bands in the region of 1200-1500cm-1 that are due to vibrational motions of the C- and H-atoms of the catechol units.
+Most pronounced is the band at 1496cm-1 that is the symmetric counterpart to the asymmetric vibrations that give rise to the peak at 1482cm-1 in the IR spectrum.
+The resonance-enhanced bands are several orders of magnitude stronger than the normal bands, and in agreement with earlier studies, bands associated with vibrations of the protein backbone are too weak to be observed [18,50].
+Interestingly, if the oxidized iron surface is kept immersed in the Mefp-1 solution, the Raman spectrum is gradually transformed into that obtained when the surface is exposed to the FeCl3 solution, and already after an hour's exposure, the two spectra are basically indistinguishable (Fig. 10c).
+This confirms our hypothesis derived from the IR measurements that Fe3+ is slowly released from the oxidized iron surface in presence of a Mefp-1 solution, and this results in the formation of Fe(Cat)3-type complexes, similar to those observed when the pre-adsorbed Mefp-1 film is exposed to the diluted FeCl3 solution.
+Conclusions
+Through a pre-conditioning to produce a stable oxidized iron surface, we have studied the film formation of Mefp-1 on the iron substrate and Fe3+ enhanced complexation of the pre-adsorbed film, by using in situ techniques including QCM-D, Peak Force tapping AFM, ATR-FTIR, and CRM combined with DFT calculations.
+The results from different in situ measurements provide a consistent picture, and the spectroscopic analyses are supported by theoretical calculations.
+The combined data set leads to the following conclusions:
+The QCM-D measurements demonstrate that Mefp-1 initially adsorbs rapidly onto the iron substrate, but the adsorption slows down as full surface coverage is approached.
+A structural change in the protein layer toward a more extended structure occurs as equilibrium is approached.
+The exposure of the pre-adsorbed Mefp-1 film to a 10μM FeCl3 solution causes a significant removal of trapped water in the film and results in a denser and stiffer surface film.
+The Fe3+ induced structural changes in the pre-adsorbed Mefp-1 film result in marked changes in the nano-mechanical properties of the protein films, most notably an increased layer stiffness as quantified by the Peak Force tapping AFM measurements.
+The spectroscopic results from the in situ measurements strongly suggest the formation of tri-Fe3+/DOPA complexes in the protein film during the exposure to both the Mefp-1 solution and the FeCl3 solution.
+In the Mefp-1 solution, complexes are mostly formed near the substrate since the Fe3+ released from the surface is immediately trapped by the catechols in the adsorbed protein film.
+However, the introduction of the FeCl3 solution to the pre-adsorbed Mefp-1 film leads to a more enhanced complexation throughout the protein film.
+Acknowledgements
+Financial supports from Vinnova in the project "Green Corrosion Protection Treatment", from 'Swedish Science Council', and from SSF in the program on "Microstructure, Corrosion and Friction Control" are gratefully acknowledged.
+Biopolymer AB, Gothenburg, Sweden, is acknowledged for supplying the mussel adhesive protein and for valuable discussions.
+Dr.
+Andra Dedinaite and Xiaoyan Liu at the division of surface and corrosion science of KTH are acknowledged for the valuable discussion about the QCM-D analysis.
+Dr.
+Birgit Brandner at Chemistry, Materials and Surfaces of SP is acknowledged for help with CRM measurements.
+Supplementary material
+mentary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.jcis.2013.05.016.
+Supplementary material
+Supplementary data 1
+Details of QCM-D data fitting
+

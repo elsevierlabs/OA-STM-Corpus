@@ -1,0 +1,175 @@
+The transterminator ion flow at Venus at solar minimum
+
+Abstract
+The transterminator ion flow in the Venusian ionosphere is observed at solar minimum for the first time.
+Such a flow, which transports ions from the day to the nightside, has been observed previously around solar maximum.
+At solar minimum this transport process is severely inhibited by the lower altitude of the ionopause.
+The observations presented were those made of the Venusian ionospheric plasma by the ASPERA-4 experiment onboard the Venus Express spacecraft, and which constitute the first extensive in-situ measurements of the plasma near solar minimum.
+Observations near the terminator of the energies of ions of ionospheric origin showed asymmetry between the noon and midnight sectors, which indicated an antisunward ion flow with a velocity of (2.5±1.5)kms-1.
+It is suggested that this ion flow contributes to maintaining the nightside ionosphere near the terminator region at solar minimum.
+The interpretation of the result was reinforced by observed asymmetries in the ion number counts.
+The observed dawn-dusk asymmetry was consistent with a nightward transport of ions while the noon-midnight observations indicated that the flow was highly variable but could contribute to the maintenance of the nightside ionosphere.
+Highlights
+► The transterminator ion flow in the Venusian ionosphere is observed at solar minimum.
+► This flow has a velocity of (2.5±1.5)kms-1.
+► The occurrence of this flow is highly variable, but can be a significant source of the nightside ionosphere.
+
+Introduction
+The nightside ionosphere of Venus has a dynamic and complex structure (Brace et al., 1979).
+To date the most extensive set of in situ observations of the ionospheric plasma were obtained by Pioneer Venus Orbiter (PVO).
+Although the PVO mission covered an entire solar cycle the ionospheric measurements were largely restricted to a limited period close to solar maximum between 1978 and 1980 when the PVO periapsis was at a sufficiently low altitude to allow sampling of the ionosphere.
+The solar flux during this period was about 200 solar flux units (sfu).
+These PVO observations covered all local time sectors.
+In the nightside ionosphere they showed that precipitating electrons could contribute only ∼25% of the plasma densities observed and that changes in ionospheric densities were much more variable than, and not correlated with, changes in the flux of precipitating electrons (Spenner et al., 1981).
+Observations of the flux of atomic oxygen ions across the terminator from the day to nightside showed that this ion flux was sufficient to explain the observed ion densities in the nightside ionosphere at solar maximum (Knudsen et al., 1980).
+The ions were assumed to follow ballistic trajectories and theoretical calculations predicted that 80% of the ions that crossed the terminator had recombined with electrons before they reached a solar zenith angle (SZA) of 110°.
+Only those ions that crossed the terminator at the highest altitudes reached the central region of the nightside ionosphere.
+A modelling study by Cravens et al. (1983) predicted that ions which crossed the terminator at altitudes below 500km recombined before reaching a SZA of 120°, whilst ions that crossed the terminator at 876km influenced the entire night sector.
+Taken collectively these results showed that the primary source of the nightside ionosphere was plasma transport from the dayside.
+The plasma flow from the subsolar region toward the nightside is primarily driven by the day-to-night pressure gradient (Knudsen et al., 1981).
+Knudsen et al. (1982) showed that the flow speed across the terminator was highly variable but was typically several kilometres per second.
+The average value of the antisunward component of the velocity in the terminator region at solar maximum increased with altitude from a few hundred metres per second at an altitude of 150km to ∼4kms-1 at 800km (Knudsen and Miller, 1992).
+The altitude of the ionopause in the terminator region played an important role in the total number of ions transported from the day to the nightside.
+Its altitude in this region was variable (Elphic et al., 1980) but was typically around 1000km (Brace et al., 1983).
+This variability was attributed to changes in the solar EUV flux and the solar wind dynamic pressure, the balance of which altered the ionopause altitude (Knudsen and Miller, 1992).
+As the ionopause moved to lower altitudes the total number of ions transported antisunward was reduced (Knudsen et al., 1981).
+Theoretical calculations by Brace et al. (1995) showed that the transterminator flow could transport more ions antisunward than were required to maintain the nightside ionosphere and it was suggested that some of these ions might be lost to the solar wind.
+Limited in situ ionospheric observations aboard PVO were made in the pre-dawn sector at low latitudes in 1992 in the declining phase of solar cycle 22 under conditions of moderate solar flux (∼120sfu).
+The observed ion densities in this sector were significantly larger than those that would be expected in the absence of an antisunward ion flow.
+This suggested that ion transport was significant in this sector (Brannon et al., 1993).
+The PVO observations showed that the total transterminator flux was 23% of that at solar maximum and that the largest reductions in the number of ions transported antisunward occurred at the highest altitudes (Spenner et al., 1995).
+The PVO mission did not include in situ observations of the Venusian ionosphere around solar minimum, however the behaviour of the ionopause was inferred from PVO radio occultation profiles, for which the temporal data coverage was less extensive than for the in situ measurements.
+The ionopause was at significantly lower altitudes at solar minimum than at solar maximum, typically between 200km and 300km for all SZA (Kliore and Luhmann, 1991).
+The radio occultation profiles from PVO also showed that the transport process was severely inhibited (Knudsen et al., 1987).
+Radio occultation profiles from Venera 9 and 10 observed the ionopause at higher altitudes in the terminator region at solar minimum with altitudes between 600km and 800km (Gavrik and Samoznaev, 1987).
+The Venusian ionosphere exhibited a number of asymmetries between the dawn and dusk sectors.
+Brace et al. (1982) observed that the ionopause was higher on the dawn side than at dusk due to interaction with the solar wind.
+Miller and Knudsen (1987) reported larger antisunward velocities within the ionosphere on the dawn side than on the dusk side above an altitude of 400km, with the pattern reversed below this altitude.
+The dawn-dusk asymmetry below 400km was largely attributed to photoionisation as plasma in the post-noon sector had been exposed to sunlight for longer than plasma in the pre-noon sector.
+The plasma flow from the dayside to the nightside was driven by the day-to-night pressure gradient, with the higher plasma densities in the post-noon sector enhancing the nightward transport of ions on the dusk side.
+The super-rotation of the neutral atmosphere also enhanced the ion flow on the dusk side and reduced the flow on the dawn side due to collisional interactions between the ions and the neutral species.
+A subsequent modelling study at the altitude of the peak density in the ionosphere (∼140km) showed that differences in the thermospheric composition between the dawn and dusk sides may also cause asymmetries in the ionosphere at these altitudes due to changes in the dominant chemical reactions (Fox and Kasprzak, 2007).
+Between August 2008 and October 2009 Venus Express (VEX) was in an orbit with periapsis near 86°N and an altitude between 185km and 215km with about 10min spent in the ionosphere during each orbit.
+Taken collectively over many orbits the in situ ionospheric measurements cover all local time sectors, with each orbit sampling the terminator region at polar latitudes.
+In the current study these observations are used to determine the plasma distribution near the terminator and to show that the transport process contributes to the maintenance of the nightside ionosphere close to solar minimum.
+Instrumentation
+Venus EXpress (VEX) is the first European mission to Venus (Titov et al., 2006).
+The VEX spacecraft was inserted into a near polar orbit in April 2006 and so every orbit sampled the terminator region at polar latitudes.
+The Analyser of Space Plasmas and Energetic Atoms (ASPERA-4) package on VEX contains an ELectron Spectrometer (ELS), an Ion Mass Analyzer (IMA), a Neutral Particle Detector (NPD) and a Neutral Particle Imager (NPI) (Barabash et al., 2007).
+In August 2008 periapsis was lowered from an altitude of around 300km to 185km, allowing the spacecraft to sample deeper into the ionosphere.
+Observations made using the IMA sensor once this manoeuvre had occurred are of particular interest to the present study.
+This instrument observes the ion energy per charge, E/q, the mass per charge, m/q, and the arrival direction of each ion as well as the number of ions observed.
+It has a 360° instantaneous field of view in azimuth and ±45° field of view in elevation in the spacecraft frame of reference and an energy range of 10eV-30keV.
+The standard observing mode used during the period considered in this study was a scan in decreasing energy through 96 equal logarithmic steps, observing for 250ms at each.
+These measurements were made at all azimuths simultaneously at a given elevation.
+The elevation angle was varied through eight positions, which gave a total cycle time of 192s.
+Observations
+Data subsequent to the lowering of the periapsis of VEX were considered for the study.
+One Venus year of data were selected between 4th August 2008 and 17th March 2009 allowing the spacecraft to sample all local time sectors twice as it transited these sectors at high latitudes in opposite directions half a Venusian year apart.
+Periapsis was at 86°N during this interval.
+The ion counts as a function of energy observed by the IMA during a spacecraft transit between 04:30 UT and 06:30 UT on 9th August 2008 are shown on a logarithmic scale in the upper panel of Fig. 1.
+The ion counts as a function of mass channel number are shown in the lower panel of Fig. 1 with lower channel numbers corresponding to higher mass ions (Barabash et al., 2007).
+These data from 9th August 2008 are considered as an example to show how data from the entire year were selected and processed.
+The data in the lower panel show two clear ion populations; one with a higher ion mass per unit charge (lower mass channel number) observed between 05:28 UT and 05:47 UT and one with a lower ion mass per unit charge (higher mass channel number) observed before and after this time interval.
+Prior to 04:46 UT and after 06:03 UT the IMA observed ions with energies of some 300-800eV (Fig. 1, upper panel) with a low mass to charge ratio (high channel number in Fig. 1, lower panel) indicating that the spacecraft was in the solar wind.
+In the intervals from 04:46 UT to 05:28 UT and 05:47 UT to 06:03 UT the IMA sensor observed ions over a larger range of energies than observed in the solar wind, from some 200eV to 1keV with mass to charge ratios similar to that observed in the solar wind.
+These data suggested that the spacecraft was in the shocked solar wind, downstream of the bow shock.
+The observations closest to periapsis, between 05:28 UT and 05:47 UT, showed ions at energies below some 50eV with higher masses than those observed in the solar wind.
+These low energy ions were interpreted as being of planetary origin.
+Inspection of the datasets from a large number of orbits showed that it was convenient to locate the Ion Composition Boundary (ICB), which marks the transition between the shocked solar wind and the planetary plasma (e.g. Martinecz et al., 2008), by considering the mass channel number at which the largest number of ions was observed in each 192s cycle.
+Data from times at which the mass channel number of the maximum ion count was 15 or less were taken to correspond to altitudes below the ICB.
+These data were then considered for further analysis.
+For example, in the data set for 9th August 2008 shown in Fig. 1, the data between 05:28 UT and 05:47 UT were interpreted as being from inside the ICB.
+These data are shown within the pink box in Fig. 1, and it was these data that were considered for further analysis in this particular example.
+The spacecraft velocity at periapsis (∼200km) was ∼10kms-1, which was larger than the ion velocities of ∼3kms-1 observed by PVO at these altitudes (Knudsen and Miller, 1992).
+To ensure that the ions were detected, observations were only considered if the spacecraft ram direction was within the field-of-view of the IMA.
+This selection criterion meant that observations were only considered when the spacecraft attitude was suitable for observing the ions.
+The IMA observed in the ram direction for all, or part, of the time when VEX was within the ionosphere on 136 orbits, and data from this sub-set of orbits (136 orbits out of 226 orbits) was considered for further analysis.
+In this subset of 136 orbits, ions were observed at eight elevation angles during each cycle of 192s duration.
+For each cycle of each orbit the ion count at the elevation angle with the maximum ion count was found and considered further.
+Using the counts from this elevation the next step was to obtain the "summed ion count" for the cycle, defined as the total ion count summed over all energy levels below 100eV.
+Thus a value of the summed ion count was determined for each cycle.
+The duration of each complete cycle was 192s, however, the summed ion count corresponded to observations from only one of the eight elevations and only a proportion of the 96 energy levels, with the actual observations at one elevation angle and at energies below 100eV being conducted in 6.5s.
+During this time interval the spacecraft moved some 65km (6.5s times the satellite velocity of ∼10kms-1).
+Thus the summed ion count was observed over a horizontal distance of some 65km which is approximately 0.01 Rv where Rv is the radius of Venus (6052km).
+The summed ion counts for all cycles are plotted in Venus Solar Orbital (VSO) coordinates in Fig. 2.
+The positive x-axis is directed towards the Sun.
+The positive y-axis is orthogonally directed and opposite to the planetary orbital velocity i.e. towards dawn, which is opposite to the Earth due to the retrograde rotation of Venus.
+The largest summed ion counts were in the polar region close to periapsis where the spacecraft sampled the lowest altitudes.
+In this region the spacecraft was in the topside ionosphere, where the ion density decreases with increasing altitude.
+Data in Fig. 2 exhibit asymmetries in both the dawn-dusk and noon-midnight directions.
+To investigate the dawn-dusk asymmetry data were selected from a narrow region aligned with the dawn-dusk axis.
+This region was centred on the terminator and had a width of 0.4 Rv (the x coordinate was restricted to |x|<0.2 Rv).
+The observations in this region were then binned into intervals of 0.1 Rv in the dawn-dusk direction (y-direction) near the y=0 axis.
+The small number of points further from this axis required larger bins and an interval of 0.2 Rv was considered between |y|=0.3 Rv and 0.5 Rv and an interval of 0.25 Rv between |y|=0.5 Rv and 0.75 Rv.
+The median and quartile values of the ion counts in each bin are plotted in the upper panel of Fig. 3.
+A strong dawn-dusk asymmetry was observed, with the median counts larger on the dusk side than on the dawn side by almost an order of magnitude with median values of ∼6×105 on the dusk side and ∼5×104 around dawn.
+A similar plot for a noon-midnight narrow region is shown in the lower panel of Fig. 3 with a restriction that |y|<0.2 Rv.
+The observations were binned into intervals of 0.1 Rv between |x|=0.0 Rv and 0.3 Rv, 0.2 Rv between |x|=0.3 Rv and 0.5 Rv, 0.5 Rv between |x|=0.5 Rv and 1.0 Rv, and 1.0 Rv for -0.2 Rv<x<-1.0 Rv.
+This ensured sufficient numbers of points in each bin.
+A noon-midnight asymmetry is apparent, with larger median summed ion counts ∼3×105 in the noon sector.
+Variability is observed on the dayside where the counts are expected to decrease away from the terminator as the spacecraft moves to higher altitudes and to increase because of a decreasing solar zenith angle.
+The ion counts decrease rapidly on the midnight side to values of ∼5×104.
+However, the upper quartile showed that significant numbers of ions could be present nightward of the terminator (located at x=0) and that these values could be comparable to those on the dayside ionosphere with values as large as ∼8×105 recorded in both the day and night sectors.
+The summed ion counts considered in the preceding paragraphs were for energies less than 100eV.
+The energy level within this range at which the largest number of ions occurred during each cycle of 192s was determined.
+For each cycle, the energy of this level was then corrected for the spacecraft potential using the method of Coates et al. (2008) based on the analysis of the ionospheric photoelectron peaks, and the corrected value considered as the energy representative of the ions at the location of the spacecraft.
+To investigate ion flow in the terminator region an additional constraint was imposed to restrict observations to within ∼30° latitude of the pole.
+Periapsis was close to 86°N throughout the study period of one Venus year, and the restriction was done by considering only observations at an altitude of 500km or lower.
+The resulting data were then divided into four bins depending upon the direction of travel of the spacecraft;•
+Spacecraft travelling essentially from noon-to-midnight (within 45° of this direction);
+•
+Spacecraft travelling essentially from midnight-to-noon (within 45° of this direction);
+•
+Spacecraft travelling essentially from dawn-to-dusk (within 45° of this direction);
+•
+Spacecraft travelling essentially from dusk-to-dawn (within 45° of this direction).
+The spacecraft velocity at periapsis was essentially constant for all observations, with a mean value of (9.78±0.01)kms-1.
+For each bin the median value of the observed energy was determined.
+This was (11±3)eV for the noon-to-midnight bin and (20±4)eV for the midnight-to-noon bin, with the uncertainties set by the upper and lower quartiles.
+The larger ion energies in the midnight-to-noon bin suggested that these ions had a velocity component that was antiparallel to the spacecraft direction of travel and the smaller values in the noon-to-midnight bin suggested that these ions had a velocity component that was parallel to the spacecraft direction of travel.
+Taken together both of these observations suggest that the ions travelled in the noon-to-midnight direction.
+For both the dawn-to-dusk and dusk-to-dawn bins the energies were (18±4)eV.
+The difference in the ion energies of these bins was zero within the error margin, which suggested that there was no net ion flow in this direction.
+Discussion
+Results have been presented of ion counts and energies measured by the ASPERA-4 experiment onboard the VEX spacecraft as it traversed the Venusian ionosphere at polar latitudes.
+Strict selection criteria were applied to the data to ensure that the measurements used in the study were of ionospheric ions.
+Median ion energy values near the midnight-noon meridian were larger when the spacecraft traversed from midnight-to-noon than from noon-to-midnight.
+The larger values of the former case suggested that the ions had a velocity component that was antiparallel to the spacecraft direction of travel, while the smaller values of the noon-to-midnight traversal suggested that the ions had a velocity component parallel to the spacecraft direction of travel.
+This suggested the nightward transport of the ions at polar latitudes.
+Median values near the dawn-dusk meridian were identical for traversal from dawn-to-dusk and from dusk-to-dawn within the error margins suggesting that there was no net ion flow in this direction.
+Taken collectively the observed ion energies therefore indicated an ion flow predominantly in the noon-to-midnight direction.
+The spacecraft velocity near periapsis was essentially the same for all orbits and all directions of travel and so the difference in the ion energy between the midnight-to-noon and noon-to-midnight traversals, (9±7)eV, may be attributed to the flow of ions.
+By using the same assumption as Knudsen and Miller (1992) that the ions were primarily singly ionised oxygen, and that the measured energy difference was representative kinetic energy of the ions a nightward ion velocity of (2.5±1.5)kms-1 is estimated.
+It is appreciated that there are substantial uncertainties in this velocity and that the IMA was operating close to the lowest energies it could observe, however it is encouraging that this velocity is in broad agreement with Knudsen and Miller (1992) who reported antisunward ion flows of some ∼3kms-1 at these altitudes.
+A dawn-dusk asymmetry in the plasma distribution of the Venusian ionosphere has been reported by Miller and Knudsen (1987) with larger plasma densities observed in the dusk sector.
+Their study was conducted at low- and mid-latitudes around solar maximum, and the observation associated with the asymmetry of plasma transport where higher density plasma was drawn antisunward (nightward) from the post-noon sector as a transterminator flow.
+The dawn-dusk ion asymmetry in the current study (Fig. 3, upper panel) was consistent with their interpretation.
+The observed ion counts in the noon-midnight plane (Fig. 3, lower panel) suggested that the transterminator flow was highly variable.
+The median values of the three points immediately sunward of the terminator showed the largest values.
+The median values fell rapidly nightward of the terminator, as expected in the absence of a plasma source.
+The lower median value of ∼8×104 on the dayside at 0.4 Rv was a likely consequence of the spacecraft sampling at higher altitudes where the ion densities were expected to be lower.
+Indeed, sunward of 0.5 Rv no data points were recorded.
+This may be explained by the altitude of the ionopause falling to 200km-300km on the dayside (Kliore and Luhmann, 1991) and the spacecraft sampling above these altitudes when it was located ∼0.3 Rv sunward of the terminator.
+The upper quartile values varied substantially between adjacent bins.
+Upper quartile values in the nightside at a distance of less than 0.5 Rv from the terminator were similar to, or greater than, the median values on the dayside.
+This suggested that in a substantial number of cases the ion counts nightward of the terminator were comparable to the values in the dayside ionosphere, although in general the ion counts nightward of the terminator were lower than those observed on the dayside as expected in the absence of a plasma source.
+This indicated that, at times, a process was operating to maintain the nightside ionosphere although the occurrence of this process was highly variable.
+In summary the observations of ion energies indicated that a nightward ion flow across the terminator at solar minimum can occur.
+The ion counts show that such a flow is highly variable but the results indicate that it can contribute to the maintenance of the nightside ionosphere.
+Conclusions
+In situ ion observations made by the ASPREA-4 experiment onboard the Venus Express spacecraft at solar minimum have shown dawn-dusk and noon-midnight asymmetries.
+Ion energies observed when the spacecraft trajectory was directed midnight-to-noon were significantly higher than those observed when the trajectory was directed noon-to-midnight.
+This difference in ion energies suggested an antisunward transterminator flow with a velocity of (2.5±1.5)kms-1.
+It is suggested that this flow contributes to maintaining the nightside ionosphere near the terminator region at solar minimum.
+The interpretation of the antisunward flow was reinforced by observed asymmetries in the ion number counts.
+The dawn-dusk ion asymmetry showed larger numbers of ions on the dusk side than on the dawn side consistent with the previously reported observations of antisunward transterminator flow at solar maximum from PVO.
+For the noon-midnight asymmetry larger numbers of ions occurred on the dayside and there was substantial variability in the observations of counts on the nightside.
+In a substantial number of cases the number of ions nightward of the terminator was comparable to the number observed on the dayside.
+In other cases the number of ions nightward of the terminator was much lower, as expected in the absence of a plasma source.
+These observations suggested that the transterminator flow was highly variable and, in some cases, did not operate at all.
+Acknowledgements
+The authors would like to thank the ASPERA-4 team for their extensive work planning, constructing and operating these instruments on the Venus Express spacecraft, and the subsequent dissemination of these data.
+The assistance of Neville Shane from Mullard Space Science Laboratory, University College London in implementing software tools at Aberystwyth University is gratefully acknowledged.
+Financial support for this paper was provided by the UK Science and Technology Facilities Council under grant PP/E001157/1.
+

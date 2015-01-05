@@ -1,0 +1,210 @@
+The Ti/Al molar ratio as a new proxy for tracing sediment transportation processes and its application in aeolian events and sea level change in East Asia
+
+Highlights
+•
+Ti/Al molar ratios of sediments declines during transportation.
+•
+Lake and pelagic sediments show relative low Ti/Al ratios.
+•
+The declined Ti/Al ratio in aerosol particles indicates Asian dust storm episode.
+•
+Ti/Al molar ratios of a deep marine core can estimate sea level changes.
+Abstract
+Ti/Al molar ratios of sediments in various sedimentary environments are used to explain sediment transportation from source regions to sink areas.
+Samples were collected from outcrops, soils, fluvial, lake, and marine sediment environments.
+Initial Ti/Al molar ratios of sediments are controlled by those of parent soils or rocks.
+These ratios tend to decline gradually as a result of heavy-mineral gravity fractionation during transportation.
+Sedimentary Ti/Al molar ratios in sink areas such as lakes and pelagic environments are lower than those in source regions.
+In this study, for the Changjiang River, Huanghe River, and Kaoping River, Ti/Al molar ratios decline considerably from downstream to estuary environments.
+Additionally, well sorted aeolian sands have extremely low Ti/Al molar ratios in northern China.
+The Ti/Al molar ratios of aerosol particles found in Taiwan and the East China Sea show reduced ratios as a result of Asia Dust Storm episodes.
+Furthermore, lower Ti/Al molar ratios in deep ocean sediments were discovered by tracing the distribution of sedimentary Ti/Al molar ratios in the South China Sea.
+When sea levels dropped during glacial periods, the river estuary was closer to deep marine areas and carried more terrestrial sediments into deep marine environments.
+The closer estuary with relatively higher Ti/Al ratio would lead increase of Ti/Al molar ratios in deep sea sediments.
+In this study, Ti/Al molar ratio is promoted as a new proxy to help with understanding changes in sedimentary environments.
+
+Introduction
+Enhanced concentrations of terrigenous elements such as: Al, Si, Fe, K, and Ti have been interpreted as representing increased supply of siliciclastic materials of fluvial or aeolian origin in marine or lacustrine sediments (Goldberg and Arrhenius, 1958; Arz et al., 1998; Jansen et al., 1998; Chen et al., 2010, 2011).
+Al and Ti are considered extremely resistant to weathering and well conserved elements (Nesbitt and Markovics, 1997; Wei et al., 2003).
+Besides, they are generally used to estimate the abundance of terrigenous materials in sedimentary environments (Murray and Leinen, 1996; Klump et al., 2000).
+These two elements can resist chemical weathering processes (Nesbitt and Young, 1982; Nesbitt and Markovics, 1997); therefore, when considering transportation processes, the Ti/Al ratio is worth experimenting with to help trace density differences in siliciclastic materials derived from fluvial and aeolian sources.
+Among the terrigenous elements mentioned above Si, Fe, and K are not necessarily good indicators of sedimentary terrigenous origins.
+For example, Si content in marine or lacustrine sediments is often influenced by biogenic opal such as diatoms or radiolaria (Mackin and Aller, 1984).
+The element Fe may also reflect authigenic precipitation from Fe-Mn oxyhydroxides and pyrite under redox conditions (Mangini et al., 1990; Dymond et al., 1992).
+Finally, the element K in siliciclastic materials is mainly bonded to illite and potassium feldspar (Yarincik et al., 2000; Zabel et al., 2001), but it is also a major cation in seawater (Bruland, 1983).
+Moreover, K content declines during potassium feldspar alteration (Nesbitt and Young, 1982).
+Therefore, we suggest that Ti and Al can be used as efficient indicators of transportation energy changes by their different elementary gravity.
+This study examines whether Ti/Al molar ratio can help identify aeolian episodes in recent climate research, and also reconstruct sea level changes in a closed oceanic basin.
+To accomplish this research, extensive geological data has been obtained from field work in northern China (Inner Mongolia), Taiwan, and the marginal seas off China.
+In addition, relevant data from past research obtained from the Changjiang and Huanghe Rivers has also been consulted.
+Through these processes of carefully examining, interpreting, and demonstrating how Ti is distributed over East Asia as well as diagnosing the role of gravity fractionation of heavy minerals in the transportation process, we hope to show that the Ti/Al ratio can act as a proxy for tracing sedimentary transportation processes, especially in tracing aeolian events and sea level changes in East Asia.
+In paleoclimate research, variations in grain size are often used as an indicator of aeolian signals in the Loess Plateau (Pye and Zhou, 1989; Xiao et al., 1999; An, 2000), or the intensive coarse grain can be regarded as the flooding events in deposited environments.
+We should note that the grain size of deposits is susceptible to the influence of biogenic shells and organic matter.
+Therefore, complicated pretreatment processes need to be performed on dissolved biogenic shells and organic matter.
+This problem can be avoided by adopting the density differentiations of elements Ti and Al.
+Sampling sites
+All our sampling sites are given in Table 1 and Fig. 3.
+Other cited data are listed in Table 2.
+The research material covers: (1) land surface, aeolian, and fluvial sediments across China and Taiwan (Fig. 1); (2) lake cores in northern China and Taiwan, and marine cores in the marginal seas off China (Fig. 2) and; (3) surface soils and fluvial sediments along the Kaoping River drainage system (Fig. 3).
+In Table 1, molar ratios in sediments Ti/Al are expressed as 100Ti/Al.
+The table shows sampling locations and core sites.
+Sites a-j present averaged data calculated from lake and marine cores (sink area).
+Core sites a and b are in the western desert regions of Inner Mongolia.
+Research on the East Juyanhai Lake region (Site b) has been published previously (Chen et al., 2010).
+The lake coring sites c to f are located, respectively, in Shuanglianpi and Meihua Lakes (Chen et al., 2012) of northeastern Taiwan, Liyutan Lake of Central Taiwan, and Dongyun Pond (Yang et al., 2011) in Southern Taiwan.
+The coring sites of the marginal Asian seas are labeled g to j from north to south (g: Okhotsk Sea near Siberia; h: Central Okinawa Trough; and i and j: South China Sea).
+Extensive research has been conducted on cores MD012414 and MD012404, and can be found in our published works (Liu et al., 2006; Chen et al., 2011).
+Sites 1-19 provide samples from surface sediments, aeolian sand, and outcrops on land (Table 1).
+Most data from northern China are based on our unpublished data sampled from Inner Mongolia, covering the western aeolian regions to the eastern steppe area.
+Land deposits including: surface sediments, aeolian sand deposits, and outcrops are grouped as follows: Sites 1-17 from northern China, and Sites 18 and 19 from Taiwan.
+Most northern China samples are located on dry lands.
+Only those from Sites 2 and 3 come from a lake in Bayan Naoer.
+Site 2 is composed of sand in a lakeshore environment, and site 3 is lacustrine mud.
+Samples from sites 9 and 16 are obtained from the aeolian sand deposits at Sanhudi and Fanjiagouwan, respectively.
+We also obtain two lacustrine deposits (Site 8 and 15), which are now covered by aeolain sand deposits (Sites 9 and 16).
+We also collected some surface soils near lakes in Taiwan.
+There are two surface soils (Sites 18 and 19) on land near lakes e and f in Taiwan, respectively.
+Site 18 is around Liyutan Lake (Site e) and site 19 around the Donyun Pond (Site f) in Table 1.
+Table 2 cites other relevant data.
+It lists the molar ratios of 100Ti/Al from river sediments at the Changjiang River (longest river) and the Huanghe River (second longest river) in the East Asia region (Fig. 1).
+Some samples containing Ti/Al ratios were collected from shore and marine sediments in the marginal seas off China (Fig. 2).
+Site localities range from downstream to the estuaries of the Huanghe and Changjiang Rivers; then further along the Changjiang estuary to its shore environments.
+Table 2 also quotes data from Daihai and Luochuan near the Huanghe region (Sites D1 and L), the South China Sea (Sites S1-S12), and the Okinawa Trough (Site OT).
+In addition, we collect samples of surface soils and fluvial sediments along the Kaoping River (Fig. 3).
+These samples are helpful in identifying how the provenance influence the Ti/Al distribution in a small scale regions.
+In this case, we sampled fluvial sediments from the headwater of the upper reaches through the trunk of the river to its downstream reaches (Fig. 3a); and further we compared the Ti/Al molar ratios in parent soils and those in fluvial sediments.
+Method
+To compare our data (Table 1) with those cited from other work (Table 2), 100 times Ti/Al molar ratios (100Ti/Al) are used in this study.
+Molar ratios express atomic proportions.
+In some studies cited in this work, weight percentages of Ti and Al are used while others use molar percentages.
+We recalculate all weight percentage data for Ti (%) and Al (%) into molar-ratio percentages using:100Ti/Al molar ratio=100[Ti(%)/48]÷[Al(%)/27)]=100[Ti(%)/Al(%)]÷1.77
+Most core-sediment samples (obtained from Sites a-j) were analyzed using wavelength-dispersive XRF (X-ray Fluorescence) spectroscopy (RIGAKU RIX-2000) in line with USGS (US Geological Survey) standards for detection of major elements in bulk sediments.
+For a detailed description of analysis methods and precision see Lee et al. (1997).
+During the preparation processes, powdered samples of 0.4000±0.0001g were mixed with flux of 4.0000±0.0005g and melted into homogeneous glass.
+The analysis process and its precision for all elements was conducted according to Yang et al. (1996).
+Analytical errors were less than 0.9% for SiO2, 1.7% for Al2O3, 1.0% for Fe2O3, 1.0% for TiO2, 1.0% for CaO, 1.2% for K2O, 1.0% for Na2O, 1.9% for MgO, and 3.7% for MnO.
+Analyses of other surface samples (from Sites 1-19) and the Kaoping River samples were performed using inductively coupled plasma-mass spectrometry (ICP-MS, Perkin Elmer model Elan 6100).
+The powder samples were dried, weighed (0.05±0.003g), and then completely dissolved in a mixture of 4ml HNO3 and 2ml HF (Merck, ultrapure grade) in PTFE beakers.
+After first dissolution, the aqueous solution was condensed and dissolved again in a mixture of 2ml HNO3 and 1.5ml HBO3 in PTFE beakers.
+Finally, the solution was diluted to 100 times in Milli-Q water mixed with 2% HNO3 and an internal standard of 5ppm indium.
+Analytical errors for Ti and Al under the two methods (i.e., wavelength-dispersive XRF spectroscopy and the ICP-MS spectrometry) are below 2%, and the deviation between the two analysis methods is also less than 2%.
+Results
+Surface sediments and outcrops on land
+Sources of land-surface sediments are mainly listed in Table 1, including Sites 1, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 17, 18, and 19.
+Only cited data from Site L of the Loess profile (Chen et al., 2001) are shown in Table 2.
+Some surface sediments were sampled from dry land or outcrops, and some of them were close to lakes; others were obtained from soils.
+To avoid igneous rock contamination, our samples were taken from sedimentary rock region.
+The sediments derived from mafic rocks can lead to higher Ti/Al ratios, because the parent mafic rock typically contains high Ti/Al molar ratios then other rocks (Chen et al., 2011).
+Data show that most 100Ti/Al molar ratios fall between 3 and 4, except those at Sites 8 and 18.
+All the data from Table 1 are plotted in Fig. 1.
+Most 100Ti/Al molar ratios fall between 3.06 and 3.77 for northern China (Table 1).
+Taiwan is a small region but the provenance of its sediments is highly complex.
+Large variation in Taiwan's Ti/Al molar ratios may be caused by compositional differences in parent soils.
+In Section 4.3, an investigation of the Kaoping River system shows how Ti/Al molar ratios are distributed in parent soils and fluvial sediments (Fig. 3).
+Sink areas - lakes and marine environments
+We have sampled lake and marine core sediments in Taiwan and Inner Mongolia (Fig. 2) as well as their surrounding surface soils (Fig. 1).
+The 100Ti/Al molar ratios from lake cores (Sites a and b) and lacustrine sediments (Sites 2 and 3) of Inner Mongolia range from 2.43 to 2.80; however, the ratios are relatively high ranging between 2.81 and 4.00 in Taiwan lakes (Sites c, d, e, and f; Fig. 2).
+The results of Ti/Al molar ratios show that most of the lake sediments (Fig. 2) have lower Ti/Al ratios than the surface sediments of dry land (100Ti/Al=3.06-3.77) (Fig. 1).
+It can be inferred from this that gravity fractionation plays a very important role in transportation.
+Moreover, drainage areas in Taiwan lakes are smaller than those in the lakes of Inner Mongolia, suggesting that the higher Ti/Al molar ratios of Taiwan lakes (2.81 and 4.00) may result from shorter transportation distances during sediment movement or different parent sources.
+In deep marine cores (Sites g-j) located in the Okhostsk Sea, Okinawa Trough, and South China Sea (SCS) (from north to south along the marginal seas off East Asia), the mean values of 100Ti/Al molar ratios fall between 2.40 and 2.94 (Table 1).
+To understand the influence of water depth, we recalculate data from marine surface sediments of the SCS (Yang, 2003) and find them (Sites S1-S12) to be in the range 1.34-2.89 (Table 2).
+All the data are plotted in Fig. 2.
+This plot depicts the spatial distribution of 100Ti/Al molar ratios in lake and marine cores, and marine surface sediments.
+Deeper marine sediments appear to have lower Ti/Al molar ratios than shallower ones in SCS (Fig. 2).
+Transportation processes in river systems
+To examine the influence of transportation processes on chemical variations in sediments, comparisons are made between the chemical compositions of fluvial sediments with estuary sediments.
+Data on fluvial sediments from the Huanghe and Changjiang Rivers are from previous studies (Yang et al., 2002; Fan et al., 2001).
+In Table 2, sites marked with 'HR' and 'CR' are located along the Huanghe River and Changjiang River, respectively.
+Data from the river sediments and estuary sediments are average values for those regions.
+The trend of Ti/Al molar ratios declines from the upper reaches to the downstream of the rivers (Fig. 1).
+Although reference data for the Huanghe and Changjiang Rivers are gotten from the samples with different grain sizes, the results show a similar trend with Ti/Al declining from river to estuary environments (Table 2).
+From estuary environments (HR3 and CR3; Yang et al., 2003) to shore environments (CR4-9; Chen et al., 2004), the 100Ti/Al molar ratio drops from 3.29 to 1.33 in the case of the Changjiang drainage area.
+This is direct proof that the hampering of fluid flow leads to the deposition of heavy minerals in the estuary environment.
+In the case of the Kaoping River's drainage, Ti/Al molar ratios range between 2.50 and 3.89 in fluvial sediments (Fig. 3a), and between 2.73 and 3.94 in surface soils (Fig. 3b).
+In Fig. 3a, the Ti/Al molar ratios of fluvial sediments (Fig. 3a) are derived from those of nearby soils (Fig. 3b).
+Ti/Al molar ratios are congruent between fluvial sediments and parent soils; i.e., higher Ti/Al molar ratios in parent soils accompany higher Ti/Al molar ratios in fluvial sediments.
+This result implies that the Ti/Al molar ratio of fluvial sediments is controlled by parent soils.
+Most of the fluvial sediments show slightly lower Ti/Al molar ratios than those of surface soils (Fig. 3a and b).
+Mixed Ti/Al signals are evident in convergent areas along the river where sediments merge near river junctions.
+This result reveals that sedimentary provenance influences the initial value of Ti/Al molar ratio in sediments.
+In the Kaoping River, when the three branches merge with the trunk stream, the Ti/Al molar ratio declines (Fig. 3a).
+Ti/Al molar ratio in aerosol particles
+In this study, the two samples of aeolian sand (Site 9 and Site 16) have very low 100Ti/Al molar ratios at 1.45 and 1.58 (see stars in Fig. 1 and grey row in Table 1).
+The 100Ti/Al molar ratios of aeolian sands are much lower than those of lake sediments and outcrops in situ.
+These data suggest aeolian transport over a long distance.
+The sands are well sorted and have few heavy minerals, indicative of gravity fractionation.
+To test the validity of this assumption, data obtained from aerosol particles derived from Asian Dust Storm episodes near Taiwan are examined (Hsu et al., 2004, 2010).
+Recalculating data on the aerosol particles, collected in the East China Sea and Taiwan (Table 3), gives results consistent with a decrease in Ti/Al molar ratios during Asian Dust Storm episodes (Hsu et al., 2004, 2010).
+In Table 3, PM10 refers to collected particles with diameter ranging from 2.5 to 10μm, and PM2.5 denotes those with diameter less than 2.5μm.
+Both PM10 and PM2.5 display lower 100Ti/Al molar ratios (2.57 and 2.88) in storm episodes than those from the non-storm periods (4.03 and 4.95).
+During storm episodes, dust near Taiwan is mixed with dust travelling long distances from northern China.
+This mixing process renders a decline in Ti/Al molar ratios in Taiwan during Asian Dust Storm episodes.
+Discussion
+Ti/Al molar ratio as an indicator of environmental changes
+Fig. 1 shows the spatial 100Ti/Al molar ratios of surface sediments, outcrops, aeolian sands, and fluvial sediments.
+Fig. 2 presents 100Ti/Al molar ratios in sink areas like lake and marine environments.
+Fig. 3 indicates transportation and provenance effects in river systems.
+Comparing data from surface sediments and fluvial sediments (Fig. 1) with those from lake cores and marine sediments (Fig. 2) shows that sink areas are marked by lower Ti/Al molar ratios.
+In the Changjiang River, Huanghe River, and Kaoping River, Ti/Al molar ratios decline considerably from downstream to estuary (Figs.
+1 and 3).
+This study also finds that Ti/Al molar ratios of deep sea sediments in the SCS are lower than those in shallow sea environments (Fig. 2).
+This implies that sink areas typically have relatively low Ti content because of the deposition of heavy minerals such as titanium-iron oxide (ilmenite) before the light element Al during long transportation.
+Past research has used Fe to represent terrigenous sources in marine cores; however, this method cannot avoid dissolution and precipitation of Fe under redox conditions (Dymond et al., 1992; Mangini et al., 1990).
+The element Ti seems a more suitable candidate than Fe in sediments because of its greater resistance and inactivity.
+It is a promising discovery that we can use Ti/Al as a proxy to trace chemical variations in sedimentary environments and help estimate Asian Dust Storm episodes.
+An important discovery is that well sorted aeolian sands are expected to have lower Ti values than surface soils and lake sediments in northern China (Fig. 1).
+This is supported by aeolian dust transported to distant sink areas having declining Ti content.
+However, we cannot rule out the possibility of low-Ti deposit areas accepting aeolian sources from high-Ti source areas, especially if the parent source has higher Ti content as was pointed out by Wehausen and Brumsack (2000).
+Among their results, they consider enriched Ti signals to be aeolian sourced (Wehausen and Brumsack, 2000; Yancheva et al., 2007); however, we suggest that lacustrine and marine sediments derive predominantly from a mixture of authigenic and terrigenous sources.
+Furthermore, differentiating the terrigenous sources is very difficult, as they are mainly derived from aeolian and/or fluvial forcings.
+In this study, aerosol particles ensures the source only derived from the air transportation, not from the fluvial or other influences.
+This aerosol approach directly verifies the source of aeolian dust (Table 3).
+In a shallow sedimentary environment or a small lake basin, higher Ti values in sediments may imply stronger rainfall inducing more terrigenous materials to be transported into lakes or offshore areas.
+Past research has adopted higher Ti content as representative of a rainfall index (Haug et al., 2001, 2003); however, this method cannot avoid dilution effects from biomaterials (CaCO3) or organic matter (TOC) in sediments (Löwemark et al., 2011).
+Additional bio-source materials reduce detrital element signals; for example, Si, Al, K, and Ti.
+In this paper, we, suggest Ti/Al molar ratio as being a better proxy as it avoids dilution effects from bio-sources in sediments.
+Ti/Al molar ratio helps identify interglacial and glacial periods in the South China Sea
+As mentioned, Ti/Al molar ratios declined abruptly in estuary to shore environments.
+The Ti/Al molar ratio may make a good proxy to help trace sea level variations and terrigenous input in sink areas.
+We checked sedimentary Ti/Al molar ratios from a semi-closed basin off a marginal sea to understand whether sedimentary Ti/Al ratios correspond to sea level change.
+We used two cores from the SCS (MD012390 and ODP1144), and one core from the Japan Sea (KCES-1; Zou et al., 2012).
+Core data of MD012390 in the southern SCS and KCES-1 in the Japan Sea reveal higher Ti/Al molar ratios for glacial periods and lower ratios for interglacial periods (Fig. 4b).
+The Ti/Al variations correspond well with changes in sea level (Waelbroeck et al., 2002; Fig. 4a).
+Similarly, the data from ODP1144 in the northern SCS show lower Ti/Al molar ratios in interglacial periods (Wei et al., 2003, 2007; Fig. 4c).
+The study of Wei et al. (2003) on ODP1144 suggested that lower Ti/Al ratios were due to strong chemical weathering, but our result does not agree with their interpretation.
+According to their experimental results, Ti is the most resistant of elements; this point has been supported by others (Nesbitt and Markovics, 1997; Fang et al., 2003).
+It suggests that higher Ti/Al ratios, not lower Ti/Al ratios, occurred in interglacial periods under more intensive chemical weathering conditions.
+A question worth exploring is why lower Ti/Al molar ratios appear in interglacial periods, and higher Ti/Al molar ratios appear for glacial periods.
+When the sea level retreated during MIS 2, 4 and 6, Ti/Al ratios increased in marginal sea sediments, especially in the closed basin.
+This result also agrees with the phenomenon of a higher sedimentary rate in MD012390 core during the glacial periods (Steinke et al., 2006), and more terrigenous materials invading the deposited region from the nearby estuary.
+The age model of MD012390 was established by Steinke et al. (2006) and Bassinot and Waelbroeck (2002), but the slight difference between Ti/Al molar ratios (Fig. 4b) and sea level variations (Fig. 4a) may result from uncertainty over age comparisons.
+Generally, the core MD012390 in southern SCS displays a well correlation between Ti/Al molar ratios and the sea level changes.
+This result cannot be inferred from the open marginal sea, where the sedimentary source changes with the sea level fluctuations.
+In a case from the Central Okinawa Trough, Ti/Al molar ratios reflect changes in sedimentary sources (Chen et al., 2011).
+We believe that the sedimentary sources of ODP1144 near the river systems of the South China and southern Taiwan are complex.
+Some basaltic plateaus have formed in the Taiwan Strait (Lee, 1994).
+Therefore, the sediments of ODP1144 are influenced by different sources when sea levels change (Fig. 4c).
+The Ti/Al molar ratios of ODP1144 cannot directly reflect sea level change, because sediments of ODP1144 may reflect the impact of source changes.
+Conclusions
+This study involves the spatial distribution of Ti/Al molar ratios in terrestrial and marine sediments in China and Taiwan.
+The Ti/Al molar ratios of land soils and outcrops tend to be higher than those on fluvial, estuary, lake and marine sediments.
+Most 100Ti/Al molar ratios fall in the range 3.06 and 3.77 in northern China and 2.43-2.80 in lake sediments.
+The Ti/Al molar ratios in the Kaoping River drainage range from 2.50 to 3.89 in fluvial sediments and 2.73 to 3.94 in surface soils.
+Deep marine cores in Okhostsk Sea, Okinawa Trough, and SCS show 100Ti/Al molar ratios between 2.40 and 2.94.
+The Ti/Al molar ratio is highly controlled by the transportation process through gravity fractionation.
+Using Ti/Al molar ratios as a proxy is suitable for a large scale, but this method may only shows mixed effect under the sedimentary sources changes.
+Our results for Ti/Al molar ratios from aeolian source are different to other research.
+Declining Ti/Al molar ratios in aerosol particles may be indicative of strong Asian dust storm episodes.
+The aerosol data in the East China Sea and Taiwan displays lower 100Ti/Al molar ratios (2.57 and 2.88) in storm episodes than those during non-storm periods (4.03 and 4.95).
+We also examine variations in Ti/Al molar ratios in deep marine cores (MD012390 and KCES-1) from the southern SCS and Japan Sea.
+The results unexpectedly correspond to changes in sea level.
+Lower Ti/Al molar ratios appear in interglacial periods, and higher Ti/Al molar ratios appear for glacial periods.
+The core MD012390 in southern SCS displays a well correlation between Ti/Al molar ratios and the sea level changes.
+Therefore, we conclude that in some cases, Ti/Al molar ratio may be useful proxy for checking aeolian events and sea level changes.
+Acknowledgements
+The study is supported by the National Science Council of the ROC (NSC 99-2116-M-019-002 and 100-2116-M-019-001).
+Most samples, lake cores, and marine cores are kindly provided by China Geological Survey (Nos.
+1212010911027 and J0718), Academia Sinica [as part of the research project on Asian Paleo-Environmental Change (II) (AS-92-TP-A08)], and the IMAGES Project NSC 98-2611-M-019-009.
+We are also grateful to Dr. Chi-Yu Lee for his help with XRF in National Taiwan University.
+

@@ -1,0 +1,274 @@
+Fungal networks in yield-invigorating and -debilitating soils induced by prolonged potato monoculture
+
+Abstract
+Most previous studies on soil microbial communities have been focused on species abundance and diversity, but not the interactions among species.
+In present study, the Molecular Ecological Network Analysis tool was used to study the interactions and network organizations of fungal communities in yield-invigorating (healthy) and -debilitating (diseased) soils induced by prolonged potato monoculture, based on the relative abundances of internal transcribed spacer sequences derived using pyrosequencing.
+An emphasis was placed on the differences between the healthy and diseased networks.
+The constructed healthy and diseased networks both showed scale-free, small world and modular properties.
+The key topological properties and phylogenetic composition of the two networks were similar.
+However, major differences included: a) the healthy network had more number of functionally interrelated operational taxonomic units (OTUs) than the diseased one; b) healthy network contained 6 (4%) generalist OTUs whereas the diseased contained only 1 (0.6%) marginal generalist OTU; and c) majority (55%) of OTUs in healthy soils were stimulated by a certain set of soil variables but the majorities (63%) in diseased soils were inhibited.
+Based on these data, a conceptual picture was synthesized: a healthy community was a better organized or a better operated community than the diseased one; a healthy soil was a soil with variables that encouraged majority of fungi whereas a diseased soil discouraged.
+By comparing the topological roles of different sets of shared OTUs between healthy and diseased networks, it was found that role-shifts prevailed among the network members such as generalists/specialists, significant module memberships and the OTU sets irresponsive to soil variables in one network but responsive in the counterpart network.
+Soil organic matter was the key variable associated with healthy community, whereas ammonium nitrogen (NH4+-N) and Electrical conductivity (EC) were the key variables associated with diseased community.
+Major affected phylogenetic groups were Sordariales and Hypocreales.
+Highlights
+•
+We constructed and compared two fungal networks from healthy and diseased soils.
+•
+We conceptually depictured what a healthy or a diseased community/soil was.
+•
+Nodes' role-shift prevailed when a healthy network changed to diseased one.
+•
+Soil organic matter, NH4+-N and EC were the key responsible variables.
+•
+Major affected phylogenetic groups were Sordariales and Hypocreales.
+
+Introduction
+In most natural environments such as soils, individual organisms do not live in isolation but rather form a complex system of inter-species interactions that, to a large extent, determine the structure of an ecological community (Freilich et al., 2010), and consequently the function of the ecosystem (Fuhrman, 2009).
+However, interactions and the resulting ecological functions are usually difficult to elucidate, especially for soils.
+Furthermore, most previous analytical techniques can be used to describe community composition, diversity and their changes across space, time, or experimental treatments, but cannot be used to reveal interactions among community members, which could be more important to ecosystem functioning than abundance and diversity, especially in complex ecosystems (Deng et al., 2012).
+Network analysis is proven to be a powerful tool in revealing the interactions among entities in a system, such as individuals in a school (Moody, 2001), species in food webs (Krause et al., 2003; Woodward et al., 2012), nodes on a computer network (Pastor-Satorras and Vespignani, 2001; Volchenkov et al., 2002), proteins in metabolic pathways (Brohée et al., 2008; Guimera and Amaral, 2005), and genes in regulatory networks (Crombach and Hogeweg, 2008).
+Yet, until recently, researchers begun to use this tool to study complex microbial ecological systems such as marine bacterioplankton (Gilbert et al., 2012), global environments in 16S rRNA dataset (Chaffron et al., 2010), fully sequenced bacterial species (Freilich et al., 2010), dental biofilm (Duran-Pinedo et al., 2011), human microbiome (Faust et al., 2012; Greenblum et al., 2012), bacterial communities in variety of soil samples (Barberan et al., 2012), and the communities in soils influenced by elevated CO2 (Deng et al., 2012; Zhou et al., 2010, 2011).
+Despite its pitfalls (Faust and Raes, 2012), the power and usefulness of network analysis in revealing new information on community member interactions, community organizations, keystone organisms, and their responses to environmental factors that cannot be revealed by routine analytical techniques is unequivocally demonstrated.
+For example, Zhou et al. (2011) demonstrated that Actinobacteria were the keystone bacteria connecting different co-expressed OTUs and were significantly correlated with selected soil variables.
+Similarly, Faust et al. (2012) predicted novel interactions involving members of under-characterized phyla, providing valuable information on further co-culturing of these organisms.
+Further, Duran-Pinedo et al. (2011) were even able to identify a helper bacterium successfully helping an uncultured bacterium to show up in petri dishes.
+Network analysis probably represents a new direction in microbial ecology research (Zhou et al., 2011).
+Crop monoculture has long been considered un-sustainable as it often leads to yield decline (Shipton, 1977).
+The yield decline usually occurs after two or three years of monoculture (as in this study), depending on crops, number of years and soil, and is usually attributed to the increase of yield-debilitating populations and switches of underground microbial communities (van Elsas et al., 2002).
+However, to date, the questions, such as what species compose yield-debilitating soil microbial community, how a yield-invigorating community is shifted to a yield-debilitating one, and what are the key soil factors responsible for the shift remain unclear.
+By farmers' term, the soils under limited length of monoculture (2-3 years) still producing sound yields are called "healthy" soils whereas those under prolonged monoculture producing unacceptably low yields are called "diseased" soils.
+Because the farmers' terms "healthy" and "diseased" are simpler than yield-invigorating and yield-debilitating respectively, they are adopted hereafter for concise purpose.
+The purpose of present study is to address these questions by a network analysis approach, using the "healthy" and "diseased" soils induced by prolonged potato monoculture as model soils.
+It has long been recognized that the yield decline under prolonged monoculture is associated with soilborne pathogens (Shipton, 1977), many of which are fungi (Fiers et al., 2012).
+In present study, major potato diseases found in field included fusarium dry rots, late bright and black scurf/stem canker that are associated with Fusarium sps., Phytophthora infestans, Rhizoctonia solani respectively, all of which are soilborne fungal pathogens (Fiers et al., 2012).
+Soil fungal community is thus the focus of present study.
+We hypothesized that a healthy community is likely to be better organized or better operated than a diseased community with respect to network organization and keystone organisms.
+Materials and methods
+Field experiment description
+The experimental sites were located in Tiaoshan Farm (103°33′-104°43′E, 36°43′-37°38′N), Gansu Province, China.
+It is a warm terrestrial arid area, with a mean annual temperature 9.1 °C, a mean annual precipitation 185.6 mm, and a mean annul evaporation capacity 1722.8 mm.
+Mean annual frost-free days are 141 days, sustaining only a single crop (corn or potato) per year.
+The soil contains 10.1 g kg-1 organic matter, 0.
+71 g kg-1 total N, 66 mg kg-1 alkaline hydrolyzable N, 14 mg kg-1 Olesen-P, and 193 mg kg-1 extractable K, with pH 8.08 (5:1water to soil ratio).
+Field experiment began in 2005 on fields under corn-potato rotations and was designed to collect year-series soil samples in the year 2011.
+For this, the field was divided into 21 plots, each being 9 × 6.1 m in size.
+Three plots were randomly selected each year for potato monoculture, leaving other plots to continue corn-potato rotation.
+The selection was done in such a way that the previous crop of selected plots was always corn.
+After 7 years (by year 2011), 21 plots in total were used up (3 replicates × 7 years).
+This experiment design provides opportunity to collect soil samples after culturing mono-crop from 1 to 7 years simultaneously.
+Potato was typically seeded on April 25 every year with a few days variation.
+Seed pieces (Atlantic cultivar, provided by Tiaoshan Farm) were buried on the top of raised paths (∼40 cm in height and 135 cm in bottom width) at 17 cm in between-plant space.
+Two lines were planted on each raised path with 70 cm in between-line space, resulting in a plant density at 84,075 plants ha-1.
+Blended fertilizer (15-15-15) additionally supplemented with urea and K2SO4 was used at the rate of 210 kg N ha-1, with the ratio N:P2O5:K2O at 1.4:1.0:2.0.
+Nitrogen form in blended fertilizer is (NH4)2SO4.
+All fertilizers were applied at the time of seeding by machine.
+Once seeded and fertilized, the raised paths were covered with plastic film.
+The field was irrigated three times during growth period, typically on June 1 (seedling stage), July 1 (early flowering stage) and July 20 (tuber enlargement stage), at the rate of 2700 t ha-1 each time.
+Potato was harvested in late August.
+Soil sampling, variable measurements and grouping
+Soil samples were collected in 2011 from 18 plots.
+The plots set up for potato monoculture in 2007 (5 years) were not sampled.
+From each plot, 15 sites were randomly sampled for 0-20 cm layer soils and well mixed.
+Totally 18 samples were obtained.
+Samples were put into sterile plastic bags, placed into ice box, transferred to laboratory and used as soon as possible, or stored in a refrigerator at -80 °C if not immediately used.
+Selected soil variables included organic matter (OM, by dichromate oxidation), total nitrogen (TN, by total Kjeldahl N), NH4+-N, NO3--N (by 1 M KCl extraction), pH and electrical conductivity (EC) (both at 5:1 water soil ratio).
+The yield decline typically started at the fourth year and the yield records of recent two years are shown in Fig.
+S1.
+The yields in first three years were more or less the same (with yearly variations) and are within the yield range of local farmers who practice rotations (30-40 t ha-1).
+A sudden decline occurred at the fourth year and thereafter, which is far below the yield range of local farmers.
+Based on these results, soil samples were put into two groups, one including the first year, the second year and the third year samples (9 in total), which was herein termed as "healthy" group, and another including the fourth year, the sixth year and the seventh year samples (9 in total) termed as "diseased" group.
+This grouping allowed us to construct and compare networks between healthy and diseased fungal communities.
+Soil variables and their statistics based on such grouping are shown in Table S1.
+DNA extraction, amplification, sequencing and sequence treatment
+For each soil sample, bulk DNA was extracted in triplicate from 0.5 g of soils (dry weight basis) with a FastDNA SPIN Kit for Soil (Bio 101, Carlsbad, Calif.) following the manufacturer's instructions.
+The triplicate DNA samples were pooled together, and thus 18 DNA samples represent 18 soil plots.
+The integrity of the extracted DNA was confirmed by running on 0.8% agarose gel with 0.5 TBE buffer (45 mM Tris-borate, 1 mM EDTA, pH 8.0).
+The extracted DNA (as well as PCR products) was quantified using TBS-380 Mini-Fluorometer (Turner Biosystems, CA, USA).
+All DNA samples were diluted to 100 ng μl-1 and used as PCR templates.
+Primer pair ITS2 (5′-GCTGCGTTCTTCATCGATGC-3′) and ITS5 (5′-GGAAGTAAAAGTCGTAACAAGG-3′) (Bellemain et al., 2010) was used for amplifying the internal transcribed spacer (ITS) region 1 (ITS1, ∼180 bp in full length).
+This region is a universal DNA barcode marker for fungi (Schoch et al., 2012) and has been widely used to characterize soil fungal communities (O'Brien et al., 2005; Buée et al., 2009; Tedersoo et al., 2010) as well as for species identification (Abarenkov et al., 2010).
+Besides, these primers had least bias as well (Bellemain et al., 2010).
+Primer ITS2 anchors at the highly conserved 18S rRNA gene upstream of ITS1 region and primer ITS5 at the intercalary 5.8S rRNA gene downstream.
+TransGen AP221 kit with TransStart Fastpfu DNA polymerase (TransGen Biotech, Beijing, China) was used for PCR under the following condition: 95 °C 2 min, 30 cycles: 95 °C 30 s, 55 °C 30 s, 72 °C 30 s; 72 °C 5 min; 10 °C forever.
+A second round of PCR was performed under the same conditions using Amplicon Fusion Primers as 5′-A-x-IST2-3′ and 5′-B-ITS5-3′, where A and B represent the pyrosequencing adaptors (CCATCTCATCCCTGCGTGTCTCCGACGACT and CCTATCCCCTGTGTGCCTTGGCAGTCGACT) and x represents an 8 bp-tag for the sample identification.
+For each sample, three independent PCRs were performed.
+The triplicate products were pooled in equal amounts and purified using AxyPrep PCR Clean-up Kit (Axygen Biosciences, CA, USA).
+The purified PCR products from different soil samples contained 1.50∼ 4.64 ng μl-1 DNA and were pooled in equal quantities for pyrosequencing in one run, which was performed commercially at Shanghai Majorbio Bio-pharm Biotechnology Co., Ltd., on a Roche GS 454 FLX platform (http://www.majorbio.com).
+Sequences were submitted to DDBJ database under the accession number DRA000962.
+Sequence treatment follows the established procedures described by Jumpponen and Jones (2009) and Jumpponen et al. (2010), with modifications of using a few other software packages.
+First, for quality control, sequences containing no valid sequencing primer ITS2 (allowing 2 mismatches) and no source tag were removed using the trim.seqs script in MOTHUR v.
+1.29.2 (Schloss et al., 2009).
+This program was also used to bin sequences to each sample based on source tags when samples were treated separately.
+Second, the residue sequences from the highly conserved 18S and 5.8S genes that flank the ITS1 marker were removed using Fungal ITS Extractor 1.1 (Nilsson et al., 2010), as the presence of these fragments may distort sequence clustering and similarity searches (Tedersoo et al., 2010).
+Tags and adaptor A and B were also removed using this software.
+After this step, only ITS1 region sequences remained for further analyses.
+Third, sequences were filtered again using MOTHUR to remove the sequences shorter than 100 bp.
+Fourth, the sequences were aligned with CAP3 (Huang and Madan, 1999) and the operational taxonomic units (OTUs) were assigned at 97% identity level using a minimum overlap of 100 bp, with other parameters left at defaults.
+Last, the OTU sequences were searched against NCBI database using BLAST to assign their phylogenetic associations.
+On average, 12,266 reads per sample were obtained, and after filtering 9136 high-quality sequences per sample were left.
+Total number of OTUs assigned to healthy and diseased soils was 181 and 210 respectively.
+The OTU abundances were normalized into relative abundances (RA, % in present study).
+All undetected/missing values were set to zero.
+Network analysis
+Network analysis was performed using the Molecular Ecological Network Analyses Pipeline (http://ieg2.ou.edu/MENA/main.cgi).
+More information on theories, algorithms, pipeline structure and procedures can be found in references (Deng et al., 2012; Zhou et al., 2010, 2011).
+Major practical steps are described as follows.
+First, an RA matrix, a matrix of soil variable and an OTU annotation file were prepared in the formats as guided in the pipeline.
+Second, the RA matrix was submitted for network construction.
+Using default settings, a cutoff value (similarity threshold, st) for the similarity matrix was automatically generated.
+A link between a pair of OTUs is assigned when the correlation between their RAs exceeds this threshold value.
+Third, calculations on "global network properties", the "individual nodes' centrality", and the "module separation and modularity" were performed.
+A module (or a cluster) is a group of nodes more densely connected to each other than to nodes outside the group.
+Modularity is a value measuring how well a network is divided into modules.
+Fourth, the "output for Cytoscape visualization" was run by choosing "greedy modularity optimization mode".
+Three files were generated for network graph visualization.
+Detail uses of Cytoscape can be found elsewhere (Shannon et al., 2003).
+Fifth, the "randomize the network structure and then calculate network" was run.
+Properties of random and empirical networks were compared.
+Sixth, the gene/OTU significances (GS) with environmental traits were calculated.
+A table showing significance values of each OTU against each soil variable was downloadable.
+Mantel test to correlate GS and network connectivity was run after the soil variable matrix was uploaded and the option of Euclidean distance was selected.
+The correlation coefficient and the significance between network connectivity and GS of soil variables were shown.
+Options are available for selecting different combinations of soil variables and phylogeny level of OTUs in the annotation file.
+In present study, all soil variables and three phylogeny levels (genus, family and order) were included individually as well as in combinations.
+Finally, the "module eigengene analysis" was performed.
+Small modules with less than 5 nodes were ignored.
+Graphs and heatmaps showing the module-eigengenes of each module, the hierarchy structure of module eigengene, and the correlations between modules and soil variables were shown.
+The significant module memberships (MMs) were also available.
+Results
+Key topological properties of the networks
+As shown in Fig. 1, networks with 150 and 171 nodes were constructed from healthy and diseased soil samples respectively.
+The connectivity fitted the power-law quite well, with R2 values being 0.90 and 0.84 for healthy and diseased networks respectively, indicating the scale-free property of the networks.
+The average path length (GD, a value measuring the efficiency of information or mass transport on a network) was 4.90 and 3.64 for healthy and diseased networks respectively, which were comparable to those of networks that displayed small-world behavior, as summarized by Brown et al. (2004) and Deng et al. (2012), indicating that the networks constructed in present work had the property of small world.
+Furthermore average clustering coefficients of empirical networks (0.21∼0.24) were significantly higher than the values of corresponding random networks (0.03∼0.06), suggesting again the small-world behavior of the constructed networks.
+In present work, the modularity values were from 0.61 to 0.64, which were higher than the suggested threshold value 0.4 for a modular structure (Newman, 2006), higher than the values of corresponding randomized networks, and were also similar to the values of most modular networks as summarized by Deng et al. (2012), suggesting that the constructed networks were also modular.
+All these key topological properties qualified the constructed networks for further analysis.
+Structure and composition are similar between healthy and diseased networks
+A large proportion of nodes (107) was shared between healthy and diseased networks (Fig. 2 A).
+Nodes belonging to Hypocreales and Sordariales genera dominated in both networks.
+Furthermore, the connectivity and clustering coefficient of total nodes between two networks were not significantly different by paired t test (with respective p values 0.403 and 0.486), and those of the shared nodes were also not significantly different (with respective p values 0.169 and 0.943).
+These data suggested that the node composition of two networks was similar.
+Difference in eigengene network between healthy and diseased networks
+Module eigengene is a representative value summarizing a module expression profile by singular value decomposition (SVD).
+Eigengene network analysis calculates the correlations among module eigengenes and thus shows the higher-order organizations of a network structure.
+In present work, module eigengenes (the Ф values shown in Fig. 1) explained 38-63% of the variations of RA across different samples in healthy network and 37-63% of that in diseased network.
+Six module eigengenes explained more than 50%.
+These values were similar to those found in human (Langfelder and Horvath, 2007) as well as in soil bacteria eigengene networks (Deng et al., 2012), suggesting that the eigengenes in present work represent the module profiles relatively well and thus are qualified for eigengene network analysis.
+Eigengene network analysis revealed an obvious difference of higher-order organization between two networks (Fig. 1, right panel of A and B).
+In healthy network, the eigengenes of module H6, H8 and H7 showed significant correlations (r ≥ 0.78, p ≤ 0.05; equivalent to a clustering height at ∼0.4 as marked by the dash line) and clustered together as one meta-module and those of H3 and H4 as another (Fig. 1).
+These two meta-modules comprised 92 nodes, accounting for 61% of total number of nodes in the healthy network.
+In diseased network, however, only one meta-module consisting of D1 and D3 was recognized.
+This meta-module contained 63 nodes, accounting for only 37% of total number of nodes in the diseased network.
+Because a module can be regarded as a group of co-expressed genes and a meta-module as a group of modules functionally interrelated (Langfelder and Horvath, 2007; Oldham et al., 2008), our data suggested that more number of OTUs in healthy network were functionally interrelated than in diseased network.
+This property is important for us to perceive how well a community is operated.
+Difference in presence of generalists between healthy and diseased networks
+Using the threshold values of Zi (measuring how well a node is connected to other nodes in its own module) and Pi (measuring how well a node is connected to nodes in different modules) proposed by Guimera and Amaral (2005) and simplified by Olesen et al. (2007), all nodes fell into three categories (Fig. 3).
+Majority of nodes (>96%) from both networks were categorized as peripherals (specialists) that have only a few links and almost always link to the nodes within their own modules.
+Three nodes belonging to Gibellulopsis nigrescens (OTU464), Schizothecium inaequale (OTU839) and Humicola grisea (OTU491) from healthy network were categorized as module hubs (generalists) that are highly connected to many nodes in their own modules.
+Four nodes were categorized as connectors (generalists) that are highly connected to several modules, three belonging to uncultured Geomyces (OTU1064), Fusarium sp.
+gM-156 (OTU432) and Fusarium sp.
+P47E2 (OTU424) from healthy network and one belonging to uncultured Cortinarius (OTU1058) from diseased network.
+Note that this single connector from diseased network was only marginal according to the threshold values.
+There was no node falling into network hub (supergeneralists) category that acts as both module hub and connector.
+Obviously more generalists existed in healthy network than in the diseased.
+As their connectivity speaks, generalists bridge different nodes within their own modules and/or among different modules whereas specialists link to only a few nodes.
+Thus the generalists are the key organisms to the communities.
+It is interesting to note that the nodes identified as generalists in healthy network were not absent in diseased network.
+Rather, they were present as specialists in diseased network instead (Fig. 3), suggesting that the same OTUs exhibited different functions in the two different sets of soils.
+This role-shift was not limited to generalist/specialist OTUs but was observed in many other OTUs (see below).
+Difference in phylogenetic distribution of module memberships between healthy and diseased networks
+Module eigengene analysis showed that all modules had significant (p ≤ 0.05) module memberships (MMs), also key organisms in corresponding modules.
+The number of MMs ranged from 5 to 18 in different modules, resulting in 79 and 71 MMs in total in healthy and diseased networks respectively.
+Phylogenetically the proportions of MMs belonging to Hypocreales (21.5%) and Sordariales (20.3%) were similar in healthy network, but were substantially different in diseased network (36.6% and 11.3% respectively) (Fig. 2 B).
+When total nodes were considered, however, the corresponding proportions were not substantially different between the two networks (Fig. 2 A).
+These data suggested that the MMs belonging to Sordariales were enriched in healthy network and those belonging to Hypocreales were enriched in diseased network.
+Of the 150 total significant MMs, 24 were shared between the two networks (Fig. 2 B), accounting for 30% and 33% in respective networks.
+The majority unshared (∼70%) either presented as MMs in one network but as non-MMs (p > 0.05) in the other, or was phased out of the interactions, suggesting that a large portion of the MMs changed their functions as their habits were changed.
+These data also suggested that the composition of MMs was substantially different between the two networks.
+Difference of OTUs' responses to soil variables between healthy and diseased networks
+Majority of module eigengenes in both networks were significantly (p ≤ 0.05) correlated with one or more soil variables, either positively or negatively (Table 1).
+As for the positive, correlations of OM vs H6, OM vs H7, TN vs H3, NH4+-N vs H1, NO3--N vs H7 and EC vs H8 in healthy network were significant.
+These involved modules contained 83 OTUs, accounting for 55% of total number of OTUs in healthy network.
+In contrast, only one correlation EC vs D3 in diseased network was significant.
+This module contained 33 OTUs, accounting for only 19% of total OTUs in diseased network.
+As for the negative, correlations of EC vs H8, OM vs H1, NO3--N vs H1, EC vs H6 and pH vs H6 in healthy network were significant.
+The involved modules contained 55 OTUs, accounting for 37% of total OTUs in healthy network.
+In contrast, correlations of OM vs D5, pH vs D1, EC vs D4, TN vs D3 and NH4+-N vs D3 were significant in diseased network with negative correlation.
+The involved modules contained 108 OTUs, accounting for 63% of total OTUs.
+Collectively, these data suggested that majority of fungi in healthy soils were stimulated by a certain set of soil variables but in diseased soils were inhibited.
+The correlation between module eigengenes and soil variables can be applied to analyze nodes' role-shift and responsible soil factors.
+Generalist-specialist shift is particularly interesting because of their key importance to the overall community.
+OTU491 belonging to Humicola grisea and OTU424 belonging to Fusarium sp.
+P47E2 as generalists resided in H2 and H5 modules both irresponsive to soil EC in healthy network (Fig. 2, Table 2), but became specialists residing in D4 module that was negatively correlated with EC only in diseased network (Table 2).
+Although insignificant, EC was higher in diseased soil than that in healthy soil (Table S1), it was thus the increase of EC that suppressed their expressions and consequently caused their role losses as generalists.
+Similarly, OTU432 belonging to Fusarium sp.
+gM-156 and OTU464 belonging to Gibellulopsis nigrescens as generalists resided in the H6 and H5 modules both irresponsive to TN, NH4+-N and EC in healthy network, but became specialists residing in D3 module that was negatively correlated with TN and NH4+-N and positively correlated with EC in diseased network.
+Since TN and NH4+-N were significantly lower in healthy soils than those in diseased soils (Table S1), the decreases of TN and NH4+-N and the increase of EC stimulated the growth of these OTUs, which consequently became specialists in diseased soils.
+OTU1064 belonging to uncultured Geomyces resided in H3 module that was positively correlated with TN but resided in D2 module that was irresponsive to soil variables.
+It was thus the decrease of TN that led the role-shift of this species.
+Collectively, TN, NH4+-N and EC were the key soil variables that caused generalist-specialist shifts.
+Similar analysis applied to the OTUs in H4 and H5 (OTUH4 + H5) and in D2 and D6 (OTUD2 + D6) would also reveal their role-shifts.
+These two sets of OTU resided in the modules whose eigengenes were significantly correlated with none of the selected soil variables in their respective networks (Table 1).
+OTUH4+H5 had 34 members in total (Fig. 4), 28 (82%) of which were also found in diseased network and were associated with the modules whose eigengenes were significantly correlated with one or more soil variables.
+OTU379 belonging to Fusarium solani, for example, was one of the H4 members.
+The same OTU resided in diseased network in D1 whose eigengene was significantly negatively correlated with soil pH.
+OTUD2+D6 contained 35 members in total, 17 (49%) of which overlapped with the total number of OTUs in healthy network.
+OTU910 belonging to Trichoderma stromaticum, for example, was one of D2 members, and was found in healthy network in module H7 whose eigengene was positively correlated with soil OM and NO3--N.
+When OTUH4 + H5 were matched against OTUD2 + D6, it was found they were two different sets of OTUs (with only 2 overlaps).
+In other words, majority of these members were irresponsive to any selected soil variables in their respective networks but were responsive in their counterpart networks.
+Correlations between gene significances of soil variables and network connectivity
+Overall, OM was the only variable affecting Sordariales-associated OTUs in healthy community but not affecting any groups of OTUs in diseased community (Table 2).
+In contrast, NH4+-N and EC were the variables affecting Glomerellales- and Hypocreales-associated OTUs in diseased community but not affecting any OTUs in healthy community.
+These results were not only consistent with the results based on the module membership analysis (Sordariales-associated OTUs were enriched in healthy soils whereas Hypocreales-associated OTUs were enriched in diseased soils), but also further explained the major soil variables responsible for the respective enrichments and role shifts of OTUs (see Discussion).
+Discussion
+Synthesized from above results, a conceptual picture appeared on what a healthy or a diseased soil fungal community was, what a healthy or a diseased soil was, how a healthy community became diseased, and what was the major cause(s) leading to the community shift in soils under prolonged potato monoculture.
+A healthy community could be viewed as a better organized or a better operational community with more functionally interrelated members (92 nodes, accounting for 61% of total nodes) than a diseased community (63 nodes, accounting for 37% of total nodes), as revealed by eigengene network analysis (Fig. 1 A, right panel).
+Regardless of specific functions, the presence of more interrelated members is good for the overall community.
+Analog to a human society, presence of more interrelated individuals in the society means more cooperation and exchange events occur.
+Consequently, the society works more efficiently and the society goal is more likely to be achieved.
+In this case, an obvious output can be observed that crop-yield was significantly higher (Fig.
+S1).
+Furthermore, only one marginal generalist (0.6%) was present in diseased network, but six generalists (4.0%) were present in healthy network, as revealed by Zi-Pi relationship of each individual OTU (Fig. 3).
+Generalists typically occupy a small fraction only, for example, 2.5% in soil bacterial networks (Zhou et al., 2011) and 15% in pollination networks (Olesen et al., 2007).
+The presence of generalists is important.
+Nodes within and/or among modules would be otherwise poorly connected or not connected at all to each other, consequently, the community would be chaotic without ordered structure, and fluxes of energy, material and information inside/through the whole community would not be efficient.
+Analog to a human society again, presence of individuals who link different members within and/or among different tribes will very likely make the overall society ordered, stable and efficient.
+A conceptual picture on what was a healthy or a diseased soil could be perceived by looking at the responses of majority of fungal community members to soil variables.
+Majority (55%) of OTUs in healthy soils were stimulated (encouraged) by a certain set of soil variables but the majorities (63%) in diseased soils were inhibited (discouraged) (Table 1).
+For a complex natural community, it is impossible that every environmental element encourages every community member: majority makes senses.
+With this view, a healthy soil was likely a soil with variables that encouraged majority of fungal community, whereas a diseased soil was a soil with variables that discouraged majorities.
+Any society that encourages majority of its members will be more likely to become a vigorous and successful society.
+The role-shifts of OTUs were major events when the healthy community changed to a diseased one.
+Three lines of evidences supported this generalization.
+Firstly, the generalist OTUs in healthy network were found to be specialist OTUs in diseased networks (Fig. 3), suggesting their role-shifts.
+Secondly, majority of MMs (∼70%) were not shared between healthy and diseased networks (Fig. 2 B).
+The unshared presented either as MMs in one network but as non-MMs (p > 0.05) in the other, or phased out of interactions, demonstrating the functional shifts of these MMs.
+Thirdly, module members OTUH4 + H5 and OTUD2 + D6 were irresponsive to any measured soil variables in their respective networks but majority of which were found to be responsive in the counterpart network (Fig. 4).
+Collectively, these data demonstrated that role-shifts were commonly happened in network OTUs.
+It is worthwhile mentioning that role-shift means that the capacity of an organism to exhibit a novel function must have already existed before a successful shift was initiated.
+In this context, many fungi possessed diverse functions/physiologies, some of which were able to exhibit in one environment but not in another.
+Such predicted physiological/metabolic flexibility is consistent with the well-documented, cosmopolitan distribution of many fungi (Managbanag and Torzilli, 2002).
+Major soil factor(s) leading to the community shift can be summarized as follows.
+Soil OM was the key variable associated with the healthy community, as it stimulated members of H6 and H7 modules in healthy network but stimulated no module members in diseased network (Table 1).
+NH4+-N and EC were the key variables associated with the diseased community, as their significant correlations with GS taxa were found only in diseased soils (Table 2).
+Furthermore, NH4+-N and EC were the major factors leading to generalist-specialist shift, as discussed above.
+Major affected phylogenetic groups were Sordariales and Hypocreales (Fig. 2 B and Table 2).
+Conclusion
+By using the network analysis tool, what a yield-invigorating (healthy) or -debilitating (diseased) soil fungal community was, what a healthy or a diseased soil was, how a healthy community became diseased, and what was the major cause(s) for the community shift were conceptualized.
+A healthy fungal community was a better organized or a better operated community than the diseased one.
+A healthy soil was a soil with variables that encouraged majority of fungi whereas a diseased soil discouraged.
+Soil organic matter was the key variable associated with healthy community, whereas NH4+-N and EC were the key variables associated with diseased community.
+Role-shifts prevailed among the OTUs when the healthy community changed to a diseased one.
+Major affected phylogenetic groups were Sordariales and Hypocreales.
+Acknowledgments
+Financial supports from the Natural Science Foundation of China (granted to Shixue Yin) and from the Research Programmes in Non-profit Industries (Agricultural Sector), Agricultural Ministry of China (principal investigator Qirong Shen) are acknowledged.
+Many graduate students and staffs involved in maintaining the field plots and collecting field data and soil samples but not listed as co-authors are grateful.
+Author S. Yin would like to thank two anonymous reviewers for their comments, which significantly improve the manuscript.
+Supplementary data
+The following are the supplementary data related to this article:Fig. S1
+The yield records of recent two years.
+The yield level between dashed lines indicated the yield range of local farmers who practice rotations.
+Supplementary data
+Supplementary data related to this article can be found at http://dx.doi.org/10.1016/j.soilbio.2013.05.025.
+

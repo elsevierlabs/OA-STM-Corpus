@@ -1,0 +1,331 @@
+The mechanical properties and toughening mechanisms of an epoxy polymer modified with polysiloxane-based core-shell particles
+
+Abstract
+An epoxy resin, cured using an anhydride hardener, has been modified by the addition of pre-formed polysiloxane core-shell rubber (S-CSR) particles with a mean diameter of 0.18 μm.
+The glass transition temperature, Tg, of the cured unmodified epoxy polymer was 148 °C, and this was unchanged after the addition of the S-CSR particles.
+The polysiloxane rubber particles had a Tg of about -100 °C.
+Atomic force microscopy showed that the S-CSR particles were well-dispersed in the epoxy polymer.
+The addition of the S-CSR particles reduced the Young's modulus and tensile strength of the epoxy polymer, but at 20 °C the fracture energy, GIc, increased from 117 J/m2 for the unmodified epoxy to 947 J/m2 when 20 wt% of the S-CSR particles were incorporated.
+Fracture tests were also performed at -55 °C, -80 °C, and -109 °C.
+The results showed that the measured fracture energy of the S-CSR-modified epoxy polymers decreased significantly below room temperature.
+For example, at -109 °C, a fracture energy of 481 J/m2 was measured using 20 wt% of S-CSR particles.
+Nevertheless, this value of toughness still represented a major increase compared with the unmodified epoxy polymer, which possessed a value of GIc of 174 J/m2 at this very low test temperature.
+Thus, a clear fact that emerged was that the addition to the epoxy polymer of the S-CSR particles may indeed lead to significant toughening of the epoxy, even at temperatures as low as about -100 °C.
+The toughening mechanisms induced by the S-CSR particles were identified as (a) localised plastic shear-band yielding around the particles and (b) cavitation of the particles followed by plastic void growth of the epoxy polymer.
+These mechanisms were modelled using the Hsieh et al. approach [33,49] and the values of GIc of the S-CSR-modified epoxy polymers at the different test temperatures were calculated.
+Excellent agreement was found between the predictions and the experimentally measured fracture energies.
+Further, the experimental and modelling results of the present study indicated that the extent of plastic void growth was suppressed at low temperatures for the S-CSR-modified epoxy polymers, but that the localised shear-band yielding mechanism was relatively insensitive to the test temperature.
+Graphical abstract
+Highlights
+•
+An epoxy polymer has been modified with polysiloxane core-shell rubber particles.
+•
+The epoxy had Tg of about 148 °C and the particles had a Tg of about -100 °C.
+•
+AFM showed that the particles were well-dispersed in the epoxy polymer.
+•
+The addition of 20 wt% particles increased GIc from about 120 J/m2 to 950 J/m2.
+•
+The particles also significantly toughened the epoxy polymer even at about -100 °C.
+
+Introduction
+Epoxy polymers are a class of high-performance thermosetting polymers which are widely used for the matrices of fibre-reinforced composite materials and as adhesives.
+They are known for their excellent engineering properties, such as high modulus, low creep, high strength, and good thermal and dimensional stabilities.
+However, epoxy polymers have inherently low toughness and impact resistance due to their highly crosslinked structure.
+This structure leads to brittle behaviour and causes the polymers to suffer from relatively poor resistance to crack initiation and growth.
+To improve the toughness of epoxy polymers, it has been established that the incorporation of a second micro-phase of a dispersed rubber, e.g.
+Refs.
+[1-5], or a thermoplastic polymer, e.g.
+Ref.
+[6-8], can increase the toughness.
+Here the rubber or thermoplastic particles are typically about 0.1-5 μm in diameter with a volume fraction of about 5-20%.
+The particles are typically well-dispersed, and formed by reaction-induced phase-separation.
+However, the particle size is difficult to control as it is dependent on the curing conditions, and hence cannot be varied systematically without changing the properties of the epoxy polymer.
+An alternative route to increase the toughness of epoxy polymers is to use core-shell rubber (CSR) particles.
+These particles comprise a soft rubbery core within a harder shell.
+The particles are typically formed by emulsion polymerisation, and then dispersed in the epoxy resin.
+Hence, it is readily possible to produce particles with a controlled particle size, unlike with phase-separating rubbers.
+A range of core and shell materials may be used, and multilayer particles are common [9].
+The shell is chosen to be compatible with the epoxy polymer, and poly(methylmethacrylate), which is sometimes functionalised, is often used.
+Typical core materials include polybutadiene [10] and acrylate-polyurethane rubbers [11].
+They have been shown to increase the toughness of both bulk polymers and fibre composites, e.g.
+Refs.
+[12-15].
+Hayes and Seferis [16] have reviewed the use of CSR particles in thermoset polymers and composites; this review also discusses some of the other properties that can be affected by the incorporation of CSR particles.
+However, although the properties of these rubber-toughened epoxy polymers have been investigated extensively, only a few studies have reported the low-temperature performance of these rubber-toughened epoxies.
+In general, the literature [5,17-19] reports that the fracture toughness of rubber-toughened epoxy polymers decreases as the temperature decreases, except at very low temperatures (possibly having passed the β-transition of the polymer) where the fracture toughness appears to increase somewhat again.
+It is generally accepted that the major toughening mechanism of rubber-toughened epoxies is based on a series of deformation processes, namely (a) localised plastic shear-band yielding around the rubber particles and (b) cavitation of the S-CSR particles followed by plastic void growth of the epoxy polymer.
+It has been noted [1,3,5] that this second mechanism needs to be operative in order to typically achieve major increases in the toughness of the rubber-particle-modified epoxy polymer.
+This suggests that using rubber particles with a relatively very low glass transition temperature, Tg, may enable cavitation of the rubber particles at very low test temperatures, and as a result allow plastic void growth of the epoxy polymer even at relatively low temperatures.
+Hence, the present work used pre-formed polysiloxane core-shell rubber (S-CSR) particles which possess a relatively very low Tg of -100 °C to toughen an anhydride-cured epoxy polymer.
+The room-temperature and low-temperature mechanical properties and fracture energy of these S-CSR particle-toughened epoxy polymers were determined.
+Also, the blend morphology, structure/property relationship, and thermal-mechanical behaviour of the modified epoxy polymers were ascertained.
+Further, the toughening mechanisms involved were also identified, and analytical models were used to predict the modulus, yield stress and fracture energy.
+Experimental
+Materials
+An anhydride-cured epoxy polymer was used.
+The epoxy resin was a standard diglycidyl ether of bisphenol-A (DGEBA, Araldite LY556) with an epoxide equivalent weight (EEW) of 185 g/eq, supplied by Huntsman, UK.
+The curing agent was an accelerated methylhexahydrophthalic acid anhydride (Albidur HE600) with an anhydride equivalent weight (AEW) of 170 g/eq, supplied by Evonik Hanse, Germany.
+The polysiloxane core-shell rubber (S-CSR) particles used were supplied as a masterbatch of particles pre-dispersed at 40 wt% in a DGEBA also by Evonik Hanse.
+The rubber particles possessed a crosslinked polysiloxane core with a glass transition temperature, Tg, of about -100 °C.
+The shell consisted of a very thin skin of epoxy-functional molecules which had been grafted onto the crosslinked core.
+Up to 20 wt% of the S-CSR particles was used.
+Bulk plates of the unmodified and S-CSR-modified epoxy polymers were prepared.
+To vary the particle content, the S-CSR-modified resins were mixed with DGEBA to give the required concentration of S-CSR particles.
+The value of the EEW of the blend was calculated and a stoichiometric amount of the curing agent was added.
+The mixture was stirred, degassed and poured into release agent-coated (Frekote 700NC, Henkel, UK) steel moulds.
+The plates of the epoxy polymers were cured for 1 h at 120 °C followed by 2 h at 160 °C.
+Dynamic-mechanical thermal analysis
+The glass transition temperature, Tg, of all the bulk samples was measured using dynamic-mechanical thermal analysis (DMTA) with a Q800 DMA from TA Instruments, UK.
+A double-cantilever mode at 1 Hz was employed using test specimens 60 × 10 × 3 mm3 in size.
+The temperature range used was -100 °C to 200 °C with a heating rate of 4 °C/min.
+The value of Tg was determined at the peak value of tan δ.
+The number average molecular weight between cross-links, Mnc, was also calculated from the equilibrium modulus in the rubbery region, Er, using [20](1)Mnc=qρRT/Erwhere T is the temperature in K at which the value of Er was taken, ρ is the density of the epoxy at the temperature T, the term R is the universal gas constant, and q is the front factor.
+As the density of the epoxy was only measured at room temperature, the value of the front factor, q, was taken to be 0.725, as in previous work [21].
+The density, ρ, of the epoxy was measured at room temperature according to BS ISO 1183-1 Method A [22] to be 1.20 g/m3 at 20 °C.
+Mechanical properties
+Dumbbell specimens with a gauge length of 25 mm were machined from the bulk plates of the epoxy polymers.
+Uniaxial tensile tests were conducted in accordance with the BS ISO 527 Standard [23,24], using an Instron, UK, 5584 universal testing machine.
+A displacement rate of 1 mm/min and a test temperature of 20 °C were used.
+The displacement over the gauge length of the samples was measured using an Instron, UK, 2620-601 dynamic extensometer.
+The maximum tensile stress for each sample was recorded, and the elastic modulus, E, was calculated between strains of 0.05% and 0.25%.
+At least five replicate specimens were tested for each formulation.
+Plane-strain compression (PSC) tests were performed using bulk samples at a range of temperatures from -109 °C to 20 °C to obtain the yield stress and the high-strain behaviour, after Williams and Ford [25].
+An Instron 5585H universal testing machine was used with a constant displacement rate of 0.1 mm/min.
+This displacement rate was adopted to match the strain rate from the tensile tests.
+Samples with a size of 40 × 40 × 3 mm3 were used, and loaded in compression between two parallel 12 mm wide dies.
+A minimum of two specimens were tested for each formulation at temperatures of 20 °C and -55 °C, but only one sample was tested for each formulation at temperatures lower than -55 °C, due to the difficulties with performing these tests at such low temperatures.
+The results were corrected by subtracting the compliance of the testing machine and compression rig.
+Based on the von Mises criterion, the true compressive stress, σc, was calculated using [25](2)σc=(32)σEwhere σE is the engineering stress.
+The compressive true strain, γf, at failure was calculated using(3)γf=(23)ln(BcB)where Bc is the compressed thickness and B is the initial thickness.
+One of the specimens of each formulation tested at room temperature was only loaded up to the yield point and then sectioned to study the possible formation of plastic shear-bands during the test.
+Fracture tests
+Single-edge notch three-point bending (SENB) tests were conducted in accordance with BS ISO 13586 [26], using an Instron 3369 universal testing machine equipped with an Instron 2620-601 dynamic extensometer.
+The SENB samples were machined from the bulk plates, and the pre-cracks were introduced by tapping a liquid nitrogen chilled razor blade into the notch.
+The lengths of the pre-cracks were measured using a Nikon, UK, SMZ800 stereo-optical microscope.
+The tests were conducted at temperatures from -109 °C to 20 °C with a constant displacement rate of 1 mm/min.
+All the specimens failed by unstable crack growth.
+The fracture toughness, KIc, values of the samples were calculated using(4)KIc=pBW1/2f(α/W)where p is the critical load, B is the sample thickness, W is the specimen width, α is the average pre-crack length, and f(α/W) is the non-dimensional shape factor [26].
+The fracture energy, GIc, was calculated using [26](5)GIc=KIc2E(1-ν2)where E is the tensile modulus of the polymer, and ν is the Poisson's ratio.
+A value of ν = 0.35 was used, which is typical for epoxy polymers [27].
+Double-notched four-point bending (DN-4PB) tests were conducted to investigate the plastic deformation zone ahead of the sub-critically loaded crack tip.
+This method allows the contribution and the sequence of the toughening mechanisms to be observed.
+The DN-4PB tests were performed as described by Sue and Yee [28].
+The samples were machined from the bulk plates and the pre-cracks in the samples were produced by tapping a liquid nitrogen chilled razor blade into the notches.
+An Instron 5584 universal testing machine was used to load the specimens in four-point bending, at a constant displacement rate of 1 mm/min and a temperature of 20 °C.
+Care was taken that the four loading-points contacted the specimens simultaneously in the tests.
+After fracture occurred, i.e. from one of the two pre-cracks, the plastic zone at the tip of the other sub-critically loaded crack was sectioned and examined using optical microscopy.
+Microscopy studies
+Atomic force microscopy (AFM) was performed using a MultiMode scanning probe microscope from Veeco, UK, equipped with a NanoScope IV controller and an 'E' scanner, to obtain the polymer morphology.
+The smooth surface of the samples was prepared using a PowerTome XL ultramicrotome from RMC, UK.
+Silicon probes were used in the tapping mode.
+Both height and phase images were captured at 512 × 512 pixel resolution, at a scan speed of 1 Hz.
+For the phase images, which are sensitive to viscoelastic properties, the apparent hardness of the material is shown by the colour, where the harder phases are brighter [29].
+A Leo 1525 (Zeiss, Germany) scanning electron microscope equipped with a field-emission gun (FEG-SEM) was used to obtain high resolution images of the fracture surfaces, using an accelerating voltage of 5 kV.
+All the samples were sputter-coated with a thin layer of chromium to prevent charging.
+The plastic deformation zone ahead of the crack tip in the DN-4PB specimens was investigated using transmission optical microscopy, using an AXIO microscope (Zeiss, Germany).
+Samples were cut using an Accutom-5 precision cutter (Struers, UK), equipped with an E0D15 diamond blade, from the central, plane-strain, region perpendicular to the fracture plane and parallel to the crack direction.
+The samples were mounted onto glass microscope slides using a transparent adhesive (Araldite 2020, Huntsman, UK).
+The samples were then ground and polished to a nominal thickness of 100 μm for microscopic observation between crossed polarisers.
+Results and discussion
+Microstructure studies
+Atomic force microscopy of the unmodified epoxy polymer showed that a homogeneous thermoset was formed, see Fig. 1(a).
+AFM of the S-CSR-modified polymers showed that the S-CSR particles were well-dispersed in the epoxy polymer, see Fig. 1(b-d).
+The particles are spherical, although the microtoming process can cause residual compression in the samples so that they can appear oval in the micrographs.
+The range of diameters of the S-CSR particles was measured, using image analysis software, to be between 0.12 μm and 1.40 μm, with a standard deviation of ±0.03 and ±0.15 μm in the lower and upper bounds, respectively.
+The mean diameter of the S-CSR particles was 0.18 μm.
+Fig. 1(b) also shows a ring of lighter colour surrounding the darker soft cores.
+This would appear to be the shell of the S-CSR particles, and the phase image indicates that this is slightly harder than the epoxy polymer.
+This shell was measured to have a mean thickness of between 20 nm and 40 nm.
+Glass transition temperature and viscoelastic properties
+The glass transition temperatures, Tg, of the unmodified and the S-CSR-modified epoxy polymers were measured using DMTA, and the data are summarised in Table 1.
+The value of the Tg of the unmodified epoxy polymer was 148 °C, and the storage modulus, G′, was 2.73 GPa at 20 °C, see Fig. 2.
+The epoxy was calculated, using equation (1), to have a number average molecular weight, Mnc, between 277 g/mol and 417 g/mol, which indicates that this polymer has an intermediate crosslink density for epoxy polymers.
+The addition of the S-CSR particles was found to have no significant effect on Tg of the epoxy polymer when the experimental uncertainty of about ±2 °C is considered, see Table 1.
+For example, the peaks of tan δ for the unmodified epoxy polymer and the 10 wt% S-CSR-modified epoxy polymer in Fig. 2 are very close to each other and almost overlap.
+The storage modulus was found to decrease linearly with the addition of S-CSR particles as expected, since the presence of the soft rubbery particles will reduce the stiffness of the relatively rigid epoxy polymer [12,30,31].
+These results confirm that the S-CSR particles remain phase-separated and do not plasticise the epoxy polymer.
+The presence of the soft polysiloxane rubber particles decreases the stiffness of the modified epoxy polymers by an approximately constant amount over the whole temperature range below the Tg of the epoxy as shown in Fig. 2.
+Tensile properties
+A tensile modulus of 3.19 ± 0.10 GPa was measured for the unmodified epoxy polymer.
+The modulus decreased approximately linearly with increasing CSR content to 1.96 ± 0.08 GPa when 20 wt% of S-CSR particles were added, see Table 1.
+Similar results were reported by Giannakopoulos et al. [30] using the same formulation of epoxy polymer but with different CSR particles.
+The values of the measured moduli of the S-CSR-modified epoxy polymers may be compared to existing theoretical models.
+Various models have been developed to predict the modulus of a particulate-filled polymer but in the present study only the Halpin-Tsai and the Lewis-Nielsen models were used, as these have been found to be the more representative models in previous work [30,32,33].
+The Halpin-Tsai model [34] predicts the modulus of a reinforced polymer as a function of the modulus of the bulk polymer, Em, and of the fillers, Ef.
+The modulus of the S-CSR particle-modified epoxy polymers may be predicted using(6)E=1+ζηVf1-ηVfEmwhere ζ is the shape factor, Vf is the volume fraction of the particles, and(7)η=(EfEm-1)(EfEm+ζ)
+The shape factor of the Halpin-Tsai model is a function of the aspect ratio (w/t) of the particles, where w and t are the length and thickness of the particles respectively.
+Halpin and Kardos [34] recommended that a shape factor of ζ = 2w/t should be used for calculating the modulus with filler particles aligned with the loading direction, and ζ = 2 with fillers perpendicular to the loading direction.
+In the present study, the polysiloxane CSR particles are spherical with w/t = 1, so ζ = 2 was used for the calculation of the modulus.
+A value of Ef = 2.5 MPa was used for the modulus of the polysiloxane rubber [35].
+The basic Lewis-Nielsen model, using the work of McGee and McCullough [36], takes into account the effect of the adhesion between the polymer and the fillers.
+This model gives the predicted modulus, E, of the S-CSR particle-modified epoxy polymers using(8)E=1+(kE-1)βVf1-βμVfEmwhere kE is the generalised Einstein coefficient, and β and μ are constants.
+The constant β depends on the relative modulus of the polymeric matrix, Em, and the filler, Ef, and is given by(9)β=(EfEm-1)(EfEm+(kE-1)).
+Note that β is identical to η in the Halpin-Tsai model if a shape factor of ζ = (kE - 1) is used.
+The constant μ depends on the maximum volume fraction of the filler, Vmax, and is given by(10)μ=1+(1-Vf)Vmax[VmaxVf+(1-Vmax)(1-Vf)].
+Nielsen and Landel [37] have tabulated values of Vmax for a range of particle shapes and types of packing.
+The AFM studies showed that the S-CSR particles are non-agglomerated and randomly dispersed, so the value of Vmax = 0.632 for random close-packed and non-agglomerated spheres is suitable [37].
+The value of the generalised Einstein coefficient, kE, varies with the Poisson's ratio of the polymeric matrix and the degree of the adhesion of the polymer to the particles.
+Hence, in the present study, for a polymeric matrix with v = 0.35 and no slippage at the interface between the polymeric matrix and the particles (as no debonding was observed), a value of kE = 2.167 was used [37].
+The predictions of the Halpin-Tsai and the Lewis-Nielsen models are compared with the experimental data in Fig. 3, and the agreement is very good.
+(The volume fraction of the S-CSR particles in the epoxy polymer was measured using image analysis from the atomic force micrographs).
+The experimental data generally lie between the Halpin-Tsai and Lewis-Nielsen predictions, where the Halpin-Tsai model gives the upper bound and the Lewis-Nielsen model gives the lower bound.
+However, the data lie close to and just above the Lewis-Nielsen predictions, confirming that slippage does not occur at the interface.
+Similar results were observed by Giannakopoulos et al. [30].
+The tensile strength of the unmodified epoxy polymer was measured to be 41 MPa.
+This is surprisingly low, as tensile strengths of approximately 81-83 MPa are typically measured for this epoxy polymer [30,38].
+However, such unmodified thermoset polymers are extremely sensitive to the presence of surface defects, and it is likely that such imperfections caused these relatively low values to be measured.
+Indeed, for the formulation containing 2 wt% of polysiloxane CSR particles, a mean tensile strength of 85 MPa was measured, which is close to the value reported by Giannakopoulos et al. [30] using different CSR particles in the same formulation of epoxy polymer.
+The addition of the S-CSR particles reduced the tensile strength approximately linearly with increasing particle content.
+It is well known that the addition of particles can reduce the tensile strength of thermoset polymers [12,30] due to the stress concentration effect of the particles.
+The lowest tensile strength measured was 48 MPa for the 20 wt% S-CSR particle-modified epoxy polymer.
+Compressive properties
+Room-temperature tests (20 °C)
+The mean room-temperature values of the compressive true yield stress, σyc, compressive true fracture stress, σfc, and compressive true fracture strain, γf, are summarised in Table 2.
+The tensile yield stress is calculated from the measured compressive yield stress [39].
+The addition of S-CSR particles reduces the compressive true yield stress, as expected, due to the relative softness of the polysiloxane rubber.
+The values decreased approximately linearly with increasing S-CSR particle content, see Fig. 4.
+At 20 °C, a value of 111 MPa was measured for the unmodified epoxy polymer, which also reveals that the unmodified epoxy should have the highest strength, if the effect of defects is excluded, when the test is conducted in uniaxial tension.
+The lowest value of the compressive true yield stress was measured to be 63 MPa for the 20 wt% S-CSR-modified epoxy polymer.
+Plots of representative compressive true stress-strain curves of the unmodified epoxy polymer and the modified epoxy polymers with 6 wt% and 20 wt% S-CSR particles are shown in Fig. 5.
+The plane-strain compression tests demonstrate that the addition of the S-CSR particles suppressed the strain-softening that occurred after yield of the epoxy.
+Indeed, the strain-softening zone in the compressive true stress-strain diagram of the modified epoxy polymers reduced gradually with increasing S-CSR particle content and disappeared completely for the addition of 20 wt% of S-CSR, see Fig. 5.
+This can be explained by the S-CSR particles suppressing macroscopic inhomogeneous shear-band deformation and strain-softening by the promotion of the initiation and growth of highly localised plastic shear-bands.
+This arises from the relatively high stress concentrations that develop around the equatorial plane of the relatively soft rubbery particles [39].
+Such localised shear-bands have been observed experimentally [12] and in finite-element analysis modelling studies [39,40].
+Due to the good dispersion of the S-CSR particles, these stress concentrations lead to highly localised shear-bands, and therefore the macroscopic shear-bands and the associated strain-softening gradually disappear with increasing S-CSR content as the localised shear-bands merge to give a diffuse deformation zone, as shown in Fig. 6.
+Cryogenic temperature tests
+At low test temperatures, the unmodified and the S-CSR particle-modified epoxy polymers became harder to deform, as expected.
+The compressive true yield stress increased linearly from 20 °C to -80 °C, see Fig. 7, and then increased more rapidly between -80 °C and -109 °C.
+The acceleration of the increase in the yield stress below -80 °C may be due to the epoxy polymers being below their β-relaxation, which means nearly all the local motions in the epoxy network cease, so a significantly higher stress is needed to achieve yield.
+(It should be noted that the β-relaxation of this epoxy occurs at -56 °C from the DMTA results and, as the test rate is significantly higher for DMTA tests than for the compression tests, the transition would be expected to occur at a lower temperature for the compression data.)
+Plots of representative compressive true stress-strain curves of the epoxy with 10 wt% of S-CSR particles showing the shape of the curves at different temperatures is given in Fig. 8.
+The low-temperature compressive true stress-strain curves of the S-CSR particle-modified epoxy polymers are similar to the room-temperature curves down to -80 °C, while below -80 °C the curves are more linear due to the passing of the β-transition.
+The fracture strains of the unmodified and the S-CSR particle-modified epoxy polymers were relatively insensitive to temperature, see Table 2.
+The slight increase of the fracture strain at the relatively low temperatures, and the somewhat erratic shape of the stress-strain curve at -109 °C, may be due to errors caused by accumulation of frost and ice on the compression dies and test samples in the temperature chamber.
+The temperature dependence of the compressive yield stress of the unmodified epoxy polymer may be predicted from existing theoretical models.
+A number of models are available, including those by Eyring [41,53], Robertson [42], Argon [43,44], and Bowden and Raha [45].
+In the present study, Argon's model was selected as this model is relatively simple and has been found to give more accurate predictions when compared to the other models.
+Argon's model [43,44] suggests that pairs of molecular kinks are formed in the epoxy polymer, so that the external work applied to the polymer is opposed by the intermolecular resistance to chain flexing.
+The temperature dependence of the compressive yield stress, σyc, is predicted to follow the relationship:(11)[2σyc(1+v)3E]5/6=A-B[2T(1+v)E]where E is the modulus and T is the corresponding temperature in K.
+The constants A and B are given by(12)A=(0.0771-ν)5/6(13)B=A16(1-ν)k3πω2α3ln(γ0γ)where ν is the Poisson's ratio, ω is the angular rotation (in rad) between the initial and activated positions, α is the mean molecular radius, k is the Boltzmann constant, γ˙ is the net shear strain rate, and γ˙0 is the pre-exponential factor.
+The values of these parameters were taken from Cook et al. [46] for a similar epoxy polymer to that used in the present study, and their values are ν = 0.35, ω = 2 rad, α = 0.475 nm and γ˙0=1013s-1.
+The modulus values as a function of temperature were taken from the present DMTA studies.
+The predictions using Argon's model are compared to the experimental values in Fig. 9, and the agreement is good.
+Indeed, the model correctly predicts the trend of increasing yield stress with decreasing temperatures.
+However, the prediction is for a relatively linear increase whereas the experimental data follow a rather more curved relationship.
+Fracture properties
+Room-temperature tests (20 °C)
+The values of the fracture energy, GIc, and fracture toughness, KIc, for the unmodified and the S-CSR particle-modified epoxy polymers are summarised in Table 3.
+At a test temperature of 20 °C, the fracture toughness, KIc, of the epoxy polymer increased with the addition of the S-CSR particles, from 0.70 MPam1/2 for the unmodified epoxy polymer to 1.46 MPam1/2 for the polymer containing 20 wt% of the S-CSR particles.
+A mean fracture energy of 117 J/m2 was measured for the unmodified epoxy polymer, which is not significantly different from the value reported by Giannakopoulos et al. [30] using a similar epoxy system and curing schedule.
+The fracture energy increased steadily with the S-CSR content, see Fig. 10.
+Thus, a very significant improvement in fracture energy, GIc, was observed, with a maximum value of 947 J/m2 being measured upon the addition of 20 wt% of the S-CSR particles.
+This value of toughness is approximately 800% higher than that for the unmodified epoxy polymer.
+Cryogenic temperature tests
+Values of the fracture energy and the fracture toughness at temperatures from -109 °C to 20 °C are summarised in Table 3.
+A graph of GIc versus the concentration of the S-CSR at the various test temperatures is shown in Fig. 10.
+The increase of the fracture energy at low temperatures was almost linear with the S-CSR particle content, but of a lower magnitude than at room temperature, see Fig. 10.
+However, it is very noteworthy that the addition of the S-CSR particles can significantly toughen the epoxy polymer even at the lowest test temperatures.
+For example, a fracture energy of 481 J/m2 was measured at -109 °C upon the addition of 20 wt% of S-CSR.
+This represents an increase of approximately 175% compared with the unmodified epoxy-polymer value at this temperature, and more than 50% of the room-temperature value.
+A graph of GIc versus the testing temperature for the various S-CSR contents is given in Fig. 11.
+The fracture energy of the unmodified epoxy polymer is independent of the test temperature, as any variation in the values is not significant when the associated standard deviations are considered.
+The toughening performance of the S-CSR particles was found to decrease linearly with the decreasing temperature, with a minimum at -80 °C.
+However, when the standard deviations are considered, then there is no significant difference between the values at between -55 °C and -109 °C for epoxy polymers containing the same concentration of S-CSR particles, see Fig. 11.
+The reduced toughening performance at low temperatures is partly due to the increased yield stress of the epoxy, so the plastic deformability of the epoxy decreases as the temperature decreases.
+Further, the stiffness of the polysiloxane rubber will increase, which leads to an increase of the cavitational resistance of the particles; and without cavitation of the particle no plastic void growth of the epoxy polymer can occur.
+The fracture energy might thus be expected to continue to decrease with temperature, rather than to reach a plateau as seen experimentally.
+However, Pearson and Yee [12] have speculated that a larger cavitational resistance should cause the build-up of a larger strain-energy prior to shear yielding of the epoxy polymer, and thus lead to a faster growth of shear-bands and a larger plastic deformation zone.
+This is supported by the recent finite-element analysis by Guild et al. [40], which showed that cavitation at higher applied strains causes more complex shear-band growth and enhanced plastic deformation.
+These enhanced plastic deformation processes dissipate more energy and thus increase the toughness of the modified epoxy polymers at low temperatures.
+Finally, a clear feature that emerges is that the addition to the epoxy polymer of the S-CSR particles with a mean diameter of 0.18 μm and a very low glass transition temperature, Tg, of about -100 °C may indeed lead to significant toughening of the epoxy, even at temperatures as low as about -100 °C.
+Toughening micromechanisms
+The unmodified epoxy
+The fracture surfaces of the unmodified epoxy samples were found to be smooth and glassy, which is typical for a brittle thermoset polymer [33].
+This shows that no large-scale plastic deformation occurred during fracture, see Fig. 12, hence giving the low fracture energies.
+Feather markings are present on the fracture surfaces, which are caused by the crack forking due to the excess of energy associated with the relatively fast crack growth.
+Such repeated forking and the multi-planar nature of the fracture surface absorb the excess energy during fracture of brittle materials [47].
+Cavitation and void growth
+At room temperature, the fracture surfaces of the S-CSR particle-modified polymers also showed crack forking and feather markings.
+However, these fracture surfaces are rougher than those of the unmodified epoxy, and scanning electron micrographs of the deformation zone for the 10 wt% and 20 wt% S-CSR-modified epoxy polymers are shown in Fig. 13.
+The fracture surfaces are covered with cavitated S-CSR particles, which can be identified as the circular features in Fig. 13.
+The cavitation process causes the originally solid rubber particles to deform into a rubbery shell surrounding a void.
+The mean diameter of these cavities was measured to be 0.296 μm.
+This is significantly larger than the mean diameter of the S-CSR particles measured from the AFM images, which was 0.18 μm.
+This observation clearly reveals that plastic void growth of the epoxy polymer has followed cavitation of the S-CSR particles.
+This is one of the main toughening mechanisms for such thermoset polymers toughened by the presence of well-dispersed rubber particles.
+Essentially, the cavitation of the particle creates voids which relieve the triaxial stress-state ahead of the crack tip and so enable plastic void growth to occur far more readily in the epoxy polymer.
+Cavitation, as opposed to particle debonding, will occur when the rubber particle is strongly bonded to the surrounding polymer.
+Indeed, based on the FEG-SEM observations, the core to shell adhesion must also be relatively high for the S-CSR particles, as no debonding is observed.
+For the low-temperature results, the fracture surfaces of the particle-modified polymers are very similar to the samples tested at room temperature, see Figs.
+14 and 15.
+Indeed, all of the S-CSR particles cavitated, even at -109 °C, although the size of the cavities is reduced at low temperatures, which indicates a lesser extent of plastic void growth in the epoxy polymer.
+Shear-band yielding
+Shear-band yielding has previously been reported for the present epoxy-polymer formulation when particle modified [33], and was observed during the present plane-strain compression tests.
+The DN-4PB tests of the S-CSR-modified epoxy polymers were performed to investigate the process further.
+After fracture at 20 °C, the plastic zone at the tip of the sub-critically loaded crack was sectioned and observed using transmission optical microscopy.
+This showed that a large feather-like deformation zone was formed, see Fig. 16.
+This feather-like zone comprises highly plastically dilated cavities and localised shear-bands [12,48].
+Transmission optical micrographs of the subsurface damage zone of the S-CSR particle-modified epoxy polymers tested at different temperatures revealed that the size of the subsurface damage zone decreased as the test temperature decreased, see Fig. 17.
+This reduction in the size of the deformation zone ahead of the crack tip is due to the increase of the yield stress of the epoxy polymer at low temperatures.
+Summary
+The toughening events of the S-CSR particle-modified epoxy polymers can be summarised as localised shear-banding of the epoxy polymer initiated by the particles and internal cavitation of the S-CSR particles (which relieves the triaxial stress-state in the vicinity of the crack tip) followed by void growth.
+These events contribute to the relatively high toughness measured from the S-CSR-modified epoxy polymers.
+The differences observed at low temperatures indicate that the increase of the cavitational resistance of the S-CSR particles delays the cavitation process and enhances the localised shear-band yielding process.
+The increase of the yield stress of the epoxy polymer attenuates the deformation of the polymer and reduces the size of the deformation zone ahead of the crack tip, but this effect is compensated for by the increased energy absorption from the enhanced shear-band yielding.
+Hence, there is a reduction of the toughening performance of the S-CSR particles at low temperatures, but the competition between these effects results in the fracture energy being independent of the test temperature between -55 °C and -109 °C.
+Modelling studies
+Introduction
+Localised shear-band yielding and cavitation enabling the subsequent plastic void growth have been identified as the main toughening mechanisms.
+Such mechanisms have been modelled by Hsieh et al. [33,49], based on the earlier Huang and Kinloch [50] model.
+This model has been found to accurately predict the fracture energy of particle-modified epoxy polymers.
+Hsieh et al. [33,49] proposed that the fracture energy can be expressed as(14)Gc=GCU+ψwhere GCU is the fracture energy of the unmodified epoxy.
+The toughening contribution of the S-CSR particles, ψ, is a combination of the two mechanisms of (i) plastic localised shear-band yielding, ΔGs, and (ii) plastic void growth of the epoxy polymer, ΔGv, as(15)ψ=ΔGs+ΔGv(It should be noted that the process of cavitation itself does not absorb a significant amount of energy, and so its contribution can be ignored.)
+Modelling of the ΔGs contribution
+The energy contribution from plastic shear-band yielding, ΔGs, initiated by the S-CSR particles is related to the size of the plastic zone [33,49] as(16)ΔGs=0.5VfσycγfF′(ry)where Vf is the volume fraction of S-CSR particles, σyc is the plane-strain compressive true yield stress, γf is the true fracture strain for the unmodified epoxy polymer, and F′(ry) is a geometric term that may be expressed as(17)F′(ry)=ry[(4π3Vfr)1/3(1-rpry)3-85(1-rpry)(rpry)52-1635(rpry)7/2-2(1-rpry)2+1635]
+The value of ry may be defined as(18)ry=Kvm2(1+μm31/2)2ryuwhere rp is the particle radius, Kvm is the maximum stress concentration factor of the von Mises stresses in the epoxy polymer, μm is a material constant which allows for the pressure-dependency of the yield stress and its value is taken as 0.2 [51].
+The value of Kvm is dependent on the volume fraction of particles, and was calculated by fitting to the data of Huang and Kinloch [39] who modelled rubber particles with a Poisson's ratio of 0.4999 in an epoxy polymer.
+The value of ryu, the Irwin prediction of the plane-strain plastic zone radius for the unmodified epoxy polymer at fracture, was calculated [52] using(19)ryu=16π(Kcuσyt)2where KCU is the fracture toughness and σyt is the tensile true yield stress of the unmodified epoxy.
+Modelling the ΔGv contribution
+The contribution of ΔGv from the plastic void growth mechanism may be calculated [33] as(20)ΔGv=(1-μm23)(Vfv-Vfr)σycryuKvm2where μm is a material constant (see above), Vfv and Vfr are the volume fraction of voids and the volume fraction of S-CSR particles measured from the FEG-SEM and AFM micrographs, respectively.
+The value of ψ can now be calculated by combining Equations (16) and (20) into (15) to give(21)ψ=0.5VfσycγfF'(ry)+(1-μm23)(Vfu-Vfr)σycryuKvm2
+The material properties used for the modelling are given in Table 4.
+The main temperature-dependent terms which significantly affect the results of the proposed model are the plane-strain compressive true yield stress, σyc, and compressive true fracture strain, γf, the uniaxial tensile true yield stress, σyt, and the fracture energy, GCU, and fracture toughness, KCU, of the unmodified epoxy.
+The values for these parameters were experimentally measured as a function of the test temperature and their values are given in Tables 2 and 5.
+Examination of the fracture surfaces showed that 100% of the particles cavitated, and the mean void radius was measured.
+Hence, all the S-CSR particles were assumed to initiate shear-bands and to undergo cavitation with subsequent plastic void growth of the epoxy polymer.
+Application of the model
+The values of the fracture energy of the S-CSR particle-modified epoxy polymers may be predicted over the range of temperatures concerned, and these predicted values are compared with the experimental results in Figs.
+10 and 11 and Table 5.
+As may be seen, the agreement is generally good over the complete range of test temperatures.
+Although, the Huang and Kinloch model tends to somewhat over-predict the fracture energy compared with the experimental results for the -55 °C and -80 °C temperature tests.
+This finding may be due to the over-estimation of the plastic deformation zone of the modified epoxies at these relatively low test temperatures.
+The individual contribution of the two toughening mechanisms to the total increase of the fracture energy of the modified epoxy polymers in the temperature range concerned may also be calculated by the above model, again see Table 5.
+Localised shear-banding was found to be the main toughening mechanism throughout the temperatures concerned in the present study.
+Indeed, over 60% of the toughness increase was from the localised shear-banding mechanism.
+Plastic void growth, following cavitation of the rubber particles, only contributed approximately 35% of the toughening effect at room temperature, and its contribution to the toughness decreased rapidly at low test temperatures, especially for the epoxy polymers containing relatively high concentrations of the S-CSR particles.
+This is due to the difficulty of initiating cavitation in the particles and the increase of the yield stress of the epoxy polymer, which greatly reduces the plastic deformability of the epoxy polymer, at low temperatures.
+Conclusions
+An epoxy resin cured with an anhydride was modified by the addition of polysiloxane core-shell rubber (S-CSR) particles.
+These rubber particles possessed a mean diameter of 0.18 μm and a glass transition temperature, Tg, of about -100 °C.
+From atomic force microscopy studies, they were observed to be well-dispersed throughout the epoxy polymer.
+The glass transition temperature of the unmodified epoxy polymer was 148 °C.
+The addition of the S-CSR particles did not alter this value, but the elastic modulus and the yield stress of the epoxy were reduced in value.
+The fracture energies of the S-CSR particle-modified epoxy polymers were measured at a range of temperatures from 20 °C to -109 °C.
+At room temperature, a value of the fracture energy, GIc, of 117 J/m2 was measured for the unmodified epoxy.
+Addition of the S-CSR particles linearly increased the fracture energy, and a maximum value of 947 J/m2 was measured using 20 wt% of S-CSR particles at 20 °C.
+Further, the S-CSR particles significantly toughened the epoxy polymer even at cryogenic temperatures.
+For example, a GIc value of 481 J/m2 was measured for the epoxy containing 20 wt% S-CSR particles at -109 °C.
+The toughening mechanisms of the S-CSR-modified epoxy polymers were identified, and they were observed to be the same throughout the temperature range used.
+Firstly, plastic shear-band yielding, occurring as localised shear-bands, in the epoxy polymer were observed in the plastic deformation zone ahead of the crack tip in the transmission optical micrographs of the double-notched four-point bending tests.
+Secondly, the results of the atomic force microscopy and the scanning electron microscopy studies revealed that cavitation and subsequent plastic void growth of the epoxy polymer occurred.
+A theoretical model was used to predict the toughness increment due to these two mechanisms over the entire temperature range.
+The predicted fracture energies were compared with the experimental data, and good agreement was found, which reinforces the suggested toughening micromechanisms which have been proposed.
+Further, as found previously [39,50], the model predicts that at the relatively low test temperatures the former micromechanism based upon plastic localised shear-band yielding in the epoxy polymer dominates, especially for the epoxy polymers containing relatively high concentrations of the S-CSR particles.
+This arises because, firstly, the S-CSR particles still act as points of stress concentration for such deformation to initiate, due to their lower modulus compared to the epoxy polymer over the complete temperate range.
+In contrast, secondly, at the relatively low test temperatures the S-CSR particles are now longer truly rubbery in nature and, therefore, cavitation of the particles, which then enables subsequent plastic void growth of the epoxy polymer, is significantly inhibited.
+Finally, a clear feature that emerges is that the addition to the epoxy polymer of the S-CSR particles with a mean diameter of 0.18 μm and a very low glass transition temperature, Tg, of about -100 °C may indeed lead to significant toughening of the epoxy, even at temperatures as low as about -100 °C.
+Acknowledgements
+Some of the equipment used was provided by ACT's Royal Society Mercer Junior Award for Innovation.
+

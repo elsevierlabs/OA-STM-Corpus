@@ -1,0 +1,877 @@
+Potential transgenic routes to increase tree biomass
+
+Highlights
+•
+Increasing forest biomass has significant economic and environmental impact.
+•
+Many forestry objectives, e.g., more biomass, are best attained by transgenesis.
+•
+Transgenes enable plants to display one or a few traits for biomass applications.
+•
+Multi-trait engineering can generate a superior tree expressing most desired traits.
+Abstract
+Biomass is a prime target for genetic engineering in forestry because increased biomass yield will benefit most downstream applications such as timber, fiber, pulp, paper, and bioenergy production.
+Transgenesis can increase biomass by improving resource acquisition and product utilization and by enhancing competitive ability for solar energy, water, and mineral nutrients.
+Transgenes that affect juvenility, winter dormancy, and flowering have been shown to influence biomass as well.
+Transgenic approaches have increased yield potential by mitigating the adverse effects of prevailing stress factors in the environment.
+Simultaneous introduction of multiple genes for resistance to various stress factors into trees may help forest trees cope with multiple or changing environments.
+We propose multi-trait engineering for tree crops, simultaneously deploying multiple independent genes to address a set of genetically uncorrelated traits that are important for crop improvement.
+This strategy increases the probability of unpredictable (synergistic or detrimental) interactions that may substantially affect the overall phenotype and its long-term performance.
+The very limited ability to predict the physiological processes that may be impacted by such a strategy requires vigilance and care during implementation.
+Hence, we recommend close monitoring of the resultant transgenic genotypes in multi-year, multi-location field trials.
+
+Introduction
+Forests are rich sources of biodiversity and serve as sanctuaries to organisms under threat of extinction.
+They help reduce surface runoff and their roots stabilize the soil to impede erosion.
+Forests fix atmospheric CO2 into biomass and consequently mitigate climate change.
+Wood, the primary renewable resource from forests, is widely used for energy, pulp and paper-making, textiles, and construction.
+Forests also provide the raw materials for non-traditional products such as bioplastics, pharmaceuticals and chemical feed stocks.
+Forest trees can flourish with comparatively little human intervention.
+They are often relegated to marginal land that is considered unfit for general agriculture or horticulture.
+Such areas may feature combinations of steep slopes, degraded soils, limited water, and/or nutrients.
+Furthermore, there is pressure on forest resources due to growth in the human population and climate change.
+Many forests are harvested unsustainably and global forest area is decreasing [1].
+Hence, it is important to examine how tree growth can be improved to satisfy the demand for forest products.
+Trees usually require several decades to reach harvest size, so there is considerable interest in fast-growing forest tree species or in ways to make trees grow faster.
+Other key objectives of tree improvement in modern forestry include improved wood quality, pest resistance, adaptation to environmental stress, and delayed flowering or ablated reproductive organs [2].
+The long reproductive cycle of trees and their extensive requirements for space and resources impede progress in the production of superior trees through traditional breeding and selection.
+The intensification of environmental stressors (e.g., flooding, drought, extreme temperatures) associated with climate change complicate the problems faced by breeders.
+Genetic engineering complements conventional breeding programs by providing a means to rapidly incorporate foreign genes or to manipulate endogenous genes to improve stress resistance or biomass yield.
+Transgenic technology can improve elite genotypes chosen from current breeding programs.
+Transgenic approaches to precocious flowering [3] could enable tree crop breeders to use the power of inbreeding followed by selection to purify genomes of deleterious alleles within a reasonable period.
+Scientists have successfully manipulated various aspects of tree architecture, photosynthetic processes, and photosynthate assimilation to improve the quantity and quality of biomass.
+Increasing sink strength by accelerating downstream processes related to the utilization or storage of photosynthetic products have also significantly improved biomass yield.
+Delaying reproductive growth has significantly increased vegetative biomass in annuals and some reports indicate that this may be possible in trees as well [4,5].
+Transgenic approaches have improved the ability of plants to survive or thrive even in the presence of various biotic and abiotic stress factors, many of which are likely to be aggravated by climate change.
+Some biotic factors, such as weed competition, affect trees only at the seedling/sapling stages, while others, like insect and pathogen infestations, can damage trees at any stage in their life cycle.
+Introduction of genes for resistance to abiotic stress such as low temperatures, osmotic extremes (salinity, drought) and heavy metal contamination, have expanded the range of potential sites for cultivation of fast-growing trees to these inhospitable environments.
+Most researchers have concentrated on the effects of single genes, but there are synergistically greater opportunities in pyramiding or "stacking" genes that combine superior phenotypes into an individual tree.
+We believe that the base of this transgenic pyramid must consist of genes proven to increase biomass, complemented by those designed to offset stress factors that suppress biomass yield.
+"Gene stacking" can be done sequentially in annual crop species, by intercrossing stable transgenic lines that over-express different genes.
+In trees, simultaneous introduction of many genes by multi-trait engineering, as we discuss in Section 9, would likely be a faster approach than crossing transgenic lines to endow trees with the various characteristics needed to thrive in the forest.
+This review focuses on transgenic research that has proven useful in substantially increasing tree biomass or protecting tree species from losing biomass due to stress.
+It is divided into sections that deal with transgenic research on crown and root architecture, reproduction, and various stress factors that affect biomass yield.
+We propose an approach to the creation of high-yielding transgenic trees resistant to multiple stress factors.
+Source and host species, gene identities and functions, as well as their effects on biomass and other traits are presented in tables throughout the manuscript.
+Findings validated with field-test data are highlighted in these tables with asterisks.
+Readers interested in transgenic approaches to major downstream applications of forest biomass (timber, pulp, biopolymers and bioenergy) may refer to recent reviews on these topics [6-9].
+Crown architecture
+The components of crown architecture (plant height, branching pattern, foliar arrangement, and morphology) determine the efficiency by which the plant can harvest solar energy.
+Taller plants with more vertical branches/leaf orientations capture more solar energy and they can be planted at greater densities for improved yield per unit area.
+The genes that are useful for the modification of crown architecture for single-stem and coppiced systems are summarized in Table 1.
+The ideal shoot architecture depends on whether the tree is destined for single-stem cultivation or for coppicing.
+In single-stem cultivation, the biomass yield is dependent on the rate and extent of vertical stem growth.
+For poplar grown in coppice systems, the primary determinants of plant yield [10] are the ability to generate epicormic shoots from buds that lie underneath the bark and sylleptic branching, which is the ability for branches to develop from lateral buds during a single growing season [11].
+In both systems, trees need to grow and quickly produce a dense canopy to capture solar energy and shade out competing vegetation.
+Optimal utilization of solar energy requires a specific plant architecture that allows photosynthesis throughout the canopy instead of only the top leaves of the canopy [12].
+This involves effective manipulation of plant height, branching, foliar arrangement, and leaf morphology.
+Broad-leaved angiosperms should feature large and vertically oriented leaves in the upper crown, and rapid abscission of dead branches to allow light penetration into the inner canopy and, in the case of poplars and aspens (Populus spp.), sylleptic branching.
+In hybrid poplar (Populus trichocarpa×P. deltoides), sylleptic branching results in the production of more branches, more leaves and expanded photosynthetic capacity that supports the overall growth and biomass yield of the tree at a young age [11].
+Populus species are often cultivated in coppice systems, so efficiency in regenerating the harvested shoot biomass is required for high yield.
+In contrast, the "crop ideotype" for loblolly pine features a wide crown with thick tufts of leaves borne on long side branches angled at 49° from the tall main stem [13].
+Trees with these canopy traits have higher light capture potential.
+Tree height
+Tree height is an important component of shoot architecture and it is associated with biomass yield [14].
+Manipulation of endogenous hormone levels is effective in modifying tree heights.
+In general, brassinosteroids and gibberellins have the most direct effects on plant height with the fewest negative side effects on the overall phenotype.
+Increasing the biosynthesis and/or signal transduction of these hormones, or conversely, decreasing their conversion to inactive storage forms or catabolic breakdown can produce taller plants and, therefore, more biomass [15].
+Brassinosteroids
+Brassinosteroids are polyhydroxylated steroid hormones that are essential for plant growth, reproduction, and responses to various abiotic and biotic stresses [16].
+Arabidopsis thaliana plants that are unable to synthesize or perceive brassinosteroids are dwarfs with rounded leaves and reduced pollen fertility that show significantly delayed flowering time and leaf senescence [17] (Table 1).
+STEROID 22a HYDROXYLASE, encoded by the DWF4 gene, is a key enzyme for brassinosteroid biosynthesis.
+Over-expression of DWF4 in A. thaliana produced plants that grew 35-47% taller and produced 33% more seed [17].
+The rice mutant dwf4-1 had depressed levels of brassinosteroids and an ideotype characterized by slight dwarfism and erect leaves.
+Although individual dwf4-1 plants had reduced biomass yield, their ideotype allowed high-density planting that led to increased grain yield per unit area [18].
+The effects of such genes on modifying tree ideotypes still remain unexplored.
+Gibberellins
+Gibberellins are a large family of diterpenoid compounds that are involved in various aspects of plant growth and development.
+In reference to tree height, gibberellins promote cell elongation and cell division and, consequently, stem elongation.
+Gibberellins are also required during xylogenesis in the cambium and fiber elongation in the developing xylem [19].
+Hence, increasing gibberellin content or activating pathways for gibberellin signaling should increase plant height.
+Biosynthesis of gibberellins depends, to a large part, on the activity of the enzyme GA20 OXIDASE, encoded by the GA20OX gene.
+Over-expression of GA20OX enhanced biomass production through increased height and girth of the main trunk in hybrid aspen (Populus tremula×P. tremuloides) (Table 1)[20].
+Carrizo citrange (Citrus sinensis×Poncirus trifoliata) that over-expressed GA20OX were taller and displayed longer thorns, a sign of juvenility.
+In contrast, suppression of GA20OX by gene silencing generated dwarf and bushy phenotypes with shorter thorns and larger, thicker leaves [21].
+The activity of gibberellin biosynthetic genes is subject to complex feedback regulation that can nullify efforts to increase endogenous gibberellin levels or be negated by an excessively high activity of the gibberellin deactivating enzyme, GA2 OXIDASE and its encoding gene, GA2OX [22].
+Over-expression of GA20OX from Populus trichocarpa in hybrid poplar (P. tremula×P. alba) conferred early shoot regeneration and shoot growth in vitro but the growth effect disappeared after the plants were transferred to the greenhouse [23].
+It is therefore essential to verify that the biomass gains observed in vitro or in the greenhouse can be replicated in field trials.
+Transcripts of GA20OX from A. thaliana were detected in shoots of transgenic six-month-old hybrid aspen (P. tremula×P. tremuloides) but not in shoots of three-year-old trees.
+By contrast, GA20OX transcripts were present in leaves at both growth stages [24].
+The disappearance of transcripts from shoots suggests some form of temporal and/or developmental tissue-specific silencing.
+Nevertheless, it seems that the residual activity of GA20 OXIDASE produced in the leaves was still sufficient to support superior stem growth: 17-week-old transgenic trees were 1.9 times taller than the wild-type plants [24].
+Hybrid poplar (P. tremula×P. alba) that over-expressed genes that promoted gibberellin catabolism (GA2OX) or interfered with GA signaling (gai (GA-INSENSITIVE), rgl (REPRESSOR OF GA1-LIKE)) showed a range of dwarf phenotypes with various reductions in height, branch length, internode length and leaf length, although stem diameter was less affected [25].
+However, it has also been reported that over-expression of GAI in hybrid poplar (P. tremula×P. alba) produced semi-dwarf trees that accounted for a higher proportion of total biomass when compared to wild type [26].
+High-density planting with such semi-dwarf plants may lead to higher yields per unit area, analogous to the effect of dwf4-1, a mutant rice (Oryza sativa) line with a defective gene for brassinosteroid synthesis (see Section 2.1.1).
+Over-expression of GA2OX produced hybrid poplar (P. tremula×P. alba) with small, dark green leaves whereas those that over-expressed rgl exhibited a compact crown with normal-sized leaves [25].
+The GA2OX gene family has members with tissue-specific expression that give differential results after molecular manipulation [22].
+Over-expression of shoot-specific paralogs of GA2OX generated dwarf hybrid poplars (P. tremula×P. alba) whereas their suppression enhanced biomass growth without adversely affecting rooting.
+Suppression of root-specific GA2OX by RNA interference (RNAi; a process by which cellular enzymes recognize and destroy double-stranded RNA and homologous single-stranded mRNA, which leads to post-transcriptional gene silencing) reduced root biomass [22].
+Gibberellin levels are determined by genes that encode positive regulators such as GIBBERELLIN INSENSITIVE DWARF 1 (GID1) [27] or negative regulators such as GA-INSENSITIVE (GAI) and REPRESSOR OF GA-1 (RGA) [25].
+Hybrid poplar (P. tremula×P. alba) over-expressing gai (mutant gene with a 51-bp in-frame deletion) had narrow compact crowns with shorter main stems and branches than the wild type.
+By contrast, those that expressed the wild-type form of the gene (GAI) had phenotypes that were not significantly different from the non-transgenic controls, except for early and high frequency of flowering (Table 1) [25].
+DELLA proteins, which contain an N-terminal DELLA (asp-glu-leu-leu-ala) domain essential for GA-dependent proteasomal degradation, repress GA responses [28].
+The GID1-GA complex down-regulates DELLA repressor proteins, consequently stimulating plant growth and development [29].
+Hybrid aspen (P. tremula×P. tremuloides) over-expressing GID1 were about 40% taller than the wild type after nine weeks in the greenhouse [19].
+Auxins
+Auxin activity is strongly associated with apical dominance.
+Over-expression of the biosynthetic genes for auxin from A. tumefaciens in hybrid aspen (P. tremula×P. tremuloides) unexpectedly produced slow-growing, semi-dwarf plants [30].
+Hybrid poplar (P. tremula×P. alba) over-expressing GS1a, the gene encoding GLUTAMINE SYNTHETASE from Pinus sylvestris, showed high levels of indole acetic acid (IAA) in leaves, indicating that the additional IAA may be contributing to the enhanced growth of the transgenic trees [31].
+β-Glucoside esters or ether conjugates of plant hormones such as auxins, gibberellins, cytokinins, and ABA are inactive storage forms that are activated through hydrolysis by β-GLUCOSIDASE.
+Tobacco (Nicotiana tabacum) plants that over-expressed BGL1, the gene encoding β-GLUCOSIDASE, in their chloroplasts had higher levels of auxin, gibberellin, and zeatin, and almost double the biomass of the untransformed controls [32] (Table 1).
+This gene could be a prime candidate for testing in tree species because there are very few genes that have the potential to double the size of trees.
+Cytokinins
+Induction of high levels of cytokinins by transgenesis often leads to undesirable pleiotropic effects in plants (see Section 2.4.2).
+Tobacco plants that over-expressed GOLS2 (a cold tolerance gene from A. thaliana) fused to a gene for ISOPENTENYL TRANSFERASE (ipt), were ∼30-50% taller and had greener leaves than the wild type.
+They also had increased cold tolerance and normal root systems.
+Apparently, the presence of the termination codon of the GOLS2 gene and the intervening nucleotides between the two transcriptionally fused genes reduced the efficiency of translation of the ipt gene [33].
+The resultant phenotype was due to over-expression of the GOLS2 gene and moderate expression of the ipt gene.
+Leaf development
+Photosynthetic productivity can be improved by manipulating leaf number, shape, size, inclination, and distribution of the branches in a canopy.
+Lower levels of brassinosteroids in the dwf4-1 rice mutant were associated with erect leaves that improved light interception and allowed high-density planting [34].
+Over-expression of the endogenous DWF-4 in A. thaliana had no effect on leaf angle [17].
+This indicates, among other possibilities, differences in the regulation of leaf angle in monocots and dicots.
+Increased gibberellin signaling produced hybrid aspen (P. tremula×P. tremuloides) that bore upward-pointing leaves [19] (Table 1), although this effect has not been reported in other attempts to modify gibberellin signaling.
+Hybrid aspen (P. tremula×P. tremuloides) that over-expressed GA20OX had larger leaves and longer internodes [20].
+The GA2OX family in poplar includes 11 members with various patterns of tissue-specific expression [22].
+Down-regulation of GA2OX4 and GA2OX5 by RNAi in hybrid poplar (P. tremula×P. alba) increased the number and size of leaves and, consequently, shoot biomass without adversely affecting root development [22].
+Hybrid poplar (P. tremula×P. alba) that over-expressed GA2OX from Phaseolus had dwarf phenotypes with smaller leaves and shorter branches [25].
+Hence, it is possible to manipulate canopy development by controlling tissue-specific genes for GA catabolism.
+Radial growth and xylogenesis
+The most important forestry product is wood, which is essentially the secondary xylem in the tree trunk that conducts water and nutrients absorbed by the roots to the leaves.
+Secondary xylem deposition (and thereby radial growth) is governed by the meristematic activity of the vascular cambium, which is found in all woody dicots and gymnosperms.
+Lending support to the idea that effects on wood-like traits from transgenic model species can be successfully applied to woody species are the extensive parallels not only in genes that affect cambial development in A. thaliana and trees (reviewed in [35]), and the similarities in wood-like properties between Arabidopsis inflorescence stems and wood [36].
+Furthermore, modification of genes to alter hormone levels or signal mechanisms that regulate cambial growth has led to increased biomass.
+Phytohormones
+Auxin is involved in the induction of vascular tissue development which is the basis for wood formation [37,38].
+However, auxin is well-known to affect many other aspects of plant development.
+Exogenous auxin represses sylleptic branching while cytokinin promotes it in hybrid poplar (P. trichocarpa×P. deltoides) [11].
+Suppression of branching should help reduce the production of multiple stems in species grown in single-stem culture systems (see Section 2.4).
+Over-expression of a cytokinin catabolic gene, CKX2 for CYTOKININ OXIDASE (from A. thaliana), compromised radial growth which was evidenced by a reduced number of cambial cell layers in hybrid aspen (P. tremula×P. tremuloides) [39].
+Cytokinins promote axillary bud break and, consequently, branching, but high cytokinin levels inhibit root elongation [40].
+The adverse effects of overproduction of cytokinins may be mitigated by using tissue-specific promoters or gene fusions to moderate the effect of strong promoters.
+For example, A. thaliana over-expressing the ipt gene fused to the 3′ end of the GUS (β-GLUCURONIDASE) gene had normal rooting and double the biomass of wild-type plants (see also Section 2.1.4) [33].
+Manipulation of ethylene does not seem to be a promising approach for increasing biomass in trees.
+Exposure to an ethylene precursor, aminocyclopropane carboxylate, stimulated cell division in the cambium but inhibited vertical growth and radial expansion of fibers and vessel elements in hybrid aspen (P. tremula×P. tremuloides) [41].
+Ethephon is converted into ethylene in plant tissues.
+Application of ethephon dissolved in lanolin on bark inhibited lignification of tracheids in the underside of tilted seedlings of Japanese red pine (Pinus densiflora) [42] and interfered with xylem lignification in stems of Monterey pine (Pinus radiata) saplings (Dubouzet, J.G., Donaldson, L., Black, MA, McNoe, L., Liu, V., Lloyd-Jones, G., unpublished data).
+Intracellular signaling
+SHORT-ROOT1 (SHR1) is a putative transcription factor that negatively regulates cell division and meristem activity in both shoots and roots.
+Partial suppression of SHR1 in hybrid aspen (P. tremula×P. tremuloides) led to significantly higher stem biomass [43] (Table 1).
+Mutation of a WRKY12 transcription factor in A. thaliana activated the biosynthesis and deposition of cellulose, lignin and xylan into secondary cell walls, consequently increasing biomass density by 50% and shoot biomass by 25% [44].
+Hence, RNAi-mediated suppression of WRKY12 orthologs in tree species may increase biomass deposition as well.
+Autophagy is an autolytic process triggered at xylem maturation that is crucial to the formation of the hollow, water-conducting tracheids or vessel elements in plants [45].
+A Rab GTPase, RabG3bCA, is a positive regulator of autophagy, a catabolic mechanism for the degradation of non-functional cellular components that is associated with programmed cell death.
+Ten-week-old hybrid poplars (P. alba×P. tremula var.
+glandulosa) over-expressing RabG3bCA exhibited enhanced xylem development, increased stem growth, and double the dry biomass of wild-type control plants.
+The transgenic lines also exhibited altered wood composition in reference to polysaccharide composition, with 10% more cellulose and 25% less xylan [46].
+Over-expression of RabG3bCA had no effect on lignin content.
+Branch development
+In addition to tree height, branch diameter and length are the most important determinants of wood production and maximum leaf area index in Populus [47].
+CORNGRASS 1 (miR156) is a microRNA that is involved in the regulation of juvenility and flowering.
+Constitutive expression of CORNGRASS 1 increased sylleptic branching and leaf number at the expense of height and lignin content in the stems of hybrid poplar (P. tremula×P. alba) [5] (Table 1).
+Over-expression of RELATED TO ABI3 AND VIVIPAROUS 1 (RAV1) from Castanea sativa led to precocious development of sylleptic branching in transgenic poplar.
+Early sylleptic branching in hybrid poplar (P. tremula×P. alba) is correlated with increased branching and greater biomass accumulation as trees mature [48].
+Auxin and apical dominance
+In general, apical buds of plants produce auxin that inhibits the growth of sub-apical lateral buds.
+Removal of the apical bud leads to lateral bud break and shoot proliferation but this can be inhibited by application of exogenous auxin [49].
+Auxin may play a repressive role in sylleptic branching in hybrid poplar (P. trichocarpa×P. deltoides) [11].
+In single-stem cropping systems, pruning is needed to produce higher-quality clear wood that is free of knots.
+Widely spaced Sitka spruce (Picea sitchensis) tend to have bigger knots (from large branches) and more crooked stems (due to extensive branching), thus producing timber biomass of lower quality.
+Hence, high-density planting is favored in Sitka spruce because it suppresses the development of lateral branches [50].
+The rol A, B, and C genes from Agrobacterium rhizogenes affect flower morphology, rooting (and auxin sensitivity), and branching in transformed plants, respectively [51].
+Hybrid walnut (Juglans hindsii×J. regia) over-expressing rolABC had denser and bushier canopies due to reduced internode lengths and increased lateral branching [51].
+Hybrid aspen (P. tremula×P. tremuloides) plants expressing the rolABC genes had reduced apical dominance but the synergistic growth or counterbalancing effects of the simultaneous expression of three transgenes dramatically increased stem biomass [52] (Table 1).
+Cytokinins
+Cytokinin activity is essential for wood formation from the vascular cambium [10].
+The rolC gene from A. rhizogenes has been implicated in cytokinin metabolism.
+Hybrid aspen (P. tremula×P. tremuloides) that over-expressed rolC had higher cytokinin levels and were characterized by stunted growth, short internodes, and smaller leaves [53].
+ISOPENTENYL TRANSFERASE (ipt) catalyzes a rate-limiting step in cytokinin biosynthesis in A. tumefaciens.
+Hybrid poplar (P. trichocarpa×P. deltoides) over-expressing ipt had improved sylleptic branching, increased branch frequency but poor rooting [40].
+As discussed in Section 2.1.4, the negative effects of increasing cytokinin levels via transgenesis may be ameliorated by using gene constructs that moderately increase cytokinin production.
+Strigolactones
+Strigolactones, a novel class of phytohormones, are carotenoid derivatives that are implicated in plant branching.
+Strigolactones and cytokinins play opposite roles in the control of bud outgrowth.
+Their interaction with auxin, an inhibitor of lateral bud growth, is responsible for the plasticity of axillary branching and plant architecture [54].
+Mutants of A. thaliana with defective carotene degradation due to non-functional carotene dioxygenases such as CAROTENOID CLEAVAGE DIOXYGENASE 7 and 8, had low levels of strigolactones, enhanced shoot branching, dwarf habit, and poor rooting [55].
+CAROTENOID CLEAVAGE DIOXYGENASE 8 is involved in the synthesis of strigolactones in plant roots.
+Suppression of the endogenous CAROTENOID CLEAVAGE DIOXYGENASE 8 gene in kiwifruit (Actinidia chinensis) increased branch development and delayed leaf senescence [56].
+Hence, the biosynthetic pathway for strigolactones may be an attractive target for RNAi in poplar.
+A possible effect of the down-regulation of strigolactone synthesis, implied by research using mutants for strigolactone biosynthetic genes [55], could be improved lateral root formation and nutrient acquisition from the soil.
+Additionally, based on the aforementioned phenotypic effects of silencing the genes for strigolactone biosynthesis, over-expression of these genes may reduce shoot branching and, consequently, pruning requirements in single-stem culture.
+As such, these genes are interesting targets for further research.
+Root architecture and plant hormones
+Root architecture (diameter, angle, and branching) is key to a plant's ability to support its shoot canopy and access nutrients and water in the rhizosphere.
+Larger root systems are arguably more effective in nutrient and water uptake and, consequently, more advantageous when such resources are limiting.
+However, actively diverting resources to favour root growth via transgenesis can lead to poor shoot development [26].
+The genes that have been shown to modify root architecture and function are listed in Table 4.
+Young hybrid aspen (P. tremula×P. tremuloides) over-expressing GA20OX had poorer rooting than the control but this negative effect disappeared in older plants [20].
+Some GA2OX paralogs in poplar have tissue-specific expression, which may be important with regard to selection of the target gene for manipulation.
+Over-expression of GA2OX in hybrid poplar (P. tremula×P. alba) increased rooting ability but retarded shoot growth [57] whilst suppression of GA2OX4 and GA2OX5 promoted above-ground stem and leaf biomass [22].
+In A. thaliana, GA INSENSITIVE is a negative regulator of GA signaling.
+As discussed in Section 2.1.2, over-expression of this gene in hybrid poplar (P. tremula×P. alba) produced semi-dwarf trees.
+Interestingly, these trees had larger root systems that accounted for a higher proportion of the total biomass as compared to wild type [26].
+Similarly, induction of cytokinin degradation by over-expression of CYTOKININ OXIDASE/DEHYDROGENASE 3 (CKX3) led to enhanced root growth but poor shoot development in A. thaliana [58].
+Genes that actively reduce GA or cytokinin levels by catabolism or signaling may be more effective if controlled by root-specific promoters.
+There are numerous instances of constitutive over-expression of biosynthetic genes for cytokinins that led to poor or no rooting (see example in Section 2.4.2).
+Instead of constitutive expression, targeted expression using tissue-specific promoters may attenuate their possible negative effects on the rest of the plant, analogous to the natural production of cytokinins and strigolactones in roots and auxin in meristems and distribution of these hormones through the rest of the plant.
+Water-use efficiency
+Inefficient use of available water is a major factor that depresses biomass yield.
+Careful site selection is a prerequisite to successful silviculture but the acceleration of global climate change and the resultant weather disturbances portend that many forest plantations will undergo water stress in their cultivation cycle.
+Water-use efficiency (WUE) is the ratio between biomass production and water consumption [59].
+Over-expression of GA2OX produced small hybrid poplar (P. tremula×P. alba) plants with dark green leaves that had increased chlorophyll content and increased WUE [26].
+However, as discussed in Section 3, the increased biomass in these trees was directed in a greater proportion to roots, which is less desirable from a biomass perspective than improved stem yield.
+The ERECTA gene is a leucine-rich repeat receptor-like kinase with a key role in WUE signaling: A. thaliana over-expressing ERECTA from poplar had lower stomatal density, and consequently, higher WUE, lower transpiration rates, and superior growth in both irrigated or drought conditions.
+Over-expression of this gene may be useful in generating high-yielding and drought-resistant poplar and other tree species [59].
+Aquaporins are proteins that facilitate the flow of water and small molecules across cell membranes.
+Over-expression of PIP2, an aquaporin from radish (Raphanus sativus), improved photosynthesis and increased shoot growth in Eucalyptus camaldulensis by 25% [60].
+The transgenic plants had lower transpiration rates, but they were not tolerant to drought, possibly because they produced 115% more leaves (i.e., larger transpiring surface) than controls.
+Late embryogenesis abundant proteins are associated with various stress conditions (including drought) in plants.
+Over-expression of hva1, a gene coding for a late embryogenesis abundant protein from barley (Hordeum vulgare), produced mulberry (Morus indica) plants that grew normally with leaves that tolerated salinity and physiological drought induced by polyethylene glycol (PEG) [61].
+These plants also had better photosynthetic yield under salinity and water stress than wild-type plants.
+A GSK3/SHAGGY-LIKE protein kinase (GSK1) from A. thaliana is associated with tolerance to water and salt stress.
+Over-expression of GSK1 in hybrid poplar (P. alba×P. tremula var.
+glandulosa) generated plants that had better growth and higher rates for photosynthesis and transpiration than wild-type plants.
+The transgenic plants also grew well under PEG-induced water stress whereas the wild-type plants showed chlorotic and necrotic symptoms [62].
+Even in the absence of drought, plants suffer daily from water stress leading to stomatal closure and cessation of photosynthesis even before midday [63] and from intermittent water stress when rainfall is not well-distributed throughout the growing season.
+Transgenesis using some of the genes discussed in this section have the potential to confer superior drought-coping mechanisms unto forest trees to improve survival in the face of unstable water supply in the field.
+Mineral uptake and utilization
+Nitrogen (N), phosphorus (P) and potassium (K) are the major essential elements required for plant growth but many soils are deficient in one or more of these nutrients.
+With transgenesis, it is possible to engineer plants that feature more efficient uptake and/or utilization of specific minerals to obtain the best yield from sites with nutrient limitations.
+Some genes associated with nutrient utilization that have significant effects on biomass are presented in Table 2.
+Nitrogen
+Nitrogen-deficient soils are widespread and, consequently, N fertilizers account for the largest portion of fertilizers used in forestry.
+Nitrogen fertilization significantly increased stem and whole-plant biomass of P. trichocarpa×P. deltoides [64].
+Nitrogen-use efficiency (NUE), or the ratio between biomass yield over input N [65], is partly determined by the ability of the plant to capture and utilize available nitrogen.
+Research has centered on the elucidation of soil nitrogen uptake, assimilation of inorganic nitrogen into nitrate and ammonium, and the biosynthesis and recycling of various forms of organic nitrogen [66].
+The number of ammonium ions released by photorespiration can be up to 10 times higher than that obtained by plants through primary nitrogen assimilation [67].
+It is essential to recycle the ammonium released in the cytosol by various cell processes to improve nitrogen-use efficiency.
+Various forms of glutamine synthetase participate in ammonia assimilation in plants.
+In angiosperms, cytosolic GLUTAMINE SYNTHASE 1 (GS1) assimilates ammonium obtained from the soil and other metabolic processes [68].
+Ammonium released by nitrate reduction or photorespiration is assimilated into glutamine by GLUTAMINE SYNTHASE 2 (GS2) [69].
+Gymnosperms evolutionarily predate angiosperms by several hundred million years and their GLUTAMINE SYNTHASE enzyme variants have functions that encompass those performed by GS1 and GS2 in angiosperms [68].
+Hybrid poplar (P. tremula×P. alba) over-expressing the cytosolic GS1a from Scots pine (P. sylvestris) displayed considerable improvements in biomass production [70], timber quality, and pulping ability [71].
+The increased biomass was presumably due to improved nitrogen uptake and recycling that would otherwise have been lost during normal plant metabolism.
+The angiosperm-specific GS2 enzyme is a more evolutionarily recent form of GS, and is specifically adapted for intracellular ammonium recycling in the chloroplasts.
+Therefore, ectopic production of GS2 in gymnosperms may have significant effects on nitrogen assimilation, photorespiration, and, consequently, biomass yield.
+GLUTAMATE DEHYDROGENASE catalyzes the amination of 2-oxoglutarate in glutamate synthesis.
+Microbes such as Aspergillus nidulans rely on GLUTAMATE DEHYDROGENASE for nitrogen assimilation [72] whilst plants use GLUTAMINE SYNTHETASE for the same process.
+Potato (Solanum tuberosum) over-expressing gdhA, a microbial gene for GLUTAMATE DEHYDROGENASE, had higher NUE and increased rates of nitrogen and carbon redistribution to sink tissues.
+The increase in sink strength was associated with increased photosynthetic rates, and, consequently, a 10% increase in total biomass [72].
+ALANINE AMINOTRANSFERASE increases glutamate utilization by catalyzing the synthesis of alanine from pyruvate and glutamate.
+Canola (Brassica napus) that over-expressed AlaAT, the gene for ALANINE AMINOTRANSFERASE from barley, required 40% less N fertilizer to achieve yields equivalent to wild-type plants grown with normal N fertilization [73].
+Deployment of these genes in trees may help reduce the requirements for N supplementation in forestry.
+Phosphorus
+Phosphorus (P) is often a growth-limiting factor in highly weathered and acidic volcanic soils worldwide.
+Furthermore, mineral P fertilizers are rapidly transformed into poorly soluble mineral salts or organic molecules that are not immediately available to plants.
+Phytates (phosphate esters of inositol) account for up to 80% of soil organic P, but plants have limited ability to directly obtain P from this substrate [74,75].
+PHYTASE, a phosphatase exuded from plant roots or soil microbes, hydrolyzes soil phytates, thus releasing phosphate ions that can be absorbed by plant roots.
+Over-expression of PHY1, the gene encoding PHYTASE from Medicago truncatula, trebled the shoot biomass of transgenic alfalfa (Medicago sativa) fertilized with organic P in sand culture.
+When grown in natural soils with no supplemental P, the transgenics generated double the biomass of the control, presumably by mobilizing P from soil organic matter [76].
+Hence, transgenic deployment of phytase genes can minimize the need for supplemental P in sites with abundant organic material.
+The effectiveness of various phytases in transgenic plants can be improved by increasing the levels of organic acids (citrate, malate, oxalate), which increase the solubility of precipitated phytates in the soil [77].
+Over-expression of the genes for the synthesis of these organic acids have led to inconsistent results in plants [78] but it seems quite possible to obtain a synergistic effect from the simultaneous root-specific production of PHYTASE and organic acids in tree species.
+Potassium
+Potassium (K+) is the most abundant cation in living plant cells where it plays critical roles in various aspects of metabolism and growth [79].
+Membrane transporters facilitate the movement of K+ through plant membranes, but despite the large number of investigations into these genes, their effects on biomass remain largely unexplored.
+The roles of K+ transporters like HAK5 and AKT1 have been elucidated primarily in A. thaliana mutants, where it was found that HAK5 was responsible for uptake at low K+, whilst AKT1 was most active at high K+ concentrations [79].
+Antiporters mediate the exchange of two or more molecules/ions across a membrane.
+A proton (Na+/H+) antiporter gene from A. thaliana was over-expressed in poplar (Populus×euramericana 'Neva') to enhance salt tolerance.
+Under low or high salt (NaCl) concentrations, the transgenic poplar continued to grow well and accumulated more K+ than the wild-type plants.
+The transporter apparently sequestered excess Na+ into vacuoles and improved K+ absorption [80].
+This gene may be useful for plants destined for K+-deficient soils.
+Sulfur
+Sulfur is an essential element that is a major constituent in some plants.
+Glutathione accounts for a significant portion of sulfur content in plants.
+It has important roles in sulfur storage and transport and in the response of the plant to abiotic stress.
+γ-GLUTAMYLCYSTEINE SYNTHETASE is a key enzyme in glutathione biosynthesis.
+Over-expression of GSH1, the gene for γ-GLUTAMYLCYSTEINE SYNTHETASE, in poplar led to poor growth, but the lines with the lowest transgene activity displayed increased growth (height and weight) and better photosynthetic rates than the wild-type plants [81].
+Attenuating transgene activity by using less powerful promoters or gene fusion, for example, may lead to similar results.
+Photosynthesis
+Increasing the photosynthetic efficiency or capacity or recapturing losses from photorespiration should improve biomass yield.
+There are many factors that determine CO2 uptake in crop plants through photosynthesis.
+These include specific aspects of the photosynthetic machinery, carbon flux, photorespiration, photoinhibition, assimilate partitioning, and assimilate utilization.
+Genes that have been used to improve photosynthesis and assimilation of photosynthate are listed in Table 3.
+Photosynthetic machinery
+Most plants are classified as C3 plants because they generate a three-carbon molecule (3-phosphoglycerate) as the first stable product of photosynthesis.
+Some plants, classified as C4, have a more efficient process that produces malate, a four-carbon molecule, as the first stable product of photosynthesis.
+Attempts to directly manipulate the photosynthetic machinery (Table 3) by importing C4 genes into C3 plants [82], modifying RuBisCO [83], or RuBisCO ACTIVASE [84] have generated mixed results with few practical applications.
+This is presumably because C4 plants, in addition to their differences in metabolism, possess anatomical features (i.e., bundle sheath cells) that are absent in C3 species.
+Thus, engineering of C4 metabolism in C3 plants may require the engineering of the entire developmental pathway for the construction of bundle sheath cells.
+Manipulating carbon flux in the Calvin cycle
+SEDOHEPTULOSE-1,7-BISPHOSPHATASE (SBPase) is involved in the generation of pentose sugars.
+It has been shown to be a major control point in the Calvin cycle for CO2 fixation in plants [85].
+Transgenic tobacco plants that expressed FBP/SBPase, a gene for FRUCTOSE-1,6/SEDOHEPTULOSE-1,7-BISPHOSPHATASE (from cyanobacteria), in their chloroplasts had 40-80% greater photosynthetic activity and, consequently, 80% more dry matter than wild-type plants [86].
+The ability of similar genes to improve photosynthesis in tree species should be investigated as well.
+Carbon concentration mechanisms
+RuBisCO evolved before the development of photosynthesis, under CO2 conditions that were much higher than current levels [87].
+Hence, many plants flourish at higher CO2 concentrations [88] and warmer temperatures, so they might be expected to thrive in the future higher CO2 environment that has been predicted with continuing climate change.
+An eight-year study of a deciduous forest confirmed that carbon-enrichment increased net photosynthesis by 42-48% relative to controls [89].
+Similarly, free-air enrichment by supplementary CO2 in field plots increased biomass yield by 15-27% in three poplar genotypes (P. alba, P. nigra, and Populus×euramericana) [90].
+Mechanisms that concentrate cellular CO2 around RuBisCO are found in C4 or CAM (crassulacean acid metabolism) plants [91] that are known for their high capacity to produce biomass.
+Trees with the C3 photosynthetic machinery have benefitted from alternative means of concentrating carbon around their RuBisCO units (see below).
+In cyanobacteria, carbonic anhydrase dehydrates cellular HCO3- to supply CO2 for RuBisCO but research suggests that the activity of carbonic anhydrase is not rate-limiting relative to the activity of RuBisCO in vivo [91].
+Genes involved in carbon-concentrating mechanisms in cyanobacteria, such as bicarbonate transporters (BCT1, SbtA, BicAI), are under study for their probable role in improving photosynthetic yield in C3 plants [92].
+GLYCOLATE DEHYDROGENASE (GDH) is a key enzyme in the glycolate catabolic pathway in Escherichia coli.
+Transgenic A. thaliana that over-expressed bacterial GDH converted glycolate in the chloroplast directly to glycerate and reduced the metabolic flux towards peroxisomes and mitochondria.
+The increased CO2 concentration in the chloroplast enhanced carbon assimilation and increased biomass by about 30% [93] (Table 3).
+This may be a key gene for improvement of photosynthesis in C3 trees.
+Photorespiration and photoinhibition
+Under ambient conditions, about 35% of ribulose-1,5-bisphosphate molecules become oxygenated [94] and generate phosphoglycolate, a strong inhibitor of photosynthetic carbon fixation.
+Photorespiration recycles phosphoglycolate but this process can lead to a 25% loss of carbon captured by the photosynthetic apparatus in plants [95].
+GLUTAMINE SYNTHASE is associated with nitrogen assimilation, but over-expression of conifer GS1 also provides hybrid poplar (P. tremula×P. alba) with a mechanism to manage photorespiration and maintain high rates of photosynthesis (see Section 5.1) [70].
+Photorespiration protects the photosynthetic machinery from photoinhibition and oxidative stress [96].
+Even in cold-adapted evergreen conifers (Picea engelmannii and Abies lasiocarpa), cold-induced photoinhibition has been shown to determine the survival of those growing at the alpine tree-line [97].
+Deciduous hybrid poplar (P. tremula×P. alba) overproducing GLUTATHIONE REDUCTASE in their chloroplasts had increased resistance to photoinhibition at low temperatures (5°C) and high light intensity (1000μmolm-2s-1) [98].
+This ability to fix carbon efficiently under cold but sunny conditions might be useful in increasing the photosynthetic activity of evergreen conifers in winter or even transgenic poplar with delayed or no winter dormancy.
+To minimize potential cold injury to the rest of the cellular apparatus, it may be prudent to co-express this gene with known genes that promote whole-plant resistance to cold stress such as those belonging to the COLD BINDING FACTOR/DRE-BINDING (CBF/DREB) family of transcription factors [99] (see also Section 8.1.1).
+Assimilate partitioning and utilization
+Increasing sink capacity and neutralization of the feedback mechanisms that down-regulate photosynthesis can increase biomass [100].
+Wood consists mainly of cellulose, hemicellulose, and lignin, so actively channeling photosynthate into the production of cell-wall polysaccharides or lignin may improve biomass accumulation in trees [101].
+Cellulose and other polysaccharides
+Improved photosynthesis increases sucrose production but this must be coupled with increased sucrose utilization, storage, or transport to sink tissues to avoid negative feedback regulation [102].
+Increased downstream utilization of photosynthetic products has been shown to increase biomass yield [103].
+Cellulose and hemicellulose account for ∼70% of wood [104] so over-expression of genes that promote cellulose production should have a significant impact on timber production.
+SUCROSE SYNTHASE converts sucrose into fructose and glucose-the latter is the primary substrate for cellulose synthesis.
+Hybrid poplar (Populus alba×P. grandidentata) over-expressing SuSy, the gene for SUCROSE SYNTHASE from cotton (Gossypium hirsutum), had increased carbohydrate content late in the growing season.
+The transgenic plants had increased wood density but the transgene had no effect on the growth phenotype [103].
+SUCROSE PHOSPHATE SYNTHASE is a key enzyme in sucrose synthesis.
+Over-expression of SPS, the gene encoding this enzyme, changed the phenology of transgenic hybrid poplars (P. alba×P. grandidentata), effectively reducing the duration of their winter dormancy period [105].
+The longer photosynthetically productive period resulting from shorter winter dormancy should lead to increased biomass yield.
+These transgenic plants may help clarify the role of carbohydrate reserves in triggering and terminating winter dormancy in deciduous species.
+Plant cellulases (ENDO-1,4-β-GLUCANASE) cleave glucose chains from microfibrils in the cell walls.
+Over-expression of a cellulase gene (CEL1) from poplar (P. alba) in the tropical legume tree, sengon (Paraserianthes falcataria), increased the stem length and girth and leaf chlorophyll content of the transgenic trees [106].
+Poplar (P. tremula) over-expressing the gene for ENDO-1,4-β-GLUCANASE (cel1) gene from A. thaliana had more leaves, as well as longer and thicker main stems with a higher percentage of cellulose and hemicellulose compared to wild type [107].
+Both papers suggest that elevated cellulase may break up the cell wall to a sufficient extent to result in decreased xyloglucan cross-linking and thereby increased turgor-driven cell expansion, consequently increasing cell division and growth.
+Xyloglucan is a hemicellulose that is a major component of wood.
+Xyloglucanases from microbes degrade xyloglucans.
+Poplars (P. alba) over-expressing AaXEG2, a gene for XYLOGLUCANASE from Aspergillus aculeatus, had stems with increased cellulose content and higher specific gravity than wild-type plants.
+In the growth chamber, the transgenic plants grew faster (∼40% greater height increment, 25% more radial growth in 30 days) and they had larger leaves that were 30% heavier (dry weight) than wild-type plants [108].
+However, the transgenic trees grew poorly in field trials, indicating that over-expression of this catabolic enzyme adversely affected plant performance in the field [109].
+These results emphasize that it is crucial to confirm gene function by field-testing for longer durations.
+Increasing sink strength can lead to higher biomass yield.
+PHOTOPERIOD RESPONSE 1 is a gene in potato that has been associated with the accumulation of starch in the tubers.
+Over-expression of the endogenous ortholog of this gene in P. trichocarpa resulted in starch accumulation in stem and roots, and, consequently, significantly more stem and root biomass [110].
+Many of the transgenic plants had malformed root systems that may have contributed to a 50% mortality rate in the greenhouse.
+Subsequently, the survivors were able to develop normal root systems.
+Careful selection for growth and vigor in the greenhouse phase and use of bare-root seedlings for transplanting may help ensure that only plants with satisfactory root systems are planted out in the field.
+Lignin suppression
+Lignin is an integral component of plant cell walls and efforts to reduce its levels or change its composition by molecular means have often generated plants with little potential for increased biomass.
+Table 4 has some of the genes that directly modify lignin content.
+COUMAROYL 3′-HYDROXYLASE is a key rate-limiting enzyme in the biosynthesis of lignin.
+Introduction of hairpin RNAi constructs of C3′H, the gene encoding this enzyme in hybrid poplar trees (P. alba×P. grandidentata), severely inhibited the lignification of cell walls, compromised vascular integrity, and predisposed the tissues to wall failure and cavitation [111].
+This led to a substantial reduction in total plant biomass.
+The enzyme 4-COUMARATE: COENZYME A LIGASE (4CL) catalyzes the ligation of hydroxycinnamic acid precursors for lignin and flavonoid biosynthesis.
+Anti-sense inhibition of 4CL produced taller aspen (P. tremuloides) trees that had significantly lower lignin and higher cellulose [112].
+However, these effects were not correlated with the degree of transcript suppression-similar growth was observed in lines that had moderate or almost undetectable levels of transcripts.
+Efficient suppression of 4CL by double-stranded RNA (dsRNA) retarded the growth of Monterey pine (P. radiata), which apparently was more sensitive to the adverse effects of silencing of this gene than aspen [113].
+This difference may be a reflection of fundamental anatomical differences between angiosperm species, which use vessels for water conduction and fibers for structural strength, and conifers, which use tracheids for both roles [113].
+Lignin suppression in conifers led to tracheid collapse and severely deformed plants.
+However, undesirable effects from suppression of this gene are also observed in angiosperm species.
+Poplar (P. tomentosa) showing 20% reduction in 4CL transcripts grew better after six months in the field than the control or lines with 50% suppression.
+Moderate (<30%) suppression of 4CL expression dramatically improved tree growth [114].
+Hence, it may be worthwhile to evaluate the use of less efficient gene suppression methods, or selecting lines with lower levels of gene silencing when gene suppression leads to undesirable phenotypes.
+For example, anti-sense or co-suppression methods are known to be less effective inducers of post-translational gene silencing than those using "hairpin" RNA constructs [115].
+Similar to such effects resulting from transgenesis, cinnamyl alcohol dehydrogenase (cad) hemizygous null mutant plants showed a 14.1% increase in de-barked volume in year 4 compared to wild-type controls [116].
+Presumably, similar effects could be achieved from CAD RNAi approaches in this and other conifer species.
+Conversely, over-expression of F5H, the gene encoding FERULATE 5-HYDROXYLASE in hybrid poplar (P. tremula×P. alba), generated plants with normal growth phenotypes that produced wood with an increased proportion of syringyl units and improved pulping efficiency [117].
+The wood from transgenic trees with the highest syringyl content was subsequently found to resist fungi causing wood decay [118].
+Most research indicates that manipulating the lignin biosynthetic pathway to reduce or alter lignin can increase the utility of trees for bioenergy, but not total biomass.
+Consequently, genes encoding enzymes for lignin modification, such as F5H, should be coupled with genes for increased biomass in order to obtain a better "bioenergy phenotype".
+Reproduction
+During the course of development, plants shift from a purely vegetative growth phase into the reproductive stage.
+In mature perennial trees, vegetative and reproductive growth occurs in cyclic patterns often influenced by temperature and water availability.
+Developmental events in the plant's life cycle can be manipulated to increase the efficiency of biomass production.
+The effects of some genes affecting flowering and juvenility on biomass and other traits are summarized in Table 5.
+Flowering
+Fruit-crop researchers aim for early flowering for breeding and fruit production.
+A shorter juvenile period will also favor breeding and selection in forest trees.
+TERMINAL FLOWER 1 is a known repressor of flowering in many species.
+Suppression of the endogenous gene in apple (Malus domestica) by dsRNA led to extremely reduced growth and highly precocious flowering and abnormal flowers in vitro [119].
+Follow-up research in forest trees may benefit by using less efficient silencing techniques such as anti-sense constructs to attenuate the negative effects.
+Gene expression in plants can be suppressed in a sequence-specific manner by infection with viral vectors carrying fragments of host genes, a phenomenon that is known as virus induced gene silencing (VIGS) [115].
+An advantage with VIGS approaches is that their phenotypic effects are generally not permanent (but see Section 9 for recent developments in this area).
+In the case of precocious flowering in apple mediated by Apple Latent Spherical Virus (ALSV) vector, the viral construct and its effect on silencing the Terminal Flower 1 (that induced precocious flowering) gradually disappeared in the infected plants, within two years from inoculation [120].
+This phenomenon could have substantial utility in forest tree breeding.
+The MADS box domain is a sequence motif that is conserved in a class of transcription factors that regulate the expression of many genes in many aspects of plant development.
+The MADS4 gene from birch (Betula pendula) induces early flowering in birch and apple.
+Aspen (P. tremula) that over-expressed this gene did not flower early, but the plants had winter senescence/dormancy delayed by up to 10 weeks.
+The transgenic saplings maintained their photosynthetic activity under winter conditions.
+The plants that underwent no- or short-winter dormancy grew taller and produced more leaves than the wild type [4].
+Lack of winter dormancy, coupled with a cold-resistant photosynthetic machinery, may increase biomass yield in frost-free areas (see Section 8.1.1).
+FLOWERING PROMOTER FACTOR 1, a gene that can induce early flowering in several annual species, was over-expressed in hybrid aspen (P. tremula×P. tremuloides).
+It failed to induce early flowering and it produced significantly smaller plants with reduced wood density, lower lignin content, and higher fractions of cellulose and glucomannan [121].
+LEAFY promotes early flowering in A. thaliana.
+Over-expression of PTLF, its homolog in Populus, hastened flowering or gender change in hybrid aspen (P. tremula×P. tremuloides).
+The slow-growing and precociously flowering transformant had a highly branched, bushy habit with significantly smaller leaves [122].
+FLOWERING TIME promotes the transition of the vegetative shoot meristem to a flowering meristem in A. thaliana.
+The transcripts for the FLOWERING TIME 2 homolog in poplar (P. deltoides) are rare in juvenile trees but abundant in mature poplar undergoing reproductive growth.
+Over-expression of this gene induced flowering within a year but it also led to extreme dwarfing [123].
+Over-expression of the genes that promote early flowering have uniformly produced undesirable results from a biomass perspective.
+Suppression of these genes by RNAi may lead to delayed flowering and better early vegetative growth-traits that are desired in short-rotation cropping.
+Many trees require a long period of vegetative growth before they achieve reproductive maturity, after which the trees enter a recurrent cycle of vegetative and reproductive growth.
+Repression of flowering in perennial indeterminate species like snapdragon (Antirrhinum majus) offer insights into how such genes may operate in indeterminate perennial tree species.
+Over-expression of CENTRORADIALIS, originally characterized as a floral repressor in snapdragon, has been shown to delay flowering in a variety of annual plant species.
+Over-expression of a poplar (P. trichocarpa) ortholog of CENTRORADIALIS (PopCEN1) resulted in an almost complete absence of flowering in six-year-old transgenic poplars.
+In contrast, most of their wild-type counterparts had flowered in four years.
+Nevertheless, many poplars do not flower until they are seven years old, so a longer period of observation is needed to fully appreciate the effect of CENTRORADIALIS over-expression.
+The transgenic plants were also characterized by severely disturbed shoot phenology and crown architecture.
+In addition, as the trees grew older, they were noticeably smaller than the wild-type plants.
+This was presumably due to the cumulative effects of repeated delays in spring bud flushes and increased shading by nearby wild-type trees with earlier bud flush [124].
+Proper blocking and replication in field experiments will reduce the bias brought on by possible shading and competition among transgenic lines that are expected to have gross differences in plant phenotype.
+A. thaliana that over-expressed the CORNGRASS 1 microRNA from maize (Zea mays) had extended juvenility and delayed flowering [125].
+Hybrid poplar (P. tremula×P. alba) over-expressing this microRNA displayed increased branching, shorter internodes, and dramatically lower lignin content.
+Significantly, the transgenic plants showed higher sylleptic branching, a trait associated with high biomass yield in poplar [5].
+Updates from this research should clarify whether over-expression of this microRNA will extend the juvenile period of the poplar trees.
+Trees grow fastest during their juvenile stage so poplar with longer juvenile phases may produce more biomass as well.
+A short reproductive (seed to seed) cycle is crucial not only for conventional breeding but also for gene stacking (see Section 9).
+As discussed above, early flowering has been induced by suppressing TERMINAL FLOWER 1 via VIGS.
+Apple plants inoculated with VIGS vectors based on the Apple Latent Spherical Virus (ALSV) for TERMINAL FLOWER 1 produced fruit precociously but became virus-free several months later [120].
+Over-expression of the FLOWERING LOCUS T gene led to flowering two months after bombardment of a virus-mediated over-expression (VOX) construct into apple seedling cotyledons.
+These plants required only seven months to complete a seed to seed cycle and the seed progeny of these inoculated plants were completely virus-free [3].
+These developments may pave the way for the development of inbred lines for the production of true F1 hybrids in trees.
+Reproductive sterility
+At present, researchers in certain jurisdictions are required to cut down their transgenic trees before flowering, to prevent the unwanted spread of transgenes.
+The ideal tree in such jurisdictions would be one that does not flower within the duration of its cultivation cycle.
+This can be attained by significantly delaying maturity (see Section 7.1) coupled with shorter crop cycles or by producing completely sterile trees.
+Complete ablation of the reproductive organs will presumably enable the plant to concentrate its resources to its vegetative structures.
+The cytotoxic BARNASE gene from Bacillus amyloliquefaciens was placed under the control of a flower-specific promoter from the silver birch (Betula pendula) MADS1 gene.
+MADS1 is a transcription factor that is expressed in the inflorescence meristem and it is needed in the formation of floral organs.
+Over-expression of this construct led to the complete ablation of inflorescences in silver birch but this was accompanied by negative pleiotropic effects that led to small leaves, slow growth, and bushiness in most of the transformants [126].
+The negative pleiotropic effects on the shoot phenotype may indicate a "leaky" (i.e., not truly floral-specific) promoter that allowed some expression of the cytotoxic gene in non-target cells.
+It proved impossible to obtain transgenic hybrid poplar (P. tremula×P. alba) expressing BARNASE under the control of the LEAFY promoter in poplar-the authors speculated that substantial expression of this promoter in non-reproductive tissues may be the reason [127].
+A promoter that strictly limits expression to floral tissues coupled with less toxic (mutated) versions of BARNASE [128] may help reduce such negative effects.
+Ideally, the transcription of BARNASE should be strictly limited to reproductive organs.
+Researchers used promoters specific to the various cell types in the female gametophyte to drive the BARNASE gene to attain complete ablation of the egg cell without affecting non-target tissues.
+The resultant A. thaliana transgenics were unable to produce functional ovaries and seed set was completely abolished [129].
+Complete abortion of fruits should allow the tree to concentrate photosynthate into vegetative structures.
+In addition, mature transgenic trees that remain fruitless would allow forestry researchers to evaluate characters such as wood quality or ideotype effects on harvest yield.
+Whilst unable to produce seed, such plants would still produce transgenic pollen which means that, in most jurisdictions, they will have to be destroyed before flowering.
+Transgenic freeze-tolerant Eucalyptus that harbored a cytotoxic BARNASE gene from B. amyloliquefaciens under the control of a P. radiata anther-specific promoter (PrMC2) did not produce pollen six years after planting [130].
+A similar construct prevented pollen formation in hybrid pine (Pinus rigida×P. taeda) scions for at least four years after grafting onto mature P. taeda [128].
+However, these male-sterile trees are still capable of producing seed if fertilized by nearby wild-type pollen.
+Again, such trees would still need to be cut down in many jurisdictions before they set seed.
+In summary, current regulations against the spread of genetically modified organisms are best addressed by complete flower ablation.
+Both male and female reproductive structures need to be ablated by using combinations of more tissue-specific promoters and 'less toxic' (mutated) versions of barnase [128].
+If such "sterile" plants are required for breeding sometime in the future, silencing the barnase gene through transient expression methods such as VIGS [120] may temporarily restore fertility.
+Stress resistance
+Abiotic stress
+The quality and quantity of woody biomass are influenced by environmental factors such as soil fertility, precipitation, and (a)biotic stresses.
+Some believe that climate change will bring severe droughts on a continental scale, whilst the melting of the polar ice caps will increase sea levels and salinity of low-lying areas used for agriculture.
+Imprudent irrigation of arid lands may lead to salinization [131].
+Current and future forest plantations will be impacted by the harsher environmental conditions that are associated with climate change.
+Transgenesis provides a way to equip trees with multiple genes for resistance to abiotic stress that will help them cope with such conditions in the future.
+Some genes that have proven useful in helping the plants survive abiotic stress are listed in Table 6.
+Cold tolerance and winter dormancy
+Low temperature is the major limiting factor for plant growth in winter.
+Plants shut down their photosynthetic apparatus or shed their leaves in order to survive harsh winter conditions.
+Solar energy is sufficiently strong to induce photoinhibition even though it is only available for shorter periods during the winter months.
+In many temperate climes, deep-rooted trees can obtain water for photosynthesis from deeper soil layers, where temperatures are high enough to keep water liquid or from water that seeps near ground level during periodic thaws in winter.
+Hence, except for generally lower temperatures, the main requirements for photosynthesis (water, CO2, and sunlight) are present even in winter.
+Transgenesis might aid in maintaining photosynthesis in frost-free climates in plants that undergo winter dormancy.
+Such climates will presumably extend nearer to the polar regions as a result of global warming.
+Genes that reduce the duration of winter dormancy coupled with genes that protect the plants from the occasional frosts might be useful for deployment in trees destined to be planted in areas that have milder, frost-free winters.
+Shorter day lengths and colder temperatures in autumn are signals for deciduous trees to stop growth, shed leaves, and prepare for the coming winter.
+There are some exceptions such as pear (Pyrus spp.) and apple (Malus spp.) that do not require specific photoperiods for winter dormancy [132].
+Populus was, for a long time, considered to be responsive only to photoperiodic signals but it was recently shown that warmer temperatures modulate growth cessation and dormancy induction in hybrid poplar (Populus×spp.) [133].
+High insolation and cold temperatures result in photoinhibition, which seems to be a key process that limits plant productivity and survival in winter.
+There is a strong correlation in the tolerance for cold-induced photoinhibition and freezing tolerance in winter hexaploid triticale (×Triticosecale) [134].
+Cold-induced photoinhibition limited the ability of snow gum (Eucalyptus pauciflora) to survive and regenerate at the tree line [135].
+Over-expression of master regulators for cold tolerance can produce cold-tolerant leaves and photosynthetic apparatus, including tolerance to photoinhibition in winter.
+Over-expression of two endogenous cold-binding factor/drought responsive element binding (CBF/DREB)1-like genes in rape (B. napus) increased freezing tolerance and improved photochemical efficiency and photosynthetic capacity.
+These transgenics were less affected by photoinhibition induced by low temperatures and high insolation [99].
+Similarly, over-expression of two CBF/DREB genes from Eucalyptus gunnii, a species that can withstand winter temperatures down to -18°C, improved drought and freezing tolerance of a cold-sensitive Eucalyptus hybrid (E. urophylla×E. grandis) [136].
+Tropical E. grandis×E. urophylla expressing a stress-inducible rd29a promoter-CBF2 transcription factor cassette demonstrated stable tolerance to -8°C in a variety of locations through multiple years with no significant loss in productivity [130].
+Glutathione is an antioxidant that has multiple functions in plant stress management.
+Over-expression of the gene encoding GLUTATHIONE REDUCTASE in the chloroplasts of hybrid poplar (P. tremula×P. alba) increased the ability of the leaves to resist cold-induced photoinhibition at high light intensities [98].
+Such genes may play a key role in increasing photosynthetic yield in tree species that have shorter or no winter dormancy.
+Thus, it is possible to extend the duration of photosynthate production well into the cold winter season for evergreen species and for deciduous species that display delayed leaf senescence/dehiscence or minimal winter dormancy.
+Interspecific walnut hybrids over-expressing the rolABC genes had delayed fall dormancy, but the transgenic trees suffered tip die-back after an early frost [51].
+Similarly, hybrid aspen (P. tremula×P. tremuloides) plants expressing the rolABC genes showed little seasonal variation in growth, whilst the wild type plants exhibited winter dormancy [52] (Table 1).
+Such plants would presumably benefit from co-transformation with (CBF/DREB)1-like genes.
+Evergreen trees like conifers react to cold temperatures by substantial suppression of photosynthesis [137].
+Net photosynthesis is completely suppressed in Scots pine (P. sylvestris) under subfreezing conditions but pines photosynthesize for a few hours during 'warm' winter days.
+This indicates that the cold-induced suppression of the photosynthetic apparatus in conifers may be reversed by exposure to relatively warmer conditions during the day [138].
+Winter photosynthesis in red spruce (Picea rubens) is usually low in Vermont (USA) but it increases significantly at intermittent thaws during the winter season [139].
+The adaptability of the photosynthetic apparatus in these conifers indicates a strong potential benefit for transgenic manipulation to engineer cold-tolerant adaptations for photosynthesis at near-freezing conditions.
+PATHOGEN AND FREEZING TOLERANCE-RELATED PROTEIN 1 (PF1) is an ERF/AP2 transcription factor associated with cold tolerance in Capsicum annuum.
+Compared to wild-type plants, eastern white pine (P. strobus) over-expressing PF1 had higher survival rates after exposure to extreme drought, freezing, or salt stress with no adverse effects on growth and morphology.
+The PF1 gene, controlled by the 35S promoter, apparently helped maintain polyamine levels under drought, freezing, and salt stress.
+Polyamines including putrescine, spermidine, and spermine are polycationic compounds that have been implicated in tolerance to multiple abiotic stress factors [140].
+By contrast, polyamine levels in wild-type plants significantly decreased after exposure to these stress factors.
+Constitutive production of polyamines had no apparent negative effect on growth [141].
+Winter temperatures are gradually increasing due to climate change.
+It may be prudent to engineer deciduous species that are less responsive to short day length and cold temperatures to shorten their leafless period.
+Hybrid aspen (P. tremula×P. tremuloides) over-expressing the FLOWERING LOCUS T (FT) gene from P. trichocarpa displayed an early flowering phenotype and continued to grow even when exposed to short-day conditions that precede winter [142].
+However, these plants performed poorly from a biomass perspective, so other genes may be more useful for this purpose.
+Overproduction of SUCROSE PHOSPHATE SYNTHASE in hybrid poplar produced trees with a phenology that included a delayed onset of senescence in autumn and earlier bud flush in spring [143].
+This presumably increased their photosynthetically productive period on an annual basis.
+Heat tolerance
+Temperatures above 30°C adversely affect photosynthesis in C3 plants.
+In Japan, leaf temperatures of conifers, deciduous trees and evergreens ranged from 36 to 40°C in late summer [144].
+Hence, tree leaves are regularly exposed to high temperatures detrimental to photosynthesis particularly (but not only) during summer days.
+SEDOHEPTULOSE-1,7-BISPHOSPHATASE (SBPase) was discussed (in Section 6) in relation to increased photosynthesis.
+Over-expression of the gene encoding this enzyme prevented the sequestration of RuBisCO activase and improved CO2 assimilation in rice seedlings undergoing high temperature stress [145].
+Very young Virginia pine (P. virginiana) saplings can be killed by brief exposure to 48°C.
+Heat exposure of young P. virginiana over-expressing an ERF/AP2 transcription factor (PF1) from pepper (C. annuum) led to 40% mortality, but the control suffered 90% mortality [146].
+Drought tolerance
+Continental droughts and/or salinization may occur as consequences of climate change [147].
+In some forest ecosystems, elevated tree mortality rates have been associated with global trends in warming and drought [148].
+Marginal arid areas that are prone to salinization require reforestation species with enhanced tolerance to drought and salinity [2].
+The photosynthetic process in C3 trees is adversely affected when water stress leads to stomatal closure under high insolation.
+Hybrid poplar (P. tremula×P. alba) that over-expressed cytosolic GLUTAMINE SYNTHASE from pine (P. sylvestris) displayed higher net photosynthetic rates before, during, or after exposure to transient water stress [149].
+Apparently, the greater photorespiratory activity in the transgenic lines provided protection against high light exposure during water stress.
+Leaf architecture, including shape, size, stomatal density, cuticle composition, etc., plays a major role in how plants survive water stress.
+Lipid biosynthesis determines the production of wax for deposition on leaf cuticles and jasmonates that participate in stress signaling.
+Hybrid poplar ((P. deltoides×(Populus×euramericana)) over-expressing a fatty acyl-acyl carrier protein thioesterase from wintersweet (Chimonanthus praecox) had normal growth phenotypes under non-stressed conditions, but they grew much better and produced much higher levels of oxygen scavengers than wild-type plants under PEG-induced water stress.
+Wild-type plants showed growth retardation and leaf curling under similar conditions [150].
+Poplar (P. alba) that over-expressed DnaK/HSP70, a gene encoding a molecular chaperone from the salt-tolerant cyanobacterium Aphanothece halophytica, exhibited improved photosynthesis, as well as increased leaf size and plant growth under normal conditions.
+The transgenic lines recovered well after exposure to drought stress, whereas the wild-type plants either recovered poorly or died after treatment.
+The transgenic plants also exhibited resistance to high light intensities, salt, and cold stress [151].
+Plants that accumulate more osmolytes are better able to respond to osmotic stress.
+Paper mulberry (Broussonetia papyrifera) plants that over-expressed the Na+/H+ antiporter 5 (NHX5) gene from A. thaliana had increased levels of proline and sugars that enabled them to better tolerate drought and salinity stress [152].
+Transgenic poplar (Populus×euramericana 'Guariento') was co-transformed with SacB, a gene for levansucrase that has been associated with drought tolerance, along with other stress tolerance genes (vgb, BtCr3A, JERF36, and OC-1).
+The resultant multi-genic transformants exhibited superior shoot growth, greener leaves, and better developed root systems than the control after exposure to extended drought.
+Under drought stress, the transgenic plants displayed vigorous growth while the wild-type plants shed most of their leaves and produced less root biomass [153] (see Section 9 for a description of these genes).
+Salt tolerance
+Manipulation of cation transporters can confer tolerance to soil salinity.
+Poplar (Populus×euramericana 'Neva') over-expressing the Na+/H+ antiporter gene NHX1 from A. thaliana had improved growth and photosynthetic capacity under salt stress (150mM NaCl) compared to wild-type plants [80].
+An apple gene for SPERMIDINE SYNTHASE (SPDS1) endowed transgenic pear (P. communis 'Ballad') with strong resistance to osmotic, salt, and heavy metal (copper) stress [140].
+Ethylene-responsive transcription factors (ERFs) play major roles in stress signaling in plants.
+Hybrid poplar over-expressing the JASMONIC ETHYLENE RESPONSIVE FACTOR (JERF) transcription factor gene from tomato (Solanum lycopersicon) were significantly taller than control plants even without salinity stress (Table 6).
+The transgenic plants were 30% taller and produced twice as much biomass than the control at a concentration of 300mM NaCl [154].
+Over-expression of JERF36 and four genes for stress tolerance (vgb, SacB, Cry3A, and OC-1, see Table 8) produced hybrid poplar (Populus×euramericana 'Guariento') plants that were able to tolerate salt levels as high as 135mM NaCl, growing 60% taller, producing greener leaves, and more extensive root systems.
+Their shoot and root biomasses were 35% and 780% heavier than the wild type [153].
+Oxidative stress
+Reactive oxygen species (ROS) such as oxygen ions and peroxides damage plant tissues, leading to loss of function and cell death.
+Low concentrations of paraquat (herbicide) are used to test the resistance of leaf discs to oxidative stress.
+Hybrid poplar (P. tremula×P. alba), with increased tolerance to oxidative stress due to over-expression of GLUTATHIONE REDUCTASE, also became resistant to 2μM paraquat [98].
+NUCLEOSIDE DIPHOSPHATE KINASE 2 regulates antioxidant gene expression in plants.
+Hybrid poplars (P. alba×P. glandulosa) over-expressing this gene had greater antioxidant (catalase, peroxidase) activity and increased tolerance to 1μM paraquat.
+Furthermore, the plants had significantly more branches and thicker stem diameters during the first six months of growth in the field [155].
+This indicates that over-expression of NUCLEOSIDE DIPHOSPHATE KINASE 2 reduces the adverse effects of ROS on plant tissues and growth.
+Plants, however, also rely on the generation of ROS to counteract pathogen incursions so transgenic plants that suppress ROS production need to have alternate ways of coping with inevitable microbial infections.
+Peroxidases oxidize various compounds in the presence of hydrogen peroxide (H2O2).
+Class III peroxidases oxidize reducing agents, catabolize auxin, actively participate in wound healing and lignin biosynthesis, etc.
+Hybrid poplar (P. sieboldii×P. grandidentata) that over-expressed prxC1a, a class III horseradish peroxidase, had enhanced growth and were resistant to oxidative stress [156].
+The leaves of the transgenic plants were resistant to a high level (1mM) of paraquat-a dose that was clearly toxic to the wild-type leaves.
+This trait may be useful in the creation of forest trees tolerant to herbicide applications (Section 8.2.3).
+Biotic stress
+The increasing frequency of extreme climatic conditions associated with climate change has the potential to weaken forest trees and predispose them to biotic threats.
+Providing transgenic trees with genes for resistance to a wide variety of potential biotic threats could be a prudent strategy to assure a measure of stability in perennial tree plantations.
+Plant-pest interaction is a co-evolutionary process involving the creation of novel defensive traits by plants and the pertinent countermeasures by pests [157].
+In this 'arms race', transgenes are akin to novel defenses that the pest can surmount only after several generations of selection pressure.
+One potential strategy is to equip transgenic trees with genes targeted at potential pests that may not yet be present in the target planting sites.
+For example, beetle pests are not a problem in Australia's or New Zealand's pine industries, but it is not far-fetched to imagine that, sometime in the future, a gravid pine beetle (e.g., Dendroctonus spp.) may pass through their biosecurity screening procedures and devastate the more than two million hectares of Monterey pine plantations in these two countries.
+Table 7 contains a list of genes that have endowed plants with resistance to biotic adversaries.
+Insect resistance
+Insects and their host plants co-exist and co-evolve in natural populations.
+Insect pest populations are usually kept in check by natural control mechanisms but, occasionally, devastating outbreaks occur.
+Increasingly warm conditions allow pest species to survive in previously colder locations where native tree species have not evolved the appropriate defenses [158].
+Greater openness and speed in global transport and trade dramatically increase the probability of accidental introduction of novel pests.
+In some cases, insect populations may persist at high infestation levels for considerable periods due to the widespread availability of hosts made more susceptible by abiotic stress.
+Mountain pine beetle (Dendroctonus ponderosae) and its fungal symbionts (e.g., Grosmannia clavigera) have destroyed ∼16 million hectares of lodgepole pine (P. contorta) forests in western Canada and northwestern USA [159].
+The poplar looper (Apocheima cinerarius) and gypsy moth (Lymantria dispar) damaged about 40% of the total poplar plantation in China in 1989 [160].
+Controlling such wide-scale infestations with insecticidal sprays is neither practical nor economical.
+Long-lived trees have an array of physicochemical defense mechanisms but they also serve as hosts to myriad pests that have co-evolved to overcome such defenses.
+Conifers have an array of putative defensive structures (e.g., resin ducts) and chemicals (terpenoids) that have little negative effect on the adapted herbivores.
+Pine beetles use the terpene components of the defense response of conifers as semiochemicals or as pheromone precursors to summon kindred pests to the wounded target [159].
+However, pests that evolved in angiosperm hosts may have greater difficulty with defense resistance if their hosts are engineered to over-express a variety of defense-related genes from gymnosperms, i.e., the gymnosperm genomes are an unexplored resource of genes that may be useful in improving the defense capabilities of angiosperms (and vice versa).
+Polyphenol oxidases are active in the browning reaction to tissue injury.
+Annual species engineered to over-express such genes have demonstrable resistance to bacterial pathogens.
+Larvae of the forest tent caterpillar (Malacosoma disstria) had higher mortality rates when fed with leaves of hybrid aspen (P. tremula×P. alba) over-expressing a gene for POLYPHENOL OXIDASE from hybrid poplar (P. trichocarpa×P. deltoides) [161].
+However, a subsequent study failed to substantiate the efficacy of POLYPHENOL OXIDASE on tree-feeding caterpillars so the researchers suggested the need for more stringent and reliable tests to back up similar claims [162].
+These conflicting results emphasize the need to verify gene activity at various stages of the plant's life, from in vitro cultivation to growth in the field.
+Bacillus thuringiensis (Bt) is a bacterium that produces a wide variety of δ-endotoxins, toxic polypeptides that are activated within the guts of insect herbivores.
+The individual crystalline δ-endotoxins produced by Bt strains are poisonous to specific orders of Insecta (lepidopterans, dipterans, coleopterans, hymenopterans) and nematodes [163].
+Hence, simultaneous over-expression of several Bt toxins should produce a tree that would be poisonous to many insect herbivores that are likely to attack the host.
+Constitutive expression of a gene for resistance to a negligible pest population may constitute an undesirable metabolic load that can affect biomass.
+Nevertheless, any yield penalty that may be due to the overproduction of a foreign gene will be negated by much lower damage from actual herbivory at higher pest infestation levels.
+For example, hybrid aspen (P. tremula×tremuloides) producing a modified cry3Aa endotoxin were slightly shorter than wild-type plants in the absence of a leaf beetle (Phratora vitellinae).
+The Bt hybrid aspen grew taller than wild-type trees when beetle populations were high enough to cause significant damage by herbivory [164].
+Hence, the slight adverse effect of producing Cry endotoxins on growth is more than offset by the much lower losses in case of significant pest infestation.
+Four-year-old wild-type cottonwood (P. trichocarpa) suffered significant defoliation at normal infestation levels of the leaf beetle (Chrysomela scripta).
+The wild-type trees had a net growth that was 13% less than those over-expressing the cry toxins from Bt.
+The trees producing the Cry3A toxin had very low feeding damage [165].
+Eucalypts over-expressing a sequence-enhanced version of cry3Aa produced leaves that were toxic to three beetle species [166].
+P. radiata producing the Cry1Ac toxin were resistant to feeding damage caused by larvae of the painted apple moth (Teia anartoides) [167].
+In China, poplar (P. nigra) over-expressing Cry1A reduced leaf-damage due to the geometer moth (Apocheima cinerarius) and clouded drab moth (Orthosia incerta) to a point where insecticide sprays were deemed unnecessary [160].
+Continuous production of any single insecticidal toxin in widely planted transgenic perennials will inevitably lead to the evolution of tolerant insect populations.
+Based on the co-evolution concept, pest populations are expected to take a longer time to evolve mechanisms that can overcome multiple genes that are active in different metabolic pathways and originating from very distantly related species.
+Hence, it is prudent to generate transgenic trees that have an array of resistance genes for use against known pests.
+For example transformation of P. radiata in New Zealand with the Cry3A gene among other resistance genes will prepare them for a potential incursion of the mountain pine beetle (D. ponderosae), which has devastated large swathes of the pine forest in the United States and Canada.
+As these transgenics will need to survive in the field for several decades, engineering of multiple resistance traits into tree genomes will provide a measure of security from sudden and unexpected pest outbreaks.
+Hybrid triploid poplars (P. tomentosa) over-expressing a TRYPSIN INHIBITOR from cowpea were resistant to lepidopteran defoliators such as Stilpnotia candida, Lymantria dispar, and Malacosoma disstria.
+Insect larvae feeding on the foliage of these transgenic poplars had reduced growth and increased mortality [168].
+Leaf beetles (Plagiodera versicolora) fed with leaves from transgenic hybrid poplar (Populus×euramericana 'Guariento') that produced cry3A (insect toxin) in addition to other stress-related genes (vgb, SacB, JERF36, and OC-1) had a higher mortality rate than those feeding on control leaves [153].
+Molecular modification of known insecticidal genes can extend the variety, range, and efficacy of these toxins as well.
+Leaves of poplar (P. simonii×P. nigra) over-expressing novel toxins from the fusion of a toxin gene from a spider (Atrax robustus) and cry1A(b) [169] or a toxin gene from a scorpion (Buthus martensii) fused to the gene for chitinase (chit) [170], have also proven to be toxic to their respective test insects (see Table 7).
+Fusing a chitin-binding domain from silkworm (Bombyx mori) onto the endochitinase gene from Beauveria bassiana made the fused protein more potent against insects than the wild-type protein [171].
+Transgenic plantation forest trees that produce a variety of insecticidal compounds will create a smaller environmental impact compared to wild types that need extensive aerial sprays of insecticides during outbreaks.
+This multi-faceted approach should retard the rise of a pest that can overcome the multiple resistances built into the transgenic trees.
+Furthermore, trees generating multiple insecticidal compounds may benefit from possible synergistic effects on toxicity to the target pests.
+For example, leaves of poplar clone 741 (P. alba×(P. davidiana×P. simonii)) expressing Cry1Ac or Cry3Aa are toxic to Hyphantria cunea or Plagiodera versicolora, respectively.
+Leaves from poplar producing both endotoxins were more toxic to either pest, indicating a synergistic effect of ectopic co-expression of these two bacterial genes [172].
+Pathogen resistance
+Fungal pathogens
+Plants react to pathogen attack by producing pathogenesis-related proteins with antimicrobial functions (chitinases, β-1,3 glucanases, proteinase inhibitors and peroxidases).
+The various plant responses are coordinated at the cellular level by genes that control the pertinent signaling pathways.
+Salicylic acid is an important signal molecule in the response of plants to pathogen attack.
+NON-EXPRESSOR OF PR1 (NPR1) is a salicylic acid receptor that is a key player in systemic acquired resistance in plants.
+Over-expression of the endogenous NPR1 homolog in apple generated transgenic plants resistant to two major fungal pathogens, Venturia inaequalis and Gymnosporangium juniperi-virginianae [173].
+Cytospora chrysosperma is a fungus that causes stem canker in wild-type poplar.
+Chitin is an important component of fungal and insect cell walls.
+Beauveria bassiana, on the other hand, is a fungus species that attacks a wide variety of insect pests.
+This fungus produces an endochitinase that, when purified, is apparently effective against a wide variety of fungal pathogens as well.
+Up to 40% of Chinese white poplar (P. tomentosa) over-expressing an endochitinase gene (chit1) from B. bassiana had almost complete resistance to Cytospora [174].
+The LEAF COLOR (Lc) gene from maize is a bHLH transcription factor that is associated with the biosynthesis of flavonoids, a class of plant metabolites with members that participate in resistance to pest attack.
+Apple over-expressing this gene had higher resistance against Erwinia amylovora and Venturia inaequalis.
+Unfortunately, the plants had poor shoot regrowth after pruning and produced malformed leaves with necrotic lesions typical of a hypersensitive response even in the absence of pathogens [175].
+Better results may potentially be obtained by coupling this gene to a promoter of a gene associated with signaling during the earliest stages of pathogenesis.
+Syringyl-rich wood of poplars (P. alba×P. tremula) over-expressing the gene for FERULATE 5-HYDROXYLASE from A. thaliana had a high level of resistance to brown and white rot fungi causing wood decay.
+The high syringyl/guaiacyl ratio in these transgenic trees may have affected lignin structure and susceptibility to oxidizing agents released by the fungal colonizers [118].
+This gene may be useful in conifers, which normally do not have genes for syringyl lignin.
+This may also have significant implications in wood treatment in the lumber industry, which currently uses large amounts of noxious copper-based biocides.
+Many of the aforementioned genes for resistance are effective only against a very limited range of pathogens.
+The gene for an antimicrobial protein, AMP2, is a non-specific lipid transfer protein from mint-related motherwort (Leonurus japonicas).
+Chinese white poplar over-expressing AMP2 had significantly milder disease symptoms due to Alternaria alternata and Colletotrichum gloeosporioides compared to wild-type plants [176].
+Transgenic poplar over-expressing both chit1 and AMP2 were significantly more resistant to A. alternata than single gene transformants and wild-type trees [177].
+Thus, the possible synergistic effects of the introduction of multiple genes for resistance may help the plant cope with a wider variety of pathogens in the field.
+Bacterial pathogens
+NON-EXPRESSOR OF PR1 binds to salicylic acid and plays a major role, through the activation of the salicylic acid pathway, in systemic plant defense.
+Plants that over-express NPR1 have high levels of pathogenesis-related proteins that make them resistant to pathogens.
+Apple trees that over-expressed an NPR1 homolog had much lower shoot infection rates after inoculation with Erwinia carotovora, in addition to having significant resistance to two fungal pathogens in apple (see Section 8.2.2.1) [173].
+Citrus (C. paradisi and C. sinensis) over-expressing the NPR1 gene from A. thaliana had significant resistance to the canker pathogen Xanthomonas citri subsp.
+citri [178].
+Over-expression of ethylene responsive transcription factors has endowed resistance to various stress factors in many plant species.
+Virginia pine (P. virginiana) over-expressing an ERF/AP2 transcription factor (PF1) from pepper was tolerant to Bacillus thuringiensis and Staphylococcus epidermidis.
+In addition to superior shoot growth in vitro, the plants were also tolerant to heat stress and heavy metals such as cadmium, copper, and zinc [141].
+Genes with a variety of positive pleiotropic effects are prime candidates for testing in other crop species.
+Polyamines, like spermidine, have fundamental roles in the regulation of many cellular and physiological processes in plants.
+As discussed above, high levels of spermidine via transgenesis have conferred resistance to many abiotic stress factors (see Section 8.1.5).
+A role in biotic stress was also demonstrated by ectopic expression of the apple gene for SPERMIDINE SYNTHETASE (SPDS1) in sweet orange, which reduced susceptibility to canker caused by Xanthomonas axonopodis pv.
+citri.
+Upon bacterial challenge, the increased production of polyamines triggered a hypersensitive response and activation of defense-related genes [179].
+Pathogenic bacteria secrete elicitors that are necessary for pathogenesis in host cells.
+Erwinia carotovora produces hrpnN, a gene that encodes a harpin elicitor that causes the expression of a hypersensitive response in host cells.
+Over-expression of this harpin gene in pear significantly reduced susceptibility to E. carotovora [180].
+Apparently, constitutive expression of this bacterial elicitor stimulated defense mechanisms that enabled the transgenic pear (developed from the highly susceptible cultivar "Passe Crassane") to resist Erwinia more effectively.
+This technique would be primarily useful in host species that possess well-developed resistance mechanisms against pathogenesis.
+Synthetic antimicrobial peptides like D4E1 can inhibit the germination of microbial spores.
+Hybrid poplars (P. tremula×alba) over-expressing D4E1 became resistant to Xanthomonas populi pv.
+populi causing bacterial canker but they remained susceptible to Hypoxylon mammatum, which causes fungal canker [181].
+Molecular modification of the DNA sequences encoding these antimicrobial peptides could be a way of generating a practically limitless supply of candidate peptides to target microbes.
+Weed competition and herbicide resistance
+Unwanted plants present a major problem in forest plantations during the early stages of establishment or after coppicing, when fast-growing weed species can outgrow the slower growing/regenerating trees [182].
+Transgenes that accelerate tree growth must be an important component of weed management because trees that attain early canopy closure will shade out understory weeds earlier and require less intervention in the form of weed control.
+However, it is unlikely that transgenesis can boost tree growth rates to fully outpace the growth of annual weeds, so there is always a need for human intervention through physical or chemical methods of weed control.
+In places where labor costs are prohibitive, non-selective herbicide application is the method of choice to deal with unwanted plants in the forest.
+Glyphosate is the most widely used non-selective and systemic herbicide.
+It inhibits 5-ENOYLPYRUVYLSHIKIMATE-3-PHOSPHATE SYNTHASE (EPSPS) and, consequently, interferes with the synthesis of aromatic amino acids.
+Glyphosate resistance has been engineered into a wide variety of crops to facilitate weed management.
+Hybrid Populus (P. tremula×P. alba, P. trichocarpa×P. deltoides, P. tremula×P. tremuloides) over-expressing EPSPS from Agrobacterium strain CP4 for resistance against glyphosate suffered little damage even after exposure to a rate of 3.9kg of glyphosate.per hecatre (Table 7) [183].
+Glyphosate-resistant European larch (Larix decidua) was created by over-expressing bacterial aroA, a less effective gene that makes plants insensitive to much lower dosages (e.g., 0.6kgha-1) of glyphosate [184].
+Glufosinate (phosphinothricin) is a non-selective systemic herbicide that interferes with glutamine biosynthesis and detoxification of ammonia.
+PHOSPHINOTHRICIN ACETYL TRANSFERASE (bar) from Salmonella breaks down glufosinate.
+The bar gene has been used to produce a variety of transgenic herbicide-resistant forestry species such as Eucalyptus camaldulensis [166], Populus alba [185], Quercus suber [186], P. radiata, and Picea abies [187].
+Pine (P. radiata) and Norway spruce (P. abies) over-expressing the bar gene survived sprays equivalent to a dose of 4kg of glufosinate per hectare.
+The non-transgenic controls died within eight weeks of spraying [187].
+Chlorsulfuron is a systemic sulfonylurea herbicide that blocks the biosynthesis of isoleucine and valine and it is recommended for use against broadleaf weeds.
+A mutant gene for ACETOLACTATE SYNTHASE from A. thaliana allows the synthesis of isoleucine and valine even after exposure to sulfonylurea and imidazolinone herbicides.
+Over-expression of this gene in hybrid cottonwood led to resistance to chlorsulfuron [188].
+Widespread use of glyphosate has led to the rapid emergence of glyphosate-resistant weeds worldwide [189].
+Simultaneous development of resistance to herbicides with different modes of action is expected to be rare but it has happened: two ryegrass (Lolium rigidum) populations from Italian olive groves sprayed regularly with glyphosate were resistant to glyphosate but one population was also resistant to another herbicide, fluazip, which disrupts lipid synthesis [190].
+Nevertheless, it is still worthwhile to equip forest trees with gene-based resistance to more than one herbicide, to allow herbicide rotations and to foil the possible spread of, say, glyphosate-resistant weed species from horticultural sites into forest plantations.
+In annual crops, there is a current effort to incorporate resistance to both glyphosate and the herbicide 2,4-D, to counter the emergence of glyphosate-resistant weeds [191].
+An integrated approach will help mitigate problems associated with unwanted plants in managed forests.
+This could include boosting plant growth by breeding, transgenesis, and fertilizers; closer planting to attain early canopy closure; introduction of multiple genes for herbicide resistance to allow herbicide rotation; proper timing of spray applications to seasons or growth stages when the trees become naturally resistant to herbicides, etc.
+Multi-trait improvement
+Molecular strategies targeting multiple traits
+Researchers have collectively evaluated a large collection of genes with proven conserved functions across species.
+This constitutes a 'toolbox' that molecular engineers can use to customize trees for specific field conditions.
+The current practice in transgene deployment deals with one gene or one trait at a time, and this may be partially due to regulatory requirements that obstruct the beneficial use of transgenesis in agriculture and forestry.
+A holistic approach that will simultaneously add or improve several traits will likely be more effective.
+Pleiotropic effects, or the simultaneous (positive or negative) effects of a given gene on more than one apparently unrelated trait, can confound the eventual utilization of some genes.
+For example, increasing the activity of cytokinin pathways by transgenesis has resulted in branch proliferation and poor rooting [40].
+Over-expression of OsDREB1 homologues of rice has enhanced resistance to cold and salinity stress in A. thaliana and rice at the cost of severe growth retardation [192].
+It is therefore necessary to evaluate transgenes for pleiotropic effects to make sure that these are either desirable or tolerable.
+The need to minimize negative pleiotropy, coupled with the "single-gene clean" regulatory requirements in some countries, has contributed to a "one gene-one trait" approach because the latter produces transgenics that are much easier to evaluate and regulate.
+However, the multi-faceted objectives of crop improvement are likely best addressed by simultaneous deployment of many genes.
+In this review, 'gene stacking' refers to hybridization of stable transgenic genotypes that over-express different transgenes by breeding to combine desired traits.
+Gene stacking can overcome some of the limitations of the "one gene - one trait" approach, which is currently prevalent.
+Gene stacking has been successfully implemented in annual crops such as maize which now have commercial varieties featuring multiple stress-tolerance traits that were generated by intercrossing transgenic lines, e.g., Agrisure® Duracade™ 5222.
+This cultivar has transgenes for tolerance to glufosinate and glyphosate herbicides and resistance to coleopteran and lepidopteran insects (https://www.isaaa.org/gmapprovaldatabase/default.asp).
+In silviculture, this is a viable option only in very few tree species with short reproductive cycles and a collection of transgenic lines expressing single genes.
+However, this situation could change with the realization that gene stacking can be facilitated by co-introduction of VOX cassettes for early flowering.
+Apple plants inoculated with VOX vectors produced fruit precociously but became virus-free several months later (see Section 7.1) [193].
+Early flowering by transgenic techniques will be the key technology that may allow, within a reasonable time-frame, the generation of (partly) inbred lines that can produce more uniform hybrid tree progenies.
+As discussed earlier, researchers have successfully reduced the seed to seed cycle in apples to seven months [3].
+This generation time is only a few months longer than those of annual crops with established inbred-F1 hybrid breeding programs.
+These transgenic techniques have now made it possible to establish a breeding strategy based on the hybridization of inbred (or transgenic) lines in tree species not only to produce true "F1 hybrids" but also to facilitate gene stacking.
+Nevertheless, the outcrossing nature of most forest species will limit the utility of gene stacking.
+Crossing transgenic lines developed from a single heterozygous genotype from an outcrossing species will lead to various levels of inbreeding depression (see below).
+Using transgenic lines developed from various heterozygous genotypes will lead to recombination and possible reversion to the mean in traits other than those modified by the transgenes.
+The severity of inbreeding depression will depend largely on the natural mating system (selfing, outcrossing, or mixed) of the species [194].
+Reports on the production of partially inbred populations from a variety of tree species have revealed slight [195-197] to high [198-200] levels of inbreeding depression.
+Except for seed abortion (probably due to recessive lethal alleles), the inbred plants were able to attain reproductive maturity, which is the prerequisite for further inbreeding and purifying selection.
+Similar to their annual counterparts, the "inbred" tree lines are expected to be less vigorous than their hybrid progeny.
+In contrast to single gene transformation followed by gene stacking, 'multi-gene engineering' involves the simultaneous introduction of several genes in a single transgenic event.
+Multi-gene engineering has extended plant metabolic pathways, producing a spectrum of valuable compounds such as multiple β-carotenoids or potential psychoactive carbolines [201-203].
+It can accelerate the introduction of desirable traits which is particularly important in tree species with long reproductive cycles.
+Multi-gene engineering has been successfully implemented in trees (see Table 8).
+Cold-resistant and pollen-sterile transgenic Eucalyptus were created by simultaneously introducing CBF2/DREB1C, a master controller of the salinity and cold responses, and a cytotoxic barnase targeted for expression in pollen, through Agrobacterium-mediated transformation [130].
+Simultaneous introduction of the genes for a glycolate catabolic pathway from E. coli, viz., GLYCOLATE DEHYDROGENASE (GDH), GLYOXYLATE CARBOLIGASE (GCL) and TARTRONIC SEMIALDEHYDE REDUCTASE (TSR), into A. thaliana using co-transformation and stacking, improved photosynthetic efficiency and increased biomass [93].
+Despite the utility of such an approach, the simultaneous introduction of a number of transgene constructs is severely limited in current implementations of Agrobacterium-mediated transformation, particularly when the transgenes are introduced via separate plasmids.
+For example, the functional genomics strategy known as 'Fox Hunting' involves mixing A. tumefaciens cultures containing expression plasmids with individual gene inserts from entire transcriptomes (>10,000 genes).
+Fox Hunting has been used in floral dip transformation of A. thaliana [204] or Agrobacterium-mediated transformation of friable rice calli [128].
+This strategy produced thousands of transformant lines with predominantly (>50%) single inserts.
+Although based on a small sample population of 51 disease-resistant rice lines, 74.5% had single inserts whereas only 15.6% had more than two genes in one insertion locus [204].
+For tree species that respond best to Agrobacterium-mediated transformation, binary vectors containing multiple expression cassettes could be one way of obtaining multiple traits from several unrelated genes in a single transformation event.
+For example, a tandem construct containing expression cassettes for a mutant anthranilate synthase and tryptophan decarboxylase enabled rice transgenics to produce large quantities of tryptophan derivatives including psychoactive carbolines [203].
+Independent minimal expression cassettes can be excised from their host plasmids, concatenated and then cloned to produce multi-gene cassettes in one plasmid.
+Eight genes essential for the establishment of Rhizobium symbiosis were inserted into a plasmid in their genomic context (i.e., including promoter, exon, intron, and terminator).
+Using such cassettes, multi-gene transformants were obtained in strawberry (Fragaria×ananassa), poplar, tomato and tobacco [205].
+From a breeder's viewpoint, a major advantage of this approach is that the linked gene expression cassettes are inherited as a single locus.
+This is especially important in plant species that are inefficient in producing transgenics via Agrobacterium-mediated transformation.
+A major limitation is that A. tumefaciens vectors such as the pHUGE-Red plasmid vector can accommodate only a limited number of genes [205].
+A major advantage of Agrobacterium-mediated transgenesis using binary vectors containing multi-effector gene cassettes is that it will generally result in transgenic plants with the same set of genes.
+By contrast, the 'multi-trait' strategy outlined in Fig. 1 is expected to generate a transgenic population varying in the composition and number of genes, relative to the original set of bombarded genes.
+A powerful promoter controlling fusions of two or more genes in tandem can drive the simultaneous expression of the fused genes.
+This phenomenon has been exploited to produce cold-tolerant A. thaliana with enhanced growth, by fusing isopentenyl transferase (ipt) to the tail end of a CaMV35S-galactinol synthase construct [33].
+The transgenic plants exhibited cold resistance due to galactinol synthase and improved growth due to ipt moderately increasing cytokinin levels.
+The reduction in expression levels of the second gene is due to interference from the internal untranslated nucleotides between the fused genes and the terminal codon of the first gene (i.e., Kozak's ribosome screening model).
+This limits the utility of this method to a very few genes for each construct [33].
+Several reports highlighting the use of multi-gene engineering for plants are summarized in Table 8.
+Some of the early studies were aimed at introducing the genes for entire photosynthetic pathways (see Section 6) or parts of biosynthetic pathways such as that for Vitamin A in "Golden Rice 2" [206].
+On the other hand, researchers in tree improvement aim for a variety of traits (e.g., biomass, stress resistance) that are under the control of a number of independent genes acting in different pathways.
+Such multi-faceted objectives may require the simultaneous introduction of many genes.
+Biolistic transformation has been shown to generate maize plants with more than 100 copies of transgenes inserted into their genome [207].
+Introduction of a large number of genes by biolistic transformation is arguably a more efficient way of generating elite genotypes endowed with a variety of desirable traits.
+Efficient transformation systems that can introduce more genes with each 'transformation event' are required to increase the chance of obtaining transformants possessing most of the transgenes.
+Multi-gene engineering using biolistic transformation for the transfer of whole metabolic pathways was the subject of a recent review [208].
+Rice calli bombarded with 14 expression cassettes for markers in independent plasmids generated plants that had 2-13 of the genes in one or two loci.
+Most of the transgenic lines harboring multiple transgenes grew normally.
+There was no correlation between sterility and the number of integrated transgenes [209].
+The low number of integration sites is probably due to efficient DNA repair mechanisms that ensure that double strand breaks are highly transitory and are present at low frequency [208].
+Plants generated after particle gun bombardment with multiple genes will probably possess many, if not all of the set of genes in one or two chromosomal sites due to co-integration enforced by efficient DNA repair mechanisms [208,209].
+It is quite possible that there are other factors that affect this integration process.
+Five expression plasmids with the CaMV35S promoter fused to different effector genes (vgb for waterlogging resistance; SacB for resistance to drought or salinity; JERF36 for resistance to salinity; BtCry3A, a Chrysomelid-specific endotoxin; and OC-I, a cystatin proteinase from rice that suppresses insect growth) were simultaneously introduced into hybrid poplar (P.×euramericana 'Guariento') by biolistic transformation.
+Two transgenic lines exposed to drought or salt stress treatments in the greenhouse generated more biomass relative to the control.
+The transgenic lines had enhanced resistance to a leaf beetle (Plagiodera versicolora) as well (Table 8) [153].
+Gene constructs, with or without their vector backbones, can be introduced via biolistics or silicon-carbide whiskers.
+Co-integration of plasmid vector backbone fragments is a frequent complication of transgenesis using whole plasmids [210], even when using Agrobacterium for transformation [211].
+Use of vector-free, minimal expression cassettes amplified by polymerase chain reaction [210] or excised from expression plasmids for bombardment will reduce genetic complications due to the introduction of vector backbones.
+Elimination of vector backbones can be implemented in biolistic transformation but it is clearly impossible in Agrobacterium-mediated transformation.
+Regulatory aspects
+The United States Department of Agriculture's Animal and Plant Health Inspection Service (APHIS) determined that it did not have the authority to regulate transgenic plants that do not involve gene sequences derived from plant pathogens [212].
+Effectively, this means that transgenic plants generated by bombarding DNA that are not derived from plant pathogens will not be subject to years of environmental testing and consultation required by APHIS, although depending on the transgene inserts and tree species, other regulatory agencies (e.g., FDA, EPA, etc.) may still have oversight.
+There are a number of exciting breakthroughs in the field of genetic transformation, enabling researchers to insert, replace, delete, or mutate sequences in living cells [213] that may likewise escape the regulatory requirements imposed on transgenic plants.
+For example, the use of zinc-finger nucleases and transcription activator-like effectors have been deemed to generate "non-transgenic" plants by a number of national regulatory bodies [214-216].
+There are indications that other countries will follow suit [215,217].
+It is possible to obtain stable but non-heritable gene expression via viral vectors [218,219], among others.
+Application of viral vectors is particularly exciting from the standpoint of tree improvement as it does away with regeneration from (transformed) callus, which can be quite long, arduous, expensive, and an uncontrollable source of random somaclonal variants in some species.
+More importantly, VIGS and VOX technologies have been proven to work in several tree species [218,219].
+Simultaneous inoculation with VIGS/VOX vectors containing different gene constructs may enable the study of the effects of possible interactions among different effector genes on a complex trait or the whole plant phenotype, albeit for a limited duration.
+As with zinc finger-based technologies, viral vectors face significant regulatory hurdles and their most realistic application in tree improvement in the foreseeable future might be in functional genomics research.
+Recommendations
+Researchers have demonstrated the effects of manipulating the expression of many plant genes that have significant impact on biomass yield in plants.
+Biomass is the product of many genes, acting through numerous signaling and metabolic pathways.
+Hence, researchers could benefit from a more holistic strategy that uses a variety of tools to address the challenge of increasing plant biomass.
+Tree researchers often resort to verification of gene function that was previously characterized in annual species such as A. thaliana.
+Functional genomics research in annual species is comparatively advanced because it takes far less time and resources.
+It would be prudent for tree researchers to base their initial efforts to the testing and deployment of genes that have been fully characterized and proven to generate consistent phenotypes across diverse (annual) plant taxa.
+In addition, they may have to rely on annual species for initial functional characterization of novel tree genes [204].
+There is a host of factors responsible for the lack of field-testing for most of the work summarized in the tables (references based on field tests are denoted with an asterisk), not the least of which are the need to publish and the short-term nature of most research funding.
+Field trials with transgenic trees are particularly expensive to establish because most jurisdictions require the implementation of extreme precautionary measures to prevent the spread of transgenic propagules in addition to security issues.
+Trait expression in vitro or in the greenhouse can differ from that in the field for a variety of reasons.
+Hence, field trials of sufficient duration, however expensive, are essential components of tree research.
+Increased demand for forest products necessitates the rapid introduction of desired traits into commercial forestry species.
+Rapidly assembling all the desired traits in one tree by conventional breeding in a reasonable time frame is virtually impossible.
+Transgenesis by multi-trait engineering (Fig. 1) will allow simultaneous introduction of several transgenes, each with its own optimal promoter, to improve various aspects of the target-plant phenotype.
+This more holistic strategy can generate trees that feature a combination of transgenes for resource acquisition and utilization, stress management, and other special traits useful for post-harvest processing.
+The hypothetical transformation of the tree in Fig. 1 has the names of some suggested candidate genes in the initial core-trait set, but the specific composition of the core gene set will obviously depend on the objectives for improving the target genotype.
+Superior genotype(s) should be targeted for transgenesis.
+Genes that enhance growth rate should be included in multi-trait transgenesis programs for several reasons.
+Fast-growing transgenic trees are suited for short-rotation cropping for biomass yield.
+Their fast growth will help them compete with weeds in the field, replace tissue lost through herbivory or pathogenesis, and compensate for potentially adverse interactions generated by other components of the core-trait set.
+To attain optimal growth, the core-trait set should include genes known to increase biomass production by improving plant architecture, photosynthesis and assimilation, nutrient acquisition, etc., as discussed in previous sections of this review.
+Perhaps the greatest advantage of incorporating a proven growth gene in the core-trait set is that it provides a trait that is easily detected and qualitatively assessed-this will facilitate high-throughput selection at various stages of production, from in vitro to field plantings.
+There are many candidate genes in Table 1 that can confer clearly visible growth improvement (e.g., greater than 30% increase in height) to transgenic plants growing in vitro or in the greenhouse.
+These genes should be prioritized for evaluation in the tree species of interest.
+The specific genes that might comprise a core-trait set will obviously depend on the traits that need to be introduced in the target genotype.
+Ideally, members of a core-trait set should function in different metabolic or signaling pathways to minimize competition or negative-feedback regulation.
+Several core-trait sets can be assembled based on current literature as well as site- and species-specific requirements.
+These can be used to transform different batches of transformable tissue to generate diverse populations expressing variable sets of core genes.
+Sequential selection at specific developmental stages for target phenotypes should enable the isolation of lines that feature the most effective combinations of the transgenes.
+Very few tools can reliably introduce multi-gene constructs in a single transformation event.
+Transformation with particle (inflow) guns offer the simplest and most efficient way to deliver multiple unique plasmids, or their minimal (i.e., free of vector backbone) linearized effector constructs.
+The propensity of bombarded expression cassettes for insertion in one or two loci in the target genome means that selection for growth will most probably select for some of the other introduced traits as well, further simplifying downstream selection.
+However, this will need to be tested in all species of interest.
+Co-transformation can be improved by linking the expression constructs into a single plasmid, especially when all the genes need to be present to activate a target metabolic or signaling pathway.
+However, there may be some physical limitation to the actual length of introduced genetic material that will not be prone to breakage in the bombardment procedure or within the target cells themselves.
+There was a recent and unfortunately failed attempt to endow non-leguminous species with the ability to establish a symbiotic relationship with rhizobial bacteria, which involved linking eight genes in one plasmid for use in Agrobacterium-mediated transformation [205].
+A potential problem with linked genes is that negative interactions between specific genes can occur and potentially nullify their beneficial effects or even those of the rest of the linked genes.
+Transformation procedures need to be highly efficient, i.e., provide large numbers of independent transformants, for selection to be effective.
+Selection should hopefully eliminate any plants that lack the desired phenotypes.
+Biolistic transformation can help generate transgenic lines featuring a wide variety of transgenic traits.
+A series of phenotypic screens will identify the genotypes that express the traits expected from the core gene list.
+Thus, a single experiment that ensures multiple transformation "events" followed by sequential screening can generate a population of elite genotypes expressing various combinations of transgenes for superior growth and resistance to multiple stressors.
+The regenerants will vary in the composition and copy number of the individual transgenes in the core set.
+This highly variable population will offer many opportunities to select regenerants with the best combination of traits and eliminate those that have transgenes with a negative effect on the overall phenotype.
+Superior growth due to the inclusion of a proven "growth-promoting" gene in the core-trait set can be considered as a marker trait, akin to antibiotic resistance.
+The initial selection for growth should also eliminate poor performers due to undesirable interactions or non-target mutations (e.g., gene truncation, somaclonal variation) resulting from the transformation process.
+The strategy outlined in Fig. 1 requires a relatively insignificant increment in the total time and resources that are required to generate a transgenic line over-expressing one transgene.
+It will enable the production of a number of elite trees expressing various combinations of traits from one set of transgenes introduced in one transgenic "event".
+The elite trees generated by particle gun bombardment will probably possess many, if not all of the genes from each core trait set.
+Co-integration will facilitate downstream selection and breeding operations.
+These trees may be propagated as clones, but they may be quite useful in breeding programs when both parents feature different core sets of transgenes (i.e., gene stacking).
+Due to the probable heterozygous nature of these transgenic lines, the resultant variable population would need to be subjected to pertinent selection and fixation of desirable genotypes by cloning.
+This strategy will help address the problem of low genetic variability associated with the current single-gene transformation systems.
+There are many well-characterized candidate genes in Tables 1-8 and the number can be increased by including more genes that have only been tested in several annual species.
+There is a need to determine the practical limits to the number and kinds of transgenes that can be simultaneously expressed in an organism.
+Judicious use of constitutive, tissue-specific, or inducible promoters of varying efficiencies will optimize transgene efficacy.
+The eventual success of multi-trait engineering will largely depend on the regulatory environment which currently prohibits transgenic plants in forestry in many countries around the world.
+The absence of transgenic genotypes available for commercial forestry (except in China) is in direct contrast with the substantial number of transgenic annual crops that have been approved for commercial release in many countries.
+This conundrum is likely due to the lack of corporate sponsors who are willing to bankroll the application process for transgenic trees.
+However, there is evidence that this situation is beginning to change.
+China has permitted the cultivation of Bt poplar (P. nigra) in 1998 and clone 741 (P. alba×(P. davidiana×simonii)) in 2001 (https://www.isaaa.org/gmapprovaldatabase/default.asp).
+In the United States, the USDA has deregulated two transgenic trees, papaya and plum, as of 2012, although these are fruit trees, not forest trees [220].
+Adopters of transgenic technologies for commercial forestry will benefit from the deregulation of multi-trait engineering for use in forest species.
+We have discussed multi-trait engineering in the context of forestry, but its underlying principles should prove useful in any plant species that is tractable to genetic modification.
+On the necessity of field trials
+Fast growth in the GMO greenhouse does not always translate into superior growth in the field.
+Even with non-transgenic trees, breeders experience difficulty in predicting the mature tree phenotype from greenhouse stock (so called 'age-age' correlations).
+Multiple genetic factors, assembled by breeding into one genotype to contribute to a specific phenotype, may respond differently at different growth stages to various aspects of the field environment.
+At the earliest, the volume of 10-year-old Populus trees can be reasonably predicted only from the volumes of three-year-old saplings [221].
+Other slower-growing species require data from much older (>10-year-old) trees to predict potential harvest indices at maturity.
+In more than two decades of transgenesis, the single-gene/single-trait approach of molecular biologists has successfully generated genetically modified organisms with relatively stable trait expression [222].
+Transgene instability, while common during the early phases of selection and growth in vitro, tends to be relatively rare under field conditions [2].
+Transgenic plants modified with single potent genes to produce novel traits like GUS [223], herbicide resistance [224], and even complex characters like superior growth [71], have all been shown to stably display the desired phenotypes in the field.
+The expression of the rolC transgene was stable in 19-year-old tissue cultures and 18-year-old glasshouse-grown trees [225].
+Except for viral approaches like VIGS/VOX [219], reversion to wild type has been relatively rare and this is often detected quite early primarily because over-expression of key genes has such a remarkable effect on the transgenic phenotype.
+Nevertheless, it is always prudent to implement field trials of appropriate duration, especially when transgenics are involved.
+Transgenic poplar (P. alba) that overproduced XYLOGLUCANASE grew 40% taller than wild type in growth chambers but subsequently grew poorly in field trials [109].
+In another example, incomplete barstar attenuation of the cytotoxicity of a poplar LEAFY promoter::barnase construct in transgenic hybrid poplar (P. tremula×alba) led to substantially reduced growth rates in the field, prompting the authors to highlight the importance of field testing to identify pleiotropic effects [127].
+Another justification for field testing is that genetic transformation methods that require regeneration from callus are prone to random somaclonal mutations during in vitro culture [226].
+Unfortunately, the effects of somaclonal mutations may or may not be related to the target phenotype, and their effects on the phenotype may be stage- or tissue specific.
+Hence, even transgenics that express stable and potent genes, such as those that produce insecticidal proteins, need to be tested in field trials at multiple locations and for specific durations.
+Such comprehensive and long-term testing may expose those transgenic plants that have otherwise cryptic traits due to the mutation of non-target genes.
+In addition, lab assays need to be designed to be more predictive of performance in the field.
+For example, leaf-feeding assays in the lab indicated that hybrid aspen (P. tremula×alba) over-expressing a gene for POLYPHENOL OXIDASE produced leaves that were toxic to forest tent caterpillar (Malacosoma disstria) [161] but this could not be replicated in a subsequent field trial [162].
+Again, this result emphasizes the need to verify gene activity at various stages of the plant's cycle, from in-vitro cultivation to growth in the field.
+The genes featured in Fig. 1 have been tested and proven to generate the expected phenotypes in various independent experiments involving unrelated plant taxa.
+However, the effects of their simultaneous introduction into a plant genome are difficult to predict.
+The best gene combinations for biomass yield will only be revealed by the transgenic line(s) with the best growth under various test conditions.
+Hence, comprehensive and rigorous field testing, preferably in multiple sites, is imperative.
+In multi-trait engineering, it may be wise to reduce the stringency of selection prior to field planting and test as many of the transgenics as clones in experiments replicated in multiple plots over several locations and then monitored through time.
+Such field trials should be managed in accordance with standard commercial practices for each location.
+This intermediate stage may reveal, among others, the suitability of the transgenic plant for clonal propagation and allow the generation of sufficient planting material for multi-location testing.
+Serial selection of the most promising transgenic plants can be performed at various times thereafter.
+All trials need to be monitored for as long as practicable-in the face of current regulations that require prompt elimination of test materials just before they start flowering.
+Acknowledgements
+The authors would like to thank Mr.
+John Smith and Drs.
+Lloyd Donaldson, Glenn Thorlby, Elspeth MacRae, Ruth Falshaw, and Rowland Burton (Scion, New Zealand) for helping to improve the manuscript.
+The authors would also like to extend their utmost appreciation and gratitude to Prof.
+J.
+Gressel (review editor for Plant Science) and the team of reviewers that he assembled whose suggestions and opinions have substantially improved the manuscript to its present form.
+

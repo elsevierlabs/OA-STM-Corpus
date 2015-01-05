@@ -1,0 +1,603 @@
+Energetic electron observations of Rhea's magnetospheric interaction
+
+Highlights
+► We give a detailed review of an energetic electron dataset in a lunar-type interaction.
+► A local transport process occurs in the wake of Rhea.
+► The transport is associated to a flute type of instability driven by pressure gradients.
+► We show that surface charging is an important element of the interaction.
+Abstract
+Saturn's moon Rhea is thought to be a simple plasma absorber, however, energetic particle observations in its vicinity show a variety of unexpected and complex interaction features that do not conform with our current understanding about plasma absorbing interactions.
+Energetic electron data are especially interesting, as they contain a series of broad and narrow flux depletions on either side of the moon's wake.
+The association of these dropouts with absorption by dust and boulders orbiting within Rhea's Hill sphere was suggested but subsequently not confirmed, so in this study we review data from all four Cassini flybys of Rhea to date seeking evidence for alternative processes operating within the moon's interaction region.
+We focus on energetic electron observations, which we put in context with magnetometer, cold plasma density and energetic ion data.
+All flybys have unique features, but here we only focus on several structures that are consistently observed.
+The most interesting common feature is that of narrow dropouts in energetic electron fluxes, visible near the wake flanks.
+These are typically seen together with narrow flux enhancements inside the wake.
+A phase-space-density analysis for these structures from the first Rhea flyby (R1) shows that Liouville's theorem holds, suggesting that they may be forming due to rapid transport of energetic electrons from the magnetosphere to the wake, through narrow channels.
+A series of possibilities are considered to explain this transport process.
+We examined whether complex energetic electron drifts in the interaction region of a plasma absorbing moon (modeled through a hybrid simulation code) may allow such a transport.
+With the exception of several features (e.g. broadening of the central wake with increasing electron energy), most of the commonly observed interaction signatures in energetic electrons (including the narrow structures) were not reproduced.
+Additional dynamical processes, not simulated by the hybrid code, should be considered in order to explain the data.
+For the small scale features, the possibility that a flute (interchange) instability acts on the electrons is discussed.
+This instability is probably driven by strong gradients in the plasma pressure and the magnetic field magnitude: magnetometer observations show clearly signatures consistent with the (expected) plasma pressure loss due to ion absorption at Rhea.
+Another potential driver of the instability could have been gradients in the cold plasma density, which are, however, surprisingly absent from most crossings of Rhea's plasma wake.
+The lack of a density depletion in Rhea's wake suggests the presence of a local cold plasma source region.
+Hybrid plasma simulations show that this source cannot be the ionized component of Rhea's weak exosphere.
+It is probably related to accelerated photoelectrons from the moon's negatively charged surface, indicating that surface charging may play a very important role in shaping Rhea's magnetospheric interaction region.
+
+Introduction
+Rhea is Saturn's largest icy moon (radius: 1RRh=764km).
+It orbits the planet on an equatorial and circular orbit at a distance of about 8.74Rs from its center (1Rs=60,268km).
+Recent studies showed that Rhea is surrounded by a tenuous exosphere composed of oxygen and carbon dioxide (Teolis et al., 2010).
+Despite that, the main interaction mode of Rhea with the magnetosphere was shown to be plasma absorption.
+Magnetic field perturbations in Rhea's interaction region appear to be guided primarily by the formation of a plasma pressure cavity (wake) downstream of the moon and not from mass or momentum loading from the ionized products of this weak exosphere (Simon et al., 2012; Khurana et al., 2008; Roussos et al., 2008).
+The interaction region of any plasma absorbing moon is typically located downstream of the moon with respect to the direction of the bulk plasma flow.
+Depending of the upstream sonic Mach number, Ms, the opening angle of the plasma wake can vary along the magnetic field direction (low/high for large/small Ms) (Samir et al., 1983).
+For very low Mach numbers (e.g. Saturn's moons) the outer flanks of the plasma cavity tend to become tangential to the surface of the plasma absorbing body (Khurana et al., 2008).
+Perpendicular to the magnetic field (or to the flux tube enclosing the wake) the width of the cavity is approximately equal to the moon's diameter.
+The extension of the wake downstream of the moon also appears to be associated with the sonic Mach number: for low Mach numbers, the cavity has a smaller extension than the typical, supersonic case of the lunar wake in the solar wind.
+Simulations indicate that Rhea's cold plasma wake should refill completely within a distance of about 10RRh downstream (Simon et al., 2012; Roussos et al., 2008).
+The strongest electric and magnetic field disturbances exist within the boundaries of the wake.
+Pressure gradient (diamagnetic) currents flowing along the wake boundaries or within the wake lead to a compression of the magnetic field, B, behind the moon.
+The requirement for the total pressure (magnetic and plasma) to remain constant is also an alternative (and equivalent) explanation for the presence of this B enhancement.
+The same diamagnetic currents lead to magnetic field perturbations on the two sides of the flux tube corridor enclosing the plasma wake.
+Khurana et al. (2008) calls these features "expansion fans", which at Rhea extend up to several moon radii on either side of the wake.
+The magnetic field magnitude (∣B∣) drops within these regions (see also Fig. 5 of Roussos et al. (2008)).
+While magnetometer data comply with this standard, lunar-type interaction concept, Cassini's energetic charged particle observations of the near-Rhea environment by MIMI/LEMMS (Krimigis et al., 2004) are rich in unusual interaction features (Jones et al., 2008).
+The first close downstream flyby on November 26, 2005 (termed R1), revealed broad energetic electron (20-100keV) flux dropouts extending almost 7-8 Rhea radii (RRh) on each side of Rhea's wake.
+Hints for a broad decrease in fluxes were also present in a more distant 2007 downstream, non-targetted flyby of Rhea that took place on August 30, 2007 (informally termed R1.5).
+In addition to the broad regions of energetic electron flux dropouts, Cassini's MIMI/LEMMS detector recorded smaller scale dropouts each of which was few tens of km across.
+These were detected just outside the wake boundaries (wake flanks), within 2RRh from the center of the moon, in both the saturnward and the antisaturnward sectors of the interaction region.
+As the scale size of the broad depletion region was, for both flybys, comparable to the size of Rhea's Hill sphere (the region where the moon's gravity dominates that of Saturn), it was proposed that Rhea was surrounded by a disk containing large grains.
+These grains served as an energetic electron sink.
+In view of this interpretation it was also suggested that part of these trapped grain populations were concentrated into one or more narrow ringlets around Rhea, which could have been the source of the smaller scale dropouts seen by MIMI/LEMMS.
+Other evidence, such as the broadening of these small dips with increasing electron energy (gyroradius effects) were not contrary to this possibility.
+Subsequent analysis and optical observations, however, ruled out these scenarios (Tiscareno et al., 2010).
+Features such as the similar spatial scales of the broad depletion regions with the size of Rhea's Hill sphere and the simultaneous presence of smaller scale dropouts near the moon appear to be coincidental.
+Since it appears unlikely that the explanation of the observations involves any absorbing medium around Rhea, answers to the problem should invoke plasma or magnetospheric processes.
+Since the first two flybys in 2005 and 2007, two more have taken place on March 2, 2010 (R2) and January 11, 2011 (R3).
+The goal of this work is to primarily review and describe MIMI/LEMMS energetic electron observations from all Rhea close flybys, to put them in context with observations and findings from other Cassini instruments and to focus on common interaction signatures that can be identified among the different flybys.
+We will then propose interpretations that will help us form a more clear picture about the structure and the dynamics of the moon's interaction region and about the nature of the processes that drive some of the unusual energetic particle observations.
+Unique flyby features will not be explicitly analyzed in this work, but they will be identified mostly for reference in future studies.
+Flyby information
+Table 1 contains basic information about the first four close Cassini flybys of Rhea to date.
+The first two (R1 and R1.5) were downstream of Rhea, with R1.5 at a relatively large distance compared to the other three.
+R2 was above the moon's north pole, while R3 was above its south pole.
+A sketch of the equatorial projections of Cassini's trajectories in Rhea's Interaction System (RHIS) are shown in Fig. 1.
+The RHIS is centered at Rhea and has the positive x-axis along the plasma nominal corotation direction, the positive y-axis pointing towards Saturn, while +z completes the right-hand system, pointing north and approximately antiparallel to the direction of the background B.
+The vertical offset from the xy-plane, given in Fig. 1, was less than 1.5RRh in all cases.
+The average offsets are given in Table 1.
+Here, the geometrical/corotational wake is defined on the basis of where energetic electron absorption may be observed.
+Because of the rapid bounce motion of energetic electrons, the energetic electron wake is weakly limited by Cassini's z-position and can extend to very large distances, north and south of the moon.
+Therefore the condition for absorption is satisfied when Cassini is downstream of Rhea's volume or magnetically connected to the moon, namely when ∣y∣⩽1RRh(x⩾0) or x2+y2⩽1RRh (x<0).
+The region where x2+y2⩽1 corresponds to Rhea's flux-tube, a term that may sometimes be used in this study instead of "wake".
+The aforementioned definition is valid for energetic electrons that drift towards +x.
+Electrons with energies above the keplerian resonant energy drift towards -x and therefore the conditions given in the previous paragraph are reversed.
+The keplerian resonant energy (Erk) is the kinetic energy at which the total drift rate of energetic electrons cancels the keplerian drift rate of a moon.
+In various plots of this study we will indicate the wake boundaries only for electrons with E<Erk, since most of the available data are in this energy regime (Section 3).
+When Erk estimations are given based on the assumption of a dipole magnetosphere (Thomsen and Van Allen, 1980), values should be taken as upper limits.
+At Rhea's distance the actual magnetospheric field gradient is stronger than that of a dipole field and the actual Erk should be at lower energies.
+The difference between the dipolar and the real Erk can be significant especially for particles that mirror near the equatorial plane (pitch angle around 90°).
+We also stress that the energetic electron wake has a significantly different structure to that of a cold plasma wake.
+Particle absorption at low energies is expected to be more pronounced for x>1RRh.
+This could be important for flybys R2 and R3.
+Refilling processes are also different in these two energy regimes, with high-energy depletions persisting longer (Khurana et al., 2008; Roussos et al., 2008).
+These long-lived, high energy depletions can be observed many degrees in longitude ahead of the moon along its orbit, and are usually called "microsignatures" (Paranicas and Cheng, 1997; Paranicas et al., 2005; Roussos et al., 2007).
+Instrumentation and data processing
+Most of the data presented here are from Cassini's MIMI/LEMMS sensor.
+MIMI/LEMMS is an energetic particle detector.
+It has two oppositely pointing telescopes, the Low Energy and the High Energy Telescope (LET and HET respectively) (Krimigis et al., 2004).
+Since for all Rhea flybys LEMMS electron fluxes have considerable signal to noise ratio only for energies below about 600keV, we analyzed data only from electron rate channels C0-C7 (LET) and E0-E2 (HET).
+For similar reasons, ion channels considered for this study were A0-A4 (<500keV), all belonging to the LET.
+Data from high energy resolution Pulse Height Analysis (PHA) channels are also available for the selected energy ranges.
+The time resolution of the PHA channels is typically 1.5 times lower than that of the rate channels.
+Based on LEMMS intercalibration with other sensors of MIMI (INCA, CHEMS), it is reasonable to assume that all LEMMS ion channels respond to protons (Dialynas et al., 2009).
+The latest passband and geometry factor information for the electron and ion channels can be found in Armstrong et al. (2009) and Krupp et al. (2009).
+Certain channels of LEMMS can accumulate counts with sixteen times higher temporal resolution than the typical rate channel time resolution (∼5.7s).
+These are called priority channels.
+The available priority channels for each flyby are given in Table 1.
+We will distinguish rate and priority channels using the suffix "_PRIO" for the latter (e.g. C1_PRIO).
+Priority channels are especially useful for the identification of short duration structures, such as the small scale flux dropouts near Rhea (Jones et al., 2008).
+The LEMMS signal is corrected for the instrumental background as described in previous papers (Roussos et al., 2011; Kollmann et al., 2011).
+Particle pitch angles are calculated using information from Cassini's magnetometer (MAG) (Dougherty et al., 2004).
+For all flybys, electron density is evaluated through the detection of the upper hybrid (fUH) emission in radio spectrograms of the RPWS instrument (Persoon et al., 2005; Gurnett et al., 2004).
+For flyby R1, RPWS Langmuir probe (LP) ion densities are also available, while CAPS/ELS electron densities will be shown for flyby R2 (Young et al., 2004).
+Observations
+The following subsections contain information about observations during the four closest Rhea flybys.
+Focus will be given to MIMI/LEMMS energetic electron observations, which contain most of the interaction features.
+R1: November 26, 2005
+Jones et al. (2008) summarizes several observation aspects of this flyby.
+Fig. 2 includes some of these observations as well as additional information not provided in the latter study.
+The top panel shows an electron energy spectrogram based on the LEMMS PHA electron channels, between ∼25 and ∼250keV.
+The second and third panels show "energy-cuts" through this electron spectrogram at the energies of nine rate channels of LEMMS.
+The fourth and fifth panels show the plasma density and the total magnetic field measured by MAG, respectively.
+We note that MAG data for all Rhea flybys (except R1.5) are extensively analyzed in a series of papers to which we refer the reader for more details (Simon et al., 2012; Khurana et al., 2008; Roussos et al., 2008).
+We will now discuss some of the main features visible in these five panels.
+Corotational wake
+The signature of the wake crossing is a large dropout in particle fluxes of between one and four orders of magnitude, depending on electron energy.
+The timings of the expected boundary crossings (dashed lines) agree well with predictions.
+Fluxes do not reach background levels immediately inside these boundaries, but drop gradually over a distance of about 0.3RRh within them.
+Fluxes are very low at the wake center, although some channels (C0-C4) record foreground with a weak signal to noise ratio of about 5-7.
+The wake is also visible in the higher energy channels C6 and E2 (third panel).
+Its edge-to-edge extension along the y-axis (RHIS system) is about 3RRh wider than Rhea's diameter.
+The profile of channel C7 (510-832keV) features many flux dropouts.
+None of these is centered on the location of the expected wake crossing.
+Note that most C7 electrons have energies above the keplerian resonant energy at Rhea (Erk).
+They arrive from the nominal wakeside direction and have not yet encountered the solid body of the moon at the locations of the R1 flyby.
+Erk is ∼550keV.
+An unexpected result is the lack of a reduction of the RPWS electron density (fourth panel from top).
+We note that the electron density is dominated by electrons below about ∼1keV, which have different drift properties from energetic electrons and also have different source and loss processes.
+We also overplot the ion density profile from the RPWS Langmuir Probe (LP), which appears to show a density dropout in the wake.
+Furthermore, MAG data show an enhancement in the magnetic field magnitude, consistent with a loss of perpendicular plasma pressure in the wake.
+This pressure loss is typically associated to a plasma density dropout, not visible in all datasets.
+Since it is probably unreasonable to interpret MAG and RPWS fUH/LP observations as evidence of a large charge density in Rhea's wake (deviation from charge neutrality), one of the two density measurements is probably problematic.
+The subject is discussed in Section 5.4.
+Broad depletions and structures
+As "broad depletions" we refer to the electron flux dropouts that do not appear to originate from absorption at the surface of the moon and have an extension larger than Rhea's diameter.
+The distinction is not clear in all cases, as it depends also on how the data are interpreted.
+For instance, the dropout seen in channel E2 of LEMMS appears too broad to be associated with absorption at Rhea's surface.
+However, as Roussos et al. (2007) found, this could be the result of a diffusive broadening of the actual electron depletion formed at Rhea's surface, which is observed to occur much faster at higher energies than at low energies.
+Alternative explanation for such cases is given in Section 5.2.
+The most obvious broad depletions exist below about 100keV (channels C0-C4, e.g.
+second panel of Fig. 2).
+Their width is about ∼7RRh on each side (Jones et al., 2008).
+Excluding channel E2, the remaining electron channels have also some rather broad electron flux dropouts that are about 2RRh wide in channel C7 (22:28-22:34) and channel C6 (22:44-22:47).
+The latter dropout seems to be associated with smaller scale dropouts at lower energy channels (see Section 4.1.3), a sharp increase of ∣B∣ centered around 22:45 and a shallow dropout in electron density (marked between dotted-dashed lines).
+This combination of signatures is typical of depleted flux tubes participating in the centrifugal interchange process (André et al., 2007).
+Evidence that this may be the case is also visible in the CAPS/ELS electron dataset, where an enhancement of 1-5keV energetic electrons is seen (Fig. 2, Panel D of Jones et al. (2008)).
+We also note a relatively sharp jump in electron densities at 22:25 (dotted line) and a density decrease on either side of the wake (from about 6cm-3 to 4cm-3), occurring slowly over a distance of 5RRh.
+The significance of any of the features discussed here would also depend on whether they appear in the other Rhea flybys, otherwise we cannot rule out that they are fluctuations of the background magnetospheric parameters, unconnected to the moon.
+Small scale depletions and structures
+The term "small scale depletions" refers to the flux dropouts that have a width that is significantly smaller that Rhea's diameter and do not seem to be caused by electron absorption on the moon's surface.
+These features are usually visible closer to the wake.
+Fig. 3 shows data in a time interval spanning a few minutes before and after the wake crossing.
+The format is similar to Fig. 2, but the second and third panels show data from the priority channels C1_PRIO and C5_PRIO, respectively.
+Small scale depletions are well visible in the PHA energy-time spectrogram (top) and the data of C1_PRIO.
+We use red1
+For interpretation of color in Figs.
+1-12, the reader is referred to the web version of this article.
+1 arrows to mark some of them.
+At the energy of C5_PRIO, small scale depletions are visible but less resolved than those of C1_PRIO.
+This is partly attributed to the lower signal to noise ratio of that channel and partly to the fact that groups of small scale depletions at lower energies appear to coincide with a single, broader depletion above the energy of C5_PRIO.
+Characteristic examples of merged low energy depletions at high energies are the dropouts in C5_PRIO (or C5) after 22:40:30 (last red arrow in the middle panel of Fig. 3).
+The same feature is also visible in channels C6, C7 and E3 in Fig. 2.
+The broadening and merging of small scale depletions appears to occur only at energies above 130keV, as inspection of the energy-time spectrogram of Fig. 3 shows.
+As mentioned in Section 4.1.1, fluxes do not drop sharply to background inside the wake boundaries.
+An interesting observation is that the flux within the wake exists in the form of short-lived spikes (Fig. 3, blue arrows).
+The spikes are well resolved in C1_PRIO and C5_PRIO, although they are less regular in the latter.
+An interesting aspect is that peak fluxes in the spikes are close to the flux lost in the small scale depletions, indicating a local transport process.
+A more careful analysis is presented in Section 5.1.
+R1.5: August 30, 2007
+Flyby R1.5 occurred while Cassini was in the outbound leg of its orbit.
+Few aspects of it are discussed in Jones et al. (2008), while Wilson et al. (2010) provide thermal ion moments for the encounter.
+Here we present LEMMS, RPWS and MAG data in the same manner as for R1.
+One interesting element of R1.5 is that it occurred downstream of Rhea, with LEMMS and CAPS having similar orientations as in R1.
+In essence, the primary difference between R1 and R1.5 is the flyby distance.
+Corotational wake
+Fig. 4 shows the overview of LEMMS, MAG and RPWS observations, as in Fig. 2.
+The corotational wake is again evident as a region with a large dropout in electron fluxes.
+Flux levels in the wake are more recovered compared to the R1 case, since the distance of this flyby is greater and some refilling occurred.
+The center of the wake has a small antiplanetward offset from the expected location.
+Although this center cannot be exactly defined due to the variability of fluxes within it, we can detect a small difference in the offset between low energy channels (C0-C3: ∼0.5RRh) and C4 (∼1RRh).
+This difference could exist because the C4 electrons drift more slowly than the C0-C3 ones and therefore are exposed to the effect that causes this outward motion for more time.
+Quantification of this time-of-flight effect gives us an outward radial velocity of about 5kms-1, consistent in direction and order of magnitude with the local radial velocity measured by CAPS (Wilson et al., 2010).
+Our inferred radial velocity value is a factor of two lower than the one given in Wilson et al. (2010), but this could be due to a series of factors affecting mainly our technique, such as the uncertainties in determining the wake center or the assumption of constant radial velocity for all the time-of-flight interval.
+As in R1, the wake becomes broader with increasing electron energy.
+Channels monitoring energies above about 500keV are featureless.
+The cold electron density from RPWS does not show a wake signature, although densities are much more variable within the wake boundaries compared to R1.
+The enhancement in ∣B∣ indicates that some considerable pressure loss still exists 8RRh downstream of the moon.
+Cassini also crossed a depleted flux tube at about 01:36 (dotted-dashed lines).
+At that location (shaded box, fourth panel), the fUH emission is barely above noise levels and not reliable enough to extract the electron densities.
+Manual inspection of the RPWS spectrogram shows a very weak emission line which corresponds to a density 50% below the surrounding value.
+Furthermore, the magnitude of the associated change in ∣B∣ is similar to the one observed in Rhea's wake.
+This makes the lack of a wake signature in electron density even more puzzling.
+Broad depletions and structures
+Whether broad depletions are present in R1.5 is unclear.
+Channels C0 and C1 show shallow dropouts in the time segment before the wake crossing and an even slower recovery afterwards.
+Their spatial extent is similar to those seen in R1.
+These dropouts (some of which are marked in the second panel of Fig. 4) are more apparent when fluxes are plotted in linear scale (see Supporting Online Material of Jones et al. (2008)), however it is difficult to understand whether they are associated with the interaction region of Rhea or are part of magnetospheric flux variations observed before and after the plotted interval (not shown here).
+The dropout signatures in channels C5, C6 and E2 may be interpreted as broad depletions, or may simply be signatures of a diffuse wake, as explained in Section 4.1.1.
+The electron density in RPWS also shows a broad and gradual dropout centered around the expected time of the wake crossing.
+The slow dropout and the presence of a relatively sharp jump in densities at about 01:00 (dotted line) are qualitatively similar to features seen in R1.
+The difference is that in R1.5 they are more pronounced in the saturnward side of the interaction region.
+Small scale depletions and structures
+LEMMS data show many small scale depletions, as it is already evident in the top two panels of Fig. 4, but they are less regular compared to those in R1.
+Broadening of these features with increasing energy is present (more visible in line plots), but less obvious than in R1.
+A zoom in the region where the dropouts are visible is shown in Fig. 5.
+The format is similar to that of Fig. 3.
+Small scale dropouts appear on the side of the wake (red arrows).
+Fluxes within the wake are turbulent, with alternating dropouts and spikes, as in R1.
+The flux enhancements are also apparent in the PHA spectrogram (black arrows) and in the rates of channels C0-C4 (Fig. 4).
+Temporal changes in ∣B∣ and the RPWS electron density do not coincide consistently with small scale features in LEMMS.
+R2: March 2, 2010
+The fundamental difference of R2 (and R3) from R1 and R1.5 is that Cassini crossed field lines connected to the moon's surface.
+Cassini also crossed regions slightly upstream of the corotational wake.
+Furthermore, the pointing of LEMMS was also away from the field aligned direction (Table 1).
+An overview of R2 observations is shown in Fig. 7.
+CAPS/ELS electron densities are available for this flyby.
+Corotational wake/flux tube crossing
+The wake/flux tube signature is visible at the predicted location, for energies up to 100keV (top three panels).
+The locations where Cassini's trajectory intersects the flux tube of Rhea also allows the observation of the absorption of electrons that are both above or below the keplerian resonant energy (e.g. channel C7).
+A common feature with the previous flybys is that the wake seems to broaden with increasing energy.
+This broadening is not symmetric about the wake center, but its more visible in the saturnward side.
+It also appears that the broadening of the wake stems from the merging of small scale depletions, as we also see in R1.
+The electron density measurements show again no density gradient as Cassini enters or exits the wake.
+At the wake center, a sharp density increase is also visible.
+The increase is sustained for a distance of about 2RRh along the y-direction, outside of the wake.
+The density profile in this case is confirmed by comparing RPWS/fUH and CAPS/ELS densities.
+CAPS/ELS had a full pitch angle coverage for this flyby, allowing for a more reliable determination of densities compared to R1 and R1.5 (Santolı´k et al., 2011).
+LP densities are also available, but are not shown here because of their very low signal to noise ratio.
+LP data also show that the spacecraft potential is few Volts negative.
+This explains why CAPS/ELS densities have to be multiplied by a factor of 1.5 to match the levels of RPWS.
+The enhancement in ∣B∣ corresponds to a partial plasma pressure loss, since only a fraction of the pressure-carrying heavy ions have probably been absorbed above Rhea's poles (mainly ions coming from the south).
+Diamagnetic currents downstream of Rhea's volume are also be responsible for part of this change in the magnetic field (Simon et al., 2012).
+At the time when the sharp electron density gradient occurs in the wake center, the magnetic field magnitude shows a spike, probably associated with pressure gradient driven currents at this boundary (dotted-dashed line).
+Given the lack of ion moments and electron temperatures, it is unclear which species drive this current.
+Furthermore, the boundary marked by the dotted-dashed line corresponds to the crossing of Cassini from the shadow of Rhea to the sunlit hemisphere of the moon.
+If not coincidental, this observation hints that the lack of an electron density dropout in Rhea's wake is due to the presence of a cold plasma source, the strength of which is controlled by sunlight.
+Such a source may be due to ionized particles from Rhea's weak exosphere (Teolis et al., 2010) or surface photoelectrons accelerated along the field lines from negative electrostatic potentials on Rhea's surface (Roussos et al., 2010).
+We discuss these possibilities in Section 5.4.
+Electron density streaks associated to surface charging have also been observed in moon-solar wind interaction simulations by Nakagawa and Kimura (2011).
+Broad depletions and structures
+As discussed in the previous subsection, there is no evidence of a symmetric broad depletion similar to the one observed in R1.
+A broad flux dropout is seen only after Cassini exits the wake.
+Apart from the lack of symmetry, the flux dropout has an additional difference with R1: the dropout becomes more intense with increasing energy.
+For energies of channel C4 and above, the dropout signal extends to distances between 7 and 8RRh and at locations where x<-1RRh.
+It is questionable how electrons at this location are influenced by a plasma absorbing moon, the interaction region of which is expected to extend only downstream.
+Small scale depletions and structures
+Fig. 7 is a zoom in the time interval around closest approach of R2, and also shows LEMMS priority channel data.
+Notice that priority channels for R2 are different to those of R1 and R1.5.
+Three small scale dropouts are seen in total, with the third one (after 17:42:20) becoming broader and deeper at higher energies (red arrows).
+Flux foreground is visible within the wake, although the signal is not as pronounced as in the case of R1.
+The clearest enhancement, again in the form of a spike, is visible in channel E2 (Fig. 6, middle panel, blue arrow).
+Since around closest approach, LEMMS's C-channels measure electrons coming from the south (pitch angle greater than 90°), it is surprising that foreground is measured above Rhea's north pole.
+One explanation may involve a fast transport process, as we infer for R1 (Section 4.1.3).
+It is also possible that energetic electrons with the appropriate bounce phase are reflected by the enhanced magnetic field at the wake, before reaching the surface: the mirror magnetic field strength for particles with pitch angle of 110° is about 23.0-23.5nT.
+This is close to the peak magnitude observed with MAG, meaning that a mirror point of the electron bounce motion can occur above Rhea's surface.
+The enhancement of ∣B∣ may be even stronger closer to the surface compared to the 100km flyby altitude.
+In that case, however, it is uncertain why fluxes within Rhea's wake appear as spikes and not as a continuous population.
+As mentioned earlier, a clear spiky enhancement is seen in channel E2.
+Since E2 belongs to the HET of LEMMS, it observes electrons with pitch angles opposite to those of the C-channels.
+In that case, E2 electrons arrive from the north.
+As no similar enhancement is seen the C-channels with overlapping energy ranges, we can also infer the presence of unidirectional energetic electron distributions.
+Similar observations at Ganymede have been connected to transport by pitch angle diffusion (Williams and Mauk, 1997), a scenario that may also comply with observations by Santolı´k et al. (2011).
+R3: January 11, 2011
+R3 had its closest approach 80km above the south pole of the moon.
+An overview of observations is shown in Fig. 8.
+Due to instrumental problems (significant negative Cassini charging affecting CAPS/ELS fluxes, and commanding error for RPWS/LP), density measurements for this flyby are only shown from RPWS/fUH.
+Corotational wake/flux tube crossing
+A first look at the panels of Fig. 8 shows the interaction features to be quite symmetric around closest approach.
+The wake/flux tube boundary crossings occur at the predicted times for energies up to about 100keV.
+The wake broadens at higher energies, as seen in all other flybys.
+Fluxes are above the instrumental background in certain LEMMS channels within the wake boundaries (blue arrows).
+This is also discussed in Section 4.4.3.
+R3 is the only flyby so far where electron densities show dropout signatures across both wake boundaries.
+The density profile is, nevertheless, peculiar, as there is a large density enhancement just before wake ingress.
+It is uncertain if this feature is connected to Rhea's interaction, as significant variability in densities is observed before and after the wake crossing.
+If there is a connection, it again may be relevant to the findings of Nakagawa and Kimura (2011) (electron density streaks driven by surface charging).
+One important difference with R2 is that the electron density drops after Cassini moves from the dark to the sunlit hemisphere of Rhea (dotted-dashed line).
+The density shows a sharp gradient at this point and reaches a minimum a few minutes later, before starting to recover again.
+The magnetic field magnitude (bottom panel) ∣B∣ shows the expected, persistent enhancement within the wake boundaries (Simon et al., 2012).
+Outside those boundaries, MAG data show many short duration spikes, comparable in amplitude with the increased magnitude in the wake.
+The similarity of these spikes to magnetic field signatures of depleted flux-tubes (André et al., 2007), may indicate that these features arise from injection events that coincidentally occurred during the flyby period (see also Simon et al., 2011).
+A peak in the magnetic field is seen again close to the day-night boundary crossing (dotted-dashed line), as in R2 (Section 4.3.1), consistent with the presence of a plasma pressure gradient at this location.
+Notice also that background ∣B∣ is similar to what is measured at all flybys except R1.
+During the latter, ∣B∣ was on average 3-4nT stronger compared to all other flybys.
+Broad depletions and structures
+R3 shows little evidence of large scale depletions in energetic electrons.
+The only persistent depletion observed away from Rhea starts around 04:46 and ends around 05:00.
+It is better visible in channels C5-E2, but is very shallow compared to what has been observed in R1 and R2 and it is questionable whether it should be compared with the broad depletions seen during R1 and R2.
+This possible broad dropout region also coexists with a considerable number of small scale depletions (red arrows), the merging of which may actually give rise to its existence.
+From the other datasets, only the RPWS electron density contains signatures of a broad structure (04:48-05:00).
+Again, however, this cannot be conclusively separated from the overall variability observed in that interval (e.g. sharp increase of electron density marked by the dotted line).
+Small scale depletions and structures
+Inspection of Fig. 8 reveals many small scale dropouts.
+Here we do not include a figure with priority channel data, as all small scale structures are well resolved with rate and/or PHA channels.
+What is unique for R3 is that small scale dropouts (red arrows) can be detected as far as ∼6RRh and ∼4RRh from the moon, before and after the wake crossing, respectively.
+Closer to the wake, small scale dropouts are more symmetric in most channels and resemble what was observed in R1.
+Few dropouts coincide with small scale enhancements in ∣B∣.
+Fluxes are low but detectable within the wake.
+Channel E2 has the most striking signature, with several spikes reaching flux levels similar to the fluxes outside the wake (blue arrows).
+The pitch angle of E2 is 80°, meaning that it observes energetic electrons with a southward parallel velocity component (coming from Rhea).
+This direction is occulted by Rhea, meaning that electrons should have reached at this location by the means of a fast transport process (fast diffusion/scattering) or by reflection at the enhanced ∣B∣ near Rhea's surface.
+Again, we favor the fast transport solution, as it is not obvious how flux enhancements would be detected in spikes, if reflection at strong magnetic fields is involved.
+Analysis and discussion
+From the overview of the four flyby observations given in Section 4, we can understand that Rhea's interaction region has many complex features in the energetic particle, plasma density and the magnetic field datasets.
+All flybys have unique features and only few structures are consistently observed.
+These consistent features, observed in at least three out of the four flybys, are listed below:•
+The width of Rhea's wake tends to increase with increasing electron energy.
+•
+The broadening appears to occur, at least partly, because small scale depletion regions at the wake flanks are merging at higher energies.
+•
+All flybys show narrow dropouts in energetic electron fluxes.
+These dropouts are near the wake flanks, although in some cases (R3) they can be observed also than 5RRh far from Rhea.
+•
+All flybys show fluxes above the instrumental background within the wake boundaries.
+This may be more easily explained for R1.5, as its flyby distance is large enough to allow for some diffusive fill-in to have occurred.
+•
+All flybys (including R1.5) show spiky flux enhancements in the wake.
+The width of the spikes is comparable to that of the narrow dropouts outside the wake.
+•
+All flybys show the expected and persistent increase in ∣B∣ within the wake boundaries.
+These are driven by the diamagnetic current system that is set up due to the presence of the wake, as demonstrated in several studies (Simon et al., 2012; Roussos et al., 2008).
+In none of these flybys, however, do the plasma density measurements show the anticipated dropout at the wake.
+As stated in the introduction, we will only focus on the common aspects.
+Unique features of the interaction may well be connected to the different flyby geometries, the pointing of LEMMS and/or the state of the magnetosphere at each time.
+Thus, we leave the analysis of such features for separate studies and we only briefly discuss some of their aspects in Section 6.
+We will start with the observation that narrow flux dropouts and short-lived electron flux enhancements in the wake were seen in all cases.
+The fluxes measured in these spikes appear comparable (in orders of magnitude) to the flux lost at various dropouts.
+This is best visible at flyby R1 (Fig. 3, Section 4.1.3).
+One possibility is that there is rapid transport between the magnetosphere and the wake.
+To verify this claim, we have to perform a Phase-Space-Density analysis.
+Phase Space Density (PSD) analysis
+During flybys R2 and R3, flux enhancements in Rhea's wake were observed above the moon's north and south poles (Sections 4.3.3 and 4.4.3).
+This suggests that transport time scales should be faster or comparable to half of the electron bounce period.
+For a dipolar configuration, energetic electrons at Rhea's L-shell and with pitch angle pointing as in R2 and R3, this period is between about 8s (20keV) and 4s (300keV).
+This simple calculation can give us an idea about the transport time scales of the process that we investigate.
+If the process is so rapid, we can assume that no additional sources or losses act on the electrons, unless they get absorbed by Rhea during this transport.
+In that case, Liouville's theorem should apply (PSD is constant along the trajectory).
+Flyby R1 is probably the best one where Liouville's theorem can be tested.
+The wake in R1.5 has contributions from diffusive fill-in.
+For the R2 and R3 flux tube crossings, transport cannot be lossless since many electrons will get absorbed on Rhea's surface.
+We will illustrate our tests of Liouville's theorem using data for electrons with an energy E≈90keV and a pitch angle α≈170° before they encounter Rhea.
+Calculations with data from different LEMMS channels give similar results.
+Calculations are done at constant first adiabatic invariant (μ=Esin2α(E+2mc2)/(2mc2B)).
+Conservation of the second invariant is questionable, since a bounce for 170° pitch angle electrons takes about 15s.
+We therefore assume, for simplicity, that the pitch angle is always the measured one, being α≈170° throughout the flyby.
+The same calculations can be performed with the use of an isotropic invariant, Λ, (instead of the first and second adiabatic invariants), as given in Harel et al. (1981) and Rymer et al. (2007).
+Λ is insensitive to pitch angle scattering (Santolı´k et al., 2011), but gives the same results as the conservation of μ because of the small changes in ∣B∣ involved in our analysis.
+Additional details about the extraction of PSDs are given in Appendix A, while sample results shown in Fig. 9.
+Overall, comparisons show that average PSD losses (dotted line) and gains (dotted-dashed line) differ by less than half an order of magnitude.
+This difference is very small, considering the assumptions, simplifications and the limitations (narrow LEMMS's pitch angle pointing) of the analysis.
+Furthermore, we cannot be certain that spikes in the wake have a one-to-one correspondence with depletions at the flanks.
+The order-of-magnitude agreement can then be considered as an indication that Liouville's theorem holds and hints that a lossless or sourceless transport of these energetic electrons from the magnetosphere to the wake may be occurring.
+The question is what can be the driver of such a transport.
+We first investigate the possibility of complex energetic electron drifts in Rhea's interaction region.
+Lossless transport due to complex electron drifts in Rhea's interaction region
+As plasma flows and the magnetic field are disturbed downstream of Rhea, energetic electron trajectories will be affected by these in ways drastically different to trajectories of cold test particles, since the intensity of magnetic (gradient and curvature) drifts increases with energy.
+The relative strength of the observed ∣B∣ disturbances at Rhea with respect to the background ∣B∣ is between 6% and 13%, compared to 6-8% at Enceladus, where non-dipolar drifts appear to be important (Krupp et al., 2012).
+Complex drifts may help energetic electrons access the wake (enhancements), or lead to the formation of forbidden regions (flux dropouts).
+We therefore believe that the role of complex drifts at Rhea should be investigated.
+We used the guiding-center approximation and the output of hybrid code simulations of Rhea's magnetospheric interaction (Simon et al., 2012), in order to visualize the effects of complex drifts on the energetic electrons near the moon.
+Detailed information on the tracing procedure is given in Appendix B.
+Tracing examples are shown in the panels of Fig. 10.
+The top left panel shows the xy-map of ∣B∣ from the simulations, after we added a magnetospheric gradient of 0.23nT/RRh along the y-direction.
+The other three panels show electron traces at energies indicated on top of each plot.
+That is the initial energy of injected electrons.
+We also express this energy as a percentage of the keplerian resonant energy, Erk, which for this simulation is at 100keV.
+We show this percentage because the complexity of drifts depends also on how close we are to Erk, not only the energy of the injected electrons (Schulz and Eviatar, 1977).
+As we approach Erk, the residence time of energetic electrons within Rhea's interaction region increases.
+Then these electrons are exposed to the perturbed fields for longer time and distortions in their drift trajectories are amplified.
+In the tracings shown in Fig. 10, 350 electrons were injected at the left boundary.
+The top right panels show electrons at the 1% level of Erk (1keV).
+They practically follow the plasma flow pattern as magnetic drifts are unimportant at low energies.
+Electron trajectories "grazing" the wake boundaries expand into the wake due to flow perturbations.
+The wake then becomes narrower than the moon's diameter.
+Tracings at the 5% level of Erk are shown in the bottom left panel.
+The initial electron drift towards -x is a bit slower due to the vmag∇B of Eqs.
+(B.1) and (B) becoming stronger.
+Firstly, electrons enter the "expansion fans" (drop in ∣B∣) and tend to drift towards -y.
+As they continue to move towards +x they experience several competing drifts.
+For instance, as they start to exit from the "expansion fans" further downstream, they see an opposite gradient in ∣B∣ from before, which now pushes them towards +y.
+In addition, they feel a flow perturbation pushing them in the wake.
+The latter has a negative y-component for y>0 and a positive y-component for y<0.
+This explains the asymmetry in the trajectories that develops at the wake flanks.
+The strong magnetic field within the wake boundaries, prevents most energetic electrons from accessing it and remains empty for most of its part.
+At higher energies, magnetic drift terms compete even more with E×B drifts resulting in the very complex trajectories visible in the lower-right panel of Fig. 10.
+The sensitivity of traces to numerical simulation noise was important for energies greater than 50keV, so for this study we restrict our analysis below that range.
+From the illustrated results, the most interesting features are the following:•
+Field gradients tend to exclude particles from the wake at electron energies that magnetic drifts start to become important.
+This leads to a wake broadening with increasing energy, similar with what we observe with LEMMS.
+On the other hand, LEMMS data indicate that this broadening may result from an apparent merging of small scale depletions seen in low energies.
+The relative importance of such a contribution is unclear.
+•
+As expected, complex drifts lead to the appearance of forbidden regions and channels of lossless transport in the wake.
+The structure of these regions does not agree with LEMMS observations.
+LEMMS data also show a series of flux enhancements in the wake, while our simulations show only one channel of transport (in the best case).
+The various inconsistencies between our data and the test particle simulations may be due to a series of reasons.
+For instance, LEMMS observations during R1 (where we have the clearest indications of lossless transport) were at 170° pitch angle, while our simulations are for 90°, as mentioned in B.
+Treatment of the full, 3D problem is more demanding and is considered as part of future studies.
+Its worth noting, however, that CAPS/ELS observed small and large scale features identical to those observed with LEMMS at the overlapping energy range of the two instruments (20-30keV), while observing at 90° pitch angle during R1 (Jones et al., 2008).
+This suggests that the mismatch between our drift simulations and LEMMS observations is probably not associated to the restriction of our calculations to 90° electrons.
+Additional drifts may be connected with temporal fluctuations in the magnetic and electric fields at Rhea's distance.
+Fluctuations in ∣B∣ are evident in all flyby plots.
+The associated polarization drifts are not considered in this simulation, although we expect that they will have a diffusing (smoothing) effect on the spatial distribution of electron fluxes.
+If that is the case, then the drifts that lead to the appearance of the small scale structures near Rhea should be associated to dynamics of the local interaction region, not described by the hybrid simulation code which provides us the background field parameters for the tracings.
+One such dynamical feature could be a wake-driven instability, a topic investigated in the next two subsections.
+Flute instability in Rhea's wake
+The formation and evolution of Rhea's wake is in principle a case of "magnetized plasma expansion into the vacuum".
+This subject has been investigated both theoretically and in space or laboratory experiments.
+Many studies suggest, amongst others, that such an expansion can be the driver of plasma instabilities.
+Borisov and Mall (2000) proposed that conditions in the lunar wake may allow the excitation of the flute (interchange) instability.
+These conditions require a simultaneous decrease/increase of ∣B∣ and the plasma density.
+These two parameters are typically anticorrelated, but around the wake boundaries there can be a positive correlation.
+This has also been observed in other environments, as we discuss also below.
+The flute instability is a Rayleigh-Taylor type of instability, where transport occurs quickly and in the form of narrow channels with typical scales lower than the characteristic ion gyroradius, ρi.
+At Rhea, we indeed observe that small scale structures have spatial scales much smaller than the ion gyroradius (by a factor of 20 at least).
+The instability's growth rate is also proportional to the intensity of the magnetic field and the plasma density gradients.
+It is also expected to develop more quickly along the field-aligned direction.
+Borisov and Mall (2000) calculated a linear growth rate between 0.1 and 0.3s-1 for Earth's Moon wake.
+Apart from moon wakes, this instability has also been observed in expanding plasma clouds, such as the magnetotail barium releases from the satellite AMPTE (Active Magnetospheric Particle Tracers Explorers) (Bernhardt et al., 1987).
+This expansion did not occur on a smooth spherical shell.
+Many irregularities were observed on the shell's surface.
+Wavelengths were smaller than 40km, about an order of magnitude smaller than the ion gyroradius.
+Among the proposed mechanisms considered in order to explain the AMPTE results was the lower-hybrid drift instability (Bernhardt et al., 1987).
+Alternatively, Hassam and Huba (1987) proposed a new form of flute instability in order to explain the data.
+The growth rate of this instability increases rapidly if the ratio between the ion gyroradius and the spatial scale of number density depletion is much greater than unity.
+This is also sometimes called "Large Larmor Radius Interchange Instability" (LLRII) (Ripin et al., 1987).
+Using equations from Borisov and Mall (2000) and output from the hybrid simulations, we estimate that the flute instability has a linear growth rate of about 0.1-0.2s-1 just behind Rhea, giving a growth time of 5-10s, comparable to the time scales inferred particle transport in Rhea's wake through the observed, narrow channels (Section 5.1).
+The rate reduces by an order of magnitude 10RRh downstream, and disappears at larger distances, since magnetic field and pressure gradients diminish.
+If gyroradius effects are important (Hassam and Huba, 1987), the growth rate close to the moon may be even stronger.
+Small scale depletions or enhancements seen at Rhea, may then represent signatures of such a type of an interchange process.
+We also note that during R1, when Cassini was observing close to the field aligned direction, the number of the observed small scale structures was the greatest from all four flybys.
+Gyroradius effects may also explain the absence of such signatures at Tethys (Jones et al., 2008).
+Since at Tethys the magnetic field is stronger, the fraction between the scale of the ion gyroradius and the density gradients is smaller than it is at Rhea.
+The value maybe small enough to prevent the instability from growing, before the wake refills.
+Furthermore, magnetic field gradients are weaker at Tethys.
+For a full plasma absorption it can be easily shown that the ratio of the ∣B∣ in the wake of Tethys with the value upstream is proportional to (1+β), where β is the plasma beta (Simon et al., 2012).
+The value of β at Tethys (∼0.01) is more than an order of magnitude lower than at Rhea (>0.5), meaning that the corresponding gradients in ∣B∣ would be almost negligible, as also observed (Khurana et al., 2008), preventing a flute instability from developing.
+From the above it is clear that critical for the formation of this instability are the strength of gradients in the various plasma and field parameters in Rhea's wake.
+In that context, observations of cold plasma in Rhea's wake have several puzzling elements that need to be carefully considered.
+Cold plasma in Rhea's wake and implications for the driver of the instability
+Data from most Rhea flybys show that the electron number density profiles extracted from RPWS fUH observations do not show an absorption signature during the wake or flux tube crossings.
+In the same time, magnetometer signatures are consistent with the expected plasma pressure loss.
+As the observation in electrons is unexpected, we included, wherever that was possible, plasma density measurements from different Cassini sensors, namely the Langmuir Probe (ion density during R1) and the CAPS/ELS (electron density during R2), in an attempt to verify the measurements.
+In the case of R1, LP measurements show that the ion density in the wake experiences a decrease of at least 50% (fourth panel from top, Fig. 2).
+If that is valid, a significant electron-ion density imbalance is implied for Rhea's wake.
+Numbers for this imbalance (∼1-4cm-3), would, however, be extreme: simulations hint that charge superabundances in moon wakes should be present mostly around the wake flanks and their amplitude should be a negligible fraction of the upstream plasma density (Nakagawa and Kimura, 2011; Farrell et al., 2008).
+In addition, a large charge imbalance would lead to a very intense electrostatic potential in Rhea's wake.
+Data from the lowest energy proton channels of LEMMS (A0, A1 - 25-56keV range) show flux enhancements in the vicinity of Rhea's wake (Fig. 11) that could be consistent with large negative electrostatic potentials (tens of keV) that accelerate ions along the magnetic field direction.
+Using a simple calculation scheme from Nishino et al. (2010), we calculated that the excess electron density is in the order of 10-4cm-3.
+That is four orders of magnitude lower than the value inferred from RPWS and MAG data.
+The signal of higher energy ion channels of LEMMS is featureless, indicating that this value is an upper limit and the assumption for a macroscopic quasi-neutrality in the wake is reasonable.
+The latter conclusion implies that one of the two RPWS plasma density measurements for the R1 wake crossing is more reliable.
+We believe that this is the fUH electron density dataset.
+Ion density extraction from the LP has several systematic errors, large uncertainties (more than 50% relative error for the low plasma densities observed at L-shells greater than 7) and its estimation is also based on a series of assumptions (Jacobsen et al., 2009).
+Furthermore, the agreement between the fUH electron densities and the density profile of CAPS/ELS for flyby R2 (Fig. 6) adds further support to the validity of that specific density profile.
+We therefore find that the cold plasma density in the wake is equal or comparable to the ambient magnetospheric plasma density.
+This sets constraints on the exact nature of the instability that is inferred from energetic electron observations (Section 5.3).
+The instability that drives the interchange motions cannot be controlled by density gradients.
+The flute instability, however, can also be driven by plasma pressure (or magnetic field) gradients (Boyd and Sanderson, 2003).
+Magnetic field gradients were also proposed as one of the possibilities to explain the flute modes in the expanding AMPTE cloud (Bernhardt et al., 1987).
+MAG data from all flybys indicate that such gradients are indeed present and it is therefore reasonable to explore this concept in future studies.
+Since density levels in the wake are comparable to the ambient ones, lossless transport may alternatively occur through the a Kelvin-Helmholtz (KH) instability, if velocity shear between the two domains is significant.
+We still, however, do not believe that the small scale features in energetic electrons are signatures of such a process, even if the KH instability occurs.
+The presence of those signatures almost upstream of Rhea and up to 6RRh from the moon (flybys R2 and R3) would imply the presence of KH vortices in a rather unexpected location and with an unrealistically large scale compared to the width of a region where velocity shear may potentially develop.
+Plasma velocity vectors available for R1 and R1.5 also show nothing relevant (Wilson et al., 2010).
+It is also important to understand how conditions in the wake allow for a plasma pressure gradient, while the plasma density is unchanged.
+One scenario is that there is a cold plasma source composed of exospheric electrons and ions.
+To estimate the plasma density from such a process, we repeated the hybrid simulations of Simon et al. (2012), adding an exosphere with the characteristics described in Teolis et al. (2010).
+Peak exospheric densities at the R2 and R3 flyby altitudes or the surface did not exceed the level of 0.2cm-3, while for the R1 altitude this level was at 0.01cm-3, orders of magnitude lower than the ∼4-6cm-3 observed with Cassini.
+The presence of an exosphere can therefore not explain the observations of ambient plasma density levels in Rhea's wake.
+A second possibility is that the wake receives accelerated or escaped photoelectrons from Rhea's charged surface.
+Unlike Earth's Moon, the wakeside hemisphere of Rhea (or part of it) can be immersed in sunlight and supply the wake directly with photoelectrons, given also that a large fraction of Rhea's surface is expected to be charged negatively (Roussos et al., 2010).
+Data from flyby R2 support this idea, although observations in R3 do not show any electron density enhancement when Cassini crosses to the moon's sunlit hemisphere.
+Using equations of Colwell et al. (2005) and assuming a photoelectron temperature of 1-2eV, we estimate a peak surface density (subsolar region) of photoelectrons between 35 and 55cm-3.
+This value decays with increasing solar zenith angle, reaching the 50% level at 60°.
+The surface potential profile will determine what fraction of the photoelectrons may escape (explaining possibly the complex electron density profile during R3), but in principle, the abundance of photoelectrons appears sufficient to supply the observed densities in Rhea's wake.
+If this process is taking place, photoelectrons will accelerate ions in the wake in order to balance the excess negative charge.
+Ambipolar electric field acceleration is more effective along the magnetic field.
+This means that ions attracted towards the wake would carry little perpendicular pressure.
+This may then explain why the magnetometer still observes an enhancement in ∣B∣.
+The observation of very low count rates (or partial densities) for the perpendicular component of the ion velocity distribution during flybys R1 and R1.5 (Wilson et al., 2010) indicates that indeed the bulk of the ion density should be contained at small pitch angles.
+If an exospheric source was dominant, count rates in CAPS would have been considerably higher.
+Extraction of CAPS/IMS ion moments for flybys R2 and R3 (where the angular coverage of the velocity distribution is better) is therefore essential for exploring the aforementioned scenario.
+Summary, open questions and outlook
+Energetic particle, magnetometer and electron density data from the four closest Cassini flybys of Rhea to date were reviewed in an attempt to understand the processes under which a series of flux decreases appear in energetic electrons.
+The most interesting observation concerns the simultaneous presence of narrow dropouts in energetic electron fluxes, visible usually near the wake flanks with narrow flux enhancements within the wake boundaries.
+Liouville's theorem was found to hold for these features, when Phase-Space-Density losses or gains were compared at the locations of the dropouts and spikes, respectively.
+This result is consistent with a process of lossless rapid transport of energetic electrons from the magnetosphere to the wake.
+It appears more likely that the transport is driven by a form of instability, rather than complex energetic electron drifts due to disturbed flows and magnetic fields downstream of Rhea.
+These drifts may primarily explain better the broadening of the central wake with increasing energy, although a contribution to this observed pattern may also come from the merging of small scale depletions at high electron energies (typically above 60-100keV, depending on the flyby).
+The instability is probably driven by pressure and magnetic field gradients in the wake.
+Density gradients in the wake are surprisingly absent, a fact that we relate to the importance of surface charging for Rhea's magnetospheric interaction.
+Deviation from quasi-neutrality, is probably not more than 10-4cm-3, based on energetic ion observations in R1.
+Regardless of the explanation, we believe that the presence of a cold plasma source near Rhea is implied from the observations.
+This aspect of the interaction appears qualitatively similar to what was observed at the jovian moon Callisto with the Galileo orbiter (Gurnett et al., 2000).
+Simulating the evolution of plasma pressure gradients (expanding plasma clouds) using particle codes (Winske, 1989) would reveal if for the conditions of Rhea's plasma wake (plasma beta near unity, zero density gradient, strong parallel pressure component in the "wake") a fast growing instability develops, with characteristics described in previous sections.
+Alternatively, properties of the RPWS spectrograms may be compared to theoretical expectations for wake-driven instabilities as in Farrell et al. (1997).
+The analysis presented in the previous sections was subject to a series of limitations.
+The small number of Rhea flybys until now makes comparisons challenging, given that the flyby trajectory, the instrument pointing and the magnetospheric state are different in almost each case.
+If the role of surface charging is important, as hinted by some observations, then also the magnetospheric local time of the flyby may become a controlling parameter for the interaction region's structure and dynamics.
+Equally interesting for future studies is the identification of broad energetic electron dropouts - an observation not extensively analyzed in this study.
+These depletions are clearly seen only in flybys R1 and R2.
+A distinct difference between the dropouts in the two cases is the opposite energy dependence of the depletion depth and the lack of symmetry in the depletion profile, for R2, with respect to the position of the wake.
+Less intense dropouts, but qualitatively similar to those in R1, are seen in flyby R1.5, and much weaker ones in R3.
+Observed deviations from the typical, plasma-absorbing interaction region profile may explain some differences.
+These deviations do not necessarily mean the main interaction mode at Rhea is not plasma absorption.
+For instance, Simon et al. (2012) demonstrates that the combination of low magnetosonic Mach number and the high plasma beta values of Rhea's space environment amplifies interaction features which for other plasma absorbers (e.g. Tethys, Dione, Earth's Moon) are barely detectable.
+One of these features is a stronger, flow-aligned magnetic field component perturbation, which gives rise to mass-loading-like interaction signatures.
+Such structures may also complicate electron drifts, but to what extent it is uncertain.
+Similarly, the high plasma beta makes surface charging more important for Rhea compared to the other Saturnian moons (Roussos et al., 2010).
+Furthermore, recent developments in the study of Earth's Moon interaction with the solar wind indicate that the standard picture for a lunar-type interaction may be too simplified: processes, such as the entry of exospheric pick-up ions in the center of the wake, backscattering on the surface and self-pick up of ambient plasma ions, appear to also have an impact on the wake dynamics (Halekas et al., 2011).
+For instance, the self-pick up process has been shown to lead to enhanced ULF wave activity in the lunar, at least 10% of the time (Nakagawa et al., 2012).
+Whether a similar process is important the inferred instability at Rhea is questionable, as the latter appears to operate continuously.
+Understanding the origin of the broad energetic electron flux dropouts was also significantly limited by the narrow pitch angle pointing of LEMMS.
+So far, the only case where extended pitch angle coverage has been achieved was during the distant flyby of Voyager 1 through Rhea's absorption signature (microsignature), three degrees in longitude downstream of the moon.
+Observations showed that the flux dropouts are present in a broad region, much greater than Rhea's diameter.
+In addition, that depletion was wider for equatorial particles compared to that of the more field-aligned particles.
+The pitch angle dependence observed with Voyager 1 could be considered in order to explore whether the possibility that the decreases form due to scattering from whistler waves is applicable (Santolı´k et al., 2011).
+The ideal pitch angle coverage of CAPS/ELS for flybys R2 and R3 may also be used to study pitch angle distributions at the 20-30keV overlapping energy range with LEMMS.
+Furthermore, distant flybys of Cassini from Rhea within few degrees from the moon should also be investigated, as the may contain additional information about the nature of the interaction.
+Beyond these striking features identified in few flybys, there was a large number of additional unique observations.
+For instance, energetic electron data in R1.5 confirm observations of Wilson et al. (2010) of a local, radial velocity component in the moon's interaction region (also observed during R1).
+Signatures of fresh, interchange events were seen in R1 and R1.5, possibly also at R3.
+Furthermore, localized gradients in ∣B∣ were seen during the crossing from the shadowed to the sunlit hemisphere of Rhea (R2 and R3).
+What is unclear in most cases is why these features do not appear consistently (or with consistent characteristics), and/or whether they are related to Rhea's interaction, or they are simply magnetospheric.
+Additional, multi-instrument investigations and interaction simulations are essential all possible scenarios and their implications for the structure dynamics of Rhea's magnetospheric interaction.
+Acknowledgments
+The German contribution of the MIMI/LEMMS Instrument was in part financed by the German BMWi through the German Space Agency DLR under Contracts 50 OH 0103, 50 OH 0801, 50 OH 0802, 50 OH 1101 and by the Max Planck Society.
+G.H.J. is supported by UK Science and Technology Facilities Council Advanced and Postdoctoral Fellowships, respectively.
+H.K. acknowledges financial support by the Deutsche Forschungsgemeinschaft (DFG) under Grant MO539/19-1.
+The hybrid simulations were performed on JUROPA supercomputers at the Jülich Supercomputing Centre, Forschungszentrum Jülich (Germany).
+We thank Andreas Lagg and Markus Fränz (MPS) for extensive software support, Martha Kusterer and Jon Vandegriff (both JHUAPL) for reducing the MIMI data, Gethyn Lewis and Lin Gilbert (both MSSL/UCL) for reducing the CAPS/ELS data and Michelle Thomsen (LANL) for useful discussions.
+Details on the Phase Space Density calculations
+Here we provide some additional details about conversion of fluxes to Phase Space Densities, as this was required to test Liouville's theorem for data collected near and within Rhea's wake (Section 5.1).
+Since PSDs were calculated at constant first adiabatic invariant, fluxes had to be evaluated at a different energy for each point that we had Cassini observations.
+In order to derive the electron intensity j(E(t),t) at the changed energy, we used two methods.
+In the first, we used high energy resolution spectral information from the PHA channels to extract the flux at the new energy E(t).
+A potential problem of this method may arise from the relatively poor time resolution of the PHA channels with respect to the few second duration of the small scale enhancements and dropouts (the central features of this analysis).
+This could lead to undersampling and an underestimation of the enhancement or dropout amplitudes.
+For that reason, in the second method we used measurements at the 36 and at 229keV levels of the high time resolution LEMMS channels (channels C1_PRIO and C5_PRIO), and interpolated linearly between these energies on a log-log scale in order to find j(E(t),t).
+The disadvantage of this method is that the assumed power-law spectral shape is only a rough approximation, given the shape of the energy-flux spectra taken with the PHA channels in that region (Fig. 9, bottom panel).
+After we extract j(E(t),t) (with either of the two methods), we convert the differential intensity j to Phase Space Density f=j/p2, with p the kinetic momentum.
+We then measure the amplitude of the PSD losses/enhancements at the locations of the narrow dropouts/spikes.
+Comparison of the values is shown in Fig. 9 (top panel).
+The indicated values were calculated using the first method described above.
+The second method gave nearly identical results, meaning that the influence of the channel effects discussed in the previous paragraph is insignificant.
+Details on the energetic electron tracings
+Here we provide additional information regarding the calculations presented in Section 5.2, where we show guiding center tracing of energetic electrons in a simulated interaction region of Rhea.
+The use of the guiding center approximation is justified since the gyroradius of energetic electrons is much smaller than Rhea's diameter (15-35km for electrons between 20 and 100keV) or the scale size of the various macroscopic interaction features (wake, expansion fans).
+Furthermore, field parameters in the simulation are static.
+The total drift velocity vector of equatorially mirroring electrons is given by the following equation:(B.1)v=vcorotE×B+vRheaE×B+vmag∇B+vRhea∇B
+The first two terms are energy and charge independent E×B drifts, and represent the corotation and plasma flow perturbations, respectively.
+They dominate at energies below about 5-10keV, depending on the percentage of subcorotation at Rhea and the intensity of local magnetic field gradients.
+The other two contributions are energy dependent and represent drifts along the local ∇B×B direction.
+The third term represents drifts due to magnetospheric field gradients and it is always opposing corotation (drift towards -x).
+The last term may lead to drifts in all directions, depending on the location in Rhea's interaction region.
+The sum of the last two components becomes dominant at energies above about 80-100keV for equatorially mirroring particles.
+For intermediate energies, contributions from all terms are considerable.
+We solved Eq.
+(B.1) using numerical integration.
+Numerical integration of Eq.
+(B.1) requires inputs for each of the four terms.
+For the calculation of the third term, vmag∇B, we require a description of the equatorial magnetospheric field.
+For this purpose, we applied a linear fit to the magnetospheric ∣B∣ profile as a function of y-position in the RHIS.
+A linear fit is applicable since the region of interest is very narrow (∼15RRh wide) compared to the magnetospheric scales and at Rhea's location ∣B∣ changes slowly with distance, as it is also visible in Figs.
+2-8.
+The field gradient is between 0.19 and 0.27nT/RRh in the y-direction.
+For reference, in a dipole field the value is about 0.13nT/RRh.
+From that, we used an average of 0.23nT/RRh in the simulations.
+Inputs for the magnetic field perturbations and the plasma flow at Rhea are extracted from new hybrid code simulations of Rhea's magnetospheric interaction (Simon et al., 2012).
+These simulations are similar to those of Roussos et al. (2008), utilizing an updated version of the hybrid simulation code, called AIKEF (Adaptive Ion-Kinetic Electron-Fluid) (Müller et al., 2011; Kriegel et al., 2011).
+The sum of the first two terms of Eq.
+(B.1) vcorotE×B,vRheaE×B is directly extracted from these simulations.
+The simulated magnetic field perturbations are important for the last term of Eq.
+(B.1) vRhea∇B.
+Since gradient drift terms are proportional to the electron energy, high energy electron tracings can become extremely sensitive even to weak numerical noise in the ∣B∣ output.
+To reduce the noise we averaged the output from the final steps of the simulation and also applied a Lee-filter in the xy-map of ∣B∣.
+Derivatives in ∣B∣ were calculated numerically using a three-point interpolation.
+The spatial scales across which derivatives were estimated were at least three times greater than the scale size of noise features (∼0.1RRh).
+This ensured that the residual noise had the minimum possible effect in our tracings.
+Since we simulated equatorial mirroring particle drifts, we also set Bx and By to zero (Roussos et al., 2008).
+After the ∣B∣ map is constructed, we calculate the two gradient drift terms vmag∇B,vRhea∇B using a relativistically correct formula (Northrop, 1963):(B.2)v∇B=(γ2-1)γmec22q|B|3(B×∇B)Here, γ is the Lorentz factor (containing information about the electron energy), me is the electron mass, q is the electron charge and c is the speed of light.
+The use of relativistically adjusted equation for electrons is necessary since for energies between 20 and 100keV, for instance, β=uc (or γ) gets values between 0.27 (1.17) and 0.55 (1.48), respectively.
+This corresponds to a correction factor for the electron kinetic energy between 5% (20keV) and 22% (100keV).
+Integration of Eq.
+(B.1) was carried out with a fourth order Runge-Kutta method.
+A series of test runs were performed in order to find the maximum allowed time step per electron energy.
+Integration was done on the equatorial (xy) grid of the hybrid simulation.
+The hybrid code uses adaptive grid size, but output was interpolated on a uniform cartesian grid with a resolution of about 0.084RRh in each direction.
+Field and flow values between the grid points were estimated by interpolation.
+At each time step, conservation of μ was enforced, adjusting the initial energy of the electrons, when these moved across regions of different ∣B∣.
+Simulations of Rhea's magnetospheric interaction, with the presence of an exosphere
+These simulations were carried out in order to determine the peak ionospheric densities in Rhea's interaction region and understand whether the weak exosphere of Rhea is responsible for the lack of a plasma density dropout in the wake.
+For the simulation, the setup was similar to what is described in Simon et al. (2012), who, however, did not include an exosphere in the calculations.
+The neutral exosphere we added has a profile similar to that given in Saur and Strobel (2005) and Simon et al. (2011) and its composed from molecular oxygen.
+Neutral densities are scaled by the total number of oxygen particles (N=2.5×1029), given in Teolis et al. (2010), corresponding to a surface density of 3.4×105 cm-3.
+For the ionization of neutrals, we assumed that charge-exchange dominates with a rate of 1.7×10-8cm-3s-1 (Simon et al., 2011).
+Photoionization was not included since the rate is negligible compared to that of charge exchange.
+The simulation shows that since the ionospheric particle production rate is low, the ionosphere does not act as a barrier to the upstream plasma flow.
+The corotation electric field penetrates down to the surface of Rhea and all exospheric particles are immediately picked-up, before they accumulate to large numbers around Rhea.
+At steady-state, peak ionospheric densities at the surface of Rhea are at least an order of magnitude lower compared to the electron densities measured by RPWS (Fig. C.12).
+

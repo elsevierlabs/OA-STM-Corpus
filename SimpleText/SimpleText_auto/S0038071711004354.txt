@@ -1,0 +1,293 @@
+Dual-chamber measurements of δ13C of soil-respired CO2 partitioned using a field-based three end-member model
+
+Abstract
+The contribution of old soil C (SOM) to total soil respiration (RS) in forest has been a crucial topic in global change research, but remains uncertain.
+Isotopic methods, such as natural variations in carbon isotope composition (δ13C) of soil respiration, are more frequently being applied, and show promise in separating heterotrophic and autotrophic contributions to RS.
+However, natural and artificial modification of δ13CRs can cause isotopic disequilibria in the soil-atmosphere system generating a mismatch between what is usually measured and what process-based models will predict.
+Here we report the partitioning of the soil surface CO2 flux in a warm Mediterranean forest into components derived from root, litter/humus, and SOM sources using a new, three end-member mixing model, and compare this with the conventional partitioning into autotrophic and heterotrophic components.
+The three end-member mixing model takes into account both the discrimination during CO2 respiration/decomposition of the three components, as well as the fractions of their CO2 fluxes integrated over the total soil profile mass.
+In addition, we used a novel dual-chamber technique to ensure that δ13CRs was subjected to minimal artefacts during measurement.
+We observed that by using measured soil surface CO2 concentrations as a baseline level for the dual-chamber operation, it was possible to achieve and monitor the necessary conservation of the soil CO2 steady-state diffusion conditions during the measurements, without using permanent collars inserted deeply into the soil.
+When RS (8.64 g CO2 m2 d-1) was partitioned into two components, the mean autotrophic and heterotrophic respiration was 56 and 44%, respectively.
+When RS was partitioned using the three-way model, however, roots, litter/humus, and SOM contributed 30, 33, and 37% of the total flux.
+Our results confirm that to improve the estimates of the partitioning method, it is important to distinguish the fractional contribution of the long-term SOM-derived flux from younger and more labile sources.
+Highlights
+► Natural variations in carbon isotope composition (δ13C) of soil respiration.
+► Dual-chamber technique to ensure that δ13CRs is subjected to minimal artefacts during measurement.
+► Three end-member mixing model for partitioning the soil surface CO2 flux.
+► Fractional contribution of the long-term SOM-derived flux from younger and more labile sources.
+
+Introduction
+Natural variations in carbon isotope composition (δ13C) provide a powerful tool for studying C dynamics in the soil-plant-atmosphere system (Hanson et al., 2000; Ehleringer et al., 2000; Bowling et al., 2008), including partitioning of the autotrophic and heterotrophic components of the surface flux, RS.
+Reliably estimating the heterotrophic component of RS is crucial for the characterisation of an ecosystem's net C balance.
+The difference between the C fluxes arising from soil heterotrophic respiration and net primary production defines an ecosystem's net exchange of C, which determines if the system is a net source of, or sink for, atmospheric CO2.
+It is therefore crucial to estimate the contributions of individual components of RS, e.g., CO2 derived from autotrophic root respiration or from heterotrophic respiration of microbes decomposing recent litter, or old soil organic matter (SOM).
+Normally, three-way partitioning can be achieved only using two isotopes.
+Here we report a new approach that combines δ13C measurements of CO2 derived from SOM, roots and litter with the corresponding mass-dependent CO2 fluxes to estimate their relative and absolute contributions to RS.
+Generally, chemical and biochemical processes accumulate the lighter isotope in the product, leaving the substrate enriched in the heavier isotope (Högberg and Ekblad, 1996).
+This fractionation can differ among biological processes.
+Recently, Werth and Kuzyakov (2010) reviewed 13C/12C fractionations by biotic processes occurring at the root-microbe-soil interface.
+They reported that organic C in the root tissues of C3 vegetation are generally 13C-enriched by 1.2 ± 0.6‰ compared with the aboveground tissues, whereas the CO2 respired by roots is depleted by 2.1 ± 2.6‰, compared with root organic C.
+Under C3 vegetation, microbial CO2 is enriched by 0.7 ± 2.8‰ in comparison to the C in SOM.
+The causes of δ13C variation in respired CO2 can be summarised as: (i) isotopic effects during the metabolic synthesis of secondary compounds (e.g., lipids, lignin, cellulose); (ii) variation in photosynthetic discrimination against 13C combined with temporal lags in the movement of photosynthates through plant and soil pools; (iii) shifts in microbial δ13C due to anaplerotic CO2 fixation; (iv) preferential use of certain respiratory substrates by microbes; and (v) kinetic fractionation of 13C/12C during microbial respiration (Tu and Dawson, 2005; Bowling et al., 2008).
+Most of the C in SOM derives from the microbial degradation of plant litter which consists of polysaccharides and more depleted lignin 13C.
+Since easily decomposable substances like glucose or sucrose are preferentially decomposed by microbes, the balance between litter-derived compounds retained in the soil has a direct impact, via isotopic mass balance, on the net δ13C of SOM (Cotrufo et al., 2005).
+However, the δ13C of SOM in forest ecosystems generally increases (i.e., becomes more negative) with soil depth by approximately 1-3‰ relative to that of the litter layer (Nadelhoffer and Fry, 1988).
+The reasons for this are still unclear (Boström et al., 2007).
+Possible explanations include the accumulated influence of isotopic discrimination during selective microbial decomposition of specific substrates within the SOM (Nadelhoffer and Fry, 1988; Buchmann et al., 1997; Lin et al., 1999), and more importantly by the increased contribution of microbially derived C to SOM with depth (Ehleringer et al., 2000; Högberg et al., 2005).
+The use of δ13C for partitioning the contribution of different sources of RS has the advantage of permitting in situ measurements with minimal disturbance to soil and roots (Hanson et al., 2000; Paterson et al., 2009).
+Its success relies on distinguishing small differences in δ13C of CO2 produced by autotrophic and heterotrophic respiration, and it is frequently applied in combination with incubation of excised roots, litter, and SOM samples.
+Studies of variations in δ13C of RS commonly use mass balance equations to estimate the proportions of two (and rarely more than two) C sources that contribute to the soil surface CO2 flux (Lin et al., 1999; Ngao et al., 2005; Sakata et al., 2007; Millard et al., 2010).
+Isotopic linear mixing models partition the contributions of n + 1 sources, when n isotopically distinct tracers (e.g., δ13C, δ15N, δ18O) are used as end-members, and assume that source signatures that fall closest to that of the mixture provide the greatest contribution.
+Factors such as the seasonal variability of the photosynthetic discrimination, as well as environmental conditions such as soil temperature and soil moisture, can vary the differences in δ13C between CO2 derived from different C pools, and are therefore important constraints on the partitioning method (Phillips and Gregg, 2001; Trumbore, 2006).
+The isotopic approach also needs to overcome uncertainties associated with the binary diffusion of 12CO2 and 13CO2 through the soil's gas-filled pore space and across the soil-air interface.
+Generally, the slower molecular diffusivity of 13CO2 can induce CO2 in bulk soil to be up to 4.4‰ more enriched in 13C than that released at the soil surface δ13CRs (Amundson et al., 1998; Cerling et al., 1991).
+Some complications in the interpretation of diffusive flux profiles were discussed by Koehler et al. (2010).
+Transient conditions in diffusive flux profiles can be caused by time-varying respiratory CO2 production (Moyes et al., 2010).
+In addition, changes in atmospheric pressure and wind effects (advection) can alter the diffusion of soil CO2 (Dudziak and Halas, 1996), From a diffusion experiment involving artificial soil and CO2 source, Kayler et al. (2008) concluded that non-steady-state effects must be considered in field investigations of δ13CRs in soils.
+However, the correct interpretation of δ13CRs data is likely determined by the possibility of using measuring techniques which avoid perturbation of the steady-state diffusion conditions of respiration.
+Soil surface chambers are the most commonly used technique to measure δ13CRs.
+Such approaches include: (i) purging of atmospheric δ13C-CO2 in the chamber headspace (Flanagan et al., 1996; Buchmann and Ehleringer, 1998), (ii) long-term chamber deployment for δ13CRs equilibration (Mora and Raich, 2007), and (iii) the maintenance of chamber headspace at atmospheric CO2 concentration, [CO2] (Subke et al., 2004a; Bertolini et al., 2006; Midwood et al., 2008).
+However, several decades of experience with chamber-based measurements have revealed numerous potential sources of errors in measuring soil respiration (Davidson et al., 2002).
+Some recent studies on the use of closed- and open-chamber systems reported evidence of perturbation of the δ13C steady-state diffusion profile and 12CO2 and 13CO2 gradients (Ohlsson et al., 2005; Nickerson and Risk, 2009; Gamnitzer et al., 2011).
+In addition, the installation of soil collars several centimetres into the soil, to minimize CO2 leakage in and out of the chamber (Hutchinson and Livingston, 2001), has raised concerns regarding the possibility of measuring δ13CRs beyond the collar insertion depth (Kayler et al., 2008), and their utility in soil respiration partitioning studies (Heinemeyer et al., 2011).
+To address these concerns, we developed and used a dual-chamber technique to minimize the artefacts and biases in chamber-based measurements of δ13CRs.
+In addition, we aimed to partition the soil surface CO2 flux into its components derived from root, litter/humus, and SOM sources and, alternatively, into autotrophic and heterotrophic components.
+Materials and methods
+Background and principles of the dual-chamber development
+In general, to correctly measure δ13CRs it is essential to maintain unbiased the diffusion conditions of RS at soil surface.
+The reason for this assumption is as follows.
+The mass of 13C is larger than that of 12C and diffuses through the soil at a slower rate leading to a theoretical kinetic fractionation of 13C and 12C.
+This means that for estimates of δ13CRs obtained using gas samples withdrawn from the soil profile, a correction of up to 4.4‰ is necessary to account for this fractionation (Amundson et al., 1998).
+Although transient changes in soil diffusivity and CO2 concentration gradient might constantly alter the relative diffusion rates of 12CO2 and 13CO2 isotopologues, Cerling et al. (1991) demonstrated that if soil respiration is at a diffusive steady-state, the δ13C of soil surface flux should theoretically match the δ13C produced within the soil.
+Thus the measurements made at the soil surface do not need to be corrected for fractionation due to diffusion.
+This assumption means that a chamber technique used for δ13CRs measurements has to achieve and maintain over few hours after its deployment the equilibrium between the soil CO2 efflux and the RS captured inside the chamber headspace.
+Depending on the type of soil surface chamber used, RS measurements are generally subject to disturbances which can have a large impact on the certainty of δ13CRs estimates and on subsequent source partitioning.
+Some artefacts and biases in steady-state and non-steady-state respiration chambers measurements were discussed by Davidson et al. (2002).
+For steady-state chambers, these can be summarized as: (i) lateral and vertical diffusion of CO2 produced below the chamber base due to the alteration of the diffusion gradient (Hutchinson and Livingston, 2001; Davidson et al., 2002; Nickerson and Risk, 2009); (ii) the risk of pressure differentials between the headspace volume and the surrounding atmosphere due to the improper control of gas flow rates (Hutchinson et al., 2000); (iii) over-pressurization of the headspace volume when pressurized CO2-free air is forced through to control the CO2 concentration inside the chambers (Lund et al., 1999); (iv) the exchange of gas through the vent in over-pressurized conditions which can dilute chamber air with ambient air (Longdoz et al., 2000); and (v) the alteration of concentration gradients at the soil surface due to excessive turbulence caused by fans inside the chambers used for air circulation (Le Dantec et al., 1999).
+In general, it is difficult to make a clear distinction between the effects of chamber measurements and the transient changes of biological activities and gas transport on δ13CRs.
+Nickerson and Risk (2009) predicted under lateral diffusion scenarios an error of estimation ranging around 4‰ for steady-state chambers, with a maximum of 15‰ for non-steady-state respiration.
+However, the magnitude of the disturbance created by chambers depends on the soil CO2 production rate, and can vary with soil moisture conditions (Phillips et al., 2010).
+For many surface chamber techniques, δ13CO2 measurements from dry soils are more biased towards enriched values than δ13CO2 measurements from wet soils.
+In order to reduce the above artefacts we modified the steady-state chamber by introducing inside the headspace a horizontal CO2-permeable membrane to create a dual-chamber with two physically separate volumes.
+The top-chamber (Ct; Fig. 1) has the characteristics and functions of a conventional steady-state chamber.
+The CO2-permeable membrane effectively establishes a 'virtual' soil surface that mimics conditions at the real surface.
+In the bottom-chamber (Cb), CO2 accumulates in response to a concentration gradient that matches that in undisturbed soil, so minimising many of the artefacts listed above.
+This is achieved by continually adjusting the CO2 concentration in Ct to the CO2 concentration measured in a nearby open-topped reference chamber (Cr).
+When the CO2 concentrations in Ct and Cr are matched, CO2 can be sampled from the bottom-chamber, Cb, for δ13C determination.
+This system also eliminates the use of soil collars, permitting quicker equilibration of CO2 concentration for the δ13CRs measurements, and minimal severing of soil surface roots and hyphae.
+Depending on the ecosystem type, the season, the time of the day, and the measuring technique used, the CO2 concentrations within a few centimetres of the soil surface are elevated above ambient atmospheric values reaching concentrations up to 10 times higher that in the atmosphere (Risk et al., 2002; Davidson et al., 2006; DeSutter et al., 2008; Albanito et al., 2009).
+For this reason, when a background ambient concentration is used in both steady-state and non-steady-state chambers, the vertical gradient of CO2 concentration at soil surface must be carefully considered in order to avoid the alteration of the soil profile CO2 diffusion gradient (Davidson et al., 2002).
+Following the method described by Albanito et al. (2009), in this study we used a soil surface diffusion chamber (here for simplicity named as reference chamber (Cr)), which permitted the estimation of surface CO2 concentrations at the locations where the chambers would successively be deployed.
+Design and use of the dual-chamber
+The chamber consisted of three parts: (i) polypropylene plain tubing of 12 cm inner diameter and 25.6 cm tall; (ii) a micro polyvinylidene difluoride (PVDF) flat membrane with a wall thickness of 0.06-0.08 mm and a nominal pore size of 0.2 μm (American Membrane Co., Ltd, Nantong City, Jiangsu, China); and (iii) a polypropylene double socket slip coupling (Fig. 1).
+The tubing was divided horizontally into two sections, the PVDF membrane installed between them to physically separate the upper and lower sections and the slip coupling used to connect the sections.
+The lower section was 15.2 cm tall and the upper was 10.4 cm tall.
+The PVDF membrane had a CO2 diffusion coefficient varying from 10-9 to 10-7 m2 s-1, depending on pressure, CO2 concentrations, and temperature (Briscoe et al., 1998; Albanito et al., 2009).
+The top section was closed with a lid provided with an open vent.
+The bottom section had an open, bevelled base inserted into the ground.
+Both chambers had a pair of nylon sampling tubes of 4 mm of inner diameter and 2 mm wall thickness attached on opposite sides to allow gas to be sampled continually for determination of CO2 concentrations and δ13C.
+Finally, the dual-chambers were covered with reflective aluminium tape to minimize heating of the chamber headspace under sunny conditions.
+Following the method described by Midwood et al. (2008), Ct was adjusted using an inflow to the top-chamber of CO2-free air (from a compressed-air cylinder or soda lime absorber), and an outflow from the chamber withdrawn by a diaphragm pump.
+To prevent incursion of ambient air inside the top-chamber, the flow rate of the CO2-free air was maintained 10% higher than that from the chamber, ensuring a continuous outflow via an open vent positioned on the top of the chamber.
+The bottom section of the dual-chamber was in constant contact with the soil surface.
+Continuous measurements of 12C16O2 and 13C16O2 mixing ratios and CO2 concentrations were made by connecting the bottom-chamber via a closed sample loop to a cavity ring-down spectrometer (CRDS; G1111-i, Picarro, Inc., Sunnyvale, CA, USA).
+The closed loop to/from the CRDS had a constant flow rate of 22 ml min-1 which maintained a constant volume of sampling air and avoided the suction of atmospheric air around the base of the bottom-chamber.
+In addition, to minimize air pressure fluctuations within the bottom-chamber caused by the CRDS-controlled flow, a nylon gas sampling tube crossed the chamber.
+This was 12 cm long, 0.5 cm inner diameter, and was perforated throughout its surface by 0.5 mm diameter holes.
+Following the method described by Albanito et al. (2009), the reference chamber was cylindrical, 12 cm diameter and 20 cm tall.
+The open lower end of the chamber was bevelled for insertion into the ground.
+The upper end of the chamber was covered by a PVDF membrane.
+The chamber had two nylon tubes, 0.4 cm inner diameter, on opposite sides and connected to an IRGA (EGM-4; PP Systems Hitchin, Hertfordshire, UK).
+One tube drew air from the chamber and the other returned it after analysis, maintaining a constant sampling volume of air, and avoiding the suction of atmospheric air inside the bottom-chamber.
+Measuring CO2 isotope composition and surface flux with the dual-chambers
+In order to test the operation of the dual-chambers, measurements were made in a glasshouse using a mesocosm of 150 cm long, 100 cm wide, filled with a soil depth of 15 cm.
+The mesocosm had been sown with Lolium perenne (perennial rye-grass) the previous year and kept in a glasshouse under optimal growing conditions for approximately four months.
+Approximately 15 min before the beginning of the experiment, the aboveground vegetation was removed under the dual-chamber, as well as the reference chamber which was deployed at 30 cm distance from the dual-chamber.
+The CRDS continuous measurements of δ13C-CO2, and CO2 concentration (Cb) from the bottom-chamber, started before deploying the dual-chamber on the ground.
+Field measurements of RS (g CO2 m-2 h-1) were carried out from the 27th April to the 6th May 2011 in the San Rossore Regional Park, Tuscany, Italy (Longitude 10°17′13″ East and Latitude 43°43′47″ North).
+The experimental area was situated in a semi-managed Mediterranean pine forest planted in 1964 at a distance of 800 m east from the seashore.
+The site was characterized by the presence of 20 m tall mixed stands of Pinus pinaster, Pinus pinea, and some Quercus ilex.
+The ground vegetation was sparse and consisted of Erica arborea, Phyllirea angustifolia, Rhamnus alaternus, and Myrtus communis.
+At the site the mean annual temperature is 14.8 °C, the mean annual precipitation is 898 mm, and the seasonality over the year is characterized by a wet, mild winter and an arid, hot summer.
+The soil is a sandy calcareous regosoil, characterized by an O horizon with fresh and decaying organic matter 2-5 cm thickness, and a soil texture in the uppermost 0.1 m of mineral soil characterized by 93% sand, 4% clay, and 3% silt.
+During the measurements, the dual-chambers were deployed within an area of 4 m2 without altering the litter layer, and inserting the base of the dual-chamber into the soil to a depth of approximately 2-3 cm.
+Four dual-chambers were connected to a multichannel gas sampling control system (details below) programmed to perform a 2 h routine of four sequential 30 min sub-cycles of measurements, one per dual-chamber.
+Therefore, the sample airstream between the bottom-chambers and the CRDS was automatically switched between the four dual-chambers by the sub-routine program.
+As with the bottom-chambers, the top-chambers were monitored every 30 min.
+Isotopic equilibration is essential for the correct operation of the dual-chambers, and the subsequent measurement of δ13CRs from each location.
+To achieve this, the dual-chambers were deployed on the soil for three 2 h routines (i.e., 6 h in total).
+δ13CRs was calculated using data collected after two routines (4 h).
+Generally, the CRDS required between 10 and 15 min to stabilize its reading, and to accurately measure δ13C from each dual-chamber.
+Therefore, within the third routine, we discarded the initial 15 min of measurements, and we averaged the last 15 min of data in each sub-cycle.
+Samples were collected and analysed throughout daylight hours, and separated into those collected in the mornings and afternoons to detect any short-term temporal changes in CO2 flux and δ13CRs.
+The gas control system comprised twelve 2-way solenoid valves (ACL s.r.l, 20 040 Cavenago di Brianza, Milan, Italy), eight mass flow controllers (Omega Engineering Ltd, Manchester, UK), four diaphragm pumps (TD-3, Brailsford and Co.
+Inc., Antrim, NH, USA), two analogue output modules (SDM-CV04) and one input/output module (SDM-CD 16AC) controlled by a data logger (CR 1000; Campbell Scientific Ltd., Loughborough, UK), and an infrared gas analyser (IRGA; Li840, LiCor Biosciences, Cambridge, UK).
+One manifold of four 2-way solenoid valves was used for switching the outlet airstream from each of the top-chambers towards the IRGA.
+Two manifolds of four 2-way solenoid valves controlled the inlet and outlet airstreams from the bottom-chambers.
+The reference CO2 concentration (Cr) was measured within the 4 m2 of soil surface where the dual-chambers were deployed.
+During the field measurements, Cr provided a starting point for achieving the CO2 efflux equilibration within the dual-chamber volume.
+Depending on the Cr to be maintained in the top-chamber, the flow rate across the top-chamber ranged from 15 to 40 ml min-1.
+This rate was kept similar for all the dual-chambers.
+After initial care was taken to adjust Ct in all the dual-chambers to be similar to Cr, the continuous supply of CO2-free air into the top-chambers permitted the CO2 concentration to increase and decrease linearly and therefore to achieve equilibrium between the CO2 flux through the PVDF membrane and the soil efflux.
+The CO2 diffusion coefficient across the dual chamber (Dc) was calculated from the following equation:(1)DC=RS×(L/(Cb-Ct))where L is the distance between the tubes inserted at the bottom and top-chambers (156 mm).
+Finally, soil temperature (TS) and soil moisture (θ) were monitored continuously within 0.2 m of the dual-chamber locations at 5 cm depth using four thermistors (107, Campbell Scientific Ltd., Loughborough, UK), and four soil moisture sensors (ThetaProbe ML1, Delta-T, Cambridge, UK), respectively.
+Measuring the isotopic signatures and CO2 respiration/mineralization rates of root, litter/humus, and SOM end-members
+To obtain end-member δ13C values of CO2 to allow RS to be partitioned into its component fluxes, it was necessary to incubate root, litter, and SOM fractions sampled from were RS had been measured and to collect the CO2 produced by each fraction in order to measure their δ13C values.
+Soil cores, 25 cm deep and 78.5 cm2 cross-sectional area, were extracted soon after the dual-chamber measurements were completed, and from midway between each pair of chambers.
+Each core was divided horizontally into two layers distinguishable by their characteristic colour, dark-brown for the top 10 cm (litter and humus), and dark sandy colour for the remaining 15 cm (SOM).
+The top layer of the core typically comprised a litter about 5 cm and characterized by dense fine roots and a sandy dark-brown horizon of humic substance.
+The remaining compact sandy layer was more uniform in colour and texture with sparse roots.
+These layers were easily separated by hand.
+Separating roots from each layer was carried out by sieving samples through 10 and 4 mm sieves.
+Roots were then brushed free of soil, and all the material collected was weighed.
+A subsample of each of the three pools was quickly incubated in separate gas-tight Tedlar bags (Keika Ventures, Chapel Hill, NC, USA).
+Air in the bags was evacuated, flushed three times with CO2-free air, and filled with a measured volume of CO2-free air before starting the incubation (Millard et al., 2010).
+Bags containing litter/humus or SOM were filled with 2 L of CO2-free air, whereas for the smaller root samples 1 L was sufficient to achieve the necessary CO2 concentration increase.
+To minimize the influence of disturbance on respiration rates and isotopic discrimination, the measurement of CO2 production began as soon as possible after separation of the litter and SOM.
+The incubations of the excised roots started after 30 min as suggested by Subke et al. (2004b).
+Preliminary field tests showed that 30 min of incubation time was the minimum required to achieve stable measurements of δ13C from the three end-members.
+Sub-samples of incubated roots, litter/humus, and SOM were collected for measurements of the δ13C values of the solid matter by isotope ratio mass spectroscopy (Delta Plus XP, Thermo Finnigan, Hemel Hempstead, Hertfordshire, UK).
+CO2 fluxes from roots, litter/humus, and SOM were calculated using the short-term respiration potential (r) (i.e., C respiration/mineralization rate (g CO2 g root-1 h-1, g CO2 g soil-1 h-1)) described by Robertson et al. (1999).
+After the CO2 concentrations were converted from ppm to mass units (μg CO2 litre-1), r was calculated:(2)r=Crate×VWwhere Crate is the change in CO2 concentration over the initial 5 min of incubation (g CO2 litre-1 h-1), V is the headspace volume of the Tedlar bag (litre), and W is the mass (g) of incubated litter/humus, SOM or root.
+Derivation of the three end-member mixing model
+Assuming that roots, litter/humus, and SOM are the only significant contributors to the total soil surface flux of CO2, RS was partitioned among these three components using the δ13C values of RS (obtained with the dual-chamber), and the δ13C values of the CO2 produced from the three sources, as well as the mass-specific rate of CO2 production by each source (obtained from the incubations).
+The three end-member mixing model was formulated from the following mass balance equation:(3)δ13CRS=δ13CR×fR+δ13CL×fL+δ13CSOM×fSOMwhere δ13CR, δ13CL and δ13CSOM are, respectively, the δ13C values (‰) of CO2 produced by roots, litter/humus, and SOM. fR, fL and fSOM are the fractional contributions of each source to RS.
+Each fraction can be defined in terms of the absolute fluxes of CO2 and their corresponding δ13C values (Phillips and Gregg, 2001):(4)fR=(δCRS-δCSOM)(FL-FSOM)-(δCL-δCSOM)(RS-FSOM)(δCR-δCSOM)(FL-FSOM)-(δCL-δCSOM)(FR-FSOM)(5)fL=(δCRS-δCSOM)(δCL-δCSOM)-(δCR-δCSOM)(δCL-δCSOM)fR(6)fSOM=1-fR-fLwhere FR, FL, and FSOM (g CO2 h-1) are obtained using the incubation fluxes (r) from sample incubations scaled-up to the whole soil cores weight.
+Here, the units of RS were converted from g CO2 m-2 h-1 to g CO2 h-1.
+We assumed that: (i) during the first step of microbial decomposition, kinetic 13C/12C discrimination does not occur and, therefore, that CO2 respired during litter/humus, and SOM degradation had the same δ13C values as the respective source C; (ii) FR, FL, and FSOM estimated from the incubations are representative of the in situ respiration/mineralization CO2 fluxes.
+The last assumption might include some potential uncertainties.
+The incubated soil was disturbed by sieving, which might have released some labile carbon substrates for rhizosphere priming (RP) and microbial respiration during the incubations and potentially bias the proportional respiration of litter and SOM.
+In order to minimize this possible disturbance effect in our calculations, we incubated the soil within a few minutes of extraction.
+However, a previous study (Dijkstra and Cheng, 2007) showed that the RP effect of two tree species on decomposition of three different soils persisted throughout a 395-day experiment, until well after the initial disturbance-induced labile carbon substrates were depleted by respiration.
+Therefore, it is unlikely that the disturbance during soil preparation significantly alter the respiration of RP (Zhu and Cheng, 2011).
+Second, the possible change of the proportional microbial respiration of SOM due to the release of labile carbon substrates would possibly tend to overestimate our estimations.
+But it should be the least concern for this study because, based on Eq.
+(4), the overestimation of the SOM efflux during the incubation would compensate for the proportion of soil profile excluded in calculation of FSOM using Eq. (2).
+For comparison with traditional two-source partitioning approaches, RS was also partitioned between autotrophic (Ra) and heterotrophic respiration (Rh) using a two end-member mixing model:(7)Ra=(δCRS-δCSOM)(δCR-δCSOM)RS(8)Rh=(1-Ra)RSwhere δ13CR and δ13CSOM (defined in Eq.
+(3)) are the two isotopic end-members.
+13C field gas analyses
+δ13C values (‰) of CO2 samples analysed by the CRDS were calculated using the Pee Dee Belemnite (PDB) standard.
+The CO2 molar absorptivity of the CRDS was factory-calibrated, but large changes in background CO2 concentration in the field can cause pressure-broadening effects on the CRDS analysis.
+To account for this, CO2 standards with different δ13C values were analysed with the CRDS and compared with IRMS measurements.
+This calibration comprised 36 gas samples with δ13C values ranging from -35.9 to -17.7‰ and CO2 concentrations from 348 to 3000 ppm.
+Differences between the CRDS and the IRMS analyses ranged from +0.38 ± 0.75‰ (mean ± SD) for CO2 concentrations below 1000 ppm, -0.27 ± 0.27‰ between 1000 and 2000 ppm, and -0.28 ± 0.30‰ between 2000 and 3000 ppm.
+The linearity of the CRDS was checked throughout the field campaign using two reference cylinders of CO2 balanced with N2 (500 ppm: δ13C = -32.9 ± 0.59‰; 1000 ppm: δ13C = -35.8 ± 0.57‰ (n = 5); BOC Ltd., Guildford, UK).
+Statistical analysis
+A one-way ANOVA followed by a Tukey post hoc test was used to identify differences between the measurements collected in the morning and in the afternoon.
+Pearson correlation was employed to examine relationships between the dual-chamber measurements, as well as the incubation measurements, and environmental variables.
+Significant effects were determined at p < 0.05.
+The analysis was carried out using the SPSS 19 software package (Inc.
+Chicago, IL, USA).
+We used a first-order Taylor series approximation (Phillips and Gregg, 2001), to calculate the variance, standard errors (SE), and confidence intervals for sources proportions that account for variability in the isotopic signature of both the sources and the CO2 efflux (Taylor, 1982).
+Results
+RS and isotopic equilibration in the dual-chamber
+Fig. 2 shows an experimental test of the operation of the dual-chamber using the grassland mesocosm.
+Immediately after the deployment of the dual-chamber in the grassland mesocosm the accumulation of CO2 in the top-chamber was controlled using the inflow of CO2-free air to match the CO2 concentrations in the top-chamber to that measured in the nearby reference chamber (≈800 ppm).
+CO2 concentration increased rapidly inside both sections of the dual-chamber (Fig. 2b).
+The initially higher CO2 concentration in the top-chamber produced a downwards CO2 flux across the PVDF membrane which generated a negative RS (Fig. 2c).
+This downwards CO2 concentration gradient between the two sections of the dual-chamber was probably due to the exchange of atmospheric CO2 between the closed loop with the CRDS and the inner volume of the bottom-chamber.
+In addition, the initial adjustments of air flow rate occurring in the top-chamber forced the CO2 diffusion coefficient across the membrane (Dc) to fluctuate from negative to positive values until more stabilized conditions were reached.
+However, following the gradual adjustment of the top-chamber CO2 concentration to the reference CO2 concentration, the RS and its δ13C stabilised after about 3 h to values for RS of 0.45 g CO2 m-2 h-1, δ13CRs of -28.5 ± 0.3‰ and Dc of 8.4 ± 0.4 mm2 s-1 (mean ± SD, n measurements = 60).
+Fluxes and δ13C of CO2 derived from roots, litter/humus, and SOM during incubations
+In general, the δ13C of CO2 respired from roots, litter/humus, and SOM during incubations of samples collected at San Rossore stabilized after about 10 min (Fig. 3a).
+After stabilization, δ13CSOM was more 13C-enriched (-22.2 ± 0.5‰, mean ± SE) than δ13CL (-28.3 ± 1‰) and δ13CR (-30.3 ± 0.5‰) (Table 1).
+Among the three end-members, only δ13CSOM showed a significant difference between morning and afternoon by about -1‰ (P = 0.02).
+In addition, the δ13C of root tissues, litter/humus, and SOM collected at the field site were -27.9 ± 0.14‰, -27.3 ± 0.41‰ and -25.2 ± 0.73‰ respectively.
+The evolution of CO2 concentrations during the incubations was strictly dependent on the weight of roots, litter/humus, and SOM incubated (Fig. 3b).
+However, the mass-specific rates of CO2 production (r) from roots, calculated with Eq.
+(2), were about 5-8 times greater than from litter/humus, and SOM (Table 1).
+rroot was significantly faster in the afternoon than in the morning incubations by approximately one-third (P = 0.02).
+Conversely, litter/humus, and SOM respiration showed only minor and insignificant differences between the afternoon and the morning incubations.
+When the incubation fluxes were scaled-up to the whole soil core (F), however, about ten-times more CO2 was derived from humus/litter, and SOM combined than from roots.
+Again, Froot was significantly greater (two-fold) in the afternoon than the morning (P = 0.02); no such difference was detected for the fluxes from the other components.
+Contribution of roots, litter/humus, and SOM to RS
+Throughout the measurement period at San Rossore, 56 separate sets of readings were made (Table 2).
+TS and θ ranged from 13.7 to 17.4 °C (14.8 ± 1.2, mean ± SD), and from 7.9 to 20.7% (13.2 ± 2), respectively.
+Ct measured in the top compartment of the dual-chambers, and, we assume, reflecting the CO2 concentration at the soil surface, varied from 368 to 1050 ppm (659.5 ± 103).
+Cb ranged from 527.4 to 1423.4 ppm (922.7 ± 148).
+The ability of the dual-chambers in replicating the soil CO2 efflux across the CO2-permeable membrane was also controlled by the values of Dc which varied from 2.8 to 8.3 mm2 s-1 (5.2 ± 1.8), while RS varied from 0.19 to 0.82 g CO2 m-2 h-1 (0.36 ± 0.02).
+δ13CRs ranged from -22.6 to -29.6‰ (-26.6 ± 0.2), was significantly more depleted in the afternoon than in the morning by-1‰ (P = 0.026), and was better correlated with TS in the afternoon (R2 = 0.8, P < 0.001) than the morning (R2 = 0.1 P = 0.6).
+In addition, changes in δ13CRs were significantly and positively correlated with the incubation results of δ13CR, δ13CL, and δ13CSOM in the morning (R2 = 0.5, 0.45, and 0.41, respectively), and only to δ13CR and δ13CSOM in the afternoon (R2 = 0.5 and 0.78).
+The three end-member mixing model suggested that each component contributed about one-third of the total soil surface flux (Table 3).
+Mean SOM-derived flux (fSOM), 0.13 g CO2 g soil-1 h-1, comprised 37% of the total soil surface flux, with the highest contribution.
+fL was 33% with a mean contribution of 0.11 g CO2 g soil-1 h-1, and fR was 30% with a CO2 flux of 0.10 g CO2 g soil-1 h-1.
+This partitioning can also be shown graphically by plotting mean δ13CRs within its confidence limits inside the area bounded by the three end-members (Fig. 4).
+As for RS, fR, fL, and fSOM did not show a significant difference between the morning and afternoon measurements.
+Overall, fL showed the highest variability, with a SE in the afternoon (15%, ±t0.05,dƒ = 14-75%), while fSOM showed the lowest SEs (5%, ±t0.05,dƒ = 27-48%).
+The partitioning obtained using the two end-member mixing model suggested that the autotrophic flux of 0.18 g CO2 m-2 h-1contributed the larger fraction of RS, 56%, while the heterotrophic component flux of 0.15 g CO2 m-2 h-1accounted for the remaining 44% (Table 3).
+As for the three end-member model, there was little evidence of large differences in these figures between morning and afternoon.
+Discussion
+This study has provided new information about the contributions of belowground components to the CO2 flux at the soil surface, RS, and has shown an alternative approach to partition RS components using their 13C signatures.
+This was possible because of the development of the novel dual-chamber technique to ensure that δ13CRs was subjected to minimal artefacts during measurement, and the combination of δ13C and CO2 flux data to achieve a three-way partitioning of the soil surface flux, RS.
+Partitioning of RS
+CO2 emitted at the soil surface is derived from the microbial breakdown of various organic materials: root carbohydrates and exudates (both of which are derivatives of recent photosynthate), microbial biomass, mycorrhizal fungi, fresh litter, dead roots and SOM.
+These materials have different chemical compositions, different decomposabilities and, therefore, make variable contributions to the total soil-derived CO2 flux.
+Separating these distinct heterotrophic components is necessary for assessing how environmental changes may alter the carbon balance in belowground ecosystems.
+As explained in the Introduction, it is the flux from SOM, usually the oldest and most durable C belowground C store that, with NPP, determines an ecosystem's net C balance.
+For that reason, it is important to distinguish the SOM-derived flux from the others.
+When RS was partitioned in two ways at San Rossore, the mean autotrophic and heterotrophic respiration was 56 and 44% of RS, respectively.
+These results are similar to most reported values in temperate forests (Kelting et al., 1998; Hanson et al., 2000).
+By contrast, when RS was partitioned three ways, roots, litter/humus, and SOM contributed 30, 33, and 37% of the total flux, respectively, which are similar to other studies in forest which partition RS among root, litter, and SOM (Tedeschi et al., 2006; Lin et al., 1999).
+However, the mean heterotrophic flux obtained with the three- way partition was higher than those obtained from the two-way partition, 0.15 and 0.23 g CO2 m-2 h-1, respectively.
+This means that during the spring, the litter and humus collectively represent the major component of RS in San Rossore.
+Moreover RL had the highest variability among the three C pools, while RSOM was fairly constant throughout the study period (Table 3).
+This may be explained by the mycorrhizal hyphal respiration which, being particularly sensitive to changes of soil surface moisture (Heinemeyer et al., 2007), could have contributed to increasing the variability of RL.
+Researchers must always consider the uncertainty inherent in isotope measurements due to artefacts, spatial heterogeneity in the soil diffusive environment, possible advective processes which can cause transient changes in relative soil diffusion rates of 12CO2 and 13CO2 isotopologues, and time-varying 13C signals of different soil carbon pool.
+We discuss here some of the uncertainties associated with the partitioning of RS obtained using our method.
+First, the litter/humus layer is characterized by a dense proliferation of fine roots, mycorrhizal roots and extra-radical mycelium characterized by 13C discrimination in respired CO2 very similar to that of autotrophic respiration.
+The similarity between δ13CR and δ13CL represents a limiting factor for the partitioning power of the three end-member mixing model.
+In San Rossore, depending on the time of day, δ13CR and δ13CL were separated by 2-3‰.
+However, CO2 emitted at the soil surface is a mixture of sources which depends not only on the sources involved, but also on the depth at which CO2 is produced from them and from which it is transported to the surface (Maseyk et al., 2009).
+Hence, to correctly partition RS we need to understand the contribution of the depth-related enrichment of soil δ13C-CO2 to surface measurements of δ13CRs.
+In that respect, the three end-member mixing model here reported takes into account the discriminations during CO2 respiration/decomposition of three bulk soil C pools, as well as the fractions of their CO2 flux integrated over their total mass.
+The approximation of the litter/humus layer as a discrete component permitted a more accurate estimation of the flux from the most durable forms of C stored belowground.
+Although further investigation is still required to identify the applicability of the model in different mineral and organic soils, the promising results obtained in the mineral soil of San Rossore were also obtained in a loamy skeleton podsol-brown earth soil of a spruce stand in Germany (data not shown).
+However, in that case the model required an increase of the sampling depth to 40 cm, and the removal of the stone weight from the calculation of the mass-specific rate of CO2 production of the three end-members.
+By contrast, in the two-way partitioning, the respiration from the contribution of the litter/humus layer was divided between the autotrophic and heterotrophic respiration.
+When using that method, the soil depth from which the heterotrophic end-member is collected can usually be chosen arbitrarily assuming that unmeasured components or tracers have the same concentrations or do not contribute significantly to RS and δ13CRs.
+This means that the estimation from the two-way partition could result in higher uncertainties due to a possible over- or under-estimation of the heterotrophic component.
+Measuring δ13CR at the soil surface
+Since Cerling et al. (1991) demonstrated that if soil respiration is at a diffusive steady-state, the δ13C of the soil surface flux should theoretically match the δ13C produced within the soil, much effort has been put into measuring the δ13C of soil surface CO2.
+To date, several studies have been published using chamber techniques to measure δ13CRs (Subke et al., 2004a; Ohlsson et al., 2005; Bertolini et al., 2006; Mora and Raich, 2007; Midwood et al., 2008).
+However, due to the conflicting results regarding the capability of the closed and open-chamber methods to provide unbiased measurements of δ13CRs, a degree of uncertainty still remains in the use of these techniques (Nickerson and Risk, 2009).
+Approximately a decade ago, Davidson et al. (2002), summarizing a few decades of experience with chamber-based measurements, discussed several concerns about uncertainties associated with chamber-based measurements of CO2 emissions from soils.
+Later, these concerns were reviewed by Nickerson and Risk (2009) who, for the first time, investigated the importance of the artefacts and biases of chamber-based measurements in δ13Cefflux estimates.
+It is beyond the scope of this study to challenge the use of common techniques such as steady-state and non-steady-state for δ13Ceffux measurement, but our approach attempted to circumvent some of the major reported limitations of chamber-based measurements of δ13Cefflux.
+The dual-chamber technique represents a novel approach for improving field measurements of δ13CRs.
+Our results clearly demonstrate the ability of this technique to adequately measure δ13Ceffux, and it provides the possibility to ensure that conditions better approximate those that are ideally required for the accurate and unbiased measurement of soil surface respiration and δ13CRs.
+Several features of our approach make this possible.
+First, there is the possibility to maintain separate, within the dual-chamber volume, the top steady-state chamber headspace from the bottom-chamber volume where the δ13CORs is measured.
+This should minimize all the artefacts and biases occurring in the top steady-state chamber.
+In the top-chamber mass flow induced by pressure gradients and high air flow rates could result in isotopic fractionation of δ13CRs in the top-chamber.
+However, the absence of fan, the presence of a vent, and the careful control of the flow rates in the top-chamber should be sufficient minimize the effects of advective gas transport across the membrane.
+Whereas, the maintenance for few hours of sustained bulk flow in the top-chamber should stabilize the transport of 13CO2 and 12CO2 at the same rate across the PVDF membrane (Amundson et al., 1998).
+In addition, the absence of bulk airflow in the bottom-chamber (calm conditions), should guarantee a gas movement exclusively by free air molecular diffusion along gradient of mole fraction, which maintained for few hours should be sufficient to reduce the differences between the measured δ13CRs and the soil δ13Cefflux (Bowling and Massman, 2011).
+Arguably, the circulation of air in the bottom-chamber through the closed sampling loop, and the CRDS, could be subjected to a possible pump leakage.
+Here the sampling loop was operated by the CRDS internal pump with at a flow rate of approximately 22 ml min-1.
+Considering the volume of the bottom-chamber (≈1718 cm3), and the duration of the δ13C measurements (sub-routine with a duration time of 30 min), the volume circulated by the CRDS was approximately two-fifths of the entire volume of the bottom-chamber.
+Therefore, any pump leakage was considered small enough to be ignored.
+Second, the use of reference diffusion chambers, in combination with the dual-chambers, allowed near soil surface CO2 concentrations to be measured.
+This allowed us to correctly set up the measuring conditions in the dual-chambers and to minimize the disturbance of the soil CO2 diffusion gradient during the dual-chamber deployment.
+While the ideal methods to measure CO2 concentrations between the litter layer and a few centimetres above the soil surface are still to be developed, here we describe the first method which poses an alternative to the widespread use of an arbitrary near-constant CO2 concentration (ambient level) in chamber-based estimates of δ13CORs.
+Moreover, the dual-chamber technique permits the constant estimation of the CO2 diffusion coefficient (Dc) occurring between the two sides of the dual-chambers.
+Dc is a critical parameter to evaluate the diffusive conditions during the measurements of RS and δ13CORs.
+Considering that the transport coefficient for soil gas exchange typically ranges from 1 to 10 mm2 s-1 (Kimball, 1983), our results showed that Dc was 5.2 ± 1.8 mm2 s-1 (mean ± SD).
+This means that during our dual-chamber measurements Dc was always within the typical soil diffusivity range, and never reached values of CO2 diffusivity in free air (16.4 mm2 s-1).
+Third, using the measured soil surface CO2 concentrations as the baseline level for the dual-chamber operation, it was possible to achieve the necessary CO2 efflux steady-state conditions without using permanent collars inserted in the soil.
+In that respect, Heinemeyer et al. (2011) argued convincingly against the indiscriminate use of deep soil collars for successful CO2 efflux measurements.
+They showed that in forests, chambers inserted on the shallowest collar were systematically unaffected by the mixing vortex of atmospheric CO2 in the upper soil profile.
+Conclusion
+We conclude that the biological components contributing to RS at the forest site of San Rossore were mostly from heterotrophic origin, and constrained within the top 20-30 cm of the soil profile.
+Our results reflected the soil respiration processes which characterize a water- and nutrient-limited forest sites such as San Rossore (Rosenkranz et al., 2006).
+In a recent study on the soil organic carbon of six Mediterranean forest sites in Italy, Chiti et al. (2010) reported that the pine forest of San Rossore had the lowest SOC accumulation within the top 20 cm of soil profile, and predicted that by the end of the second commitment period of the Kyoto protocol (2013-2017) would become a source of SOC.
+Undoubtedly, the possibility of having the CO2 production constrained within the top 30 cm of the soil profile, as well as estimating δ13CRs on a highly porous sandy soil, represented a fundamental advantage for the application of the three end-member model in this study.
+In a porous soil, the gradients in CO2 concentration and 13CO2 abundance adjust very quickly across depth.
+Thus, the soil CO2 and δ13C profiles reflect the depth-integrated CO2 sources (biotic processes) rather than the local fluctuations in production rates due to transient changes in CO2 diffusivity (abiotic processes) (Maseyk et al., 2009).
+Nevertheless, the results of this study demonstrate the importance of partitioning soil efflux considering both the 13C discrimination of respiratory components and their mass-specific rate of CO2 production.
+Finally, the dual-chambers used in this study have the advantage of being inexpensive to construct and, once constructed, are robust and require little routine maintenance.
+Acknowledgements
+Funding was provided by the Natural Environment Research Council (NERC) [NE/G018944/1].
+Pete Smith is a Royal Society-Wolfson Research Merit Award holder.
+We thank Marco Matteucci for assistance in the field, Sergey Blagodatsky for valuable discussions about the three end-member mixing model, Andy Midwood, and the James Hutton Institute analytical group for their support.
+

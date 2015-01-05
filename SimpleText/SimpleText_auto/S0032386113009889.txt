@@ -1,0 +1,297 @@
+The modelling of the toughening of epoxy polymers via silica nanoparticles: The effects of volume fraction and particle size
+
+Abstract
+Silica nanoparticles possessing three different diameters (23, 74 and 170 nm) were used to modify a piperidine-cured epoxy polymer.
+Fracture tests were performed and values of the toughness increased steadily as the concentration of silica nanoparticles was increased.
+However, no significant effects of particle size were found on the measured value of toughness.
+The toughening mechanisms were identified as (i) the formation of localised shear-band yielding in the epoxy matrix polymer which is initiated by the silica nanoparticles, and (ii) debonding of the silica nanoparticles followed by plastic void growth of the epoxy matrix polymer.
+These mechanisms, and hence the toughness of the epoxy polymers containing the silica nanoparticles, were modelled using the Hsieh et al. approach (Polymer 51, 2010, 6284-6294).
+However, it is noteworthy that previous modelling work has required the volume fraction of debonded silica particles to be measured from the fracture surfaces but in the present paper a new and more fundamental approach has been proposed.
+Here finite-element modelling has demonstrated that once one silica nanoparticle debonds then its nearest neighbours are shielded from the applied stress field, and hence may not debond.
+Statistical analysis showed that, for a good, i.e. random, dispersion of nanoparticles, each nanoparticle has six nearest neighbours, so only one in seven particles would be predicted to debond.
+This approach therefore predicts that only 14.3% of the nanoparticles present will debond, and this value is in excellent agreement with the value of 10-15% of those nanoparticles present debonding which was recorded via direct observations of the fracture surfaces.
+Further, this value of about 15% of silica nanoparticles particles present debonding has also been noted in other published studies, but has never been previously explained.
+The predictions from the modelling studies of the toughness of the various epoxy polymers containing the silica nanoparticles were compared with the measured fracture energies and the agreement was found to be good.
+Graphical abstract
+
+Introduction
+Epoxy polymers are widely used in many different engineering applications, such as coatings, adhesives and matrices in composite materials.
+For example, as coatings, such polymers are employed widely for applications requiring good ultra-violet light protection or high-scratch resistance.
+Their insulating properties, good temperature resistance and ease of processing also allow epoxy polymers to be used extensively in the electronics industry for applications in printed circuit boards and encapsulated electrical components [1].
+Furthermore, the use of adhesive and composite materials based on epoxy polymers is widespread in the aerospace, automobile and wind-energy industries due to their structural efficiency [2,3].
+Indeed, their outstanding temperature resistance and durability to weathering, fuel, de-icing fluids, etc.
+leads to them invariably being the preferred materials, compared to acrylics and polyurethanes, for external aerospace applications [1-3].
+Epoxies are amorphous, highly cross-linked, thermosetting polymers which exhibit good elevated temperature resistance and low creep.
+However, their high cross-link density causes them to be relatively brittle polymers, and this limits their application as structural materials, as they have a poor resistance to the initiation and growth of cracks.
+Thus, improvements in their fracture performance are highly sought after by industry [3].
+The addition of silica nanoparticles has been shown to improve these properties without adversely affecting the thermo-mechanical properties of the epoxy polymer [4-8].
+Another advantage [5,6,8-10] is that due to their very small size, and hence large number, then a relatively low volume fraction of such nanoparticles can induce relatively extensive toughening of the epoxy polymer.
+Furthermore, the particles are sufficiently small such that when resin transfer moulding manufacturing processes are employed they are not filtered-out of the matrix by the fibre preforms when added to the matrices for fibre-reinforced composite materials [7,9]; where they improve both the fracture and fatigue resistance of the composite material.
+Johnsen et al. [10] ascertained that a major toughening mechanism arose from plastic void growth of the epoxy matrix polymer around debonded silica nanoparticles.
+Liang and Pearson [11] extended these ideas to show that plastic shear-banding in the epoxy matrix polymer also contributed to the toughening of such modified epoxy polymers.
+These toughening mechanisms were then implemented into a mathematical model proposed by Hsieh et al. [12,13] and such a model was used to predict successfully the fracture energy, GC, of epoxy polymers toughened via the addition of silica nanoparticles.
+Further, Giannakopoulos et al. [14] and Chen et al. [15] have shown that this theoretical model also applies to the toughening of epoxy polymers via rubbery core-shell nano-sized particles.
+Interestingly, Giannakopoulos et al. [14] also reported that, within experimental error, there was little effect of particle diameter on the increase in toughness resulting from the addition of the core-shell particles, within the range of 100-300 nm.
+In the present study, the Hsieh et al. [12,13] model will be used to predict the fracture energy of nanoparticle-modified epoxy polymers, where rigid, amorphous silica nanoparticles of three distinct sizes have been used, at various concentrations, to modify the epoxy polymer.
+Further, the previous work discussed above required high-resolution scanning-electron microscopy of the fracture surfaces to be undertaken after the fracture test had been conducted in order to identify the quantitative details of the toughening mechanisms that were required in the predictive mathematical model.
+The present work develops a new approach which enables the modelling results to be deduced from the basic properties of the polymer, i.e. before any fracture tests are undertaken.
+Experimental
+Materials
+The epoxy resin consisted of a standard diglycidyl ether of bisphenol A (DGEBA) (DER331 resin, Dow Chemical Company, USA) with an equivalent molecular weight of 187 g/mol.
+The three different sizes of silica nanoparticles were employed which possessed average particle diameters of 23 nm, 74 nm, and 170 nm, respectively, and were surface modified by an organosilane via a sol-gel process.
+They were supplied pre-mixed in a silica-DGEBA master-batch for each particle size by the 3M Company, USA.
+Piperidine (Sigma-Aldrich, USA) was used as the curing agent.
+The required volume fraction of silica nanoparticles was achieved by blending the silica-DGEBA master-batch with the pure DGEBA, mixing at 85 °C using a mechanical stirrer, and then degassing for 4 h.
+The silica nanoparticle-epoxy blend was then mixed with five weight percent of piperidine, degassed for a second time and then poured in a release-coated steel mould and cured at 160 °C for 6 h.
+As expected, the viscosity of the epoxy resin/curing agent mixture increased at higher loadings of silica nanoparticles.
+However, the basic epoxy resin/curing agent mixture possessed a relatively low initial viscosity and the increase in viscosity upon addition of the higher concentrations of silica nanoparticles was not considered to be an important aspect of the production of the cast sheets via pouring into, and then curing in, the steel mould.
+The same batch of material was used as for previous studies [16].
+In Ref.
+[16] transmission electron microscopy images were given which showed that a good dispersion of silica nanoparticles in the epoxy polymer was achieved, although at the very highest concentration of silica nanoparticles a small degree of agglomeration was observed.
+The density of the composites was measured using a pycnometer and the calculated densities of the epoxy polymer and silica nanoparticles were 1.16 g/cm3 and 1.92 g/cm3, respectively.
+Using the measured densities, the volume fraction of the silica nanoparticles was calculated from the known weight percentages.
+This confirmed that the volume fraction of silica nanoparticles was as stated.
+A glass transition temperature of 80 °C was measured for the epoxy polymer using differential scanning calorimetry, and this value was unaffected by the addition of the silica nanoparticles [16].
+Material characterisation
+The Young's modulus, E, and yield stress, σy, of the unmodified and silica nanoparticle-modified epoxies were measured using uniaxial tensile tests.
+The bulk polymer samples were machined into a dog-bone shape with dimensions of 63.5 mm long by 3 mm thick, and 3 mm wide in the gauge section.
+They were tested at a constant displacement rate of 5 mm/min at room temperature, according to the ASTM-D638 (Type V) standard test method [17], with a minimum of five replicate samples per material type.
+It should be noted that since the present epoxy polymers are all relatively brittle materials it was not possible to obtain meaningful values of the strain to break from uniaxial tensile tests: any such data would be very dependent upon the sample preparation technique employed and will inevitably exhibit a relatively high degree of scatter.
+Indeed, for these reasons plane-strain compression tests have been undertaken of the unmodified epoxy polymer to ascertain the overall yield behaviour of the material, since as expected it failed around the yield point when uniaxial tensile tests were undertaken.
+The plane-strain compression tests were conducted as described previously [13].
+The fracture toughness, KC, was measured using a single-edge notch bend (SENB) test, in accordance with the ASTM-D5045 standard [18].
+Sample dimensions of 75.6 mm × 12.7 mm × 6.36 mm and a constant displacement rate of 1 mm/min were used.
+A pre-crack was made by lightly tapping a fresh razor blade into the machined notch, yielding a very sharp natural crack tip.
+The mean and standard deviation values of the fracture toughness were ascertained, using a minimum of five replicate samples for each material.
+The fracture energy, GC, was calculated from the values of the fracture toughness, Poisson's ratio and Young's modulus [19].
+The fracture surfaces of the SENB samples were studied using scanning electron microscopy.
+High-resolution scanning-electron microscopy was performed using an electron microscope equipped with a field-emission gun (FEG-SEM); a Carl Zeiss Leo 1525 with a Gemini column was used, with a typical accelerating voltage of 5 kV.
+All samples were coated with an approximately 5 nm thick layer of chromium before imaging.
+The FEG-SEM images were used to study the debonding and any subsequent plastic void growth of the polymer.
+The fraction of silica nanoparticles that debonded during the fracture process was estimated from the images to compare with the results of the predictive model.
+The FEG-SEM images were overlaid with an evenly spaced grid.
+Next, each cell was analysed, and each particle identified.
+Via standard stereology, the area fraction of particles in the image and volume fraction of the silica nanoparticle modified epoxy were assumed to be equal, ensuring that almost all nanoparticles on the fracture surface were considered in the analysis.
+Thereafter, the fraction of particles that debonded with subsequent void growth were obtained by zooming into the image, and the diameters of the voids measured.
+To ensure that the appropriate number of silica nanoparticles were included in the analysis, the area fraction of such particles was measured and compared with the known volume fraction of the particles.
+The subsurface damage in the tested SENB samples was studied using transmitted-light optical microscopy (TOM).
+Cross-sections were cut from the fracture surfaces, then ground and polished using standard petrographic techniques to approximately 100 μm thick.
+These thin sections were examined under bright field and cross-polarised light using an Olympus model BH2 optical microscope.
+Results
+Mechanical properties
+The values of the tensile Young's modulus that were measured are shown in Table 1.
+A value of E = 3.50 GPa was measured for the unmodified epoxy polymer.
+The modulus was found to increase steadily with the silica nanoparticle content due to the much higher modulus of the silica particles (i.e.
+E = 70 GPa) compared with the polymer.
+There was no effect of the particle size, as expected [16].
+The yield stress, σy, of the unmodified epoxy was measured to be 85 MPa.
+The addition of the nanoparticles was found to reduce the yield stress slightly and a minimum value of 78 MPa was recorded as shown in Table 1, and again there was no significant effect of particle size.
+(It should be noted that, as explained in detail below in Section 4.2, strong interfacial adhesion leads to matrix yielding whilst decreased particle-matrix interaction leads to debonding with a corresponding dependence of the yield stress on the particle volume fraction.
+Thus, the reason for the observed slight reduction of the tensile yield stress upon addition of the silica nanoparticles is discussed below.)
+Fracture energy
+The values of the measured fracture toughness, KC, and fracture energy, GC, for the epoxy polymers are listed in Table 1, and the values of the fracture energy are plotted as a function of the volume fraction of silica nanoparticles in Fig. 1.
+A value of GC = 303 J/m2 was measured for the unmodified epoxy, and this value is in good agreement with values previously reported in the literature [11].
+The addition of the silica nanoparticles increased the values of the toughness, and the increase is approximately linear after an initial relatively steep increase at 2.5 vol%.
+The effect of the presence of the silica nanoparticles is clearly major, with the epoxy polymers containing 30 vol% of such particles having values of GC of about 1000 J/m2.
+As discussed in detail previously [16], there is no significant effect of the particle size, within experimental error, on the measured values of the fracture energy with the addition of silica nanoparticles, within the range studied of 23-170 nm in particle diameter (see Fig. 1).
+This observation also agrees with previous work, which showed no effect of particle diameter between 20 and 80 nm [11].
+Toughening micromechanisms
+Fractography-transmission optical microscopy
+The toughening mechanism due to the formation of extensive localised shear-band yielding has been previously established for epoxy polymers containing silica particles, when using both nanoparticles and micrometre-sized particles [13].
+The presence of plastic shear-band yielding in the present epoxy matrix polymers containing silica nanoparticles was confirmed using transmission optical microscopy.
+Examples of such micrographs are illustrated in Fig. 2, which shows both bright-field and crossed-polarised optical-light images.
+The horizontal line across the centre of the image is the fracture surface, and the subsurface damage is on the bottom half of each image.
+The dark lines on the micrographs on the left-hand side of Fig. 2, i.e. the bright-field images, are dilatational bands caused by the stress concentrations around the silica nanoparticles.
+Birefringence is observed in the micrographs on the left-hand side of Fig. 2, i.e. the dark-field images, as bright lines and a white-region.
+This indicates the presence of shear yielding (i.e. plastic shear banding) in the epoxy matrix polymer, as the plastic shear deformation causes orientation of the polymer molecules which rotates the plane of the polarised light and leads to a bright image.
+Fractography-FEG-SEM
+The process zone region of the fracture surfaces was examined using field-emission gun scanning-electron microscopy (FEG-SEM) to find evidence of any debonding and subsequent plastic void growth of the epoxy matrix polymer.
+Fig. 3 shows micrographs of the fracture surfaces for the epoxies modified with 10 vol% of silica nanoparticles for the three particle diameters that were studied.
+Some single nanoparticles are identified with arrows, and evidence to support debonding and subsequent void growth in the epoxy polymer are shown circled.
+As explained in detail above, to analyse such micrographs the FEG-SEM images were overlaid with an evenly spaced grid.
+Next, each cell was analysed, and each particle identified.
+Via standard stereology, the area fraction of particles in the image and volume fraction of the silica nanoparticle modified epoxy were assumed to be equal, ensuring that almost all nanoparticles on the fracture surface were considered in the analysis.
+The smallest particles employed, i.e. silica nanoparticles of 23 nm diameter, showed no evidence of debonding and subsequent void growth of the epoxy polymer.
+Now, Johnsen et al. [10] reported the diameter of the void growth surrounding the 20 nm silica nanoparticles in a somewhat different epoxy polymer that they studied as ∼30 nm, via using atomic force microscopy; and a diameter of void growth in the range of 30-35 nm diameter was measured from the FEG-SEM images.
+However, more recently, Hsieh et al. [13] have demonstrated that when the adhesion between the silica nanoparticle and the epoxy polymer is sufficiently high, then debonding of the silica particles does not occur.
+In the present work, it was relatively difficult to clearly observe the 23 nm silica nanoparticles, see Fig. 3(a), although some particles were observed, as indicated by the arrows.
+However, there was no evidence of particle debonding and subsequent plastic void growth in the epoxy polymer, and this of course explains why the particles are more difficult to identify.
+It can be argued that the coating used to make the fracture surfaces of the samples conductive has obscured the evidence of debonding from the matrix, and the subsequent void growth of the epoxy polymer.
+Therefore, several studies were undertaken to change the thickness of the chromium coating, but there was still no evidence of plastic void growth having occurred.
+However, the modelling work discussed below reveals that debonding and void growth would be expected.
+This proposal is supported, of course, by the relatively high values of the fracture energies that were measured, see Table 1 and Fig. 1, and which are not significantly different from the values for the two larger particle sizes.
+The 74 nm silica nanoparticles were readily identifiable on the fracture surfaces, see Fig. 3(b).
+The sizes of some of the particles were measured and a mean particle diameter of 76 nm was obtained, again agreeing well with the expected particle diameter.
+The fracture surfaces show evidence of debonding with subsequent plastic void growth of the epoxy polymer, as shown circled in Fig. 3(b).
+However, only some of the 74 nm diameter particles show evidence of such debonding and void growth.
+Dittanet and Pearson [16] reported from their studies that about 10% of the particles present resulted in the debonding and void growth process for this silica nanoparticle-modified epoxy polymer.
+In the present work, for this same epoxy polymer, debonding and subsequent void growth were found to be associated with about 10-15% of the particles present.
+The 170 nm diameter particles were relatively easy to identify on the fracture surfaces, see Fig. 3(c).
+A mean particle diameter of 160 nm was measured from the micrographs, which is in good agreement with the expected diameter when considering the experimental errors associated with such measurements.
+For the 170 nm diameter nanoparticle material, evidence of debonding and void growth could be identified from the micrographs.
+As for the 74 nm particles, debonding and subsequent void growth were found to be associated with about 10-15% of the 170 nm particles present.
+Again this is in good agreement with the earlier assessment [16] of about 10% for this modified epoxy polymer.
+The diameter of the voids was measured, and was found to correlate well with the calculated value that may be deduced from Ref.
+[12]:(1)rpv=(1+γf)rpwhere the radius of a particle void, rpv, may be deduced from the maximum hoop strain that a void could sustain before fracture in the polymer, and is a function of the plane-strain true fracture strain, γf, and particle radius, rp.
+For example, in the epoxy system in this study, γf = 0.71, see Table 2.
+Thus, the predicted diameter of the voids associated with the 170 nm particles is about 290 nm.
+From the examined images, the void size was measured to be 250 ± 80 nm, which agrees well with the prediction.
+It is noteworthy that the large variation in the mean value is attributed to the distribution in the sizes of the voids that were observed.
+Modelling studies
+Modelling the toughening mechanisms
+The mechanisms of shear band yielding and plastic void growth have been successfully modelled by Huang and Kinloch [20] for rubber-modified epoxy polymers, and more recently by Hsieh et al. [12,13] for silica nanoparticle-modified DGEBA epoxy polymers.
+Giannakopoulos et al. [14] and Chen et al. [15] have also applied this model to epoxy polymers toughened using core-shell rubbers.
+Huang and Kinloch [20] proposed a generalised solution to examine incremental increases in GC, where:(2)GC=GCU+ψwhere GCU is the fracture energy of the unmodified epoxy polymer and Ψ represents the overall toughening contribution provided by the presence of the particulate phase, such that:(3)ψ=ΔGs+ΔGvHere the toughening increment due to the silica nanoparticles, termed Ψ, is a combination of the two mechanisms identified from the experimental work, and can be separated into their relative toughening contributions.
+These contributions are (i) the formation of localised plastic shear-band yielding, ΔGs, in the epoxy matrix polymer which is initiated by the silica nanoparticles, and (ii) debonding of the silica nanoparticles followed by plastic void growth, ΔGv, of the epoxy matrix polymer.
+It should be noted that the contribution to the increase in toughness due to particle debonding is widely considered to be negligible and thus the value of interfacial free energy between the silica nanoparticles and epoxy polymer matrix does not enter into the formulation of the model [21-23].
+However, although the energy absorbed by debonding is small, the process of debonding is vital for plastic void growth of the epoxy polymer to occur.
+Ideally, whether or not the particles debond should be predicted prior to undertaking fracture tests, rather than relying upon analysis of the fracture surfaces after fracture testing.
+Therefore, it is necessary to consider firstly the role of the adhesion of the particles to the matrix.
+Adhesion of the particles to the matrix
+Pukánsky and Vörös [24-26] showed that very different levels of particle to matrix interfacial adhesion could be obtained with particle-filled polymers, including glass-particle modified epoxy polymers.
+Also, they showed that the degree of adhesion has a marked effect on the observed yield stress at different volume fractions, as was also shown by Dekkers and Heikens [27].
+The work of Pukánsky and Vörös [24-26] focused on using stress-averaging principles to develop predictive models for the variation of the yield stress as a function of the volume fraction of glass particles.
+The general trend in their work was in good agreement to that of Vollenberg et al. [28-31] and Fu et al. [32].
+These studies revealed that (i) smaller particles generated relatively higher values of the yield stress for a given level of particle-matrix adhesion and that (ii) strong interfacial adhesion leads to matrix yielding, whilst decreased particle-matrix interaction leads to debonding with a corresponding dependence of the yield stress on the particle volume fraction.
+Further, these authors reported that the interphase properties, the degree of interfacial adhesion and the particle size determined the stress necessary to separate the particle-matrix interface.
+Indeed, Pukánsky and Vörös extended their earlier work to include the interphase properties that surround the particles [33], recently reviewed in Ref.
+[34].
+This is relevant with respect to the work of Zhang et al. [35] who have predicted the formation of an interphase in silica nanoparticle-modified epoxies, but were unable to support their hypothesis with experimental evidence.
+On the other hand, Sen et al. [36] reported the formation of an interphase around silica nanoparticles in their modified polystyrene using small-angle neutron-scattering experiments.
+Considering the level of interfacial adhesion, Kawaguchi and Pearson [37,38] varied the adhesion in glass-bead filled epoxies by using an adhesion promoter, i.e. aminopropyltrimethoxysilane, to coat the glass beads and found that better adhesion resulted in higher values of the yield stress in their modified epoxy polymers.
+Many researchers, for example Gent [39], Nicholson [40] and more recently, Chen et al. [41,42] and Williams [43] have reported a strong dependence of debonding stress on the particle size, with other notable studies reported in Refs.
+[24,25,32,44].
+For example, the work of Chen et al. suggests that the debonding stress is relatively high for particles in the nanometre size range.
+As indicated above, the work of Pukánsky and Vörös [24-26] may be used to semi-quantitatively evaluate the interfacial adhesion between the silica nanoparticles and the epoxy matrix polymer.
+Now, since the reversible work of adhesion for the various particle-epoxy interfaces is unknown, they proposed a simple model to quantify the interfacial strength.
+Assuming that the particles carry a load proportional to their volume fraction, Pukánszky and Vörös [24,25] proposed that:(4)σe=vfkσe+(1-vf)σmwhere the applied stress acting on the modified polymer, σe is a function of the volume fraction, vf, of particles, the proportionality constant, k, for stress transfer between the particles and the matrix, and the average stress in the matrix, σm.
+The first term expresses the stress carried by the particles, with the second expressing the stress in the matrix; i.e. if there are no particles present then the applied stress is equal to the average matrix stress.
+This can be simplified further by taking σm to be the yield stress of the matrix, which is expressed for the unmodified epoxy in the equation below by σyu.
+Hence:(5)σe=σyu(1-vf)(1-kvf)where σe is now the applied stress needed to produce yielding in the modified polymer.
+The magnitude of k was reported to be greater than 0 for rigid particles and to increase with the level of particle-matrix adhesion.
+(No maximum can be given to the value of k because this is entirely dependent on the interphase region that forms between the particles and matrix.
+The value of k = 0 for the assumption of voids present in the epoxy would provide the lower limit to the model.) Plots of the normalised yield stress of the modified epoxy polymers (i.e. normalised relative to the unmodified epoxy) versus the volume fraction, vf, of the silica nanoparticles in the different epoxy polymers are shown in Fig. 4.
+The lines represent the predictions of the model of Vörös and Pukánszky [24,25] using the values of the interfacial parameter, k, as stated.
+Firstly, the values for the three piperidine-cured epoxy polymers, containing particle sizes of 23, 74 or 170 nm, clearly show that the plots for the three particle sizes lie close to one another, and thus the respective values of k are in good agreement.
+This reveals that, within the range of particle sizes that were studied, there is no effect of the particle size on the degree of adhesion between the particles to the matrix.
+Secondly, the data from the present work fits within the region of values of k, and hence the adhesion levels, where debonding and void growth were observed previously in other nanosilica-modified epoxy polymers by Hsieh et al. [13].
+Hence, from both of these observations, it would be expected that all three piperidine-cured epoxy polymers, containing particle sizes of 23, 74 or 170 nm, examined in the present study will exhibit particle debonding, followed by plastic void growth of the epoxy matrix polymer, prior to fracture.
+Thus, it is predicted that the toughening mechanisms of plastic shear-band yielding and debonding followed by plastic void growth will both occur for all the materials studied in the present work.
+Modelling shear-band yielding
+The energy contribution from plastic shear-band yielding, ΔGs, initiated by the presence of the particles is related to the size of the plastic zone from Ref.
+[12] by:(6)ΔGs=0.5vfσycγfF′(ry)where vf is the volume fraction of the silica nanoparticles, σyc is the plane-strain compressive true yield stress, and γf is the true fracture strain for the unmodified epoxy, see Table 2.
+The F′(ry) term takes a modified form of the original formulation of the model, from Ref.
+[13], to be:(7)F′(ry)=ry[(4π3vf)1/3(1-rpry)3-85(1-rpry)(rpry)5/2-1635(rpry)7/2-2(1-rpry)2+1635]where the rp is the radius of the particle and ry is the radius of the plane-strain plastic zone at the crack tip at fracture in the nanoparticle-modified polymer.
+The value of ry is given by:(8)ry=Kp2(1+μm31/2)2rpzwhere Kp is the maximum stress concentration for the von Mises stresses around a rigid particle, and μm is a material constant which allows for the pressure-dependency of the yield stress.
+The value of μm was shown by Sultan and McGarry [45] to be in the range from 0.175 to 0.225 (taken as 0.2).
+The value of Kp is dependent on the volume fraction of particles, and was calculated from the data of Guild and Young [46].
+The value of Kp varies from approximately 1.65-1.85 for the range of volume fractions used in the present work.
+The value of rpz, the Irwin prediction of the plane-strain plastic zone radius for the unmodified epoxy at fracture, was calculated from Ref.
+[47] as:(9)rpz=16πKCU2σyt2where KCU is the fracture toughness and σyt is the tensile yield stress for the unmodified epoxy polymer.
+It should be noted that, via equation.
+(7), the shear banding term is dependent on particle size, i.e. smaller particles provide a greater contribution to the value of ΔGs.
+Modelling plastic void growth
+Although the energy contribution from debonding is considered to be negligible, particle debonding is of great importance since this reduces the constraint at the crack-tip and allows the epoxy matrix polymer to deform plastically via void growth mechanisms.
+The contribution of ΔGv via the plastic void growth mechanism, assuming that 100% of the particles present debond, was taken from Ref.
+[20] as:(10)ΔGv=(1-μm23)(vfv-vf)σycrpzKv2where μm is a material constant which allows for the pressure-dependency of the yield stress [45] and was taken to be 0.2, vfv and vf are the volume fraction of voids and the volume fraction of silica nanoparticles.
+The value of vfv was calculated from a void radius, rpv, of (1 + γf)rp [12], i.e. based upon the maximum hoop strain that a shell void could sustain, see Table 2.
+The value of Kv is taken as the von Mises stress concentration factor for voids from the work of Guild and Young [48].
+The value of Kv was allowed to vary linearly between 2.11 and 2.14 for the volume fractions considered in the present study.
+Now, as written it should be noted that equation (8) assumes that 100% of the silica nanoparticles present will debond, and hence allow plastic void growth of the matrix to occur.
+However, it is very significant that Hsieh et al. [12,13] observed that only 15 ± 5% of the silica nanoparticles present actually debonded and so resulted in plastic void growth of the epoxy polymer, and this observation was independent of the epoxy matrix used.
+However, to obtain this value it was necessary to undertake fracture tests on all the different materials and then to examine in detail their fracture surfaces.
+However, for the model to be fully predictive it would be ideal to predict a priori the proportion of the nanoparticles present that will debond, without reference to the fracture surfaces obtained after the fracture tests have been completed.
+Predicting debonding of the silica nanoparticles
+The effect of debonding of a nanoparticle on the local stress-field was investigated using finite-element analysis, employing 'Abaqus version 6.12, Implicit'.
+The mesh was drawn in two-dimensions using a single layer of elements to allow the application of a pure hydrostatic stress.
+The mesh is shown in Fig. 5, with one particle debonded at A and the particles are arranged so that the nearest inter-particle distances are equal.
+This mesh represents 13.7 vol% of particles, which is equivalent to 20 wt% of particles.
+The relative size of the nanoparticles was calculated assuming that the two-dimensional area fraction is equal to the three-dimensional volume fraction, see above.
+Around the void, the particles are identified by numbers.
+Mirror boundary conditions were imposed on each edge of the mesh, with stress and constraining equal displacements imposed on edges BC and CD, and with edges AB and DA constrained in the orthogonal direction.
+The bottom plane of the mesh was constrained in the orthogonal direction, with stress and constraining equal displacements imposed on the top surface.
+Analyses were also undertaken with all the particles present.
+Elastic material properties were assumed for the silica nanoparticles and elastic-plastic properties, matched to the experimental stress-strain results, were used for the epoxy matrix polymer.
+The mesh shown in Fig. 5 is a deformed mesh, which is clear from the relative size of the void and the silica nanoparticles.
+Essentially, it was found that the growth of the void alters the stress-state around the surrounding nanoparticles.
+An energy-based criterion was used to predict debonding of the particles.
+The method used has been fully described elsewhere [49] and essentially it proposes that the criterion for debonding is based upon the energy released by the debonding process.
+To obtain the parameters needed for this energy-based criterion, a finite-element analysis modelling study has been used to derive the change in strain-energy arising from the cavitation process, with the addition of the strain-energy stored in the particle prior to debonding.
+The applied stress used for these simulations was derived from experimental observations.
+Namely, as implied above, the debonding of the silica nanoparticles from the epoxy matrix polymer appears to take place during the elastic deformation region and, as shown in Table 1, the yield stress for all modified epoxy polymers is approximately equal, irrespective of particle size.
+It has therefore been assumed that the debonding takes place at an applied uniaxial stress of about 70 MPa, which equates to a hydrostatic stress at the crack tip of about 210 MPa.
+Thus, the finite-element analysis simulations were analysed for an applied hydrostatic stress of 210 MPa.
+The results are shown in Fig. 6 where values of the energy required for debonding have been extracted for five of the numbered particles shown in Fig. 5, and they are also compared with the value for the isolated particle extracted from the analyses without the void.
+The results show that the values of energy required to debond the particles closest to the void (caused by the debonded particle at A), i.e. particles numbered 1 and 2, are significantly higher than that required to debond an isolated particle.
+Hence, these particles are shielded from debonding by the presence of the void.
+Results for the more distant particles (i.e. numbered 3, 4 and 6) show that the energies for debonding are all significantly closer in value to the energy required for the isolated particle.
+Indeed, the value of energy required to debond particle 6 is almost identical to the value required for an isolated particle.
+(The energy required to debond particle 5 will be very similar to that of particle 6).
+The energy values shown in Fig. 6 are identical for all particle sizes, since they are normalised.
+However, since the value of energy is proportional to the volume of the particle, the actual energy values for the 174 nm diameter particle are more than 400 times the values for the 23 nm diameter particle.
+Further work regarding this debonding process will include 3-dimensional analysis and investigation of the criteria for nanoparticle debonding which is expected to be size dependent [49,50].
+Now, the arrangement in Fig. 5 is idealised, but it shows that the nearest neighbours to the void are shielded from debonding.
+For a random distribution, the mean inter-particle distance would be a value between the distance from the void to particles 1 and 2, but Fig. 6 shows that the energy required to debond these particles is much higher than for particles further away from the void.
+Hence, it is now necessary to generalise these findings to a random distribution of particles, where each nanoparticle is surrounded by a set of other nanoparticles which can be described as its nearest neighbours but without prescribing the inter-particle distance or the arrangement of the particles.
+This will allow the number of nearest neighbours that a particle possesses to be determined, and hence the percentage of particles which are expected to debond to be calculated.
+This can be undertaken by considering previous work on the quantification of the dispersion of nanoparticles [51,52], as discussed below.
+Calculating the percentage of debonded silica nanoparticles
+Now, each nanoparticle is surrounded by a set of other nanoparticles which can be described as its nearest neighbours.
+A Voronoi tessellation [51,52] of the material, based around the positions of the nanoparticles, provides a method for deciding which particles are the nearest neighbours, as shown in Fig. 7.
+This tessellation breaks the material into a set of space-filling convex polygons around each particle, where any position within a polygon is closest to the engulfed nanoparticle.
+Hence, each Voronoi polygon, and its associated nanoparticle, is completely bordered by other polygons and the particles contained within the surrounding polygons are defined as the nearest neighbours.
+To calculate the total number of nearest neighbours around a nanoparticle, a dual representation to the Voronoi tessellation, termed a Delaunay network, is calculated.
+Here the vertices of each Delaunay triangle lie on nanoparticles, and each edge crosses over exactly one boundary between neighbouring Voronoi polygons.
+A nanoparticle is connected to one of its nearest neighbours through a triangle edge.
+Hence, the number of nearest neighbours of a nanoparticle is equivalent to the number of Delaunay triangles that contain that nanoparticle as a vertex, shown as the shaded triangles in Fig. 7.
+By this definition the mean number of neighbours is equivalent to the mean number of Delaunay triangles per unique vertex (particle).
+Thus, for a micrograph containing N dispersed particles, there will be N Voronoi polygons, i.e. one for each particle.
+When the Delaunay tessellation is generated there must be 2N Delaunay triangles in the micrograph.
+As there are three vertices per triangle then the total number of triangle vertices is 3 × 2N = 6N.
+Now, each particle is a potential position for a vertex, and multiple vertices can lie on a particle.
+Thus, the mean number of vertices on one particle must be equal to the total number of vertices divided by the number of particles = 6N/N = 6.
+As each vertex connects the particle with its nearest neighbours then the number of nearest neighbours is exactly six.
+This above methodology reveals that once one particle debonds and void growth occurs, then its six nearest neighbours will not debond.
+Hence only one in seven particles will exhibit debonding and void growth, which gives a value of the percentage of debonding particles as 14.3% of those present.
+This prediction agrees very well with the experimental observations from the fracture surfaces.
+Indeed, Hsieh et al. reported that in their studies the experimental observations indicated that 15 ± 5% of the nanoparticles present exhibited debonding and void growth [12,13] and, in the current work, 10-15% of the nanoparticles were observed to show debonding and void growth.
+The results from both of these studies clearly agree very well with the above prediction of 14.3%.
+Comparisons between the predicted and experimental toughness
+The modelling scheme outlined above was employed to calculate the values of ΔGs and ΔGv using the parameters given in Table 2.
+The results are compared with the measured fracture energies in Fig. 8.
+In this Figure the modelling results are shown as lines considering the contribution to the fracture energy, Gc, due to (i) plastic shear-band yielding in the epoxy matrix polymer only and (ii) plastic shear-band yielding and plastic void growth in the epoxy matrix polymer but arising from only 14.3% of those nanoparticles present being active in terms of initiating this latter debonding and the plastic void growth toughening mechanism.
+The individual contributions to the toughness from shear-band yielding and plastic void growth of the epoxy matrix polymer are shown in Table 3, where it again should be noted that the predicted values of GC assume that the toughening increment, ΔGv, from the plastic void growth mechanism arises from only 14.3% of the particles present.
+Fig. 8 shows that the model which considers both toughening mechanisms generally under-predicts the measured fracture energy at low particle contents, and may somewhat over-predict the toughness at high volume fractions.
+However, for all of the different particle diameters, a good agreement with the experimental data was obtained using the model that takes into account both the shear-banding yielding and the debonding and subsequent plastic void growth mechanisms in the epoxy matrix polymer, when the predicted value of about 14% of the nanoparticles present only are active in the latter toughening mechanism.
+Thus, the modelling, as well as the experimental studies, clearly confirm the important role of debonding of the nanoparticles which enables subsequent plastic void growth to occur in the epoxy matrix polymer; and the fact that it is only initiated and occurs via a relatively low percentage of the nanoparticles present due to stress-shielding of those nanoparticles immediately adjacent to a void.
+As noted above, the shear-banding term in the model is dependent on particle size, i.e. smaller particles provide a greater contribution to the value of ΔGs, whereas the plastic void growth term, ΔGv, is independent of particle size.
+However, Table 3 shows that the ΔGs contributions for the three particle diameters studied and there is no significant difference between the values for any given volume fraction of particles.
+For example, for 30 vol% of nanosilica particles, ΔGs = 300 J/m2 for the 23 nm diameter particles, 299 J/m2 for the 74 nm diameter particles, and 297 J/m2 for the 170 nm diameter particles.
+Hence, over the range of particle sizes used in the present work the model predicts that there is no significant effect of particle diameter on the predicted toughness.
+This agrees very well with the experimental data, where no size effect was seen.
+Finally, for the 23 nm diameter particles, it is unlikely that all the observed toughening effect could arise from shear yielding alone.
+Since there is no significant difference in the measured GC for any particle diameter for a given volume fraction of silica nanoparticles; and noting that the other two particle size particles experimentally, as well as theoretically, showed debonding and void growth.
+Thus, also observing that the contribution of the plastic void growth mechanism to the fracture energy, ΔGv, is predicted to be independent of particle size, it is suggested that particle debonding and subsequent plastic void growth in the epoxy polymer does indeed occur for the 23 nm diameter particles but that it is obscured by the coating process when the FEG-SEM observations are made.
+This confirms that it is very useful to be able to predict the toughening mechanisms associated with such small particles, rather than relying solely upon observations of the fracture surfaces.
+Conclusions
+Silica nanoparticles possessing three different diameters (23, 74 and 170 nm) were used to modify a piperidine-cured epoxy polymer.
+Fracture tests were performed and the values of the toughness increased steadily as the concentration of silica-nanoparticles was increased, but with no significant effects of particle size being observed.
+The toughening mechanisms were identified as (i) the formation of localised shear-band yielding in the epoxy matrix polymer which is initiated by the silica nanoparticles, and (ii) debonding of the silica nanoparticles followed by plastic void growth of the epoxy matrix polymer.
+These toughening mechanisms, and hence the toughness of the epoxy polymers containing the silica nanoparticles, were modelled.
+However, previously, the percentage of nanoparticles that actually initiate this latter mechanism of debonding and subsequent plastic void growth of the epoxy matrix polymer, was calculated by observations from the fracture surfaces after the fracture test had been performed.
+The present paper has obtained the value of this important parameter via firstly developing a finite-element model of a number of particles in the epoxy polymer.
+This model showed that once one silica nanoparticle debonds and forms a void, then its nearest neighbours are shielded from the applied stress-field and hence will not debond.
+A statistical analysis, using Delaunay triangles, was then employed which revealed that, for a random dispersion of nanoparticles, each nanoparticle has exactly six nearest neighbours, so only one in seven particles will debond.
+This predicted value of 14.3% of the particles present that will actually debond, and hence lead to subsequent plastic void growth in the epoxy matrix polymer, was in excellent agreement with the observation from the fracture surfaces that about 10-15% of the nanoparticles present debonded.
+Indeed, this value of about 15% only of the silica nanoparticles particles present debonding has also been noted in other published studies, but has never been previously explained.
+Thus, the predictions from the modelling studies of the toughness may now be undertaken without the need for any fracture tests to be first conducted, i.e. a priori from the basic material properties of the modified epoxy polymers.
+The predicted fracture energies of the various epoxy polymers containing the silica nanoparticles were so deduced and compared with the measured fracture energies.
+The agreement was found to be good.
+Further, for example, over the range of particle diameters (i.e. from 23 nm to 170 nm) used in the present work the model predicted that there is no effect of particle diameter on the toughness, as was indeed observed from the experimental data.
+Acknowledgements
+The authors dedicate the present paper to Professor Alan Gent (1927-2012).
+The work at Lehigh University was partially funded through the Semiconductor Research Corporation (SRC Contract 1292.027).
+The silica nanoparticles used in this study were kindly supplied by Dr. Bill Schultz and Wendy Thompson of the 3M Company.
+Dr Peerapan Dittanet is grateful for financial support through the Royal Thai Fellowship.
+The authors would like to thank the EPSRC for a doctoral training award for Dr Kunal Masania, and for providing research funding under the grant EP/H00582X/1.
+

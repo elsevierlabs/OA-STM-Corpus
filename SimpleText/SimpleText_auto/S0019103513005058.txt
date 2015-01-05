@@ -1,0 +1,479 @@
+The formation of sulfate, nitrate and perchlorate salts in the martian atmosphere
+
+Highlights
+•
+We model a modified martian atmosphere to calculate deposition fluxes of salts.
+•
+Estimated sulfate soil concentrations are consistent with observed sulfate on Mars.
+•
+Pernitric acid forms more rapidly in the martian atmosphere than nitric acid.
+•
+An atmospheric origin for perchlorate is precluded (or supplemented by other processes).
+Abstract
+In extremely arid regions on Earth, such as the Atacama Desert, nitrate, sulfate and perchlorate salts form in the atmosphere and accumulate on the surface from dry deposition according to diagnostic evidence in their oxygen isotopes.
+Salts of similar oxyanions should have formed in the atmosphere of Mars because of comparable photochemical reactions.
+We use a 1-D photochemical model to calculate the deposition rates of sulfate, nitrogen oxyanions, and perchlorate from Mars' atmosphere, given a plausible range of volcanic fluxes of sulfur- and chlorine-containing gases in the past.
+To calculate integrated fluxes over time, we assume that throughout the last 3byr (the Amazonian eon), the typical background atmosphere would have been similar to today's cold and dry environment.
+If the soil has been mixed by impact perturbations to a characteristic depth of ∼2m during this time, given a time-average volcanic flux 0.1% of the modern terrestrial volcanic flux, the model suggests that the soil would have accumulated 1.0-1.7wt.% SO42- and 0.2-0.4wt.% N in the form of pernitrate (peroxynitrate) or nitrate.
+The calculated sulfate concentration is consistent with in situ observations of soils from rovers and landers and orbital gamma ray spectroscopy.
+However, nitrates or pernitrates are yet to be detected.
+The modeled formation of perchlorate via purely gas-phase oxidation of volcanically-derived chlorine is insufficient by orders of magnitude to explain 0.4-0.6wt.% ClO4- measured by NASA's Phoenix Lander.
+The far smaller amount of ozone in the martian atmosphere compared to the terrestrial atmosphere and the colder, drier conditions are the cause of lower rates of gas phase oxidation of chlorine volatiles to perchloric acid.
+Our calculations imply that non-gas-phase processes not included in the photochemical model, such as heterogeneous reactions, are likely important for the formation of perchlorate and are yet to be identified.
+
+Introduction
+The elemental composition of the martian soil was first determined by X-ray fluorescence spectroscopy on the Viking Landers (VLs), which measured absolute concentrations (Clark et al., 1977).
+Concentrations of elements in what was called the "average deep soil" at the VLs only summed to ∼89%.
+The missing ∼11% was attributed to bound water (H2O, -OH), carbonates, nitrates, phosphates and oxides, given that some light elements (H, C, N, O plus Li, B, and F) were undetectable while other elements were obscured (Na, P, Cr and Mn) (Clark et al., 1982).
+How the elements were bound into salts was uncertain, although Mg and S were correlated in duricrust soils, which was interpreted as a cement of magnesium sulfate (Clark, 1993).
+Some of the "missing components" in VL soil analyses have since been detected.
+Orbital thermal infrared spectroscopy showed that 2-5wt.% carbonates are present in the global dust (Bandfield et al., 2003), while thermal evolved gas analysis in soils at the site of the Phoenix Lander revealed 3-6wt.% carbonate (Boynton et al., 2009; Sutter et al., 2012).
+Additionally, thermal evolved gas analysis in soils at the Rocknest location in Gale Crater was consistent with the presence of 1-2% fine-grained siderite and/or magnesite (Leshin et al., 2013).
+Orbital gamma-spectroscopy have also revealed 1.5-7.5wt.% water-equivalent hydrogen near the martian surface (Boynton et al., 2007), and the Sample Analysis at Mars (SAM) instrument suite on the Mars Science Laboratory (MSL) detected evolved H2O consistent with ∼1.5-3wt.% H2O in sand grains at the Rocknest location (Leshin et al., 2013).
+The Wet Chemistry Laboratory (WCL) on the Phoenix Lander provided in situ measurements of the composition of soluble salts in the martian soil.
+Soluble sulfate was present at 1.3±0.5wt.% (Kounaves et al., 2010b), along with cations of sodium, potassium, calcium and magnesium.
+The most surprising result was the presence of perchlorate (ClO4-) at an inferred concentration in the soil of ∼0.5wt.% (Hecht et al., 2009; Kounaves et al., 2010a).
+The dominance of Mg(ClO4)2 is consistent with simulations of evaporation and freezing at the Phoenix landing site (Marion et al., 2010); however, further analysis of data from the WCL suggests that Ca(ClO4)2 may be the dominant form of perchlorate (Kounaves et al., 2012).
+The perchlorate-sensitive electrode in the WCL experiment was also sensitive to nitrate, but it was 1000 times more sensitive to perchlorate.
+Thus, the methodology precluded the detection of nitrate because the signal would have required a mass of nitrate that exceeded the mass of the sample (Hecht et al., 2009).
+Recently, the MSL mission has also confirmed the presence of perchlorate using pyrolysis as part of the SAM experiment (Steininger et al., 2013).
+Specifically, pyrolysis showed release of chloromethane and O2 from heated soil samples at the Rocknest location, which is consistent with the decomposition of perchlorate (Sutter et al., 2013).
+If all of the evolved O2 was released from perchlorate, then the samples contained a comparable amount of perchlorate to the samples at the Phoenix landing site (Leshin et al., 2013).
+Furthermore, reanalysis of the Viking thermal volatilization experiments suggest ⩽1.6% perchlorate at both Viking 1 and Viking 2 landing sites (Navarro-Gonzalez et al., 2010); however, this has been subject to some debate (Biemann and Bada, 2011).
+Native perchlorate has also recently been measured in the martian meteorite EETA79001, albeit at a level <1ppm by mass (Kounaves et al., 2014).
+Given the various locations of possible detection, perchlorate appears to be ubiquitous on the martian surface.
+Alpha-proton X-ray fluorescence on landers and rovers after the VLs has led to the inference of a global soil unit (Blake et al., 2013; Bruckner et al., 2003; Morris et al., 2010; Rieder et al., 2004; Yen et al., 2013, 2005).
+Soils can have components derived from local rocks but these are imprinted upon a global-scale soil that has characteristic ratios of the concentration of certain elements (Mg, Al, K, Ca and Fe) relative to silicon and also a positive correlation of Cl and S. Given the lander and rover detections of perchlorate, the Cl in this global soil may well be in the form of perchlorate.
+Salts are relevant to the habitability of Mars.
+First, perchlorate reduction is a metabolism used by some terrestrial bacteria in anaerobic conditions (Coates and Achenbach, 2004).
+If such organisms exist (or did exist) on Mars, then they could gain energy by reducing perchlorate and oxidizing an electron donor such as organic carbon or ferrous iron.
+This would require organic molecules to be present on Mars.
+Indigenous organic molecules have yet to be confirmed on Mars; however the presence of perchlorate itself may have inhibited the detection of organics on Mars in pyrolysis experiments (Navarro-Gonzalez et al., 2010).
+Second, perchlorate salts are highly deliquescent and significantly lower the freezing point of liquid water (Gough et al., 2011).
+The eutectic point of Mg(ClO4)2 is -57°C (Stillman and Grimm, 2011), while that of Ca(ClO4)2 is -75°C (Pestova et al., 2005).
+Given typical soil salt concentrations, small amounts of water (∼0.02g H2O per g soil) would permit a water activity sufficient for terrestrial life to be viable (Kounaves et al., 2010b).
+Third, if all organisms require fixed nitrogen in proteins and nucleic acids, as they do on Earth, then the discovery of nitrogen oxyanions on Mars would be significant as well.
+Perchlorate may be advantageous to microorganisms, but its impact on human exploration is more complicated.
+Perchlorate may be harmful because it is potentially toxic to humans if ingested (Urbansky, 2002).
+On the other hand, perchlorate could be useful for future exploration of Mars.
+It is kinetically stable at typical planetary surface temperatures, but at high temperatures perchlorate is a powerful oxidant suitable for rocket propulsion (Trumpolt et al., 2005).
+So perchlorate could be utilized as an in situ fuel resource for sample return missions and in the eventual human exploration of Mars.
+On Earth, one source of sulfate, nitrate, and perchlorate salts is atmospheric deposition.
+The salts can build up in extremely arid environments, such as the Atacama Desert in Chile (Catling et al., 2010; Ericksen, 1983) and the Antarctic Dry Valleys (Kounaves et al., 2010c).
+Given the oxic arid environment of Mars, it is possible that the same salts, or similar ones, have formed in the atmosphere.
+This work estimates the photochemical formation and deposition rates of martian oxyanions, and evaluates the plausibility of atmospheric chemistry as an important source of salts in the global martian soil.
+This study builds upon the work of Catling et al. (2010), which used a one-dimensional photochemical model to investigate the formation of salts in the terrestrial atmosphere over the Atacama Desert.
+Using purely gas-phase pathways, Catling et al. (2010) reproduced measured profiles of chlorine species in the terrestrial atmosphere and estimated deposition rates of both perchlorate and nitrate that were consistent with Atacama soil measurements.
+Several profound differences, however, alter the photochemistry of Mars relative to Earth, including atmospheric composition, density, and temperature.
+Our results reveal how these differences impact the formation of atmospheric salts on Mars as compared to Earth.
+Background: atmospheric perchlorates, sulfates, and nitrates on Earth versus Mars
+Perchlorates, sulfates, and nitrates are formed in the atmosphere on Earth and by analogy may have formed in the atmosphere of Mars.
+In this section, we consider how terrestrial pathways of salt formation inform possible mechanisms on Mars.
+Perchlorate formation
+Perchlorate salts produced synthetically on Earth can be distinguished from those produced naturally in the atmosphere by virtue of their oxygen and chlorine isotope ratios.
+Synthetic formation creates perchlorate with ordinary mass-dependent oxygen isotope fractionation (i.e. oxygen isotopes are distributed according to the linear relationship, δ17O≈0.52×δ18O).
+Conversely, naturally occurring perchlorate typically contains mass-independently fractionated oxygen isotopes, a deviation defined as Δ17O, where Δ17O=δ17O-0.52×δ18O.
+The known source for Δ17O occurs during ozone formation, leading to stratospheric ozone with 30-40‰ (Thiemens, 2006).
+Perchlorate that contains Δ17O thus preserves a telltale signature of a naturally occurring formation pathway involving stratospheric photochemistry.
+Natural perchlorate has been discovered in locations across the globe, including the Atacama Desert (Bao and Gu, 2004), the Antarctic Dry Valleys (Kounaves et al., 2010c), and the American southwest (Jackson et al., 2010; Rajagopalan et al., 2006).
+The Mojave Desert in California and Atacama Desert in Chile have the highest Δ17O values.
+In perchlorate samples from the Mojave Desert, Δ17O=8.6-18.4‰ (Jackson et al., 2010), and in samples from the Atacama Desert, Δ17O=4.2-9.6‰ (Bao and Gu, 2004).
+The occurrence of radioactive 36Cl (produced by cosmic rays acting on atmospheric 36Ar) relative to 37Cl (Sturchio et al., 2009) further confirms a stratospheric source for the chlorine in natural terrestrial perchlorate.
+A gas phase pathway for producing perchlorate is through the reaction of halogens with ozone.
+Simonaitis and Heicklen (1975) proposed that perchloric acid, HClO4, forms by:(1)Cl+O3+M→ClO3+M(2)ClO3+OH+M→HClO4+M
+For this study, we employ Eqs.
+(1) and (2) as the major pathway to form HClO4.
+However, the effectiveness of this mechanism has been questioned by Prasad and Lee (1994) based on the slow three-body kinetics.
+In the same study, the authors presented an alternative method of HClO4 formation involving ClO·O3 and ClO·O2 (Prasad and Lee, 1994).
+ClO·O2 has been detected (Kopitzky et al., 2002), but the existence of ClO·O3 is hypothetical.
+Still, it is possible that other atmospheric reactions may form perchloric acid in addition to, or in place of, Eqs.
+(1) and (2).
+Regardless of the formation pathway, HClO4 has been shown to be stable by ab initio methods (Francisco, 1995), and it has been detected in the terrestrial stratosphere (Jaegle et al., 1996).
+In the absence of rain, perchloric acid accumulates on the surface through dry deposition, where it reacts with minerals to form perchlorate salts (Catling et al., 2010).
+Another photochemical pathway to ClO3 that was not investigated by Catling et al. (2010) involves the effect of bromine oxides:(3)BrO+ClO→Br+OClO
+OClO then can form ClO3 by(4)OClO+O3→ClO3+O2
+It is reasonable to assume that when Mars was volcanically active, the atmosphere contained the reactants for the above reactions.
+There are multiple lines of evidence that volcanoes on Mars emitted both HCl and HBr.
+First, the inferred composition of the martian mantle is enriched in Cl and Br by more than a factor of two compared with Earth (Wänke and Dreibus, 1994).
+Second, the mineral composition of martian basaltic meteorites is consistent with an enrichment in Cl relative to terrestrial basalts (Filiberto and Treiman, 2009).
+Third, there are elevated bromine levels in soils (Rieder et al., 2004), and recent analysis of Br/Cl ratios in soil profiles at Gusev Crater and Meridiani Planum indicate that bromine gas may have been released from soil to atmosphere by UV photolysis or chemical oxidation (Karunatillake et al., 2013).
+Other ways to form perchlorate
+In addition to Eqs.
+(1) and (4), several other atmospheric reactions form precursors to HClO4; however, their relevance to Mars has not yet been demonstrated.
+For example, laboratory experiments showed that oxidation of HCl gas by O3 gas produces both chlorate, ClO3-, and perchlorate, ClO4- (Wang, 2011).
+The recovered ClO4- mass was two to three orders of magnitude greater than the recovered ClO3- mass (Wang, 2011).
+However, HCl gas was exposed to O3 gas concentrations of 150-180mg/L (Wang, 2011), which are values that far exceed the concentration of O3 in both the terrestrial stratosphere and the martian atmosphere.
+The Phoenix WCL was not designed to detect chlorate (the ion-sensitive electrode in the WCL has similar sensitivity to chlorate and nitrate, so a signal due mostly to chlorate is precluded).
+However, it is possible that ClO3- contributed to the perchlorate signal (Hanley et al., 2012).
+Lightning-induced oxidation of NaCl aerosols also produces ClO4-, but the recovered ratio of ClO4-/Cl- is only ∼10-4 by mass (Rao et al., 2012b).
+Phoenix WCL measurements suggest that the ratio of ClO4-/Cl- is ∼15 by mass in the soil (Kounaves et al., 2010b), so the lightning production of perchlorate is not compatible with data.
+Several authors have recently argued that ClO4- can be produced through aqueous and heterogeneous reactions; however, once again, it is unclear how effective such mechanisms would be on Mars.
+Decomposition of chlorine-based bleach through UV exposure produces ClO4-, but at low yields ∼10-3% (Rao et al., 2012a).
+Schuttlefield et al. (2011) show that perchlorate is produced by irradiation of titanium-containing crystals in aqueous solutions of chloride.
+The perchlorate can initially be produced 2000 times faster than perchlorate produced via atmospheric oxidation of chlorine volatiles in Catling et al. (2010), but the reaction rate asymptotes and produces only ppm levels of perchlorate in 0.5M solutions of chloride.
+Additionally, the radiation source used in their experiment, a 100-W xenon lamp, simulates the solar spectrum in space, which greatly exceeds the spectrum at Mars' surface because scattering and absorption by atmospheric gases and dust attenuates the ultraviolet solar flux (Patel et al., 2002).
+In another recent study, CO2-doped chloride-bearing ices were bombarded with electrons, and chlorine oxides, such as ClO2- and ClO3-, formed (Kim et al., 2013).
+These species can subsequently be oxidized to perchlorate; however, the yield of chlorine-oxides has not been quantified.
+Atmospheric sulfates on Earth and Mars
+On Earth and Venus, sulfate aerosols form when volcanic SO2 is oxidized and hydrated to form H2SO4 (McGouldrick et al., 2011).
+On Earth, dry deposition of H2SO4 and subsequent reactions with minerals can form sulfates.
+In fact, sulfates that are found within and near nitrate ore fields of the Atacama have Δ17O=0.4-4‰ (Michalski et al., 2004), which implies a stratospheric source for some of the oxygen molecules bound in the sulfate.
+Settle (1979) suggested that sulfates on Mars would form in the atmosphere.
+Mass independent fractionation of sulfur isotopes in secondary minerals in martian meteorites confirms this hypothesis, as it indicates an atmospheric source for sulfur (Farquhar et al., 2000).
+Additionally, sulfates have been detected across the planet, which could be evidence for atmospheric deposition.
+Apart from salts directly measured in the soil, large mounds of hydrated sulfate have been detected from orbit (Bibring et al., 2006; Murchie et al., 2009a, 2009b).
+Atmospheric sources of the sulfate have been suggested for such sulfate-rich sedimentary deposits in Meridiani Planum (Niles and Michalski, 2009), Valles Marineris troughs, and Juventae Chasma (Catling et al., 2006).
+Nitrates on Earth and Mars
+In the terrestrial atmosphere, nitric acid (HNO3) can form by the reaction of NO2 with OH (Brasseur and Solomon, 2005).
+Deposition of HNO3 forms nitrates.
+Oxygen isotopes in nitrates from the Atacama Desert also indicate a stratospheric source, with Δ17O=14-21‰ (Michalski et al., 2004).
+While nitrates have not yet been definitively detected on the martian surface, they should naturally form through oxidation of atmospheric N and accumulate on the surface (Mancinelli, 1996).
+In photochemical models of the martian atmosphere, odd nitrogen (N and NO) forms in the thermosphere through photodissociation of N2, recombination of N2+ and NO+, the reaction of N2+ with O, and the reaction of O+(2P) with N2 (Krasnopolsky, 1993; Yung et al., 1977).
+N and NO then flow into the lower atmosphere (Krasnopolsky, 1993; Yung et al., 1977).
+These species can then be oxidized to NO2, which then can form nitric acid.
+Previous work showed possible detections of indigenous nitrate in martian meteorite EETA79001 and Nakhla (Grady et al., 1995).
+A more recent study of EETA79001 suggests a nitrate upper limit of ∼0.5wt.% in a sawdust sample that includes white-gray granular material known as "druse" (Kounaves et al., 2014).
+Nitrate also may have been detected in Gale Crater by the Mars Science Laboratory (Navarro-Gonzalez et al., 2013).
+However, the specific amount of nitrate in the soil remains largely unconstrained.Manning et al. (2008) have developed a steady-state model of nitrate decomposition and nitrogen escape in the martian atmosphere in an attempt to estimate the amount of nitrate in martian soil.
+They calculated a ∼3m-thick global equivalent layer of pure NaNO3on Mars.
+The actual inventory; however, is not known.
+Photochemical model
+To investigate chlorine, sulfur, and nitrogen chemistry in the martian atmosphere, we use a one-dimensional photochemical model derived from the model developed by Kasting (1979).
+The model has recently been modified to study chlorine, sulfur, and nitrogen chemistry in the modern terrestrial atmosphere (Catling et al., 2010) and hydrogen, carbon, and oxygen chemistry in the modern martian atmosphere (Zahnle et al., 2008).
+We combine the two models.
+As part of model development, we matched the calculated mixing ratios of H2O, CO, H2O2, and O2 to those in the modern martian atmosphere (following Zahnle et al., 2008) and then added chlorine and sulfur chemistry from Catling et al. (2010), as discussed in Section 3.1.
+The model uses a 1km vertical grid spacing and solves a time-dependent coupled transport-chemistry equation, as given in Catling et al. (2010).
+The model is stepped forward to steady-state using the reverse Euler method.
+Vertical transport occurs by eddy diffusion for all species, as well as molecular diffusion for H and H2.
+Following the model of Zahnle et al. (2008), atmospheric transport, temperature, and relative humidity are initialized as follows.
+The eddy diffusion coefficient K=106cm2s-1 for altitude z<20km, and K=106N(20km)/N(z)cm2s-1, where N is the atmospheric number density (moleculescm-3), for 20km<z<110km.
+The surface temperature, T0, is set to 211K.
+The atmospheric temperature follows a nominal profile of T=T0-1.4z for z<50km, and T is isothermal for z>50km.
+The relative humidity is set to 17% throughout the entire atmosphere, and the atmospheric composition is set to 95% CO2.
+The modern solar flux at Mars is applied at the top of the model grid.
+A test to evaluate the effect of the evolution of the solar flux on salt deposition fluxes over the Amazonian eon (3Gyr-present) showed negligible effect (see Section 5.2).
+Consequently, the nominal model assumes atmospheric Cl, S, and N chemistry is relatively insensitive to the evolving solar flux and uses the modern solar flux.
+Updates to the photochemical model from Catling et al. (2010) include the incorporation of the delta 2-stream radiative transfer formulation of Toon et al. (1989) and a modification to the Rayleigh scattering cross-section.
+The Rayleigh scattering cross-section is computed using the relative gas concentrations at each model height rather than assigning a global cross-section based on the ground level gas concentrations.
+These improvements in realism were made primarily for model atmosphere studies involving variable pressure (Misra et al., 2014).
+However, they make little difference to results in a thin atmosphere with well-mixed concentrations, such as modern Mars.
+Model chemistry
+The nominal chemistry includes gaseous species listed in Table 1 as well as two aerosols: H2SO4 (sulfate) aerosols and S8 (elemental sulfur) aerosols.
+We neglected nitrate aerosols because the model runs in conditions where the partial pressure of HNO3 is insufficient to exceed its saturation vapor pressure based information in Luo et al. (1995).
+The atmospheric chemistry allows for a version of the modern atmosphere, modified by volcanic fluxes, meant to simulate the atmosphere in the mid-Amazonian eon.
+Volcanic fluxes are discussed in Section 3.2.
+The 348 photochemical reactions include those used in Zahnle et al. (2008) and Catling et al. (2010), with the exception of reactions involving CH3Cl, which is produced biologically, and its photochemical products, CH2Cl, CH2ClO2, CH2ClO, and CHClO.
+All reaction rates were updated where new rates were available from Sander et al. (2011).
+For completeness, we also added one new chlorine reaction not included in Catling et al. (2010): Cl2O2+O3→ClO + ClOO+O2.
+But the upper limit of the rate constant, k=1×10-19cm3s-1, is slow (Atkinson et al., 2007), so the effect on overall chemistry is negligible.
+A background of 95% carbon dioxide allows for enhanced three-body reaction rates compared to terrestrial air (Lindner, 1988), so rate constants for three-body reactions measured in air are multiplied by a rate of 2.5 following Nair et al. (1994).
+Atmospheric formation of salt-precursors occurs through the injection of volcanic gases (discussed in Section 3.2) and subsequent reactions in the gas-phase.
+Formation of sulfuric acid in the gas-phase occurs by the following reactions (Seinfeld and Pandis, 2006):(5)SO2+OH+M→HOSO2+M(6)HOSO2+O2→HO2+SO3(7)SO3+H2O→H2SO4
+Gas to particle conversion occurs when the saturation vapor pressure of H2SO4 is exceeded.
+The H2O/H2SO4 ratio of the particles is self-consistently predicted.
+Further details of aerosol formation are given in Pavlov et al. (2001).
+S8 aerosols are formed when S2 polymerizes to form longer sulfur chains.
+Polymerization stops at the stable S8 ring-molecule, which is assumed to condense.
+S2 is formed by the reaction of HS and S, or, as discussed in Section 3.2, it is injected directly into the atmosphere through volcanism.
+However, the nominal model has an oxidizing atmosphere, so S8 is not the relevant fate for S2 molecules.
+Rather, S2 is oxidized to SO, which can be further oxidized to SO2 and H2SO4.
+This is consistent with previous work showing that in CO2 atmospheres with low sulfur input and high SO2/H2S, like the atmosphere modeled here, primary sulfur is converted to sulfuric acid more efficiently than it is converted to elemental sulfur (Hu et al., 2013).
+Gas-phase nitric acid is produced by a reaction analogous to Eq. (5):(8)NO2+OH+M→HNO3+M
+Likewise, gas phase pernitric acid is formed by reaction of HO2 and NO2:(9)HO2+NO2+M→HNO4+M
+Perchloric acid forms through reaction (2).
+We also developed a version of the model with bromine chemistry to test whether the effects of interactions between the bromine and chlorine cycles, including Eq.
+(3), are significant.
+The bromine-version of the model is discussed in Section 6.
+Volcanism and transport of species at the upper and lower boundaries
+In the model, chlorine and sulfur gases are emitted from volcanoes.
+These gases are the sources of Cl- and S-bearing gases.
+Evidence for volcanism in the Amazonian eon is abundant.
+Evidence includes lava flows dated by crater counts to be no older than 100myr old (Hartmann et al., 1999; Hartmann and Neukum, 2001) and basaltic meteorites that have crystallization ages of less than 1.3Gyr (Nyquist et al., 2001).
+The composition and emission rates for martian volcanic gases are poorly constrained, so we use nominal estimates from the literature and test the model for sensitivity to their variations.
+We assume a total emission rate that is ∼0.1% of the terrestrial volcanic emission rate used in Catling et al. (2010), which results in ∼106moleculescm-2s-1.
+This factor is consistent with the estimate that the eruption rate of volcanic rocks was ∼103 times lower than contemporary terrestrial emission rates at 1-2Ga (Jakosky and Shock, 1998), assuming that volcanic gas emission rates scale directly with volcanic rock eruption rates.
+We estimate the H-O-C-S composition of volcanic gases using the geochemical model results of Gaillard and Scaillet (2009).
+For HCl, which is not considered by Gaillard and Scaillet (2009), we take the terrestrial arc volcano HCl/SO2 ratio of 0.3 (Pyle and Mather, 2009) and multiply by a factor of 2.
+This factor of 2 is consistent with the chlorine enrichment observed on Mars (Wänke and Dreibus, 1994) and a Cl/La enrichment of ∼2.5 in martian meteorites compared to terrestrial basalts (Filiberto and Treiman, 2009).
+The emission rates of volcanic gases in the nominal model are shown in Table 2.
+S2 appears as the dominant sulfur gas because SO2 and S2 are favored over H2S at lower pressures (Gaillard and Scaillet, 2009).
+Gaillard and Scaillet (2009) model martian magma as relatively water-poor (0.2wt.%) with a mantle oxygen fugacity of QFM-2 (2 log units below the quartz-fayalite-magnetite redox buffer).
+These combined conditions favor S2 over SO2 (Gaillard and Scaillet, 2009).
+Emissions are distributed evenly between the middle of the second atmospheric layer, 1.5km, and 20km in the model (the troposphere and lower stratosphere).
+Most gases are removed from the atmosphere to the surface according to a prescribed deposition velocity.
+The deposition velocity is a scaling factor that affects the transport of species from the bulk atmosphere to the surface in the absence of rain.
+The deposition velocity is coupled to the gas concentrations computed by chemical kinetics.
+Following Zahnle et al. (2008), we apply a deposition velocity of 0.02cms-1 to all species, with two exceptions.
+First, the deposition velocities for O2, H2, and CO are set to zero (following Zahnle et al., 2008).
+Second, all species with a zero deposition velocity in Catling et al. (2010) are prescribed a zero deposition velocity because we consider them to be nonreactive.
+These species include NO3, N2O5, N2O, CH3O, CH3ONO, CH3ONO2, CH2ONO2, CH3O2, CH3OH, CH2OOH, Cl2, CH2OH, CH2O2, OClO, ClOO, ClONO, ClNO, ClNO2, CH3OCl, Cl2O2, Cl2O, ClO3, and Cl2O4.
+The deposition velocity multiplied by the species number density at the lower boundary, in addition to the flux term from eddy diffusion, determines the flux of species to the surface.
+The photochemical model simulates chemistry up to 110km, so upper boundary conditions, for certain species, must be applied to account for chemistry that takes place above the vertical bounds of the model.
+As mentioned previously, both N and NO precipitate into the neutral atmosphere from the ionosphere.
+The ionosphere is not explicitly modeled here, so the nominal input of odd-nitrogen at 110km is set to 2×106moleculesNcm-2s-1 and 2×107moleculesNOcm-2s-1 (Krasnopolsky, 1993).
+We vary these rates later to test model sensitivity.
+Additionally, following Zahnle et al. (2008), atomic oxygen is lost at the top of the model at a rate of 107moleculescm-2s-1.
+This rate is consistent with literature estimates (Fox and Hac, 1997; Lammer et al., 2003).
+Additionally, CO flows into the top of the model at a rate of 2×107moleculescm-2s-1 in order to maintain redox balance, and hydrogen escapes at the diffusion-limited rate (Zahnle et al., 2008).
+Methods
+We employ two groups of sensitivity tests to determine the effect of changing model parameters on the deposition rate of salt precursors.
+The purpose of the first group of tests (Section 4.1) is to quantify the sensitivity of perchloric acid, (per)nitric acid, and sulfate aerosol deposition to a subset of upper and lower boundary conditions.
+These include the solar flux; the input of Cl, N, and S atoms; and the deposition velocities of Cl and S atoms.
+We will use the results to calculate the possible range of integrated salt deposition fluxes over the Amazonian eon.
+The purpose of the second group of sensitivity tests (Section 4.2) is to figure out why the deposition rate of perchloric acid is different on Mars and Earth.
+Several atmospheric parameters differ significantly between Mars and Earth.
+We choose three parameters: surface temperature, pressure, and O2 mixing ratio, and vary them to see how each one affects the deposition rate of perchloric acid.
+Sensitivity tests: upper and lower boundary conditions
+We vary unconstrained boundary conditions, including volcanic emission rates, deposition velocities, and precipitation of odd nitrogen from above the model's upper boundary.
+But first we test the model's sensitivity to the solar flux at the top of the atmosphere.
+Sensitivity test #1: evolution of solar flux
+We apply a parameterization of the evolution of the solar flux (from Claire et al., 2012) to the nominal model to quantify changes in deposition fluxes over time.
+Sensitivity test #1: volcanic emissions
+We vary the total volcanic emission rate from ∼106moleculescm-2s-1 to ∼108moleculescm-2s-1, or in other words, 0.1-10% of the terrestrial volcanic flux used in Catling et al. (2010).
+Throughout this range, we also vary the HCl/SO2 from the nominal case of 0.6, up to 60.
+Sensitivity test #2: deposition velocities
+The deposition velocity used in the nominal model is not a measured value.
+Rather, it is best understood as a fitting parameter tuned to reproduce CO, O2, and H2 abundances on modern Mars, valid as a global average on a 105year time scale.
+Deposition velocities could have been different at other times and for other conditions.
+We complete two model simulations in which two key deposition velocities are changed.
+First, we set the deposition velocity of SO2, which competes with sulfate aerosol deposition, to zero.
+Second, we set the deposition velocity of HCl, which competes with HClO4 deposition, to zero.
+Sensitivity test #3: input of odd nitrogen
+Nitrogen input from the upper atmosphere almost entirely controls the rate of nitrate deposition to the surface.
+At the upper boundary of the model, we vary the odd nitrogen (N and NO) input from the ionosphere because the fluxes we assume in the nominal model are uncertain (Krasnopolsky, 1993).
+We simulate the atmosphere under the following fluxes (in moleculescm-2s-1): NO=2.0×107 and N=2.0×106; NO=2×104 and N=2×103; NO=2×103 and N=2×102; and NO=2×102 and N=20.
+Sensitivity tests: temperature, pressure, and oxygen mixing ratio
+We vary the atmospheric pressure, temperature, and O2 mixing ratio to understand how these three parameters affect the deposition rate of perchloric acid.
+Specifically, we want to answer the question: How does the different atmospheric state on Mars and Earth affect the perchloric acid deposition flux on each planet?
+We start from the nominal model for Mars and then shift each parameter, separately, to more Earth-like values.
+From here, we can see how the perchloric acid deposition flux either approaches or diverges from the calculated perchloric acid deposition flux on Earth of ∼105moleculescm-2s-1 (Catling et al., 2010).
+These tests are not meant to represent physically plausible scenarios.
+For example, temperature and pressure are varied independently, and the O2 mixing ratio is increased.
+This latter change implicitly assumes there is a source of O2 at the surface.
+Therefore, our interpretations are qualitative.
+Sensitivity test #4: temperature
+Atmospheric temperatures affect photochemical rate constants and atmospheric water vapor content.
+These, in turn, affect the chain of reaction rates that lead to the oxidation of Cl to form HClO4.
+To pinpoint how atmospheric temperatures alter reaction rates, we shift the nominal Mars temperature profile to higher surface temperatures.
+The shape of the profile is preserved, but the surface temperature is increased from 211K to 284K (a temperature increase of ∼35%), with the latter temperature being more representative of surface temperatures on Earth.
+Sensitivity test #5: surface pressure
+Photochemical reaction rates are density-dependent; therefore, we vary the surface pressure from the nominal value of 6.3mb to 35mb.
+This pressure is as high as the surface pressure can be taken without the model entering a CO-runaway as described in Zahnle et al. (2008).
+Sensitivity test #6: oxygen concentration
+The formation rate of perchloric acid in Eq.
+(2) is dependent upon the atmospheric abundances of Cl and O3, in addition to the rate constant.
+In Section 4.1.2, we described a test to determine the sensitivity of perchloric acid formation to Cl volcanic input, so for the last sensitivity test, we vary the O2 mixing ratio to determine sensitivity to the abundance of O2 and its photochemical product, O3.
+In the nominal model, the O2 mixing ratio is calculated as model output; however for this test, the O2 mixing ratio is fixed as model input.
+While holding the surface pressure constant, the O2 mixing ratio is increased by a factor of ten starting from its value in the nominal model, 1.6×10-3.
+Results
+Photochemical products of CO2 and H2O dominate the nominal model atmosphere.
+The volcanic input is low, and therefore the atmosphere remains highly oxidizing.
+The net redox imbalance of the atmosphere, pOx=2pO2-pCO-pH2, is 15μbar (as defined in Zahnle et al., 2008).
+Dominant chlorine, sulfur, and nitrogen gases are HCl, SO2, and NO, respectively.
+The mixing ratio profiles are plotted in Fig. 1.
+Additionally, the production profiles of salt precursors are plotted in Fig. 2.
+HNO3, HNO4, and sulfate aerosol (SO4 AER) production primarily occurs close to the surface, while HClO4 production primarily occurs aloft where the O3 abundance is highest.
+Below we describe results from the sensitivity tests to assess the role of variables in salt formation and deposition on Mars.
+Deposition fluxes in the nominal Mars model
+The deposition fluxes of perchloric acid, sulfate aerosols, nitric acid, and pernitric acid in the nominal Mars model are listed in Table 3.
+We assume that salts form from the acids upon deposition to the surface.
+We next make several assumptions to calculate the concentration of salts that have accumulated in the soil during the Amazonian eon.
+We first assume that perchloric acid, sulfate aerosols, nitric acid and pernitric acid have accumulated at a uniform rate.
+This assumption is valid because the lack of aqueous minerals and very low weathering rates tell us the Amazonian eon on Mars has been characterized by a climate and atmosphere not greatly different from today (Bibring et al., 2006).
+We next assume a range of soil mixing depths so that salts are distributed throughout the soil column.
+According to Zent (1998), small post-Noachian impactors have churned the soil on Mars to a 1/e mixing depth of 0.51-0.85m.
+Taking three e-folding depths, the range would be 1.5-2.6m depth, with a mean ∼2m.
+The last assumption we make is that the soil density is 1gcm-3 (Moore and Jakosky, 1989).
+Using these assumptions, we calculate the concentrations of anions in the soil for the nominal model and report them in Table 4.
+These anions must be combined into salts.
+For perchlorate, the salts may be Mg(ClO4)2 or Ca(ClO4)2 as discussed earlier.
+The dominant nitrogen-bearing salt is unknown.
+The sulfate deposition flux produced in the nominal model is compatible with estimates of the amount of sulfates on Mars.
+The nominal range (1.0-1.7wt.% SO4) is consistent with 1.3wt.% soluble sulfate measured at the Phoenix landing site (Kounaves et al., 2010b).
+The estimates also compare well with an average ∼6.8wt.% sulfur as SO3 (2.7wt.% S) in global soil inferred from elemental abundances measured at various locations on Mars by Spirit, Opportunity, Pathfinder, and Viking Landers.
+We can also compare the average sulfur content in the top few tens of centimeters of the soil of ∼4.4wt.% inferred from Gamma Ray Spectrometer measurements (King and McLennan, 2010).
+The agreement between model results and data suggest that 0.1% of the terrestrial volcanic gas flux is a good estimate for the volcanic emission rate on Mars 1-2Ga if soil salts derive from volcanic input.
+Deposition of pernitric acid, HO2NO2 or HNO4, exceeds deposition of nitric acid, HNO3, contrary to the case on Earth.
+Production of HNO4 is enhanced at lower temperatures because the rate constant of Eq.
+(9) is inversely related to temperature.
+The same is true for the rate constant of Eq.
+(8), but the HNO3 abundance is depressed at lower temperatures due to the lower abundance of OH.
+OH is produced by the photolysis of water vapor and the reaction of H2O with O(1D), but the water vapor abundance is lower at lower temperatures.
+Implications of enhanced deposition of HNO4 on Mars, compared with Earth, will be discussed in a separate paper about N deposition on Mars (Catling et al., in preparation).
+There is no confirmed nitrate on Mars, so we compare the results to an estimate of N on Mars.
+The integrated deposition flux of HNO4 in the model corresponds to an evenly-distributed global layer of NO4 with a mass of 4.3×1018g, which is far smaller than the NO3 mass of 7.2±3.6 (×1020) calculated by Manning et al. (2008).
+If the concentration of N predicted here are correct, then they could be below the detection limit for near-infrared orbital instruments, which may explain why nitrates have not yet been observed.
+The model-inferred abundances of perchlorate are far smaller than observations, however.
+If we assume the soil is mixed to an average depth of 2m and the parent salt is Ca(ClO4)2 or Mg(ClO4)2, then we calculate concentrations of 4.3×10-8wt.% and 4.0×10-10wt.%, respectively.
+These concentrations are both many orders of magnitude lower than the observed abundance at the Phoenix landing site: 0.4-0.6wt.% (Hecht et al., 2009).
+Also, the concentrations are far below what would be inferred from observations of perchlorate:nitrate ratios ∼1:60 measured in EETA79001 (Kounaves et al., 2014) and the Atacama perchlorate:nitrate of ∼1:1000.
+Distinct from the results for Earth where gas phase reactions were sufficient to reproduce data (Catling et al., 2010), we conclude that additional heterogeneous reactions must be present to account for the efficient formation of perchlorate on Mars, a hypothesis we discuss further in Section 7.
+But first we explore the sensitivity of deposition fluxes to model parameters.
+Sensitivity of salt deposition to solar flux evolution
+The effect of an evolving solar flux from Claire et al. (2012) on the salt deposition fluxes was negligible (Fig. 3).
+Consequently, we set the solar flux to be the modern solar flux for the rest of the simulations.
+Sensitivity of salt deposition fluxes to volcanic input
+We next calculated the perchlorate, sulfate, and nitrate deposition fluxes on Mars as a function of volcanic input.
+The total volcanic emission rate was increased from the nominal case (∼106moleculescm-2s-1) to one hundred times this value to reflect possible higher rates of volcanism on Mars in the past.
+At the same time, we tested the effect of increasing the HCl/SO2 ratio, given that the value is uncertain.
+We completed two simulations, one with HCl/SO2=0.6, and another with HCl/SO2=60.
+The deposition fluxes of sulfate aerosols and perchloric acid are both sensitive to volcanic input (Fig. 4).
+However, at the highest level of volcanic input, the deposition fluxes of both species are incompatible with observations.
+First, we consider the largest deposition flux of sulfate aerosols.
+This value occurs at a volcanic input of 100 times the nominal value.
+We use the same range of mixing depths as we did in the previous section (1.5-2.6m) to calculate a concentration of 100-173wt.% sulfate in the soil.
+This range is incompatible with observations of sulfur on Mars described in Section 5.1, and values greater than 100wt.% indicate that sulfate deposition is unrealistically high when the mixing depth is restricted to 1.5m.
+Second, we consider the largest deposition flux of perchloric acid.
+This value occurs at a volcanic input of 100 times the nominal value and the HCl/SO2 emission flux ratio of 60.
+Once again, we use a range of mixing depths of 1.5-2.6m to calculate the concentration of ClO4- in the soil.
+The range is 6.1×10-6-1.0×10-5wt.% ClO4-, which again is incompatible with the measurement of ∼0.5wt.% ClO4- made by the Phoenix Lander (Hecht et al., 2009).
+Sensitivity of pernitrate and nitrate deposition flux to odd nitrogen input
+As stated previously, there is considerable uncertainty in the input rate of odd nitrogen (N and NO) species from the martian ionosphere to the neutral atmosphere (Krasnopolsky, 1993).
+In his own model of the neutral atmosphere, Krasnopolsky considers cases both with and without input of odd nitrogen from the upper atmosphere (Krasnopolsky, 1993).
+We vary the input of N and NO into the model, using the nominal case as an upper limit.
+As these values are decreased, the pernitrate deposition flux drops, which is shown in Fig. 5.
+The lowest input of odd nitrogen corresponds to 3.5-6.1 (×10-4)wt.% N accumulated over 3byr and mixed into 1.5-2.6m of soil.
+Sensitivity of salt deposition flux to deposition velocities
+Perchloric acid and sulfate aerosols are minor sinks of chlorine and sulfur in the nominal model (Table 5).
+To calculate upper limits on the deposition of sulfate aerosols and HClO4, we separately turned off the deposition velocity of its main competitors.
+First we set the deposition velocity of SO2 to zero, and then we set the deposition velocity of HCl to zero.
+The modified sinks of chlorine and sulfur are listed in Table 6.
+When the SO2 deposition velocity is zero, ∼98% of the input sulfur exits the atmosphere as sulfate aerosols.
+We repeat the calculation from Section 5.1 and find that this corresponds to 2.9-5.0wt.% SO4 accumulated over 3byr mixed into 1.5-2.6m of soil.
+When the HCl deposition velocity is zero, the major surface sink of chlorine is HOCl.
+HClO4 deposition increases by about four orders of magnitude from the nominal model.
+This flux corresponds to 6.9×10-5-1.2×10-4wt.% ClO4- accumulated over 3byr mixed into 1.5-2.6m of soil.
+Temperature
+To semi-quantitatively assess the sensitivity of the deposition fluxes of salts to temperature, we forced the model temperature profile to higher values by increasing the temperature profile by 35% in 5% increments.
+Warmer temperatures significantly increase the formation of perchloric acid.
+Over the range tested, the deposition rate of perchloric acid increases by around six orders of magnitude.
+As the atmospheric temperature increases, the chemistry begins to favor the deposition of HClO4 over HCl.
+At higher temperatures, there is more H2O in the atmosphere, which is set by the atmospheric temperature.
+More water vapor decreases CO and increases OH, while O2 concentrations are relatively insensitive to H2O abundance (Zahnle et al., 2008).
+OH reacts with ClO3, through Eq.
+(2), to produce HClO4.
+HCl production increases at warmer temperatures because of increased amounts of HO2 (O+OH→H+O2 makes O2, H+O2+M→HO2+M makes HO2, and HO2+Cl→HCl+O2 makes HCl).
+However, the destruction of HCl through HCl+OH→Cl+H2O also increases; hence the chemistry favors HClO4 deposition over HCl deposition.
+This is shown in Fig. 6.
+Pressure
+Increasing the surface pressure from 6.3mb to 35mb decreases the deposition rate of atmospheric perchlorate from 4.6×10-3 to 7×10-5moleculescm-2s-1.
+We did not continue to increase the surface pressure up to Earth-like pressures because a build-up of CO causes the atmosphere to become progressively more reduced, which only further decreases the formation of oxidized salt-precursors.
+In thicker CO2 atmospheres, the significance of H2O vapor photolysis is reduced, and the OH mixing ratio decreases.
+This, in turn, reduces the oxidation of CO via CO+OH→H+CO2 and the production of O2 via O+OH→H+O2.
+As a consequence, the redox state of a more dense atmosphere becomes more reducing because the reducing gas CO is favored over the oxidizing gas O2.
+This behavior was also recognized, and is detailed further, in Zahnle et al. (2008).
+A more reduced atmosphere is less amenable to perchloric acid production (Fig. 7).
+Chemistry: oxygen concentration
+Changing the chemical composition of the atmosphere affects the perchlorate production and deposition rate.
+A lower concentration of atmospheric ozone on Mars compared with Earth inhibits the production of perchloric acid.
+As shown in Fig. 8, increasing the O2 mixing ratio from the level in the nominal model, while holding the total atmospheric pressure constant, causes a significant increase in the O3 column density.
+This, in turn, causes the perchlorate deposition flux to increase by around four orders of magnitude.
+While a larger O2 mixing ratio may not represent a specific past time on Mars, the results demonstrate that lower O2 and O3 concentrations limit the production of HClO4 in the nominal model.
+For comparison, on Earth, a typical O3 column density is ∼8×1018moleculesO3cm-2.
+Bromine chemistry
+In one simulation, we included volcanogenic bromine, in the form of HBr.
+Bromine interacts with chlorine cycles through Eq.
+(3) and various other reactions.
+The addition of gas phase bromine chemistry makes the model more complete and introduces known chemistry that may affect formation of perchloric acid.
+Adding bromine chemistry involved a number of steps.
+First we added bromine chemistry (see Appendix A) to the model of Catling et al. (2010) for the terrestrial atmosphere.
+The model was validated against data, further details of which are given in Appendix A.
+After validation, we then added inorganic bromine chemistry to the nominal Mars model.
+The terrestrial arc volcano HCl/HBr emission flux ratio of ∼103 (Pyle and Mather, 2009) was applied, and two more cases with HCl/HBr=100 and HCl/HBr=10 were run, to determine if more HBr affected HClO4 production.
+We note, again, that recent work indicates bromine gas may have been released to the atmosphere by volatilization of soil-derived bromine (Karunatillake et al., 2013), but the flux is not quantified, so we do not consider this source here.
+When we include inorganic bromine chemistry, the effect on the deposition flux of perchloric acid is negligible.
+This is because Eqs.
+(3) and (4) occur at slower rates than other reactions, involving species from the nominal model, that form OClO and ClO3 (Table 7).
+Discussion
+The model results show that atmospheric dry deposition can plausibly explain typical abundances of a several wt.% sulfate observed in soils on Mars.
+The model also predicts nitrogen amounts, as nitrates or pernitrates, at levels on the order of 0.1wt.%, assuming these species do not react or decompose.
+Perchlorate is formed very slowly through the gas phase atmospheric chemistry that is modeled here.
+For the nominal case, we calculate a ClO4- concentration of 2.8-4.8 (×10-8)wt.%, which is a factor of 107 less than the measurement made by the WCL instrument on the Phoenix Lander (Hecht et al., 2009).
+With regard to perchlorate, the sensitivity tests revealed that changing the model boundary conditions did not increase perchloric acid deposition rates substantially.
+The inclusion of bromine gas phase photochemistry has negligible effect on perchlorate fluxes.
+Sensitivity tests revealed two primary causes of the lower perchlorate fluxes from gas phase reactions on Mars relative to Earth: lower amounts of ozone and colder, drier air.
+The much smaller amounts of ozone in the martian atmosphere compared to the terrestrial atmosphere (Fig. 8) are important because ozone is critical for the gas phase formation reactions of precursors to perchloric acid, Eqs.
+(1) and (4).
+In addition, the colder and drier air results in a smaller concentration of OH radicals needed in the three-body reaction to make perchloric acid, Eq. (2).
+The purpose of the sensitivity tests was not to model a physically plausible environment on Mars; however, the tests revealed that no one factor could perturb the nominal model to produce amounts of perchlorate that approach the amount measured by the Phoenix Lander.
+A combination of such factors, including reduced odd nitrogen fluxes, higher oxygen mixing ratios, and increased temperatures may have worked in concert to produce larger perchlorate:nitrate ratios.
+Specifically, if odd nitrogen downward fluxes and oxygen escape rates are smaller than currently thought, nitrate fluxes would drop while perchlorate fluxes would increase.
+In conjunction, as the surface temperature warms toward 280K (as it does in the current equatorial summer) local perchlorate production fluxes could increase further.
+While it is possible to tweak the photochemical model into this mode, it is difficult to imagine a self-consistent scenario where all of these processes are working in concert to create high perchlorate:nitrate and perchlorate:chloride ratios on Mars, so we favor an additional source for perchlorate.
+We suggest that gas-solid reactions are probably critical for enhancing the transformation of chlorides to perchlorate on Mars.
+Many important reactions in terrestrial atmospheric chemistry are heterogeneous.
+The most famous example is that the Antarctic ozone hole could not be explained until models incorporated the heterogeneous chlorine chemistry that occurs on very cold particles (Solomon, 1999).
+Another possibility is that perchlorate was formed in the past by heterogeneous reactions on atmospheric sulfate aerosols.
+Small amounts of HClO4 have been produced in the laboratory by reactions of ClO with H2SO4 aerosols (Martin et al., 1979).
+Jaegle et al. (1996) modeled the formation of HClO4, assuming a 40% yield from the reaction of ClO on the surface on sulfate aerosols.
+The authors concluded that, on Earth, over 50% (2ppbv) of stratospheric inorganic chlorine could be sequestered into HClO4 when significant amounts of sulfate aerosols are present.
+However, subsequent work questioned the result and found insignificant uptake of ClO on sulfuric acid (Abbatt, 1996).
+Nonetheless, other heterogeneous reactions involving oxidizing radicals might be possible by analogy with ongoing research to understand the terrestrial atmosphere (George and Abbatt, 2010).
+Improving model accuracy
+Finally, we note that the accuracy of the photochemical model used here could be improved with new data.
+NASA's MAVEN (Mars Atmosphere and Volatile EvolutioN) mission will characterize the upper atmosphere of the planet, which will include measurements of neutral species and thermal ions.
+These data will be useful in constraining the odd-nitrogen flux into the neutral atmosphere, the loss of O from the neutral atmosphere, and the escape rate of hydrogen (Jakosky and MAVEN Science Team, 2011), all of which are adjustable parameters in the model.
+Conclusions
+We used a 1-dimensional photochemical model to calculate the atmospheric production and deposition rate of sulfate, nitrate and perchlorate salts in the Amazonian martian atmosphere.
+The results suggest the following conclusions:•
+Sulfate production through gas to particle conversion in the atmosphere is a viable means to account for the measured concentration of sulfates on the martian surface.
+•
+Nitrogen is continuously dry-deposited from the atmosphere of Mars even today mainly as pernitric acid.
+During the Amazonian, 4.3×1018g NO4 could have been deposited across the martian surface if all of the nitrate is formed through atmospheric photochemistry and persists without decomposition or any further reactions.
+This corresponds to a concentration of 0.3wt.% N if it is mixed uniformly to a depth of 2m.
+This prediction can be confirmed or disproved by future in situ measurements.
+•
+The production of perchlorate via the gas phase formation process first modeled by Catling et al. (2010) for the driest regions of Earth's atmosphere is insufficient to account for 0.4-0.6wt.% ClO4- measured by NASA's Phoenix Lander.
+Low atmospheric temperatures and a small inventory of oxygen and ozone limit the gas phase production rate of perchlorate.
+Consequently, purely gas phase reactions do not appear to explain high perchlorate:chloride ratios in martian soil.
+Instead, the efficient conversion of chloride to perchlorate may rely on heterogeneous reactions, i.e., gas-solid surface reactions.
+The limitation of gas phase reactions may be analogous to problems encountered in terrestrial atmospheric chemistry, such as the 'ozone hole' issue.
+Further theoretical and laboratory research into perchlorate production mechanisms under martian conditions is warranted.
+Acknowledgments
+This work was supported by NASA's Mars Fundamental Research Program through Grant NNX10AN67G awarded to DCC.
+KJZ also acknowledges support from Mars Fundamental Research Program.
+MLS acknowledges support from a National Science Foundation Integrative Graduate Education and Research Traineeship, under NSF-IGERT Grant DGE-9870713, Astrobiology: Life in and beyond Earth's Solar System.
+MWC acknowledges support from a 2011 NAI Director's Discretionary Fund award titled "Perchlorate, Water, and Life", along with a NASA postdoctoral program award to work at the Virtual Planetary Laboratory.
+MLS thanks Jim Kasting for helpful discussions about using the photochemical model.
+We also thank two anonymous reviewers for improving the scientific content and clarity of the paper.
+Bromine chemistry in an Earth photochemical model
+There are many models for bromine chemistry in the troposphere and stratosphere, ranging from 3-D chemical transport models (e.g. von Glasow and Crutzen, 2006), to box models of the marine boundary layer (e.g. Sander and Crutzen, 1996), to 3-D stratospheric models (e.g. Hossaini et al., 2012).
+One-dimensional models (Singh and Kasting, 1988; Yung et al., 1980) are able to match observed profiles of the most abundant bromine species.
+Before we added bromine chemistry to the nominal Mars model, we added the chemistry to the terrestrial model of Catling et al. (2010).
+Bromine reactions are listed in Table A.1.
+Volcanic emission of HBr, release of bromine from sea salt aerosols, and emission of CH3Br from marine phytoplankton are all sources of atmospheric bromine on Earth (e.g. Lovelock, 1975).
+Other sources of bromine, including anthropogenic and additional biological emissions, were not considered here because the sources are poorly constrained (von Glasow and Crutzen, 2006) and unlikely to apply for Mars.
+We applied the terrestrial arc volcano HCl/HBr ratio of ∼103 to the terrestrial volcanic emissions (Pyle and Mather, 2009).
+The HCl volcanic flux was set to 5×108moleculescm-2s-1 and the HBr volcanic flux was set to 5×105moleculescm-2s-1.
+Bromine, in the form of BrCl and Br2, is released from sea salt aerosols at a rate of 1-10×1011gBryr-1 (von Glasow and Crutzen, 2006).
+We took a rate of 5×1011gyr-1 and assumed all bromine is released as Br2.
+For the third and last source of bromine, we assumed a CH3Br surface mixing ratio of 20pptv (Yung et al., 1980).
+This value may be too high, compared with the nominal background concentration of CH3Br in the troposphere ∼10pptv (Quack and Wallace, 2003).
+However, because we ignored other organic bromine sources, our assumption is justifiable.
+The deposition velocities of bromine species were assumed to be equivalent to their chlorine counterparts, e.g., Br was given the same deposition velocity as Cl and HBr was given the same deposition velocity as HCl (Catling et al., 2010).
+To validate the terrestrial model with bromine we compared satellite and in situ measurements of bromine species.
+We compared measurements of four bromine species, BrO, BrONO2, HOBr, and HBr, with output from the 1-D model.
+The model-derived BrO mixing ratio profile was compared with two separate measured profiles of BrO.
+The first set of measurements was made with balloon-borne Differential Optical Absorption Spectroscopy (Dorf et al., 2008).
+The balloon payload was launched at Teresina, Brazil (5.1°S, 42.9°W) on 17 June 2005 (Dorf et al., 2008).
+The second set of measurements was taken by the Scanning Imaging Absorption Spectrometer for Atmospheric Chartography (SCIAMACHY) instrument aboard the European Envisat satellite (Sioris et al., 2006).
+SCIAMACHY data plotted in Fig.
+A.1 are from both low latitudes, 20-30°S, and high midlatitudes, 36-60°S, and correspond to early March 2003.
+The data and model results compare relatively well, but it is clear that the modeled BrO concentrations are slightly lower than the observations (Fig.
+A.1a).
+This could be the result of several factors.
+First, as noted previously, we have neglected some sources of organic and anthropogenic bromine.
+Second, the model did not include heterogeneous chemistry.
+In the model of von Glasow and Crutzen (2004), when only gas phase chemistry was considered, cycling of HOBr, HBr, and BrONO2 was slower than when heterogeneous chemistry was included, and as a result the BrO concentrations were systematically lower than they should have been.
+We next compared the model output with measurements of BrONO2, HOBr, and HBr.
+Measurements of BrONO2 were taken by the Michelson Interferometer for Passive Atmospheric Sounding aboard the European Envisat Satellite (Hopfner et al., 2009).
+The measurements, both day and night, were taken in September 2003, across 40°S to 15°S.
+The model accurately captured a diurnal average of BrONO2, within the limits of uncertainty (Fig.
+A.1b).
+Measurements of HOBr (Fig.
+A.1c) and HBr (Fig.
+A.1d) were from a far-infrared spectrometer aboard a balloon platform (Johnson et al., 1995).
+The data reported in Fig.
+A.1 are averages from several flights taken in 1988-1990.
+There are only slight differences between the model results and observations, leading us to conclude that the calculation of bromine speciation is accurately captured by the addition of bromine reactions to the model of Catling et al. (2010).
+

@@ -1,0 +1,97 @@
+NaFe0.5Co0.5O2 as high energy and power positive electrode for Na-ion batteries
+
+Abstract
+O3-type NaFeO2 is a promising candidate as positive electrode materials for rechargeable Na batteries.
+However, its reversible range of sodium extraction is relatively narrow (x=ca.
+0.4 in Na1-xFeO2) because of the irreversible structural change, presumably associated with the iron migration into the adjacent tetrahedral sites in Na layers as we recently reported.
+Herein, we report that cobalt-substituted NaFeO2 demonstrates excellent electrode performance in a non-aqueous Na cell at room temperature.
+NaFe0.5Co0.5O2 delivers approximately 160mAhg-1 of reversible capacity with relatively good capacity retention and excellent rate-capability in a voltage range of 2.5-4.0V, resulting in reversible formation of Na0.3Fe0.5Co0.5O2.
+The partial substitution of metal element for Fe in O3-type NaFeO2-based materials is proved to be the important strategy to suppress the irreversible phase transition, and thus improving the reversibility of sodium removal/insertion as the electrode materials.
+Highlights
+•
+Synthesis and characterizations of layered NaFe0.5Co0.5O2.
+•
+Its electrode performance in Na cell was compared with those of NaFeO2 and NaCoO2.
+•
+NaxFe0.5Co0.5O2 is one of the highest power positive electrodes among layered oxides.
+
+Introduction
+Research interests in rechargeable Na(-ion) batteries operable at room temperature are renewed as a promising system for large-scale energy storage devices in 2010s [1-3].
+Layered NaxMeO2 (Me=metal(s)) materials have been intensively studied as electrode materials for the batteries.
+On the basis of the material abundance in the Earth's crust, layered (alpha-type) NaFeO2, of which layer structure is also classified as "O3-type" following the Delmas' notation [4], is of the most interest from a perspective on both gravimetric and volumetric specific capacity as positive electrode materials for the Na batteries.
+Indeed, as reported by Okada and coworkers, layered NaFeO2 is electrochemically active as Na intercalation host [5], whereas a lithium counterpart, layered LiFeO2, is known to be electrochemically inactive [6].
+A Na//NaFeO2 cell shows a flat operating voltage profile at 3.3V vs. Na metal associated with Fe3+/Fe4+ redox [5].
+Recently, we revisited the layered NaFeO2 system and a systematic study was conducted to examine the electrode performance by changing the cut-off voltage in Na cells [7].
+When the cut-off voltage is limited to 3.4V in the sodium cells, NaFeO2 shows relatively good capacity retention with 80mAhg-1 of reversible capacity.
+The electrode reversibility is, however, significantly deteriorated by extending higher voltage above 3.5V.
+Ex-situ X-ray diffraction (XRD) study revealed an irreversible structure transition, presumably associated with partial migration of iron into adjacent and vacant tetrahedral sites created in Na layer by Na extraction, and thus the loss of Na conduction path.
+This result is also consistent with a recent publication of first principle calculation in a series of sodium layered oxides [8].
+It has been suggested that the iron migration was energetically possible after the 50% of sodium extraction.
+In this paper, we report synthesis and remarkable electrode performance of highly-dense NaFe0.5Co0.5O2 powder, as O3-type NaFeO2-based positive electrode materials for the application of rechargeable Na-ion batteries.
+The finding shown in this article will further extend and accelerate the development of NaFeO2-based electrode materials for Na-ion batteries.
+We demonstrate that the iron migration in O3-NaFeO2 is effectively suppressed by metal substitution for iron, therefore, sodium insertion/extraction reversibility and capacity of O3-type NaFe0.5Co0.5O2 are surprisingly higher than those of NaCoO2 and NaFeO2 with enhanced capacity retention and rate capability.
+Experimental
+NaFe0.5Co0.5O2 was prepared by heat-treatment of a mixture of Na2CO3, Fe3O4, and Co3O4.
+The mixture was heated at 900°C for 12h in air.
+The sample was taken out from the furnace without cooling process inside the furnace, and then immediately transferred into an argon-filled glove box.
+The sample cooled to room temperature in the glove box and was kept inside to avoid the contact with moisture in air.
+A synchrotron X-ray diffraction pattern of as-prepared NaFe0.5Co0.5O2 was collected at beam line BL02B2, SPring-8 in Japan, equipped with a large Debye-Scherrer camera [9].
+The wavelength of incident X-ray beam was set to 0.5Å using a silicon monochromator, which was calibrated to 0.501Å with a CeO2 standard.
+Structural analysis by the Rietveld method was carried out using RIETAN-FP [10].
+The morphological features of the sample were observed by using a field emission scanning electron microscope (SUPRA40, Carl Zeiss AG).
+Coin-type cells (R2032 type) were assembled to evaluate the electrode performance of NaFe1-yCoyO2.
+Positive electrodes consisted of 80wt.% prepared materials, 10wt.% acetylene black, and 10wt.% poly(vinylidene fluoride), which were mixed with N-methylpyrrolidone and pasted on Al foil, and then dried at 80°C in vacuum.
+Metallic sodium disk is used as a negative electrode.
+Electrolyte solution used was 1.0moldm-3 NaClO4 dissolved in propylene carbonate (Kishida Chemical Co., Japan) with 2vol.% of fluoroethylene carbonate (FEC) as an electrolyte additive [1].
+A glass fiber filter (GB-100R, ADVANTEC Co.) was used as a separator.
+Results and discussion
+Fig. 1 shows a result of Rietveld analysis on a synchrotron X-ray diffraction (SXRD) pattern.
+A schematic illustration of structure model and SEM images of as-prepared NaFe0.5Co0.5O2 are also shown in Fig. 1.
+All of Bragg diffraction lines are nicely refined to the O3-type layered oxide (S.G.: R-3m) without any diffraction lines from impurity phases.
+The refined structural parameters are summarized in Table 1.
+Both Rwp and RB factors, which are the criteria of fit, are reasonably small, indicating that the O3-type layered phase is the appropriate structural model for NaFe0.5Co0.5O2.
+Transition metals (Fe/Co) and Na are accommodated at the two distinct octahedral sites (3a and 3b sites, respectively) in the distorted cubic-close-packed oxygen array.
+Interatomic distances of (Fe/Co)-O and Na-O were calculated to be 1.99 and 2.36Å on average, respectively.
+These values are consistent with the estimated values from the Shannon's ionic radii; 1.995Å as the average between high-spin Fe3+-O (2.045Å) and low-spin Co3+-O (1.945Å), and 2.42Å for Na-O at the octahedral environment, indicating that NaFe0.5Co0.5O2 is a member of solid solution between O3-NaFeO2 and O3-NaCoO2.
+From SEM image in Fig. 1, the primary particle size of NaFe0.5Co0.5O2 is found to be ~5μm with highly dense morphology which is beneficial to make composite electrode with high density.
+Initial charge/discharge curves of a Na//NaFe0.5Co0.5O2 cell are shown in Fig. 2a with NaFeO2 and NaCoO2 for comparison.
+When cut-off voltage is limited to 3.5V, NaFeO2 electrode shows approximately 100mAhg-1 of reversible capacity with nearly 3.3V flat voltage profile.
+Detrimental structural damage of alpha-NaFeO2 structure, presumably because of the irreversible Fe migration into Na layer, restricts the reversibility of NaFeO2 by charge above 3.5V [7].
+In contrast, NaCoO2 shows >140mAhg-1 of discharge capacity in the voltage range between 2.5 and 4.0V with step-wise voltage profile which is attributed to multiple and reversible phase transitions associated with CoO2 slab gliding and in-plane vacancy-Na ordering [11].
+Although NaFe0.5Co0.5O2 is regarded as an intermediate solid solution between NaFeO2 and NaCoO2, NaFe0.5Co0.5O2 surprisingly delivers highest reversible capacity of about 160mAhg-1 among the three samples.
+It is noted that average operating voltage of NaFe0.5Co0.5O2 (3.14V) in Na cell is higher than 2.96V for NaCoO2.
+NaFe0.5Co0.5O2 and NaCoO2 show relatively good capacity retention as shown in Fig. 2b.
+Discharge capacity is, however, reduced to approximately 85% after the fifty-cycle test.
+The loss of reversible capacity is expected to be the degradation of electrolyte solution, especially in relation to the non-passivated surface of metallic sodium as a counter electrode [1].
+In NaFe1-yCoyO2 system, large initial capacity of approximately 160mAhg-1 is observed for NaFe0.4Co0.6O2 and NaFe0.6Co0.4O2 similar to NaFe0.5Co0.5O2.
+However, it is found that NaFe0.5Co0.5O2 and NaFe0.4Co0.6O2 shows better capacity retention than NaFe0.6Co0.4O2.
+Therefore, NaFe0.5Co0.5O2 is expected to be the optimum composition in the NaFe1-yCoyO2 system.
+Rate capability of the Na//NaFe0.5Co0.5O2 cell at rates of C/20 (12.1mAg-1)-30C (7.23Ag-1) is examined as shown in Fig. 3.
+The C-rate is defined based on theoretical capacity calculated from (Fe,Co)3+/4+ redox, which is equal to 241mAhg-1.
+The cell delivers large reversible capacity (>90% of C/20 rate) with small polarization even at 1C rate (241mAg-1).
+It is noteworthy to emphasize that the micrometer-sized NaFe0.5Co0.5O2 delivers >100mAhg-1 of discharge capacity even at 30C rate (7.23Ag-1).
+According to our knowledge, NaxFe0.5Co0.5O2 is one of the highest power positive electrode materials among layered NaxMeO2 materials [3,12-14].
+Clearly, the rate-capability is highly improved compared with both NaFeO2 (Fig. 3a) and NaCoO2 (Fig. 3c).
+The rate capability of NaFe0.5Co0.5O2 is surprisingly much better than that of NaCoO2.
+From a stepwise voltage profile observed for NaxCoO2, limited rate capability is expected because of the phase boundary movement for two-phase regions and the tendency to Na/vacancy ordering (presumably coupled with charge ordering).
+Although some voltage plateaus are still observed for NaFe0.5Co0.5O2, our in-situ XRD study revealed that a two phase region for NaFe0.5Co0.5O2 existed only at the beginning of charge process as O3-P3 phase transition [15].
+We propose that excellent rate capability originates from the difference in phase transition behavior and faster sodium diffusivity in the P3 phase.
+These results will be reported elsewhere in the future.
+From these results, it is concluded that the cobalt-substitution for Fe in NaFeO2 is effective to much improve its reversibility of sodium insertion and extraction as electrode materials.
+Similar to Co, Ni/Mn substitution for Fe is the effective method to extend the reversibility limit of O3-NaFeO2 [12].
+Common characters between NaCoO2 and NaNi0.5Mn0.5O2 are O3-P3 phase transition during the Na extraction process [15,16], which will be reported in elsewhere for more details.
+Additionally, such iron migration process is not observed in P2-type Nax(Fe1/2Mn1/2)O2 [14], which is a layered polymorph possessing the different oxygen stacking.
+Probably, iron ions are not stabilized by the migration from the original octahedral sites to large prismatic sites in the P3- and P2-phases, resulting in suppression of the migration.
+We conclude that the suppression of iron migration through these methodologies allows us to design innovative electrode materials based on sodium and iron that are the most Earth-abundant alkali-metal and transition-metal elements, respectively, in the future.
+Conclusions
+Single phase and well-crystallized O3-type NaFe0.5Co0.5O2 is prepared by a solid-state method, and its electrode performance is compared in Na cells with NaFeO2 and NaCoO2.
+Available energy density is estimated to be 510mWhg-1 based on metallic sodium as positive electrode materials for rechargeable Na batteries.
+NaFe0.5Co0.5O2 shows excellent rate-capability with small polarization; more than 75% of discharge capacity even at 10C rate.
+Note that utilization of cobalt must be minimized for large-scale energy storage devices because cobalt is not an abundant element.
+The most important finding of our article is that large reversible capacity and excellent rate-capability, which are clearly better than those of NaCoO2, are achieved on the basis of NaFeO2-derived sodium insertion materials.
+Further optimization study could allow us to design positive electrode materials, similar to O3-type NaFe0.5Co0.5O2, based on abundant elements with much less cobalt contents.
+Acknowledgments
+This study was in part granted by the JSPS through the "Funding for NEXT Program," and MEXT program "Elements Strategy Initiative to Form Core Research Center" (since 2012), MEXT; Ministry of Education Culture, Sports, Science and Technology, Japan.
+The synchrotron X-ray diffraction experiments were made possible through the support of MEXT, Nanotechnology Support Project (Proposal No.
+2011B1729) with the approval of Japan Synchrotron Radiation Research Institute (JASRI).
+

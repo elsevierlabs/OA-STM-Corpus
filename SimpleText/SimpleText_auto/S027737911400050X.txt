@@ -1,0 +1,297 @@
+Late Quaternary tephrostratigraphy of southern Chile and Argentina
+
+Abstract
+The Southern and Austral Volcanic Zones of the Andes comprise 74 volcanic centres with known post-glacial activity.
+At least 21 of these have had one or more large explosive eruptions in the late Quaternary, dispersing tephra over vast areas.
+These tephra layers therefore have great potential as tephrochronological marker horizons in palaeoenvironmental studies in southern Chile and Argentina, a region that is particularly useful to study climate dynamics of the southern hemisphere.
+However, to date tephrochronology has rarely been fully utilised in this region as a correlation and dating tool.
+Here we review the existing post-glacial tephrostratigraphic record of the Southern and Austral Volcanic Zones, and compile a database of known occurrences of tephra from these volcanoes in ice and lacustrine, marine, peat, and cave sediment records.
+We address the inconsistencies in and revisions of the tephrostratigraphies presented in prior literature, and discuss the challenges in correlating tephras and the limitations of the tephrostratigraphic record in this area.
+This study highlights the many gaps that still exist in our knowledge of the eruptive histories of these volcanoes, but also reveals the largely under-utilised potential of tephra as a correlation tool in this region.
+This is exemplified by the severe lack of adequate geochemical analysis of tephra layers preserved in many lacustrine and peat sediment sections, which are particularly important tephrostratigraphic records in southern Chile and Argentina due to the paucity of surface preservation.
+Highlights
+•
+Review of the post-glacial tephrostratigraphy in southern Chile/Argentina.
+•
+Identify 29 potential regional marker tephra units from 21 volcanoes.
+•
+Present database of tephra occurrences in palaeoenvironment records from the region.
+•
+Describe challenges in correlation of tephra units in the region.
+•
+The tephrochronological potential of sediment sections is significantly underused.
+
+Introduction
+Tephrochronology is widely employed as a stratigraphic correlation tool in a broad range of disciplines, including (but not limited to) archaeology (e.g., Prieto et al., 2013; Riede and Thastrup, 2013), palaeoclimatology (e.g., Davies et al., 2012; Elbert et al., 2013), palaeoecology (e.g., Buckland et al., 1980; McCulloch and Davies, 2001), palaeogeomorphology (e.g., Stern et al., 2011; Dugmore and Newton, 2012), and volcanology (e.g., Shane, 2000; Watt et al., 2011).
+This technique is based on the principle that tephra layers represent (quasi-)isochronous marker horizons, because they are the result of direct fallout of volcanic ash from the atmosphere during and immediately after volcanic eruptions, which are generally short-lived in geological terms.
+The identification and correlation of synchronous volcanic ash (tephra) layers over a vast geographical area and in different environmental settings, e.g., terrestrial outcrops and lacustrine and marine sediment cores, has great potential for synchronising and dating sequences of events recorded in diverse locations (cf.
+review by Lowe (2011)).
+In volcanology, characterisation of tephra deposits from a specific source (either a known volcano or particular eruptive event) over a wide area helps constraining the frequency-magnitude relationships of explosive eruptions from the source volcanoes.
+Constraints on eruptive frequency and magnitude are crucial for volcanic hazard assessment and for understanding the moderate- to long-term evolution of volcanic systems in relation to their tectonic setting.
+Study of distal volcanic ash from large explosive eruptions is important in the reconstruction of eruptive parameters (e.g., erupted volume and eruption column height), as well as in understanding the potential environmental impacts of explosive eruptions beyond the local scale.
+In other disciplines, such as archaeology and palaeoclimatology, tephra layers are invaluable geochronological markers, sometimes helping to date sequences where other geochronological methods might fail.
+In lacustrine and marine settings, age models for sediment cores spanning several (or tens of) millennia often rely heavily on a set of radiocarbon ages, which can be difficult to calibrate due to reservoir effects (e.g., Yu et al., 2007).
+Such cores require well-constrained age models as they are commonly used to investigate the palaeoenvironmental record (e.g., Kilian and Lamy, 2012), regional earthquake history (e.g., Bertrand et al., 2008a), etc.
+If tephra horizons are found and assigned to a particular well-dated volcanic event, these can enable more accurate age models of the sediment cores.
+For tephrochronology to be used to its maximum potential and to validate the correlation of tephra layers in different settings as geochronological markers, a thorough characterisation of tephra layers encountered in different locations is essential.
+Tephra layers are preferably characterised in terms of glass (or sometimes whole-rock) chemical composition, mineral assemblage and composition, componentry, and physical characteristics such as colour, grain size, and texture, to aid correlations (Lowe, 2011).
+However, correlations sometimes only rely on a rough age correspondence between distinctive tephra layers in different sections (e.g., Abarzúa et al., 2004; Lamy et al., 2004).
+This may be problematic where significant age uncertainties exist and/or where multiple tephra layers occur in rather narrow time windows.
+Inadequate characterisation of tephra layers may lead to erroneous correlations, especially in areas with many active and thus potential source volcanoes.
+Miscorrelations can have serious implications for derived age models, e.g., in palaeoenvironment reconstructions.
+In this paper, we present a critical review of the late Quaternary tephrostratigraphic record as it is known from scientific literature for the Andean Southern and Austral Volcanic Zones, which span the approximate latitude range 33-55°S (Fig. 1).
+They comprise 74 volcanic centres thought to have been active during post-glacial times (Global Volcanism Program, GVP, http://volcano.si.edu/; Large Magnitude Explosive Eruptions database (LaMEVE), http://www.bgs.ac.uk/vogripa; Crosweller et al., 2012; Siebert et al., 2010), ranging from clusters of (monogenetic) cones to central stratovolcanoes and large volcanic complexes.
+They include some of the most historically active volcanoes of the Andes, such as Villarrica and Llaima, both of which have erupted several times per decade in recent history, with relatively limited regional impact (Dzierma and Wehrmann, 2010; Van Daele et al., in press).
+They also include several volcanoes that have had historical Plinian-style eruptions with significant regional or even hemispheric impact, e.g., the 1932 Cerro Azul (Quizapu; Hildreth and Drake, 1992), 1991 Cerro Hudson (Wilson et al., 2012), 2008 Chaitén (Watt et al., 2009) and 2011 Puyehue-Cordón Caulle (Collini et al., 2013) events.
+This region is of particular interest not only for its frequent volcanic activity, but also because of the potential for investigating the (pre-)historical regional record of large earthquakes (similar to the 1960 Mw 9.5 Valdivia earthquake) using turbidite deposits in lakes (Arnaud et al., 2006; Moernaut et al., 2007; Bertrand et al., 2008a).
+In addition to being volcanically and tectonically active, southern South America is the only landmass to cross the southern westerly wind belt, which is a significant control on global ocean circulation and so climate (Kilian and Lamy, 2012).
+High-resolution palaeoenvironmental archives have therefore been sought from the many fjords, lakes, and areas of peatland in southern Chile and Argentina (Kilian and Lamy, 2012).
+The predominantly post-glacial records obtained have provided significant insights into, for example, interhemispheric climatic linkages and the dynamics of both Holocene climate and the regional deglaciation (e.g., Lamy et al., 2010; Moreno et al., 2012; Hall et al., 2013).
+At the Last Glacial Maximum (LGM; ca 25-16 ka in the study region; Hulton et al., 2002; Glasser et al., 2008; Kaplan et al., 2008) the Southern and Austral Volcanic Zones were largely glaciated, so this region is a good case study to investigate the potential coupling between deglaciation and volcanism, namely a possible increase in eruption rates during deglaciation and early post-glacial times (Huybers and Langmuir, 2009; Watt et al., 2013a).
+We present the known eruptive histories of the individual volcanic centres in the study area, and we list all the known tephra occurrences in published palaeoenvironment records, attributed to specific eruptive events wherever possible.
+The aim is to provide a regional stratigraphic framework (in the Supplementary Information) that can be used as a reference for tephrochronological correlations in southern Chile and Argentina.
+It is important to note that the record presented here is incomplete, because the majority of the volcanoes in the study area are still poorly studied, or results from existing field studies are difficult to access.
+As the eruptive histories of specific volcanoes become better known, or additional lithological data from sediment cores becomes available, new information could easily be integrated into this record.
+The Andean Southern and Austral Volcanic Zones
+Geological setting
+The Andean arc is a segmented volcanic arc along the western margin of South America (Stern, 2004).
+It is divided into four main volcanic zones; the Northern Volcanic Zone (NVZ; 5°N-2°S), Central Volcanic Zone (CVZ; 14-27°S), Southern Volcanic Zone (SVZ; 33-47°S), and Austral Volcanic Zone (AVZ; 49-55°S).
+The latter two are the focus of this study, because they are the scene of frequent volcanic (Stern, 2008; Watt et al., 2013a) and tectonic (Moernaut et al., 2007; Bertrand et al., 2008a) activity, they have been subjected to extensive glaciation in the past, and the regions in which they are located are sensitive recorders of late Quaternary palaeoenvironmental conditions (De Batist et al., 2008; Kilian and Lamy, 2012).
+The Southern Volcanic Zone (SVZ) is a 1400 km long, continuous volcanic arc segment that arises from the subduction of the oceanic Nazca Plate beneath the continental South American Plate (Fig. 1).
+It comprises 60 volcanic centres that have been active during the late Quaternary (see Table 1 and Section 3.1), in four sub-zones distinguished by along-arc changes in geochemical characteristics (e.g., Hildreth and Moorbath, 1988; Stern, 2004; Stern et al., 1984a, 2007), called the Northern (NSVZ; 33.3-34.4°S), Transitional (TSVZ; 34.4-37°S), Central (CSVZ; 37-42°S) and Southern (SSVZ; 42-46°S) zones (Table 1; Fig. 1).
+The Austral Volcanic Zone (AVZ), to the south of the SVZ, is an 800 km long volcanic arc segment that arises from the subduction of the oceanic Antarctic Plate beneath the South American continent (∼49-53°S) and Scotia microplate (∼53-55°S) (Fig. 1).
+It is thought to comprise six volcanic centres that have been active during the late Quaternary (see Table 1 and Section 3.1) and may be divided into two sub-zones, Northern (NAVZ; 49-50.3°S) and Southern (SAVZ; 50.3-52°S) (Table 1), on the basis of geochemistry (Stern and Kilian, 1996; Stern, 2008).
+The major zones of arc volcanism in Chile and Argentina are separated by significant gaps.
+The SVZ is bounded north of 33°S by the Pampean flat-slab segment and south of 46°S by the Patagonian volcanic gap, which also marks the northern limit of the AVZ (e.g., Stern, 2004; Espinoza et al., 2005).
+The Pampean flat-slab segment (27-33°S) is a region of shallow subduction (<10°), thought to arise from the subduction of the Juan Fernández Ridge.
+This slab geometry is thought to have prevailed for the last 5-6 Ma; consequently, no Pleistocene or Holocene magmatic activity has been recognised in this area (Kay and Mpodozis, 2002; Kay et al., 2005).
+The Patagonian volcanic gap (46-49°S) arises from the subduction of the Chile Rise, an oceanic ridge separating the Nazca and Antarctic plates.
+There is no evidence of arc volcanism in this area for the last 12 Ma; however, there has been back-arc volcanic activity (Gorring et al., 1997; Stern, 2004; Espinoza et al., 2005).
+Late Quaternary back-arc volcanism occurs up to 250 km east of the main volcanic arc, principally in Argentina, between 34 and 52°S.
+This back-arc activity is dominated by alkaline basaltic volcanism from small monogenetic spatter and scoria cones with associated lava flows.
+Examples include the Palei-Aike volcanic field (∼52°S; D'Orazio et al., 2000) and the Payenia volcanic province (∼34.5°-37.5°S; Søager et al., 2013).
+Geochemistry
+The geochemistry of tephra is invaluable for fingerprinting and correlating past deposits, as the volcanic products from each volcano and eruption typically have a distinct glass and/or mineral chemistry (e.g., Lowe, 2011; Gilbert et al., in press).
+The petrology and geochemistry of the SVZ and AVZ is diverse as a result of varying subduction geometry and crustal thickness along the arc (Lowrie and Hey, 1981; Lüth and Wigger, 2003; Watt et al., 2013b), with erupted magmas ranging in composition from picrites and tholeiitic basalts through to rhyolites and andesitic adakites (Stern and Kilian, 1996; Stern et al., 2007).
+The volcanoes of the NSVZ (33.3-34.4°S) have erupted magmas ranging from basaltic andesite to dacite.
+The predominant rock types are 2-pyroxene and olivine-clinopyroxene andesites, although the more silicic rocks (>57% SiO2) commonly contain hornblende and rare biotite (e.g., at Tupungatito volcano: Hildreth and Moorbath, 1988).
+Magmas erupted from the NSVZ have relatively high K, Rb, Sr, La/Yb, and 87Sr/86Sr, and lower 143Nd/144Nd, compared to similarly evolved rocks from other parts of the SVZ (Stern et al., 2007).
+There are two main theories on the cause of this signature: (1) crustal contamination, as a result of the thicker continental crust, and (2) higher rates of subduction erosion due to the subduction of the Juan Fernández Ridge (Hildreth and Moorbath, 1988; Stern, 1991).
+In the TSVZ (34.4-37°S), andesites and dacites dominate, although basalts through to rhyolites are erupted.
+This large compositional range has been observed within individual complexes, such as Laguna del Maule (basalts to rhyolites: Hildreth et al., 2010) and Planchón-Peteroa (basalts to dacites: Tormey et al., 1995).
+Isotopic and trace element studies indicate that rhyolites from the TSVZ have a significant contribution from crustal partial melts, whilst the more mafic magmas are dominated by a slab-derived component (Hildreth et al., 1999).
+The source of back-arc magmas is predominately the sub-continental lithospheric mantle (Jacques et al., 2013).
+This complexity in magma sources is reflected in the large geochemical range of the volcanic products.
+In the CSVZ (37-42°S) and SSVZ (42-46°S), basalts through to rhyolites are erupted, with a predominance of basalts and basaltic andesites.
+An important difference between the two segments is the relative lack of hydrous phases in the CSVZ: in evolved rocks (>59% SiO2) from the SSVZ, amphibole is commonly found and biotite may be present (although it has only been reported in rhyolites from Chaitén: Amigo et al., 2013), whereas amphibole is rare and biotite is absent in the CSVZ (Stern et al., 2007; Gilbert et al., in press).
+Isotopic and trace element studies suggest that the mantle is the primary source of melts, but that there is also a (relatively minor) slab-derived component (e.g., Hickey-Vargas et al., 1989; Stern, 2004).
+The evolved melts typically have a similar isotopic signature to more primitive melts; therefore only a minor crustal contribution, or a contribution from young, isotopically similar crust, is inferred (McMillan et al., 1989; Singer et al., 2008).
+The degree of differentiation, i.e., how evolved the melts become, appears to be strongly controlled by tectonics.
+Volcanic centres controlled by NE-trending fractures and faults, for example the volcanic chain of Osorno-Puntiagudo-Cordón Cenizos, commonly erupt more mafic rocks than centres controlled by NW-trending fractures and faults, for example Puyehue-Cordón Caulle (Lopez-Escobar et al., 1995; Lara et al., 2006; Cembrano and Lara, 2009).
+Furthermore, across-arc geochemical trends have been identified: more easterly centres typically have lower Ba/La, La/Nb, and Ba/Nb ratios, and a higher concentration of K, compared to similarly evolved rocks erupted at more westerly centres (Hickey-Vargas et al., 1989; Jacques et al., 2013).
+This trend has been interpreted to reflect smaller degrees of partial melting in the mantle wedge, and a decreasing slab-derived contribution towards the east (Hickey-Vargas et al., 1989; Jacques et al., 2013).
+Watt et al. (2013b), however, infer that increasing slab-surface temperatures result in less hydrous parental melts further eastward in the arc, giving rise to the observed geochemical variations.
+Volcanic rocks from the AVZ (49-55°S) have a narrow compositional range compared to the SVZ, as only andesites and dacites are found (Stern and Kilian, 1996).
+However, this more restricted range may simply reflect the limited samples analysed from this arc segment, due to the remote location of these volcanoes.
+The rocks typically contain pyroxenes, amphibole, plagioclase and biotite, though the latter is only noted at the three northernmost volcanoes (comprising the NAVZ; 49-50.3°S: Stern and Kilian, 1996) and less abundantly at Reclus (Stern et al., 2011).
+In addition, crustal xenoliths, such as granite from the Patagonian batholith, are found in all six volcanoes, though more abundantly further north.
+At Monte Burney, xenocrysts of clinopyroxene and/or olivine are also found; these are inferred to be mantle-derived (Stern and Kilian, 1996).
+The erupted products in the AVZ have an adakitic signature: low heavy rare earth element (HREE), Y, and high field strength element (HFSE) concentrations, and high Sr concentrations, as well as positive Sr and Eu anomalies and a high Mg# (Stern and Kilian, 1996).
+This suggests a source region with residual garnet, amphibole, and pyroxene, with little or no plagioclase or olivine.
+Therefore, the chemical signature is attributed to partial melting of the unusually hot subducting Antarctic slab (potentially several hundred degrees higher than 'normal'), as a result of the very slow convergence rate (2-3 cm/year) and relatively young (and hot) oceanic crust (0-24 Ma, younger to the north) (Stern et al., 1984a; Peacock et al., 1994; Stern and Kilian, 1996).
+Large explosive eruptions
+Large explosive eruptions, erupting ≥1 km3 of tephra (Volcanic Explosivity Index, VEI ≥5 (Newhall and Self, 1982), roughly corresponding to magnitude, M ≥ 5 (Pyle, 2000)), will typically deposit >1-10 cm thickness of tephra over an area exceeding 103-104 km2 (e.g., Pyle, 1999).
+Therefore, they have significant potential for tephrostratigraphic correlation, and so these large events are the focus of this study.
+The SVZ has produced some of the largest explosive eruptions in recent history, most notably the 1932 Quizapu (Cerro Azul; M 6.0, >9.5 km3 tephra; Hildreth and Drake, 1992) and 1991 Cerro Hudson (M 5.8, 4-7 km3 tephra; Naranjo et al., 1993a) eruptions.
+Even larger eruptions are known to have occurred in the SVZ during the Pleistocene (e.g., the Diamante caldera-forming event, Maipo; M 7.7, ∼270-350 km3 tephra: Sruoga et al., 2005; Stern et al., 1984b).
+In the late Quaternary (ca the last 25 ka, i.e., the period for which terrestrial tephrostratigraphic records exist), there have been at least 25 large (≥1 km3 of tephra) explosive eruptions generating widespread fall deposits from 18 different SVZ volcanoes (Table 1; Supplementary Table 1; Fig. 2).
+An additional 4 large ignimbrite-forming eruptions have been recognised.
+Some of these volcanoes are thought to be the source of multiple such events including (but not limited to) Calbuco (Watt et al., 2011), Chaitén (Watt et al., 2013c), and Cerro Hudson (Naranjo and Stern, 1998; Weller et al., 2013).
+Such an abundance of large eruptions suggests there is significant potential for tephrostratigraphic correlations in southern Chile and Argentina.
+Since there are several large population centres, transport hubs (e.g., airports), and economically significant infrastructure (e.g., agriculture and tourist centres) both in Chile and Argentina at these latitudes, explosive eruptions from the SVZ also pose significant risks.
+Considerable impact is possible many hundreds of kilometres downwind, as exemplified by the effects of the mid-Holocene (Prieto et al., 2013) and 1991 (Inbar et al., 1995; Wilson et al., 2012) eruptions of Cerro Hudson, and even on a hemispheric scale, as was the case in the 2011 Puyehue-Cordón Caulle eruption (Collini et al., 2013).
+Although similar eruptions from the AVZ may have comparable distal impacts, these volcanoes are further from large population centres and critical infrastructure.
+Four large explosive events are known to have occurred in this arc segment in the past 12 ka: A1 from Aguilera, R1 from Reclus and MB1 and MB2 from Monte Burney (Stern, 2008; Supplementary Table 1).
+Eruptive explosivity and hazards are also elevated in this region by the presence of substantial ice and snowpack.
+Approximately half of the SVZ volcanoes active in post-glacial times host summit glaciers, or ice-filled summit craters or calderas (Siebert et al., 2010; Rivera and Bown, 2013).
+Ice cover is extensive in the AVZ, with four of the six volcanoes lying within or adjacent to the southern Patagonian ice field (Stern, 2008; Siebert et al., 2010).
+At the peak of the LGM, at ca 25-16 ka in this region (Hulton et al., 2002; Glasser et al., 2008; Kaplan et al., 2008), all the edifices in the SVZ and AVZ south of ∼38°S were covered by ice, possibly >1 km thick (Hulton et al., 2002; Glasser et al., 2008).
+The lateral extent of the ice sheet, ∼100-150 km and ∼250-300 km wide north and south of ∼42°S respectively (Hulton et al., 2002), greatly restricted terrestrial preservation of tephra from eruptions during glacial periods in the Pleistocene (Section 4.1).
+It has been proposed that ice retreat after the LGM caused a significant increase in global volcanic activity in previously glaciated regions (Huybers and Langmuir, 2009), but evaluation of the post-glacial explosive eruption history of the central and southern sectors of the SVZ by Watt et al. (2013a) found no statistically significant increase in the early post-glacial period here compared to the later Holocene.
+However, recognition and accurate quantification of such potential changes in eruption rate in the southern Andes are difficult without a more comprehensive tephrostratigraphic record.
+Tephrostratigraphic record of major explosive eruptions
+Volcanoes active in the late Quaternary
+Table 1 lists all of the volcanic centres in southern Chile and Argentina thought to have had post-glacial activity, for which we have compiled all the available information on their post-glacial eruptive history.
+All the centres in the GVP (http://volcano.si.edu) database of Holocene active volcanoes are included, except for Arenales (47.20°S, 73.48°W), in the Patagonian volcanic gap.
+The only eruption attributed to this edifice by Siebert et al. (2010) is one in 1979, based on the observation of a thin tephra deposit on the Arenales glacier in a March 1979 Landsat image (Lliboutry, 1999).
+However, this deposit may have been from a VEI 2 eruption of Lautaro volcano, 200 km to the south, in June 1978 (Lliboutry, 1999): a March 1979 Landsat image indeed shows a fresh tephra deposit on Lautaro, as well as three older tephra horizons in nearby glaciers (Lliboutry, 1999), which have been attributed to Lautaro on the basis of their chemistry (Motoki et al., 2006).
+Other volcanic centres, such as Risco Plateado (34.93°S, 70.00°W) and Trocon (37.73°S, 70.90°W), have been assigned a late Quaternary/Holocene age only on the basis of morphologically youthful-looking cinder and scoria cones or lava flows (e.g., González-Ferrán, 1995).
+Therefore, their presence in Table 1 should be treated with caution until conclusive radiometric dates have been published.
+There is some confusion regarding the historical record of activity of a number of these volcanic centres as few written accounts exist, and those that do are mostly secondary sources (e.g., Martinic, 1988, 2008; Petit-Breuilh Sepúlveda, 2004).
+This confusion is exacerbated by the fact that some of the volcanoes have had multiple names, which in some cases may be shared with neighbouring volcanoes, making determination of historical activity from written sources problematic (Martinic, 1988; Petit-Breuilh Sepúlveda, 2004; LaMEVE database: http://www.bgs.ac.uk/vogripa).
+As well as this ambiguity concerning the source of eruptions, there is also potential for confusion from the existence of multiple names for single events (examples in Supplementary Table 1).
+Explosive eruptions in the late Quaternary
+Supplementary Table 1 lists all the known (and dated) post-glacial eruptions of all the volcanoes listed in Table 1, from both historical and geological records.
+Our critical review of the available literature on the tephrostratigraphic record in southern Chile and Argentina has highlighted several ambiguities, which we attempt to address in Supplementary Table 1 (see the "Remarks" column).
+For a number of historical eruptions listed as "uncertain" by Siebert et al. (2010), no reference could be found: these entries are not included in our database.
+The vast majority of the events listed in Supplementary Table 1 were rather small (M 1-2) eruptions, e.g., the tens of historical eruptions of Villarrica and Llaima volcanoes.
+Such eruptions are unlikely to have left distinct regional marker beds, and are therefore of limited use in a regional-scale (>104 km2) tephrostratigraphic framework.
+For example, most visible tephra layers found in short cores in the Villarrica and Calafquén lakes originate from VEI/M 2 eruptions of nearby Villarrica volcano, and are difficult to characterise chemically due to an abundance of microphenocrysts and non-distinct chemical compositions (Van Daele et al., in press).
+Though useful to unravel the detailed eruptive history of Villarrica volcano, these tephras cannot be used as well-defined time markers on a broader scale and thus only have very limited tephrochronological potential.
+In some specific cases however, tephra layers resulting from relatively small eruptions, and with a distinct geochemical signature, may be very useful to correlate high-resolution lacustrine records.
+This was nicely demonstrated, for example, by Van Daele et al.
+(in press), who identified the ca 200 ± 100 14C yr BP Achen Ñiyeu tephra from the Huanquihue Group (Supplementary Table 1; Siebert et al., 2010) in short cores from Lakes Calafquén and Villarrica, ca 60-80 km from source, and refined the eruption age using varve chronologies to 1591 varve AD.
+The most important documented eruptions for each volcano, which are likely to have left traceable deposits over a large area (i.e., in multiple lakes, peat bogs, etc.) are highlighted in blue in Supplementary Table 1.
+Eruptions with estimated tephra fall volumes >1 km3 and for which dispersal data in the form of isopach maps are available from literature, are highlighted in red in Supplementary Table 1.
+Their dispersal patterns are indicated on Fig. 2.
+A careful screening of the available literature on certain major eruptions has highlighted a number of inconsistencies.
+The compositionally zoned pumice fall and pyroclastic density current deposits associated with the Llaima Pumice eruption, for example, have previously been treated as separate eruptions (Watt et al., 2013a), although there is no palaeosol or any other evidence for a significant time break between the different phases (Naranjo and Moreno, 1991, 2005).
+On the contrary, this eruption appears to have been characterised by a sustained Plinian eruption column (Ll-pl) which experienced a fountain collapse generating pyroclastic density currents (Ll-s1, Ll-s2; Naranjo and Moreno, 1991, 2005; Supplementary Table 1).
+It should therefore be considered as one eruption characterised by multiple eruptive phases.
+Supplementary Table 2 summarises all of the known tephra occurrences in sediment sections in southern Chile and Argentina, predominantly in lacustrine, marine and peat cores.
+The lacustrine and peat cores are almost all restricted to post-glacial times (the most notable exception being the Laguna Potrok Aike record; Wastegård et al., 2013), but the marine cores may span up to 2-3 Ma (e.g., ODP Sites 859-862; Behrmann et al., 1992).
+The latter are merely given for completeness.
+Unless a name was already given to a specific tephra horizon, all tephra horizons are given a unique name consisting of the (abbreviated) core or location name followed by the central depth of the tephra in the sediment core.
+This method of labelling tephra was suggested by Bertrand et al. (2008b), who presented one of the few studies on lake cores in the region specifically dedicated to tephrostratigraphy.
+In Supplementary Table 2 we list as much information as possible on the tephra horizons, e.g., thickness, colour, grain size, composition and age, and, if known, the inferred source volcano or eruption.
+The missing information in Supplementary Table 2 indicates that the vast majority of tephra layers encountered in sediment sections lack published chemical analyses.
+In many cases even basic information such as tephra thickness, colour or grain size is lacking.
+This makes it very difficult to try to assign a source volcano to these tephras.
+Discussion
+Preservation potential of tephra in southern Chile and Argentina
+Large explosive eruptions with estimated tephra fall volumes >1 km3 have been recognised from 21 individual volcanic centres, most of them located in the SSVZ and AVZ.
+At least 9 of these have also had multiple moderate (V > 0.1 km3) to large explosive eruptions in their post-glacial history (Supplementary Table 1).
+From the tephra dispersal patterns presented in Fig. 2 it is clear that tephra from the majority of the large eruptions is dispersed eastward.
+Because of poor preservation and/or accessibility however (discussed below), precise tephra fall volume estimates are often difficult to obtain.
+This is especially obvious when comparing the area encompassed by 1 cm isopach contours for recent eruptions (1932 Quizapu; 1991 Hudson; 2008 Chaitén) with the dispersal patterns for prehistoric deposits (for which 1 cm isopach contours are usually not available; Fig. 2).
+For many prehistoric deposits listed in Supplementary Table 1, no volume estimates exist at all.
+For these reasons it is highly likely that the number of large explosive eruptions in Supplementary Table 1 is severely underestimated.
+The completeness and accuracy of the tephrostratigraphic record presented here is restricted by the limited extent and relatively poor quality of preservation of tephra on land.
+Poor terrestrial preservation is partly related to the humid temperate conditions characterised by high rainfall across much of southern Chile (Miller, 1976).
+Across the region, tephra is preserved in a wide variety of environments (Fig. 3), but often either preservation of an isochronous tephra unit is rare (e.g., in caves) or the record is difficult to obtain (e.g., from lake sediments).
+Furthermore, just like in other previously glaciated arcs, the time period in which preservation has been possible is generally restricted in southern Chile and Argentina to since glacial retreat (Watt et al., 2013c).
+In many environments, post-depositional processes can significantly modify the record (discussed below), complicating tephra identification, characterisation, and correlations.
+The best picture of the tephrostratigraphic record therefore is drawn from a combination of sedimentary sequences in a range of depositional environments.
+As shown in Fig. 2, distal tephra fallout from most of the large explosive eruptions in the late Quaternary has occurred on the (largely Argentine) Patagonian steppe, due to the prevailing westerly winds.
+This environment predominantly comprises sparsely vegetated, terraced outwash plains, and has a continental semi-arid climate, making it susceptible to strong wind erosion (Peri and Bloomberg, 2002; Villa-Martínez and Moreno, 2007), including of tephra, as seen after the 1991 Cerro Hudson eruption (Wilson et al., 2011).
+Surface accumulations of tephra are therefore almost exclusively preserved thanks to the presence of vegetation in or near the Andes, where tephra accumulation has only been possible since the time at which the ice sheet last retreated from the location (e.g., Menounos et al., 2013).
+Areas with thick vegetation, and so rapid soil accrual, appear to be most amenable to relatively high-quality preservation of tephra and dateable material.
+However, the rugged topography in this region often results in variable and sporadic preservation of any single tephra unit, complicating stratigraphic correlation in the field.
+Furthermore, tephra is extremely prone to erosion and remobilisation from/on slopes, which inhibits accurate inference of the eruptive sequence and parameters (Engwell et al., 2013).
+Note that when unit thickness measurements can only be made on these steep slopes, the slope angle should be taken into consideration to obtain an estimate of the primary depositional thickness.
+Stratigraphic correlation and accurate characterisation are confounded further by physicochemical alteration of tephra deposits in the areas of the southern Andes with high rainfall.
+Weathering can modify or even remove the diagnostic feature(s) of some tephra units, making them difficult to distinguish and so correlate.
+Accurate inference of eruption parameters is also compromised, as alteration and compaction of the tephra pile reduces unit thickness, and that of individual tephra clasts makes accurate measurement of maximum clast size difficult.
+Accurate clast size measurement is thwarted further (especially close to the source volcano) by the deposition of clasts that are outliers to the main size distribution (Bonadonna et al., 2013), such as ballistic bombs, which can be problematic to distinguish from pumices, especially when both are degraded.
+Alteration also inhibits chemical characterisation, which is critical for rigorous stratigraphic correlation.
+Breakdown of glass can make it difficult to find large enough glass fragments to analyse, and alkali elements (most notably sodium and potassium) are readily leached (e.g., Cerling et al., 1985; Amigo et al., 2013).
+Although this effect can be recognised, it is not possible to fully correct for this by normalising the altered compositions, hindering effective comparison of samples.
+Chemical alteration is a particularly significant issue with tephra preservation in peat bogs, cores or sections through which are the most common source of tephra samples in southernmost Patagonia/from the AVZ (Supplementary Table 2; Stern, 2008).
+Aluminium, iron, and the common alkali and alkali earth metals are all readily leached from volcanic ash by dissolved organic compounds (Antweiler and Drever, 1983).
+Particularly rapid rates of dissolution of (ferromagnesian) minerals are possible in low pH (<4) conditions: for example, complete loss of biotite has been observed from the 770 yr rhyolitic Kaharoa tephra in a New Zealand bog (Hodder et al., 1991).
+Complete alteration of the original chemistry is possible: e.g., some thin tephra layers in an Austral Andean peat core are reported to have been partly transformed to siderite and rhodochrosite (Kilian et al., 2003).
+Theoretical modelling and experimental studies by Pollard et al. (2003) indicate that glass shard composition is a major factor in the resistance of distal tephra to chemical alteration: more mafic glasses are more prone to alteration.
+Although the resulting deviations from the 'true' chemical composition have not been quantified, chemical alteration should be considered in tephrostratigraphical studies in peat sequences.
+The physical preservation of tephra in peat bogs is also problematic, as peat accumulation rates are highly spatially and temporally variable, even within a single bog.
+For example, two cores of a bog at Puerto del Hambre (south of Punta Arenas) taken only one metre apart had identical basal depths, but the H1 tephra (Stern, 2008; Supplementary Table 2) was missing from one of the cores, and the basal depths of the MB2 and R1 tephras (Stern, 2008; Supplementary Table 2) in the two cores differed by 15 and 40 cm, respectively; the MB2 tephra was also found to vary in thickness from 2 to 5 cm in a single excavation at this site (McCulloch and Davies, 2001; Supplementary Table 2).
+Thin tephra layers are readily dispersed by root growth, confounding accurate thickness estimation, or even recognition; less disruption has been reported in ombrogenic compared to minerogenic core sections (Kilian et al., 2003).
+Tephra deposition itself may have adverse effects on the peat accumulation rate, as well as the microbiological communities and pore water chemistry (De Vleeschouwer et al., 2008; Payne and Blackford, 2008; Hughes et al., 2013).
+Cryptotephra layers (i.e., tephra deposits hidden from view, due to very small grain sizes (<0.1 mm) and/or deposit volumes (Lowe and Hunt, 2001; Lowe, 2011)) are readily preserved in peat (although they are particularly prone to alteration and physical disturbance), but to date have rarely been searched for or examined in Patagonian bog cores.
+Some care is required to distinguish peaks in cryptotephra concentration representing primary fallout from those reflecting tephra remobilisation (Swindles et al., 2013), which is possible even in distal locations, where the tephra can be sourced from erosion of the peat bogs themselves (e.g., Swindles et al., 2013).
+Some of the best preserved tephra can be found in lake and marine sediment cores: significant chemical alteration and erosion of deposited tephra is uncommon in these environments, but the thickness of and grain size in tephra layers may not be representative of primary fallout.
+This is particularly the case for lakes and fjords, where it is more likely that terrestrial deposits will be remobilised into the water and pumice will be rafted to the downwind side of the water body.
+Remobilisation of tephra layers by turbidites (Moernaut et al., 2007; Bertrand et al., 2008a) is common; reworked layers can be difficult to distinguish from primary fallout, with implications for correlation and constraints of eruption frequency (Wastegård et al., 2013; Van Daele et al., in press).
+Tephra layer dispersal has been reported in lake cores without associated sediment mixing, attributed to reworking into desiccation cracks or post-depositional intrusion into other levels (Markgraf et al., 2003).
+Few tephra units from the SVZ and AVZ have been reported in the sparse offshore sediment cores from the region (Supplementary Table 2): this is perhaps in part due to a lack of recognition rather than absence, but also because with the prevailing westerly winds, deposition of macrotephra (visible tephra) layers in either the Pacific or Atlantic is unlikely except during the largest of eruptions.
+Offshore marine preservation is more likely for tephra from the SSVZ or AVZ, where the transport distances required to the Atlantic are shorter.
+SVZ and/or AVZ tephra units have also been reported in sediments in caves (Supplementary Table 2), but the tephra preserved here is likely to be predominantly remobilised, complicating correlation and making thickness, componentry and clast size measurements prone to uncertainty (e.g., Lundberg and McFarlane, 2012).
+Considerable sampling bias is also likely, determined by the orientation of the cave opening relative to potential source volcanoes and the prevailing wind direction (e.g., Morley and Woodward, 2011).
+SVZ and AVZ cryptotephra units have also been reported in Antarctic ice cores (Supplementary Table 2), demonstrating the potential utility of tephra from this region for stratigraphic correlation between multiple environments and over a wide area.
+This also implies that more proximal areas of permanent ice, such as intra-caldera ice caps (Rivera and Bown, 2013) and the northern and southern Patagonian ice fields, could contain significant tephra records.
+There are significant spatial and temporal biases in the preservation and sampling of tephra from the SVZ and AVZ: preservation is much more likely in or close to the Andes, where the majority of lakes, fjords, peat bogs, ice, and significant soil accumulations are all located (Fig. 2).
+Preservation is likely to be more frequent at southern latitudes for the same reason, but sampling here (of tephra from the SSVZ and AVZ) is hampered by the relatively poor accessibility of the southernmost Andes.
+Accessibility is just as significant a contributor to spatial sampling bias as preservation; this bias can have a significant effect on the inferred eruption parameters, as these are highly sensitive to sample location distribution (Alfano et al., 2011; Longchamp et al., 2011).
+The age of the oldest post-glacial tephra units reported here (in Supplementary Table 1) generally decreases with increasing latitude, reflecting the timing of ice retreat, as previously noted for part of the SVZ by Watt et al. (2013a).
+The temporal bias resulting from the lack of environments during the LGM in which preservation to the present day was possible hinders correlations prior to deglaciation (25-16 ka; Glasser et al., 2008; Hulton et al., 2002; Kaplan et al., 2008), and investigation of long-term eruption frequency.
+Although tephra stratigraphies spanning multiple glacial cycles have been found in lakes beyond the maximum ice extent (e.g., Potrok Aike: Wastegård et al., 2013) and in the Pacific Ocean (e.g., Carel et al., 2011), considerable further work would be necessary to acquire sufficient data to establish a regional tephrochronology prior to deglaciation.
+Challenges in dating and correlation of tephra units
+An in-depth discussion on the different techniques used and existing challenges in tephrochronology is beyond the scope of this paper; the reader is referred to the review paper by Lowe (2011).
+Instead we highlight a few issues that we consider most relevant for tephrochronological studies in southern Chile.
+The tephrostratigraphic record presented in Supplementary Table 1 highlights the many gaps that still exist in our knowledge of the eruptive history of individual SVZ and AVZ volcanoes.
+In addition to detailed geological field studies, high-resolution sediment cores provide crucial information on regional eruptive frequency in the form of preserved tephra layers.
+This is especially the case in areas like Patagonia where tephra preservation on land is limited due to strong winds and limited vegetation (Section 4.1).
+The tephra layers in sediment cores in turn form excellent synchronous tie-points for core age models if recognised in multiple locations.
+However, the compilation of tephra records in palaeoenvironmental archives of southern Chile and Argentina (Supplementary Table 2) shows that the vast majority of tephra layers are insufficiently characterised to allow the source to be identified.
+Inter-core correlations sometimes rely on the mere presence of a distinct marker bed showing a rough age correspondence, but for which no, or hardly any, chemical analyses or physical descriptions (e.g., colour, grain size, and mineral content) are available.
+This is the case for a regional marker bed dated by interpolation at ca 9600 14C yr BP (ca 11 ka cal BP), which has been recognised in cores at ODP Site 1233 and correlated with a tephra layer in cores on Chiloé Island and the Chilean Lake District (Heusser et al., 1999; Moreno and León, 2003; Abarzúa et al., 2004; Lamy et al., 2004; Moreno, 2004; Abarzúa and Moreno, 2008; Supplementary Table 2).
+Amigo et al. (2013) found that this tephra in the cores of ODP Site 1233 consists of two populations of shards, rhyodacitic and basaltic andesitic, but could not identify a source volcano for this tephra.
+Although the inter-core correlations for this specific horizon seem reasonable given the relative geographical proximity of the different cores and the consistent interpolated age values, they should be treated with caution because several regional tephra horizons are known in this section of the arc around the start of the Holocene (e.g., Cha1 from Chaitén and several horizons from Calbuco: Supplementary Table 1; Watt et al., 2013a).
+For late Quaternary records, most tephra horizons in sediment cores are dated by (linear) interpolation of 14C dates of carbonates, bulk sediment or organic remains.
+However, lakes are especially prone to a reservoir effect, due to dissolution of ancient carbonates and/or old organic matter that is washed into the lake from the catchment and incorporated into the sediment.
+Both phenomena can result in anomalous 14C ages and an offset from the real age of the dated material, which is not necessarily constant through time in the sediment section (Geyh et al., 1998; Yu et al., 2007).
+This offset from the real age can be of the order of several hundred or even more than a thousand years if bulk sediment or carbonates are dated, and can thus lead to misleading or erroneous age models if it is not taken into account (Geyh et al., 1998; Bertrand et al., 2012).
+Sediment sections spanning time intervals with multiple tephra layers could therefore easily be miscorrelated if the tephra is not adequately characterised to back up correlations.
+Appropriate tephra characterisation can potentially also help in evaluating the reservoir effect in a sediment section by providing a tie-point in the age model, provided the age of the tephra is well known from one or more independent sources (e.g., 14C dating on charcoal incorporated in terrestrial deposits, for example the well-constrained 3.00-3.05 ka cal BP Alpehué Pumice (So-A) eruption from Sollipulli; Supplementary Table 1; Naranjo et al., 1993b).
+The most widely used (and arguably most straightforward) method to fingerprint and correlate tephra layers between different sites is major element composition analysis of individual glass shards by electron microprobe (Lowe, 2011).
+Although this technique has proven its value in many areas worldwide (for references to relevant case studies, see Lowe (2011)), some complications exist that are particularly relevant for southern Chile and Argentina.
+The two most recent significant explosive eruptions in this region were both of highly evolved magma compositions, i.e., the rhyolitic 2008 Chaitén (Watt et al., 2009; Alfano et al., 2011) and rhyodacitic 2011 Puyehue-Cordón Caulle (Castro et al., 2013) events.
+In both cases, the major element chemical composition of the glass was almost indistinguishable from that of previous eruptions at the same volcano (Castro et al., 2013; Watt et al., 2013c).
+This raises concerns about miscorrelation, especially where a sequence of highly similar tephra layers from the same source might exist in a narrow time window, e.g., the 20th-21st Century eruptions at Puyehue-Cordón Caulle.
+In these cases, compositional data of Fe-Ti oxide minerals might prove to be more useful, as documented by Fierstein (2007) for the Katmai region on the Alaskan Peninsula.
+Other difficulties in tephra fingerprinting exist in the analysis of tephra compositions in the basalt to andesite range, which is the modal erupted composition in both this region and for two of the most active Andean volcanoes, Llaima and Villarrica.
+Apart from being relatively more prone to chemical alteration in their post-depositional environment than rhyolitic glasses (e.g., Pollard et al., 2003), basaltic-andesitic glasses are often characterised by the presence of abundant microphenocrysts in the groundmass, which can obstruct valuable analyses of a glass phase and result in apparent chemical heterogeneity (Platz et al., 2007; Lowe, 2011).
+This is the case for the Chaimilla deposit from Villarrica (Costantini et al., 2011) and historical tephras from Llaima (Bouvet de Maisonneuve et al., 2013).
+Chemical similarity between mafic products from different, but geographically nearby, volcanoes may also make it very difficult to assign a source to tephra layers in sediment cores.
+Where different tephras are indistinguishable in terms of their glass major element chemical composition, alternative methods should be explored, such as analysis of mineral compositions or the trace elements of glass shards (Lowe, 2011).
+Silicic pumice and mafic scoria particles have been reported to occur together in the same tephra layers in cores taken from lakes in the Nahuel Huapi National Park in Argentina (Daga et al., 2006, 2008, 2010).
+In the case of large explosive eruptions, it is conceivable that such tephra layers result from tapping of a chemically zoned magma chamber, or mafic magma batches intruding into a more evolved magma body.
+Eruptions of mixed and mingled magmas have been recognised worldwide (Woods and Cowan, 2009).
+In these cases, the distal deposits could indeed consist of several populations of chemically distinct particles, as seen for the Nahuel Huapi Tephra (Villarosa et al., 2006), corresponding to a ca 2.2-2.8 ka cal BP dacitic pumice fall overlain by basaltic andesitic scoria from the Antillanca Group (Supplementary Table 1; Singer et al., 2008).
+Similarly, multiple populations of clasts in distal tephra layers could be expected for other chemically zoned tephra fall deposits, e.g., the Llaima Pumice, still relatively poorly dated at ca 8.2-10.2 ka cal BP (Ll-pl, Supplementary Table 1; Naranjo and Moreno, 1991, 2005).
+If the end-members of a chemically zoned deposit are well-defined, fingerprinting a distal tephra should be relatively straightforward as long as both end-members are found.
+However, the tephra layers in the short cores in the Nahuel Huapi National Park have been assigned to the Puyehue-Cordón Caulle, Calbuco and Osorno volcanoes (Daga et al., 2008, 2010), none of which are thought to have erupted chemically diverse magmas in a single event in the last 600 years, the time span of the cores.
+It is therefore possible that the scoria component in otherwise pumiceous tephra layers results from contamination from the background sediment, either washed in or remobilised within the lake sediments.
+Alternatively, in some cases pieces of shattered brown glassy bombs of the same composition as light grey pumice from Puyehue-Cordón Caulle (Castro et al., 2013) might have been mistaken for moderately vesicular scoria clasts.
+Peat deposits are important environmental archives, and as discussed above (Section 4.1), are prevalent in southern Chile.
+Some specific difficulties have to be considered when studying tephra in peat sequences.
+Peat deposits are known to be difficult to date using 14C because they consist of organic matter of different origins.
+In some case studies, humin versus humic acid fractions extracted from peat have been found to result in significantly different 14C ages, in some cases differing by up to more than a thousand years (e.g., Shore et al., 1995; Brock et al., 2011).
+These uncertainties clearly have to be taken into account when tephras in different sections are correlated on age-equivalence alone.
+Correlation based on the mineralogy and/or chemistry of tephra preserved in peat is also hampered by dissolution and alteration, as discussed in Section 4.1.
+Additional complications in tephrochronological studies in peatland may exist in the possible post-depositional movement of tephra through the peat, which may make it difficult to define the exact position of the isochron that represents the timing of tephra deposition in the peat sequence.
+Experiments by Payne and Gehrels (2010) in both laboratory and natural environments have shown that most tephra remains trapped at the surface of peatland after deposition, and thus forms a relatively stable and easily identifiable isochron.
+However, some tephra particles can easily move more than 10 cm downward (possibly as a function of their grain size), as well as upward, in accumulating peat.
+The scale of this movement may span several hundreds of years of peat accumulation and so is significant when dating tephra deposition in peat sequences (Payne and Gehrels, 2010).
+Concentration profiles of tephra are therefore essential in evaluating the position of the isochron, especially when studying (crypto)tephra horizons at high temporal resolution.
+Conclusions
+A critical review of the post-glacial tephrostratigraphic record in southern Chile and Argentina reveals that at least 21 of the 74 known volcanic centres have had large explosive eruptions that have dispersed tephra over vast areas.
+At least 9 of them have had multiple moderate to large explosive eruptions in their post-glacial history.
+Tephra from these eruptions was predominantly dispersed eastward over the Patagonian steppe.
+However, the estimated frequency of large explosive eruptions in this part of the Andes is likely to be significantly underestimated, because of limited knowledge of the eruptive histories of individual volcanoes and the poor preservation and/or accessibility of tephra deposits.
+Inadequate characterisation of individual eruptions and deposits not only leads to underestimates in the tephrostratigraphic record, but also to ambiguities.
+Most tephra horizons from large explosive eruptions form excellent marker beds in palaeoenvironmental archives, of which many exist in southern Chile and Argentina.
+These archives are especially useful to study climate dynamics of the southern hemisphere.
+However, to date the tephrochronological potential of these archives is severely under-utilised, as exemplified by the acute lack of geochemical data on tephra horizons encountered in lacustrine, marine, and peat sediment cores (Supplementary Table 2).
+A more rigorous use of the tephra record to correlate sediment sections from different environments is highly recommended, by means of adequate geochemical, mineralogical, and physical characterisation of the tephra layers.
+This will not only help to fine-tune the age models of palaeoenvironmental records, but also further our understanding of the eruptive history of the region.
+Acknowledgements
+This work was supported by the Natural Environment Research Council (NERC) project 'Tempo of post-glacial volcanism in southern Chile' (NE/I013210/1).
+SML is supported by studentships/grants from the NERC (NE/I528485/1), British Geological Survey University Funding Initiative (S198), and University College Oxford.
+DMP and TAM are supported by and contribute to the NERC National Centre for Earth Observation, of which the Centre for the Observation and Modelling of Earthquakes, Volcanoes and Tectonics (COMET+) is a part.
+We thank Zicheng Yu (Lehigh University) for providing peatland extent data.
+Editorial handling by Neil Roberts, and reviews by Charles Stern and an anonymous reviewer were greatly appreciated.
+Supplementary data
+The following are the supplementary data related to this article:Supplementary Table 1
+Post-glacial eruptive history of SVZ and AVZ volcanoes, as known from the historical and geological record.
+Calendar age is given in years before 1950 AD (historical eruptions or varve-dated), ka (Ar-Ar or stratigraphically constrained), or ka cal BP for 14C ages.
+Uncalibrated 14C ages are given where available, and were calibrated in OxCal4.2 (Bronk Ramsey, 2009) using the SHCal13 calibration curve (Hogg et al., 2013).
+The most important eruptions are highlighted in blue; the large (V > 1 km3) eruptions for which dispersal data are available are highlighted in red.
+These eruptions are thought to have left significant regional marker horizons which should be readily identifiable in sediment sections.
+Numbered references can be found in Supplementary Information.
+Supplementary Table 2
+Tephra occurrence in sediment sections from various environments.
+Unless a name was already given to a specific tephra horizon in literature, all tephra horizons are given a unique name consisting of the (abbreviated) core or location name followed by the central depth of the tephra in the sediment core.
+Numbered references can be found in Supplementary Information.
+Supplementary data
+Supplementary data related to this article can be found at http://dx.doi.org/10.1016/j.quascirev.2014.02.007.
+

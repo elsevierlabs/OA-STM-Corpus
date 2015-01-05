@@ -1,0 +1,290 @@
+Influences on the energy delivery of thin film photovoltaic modules
+
+Abstract
+The energy yield delivered by different types of photovoltaic device is a key consideration in the selection of appropriate technologies for cheap photovoltaic electricity.
+The different technologies currently on the market, each have certain strengths and weaknesses when it comes to operating in different environments.
+There is a plethora of comparative tests on-going with sometimes contradictory results.
+This paper investigates device behaviour of contrasting thin film technologies, specifically a-Si and CIGS derivatives, and places this analysis into context with results reported by others.
+Specific consideration is given to the accuracy of module inter-comparisons, as most outdoor monitoring at this scale is conducted to compare devices against one another.
+It is shown that there are five main contributors to differences in energy delivery and the magnitude of these depends on the environments in which the devices are operated.
+The paper shows that two effects, typically not considered in inter-comparisons, dominate the reported energy delivery.
+Environmental influences such as light intensity, spectrum and operating temperature introduce performance variations typically in the range of 2-7% in the course of a year.
+However, most comparative tests are carried out only for short periods of time, in the order of months.
+Here, the power rating is a key factor and adds uncertainty for new technologies such as thin films often in the range of 10-15%.
+This dominates inter-comparisons looking at as-new, first-year energy yields, yet considering the life-time energy yield it is found that ageing causes up to 25% variation between different devices.
+The durability of devices and performance-maintenance is thus the most significant factor affecting energy delivery, a major determinant of electricity cost.
+The discussion is based on long-term measurements carried out in Loughborough, UK by the Centre for Renewable Energy Systems Technology (CREST) at Loughborough University.
+Highlights
+•
+The paper investigates the energy delivery of thin film photovoltaic devices in a maritime climate for amorphous silicon based modules and Copper -Indium, Gallium -DiSelenide based devices Effects on the energy delivery of thin film photovoltaics are separated and quantified.
+•
+Key contributors are measurement accuracy and changes in device behaviour with time rather than environment.
+•
+Effects of temperature, irradiance and spectrum are investigated and quantified.
+•
+The differences in long term ageing of different devices is quantified.
+
+Introduction
+The most critical factor determining the suitability of deploying photovoltaics is the cost of energy, or service, delivered and not the power rating of the devices.
+Energy is a commodity and thus the aim is to generate electrical energy, or services, as cheaply as possible.
+There are two major contributors to the final cost of electricity produced by a system: its specific energy yield and the costs of purchase, operation and maintenance.
+This paper concentrates on the first, the specific energy yield.
+The focus is on thin film technologies, namely different modules produced from amorphous silicon (a-Si) and Copper Indium Gallium Diselenide (CIGS), in particular on the energy yields of these devices which are susceptible to variations in the operating environment, have a wider design window and less availability of field experience data than conventional wafer-based crystalline silicon (c-Si) devices.
+There are a large number of performance studies reported, some with the aim of understanding the behaviour of a single type of device and some to compare the energy yields of different devices.
+This paper focuses on behaviour at module level, which may be built up to include system effects such as mismatch, interconnection and power conversion components.
+PV modules are normally labelled with a power rating, which means the power measured at standard test conditions, STC, as defined in [1].
+This is called peak-power, denoted as Wp.
+STC represent rather favourable operating conditions for most PV technologies as it is an unrealistic combination of a cold module temperature (25°C) at a high irradiance (1000W/m2).
+Different modules, even of the same technology, generally have different rated powers and the energy yields must be made comparable in any inter-comparison study.
+This is achieved by using the specific yield (kWh/kWp).
+The specific yield is a key property of PV modules at a particular location and can be a major sales argument for competing PV module suppliers.
+Many manufacturers use energy yield measurements to show the quality of their modules against those of competitors, see e.g.
+[2].
+Some organisations, e.g.
+Photon, provide purportedly independent advice via the comparison of modules.
+There are also many independent investigations carried out by research institutes, e.g.
+[3-10], which also provide data sources to compare the energy yield of different technologies.
+The discussion is then often focussed on the determination of the 'best' technology and generalised claims on technologies are made as e.g.
+in [11].
+The aim in the following is to show technology-specific differences, but does not claim to identify the 'best' technology or superior devices, since this tends to be specific to each installation.
+It is also shown that the differences between different devices within any thin-film technology group are so significant that it is virtually impossible to make a decision of which technology to use in a system purely on the basis of material.
+The following demonstrates the differences in long term performance of different PV technologies, where 7 modules have been operated for more than 5 years in the current measurement system, with some having been operated for several years previously on another measurement system.
+The analysis is of the key influences on energy delivery of these specific devices and is not meant as a generalisation for any of the technologies in the test.
+In the case of amorphous silicon devices, the device structure, number of junctions, material of the junctions as well as manufacturing can impact on the energy yield significantly [12,13].
+Similar differences are seen in the case of polycrystalline thin film devices [14].
+These issues can be due to different manufacturing techniques or different device structures, where in the case of CdTe, for example, different window layers can result in significantly different quantum efficiencies [15].
+The number of design parameters of thin film devices is larger and the production processes are less standardised than for c-Si, resulting in wide variation in the specific energy yield of modules of the same material technology.
+One of the aims of this paper is to demonstrate the difference between optimisation for high module power and high specific yield.
+Optimisation for energy yield may not coincide with optimisation for STC rated power.
+As an example, the performance of a crystalline (c-Si) module is shown in Fig. 1 for a number of locations.
+A c-Si example is chosen because the performance of these devices is generally more familiar.
+The data used here is a matrix measurement as specified in [16] and the energy yield is calculated utilising an implementation of the proposed energy rating standard [17].
+The effects of doubling the series resistance or halving the temperature coefficient are shown.
+The modifications are applied to the power measurement matrix and the annual energy yield for a number of locations is calculated by drawing on local meteorological data sets, as indicated on the map in Fig. 1.
+The overlay boxes indicate the specific yields and performance ratios for the different modules (described in the box in the centre of the graph entitled 'key').
+The effects of the modifications in series resistance and temperature coefficients on the specific energy yield depend on the particular location environments and the device responses relative to STC.
+A practical example of such a modification is the number of front contact bus bars on wafer based technologies, e.g.
+changing from a two-bus bar design to a three-bus bar design for larger cells.
+The sub-optimal design, i.e. the one with two bus bars which causes a higher series resistance and thus high ohmic losses, typically has a lower power at STC but may have a higher specific energy yield than those with three bus bars due to relatively higher efficiency at lower irradiances.
+This is illustrated in Fig. 1 where the high resistance case delivers more energy for all sites but those with the highest annual irradiation.
+Thus the 'worse' device delivers a higher specific energy in the majority of locations.
+Similarly, an elevated temperature coefficient will have different effects in different locations, with relatively modest effects in cool to temperate climates.
+It can be seen that in certain environments the ranking in terms of performance ratio or specific energy yield changes for the different series resistances assumed or temperature coefficients.
+The analogous situation to the variation in series resistance for thin films would be for e.g.
+the width of a cell (see e.g.
+[18]) or the change in the thickness of the transparent conducting oxide or any other factor that affects the series resistance in the cell.
+The cell geometry is crucial for thin film devices as it can change the series resistance and fill factor significantly [19].
+The thickness (depth) of the device affects optical absorption but also degradation.
+Different window layers modify the spectral response and some devices undergo a shunt busting treatment, where all shunt paths are burnt out.
+Similarly, the temperature coefficient of more tuneable technology families such as CIGS can be influenced by the composition ratio of indium and gallium, i.e. a change of band gap, or simply material quality.
+This demonstrates the earlier point that devices of nominally the same material can have very different energy yields, which also needs to be considered in the context of the operating environment, and that one should not over-generalise for technologies.
+The aim in the following is thus to derive some general factors, which excludes device specifics and gives an estimated ranking of the importance of the different effects on the performance, thus identifying the optimisation potential for future devices.
+Accuracy of measurement inter-comparisons
+The accuracy of a measurement campaign depends strongly on the purpose of the experiment.
+It was already pointed out that many studies are carried out to quantify environmental effects for specific devices.
+In these studies only relative changes are required, i.e. device behaviour under different conditions is normalised to its own performance at STC.
+This has a different accuracy as compared to an inter-comparison between different devices.
+In these studies, any difference in performance between devices must be larger than the uncertainty of the measurement in order to be statistically meaningful and thus these boundaries are explored before presenting the actual performance data.
+Inter-comparison studies typically report kWh/kWp, sometimes with differences resolved to several decimal points, which is on figures typically in the range of 1000kWh/kWp.
+This is not significant, yet it is rare to find any consideration of measurement uncertainty which would clearly show this level of reporting.
+The uncertainty in the specific energy yield is split into two parts, the actual measurement of the energy yield and the determination of the power rating used for the normalisation.
+The former are typically in the range 1-2% [3,20,21], depending on whether the calibrations of electronic measurements were carried out using the same traceability chain or not.
+Not many uncertainty calculations to date take low signal strength into account, which increases electrical measurement uncertainty significantly [22] and thus should be included.
+The determination of kWp is typically carried out indoors using solar simulator and often involves a much higher uncertainty.
+This depends on the quality of the measurement system used for the characterisation, the PV material and device structure, appropriate reference devices and, significantly, on the competence of the measurement agent.
+A summary of the different characterisation issues is given in Table 1.
+Good review articles on general measurement issues have been recently published covering most of these in depth [23,24].
+The achievable uncertainty in Table 1 is estimated based on the review articles as well as an analysis of published round robin measurements [25,26].
+These considerations mean that the specific energy yields of thin film devices have 5-7% uncertainty attached to them, if carried out with the same traceability chain.
+However, many inter-comparisons are conducted without measuring the power ratings of the specific modules within the test.
+Then the module selection becomes crucial [21] as well as the variability of the modules within the supplier power bin.
+This can be ∼10% for thin film modules, although some manufacturers have tighter binning in their production.
+In the case of unmeasured modules it would be a reasonable approximation to attribute a 10-15% uncertainty in the yield inter-comparison of modules.
+The measurement uncertainty is such a key factor in any inter-comparison [21] on system level are dominated by it [27].
+In conclusion, it should be kept in mind that the overall experimental design and the power rating dominate the reliability of any inter-comparison [11,21].
+Data schedule
+The effects of the environment on device operation are investigated in this paper based on long term measurements carried out at Loughborough University's Centre for Renewable Energy Systems Technology (CREST).
+The measurements were taken using the COMS-3 (generation 3 of the CREST Outdoor Measurement System) [28], which are based on the roof of the Sir David Davies Building of Loughborough University.
+The system is depicted in Fig. 2.
+Some of the modules used for this report were new and some had been operated previously for several years on the COMS-2 measurement system located on another roof.
+The orientation of the test plane was altered in the relocation and so only data from the newer site is included here; however the point is made that these modules had already undergone outdoor exposure.
+The modules are all fully commercial, albeit some are of relatively small size.
+There is not, however, any influence of this on the long term device performance as can be seen later in the analysis.
+In the following, all data are normalised to the mean performance in 7-18 months of the measurement span used (i.e. the time in the new measurement system and allowing for initial stabilisation of the new modules).
+The data presented contains a wafer-based poly-crystalline silicon (c-Si) device as a reference, one single junction amorphous silicon device (a-Si-1), one double junction amorphous silicon device (a-Si-2), one triple junction amorphous silicon device (a-Si-3) and two Copper-Indium, Gallium-Diselenide devices (CIGS).
+Data availability for module characterisation over 5.5 years is very high, with only short down-times in January and May 2008.
+The environmental conditions seen by the modules are summarised in Fig. 3, which also demonstrate the availability of data.
+The rather unusually low irradiation in February 2010 is due to the rare occurrence of the pyranometer being covered by snow.
+There is an idiosyncratic month in June 2012, when very low irradiance has been recorded.
+This month was actually one of the worst Junes on record and thus is not a measurement issue.
+The measurement plane experiences maximum short-term irradiances above 1200W/m2 but much more frequently low-light conditions.
+Overall, a significant amount of energy is delivered at low irradiances: approximately 30% of annual electrical energy is generated at irradiances below 250W/m2 at this location.
+Observed module temperatures vary between -5°C and 65°C, indicating the cool climate of the UK.
+The irradiance-weighted module temperature varies, as shown in Fig. 3, between 15°C and 35°C, which is a rather narrow variation compared to other climatic zones.
+In the following, data concerning device performance is normalised to the second year of their operation on the current PV monitoring system.
+In the case of a-Si-1 this is after a low number of months, but does not affect the results shown here: comparing the performance of a-Si-1 and a-Si-2 shows similar trends over several years and demonstrates consistent observations as have been shown in e.g.
+[12] where similar samples were investigated.
+Unless otherwise stated, the analysis is carried out in terms of specific yield, as described in the introduction, and the performance ratio, PR, which is defined as the operating efficiency divided by the STC efficiency.
+The STC efficiency has been determined using the data collected in operating months 7-18 inclusively, using the 'southern' method described in [29].
+These 'harmonised procedures' were developed during the EU FP6 Programme PV Performance to reconcile the approaches taken by different laboratories to a unified method of extracting key performance parameters at STC-like conditions from long-term outdoor data sets.
+The data in the current paper has been prepared precisely following the European Harmonised Procedures protocol, with very minor additional data filtering accounting for local system knowledge (e.g. snow on the irradiance sensor or modules).
+The normalisation to months 7-18 is carried out nevertheless as one of intentions of this paper is to show the importance of long term behaviour of devices.
+Effects of the environment
+The initial question is whether or not there are significant differences in how the environment affects device performance for different technologies.
+The effects of irradiance and temperature are typically seen as the main drivers, with spectral effects being relevant for some wide band-gap materials such as amorphous silicon and particularly for multi-junction devices.
+The effects of environmental parameters are seen in the seasonal variation of the performance ratio, as plotted in Fig. 4, taking 2009 as an example.
+The technologies have distinct patterns in their seasonal behaviour.
+The c-Si device in this paper shows non-typical behaviour with no specific dip for the summer months as demonstrated in e.g.
+[30-32].
+This is due to the irradiance-weighted average operating temperature not being significantly elevated in Summer over STC temperatures (around 30°C, see Fig. 3), whereas in other locations or years (e.g. 2010 in Fig. 3) the temperature is higher.
+Thus, the relatively high temperature coefficient of c-Si does not affect the device performance as much as it would in other locations.
+CIGS-1 has a very high performance in the months of January and February in this particular year.
+This behaviour is recurrent for all years but not in the same magnitude.
+It seems to be a device specific feature and is investigated in more detail in the following analysis.
+Investigating the short-circuit current, as done in Section 4.2, strongly suggests that it is due to the spectrum and the behaviour may be attributed to a strongly blue-absorbing window layer and thus the device benefits from a relative shift towards the red in Winter time.
+The device tends to work better in low irradiance months and thus a reduction in operating efficiency with Summer irradiance is also a contribution to the prominence of these spikes.
+The effect was more pronounced in 2009 than in other years, thus a number of effects seem to have coincided.
+All amorphous silicon devices have a strong performance maximum in June-July-August, and a distinct minimum in December.
+This is unlikely to be an effect of temperature, as the lowest temperatures in Loughborough are typically in January and February and the highest temperatures are in August.
+As shown in Fig. 3, there is no significant change in operating temperature observable that would allow such a swing in performance.
+There is an active, on-going debate regarding the drivers for these seasonal improvements.
+The possible drivers are seasonal annealing (and degradation in winter time) and changes in the spectrum.
+Both effects will impact on the seasonal behaviour but their magnitude will be site dependent with the overall effect being comparable in most sites [33].
+It will be shown in Section 4.2 that for the UK this is most likely due to spectrum, with only small contributions that could be attributed to annealing.
+The other devices have a much more balanced behaviour in the course of the year, where different performance effects appear to balance.
+Irradiance and temperature
+The effect of low irradiance depends largely on the shunt resistance of the device and is a manufacturer-specific number.
+The crystalline silicon module included in this test does not boast an exceptionally high shunt resistance and thus low light behaviour is also not as good as in other devices of this type.
+However, given that this is a relatively old device, purchased at some time in 2000, this may have been more common at that time.
+In the case of thin film devices, there are ways to deal with shunt resistance and thus improve low light efficiency significantly.
+Some amorphous silicon devices are 'shunt busted', where an electrical current is pushed through the device to burn out all shunts in the bulk of the material, which essentially isolates the areas affected and increases shunt resistance.
+The effects of temperature have some dependence on the absorber as well as on the material quality.
+The effect of operating temperature can be understood by separating the effects into contributions in different device parameters:(1)Pmpp=ISCVOCFFwhere Pmpp is the maximum power point, ISC is the short circuit current, VOC is the open circuit voltage and FF is the fill factor of the device.
+In the case of short-circuit current and FF there is only a small variation with temperature for thin film and crystalline silicon devices, thus the majority of the temperature dependence occurs in the voltage, which can be described through using the open circuit voltage as derived from the one diode model.
+This is given as(2)ddTVOC≈ddT(nVTlnISCI0)where T is the device temperature, VT is the thermal voltage described as kT/q by the Boltzmann constant k and elemental charge q, I0 is the diode saturation current, and n is the ideality factor.
+This simplification overlooks the impact of varying values of the parasitic resistances, which also may have significant thermal changes [34-36], and any thermal influence on the voltage dependence of the photocurrent as exhibited e.g.
+by amorphous silicon [37-39].
+Taken in isolation, Eq.
+(2) seems to indicate that the behaviour of the open circuit voltage is positive with temperature, but it is in fact dominated by the temperature dependence of the diode saturation current, which is given as(3)I0=BTγexp(EGkT)where B is an empirical factor which is temperature independent and dominated by material quality, γ is an empirical factor depending on the specific loss mechanism that is dominating in the cell and EG is the band gap of the cell.
+The impact of irradiance and temperature can be investigated by binning the data according to these influences.
+The resulting matrix can then be used for modelling the annual yield for different technologies in various locations [16,40-42].
+The key uncertainties in this case become the normalisation to kWp and the input irradiance [14].
+To demonstrate the effects in device behaviour the outdoor data for 2009 was binned according to irradiance and temperature, as shown in Fig. 5 for two contrasting examples.
+The irradiance used was an effective irradiance calculated from the ISC of the module in order to separate intensity from the effects of spectrum and angle of incidence.
+This self-referencing approach is very effective in case of single-junction devices but less so in the case of the multi-junction devices, where the relationship between ISC and irradiance is no longer linear (and changes abruptly if the spectral conditions force a switchover in the current-limiting sub-cell).
+The CIGS-2 sample is the sample with the strongest irradiance dependence in the field of the modules tested here.
+It is a commercial module but has a rather 'round' I-V characteristic.
+This strong irradiance behaviour essentially contradicts the 'common knowledge' that thin film devices have excellent low light behaviour, as e.g.
+stated in [11].
+The CIGS-1 sample would in this plot look closer to the a-Si sample shown here without the low light spike, again demonstrating that it is not possible to generalise from one device to the entire material-classes final energy yield.
+CIGS-2 exhibits a slight decrease of efficiency with increasing temperature and more so with decreasing irradiance.
+The device has seen several years of outdoor performance beforehand, and newer devices may have better low light behaviour, but samples with similar behaviour are still in the marketplace.
+The amorphous silicon double-junction sample, on the other hand, shows a significant increase of efficiency towards very low irradiances.
+This may not enormously affect the annual yield, as a low proportion of annual irradiation is delivered at conditions below 100W/m2 irradiance.
+It has been shown elsewhere that this low light behaviour is largely due to changes in the incident spectrum [43], causing better current matching between the junctions under higher diffuse fraction conditions which are more likely at low irradiances.
+It has already been shown in Fig. 1 that different effects will impact with variable magnitude in different locations.
+The matrices shown in Fig. 5 were extracted for all modules and integrated with meteorological datasets generated using Meteonorm for the contrasting sites of Loughborough, UK (low irradiation and low ambient temperature) and Seville, Spain (high irradiance and temperature).
+Several simulations were carried out for different materials, one with the efficiency always kept at STC conditions (to normalise), one each with irradiance and temperature being kept at STC conditions with the other parameter varying and finally, one full simulation.
+Simulations were normalised to the STC simulation, i.e. the performance ratio variation between the different simulations is plotted in Fig. 6.
+It is noticeable that the PR for the majority of the devices is higher in the UK than in Spain.
+This agrees with other reported simulations, e.g.
+[41].
+The only device disagreeing is the CIGS-2 device, where the low irradiance behaviour seems to dominate the annual PR.
+The temperature coefficient of a-Si devices tends to be smaller than that of CIGS and c-Si devices as a-Si has the highest band gap and thus will be affected the least according to Eq.
+(3).
+The extraction of the temperature coefficient from outdoor data is rather complicated and may even appear positive [6,44,45].
+The temperature coefficient of amorphous silicon devices extracted from outdoor data is typically problematic as most groups measuring outdoors report a positive coefficient, e.g.
+[7], which contradicts the negative temperature coefficient reported in indoor measurements.
+This occurs typically when long term datasets are taken and the temperature coefficients are extracted from these.
+Short term measurement sub-sets tend to produce negative temperature coefficients.
+The difference is that long term measurements are affected by seasonal spectral changes and thus groups utilising spectral information for correction of even long term measurements tend to still report negative temperature coefficients [46,47].
+The complication of the temperature coefficient of a-Si devices makes the clear separation of these effects difficult and spectral and seasonal annealing effects be convolved also with the temperature effects.
+However, it shows that irradiance effect is not predictable for material classes, which is due to the different design options of thin film devices discussed in Section 1.
+The overall losses due to temperature and irradiance are, in dependence of location, between 5% - 15%.
+Spectrum
+It has been pointed out in the previous section that the spectrum can have a significant influence for amorphous silicon devices.
+The behaviour of devices will depend on the band gap of the absorber material and potentially on the window layer, where this is present.
+It is apparent from Fig. 7 that there is only a small spectral dependence for c-Si and CIGS devices.
+The absolute level depends on the normalisation, but in terms of relative changes in the generated short-circuit current, the effect accounts for about ±3% for CIGS and c-Si and +10% to -20% for a-Si devices.
+The overall impact on annual energy yield is slightly positive for a-Si devices and virtually zero for the other technologies.
+The detailed influence of the spectrum is obviously site dependent.
+Higher AM, which goes together with higher latitudes, result in redder spectra.
+Higher cloudiness results in bluer spectra.
+The air mass tends to have a larger effect than the cloudiness.
+It has been reported, however, that for sites such as Loughborough, amorphous silicon modules gain about 4.5% annually in energy production [45], while CIGS and c-Si do not gain significantly.
+However, seasonal variations, including the spectral impact, are the main source of uncertainty when it comes to the modelling of a-Si devices [14].
+The influence of the spectral effects is shown in Fig. 8 where the ratio of short circuit current over irradiance is plotted.
+This should be a constant for linear devices where the principle of superposition is applicable.
+Any deviations of this should be a spectral effect.
+It is clearly seen that both air-mass and clearness affect this ratio.
+Devices with different structures and/or different materials are affected differently as shown in Fig. 8 for a wide band gap a-Si device and a much narrower band gap material of CIGS.
+Change of material parameters
+There are several time-scales involved in performance variations of photovoltaic devices.
+In the short term, there is the direct influence of the environment as discussed in Section 4.
+In the mid-term there is the Staebler-Wronski effect for a-Si [48,49] or pre-conditioning for CIGS, which affects the annual energy prediction by less than 5% typically and are not further explored here.
+The effect for CIGS is slightly contradictory as there is no clarity of the time scales involved yet [4,50].
+There are also long-term gradual degradation effects which affect all device technologies [51].
+In many published discussions there are generalisations of technologies.
+It is shown below that such a general behaviour was not observed at CREST.
+The maximum power point data of all devices within an irradiance range of 650-750W/m2 have been extracted and corrected to 700W/m2 and 25°C using bi-linear interpolation.
+These power values are annotated as P700.
+This particular irradiance level was chosen as there is a statistically significant number of data points in each month of the year and thus fewer outliers to affect the analysis.
+The result is shown in Fig. 9 (top graph).
+To contrast power and energy, the monthly performance ratios are also plotted (bottom graph)Table 2.
+It is visually apparent that the long term behaviour of P700 and PR degradation are different.
+The initial year for the c-Si device shows an unusually low performance, which is due to an early problem with the monitoring system, rectified in February 2008.
+The effect of spectrum and annealing is clearly visible for the a-Si devices, while the behaviour of CIGS and c-Si devices is less affected by the seasons.
+It is also clear that within the device categories some real differences exist.
+A linear line has been fitted through each of the curves and the percentage rate of change over the long term has been calculated.
+The comparison of P700 and PR degradation is given in Table 3.
+The degradation of P700 is for most devices not so significant, most of the devices have not more than 0.65%/a degradation.
+The only exceptions are a-Si-1 and CIGS-1. a-Si-1 was a new device at the beginning of the study, so the degradation figure includes the initial Staebler-Wronski degradation despite any precondition being carried out.
+This means that the absolute degradation rate might be marginally affected by the initial SWE and a slightly lower rate might be observed over a longer period.
+The degradation of the devices is, however, higher than the rest as apparent from Fig. 10.
+It should be noted, however, that the PR degradation should be similarly affected but is even higher than the P700 degradation demonstrating the need for long-term energy yield estimation.
+CIGS-1 on the other hand is one of the oldest devices and exhibits unexpected over-performance in January/February which will affect the degradation to a small extent.
+It should be noted, however, that CIGS-1 is not representative for CIGS technologies in general as CIGS-2 behaves more stably, even if the overall performance ratio appears to be rather low.
+This is a feature of this particular device as it has an unusual low light behaviour (Fig. 5), which is the main contributor to the annual environmental losses (Fig. 6).
+This difference in behaviour confirms the earlier point that the degrees of freedom in the design of thin film devices result in very different energy delivery of devices of the same technology.
+The behaviour of the different a-Si devices is also well within typical warranty limits.
+There is however for most devices a trend that the PR degrades more than the power, which indicates that the energy yield is affected more than would be expected from a simple consideration of Pmpp degradation at STC or high irradiances, e.g. P700.
+The changes reported above depend strongly on the accuracy of the extraction of the parameters.
+An analysis of this is shown in Fig. 10, where the distribution of the annual P700 rating is shown.
+This power distribution analysis, i.e. probability density function (PDF) approach is further discussed in [52,53] and can be used for analysing the performance of outdoor modules.
+The shape, mathematical mean and deviation of the distributions give indications of any changes of devices as well as a clear indication of the quality of the power extraction.
+One would expect a normal distribution of the PDF if the extraction is carried out reliably.
+A widening of the PDF indicates that devices become more susceptible to changes in the environmental conditions and measurement uncertainties or changes between detector-response and that of the device become increasingly significant.
+The distributions obtained for the different modules and using entire years for the extraction of P700 are shown in Fig. 10.
+The distribution obtained for the crystalline device is much narrower than those of the thin film devices.
+This depends partially on the measurement of the irradiance: the reference sensor is a pyranometer (which has a slower response than the samples and is spectrally less selective with different angle of incidence effects).
+The distributions of the CIGS devices are on an average narrower than those of the a-Si devices but still wider than c-Si, which would also be largely due to the mismatch to the detectors.
+This gives a ranking in the ease of the characterisation of the devices.
+The width of the distributions in the a-Si case is determined by the magnitude of seasonal material changes and the change in the spectral match.
+a-Si multi-junction devices have the widest of all distributions.
+Device PDFs tend to be more variable with increasing age.
+The oldest device, a-Si-2, has by far the widest distribution.
+This seems to be indicating that especially in the case of a-Si, there is an increasing influence of seasonal material changes affecting device performance, i.e. the magnitude of the performance swing due to seasonal annealing and degradation is increasing and the matching of the junctions might be closer, thus the changes affect the short circuit current more.
+The extremely wide distributions of the multi-junction devices are due to different junction matching in the wide spectral ranges observed at Loughborough [54].
+The ageing of devices affects the energy yield significantly.
+Assuming that the degradation rate is maintained at the given rate, the overall power degradation of the devices with the minimum/maximum degradation over a 20-year module lifetime is 3%/35% respectively.
+The losses in annual energy generation are even higher for the majority of devices, leading to difference between the lifetime specific energy yield of different devices as much as 25%, assuming 25 year warranties, the current standard.
+In terms of the impact on energy yield, long-term degradation appears to dominate all other influences.
+Conclusions
+The energy generation of a number of different photovoltaic materials has been reviewed based on long term measurements carried out at CREST.
+Six modules are reviewed.
+It is demonstrated that it is not realistic to make global statements for specific technologies as different devices tend to have different behaviours in terms of response to the environment as well as in terms of energy delivery and stability.
+It is shown that the effect of irradiance on device performance is largely due to device design, while the temperature and spectral response are dominated by the band gap and material quality of the absorber layer.
+It is shown that the different environmental effects do not contribute more than 15% losses to the annual yield even in different locations.
+The precise allocation of effects varies in different climates, with maritime climates at mid- to high-latitude such as the UK having high performance ratios.
+It is demonstrated that when the energy yield of a module should be investigated either through modelling or through measurements, the long term behaviour can have a much more significant influence on the device productivity than the effect of the environment.
+A variation of 25% in life-time energy yield variations is possible.
+Currently much less is known about the impact of the environment on ageing than directly on the instantaneous performance.
+In terms of bankability of the modules, this appears to be a dangerous oversight as this may have a much higher effect on the profitability of a system than, for example, the response to operating temperature.
+It is shown that as soon as more than a single module is to be considered, one needs to include the measurement accuracy of the device characterisation into consideration to assure that any inter-comparisons result in reliable and useful numbers.
+It is also argued that sub-percentage deviations in the energy yield are not meaningful in the context of this uncertainty.
+In the case of inter-comparisons the magnitude of uncertainty hidden in the module measurement is larger than any single environmental effect.
+Acknowledgements
+The authors would like to acknowledge funding of several projects of the Research Councils UK (RCUK) through its Energy Programme as well as funding of the European Commission through various FP6 and FP7 programmes during which the underlying data has been funded.
+The analysis of the data has been funded through the a joint UK-India initiative in solar energy through a joint project "Stability and Performance of Photovoltaics (STAPP)" funded by Research Councils UK (RCUK) Energy Programme in UK (contract no: EP/H040331/1) and by Department of Science and Technology (DST) in India.
+Without this financial support, this contribution would not have been possible.
+

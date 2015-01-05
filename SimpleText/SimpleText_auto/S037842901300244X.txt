@@ -1,0 +1,242 @@
+Development of a pearl millet Striga-resistant genepool: Response to five cycles of recurrent selection under Striga-infested field conditions in West Africa
+
+Highlights
+•
+A Striga-resistant genepool was developed in West African cultivated pearl millet.
+•
+We examine the response of the diversified genepool to five cycles of selection.
+•
+Selection significantly increased panicle yield, Striga and downy mildew resistance.
+•
+The observed genetic variation and heritabilities enable further selection gains.
+•
+The derived varieties will contribute to integrated Striga control in West Africa.
+Abstract
+Striga hermonthica (Del.) Benth. is a persistent threat to pearl millet [Cenchrus americanus (L.) Morrone, comb.
+nov.] production, especially in West Africa.
+This study aimed at evaluating the response of a diversified pearl millet genepool to five cycles of recurrent selection targeting Striga resistance and panicle yield, and to a lesser extent downy mildew [Sclerospora graminicola (Sacc.) J.
+Schroet.] resistance.
+Two-hundred full-sib families (FS) representing the C5 selection cycle were evaluated together with the genepool parental landraces, experimental varieties derived from previous cycles and local checks in Striga-infested fields at Sadoré (Niger) and Cinzana (Mali).
+Substantial and mostly significant selection progress could be documented.
+The accumulated percentage gain from selection amounted to 51%/1% lower Striga infestation (measured by area under Striga number progress curve, ASNPC), 46%/62% lower downy mildew incidence, and 49%/31% higher panicle yield of the C5-FS compared to the mean of the genepool parents at Sadoré/Cinzana, respectively.
+Experimental varieties selected from previous cycles also revealed lower ASNPC and mostly higher yield compared to genepool parents at their selection sites.
+Significant genetic variation among the C5-FS and operative heritabilities of 76% (Cinzana), 84% (Sadoré) and 34% (combined across locations) for ASNPC will enable continued selection gain for Striga resistance.
+High genotype×environment interaction variances for all target traits suggest that different experimental varieties need to be extracted from the genepool for different sites.
+The genepool-derived varieties will be further validated on-farm and are expected to contribute to integrated Striga control in pearl millet in West Africa.
+
+Introduction
+Pearl millet [Cenchrus americanus (L.) Morrone, comb.
+nov.] (Chemisquy et al., 2010) is the staple food and fodder crop of millions of poor rural families in Africa and India (Hash et al., 2000; Senthilvel et al., 2008).
+In the arid and semi-arid regions where this cereal is cultivated, pearl millet plays an important role in food security.
+However, grain yields are generally low (circa 350-600kgha-1).
+Grain yield is limited by abiotic stresses like drought and low soil fertility, and biotic stresses such as downy mildew disease and the parasitic weed Striga.
+Striga hermonthica (Del.) Benth. is the most widespread and destructive witchweed affecting cereals.
+In the Striga-prone regions of sub-Saharan Western and Central Africa, S. hermonthica remains the major biotic and persistent threat to pearl millet production and productivity (Wilson et al., 2004).
+About 40% of the cereal producing areas is severely infested with Striga in sub-Saharan Africa (Gurney et al., 2006).
+Grain yield losses up to 100% have been reported in susceptible cereal cultivars under high infestation levels, particularly under drought conditions (Gurney et al., 2006; Ejeta, 2007; Amusan et al., 2008).
+Several options have been recommended for Striga control: hand weeding, herbicides, rotations of cash or trap crops with cereals, improved soil fertility, intercropping and biological control (Haussmann et al., 2000).
+However, the diversity of the farming systems and of the parasite have rendered the use of a single control method ineffective, leading to the development of integrated Striga control packages that combine several control measures (e.g., Badu-Apraku, 2010).
+Breeding cultivars that can withstand parasite infection is considered to be central to integrated approaches to Striga control in pearl millet.
+Employing host resistance to S. hermonthica is simple and economical for subsistence farmers to adopt (Ejeta, 2007; Menkir and Kling, 2007; Wilson et al., 2000).
+Inheritance of traits associated with resistance to Striga spp.
+has been reported for sorghum, maize and rice (Haussmann et al., 2001a, 2004; Amusan et al., 2008; Gurney et al., 2006).
+The low stimulation of S. asiatica seed germination has been reported to be under the control of a single recessive gene in the sorghum cultivars Framida, 555, SRN 6496, and SRN 39 (Hess and Ejeta, 1992; Ezeaku and Gupta, 2004).
+One major gene and several minor genes are involved in stimulation of S. hermonthica seed germination in sorghum (Haussmann et al., 2001a), and the major gene has recently been mapped (Satish et al., 2011).
+Field resistance to Striga in maize is considered a quantitatively inherited trait (Kim, 1994; Gethi and Smith, 2004; Amusan et al., 2008).
+The heredity of host-plant resistance to Striga in pearl millet is not well documented.
+Few pearl millet cultivars have been reported as partially resistant or tolerant to Striga, and resistance (or at least a lower level of susceptibility) in certain pearl millet materials was shown to be dominant (Ramaiah, 1987).
+However, the very existence of Striga resistance in cultivated pearl millet has been questioned by others (Chisi and Esele, 1997).
+Lack of precise and validated information about Striga resistance in pearl millet may be partially due to the fact that the pearl millet/S. hermonthica pathosystem is particularly complex.
+Both host and parasite are highly out-crossing species, which results in each plant in a pearl millet landrace, improved open-pollinated variety or genepool population having a different genotype and therefore carrying potentially different alleles for Striga resistance or susceptibility.
+Similarly, each S. hermonthica plant in a natural population carries potentially different alleles for virulence.
+Partial quantitative resistance to S. hermonthica was reported in wild pearl millet relatives from Africa (Wilson et al., 2000, 2004).
+However, from a breeder's point of view, it appears preferable to work within a dynamic and diversified genepool of cultivated pearl millets using recurrent selection methods as wild millet relatives carry many undesirable alleles that need to be eliminated, thereby slowing down selection progress.
+Downy mildew [caused by the oomycete Sclerospora graminicola (Sacc.) J.
+Schroet.] is a pseudo-fungal disease of pearl millet, causing up to 60% crop loss (Singh, 1990; Thakur et al., 2011) and needs to be considered in pearl millet improvement.
+Both Striga and downy mildew pathogens are highly variable, and different ecotypes can be present at different locations (Haussmann et al., 2001b; Thakur et al., 2006; Yoshida et al., 2010), underlining the need to perform selection at contrasting locations to exploit genotype×location interactions and/or identify stable varieties.
+According to our knowledge, there is no Striga-resistant pearl millet variety released in West Africa.
+To date, increased resistance to Striga through recurrent selection has not been reported for pearl millet.
+Since 2006, the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) in Niger, in partnership with the national agricultural research program in Mali (Institut d'Economie Rurale, IER), has conducted recurrent selection in a diversified pearl millet genepool to increase frequencies of desirable alleles for Striga and downy mildew resistance and panicle yield using two test sites in West Africa (Sadoré in Niger and Cinzana in Mali).
+In total, this genepool was subjected to five cycles of recurrent selection, and provides a unique opportunity to examine the effectiveness of recurrent selection for improving Striga and downy mildew resistance, and yield performance in cultivated pearl millet.
+The objectives of this study were (i) to describe the genepool development and selection process, (ii) to examine the response to five cycles of recurrent selection for panicle yield and resistance to S. hermonthica and downy mildew, (iii) to estimate quantitative-genetic parameters and predict possible future selection gains from the genepool's C5-Full-sib population.
+Materials and methods
+Striga-resistant genepool development
+The initial step for developing the pearl millet Striga-resistant genepool consisted of field evaluation of 64 pearl millet landraces that had been collected in Striga-infested fields jointly by IRD (the French Research Institute for Development) and ICRISAT in 2003 (Bezançon et al., 2009).
+The 64 landraces were evaluated in a four-replicate field trial under artificial Striga infestation at the ICRISAT-Sadoré research station (13°15′ N, 2°18′ E) in the 2005 rainy season.
+Six landraces were identified as less Striga-sensitive and relatively higher yielding (M141, M239, M029, M197, M017 and KBH).
+During the 2005/2006 off-season, both full-sib (FS) progenies (intra- and inter-population) and S1 (self-pollinated) progenies were created from these six selected genepool parents (Table 1).
+These progenies were subjected to the first cycle of evaluation in the 2006 rainy season in a four-replicate field trial at ICRISAT-Sadoré.
+Separate, artificially infested fields (S1 and S2, sown within two days interval) were used for evaluating FS and S1 progenies in this and the following years.
+Evaluation of Striga-resistant genepool progenies at Cinzana, Mali (13°17′ N, 5°56′ W) was started later in the 2008 rainy season in a naturally infested farmer's field near the station.
+This field had been carefully selected for strong and uniform Striga infestation in the previous year.
+An overview of the diversified Striga-resistant genepool development process is presented in Fig. 1.
+In the first and subsequent cycles, selection was based on the following criteria: above-average Striga resistance [i.e.
+below-average area under Striga number progress curve (ASNPC) (Haussmann et al., 2000) or Striga emergence supported by the progeny], above-average panicle yield, and below-average downy mildew incidence (DM) (number of infested hills recorded during plant tillering and updated after flowering, divided by the total number of hills after emergence, multiplied by 100).
+In later cycles also an overall agronomic suitability score was taken into account, and only entries with above-average scores were selected.
+The percentage of selected entries ranged from 13 to 54%, and depended on the number of entries tested, the number of superior entries identified for the desirable trait combinations, and the desire to have at least 50 progenies contributing to the next generation, in order to avoid inbreeding depression in subsequent generations of the genepool.
+In the following selection cycles, S1 and FS selection were alternated, with new FS progenies being created from selected S1 progenies and both new FS progenies and S1 progenies being created from the selected FS progenies.
+During each recombination step, crossing plans were established to assure that each selected progeny was crossed to several other selected progenies and also that each selected progeny contributed about the same number of progeny to the next generation.
+This was done to maximize the effective population size in the following generations of the genepool, and thereby to avoid inbreeding depression.
+The genepool was kept open, so that potentially interesting landraces (reported by farmers to be Striga resistant) were included as test entries during the evaluation cycles (all four-replicate field trials), and if above-average Striga resistance and acceptable yield performance was proven, the landrace was included in the FS and S1 creation for the next selection cycle.
+A total of five new germplasm were included at two recombination cycles (in C1 and C2, Fig. 1).
+Based on selections made from 2008 and 2009 rainy season data, the first experimental varieties were extracted from the genepool (after the 3rd and 4th selection cycle).
+For the experimental varieties derived in 2008, 15 best progenies at Sadoré with long panicles (EV08-Sad-LP), and 15 best progenies at Sadoré with shorter panicles (EV08-Sad-SP) were recombined during the 2008/2009 dry season.
+For the experimental varieties derived in 2009, the 15 best progenies from each site, Sadoré (EV09-Sad) and Cinzana (EV09-Cin), and from a combined analysis across two sites (EV09-Comb) were recombined.
+With the recombination of 15 best progenies, a higher selection intensity was applied for the experimental varieties compared to the one applied to the genepool.
+Only one improved population/genepool resulted from each selection cycle.
+The reasons for using S1 recurrent selection in combination with FS recurrent selection were the following: selection among S1 progenies gives higher chances to select for desirable recessive resistance alleles and has theoretically the advantage of larger genetic variance among the tested entries.
+The variable numbers of S1 and FS progenies included in each selection cycle (Table 1) were due to variable success in FS/S1 creation in the off-season nurseries - due to irrigation problems and concomitant heat stress, grasshopper damage or poor seed setting.
+A summary of each selection cycle including evaluated units, recombination units, heritability and trial mean is given in Table 1.
+Evaluation of selection progress after five selection cycles
+Genetic materials
+The test of selection progress after five selection cycles was integrated into the recurrent selection progeny evaluation process.
+A set of 200 C5-FS progenies were produced in the 2010/2011 dry season by recombining 56 FS progenies and 16 S1 progenies selected from the C4 evaluation cycle, and 3 experimental varieties (EV09-Sad, EV09-Cin and EV09-Comb).
+Remnant seeds of each selected progeny were sown in a one-row plot of seven hills and crosses were performed according to a defined crossing plan to assure that each progeny was crossed to at least three different selected progenies and that each progeny contributed the same number of progenies (about three) to the next generation.
+For the present study, the 200 C5 derived FS families together with 20 controls [including genepool parental varieties, 5 experimental varieties (see above) and a set of 8 agronomically elite open-pollinated varieties (OPVs)] were evaluated for Striga resistance during the 2011 rainy season.
+These elite varieties have acceptable levels of resistance to downy mildew and wide adaptability but are generally susceptible to Striga.
+Field experiment procedures
+The experiment was conducted at two sites: in Niger under artificial Striga infestation at ICRISAT-Sadoré (13°15′ N, 2°18′ E) and in Mali under naturally highly Striga-infested field conditions near IER-Cinzana (13°17′ N, 5°56′ W).
+These environments are contrasting in terms of ecology (Sahelian vs Sudanian), and soil type.
+Randomized incomplete block designs with four replications were used in each test environment.
+Each full-sib family was grown in a single-row plot of 3m length with inter-row spacing of 1.60m of distance to provide more light for Striga emergence, enough space for Striga counting and to reduce border effects (Haussmann et al., 2000).
+Within plot-rows, distance between hills was 0.50m, providing seven hills per row.
+Initially about 15 seeds were sown per hill.
+The hills were then thinned to two plants per hill three weeks after emergence.
+Fertilization of the trials was performed during soil preparation when 50kgha-1 of 15-15-15 NPK fertilizer was applied.
+Weeds other than Striga were eliminated by hand on a regular basis to keep the field clean for Striga observations.
+The Striga seeds used for artificial infestation at ICRISAT-Sadoré were collected from pearl millet field trials there and farmers' fields near Sadoré at the end of previous seasons and had been stored for at least one year to break seed dormancy.
+The Striga seeds were mixed with finely sieved sand that served as carrier and ensured uniform infestation (Kim, 1991).
+About 50,000 viable Striga seeds were applied per m2 to ensure a sufficiently high Striga pressure (Haussmann et al., 2000).
+Measured variables
+Data were collected at both sites on a plot basis for traits related to pearl millet phenological and agronomical characters, downy mildew (DM) incidence, and Striga resistance.
+The flowering time (FLO) in days after sowing (das) was recorded when 50% of the plants had exerted stigmas.
+During harvest, the number of productive panicles was counted and weighed to determine the panicle yield (HYD) (gm-2).
+The number of hills per plot with downy mildew was recorded at tillering, verified/adjusted after flowering and used for calculating the downy mildew (DM) incidence (in percentage): number of infested hills, divided by the total number of hills after emergence, multiplied by 100.
+In addition, the number of emerged Striga plants for each plot was recorded at 67, 101 and 121 das.
+Successive Striga counts were then used to calculate the "Area under Striga Number Progress Curve" (ASNPC) (Haussmann et al., 2000):ASNPC=∑i=0n-1Yi+Y(i+1)2(t(i+1)-ti)where n is the number of Striga assessment dates, Yi the Striga count at the ith assessment date, ti the days after sowing at the ith assessment date, t0 is 0, and Y0 is 0.
+Low ASNPC means values indicate resistance, and high values susceptibility to Striga.
+Statistical analysis
+Analysis of variance (ANOVA) was performed for all measured traits following the incomplete block design.
+Data from the two locations (Sadoré and Cinzana) were analyzed separately and then the adjusted means of each environment were used for combined analysis.
+The statistical software PLABSTAT v3A (Utz, 2005) was used for data analysis.
+The discrete downy mildew data were subjected to a log-transformation to meet ANOVA assumptions.
+The binomial distribution with the Logit function was used for analyzing the transformed downy mildew data.
+The generalized linear model (GLM) command implemented in the restricted maximum likelihood (REML) package from the GenStat 14th Ed. software (Payne et al., 2011) were used for the analysis.
+Back-transformed means were estimated.
+All sources of variation, entries, replications and incomplete blocks within replications, were considered as random effects.
+For further analysis, the C5 full-sib families (C5-Full-sib), genepool parent (Parent), agronomic controls (Control) and experimental varieties (EVs) were separated into different groups.
+t-tests were performed for paired group means comparisons by dividing the means difference with their standard error of difference.
+The selection differential (S) is the difference between the mean of selected units and the overall mean of the base population.
+Estimates of broad-sense heritability (h2) on a plot basis in a replicated trial were calculated for all traits following the formula described by Haussmann et al. (2000).
+Predicted gain was calculated by multiplying heritability by the selection differential (Falconer, 1981).
+The percentage gain per cycle (G%) was calculated following the formula:G%=(X¯n-X¯0)/X¯0×100n,where G% is the average percentage gain per cycle, X¯n is the mean at latest selection cycle, X¯0 is the genepool parents mean, and n is the number of selection cycles.
+Results
+Assessment of the genepool development: S1 vs FS selection
+Due to the genetic load of the pearl millet landraces used (which were never self-pollinated before), the comparatively poorer seedling establishment of the S1 materials turned out to be a disadvantage in the S1 selection process, leading to higher experimental errors (lower heritabilities) in the S1 in the C0, C2 and C4 trials, especially for ASNPC and DM (Table 1).
+In the C0 evaluation, S1 progenies flowered three weeks later than the FS.
+This was due to poorer S1 plant establishment after a severe drought that occurred after planting.
+Relatively high panicle yield (484gm-2) was recorded in C3 in the FS, which was due to the favorable 2009 rainy season conditions.
+Since both S1 and FS progenies were evaluated in separate field trials, and since both S1 and FS selection schemes were combined, a real comparison of means and selection efficiencies is not possible in this study.
+Entry means, genetic differentiation and correlations among traits
+Mean performance of the 200 C5-FS for panicle yield (HYD) amounted to 151gm-2 at Sadoré, which was higher than the mean panicle yield recorded at Cinzana (130gm-2) and across the two sites (141gm-2) (Table 2).
+Mean values for the area under Striga number progress curve (ASNPC) were lower at Cinzana (246.9) than at Sadoré (1068.1) (Table 2).
+Highly significant differences (P<0.01) were detected among the genotypes for flowering time (FLO), panicle yield (HYD), ASNPC and downy mildew incidence (DM) from the single-site analyses of variance (Table 2).
+Excellent plot-based heritabilities of 84 and 76% were estimated for ASNPC at Sadoré and Cinzana, respectively.
+Results from the combined analyses of variance showed highly significant differences (P<0.01) among genotypes (G), environments (E) (data not shown) and genotype-by-environment (G×E) interactions for all the measured traits.
+G×E interaction variances (VG×E) were larger than genetic variances (VG) for the Striga and downy mildew resistance-related traits.
+In contrast, the genetic variance component of pearl millet flowering time was higher and the one for panicle yield similar to the respective G×E variance component (Table 2).
+For the present trial, estimates of broad-sense heritability (h2) from the combined analysis were high for flowering time (h2=71%) and panicle yield (h2=50%).
+Moderate heritability values (34% and 38%) were observed for Striga and downy mildew resistance traits (Table 2), due to the larger G×E variance components for these traits.
+High panicle yield was significantly but only weakly associated with resistance to Striga (coefficient of correlation r=-0.38** and -0.15*) and downy mildew (r=-0.34** and -0.22**) for Sadoré and Cinzana, respectively.
+Combined across the two sites, high panicle yield was also weakly and significantly associated with later flowering.
+Neither Striga resistance nor downy mildew resistance were related to flowering time.
+Test of selection progress
+Under Sadoré conditions, the mean of the full-sib families (FS) created from the C5 selection cycle was significantly lower (P<0.01) than the mean of the genepool parents (Parent) for both Striga resistance (ASNPC: -51%) and downy mildew incidence (DM: -46%) (Table 3).
+In other words, the advanced C5-FS population presents significantly better resistance to Striga and downy mildew than the genepool parental varieties from which it was derived.
+Panicle yield was significantly higher (+49%) in the FS progenies compared to the genepool parental population.
+Similarly, significant selection gains were observed at Cinzana for panicle yield (+31%) and downy mildew incidence (-62%), but not for Striga resistance, where the C5-FS mean for area under Striga number progress curve was only 1% lower than the Parent group, and the observed difference was statistically non-significant.
+At both sites, no significant difference was detected for flowering time between FS and Parent groups (Table 3), indicating that the selection for the other traits did not result in flowering time changes in the genepool.
+The average realized percentage gain from selection for Striga resistance (ASNPC) was -10%cycle-1 at Sadoré and -0.3%cycle-1 at Cinzana, downy mildew susceptibility decreased by 9%cycle-1 at Sadoré and 21%cycle-1 at Cinzana.
+The selection gain for panicle yield was equal at both Sadoré and Cinzana, where 10%cycle-1 was quantified (Table 3).
+Under Sadoré conditions, most experimental varieties (EVs) derived from the genepool in 2008 (3rd selection cycle) or 2009 (4th selection cycle) present better resistance to Striga and downy mildew than the genepool parental population, except EV09-Cin (for ASNPC), EV08-Sad-SP and EV09-Comb (for DM) (Table 3).
+All EVs were higher yielding compared to the genepool parents, except for EV08-Sad-SP.
+At Cinzana, the derived varieties EV08-Sad-SP, EV09-Cin and EV09-Comb showed lower mean for ASNPC, while all EVs were more resistant to downy mildew and higher yielding compared to the Parent group, except for EV09-Cin (for HYD).
+At both sites, only non-significant changes were observed between EVs and genepool parental means for flowering time.
+Under both sites, the Control group supported the highest Striga damage and lowest panicle yield, while its performance was better at Sadoré for downy mildew resistance compared to the genepool parental means (Table 3).
+Predicted response from future selection
+Considering the 200 C5-FS as the base population for future selection, the significant genetic variation and moderate to high heritabilities for the target traits at both sites individually and in the combined analysis should enable further positive response to selection.
+Predicted gainscycle-1 for Striga resistance (recorded on the area under Striga number progress curve) were -572, -81 and -122 for Sadoré, Cinzana and across the two sites, respectively, and ranged from -3% to -6% for downy mildew incidence (Table 4).
+For both traits, the expected gainscycle-1 at Sadoré were remarkably higher compared to the two other conditions.
+Predicted gains cycle-1 for panicle yield were similar between Sadoré and across the two sites (12gm-2cycle-1).
+Comparatively smaller but positive genetic gains for resistance to Striga and downy mildew and for increases in panicle yield may therefore be expected under Cinzana conditions (Table 4).
+Results from the combined analyses of variance revealed a high amount of G×E interaction variance especially for resistance to Striga and downy mildew, but also for panicle yield and lower heritabilities for ASNPC and DM compared to the single-site analysis (Table 2).
+These suggest that selection for specific adaptation to each of the two test sites may be more promising than selection for wide adaptation across these two sites.
+This means that different FS families need to be selected and recombined for the two contrasting sites Sadoré and Cinzana to maximize gains from selection and to derive the best varieties for each location.
+Discussion
+Recurrent selection: an effective tool for enhancing Striga resistance in pearl millet
+Recurrent selection in broad-based populations can be used to enhance quantitative resistance to a target pest or disease.
+Such quantitative resistance, which is due to many gene loci with smaller effects, is usually more durable than monogenic, qualitative resistance (Berner et al., 1995; Menkir and Kling, 2007).
+According to our knowledge, this is the first report describing significant progress from recurrent selection for quantitative Striga resistance in pearl millet.
+Simultaneously, Striga resistance, downy mildew resistance and panicle yield were improved while maintaining flowering time which determines general adaptation to the target sites.
+The rigorous evaluation under field conditions using four replicates and ASNPC as combined measure for Striga resistance (resulting in lower experimental error and higher broad-sense heritabilities), and the large number of progeny evaluated in each generation seem to be effective for improving the genepool.
+Self-pollinated progeny evaluation is expected to lead to better genetic differentiation, but the S1 evaluation partially suffered from poor plant establishment (seedling inbreeding depression), resulting in lower heritabilities in some seasons.
+The FS selection, on the other hand, has less probability to identify and move forward desirable recessive alleles compared to S1 selection, but has the advantage of the test entries being in their natural, highly heterozygous state.
+Since both selection schemes were combined which saved time (no additional cycle needed for recombination of S1s), a more detailed comparison of selection efficiencies in S1 vs FS selection is not possible in this study.
+Based on the present findings, the recurrent selection objective - improving the Striga-resistant genepool mean while maintaining the genetic variability - is largely attained by the fifth selection cycle, especially at Sadoré.
+Different recurrent selection methods have been reported by Rattunde and Witcombe (1993) to improve substantially grain yield and resistance to downy mildew in five pearl millet composites.
+These results are in line with our findings which equally revealed large gains over five cycles of selection.
+Also, recurrent selection has been used successfully in pearl millet to improve downy mildew resistance, grain yield and other agronomic traits (e.g., Weltzien and King, 1995; Govil et al., 1982; Bidinger and Raju, 2000; Baskaran et al., 2009).
+In Nigeria, recurrent selection of maize for grain yield and Striga resistance had been reported to be successful (Badu-Apraku, 2010; Menkir and Kling, 2007).
+The lower measured response from selection for Striga resistance at Cinzana may be attributed to the following factors:-
+predominance of selection at Sadoré, i.e., lower number and later start of the genepool evaluations at Cinzana;
+-
+selection of the genepool parents mainly from Niger;
+-
+significant G×E interaction for ASNPC across Sadoré and Cinzana, combined with predominance of selection at Sadoré might have resulted in specific adaptation of the genepool to the Striga population at Sadoré;
+-
+fluctuations in selection pressure, resulting from year-to-year variation in the level of parasite infestation, especially under the conditions of natural Striga infestation as was the case at Cinzana (artificial Striga infestation might therefore be generally preferable, but requires strict isolation to prevent any Striga seed to migrate; but such isolation was not possible at Cinzana; obviously, artificial infestation cannot be recommended if farmers' fields are used during evaluation - here careful field selection in the previous year is key to success);
+-
+the low Striga infestation level at Cinzana during the evaluation of selection progress, which might have been sub-optimal for differentiation among the tested entries - but this is less probable since the estimated plot-based heritability was sufficiently high at Cinzana during the test year.
+Future uses of the Striga-resistant pearl millet genepool
+In the present study, marked predicted responses were estimated for all target traits, suggesting that enhanced Striga and downy mildew resistance, as well as increased panicle yield are expected also in the next cycle of selection.
+The fact that useful genetic variation still exists in the population may be due to the introgression of further resistant germplasm in one selection cycle and maintenance of a large enough effective population size in the genepool in each selection cycle.
+The broad-based genepool can therefore serve as base population for further selection in collaborative breeding programs and for extraction of new experimental varieties with specific adaptation to different target sites.
+Experimental varieties have been and are being extracted from the genepool for Sadoré and Cinzana, and are being also validated in on-farm trials.
+The genepool may also be shared with other pearl millet breeders in West Africa, especially Burkina Faso, Nigeria, and Senegal, so that the resistance is validated and new experimental varieties are extracted for new target sites in those countries.
+Such cultivars with quantitative resistance may play an important role in integrated Striga control in pearl millet in West Africa.
+Need for selection for specific adaptation
+The presence of significant G×E interaction for Striga resistance and other traits in our study may be attributed to the differences in environmental factors such as soil type, amount of rainfall (Sahelian vs Sudanian), and putative differences for virulence between the parasite populations at Sadoré and Cinzana.
+The total observed G×E interaction consists of interactions of the pearl millet genepool with environmental factors of the test locations, interactions between pearl millet genepool and S. hermonthica populations at the two test sites and the threefold interaction between pearl millet genepool, S. hermonthica population and environmental factors, but these different types of interaction effects cannot be separated in field trials due to quarantine regulations.
+One alternative would be to move beyond the two sites (Cinzana and Sadoré) and rather test at numerous environments in several countries in order to perform an AMMI analysis, a powerful tool for understanding complex G×E interactions.
+However, the fact that the G×E interaction variances were considerably higher than the genetic variances for resistance to Striga and downy mildew suggests that best FS families differ between the two evaluation environments, and that the best FS identified at each site should be recombined separately to create experimental varieties with specific adaptation to each site and its broader environmental context.
+Also Badu-Apraku (2010) found significant G×E interaction for grain yield and Striga resistance parameters in an extra-early maturing maize population in three test locations in Nigeria, and Haussmann et al. (2001b) reported highly significant G×E interaction for grain yield and area under Striga severity progress curve (ASVPC, a measure of Striga emergence and vigor throughout the season) in African sorghum trials.
+Both studies therefore also support the need to select for specific adaptation in Striga resistance breeding, especially if the target sites differ substantially from each other and represent putative different Striga ecotypes.
+Future prospects for Striga resistance breeding and management in pearl millet
+Intra-species genetic diversity has been reported in S. hermonthica (Yoshida et al., 2010), indicating that the parasite is highly variable, and therefore responds to selection pressure rapidly.
+The complex nature of the pathosystem and high adaptability of Striga to a changing host population likely requires that Striga-resistant varieties be managed and combined with integrated Striga control measures, to hinder the parasite to overcome the resistance.
+Genetically heterogeneous open-pollinated varieties where different plants carry different resistance alleles may contribute to stability of resistance over time, because they result in non-uniform selection pressure on the parasite.
+Maintenance breeding of such Striga-resistant open-pollinated varieties may need to be done under Striga infested conditions, in order to maintain and improve their resistance.
+This is especially true in case there are any "costs of resistance" that lead to lower performance of resistant plants in the absence of Striga.
+To our knowledge, any costs of Striga resistance - if existent at all - are not yet well understood.
+Several mechanisms have been implicated in lowering Striga parasitism, including low germination stimulant production (Hess et al., 1992; Ejeta and Butler, 1993; Haussmann et al., 2001a; Jamil et al., 2011), reduced capacity to elicit haustorial induction of Striga (Gurney et al., 2003; Rich et al., 2004), mechanical barriers (Maiti et al., 1984; Gurney et al., 2006; Amusan et al., 2008; Yoshida and Shirasu, 2009), and hypersensitive response (Mohamed et al., 2003; Cissoko et al., 2011).
+Ejeta et al. (2000) had also summarized other potential post-germination mechanisms of resistance that impede attachment and emergence of Striga in crops.
+Whether the observed gains in Striga resistance with selection in the pearl millet Striga-resistant genepool are due to these or other mechanisms is yet to be determined.
+A better understanding of Striga resistance mechanisms in pearl millet and development of appropriate, cost-efficient screening procedures for component traits could render future recurrent selection more efficient.
+The development of a marker-assisted population improvement scheme for enhancing quantitative Striga resistance in pearl millet could help render selection even more effective.
+Due to decreasing genotyping costs (Elshire et al., 2011), larger numbers of entries could be screened for markers linked to resistance alleles, followed by field phenotyping of a selected subset of the entries, and this would result in an increased effective selection intensity compared to phenotypic selection alone.
+The so-called "non-Striga years" (years with overall limited Striga infestation) that often lead to poor differentiation among the tested entries would no longer hinder selection progress as much as they do at present, because selection would be done using the markers.
+In years when the field phenotyping is successful in differentiating the tested entries, the results can be used to re-calibrate the marker-based selection index.
+Efforts are presently underway in our group to develop such a marker-assisted FS population improvement scheme for Striga resistance in pearl millet.
+Conclusions
+Five cycles of phenotypic recurrent selection in a diversified pearl millet genepool resulted in significant improvement for Striga and downy mildew resistance, and increased panicle yield.
+Significant genetic variance and sufficiently large broad-sense heritabilities in the C5 population indicate good prospects for further selection within and extraction of new Striga-resistant experimental varieties out of this genepool.
+Large G×E interactions observed in the present Striga resistance trials underline the need for multi-location testing to develop new varietal options with specific adaptation to contrasting target environments.
+Because of the Striga variability, resistant varieties need to be carefully managed and combined with other integrated Striga control measures, in order to hinder the parasite to overcome the deployed resistance.
+Acknowledgements
+This work has been undertaken as part of the CGIAR Research Program on DrylandCereals.
+The financial support of the McKnight Foundation is gratefully acknowledged (ICRISAT grants no.
+06-14 and 10-134).
+This research was conducted at ICRISAT-Sadoré and IER-Cinzana; the authors express their appreciation to Boubé Guida, Hamadou Boubé, Adama Traoré and all other field assistants at Sadoré and Cinzana for their great help with the experiments.
+Our grateful thanks are extended to Dr. Roger Stern and Zobinou Mawusi (Reading University, UK) for their valuable statistical assistance, and to the resource persons of the e-writeshop organized by the Collaborative Crop Research Program of the McKnight Foundation.
+Finally, this publication was made possible through support provided by the IRD-DSF to the first author.
+

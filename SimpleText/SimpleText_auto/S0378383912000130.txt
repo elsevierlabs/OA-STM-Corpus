@@ -1,0 +1,359 @@
+Numerical model of swash motion and air entrapment within coarse-grained beaches
+
+Abstract
+The paper presents a numerical model for bore-driven swash on permeable coarse-grained beaches.
+The surface flow module is modelled using the non-linear shallow water equations (NLSWEs), solved using the Godunov-based finite volume ADER scheme, which is suitable for handling steep bores as well as large source terms in the NLSWEs.
+The subsurface flow comprises: (i) infiltration and exfiltration modelled as vertical piston-like flow, (ii) horizontal pore-air movement within the unsaturated region of the beach, (iii) the horizontal groundwater flow.
+Model predictions of the surface and subsurface flow are in good agreement with measurements from large-scale laboratory experiments for swash on permeable, immobile beaches.
+In these simulations air velocity was sufficiently small to justify using Darcy's resistance law for the air flow, whereas the quadratic Forchheimer law had to be used for the infiltration and groundwater flow.
+The validated numerical model provides insight into the surface-subsurface water exchange for bore-driven swash on coarse-grained beaches.
+The impact of air entrapped between the wetting front and the groundwater level on the water exchange is examined in particular.
+Highlights
+► We model key mechanisms of the water exchange between swash and subsurface.
+► Focus is on filtration and pore-air pressure build-up within the unsaturated beach.
+► Validation is carried out with measurements from large-scale laboratory experiments.
+► Swash model is consistent with experimental results on two coarse-grained beaches.
+► The insights contribute to better understanding and modelling of key swash processes.
+
+Introduction
+Bore-driven swash on unsaturated coarse-grained beaches generates several interacting physical processes: surface flow over the beach face, infiltration into the initially unsaturated part of the beach, air entrapment below the wetting front (Steenhauer et al., 2011a) and groundwater flow.
+Surface flow is commonly modelled using the Non-Linear Shallow Water Equations (NLSWEs); examples of such models are reviewed in Brocchini and Dodd (2008).
+Many swash models account for groundwater flow (Clarke et al., 2004; Lara et al., 2006; Van Gent, 1994; Wurjanto and Kobayashi, 1993), but few include simulation of water infiltration into the unsaturated part of the beach (Dodd et al., 2008; Packwood, 1983; Steenhauer et al., 2011b), and, to the authors' knowledge, none simulates air movement within the beach.
+However, the field investigations of Horn (2002, 2006) and a recent laboratory study by Steenhauer et al. (2011a) have shown that air entrapment can significantly impact on infiltration and exfiltration processes in natural beaches.
+This paper presents a numerical model of bore-driven swash, including subsurface flow, for coarse-grained beaches.
+The model accounts for all relevant physical processes, namely the surface flow, infiltration and exfiltration, pore-air movement and groundwater flow.
+Model predictions are compared with the detailed surface and subsurface flow measurements of Steenhauer et al. (2011a).
+The paper is organised as follows.
+Section 2 describes the numerical model for bore-driven swash on permeable coarse-grained beaches, focussing in particular on the simulation of pore-air pressure and the groundwater behaviour.
+In Section 3 experimental results are compared to numerical results giving an assessment of the capability of the model formulations.
+The main conclusions are summarised in Section 4.
+Model description
+The conceptual model of bore-driven swash on coarse-grained beaches is based on the experimental findings of Steenhauer et al. (2011a), who used a large-scale swash rig to measure the time- and cross-shore-varying surface and subsurface flow characteristics for large-scale bore-driven swash on steep, coarse-grained beaches.
+A definition sketch and the relevant flow quantities are shown in Fig. 1.•
+The surface flow is described by the NLSWEs.
+The corresponding module calculates flow depth, h, and depth-averaged horizontal velocity, u.
+•
+The infiltration/exfiltration is modelled as one-dimensional, vertical, piston-like movement.
+In the uprush (Fig. 1, top panel) the surface water covers the beach surface so the 'piston' extends between the beach surface and the wetting front (a sharp boundary between the saturated and the unsaturated zones within the beach).
+In the backwash the surface water depth falls to zero, but the 'piston' continues to move in the subsurface.
+It is possible that by that time pore-air pressure below the 'piston' has sufficiently built up to reverse its direction and push it upwards, hence causing exfiltration.
+Otherwise, the 'piston' continues to move downwards and another sharp interface called the 'wetting tail' forms on the top of the 'piston' (Fig. 1, bottom panel).
+The height of the 'piston' is called the saturated thickness and is denoted hf.
+The levels of the wetting front and tail are denoted zf and zt respectively, and the volumetric flux (discharge per unit plan area) is denoted q, with positive sign in the case of downward flow.
+•
+The air flow module simulates one-dimensional migration of air in the horizontal direction, i.e. the balance equations are integrated over the thickness of the unsaturated zone, ha.
+The air is considered compressible.
+The air pressure, density and discharge are denoted pa, ρa and Qa respectively.
+•
+The groundwater flow module simulates one-dimensional movement of groundwater in the horizontal direction.
+The balance equations are integrated over the groundwater thickness, hη.
+In the lower region of the beach the 'piston' has merged with the groundwater, so the whole depth of the beach is saturated.
+In this region we have introduced an imaginary boundary (a dashed line in Fig. 1), where the (nearly) vertical flow (above the boundary) is converted into quasi-horizontal groundwater flow (below the boundary).
+The imaginary boundary meets with the groundwater table at the most shoreward fully saturated cross-section of the beach, where the wetting front has just reached the groundwater table.
+Beyond this location groundwater flow has a free surface, i.e. it is unconfined.
+The surface and subsurface models are coupled: they exchange volume and momentum via corresponding source terms in the volume and momentum balance equations.
+The flow variables in the surface and subsurface models are calculated at every spatial step and at every time-step across the swash zone.
+The model uses the horizontal x-coordinate and vertical z-coordinate for both surface and subsurface flow models with the origin set at the initial shoreline position (Fig. 1).
+The conceptual model describes all relevant processes by one-dimensional models.
+As mentioned earlier, the suitability of the NLSWEs for modelling the surface flow in the swash zone is well established.
+The significant part of bore excursion extends over an initially unsaturated beach.
+The experimental results of Steenhauer et al. (2011a) have shown that infiltration into the unsaturated zone is predominantly vertical.
+The same study has also demonstrated that air pressure below the wetting front is approximately constant across ha (height of the unsaturated beach, Fig. 1), so that the direction of air movement is predominantly horizontal.
+Our model assumes that air movement remains horizontal beyond the location of maximum swash run-up, where this assumption is less justified.
+However, the vertical air movement is represented as a source term.
+Similarly, groundwater movement is indeed reasonably close to being one-dimensional in the region where the wetting front has not yet reached the groundwater table, but the assumption of one-dimensional horizontal flow is less justified for the region where the beach is fully saturated.
+Although the assumptions of flow one-dimensionality are not fully justified everywhere in the model, the model captures the main features of swash on coarse-grained beaches well, including the air pressure build-up and subsequent shoreward migration.
+It must be pointed out that our model, as well as the experimental results of Steenhauer et al. (2011a), apply for conditions where the incident bore does not vary in the long-shore direction, which means that air trapped below the wetting front and above the groundwater table, cannot escape in the long-shore direction.
+Surface flow
+The surface flow model is based on the NLSWEs.
+The continuity equation and the momentum equation of the NLSWEs are expressed in conservative form:(1)∂h∂t+∂uh∂x=-q(2)∂uh∂t+∂u2h∂x+∂(12gh2)∂x=-τ0ρ-ghtanγwhere h is the water depth, u is the depth-averaged horizontal velocity, q (m/s) is the volume flux through the beach surface, g is the gravitational acceleration, ρ is the density and γ is the bed slope (Fig. 1).
+The volume flux q transfers volume between surface and subsurface flows, and hence provides coupling of the surface and subsurface simulation modules.
+The details of this coupling are presented later.
+The volume flux q also transfers horizontal momentum between the surface and subsurface flow.
+However, in this model it was assumed that coarse grains at the beach surface fully absorb the fluid momentum, so the corresponding term in the momentum equation is omitted.
+The first term on the right-hand side of the momentum equation denotes the bed shear stress and is replaced by a simple quadratic parametrisation as(3)τ0ρ=12fu|u|where f is the friction coefficient.
+The NLSWEs are solved using the Godunov-based finite volume ADER scheme (Castro and Toro, 2008; Titarev and Toro, 2002; Toro and Titarev, 2006).
+The details of the scheme and numerical solution for the surface flow are presented in Steenhauer et al. (2011b).
+Vertical filtration
+When a bore arrives at an initially unsaturated region of the beach it generates nearly vertical piston-like downwards flow, which continues throughout the whole swash cycle.
+Depending on the x-location and the stage within the swash cycle, the 'piston' can extend between (Fig. 1): (i) the beach surface and the wetting front; (ii) the wetting tail and the wetting front; (iii) the beach surface and the imaginary boundary (the dashed line in Fig. 1); (iv) the wetting tail and the imaginary boundary.
+In order to evaluate the hydraulic gradient which drives the vertical filtration we first define the fluid potential for the upper and lower end of the 'piston'.
+These can be expressed, in units of pressure, as:(4)ψt={pA+ρgh+ρgzbat the beach surfacepA+ρgzt-pctat the wetting tail(5)ψf={pa+ρgzf-pcfat the wetting frontρgHηat the imaginary boundarywhere ψt and ψf are the fluid potential at the upper and the lower end of the saturated region respectively, pA is atmospheric pressure, pcf and pct is the capillary head at the wetting front and tail respectively, pa is the pore-air pressure below the wetting front, Hη is the hydraulic head of the horizontal groundwater flow, ρ is density of water, g is acceleration due to gravity and the meaning of other symbols is shown in Fig. 1.
+The hydraulic gradient, I, is now expressed as(6)I=ψt-ψfρghfand it can be related to the flux q via a quadratic parametrisation of the hydraulic resistance(7)I=aKq+bKq|q|where aK and bK are the Forchheimer coefficients.
+The part of the model which calculates the movement of the wetting front (and the wetting tail) in cases (i) and (ii) is called the filtration module.
+The wetting front advances by filling the voids in the beach with water, so the corresponding continuity equation is(8)θdzfdt=-qwhere q is the volume flux of the vertical flow, zf is the position of the wetting front (Fig. 1, top panel) and θ defines the volume within the unsaturated part of the beach available for infiltration relative to the total volume, i.e. the effective porosity.
+To simulate the propagation of the wetting front, Eqs.
+(4)-(7) are used to express the right-hand side of Eq.
+(8) in terms of the unknown wetting front position zf.
+The resulting ODE is solved for zf using the fourth order Runge-Kutta method.
+Further details can be found in Steenhauer et al. (2011b).
+In the case when vertical flow occurs between the wetting tail and the wetting front (case (ii) above, and Fig. 1, lower panel) continuity requires that they move at the same speed.
+The position of the wetting tail, zt then follows from the displacement of the wetting front (Eq. (8)).
+In the case when vertical flow occurs between the beach surface and the wetting front (case (i) above, and Fig. 1, upper panel) the vertical flow is coupled with the surface flow through the volumetric flux q.
+Depending on the comparison of the fluid potential at the top and the base of the vertical flow, the flow direction can be downwards or upwards.
+The latter for instance occurs if pore-air pressure within the unsaturated region of the beach reaches a sufficiently high magnitude to create negative hydraulic gradient (Eq.
+(6)) and hence reverse the flow (i.e. change the sign of q in Eq.
+(8)).
+The pressure build-up then drives the wetting front towards the bed surface causing exfiltration, i.e. water is returned to the surface flow through the volume flux shown in Eq. (1).
+The filtration module does not handle the cases when the imaginary boundary defines the lower end of the vertical flow (cases (iii) and (iv) above).
+These are the cases when the vertical flow recharges the horizontal groundwater flow.
+The flow rate is calculated using Eqs.
+(4)-(7), and incorporated in the groundwater flow simulation (Section 2.4).
+In case (iv) the groundwater flow is coupled with the surface flow through the volumetric flux q.
+Air pressure
+The air pressure module is based on a mass balance equation for one-dimensional horizontal pore-air movement in the unsaturated region of the beach.
+The control volume covers a computational cell i, shown in Fig. 2 for two typical situations: in the presence and absence of a wetting front.
+The latter situation occurs at cross-shore locations where the surface water depth is zero, for example at locations beyond the location of maximum run-up.
+Air pressure and density everywhere inside the unsaturated part of a cell is assumed to be constant.
+The mass balance equation for air during a single computational step Δt=tn+1-tn is expressed as(9)∫nn+1d(Viaρia)=∫tntn+1ρi-1aQi-1/2adt-∫tntn+1ρiaQi+1/2adt-∫tntn+1ρiaQibdtwhere ρia and Via denote the density and volume of air within the cell i, the term ρi-1aQi-1/2a is the mass flux at the interface between computational cells i-1 and i and ρiaQib is the mass flux through the top of the computational cell i (i.e. the bed surface), which exists only in the absence of the wetting front (Fig. 2, right).
+Assuming Darcy resistance and homogeneous material, the horizontal flux can be written in terms of pressure as(10)Qi+1/2a=k(hia+hi+1a)2Δxνa1ρi+1/2a[pia-pi+1a+ρi+1/2ag(zi-zi+1)]where k is the intrinsic permeability, νa is the viscosity of air, Δx is the length of the cell, zi is the middle level of the unsaturated beach region in cell i, hia is the height of unsaturated cell i, ρia is the density of air within the unsaturated cell i, with ρi+1/2a=12(ρia+ρi+1a) and pia is the pore-air pressure within the unsaturated cell i.
+The approximation of flux Qi-1/2a on the right-hand side of the mass balance Eq.
+(9) is analogous.
+The extrapolation of Eq.
+(10) for heterogeneous beach material is straightforward.
+The vertical flux between cell i and the atmosphere is expressed using Darcy's law as(11)Qib=2kΔxhiaνaρia[(pia-pA)+ρiag(zi-zib)]where zib is the level of the bed surface and pA is the atmospheric pressure at the bed surface.
+Eq. (10) expresses the relationship between the air flux and the pressure gradient, which is assumed valid at any point in time.
+The average flux over time interval (tn,tn+1) is evaluated as(12)∫tntn+1ρiaQi+1/2adt=[(1-w)ρia,nQi+1/2a,n+wρia,nQi+1/2a,n+1]Δtwhere 0≤w≤1 denotes the weighting coefficient, Qi+1/2a,n is found from Eq.
+(10) taking flow quantities at tn, and Qi+1/2a,n+1 is found from Eq.
+(10) taking solely pressure pa at time tn+1 (and other quantities at time tn).
+The other terms on the right-hand side of the mass balance Eq.
+(9) are weighted between tn and tn+1 analogously.
+The term on the left-hand side of the mass balance Eq.
+(9) represents the difference in mass between tn and tn+1 incorporating a change in volume (i.e. height of unsaturated zone) and a change in air density.
+It is expressed as(13)∫nn+1d(ρiaVia)=ρia,n+1Via,n+1-ρia,nVia,n=ρia,n+1θΔxhia,n+1-ρia,nθΔxhia,nwhere θ denotes the effective porosity, Δx is the length of cell i, and hia,n is the height of unsaturated zone in cell i at time n.
+The height of unsaturated cell at time n+1 on the right-hand side of Eq.
+(13), is evaluated as hia,n+1=hia,n-dhif,n*-dhiη,n*, where dhif,n* and dhiη,n* are predictions of the movement of the wetting front and groundwater level during tn+1-tn (discussed in more detail in Section 2.5 and Appendix C).
+Air density ρia,n+1 in Eq.
+(13) is found through the relationship for an ideal gas undergoing a reversible (i.e. no entropy generation) adiabatic process given by(14)pia,n(ρia,n)γ=pia,n+1(ρia,n+1)γ=constantwhere γ is the heat capacity ratio, for which a value of 1.4 is commonly taken for a diatomic gas (such as air, which consists mainly of nitrogen and oxygen) at room temperature.
+Expressions for all terms in the mass balance Eq.
+(9) are combined into a linear system presented in Appendix A.
+The set of equations is solved using Gaussian elimination.
+Groundwater
+The groundwater module simulates the nearly horizontal movement of groundwater within the beach.
+The groundwater module is used in two steps.
+The first step is the prediction of groundwater levels within the unconfined region of the beach to enable the determination of the air pressure values in the air flow module.
+This step uses a quick procedure of the groundwater module described in Appendix C.
+Once the air flow module has been updated the second step is to determine the values for the groundwater levels within the confined and unconfined region of the beach as explained in the following.
+Groundwater flow in a computational cell i can be either unconfined, i.e. with a free surface (Fig. 2), or confined (Fig. 3).
+The latter case occurs when the wetting front has merged with the groundwater level.
+From this moment an imaginary boundary (dashed line in Fig. 3) is introduced in the model.
+The boundary represents the zone where the vertical percolation (above the boundary) is converted into quasi-horizontal flow in the groundwater (below the boundary).
+The continuity equation for a cell i can be written as(15)Qi-1/2η-Qi+1/2η={-qiΔxfor a confined beachθ∂Hiη∂tΔxfor an unconfined beachwhere Qi-1/2η denotes the discharge at the interface between cells i-1 and i, qi denotes vertical flux (infiltration/exfiltration) through the imaginary upper boundary, Hiη is the hydraulic head within the cell i and θ is the effective porosity (Fig. 1).
+The horizontal flux Qi-1/2η is written in terms of hydraulic head Hη as(16)Qi-1/2η=Ki-1/2(hiη+hi-1η)2Δx(Hi-1η-Hiη)where hiη is the height of the groundwater in cell i and Ki-1/2 is the hydraulic conductivity obtained from the linearised resistance law, i.e.(17)Ki-1/2=1aK+bKcK|up,i-1/2|with aK and bK the Forchheimer coefficients, up,i-1/2=Qi-1/2η12(hiη+hi-1η) the horizontal flux (in unit m/s), and cK a coefficient determined by model calibration (Section 3.1 and Appendix B).
+The approximation of flux Qi+1/2η on the left-hand side of Eq.
+(15) is analogous.
+The average discharge over time interval (tn,tn+1) is evaluated as(18)1Δt∫tntn+1Qi-1/2ηdt=[(1-w)Qi-1/2η,n+wQi-1/2η,n+1]where 0≤w≤1 denotes the weighting coefficient, and Qi-1/2η,n is found from Eq. (16).
+In the case of confined groundwater flow there are two more quantities that have to be evaluated: the imaginary upper boundary of the model and the vertical flux (Fig. 3).
+After the arrival of the wetting front, the region of the beach is considered confined and from this moment the boundary, initially coinciding with the groundwater level, moves towards the bed surface.
+Reasonable results for the level of the imaginary boundary were obtained by assuming that the imaginary boundary moves with a vertical upward velocity equal to the vertical flux through the imaginary boundary q, i.e. during a time step Δt the boundary moves by zic,n+1-zic,n=qin+1Δt.
+This is smaller, by factor θ, than the height of the fluid volume that has recharged the horizontal groundwater during the same step.
+In other words only a fraction of vertical flow (equal θ) is immediately converted into horizontal flow, while the remaining part (1-θ) remains vertical.
+Although not based on a physical law, this is considered reasonable.
+The vertical flux into the confined groundwater cell is driven by the difference in hydraulic head at the beach surface, Hih, and at the upper boundary of groundwater flow, Hiη.
+It was necessary to use Forchheimer parameterisation of the subsurface flow resistance, as initial attempts with a Darcian model failed to adequately reproduce the water exchange between the surface flow and a coarse-grained beach during a bore-driven swash event.
+Due to the quadratic law describing vertical flux through the imaginary boundary it was necessary to carry out the calculation of the hydraulic head within the confined region of the beach in two iterations.
+In the first iteration the system of the confined region is solved with the Darcian vertical flux, and with the same weighting coefficient w as before, i.e. as(19)qi=Ki(1-w)Hih,n-Hiη,nzib-zic+wHih,n+1-Hiη,n+∗zib-zicwhere Hih,n and Hih,n+1 are the hydraulic head at the bed surface based on the surface flow known at tn and tn+1 respectively, (Appendix B), zb is the bed level and zc is the level of the imaginary boundary within the confined region discussed above (bold dashed line in Fig. 3).
+This yields the first iteration for the hydraulic head within the beach at time level tn+1, Hiη,n+*.
+The system of the confined region is then solved with the vertical flux, qi calculated from the Forchheimer resistance law (Eq.
+(7)) using Hiη,n+* from the first iteration, i.e. as(20)qi=-aK2bK+12[(aKbK)2+4(zib-zic)bK[(1-w)(Hih,n-Hiη,n)+w(Hih,n+1-Hiη,n+∗)]]12
+By continuity the vertical flux q is equal to the volume flux q through the beach surface in Eq.
+(1).
+This provides coupling between surface flow and groundwater flow at cross-shore locations where the groundwater flow is confined.
+If the hydraulic head at the beach surface is greater than the hydraulic head within the confined region of the beach, the surface flow recharges groundwater and q is positive.
+Otherwise, if the groundwater head becomes greater than the surface head, exfiltration occurs, i.e. q is negative.
+In the backwash when the swash depth becomes zero, the beach starts to drain.
+As no water enters the beach, the wetting tail, zt, initially at the level of the bed surface, starts to propagate downwards (Fig. 3).
+Before the wetting front has merged with the groundwater the wetting tail moves at the same speed as the wetting front.
+Afterwards the level of the wetting tail is given by zit,n+1=zit,n-(qin+1Δt)/θ, where q is the vertical flux through the imaginary boundary of the groundwater flow calculated using the wetting tail level, zit, and the corresponding hydraulic head instead of zib and Hih in Eqs.
+(19) and (20).
+Eq. (15) combined with Eqs.
+(16), (18) and (20) is written for each cell in the confined and unconfined region of the beach.
+Together these equations form a linear system.
+Details of the system are presented in Appendix B.
+The set of equations is solved using Gaussian elimination.
+The most seaward groundwater cell is located at the position of the initial shoreline.
+Groundwater flow between the beach toe and the most seaward cell is incorporated using the procedure described in the last paragraph of Appendix C.
+Coupling of flow modules
+Fig. 4 illustrates the coupling between the surface and subsurface flow solutions in a single computational time step (Δt=tn+1-tn).
+In summary, the model for swash on permeable beaches takes the following steps:•
+The surface flow variables above the bed (water depth h and velocity u) are calculated.
+•
+Trial values for the saturated thickness, hf,n*, and for the height of the groundwater level, hη,n*, are predicted based on the updated surface flow depth, hn+1, and the pore-air pressure in the unsaturated region of the beach, pa,n, at the previous time-level, tn.
+The wetting front and groundwater estimate are obtained from the filtration module and from a quick procedure of the groundwater module respectively (Appendix C).
+•
+The pore-air pressure in the unsaturated region of the beach, pa,n+1, is determined by taking into account the updated surface depth, hn+1 and the wetting front and groundwater predictions, hf,n* and hηn*, respectively.
+•
+The filtration module solves for the corrected value of saturated thickness, hf,n+1 (and thus wetting front and tail level zf,n+1 and zt,n+1), and the vertical volume flux qn+1, with the hydraulic gradient calculated from the updated surface water depth, hn+1, and air pressure within the unsaturated region of the beach, pa,n+1.
+•
+The groundwater module solves the corrected hydraulic head within the beach based on the updated pore-air pressure in the unsaturated region of the beach, pa,n+1, and the updated surface water depth at the beach face, hn+1, and also solves the vertical volume flux, qn+1, across the confined region of the beach.
+Comparison of numerical model and laboratory experiments
+This section starts with the description of the numerical model set-up used to simulate the laboratory experiments of Steenhauer et al. (2011a).
+The main body of the section is divided into three parts.
+Section 3.2 assesses the overall ability of the numerical model to predict swash and subsurface flow within the beach by comparing the measured and model-predicted shoreline trajectory, water profiles, vertical hydraulic gradients and volume time-series.
+Sections 3.3 and 3.4 present measured and model-predicted pressure and groundwater behaviour respectively.
+Numerical set-up
+The numerical model described in Section 2 is used to simulate the large-scale laboratory experiments presented in Steenhauer et al. (2011a).
+Fig. 5 illustrates the set-up in a Cartesian system with x and z coordinates in the horizontal and vertical directions respectively, and with the origin at the initial shoreline position.
+The experiments involved two beach materials with nominal sediment diameters of 1.5mm and 8.5mm.
+The dam-break set-up is simulated through a water reservoir with initial water depth in the reservoir 600mm for experimental series R60PER015 of the 1.5mm beach and experimental series R60PER085 of the 8.5mm beach.
+An initial water level of 62mm in front of the beach and a corresponding groundwater level of 62mm within the beach were used in both cases.
+The initial shoreline position is defined through the initial water depth in front of the reservoir.
+The slope of the beach was 1:10.
+A detailed description of the experimental set-up, surface and subsurface measurements and results are presented in Steenhauer et al. (2011a).
+The following lists the main physical input parameters for the numerical model presented in Table 1: i) Friction coefficient: The model uses a constant bed friction coefficient.
+The value of the friction coefficient was established by tuning its value in order to match the measured and predicted maximum run-up for swash on an impermeable beach.
+The measured values come from the experiments of Kikkert et al. (2012).
+ii) Forchheimer coefficients: Stand-alone experiments using a constant head apparatus were undertaken (Steenhauer et al., 2011a) to measure the hydraulic resistance of the granular material.
+Forchheimer coefficients and hydraulic conductivity were extracted from this dataset.
+The calibration coefficient cK used in the groundwater module in Eq.
+(17) has a value of 0.9.
+iii) Air conductivity: The intrinsic permeability of the porous material, used in the subsurface flow model to determine the conductivity of air, was calculated from the linear Forchheimer coefficient (k=νaaKg with νa denoting the viscosity of water and g the gravitational coefficient).
+iv) Porosity: A constant value for the effective porosity is used for both sediment types and is based on volume balance analysis of the surface and subsurface flow measurements (Steenhauer et al., 2011a).
+v) Capillary fringe: For the 1.5mm beach the model used a capillary fringe of 20mm obtained by model calibration.
+This value is lower than the 50mm reported in Steenhauer et al. (2011a), based on direct observation of the dark-coloured fringe through the glass wall of the flume.
+The capillary fringe was added at the initial groundwater level and the wetting tail, whereas at the wetting front it is assumed zero.
+For the 8.5mm beach the capillary fringe was zero (Steenhauer et al., 2011a).
+The groundwater module was used only for the 8.5mm beach, where the groundwater response was directly observed at bore arrival.
+In the 1.5mm beach the groundwater levels were not affected during the swash event, because the wetting front did not reach the groundwater within the swash cycle, due to the low permeability of the beach.
+This means that the simulation for the 1.5mm beach is carried out with a constant groundwater level equal to the initial groundwater level.
+All other modules were used for both beaches.
+Surface and subsurface flow hydrodynamics
+This section evaluates the ability of the numerical model to predict the swash and subsurface flow for permeable coarse-grained beaches.
+Shoreline position
+Fig. 6 presents the measured and model-predicted shoreline position for the 1.5mm and 8.5mm beaches.
+Time t=0 corresponds to the opening of the reservoir gate.
+The shoreline position is defined as the location near the tip where the water depth is 5mm (Kikkert et al., 2012).
+Good agreement is generally seen between the model-predicted and measured shoreline position, in terms of the arrival of the bore and the movement of the tip on the slope in the uprush and early backwash.
+In the later stages of the backwash on the 8.5mm beach the simulated rate of shoreline retreat is smaller than experimental values.
+This is due to the limitations of the relatively simple groundwater model.
+Water profiles
+The measured and predicted water profiles at several selected times during the swash cycle are presented in Fig. 7 for the 1.5mm beach and in Fig. 8 for the 8.5mm beach.
+In the case of the 1.5mm beach, wetting front measurements covered the region between x=1023mm and 4242mm, i.e. up to around maximum run-up; for the 8.5mm beach, wetting front measurements were made between x=1313mm and 3179mm, i.e. up to around maximum run-up.
+Note that the wetting tail of the infiltration profile could not be extracted from the experiments, so only the model-predicted wetting tail is presented in the figures.
+Overall the figures show good agreement between predictions and measurements.
+The distinctly different behaviour of the subsurface flow for the two beaches is predicted well by the model.
+The overall shape of the subsurface flow profile is captured, as is the general timing and level of the wetting front in both uprush and backwash phases.
+The numerical predictions for the 1.5mm beach reveal that the hydraulic gradient becomes negative and reverses the initially downward-propagating wetting front causing exfiltration, especially visible at t=9.55s in Fig. 7, where in the region between approximately x=1200 and 1500mm the wetting front has almost returned back to the bed surface.
+This agrees with the experimental findings of Steenhauer et al. (2011a), who could not directly record the upwards movement of the wetting front, but were able to infer it from the wetting front and pressure measurements.
+The numerical simulation provides more detailed information on the build-up of pore-air pressure, which reaches a sufficiently high magnitude to not only decrease infiltration rates, but to reverse the flow, thus returning some of the infiltrated water back to the surface flow.
+Exfiltration takes place at the lower end of the beach between approximately x=1200 and 1500mm with rates generally between -2 and -8.5mm/s.
+In the case of the 8.5mm beach the numerical predictions over-estimate the groundwater level, particularly in the backwash.
+This is probably due to the relatively simple parameterisation of the groundwater flow.
+However, for both beaches, the comparison between the measured and model-predicted surface and subsurface water profiles is satisfying.
+Vertical hydraulic gradients
+Vertical hydraulic gradients governing the rates of infiltration and exfiltration assess the exchange of water between the surface and the subsurface.
+Fig. 9 presents time-series of the hydraulic gradient at several cross-shore locations for the 1.5mm and the 8.5mm beaches.
+Note that the results are given relative to time t0, which is the bore arrival time at each cross-shore location, and only while the wetting front is still moving towards the groundwater table.
+Positive gradients are associated with infiltration.
+For the 1.5mm beach the agreement between model predictions and measurements is quite good after t=2s.
+At the early stages of swash, however, there is a disagreement: the experimental results show an approximately constant gradient whereas the simulation results suggest a steep increase upon the bore arrival, followed by a gradual decline.
+At the initial stages of infiltration, when the height of surface water is much greater than the penetration depth, hydraulic gradients are expected to be higher than later on.
+Furthermore, when the penetration depth is small the experimental error in evaluating gradients is large.
+For these reasons the discrepancy between the simulation and the experimental results is probably due to experimental error.
+For the 8.5mm beach the modelling produces a reasonably accurate trend at x=1980mm, while at x=2780mm the model fails to predict the initial sharp rise and the decline at the later stages of the swash.
+In this case the discrepancy between experimental and numerical results is probably caused by the modelling, most likely by the limited capability of the groundwater module.
+Overall the time-series of the hydraulic gradients display the steep increase at the time of bore arrival.
+For both beaches hydraulic gradients gradually decrease with time, as the saturated zone above the wetting front becomes thicker.
+Moreover, hydraulic gradients are significantly reduced by the build-up of pore-air pressure in the unsaturated region of the 1.5mm beach (Steenhauer et al., 2011a).
+This pressure build-up is discussed in Section 3.3.
+Volume time-series
+Fig. 10 presents the cumulative volume of infiltrated water as a function of time for the 1.5mm and the 8.5mm beaches.
+The solid line corresponds to the numerical predictions and the symbols correspond to measured volumes of infiltration using two independent methods: i) based on the surface flow depth measurements and ii) based on the measured subsurface profiles (Steenhauer et al., 2011a).
+The agreement between model predictions and measurements is good for the uprush and early backwash, with the time of maximum run-up at approximately t=5.33s for the 1.5mm beach and at approximately t=4.52s for the 8.5mm beach.
+Pressure within the beach
+Build-up of pressure was more significant within the 1.5mm beach.
+This section therefore compares the model-predicted and measured pressure within the 1.5mm beach.
+Fig. 11 presents the numerical and experimental pressure head time-series at several cross-shore locations.
+The measurements at each x-location consisted of several pressure transducers positioned at various depths below the wetting front during the whole of the swash cycle (Steenhauer et al., 2011a) and presented in Fig. 11 as dashed lines.
+The pressure head within the unsaturated region of the beach is expressed in mm of water, with Δpa the pressure relative to atmospheric pressure pA.
+The arrival of the pressure front, i.e. the time when pressure first changes, is predicted very well at all locations.
+The pressure front caused by air entrapment as shown in Steenhauer et al. (2011a) propagates through the unsaturated region of the beach in the shoreward direction.
+There is also good agreement with regard to the magnitude of the pressure head: the numerical predictions display a similar rise and fall in pressure head as observed in the measurements.
+The effects of exfiltration and the associated air escape from the unsaturated region of the 1.5mm beach are seen at x=1980mm (top panel of Fig. 11) as short periods of rapid decline in pressure close to the end of the swash event, at approximately t=9.3s in the model and slightly earlier in the experiments.
+The rapid decline results from the additional pressure outlet occurring at the lower end of the beach (approximately between x=1200 and 1500mm, visible in Fig. 7).
+The outlet is formed when the negative hydraulic gradient, created by the encapsulated air, has managed to push the wetting front back to the beach surface.
+After the outlet is opened air is not only being released at locations beyond maximum run-up, but also at locations lower down the beach.
+The pressure build-up occurring within the unsaturated region of the 1.5mm beach relates to a corresponding variation in air density relative to the air density at atmospheric pressure, Δρa/ΔρA, which ranges between 0 and 1.2%.
+The interrelated flow processes of the subsurface region in the 1.5mm beach are complex.
+Nevertheless, the model, despite some discrepancies, is able to capture the pressure behaviour affected by the water exchange between the swash and the subsurface quite well.
+Groundwater behaviour
+In contrast to the 1.5mm beach, within the 8.5mm beach infiltration was rapid, and the wetting front reached the groundwater level across the majority of the swash zone during the uprush.
+Groundwater response was hence simulated only in the case of the 8.5mm beach and discussed in the following.
+Fig. 12 shows the surface and hydraulic head profiles obtained from the model and experiments at several selected times.
+The agreement between the measured and model-predicted head profiles is good.
+Fig. 13 presents time-series of the hydraulic head within the beach, Hη, at two cross-shore locations.
+The measured values for the hydraulic head are based on the pressure results of the lowest pressure transducer within the beach (Steenhauer et al., 2011a).
+For a short time at the start of the increase in hydraulic head, both the measured and model-predicted head display a small rate of hydraulic head increase resulting from the horizontal hydraulic gradients.
+They are mainly generated by the increased surface water levels at the lower end of the beach directly recharging groundwater flow.
+Furthermore, air entrapment between the wetting front and the groundwater surface increases pore-air pressure and hence creates a horizontal pressure gradient which induces air flow as well as groundwater flow in the shoreward direction (Steenhauer et al., 2011a).
+This period of slow increase lasts until the moment when the wetting front reaches the groundwater, marked by the steep increase in hydraulic head.
+The groundwater level then rapidly rises towards the bed surface, before subsequently decreasing as the beach starts to drain in the backwash (Steenhauer et al., 2011a).
+Although the overall agreement for the 8.5mm sediment is quite good, several discrepancies are evident.
+The time that the wetting front reaches the groundwater occurs slightly earlier in the numerical predictions than in the experimental results, e.g.
+at approximately t=2.8s versus t=2.9s for x=1180mm and at approximately t=3.8s versus t=4s for x=1980mm of Fig. 13.
+This is probably due to the over-prediction of the shoreline velocities and water depths in the surface flow model (visible in Fig. 12).
+As a result infiltration is not only induced sooner by the earlier arrival of the bore, but also the hydraulic gradient that drives the flow is over-estimated, enhancing the wetting front propagation towards the groundwater table.
+Furthermore the drainage of the backwash is not well simulated.
+Overall the beach in the experiments shows a quicker drainage than is observed in the numerical predictions.
+This, as mentioned before, is due to the relatively simple parametrisation of the groundwater flow.
+Overall the agreement in the uprush and early backwash between the model and experimental results for hydraulic head within the beach is reasonably good.
+Steenhauer et al. (2011a) defined the saturation boundary as the cross-shore limit of the fully saturated beach, i.e. the cross-shore location where the wetting front just merges with the groundwater.
+The predicted and measured time-series of the saturation boundary are shown in Fig. 14.
+Early in the backwash the position of the saturation boundary becomes equivalent to what is more commonly referred to as the exit point (Steenhauer et al., 2011a).
+The discrepancy between the numerical and experimental results of the position of the saturation boundary is again most likely due to the relatively simple parametrisation of the groundwater flow.
+However, the overall agreement between model-predicted and measured saturation boundary position is satisfactory.
+Conclusions
+The swash model of Steenhauer et al. (2011b) simulating the movement of a steep bore over a permeable coarse-grained beach and the movement of the wetting front within the beach has been extended to include the behaviour of air entrapment and groundwater.
+The new model has been validated by comparing model predictions with measurements from the large-scale laboratory experiments of Steenhauer et al. (2011a).
+The model has been used to gain more insights into key mechanisms of the water exchange between surface and subsurface, which cannot be easily studied via experiments alone.
+The following summarises the key findings of the paper:•
+A numerical model for swash on permeable beaches has been developed.
+The model includes a novel approach to simulating the behaviour of air entrapped between the wetting front and the groundwater.
+This air pressure module solves for the horizontal pore-air movement within the unsaturated region of the beach, based on a mass balance equation of air using Darcy's law to parametrise flow resistance.
+•
+The numerical predictions of surface and subsurface flow behaviour for a bore-driven swash on two permeable coarse-grained beaches (1.5mm and 8.5mm sediment) are in good agreement with large-scale laboratory swash measurements.
+The numerical results capture the main swash flow features and wetting front profiles in uprush and backwash, and give good predictions of hydraulic gradient and infiltrated volume time-series across the swash zone for both beaches.
+The numerical predictions of the pore-air pressure build-up within the two sediments are in good agreement with the large-scale laboratory measurements.
+The time when pressure first changes (i.e. the arrival of the pressure front) is well-predicted across the swash zone, as are the magnitudes of pressure head during uprush and backwash.
+The numerical model captures well the groundwater response to surface-subsurface water exchange, with reasonable agreement between the model-predicted and measured exit point during the backwash.
+Discrepancies between model and experimental results are primarily due to the relatively simple parametrisation of the bed shear stress for the surface flow and the approximation of the subsurface flow as (coupled) one-dimensional processes.
+•
+The numerical predictions for a bore-driven swash on two steep coarse-grained beaches are thus consistent with the experimental results of Steenhauer et al. (2011a) and the model is considered validated for the level of accuracy required for engineering applications.
+•
+The numerical results give further insight into the role of air entrapment, which significantly impedes infiltration into the 1.5mm beach, and even reverses the flow at the lower end of the beach during the backwash, generating exfiltration with rates between -2 and -8.5mm/s.
+•
+The numerical study shows that when the upwards-driven wetting front has reached the level of the bed surface of the 1.5mm beach, a pathway is created to release the air, at a higher pressure than atmospheric pressure, entrapped within the beach.
+Entrapped air is then not only released through the unsaturated region of the beach beyond the shoreline position, but also through the additional flow paths created at the lower end of the beach, where the beach has returned to its initially unsaturated state.
+•
+The importance of modelling infiltration/exfiltration in and out of the unsaturated region, as well as pore-air pressure build-up within the unsaturated region of the beach, is shown by the numerical study.
+So far these physical processes have been neglected in swash models.
+The insights from the numerical work significantly contribute to the better understanding and modelling of key physical processes for swash and similar flows.
+Acknowledgements
+This work was carried out as part of Kate Steenhauer's PhD study in the School of Engineering at the University of Aberdeen, with funding provided by the University of Aberdeen.
+The work was conducted in conjunction with EPSRC-funded research (grant number EP/E011330/1) at the University of Aberdeen.
+The system of equations for the air flow module is combined into a linear system expressed for one computational cell i as:(21)wa1pi-1a,n+1-(a1+a3+a2+a5/w)pia,n+1+wa3pi+1a,n+1=Bwhere the individual component coefficients of system (21) are given as:(22)a1=ΔtΔxkρi-1a,nνaρi-1/2a,nhi-1a,n+hia,n2a2=ΔtΔxkρia,nνaρia,n2hia,na3=ΔtΔxkρi+1a,nνaρi+1/2a,nhia,n+hi+1a,n2a4=Δxθρia,nhia,na5=Δxθρia,n(hia,n-dhif,n∗-dhiη,n∗)(pia,n)(1γ-1)(pia,n)1γB=-Wa1pi-1a,n+(a1+a3+a2)Wpia,n-Wa3pi+1a,n-a1ρi-1/2a,ng(zi-1n-zin)+a3ρi+1/2a,ng(zin-zi+1n)+a2[ρia,ng(zin+1-zib)-pA]-a4where 0≤w≤1 denotes the weighting coefficient, where W=(1-w), k is the intrinsic permeability, νa is the viscosity of air, ρa is the air density within the unsaturated region of the beach, with ρi+1/2a=12(ρia+ρi+1a), zib is the level of the bed surface, zi is the level at the middle of the unsaturated cell i, hia is the height of the unsaturated cell i, pA is the atmospheric pressure, pia is the pressure within the unsaturated cell i, θ denotes the effective porosity, Δx is the length of cell i, γ is the heat capacity ratio and the change in wetting front and groundwater level, dhif,n* and dhiη,n*, respectively, is based on a prediction (trial value) evaluated earlier within the same time-step (see the coupling of flow modules in Fig. 4).
+The value for dhif,n* is obtained from the infiltration module.
+The method for obtaining the value for dhiη,n* is based on a quick procedure of the groundwater module described in Appendix C.
+The system of equations for the groundwater module is combined into a linear system expressed for one computational cell i as:(23)Ki-1/2wa1Hi-1η,n+1-(Ki-1/2wa1+Ki+1/2wa2+a4)Hiη,n+1+Ki+1/2wa2Hi+1η,n+1=-B1+B2where the individual coefficients of system (23) for the confined and unconfined region of the beach are given as:(24)a1=hiη,n+hi-1η,n2Δxa2=hiη,n+hi+1η,n2Δxa3=Δxzib-zica4={Kiwa3:Iteration1for confined beach(Darcy flux forq)0:Iteration2for confined beach(Forchheimer law forq)θΔxΔt:Unconfined beachB1=Ki-1/2Wa1Hi-1η,n-(Ki-1/2Wa1+Ki+1/2Wa2)Hiη,n+Ki+1/2Wa2Hi+1η,nB2={-Kia3[(WHih,n+wHih,n+1)-WHiη,n]:Iteration1forconfinedbeach-Δxqi:Iteration2forconfinedbeacha4(-pia,n+1ρg-Hiη,n+pia,nρg):Unconfinedbeachwhere 0≤w≤1 denotes the weighting coefficient, where W=(1-w), Hiη is the hydraulic head within the beach in cell i, for the unconfined region of the beach Hiη=hiη+piaρg, hiη is the height of the groundwater in cell i, pia is the air pressure within the unsaturated cell i, ρ is the density of water, g is the gravitational acceleration, Hih is the hydraulic head at the level of the bed based on the surface flow (Hih=zib+hih+pAρg), pA is the atmospheric pressure and qi is the vertical flux expressed in Eq. (20).
+The hydraulic conductivity within system (23) is calculated as Ki-1/2=1/(aK+bKcK|ui-1/2p|), where aK and bK are the Forchheimer coefficients, and where the horizontal pore velocity is given by up,i-1/2=Qi-1/2η12(hiη+hi-1η) and where the coefficient cK has a value of 0.9 obtained by model calibration.
+In the first iteration the value for the hydraulic conductivity, Ki-1/2, is taken at previous time tn.
+In the second iteration the value, Ki-1/2, is updated based on the hydraulic head results obtained from the first iteration.
+The seaward boundary of system (23) for the groundwater module is described in the last paragraph of Appendix C.
+This section describes the quick procedure of the groundwater module used in calculating the predicted change in groundwater levels within the unconfined region of the beach for the air flow module (see the coupling of flow modules in Fig. 4).
+A trial value for the change in groundwater level, dhiη,n∗, is only evaluated for unconfined region of the beach, where the air is entrapped between the wetting front and the groundwater.
+Flow through the entire confined region (from the toe of the beach until the most shoreward confined cell, s, Fig. 15) is evaluated using the average horizontal hydraulic gradient across the beach and the Darcian approximation of flow resistance.
+The hydraulic gradient is expressed using the hydraulic head at the beach surface at a cross-section M situated in the middle of the fully saturated region, i.e. at xM=12(xtoe+xs+1/2):(25)HMη=zMb+hM+pAρgwhere hM is the water depth above the bed, with the value taken at time level tn+1, pA is the atmospheric pressure and zMb is the level of the bed surface at xM.
+The discharge from the confined region into the unconfined region is therefore evaluated as:(26)Qs+1/2η=Khsη+hs+1η2HMη-Hs+1ηxs+1/2-xM
+Position of cell s varies with time, as the confined part of the beach becomes longer when the wetting front reaches the groundwater further in the beach (Fig. 15).
+The discharge, Qs+1/2η, is the boundary condition for the unconfined groundwater module.
+The module itself uses the procedure described in Section 2.4 and Appendix B, but it is now fully explicit, i.e. w=0, and Darcian, i.e.
+K=1/aK.
+This means that the groundwater level in each unconfined cell can be calculated directly from Eq. (23).
+Similar simplified treatment is applied to the left-hand boundary of the groundwater module described in Appendix B.
+The discharge through the fully saturated region of the beach between the toe of the beach and the position of the initial shoreline (approximately x=-600 and 0mm) is calculated from Eq.
+(26), with HMη based on Eq.
+(25) taking for xM, the position midway between the toe of the beach and the initial shoreline.
+The resulting relationship is the seaward boundary condition for the groundwater model.
+It provides direct coupling between the surface flow and the horizontal groundwater flow.
+Table 2 gives a list of symbols.
+

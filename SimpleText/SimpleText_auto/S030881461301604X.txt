@@ -1,0 +1,213 @@
+The intake of inorganic arsenic from long grain rice and rice-based baby food in Finland - Low safety margin warrants follow up
+
+Highlights
+•
+Inorganic arsenic was determined in long grain rice and rice-based baby food samples.
+•
+The inorganic arsenic intake from one source is close to the lowest BMDL0.1 value.
+•
+The cumulative intake assessment of inorganic arsenic is needed.
+Abstract
+We evaluated total and inorganic arsenic levels in long grain rice and rice based baby foods on Finnish market.
+Inorganic arsenic was analysed with an HPLC-ICP-MS system.
+The total arsenic concentration was determined with an ICP-MS method.
+In this study, the inorganic arsenic levels in long grain rice varied from 0.09 to 0.28mg/kg (n=8) and the total arsenic levels from 0.11 to 0.65mg/kg.
+There was a good correlation between the total and inorganic arsenic levels in long grain rice at a confidence level of 95%.
+The total arsenic levels of rice-based baby foods were in the range 0.02 - 0.29mg/kg (n=10), however, the level of inorganic arsenic could only be quantitated in four samples, on average they were 0.11mg/kg.
+Our estimation of inorganic arsenic intake from long grain rice and rice-based baby food in Finland indicate that in every age group the intake is close to the lowest BMDL0.1 value 0.3μg/kg bw/day set by EFSA.
+According to our data, the intake of inorganic arsenic should be more extensively evaluated.
+
+Introduction
+Arsenic is a metalloid with a ubiquitous presence; it occurs in rock, soil, water, air and living organisms in inorganic and organic forms (Mandal & Suzuki, 2002; Naja & Volesky, 2009).
+The two inorganic forms are arsenite (As(III)) and arsenate (As(V)) and nowadays over fifty organic arsenic compounds have been discovered (Francesconi, 2010).
+The most abundant organic arsenic species are monomethylarsonic acid (MMA), dimethylarsonic acid (DMA), trimethylarsine oxide (TMAO), tetramethylarsonium ion (TeMA), arsenobetaine (AB), arsenocholine (AC), dimethylarsinylribosides, trimethylarsonioribosides, glycerylphosphorylarsenocholine and phosphatidylarsenocholine (Leermakers et al., 2006).
+According to the World Health Organization, arsenic, in one or another form, is found in virtually all foodstuffs (World Health Organization, 2001).
+The toxicity and metabolism of the distinct arsenic species are different (Huang, Ke, Costa, & Shi, 2004).
+Generally speaking, inorganic arsenic compounds are more toxic than organic ones, and the trivalent arsenic form is more toxic than its pentavalent equivalent (Hughes, 2002).
+It is difficult to determine the individual arsenic species in order of their toxicity, because the toxicity of these chemical forms is very different not only in different organisms but even between organs.
+One factor that makes arsenic more interesting is that arsenic is an essential element for some animals, like rats and goats (Püssa, 2008; Ratnaike, 2003) and interindividual susceptibility in humans to the adverse effects caused by arsenic compounds has been reported (Huang et al., 2004).
+The initiation and progression mechanisms of human carcinogenesis caused by arsenic exposure are still not entirely clear (Shi, Shi, & Liu, 2004).
+However, chronic exposure to inorganic arsenic not only causes, but also can evoke hypertension, skin lesions, diabetes and cardiovascular disease and furthermore it can affect the vascular system (Hughes, 2002; Jomova et al., 2011).
+Acute exposure to high levels of arsenic can cause cardiomyopathy, hypotension, gastrointestinal discomfort, vomiting, diarrhea, bloody urine, anuria, shock, convulsions, coma and in death in the most severe cases (Hughes, 2002; Jomova et al., 2011).
+According to the International Agency for Research on Cancer (IARC) arsenic is a class I carcinogen (International Agency for Research on Cancer, 1987).
+In 2004 IARC declared that arsenic could cause lung, skin and urinary bladder cancer in humans (International Agency for Research on Cancer, 2004).
+In 2010, the Joint FAO/WHO Expert Committee on Food Additives (JECFA) estimated that BMDL0.5 for inorganic arsenic species would be 3μg/kg bw/day (Joint FAO/WHO Expert Committee on Food Additives, 2010).
+This conclusion replaced the old PTWI-value for inorganic arsenic (15μg/kg bw/week) which had been established in 1989.
+The European Food Safety Authority (EFSA) set the BMDL0.1 value at 0.3 - 8μg/kg bw/day in 2010 (European Food Safety Authority, 2010).
+At present, there are no regulations about organic or inorganic arsenic species in food or beverages except for that in drinking water.
+In 1993, WHO provided a reference value of 10μg/L of total arsenic compounds in drinking water, previously the reference value had been set at 50μg/L (World Health Organization, 1993).
+In 2008 the Data Collection and Exposure Unit (DATEX) of EFSA collected information on the arsenic levels in food from the EU member states and Norway (EFSA, 2010).
+According to the DATEX survey, the total arsenic level was highest in fish and seafood and miscellaneous dietary products.
+The miscellaneous group consisted of diverse foodstuffs, e.g.
+algae, algae based food supplements, spices, herbs, different baby foods and formulas.
+It is well-known that a significant part of total arsenic in fish and seafood exists in the organic arsenic forms, particularly arsenobetaine (Nam, Oh, Min, & Lee, 2010; Sloth, Larsen, & Julshamn, 2005; Suner et al., 2002) and in algae, as different forms of arsenosugars (Kohlmeyer, Kuballa, & Jantzen, 2002).
+Rice seem to contain higher levels of arsenic compounds than many other terrestrial plants or crops (Meharg et al., 2009; Williams et al., 2007).
+For example, the rice plant seems to be more effective in its ability to take up and translocate arsenite than oat and barley (Su, McGrath, & Zhao, 2010) and a significant amount of the total arsenic in rice exists in its inorganic forms (Heitkemper, Vela, Stewart, & Westphal, 2001; Nishimura et al., 2010).
+The amount of inorganic arsenic depends also on the cultivation site (Meharg et al., 2009; Williams et al., 2005).
+The People's Republic of China has set a maximum value for inorganic arsenic in rice of 0.15mg/kg (United States Department of Agriculture Foreign Agricultural Service, 2006).
+EFSA has stated that in EU member states the main dietary exposure to total arsenic is derived from fish and seafood, cereals and cereal products whereas inorganic arsenic intake is most often derived from cereals and cereals products (EFSA, 2010).
+In this category, rice is one of the main contributors to the inorganic arsenic intake due to its high level of total arsenic.
+Generally speaking, drinking water does not play any significant role in inorganic arsenic intake in the EU member states.
+The national Findiet 2007 survey revealed that 20% of working age men eat rice as a side dish and they consume 80±60g/day of rice (KTL-National Public Health Institute.
+Department of Health Promotion, 2008a).
+In men in the age group 65 - 74years the corresponding figures were 11% and 83±33g/day.
+Finnish women of their working age eat rice as a side dish somewhat less than men (17%); their consumption was 66±42g/day.
+Only ten percent of older women consume rice as a side dish; they eat on average 54±38g/day.
+"The Diet of Finnish Preschoolers" study showed that 0.6-50% of one to six years old girls consumed manufactured porridges (KTL-National Public Health Institute.
+Department of Health Promotion, 2008b).
+Typically the food group called "manufactured porridges" consists of water and milk based porridges both as powders and ready-made porridges.
+The girls were given porridge 171-280g a day.
+1 - 50% of the boys aged one to four years were fed with manufactured porridges; their intake was in the range of 184 - 234g.
+Finnish children (1 - 6years old) can consume rice in forms other than porridges (wholegrain rice, rice noodles, rice-rye mixture); the amount vary from 20 to 47gday, although only a minority of this age group (7-24%) ate rice in forms other than porridges.
+According to the present knowledge of inorganic arsenic risk assessment, every exposure represents a risk (Meharg & Raab, 2010).
+The amount of rice consumed varies significantly in different countries.
+In 2009, the rice consumption was 4.40kg/capita/year (milled equivalent) in Finland whereas in the People's Republic of China it was much more, 76.30kg/capita/year (milled equivalent) (Food, 2012).
+However, with respect to arsenic intake the way of cooking significantly contributes to the arsenic intake originating from rice (Mihucz et al., 2007).
+According to EFSA's risk characterisation, children who are fed with rice-based baby formula may be exposed to a higher intake of inorganic arsenic than other consumers (EFSA, 2010).
+Based on that assessment, children under three years of age are believed to be exposed to between two to three times more inorganic arsenic than adults because children consume more food relative to their body weight than adults.
+The dietary exposure to inorganic arsenic in children under three years of age has been estimated to be 0.50 - 2.66μg/kg bw per day.
+These estimates are lower than BMDL0.1 values for those thought to be causing lung and bladder cancer as well for dermal lesions (0.3 - 8μg/kg bw per day).
+In Europe, the average dietary exposure to inorganic arsenic is in the range 0.13 - 0.56μg/kg bw per day; for high level adult consumers it is between 0.37 - 1.22μg/kg bw per day.
+However, in certain ethnic groups the exposure to inorganic arsenic can be higher, for example avid consumers of rice (certain ethnic groups) it can be 0.95μg/kg bw per day, in individuals eating a lot of algae-based products it can be as high as 4.03μg/kg bw per day.
+Nonetheless these values for exposure are still within the range of BMDL0.1 values.
+In this article we describe a fully validated method for the determination of total and inorganic arsenic in rice.
+We also assessed total and inorganic arsenic levels in long grain rice and rice-based baby food products on the Finnish market.
+This paper also performs a risk assessment for inorganic arsenic from long grain rice and rice based baby food in different age groups in Finland.
+Materials and methods
+Samples and reference materials
+The samples evaluated in this study were long grain rice and baby food products based on rice.
+Eight brands of long grain rice were purchased from a Finnish supermarket, three packets of each brand.
+Rice-based baby foods were also bought from a Finnish supermarket.
+Three packets of each ten brands were purchased.
+Baby porridge powders were composed only on rice or rice and other cereals.
+Some of the powders contained also dried fruits.
+There are commercially available rice or other cereal based reference materials which have a certified value for total arsenic level not for the distinct inorganic arsenic or arsenic species.
+We utilised IMEP-107 - test material (The Institute for Reference Materials and Measurands IRMM, Joint Research Centre JRC, European Commission, Belgium) rice flour as a reference material in the inorganic arsenic analysis.
+The IMEP-107 has been used as a test material in one interlaboratory comparison in 2009 - 2010.
+For total arsenic determination, NIST Standard Reference Material® 1568a Rice Flour (National Institute of Standards and Technology, Gaithersburg, MD, USA), was used as the reference material.
+The laboratories of the Chemistry and Toxicology Research Unit of Research and Laboratory Department of Finnish Food Safety Authority Evira have been accredited according to ISO 17,025.
+Reagents and standards
+The water was ultrapure water obtained from a Milli-Q-system (Millipore Corporation, Bedford, MA, USA) and nitric acid (68 - 70%), hydrochloric acid (30%), ammonium carbonate (powder), hydrogen peroxide (30%) and formic acid (98%) were all from J. T.
+Baker (Deventer, Netherlands).
+In the arsenic speciation analysis arsenobetaine (AB) (Fluka Analytical, Italy), arsenic(III)oxide (As(III)) (Aldrich Chemistry, USA), dimethyl arsenic acid (DMA) (Chem Service, USA), monomethyl arsenic acid disodium salt (MMA) (Argus Chemicals, Italy) and arsenic(V) (As(V)) standard solution (Merck, Germany) were used.
+Two stock solutions of each standard compound were made; for AB, As(III), DMA and MMA the concentrations were 100mg/L and 1mg/L and for As(V) the concentrations were 10mg/L and 0.1mg/L.
+The stock solutions were prepared in nitric acid (1%), with the exception of As(III), in which concentrated hydrochloric acid was used to promote its dissolution.
+The final standard concentrations for all compounds were 1, 5, 10, 20 and 50μg/L in 1% nitric acid.
+Three standard stock solutions for the ICP-MS analysis were prepared 100, 10 and 1μg/L from ICP Calibration mix FS9 ME175 multielement reference solution (Romil, Cambridge, GB).
+From these stock solutions, seven standard solutions were made (0.005, 0.01, 0.05, 0.1, 0.5, 1 and 16μg/L).
+The stock solutions and final standard solutions were both prepared in 2% nitric acid.
+In final standard solutions, internal standard, rhodium (Romil, Cambridge, GB), was incorporated.
+A stock solution of 1mg/L rhodium was made daily in ultrapure water.
+The stock solution was added to final standards and samples so that the final concentration of rhodium was always 10μg/L.
+Instruments
+In the total arsenic determination, a quadrupole inductively coupled plasma mass spectrometer (Thermo Fisher Scientific XSeries II, Waltham, Massachusetts, USA) was used.
+In the inorganic arsenic analysis, the ICP-MS was equipped with a high performance liquid chromatograph (Waters 2690 Separations Module, Waters, USA).
+An anion exchange column Hamilton PRP-X100 (Bonaduz, Switzerland), 250×4.6mm 5μm, and pre-column, 25×2.3mm, were used to separate the arsenic species.
+Sample preparation was performed in a microwave oven (Milestone Ethos Plus High Performance Microwave Lab station, Chelton, Connecticut, USA).
+Sample preparation and determination of total arsenic
+Long grain rice samples were homogenised before microwave assisted digestion in the presence of strong nitric acid (3mL), hydrogen peroxide (2mL) and ultrapure water (3mL).
+The sample was weighed (0.5g) into a digestion vessel and the reagents were added.
+The microwave digestion program was as follows: 5min to 100°C, 5min to 130°C, 5min to 160°C, 7min to 200°C, 10min at 200°C and cooling down to 80°C.
+The digested solution was transferred into a volumetric flask (100mL) using ultrapure water, the internal standard was added and the volume was made up to 100mL.
+The performance of the ICP-MS-method in the rice matrix was confirmed by using NIST Standard Reference Material® 1568a (rice flour).
+Eight parallel samples were analysed which resulted in a mean value of 0.290mg/kg, SD was 0.006mg/kg and coefficient of variation was 2.0%.
+The certified value for the total arsenic in the NIST 1568a is 0.29±0.03mg/kg.
+The method used in this exercise is a self-devised modification of an accredited method used for heavy metals in animal tissue samples.
+Determination of inorganic arsenic
+Samples (2g) were weighed into a digestion vessel and nitric acid (1%) was added - 10mL for long grain rice and 20mL for baby food, respectively.
+The samples were microwave extracted as follows: 5min to 55°C, 10min at 55°C, 5min to 75°C, 10min at 75°C, 5min to 95°C, 30min at 95°C and cooled down to 50°C (Sun et al., 2008).
+After microwave extraction, the sample was transferred into a 50mL volumetric flask with 1% nitric acid followed by shaking and the transfer of an aliquot into a centrifuge tube.
+The samples were centrifuged (Ultracentifuge AvantiTM J-301 High Performance Centrifuge, Beckman Coulter, Brea, California, USA) (20min at 10,000G at 10°C) and supernatant (1.5mL) was passed through a 0.2μm syringe-type filter.
+The data were quantitated using the external standard method and peak areas.
+The amount of inorganic arsenic was calculated as the sum of arsenite and arsenate.
+ICP-MS for total arsenic determination
+In the total arsenic determination, a Cetac Autosampler ASX-520 was used for introducing the standards and samples.
+The HeH2-gas (7% H2, 3.20mL/min) was used as a collision cell gas to avoid any interferences.
+The dwell time was 200ms, one channel was used and resolution was standard.
+The ICP power was set to 1400W and the nebulizer gas flow rate was adjusted to 0.87L/min.
+The nebulizer was a glass concentric nebulizer and the interface cones were made of nickel.
+HPLC-ICP-MS for inorganic arsenic determination
+Ammonium carbonate (10 - 50mM) was used as the mobile phase (Thermo Electron Corporation, 2004) and it was prepared using ammonium carbonate powder and ultrapure water.
+The pH of the eluent was adjusted to 8.9 with concentrated formic acid.
+The injection volume was 100μL, the column temperature was RT and the eluent flow rate was set to 1mL/min.
+In the speciation analysis, the ICP-MS was equipped with HPLC-ICP-MS Coupling Kit, Integrated PlasmaLab software (Thermo Fisher Scientific, Waltham Massachusetts, USA).
+The data was collected on-line for arsenic (m/z 75).
+The dwell time was 200ms and resolution was in the standard mode.
+The data was processed with PlasmaLab and Microsoft Excel softwares.
+Statistics
+IBM SPSS Statistics 19 software was used in the statistical analysis.
+The correlation tests were performed with the Pearson correlation test and Spearman rank correlation test.
+In the correlation tests, the values above the limit of detection were set to LOQ and the values below the limit of detection were set to LOD (Upper Bound method).
+The amount of porridge powder in porridge was calculated according to the manufacturer's instructions for preparation of the porridge.
+The consumption levels and the consumer's weights were obtained from several sources; "The national Findiet 2007 Survey", "The Diet of Finnish Preschoolers" and "Finnish Nutrition Recommendations 2005" (KTL-National Public Health Institute, 2008a; KTL-National Public Health Institute, 2008b; National Nutrition Council of Finland., 2005).
+All the assessments and consumption data involved only the people who use these rice products.
+Results and discussion
+Results
+The ICP-MS-method for the determination of elements (lead, cadmium, chromium, nickel, copper, zinc, manganese, arsenic and selenium) has been in use in Evira for several years.
+It has been validated and has a flexible scope accredited status.
+Several independent exercises (including one done for arsenic in rice flour during this study) have demonstrated its applicability for other matrices as well.
+The limit of detection and the limit of quantification for arsenic are 0.005mg/kg and 0.010mg/kg, respectively.
+The method uncertainty for arsenic was 18%, repeatability was 13% and reproducibility was 11%.
+We validated and accredited the arsenic speciation method for rice.
+The limit of quantification and the limit of detection for inorganic arsenic were 0.06mg/kg and 0.03mg/kg, respectively and the overall uncertainty of the method was 25%.
+The repeatability, reproducibility and trueness of the method for inorganic arsenic are summarised in Table 1.
+These figures reveal that the method is highly repeatable (CV 11% at the level of 0.08 - 0.11mg/kg) and reproducibility is also good (on average CV 8%).
+The method trueness was determined using the test material IMEP-107, a material used in one interlaboratory comparison.
+No certified reference materials are available for inorganic arsenic species of rice.
+The trueness of the method is very good if compared to the results achieved in interlaboratory comparison.
+Examples of a sample chromatogram, a standard chromatogram and a blank chromatogram are in Fig. 1.
+The total arsenic content of long grain rice samples analysed in this study varied from 0.11 to 0.65mg/kg (n=8) and the average amount of total arsenic in long grain rice samples was 0.25mg/kg (Table 2).
+The average amount of inorganic arsenic was 0.16mg/kg, ranging from 0.09 to 0.28mg/kg.
+The relative value of the total arsenic in its inorganic forms has varied from 34 to 110%, the average being 74%.
+AB and MMA were not detected in any of the long grain rice samples.
+The arsenic species detected in the rice samples were DMA, As(III) and As(V).
+Both Pearson and Spearman correlation tests demonstrated a significant correlation between total and inorganic arsenic levels in long grain rice at the confidence level 95% (Pearson correlation p=0.016, Spearman correlation p=0.043).
+The total arsenic content of rice based baby food products was 0.09mg/kg on average (n=10), ranging from 0.02 to 0.29mg/kg (Table 3) and arsenic species in rice based baby foods were the same as in long grain rice (DMA, As(III), As(V)).
+We were able to measure the amount of inorganic arsenic in four out of ten porridge powders.
+The average inorganic arsenic content of these four samples was 0.11mg/kg, the highest quantified inorganic arsenic level was 0.21mg/kg and the lowest level was 0.07mg/kg.
+In one sample, the level was above the limit of detection.
+The Pearson correlation test shows a correlation between total and inorganic arsenic levels in porridge powders with a confidence level of 99% (p=0.000).
+The Spearman correlation test also detected a correlation, but at a confidence level of 95% (p=0.025).
+The results for total and inorganic arsenic in long grain rice samples are in line with results obtained in other studies (Heitkemper et al., 2001; Sun et al., 2008; Zavala, Gerads, Gurleyuk, & Duxbury, 2008).
+The distribution of species has also been found to be similar to those in other surveys (Ackerman et al., 2005; Heitkemper et al., 2001; Nishimura et al., 2010; Williams et al., 2005; Zavala et al., 2008; Zhu et al., 2008).
+However, there is very little information available on the total and inorganic arsenic levels in rice-based baby food.
+Our results for baby food are in line with the data of Meharg et al., in which the median inorganic arsenic level of 17 rice-only baby food was 0.11mg/kg (Meharg et al., 2008).
+The major difference with our study is that we analysed rice based baby foods which contained also other ingredients in addition to rice.
+Our data is in line with recently published inorganic arsenic levels in some rice based baby food (Llorente-Mirandes, Calderón, López-Sánchez, Centrich, & Rubio, 2012).
+Discussion
+One of the major advantages of our method is that it permits quantification of inorganic arsenic or arsenic species in everyday routine analysis.
+Many methods developed in arsenic speciation are only applicable for research purposes.
+The disadvantages of using carbonate buffers as an eluents are long retention time and the peak broadening with arsenate (Raber et al., 2012).
+These are due to high pH which leads to additional deprotonation of the arsenate anion.
+Irrespective of these problems, one achieves good repeatability and reproducibility with this method (Table 1).
+One interesting observation is that reproducibility improves from the first day to the third day of analysis which may be a result of the gradual accommodation of the instrumentation to the HPLC-ICP-MS-mode.
+Thus, we estimate that the reproducibility of the method would be around 4% if a dedicated HPLC-ICP-MS instrument could be used.
+Furthermore, trueness of the method is very good with regard to the validation data as well as from the results from several interlaboratory comparisons.
+The analysis time is 45min which can be considered as long.
+However the overall analysis time is not so long because the extraction time is short and sample preparation is fast and robust.
+The method takes a full advantage of specificity and no interfering signals to the five standard compounds used was detected in any of the samples analysed so far.
+The method worked perfectly also for the samples which included also other ingredients.
+In general the total and inorganic arsenic contents of rice-based baby food are lower than the levels in long grain rice.
+One of the reasons for the lower total arsenic levels in these products compared to long grain rice is that they include other foodstuffs, for example fruits and whey and milk powder which dilute the sample.
+Only two out of ten baby cereal products had the exact relative amount of rice declared on the label.
+Three products which had rice as the main ingredient (rice was mentioned first in the ingredient list) had the highest total arsenic content detected in this study.
+For this reason, it is reasonable to conclude that when rice powder is the main ingredient of baby food, the arsenic content is higher than in products which have some other cereals or milk to dilute the amount of rice.
+Therefore it is possible to recommend that there should be "dilution" of the rice powder with some other healthy ingredient low in its inorganic arsenic level to lower the overall arsenic intake.
+This is particularly true in countries with high consumption of rice based baby food.
+Some assessments of the inorganic arsenic intake from long grain rice and baby food can be made (Table 4).
+All the estimations are conservative, worst case scenarios and conducted using the products that contained the highest inorganic arsenic levels (long grain rice 0.28mg/kg and porridge powder 0.21mg/kg) and the lowest BMDL0.1 level 0.3μg/kg bw/day evaluated by EFSA.
+The consumption of long grain rice is around 66g/day in women (25 - 64years) and 80g/day in men (25-64years), respectively.
+The average consumption figures would result in inorganic arsenic intakes of 0.26μg/kg (women) and 0.27μg/kg (men) bw/day.
+In the worst case scenarios the levels of inorganic arsenic intake for the four groups was above the lower limit of the benchmark dose needed for a 0.1% increased incidence of various cancer types and skin lesions.
+The inorganic arsenic intake of different age groups of children from rice-based baby food was also close to the lower BMDL0.1 value.
+Our data indicates also, that the cumulative inorganic arsenic intake in different age groups should be assessed.
+Conclusions
+The results from this study can be utilised in risk assessments of inorganic arsenic.
+The EFSA Panel on Contaminants in the Food Chain (CONTAM) stated that arsenic speciation data was needed for different food commodities, and furthermore they declared that there was a need for well validated methods for determining the inorganic arsenic levels in foodstuffs.
+Our study is one of the first to report inorganic arsenic levels in rice-based baby foods.
+In particular, these experiments provide additional information on the relationship between total and inorganic arsenic levels as well as their correlations as evaluated in rice-based baby foods which are very popular in Europe.
+It is notable that five of the products analysed exceeded the limit set by People's Republic of China for inorganic arsenic in rice.
+Due to the fact that the intake figures are around the lower BMDL0.1 value in all age groups even though only the intake of inorganic arsenic from rice-based baby food and long grain rice was evaluated, the future goal will be the cumulative intake assessment of inorganic arsenic in different age groups.
+Acknowledgements
+The authors thank the laboratory assistants for their help and advice, MSc Tiina Ritvanen for advice with the statistical analysis and Ewen MacDonald for language consultancy.
+

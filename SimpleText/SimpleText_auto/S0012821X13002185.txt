@@ -1,0 +1,199 @@
+Opening the gateways for diatoms primes Earth for Antarctic glaciation
+
+Abstract
+The abrupt onset of Antarctic glaciation during the Eocene-Oligocene Transition (∼33.7Ma, Oi1) is linked to declining atmospheric pCO2 levels, yet the mechanisms that forced pCO2 decline remain elusive.
+Biogenic silicon cycling is inextricably linked to both long and short term carbon cycling through the diatoms, siliceous walled autotrophs which today account for up to 40% of primary production.
+It is hypothesised that during the Late Eocene a sharp rise in diatom abundance could have contributed to pCO2 drawdown and global cooling by increasing the proportion of organic carbon buried in marine sediment.
+Diatom and sponge silicon isotope ratios (δ30Si) are here combined for the first time to reconstruct the late Eocene-early Oligocene ocean silicon cycle and provide new insight into the role of diatom productivity in Antarctic glaciation.
+At ODP site 1090 in the Southern Ocean, a 0.6‰ rise in diatom δ30Si through the late Eocene documents increasing diatom silicic acid utilisation with high, near modern values attained by the earliest Oligocene.
+A concomitant 1.5‰ decline in sponge δ30Si at ODP site 689 on the Maud Rise tracks an approximate doubling of intermediate depth silicic acid concentration in the high southern latitudes.
+Intermediate depth silicic acid concentration peaked at ∼31.5Ma, coincident with the final establishment of a deepwater pathway through the Tasman Gateway and Drake Passage.
+These results suggest that upwelling intensification related to the spin-up of a circum-Antarctic current may have driven late Eocene diatom proliferation.
+Organic carbon burial associated with higher diatom abundance and export provides a mechanism that can account for pCO2 drawdown not only at, but also prior to, Antarctic glaciation as required by a pCO2 'threshold' mechanism for ice sheet growth.
+Graphical Abstract
+Highlights
+•
+Diatom and sponge δ30Si used to reconstruct the Eocene-Oligocene silicon cycle.
+•
+0.6‰ late Eocene rise in diatom δ30Si (increasing silicic acid utilisation).
+•
+1.5‰ late Eocene/early Oligocene sponge δ30Si fall (increasing silicic acid concentration).
+•
+Upwelling related to proto-ACC facilitated late Eocene diatom proliferation.
+•
+Diatom driven carbon burial contributed to pCO2 decline before Antarctic glaciation.
+
+Introduction
+The Eocene-Oligocene Transition (EOT) marks the onset of modern icehouse conditions when continental-scale ice sheets enveloped Antarctica ('Oi1,' ∼33.7Ma, Coxall et al., 2005; Ehrmann and Mackensen, 1992).
+Oi1 typifies the non-linearity of global climate, with the emplacement of an ice volume between 60% and 100% of that present today on Antarctica over only ∼400ka, superimposed on a million-year timescale cooling trend (Coxall et al., 2005; Lear et al., 2008; Zachos et al., 2001).
+Declining atmospheric pCO2 levels are thought to have driven the accelerated onset of Antarctic glaciation during Oi1, with numerical models suggesting a 'threshold' response of the cryosphere to a long-term lowering of pCO2 (DeConto and Pollard, 2003).
+Recent reconstruction of pCO2 across the late Eocene and early Oligocene (Pagani et al., 2011) documents a decline that began ∼2Ma prior to geological and stable isotope evidence for Antarctic glaciation, supporting this hypothesis.
+However, the mechanisms responsible for this gradual pCO2 drawdown remain unclear.
+The biological carbon pump, in particular associated with increased diatom abundance in the Southern Ocean during the late Eocene, represents a potential candidate (Rabosky and Sorhannus, 2009; Salamy and Zachos, 1999; Scher and Martin, 2006).
+Diatoms are prolific phytoplankton, today accounting for up to 40% of global primary production (Tréguer et al., 1995).
+The formation of opaline frustules by diatoms imposes an absolute requirement for silicon, fundamentally linking the modern marine silicon and carbon cycles.
+Among the phytoplankton, diatoms are notably important for the export and burial of organic carbon for a number of reasons.
+Firstly, diatoms efficiently export carbon from the surface ocean: their silica frustules provide ballast material, they are relatively large cells at the base of short food webs, and they form blooms that can terminate in aggregation and mass settling of cells (Baines et al., 2010; Buesseler, 1998; Ragueneau et al., 2000; Smetacek, 1999).
+Secondly, diatoms may contribute up to 75% of primary production in upwelling regions of the world's oceans (Nelson et al., 1995).
+In these areas, nutrients and CO2 sequestered in the deep ocean by the biological pump are resupplied to the surface.
+Diatom domination of the resident phytoplankton community makes them critical in determining the magnitude of the CO2 flux to the atmosphere and the efficiency of the biological pump (Marinov et al., 2006; Sarmiento et al., 2004).
+Today, diatom production in the Southern Ocean, coupled with the unique overturning circulation of the Antarctic Circumpolar Current (ACC), plays an important role in determining the efficiency of the biological pump and in setting the ocean-atmosphere CO2 balance.
+The wind-driven ACC facilitates deep upwelling to the south of the Polar Front.
+These upwelled waters are advected northwards by Ekman transport and thus provide nutrients that fuel diatom (as well as other phytoplankton) production, creating marked bands of opal and carbon export (Fig. 1; Speer et al., 2000; Ito et al., 2005).
+These surface waters are eventually subducted to intermediate depths and supply nutrients to the lower latitude thermocline.
+Thus, the amount and proportion of macronutrients used in this region play a major role in determining the efficiency of the biological pump globally (Sarmiento et al., 2004).
+Travelling an alternative path, some of this upwelled water moves southwards, eventually forming Antarctic Bottom Water.
+The magnitude of phytoplankton production and export along this path relative to the degree of nutrient supply sets the degree to which CO2 escapes from the ocean.
+Today, incomplete nutrient utilisation makes this a region of CO2 venting to the atmosphere (Marinov et al., 2006).
+Diatom radiation, coupled with the development of an ACC-type circulation, may have substantially increased the efficiency of the biological pump during the late Eocene and early Oligocene, facilitating organic carbon burial and contributing to the pCO2 drawdown hypothesised to have driven Antarctic Glaciation (Rabosky and Sorhannus, 2009; Scher and Martin, 2006).
+Diatoms originated in the Jurassic, and open ocean diatom diversity and abundance increased through the late Cretaceous and Palaeogene, pumping silicic acid to depth and driving a concomitant decrease in shelf chert abundance (Maliva et al., 1989).
+The late Eocene witnessed both a second diatom proliferation, culminating in an explosion of species diversity (Rabosky and Sorhannus, 2009) and enhanced Southern Ocean biogenic opal burial (Salamy and Zachos, 1999; Schumacher and Lazarus, 2004).
+An increase in benthic δ13C, indicative of enhanced organic carbon burial, took place concomitantly (Cramer et al., 2009), particularly in the high latitude Southern Ocean.
+The opening of the two tectonic gateways that allow an unimpeded current flow in the Southern Ocean also occurred gradually through the late Eocene and into the Oligocene.
+Initial subsidence began between 50 (Drake Passage) and 35.5Ma (Tasman Gateway), with a deep connection completed by 33.5-30.2Ma (Livermore et al., 2007; Mackensen, 2004; Stickley et al., 2004).
+From the time when these gateways opened, even to a relatively shallow depth, a complete pathway for wind-driven currents would have begun to affect Southern Ocean circulation, gradually intensifying upwelling as subsidence progressed (Livermore et al., 2007; Sijp et al., 2011).
+The Late Eocene is thus hypothesised as the time when the important relationship between diatoms and the ACC developed.
+Affirming the link between diatom radiation and late Eocene pCO2 drawdown requires evidence that diatom diversification and opal deposition corresponded to increased diatom productivity and organic carbon burial.
+To this end, combined diatom and sponge silicon isotope records (δ30Si=[(30Si/28Si)Sample/(30Si/28Si)Standard-1]×103) are used here to characterise the late Eocene-early Oligocene marine silicon cycle.
+Diatom δ30Si is a proxy for diatom silicic acid utilisation (Fig. 2a) because frustule growth preferentially incorporates 28Si over 30Si with 30ε∼-1.1‰ (De La Rocha et al., 1997).
+Silicic acid utilisation is determined by both diatom uptake (broadly reflecting diatom productivity) and silicic acid supply to the surface ocean.
+Although diatom δ30Si has previously been used to reconstruct silicic acid utilisation, efforts to convert this to productivity have been hampered by a lack of knowledge of the concentration of silicic acid supplied from depth.
+Benthic siliceous sponges form spicules with a silicon isotope fractionation factor dependent on ambient silicic acid concentration (Hendry et al., 2010; Hendry and Robinson, 2012; Fig. 2b).
+Sponge δ30Si constitutes a proxy for bottom-water silicic acid concentration and ocean circulation (Fig. 2b) which can be used as a constraint on the concentration of silicic acid supplied to the surface ocean, facilitating resolution of the effects upon diatom δ30Si of diatom uptake and silicic acid supply.
+Materials and methods
+Study sites and age models
+Diatom and sponge δ30Si were analysed in sediments from ODP Leg 177, Site 1090B, and ODP Leg 113, Site 689B, respectively (Table 1 and Fig. 3).
+Age control for our records comes from magnetostratigraphic age models (Site 689; Florindo and Roberts, 2005; Spiess, 1990 and Site 1090; Channell et al., 2003) on the CK95 GPTS (Cande and Kent, 1995), which yield satisfactory correlation of benthic foraminiferan/bulk δ13C and δ18O (Cramer et al., 2009; Pusz et al., 2011) between sites given our sample resolution of 200-500kyr (Fig. A1).
+Methods
+Sediment preparation for diatom δ30Si analysis
+Initial sediment cleaning to extract biogenic opal followed well-established methodologies using H2O2, HCl and heavy liquid (sodium polytungstate) (Hendry and Rickaby, 2008; Morley et al., 2004; Shemesh et al., 1995).
+Opal was then separated into narrow size ranges using microfiltration (Minoletti et al., 2009).
+Recent work has shown the 2-20μm fraction is generally most representative of diatom δ30Si (Egan et al., 2012).
+An initial test measuring the δ30Si of the 2-10μm, 10-20μm and 20-41μm size fractions from selected samples was conducted to establish the correct size fraction for targeting diatom δ30Si (Fig. 4).
+Highest values in, and consistency between, the 2-10μm and 10-20μm fractions indicate these fractions best represent diatom δ30Si (Figs.
+4 and 6), consistent with smear slide observations.
+Consequently, the 2-10μm size fraction was always analysed for diatom δ30Si.
+The 10-20μm fraction was additionally measured at given intervals to ensure diatom δ30Si values were not offset by low δ30Si silica components such as sponge spicules and radiolaria.
+It is acknowledged that analysing smaller diatom size fractions may introduce a small seasonal or species-specific bias to measured diatom δ30Si values.
+However it is clear from the work of Egan et al. (2012) that this is of minimum concern compared to the effect of including larger size fractions, which are highly likely to contain non-diatom opal in the Southern Ocean.
+This is further attested to by the core top study of Ehlert et al. (2012), who found that opal in the 11-32μm size range in the Peruvian upwelling zone could be significantly offset from the δ30Si of handpicked diatom samples by non-diatom opal.
+Selection of the smaller size fraction in this region is therefore essential to producing a δ30Si record that documents the target environmental parameter, silicic acid utilisation, rather than the amount of non-diatom contamination.
+After microseparation, diatom opal was subjected to additional chemical cleaning following Ellwood and Hunter (1999), which included reduction (hydroxylamine hydrochloride/acetic acid solution), etching (NaF) and oxidation (strong acid solution of 50% HNO3+10% HCl).
+Three samples from Site 1090 covering the age range investigated were studied by X-ray diffractometry.
+All showed the diffuse peak representative of amorphous opal providing confirmation that the samples have not undergone diagenetic transformation to opal-CT.
+Sponge spicule preparation
+Sediments were prepared following existing techniques (Hendry et al., 2010), which were refined slightly to better suit the microseparation technique utilised here as a convenient alternative to sieving.
+Initial cleaning with H2O2 and HCl was carried out to concentrate biogenic opal.
+From this pre-cleaned sample the >100μm fraction was separated using microseparation (Minoletti et al., 2009) and between 50 and 100 spicules were hand-picked.
+A range of spicule morphotypes were included, as it has been shown that neither spicule morphology nor species composition creates any consistent offset in δ30Si (Hendry et al., 2010, 2011).
+Spicules were sonicated in reagent grade methanol and dried down in 200μL of concentrated HNO3.
+Sponge δ30Si data presented here are generally in agreement with the data from this site produced by De la Rocha (2003), despite different methodologies and specific sampling intervals (Fig.
+S2).
+XRD analysis showed sponge spicules from the Eocene/Oligocene interval of this site to be amorphous opal (De la Rocha, 2003).
+Opal dissolution and analysis
+Cleaned sponge and diatom opal was dissolved via wet alkaline digestion (Cardinal et al., 2007; Ragueneau et al., 2005) in 0.2M NaOH at 100°C for 40min (diatoms) or up to 1 week (sponge spicules).
+The samples were acidified to pH∼2 with 0.2M thermally distilled HCl and separated from major ions using cation exchange resin (BioRad AG50W-X12, Georg et al., 2006).
+Silicon isotope analysis was carried out using a Nu Instruments Nu-Plasma HR multi-collector inductively coupled plasma mass spectrometer run in medium resolution mode (m/Δm∼3500 at 5% and 95%).
+Samples were introduced via a self-aspirating PFA microconcentric nebuliser (ESI) in a Cetac Aridus II desolvating unit.
+Measurements included six to eight standard-sample brackets (brackets where the rate of machine drift outstripped bracketing rate were disregarded), each composed of twenty eight-second integrations.
+Samples were measured relative to the NIST RM 8546 standard.
+The external diatomite standard (1.26±0.2‰, Reynolds et al., 2007) yielded a mean and 2SD of 1.23±0.25‰ (n=104).
+Error bars in the figures and text are this 2SD external reproducibility unless the internal reproducibility of the standard sample brackets was larger, in which case this is quoted instead.
+Diatom species-specific silicon isotope fractionation
+Based on culture experiments (Sutton et al., 2013), it has recently been suggested that the diatom silicon isotope fractionation factor may be species dependent, and in particular that the genus Chaetoceros may have a significantly larger, and the species Fragilariopsis kerguelensis, a significantly smaller 30ε than the widely accepted value of ∼-1‰ (De la Rocha et al., 1997).
+Our previous Southern Ocean core top study included Antarctic Peninsula sediments containing Chaetoceros sp.
+and Pacific sector sediments containing F. kerguelensis (Egan et al., 2012).
+The size fractions analysed had up to 40% differences in the abundance of these diatoms (Fig. 5).
+However, there is no detectable δ30Si offset between size fractions in the core tops TAN127 or 385 (Fig. 5a and b), whilst in KC08A (Fig. 5c), there is a slight negative offset of the 12-20μm fraction which is opposite to that expected if the abundance of Chaetoceros was the cause (the suggested larger fractionation would act to lower δ30Si in the smaller size fractions).
+Rather, the δ30Si values of size fractions between 2 and 20μm display a good correlation (r2=0.92, Fig. 2a) with surface silicic acid concentration and, where the water source δ30Si and silicic acid concentration are known or can be reasonably estimated, converge on an apparent 30ε of ∼-1‰ (Egan et al., 2012; Fripiat et al., 2011c).
+This suggests that whilst inter-specific differences in fractionation factor exist in culture, in the natural environment the presence of such species does not yield a large offset in the δ30Si signature of the diatom population as a whole.
+Although a down core effect cannot be completely ruled out, the good agreement between the 2-10μm and 10-20μm size fractions in our record from Site 1090 (Fig. 6) and our previous core top study (Figs.
+2 and 5) suggest that changes in the species specific fractionation factor are unlikely to be the dominant driver of Site 1090 diatom δ30Si variation.
+Results and discussion
+Our new records of diatom and sponge δ30Si are shown in Fig. 6c and b (respectively) alongside benthic δ18O stacks for the main ocean basins (Fig. 6a) in which the 1-1.5‰ positive excursion centred around ∼33.7Ma marks the onset of Antarctic glaciation (data from Cramer et al., 2009).
+Through the late Eocene, between the beginning of our record at ∼38Ma and ∼33.2Ma, diatom δ30Si rose by ∼0.6‰ (Fig. 6c), equivalent to a doubling of silicic acid utilisation in the modern Southern Ocean (Fig. 2a).
+Peak utilisation indicated by high, near modern values (Fripiat et al., 2011a) between 33.8 and 33Ma coincides with the glaciation driven δ18O maximum (Fig. 6a).
+Sponge δ30Si declines by around 1.5‰ between 37 and ∼31.5Ma.
+This translates to at least a doubling in silicic acid concentration at the intermediate depth of ∼1500m at site 689 (10-50 to 50-100μmol/kg, Fig. 2b; Hendry and Robinson, 2012).
+High diatom silicic acid utilisation may result either from limited silicic acid availability or from a high degree of diatom uptake.
+Several lines of evidence suggest that the late Eocene diatom δ30Si increase resulted from enhanced diatom uptake.
+Firstly, the rising silicic acid concentration in intermediate waters through the late Eocene, as indicated by sponge δ30Si decline (Fig. 6b), suggests the supply of silicic acid to the Southern Ocean surface is most likely to have increased across the period of diatom δ30Si rise.
+Alternatively, lower silicic acid supply may have resulted from enhanced stratification.
+However, this situation cannot easily be reconciled with increasing opal contribution to Southern Ocean sediments during the late Eocene and Oi1 (Anderson and Delaney, 2005; Salamy and Zachos, 1999; Schumacher and Lazarus, 2004); the lower nutrient supply would limit diatom production and opal supply to the seafloor.
+Lastly, higher diatom uptake as the driver of rising δ30Si at this time is in good agreement with peak diatom diversity (Rabosky and Sorhannus, 2009).
+Together, the diatom and sponge δ30Si records provide the first biogeochemical footprint of major late Eocene diatom expansion and proliferation to near modern levels by the Oi1 event in the Southern Ocean.
+Further insight into late Eocene-early Oligocene silicon cycling may be gained by defining Δδ30Si1090 diatom-689 sponge=Site 1090 diatom δ30Si-Site 689 sponge δ30Si.
+Diatom δ30Si reflects both the silicic acid isotopic composition and silicic acid utilisation in surface waters.
+However, here we can account for variations in the concentration and isotopic composition of upwelling waters by normalising the δ30Si-1090 diatom values.
+This is achieved by subtracting Site 689 sponge δ30Si values from Site 1090 diatom δ30Si values.
+Assuming that (1) sponge spicule silicon isotopes reflect both the silicic acid concentration and isotopic composition, and (2) the intermediate waters bathing Site 689 and the surface waters near Site 1090 have a common source, in defining Δδ30Si we are approximating a measure of the ocean's silicic acid gradient between Sites 689 and 1090.
+Δδ30Si is a particularly powerful parameter eliminating the influence of whole ocean silicon isotopic shifts, which should affect diatom and sponge δ30Si equally.
+It is important to account for this, as modelling work suggests that changes in whole ocean δ30Si of up to 0.4‰ may result from declining riverine inputs over ka timescales (De la Rocha and Bickle, 2005).
+Δδ30Si1090 diatom-689 sponge increases by ∼1.5‰ between 37 and ∼34.5Ma, reaching a high just prior to, and stabilising across, the Oi1 event (Fig. 6d).
+Linear regressions fitted through the sponge and diatom data between 38 and 34Ma were found to diverge significantly, with a p value of 2.4×10-5 for non-divergence using a maximum likelihood method.
+The divergence in the δ30Si records from Sites 1090 and 689 provides evidence for the development of a strong silicic acid gradient between high latitude intermediate waters and more northerly surface waters during the late Eocene.
+Based on interpolation of diatom δ30Si across a hiatus at Site 1090 (Fig. 7a), Δδ30Si1090 diatom-689 sponge reaches around 5‰ at ∼31.5Ma, approaching the modern day estimate of ∼5.5‰.
+Today Δδ30Si1090 diatom-689 sponge is determined by both the silicic acid concentration of waters upwelled in the southern Antarctic Circumpolar Current (ACC), affecting the signal more strongly at Site 689, and the degree of diatom silicic acid utilisation during northerly Ekman transport, having a greater impact on Site 1090, as outlined below (Figs.
+1 and 3).
+Site 689 is situated at the eastern extremity of the Weddell gyre (Barker et al., 1990), monitoring the nutrient status of upwelling and re-subducting waters in the Antarctic Zone of the Southern Ocean (Figs.
+1 and 3b).
+Site 1090 is situated between the Sub-Antarctic and Sub-Tropical fronts (Gersonde et al., 1999) such that it underlies silicic acid depleted surface waters resulting from extensive diatom production along the northern pathway (Fig. 1 and 3b).
+Neither site moved significantly during the Cenozoic, implying the modern system of upwelling and surface water advection that is critically dependent on the presence of both the ACC and high diatom productivity was emergent through the late Eocene and fully developed by the early Oligocene.
+Late Eocene diatom proliferation likely occurred in response to subsidence of Southern Ocean land bridges and the concurrent development of circum-Antarctic upwelling.
+Steadily increasing silicic acid concentration at Site 689 from the beginning of our record until ∼31.5Ma (Fig. 6b) is coincident with the subsidence of two southern hemisphere land bridges.
+Initial subsidence began between 50 (Drake Passage) and 35.5Ma (Tasman Gateway) with a deep connection in place by 33.5-30.2Ma (Livermore et al., 2007; Scher and Martin, 2006; Stickley et al., 2004).
+Before the opening of these gateways to circum-Antarctic current flow, the Southern Ocean was dominated by surface water sinking (Diester-Haass, 1995).
+We suggest that this sinking drove a southern overturning loop, analogous to modern North Atlantic deepwater formation, which drew in low latitude silicic acid/nutrient poor surface waters (Fig. 7c).
+Without Southern Ocean upwelling, or exchange between the Pacific and Atlantic basins, overturning circulation would have been sluggish (Cramer et al., 2009) trapping silicic acid and other nutrients in the deep ocean, limiting surface primary productivity and hence organic carbon burial via the biological pump.
+Comparatively low early Palaeocene benthic δ13C in the Pacific basin suggests nutrient-rich deepwater in this region (Cramer et al., 2009).
+As gateway opening allowed the development of a circum-Antarctic current, the onset of upwelling, along with water flow from the Pacific to Atlantic, would have brought this deep store of nutrients to the surface (Fig. 7b).
+Such conditions of upwelling and high nutrient availability would have favoured diatom proliferation and opal export; high diatom nutrient uptake and growth rates, along with their large storage vacuole, provide a competitive advantage over other phytoplankton when nutrient input to the surface is high and episodic (Falkowski et al.,1998; Rabosky and Sorhannus, 2009; Tozzi et al., 2004).
+Globally, the response to a newly established 'diatom pump' is expected to have been silicic acid drawdown, counter to the observed regional increase at Site 689.
+Increased diatom productivity would have led to higher opal burial, lowering the whole-ocean inventory over time.
+However, high silicic acid concentration was maintained at Site 689 due to the establishment of the Antarctic overturning circulation (Fig. 7).
+Diatom expansion into this new, turbulent, nutrient-rich niche would have increased the proportion of organic carbon exported from the surface ocean and, together with an increase in Southern Ocean primary production, could have led to the observed increase in organic carbon burial during the late Eocene and early Oligocene (Figs.
+1 and 6; Anderson and Delaney, 2005; Diester-Haass, 1995; Salamy and Zachos, 1999).
+Diatom production is characterised by high, rapid particle flux out of near surface waters, a process which enhances labile carbon concentration and organic carbon remineralisation in the deep ocean (Henson et al., 2012).
+Although diatom production is not always linked to carbon export in the modern ocean, a strong coupling between production and export is observed in regions where nutrient supply is continuous, strong seasonal blooms occur and a diatom flora particularly efficient at carbon export exists, such as at Southern Ocean sites such near the Antarctic Polar Front (Buesseler et al., 2001).
+As such, diatom proliferation may have lowered pCO2 by facilitating coupled biogenic silica-organic carbon export to the deep ocean and marine sediments.
+Additionally, ocean alkalinity would have shifted as a result of increasing organic, relative to inorganic, carbon production and deposition (Diester-Haass, 1995; Henson et al., 2012), in keeping with pCO2 decline beginning ∼2Ma prior to the Oi1 event (Fig. 6f).
+Eocene fluctuations in the equatorial Pacific carbonate compensation depth, coincident with increases in the accumulation of biogenic silica and organic carbon, have been linked to labile organic carbon input (Pälike et al., 2012), hinting that the effects of diatom radiation were not limited to the Southern Ocean.
+The Oi1 global δ13C excursion, indicative of organic carbon burial, coincides with the final approach of diatom δ30Si towards consistently modern values (Fig. 6c) and peak Southern Ocean opal accumulation (Anderson and Delaney, 2005; Salamy and Zachos, 1999).
+At this time, upwelling may have been intensified by enhanced meridional temperature gradients resulting from Antarctic Glaciation, leading to elevated nutrient supply and driving a further pulse of biological productivity (Salamy and Zachos, 1999).
+Subsequently, δ13C and opal burial decline, whilst diatom δ30Si remains elevated (Fig. 6), suggesting a highly utilised but much reduced surface silicic acid pool.
+This is consistent with productivity decline driven by nutrient limitation (Salamy and Zachos, 1999), in particular diatom silicon starvation.
+The Southern Ocean attains surface and deepwater silicon isotopic compositions indistinguishable from the modern day at around 33Ma.
+This implies that once established, upwelling and diatom production, coupled with the deep regeneration cycle of biogenic opal, trapped silicic acid within a rather stable Southern Ocean "loop".
+Today such self-limitation confines the diatoms to upwelling regions with high silicic acid concentrations.
+It is interesting to consider that this sequestration of silicic acid in the deep ocean, which has often facilitated shifts in the locus of opal deposition during the latter Cenozoic (Cortese et al., 2004) through changes in the location of silicic acid resupply to the surface and altered advection of deepwaters, began as far back as the Late Eocene.
+It is acknowledged that there is considerable complexity in the relationship between the diatoms, the biological carbon pump, and atmospheric pCO2.
+This is particularly well illustrated by a number of hypotheses invoking a role for diatoms in glacial interglacial CO2 cycles, predominantly through their ability to alter the partitioning of carbon between surface and deep ocean reservoirs (e.g. iron fertilisation, changes in the ratio of siliceous to calcareous primary producers, silicic acid leakage; e.g.
+Kohfeld and Ridgewell, 2009) and consequent effects on carbonate compensation.
+Some, such as iron fertilisation, may also alter the degree to which diatom opal export is coupled with organic carbon and other nutrient export (Ragueneau et al., 2000).
+It is additionally noted that increased upwelling associated with the onset of a circum-Antarctic current may well have released carbon stored in the abyssal ocean to the atmosphere.
+Although the hypothesis that diatom radiation contributed to Eocene CO2 drawdown by increasing organic carbon burial is one of a number of possible interpretations of our data, and maybe subject to the aforementioned complexities, it is favoured by the long time interval considered.
+Over millions of years, processes such as organic carbon burial, which control the size of the surficial carbon reservoir, are likely to be of greater importance to atmospheric pCO2 than mechanisms such as ocean circulation or biological mediation of the deep ocean carbon reservoir, which largely alter the partitioning of this surficial carbon between the ocean and atmospheric reservoirs (Berner, 2003).
+Diatom carbon fixation and silicification, which may be decoupled by changes in iron fertilisation or the relative silicifcation of the ambient species (Ragueneau et al., 2000), are suggested to have remained coupled through this time period based on the broad coincidence between increased diatom production (δ30Si, Southern Ocean opal burial), increased organic carbon burial, and positively trending δ13C (Anderson and Delaney, 2005; Diester-Haass, 1995; Salamy and Zachos, 1999).
+Conclusions
+Reconstruction of the Eocene-Oligocene marine silicon cycle in the Southern Ocean has been achieved through the novel combination of diatom and sponge δ30Si.
+Increasing diatom δ30Si, interpreted in light of both opal accumulation rates and sponge δ30Si, provides the first biogeochemical evidence for diatom radiation during the late Eocene.
+Sponge δ30Si records increasing silicic acid concentrations at intermediate depths in the Antarctic Zone throughout the late Eocene and the early Oligocene, coincident with the subsidence of Southern Ocean land bridges.
+Rising diatom abundance concomitant with reorganisation of Southern Ocean circulation, which are both key in controlling the marine silicic acid distribution, had implications for organic carbon burial and global climate.
+A mechanistic link between the development of this system and Eocene-Oligocene pCO2 drawdown exists through diatom-driven burial of organic carbon triggered by intensified upwelling, suggesting that the biological carbon pump played a significant role in the onset of Antarctic glaciation.
+In particular, this mechanism implies a drawdown of CO2 associated with events of a precursor nature to the glaciation, as is required from both modelling and pCO2 proxy reconstructions.
+Author contributions
+K.E.E. undertook sediment preparation, analysis of silicon isotope ratios and wrote the paper.
+R.E.M.R., K.R.H. and A.N.H. designed the study (with contributions from K.E.E), discussed the results and commented on/revised the manuscript.
+R.E.M.R. and A.N.H. funded the project.
+Acknowledgements
+This work was carried out as part of the Natural Environmental Research Council (NERC) Grant NE/F005296/1.
+The Oxford isotope geochemistry lab is supported by an ERC grant to Halliday.
+Thanks to the Ocean Drilling Program for supplying sediments, and to Jorn Bruggeman and Michäel Hermoso for help with statistics and lab work.
+Many thanks to two anonymous reviewers, whose comments and suggestions were extremely helpful in improving the manuscript, and more generally for providing insight into silicon cycle dynamics.
+Data tables are included in the Supplementary materials.
+supplementary materials
+Supplementary data associated with this article can be found in the online version at doi:10.1016/j.epsl.2013.04.030.
+Supporting information
+Supplementary Data
+Supplementary Data
+

@@ -1,0 +1,394 @@
+An integral contravariant formulation of the fully non-linear Boussinesq equations
+
+Abstract
+In this paper we propose an integral form of the fully non-linear Boussinesq equations in contravariant formulation, in which Christoffel symbols are avoided, in order to simulate wave transformation phenomena, wave breaking and nearshore currents in computational domains representing the complex morphology of real coastal regions.
+Following the approach proposed by Chen (2006), the motion equations retain the term related to the approximation to the second order of the vertical vorticity.
+A new Upwind Weighted Essentially Non-Oscillatory scheme for the solution of the fully non-linear Boussinesq equations on generalised curvilinear coordinate systems is proposed.
+The equations are rearranged in order to solve them by a high resolution hybrid finite volume-finite difference scheme.
+The conservative part of the above-mentioned equations, consisting of the convective terms and the terms related to the free surface elevation, is discretised by a high-order shock-capturing finite volume scheme in which an exact Riemann solver is involved; dispersive terms and the term related to the approximation to the second order of the vertical vorticity are discretised by a cell-centred finite difference scheme.
+The shock-capturing method makes it possible to intrinsically model the wave breaking, therefore no additional terms are needed to take into account the breaking related energy dissipation in the surf zone.
+The model is verified against several benchmark tests, and the results are compared with experimental, theoretical and alternative numerical solutions.
+Highlights
+•
+We propose a contravariant formulation of the fully non-linear Boussinesq equations.
+•
+The presented contravariant formulation is free of Christoffel symbols.
+•
+The equations retain the approximation to the second order of the vertical vorticity.
+•
+We present a new Upwind Weighted Essentially Non-Oscillatory scheme.
+•
+The shock-capturing scheme allows an explicit simulation of the wave breaking.
+
+Introduction
+The modelling of surface wave transformation phenomena in coastal regions and breaking waves are of fundamental importance for the simulation of the surf zone hydrodynamics.
+The two-dimensional Boussinesq equations make it possible to represent most of the above-mentioned phenomena.
+These equations arise from the depth integration of the Euler equations once the depth dependence of the variables is known.
+The standard Boussinesq equations are based on the assumption of linear distribution over the depth of the vertical component of the velocity and encompass frequency dispersion by taking into account the effects of the vertical acceleration on the pressure vertical distribution.
+The most common forms of the standard Boussinesq equations include the lowest order of both frequency dispersion and non-linearities and are able to adequately represent wave phenomena only in a range of values of the water depth, h0, to deep water wave length, L0, ratio up to 0.2.
+Madsen and Sørensen (1992) proposed an extended form of the Boussinesq equations, expressed in function of the depth averaged velocity, which allowed the representation of wave phenomena even in regions where the h0/L0 ratio is close to 0.5.
+By introducing an additional third order term, which can be thought as a slight modification of the Padé approximant of the full dispersive relation, in the depth integrated momentum equation, Madsen and Sørensen (1992) improved the dispersion properties of the Standard Boussinesq equations.
+Nwogu (1993) derived an alternative form of the extended Boussinesq equations in which the dependent variable was the velocity at an arbitrary distance from the still water level.
+Nwogu (1993) improved the linear dispersion properties of the standard Boussinesq equations retaining terms up to O(ε) and O(μ2) in variable depth power expansion, where ε=a0/h0 and μ=h0/L0 are non-dimensional parameters related to the order of magnitude of non-linearities and frequency dispersion and a0 is the deep water wave amplitude.
+Nwogu (1993) included an additional frequency dispersion term in the continuity equation and improved, compared to the Standard Boussinesq equations, the representation of the dispersion phenomena in intermediate and deep water.
+Wei et al. (1995) followed the Nwogu (1993) approach using the velocity at a certain depth as a dependent variable.
+They derived a fully non-linear extension of the Boussinesq equations by retaining terms up to O(μ2) and O(εμ2) in variable depth power expansion and consequently improved the accuracy of the model just seaward of the surf zone where the wave height to water depth ratio is essentially equal to 1.
+Chen et al. (1999) used a model based on the fully non-linear extended Boussinesq equations proposed by Wei et al. (1995) in order to simulate wave phenomena and breaking-induced nearshore circulation.
+They modelled the wave breaking and energy dissipation in the surf zone by introducing an eddy viscosity term into the governing momentum equation.
+Velocity and free surface elevation fields obtained by numerical integration of the above-mentioned Boussinesq equations were averaged in time and gave the possibility to predict longshore and rip currents and to simulate the coupled interaction of surface waves and currents.
+Chen et al. (2003) improved the above-mentioned model by introducing an additional term in the momentum equation in order to ensure the property of vertical vorticity conservation and to improve the simulation of surface waves and longshore currents.
+Chen et al. (2003) started from the three-dimensional Euler equations in which the convective terms were explicitated directly in terms of vector product between velocity and vorticity.
+The introduction in the above-mentioned Euler equations of the vertical distribution of the velocity and pressure, obtained by retaining terms up to O(εμ2) and O(μ2) in depth power expansion, and of the vertical component of the vorticity gave a new form of the Boussinesq type momentum equation for the partially rotational motion.
+The vertical vorticity conservation is correct to the second order consistently with the order of approximation for the wave motion.
+Erduran et al. (2005) proposed a method for the solution of the extended Boussinesq equations, in the form proposed by Madsen and Sørensen (1992), based on a hybrid scheme consisting of finite volume and finite difference procedures.
+The governing equations were rearranged to obtain a conservative part that can be treated by a finite volume method.
+The remaining terms in the depth averaged momentum equation were considered as source and sink terms and discretised by a finite difference method.
+The presence of the dispersive terms in the Boussinesq equations balances the amplitude dispersion phenomenon and makes the wave fronts stable.
+For this reason the Boussinesq equations are not able to automatically and intrinsecally represent shallow water wave breaking.
+Many authors introduce breaking dissipation schemes in the Boussinesq equations which have to be applied in the surf zone.
+Zelt (1991), Karambas and Koutitas (1992) and Kennedy et al. (2000) provide a wave breaking model in the form of an eddy viscosity term added to the momentum equation.
+This term takes into account the energy dissipation due to the wave breaking induced turbulence.
+Different methods are based on the surface roller concept introduced by Svendsen (1984): the underlying idea is that the surface roller can be considered as a volume of water carried by the wave.
+In the wave breaking model proposed by Schäffer et al. (1993) and Madsen et al. (1997), the roller propagates with the wave celerity and the velocity below the roller is obtained from the irrotational theory.
+This leads to additional terms in the momentum equation and consequently in an increase of momentum flux which simulates wave breaking.
+By the consideration that in the surf zones, the wave breaking induced energy dissipation is substantially related to the breaking generated vorticity, Svendsen et al. (1996), Veeramony and Svendsen (2000) and Musumeci et al. (2005) solved the vorticity transport equation in order to simulate the vorticity vertical distribution.
+In the above-mentioned models the dissipation term due to the wave breaking is related to the presence of the vorticity.
+As the weak solutions of the integral form of the motion equations (numerically solved by a shock-capturing scheme) are able to directly simulate wave breaking, the explicit introduction in the equations of terms representing the breaking wave dissipation is not necessary.
+Shock-capturing schemes permit an explicit simulation of the wave breaking phenomenon, thus these schemes do not require any empirical calibration.
+Hybrid methods have been recently used by many authors in order to take advantage of the shock capturing methods in simulating breaking waves.
+Tonelli and Petti (2009) extended the hybrid scheme proposed by Erduran et al. (2005) to the two-dimensional Madsen and Sørensen (1992) equations seaward of the surf zone and implemented a shock-capturing method for the solution of the non-linear shallow water equations in the surf zone: the Riemann problem was solved by an approximated HLL solver and a MUSCL-TVD technique was used for fourth order reconstructions.
+Roeber et al. (2010) solved Nwogu's (1993) one-dimensional equations by a hybrid scheme including a shock capturing method based on a Godunov-type procedure; they introduced an eddy viscosity term into the governing equation in order to control the instabilities produced by the sharp gradients of transport quantities.
+Shi et al. (2012) modified the fully non-linear Boussinesq equations proposed by Chen (2006) by introducing a moving reference level, presented for the first time by Kennedy et al. (2001), in order to optimise the non-linear behaviour of the resulting model equations.
+The governing equations were written in conservative form with an approximated Riemann solver and a MUSCL technique being used.
+Shi et al. (2012) followed the Tonelli and Petti (2009) approach in modelling wave breaking: the Boussinesq equations switched into the non-linear shallow water equations where the Froude number exceeds a certain threshold.
+In this paper a new integral form of the fully non-linear Boussinesq equations in contravariant formulation is proposed in order to simulate wave evolution, wave breaking and breaking-induced nearshore currents in computational domains representing the complex morphology of real coastal regions.
+Following the approach proposed by Chen (2006), motion equations retain the term related to the second order vertical vorticity.
+Breaking wave propagation in the surf zone is simulated with a high-order shock-capturing scheme: an exact Riemann solver and a WENO reconstruction technique are used.
+The computation of flows over domains representing the complex morphology of real cases can be carried out using two different strategies.
+The first of these strategies is based on the use of unstructured grids (Hu and Shu (1999), Petti and Bosa (2007), Mandal and Rao (2011), Sørensen et al. (2004), Arminjon and St-Cyr (2003), Gallerano and Napoli (1999), Gallerano et al. (2005), Titarev and Drikakis (2011), Cioffi et al. (2005)).
+The second of these strategies is based on the use of computational cells that result from the intersection of curvilinear boundary conforming coordinate lines.
+By adopting the latter strategy the motion equations can be expressed in contravariant formulation (Luo and Bewley (2004), Gallerano and Cannata (2011a), Rossmanith et al. (2004), Wesseling et al. (1999), Zijlema et al. (1995), Segal et al. (1992)).
+In numerical solutions of motion equations in contravariant formulation, a contradiction related to the presence of Christoffel symbols appears.
+It is well known that non-conservative forms of the convective terms present in the conservation laws do not permit numerical methods for the solution of the above-mentioned laws to converge to weak solutions.
+Consequently the integration of the conservation laws in the solutions of which shocks are present, requires convective terms to be expressed in conservative form.
+The contravariant formulation of motion equations involves covariant derivatives that give rise to Christoffel symbols.
+These terms are extra source terms.
+They come in with the variability of base vectors and do not permit the definition of convective terms in a conservative form.
+Furthermore, computational errors can be produced by numerical discretisation of the Christoffel symbols on highly distorted grids and the numerical accuracy can be reduced.
+Consequently the contravariant fully non-linear Boussinesq equations, numerically integrated on generalised boundary conforming curvilinear grids, must be free of Christoffel symbols.
+In this work a new Upwind Weighted Essentially Non-Oscillatory scheme is proposed for the solution of the fully non-linear Boussinesq equations.
+A new integral form for this set of equations expressed directly in contravariant formulation is presented.
+In order to avoid Christoffel symbols, the contravariant form of the motion equations is integrated on an arbitrary surface and is resolved in the direction identified by a constant parallel vector field.
+In this way we present an integral form of the contravariant fully non-linear Boussinesq equations in which Christoffel symbols are avoided.
+The equations are solved by a hybrid finite volume-finite difference scheme.
+Convective terms and terms related to the free surface elevation gradient are discretised by a high order finite volume upwind WENO scheme; dispersive terms and the term related to the second order vertical vorticity are discretised by a finite-difference scheme.
+The upwind WENO scheme needs a flux calculation at the cell interfaces.
+These fluxes are calculated by means of the solution of a Riemann problem.
+An Exact Riemann Solver is used in this work.
+No additional dissipative term to improve the modelling of breaking related energy decay and breaking induced nearshore circulation is used in this paper.
+The paper is organised as follows: the conservative form of the Cartesian fully non-linear Boussinesq equations is presented in Section 2; the integral form of the contravariant fully non-linear Boussinesq equations is presented in Section 3; Section 4 shows the numerical scheme used to solve the equations; in Section 5 accuracy tests and applications to problems of wave breaking and nearshore currents are presented and conclusions are made in Section 6.
+Conservative form of the Cartesian fully non-linear Boussinesq equations
+Let H=h+η be the total local water depth, where h is the local still water depth and η is the local surface displacement.
+Using a Taylor expansion of the velocity about an arbitrary distance from the still water surface, σ, and assuming zero horizontal vorticity, as proposed by Nwogu (1993), Wei et al. (1995), Chen et al. (2003) and Chen (2006), the vertical distribution of the horizontal velocity can be written as:(1)u→=u→α+u→2zwhere u→α is the horizontal velocity at an arbitrary distance from the still water level, z=σ and u→2z=σ-z∇∇⋅hu→α+σ2/2-z2/2∇∇⋅u→α consists of the second order terms in depth power expansion of the velocity vector in which ∇ is the two-dimensional differential operator defined as ∇=(∂/∂x,∂/∂y) in a Cartesian reference system.
+The following vectors can be defined: r→=Hu→α and s→=Hu¯→2, in which u¯→2 is the depth averaged value of u→2z.
+The explicit expression of s→ is reported in Appendix A.
+The fully non-linear Boussinesq equations expressed in a conservative form in a two-dimensional Cartesian system as a function of the dependent variables H and r→ are:(2)∂H∂t+∇⋅r→=-∇⋅s→(3)∂r→∂t+∇⋅r→⊗r→H+GH∇η=-r→H∇⋅s→-HV→+T→+W→-R→where ⊗ is the tensor product between vectors, G is the constant of gravity, V→ and T→ are the dispersive terms obtained by retaining terms up to O(μ2) and O(εμ2) in depth power expansions of the horizontal velocity according to Wei et al. (1995a), W→ is the term related to the approximation to the second order of the vertical component of the vorticity according to Chen(2006) and R→ is the bottom resistance term.
+The expressions for V→, T→ and W→ are given in the Appendix A.
+Finite volume methods are effective tools for the numerical integration of depth integrated motion equations in nearshore regions and allow an adequate representation of the breaking waves.
+Their application to the Boussinesq equations is not straightforward because of the presence of high order derivatives in dispersive terms on the right-hand side of Eq.
+(3).
+It is possible to rearrange the Eq.
+(3) in order to obtain a momentum equation that can be numerically solved by a hybrid finite volume-finite difference scheme, as suggested by Erduran et al. (2005), Tonelli and Petti (2012) and Shi et al. (2012).
+In order to obtain a system of motion equations in which a conservative part to be solved by a finite volume shock-capturing scheme is present, let us:a)
+Decompose the term HV→ on the right-hand side of Eq.
+(3) according to Wei and Kirby (1995):(4)HV→=∂∂tHV→'-∂H∂tV→'+HV→''where the expressions for V→' and V→'' are given in the Appendix A;
+b)
+Rewrite the free surface elevation term on the left-hand side of Eq.(3) as:(5)GH∇η=GH∇H-H∇h=G∇H22-H∇h
+c)
+Introduce the auxiliary variable r→* defined as:(6)r→*=r→+HV→'
+Expressions (4), (5) and (6) permit us to rewrite the Eq.
+(3) in the following form:(7)∂r→*∂t+∇⋅r→⊗r→H+G∇H22=GH∇h-R→-r→H∇⋅s→+∂H∂tV→'-HV→''-HT→-HW→
+The dependent variables of the new system of Eqs.
+(2) and (7) are H and r→*.
+The conservative part at the left-hand side of Eqs.
+(2) and (7), consisting of the dispersive terms and the terms related to the free surface elevation, can be numerically solved by a shock-capturing finite volume scheme whereas the terms at the right-hand side of the above-mentioned equations can be discretised by a cell-centred finite difference scheme.
+Integral form of the contravariant fully non-linear Boussinesq equations
+Let us rewrite Eqs.
+(2) and (7) in contravariant formulation in a two-dimensional system of generalised curvilinear coordinates.
+We consider a transformation xl=xl(ξ1,ξ2) from the Cartesian coordinates x→ to the curvilinear coordinates ξ→ (note that hereinafter the superscript indicates the generic component and not the powers).
+Let g→l=∂x→/∂ξl be the covariant base vectors and g→l=∂ξl/∂x→ the contravariant base vectors.
+The metric tensor and its inverse are defined, respectively, by glm=g→l⋅g→m and glm=g→l⋅g→ml,m=1,2.
+The Jacobian of the transformation is g=detglm.
+The transformation relationships between the components of the generic vector b→ in the Cartesian coordinate system and its contravariant and covariant components, bl and bl, in the curvilinear coordinate system are given by:(8)bl=g→l⋅b→,b→=blg→l,bl=g→l⋅b→b→=blg→l
+In the following equations, a comma with an index in a subscript stands for covariant differentiation.
+The covariant derivative is defined as b,ml=∂bl/∂ξm+Γmklbk, where Γmkl is the Christoffel symbol (Aris, 1989) given by:(9)Γmkl=g→l⋅∂g→k/∂ξm
+Let r*l be the l-th contravariant component of the vector r→* defined by the expression (6).
+r*l is given by:(10)r*l=rl+HV'l
+The differential contravariant form of the continuity Eq.
+(2) and momentum Eq.
+(7) can be expressed as:(11)∂H∂t+rm,m=-sm,m(12)∂r*l∂t+rlrmH+GglmH22,m=GHglmh,m-Rl-rlHsm,m+∂H∂tV'l-HV''l-HTl-HWl
+In Eq.
+(11) the second term on the left-hand side is the flux term.
+In Eq.
+(12) the second term on the left-hand side is the flux term, the first term on the right-hand side is the source term related to the bottom slope, the second term on the right-hand side, Rl is the bottom resistance term approximated by a quadratic law as in Tonelli and Petti (2012).
+Expressions for terms sl, V'l, V″l, Tl and Wl are given in the Appendix B.
+The integration on the generic surface element of area ΔA of Eqs.
+(11) and (12) results in the following expressions:(13)∬ΔA∂H∂tdA+∬ΔArl,ldA+∬ΔAsl,ldA=0(14)∬ΔA∂r*l∂tdA+∬ΔArlrmH+GglmH22,mdA=∬ΔAGHglmh,mdA-∬ΔARldA-∬ΔArlHsm,mdA+∬ΔA∂H∂tV'ldA-∬ΔAHV''ldA-∬ΔAHTldA-∬ΔAHWldAin which the covariant derivative in the second integral at the left-hand side of Eq.
+(14) does not allow the avoidance of the appearance of the Christoffel symbols.
+Our main goal is to formalise an integral expression of the contravariant fully non-linear Boussinesq equations in which the Christoffel symbols are absent.
+From a general point of view, in order to express the momentum equation in an integral form, the rate of change of the momentum in a material volume and the total net force must be projected along a physical direction.
+A given curvilinear coordinate line changes its direction in space unlike what happens in a Cartesian reference system.
+Consequently, the volume integral of the projection of the motion equations along a curvilinear coordinate line has no physical meaning, since it does not represent the volume integral of the projection of the above-mentioned equations along a physical direction (Aris, 1989).
+Let us consider a constant parallel vector field and equate the rate of change of the momentum of a material volume to the total net force in this direction.
+We choose, as a parallel vector field, the one which is normal to the coordinate line on which the ξl component is constant at point P0∈ΔA whose coordinates are ξ01 and ξ02.
+In this work, following the approach proposed in Gallerano and Cannata (2011b), we use the contravariant base vector defined at point P0 which is normal to the coordinate line on which ξl is constant in order to identify the parallel vector field.
+Let λk(ξ1,ξ2) be the covariant component of g→lξ01ξ02, given by:(15)λkξ1ξ2=g→lξ01ξ02⋅g→kξ1ξ2
+We indicate g˜→l=g→lξ01ξ02 and g→k=g→kξ1ξ2.
+We integrate over an arbitrary surface element of area ΔA and resolve in the direction λk the rate of change of the depth integrated momentum (per unit mass) and the depth integrated resultant force (per unit mass).
+Consequently we get:(16)∬ΔA∂r*k∂tλkdA+∬ΔArkrmH+GgkmH22,mλkdA=∬ΔAGHgkmh,mλkdA-∬ΔARkλkdA-∬ΔArkHsm,mλkdA+∬ΔA∂H∂tV'kλkdA-∬ΔAHV''kλkdA-∬ΔAHTkλkdA-∬ΔAHWkλkdA
+Since the vector field is constant and parallel, λk,m=0.
+Using Green's theorem for the second integral at the left-hand side of Eq.
+(13) and for the second integral at the left-hand side of Eq.
+(16), using Eq.
+(15) and recalling that g→k⋅g→m=δkm, we get:(17)∬ΔA∂H∂tdA+∫LrmnmdL=-∬ΔAsl,ldA∬ΔAg˜→l⋅g→k∂r*k∂tdA+∫Lg˜→l⋅g→krkrmH+Gg˜→l⋅g→mH22nmdL=∬ΔAg˜→l⋅g→kGHgkmh,mdA-∬ΔAg˜→l⋅g→kRkdA-∬ΔAg˜→l⋅g→krkHsm,mdA+∬ΔAg˜→l⋅g→k∂H∂tV'kdA(18)-∬ΔAg˜→l⋅g→kHV''kdA-∬ΔAg˜→l⋅g→kHTkdA-∬ΔAg˜→l⋅g→kHWkdAwhere L is the contour line of ΔA and nm is the m-th component of the covariant outward normal.
+Eqs. (17) and (18) represent the integral expressions of the fully non-linear Boussinesq equations in contravariant formulation in which Christoffel symbols are absent.
+These equations are accurate to O(μ2) and O(εμ2) in dispersive terms and retain the conservation of potential vorticity up to O(μ2), in accordance with the formulation proposed by Chen (2006).
+Let us introduce a restrictive condition on the surface element of area ΔA: in the following this surface element must be considered as a surface element which is bounded by four curves lying on the coordinate lines.
+Since dA=gdξ1dξ2 and by indicating with H¯˜ the averaged value of H over the surface element of area ΔA, given by H¯˜=1/ΔA∬ΔAHgdξ1dξ2, Eq.
+(17) can be rewritten as:(19)∂H¯˜∂t=-1ΔA∑μ=12∫Δξμ+grμdξυ-∫Δξμ-grμdξυ-1ΔA∬ΔA∂skg∂ξkdξ1dξ2where Δξμ+ and Δξμ- indicate the segments of the contour line on which ξμ is constant and which are respectively located at the larger and smaller value of ξμ.
+In Eq.
+(19) the indexes μ and ν are cyclic.
+Let us define r¯˜*l as:(20)r¯˜*l=1ΔA∬ΔAg˜→l⋅g→kr*kgdξ1dξ2
+By dividing Eq.
+(18) by ΔA and by using Eq.
+(20), Eq.
+(18) becomes:(21)∂r¯˜*l∂t=1ΔA-∑μ=12∫Δξμ+g˜→l⋅g→krkrμH+g˜→l⋅g→μGH22gdξυ-∫Δξμ-g˜→l⋅g→krkrμH+g˜→l⋅g→μGH22gdξυ+∬ΔAg˜→l⋅g→kGη-η¯˜gmkh,mgdξ1dξ2+Gη¯˜∑μ=12∫Δξμ+g˜→l⋅g→μhgdξυ-∫Δξμ-g˜→l⋅g→μhgdξυ+G2∑μ=12∫Δξμ+g˜→l⋅g→μh2gdξυ-∫Δξμ-g˜→l⋅g→μh2gdξυ-∬ΔAg˜→l⋅g→kRkgdξ1dξ2-∬ΔAg˜→l⋅g→krkHsm,mgdξ1dξ2+∬ΔAg˜→l⋅g→k∂H∂tV'kgdξ1dξ2-∬ΔAg˜→l⋅g→kHV''kgdξ1dξ2-∬ΔAg˜→l⋅g→kHTkgdξ1dξ2-∬ΔAg˜→l⋅g→kHWkgdξ1dξ2where η is the free surface elevation and η¯ is the averaged value of η over the surface element ΔA.
+The left-hand side of Eq.
+(21) represents the surface average of the time derivative of the l-th contravariant component of the r→* vector expressed as a function of the contravariant base vector g→l defined in ξ01, ξ02.
+The second, third and fourth terms on the right-hand side of Eq.
+(21) result from the splitting of the term related to the bottom slope, according to Xing and Shu (2006).
+It must be emphasised that Eqs.
+(19) and (21) are free of Christoffel symbols.
+The numerical scheme
+The numerical integration of Eqs.
+(19) and (21) is carried out by a high order upwind WENO scheme.
+The computational domain discretisation is based on a grid defined by the coordinate lines ξ1 and ξ2 and by the points of coordinates ξ1=iΔξ1 and ξ2=jΔξ2, which represent the centres of the calculation cells Ii;j=(ξi-1/21,ξi+1/21)×(ξi-1/22,ξi+1/22).
+tn is the time level of the known variables, while tn+1=tn+Δt is the time level of the unknown variables.
+Let us indicate with L(r1,r2) and with LB(S1,S2) respectively the first and the second term on the right-hand side of Eq.
+(19).
+Let us indicate with D(H,r1,r2) the sum of the convective and free surface elevation terms (which is split according to Xing and Shu (2006) in order to ensure a well-balanced scheme) on the right-hand side of Eq.
+(21) and with D(H,r1,r2) the bottom friction term, the sum of dispersive terms and the term related to the approximation to the second order of the vertical vorticity on the right-hand side of this equation.
+By integrating Eqs.
+(19) and (21) over [tn,tn+1] we get:(22)H≃i;jn+1=H≃i;jn-1ΔA∫tntn+1Lr1r2+LBs1s2dt(23)r≃*i;jln+1=r≃*i;jln-1ΔA∫tntn+1DHr1r2+DBHr1r2s1s2dt
+Eqs. (22) and (23) represent the advancing from time level tn to time level tn+1, of the variables H¯i;j and r≃*i;jl.
+The state of the system is known at the centre of the calculation cell and it is defined by the cell-averaged values H¯i;j and r≃*i;jl.
+In this paper, time integration of Eqs.
+(22) and (23) is carried out by means of a third order accurate Strong Stability Preserving Runge-Kutta method (SSPRK) reported in Spiteri and Ruuth (2002).
+The SSPRK method can be written in compact form as follows:(24)H≃i;j0=H≃i;jn;r¯˜*i;jl0=r¯˜*i;jln(25)H≃i;jp=∑q=0p-1ΩpqHi;jq+ΔtφpqLr1qr2q+LBs1ps2p(26)r≃*i;jlp=∑q=0p-1Ωpqr*i;jlp+ΔtφpqDHqr1qr2q+DBHpr1pr2ps1ps2p(27)H≃i;jn+1=H≃i;j3;r¯˜*i;jln+1=r¯˜*i;jl3where p=1; 2; 3.
+See Spiteri and Ruuth (2002) for Ωpq and φpq values.
+The computation of L(r1,r2), D(H,r1,r2), LB(s1,s2) and DB(H,r1,r2,s1,s2) terms needs the numerical approximation of the spatial integrals on the right-hand side of Eqs.
+(19) and (21).
+According to the method proposed by Erduran et al. (2005) and used among the others by Tonelli and Petti (2012) and Shi et al. (2012), this numerical approximation is carried out by means of a hybrid finite volume-finite difference scheme.
+By applying this method, once the values of the auxiliary variable r¯˜*l are known, the values of the original variables r¯˜l at each stage of the Runge-Kutta method are computed by solving the following equation:(28)r≃*l=rl≃+H¯˜V¯˜′lin which V¯′l includes first and second derivative of r¯˜l/H¯˜ with respect to ξ1 and ξ2 and cross derivatives (see Appendix B).
+The numerical approximation of the derivatives in the V¯˜'l term is carried out by a second order central difference scheme.
+The velocity at the elevation σ, averaged over the generic computational cell Ii;j and indicated with r¯˜l/H¯˜i;j can be found by solving a system of equations with tridiagonal matrix formed by Eq.
+(28) in which all cross-derivatives are moved to the right-hand side of the equation.
+Once the values of r¯˜l/H¯˜i;j are known, the LB(s1,s2) and DB(H,r1,r2,s1,s2) terms on the right-hand side of Eqs.
+(25) and (26) are discretised using a second order central difference scheme at the cell centroids, as in Wei and Kirby (1995) and Shi et al. (2012).
+Since the LB and DB terms need to be updated using H,r1,r2,s1,s2 at the corresponding time step, an iteration is needed to achieve convergence, as suggested by Shi et al. (2012).
+Convective terms and terms related to the free surface elevation that define the L(r1,r2) and D(H,r1,r2) terms on the right-hand side of Eqs.
+(25) and (26) are computed by a high-order finite volume WENO scheme.
+According to the procedure proposed by Gallerano et al. (2012) this numerical scheme is based on the following sequence:1.
+Starting from cell averaged values, the point values of the unknown variables at the centre of the contour segments which define the calculation cells are computed by means of WENO reconstructions.
+Two WENO reconstructions defined on two adjacent cells are used to get two point values of the unknown variables at the centre of the contour segment which is common with the two adjacent cells.
+2.
+The point values of the unknown variables at the centre of the contour segments are advanced in time by means of the so-called exact solution of a local Riemann problem, with initial data given by the pair of point-values computed by two WENO reconstructions defined on the two adjacent cells.
+In accordance with the procedure proposed by Rossmanith et al. (2004), all necessary Riemann problems are solved in a locally valid orthonormal basis.
+This orthonormalisation allows one to solve Cartesian Riemann problems that are devoid of geometric terms.
+3.
+The spatial integrals that define the L(r1,r2) and D(H,r1,r2) terms are numerically approximated by means of a high order quadrature rule, starting from point values of the dependent variables computed at the previous step.
+Results
+In this section the proposed scheme for the solution of the fully non-linear Boussinesq equations in contravariant form, expressed by Eqs.
+(19) and (21), is tested against a set of benchmark test cases.
+In all the tests, simulations are carried out by switching from Boussinesq equations to non-linear shallow water equations when the wave height to water depth ratio is equal to 0.8, according to Tonelli and Petti (2012) and Shi et al. (2012).
+1D: Breaking on a sloping beach
+The results from the model described in the previous Sections are first compared to a set of experimental data with regular waves performed by Hansen and Svendsen (1979).
+The experiments were conducted in a 40m long wave flume with a horizontal bottom at a depth of 0.36m and a planar slope of 1:34.26 where waves shoal and break (see Fig. 1).
+This test permits us to verify the ability of the model to represent phenomena of shoaling, breaking and after breaking wave energy decay.
+The results obtained with the model presented in this paper are also compared with the results obtained by applying the numerical integration procedure described in Section 4 to the one-dimensional weakly non-linear Boussinesq equations proposed by Madsen and Sørensen (1992) and to those proposed by Nwogu (1993).
+Table 1 reports the period and wave heights at the start of the slope for the test cases simulated.
+The spatial discretisation is Δx=0.02m and the time step is Δt=0.005s.
+Figs. 2 and 3 show the comparison between computed and measured time-averaged wave heights as the waves propagate up the slope respectively for test cases 1 and 2: the computed values are obtained by using Madsen's equations, Nwogu's equations and the proposed fully non-linear Boussinesq model.
+It can be seen that wave heights at the beginning of the slope are well represented with all the equations used, but significant differences are evident as the waves approach the breaking point.
+Madsen's equations significantly underpredict the peak wave height at breaking: this is consistent with the fact that these equations are based on the lowest order weakly-non-linear theory.
+Nwogu's equations slightly underpredict wave height at the breaking point for test case 1 (see Fig. 2) while they overpredict peak wave height for test case 2 (see Fig. 3).
+From Figs.
+2 and 3 it can be noted that, for both test cases, the wave heights computed with the proposed fully non-linear model are in a better agreement with the experimental data in the shoaling region, at the breaking point and in the surf zone where wave energy decays.
+The comparison between the computed wave heights obtained using the Nwogu's equations and those obtained using the proposed fully non linear Boussinesq model shows the importance of retaining terms up to O(εμ2) in variable depth power expansion.
+Figs. 4 and 5 show the comparison between measured and computed values of the mean water level respectively for test cases 1 and 2: the computed values are obtained by using Madsen's equations, Nwogu's equations and the proposed fully non-linear Boussinesq model.
+From Figs.
+4 and 5 it can be seen that the prediction of the wave induced set-down and setup, obtained with all the above-mentioned equations, is in good agreement with the experimental data.
+The capability of the model to adequately represent the flow characteristics in the surf zone will be further investigated with a two-dimensional test case in Section 5.4.
+Spectral evolution over a submerged bar
+The ability of the proposed model to simulate the wave decomposition and spectrum evolution over a submerged bar is verified: numerical results are compared against experimental results from two test cases presented by Beji and Battjes (1994) and two test cases presented by Beji and Battjes (1994) whose characteristics are listed in Table 2.
+The above-mentioned authors performed an experimental study on the propagation of unidirectional regular and irregular waves over a submerged bar whose geometry is sketched is Fig. 6.
+Beji and Battjes (1993, 1994) recorded the free surface elevation at different measurement stations whose location is sketched in Fig. 6.
+The validation of the model proposed in this work is carried out by directly comparing the spectra presented by Beji and Battjes (1993, 1994) with the spectra obtained from the time series of the simulated free surface elevation in correspondence with the same measurement stations shown in Fig. 6.
+The simulation of each of the irregular waves is performed starting from the generation, in the input section, of time series of the free surface elevation defined by JONSWAP type spectra with frequency peak fp and peak wave height Hp equal to those of the waves experimentally generated by Beji and Battjes (1993, 1994) and listed in Table 2.
+The waves are internally generated at the abscissa x=0m (Fig. 6) following the procedure proposed by Wei et al. (1999).
+This procedure requires the addition of a source function F(t) to the continuity equation.
+With regard to the generation of irregular waves, the time series of the aforementioned source function is obtained as a superposition of N elementary harmonics each characterised by a frequency ωi, an amplitude Di and a random value of the phase ξi that follows a uniform probability distribution in the interval [0, 2π].
+The expression of this source function is(29)Ft=∑i=1NDicosωit-ξiin which the i-th amplitude Di is computed starting from JONSWAP type spectra with the values of the peak frequency fp and peak wave height Hp equal to those of the waves performed by Beji and Battjes (1993, 1994) and listed in Table 2.
+Consistent with Beji and Battjes (1993, 1994), for each of the random wave test cases (tests B, C and D in Table 2) five different simulations of the spatial and temporal evolution of the free surface elevation are carried out by varying the set of random values ξi for the phases of the elementary harmonics that compose the source function F(t).
+In order to produce the power spectra, the statistical analysis of the time series of the simulated surface elevation, at points corresponding to the different measurement stations, is carried out according to the procedure described in Beji and Battjes (1993) and reported below.
+Each of the aforementioned time series of the free surface elevation, containing 9000 data points, is divided into two parts each containing 4096 data points.
+In this process the data points at the end of each series are discarded.
+Each set of 4096 data points is divided into M data segments each of which is 10% cosine tapered.
+Using a standard FFT package, from each of the aforesaid M data segments a power spectrum is computed.
+Each of these spectra is rescaled to take account of the tapering (Bendat and Piersol, 1971).
+Consistently with Beji and Battjes (1993, 1994), the spectra shown in this section are the result of an average in the frequency domain carried out on the spectra of all the data segments of the five different simulations.
+In particular, for the test case B of Table 2 the number M of segments is equal to 4, each data segment is 40.98s long and the corresponding frequency resolution is equal to 0.024Hz.
+The resulting spectral estimates have 80 degrees of freedom and a statistical error equal to 15.8% consistently with the spectral estimates shown in Beji and Battjes (1994).
+For the test cases C and D of Table 2 the number M of data segments is equal to 16, each data segment is 25.6s long and the corresponding frequency resolution is equal to 0.039Hz.
+The resulting spectra have 320 degrees of freedom and a statistical error equal to 7.9% consistently with the spectral estimates shown in Beji and Battjes (1993).
+The numerical simulations are carried out with a spatial discretization step of 0.05m and a time step of 0.02s.
+Fig. 7 shows the comparison between the computed and measured values of the free surface elevation for the regular wave shown in Beji and Battjes (1994) (test A of Table 2).
+At station 2, the wave train is still almost sinusoidal and the agreement between numerical and experimental data is very good.
+Also in the next stations the agreement between the numerical and experimental results is very good.
+In particular, consistent with what had already been highlighted by Beji and Battjes (1994) in the successive stations the waves are progressively steepened by interaction with the bar and lose vertical symmetry to assume a typical sawtooth shape; furthermore the secondary wave mode gains energy from the main wave mode.
+Fig. 7 shows the ability of the proposed model to simulate wave transformation due to the wave-bar interaction in terms of both phases and amplitudes.
+In Fig. 8 is shown the spatial evolution of the spectrum of the non-breaking irregular wave (test B of Table 2).
+In this figure the spectra from the simulated time series of surface elevation are compared against the spectra reported by Beji and Battjes (1994) for the same test case.
+Fig. 8 shows a good agreement between the spectra obtained from the numerical simulations and those from the experiments, attesting the ability of the proposed model to correctly simulate the spectral evolution of irregular waves propagating over a submerged bar: both the bounded harmonics amplification phenomenon occurring during the shoaling process (stations 2 and 3 in Fig. 8) and the spectral decomposition occurring in the deepening region behind the bar, where free second and higher harmonics propagated in relatively deep water (stations 5, 6 and 7 in Fig. 8).
+In Fig. 9 the spectral evolution of the non-breaking wave from Beji and Battjes (1993) (test C of Table 2) is compared with the spectra obtained from the numerical simulations carried out with the proposed model.
+Consistent with Beji and Battjes (1993), all spectra shown are normalised so that the total area under each spectrum is equal to 1.
+A good agreement can be seen between the results obtained from the numerical simulations and those from the experimental measurements of Beji and Battjes (1993) at all measurement stations.
+From Fig. 9 it can be seen that the numerical model correctly represents the fact that the wave decomposition and the redistribution of the total energy among the fundamental harmonic and other harmonics mainly occur mainly occur, due to de-shoaling, in the region behind the bar where water depth increases once again.
+In Fig. 10 is shown the comparison between the spatial evolution of the spectra obtained from the numerical simulations and those presented by Beji and Battjes (1993) for a breaking wave (test D of Table 2).
+Once again, the agreement between the spectra obtained from the numerical simulations and those obtained from the experimental measurements is good.
+Moreover, comparing Fig. 9 with Fig. 10, it can be seen that, in agreement with the experimental data, the spatial evolution of the spectra for the breaking wave does not show significant differences with the spatial evolution of the spectra for the non-breaking wave, as already noted by Beji and Battjes (1993).
+Undertow prediction under breaking waves
+In this section the ability of the proposed shock-capturing scheme to simulate vertical distribution of the horizontal velocity components under breaking waves is verified.
+In the surf zone, vertical profiles of horizontal velocity components averaged over a wave period predicted by most of the Boussinesq models involving wave breaking dissipation models and by non-linear shallow water equations solved by shock-capturing schemes are characterised by uniform values below the mean trough level and by a direction opposite to that of the horizontal velocity above the mean trough level.
+Lynett (2006) proved that these undertows below the mean trough level were underestimated by the above-mentioned Boussinesq models.
+Lynett (2006) proposed a method to improve the undertow prediction obtained by the Boussinesq models which involve wave breaking dissipation models.
+In particular, in the surf zone Lynett (2006) added a specific exponential profile a posteriori to the instantaneous vertical profile of the horizontal velocity components obtained by a Boussinesq model.
+In the surf zone, vertical profiles of the horizontal velocity components averaged over a wave period obtained by the shock-capturing scheme proposed in this paper present distributions similar to those predicted by the Boussinesq models which involve breaking dissipation models and, in the same way as these, underestimate the undertow below the mean trough level, as it is shown in this section.
+In this paper the improvement of the undertow predictions is obtained by using the methodology proposed by Lynett (2006).
+In particular, the modified instantaneous vertical profile of the horizontal velocities u→L is given by(30)u→L=u→+u→Bwhere u→ is the instantaneous horizontal velocity vector obtained by the proposed model and u→B is the exponential vertical profile proposed in Lynett (2006).
+The modified vertical profiles of the horizontal velocities averaged over a wave period and obtained with the proposed model are compared to the experimental data by Ting and Kirby (1996).
+These experiments were performed in a 40m long wave flume in which a planar beach with a 1:35 slope was set.
+The comparison between numerical and experimental results is made for the case of spilling breaking wave with a period of 2s presented by the above authors.
+In Fig. 11 is shown the comparison between the measured and the computed mean crest level, the mean water level and the mean trough level.
+The agreement between the experimental and numerical values is very good.
+In the aforementioned procedure the only calibration parameter k to be specified is given as proportional to the inverse of the total water depth H.
+In Lynett (2006) the value of this parameter is set to 5/H.
+Lynett (2006) states that the value of this parameter can be different for different Boussinesq models and it has to be calibrated on a case-by-case basis.
+The k value assumed in the simulations whose results are shown in Fig. 12 is equal to 3.8/H.
+Fig. 12 shows the comparison between numerically simulated vertical profiles of the horizontal velocity components averaged over a wave period and the experimental values: both the modified and unmodified profiles are shown.
+From Fig. 12 it can be seen that undertow prediction below the mean trough level carried out by solving the non-linear shallow water equations by means of the shock-capturing scheme proposed in this paper are underestimated with respect to the experimental results.
+From the same figure it can be noted that the modified vertical profiles averaged over a wave period show an undertow prediction in good agreement with the experimental data.
+Symmetric channel constriction
+In this Section, the shock-capturing properties of the scheme when the equations are already switched to the non-linear shallow water equations are tested on highly distorted grids by means of the simulation of a super-critical flow in a channel with wall constrictions.
+The channel is 40m wide and 90m long with two symmetrical wall constrictions from both sides with angle β=5° to the x-direction, starting from x=10m.
+The simulations were run on two different grids: a 121×53 regular curvilinear grid, with nearly square-shaped calculation cells and a highly distorted grid obtained by deforming the above-mentioned 121×53 regular grid.
+The initial and inflow conditions are the water depth h=1m and the Froude number Fr=2.5.
+The result of the numerical simulation on the highly distorted grid is shown in Fig. 13.
+In this figure the contour plot of the water depth with 16 uniformed spaced contour lines, from 1.05m to 1.8m, is shown.
+It can be seen that the shocks are nicely resolved.
+By comparing the numerical results with the analytical solution for this test case, computed by adopting the procedure proposed by Ippen (1951), L1 norms of the error in total water depth H and in modulus of the depth-averaged velocity vector u→ are computed and shown in Table 3.
+It can be seen that the L1 norms of the error computed on highly distorted grids is less than 7% greater to the L1 norms of the error computed on the regular grid, despite the presence of discontinuities in the solution.
+So the capability of the proposed scheme to simulate wave motion inside the surf zone, where shock waves are present, is not compromised by the presence of the highly distorted grid.
+Convergence test: wave evolution in a rectangular basin
+According to Shi et al. (2001) and Shi et al. (2003), the wave evolution in a closed basin is computed to test the numerical convergence of the scheme with both space and time discretisation.
+The basin size is 20×20m and the water depth is constant at 0.5m.
+The initial condition is a superelevation of the water surface above the still water level given by a motionless Gaussian hump placed at the centre of the basin:(31)η0=h0exp-12ϑ2x-xc2+y-yc2where h0=0.2m is the initial maximum elevation of the hump, ϑ=1.12 and (xc,yc) are the coordinates of the centre of the basin.
+Spatial profiles of surface elevation at t=0,2,4,6,8 and 10s are shown in Fig. 14 for illustrative purposes.
+In order to test convergence with space discretisation a sequence of different grid spacing is considered.
+As in Shi et al. (2001) the sequence is given by Δx/i, with ∆x=0.4m and i=1,2,…,8.
+The time step remains constant at Δt=0.01s for the different grid sizes.
+The convergence rate with grid refinement is evaluated by the RMS differences of simulated surface elevations between i and i+1 at t=5s and at the same computational points.
+The convergence rate is evaluated as in Shi et al. (2001) with the following formula:(32)Rij=logRMSi/RMSjlogΔxi/Δxj
+Convergence rates with grid refinement are shown in Fig. 15.
+The logarithmic RMS differences linearly decrease with the grid size, so the convergence rates can be considered fairly constant.
+The average Ri,j obtained is 3.59 that is compatible with the fifth-order and second-order used in the scheme.
+In order to test convergence with time discretisation a sequence of time steps is considered.
+As in Shi et al. (2001) the sequence is given by ∆t/i with ∆t=0.2m and i=1,2,…,10.
+Spatial discretisation is constant at ∆x=0.2m for all the tests.
+Fig. 16 shows convergence rates with time refinement.
+The average Rij obtained is 2.33.
+This value obtained with the proposed third-order Runge-Kutta scheme is similar to that obtained by Shi et al.(2003) with a fourth-order Adams-Bashforth-Moulton predictor-corrector scheme.
+It has to be noted that unlike the latter scheme, the proposed Runge-Kutta scheme allows an adaptive time-stepping as suggested by Shi et al. (2012).
+Rip current test
+The ability of the proposed model to reproduce wave propagation from deep water up to the shore, including the surf zone, and breaking induced nearshore circulation, is tested against a set of experimental data performed by Hamm (1992).
+These experiments were conducted in a 30×30m wave tank.
+The geometry of the bottom consisted of a horizontal region of water depth 0.5m followed by a planar slope of 1:30 with a rip channel excavated along the centre line (see Fig. 17).
+In this work the test case performed by Hamm (1992) related to the evolution in the above-mentioned tank of a monochromatic wave with a period T=1.25s and height H0=0.07m is numerically reproduced.
+The tank presents an axis of symmetry perpendicular to the wave generator, consequently only half of the wave tank is numerically simulated to save computational time.
+Waves are internally generated at x=0m and a wide absorbing layer is set behind the generation zone, according to the procedure proposed by Wei et al. (1999).
+A wet and dry technique is used to catch moving shoreline: if the water-depth at the centre of the computational cell is greater than a given threshold value the fluxes at the cell interfaces are computed using the wet bed solution of the Riemann problem, otherwise the fluxes at the cell interfaces are computed using the dry bed solution of the Riemann problem (Toro, 2001).
+Simulations are carried out with the same constant friction factor, fw=0.03, suggested by Sørensen et al. (1998) and Tonelli and Petti (2012).
+Reflective boundary conditions are used at lateral walls.
+The simulations are run for 520s with a time step Δt=0.005s.
+The simulations are carried out on three different computational grids: a Cartesian grid with Δx=0.05m and Δy=0.075m, a highly distorted grid obtained by deforming the above-mentioned Cartesian grid following the procedure proposed by Visbal and Gaitonde (2002) (see Fig. 18) and a curvilinear boundary conforming grid (see Fig. 19).
+Let us indicate with FNBE the scheme obtained by applying the numerical integration procedure presented in Section 4 to the contravariant motion Eqs.
+(19) and (21) that are accurate up to O(μ2) and O(εμ2) and include the term related to the approximation to the second order of the vertical vorticity.
+Let us indicate with NBE the scheme obtained by applying the same numerical integration procedure to the contravariant motion equations obtained by neglecting in Eqs.
+(19) and (21) the O(εμ2) contribution to the dispersive terms and the O(μ2) contribution to the vertical vorticity.
+The neglected terms are given in Appendix B and consist of: a) all the terms that multiply η on the right-hand side of Eq.
+(B.1); b) the third term on the right-hand side of Eq.
+(B.3) and c) terms defined by Eqs.
+(B.4), (B.5) and (B.6).
+The equations resulting from neglecting the above-mentioned terms are accurate only up to O(μ2), do not include the term related to the approximation to the second order of the vertical vorticity and are consistent with the Boussinesq equations proposed by Nwogu (1993) in a Cartesian reference system.
+Fig. 20 shows a snapshot of the wave field at t=190s, when the breaking induced circulations are fully developed, carried out by applying the FNBE scheme on the highly distorted grid illustrated in Fig. 18.
+It must be emphasised that the Christoffel symbols, expressed by Eq.
+(9), that appear in the contravariant formulation of the Boussinesq Eqs.
+(13) and (14) are extra source terms that come in with the variability of the contravariant base vectors.
+The numerical discretization of these terms introduces computational errors related to mesh non-uniformities that can affect the numerical solution.
+The integral contravariant formulation of the fully non-linear Boussinesq equations, expressed by Eqs.
+(19) and (21), is free of Christoffel symbols.
+From Fig. 20 it is possible to highlight that spurious oscillations do not appear in the numerical solution even in domain regions characterised by a highly distorted computational grid.
+Consequently it can be deduced that numerical solutions resulting from the integration of the contravariant equations in which Christoffel Symbols are absent are not affected by numerical errors that come in with the distortion of the grid cells.
+In Fig. 21 the instantaneous surface elevation over the bathymetry obtained by applying the FNBE scheme on the curvilinear grid illustrated in Fig. 19 is shown.
+The presence of the channel causes the occurrence of a rip current.
+This current flowing offshore-ward interacts with the incoming waves.
+As shown in Fig. 21, the effects of this interaction are an increment in wave height and a local bend in the wave fronts at the channel location.
+In order to verify the need to retain terms up to O(μ2) and O(εμ2) in variable depth power expansion and the term related to the approximation to the second order of the vertical vorticity in the Boussinesq equations, the numerical results obtained with the FNBE scheme are compared with the results obtained with the NBE scheme.
+Wave heights computed with the FNBE and NBE schemes on the three above-mentioned computational grids are compared with the wave heights measured by Hamm (1992) along two cross-sections: one inside the rip channel (see section A-A in Fig. 17) and one in the part of the domain characterised by linearly varying bottom elevation (see section B-B in Fig 17).
+Figs. 22 and 23 show the results related respectively to these two sections and carried out by the FNBE and NBE scheme on the Cartesian grid.
+It can be noted that using the NBE scheme the peak wave height at breaking is overestimated, especially for the rip channel section where the rip current opposing the incoming waves makes them steeper.
+Numerical results carried out by the FNBE scheme show a better agreement with the experimental data.
+In Figs.
+24 and 25 the results, for sections A-A and B-B respectively (Fig. 17), obtained by applying the FNBE and NBE schemes on the distorted grid illustrated in Fig. 18 are compared with the experimental data: wave height profiles for the distorted grid are similar to those shown in Figs.
+22 and 23 obtained by applying the FNBE and NBE schemes on the Cartesian grid.
+From Figs.
+24 and 25 it can once again be deduced that the wave transformation in the shoaling and breaking region is not altered by the highly distorted computational grid.
+In Figs.
+26 and 27 the wave heights respectively for the two cross-sections computed with the FNBE and NBE schemes applied on a curvilinear boundary conforming grid, illustrated in Fig. 19, are compared with the experimental data.
+Wave heights computed on the curvilinear grid are similar to those already shown for the application of the FNBE and NBE scheme on the Cartesian grid (see Figs.
+22 and 23) and on the highly distorted grid (see Figs.
+24 and 25).
+Consequently it has been shown that the retaining in the motion equations of the O(εμ2) contribution to the dispersive terms and the O(μ2) contribution to the vertical vorticity, gives rise to numerical results in a better agreement with the experimental data with respect to those obtained by neglecting them.
+Fig. 28 shows the time-averaged velocity field and the mean water elevation carried out by applying the FNBE scheme on the curvilinear grid illustrated in Fig. 19.
+In this figure it can be seen that the presence of the rip channel makes the waves break at different positions in the cross-shore direction.
+The waves propagating on the part of the domain characterised by the linearly varying bottom elevation (section B-B in Fig. 17) and water depths lower than those present at the rip channel (section A-A in Fig. 17) start to break earlier than the waves propagating on the rip channel.
+Different values of breaking induced wave setup cause gradients in mean water level elevation driving alongshore currents that turn offshore-ward producing the rip current at the channel location.
+This figure shows the occurrence of a clockwise vortex, with the centre approximately at coordinates x=22m and y=14m.
+Furthermore, it is possible to identify the occurrence of small vortices, located around the abscissa x=19m and between the ordinates y=5m and y=9m, that are not present in the velocity field obtained with the NBE.
+In Fig. 29 a comparison between the time-averaged velocity field obtained with the FNBE and NBE schemes is shown.
+From this figure it can be seen that the clockwise vortex, with the centre approximatively at coordinates x=22m and y=14m, resulting from the application of the FNBE scheme is larger than the one resulting from the application of the NBE scheme.
+Furthermore, the NBE scheme produces longshore currents characterised by higher velocity values than those produced by the FNBE scheme: the maximum values for the alongshore velocities are respectively of 0.28m/s and 0.25m/s.
+The presence in the motion equations of the term related to approximation to the second order of the vertical vorticity provides results that best represent the articulated and complex nature of the breaking induced nearshore circulations.
+Conclusions
+In this paper an integral form of the fully non-linear Boussinesq equations in contravariant formulation has been proposed in which Christoffel symbols are avoided in order to simulate wave transformation phenomena, wave breaking and nearshore currents in computational domains representing the complex morphology of real coastal regions.
+The motion equations include the term related to the approximation to the second order of the vertical vorticity.
+A new Upwind Weighted Essentially Non-Oscillatory scheme for the solution of the fully non-linear Boussinesq equations on generalised curvilinear coordinate systems has been proposed.
+A high order shock capturing method in which an exact Riemann solver is involved has been used to intrinsically model the wave breaking.
+It has been demonstrated that the proposed numerical scheme applied to the contravariant fully non-linear Boussinesq equations in which Chrystoffel symbols are absent has good non-oscillatory properties and good shock-capturing properties on highly distorted grids.
+It has moreover been demonstrated that the proposed model permits us to represent, with good agreement with the experimental data, the wave evolution from deep waters up to the shoreline and the breaking induced nearshore currents on computational domains representing the complexity of real coastlines.
+Furthermore, retaining in the motion equations the high order dispersive terms and the term related to the approximation to the second order of the vertical vorticity gives rise to simulations whose results are in a better agreement with the experimental data with respect to those obtained by neglecting them.
+Cartesian expressions of the terms: s→, V→, V→', V→'' and W→
+(A.1)s→=Hσ22-16h2-hη+η2∇∇⋅r→H+σ+12h-η∇∇⋅hr→H(A.2)V→=12σ2∇∇⋅∂∂tr→H+σ∇∇⋅h∂∂tr→H-∇12η2∇⋅∂∂tr→H+η∇⋅h∂∂tr→H(A.3)V→'=12σ2∇∇⋅r→H+σ∇∇⋅hr→H-∇12η2∇⋅r→H+η∇⋅hr→H(A.4)V→''=∇∂∂tη22∇⋅r→H+∇∂η∂t∇⋅hr→H(A.5)T→=∇σ-ηr→H⋅∇∇⋅hr→H+12σ2-η2r→H⋅∇∇⋅r→H+12∇∇⋅hr→H+η∇⋅r→H2(A.6)W→=i^Ω-syH-Θ-ryH+j^ΩsxH-ΘrxHin which: Ω=∂∂xryH-∂∂yrxH and Θ=∂∂xsxH-∂∂ysyH
+Contravariant expression of the terms: sl, Vl, V'l, V''l, Tl and Wl
+(B.1)sl=h+ησ22-16h2-hη+η2glmrkH,k,m+σ+12h-ηglmhrkH,k,m(B.2)Vl=σ22glm∂∂trkH,k,m+σglmh∂∂trkH,k,m-glm12η2∂∂trkH,k+ηh∂∂trkH,k,m(B.3)V'l=12σ2glmrkH,k,m+σglmhrkH,k,m-glm12η2rkH,k+ηhrkH,k,m(B.4)V''l=glm∂∂tη22rkH,k,m+glm∂η∂thrkH,k,m(B.5)Tl=glmσ-ηriHhrkH,k,i+12σ2-η2riHrkH,k,i,m+12glmhrkH,k+ηrkH,k2,m(B.6)Wl=εmigipr,mpHεjlsjH+εmigips,mpHεjlrjHin which: εmi=1gifmiisanevenpermutationof(1,2)-1gifmiisanoddpermutationof(1,2)0ifthetwoindicesareequal
+

@@ -1,0 +1,255 @@
+Phosphorus levels in croplands of the European Union with implications for P fertilizer use
+
+Highlights
+•
+Soil P supply and fertilizer need maps of the EU were elaborated for the first time.
+•
+Estimated annual P input need of the EU's agriculture is 3.85 million tons.
+•
+Plant available P in cropland soils follows climatic patterns and yield levels in the EU.
+•
+Regional P means vary largely but cases with high P levels are present in all regions.
+•
+Inconsistencies between advised and reported P fertilizer consumptions pointed out.
+Abstract
+In the frame of the Land Use/Land Cover Area Frame Survey sampling of topsoil was carried out on around 22,000 points in 25 EU Member States in 2009 and in additional 2 Member States in 2012.
+Besides other basic soil properties soil phosphorus (P) content of the samples were also measured in a single laboratory in both years.
+Based on the results of the LUCAS topsoil survey we performed an assessment of plant available P status of European croplands.
+Higher P levels can be observed in regions where higher crop yields can be expected and where high fertilizer P inputs are reported.
+Plant available phosphorus levels were determined using two selected fertilizer recommendation systems: one from Hungary and one from the United Kingdom.
+The fertilizer recommendation system of the UK does not recommend additional fertilizer use on croplands with highest P supply, which covers regions mostly in Belgium and the Netherlands.
+According to a Hungarian advisory system there is a need for fertilizer P input in all regions of the EU.
+We established a P fertilizer need map based on integrating results from the two systems.
+Based on data from 2009 and 2012, P input demand of croplands in the European Union was estimated to 3,849,873 tons(P2O5)/year.
+Meanwhile we found disparities of calculated input need and reported fertilizer statistics both on local (country) scale and EU level.
+The first ever uniform topsoil P survey of the EU highlights the contradictions between soil P management of different countries of the Union and the inconsistencies between reported P fertilizer consumption and advised P doses.
+Our analysis shows a status of a baseline period of the years 2009 and 2012, while a repeated LUCAS topsoil survey can be a useful tool to monitor future changes of nutrient levels, including P in soils of the EU.
+
+Introduction
+Soil represents a temporary reservoir for phosphorus (P) in which its availability affects plant growth and biological processes (Lair et al., 2009).
+Soil phosphorus (P) is an essential element for plant growth but is often slowly available to plants within the soil environment.
+This is mainly due to soil P being sorbed to the soil reactive clay surfaces, Al and Fe oxides, carbonates, organic matter.
+The soil pH then determines the chemical complexion of P (Torrent, 1997; Borggaard et al., 2004).
+At a soil pH above 5.5 most soil phosphate reacts with calcium and at a pH below 5.5 it will react with Al and Fe oxides leaving P only slowly available to plants.
+Historically crop production did rely on natural availabilities of soil phosphorus (P) and input from organic manure.
+However with the increased food demand, improved agrotechnology and availability of mineral P forms in the 20th and 21st centuries, fertilizer P application became the substantial source of soil P (Cordell et al., 2009).
+In developed countries P accumulation took place in the past decades, due to high doses of P fertilization (Lemercier et al., 2008).
+Although the impact of P input to soils had a positive impact on crop production the impact on the environment such as eutrophication has become a problem within Europe (Csathó et al., 2011).
+Additionally the world's P supply is both finite and non-renewable (Jordan-Meille et al., 2012) which has caused tension within global P markets (IFA, 2012).
+Hence, P fertilizer usage must be carried out to secure a sustainable environment and best possible utilization by crops.
+To meet these challenges fertilizers recommendations to farmers become a common practice worldwide generally optimizing fertilizer doses to sustain a desired yield without a load to the environment.
+Consequently, soil P recommendation systems are widely used around the world to ensure good soil management and nutrient efficiency promoting agricultural sustainability.
+However recommendation systems differ considerably among countries.
+Not many systems can be found as peer reviewed literature; however a brief overview on those available is hereby given.
+Phosphorus recommendation systems are commonly used in Brazil, in a country where soils are generally nutrient poor.
+The Brazilian recommendation systems are based on quantitative analyses of soil input variables.
+The input variable consists of the following factors; cation exchange capacity (CEC), base saturation (BS), base sum, exchangeable aluminium (Al), calcium/magnesium (Ca/Mg), potassium (K) and P levels, sodium (Na) saturation and electrical conductivity.
+The output variable of the system is the amount of fertilizer to be applied.
+This is mainly based on 4 classes, low, medium, high to very high (Palhares et al., 2001).
+While Brazil follows a detailed set of variables when recommending P fertilizer levels, the agronomists at Kansas University - who, among other land grant Universities in the United States, provide single rate recommendation for nutrients such as P - are developing a fertilizer recommendation system that gives growers the flexibility to choose a soil management practice suitable for their needs.
+This flexibility included choosing from 2 systems, the "nutrient sufficiency recommendation system" which is developed to provide a 90-95% maximum yield for the year, and the "build maintenance fertility program" based soil test values over a planned period of time, usually 4-8 years, for both immediate crop needs and build up levels to a non-limiting value (Leikam et al., 2003).
+In West Africa, a framework to optimize soil fertility management in rice production is in use were the yield potential is estimated by an ecophysiological model based on weather conditions, cultivar species and sowing date.
+This yield potential is used as an input into a static model together with field specific data such as recovery efficiency of applied N, P and K, indigenous NPK supply and maximum NPK accumulation.
+Outputs of the framework include, required fertilizer doses to obtain different yield targets depending on yield potential and the soil nutrient supply (Haefele et al., 2003).
+Sims (1992) conducted a study assessing different P tests for fertilizer recommendations used in Europe and confirmed their effectiveness.
+The amount of P extracted did however differ, with different extraction methods.
+Jordan-Meille et al. (2012) published an overview of fertilizer P recommendation systems in Europe where fertilizer recommendation systems from 18 countries were compared were data on different fertilization systems was obtained from the peer reviewed literature, personal contact and the "grey literature".
+In Europe P recommendation systems are mainly based on 3 steps.
+The first step includes soil testing to approximate the crop available P pool in soil.
+The second test involves relating results from the before mentioned soil tests to yield response (correlations between soil P tests and field trials) to account, similarly to already mentioned Brazilian system, for a 90% maximum yield per year.
+Based on these results, threshold values are often developed to divide soils into 3 different categories, "low", "medium", "high" and sometimes "excessive".
+From these categories the third step takes place, that is, the actual P recommendation is calculated.
+According to the review conducted by Jordan-Meille et al. (2012), the main difference between P recommendation systems in European countries was the chemical method used to extract P during the soil P test.
+Some use strong extractants which dissolved strongly bound P and hence does not necessarily represent the actual labile pool of P in soils and others use week extractants like water or week acids which might underestimate available soil P (Neyroud and Lischer, 2003).
+Moreover about half of the recommendation systems used in Europe take into account other factors such as crop characteristic (Belgium, Hungary, Sweden, Denmark, England, France, Germany and Switzerland) and soil characteristics such as soil texture, clay and organic matter content, soil pH, carbonate content and soil type (France, Italy, Switzerland and the Netherlands) (Jordan-Meille et al., 2012).
+In the frame of the Land Use/Land Cover Area Frame Survey (LUCAS, Eurostat, 2013a) sampling of topsoil (upper 20cm) was carried out on around 22,000 points in 25 EU Member States in 2009 (Tóth et al., 2013a) and in other 2 Member States - Bulgaria and Romania - in 2012 (Tóth et al., 2013c).
+Beside other basic soil properties soil nutrient (N, P, K) content of these samples were measured in a single laboratory using standard determination method (ISO, 1994) which is based on the method of Olsen et al. (1954).
+Results of the LUCAS topsoil survey and laboratory analysis allows an assessment of nutrient status of croplands at a European scale.
+As no coherent figures from EU Member States were available to date - mainly due to data accessibility problems or lack of data - the LUCAS topsoil survey provides a unique opportunity for a European overview of this issue.
+The LUCAS topsoil P data can help to refine and update incomplete or outdated national spatial phosphorus datasets or just provide an independent set of data for cross-comparison for countries where soil P data is available, such as the UK (Emmett et al., 2010) or France (Huyghe, 2013).
+The aim of our current study was to make a comparative assessment of plant-available phosphorus levels of croplands in regions of the European Union using the data from the LUCAS topsoil survey.
+Plant available phosphorus levels were determined using two selected fertilizer recommendation systems: one from Hungary (Antal et al., 1979) one from the United Kingdom (DEFRA, 2010).
+These two systems were chosen as they are developed for two contrasting agro-ecologic regions of Europe, did not include site specific criteria which were not adaptable in other parts of the EU and hence were easily applicable to a large Pan European dataset such as the hereby presented LUCAS soil dataset.
+Further to the determination and comparison of plant available phosphorus levels we made an attempt for a general estimation of P demand of croplands in the European Union, based on yield statistics and the data from the LUCAS topsoil survey.
+Materials and methods
+Databases used
+The LUCAS topsoil database
+Approximately 22,000 topsoil (upper 20cm) samples with unique georeferenced location were collected in 2009 from 25 European Union (EU) Member States (EU-27 except Bulgaria and Romania) and in 2012 in Bulgaria and Romania with the aim to produce the first coherent baseline topsoil database for continental scale monitoring (Tóth et al., 2013a,b,c).
+The soil sampling was undertaken within the frame of the Land Use/Land Cover Area Frame Survey (LUCAS), a EU wide project to monitor changes in the management and character of the land surface (Eurostat, 2013a).
+Based on a stratified sampling scheme samples were taken from all land cover classes, with systematically higher proportions from arable and grasslands (Tóth et al., 2013a).
+Soil samples have been analysed for basic soil properties such as particle size distribution, pH, organic carbon, carbonates, NPK, cation exchange capacity (CEC) and multispectral signatures.
+Analysis of soil parameters followed standard procedures.
+Tóth et al. (2013a) provided detailed description on the methodology and data of the LUCAS topsoil survey.
+Analysis of the P amount was carried out with spectrometric determination of phosphorus soluble in sodium hydrogen carbonate solution (ISO, 1994).
+Results of P measurement of samples from the LUCAS topsoil survey were used in our assessment.
+Fig. 1a shows the spatial representation of measured phosphorus content at the LUCAS sampling sites (Hermann, 2013).
+Region (NUTS) maps of the European Union
+For the regional analysis of P levels in the EU the maps of basic regions for the application of regional policies (NUTS2; Eurostat, 2013b) were used.
+The spatial dataset of the NUTS2 units was accessed from the Eurostat website.
+CORINE land cover data
+The CORINE land cover (CO-oRdination of INformation on the Environment; CLC) database (EEA, 2011) was used to delineate agricultural areas for the assessment.
+The CLC data of 2000 includes information on land cover in European countries, including member states of the European Union (JRC-EEA, 2005), therefore this dataset was used in the analysis.
+The dataset uses a classification scheme, including 44 land cover classes organized into three hierarchical levels (CEC-EEA, 1993).
+We focused our assessment on arable land (Corine categories 211, 212 and 213) for two reasons.
+First, because arable areas are the main targets of fertilizer use and we were interested in analysing P levels from the viewpoint of actual and recommended P inputs.
+Second, because P levels of arable lands are crucial both for food security and environmental reasons.
+Statistical data on crop yields
+Official statistics of the European Union on common wheat yields by regional (NUTS2) levels, and national crop statistics from the UK (DEFRA, 2012a) and Hungary (HCSO, 2013) were used in the analyses.
+Data - which is presented in Fig. 2 - were accessed through the Eurostat website (Eurostat, 2013c) and from the cereal production survey of UK (DEFRA, 2012a,b).
+Statistical data on fertilizer use
+Official fertilizer statistics from the UK (DEFRA, 2012b), Hungary (HCSO, 2013) and the FAO (FAO, 2013) were used for our comparative assessment.
+Methods
+Categorization of measured P concentrations
+We used the measured P concentrations to establish nutrient level categories for each LUCAS topsoil sample and to perform comparative analysis of P levels in cropland of the EU.
+In this study we classified the P concentration of soil samples from the LUCAS topsoil survey based on measured Olsen-P levels using equal-sized data subsets by each 20 percentiles (i) and threshold values of two different fertilizer recommendation systems (ii and iii).
+The most widely applied P fertilizer recommendation systems of Hungary and the UK were selected for this study to come to comparative figures on P supplies based on systems which were designed to support agricultural practices under distinct climatic conditions.
+The two systems were selected based on their applicability - they did not include site specific criteria which were not adaptable in other parts of the EU - and because they represent systems from different biophysical zones of Europe.
+P concentration threshold values related to P requirement of wheat were adapted following methodologies described by Antal et al. (1979) for Hungary and by DEFRA (2010) for the UK.
+Wheat was used as an indicator crop for three reasons.
+On the one hand wheat has wide climate tolerance and cultivated in nearly all regions of the European Union.
+It is also a plant with one of the largest areal share in the croplands of the EU.
+Furthermore wheat has medium phosphorus requirement (appr.
+11kg P/ton grain yield) compared to other crops; thus can be indicative for a wide ranges of crop rotations as far as general P requirements of cropping systems are concerned.
+The UK system is based on Olsen-P and the Hungarian system uses AL-P.
+Correction function (Eq.
+(1)) of Sárdi et al. (2009) was applied to convert the AL-P based thresholds of the Hungarian system to Olsen-P levels.(1)y=0.5722x-1.0939 (r2=0.9672)where y is the Olsen-P level in mg/kg and x is the AL-P mg/kg
+Both the UK and the Hungarian systems define five categories with regards to available P levels.
+The UK system numbers the categories as 'P index' from 0 to 4, the Hungarian system use qualifiers - very low, low, medium, high and very high - to describe the classes.
+In our study we used the class qualifier names of the Hungarian system for the P index categories of the UK system as well.
+In addition to P measurements, the Hungarian system, considering the high pedodiversity in the country uses also soil criteria - such as soil texture, and CaCO3 - to classify soil samples into P level categories.
+Therefore these soil properties were considered as well from the LUCAS topsoil database to assist the categorization.
+The system from the UK uses only the measured Olsen-P levels in its categorization.
+Table 1 summarizes the main characteristics of the two systems from the P categorization point of view.
+Threshold values of the two fertilizer recommendation systems (Hungary, UK) were used separately to establish plant available P categories for each soil samples from the LUCAS Topsoil Survey.
+Each soil sample was categorized into one of the five classes according to the two methods.
+It is worth underlying that category thresholds of the different systems are calibrated by their authors according to the corresponding regional climatic-, soil- and management conditions, as well as related to attainable yields under these conditions.
+Consequently, P category thresholds differ.
+Spatial delineations and areal P level calculations
+In order to assess the distribution of phosphorus in the soils of the EU and enable estimations for P fertilizer need, two approaches were used.
+First, we categorized LUCAS topsoil samples from agricultural land into five equal-sized data subsets based on measured lowest and highest P concentrations.
+The first quintile of the LUCAS P concentration data were classified as having very low concentration, the second 20% having low, the third 20% with medium, the fourth 20% having high and the top 20% having very high P concentration.
+Derived categories were ordered on a nominal scale from 1 (very low) to 5 (very high) and mean P categories and standard deviation figures were calculated by NUTS2 regions of the EU.
+Results are presented for the point observations of LUCAS topsoil survey and also as generalized for the NUTS2 regions of the EU (Fig. 1a and b).
+Second, plant available P levels were calculated for all LUCAS topsoil samples taken from agricultural land using the two different fertilizer recommendation methods: one from Hungary and one from the UK.
+P level categories derived using the two methods were ordered on a nominal scale, than mean P categories and standard deviation figures were calculated by NUTS regions of the EU, using the two methods in parallel.
+Two maps displaying available P level in 10 categories - with subdivision of the five classes for better visual presentation - and variability within NUTS region were drawn for 27 EU Member States.
+Estimation of fertilizer P requirement of cropland of the EU
+P fertilizer requirement of croplands in the EU were calculated by the fertilizer recommendation systems of Hungary (Antal et al., 1979) and UK (DEFRA, 2012b).
+Wheat was considered as an indicator crop and fertilizer doses for wheat cultivation were calculated.
+Recommended P fertilizer doses were computed for each LUCAS samples and for each NUTS region taking into account the mean P supply category, the average wheat yield and the spatial extent of cropland of the regions.
+Mean wheat yields were obtained from time series statistics (Eurostat, 2013c; DEFRA, 2012a, HCSO, 2013).
+Mathematical functions provided by Antal et al. (1979) to calculate fertilizer doses were used.
+The UK system sets fertilizer dose targets according to three yield levels, therefore an interpolation using the forecast function based on regional yield statistics and fertilizer need was applied.
+Spatial extent of cropland in each NUTS region was determined using the CLC database.
+Following assessments using the two different systems and after analysing the spatial validity of each system, results were integrated to produce a single map of P input need for regions of the EU and an estimation of the overall P demand of arable land of the EU.
+In this process the UK method was applied for regions under oceanic and sub-oceanic influence and for temperate mountainous areas and the Hungarian system was applied in climatic zones under continental and Mediterranean influence.
+The climate zonation of Hartwich et al. (2005) was used for the delineations.
+Spatial analyses were performed using ArcGIS 10.0.
+For statistical computations the SPSS 16.0 software package was used.
+Results
+Plant available P levels in agricultural soils of the EU
+Based on the assessment of the LUCAS topsoil samples originating from agricultural land, considerably large differences can be observed, both among and within regions of the EU.
+While most European regions have soil samples which fall to the top 20% with regards to measured soil P contents (Fig. 1a), differences between distinct zones can be observed when looking at means of quintile categories of P concentrations by NUTS regions (Fig. 1b).
+Measured P levels displayed by means of quintile categories of individual cropland topsoil samples in each NUTS region as well as P supply levels established on the basis of the systems of the UK (DEFRA, 2010) and Hungary (Antal et al., 1979) show similar pattern throughout Europe (Figs.
+1 and 3), for the latter comparison shown by a Pearson correlation of 0.965 between them (the correlation is significant at the <0.01% level).
+Only a slight difference can be observed by comparing the results of the two expert-based categorizations, as the UK system (Fig. 3a) defines somewhat higher P categories in Spain, Ireland and a few other regions in North-Western Europe, while the Hungarian system (Fig. 3b) grades some central European regions in higher categories than the UK system.
+Results based on each approach of categorization suggest that plant available P levels follow main climatic patterns in Europe.
+Areas of the Atlantic North Western Europe have the highest levels and the Mediterranean the lowest of phosphorus in cropland soils.
+According to the systems of the UK and Hungary around half of Europe's croplands have high or very high levels of P supply and somewhat less than one third have low or very low levels of P (Table 2).
+Our calculations based on the LUCAS data show decreasing areal share of croplands with different P levels in the order of very high, high, medium, very low and low P levels, respectively (Table 2).
+Most countries in the EU have diverse P levels, with considerable differences among their NUTS regions.
+More uniform distribution of P levels can be observed in Bulgaria, Czech Republic, Denmark, Finland Ireland and the Netherlands, all having relatively high P levels in all their agricultural land.
+Plant available P levels in some larger countries like France, Italy and Spain but also in some smaller countries like Austria or Portugal show high inter-regional variability.
+In contrast to the Benelux countries, Denmark, Germany and Poland some countries like the Baltic States, Bulgaria, Hungary, Portugal and Romania have generally low levels of soil P in most of their NUTS regions.
+The variability of P levels within the NUTS regions was also analysed by additional descriptive statistics, which show skewed distribution of P levels in soil samples in individual NUTS regions in nearly all cases.
+While due to volume constraints detailed figures are not presented here, it is worth noting that only regions in the Benelux countries with usually very high or high categories and Bulgaria and Romania with low categories were those where P content of soil samples do not spread over most categories.
+Estimates for P input need for crop production in the EU
+Unlike for P supply categories the estimation of input need of different regions of the EU results quite different patterns when based on the recommendation systems from Hungary (Antal et al., 1979) and the UK (DEFRA, 2010).
+The system of the UK does not recommend additional fertilizer use on croplands with the highest P supply, including regions in Belgium and the Netherlands, Sardinia and two regions in the UK and rather low level inputs are recommended for the rest of the croplands of the EU, except for two Italian, three English and one German regions, where more than 50kgha-1 P input is advised (Fig. 4a).
+According to the Hungarian system there is a need for fertilizer P input in all regions but two (one in Finland and Sardinia) of the EU (Fig. 4b).
+The need is higher (100kg P2O5 per ha or more) in regions with high yields.
+These regions are in France, Northern Italy, the UK, Ireland, Austria and Germany.
+In some regions of the Netherlands and Belgium, where both yields and soil-P levels are high, the Hungarian system recommends medium-low additional P input.
+It is only in the case of regions with very low crop yields (<35q/ha) (e.g.
+in Cyprus, Estonia, Finland, Portugal, Puglia and Sicily in Italy) where the Hungarian system recommends low P inputs of less than 50kgha-1 P2O5 equivalent.
+Our calculations to sum the total P fertilizer input need on croplands of the EU resulted quite different figures if based on the Hungarian and the UK systems.
+According to the Hungarian system (Antal et al., 1979) the P2O5 input need of croplands in the European Union (EU27) was 8.2 million tons, while based on the system of the UK (DEFRA, 2010) it was 2.35 million tons.
+To assess the relationship between the estimates and the fertilizer use statistics we compared those in the two countries where the applied recommendation systems are developed (Table 3).
+We observed differences between estimated fertilizer consumption calculated on the basis of the LUCAS topsoil data and the fertilizer use according to the national (HCSO, 2013 and DEFRA, 2012b) and international statistics (FAO, 2013), in both countries.
+The climate zone based integration of the figures from the two systems allowed the preparation of a P fertilizer recommendation overview map of the EU (Fig. 5).
+Based on the underlying data of this map, the estimated annual P input need of the EU's agriculture is 3.85 million tons, annually.
+This input might be achieved by the combination of chemical fertilizers and manure.
+Discussion
+P manure and fertilizers have been applied in excess in many European countries in the years of 1950-1980 to increase crop yield, resulting in varying accumulation of P within soil systems (Granstedt, 2000; Tunney et al., 2003) explaining high diversity across Europe.
+A meta-analysis study of P fertilization in 80 years of research in Finland conducted by Valkama et al. (2009) revealed that yield increases due to P fertilization were highly depended upon soil texture and organic matter and decreased in the following order, organic soils>coarse-textured soils>clay soils which was in alignment with studies of Tennberg (1935), Tennberg and Jokihaara (1935), Salonen and Tainio (1957) and Sippola (1980).
+Moreover, like other soil properties texture and pH show great spatial variability across the EU (Tóth et al., 2013b).
+As similar P supply to plants requires higher levels of measured extractable P in light soils and pH is mostly linked with the availability of carbonates in soil, which increases the required measured amount of P for adequate plant supply, P adsorption and availability are highly affected by those parameters.
+Therefore, as to be expected, plant available P levels as determined by the Hungarian fertilizer recommendation systems differ from the extracted P amounts of the LUCAS topsoil samples (Figs.
+1b and 3b).
+As our earlier study (Tóth et al., 2013b) pointed out, three groups of countries can be distinguished in the EU based on the P levels of their cropland soils.
+These groups are (1) with generally low P levels, (2) with varying P levels and (3) with generally high P levels.
+Austria, Bulgaria, Cyprus, Estonia, Spain, Greece, Hungary, Italy, Lithuania, Portugal, Romania, Sweden, Slovenia and Slovakia belong to group I.
+Czech Republic, Germany, Denmark, Finland, France, Ireland, Poland, United Kingdom belong to group 2.
+Belgium and the Netherlands belong to group 3.
+According to our current findings, higher P surpluses where detected in north-western regions of the EU compared to other parts of the continent which is in agreement with Csathó and Radimszky (2011).
+This is likewise in agreement with older studies revealing a substantial accumulation of P in agricultural soils in the Netherlands, France and Germany with surpluses of 25-30kgha-1 (Smil, 2000; Tunney et al., 2003) while in Sweden, Norway and the UK the elemental P surpluses in relation to livestock farms were about 8-20kgha-1.
+Moreover, P soil surpluses in Central and Eastern European countries are considered lower, even in the pre-1990 accumulative period, compared to the 15 EU countries (Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden and the United Kingdom) as reported by Ott and Rechberger (2012).
+Máthé-Gáspár et al. (2012) reported negative P balances for Hungary for the period 1989-2005 and the result of this trend is reflected in our findings, when compared to data presented by Baranyai et al. (1987).
+The maps displaying soil P supply based on quintiles (Fig. 1b) show that there are zones with high and low soil P levels which can be delineated in the EU and these zones are following climatic patterns.
+Zones with most intensive P input (Fig. 6) show both the highest P and highest yield levels (Figs.
+1 and 2).
+However, the correlation between yields and P levels in the NUTS2 regions of the EU (Pearson coefficient=0.4; both based on the UK and Hungarian systems) suggest strong, but not exclusive P dependency of yield.
+This finding might suggest that in most EU regions P application doses are adjusted to targeted yields.
+However in the extreme cases of very high or very low P levels, this assumption might not hold.
+With regards to the comparison of P input (Fig. 6) and soil P level (Fig. 1) our results confirm the scientific evidence that high P fertilizer inputs with positive P balance will increase the concentrations in the soil (Cordell et al., 2009), and also provide an insight to the regional distribution of different P supply levels in the regions of the EU in relation to P input.
+The two recommendation systems used in this study, Antal et al. (1979) for Hungary and DEFRA (2010) for the United Kingdom, differ in their criteria to generate P recommendation.
+While the DEFRA classifies P level categories according to measured P levels exclusively, the Hungarian system uses additional soil criteria such as soil texture and CaCO3.
+Underlying soil properties that affect P mobility should be handled with care as agricultural land is not generally uniform and show high spatial variations in soil biogeochemical attributes (Bechmann et al., 2007).
+Recommendations on fertilizer doses for different regions of Europe differ considerably if assessed by different methods (Fig. 4).
+The System of the UK suggests fertilization with low P doses for most of the EU (Fig. 4a), while the Hungarian system recommends high doses on areas (Fig. 4b) where high yields are expected (Fig. 2).
+This difference highlights the complexity of P management decisions in a continental context.
+The large difference between these two figures shows the constraint of any fertilizer recommendation systems for specific agroecological conditions and highlights the limitations of our current study as well.
+The comparison of the results obtained from the two methods for the whole EU underlines the methodological differences between them and consequently warns about their applicability over the entire continent.
+While the Hungarian system seem to overestimate the fertilizer need in the western part of Europe - mainly the areas under Atlantic and sub-Atlantic climate - the UK system underestimates the P input needs in Central and Eastern Europe.
+One explanation for this difference can be that the UK system is designed for croplands where the nutrient dynamics from soil decomposition processes is not conditioned by long dry (or dry and cold) periods, and natural rate of P release is higher than that of fixation, thus inherent soil P can contribute more to plant requirements.
+The Hungarian system, on the other hand is developed for dryer and colder conditions, where natural P release is controlled by limited time available for biological activity.
+In any case, the strongest factor of diverging result is the validity of the systems for different climatic regions.
+Based on the above assumption a P fertilizer recommendation map (Fig. 5) of the EU was complied, where the UK method is applied for regions where oceanic and sub-oceanic climatic influence prevail and the Hungarian system is applied in climatic zones under continental and Mediterranean influence.
+Recent studies on continental P supply (Csathó et al., 2011) supports our arguments that estimated P need pattern shown in Fig. 5 is more consistent with the reality than maps produced by either of the two systems for the whole EU separately.
+However, as the climate borders not always coincide with administrative borders the assessment at bordering regions as well as in transitional climatic zones might not be as accurate as in the regions where the recommendation systems were developed.
+The adaptation of regionally specific recommendation systems can probably increase the accuracy of similar maps in the future.
+Based on the regionally stratified combined application of the two systems, the calculated amount of current phosphorus need of the EU (3.85 million tons) is 1.5 million tons higher than the reported 2.36 million tons mineral fertilizer usage.
+However, as 45% of P input in Eastern Europe and 55% in Western Europe are from manure (Eurostat, 2013a,b,c,d), the overall P balance is positive, with considerable overuse of fertilizer in certain regions of the EU.
+As seen from Table 3 fertilizer use in the UK as reported by the UK government was 30% lower than what the local advisory system recommends.
+Based on figures from Tunney et al. (2003) manure application compensates the difference between the required nutrient input and reported mineral fertilizer use.
+On the other hand, statistics from the FAO (2013) suggest 20% higher P fertilizer usage in the UK over the calculated needed amounts.
+In the meanwhile the Hungarian P fertilizer input was only about 10% of the optimal calculated by the local system on the basis of soil P levels.
+While organic P input from livestock of various densities can strengthen or weaken the magnitude of imbalances, the difference in soil P management in the two countries is very evident from the figures obtained from soil P test and fertilizer statistics.
+Fertilizer use statistics by different sources provide confusing values (Table 3).
+However, considering the fact that the advisory system of the UK would discourage fertilizer use in some of the most fertile regions of the EU and recommends low input to the rest of the EU as well (Fig. 4a) we might well think that fertilizer statistics do not catch the exact figures of fertilizer consumption in the EU.
+In any case in some countries like Romania and Bulgaria the actual values certainly fall behind the needs, while in other regions, applications are above the recommended levels.
+Although high levels of soil P are observed on areas with high input and high yields, like those in north-western Europe, according to the Hungarian system, high fertilizer doses on these areas are still needed to secure the required yield levels.
+Interestingly, the system of the UK, would not recommend additional fertilizer input on some of these areas of high P levels, e.g.
+in Belgium and the Netherlands, while in reality, they are constantly further fertilized (FAO, 2013).
+Organic manure adds considerable amounts of P in regions with high livestock densities.
+In fact, most countries, where high P levels are measured (Fig. 1) are countries where organic manure provides considerable P inputs (Fig. 7).
+Inconsistency between recommended and reported fertilizer applications (Table 3.) proves differences in the farming practice in different regions of the EU, while also reflect the possible shortcomings of the fertilizer usage reporting systems.
+The observed differences certainly highlight the possibility to further optimize P management within the EU, as it has been already advised in regional context by a number of authors (Csathó et al., 2011; Hejcmana et al., 2012; Valkama et al., 2009).
+The need for better statistical data on actual yield levels and P applications is also an essential precondition for optimized P management in the EU.
+Knowing the different regional distribution of P supply levels in the European Union cannot only be of valuable input in assessing current soil nutrient supply in relation to food security (Lal, 2013) and in assessing the need for fertilizer input to soils in Europe (Schröder et al., 2011) but also be of great value for the study of soil P loss to the environment (Sharpley et al., 2002; Heathwaite et al., 2005).
+Conclusions
+To optimize crop production economic benefits have to be considered in relation to environmental criteria.
+Fertilizer doses have to be based on attainable yield and soil nutrient levels.
+The recent EU-wide LUCAS topsoil survey provided the opportunity to have reliable comparison of P levels in soils of the EU.
+Based on measured values from uniform soil tests we provided first time reliable figures of P levels in soils of the EU, also in relation to cropping needs.
+Based on these figures there are considerable differences within the Union; higher P levels can be observed in regions where higher crop yields can be expected (North-West Europe) due to favourable climatic conditions.
+On the other hand, higher P levels are measured in the regions where high fertilizer P inputs are reported and where probably the livestock densities are higher too.
+We made an effort to estimate the P input need of European croplands, and found disparities of calculated input need and reported fertilizer statistics both on local (country) scale and on EU level.
+However further studies are needed to arrive to exact figures on a continental scale.
+This might be achieved by the regionalization of the analysis using regional or national fertilizer recommendation systems and with the application of crop-nutrient balance models.
+Such an analysis is currently hindered by the non-existence or non-accessibility of recommendation system for many regions and the lack of statistics on crop yields within regions.
+Nevertheless, the first ever uniform topsoil P survey of the EU highlights the contradictions between soil P management of different countries of the Union while also highlights the inconsistencies between reported P fertilizer consumption and advised P doses.
+Our findings also underline the need to improve statistics on fertilizer use and crop yields in the EU towards finer scale information.
+We can assume that with the availability of more accurate information on crop yields and fertilizer input - including both mineral and organic P inputs - a coherent framework of soil P management can be worked out for the EU.
+Our analysis shows a status of a baseline period with data from the years 2009 and 2012, while a repeated LUCAS topsoil survey can be a useful tool to monitor future changes of nutrient levels, including P in soils of the EU.
+

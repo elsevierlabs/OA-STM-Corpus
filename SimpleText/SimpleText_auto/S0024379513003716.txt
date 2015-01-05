@@ -1,0 +1,9 @@
+Two cores of a nonnegative matrix
+
+Abstract
+We prove that the sequence of eigencones (i.e., cones of nonnegative eigenvectors) of positive powers Ak of a nonnegative square matrix A is periodic both in max algebra and in nonnegative linear algebra.
+Using an argument of Pullman, we also show that the Minkowski sum of the eigencones of powers of A is equal to the core of A defined as the intersection of nonnegative column spans of matrix powers, also in max algebra.
+Based on this, we describe the set of extremal rays of the core.
+The spectral theory of matrix powers and the theory of matrix core is developed in max algebra and in nonnegative linear algebra simultaneously wherever possible, in order to unify and compare both versions of the same theory.
+
+

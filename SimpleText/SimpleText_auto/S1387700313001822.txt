@@ -1,0 +1,76 @@
+Chirality delivery through multiple and helical H-bonding from chiral coordination complex to its supramolecular architecture
+
+Abstract
+The path of the chirality delivery in the crystalline and chiral nucleotide-Co(II) complex, [Co(GMP)(H2O)5]·3H2O (GMP=guanosine-5′-monophosphate), has been studied based on X-ray single crystal diffraction analysis, liquid- and solid-state circular dichroism (CD) spectroscopy.
+The multiple and helical H-bonding is a distinctive way of chirality delivery from the discrete molecules to three-dimensional supramolecular architecture.
+Graphical abstract
+The molecular chirality of crystallized nucleotide-transition metal coordination complex is delivered to three-dimensional supramolecular architecture through multiple and helical H-bonding in its crystal lattice.
+Liquid- and solid-state CD spectroscopy confirm the novel path of chirality delivery.
+Highlights
+•
+The chirality delivery in the crystallized coordination complex has been studied.
+•
+The path of chirality delivery in this complex is multiple and helical H-bonding.
+•
+Liquid- and solid-state CD spectroscopy confirm the mechanism of chirality delivery.
+
+The chirality delivery is a growing topic of interest in light of its importance in biology and advanced materials [1].
+To understand the way and mechanism of chirality delivery is important for controllable synthesis of chiral material and understanding the functions of biological system, which is still a challenge to chemists.
+At present, self-assembly is a distinctive method to construct chiral materials from chiral or achiral constituents [2,3].
+Noncovalent interactions such as H-bonding, aromatic stacking, electrostatic, etc.
+are vital in the self-assembly process and in determining the final geometry of the resulting metallosupramolecular structures [3,4].
+As we know, nucleotide is a kind of optically active and fundamental biomolecules and can be chiral ligands for transition metal [5,6].
+Although there are a few of nucleotide coordination complexes reported [7,8], the coordination chemistry and supramolecular chemistry of nucleotide-metal systems are still in infant.
+We have studied the chirality delivery in the nucleotide-Cu(II) complex, [CuNa(GMP)(HGMP)(H2O)7]·6(H2O)·CH3OH (GMP=guanosine 5′-mono phosphate) [7a].
+The chirality delivery through non-covalent interactions has been studied based on the viewpoint of supramolecular chemistry [9].
+The result indicates the diversity of supramolecular chirality.
+Herein, an alternative and unusual path of the chirality delivery in GMP-Co(II) complex, different from the path in the GMP-Cu(II) complex, has been investigated based on X-ray single crystal diffraction, liquid- and solid-state circular dichroism (CD) spectroscopy.
+The multiple and helical H-bonding along 2D layer is a distinctive way of chirality delivery in this work.
+The space group of the crystal structure of complex 1 is C2, which indicates that the crystal is homochiral.
+The molecular structure of complex 1 is built up of a Co(II) ion coordinated with one GMP ligand and five coordinated water molecules (Fig. 1, Tables S1 and S2).
+The chirality of GMP ligand was remained in the molecule of 1 and induced molecular chirality based on the distorted octahedral geometry of the Co(II) center.
+Different to nucleotide-ratio in complex 1 is 1:1, which makes the large freedom of GMP ligand especially for phosphate group.
+It leads to the diversity of H-bonding pattern and helical pattern in molecular packing in crystal lattice in the viewpoint of supramolecular chemistry.
+The molecules are linked by a strong H-bonding, O11-H11A…O5 (1.845Å, 2.657Å, 166.64°) and O9-H9A…O6 (1.945Å, 2.755Å, 168.27°) (Fig. 2(a)) to form a 1D right-handed helical chain along b axis.
+The molecule is twisted nearly by 180° and the screw pitch is 11.072(4) Å.
+The twist is mainly origin from the flexibility of sugar moiety and phosphate group and π-π packing between adjacent helical chains, which induces rotation angle to be nearly 180° and is different from the previous report [7a].
+Then, these 1D helix chains are assembly by H-bonding at the presence of solvent water molecules (O13, O14) to construct the 3D chiral supramolecular architectures.
+One kind of the assembly mode is the neighbor helical chains linked by strong and right-handed helical H-bonding along b axis [O8-H80…O14 (1.741Å, 2.550Å, 176.33°), O14-H14B…O4 (1.969Å, 2.782Å, 168.51°), O9-H9B…O4 (2.173Å, 2.173Å, 168.27°)] (Fig. 2(b)).
+Interestingly, this H-bonding mode is the same with that within the 1D chain, which is twisted nearly by 180° and the screw pitch is 11.072(4)Å.
+That is to say, the 1D chain consisted of the half of the blue chain and the half of the green chain is the same with homocolor chain, blue or green one.
+Clearly, the molecules are linked each other by the right-handed helical H-bonding to extend the 2D layer structure.
+To the best of our knowledge, this is the first report about chirality delivery through 2D continuous helical H-bonding.
+Further, these 2D sheets are packed based on π-π stacking (3.3304Å) between on the ab plane combining with H-bonding [O14-H14A…O15 (1.890Å, 2.691Å, 164.53°); O14-H14B…O4 (1.969Å, 2.782Å, 168.51°)] (Fig. 2(c)).
+The 3D topology of complex 1 with each complex as one node and intermolecular interactions as linker is (4,6) network (Fig. 2(d)), which displays the relationship of complex molecules packing in the crystal lattice clearly.
+Both of the chirality of the ligand and complex 1 have been confirmed by liquid circular dichroism (CD) studies (Fig. 3(a)).
+The CD spectrum of the GMP ligands in aqueous solution has a strong negative band at 196nm which relates to the conformation of the sugar moiety.
+Positive bands centered at 219nm, of which the transition is n→π* [10].
+Most of the CD active transitions are n→π* in nature [11], although the π→π* transitions dominate UV-vis spectrum (Fig.
+S1).
+As observed for purine nucleotides, α-anomers have positive and β-anomers have negative 260nm bands [5].
+The absence of this band in the spectrum of GMP might be caused by the balance between α- and β-anomers through mutarotation in water solution [10].
+The typical CD spectrum illustrates that the GMP ligands are the d-ribonucleotide which has a positive band near 220nm and was found to be the mirror image of the l-ribo [5].
+Compared to the ligand, the positive cotton effect (CE) of complex 1 becomes weaker and narrower, which can be explained by the fact that the coordination of Co(II) to the nucleobase reduces the n→π* transition of the chromophore [12] and the number of G4 is decreased [3].
+Weak negative bands centered at 250, 253 and 269nm appear, which are composed of two π→π* transition and one n→π* transition, respectively [5].
+This negative CE demonstrates that the chiral of GMP delivers to GMP-Co(II) compounds and GMP mainly keeps the β-anomers in the complex.
+To deliberate the chirality of the supramolecular architecture, solid state circular dichroism spectra were measured in a KCl matrix for GMP ligand and the single-crystals of complex 1 (Fig. 3(b)).
+There is a red-shift in the solid state CD spectrum of GMP compared with its liquid CD spectrum.
+The negative band about the conformation of the sugar moiety has nearly disappeared.
+In solid-state, mutarotation is more difficult and the negative band at the 260nm nearby can be detected which indicates that the GMP ligand is mainly β-anomers.
+In the spectrum of complex 1, the weak negative band at 215-225nm indicates that the GMP exists as l-ribo [5], which is induced by the strong π-π and hydrogen bonding interaction.
+For solid samples, CD spectroscopy is highly sensitive to even a very small distortion from planarity of the aromatic chromophore [12].
+The strong negative CE centered at 297nm (θ≈-10mdeg) is due to the excitation coupling of π→π* transitions of the aromatic chromophores, including the intra- and intermolecular coupling of the guanine chromophores [13], which is consistent with the single crystal structure.
+In this work, the experiment results confirmed that the chirality of GMP can be preserved when coordinated to Co(II) center and the chirality of this nucleotide complex molecule can be delivered to its supramolecule architecture by hydrogen bonding and π-π interaction.
+Liquid- and solid-state circular dichroism spectroscopy has been carried out and offers an effective ways for chirality delivery.
+To the best of our knowledge, it offers a new path of chirality delivery from nucleotide-metal complex molecules to its supramolecular architectures, which is significant for understanding the origin of life.
+In future, preparing suitable nucleotide-metal complexes for single-crystal X-ray studies and the research about the supramolecular chemistry and chirality of them remains an important assignment for us.
+Acknowledgements
+We thank the National Science Council of the People's Republic of China for supporting this research (Nos.
+20771014 and 21071018) and the specialized research fund for the doctoral program of higher education, State Education Ministry of China (20091101110038).
+Supplementary material
+Supplementary materials
+Supplementary material
+CCDC 888933 contains the supplementary crystallographic data for 1.
+The data can be obtained free of charge via http://www.ccdc.cam.ac.uk/conts/retrieving.html, or from the Cambridge Crystallographic Data Centre, 12 Union Road, Cambridge CB2 1EZ, UK; fax: (+44) 1223-336-033; or e-mail: deposit@ccdc.cam.ac.uk.
+Additional structural figure, scheme, H-bond data and IR spectrum are available as electronic supplementary information in the online version, at http://dx.doi.org/10.1016/j.inoche.2013.04.038.
+

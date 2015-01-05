@@ -1,0 +1,183 @@
+Structural studies of magnesium nitride fluorides by powder neutron diffraction
+
+Abstract
+Samples of ternary nitride fluorides, Mg3NF3 and Mg2NF have been prepared by solid state reaction of Mg3N2 and MgF2 at 1323-1423K and investigated by powder X-ray and powder neutron diffraction techniques.
+Mg3NF3 is cubic (space group: Pm3m) and has a structure related to rock-salt MgO, but with one cation site vacant.
+Mg2NF is tetragonal (space group: I41/amd) and has an anti-LiFeO2 related structure.
+Both compounds are essentially ionic and form structures in which nitride and fluoride anions are crystallographically ordered.
+The nitride fluorides show temperature independent paramagnetic behaviour between 5 and 300K.
+Graphical abstract
+Definitive structures of the ternary magnesium nitride fluorides Mg3NF3 and the lower temperature polymorph of Mg2NF have been determined from powder neutron diffraction data.
+The nitride halides are essentially ionic and exhibit weak temperature independent paramagnetic behaviour.
+Highlights
+► Definitive structures of Mg3NF3 and Mg2NF were determined by neutron diffraction.
+► Nitride and fluoride anions are crystallographically ordered in both structures.
+► Both compounds exhibit weak, temperature independent paramagnetic behaviour.
+► The compounds are essentially ionic with ionicity increasing with F- content.
+
+Introduction
+Metal nitride fluorides are a relatively unexplored class of inorganic materials [1,2].
+Andersson referred to these as "pseudo-oxides" as they have compositions derived from oxides effectively by the substitution of O2- ions by N3- and F- ions [3].
+The first examples of these were magnesium nitride fluorides prepared by Andersson [4,5] and three phases were reported which had structures related to the rocksalt structure of MgO.
+Mg3NF3 is cubic with N3- and F- crystallographically ordered and one quarter of the Mg2+ sites are empty in an ordered fashion.
+L-Mg2NF, a low temperature polymorph, is tetragonal with ordered anions and contains magnesium in square-pyramidal co-ordination.
+The high temperature polymorph, H-Mg2NF, is observed after treating L-Mg2NF at high temperature and pressure (1100-1350°C; 25-30kbar).
+It is cubic and isostructural with MgO with the N3- and F- anions disordered.
+Magnesium oxide, MgO, and related compounds have found considerable applications as refractory ceramics [6], catalyst supports [7-9] and recently as additives in the firing of biomass fuels [10].
+Following the discovery of the magnesium nitride fluorides, investigations by Ehrlich et al. produced further alkaline earth metal compounds, Ca2NF, Sr2NF and Ba2NF, which were all reported from powder diffraction evidence to be isostructural with the respective group 2 rocksalt-type oxides [11].
+Galy et al. also reported Ca2NF as a rocksalt structure from powder measurements [12].
+More recent single crystal X-ray diffraction experiments have, however, identified alternative structures for some of these compounds.
+Nicklow et al. reported a Ca2NF phase isostructural with L-Mg2NF [13].
+Under slightly different conditions the same group reported a Ca2NF phase with a structure in which the simple rock salt cubic cell parameter is doubled due to the anion ordering of N3- and F- [14].
+This doubled, ordered rock salt-type structure is also observed for Sr2NF [15], but as one progresses further down group 2, single crystal studies reveal that the equivalent barium compound, Ba2NF, forms with a simple NaCl structure with disordered anions, in agreement with the earlier work of Ehrlich et al. [16].
+Recently Ba2NF was reported to form also with a layered anti-α-NaFeO2 structure from powder neutron diffraction measurements [17].
+This structure consists of a cubic close packed arrangement of Ba2+ cations, with the N3- and F- anions ordered over the octahedral interstices to produce alternating layers comprising either edge-sharing NBa6 or FBa6 octahedra-a structure type more usually observed for alkaline earth metal nitride chlorides, bromides and iodides [18].
+Rare earth nitride fluorides were also discovered in the early 1970s.
+Tanguy et al. initially reported compounds in the solid solution LaNxF3-3x with a stability range x=0.34-0.54 [19].
+Cerium forms an analogous solid solution CeNxF3-3x otherwise differing from La only in the solubility range (x=0.33-0.50) [20].
+By contrast, Gadolinium forms only the line phase, Gd3NF6 [21] and more recently Pr3NF6 and Ce3NF6 were prepared and studied by neutron diffraction [22].
+The structures of these compounds are related to fluorite, although all show an anion excess and for Ln=Ce and Pr, neutron diffraction has indicated the existence of fluorine interstitials.
+Variation in stoichiometry, structure and anion distribution within ternary nitride halide systems is likely to have profound effects on electronic properties, but reports on this are limited.
+DFT calculations performed by Fang et al. on compounds in the Mg-N-F ternary system show a decreasing band gap from insulating MgF2 (calculated direct band gap, Eg, of 6.8eV) through Mg3NF3 (Eg=3.6eV) and L-Mg2NF (Eg=2.1eV) to semiconducting Mg3N2 with a calculated direct band gap of 1.6eV (2.8eV experimentally) [23].
+In this work we report the solid state synthesis of the nitride fluoride Mg3NF3 and the low temperature polymorph of the dimagnesium nitride fluoride, L-Mg2NF and provide detailed models of their crystal structures from powder neutron diffraction experiments.
+Powder neutron diffraction has allowed us to establish the distribution of nitride and fluoride in these "pseudo-oxides" without ambiguity and to draw conclusions as to the type of bonding in these compounds.
+We also report the magnetic behaviour of the nitride fluorides.
+Experimental details
+Starting materials
+Magnesium nitride, Mg3N2 was prepared by reaction of the pure metal (Alfa 99.9%) with nitrogen using liquid sodium (Riedel-Haën, >99%) as a solvent.
+All manipulations were carried out in an inert atmosphere.
+In an argon-filled glovebox a piece of magnesium (ca.
+15g) was cut from a larger ingot and the covering oxide layer physically removed with a file.
+The clean magnesium metal was submerged in molten sodium contained within a stainless steel crucible.
+The crucible was then sealed inside a stainless steel reaction vessel fitted with a cold finger.
+The vessel was heated for 72h at 1023K under 1bar of nitrogen pressure.
+Upon cooling, the vessel was placed under a vacuum of 10-4Torr and heated for 24h at 823K to remove the sodium.
+Once cooled to room temperature, the vessel was loaded into a glovebox and opened in a nitrogen atmosphere.
+Mg3N2 was obtained as a yellow-green powdered solid.
+Phase purity was confirmed using powder X-ray diffraction by comparison to ICDD PDF database (card number 35-778; Supplementary Fig. S1).
+Nitride fluoride synthesis
+The ternary magnesium nitride fluorides were prepared by the high temperature solid state reaction of stoichiometric amounts of synthesised Mg3N2 with anhydrous MgF2 (Aldrich, 99.9%).
+All manipulations were carried out under inert nitrogen or argon atmospheres.
+The appropriate 1:3 and 1:1 stoichiometric molar ratios were used in the synthesis of Mg3NF3 (1) and Mg2NF (2) respectively, as shown below:(1)Mg3N2+3MgF2→2Mg3NF3(2)Mg3N2+MgF2→2Mg2NF
+In an N2-filled recirculating glovebox, mixtures of the starting materials were thoroughly mixed and ground together using an agate pestle and mortar, after which the samples were pressed into pellets using a hand press inside the glove box.
+The pellets were then transferred to an evacuable glovebox with a purified argon atmosphere and wrapped in molybdenum foil liners, which serve to prevent unwanted side reactions between the pellet and the stainless steel crucible.
+The foil-wrapped pellets were sealed inside the stainless steel crucibles using an arc welder within an argon-filled glove box.
+The sealed crucibles were transferred to a high temperature tube furnace and heated for 5 days at 1323-1423K under flowing argon to prevent aerial oxidation.
+The reaction vessels were slowly cooled at 20Kh-1 to room temperature following heating and opened in a nitrogen filled glovebox using pipe cutters.
+Characterisation by powder X-ray diffraction (PXD)
+All products were initially characterised by PXD.
+Data were collected using a Philips X-pert diffractometer operating with CuKα radiation.
+Initial scans were carried out from 5≤2θ/°≤80 with a step size of 0.02° and a scan time of 50min.
+Due to the air-sensitive nature of the products, a dedicated air-tight aluminium sample holder with Mylar windows was employed [24].
+Data were analysed by Philips Automated Powder Diffraction software.
+Phase identification was carried out using the Philips software routine, PC-IDENTIFY to access the ICDD PDF database.
+Unit cells were indexed using DICVOL91 [25].
+Further data were collected over a longer period, from 5≤2θ/°≤120 with a step size of 0.02° over 14h, in order to obtain data suitable for structure refinement.
+Characterisation by powder neutron diffraction (PND)
+Time of flight (ToF) PND data were collected using the medium resolution, high intensity POLARIS diffractometer at the ISIS facility, Rutherford Appleton Laboratory.
+For each sample, ca.
+2g of material was sealed in a vanadium can, made airtight using an indium wire gasket.
+All data were collected at 298K with collection times of 1-2h.
+Diffraction data collected using the low angle (〈2θ〉=35°; d-spacing range ∼0.5-8.1Å), backscattering (〈2θ〉=145°; d-spacing range ∼0.5-3.2Å) and 〈2θ〉=90° detector bank (d-spacing range ∼0.5-4.2Å) were used for structure refinement.
+Structure refinement
+Rietveld refinement using both the PXD and ToF PND data was performed using the General Structure Analysis System (GSAS) through the windows based EXPGUI interface [26,27].
+The overall refinement strategy was largely identical when using either PXD or PND data and employed selected background and peak shape functions as appropriate for the different instruments.
+For the PXD refinements, the initial starting models used for 1 and 2 were those proposed by Andersson for Mg3NF3 and L-Mg2NF, respectively [3].
+The background coefficients (GSAS Function 7-a linear interpolation function), zeropoint and scale factor were varied initially, followed by refinement of the unit cell parameters.
+Modelling of the peak shapes was carried out using Function 2, a Simpson's rule integration of the pseudo-Voigt function.
+The atomic parameters, peak profile parameters and isotropic thermal vibration parameters were subsequently refined.
+Impurity phases were added once refinement of the main phase was almost complete.
+The anisotropic thermal vibration parameters of the main phase were one of the last variables to be refined, whilst in the final refinement cycles all parameters were simultaneously varied until convergence was achieved.
+For the POLARIS PND refinements, the appropriate starting models derived from the PXD experiments above were refined against data from the three detector banks.
+Initially data from the backscattering bank were used for each refinement, with the low angle and 90° histograms added later in the refinement.
+Initially background coefficients (GSAS Function 6-a combination of power series to account for background contributions at low and high Q) and the scale factor were refined.
+Unit cell parameters and peak shape were varied subsequently.
+(Modelling of the peak shapes was carried out using ToF peak shape function 3, a convolution of back-to-back exponentials with a pseudo-Voigt function.) Absorption coefficients, atomic positions, and isotropic thermal vibration parameters were refined once stability and convergence was achieved.
+Impurity phases were added once refinement of the main phase was almost complete in each case.
+The anisotropic thermal vibration parameters of the main phase were refined once all other parameters were stable, whilst in the final refinement cycles all parameters were simultaneously varied.
+Magnetic measurements
+Variable temperature magnetic susceptibility measurements were performed for both 1 and 2 (ca.
+10-25mg for each sample) using a Quantum Design MPMS-XL 5T SQUID magnetometer.
+All samples were loaded in a nitrogen-filled, recirculating glovebox.
+Data were collected between 5 and 300K under fields of 1000Oe with points at 1K intervals from 5 to 30K and 5K intervals between 30 and 300K.
+Data were corrected for core diamagnetism and the diamagnetic contribution of the sample holders (gelatine capsules).
+Results and discussion
+Mg3NF3 (1)
+An off-white powder, Mg3NF3 (1) was successfully synthesised at 1323K.
+Initial powder diffraction measurements produced a pattern that matched the ICDD database entry (PDF Card number 25-0517).
+Indexing of the peaks gave a cubic unit cell with a=4.2153(4)Å, which is in good agreement with the literature value of 4.216Å [3].
+Longer PXD scans revealed the presence of a small impurity of the MgF2 reagent, which was included as a secondary phase in the final cycles of the refinement and refined to a final phase fraction of 1.1(2)wt%.
+Given the similarity in form factor for isoelectronic N3- and F-, obtaining a definitive structure for 1 in which partial site disorder could be categorically discarded from PXD data alone was not possible.
+PND data were collected to address this problem as there is sufficient contrast in the coherent neutron scattering lengths to allow a convincing solution to be obtained (N: b=9.36fm, F: b=5.65fm) [28].
+Starting from the refined PXD model, the refinement progressed smoothly and converged to produce a good fit to the data.
+Attempts to refine occupancies of the anion sites to investigate possible N/F disorder reduced the quality of the fit, increased R-factors and caused some parameters to become unstable, indicating an ordered model in which N3- occupies only the 1b (1/2, 1/2, 1/2) site and F- the 3d (1/2, 0, 0) site to be correct.
+The details of the both PXD and PND refinements can be found in Table 1.
+Important interatomic distances can be found in Table 2.
+A fitted profile plot for the PND data for the backscattering bank (〈2θ〉=145°) is shown in Fig. 1.
+(Additional refinement fits and a table of anisotropic thermal displacement parameters can be found in the Supplementary information.)
+The structure of 1 (Fig. 2) is related to that of MgO, with N3- and F- replacing O2- in an ordered fashion in the cubic unit cell.
+Perhaps the key difference between 1 and MgO lies with the cation-anion ratio and hence defect structure.
+In MgO there is a 1:1 ratio of cations to anions with Mg located on the 4a site in the ideal rock salt structure (space group Fm-3m) whereas in Mg3NF3 there is a 3:4 ratio of cations to anions.
+In the resulting primitive cell of the nitride fluoride (space group Pm-3m), Mg is situated on the 3c (0, 1/2, 1/2) site with the (0, 0, 0) site of the rock salt structure vacant.
+Magnesium is octahedrally co-ordinated to two nitride anions and four fluoride anions.
+The Mg-N (Mg-F) bond distance is 2.1070 (1)Å, which is in excellent agreement with the literature value of 2.108 (1)Å [3].
+This is also very close to the Mg-O bond length of 2.1061 (1)Å in the rock salt structure of the oxide [29].
+The distance also falls within the range of Mg-N bonds seen in the anti-bixbyite Mg3N2 (2.084 (1)-2.179 (1)Å) [30] although is slightly longer than the Mg-F bond length in the binary fluoride (1.984 (2)-1.994 (1)Å) [31].
+The Mg-Mg distance is 2.980 (1)Å which is longer than in Mg3N2 (2.716 (1)Å) but shorter than that found in MgF2 (3.045 (3)Å) and Mg metal itself (3.1903 (1)-3.2025 (1)Å) [32].
+Bond valence calculations using the PND structure as a basis were performed using the VALENCE software [33].
+Applying the parameters of Brese and O'Keeffe (Rij(Mg-N)=1.85, Rij(Mg-F)=1.58, b=0.37) [34] gives sums of 1.96 for Mg, 3.00 for N and 0.97 for F.
+The results would thus imply that the bonding in M3NF3 is very close to purely ionic and that the Mg-N bond in the nitride fluoride is among the most ionic metal-nitrogen bonds in the solid state.
+Similarly the Mg…Mg interaction cannot be viewed as so significant in Mg3NF3 as it appears to be in Mg3N2 [24].
+Certainly DFT calculations would also suggest that with F 2p, N 2p and unoccupied 3s states well separated the nitride fluoride can be viewed as ionic [17].
+Mg2NF (2)
+The synthesis of a pale cream powder of 2 was achieved at 1423K.
+Initial experiments had shown that a higher temperature was required for formation of 2 otherwise a small impurity of 1 was always observed.
+Powder diffraction measurements showed a match to the pattern for the previously reported low temperature phase of Mg2NF (ICDD Card number 25-0516).
+The reflections could be indexed to a tetragonal unit cell with a=4.1816(4)Å and c=10.0322(6)Å which compares well with the literature values of a=4.186Å and c=10.042Å [3].
+As for 1, initial Rietveld refinement of 2 was performed against PXD data.
+The refinement progressed smoothly and gave a good fit to the data using the L-Mg2NF structure as a starting model.
+PND data were collected for 2 and a refinement taking the PXD model as the starting point progressed smoothly and converged to produce a good fit to the data.
+As with 1, possible disorder was investigated by attempting to vary the anion occupancies but doing so always resulted in increases to the residuals and/or physically unrealistic parameters.
+Parameters from both the PXD and PND refinements of 2 can be found in Table 3.
+Important interatomic distances are displayed in Table 4.
+The profile plot for the refinement against PND data for the backscattering bank (〈2θ〉=145°) is shown in Fig. 3.
+(Further PXD and PND refinement results and a table of anisotropic thermal displacement parameters can be found in the Supplementary information.)
+The structure adopted by 2 is anti-LiFeO2 type (Fig. 4), where F- occupies the equivalent Fe3+ position, N3- occupies the equivalent Li+ position and Mg2+ is located on the equivalent anion (O2-) site.
+The structure can be viewed as an intermediate structure between that of rock salt and zinc blende.
+The magnesium cation in 2 is co-ordinated to three nitride and two fluoride anions in a square pyramidal co-ordination.
+An additional, longer Mg-F interaction completes a distorted, axially extended octahedron (Fig. 5).
+The Mg-N/F bond distances in the pyramid base are 2.1253 (1)Å with the apical Mg-N bond at 2.1393 (1)Å.
+As for 1 these fall within typical Mg-N bond length ranges seen in Mg3N2 (2.084 (1)-2.179 (1)Å), and are slightly longer than Mg-F bonds in MgF2 (1.984 (2)-1.994 (1)Å) [24,25].
+The additional Mg-F distance lies at 2.8730 (1)Å.
+The Mg-Mg distance is 2.7430 (1)Å, which is closer to that in Mg3N2 (2.716 (1)Å) than in MgF2 (3.045 (3)Å) or Mg metal (3.1903 (1)-3.2025 (1)Å).
+Bond valence calculations performed using the structure refined from PND data and the same rij and b parameters used for Mg3NF3 above [28], gave sums of 1.90 for Mg, 2.85 for N and 0.92 for F.
+These values are slightly lower than expected and lower than those found in Mg3NF3, above, but nevertheless suggest a strong ionic component to bonding in Mg2NF.
+"Underbonding" is not uncommon in nitridic compounds and given, for example, the low values reported for Mg and N in Mg3N2, it is likely that Mg…Mg nonbonding interactions could play a role in Mg2NF as they do in the binary magnesium nitride [24].
+It is not totally surprising, therefore, that the members of the Mg-N-F system become more ionic as one increases the fluoride content from Mg3N2 through the nitride fluorides Mg2NF and Mg3NF3 to MgF2.
+Bond valence figures can also demonstrate how weak the additional axial Mg-F interaction is.
+In MgF2 the bond valence of a single Mg-F bond is 0.336.
+In 1 the bond valence of Mg-F is 0.241.
+The square pyramid Mg-F bond in 2 gives a bond valence of 0.230 but the long range Mg-F bond of 2 has a bond valence of only 0.03.
+Therefore it is tempting to dismiss this connection as a relatively weak interaction rather than classify it as an Mg-F bond.
+Analysis of the anisotropic thermal displacement parameters shows that the ellipsoid for the fluorine position is elongated in the c-axis, suggestive of some measure of (local) anion disorder or possibly indicative of fluoride ion mobility.
+This feature is also seen in the isostructural Ca2NF [11], where the authors carried out refinements with partial oxygen substitution on the F site in an attempt to alleviate the large displacement parameters.
+In the case of Ca2NF this model was rejected as it worsened the fit.
+Attempts to include partial oxygen substitution in our model for 2 also decreased fit quality, and when freely refined, fluorine occupancy always refined back to unity.
+Magnetic measurements
+SQUID magnetometry measurements revealed that both samples 1 and 2 exhibit weak temperature independent paramagnetic behaviour (typically χM∼5×10-4emumol-1) between 5 and 300K.
+This behaviour is commensurate with other alkaline earth nitride halides and suggests either weakly paramagnetic materials or intrinsically diamagnetic materials with very small levels of alkaline earth metal impurities (below the detection limit of PXD and PND) [15,16].
+(A plot of χM vs. T for 1 and 2 is available as Supplementary information.)
+Summary
+Two ternary nitride fluorides of magnesium, Mg3NF3 and Mg2NF, have been synthesised via the solid state reaction of appropriate ratios of Mg3N2 and MgF2.
+Powder neutron diffraction studies have confirmed structures in which the fluoride and nitride anions are completely ordered in both cases.
+Bond valence calculations reveal that both these nitride fluorides contain among the most ionic metal-nitrogen bonds in the solid state.
+It is worthy of note that the original work of Andersson provided extremely accurate models for both structures given the stage of development of powder refinement methods at the time of publication [3].
+Magnetic measurements demonstrate that both nitride fluorides exhibit very weak paramagnetism with susceptibilities essentially independent of temperature.
+Acknowledgments
+Neutron beamtime at ISIS was provided by the UK Science and Technology Facilities Council (STFC).
+DHG thanks the University of Nottingham for funding a studentship for M.A.B., and WestCHEM for funding R.W.H. as a WestCHEM Fellow.
+Supplementary Information
+Supplementary data associated with this article can be found in the online version at doi:10.1016/j.jssc.2011.11.008.
+Supplementary materials
+Supplementary material
+

@@ -1,0 +1,303 @@
+Induced Pluripotent Stem Cell Models of Progranulin-Deficient Frontotemporal Dementia Uncover Specific Reversible Neuronal Defects
+
+Summary
+The pathogenic mechanisms of frontotemporal dementia (FTD) remain poorly understood.
+Here we generated multiple induced pluripotent stem cell lines from a control subject, a patient with sporadic FTD, and an FTD patient with a novel heterozygous GRN mutation (progranulin [PGRN] S116X).
+In neurons and microglia differentiated from PGRN S116X induced pluripotent stem cells, the levels of intracellular and secreted PGRN were reduced, establishing patient-specific cellular models of PGRN haploinsufficiency.
+Through a systematic screen of inducers of cellular stress, we found that PGRN S116X neurons, but not sporadic FTD neurons, exhibited increased sensitivity to staurosporine and other kinase inhibitors.
+Moreover, the serine/threonine kinase S6K2, a component of the phosphatidylinositol 3-kinase and mitogen-activated protein kinase pathways, was specifically downregulated in PGRN S116X neurons.
+Both increased sensitivity to kinase inhibitors and reduced S6K2 were rescued by PGRN expression.
+Our findings identify cell-autonomous, reversible defects in patient neurons with PGRN deficiency, and provide a compelling model for studying PGRN-dependent pathogenic mechanisms and testing potential therapies.
+Graphical Abstract
+Highlights
+► A human neuron model of progranulin (PGRN) haploinsufficiency is established ► Sporadic and PGRN-deficient frontotemporal dementia patient iPSCs are made ► PGRN S116X mutant neurons are sensitive to stress by kinase inhibitors ► S6K2 is downregulated in patient neurons in a PGRN-dependent manner
+Progranulin (PGRN) mutations are a common cause of frontotemporal dementia, but the underlying molecular mechanism is unknown.
+Gao and colleagues now generate multiple frontotemporal dementia patient-specific induced pluripotent stem cell lines and establish a human neuronal model of PGRN haploinsufficiency.
+Studies on human postmitotic neurons derived from these lines reveal cell-autonomous and reversible defects in specific signaling pathways that are compromised in PGRN-deficient neurons and establish a model system for studying PGRN-dependent pathogenic mechanisms and testing potential therapies.
+
+Introduction
+Frontotemporal dementia (FTD), the second most common form of presenile dementia before the age of 65, is associated with focal atrophy of the frontal or temporal lobes and deficits in cognition, behavior, and language (Boxer and Miller, 2005).
+Mutations that cause FTD have been identified in several genes, including those encoding valosin-containing protein (VCP; Watts et al., 2004), charged multivesicular body protein 2B (CHMP2B; Skibinski et al., 2005), progranulin (PGRN; Baker et al., 2006; Cruts et al., 2006), and chromosome 9 open reading frame 72 (C9ORF72; DeJesus-Hernandez et al., 2011; Renton et al., 2011).
+It is not known how these diverse mutations cause similar clinical manifestations, and no effective treatment is available.
+The secreted glycoprotein PGRN has been implicated in cell growth and survival, inflammation, synaptic functions, and other cellular functions (He and Bateman, 2003; Yin et al., 2010; Tapia et al., 2011).
+Although most (if not all) pathogenic mutations in GRN lead to pathological changes in FTD due to PGRN haploinsufficiency (Baker et al., 2006; Cruts et al., 2006), the underlying molecular mechanism is unknown.
+PGRN mutations are a common cause of FTD.
+However, no robust pathological phenotype has been found in Grn+/- mice, and selective neuronal cell loss is limited even in Grn knockout mice (Ahmed et al., 2010; Ghoshal et al., 2012; Petkau et al., 2012; Yin et al., 2010).
+Thus, a more suitable model for dissecting the pathogenic mechanisms that underlie PGRN haploinsufficiency is needed.
+The ability to generate human induced pluripotent stem cells (iPSCs) offers an unprecedented opportunity to analyze the molecular consequences of pathogenic mutations in the context of the unique genetic background of individual patients (Yamanaka, 2007).
+Indeed, iPSCs have been generated from patients with different neurodegenerative diseases (e.g., Dimos et al., 2008; Ebert et al., 2009; Soldner et al., 2009; Nguyen et al., 2011; Israel et al., 2012).
+In this study, we generated multiple FTD-patient-specific iPSC lines and established a human neuronal model of PGRN haploinsufficiency.
+From studies of human postmitotic neurons derived from these lines, we identify cell-autonomous and reversible defects in specific signaling pathways that are compromised in PGRN-deficient neurons.
+Results
+Generation and Characterization of FTD-Patient-Specific iPSCs
+The two FTD patients under investigation in this study were part of a longitudinal dementia research program at the Memory and Aging Center, University of California, San Francisco.
+Both had an 8-year history of behavioral changes and memory impairment at the time of tissue collection for this study.
+One patient, a 67-year-old male with sporadic FTD, tested negative for mutations in GRN, MAPT, and C9ORF72.
+The other patient, a 64-year-old male with a significant family history of dementia, had behavioral variant FTD.
+MRI in this patient demonstrated severe bifrontal and temporal atrophy associated with gliosis in the frontal lobes (greater on the right).
+One year later, MRI scans showed progression of atrophy and gliosis.
+Genetic testing revealed a novel nonsense mutation in GRN, p.S116X (g.4627C > A, c.347C > A), which is predicted to result in a premature stop codon.
+Both FTD patients had parkinsonism, which is typical of all FTD patients with PGRN mutations.
+An age-matched subject, a clinically normal 64-year-old male with no mutations in GRN, MAPT, or C9ORF72, served as a control.
+Skin biopsies from the upper right thigh were obtained from all three subjects, and primary fibroblasts were derived.
+After expansion, the fibroblasts were reprogrammed with four transcription factors (OCT3/4, SOX2, KLF4, and CMYC) into putative pluripotent stem cells as previously described (Takahashi et al., 2007).
+Approximately 5 weeks after viral transduction, >50 iPSC colonies per subject were selected on the basis of their embryonic stem cell (ESC)-like morphology and expanded further on feeder cells.
+To identify lines in which the exogenous reprogramming factors were completely silenced, we characterized 10-15 putative iPSC lines from each subject by quantitative RT-PCR (qRT-PCR).
+Complete transgene silencing was achieved when the total expression of each reprogramming factor did not differ from that of the endogenous gene (Figures 1A-1C).
+This assay allows us to detect transgene expression levels of at least 20-fold above than the endogenous levels in ESC H9 cells.
+Based on this analysis, we selected three lines per subject for further characterization: control lines 16, 17, and 20 (Figure 1A); sporadic FTD lines 9, 12, and 23 (Figure 1B); and PGRN S116X lines 1, 14, and 26 (Figure 1C).
+The total expression of each reprogramming factor was not different from that of the endogenous gene (Figures 1A-1C), indicating complete transgene silencing.
+All lines expressed marker genes of undifferentiated ESCs, such as OCT3/4, SOX2, and NANOG, at levels comparable to those in ESC line H9.
+Two additional stem cell markers, teratocarcinoma-derived growth factor 1 (TDGF1, or CRIPTO) and zinc finger protein 42 (ZFP42, or Rex1), were also expressed at levels equivalent to those in H9 cells (Figure S1A).
+Sequencing confirmed that the PGRN S116X iPSC lines retained the GRN nonsense mutation (g.4627C > A, c.347C > A; Figure 1D).
+Analysis of the OCT4 promoter region showed that undifferentiated iPSCs were hypomethylated relative to the respective fibroblasts from which they were derived (Figure 1E).
+In addition, iPSCs expressed the stem-cell-specific surface proteins SSEA4, TRA-1-60, TRA-1-81, NANOG, and OCT4, as shown by immunostaining (Figures 1F and S1B).
+All nine iPSC lines maintained a normal karyotype after reprogramming (Figures 1F and S1C) and could spontaneously differentiate into cell types of all three germ layers in vitro (Figures 1G and S1C).
+Moreover, representative iPSC lines from the subjects (control line 20, sporadic line 9, and PGRN S116X line 26) transplanted into severe combined immunodeficiency (SCID) mice gave rise to teratomas in vivo (Figure 1G).
+These findings confirm the successful reprogramming and generation of FTD-patient-specific iPSC lines, and demonstrate that these lines are similar to those in controls in terms of both their expression of stem cell markers and their pluripotency.
+Differentiation of FTD-Patient-Specific iPSCs into Neurons
+Next, we differentiated three fully reprogrammed iPSC lines at passages 20-26 from each subject into postmitotic neurons, using a protocol available in our lab (Delaloy et al., 2010).
+The differentiation starts with neural induction, which is followed by expansion of the neural progenitor cells and neural maturation.
+The first step, induction of multilineage differentiation and embryoid body (EB) formation, was inefficient when iPSCs were maintained on feeder cells.
+Adaptation of iPSCs to feeder-free conditions allowed robust and reliable formation of EBs (Figures 2A and 2B).
+After 5-6 days in suspension, neural induction was initiated with basic fibroblast growth factor and N2 supplement, and rosettes (elongated cells arranged in circular structures) appeared (Figure 2C).
+Ten days later, the rosettes were isolated, expanded in suspension as neurospheres for 3-4 weeks (Figure 2D), and dissociated into single cells.
+Terminal differentiation was induced with glial-cell-line-derived neurotrophic factor, brain-derived neurotrophic factor, ascorbic acid, and cyclic AMP.
+Two weeks later, the cells displayed typical neuronal morphology (Figure 2F).
+Both FTD and control iPSCs differentiated at similar rates.
+We then sought to determine whether the disease and/or the mutation affected the percentage of neurons obtained with this protocol.
+After 2 weeks, ∼80% of cells in culture were positive for the neuronal marker microtubule-associated protein 2 (MAP2) and had neuronal morphology (Figure 2G), and <4% of cells were positive for the glial marker glial fibrillary acidic protein, regardless of the genetic mutation of the iPSC line used (Figures 2G and 2K).
+Thus, the PGRN S116X mutation did not affect the percentage of neurons generated with the differentiation protocol.
+Approximately 40% of the MAP2+ cells were presumably glutamatergic and expressed VGLUT1 (Figure 2H), and <10% of cells were GABA+ inhibitory neurons or tyrosine hydroxylase (TH)+ dopaminergic neurons (Figures 2I and 2J).
+Again, the percentages of neurons differentiated from control and FTD-patient-specific iPSC lines were indistinguishable.
+Additional analysis at the messenger RNA (mRNA) level indicative of glutamatergic (VGLUT1), GABAergic (GAD67) and dopaminergic (TH) neuronal subtypes or postsynaptic density (PSD95) detected no significant differences across the different lines (Figures S2A-S2D).
+Thus, the PGRN S116X mutation did not affect neural differentiation of iPSCs into specific type of neurons.
+We next performed whole-cell voltage-clamp recordings and measured membrane properties and synaptic transmission on neurons differentiated from two iPSC lines (control line 20 and PGRN S116X line 26; Figures 2L-2N).
+Most cells in culture were capable of inducing tetrodotoxin-sensitive action potentials (control: 79.2%; PGRN S116X: 75%), which is consistent with the finding that ∼80% of cells are MAP2-positive neurons (Figure 2G).
+The resting membrane potential between two cell lines does not show a statistically significant difference (control neurons: -62.5 ± 1.5 mV; PGRN S116X: -60.0 ± 1.9 mV; n = 24, p = 0.17).
+To address whether these cells can form functional synaptic connections, we found that PSD95 puncta were present on dendrites of these neurons (Figure S2E), and also measured AMPA-type glutamate receptor-mediated miniature excitatory postsynaptic currents (mEPSCs).
+Neurons differentiated from PGRN S116X iPSCs showed synaptic connections indistinguishable from those of control neurons (mEPSC amplitude of control neurons: 12.1 ± 1.7 pA, PGRN S116X: 14.37 ± 1.7 pA, p = 0.36; frequency of control neurons: 3.2 ± 0.6 pA, PGRN S116X: 2.2 ± 0.2 pA, n = 10, p = 0.12).
+These results indicate that postmitotic neurons differentiated from control and PGRN S116X iPSCs are functional.
+A Human Neuronal Model of PGRN Haploinsufficiency
+To establish a human neuronal model of PGRN haploinsufficiency, we first examined the expression levels of PGRN in fibroblasts from each subject by qRT-PCR.
+GRN mRNA levels were similar in cells from the control subject and sporadic FTD patient (Figure 3A), but in cells from the FTD patient with the PGRN S116X mutation, the mRNA level was only ∼30% of that found in the control (Figure 3A).
+This observation is consistent with the substantially lower average plasma PGRN levels in FTD patients harboring GRN mutations compared with those without such mutations (Coppola et al., 2008; Finch et al., 2009).
+However, after reprogramming, the GRN mRNA was 50% lower in all three PGRN S116X iPSC lines (Figure 3B), as expected.
+Moreover, the relative expression levels of GRN mRNA in all control or sporadic FTD iPSCs showed little variation (Figure 3B).
+Correspondingly, PGRN S116X iPSCs secreted 50% less PGRN than iPSCs from the control subject and sporadic FTD patient (Figure 3C).
+Upon differentiation, GRN mRNA levels were ∼41% lower in PGRN S116X neurons than in control and sporadic FTD neurons differentiated from multiple iPSC lines (Figure 3D).
+The levels of both intracellular and secreted PGRN in these neurons were also correspondingly reduced, as measured by ELISA (Figures 3E and 3F).
+Thus, we established a patient-specific human neuronal model of PGRN haploinsufficiency.
+We were also able to differentiate these iPSCs into microglia as shown by expression of the microglia-specific marker Iba1 (Figures S3A and S3B).
+PGRN secretion from these cells was also ∼50% lower than in control and sporadic FTD cells (Figures S3C and S3D).
+PGRN S116X Neurons Are More Sensitive to Cellular Stress Induced by Inhibitors of the Phosphatidylinositol 3-Kinase/Akt and MEK/Mitogen-Activated Protein Kinase Signaling Pathways
+Compared with many other neurodegenerative diseases, the cellular defects associated with FTD remain poorly defined.
+Human neurons derived from patient-specific iPSCs are an excellent system in which to examine disease-gene-specific cellular phenotypes.
+To conduct such an examination, we first used two iPSC lines from each patient and differentiated them into postmitotic neurons.
+Under normal culture conditions, PGRN S116X and control neurons show similar viability.
+As a late-onset disease, FTD likely results from damage that accumulates over time rather than from an acute effect of the reduced PGRN levels.
+Very little is known about the cellular defects caused by PGRN haploinsufficiency in human neurons.
+Thus, to identify pathways that might be compromised in PGRN S116X neurons, we performed a systematic screen with a variety of inducers of cellular stress that affect different key cellular functions/pathways, such as mitochondria, oxidative stress, endoplasmic reticulum (ER), proteasome, and cell survival.
+Neurons derived from the healthy individual and the sporadic FTD patient were used as controls.
+We tested two well-known inducers of mitochondrial dysfunction, oligomycin (an ATP synthase inhibitor) and rotenone (a complex I inhibitor), as well as a classical inducer of oxidative stress (hydrogen peroxide).
+All three inducers of cell stress reduced cell viability in a dose-dependent manner, and all genotypes or disease states were equally affected (Figures S4A and S4B; due to space limitations, data on oligomycin not shown).
+In contrast, PGRN S116X neurons were more susceptible than control neurons to ER stress induced by tunicamycin, an inhibitor of protein N-glycosylation (Figure 4A), and proteasome activity inhibition induced by lactacystin (Figure S4C).
+Because sporadic FTD neurons also showed similar enhanced sensitivity to tunicamycin and lactacystin (Figures 4A and S4C), we concluded that these cellular phenotypes are not specific to PGRN deficiency.
+To further explore PGRN-dependent cellular defects in FTD neurons, we also tested the effect of staurosporine, a broad-spectrum kinase inhibitor that induces apoptosis (Figure 4B).
+Interestingly, PGRN S116X neurons were more sensitive to staurosporine than control or sporadic FTD neurons (Figure 4B).
+This finding suggests that PGRN deficiency affects kinase pathways involved in cell survival, causing them to be more susceptible to inhibition of such pathways.
+To validate the findings of the cell viability assay, we also measured the activation of caspase-3, a well-studied mediator of apoptotic cell death.
+Consistent with the results of the cell viability assay, PGRN S116X neurons showed greater caspase-3 activation in response to staurosporine than control or sporadic FTD neurons, whereas tunicamycin increased caspase-3 activity in both PGRN S116X and sporadic FTD neurons (Figure 4D).
+Because TDP-43 pathology is a hallmark in the brains of FTD patients with PGRN deficiency (Neumann et al., 2006), and increased caspase-3 activity leads to enhanced cleavage and mislocalization of TDP-43 (Zhang et al., 2007), we also analyzed the cellular distribution of TDP-43 under stress to confirm our initial findings.
+After exposure to staurosporine, the percentage of neurons with redistribution of TDP-43 from the nucleus to the cytoplasm was significantly higher in PGRN S116X neurons than in control or sporadic FTD neurons (Figure S4D).
+In contrast, tunicamycin resulted in similar increases in the percentages of PGRN S116X and sporadic neurons with cytoplasmic TDP-43.
+Interestingly, in the absence of a stress inducer, the percentage of PGRN S116X neurons with cytoplasmic TDP-43 was higher than in control or sporadic FTD neurons (Figure S4D).
+Thus, both the caspase-3 and TDP-43 assays confirm the intrinsic vulnerability of PGRN S116X neurons under stress.
+Because staurosporine is a broad-spectrum kinase inhibitor that affects several signaling pathways, we next tested more specific kinase inhibitors to identify specific pathways affected by reduced PGRN levels.
+PGRN S116X neurons were more susceptible than control or sporadic FTD neurons to wortmannin (Figure 4C) and LY294002 (data not shown), two phosphatidylinositol 3-kinase (PI3K) inhibitors, and PD98059, an MEK inhibitor (Figure S4E).
+These findings suggest that PGRN deficiency impairs the PI3K/Akt and MEK/mitogen-activated protein kinase (MAPK) signaling pathways in human neurons.
+The Cellular and Molecular Defects of PGRN S116X Neurons Can be Rescued by PGRN Expression
+We next examined the causal relationship between PGRN haploinsufficiency and enhanced sensitivity to cellular stress induced by inhibitors of the PI3K/Akt and MEK/MAPK pathways in PGRN S116X neurons.
+To that end, we used a CS-CW-GRN-IG lentiviral vector to express PGRN in most (if not all) of the human neurons in culture.
+The decreased cell viability (Figure 4E) in staurosporine-treated PGRN S116X neurons was rescued by PGRN expression.
+A similar result was obtained when increased caspase-3 activation was used as the assay (Figure 4F), confirming the validity of the cell viability assay.
+In contrast, the increased sensitivity of PGRN S116X neurons to the ER stress induced by tunicamycin was not rescued by PGRN expression (Figure 4E).
+More importantly, the increased sensitivity of PGRN S116X neurons to inhibitors of the PI3K/Akt and MEK/MAPK pathways was also rescued (Figure 4E).
+Thus, the novel cellular defects of PGRN S116X neurons uncovered under stress are specific to PGRN deficiency.
+Next, we sought to identify misregulated components in the PI3K/Akt and MEK/MAPK pathways by performing gene expression analyses on two to three replicate neuron cultures differentiated from each iPSC line and four iPSC lines per individual (30 samples total).
+We compared PGRN S116X neurons and sporadic FTD neurons versus control neurons, and identified a number of differentially expressed genes, both shared between PGRN S116X and sporadic FTD neurons, and specific to PGRN S116X neurons (Figure 4G).
+In addition, a clustering analysis showed that the gene expression patterns in neurons differentiated from three separate iPSC lines of the same individual were remarkably similar to each other (Figure 4G).
+Among the top downregulated genes in PGRN S116X neurons (but not in control or sporadic FTD neurons) was the ribosomal protein S6 kinase beta-2 (RPS6KB2; Figure 4H).
+This gene encodes S6K2, a member of the S6 kinase family of serine/threonine kinases that has been shown to play an important role in both the PI3K/Akt and MEK/MAPK signaling pathways (Fenton and Gout, 2011), and is part of a coordinated network of differentially expressed genes, including GRN (Figure S4H).
+The downregulation of the RPS6KB2 gene was confirmed by qRT-PCR (Figure S4F) and its mRNA could be restored to wild-type level by PGRN expression (Figure S4G).
+More importantly, S6K2 protein level is reduced by ∼50% in PGRN S116X neurons, which can be rescued to wild-type level by PGRN expression (Figures 4I and 4J).
+Taken together, these studies reveal novel cellular and molecular defects of PGRN S116X neurons in the PI3K/Akt and MEK/MAPK signaling pathways, which can be rescued by PGRN expression (Figure S4I).
+Discussion
+PGRN haploinsufficiency is a major cause in FTD pathogenesis (Baker et al., 2006; Cruts et al., 2006).
+The underlying mechanism remains poorly understood, in part due to the lack of suitable model systems.
+Even in Grn knockout mice, neuronal cell loss is limited, and mechanistic studies are further complicated by the finding that PGRN levels may vary widely among patient brains in the later stages of disease (Chen-Plotkin et al., 2010).
+The iPSC-based human neuronal model of PGRN haploinsufficiency, as established in this report, provides a platform for testing small molecules that can restore PGRN levels.
+It also serves as a valuable and more physiologically relevant model for elucidating the mechanisms of FTD.
+FTD is an age-dependent neurodegenerative disease, and some intrinsic vulnerabilities of human neurons are more likely to manifest under stress conditions in culture.
+Indeed, this approach has been used recently to recapitulate some key features of major neurodegenerative diseases in human neurons derived from patient-specific iPSCs (e.g., Nguyen et al., 2011).
+However, in contrast to the well-studied Alzheimer disease and Parkinson disease (PD), little is known about neuronal defects in FTD patients that are caused by PGRN deficiency.
+Differential sensitivity of neurons to a particular stressor in culture within a short time window may reveal partially defective molecular pathways relevant to FTD pathogenesis.
+A previous work showed that PGRN deficiency leads to molecular alterations in apoptotic pathways and Wnt signaling (Rosen et al., 2011).
+Our data here show that PGRN S116X human neurons are more prone to reduced cell viability induced by specific protein kinase inhibitors, implicating the PI3K/Akt and MEK/MAPK signaling pathways in the molecular pathogenesis of FTD.
+This cellular defect is rescued by ectopic expression of PGRN in human PGRN S116X neurons, consistent with previous findings that PGRN promotes the survival of rodent primary neurons (Van Damme et al., 2008; Ryan et al., 2009; Xu et al., 2011) and activates the PI3K/Akt/S6K pathway in cancer cells (Zanocco-Marani et al., 1999).
+We also found that S6K2, a component in both PI3K/Akt and MEK/MAPK signaling pathways, is specifically downregulated in PGRN S116X neurons as part of a coordinated gene network, and its expression level can be restored to normal by ectopic PGRN expression.
+Interestingly, our reanalysis of the gene expression data published by Chen-Plotkin et al. (2008) revealed that RPS6KB2 mRNA is downregulated by ∼40% in the frontal cortex, but not in the hippocampus or cerebellum, of FTD patients with PGRN mutations.
+Taken together, these findings reinforce the notion that the PI3K/Akt and MEK/MAPK signaling pathways are compromised in PGRN S116X neurons, and highlight the primary role PGRN plays in promoting neuronal survival.
+ER stress and mitochondrial impairment have both been closely linked to neurodegenerative diseases (Matus et al., 2011; Schon and Przedborski, 2011).
+Our finding that neither PGRN S116X nor sporadic FTD neurons show enhanced sensitivity to mitochondrial or oxidative stressors argues that these pathways are unlikely to be affected by reduced PGRN levels in cultured neurons.
+However, mitochondrial dysfunction and oxidative stress may develop at later stages of disease progression in FTD patients.
+On the other hand, both PGRN S116X and sporadic FTD neurons are more susceptible to inducers of ER stress and inhibitors of proteasome function than control neurons.
+This cellular defect appears to be PGRN-independent since PGRN expression levels are normal in sporadic FTD neurons.
+In accordance with our findings, it was recently reported that ER stress and unfolded protein response activation contribute to both sporadic FTD and familial FTD caused by MAPT mutations (Nijholt et al., 2012).
+Moreover, both Aβ and increased levels of phosphorylated tau induce ER stress in Alzheimer disease (e.g., Hoozemans et al., 2009), as does the accumulation of misfolded α-synuclein in PD (Colla et al., 2012).
+Therefore, altered ER stress responses are likely to be a general feature in a variety of neurodegenerative diseases.
+In summary, we have established neuronal models of human PGRN deficiency and demonstrated specific and reversible defects that affect the survival of these neurons.
+Our findings suggest that chronic weakening of prosurvival signaling pathways may render neurons more sensitive to environmental insults in FTD patients with PGRN deficiency.
+Thus, in addition to strategies to increase PGRN levels, therapeutic approaches that generally enhance neuronal survival through growth factor signaling may be beneficial in slowing disease progression in these patients.
+Experimental Procedures
+Isolation of Primary Human Skin Fibroblasts and Generation of iPSCs
+This study was approved by the Institutional Review Board and Ethics Committees of the University of California, San Francisco, and written informed consent was obtained in all cases.
+The patient with the PGRN S116X mutation followed the classic clinical progression for FTD and developed parkinsonism, as do all FTD patients with PGRN mutations, but he did not show typical features of PD dementia.
+The patient with sporadic FTD also showed parkinsonism.
+Skin biopsies were collected, cut into small pieces, and placed on culture dishes to allow the fibroblasts to expand.
+The cells were maintained in Dulbecco's modified Eagle's medium supplemented with 10% fetal bovine serum, 1X nonessential amino acids, and penicillin/streptomycin (100 U/ml). iPSCs were generated as described previously (Takahashi et al., 2007).
+Please see Supplemental Information for more details.
+qRT-PCR, Immunocytochemistry, Differentiation and Characterization of iPSCs, and Electrophysiology
+Most of the experiments involving qRT-PCR, immunocytochemistry, differentiation and characterization of iPSCs, and electrophysiology were performed as previously described (Delaloy et al., 2010) with minor adjustments.
+Please see Supplemental Information for more details.
+PGRN Measurements
+Fresh culture medium was added to the cells 24 hr before collection.
+After the medium was collected, the cells were washed once with phosphate-buffered saline (PBS), lysed with NP-40 buffer, and subjected to three freeze-thaw cycles.
+Both the culture medium and the cell lysates were centrifuged at 12,000 rpm at 4°C for 10 min to clear cellular debris.
+Cell lysate supernatants were assayed for protein concentration with the BioRad reagent assay.
+Total cell lysates and culture medium were diluted, and the PGRN levels were determined with an ELISA kit (Alexis Biochemicals, San Diego, CA) according to the manufacturer's instructions.
+Data were normalized to protein concentration.
+Stress-Induced Toxicity Assay
+Two-week-old neurons were exposed for 24 hr to the following stress inducers: tunicamycin, lactacystin, rotenone, oligomycin, hydrogen peroxide, staurosporine, wortmannin, LY294002, PD98059, or DMSO.
+Cell viability was determined with the WST1 cell-proliferation assay (Roche Applied Science, Penzberg, Germany) according to the manufacturer's instructions.
+Caspase-3 activity assay is described in the Supplemental Information.
+PGRN Rescue Experiments
+Human GRN (NM_002087.2) was inserted into a CS-CGW lentiviral vector with Nhe I and Xho I.
+The vector also expressed green fluorescent protein through an internal ribosome entry site.
+One-week-old neurons were transduced overnight with lentivirus expressing PGRN or empty vector.
+The next morning, the medium was doubled and thereafter replaced every other day.
+One week after transduction, the neurons were exposed to 10 nM staurosporine, 0.5 μM tunicamycin, 50 μM PD98059, 75 nM wortmannin, or DMSO for 24 hr.
+Cells were assayed for cell viability, caspase-3 activation, and S6K2 levels.
+A multiplicity of infection of 50 was used in all cases.
+Extended Experimental Procedures
+Generation of iPSC Lines
+Fibroblasts were seeded at 8 × 105 cells per 100-mm dish and transduced with equal volumes of supernatants from retroviruses encoding human OCT3/4, SOX2, KLF4, and c-MYC.
+The next day, the medium was removed and replaced with fresh viral supernatants.
+Seven days after the first infection, cells were collected and seeded (5 × 104 cells per 100-mm dish) onto mitomycin C-treated SNL feeder cells.
+One day later, the medium was replaced with iPSC medium containing basic fibroblast growth factor (4 ng/ml); thereafter, the medium was changed every other day.
+Five weeks after viral transduction, colonies were picked and transferred to 12-well plates containing feeder cells.
+For expansion, cells were dissociated in a 1:2 solution of accutase/PBS for 1 min at room temperature, washed twice with PBS, and scraped off the dish with a cell lifter in iPSC medium.
+Larger colonies were further broken up by pipetting and transferred to 6-well plates containing feeder cells.
+After the initial characterization, selected iPSC lines were adapted and maintained in feeder-free conditions.
+In the absence of feeder cells, iPSC colonies were seeded onto plates coated with Matrigel (BD Biosciences) and cultured in mTeSR1 medium (StemCell Technologies).
+Bisulfite Sequencing
+Genomic DNA was isolated from fibroblasts and iPSCs with the DNeasy blood and tissue kit (QIAGEN), and the EpiTect bisulfite kit (QIAGEN) was used for bisulfite treatment.
+The OCT4 promoter sequence of interest was amplified by PCR with previously described primers (Freberg et al., 2007, primer pair 7).
+The amplified products were cloned with the TOPO cloning kit (Invitrogen, Carlsbad, CA), purified, and sequenced.
+RNA Extraction and qRT-PCR
+Total RNA was isolated with RNeasy kits (QIAGEN), and 500 ng of RNA was reverse transcribed to cDNA with TaqMan reverse transcription reagent kits (Applied Biosystems, Foster City, CA) according to the manufacturer's instructions.
+Quantitative PCR was performed with SYBR Green Master Mix (Applied Biosystems) and forward and reverse primers (10 μM; Table S1) or with TaqMan Gene Expression Master Mix and TaqMan primers (Applied Biosystems).
+Ct values for each sample and gene were normalized to GAPDH.
+The 2-ΔΔCt method was used to determine the relative expression of each gene.
+The putative iPSC lines were first analyzed for the four reprogramming factors at passage #8, almost two months after the picking of the colonies.
+The primers are listed in Table S1.
+At this stage, the transgene expression was between one to four times higher than the endogenous levels of ESC H9, except for two lines where the KLF4 transgene was twenty times higher than the endogenous levels.
+These two lines were not used in this study.
+Thus, our assay allows us to detect transgene expression levels of at least 20-fold above the endogenous ESC H9 levels.
+Immunocytochemistry
+Cells were fixed in 4% paraformaldehyde (pH 7.4) for 10 min and permeabilized with 0.2% Triton X-100.
+After incubation with 3% bovine serum albumin for 30 min, cells were incubated with primary antibodies for 1 hr at room temperature.
+The primary antibodies used were mouse anti-OCT4 (Santa Cruz Biotechnology, Santa Cruz, CA; 1:100), mouse anti-TRA-1-60 and TRA-1-80 (Millipore; 1:100), goat anti-NANOG (R&D Systems, Minneapolis, MN; 1:100), mouse anti-SSEA4 (Abcam, Cambridge, MA; 1:100), rabbit anti-desmin (Thermo Scientific, Waltham, MA; 1:100), mouse anti-βIII-tubulin (Promega, Madison, WI; 1:200), mouse anti-α-fetoprotein (R&D Systems; 1:200), mouse anti-MAP2 (Sigma, St.
+Louis, MO; 1:500), rabbit anti-glial fibrillary acidic protein (Dako, Carpinteria, CA; 1:1000), rabbit anti-VGLUT1 (Synaptic Systems, Goettingen, Germany; 1:500), rabbit anti-GABA (Sigma; 1:100), rabbit anti-tyrosine hydroxylase (Millipore, Billerica, MA; 1:500), rabbit anti-TDP43 (Protein Tech Group, Chicago, IL; 1:100).
+After three washes with PBS, the cells were incubated with Alexa Fluor secondary antibodies (Invitrogen; 1:300) for 1 hr at room temperature followed by counter staining with 1 μg/ml Hoechst or DAPI.
+Immunostained cells were examined with an Axiovert 200 fluorescence microscope coupled to an Axiocam camera (Zeiss).
+For neuron experiments, on average 200 cells were analyzed per experimental condition, n = 3 independent cultures.
+Neuronal Differentiation of iPSC Lines
+iPSC colonies were detached with accutase (Millipore) and grown as embryoid bodies (EBs) in suspension for 5-6 days in iPSC medium without basic fibroblast growth factor.
+EBs were allowed to attach and form rosettes.
+Ten-day-old rosettes were collected and grown in suspension as neurospheres.
+Neurospheres were dissociated after 3-4 weeks, and the cells were plated on glass coverslips (BD Biosciences) or plates coated with poly-D-lysine (0.1 mg/ml) and laminin (10 μg/m).
+Neurons were used after 2-4 weeks in culture.
+For spontaneous differentiation, EBs were obtained as described for neural differentiation and grown for 8 days in suspension.
+EBs were then allowed to adhere to Matrigel-coated glass coverslips and to further differentiate for 8 days in mTeSR1 medium.
+Cells migrating out of the attached EBs were stained and analyzed by fluorescence microscopy for markers of the three germ layers.
+Karyotyping and Teratoma Formation
+Karyotype analysis was performed at Cell Line Genetics (Madison, WI) and Cytogenetic Laboratory, University of Massachusetts Memorial Hospital (Worcester, MA).
+Teratoma formation was analyzed at Applied StemCell (Sunnyvale, CA).
+Briefly, iPSCs (1-2 × 106 cells/site) were injected into the kidney capsule of Fox Chase SCID-beige mice.
+Teratomas formed 7-10 weeks later.
+Tissues were fixed in 10% formalin, embedded in paraffin, cut into 5-μm serial sections, and stained with hematoxylin/eosin.
+Differentiation of iPSCs into Microglia
+iPSCs were differentiated into microglial precursors in vivo with a modified version of a method designed for mouse ESCs (Napoli et al., 2009).
+Briefly, EBs were formed as described for neuronal differentiation, cultured in suspension for 6 days, and allowed to adhere to dishes coated with 0.1% gelatin.
+Twenty-four hours later, nestin-positive cells were selected by incubation with 5 μg/ml fibronectin (Sigma) and 1X insulin-transferrin-selenite (GIBCO) in Dulbecco's modified Eagle's medium (DMEM)/F12 for 6 days.
+Cells were expanded in DMEM/F12 containing 1% N2, 1 μg/ml laminin, and 5 ng/ml basic fibroblast growth factor for 6 additional days.
+Differentiation was induced by removing the growth factor from the medium.
+Twenty-one days later, precursor cells were dissociated with 0.125% trypsin and seeded on gelatin-coated, 100-mm dishes in DMEM/F12 medium containing 1% N2 and 5% fetal bovine serum.
+Microglial cells migrating out of the aggregates were collected 14 days later and seeded on gelatin-coated 24-well plates.
+Experiments were performed 48 hr later.
+Electrophysiology
+Electrophysiological recording were performed on 3-4 week-old neurons.
+The extracellular solution consisted of (in mM) 119 NaCl, 2.5 KCl, 4 CaCl2, 4 MgCl2, 26 NaHCO3, 1 NaH2PO4, and 11 glucose; it was gassed with 5% CO2/95% O2 and had a pH of 7.4, unless otherwise noted.
+The coverslips were mounted on an upright microscope (BX61WI, Olympus), and cells were identified visually by infrared (IR) differential interference contrast video microscopy with an IR-CCD camera (Olympus).
+Whole-cell recordings were made with a Multiclamp 700B amplifier, a Digidata 1320, and Clampex 9 (Molecular Devices).
+The patch recording pipettes (3-5 MΩ) were filled with internal solution containing (in mM): 115 potassium methanesulfonate, 20 KCl, 10 HEPES, 2.5 MgCl2, 4 adenosine triphosphate disodium salt, 0.4 guanosine triphosphate trisodium salt, 10 sodium phosphocreatine, and 0.6 EGTA, pH 7.25, with KOH.
+Membrane potentials were corrected for a liquid junction potential (10 mV) between the extracellular and pipette solutions.
+All experiments were performed at room temperature (24-25°C).
+Action potentials were recorded in whole-cell current-clamp mode.
+Membrane potentials were kept around -55 to 65 mV, and step currents were injected to evoke action potentials.
+AMPAR-mediated miniature excitatory postsynaptic currents (mEPSCs) were measured with whole-cell voltage-clamp recordings performed with tetrodotoxin (0.002 mM, Ascent Scientific) and picrotoxin (0.1 mM, Sigma) in the extracellular solution.
+Miniature events were analyzed with Mini Analysis software (Synaptosoft).
+Events smaller than 5 pA were excluded from the analysis.
+Data were digitized at 10k Hz with a 2-kHz low-pass filter.
+Results are reported as mean ± SEM.
+The statistical significance of differences in mEPSCs was determined by t test; p < 0.05 was considered statistically significant.
+Caspase-3 Activity Assay
+Cells were washed once in PBS and lysed with M-PER Reagent (Thermo Scientific) supplemented with protease inhibitor cocktail (Roche Applied Science).
+After three freeze-thaw cycles, cellular debris was removed by centrifugation at 13,000 rpm for 10 min at 4°C, and the supernatants were assayed for protein concentration with the BioRad reagent assay.
+To measure caspase-3-like activity, 10 μg of protein was incubated with 15 μM Ac-DEVD-AFC (Caspase-3 Substrate VII, Calbiochem, San Diego, CA) in reaction buffer (25 mM HEPES, 10% sucrose, 0.1% CHAPS, pH 7.5, and 15 mM 1,4 dithiothreitol) for 2 hr at 37°C.
+AFC fluorescence was detected with excitation at 400 nm and emission at 505 nm in a SpectraMax M3 Microplate Reader (Molecular Devices, Sunnyvale, CA).
+Caspase-like activity was calculated as the increase above control (DMSO-treated cells).
+Microarray Experiments
+Total RNA was extracted from neuronal cultures with standard methods, and then amplified, biotin-labeled, and hybridized on Illumina HT12 version 4 Beadchip Expression microarrays, following the manufacturer's recommendations.
+Slides were scanned using Illumina BeadStation, and the signal was extracted by using Illumina BeadStudio software.
+Raw data were analyzed by using Bioconductor packages [Gentleman R, Carey V, Huber W et al.
+Bioinformatics and Computational Biology Solutions Using R and Bioconductor: Springer, 2005].
+Quality assessment was performed analyzing at the inter-array Pearson correlation, and clustering based on top variant genes was used to assess overall data coherence.
+Contrast analysis of differential expression was performed by using the LIMMA package [Smyth GK, Gentleman R, Carey V et al.
+Limma: linear models for microarray data.
+Bioinformatics and Computational Biology Solutions using R and Bioconductor: Springer, 2005:397-420].
+After linear model fitting, a Bayesian estimate of differential expression was calculated.
+Data analysis was aimed at characterizing the gene expression differences between neurons from a sporadic FTD subject and a carrier the PGRN S116X mutation compared to neurons derived from one normal control.
+Pathway analysis was performed by using the Functional Analysis Annotation tool in the Ingenuity Pathways Analysis software (Ingenuity Systems, http://www.ingenuity.com).
+Statistical Analysis
+Values are expressed as mean ± SEM.
+The significance of differences among multiple groups was determined with a one-way analysis of variance (ANOVA) followed by a Tukey-Kramer post hoc test (GraphPad Prism version 5.04).
+Differences were considered significant at p < 0.05.
+Acknowledgments
+We thank our patients and their families, whose generosity made this research possible.
+We also thank S. Ordway for editorial assistance, J.A.
+Lee for help at the early stage of this project, and J. Miller and members of the Gao laboratory for discussions.
+This work was initiated with a grant from the California Institute for Regenerative Medicine (RL1-00650 to F.B.G. and R.V.F., Jr.) when F.B.G. was at the J. David Gladstone Institutes and supported by startup funds from the University of Massachusetts Medical School (F.B.G. and K.F.).
+This work was also partially supported by the National Institutes of Health (NS057553 to F.B.G., and AG019724 and AG023501 to B.L.M.) and the Consortium for FTD Research (F.B.G. and D.H.G.).
+Accession Numbers
+Microarray data are available at the NCBI Gene Expression Omnibus database under the series accession number GSE40378.
+Supplemental Information
+Supplemental Information includes Extended Experimental Procedures, four figures, and one table and can be found with this article online at http://dx.doi.org/10.1016/j.celrep.2012.09.007.
+Licensing Information
+This is an open-access article distributed under the terms of the Creative Commons Attribution 3.0 Unported License (CC-BY; http://creativecommons.org/licenses/by/3.0/legalcode).
+Supplemental Information
+Table S1.
+Primer for qPCR and PCR Reactions, Related to Experimental ProceduresDocument S1.
+Article plus Supplemental Information
+

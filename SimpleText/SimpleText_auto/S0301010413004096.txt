@@ -1,0 +1,133 @@
+Inelastic neutron scattering study of binding of para-hydrogen in an ultra-microporous metal-organic framework
+
+Graphical abstract
+Abstract
+Metal-organic framework (MOF) materials show promise for H2 storage and it is widely predicted by computational modelling that MOFs incorporating ultra-micropores are optimal for H2 binding due to enhanced overlapping potentials.
+We report the investigation using inelastic neutron scattering of the interaction of H2 in an ultra-microporous MOF material showing low H2 uptake capacity.
+The study has revealed that adsorbed H2 at 5K has a liquid recoil motion along the channel with very little interaction with the MOF host, consistent with the observed low uptake.
+The low H2 uptake is not due to incomplete activation or decomposition as the desolvated MOF shows CO2 uptake with a measured pore volume close to that of the single crystal pore volume.
+This study represents a unique example of surprisingly low H2 uptake within a MOF material, and complements the wide range of studies on systems showing higher uptake capacities and binding interactions.
+
+Introduction
+Hydrogen (H2) is a promising alternative energy carrier not only because it can potentially achieve zero-carbon emission at the point of use, but also because H2 has a high energy density (33.3kWh/kg) compared to hydrocarbons (12.4-13.9kWh/kg) [1].
+The major scientific challenge for on-board H2 applications is that of inventing effective and efficient H2 storage materials, and there is an ever-increasing worldwide interest in meeting the United States Department of Energy's (DoE) H2 storage targets of 5.5wt% gravimetric and 40gL-1 volumetric by 2017.
+It is important to note that the DoE targets refer to storage within the whole system rather than within the storage medium alone, with a target operating temperature of -40 to 60°C and an operating pressure below 100atm.
+Although solid-state H2 storage based on chemisorption and physisorption has been extensively studied over recent years, so far no material is able to meet this DoE target thus presenting a major impediment for the realisation of the "Hydrogen Economy".
+Nevertheless, physisorption of molecular H2 based upon the non-dissociative interaction in porous solids is an especially attractive option since it shows fast kinetics and favourable thermodynamics over multiple adsorption and release cycles [2].
+Thus, enormous efforts have been focused on developing new porous solid materials for high capacity H2 storage.
+Metal-organic framework (MOF) complexes are a sub-class of porous solids which show great promise for gas storage and separation due to their high surface area, low framework density, and tuneable functional pore environment [3].
+MOF materials are usually built up from metal ions or clusters bridged by organic linkers to afford 3D extended frameworks with the formation of cavities ranging from microporous to mesoporous region.
+Several members within this MOF family have achieved impressively high H2 adsorption capacities (albeit at cryogenic temperatures, typically at 77K) [4] with a record of ∼16wt% total uptake capacity observed in NU-100 [5] and MOF-200 [6].
+However, these high uptake capacities drop dramatically with increasing temperature, and thus none is a practical material.
+There is thus particular emphasis on optimising the interactions between MOF hosts and adsorbed H2 molecules, and the identification of specific binding interactions and properties of gases within confined space represents an important methodology for the development of better materials that may lead us to systems of practical use.
+In situ neutron powder diffraction (NPD) at below 10K has been used previously to determine the locations of D2 within a few best-behaving MOF materials incorporating exposed metal sites [7-12].
+It has been found that D2 can bind directly to vacant sites on metal centres, and that the adsorbed D2 molecules have molecular separations comparable to that to D2 in the solid state.
+These studies have provided invaluable structural rationale for their observed high gas adsorption capacities.
+Research has thus focused understandably on MOFs with high H2 uptake capacities, while materials showing very low H2 uptake and/or incorporate fully coordinated metal centres are often ignored for this study.
+Therefore, information on binding interactions within those low-uptake MOF systems is entirely lacking, but can still give important complementary data and potential understanding for the subsequent design and optimisation of hydrogen storage materials.
+It is critical to the success of the NPD technique that the MOF complex adsorbs a significant amount of D2 to boost the observed signal.
+This technique therefore has disadvantages when studying the binding interaction within MOFs with low uptakes.
+Furthermore, static crystallographic studies cannot provide insights into the dynamics of the adsorbed gas molecules.
+Thus, it is very challenging to probe experimentally the H2 binding interactions within a porous host system which has very low gas uptake due to the lack of suitable characterisation techniques.
+We report herein the application of the in situ inelastic neutron scattering (INS) technique to permit direct observation of the dynamics of the binding interactions between adsorbed H2 molecules and an aluminium-based porous MOF, NOTT-300, exhibiting moderate porosity, narrow pore window and very low uptake of H2.
+This neutron spectroscopy study reveals that adsorbed H2 molecules do not interact with the organic ligand within the pore channels, and form very weak interactions with [Al(OH)2O4] moieties via a type of through-spacing interaction (Al-O⋯H2).
+Interestingly, the very low H2 adsorption has been successfully characterised as weak binding interactions and, for the first time, we have found that the adsorbed H2 in the pore channel has a liquid type recoil motion at 5K (below its melting point) as a direct result of this weak interaction to the MOF host.
+Experimental
+Synthesis
+Synthesis of [Al2(OH)2(C16O8H6)](H2O)6 (NOTT-300-solvate) and of the desolvated material NOTT-300 was carried out using previously reported methods [13].
+Gas adsorption isotherms
+H2 sorption isotherm was recorded at 77K (liquid nitrogen) on an IGA-003 system at the University of Nottingham under ultra-high vacuum from a diaphragm and turbo pumping system.
+H2 gas used was ultra-pure research grade (99.999%) purchased from BOC.
+In a typical gas adsorption experiment, ∼100mg of NOTT-300 was loaded into the IGA, and degassed at 120°C and high vacuum (10-10bar) for 1day to give fully desolvated NOTT-300.
+Inelastic neutron scattering
+INS spectra were recorded on the TOSCA spectrometer at the ISIS Neutron Facility at the Rutherford Appleton Laboratory (UK) for energy transfers between ∼-2 and 500meV.
+In this region TOSCA has a resolution of ∼1% ΔE/E.
+The sample of desolvated NOTT-300 (∼2.5g) was loaded into a cylindrical vanadium sample container and connected to a gas handling system.
+The sample was degassed at 10-7mbar and 120°C for 1day to remove any remaining trace guest solvents.
+The temperature during data collection was controlled using the instrument built-in cryostat and electric heaters (5±0.2K).
+The loading of para-H2 (99.5%) was performed volumetrically at 40-50K in order to ensure that H2 was adsorbed into NOTT-300.
+Subsequently, the temperature was reduced to 5K in order to perform the scattering measurements with the minimum achievable thermal motion for H2 molecules.
+Results and discussion
+Crystal structural analysis and gas adsorption
+NOTT-300 crystallises in a chiral space group I4122 and has an open structure comprising infinite chains of [AlO4(OH)2] moieties bridged by biphenyl-3,3',5,5'-tetracarboxylate ligands L4- (Fig. 1(a)).
+The Al(III) ion in NOTT-300 has an octahedral coordination environment with six oxygen atoms, four of which are from carboxylate groups and two of which are hydroxyl groups, giving an [AlO4(OH)2] moiety.
+These aluminium oxide moieties are further linked to each other via the corner-sharing hydroxyl groups μ2-OH.
+Al(III)-carboxylate MOFs are usually constructed from the 1D aluminium oxide chains linked by the carboxylate ligands (Fig. 1(c)) [14-19].
+Two distinct types of aluminium oxide chains have been reported previously.
+The aluminium chain in MIL-120 is composed of [AlO2(OH)4] octahedra linking to each other via a common edge defined by two μ2-(OH) groups [14].
+The different positions of the common edge in the two crystallographically distinct Al sites induce a cis-trans connection mode of the octahedral units, and thus zigzag chains are generated.
+The aluminium oxide chains in MIL-53 and MIL-118 are composed of [AlO4(OH)2] octahedra linked to each other via vertex-sharing μ2-(OH) groups [16-18].
+In both case, the connections of the [AlO4(OH)2] octahedra adopt trans configurations, generating straight, rod-like aluminium building blocks.
+Depending on the coordination mode of the carboxylate groups, the aluminium chains in MIL-53 and MIL-118 show small differences in linkage of the octahedral nodes.
+However, in NOTT-300 the corner-sharing [AlO4(OH)2] octahedra in the aluminium oxide chains display a cis configuration, and in order to accommodate the hydroxide groups, adjacent [AlO4(OH)2] octahedra are rotated by 90o with respect to each other, thereby generating 41 screw axes.
+This type of connection is distinct from the other two examples, and, therefore, represents a new type of aluminium oxide building block (Fig. 1(c)).
+The chirality of the NOTT-300 framework therefore arises from the formation of helical chains of [AlO4(OH)2] octahedra induced by the cis-configuration of μ2-OH groups.
+This overall connectivity affords a porous extended framework structure with square-shaped 1D channels with hydroxyl groups protruding into them, endowing the pore environment with free hydroxyl groups over four different directions (Fig. 1(b)).
+The diameter of the channel window, taking into account the van der Waals radii of the surface atoms, is approximately 6-7Å.
+Desolvated NOTT-300 has a pore volume of 0.38ccg-1 and a BET surface area of 1370m2g-1 and so the general porosity of NOTT-300 is moderate within the family of MOF complexes.
+The H2 isotherm (Fig. 2) at 77K for NOTT-300 shows exceptionally low adsorption uptakes (26ccg-1 or 0.22wt%), albeit NOTT-300 shows very high uptakes of CO2 (3.30Å) and SO2(4.11Å), both of which have a larger kinetic diameter than that of H2 (2.89Å).
+The uptake of H2 increases sharply in the low pressure region and reaches saturation at ∼1bar.
+By using the pore volume of NOTT-300 and the liquid density of H2 at its boiling point (20.3K), it is estimated that NOTT-300 can hold a maximum of 2.7wt% H2 (302ccg-1) at saturation.
+Surprisingly, the experimental uptake is 10 times lower than this estimation, suggesting that NOTT-300 has unusually weak binding interaction to H2 molecules, even though the pore size of NOTT-300 (6-7Å) is believed to be optimal to afford strong overlapping potential to H2 molecules and thus boost the adsorption uptakes.
+This anomalous H2 adsorption behaviour motivated us to further investigate the interactions between adsorbed H2 molecules and NOTT-300 host, and thus to understand its very low uptake.
+Inelastic neutron scattering (INS) study
+Direct visualisation of the interaction between adsorbed H2 molecules and the NOTT-300 host is crucial to understanding the detailed mechanism of interaction and hence rationalising the unusually low observed uptake capacity.
+INS is a powerful neutron spectroscopy technique which has unique advantages in probing H2 binding interactions by exploiting the high neutron scattering cross-section of hydrogen (82.02barns) [20].
+As a result, the INS spectrum is ultra-sensitive to the vibrations of hydrogen atoms and the rotations of the hydrogen molecule, with hydrogen being ten times more visible than other elements.
+In this study, we successfully used the INS technique to investigate the binding interaction for the NOTT-300/H2 system albeit it has such a low H2 uptake capacity.
+The INS spectrum for the bare NOTT-300, collected at ∼5K to minimise the thermal motion of the adsorbed H2 and the framework host, was found to be similar to those for MOFs containing polyphenyl rings [18,21-23], and this experimental spectrum is in good agreement with the INS spectrum obtained from DFT calculation (Fig. 3(a)) [24].
+Upon loading with H2 (0.25 H2/Al and 0.50 H2/Al) at 40-50K, the background of the INS spectra increases due to the recoil of the H2 molecules, and a broad hump is observed at low energy transfers (<30meV) confirming uptake of H2 by NOTT-300 (Fig. 3(b)).
+The difference plots, calculated by subtraction of the background spectrum (bare MOF material and sample container) from the data collected for each H2 loading, display a broad hump centred at ∼20meV with only one small energy transfer peak at 8.8meV (Figs.
+3(c) and (d)).
+The rotational transitions of molecular H2 give a molecular proof of the local environment that the H2 molecules experience when adsorbed on a solid surface or strongly hindered site.
+The rotational energy levels for a diatomic molecule are given by (1):(1)EJM=J(J+1)Brotwith J and M the angular momentum number and Brot is the rotational constant, that in the case of H2 Brot=7.35meV . There are two nuclear spin isomers of molecular hydrogen, para-hydrogen (p-H2) with spins paired or antiparallel (↑↓) and ortho-hydrogen (o-H2) with the spins unpaired or parallel (↑↑).
+Because quantum mechanical restrictions of the symmetry of the wave-function are responsible for the existence of both species, transitions between them are forbidden in optical spectroscopy, but in the case of INS the transitions between p-H2 and o-H2 are allowed because the neutron can exchange spin states with the molecule.
+For p-H2 in the solid state, the environment is isotropic and the main rotational transition is J(1←0) that manifests itself as a very sharp peak at 14.7meV (Fig. 3(e)).
+Such a peak has also been observed on high loadings of H2 on MgO thin films, indicating that H2 molecules are not interacting with the material surface [25].
+In addition, a strong and broad shoulder with some weak overlying features appears at higher energies.
+This shoulder peak, centered at ca.
+37meV, is smooth except for a sharp curtailment at energies below the rotational transition, the intensity in this shoulder coming from rotational transitions displaced by the translational recoil of the H2 molecule.
+While the rotational line at 14.7meV disappears completely and the onset of recoil occurs below the rotational transition for H2 in the liquid state, only the recoil features are apparent for H2 within NOTT-300 (Fig. 3(f)).
+Fig. 3(c) clearly shows the spectra of adsorbed H2 to be in a liquid-like state within the pore channel of NOTT-300 and not in the form of a solid on the solid surface.
+Even at higher loading where H2 adsorption in NOTT-300 reaches saturation, a very weak and broad peak at 14.7meV observed (Fig. 3(d)).
+This peak indicates the presence of a very small amount of bulk H2 populated on the surface of NOTT-300, but the predominant feature is the recoil signal for H2 in the liquid state.
+This observation is distinct from previous studies on adsorbed H2 which show binding to open metal sites which induce strong host-guest interactions to H2 molecules [12,26].
+Thus, comparison of the INS spectra suggests that adsorbed H2 molecules have very weak interactions to the NOTT-300 host and, therefore, can rotate freely in the channel to give recoil rotational motion.
+For H2 adsorption on the surface of a solid material or strongly hindered active site, the degeneracy of a transition at 14.7meV can be lifted as the freedom for the H2 molecule to rotate in all directions is restricted, thus resulting in splitting of the peak.
+Depending on the energy of the interaction, the peak can split differently, and the shift and splitting of the peaks can therefore provide important information regarding the different adsorption sites and their geometry [27].
+Further information can also be gleaned from the change in the peaks on loading with H2, demonstrating site saturation and/or site interference.
+In this study, in addition to the broad hump at ∼20meV, a small peak appeared at low energy transfer, and the centre of mass of the rotational line of H2 is significantly shifted to 8.8meV, indicating the presence of a type of specific NOTT-300-H2 interaction.
+To probe the site of the H2-framework interactions, it is important to evaluate the accessible voids of the MOF host.
+The Al(III) centre in NOTT-300 is coordinated via six oxygen atoms to form a full octahedral coordination sphere, and can therefore be considered to be unavailable for direct interaction with adsorbed H2 molecules.
+The small increase in the intensity of this peak in the difference spectra upon increasing the H2 loading from 0.25 to 0.5 H2/Al suggests that the interacting site reaches saturation quickly, presumably owing to space constraints.
+Analysis of the crystal structure of NOTT-300 offers two possible void sites that could interact with adsorbed H2 molecules: the organic benzene rings and the inorganic [Al(OH)2O4] moieties.
+The surface area around the benzene rings is sufficiently large to hold one H2/Al.
+However, INS studies of carbon materials show that the phenyl ring only forms weak interactions with adsorbed H2 molecules, resulting in a small splitting or shift in the 14.7meV rotational line.
+For example, in the INS spectra for H2-loaded activated carbon materials, the splitting of the free rotor is very small, with peaks observed at 12.5 and 15meV [28].
+An even smaller splitting was observed in H2-loaded carbon nanotubes, with peaks at 13.5 and 14.5meV [29].
+Such a small energy shift implies that the adsorbed H2 molecules are encountering relatively little hindrance for rotation, probably because of the weak van der Waals interactions between hydrogen and carbon.
+In addition, no change to the molecular motion of the aromatic hydrogen atom on the phenyl rings of NOTT-300 (at ∼125meV suggested by the DFT calculation) was observed upon H2 loading.
+Therefore, the population of the INS peak in this study cannot be attributed to H2 interaction with the benzene rings due to the observation of a significant shift in the rotational line to 8.8meV.
+Therefore, this leaves the [Al(OH)2O4] moiety as the likely sites within the channel to interact with the H2 molecules.
+It has been found that the interaction between H2 and oxygen atoms can cause a significant shift in the rotational line of H2.
+For example, the INS spectra for H2 adsorbed on MgO surface show that the rotational line is shifted to 11meV [25].
+Furthermore, INS studies on MOF-5, in which the Zn(II) centres are also fully coordinated by oxygen donors to form a [Zn4O(O2CR)6] building block, show two distinct peaks at 10meV and 12meV, which are attributed to H2 interactions with oxygen atoms from the [Zn4O(O2CR)6] building block and with the benzene ring, respectively [21,30].
+Consistent results were also obtained from DFT calculations of H2-loaded MOF-5, where the adsorbed H2 molecules are found to interact most strongly with the [Zn4O(O2CR)6] clusters and least strongly with the benzene rings [31].
+The peak at 8.8meV in the spectra for NOTT-300·nH2 (n=0.5,1.0) in this study is entirely consistent with the INS peak (10meV) observed for MOF-5, confirming that the adsorbed H2 molecules in NOTT-300 are interacting with [Al(OH)2O4] moieties (Fig. 4).
+Due to the space constraints and the possible repulsive interaction with the active hydroxyl groups μ2-OH around [Al(OH)2O4] moieties, this site is saturated very quickly upon H2 loading consistent with the observed low uptake capacity.
+Conclusions
+INS studies on the H2-loaded material NOTT-300 have revealed the detailed binding interaction within this system.
+The adsorbed H2 molecules in NOTT-300 are found to have recoil motion along the pore channel with freedom to rotate in all directions, reminiscent of the behaviour of liquid H2.
+[Al(OH)2O4] moieties within the channel can only provide binding interactions to few H2 molecules and reach saturation quickly consistent with the experimentally observed low H2 uptake for this material.
+The unusually low uptake of H2 in this study is related to the quantum effect of H2 which has a very low molecular mass [32] and the very weak interaction between the H2 and the NOTT-300 host is thus not sufficient to overcome this quantum effect, and therefore very little H2 is taken up by this porous material.
+We have also confirmed that the ultra-low H2 uptake is not due to incomplete activation or MOF decomposition as the desolvated MOF shows very high CO2 uptake with a measured pore volume close to that of the single crystal pore volume.
+Acknowledgements
+SY gratefully acknowledges receipt of a Leverhulme Trust Early Career Research Fellowship and a Nottingham Research Fellowship, and MS receipt of an ERC Advanced Grant and EPSRC Programme Grant.
+We are especially grateful to the STFC ISIS Neutron Facility for access to the TOSCA Beamline.
+We thank the user support group at ISIS (Chris Goodway and Mark Kibble) for the technical help at TOSCA beamline.
+Supplementary data
+Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.chemphys.2013.11.004.
+Supplementary data
+Supplementary data 1
+This doc contains supplementary information.
+

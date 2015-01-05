@@ -1,0 +1,335 @@
+An estimate of post-depositional remanent magnetization lock-in depth in organic rich varved lake sediments
+
+Abstract
+We studied the paleomagnetic properties of relatively organic rich, annually laminated (varved) sediments of Holocene age in Gyltigesjön, which is a lake in southern Sweden.
+An age-depth model was based on a regional lead pollution isochron and Bayesian modelling of radiocarbon ages of bulk sediments and terrestrial macrofossils, which included a radiocarbon wiggle-matched series of 873 varves that accumulated between 3000 and 2000 Cal a BP (Mellström et al., 2013).
+Mineral magnetic data and first order reversal curves suggest that the natural remanent magnetization is carried by stable single-domain grains of magnetite, probably of magnetosomal origin.
+Discrete samples taken from overlapping piston cores were used to produce smoothed paleomagnetic secular variation (inclination and declination) and relative paleointensity data sets.
+Alternative temporal trends in the paleomagnetic data were obtained by correcting for paleomagnetic lock-in depths between 0 and 70cm and taking into account changes in sediment accumulation rate.
+These temporal trends were regressed against reference curves for the same region (FENNOSTACK and FENNORPIS; Snowball et al., 2007).
+The best statistical matches to the reference curves are obtained when we apply lock-in depths of 21-34cm to the Gyltigesjön paleomagnetic data, although these are most likely minimum estimates.
+Our study suggests that a significant paleomagnetic lock-in depth can affect the acquisition of post-depositional remanent magnetization even where bioturbation is absent and no mixed sediment surface layer exists.
+Highlights
+•
+Paleomagnetic data obtained from organic rich varved lake sediments.
+•
+Chronology based on 14C wiggle-matching and 14C ages of terrestrial macrofossils.
+•
+Paleomagnetic lock-in delay quantified to at least 21cm.
+
+Introduction
+Annually laminated (varved) freshwater lake sediments formed in Sweden and Finland during the Holocene contain stable natural remanent magnetizations (NRMs) which have improved reconstructions of paleomagnetic secular variation (PSV) and relative paleointensity (RPI) in northern Europe (e.g. Saarinen, 1998, 1999; Ojala and Saarinen, 2002; Snowball and Sandgren, 2002; Ojala and Tiljander, 2003; Haltia-Hovi et al., 2010).
+Amalgamated data from several varved sites form the basis of regional PSV and RPI reference curves (Snowball et al., 2007), which have been used to date non-varved sequences in the Baltic Sea (Lougheed et al., 2012) and detect discontinuities in individual varve chronologies (Stanton et al., 2010).
+In spite of numerous studies of marine and lacustrine sediments, including laboratory-based re-deposition experiments, uncertainties about the natural magnetization process still exist.
+One source of uncertainty is the so-called "paleomagnetic lock-in depth,'" which causes a time delay between the deposition of sediment and the acquisition of a natural remanent magnetization (NRM).
+In the simplest case of a pure depositional remanent magnetization (DRM) Tauxe et al. (2006) argue that there is no significant paleomagnetic lock-in depth because the particles align to the geomagnetic field in the water column and cannot be realigned after deposition.
+They conclude that salinity controlled flocculation in the water column may play an important role, particularly in low salinity environments where a small change in salinity may have a large effect on the size of flocs that can contain magnetic particles.
+Another view, however, is that previously magnetised particles (they can be of detrital origin, or formed in the water column by, for example, magnetotactic bacteria) fall out of suspension in the fluid and are simultaneously aligned by the torque that the geomagnetic field imposes on them.
+These magnetised grains are free to move in the sediment matrix until the non-ferromagnetic sediment surrounding them becomes so consolidated that they cannot be re-aligned by subsequent changes in the strength and direction of the geomagnetic field (Irving and Major, 1964).
+Thus, this type DRM has been called post-depositional remanent magnetization (PDRM).
+A PDRM is probably locked-in over a range of depths, which means that the primary geomagnetic field signal is only visible as a smoothed signal in sedimentary paleomagnetic data.
+The degree of signal smoothing, therefore, depends to a large extent on the sediment accumulation rate (Roberts and Winklhofer, 2004), with the result that relatively short-lived features in geomagnetic field behaviour cannot be recorded by relatively slowly accumulating sediments.
+Another, related, aspect of marine and lacustrine sediments that affects the paleomagnetic lock-in depth is the influence of burrowing or crawling benthic fauna, which cause the top part of a sediment column to be mixed to the extent that no net magnetic remanence can be acquired by this layer.
+The thickness of the mixed layer can be substantial in marine sedimentary environments if deep burrowing fauna is present.
+Roberts and Winklhofer (2004) applied a mixed layer thickness of 10cm in a modelling study of PDRM acquisition in sediments, but acknowledged that it can extend to 30cm and more during large mixing events.
+As pointed out by Roberts et al. (2013) quantified estimates of paleomagnetic lock-in depth have remained difficult to obtain.
+Our understanding of NRM acquisition by sediments is further complicated by the growing awareness that ferrimagnetic minerals can precipitate in lacustrine and marine environments through biogeochemical processes, but we know little about how these minerals contribute to the NRM.
+In particular, single-domain particles of magnetite (Fe3O4) can be produced by magnetotactic bacteria (MTB) and completely dominate the ferrimagnetic properties of lake and marine sediments where they are preserved as magnetofossils (e.g. Snowball, 1994; Snowball et al., 2002; Roberts et al., 2011) Similarly, greigite (Fe3S4) magnetofossils may also be widespread in sedimentary environments, but their presence in marine sediments has only just been appreciated (Reinholdsson et al., 2013).
+Roberts et al. (2011) state that "Further work is needed from a range of settings to better understand the timing of biogeochemical remanence acquisition associated with magnetofossils." Such work requires not only high quality paleomagnetic data and identification of the magnetic remanence bearing minerals, but also independent, accurate and precise dating control (e.g. Stanton et al., 2010).
+Varved sediments that have accumulated in Swedish lakes during the Holocene produce high quality paleomagnetic data (Snowball et al., 2007), which is consistent with the observation that the concentration of magnetite magnetofossils (determined by magnetic properties) is positively correlated to the organic carbon content in this sedimentary environment (Snowball et al., 1999, 2002).
+One of the preconditions to the formation of varved sediments is the absence of crawling or burrowing fauna and, therefore, it can be expected that a paleomagnetic lock-in depth, if present, would be determined by sediment consolidation and/or the location where magnetic grains of biogeochemical origin are produced.
+In an effort to expand the network of Holocene PSV and RPI data sets based on varved freshwater lake sediments in Fennoscandia (Snowball et al., 2007) we were attracted to the lake of Gyltigesjön in the province of Halland (Fig. 1).
+This lake is situated at 56.5° N and further south than the other sites included in the network.
+The sediment sequence in Gyltigesjön was first studied by Guhrén et al. (2003, 2007) as part of a nationwide study of human impact, acidification and subsequence ecosystem response to liming.
+Guhrén et al. (2003) reported the occurrence of distinct laminations in the upper 0.6-0.7m of the sediment column in the deepest part of the lake (~19m).
+They were only able to recover the top 4.2m of sediment and did not study the upper laminations in any detail, although they interpreted them as varves.
+They did, however, detect the Roman (~AD1) peak in atmospheric lead pollution (Renberg et al., 2001) at a sediment depth of 3.5m, which would represent an average sediment accumulation rate of 1.75mm/a for the last 2000years.
+This rate is substantially higher than the other Swedish varved sites included in FENNOSTACK and FENNORPIS (maximum of 0.7mm/a in Frängsjön) and the more recently studied site of Kälksjön in the province of Värmland (also ~0.7mm/a - Stanton et al., 2010).
+In this paleomagnetic study of Gyltigesjön sediments we combine the radiocarbon wiggle-match dating of a floating varve chronology (Mellström et al., 2013) with additional terrestrial macrofossil 14C dates to provide an accurate and precise timescale for the last ca.
+8000years.
+Through modelling of the effect of different lock-in depths, which takes into account changes in sediment accumulation rate, and statistical comparison to the regional PSV reference curves we are able to provide a minimum estimate of the paleomagnetic lock-in depth in Gyltigesjön sediments, which have magnetic properties consistent with an assemblage dominated by non-interacting single-domain magnetite magnetosomal magnetite.
+Site description
+Geography
+Gyltigesjön is located in the province of Halland in southern Sweden, at a height of 66m above sea level (Fig. 1).
+It is the first in a series of lakes in the valley of Simlångsdalen, through which the relatively large river Fylleån flows.
+Eight smaller streams also flow into Gyltigesjön and the catchment area is estimated to a total of 182km2 (Guhrén et al., 2003).
+Gyltigesjön is elongated, trends from the north to the south and has a surface area of 0.4km2.
+It is also characterised by two distinct sedimentary basins.
+The first is in the north-east and has a maximum depth of approximately 12m.
+A sill separates this basin from a larger basin in the south-west, which has a maximum depth 18.5m (measured from the frozen lake surface in February 2010).
+The average residence time of water in the lake is quite short, approximately 11days.
+Daily discharge data from the Simlången hydrological station are available from AD 1927 (http://vattenweb.smhi.se/station/) and show that, on a monthly basis, large discharges (>20m3/s) occur between November and January and that average daily discharges during these months can reach approximately 60m3/s.
+The lowest monthly discharges (<1m3/s) normally occur between June and August, but with the exception of very cold winters (e.g. 2009/2010) when a large amount of water is temporarily stored as snow and ice in the catchment.
+A temperature/oxygen profile of the water column was measured in March 2013, which indicated that hypoxic conditions (<2mg of O2/l) and a temperature close to 4°C (maximum density) existed below a water depth of 17m at the coring site.
+Today, managed forest covers approximately 60% of the catchment, while 25% is composed of wetlands.
+Only 8% is open land and this is used primarily for production of cereal crops and grazing.
+The remainder is covered by semi-open land (pasture), lakes and human settlements.
+Annual liming of the lake catchment began in AD 1982, which created a distinct visual change in the sediments and created a historical marker horizon (Gurhén et al., 2007).
+Geology
+The bedrock around Gyltigesjön is dominated by Precambrian augen granite and gneiss (Karlqvist et al., 1985).
+The northern parts of the Gyltigesjön catchment are extensively represented by greyish red to reddish grey augen granite.
+Red to reddish gneiss, usually veined, is common in the southern parts.
+River Fylleån river follows a tectonic fissure that trends NW to SE.
+The Quaternary geology has determined the form of the present day landscape.
+The coastal plain of Halland was deglaciated around 18,000-16,000 Cal a BP and became ice-free around 15,500-14,550 Cal a BP (Lundqvist and Wohlfarth, 2001).
+There are indications for substantial sea-level changes in Halland after the deglaciation.
+The highest shore-line in Halland is generally considered to be approximately 60-70m a.s.l.; however, asynchronous transgression events with the highest shore-line being reached after the deglaciation have been discussed (Lagerlund, 1987; Berglund, 1992; Lagerlund and Houmark-Nielsen, 1993).
+Due to glacio-isostatic rebound, the period between approximately 12 000 to 9500 14C years is characterised by a regression, although, small transgression events associated with ice-growth may have occurred during the Younger Dryas, ca.
+10 300 14C years before present (Berglund, 1995).
+The Quaternary deposits surrounding Gyltigesjön and river Fylleån are dominated by glaciofluvial sediments (Daniel, 2006); meanwhile the remaining areas in the catchment are mainly covered by tills, bogs and fens (Fredén, 1988; Påsse, 1993).
+Formation of varves
+A relatively rare combination of natural circumstances contributes to the formation and preservation of lacustrine varves (e.g. O'Sullivan, 1983; Ojala et al., 2012).
+A crucial factor is the morphology of a sedimentary basin, and in particular the relationship between the lake's surface area and its maximum water depth.
+Lakes that are relatively deep compared to their surface area depth are more likely to contain laminated sediments and a quantitative relationship (Larsen et al., 1998) has been tested in Sweden (Zillén et al., 2003) and Finland (Ojala et al., 2000).
+Anoxic deep water conditions prevent crawling and burrowing organisms to live on the sediment surface and, therefore, contribute to the preservation of fine seasonal laminae.
+Depending on the general sediment composition, which is governed by several factors including climate, internal physical, chemical and biological lake processes and catchment geology, different varve types can be distinguished as e.g.
+clastic, biogenic, ferrogenic and calcareous (e.g. O'Sullivan, 1983).
+Mellström et al. (2013) noted that the contribution of clastic detritus to the varve composition in Gyltigesjön is significantly less than in varved lake sediments that have been studied further to the north and northeast in Sweden (Petterson, 1996).
+Methods
+Sediment recovery
+Fieldwork took place from the frozen surface of Gyltigesjön between January and March in 2010 and 2011, respectively, when southern Sweden experienced relatively cold winters.
+A hand-held echo sounder and plumb-line were used to locate the deepest part of the lake, as close as possible to the coring location of Guhrén et al. (2003), and the coring locations were located inside the circle shown in Fig. 1.
+Three different methods were used to recover sediment cores in 2010.
+The upper 0.8m of sediments were recovered using a freeze-coring technique (Renberg and Hansson, 1993).
+This core recovers a thin (approximately 1cm) vertical slab of relatively undisturbed sediment and was only used for correlation purposes.
+The freezing technique physically disturbs the micro-structure of unconsolidated sediments and paleomagnetic sub-samples were not obtained from it.
+Five cores for paleomagnetic measurements were recovered using a rod-operated fixed-piston corer described by Snowball and Sandgren (2002).
+This system recovers complete 4.8m long cores of sediment in PVC tubes of either 60 or 63mm internal diameter, although it is not oriented to a geographic azimuth for practical reasons.
+This system provided four overlapping cores for paleomagnetic reconstructions to a sediment depth of 8m (GD0a, GP1, GP2 and GP4.
+GP3 failed due to an insecure piston).
+A cable operated Uwitec "Niederreiter" percussion piston corer (three metre long drives) was subsequently used to recover sediments to depth of approximately 11.8m (drives GD1-GD4).
+Sandy sediment was recovered in the bottom of GD4, equivalent to a sediment depth between 11.8m and 11.5m and it proved impossible to penetrate through this material with the available equipment.
+The rod-operated piston cores (GD0a, GP1, GP2 and GP4) were marked with a straight line along their length to provide a reference for paleomagnetic sampling and then cut into segments up to 1.5m long.
+The cores were subsequently split lengthwise and one section was used for magnetic susceptibility scanning and some for varve counting before they were archived and the other sections were saved for paleomagnetic sampling.
+The narrower diameter cores GD1-GD4 were not suitable for paleomagnetic sampling because there was no control over core rotation.
+A rod operated Russian corer system (Jowsey, 1966) was used in 2011 to recover a series of 11 overlapping cores 1.5m long and 75mm diameter from four holes (GPR1-4) to a sediment depth of 7m (GPR1-4).
+The linked iron rods became too flexible when a total length of 27m was exceeded and no further vertical penetration was possible.
+Construction of a composite depth scale
+The magnetic susceptibility profiles (see Section 3.5.1) and distinct visual lithological boundaries in the different core sections were used to construct the composite depth scale.
+Depths in sections of GP2 and GP4 that overlap with GP1 were compressed or extended by applying linear interpolation between the depths of the tie points in GP1.
+There was no evidence of gaps in the sequence of overlapping cores.
+Radiocarbon dating and age-depth modelling
+Mellström et al. (2013) describe in detail how an 873year duration floating varve chronology was secured to the radiocarbon calibration curve IntCal09 (Reimer et al., 2009) using the "wiggle-matching" technique (e.g. Snowball et al., 2010).
+In summary, the variations in the radiocarbon ages of series of 15 densely spaced bulk sediment samples with approximately equal age differences constrained by varve counting were matched to the reconstructed changes in 14C versus calendar ages that are visible in the IntCal09 calibration curve.
+This technique provides a relatively accurate and precise determination of the age of sediment deposited between ca.
+3000 and 2000 Cal a BP.
+(Mellström et al., 2013) and it indicated that a radiocarbon reservoir effect of approximately 260 14C years influenced the 14C ages of the bulk sediments.
+Carefully chosen terrestrial macrofossils provide the best means of extending the geochronology above and below the series of wiggle-matched varves.
+Well preserved terrestrial macrofossils in the form of oak leaves (and one small twig), which are likely to have been deposited in the lake the same year that they grew, were picked from the sediment during paleomagnetic sampling (described in Section 3.4), which provided four additional terrestrial macrofossils ages in addition to nine bulk sediment ages.
+Radiocarbon preparation is described by Mellström et al. (2013).
+All measurements were made at the single stage AMS facility at Lund University Sweden (Adolphi et al., 2013).
+The sample levels, raw data and calibrated ages are shown in Table 1.
+OxCal version 4.1 (Bronk Ramsey, 2009) was used to provide an age-depth model based on Bayesian statistics using a combination of the four additional terrestrial macrofossils and the results of the radiocarbon wiggle-match study conducted by Mellström et al. (2013).
+The final age model combined a depositional P-sequence routine with the V-sequence model constructed by Mellström et al. (2013).
+The radiocarbon samples were assigned ages according to a composite depth scale (see Sections 3.2 and 4.3), in which the zero sediment depth at the top of the freeze-core represents AD 2010.
+A comparison between the visible stratigraphy of Guhrén et al. (2003) and our freeze-core indicates that the sediment accumulation rate at our coring site is identical to the earlier study and we placed the historically dated rise in atmospheric lead deposition at AD 1850 at a composite depth of 50cm.
+The combined P-V sequence OxCal model was run with a k-factor of 0.3, with output resolution interpolated to provide the 95.4% confidence limits and probability weighted mean of the age of sediment at 1cm resolution.
+Bulk sediment samples that lie outside the depth range of the wiggle-matched varves were not used in the model because the magnitude of a radiocarbon reservoir effect at these levels is not known.
+Sediment structure and loss-on-ignition
+Detailed analyses of the varve structure were conducted on thin-sections produced from two Russian cores (GPR1 and GPR2) covering the period between ca.
+3000-2000 Cal a BP.
+Sediment blocks of 10cm length with 2cm overlapping sections were sampled from fresh sediment cores and shock-frozen in liquid nitrogen (Brauer et al., 1999).
+After freeze-drying the samples for 48hours they were impregnated with Araldite® resin and subsequently ground and polished to a thickness between 20 and 25μm.
+Transmitted light photographs of the thin-sections were taken with a Nikon DS-Fi1 camera mounted on an Olympus BX50 microscope.
+The organic and carbonate content of the sediments were estimated by measuring loss-on-ignition (LOI) at 550°C and 950°C, respectively (Heiri et al., 2001).
+Samples of 1cm3 were collected from the sediment cores at approximately 20cm increments and dried at 105°C overnight.
+The samples were ignited at 550°C for 4hours and the weight losses were calculated.
+Paleomagnetic and mineral (rock) magnetic methods
+The following sections outline the methods employed to determine the magnetic properties of the sediments.
+All measurements were carried out in the Palaeomagnetic and Mineral Magnetic Laboratory (PMML) at the Department of Geology, Lund University.
+Magnetic susceptibility scanning
+The surfaces of all the split cores were covered with a thin plastic film ("kitchen wrap") and the surface magnetic susceptibility (MS) determined contiguously at 0.4cm resolution with a Bartington Instruments Limited MS2E1 surface scanning sensor, coupled to a MS2 metre and a TAMISCAN-TS1 conveyor (Sandgren and Snowball, 2002).
+Magnetic susceptibility, natural remanent magnetizations and artificial remanent magnetizations of discrete samples
+Standard cubic paleomagnetic boxes (internal volume of 7cm3) were carefully pushed into the split piston cores at intervals of 3cm.
+A template was used to ensure that the axes of each cube were oriented in the same direction within the split core.
+These cubes (a total of 569) were cut out of the sediment with a non-magnetic knife and lids placed on them.
+These paleomagnetic sub-samples were stored in sealed plastic boxes at a temperature of 4°C.
+The wet mass of these samples was measured to a precision of 10mg.
+The volume magnetic susceptibility (Κ) of the paleomagnetic samples was then measured with a Geofyzica Brno (now Agico) KLY-2 magnetic susceptibility bridge calibrated with a paramagnetic salt.
+Pilot sub-samples were selected every 25cm from GD0a, GP1 and GP4 to test their stability during successive alternating field (AF) demagnetization.
+The NRM of each sub-sample was measured with a 2G-Enterprises superconducting rock magnetometer (SRM 755-1.65) and demagnetised along orthogonal axes at AF steps of 5milliTesla (mT) up to 10mT and then at 10mT increments up to a maximum of field strength of 80mT, with the residual magnetization measured between each step.
+The maximum applied field of 80mT removed more than 95% of the initial NRM.
+The pilot data (Section 4.4.1) demonstrated that a series of AF field strengths of 30, 40, 50 and 60mT was sufficient to determine the characteristic remanent magnetization (ChRM) using principal component analysis as described by Kirschvink (1980).
+The maximum angular deviation (MAD) was calculated to quantify the quality of the paleomagnetic data and the median destructive field of the NRM (MDFNRM) also calculated for each sub-sample.
+These calculations were made using the "SQUID Tool v.
+2.0" programme written by Andreas Nilsson at Lund University.
+Subsequent to the analysis of the NRM, an anhysteretic remanent magnetization (ARM) was induced in the sub-samples and demagnetised using the same steps that were used to progressively remove the NRM.
+The ARM was induced using a peak alternating field of 100mT with a direct current (DC) bias field of 0.05mT superimposed upon the peak AF as it was cycled to zero.
+The MDFARM was calculated using SQUID Tool v.
+2.0.
+Finally, a saturation isothermal remanent magnetization (SIRM) was induced in the samples with a Redcliffe 700 BSM pulse magnetiser set to 1T and the remanence measured using a Molspin Minispin magnetometer, which was inter-calibrated with the SQUID magnetometer.
+After the paleomagnetic and mineral magnetic measurements were completed the sub-samples were oven dried at 40°C and their dry mass used to calculate mass specific magnetic SI units (χ, ARM and SIRM).
+Bulk sediment samples (50) were freeze-dried and small amounts of dried sediment were prepared for magnetic hysteresis analyses by mixing them with a two component epoxy resin.
+These samples were allowed to set on thin plastic film.
+First order reversal curves (FORCs), which are frequently used to determine the magnetic properties and degree of dispersion of fine-grained ferrimagnets, were measured with a Princeton Measurement Corporation alternating gradient magnetometer (AGM 2900-2).
+The saturation field (H) was set to 1T with a maximum field increment (ΔH) of 1.25mT.
+The FORCinel software developed by Harrison and Feinberg (2008) was used to analyse the data and produce FORC diagrams.
+Interparametric ratios
+Three initial estimates of the relative paleointensity (RPI) were obtained by normalising the NRM to the ARM at AF demagnetization steps at 30, 40 and 50mT.
+The estimates obtained at each AF step were summed and the average calculated.
+The measured parameters allowed us to calculate the following ratios; SIRM/χ, χARM/SIRM and χARM/χ, which reflect magnetic grain size variations in mineral magnetic assemblages dominated by magnetite.
+Higher (lower) values of these ratios correspond to finer (coarser) grain size in (titano-) magnetite (Oldfield, 2007).
+Smoothing of paleomagnetic data
+Sedimentary paleomagnetic data sets based on discrete samples are prone to scatter due to uncertainties that arise during core recovery, sub-sampling and measurement.
+Additional errors can arise when data from multiple cores are amalgamated ("stacked").
+To assess these uncertainties the paleomagnetic data (inclination, declination and RPI) were averaged using the unit vectors (inclination and declination) with a 150year moving window at 50year time steps.
+The averages were only calculated for the 150 windows in which three or more data points exist and the uncertainty estimates for the data are given by the (angular) standard deviations, and are based of Fisher statistics (Butler, 1992).
+The ages of the paleomagnetic data points were derived from the OxCal-based age-depth model.
+Magnetic separates and transmission electron microscope (TEM) analyses
+We used the two-step method devised by Reinholdsson et al. (2013) to extract the magnetic minerals from the bulk sediments.
+The shape and size of the concentrated particles were determined with JEOL JEM-1230 transmission electron microscope (TEM) at the Biology Department, Lund University.
+A pipette was used to place a small drop of the extracted particles onto a copper TEM grid.
+As soon as the methanol had evaporated the grid was placed in the vacuum chamber to minimise the risk of oxidation.
+Results and interpretation
+Sediment structure and composition
+Thin-section analyses of the sediments show that the fine laminations formed in Gyltigesjön are different from the clastic-biogenic varves commonly found in many Swedish and Finnish lakes (Petterson, 1996; Ojala et al., 2000; Zillén et al., 2003).
+The sediments are mainly composed of organic matter, with one distinct light and one darker brown lamina forming rhythmical couplets, with each couplet interpreted as a varve (Fig. 2).
+The slightly lighter brown lamina is composed of different types of organic matter such as plant and algae remnants mixed with variable amounts of minerogenic (clastic) matter.
+The darker brown lamina consists of homogeneous organic matter with negligible amounts of allochthonous clastic material.
+The lack of distinct detrital snow-melt laminae formed in spring, which are commonly found in lake sediments from Sweden and Finland, is explained by the absence of a spring peak river discharge into Gyltigesjön (http://vattenweb.smhi.se/station/).
+Moreover, the main river inflow into Gyltigesjön is into the northern basin, which is separated by a sill from the southern basin where the cores were retrieved from (Fig. 1).
+Therefore, most of the allochthonous sediment is likely trapped in the northern basin and does not reach the core position.
+Instead of distinct spring snow-melt deposits, the lamina with mixed organic and minerogenic sediments in the southern basin likely forms during summer and autumn.
+In addition to surface runoff, this type of sediment might also originate from reworking of the littoral zone through wind and wave activity in autumn.
+The succeeding darker brown lamina of amorphous organic matter resembles the winter lamina in other boreal lakes and most likely deposits during quiet water conditions during winter when the lake is ice-covered.
+Cracks in the sediments formed during the freeze-drying that preceded the sediment embedding process.
+The cracks have a frequent appearance, mainly in the darker brown homogenous organic laminae (Fig. 2) and are attributed to the relatively high organic content of the sediments.
+Magnetic susceptibility logs and construction of a composite depth scale
+A stratigraphic description is provided in Fig. 3, which also illustrates the volume magnetic susceptibility profiles of GD0a, GP1, GP2 and GP4.
+The surface magnetic susceptibility data measured on split-cores (GD3 and GD4) are shown on logarithmic scales.
+The correlation tie lines between a composite depth of 1.8m and 6m, and below 10m were based on both visual stratigraphy and magnetic susceptibility.
+Correlations above 1m and at 8.2m were based on distinct visual changes in stratigraphy.
+The resulting composite depth scale extends from the surface of the freeze-core to a depth of 11.80m in the bottom of piston core GD4.
+The major changes in magnetic susceptibility coincide with the visual sediment description and, therefore, we divided the sediment profile into stratigraphic units (GUs) as follows.
+The lowermost unit (GU-9, 11.6m-11.3m) is composed of grey sand with high magnetic susceptibility (up to 8000×10-6 SI).
+GU-8, which is a green-brown silty gyttja and extends to 10.80m, is characterised by decreasing magnetic susceptibility to 2000×10-6 SI.
+Sandwiched between GU-8 and GU-6 (a silty clay gyttja) is a distinct clay layer (GU-7) that marks an order of magnitude reduction in magnetic susceptibility to values around 100×10-6 SI at a depth of 10.75m.
+Magnetic susceptibility values rise somewhat in GU-6.
+GU-5 is marked by declining magnetic susceptibility to values lower than 100×10-6 SI and an increase in the content of organic matter (a fine detritus gyttja).
+A major change in stratigraphy occurs at a composite depth of 9.6m and within units GU-4 to GU-1 the sediment is distinctly varved.
+In general the sediment units (fine detritus gyttja) become lighter coloured towards the surface of the sequence.
+There are, however, distinct changes in magnetic susceptibility within GU-3, which also contains a distinct layer of clastic sediment (approximately 1mm thick) with high magnetic susceptibility at depth of 5.16m.
+Magnetic susceptibility remains variable in GU-2, which is a lighter brown fine detritus gyttja.
+The onset of liming within the catchment causes GU-1 to be characterised by thin layers of light coloured non-dissolved calcium carbonate.
+The magnetic susceptibility of the freeze-core was not determined.
+Age-depth model, LOI and density
+The floating series of 873 varves, which has a cumulative counting error of 34 years, was established by Mellström et al. (2013) and extends between a composite depth of 5.27m and 4.20m.
+The radiocarbon wiggle-match provides an age of the lowermost varve of 2995 Cal a BP and an age of the uppermost varve of 2120 Cal a BP.
+The OxCal generated age-depth model with 95% confidence limits is shown in Fig. 4a alongside calculated sedimentation rates between the radioxcarbon dated levels (4b), the LOI data (4c) and the wet density of paleomagnetic samples (4d).
+The age-depth model extends from the sediment surface (AD 2010) to a composite depth of 8.33m (6355 Cal a BP).
+No radiocarbon inversions were detected and the age uncertainty is ca.±25years for the period between 3000 and 2000 Cal a BP.
+The model suggests that a generally increasing sedimentation rate existed between approximately 6400 Cal a BP and the present day.
+The LOI rises from 2% between 11.30m and 10.75 to almost 50% in the overlying units of gyttja, which is consistent with Guhrén et al. (2003).
+The thin layer of clastic material present at 5.16m causes a LOI value of 33%.
+The wet sediment density of the paleomagnetic samples is relatively uniform and slightly lower than 1g/cm3.
+Although this general wet density is lower than one would expect for sediment deposited in water, we note that the sediments recovered by piston corers expanded on retrieval and released gas (most likely methane), so that the laboratory wet density can be expected to be somewhat lower than the in situ density.
+The most important observations are that the LOI and wet density data do not vary substantially in the sediment collected between depths of 8.5m and 1m and the sedimentation rates exceed 0.75mm/a for the most recent 6000years.
+The ages obtained from the OxCal model were subsequently transferred to the discrete paleomagnetic samples taken from GD0a, GP1, GP2 and GP4.
+Paleomagnetic and mineral magnetic data
+In the following sections we present (i) the characteristics of the measured NRMs, (ii) an assessment of the viability of RPI estimates through a comparison with mineral magnetic data and microscopic evidence of the carriers of NRM, (iii) statistically smoothed estimates of the inclination, relative declination and relative paleointensity reconstructed from Gyltigesjön sediments covering the past 6400years and (iv) an analysis of lock-in depth based on comparison to regional reference curves (Snowball et al., 2007).
+Stability and directions of the NRMs
+The responses of four typical pilot samples (from GP4) to AF demagnetization are shown as orthogonal plots and intensity diagrams in Fig. 5.
+A weak viscous magnetization, possibly acquired during storage, was removed by fields lower than 10mT.
+The median destructive fields of the NRM (MDFNRM) calculated through linear interpolation vary between 43 and 47mT.
+These values suggest that the carrier of remanence is ferrimagnetic, most likely magnetite.
+The vectors trend towards the origin, with no indication of the spurious acquisition of uncontrolled ARM or gyroremanent magnetization (GRMs).
+The NRM intensity, calculated ChRM's and MAD's of the paleomagnetic samples taken from GD0a, GP1, GP2 and GP4 are presented on the composite depth scale in Fig. 6.
+The intensity of the NRM magnetizations ranged between 25 and 110×10-3 Am-1.
+Declinations were first adjusted relative to the respective individual core mean and then the data from GD0a, GP1 and GP4 were matched to minimise the distribution of data over sections where they overlapped with GP2.
+The quality of the paleomagnetic data set is high, as indicated by the vast majority of MAD's being below 2°.
+However, there is a distinct trend towards negative ("westwards") declinations in the sediment between 2 and 1m, which we suspect was caused by uncontrolled core rotation in GD0a.
+Mineral magnetic data and RPI estimates
+The downcore trends in the mineral magnetic parameters are shown in Fig. 7.
+It is notable that magnetic susceptibility (χ) in Fig. 7a, which is affected by paramagnetic and diamagnetic materials, shows more outliers than SIRM between 6.5 and 4m (GU-3).
+SIRM (Fig. 7b) reflects the concentration of minerals capable of holding magnetic remanence and this is relatively stable with the exception of the sediment between 1.8 and 1m, which has lower concentrations of minerals capable of acquiring magnetic remanence.
+The χARM/SIRM ratio (Fig. 7c) varies around a value of 200×10-5A/m, which is consistent with non-interacting stable single-domain magnetite (e.g. Oldfield, 2007).
+The MDF of the ARM (Fig. 7d) is a few mT lower than the MDF of NRM (Fig. 7e).
+The RPI estimates shown in Fig. 7f range between 0.5 and 1.1, with a peak at a depth of approximately 4.90m.
+We note that the RPI follows the trends of the χ and SIRM data between 1.8 and 1.0m.
+Carriers of magnetic remanence: evidence from TEM images and FORCs
+The TEM analyses of magnetic concentrates revealed approximately cubic and equal dimensional dense particles approximately 150nm in size (Fig. 8).
+These particles were frequently associated with less dense (possibly organic) material (Fig. 8b).
+The TEM images are difficult to interpret due to the organic contributions.
+Typical FORC diagrams (e.g. Fig. 8c and d) are dominated by a narrow central ridge indicative of non-interacting stable single-domain particles.
+The FORC results and complementary mineral magnetic data (e.g. χARM/SIRM ratios of approximately 160×10-5A/m and MDFARM between 40 and 45mT) indicate that non-interacting single-domain magnetosomal magnetite is the dominant carrier of natural and laboratory induced magnetizations in the laminated sections of the Gyltigesjön sediments (see Egli et al., 2010).
+It is likely that relatively small amounts of coarse-grained magnetite and haematite exist in the sediments as a purely allochthonous component and make a more significant contribution to the bulk magnetic properties in the more clastic units, which includes the distinct clastic layer at 5.16m.
+A smoothed paleomagnetic record from Gyltigesjön and estimates of paleomagnetic lock-in-depth
+Fig. 9 shows the smoothed inclinations, declinations and RPI data plotted against time, with their respective one sigma uncertainty.
+Directional uncertainties are defined according to the angular standard deviation (Butler, 1992).
+The minima and maxima in the equivalent parameters for the regional reference curves (Snowball et al., 2007) are also shown in Fig. 9 as arrows point down (minima) and up (maxima).
+The ages of the features in the reference curve are in general younger than their probable equivalents in the Gyltigesjön data set.
+To test the hypothesis that a lock-in delay affects the Gyltigesjön paleomagnetic data, we took into account the changes in sediment accumulation rate predicted by the OxCal age-depth model (Fig. 4a) and calculated alternative ages based on different lock-in depths.
+First, the age-depth data were resampled (through linear interpolation) to 1cm resolution.
+The ages assigned to the smoothed Gyltigesjön paleomagnetic data were then recalculated from the resampled age-depth data by increasing the lock-in depth at 1cm increments, which provided 71 alternative ages for each data point.
+We adjusted the mean inclination of FENNOSTACK (Snowball et al., 2007) to match the Gyltigesjön record for the overlapping time period and standardised the Gyltigesjön RPI data.
+These alternative data sets were then regressed against the reference curves by performing three separate regressions on independent data points (i.e. one point every 150years) and the average of the three calculated correlations coefficients was calculated.
+An additional parameter based on the degree of angular deviation (i.e. taking into account the direction vector rather than simply inclination or declination) was also made.
+The results of regressing the Gyltigesjön data against FENNOSTACK and FENNORPIS (Snowball et al., 2007), with the application of different lock-in depths, are shown in Fig. 10.
+The highest correlation coefficients are obtained with lock-in depths of 25cm (declination), 27cm (inclination) and 34cm (RPI).
+The lowest angle of deviation is obtained when a lock-in depth of 21cm is applied to the Gyltigesjön directional data.
+The visual matches between the Gyltigesjön paleomagnetic data and the reference curves for zero and 21cm lock-in depths are shown in Fig. 11.
+An animation that shows the alternatives for all applied lock-in depths is provided as supplementary information.
+Interpretation and discussion
+Carrier of the NRM and assessment of RPI estimates
+As noted in other studies of varved lake sediments in Sweden (e.g. Stanton et al., 2011) the intensity of ARM acquired in a DC bias field of 0.05mT is approximately the same as the intensity of the NRM, which points to a very effective NRM acquisition process and causes RPI estimates (the ratio of NRM to ARM at identical AF demagnetization levels) to be close to unity, even without standardisation.
+Our data obtained from bulk sediment measurements and FORC analyses provide strong evidence of the presence of magnetosomal magnetite as the dominant carrier of the NRM.
+Even so, the clastic material provides an alternative source of ferrimagnetic minerals, which is reflected by our observation that the MDFARM is a few mT lower than the MDFNRM.
+This difference is expected because in a mixed assemblage of single-domain, pseudo-single-domain and multi-domain magnetite grains the NRM is preferentially acquired by the finer magnetic grains, which have higher coercive force (see review by Tauxe, 1993).
+However, with the exception of the sediment between 1.8 and 1m there is no obvious correlation between the trends in RPI and the artificially induced magnetizations.
+King et al. (1983) presented a set of reliability criteria (later refined by Tauxe, 1993) that sediment sequences should conform to before temporal trends in RPI estimates can be interpreted in terms of geomagnetic field intensity.
+The Gyltigesjön sediments pass the majority of these criteria.
+Specifically, the concentration of magnetic minerals (as determined by three parameters that co-vary) lies within one order of magnitude and there is a single carrier of a stable NRM that exhibits no significant inclination shallowing (the average inclination is 65°, the standard deviation in 4.4° and thus the geo-axial dipole prediction (GAD) of 74° lies within two standard deviations of the average).
+Furthermore, the sediment accumulation rate is quite stable (1-3mm/a, see Fig. 4b).
+Two additional criteria need to be discussed due to uncertainty in their application.
+The first recommends that the grain size of magnetite (if it is the carrier of the NRM) should be within the size range of 1-15μm and the second recommends that laminated (e.g. varved) sediments should be avoided.
+However, FENNOSTACK and FENNORPIS are based on the series of varved sediment sequences and many of these contain a NRM that is carried by single-domain magnetite grains that are one order of magnitude smaller than 1μm.
+Yet, the coherence between nearby sites is exceptional (Snowball et al., 2007; Haltia-Hovi et al., 2010) and we have to consider that established RPI criteria, which have been primarily developed for studies of bioturbated marine sediments, may not necessarily apply to freshwater lake sediments that probably acquire a PDRM in a distinctly different way.
+The anoxic-oxic transition zone was measured to be approximately 2m above the sediment surface in March 2013, which would imply that magnetosomal magnetite is produced in the water column and falls out of suspension (Simmons et al., 2004), but this transition zone may migrate into the sediment column during seasonal overturns.
+Paleomagnetic lock-in depth: fact or fiction?
+It is acknowledged that stable single-domain magnetite grains, often magnetosomal, contribute to the magnetic properties of lacustrine and marine sediments (e.g. Snowball, 1994; Roberts et al., 2011), but very little is known about the depth at which the NRM is locked in, which leads to uncertainties in the ages of paleomagnetic features, including RPI.
+As outlined in the introduction, models of (P)DRM acquisition have been constrained by data obtained from laboratory re-deposition experiments and numerical simulations that often assume that the magnetic particles fall out of suspension from the water column.
+Tauxe et al. (2006) provide strong reasons for the flocculation of magnetic grains in saline water columns, which they argue leads to an insignificant lock-in depth (i.e. only a strict DRM is acquired).
+In fact, attempts to find out the importance of PDRM and its lock-in depth in Quaternary sediments (reviewed with respect to Quaternary geochronology by Roberts et al., 2013) have proved problematic because the stratigraphic and geochronologic methods used to synchronise paleomagnetic records (e.g. oxygen isotope isotope stratigraphy) do not have the temporal precision to definitely identify a lock-in delay.
+It is clear that we need a much better understanding of the processes that cause sediments to become naturally magnetised, not least in environments where biogeochemical processes can dominate the production of minerals that can acquire magnetic remanence.
+This production can take place in the water column, or the sediment column itself depending on the position of the anoxic-oxic transition zone.
+We compared our paleomagnetic data from the Gyltigesjön sediment sequence to the Fennoscandian paleomagnetic master curves for direction and intensity produced by Snowball et al. (2007).
+The latter curves are based on a series of independently dated, varved lake sediments sequences in Sweden and Finland.
+The absence of a mixed, bioturbated surface sediment layer in all sites removes one uncertain variable that affects studies of paleomagnetic lock-in delay.
+The Gyltigesjön sediment sequence has relatively constant sediment density and organic carbon content, and small changes in the concentration of remanence carrying materials of uniform magnetic grain size (single-domain magnetite).
+The main variable is sediment accumulation rate, which is constrained by the age-depth model.
+In our comparison we assume that the independent chronologies that form the timescale for the reference curves, FENNOSTACK and FENNORPIS (Snowball et al., 2007) are precise and that the individual sites are not affected by a paleomagnetic lock-in delay.
+We emphasise that the data that contribute to the regional reference curve may also be influenced by different lock-in delays, but these are not known.
+In our case the first lock-in depth considered is zero because there is no mixed (bioturbated) zone.
+Due to our limited knowledge of the lock-in mechanism in organic rich sediments and a large number of known and possibly unknown uncertainties, such as age errors and changes in the position of the anoxic-oxic transition zone we assumed that the paleomagnetic signal is instantaneously locked in at the prescribed depth, rather than smoothed according to a Gaussian (Suganuma et al., 2011) or cubic (Roberts and Winklhofer, 2004) filter function below the depth at which the geomagnetic signal starts to be recorded (e.g. Roberts et al., 2013).
+The application of Gaussian or cubic filters would increase the estimate of lock-in depth due to the gradual acquisition of the remanence below the chosen level, perhaps doubling it, and they would also smooth the signal.
+The correlation analyses indicate that mean angular difference provides the shallowest lock-in depth (21cm), and that the RPI provides the deepest lock-in depth (34cm).
+Paleomagnetic data points are, however, based on a unit vector and there is no logical reason to discuss different lock-in mechanisms for directions and intensity.
+The difference between the best fitting lock-in depths is more likely related to the many uncertainties in the different data sets used in our analyses.
+Conclusions
+The deepest sedimentary basin of Lake Gyltigesjön contains a relatively thick sequence of laminated sediments that formed over the past ca.
+8000years.
+The sediments have not been significantly compacted and there are no indications of inclination shallowing in the paleomagnetic data.
+The geochronology is synchronised to the tree-ring derived radiocarbon calibration curve during the period between 3000 and 2000 Cal a BP, which provides exceptional time control during this period.
+We assessed the fit between the paleomagnetic data and the independent regional reference curve as a function of lock-in depth.
+Despite the lack of a bioturbated, mixed surface sediment layer, we must invoke a paleomagnetic lock-in depth of approximately 21-34cm in Gyltigesjön's sediments to obtain the best fit to FENNOSTACK (Snowball et al., 2007).
+Due to our simplistic assumption of an instantaneous lock-in depth and the possibility that the reference curve probably contains an unknown lock-in delay this estimate must be considered a minimum one.
+The room temperature magnetic properties of bulk sediment samples and morphology of magnetically concentrated grains are consistent with magnetosomal magnetite.
+It is not, however, known where these particles are produced in relation to the sediment-water interface, which may vary over the year and on longer timescales.
+Thus, the cause of the lock-in depth needs more study.
+Ideally, this would be achieved through the careful recovery and paleomagnetic analyses of the very upper sediments, but our practical experience is that the top few tens of cm of sediment are extremely difficult to recover intact without the magnetic signal being disturbed and methods need to be improved.
+Our detailed study of the natural remanent magnetization acquired by a relatively organic rich, varved lake sediment sequence indicates that much remains to be discovered about how sediments become magnetised.
+Acknowledgements
+This work was supported by grants from the Swedish Research Council awarded to I.
+Snowball (dossier no.'s 2008-7118 and 2011-3353).
+Andreas Nilsson is supported by the Natural Environment Research Council (NE/I013873/1).
+Raimund Muscheler is supported by the Royal Swedish Academy of Sciences through a grant from the Knut and Alice Wallenberg foundation.
+We appreciated the constructive comments provided by the guest editor (Ramon Egli) and two reviewers (Pierre Francus and Ioan Lascu).
+The authors thank Florian Adolphi, Anna Broström, Dan Hammarlund, Per Sandgren, Bryan Lougheed, Johan Striberger, Nathalie Van der Putten and Lovisa Zillén for help during fieldwork.
+Maja Reinholdsson made the TEM analyses.
+Tallhöjdens Värdshus and its staff are thanked for core storage during the fieldwork.
+Supplementary data
+The animation shows the Gyltigesjön inclination, declination and relative paleointensity data after applying successive lock-in depths at one cm increments (solid red line) compared to the regional reference curve (solid black line with 95% uncertainty in gray shading) (Snowball et al., 2007).
+The correlation coefficient (R) between the lock-in adjusted data from Gyltigesjön and the reference curve was calculated for each component and lock-in depth.
+Supplementary data
+Supplementary data to this article can be found online at http://dx.doi.org/10.1016/j.gloplacha.2013.10.005.
+

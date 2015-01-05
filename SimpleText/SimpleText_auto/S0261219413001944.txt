@@ -1,0 +1,189 @@
+Effect of glyphosate on Macrophomina phaseolina in vitro and its effect on disease severity of soybean in the field
+
+Abstract
+Laboratory and field studies were conducted to assess the effects of glyphosate on Macrophomina phaseolina culture growth in vitro and the disease severity of charcoal rot in soybean fields at Stoneville, MS and Jackson, TN.
+Glyphosate inhibited M. phaseolina growth in a linear dose dependent manner when technical grade glyphosate acid (GlyCry) was used; however, growth was inhibited in an exponential dose dependent manner when a commercial formulation of glyphosate-potassium salt (Gly-K salt) was used.
+The glyphosate GR50 values (glyphosate concentration required to cause a 50% reduction) in culture radial growth ranged from 0.25 to 9.94 mM among the M. Phaseolina isolates, temperatures, and formulations.
+The three isolates differed in response to various concentrations across the three temperature regimes.
+Among the three isolates, TN 410 was the most sensitive for both GlyCry (GR50 = 7.74 mM) and Gly-K salt (GR50 = 0.25 mM) at 30 °C.
+This research indicates that glyphosate has the ability to inhibit growth of M. phaseolina in culture in vitro.
+The preliminary field studies demonstrated that application of glyphosate to glyphosate-resistant soybeans did not enhance or reduce the severity of charcoal rot in a no-till field in TN but had some suppressing effect in a tilled environment in MS when single applications were made at growth stage V3 and V6.
+Highlights
+•
+Glyphosate effect on growth of Macrophomina phaseolina in culture and severity was assessed.
+•
+Glyphosate inhibited M. phaseolina in vitro.
+•
+Sensitivity to glyphosate concentrations differed between isolates.
+•
+Disease severity was not affected by Glyphosate application of no-till field.
+•
+Glyphosate had suppressing effect in tilled field under hot and dry conditions.
+
+Introduction
+Charcoal rot of soybean, caused by Macrophomina phaseolina (Tassi) Goidanich, is one of the most important soilborne pathogens, infecting over 500 plant species in more than 100 plant families around the world (Smith and Wyllie, 1999).
+Charcoal rot has been a problem for soybean farmers in the United States for many years causing significant yield losses with estimated losses of 8.54 × 105 tonne per year from 1974 to 1994 in non-irrigated fields in the 16 southern states (Wrather et al., 2009; Wrather et al., 2006).
+Symptoms of charcoal rot are also referred to as dry-weather wilt or summer wilt, because it often occurs when plants are under heat and drought stresses (Smith and Wyllie, 1999).
+These stresses can also occur in irrigated soybeans causing losses from 6 to 33% in experimental plots (Mengistu et al., 2011) and the combination of stress and the presence of M. phaseolina caused higher yield loss on soybeans than drought alone.
+The pathogen attacks the plant throughout the season, often causing progressive debilitation of the host.
+After flowering, a light gray or silvery discoloration of the epidermal and sub-epidermal tissues develops in the taproot and the lower part of the stem.
+The best diagnostic symptom is found when the epidermis is peeled away from the stem exposing numerous small, black bodies of microsclerotia that are frequently produced in the xylem and pith of the stem and may block water flow.
+Efforts to manage charcoal rot in soybean through adjusting planting dates, crop rotation, planting densities, and irrigation have all been suggested as means of control (Mengistu et al., 2007) and no commercial resistant soybean variety is yet available for effective management of this disease.
+Glyphosate (N-[phosphonomethyl]glycine) application on glyphosate-resistant crops has been shown to enhance and in a few cases reduce severity (Johal and Huber, 2009) of selected soybean diseases.
+Glyphosate is widely used in glyphosate-resistant (GR) crops for weed management (Johal and Huber, 2009).
+Glyphosate is a systemic broad-spectrum herbicide that inhibits 5-enolpyruvylshikimate 3-phosphate synthase (EPSPS), a key enzyme in the shikimate pathway for biosynthesis of aromatic acids and secondary metabolites (Means and Kremer, 2007).
+EPSPS is present in plants, fungi, and bacteria, but not in animals (Kishore and Shah, 1998).
+Blockage of this pathway results in massive accumulation of shikimate in affected plant tissues leading to a deficiency of significant end-products such as lignins, alkaloids, and flavonoids and a decrease in CO2 fixation and biomass production in a dose dependent manner (Olesen and Cedergreen, 2010).
+Widespread use of glyphosate has raised a concern about its potential to affect plant pathogens in general and evolution of glyphosate-resistant weeds (Johal and Huber, 2009).
+Interactions between glyphosate use, other herbicides and plant diseases are well documented, with both positive and negative responses (Altman and Campbell, 1977; Johal and Huber, 2009).
+Glyphosate herbicide is known to increase specific plant diseases caused by pathogens such as Corynespora cassiicola (Huber et al., 2005), Fusarium solani f.
+sp.
+glycines (Johal and Huber, 2009), Phytophthora megasperma (Keen et al., 1982), Heterodera glycines (Geisler et al., 2002) and on micronutrient availability (Evans et al., 2007, Huber et al., 2004).
+An increase in colonization of GR soybean roots by Fusarium virguliforme, the causal agent of sudden death syndrome (SDS) of soybean showed that susceptibility was independent of the GR trait or glyphosate use (Nijiti et al., 2003; Sanogo et al., 2000; Sanogo et al., 2001).
+Kremer and Means (2009) reported that fungal colonization of GR soybean roots increased significantly after application of glyphosate but not after conventional post-emergence herbicides.
+Also, in studies examining effects of glyphosate on Rhizoctonia and Sclerotinia rots in GR crops, none demonstrated increased disease levels relative to untreated controls (Bradely et al., 2002; Harikrishnan and Yang, 2001; Pankey et al., 2005).
+Studies with GR wheat (Triticum aestivum L.) have shown that glyphosate provided both preventive and curative activities against Puccinia striiformis f.
+sp.
+tritici and Puccinia triticina, which cause stripe and leaf rusts, respectively (Feng et al., 2005).
+Preliminary greenhouse studies by Feng et al. (2005) reported that application of glyphosate in GR soybeans suppressed Asian soybean rust, caused by Phakopsora pachyrhizi.
+Analyses of GR soybean root exudates suggest that promotion of rhizosphere and root colonization of GR soybean by specific microbial groups may be due to a combination of stimulation by glyphosate released through root exudation and altered physiology leading to exudation into the rhizosphere of high levels of carbohydrates and amino acids (Kremer et al., 2005).
+Glyphosate may be applied multiple times in commercial fields depending on field history, planting dates, environmental conditions and weed densities (Couler and Nafziger, 2007; Caleb et al., 2004).
+As a result, there is limited knowledge whether single or sequential applications of glyphosate in the field affect charcoal rot severity.
+Most of the research examining the effect of herbicides, including glyphosate, on disease development in soybean has been limited to greenhouse and laboratory studies (Anderson and Kolmer, 2005; Feng et al., 2005) and did not include application timing under different environments (Harikrishnan and Yang, 2001; Meriles et al., 2006).
+To test if glyphosate has any effect on M. phaseolina, it is necessary to conduct both in vitro and field studies.
+This study reports the effect of glyphosate on M. phaseolina in vitro and the effect of glyphosate on the population dynamics of M. phaseolina (colony forming units) collected from infected soybean in the field.
+Results of this study will help soybean growers determine whether glyphosate application on GR soybean under different environments may or may not increase the risk of charcoal rot in infested fields.
+Materials and methods
+Experiment 1.
+Effect of glyphosate on M. phaseolina growth in vitro
+The treatments included six levels of concentrations of 0-20 mM of technical grade glyphosate acid (>97% purity, Sigma-Aldrich, St.
+Louis, MO) and twenty one levels of concentrations of 0-90 mM of the glyphosate-potassium salt formulation (48.8% glyphosate, N-(phosphonomethyl) glycine and 51.2% of other ingredients, Monsanto, St.
+Louis, MO).
+The treatments also included three M. phaseolina cultures; TN 4, TN 294 and TN 410 for evaluation of their growth in vitro.
+The three isolates were cultured from field collected samples in Jackson, TN and commonly used for routine field and greenhouse studies (data not published).
+Glyphosate stock solutions were prepared and filter sterilized.
+Glyphosate stocks were added to sterile molten potato dextrose agar (PDA, Difco Laboratories) to attain concentrations of 0-20 mM for pure glyphosate acid (GlyCry) and 0-90 mM for glyphosate-potassium salt (Gly-K salt).
+The solutions were mixed well, poured into 9-cm-diameter petri dishes, and the media was allowed to solidify.
+Using a 2-mm sterile cork borer, 7 day old cultures grown on acidified PDA at 30 °C were removed and placed at the center of five replicate plates and incubated at 24 °C, 28 °C, or 30 °C in the dark.
+Radial growth was recorded in four directions for each plate over the course of 72 h.
+Experiment 2.
+Effect of glyphosate on charcoal rot severity on soybean in the field
+Field studies were conducted in 2009 and 2010 at the USDA-ARS Crop Production Systems Research farm, Stoneville, MS, and at the West Tennessee Research and Education Center at the University of Tennessee in Jackson, TN both under non-irrigated environments.
+At both test locations, glyphosate treatments were: 1) glyphosate at 0.84 kg a.i/ha applied at V3 (third trifoliate); 2) glyphosate at 0.84 kg a.i/ha applied at V6 (sixth trifoliate); 3) glyphosate at 0.84 kg a.i/ha applied twice at V3 and V6; and 4) a no glyphosate applied (control).
+The commercial formulation of the potassium salt of glyphosate (Roundup WeatherMax, Monsanto Agricultural Co., St.
+Louis, MO) was used.
+Glyphosate treatments were applied with a CO2-pressurized backpack sprayer that delivered 140 L/ha of spray solution at 193 kPa.
+All plots were hand weeded periodically throughout the growing season.
+No nitrogen fertilizer was applied, and the crop was not irrigated.
+Treatments were arranged in a randomized complete block design with four replications.
+The field in Stoneville, MS had Dundee silt loam soil (fine-silty, mixed, active, thermic typic endoqualf) with pH 6.5, 1.0% organic matter and soil textural fractions of 26% sand, 55% silt, and 19% clay.
+The experimental area was in GR soybean production for three years prior to this study.
+The land was tilled with a disk harrow followed by a field cultivator in the fall of each year.
+A charcoal rot susceptible cultivar, GR soybean cultivar 'AG4605RR, late maturity group (MG) IV was planted 18 May 2009 and 28 April 2010 using a Monosem NG Plus precision planter (Monosem ATI, Inc.
+Lenexa, Kansas) at 285,000 seeds/ha.
+A tank mix of S-metolachlor at 1.12 kg a.i/ha plus pendimethalin at 1.12 kg a.i/ha plus paraquat at 0.84 kg a.i/ha was applied to the entire experimental area for early-season weed control immediately after planting with a tractor-mounted sprayer with TeeJet 8004 standard flat spray nozzles (TeeJet Spraying Systems Co., Wheaton, IL), at 187 L/ha water with 179 kPa.
+Each treatment plot consisted of eight rows spaced 51-cm apart and 7.6 m long.
+The field in Jackson, TN had a Lexington silt loam soil (fine-silty, mixed, active, thermic ultic hapludalfs) with pH 6.1, 1.5% organic matter and soil textural fraction of 8% friable silt loam, 39% silty clay and silt loam, 15% friable sandy loam and 38% very friable sandy loam.
+The experimental area was under glyphosate-resistant soybean production for three years prior to this study and was planted each year in no-till.
+The experiment was conducted in a randomized complete block design with four replications.
+Plots were 3 m by 6 m with 1.5 m alleys in-between replications.
+Four rows were planted for each plot with 6 m long and 76 cm wide between rows.
+A charcoal rot susceptible cultivar, glyphosate-resistant soybean 'AG4605RR', late maturity group (MG) IV was planted on 22 May 2009 and on 12 May 2010 using a four-row Almaco (Almaco Nevada, Iowa) planter equipped with John Deere XP row units and planted at a rate of 285,000 seeds/ha.
+The planter was calibrated to travel at a speed of 8 km/h.
+Glyphosate and dicamba diglycolamine were applied for burn down kill of the existing cover crop and emerged spring weeds on April 4 and 6 of 2009 and 2010, respectively.
+A pre-emergence application of paraquat dichloride at 0.249 g a.i/ha and fomesafen at 0.312 g a.i/ha was also applied after planting using a John Deere High Cycle with Teejet Air Inducted 1002 spray nozzles, (TeeJet Spraying Systems Co., Wheaton, IL), delivering 56.78 L/ha water at 275 kPa.
+Inoculation and determination of M. phaseolina population densities
+Millet grain completely colonized and darkened with microsclerotia of M. phaseolina (Mengistu et al., 2007) was used to infest the fields and was applied with seed at planting at a rate of 1.5 g/m at both locations to minimize plot to plot variation.
+At the plant growth stage of R7 (Fehr et al., 1971), 10 randomly selected plants were carefully uprooted from the outside 2 rows of each plot in Jackson and the outside four rows of each plot in MS to determine colony forming units (CFU) of the pathogen.
+In a previous study (Mengistu et al., 2007), the correlation between disease severity rating based on the intensity of discoloration of vascular tissues in stems and roots and CFU was significant.
+This suggested that CFU in soybean tissue could be used as a measure of disease severity when precise measurement of treatment effects is needed.
+Plant samples were excised just below the cotyledonary node.
+The lower stem sections and roots including lateral and fibrous roots of each plant were thoroughly washed and rinsed in water to remove soil and air dried as described by Mengistu et al. (2007).
+The combined root and stem sections from each plot were ground with a Wiley Laboratory Mill 50/60HZ, Single phase, 1HP (Model 4-3375-E15, Thomas Scientific., Swedesboro, NJ) and passed through a 28-mesh screen (600-μm openings).
+The mill was thoroughly cleaned between samples with air using a suction device.
+For each sample, 5 mg of ground tissue was placed in a Waring blender with 100 ml of 0.525% NaOCl for 3 min and collected over a 45-μm pore size sieve.
+The triturate was washed with sterile distilled water and then added to 100 ml of autoclaved PDA amended with rifampicin (100 mg L-1) and tergitol (0.1 ml L-1) that had been cooled to 60 °C (Mengistu et al., 2007).
+After 3 days of incubation at 30 °C, M. phaseolina CFUs were counted and converted to CFU per gram of root and stem tissue.
+Data analysis
+Data were analyzed using SAS 9.3 (SAS Institute Inc., Cary, NC) for the in vitro test on radial growth of M. phaseolina.
+Regression analysis was used to predict growth as a function of concentration for both glyphosate acid and the commercial formulation as glyphosate-potassium salt at three experimental temperatures to get radius means for each concentration when temperature was maintained at 24, 28 and 30 °C for each isolate.
+A fit linear regression model was used for the GlyCry in the form growth = intercept + slope*concentration.
+A fit exponential regression model was used for Gly-K salt treatment in the form growth = intercept*concentrationslope.
+The 50% growth reduction (GR50) was calculated as % reduction of the control for each combination of formulation, temperature and isolate.
+Analysis for Gly-K salt effect on M. phaseolina in the field was tested for significance by analysis of variance (ANOVA).
+There was a fixed effect associated with location (tilled and no-tilled), and the large significant interactions with location from the combined ANOVA indicated a significant F-value (F = 19.86, P = 0.0008); therefore, the treatment comparisons are based on ANOVA by location.
+Colony forming unit data were log10 transformed since there were zero values in the CFU data and the data were back transformed after analysis.
+Graphing was completed using Sigma Plot 11.0 (Systat Software Inc., Chicago, IL).
+Results and discussion
+Experiment 1.
+Effect of glyphosate on M. phaseolina growth in vitro
+The three isolates differed in their response to various concentrations across the three temperature regimes for the two formulations (Table 1).
+There was a statistical difference in radial growth between the control (acidified potato dextrose agar (APDA)), and the two formulations at all temperatures.
+The glyphosate GR50 values ranged between 0.25 and 9.94 mM for the three isolates, three temperatures and two formulations used (Table 1).
+Among the three isolates however, TN 410 was the most sensitive for both GlyCry (GR50 = 7.74 mM) and Gly-K salt (GR50 = 0.25 mM) at 30 °C.
+The radial growth with Gly-K salt showed little variation at various glyphosate concentrations and temperatures in comparison to GlyCry.
+GlyCry had maximum inhibition of 100% at 20 mM compared to Gly-K salt that required 15 mM.
+The differences in the effects of these two formulations on radial growth may be due to the inert ingredients used in Gly-K salt (48.7%) as compared to the pure formulation in GlyCry (>97%).
+The differences in the effects may also be due to differences in the ability of the isolates to degrade glyphosate to a much less phytotoxic metabolite (Reddy et al., 2008).
+Amended media using both Gly-K salt and GlyCry reduced the radial growth of M. phaseolina compared to the control.
+A similar observation was made on radial growth and conidial germination and sporulation in F. solani f.sp.
+glycines (Sanogo et al., 2000) with increasing concentrations of glyphosate herbicide (Kawate et al., 1992).
+Sanogo et al. (2000) observed that conidial germination, mycelial growth and sporulation of F. solani f.sp.
+glycines were reduced by glyphosate and lactofen when used in a field and applied in a tank mix.
+In contrast, Harikrishnan and Yang (2001) found no negative effect of glyphosate on vegetative growth of several Rhizoctonia solani isolates and anastomosis groups.
+It has been established that the optimal temperature for M. phaseolina growth in culture is 30 °C (Mengistu et al., 2007).
+As expected, growth of M. phaseolina under suboptimal temperatures of 24 and 28 °C was reduced in both chemical formulations.
+Amended media using both Gly-K salt and GlyCry was used to predict levels at 0.1 mM because we could not define 0 in an experimental equation.
+Because of little growth occurring under these treatments, the rate of decrease is minimal at GR50.
+At 30 °C the range of growth is much larger.
+This makes the calculation of GR50 more accurate given the nature of the exponential equation.
+The significance value is indicated by the slope in the graph and the 95% confidence intervals (Fig. 1, Table 1).
+If the significance values for the upper and lower limits do not contain zero, then the trends are significant at P ≤ 0.05.
+Our in vitro study confirms these findings as evidence that GR50 was significantly lower (P ≤ 0.05) at 30 °C compared to the lower temperatures of 24 and 28 °C.
+Environmental data
+Air temperature and precipitation data for the growing season were obtained from the Stoneville, MS and Jackson, TN locations (Fig. 2A-D).
+Crop water deficits as a result of hot and dry conditions during the growing season generally develop in June, July, and August, and these are critical months for M. phaseolina infection (Mengistu et al., 2007).
+During these three months in 2009, there were at least 25 and 7 days when temperatures exceeded 35 °C in MS and TN, respectively.
+Total precipitation during the same month in 2009 was 27 and 36 cm in MS and TN, respectively.
+In 2010, there were 50 days when temperature exceeded 35 °C, and precipitation was only 9 cm in MS during the months of June, July, and August.
+In the month of August alone there were 25 days when the temperature was above 35 °C with only 9 cm precipitation during the three months.
+In TN, there were 29 days when temperature exceeded 35 °C during the three months.
+Similar to MS, the August temperature in TN exceeded the 35 °C mark for 25 days.
+However, the precipitation in TN during the same months in 2010 was 46 cm, far exceeding that of MS.
+The 30 year average temperature over the three months was 32 °C for both MS and TN (http://www.ncdc.noaa.gov).
+Thus, the temperature and moisture conditions during the test periods were favorable in all environments for M. phaseolina infection.
+Experiment 2.
+Effect of glyphosate on charcoal rot severity on soybean in the field
+Analysis of variance for CFU indicates a location-by-year interaction (P ≤ 0.05), and therefore locations within each year were analyzed separately.
+The estimates of CFU of M. phaseolina following glyphosate treatment at each location are shown in Fig. 3.
+The figure highlights the wide-range of CFU measurements across glyphosate applications and environments.
+The CFU levels showed variation between the two locations.
+In general CFUs in MS were significantly (P ≤ 0.05) higher than in TN.
+The level of CFU in both locations was still high enough to be considered severe in both years and locations (Mengistu et al., 2007; Smith and Wyllie, 1999).
+In 2009 in MS, applications made at either V3 or V6 had significantly (P ≤ 0.05) lower CFU of 62,300 and 56,400, respectively than a sequential application at V3 and V6 and the control with 91, 110 and 90,000, respectively.
+In 2010, there was a similar trend where the CFU application made at V3 was 50, 650 and 34,750 at V6 that was significantly lower CFU (P ≤ 0.05) than the CFU from sequential application made at V3 and V6 and the control with CFU of 53,200 and 68,650, respectively.
+The V6 application had significantly lower CFU (P ≤ 0.05) than applications made at V3 or V3 and V6 and was more significant (P ≤ 0.05) when data were combined across the two years.
+The CFU were 56,475 and 45,575 for V3 and V6 applications, respectively and 72,150 and 79,325 for applications made at both V3 & V6 and control, respectively.
+The reason as to why the CFU levels were reduced at V3 and V6 rather than when applied twice at V3 and V6 in MS indicates that multiple applications of glyphosate may result in soybean injury and inhibition of soybean nodules causing stress to the crop (Reddy and Zablotowicz, 2003).
+The reduced CFU level from single applications may also be caused by indirect rather than by direct effect of glyphosate.
+The tilled soil provides the dry conditions favorable for the increase in CFU level in MS.
+This is in agreement with the finding of Mengistu et al. (2008) that colony forming units in soybean tissue were greater under conventional tillage than under no-till when two applications of glyphosate at 0.84 kg a.i/ha were applied.
+The CFU levels in TN in 2009 were significantly lower (P ≤ 0.05) than in MS and were 25,450, 31,700 and 34,550 for applications made at V3, V6 and V3 and V6, respectively, while the control had CFU of 38,250.
+These CFU levels in TN were not significantly different (P ≤ 0.05) from each other.
+In 2010, the CFU levels were 39,450, 34,900, and 34,450 at V3, V6 and V3 and V6 applications, respectively, while the control had CFU of 25,300.
+No statistical differences were detected in each of the two years or when the two years data were averaged.
+The lower CFU values in TN may be due to soybean planting in no-till as opposed to planting in tilled soil as in MS.
+No-tillage can result in cooler soil temperatures because of a high volume of crop residue on the soil surface.
+Such high volume of residue has been shown to increase soil moisture retention compared to tilled soils (DeLaune and Sij, 2012).
+For diseases like charcoal rot that thrive preferably under stress environments, the shift from tillage-based agriculture to no-till promoted water conservation thus reducing plant stress and thus the level of disease severity (Mengistu et al., 2008).
+When relating the glyphosate tested in vitro to what was used in the field, the concentrations of glyphosate required for inhibition are well beyond what would be applied under field conditions.
+Furthermore, the formulation and adjuvant ingredients used to enhance the efficacy of the active compound (Gly-K salt) in the field may affect growth in vitro when the Gly-K salt is formulated.
+This study suggests that multiple glyphosate applications did not increase charcoal rot levels in no-till environments, but disease severity increased when two applications were made in tilled environments, particularly when it was hot and dry.
+Acknowledgments
+The authors thank Mrs.
+Debbie Boykin, USDA-ARS Mid-South Area Statistician, for assistance in data analysis.
+This research was funded by United States Department of Agriculture, Agricultural Research Service project number 6401-21000-002-00D.
+We wish to thank Chris Street, Jason Deffenbaugh, Jamie Jordan and Tara Sydboten for their assistance in the field and laboratory test.
+Mention of trade names or commercial products is solely for the purpose of providing specific information and does not imply recommendation or endorsement by the United States Department of Agriculture (USDA).
+USDA is an equal opportunity provider and employer.
+

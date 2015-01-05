@@ -1,0 +1,371 @@
+The Sleipner storage site: Capillary flow modeling of a layered CO2 plume requires fractured shale barriers within the Utsira Formation
+
+Highlights
+•
+Flow model for Sleipner with a plausible layering of CO2 plume and mass balance.
+•
+CO2 mass balance analysis for poor temperature and layer thickness constraints.
+•
+An unusual capillary flow model, not Darcy flow, results in a successful 3D model.
+•
+Low shale barrier threshold pressures indicate pervasive micro-fracturing.
+•
+Pre-CO2 fracturing hypothesis based on rapid melting of Pleistocene ice sheets.
+Abstract
+To prevent ocean acidification and mitigate greenhouse gas emissions, it is necessary to capture and store carbon dioxide.
+The Sleipner storage site, offshore Norway, is the world's first and largest engineered waste repository for a greenhouse gas.
+CO2 is separated from the Sleipner gas condensate field and stored in the pore space of the Utsira Formation, a saline aquifer approximately 1km below the surface and 200km from the coast.
+Statoil, the field operator, has injected almost 1Mt/yr of captured CO2 into the storage site since 1996.
+The buoyant CO2 plume ascended rapidly through eight thin shale barriers within the aquifer to reach the top seal in less than three years.
+The plume's progress has been monitored by eight seismic surveys, as well as gravimetric and electromagnetic monitoring, which record the spreading of nine thin CO2 layers.
+This paper presents a capillary flow model using invasion percolation physics that accurately matches the plume's geometry.
+The approach differs from standard Darcy flow simulations, which fail to match the plume geometry.
+The calibrated capillary flow simulation indicates that a mass balance for the plume is likely, but can only replicate the plume geometry if the thin intra-formational shale barriers are fractured.
+The model enables an estimate of the shale barrier behavior and caprock performance.
+The fractures are very unlikely to have been caused by CO2 injection given the confining stress of the rock and weak overpressure of the plume, and so fracturing must pre-date injection.
+A novel mechanism is suggested: the deglaciation of regional ice sheets that have rapidly and repeatedly unloaded approximately 1km of ice.
+The induced transient pore pressures are sufficient to hydro-fracture thin shales.
+The fractures enable fast CO2 ascent, resulting in a multi-layered plume.
+Shallow CO2 storage sites in the Northern North Sea and other regions that have been loaded by Quaternary ice sheets are likely to behave in a similar manner.
+
+Introduction
+Climate change and ocean acidification are driven by high rates of CO2 emission to the atmosphere.
+One contribution to the mitigation of CO2 emissions is carbon capture and storage, CCS (Lovell, 2011).
+This is proposed by the G8 and the International Energy Agency as an essential technology for lowering greenhouse gas emissions.
+CCS reduces the emission of CO2 at a power station, or other large industrial sources such as oil and gas fields.
+This captured CO2 is compressed, transported by pipeline, and injected for storage into porous rock formations deep below the land or sea surface.
+Large-scale sites have been demonstrating engineered CO2 storage technology for nearly two decades.
+At the Sleipner field, CO2 is produced with natural gas and condensate, separated from the production stream, and compressed.
+The supercritical CO2 is then injected into the Utsira Formation, offshore Norway.
+This is the longest running carbon capture and storage experiment in the world, with more than 14 Mt of supercritical CO2 injected during the period 1996-2013.
+The injection schedule is intended to remain at around 0.9Mt/yr until around 2020, separating and storing CO2 from the West Sleipner gas-condensate field to prevent climate change.
+This is incentivized by the Norwegian state tax on offshore petroleum industry emissions, commencing in 1991 at NOK 210 and increasing to NOK 410 in 2013, equivalent to about $65 per tonne of CO2.
+The storage site, a saline formation and sandstone aquifer, is 800m below sea level (mbsl).
+This is considered to be a shallow depth setting for a storage environment (Chadwick et al., 2008) as the pressure and temperature conditions are likely to be close to the critical point above which CO2 becomes a more buoyant gas phase.
+The overlying Nordland Group, which extends from the top of the Utsira Formation to the seafloor, is predominantly shale (Fig. 1), and is expected to provide a caprock with a high threshold pressure, sufficient to seal the site and prevent leakage of the buoyant CO2 fluid over several millennia, i.e. the timescale required to offset climate change (Lindeberg and Bergmo, 2003).
+Saline formations worldwide are considered to be candidates for carbon sequestration because of their suitable depths, large storage volumes, and common occurrence.
+However, one of the critical uncertainties for saline formation storage is the ability of the caprock (primary seal), and the overlying containment geology (secondary seals), to retain buoyant CO2 without leakage.
+The fluid flow processes currently occurring in the Sleipner storage site provide a crucial exemplar for saline formation storage projects worldwide.
+Published interpretations of a series of seismic reflection surveys show that, by 1999, the Sleipner CO2 plume had ascended more than 200m vertically within the Utsira Formation from the injection point (1012mbsl) to the caprock (800mbsl).
+The plume has encountered and breached eight shale barriers within the storage site: seven thin shales that are approximately 1-2m thick, and an uppermost thick shale that is 6-7m thick and geologically similar to the primary seal (Gregersen and Johannessen, 2001; Zweigel et al., 2004).
+These shale barriers result in 10-20m thick CO2 layers that are vertically stacked and extend laterally for hundreds of meters.
+Biennial monitoring of the plume behavior and the resultant six seismic reflection surveys make this experiment ideally suited to numerical modeling studies (Hamborg et al., 2003; Zweigel et al., 2004; Hellevang, 2006).
+The areal distribution of CO2 stored within the storage site has been precisely mapped from the seismic surveys (Chadwick et al., 2006; Bickle et al., 2007).
+However, no published dynamic model to date has accurately replicated the layered morphology of the plume or flow behavior, and three significant aspects of the plume are poorly understood, as outlined below.
+Fundamental aspects of the CO2 plume layering are examined by constructing a mass-balanced flow model to test the physical containment processes through iterative numerical simulation.
+The simulations are calibrated to published observations.
+Capillary flow, not Darcy flow, is applied to obtain a good match with observations.
+It is essential for the calibration that the shale barriers within the Utsira Formation have high vertical permeabilities.
+This implies that the shales may be fractured.
+A novel mechanism is proposed to account for fracturing prior to CO2 injection: transient fluid overpressure during rapid deglaciation.
+Unexplained aspects of the plume
+Firstly, there is a significant uncertainty concerning mass-balance estimates for the plume.
+To illustrate this, consider estimates for the uppermost layer alone, circa July 2002, equivalent to 5Mt injected, bearing in mind that the uppermost layer is the best constrained portion of the plume with respect to observational data (Chadwick et al., 2008).
+The CO2 volume in this layer is estimated to be approximately 110-165 thousand cubic meters (Chadwick et al., 2009).
+Assuming an upper layer density of 426kg/m3 (after Bickle et al., 2007), this is equivalent to a mass of 0.05-0.07Mt.
+Although Chadwick and co-workers (2009) favor the upper end of this range, 0.07Mt is considerably less than estimates of 0.11Mt (Bickle et al., 2007) and 0.16Mt (Singh et al., 2010).
+This wide disparity in outcomes stems partly from (a) uncertainty concerning the plume temperature profile (Fig. 2a), with Singh and co-workers (2010) assuming a much colder plume with an uppermost layer density of 760kg/m3; and (b) poorly constrained assumptions regarding layer thickness (Fig. 2b), which are unresolvable at less than 15m thick given the seismic resolution (Arts et al., 2004).
+This uncertainty is further compounded by poorly constrained gas saturations for the plume layers.
+All three aspects are discussed further below.
+Secondly, despite the layer thickness uncertainty, the plume morphology indicates that column heights for trapped CO2 are unexpectedly low.
+The only published laboratory measurements for the caprock threshold pressure (Springer and Lindgren, 2006; Harrington et al., 2009), from a cored production well, 15/9A-11, close to the storage site, suggest a range of 1.6-1.9MPa, i.e. the fluid pressure necessary for CO2 to break through a low permeability rock.
+If this range is applicable to the shale barriers within the Utsira Formation, such a scenario would result in CO2 column heights of hundreds of meters (Springer and Lindgren, 2006).
+However, estimated column heights for the layered plume consistently fall within the range 7-14m (Chadwick et al., 2005, 2006; Bickle et al., 2007).
+These thin layers occur beneath all three-barrier types: (a) the 1-2m thin shales within the formation; (b) the uppermost 7m thick shale barrier; and (c) the much thicker Nordland Group shale caprock that forms the primary seal.
+Thirdly, the plume flow behavior is not indicative of sealing shale barriers punctuated by faults, holes or penetrated by a high permeability chimney or sand injectite (Zweigel et al., 2004), and the means of CO2 ascent is poorly understood.
+The plume initially ascended 200m vertically through the eight shale barriers in less than three years (Chadwick et al., 2006), resulting in a 'pancake stack' of layers.
+If the laterally extensive shales had acted as seals, preventing the vertical migration of CO2, the plume would have taken much longer to breakthrough, and its behavior would have been more akin to a 'zig-zag' distribution with lateral offsets, resulting from the CO2 tracking along the base of a barrier until encountering a hole through which to escape up to the next barrier, and then repeating this behavior.
+Mass balance estimates
+Addressing the mass balance question first, available areal mapping of the plume layers derived from time-lapse seismic reflection survey images (Bickle et al., 2007) are combined with layer-thickness estimates (Chadwick et al., 2009) to build a three-dimensional representation of the CO2 plume (Fig. 1).
+The approach assumes a flat gas-water contact for the plume layers, which implies that each layer has backfilled the trap as a gravitationally ponding fluid.
+The model provides an insight into the volumetric relationship between layer thickness and mass balance (Fig. 2).
+Recent published estimates of volume and mass balance appear to have been primarily hampered by uncertainty in layer thickness and plume density (Fig. 2).
+For the uppermost layer, circa 2002, thickness estimates vary from 4 to 7m (Chadwick et al., 2005; Bickle et al., 2007).
+The CO2 layers circa 2006 have recently been estimated as 10m thick (Lippard et al., 2008; Chadwick et al., 2009).
+Both these estimates are thinner than the limit of phenomena resolvable by conventional seismic reflection surveys at this depth (Arts et al., 2004; Chadwick et al., 2006).
+A case has been made for amplitude tuning of the Sleipner seismic to produce greater precision (Chadwick et al., 2006); however, the sensitivity of this seismic interpretation technique is such that the amplitude does not discriminate between layers more than 4m thick and less than 15m thick.
+Furthermore, the thin shale barriers within the aquifer are unresolvable on the baseline 1994 seismic (Arts et al., 2004) making tuning even more difficult.
+Published estimates of the CO2 volume in the top layer (110,000m3 from amplitude analysis, and 165,000m3 from structure) differ by 150% for the same seismic survey (Chadwick et al., 2009).
+Although structure estimates are considered to be more reliable than amplitude (Chadwick et al., 2008), there is no method to discriminate between them.
+An additional uncertainty arises from saturation profiling, which discerns between pores filled with brine and pores filled with CO2 above a poorly constrained level of saturation (Arts et al., 2004).
+It follows from the commonly used Gassmann equation (Gassmann, 1951) that: (a) very low saturations of less than a few percent are undetectable; (b) a strong correlation emerges as the gas saturation increases from a few percent to around thirty percent; and (c) for saturations much above thirty percent, it is difficult to distinguish between moderate and high saturations.
+It follows that the 80% gas saturation that is commonly assumed for the Sleipner plume, while reasonable (Chadwick et al., 2005; Bickle et al., 2007), remains uncertain (Lumley, 2008).
+If the 80% assumption represents a reasonable upper limit to the mean saturation for the plume, the lower limit could be as low as 40%, halving mass balance estimates premised on the widely assumed high-saturation value.
+Finally, the liminal pressure and temperature conditions of the plume with respect to the critical point of CO2 (31°C and 7.4MPa) compound the uncertainty.
+The ambient temperature at the injection depth is reasonably well constrained at 41±1°C (Bickle et al., 2007); however, the temperature at the top of the plume is much more poorly constrained at around 34±3°C (Singh et al., 2010).
+This results in a potential density range for CO2 in the uppermost layer of 300-700kg/m3; a mid-range scenario is assumed, with a temperature of 35°C at the caprock and a linear geothermal gradient to the injection depth at 41°C for the flow simulations that follow (orange diamonds, Fig. 2a).
+However, a brief consideration of different thickness and density scenarios (assuming 80% saturation) with respect to the solution space for mass balance (gray area, Fig. 2b) suggests that a cold high-density plume requires an upper layer that is at least 8-9m thick, circa July 2002 and 5Mt injected; while a hot low-density plume exceeds a mass balance with layers that are greater than 13m thick.
+The uppermost layer thickness necessary for a mass balance, circa July 2002 and 5Mt injected, lies in the range 8-13m.
+Consequently, these compounded uncertainties in mass balance (layer thickness, gas saturation and gas density) are highly sensitive to small changes in assumptions that are unresolvable by remote geophysical monitoring given the broadly constrained fields of pressure, temperature and saturation.
+Although an accurate mass balance estimate would be desirable to confirm site integrity with respect to the present-day caprock behavior, this aspect of Sleipner is likely to remain elusive due to the uncertainties inherent in remote geophysical monitoring of gas plumes.
+Modeling methodology
+To better understand the mass balance, spatial distribution and flow behavior of the plume, a numerical flow model of the storage site is constructed.
+This three-dimensional model consists of a geological framework of nine alternating intervals of sandstone and shale that extends from the base of the Utsira Formation below the injection point to the primary seal above the storage site.
+Published morphology maps for each CO2 layer (Bickle et al., 2007) are used as the topography for the base of each shale barrier, assuming a flat gas-water contact for the layers.
+This implies that the CO2 is ponding, and the layers are close to equilibrium with respect to any Darcy flow dynamics (Cavanagh, 2013).
+The flow of CO2 within the storage site is then simulated with an invasion percolation simulator (Permedia, 2012), assuming percolation as a function of CO2 capillary pressure and shale threshold pressure.
+This approach examines capillary flow in a deep saline formation that is segmented by thin laterally extensive horizontal shale layers.
+Scenarios are tested for resemblance to the plume morphology and then quantified for CO2 in place to arrive at the best mass balance scenario for the simulated plume with respect to the known injected volume.
+Conceptual model
+The conceptual model for the simulation is a plume of vertically stacked buoyant CO2 layers that are trapped in the sandstone intervals as thin but highly saturated layers, breaking through the shale barriers as a result of percolation.
+Percolation occurs when the threshold pressure of the shale barrier is exceeded by the buoyant gas capillary pressure of the trapped CO2 layer (Boettcher et al., 2002; Carruthers, 2003).
+The 3D model is calibrated by adjusting the breakthrough threshold pressures of the shales to match published estimates of layer thickness (column heights underlying shale barriers) and the areal distribution for trapped CO2 derived from 4D seismic.
+The Sleipner plume is likely to ascend as a result of gravity segregation (Singh et al., 2010), given the strong density contrast between the brine and CO2, and the high permeability of the Utsira Formation sandstones.
+However, the crucial distinction between our model and other approaches is our assumption concerning the dominant physics of the flow process.
+The buoyant separate phase behavior of CO2 in the formation not only promotes gravity segregation, but also results in strong capillary forces at the interface between the ascending gas (non-wetting fluid) and the brine (wetting fluid) in the pore throats of the geological media, which manifest as threshold pressures for the sandstones and shales.
+This is quite distinct from other modeling approaches that assume a Darcy flow regime, where the plume behavior is primarily a function of the interplay between viscosity, pressure gradients, and permeability.
+If capillary forces dominate over viscous forces, the plume will ascend and backfill beneath flow barriers, manifesting a sensitivity to the topography at the base of each shale barrier (Cavanagh, 2013).
+Given the known correlation in shape between the upper layers and the basal topography of the caprock and underlying thick shale, it is proposed that the flow behavior may be best characterized as a gravity-dominated percolation phenomenon, as explained below.
+Choice of simulator
+Previous attempts to model the distribution of CO2 within the Utsira Formation have used fluid flow software based on Darcy flow physics.
+To obtain multiple layers of CO2, these have either imposed a discrete vertical pathway to by-pass the thin shales within the Formation (Chadwick et al., 2006; Hermanrud et al., 2009, 2010) or assumed a convenient vertical juxtaposition of pre-existing holes (erosional or otherwise) for the eight intra-formational shale barriers.
+These simulations fail to quantitatively or qualitatively reproduce the multi-layered CO2 plume.
+To quote Chadwick et al. (2006) 'observed fluxes derived from the seismic data, do not match the flow simulation'.
+In this approach, a flow simulator based on a different flow physics is used, and a different workflow undertaken to achieve a very good match and calibrated mass balance.
+Permedia Migration is a multi-phase invasion percolation simulator.
+The simulator uses capillary threshold pressures and fluid density descriptions for oil, gas and CO2.
+Assuming a flow domain dominated by capillary and gravity forces, invasion percolation describes the behavior of an immiscible fluid (CO2) that is migrating, or percolating into, a porous medium (sandstones and shales).
+Commonly known as drainage within petroleum systems modeling, as distinct from imbibition, the buoyant phase displaces the original pore fluid (brine).
+Invasion percolation is commonly applied to slow moving immiscible fluids in geological flow systems.
+Below a critical flux velocity threshold, such flow systems tend to self-organize into discrete migration pathways and pooling traps (de Gennes et al., 2004).
+Percolation theory has been successfully applied to the invasion of non-wetting fluids such as oil and gas into water-wet porous geological media when studying regional hydrocarbon migration and local hydrocarbon field charge processes (Carruthers and Ringrose, 1998; Boettcher et al., 2002; Glass and Yarrington, 2003).
+The approach is valid at low flux rates, as the viscosity contribution to flow is negligible and the viscous-dominated Darcy flow approximation breaks down.
+Under capillary-dominated conditions the immiscible fluid is either migrating along a pathway at a low critical saturation or, is backfilling and flooding a trap at a higher saturation not exceeding the maximum gas saturation for the porous medium (Cavanagh and Rostron, 2013).
+The model presented here differs significantly from earlier conceptual models of the storage site (e.g. Hellevang, 2006; Chadwick et al., 2008; Hermanrud et al., 2009, 2010) where researchers have assumed Darcy flow along a pressure gradient via holes in the shale barriers.
+This study assumes that the thin shales represent laterally continuous barriers to flow.
+While a Darcy flow model requires a rising cascade of fluid through the sandstone and around the shales, via holes or breaks in the shale succession, the approach presented here suggests a simpler hypothesis: the vertical stacking of kilometer-wide and meter-thick CO2 layers that are the result of buoyant gas percolating through the vertical heterogeneity of sandstones and shales found in the Utsira Formation, in a similar manner to hydrocarbon migration and trap charge in petroleum systems, as appropriate for two-phase flow with a low capillary number (England et al., 1987).
+The capillary flow and ponding hypothesis does not require the unlikely geological coincidence of nine vertically aligned holes in the shales through which fluid cascades within the storage site.
+Sleipner capillary number
+An invasion percolation simulation assumes a dominance of capillary and gravity forces over viscous forces.
+The interplay of forces (viscous, capillary and gravity) in reservoir models is commonly defined using scaling-group theory (Ringrose et al., 1993; Li and Lake, 1995), with the commonly accepted limiting condition for invasion percolation being that the capillary force must exceed the viscous force by a ratio of ten thousand-to-one.
+In other words, the capillary number, Ca, is less than 10-4:(1)Capillary number,Ca=μqγwhere, Ca, the capillary number for a given flow regime; μ, the viscosity of the more viscous fluid in a two-phase system; q, the volumetric flux; γ, the interfacial tension between the invading phase and resident phase.
+Under these conditions, invasion percolation is a reasonable approximation for the flow physics.
+For example hydrocarbon migration typically has a capillary number of 10-10-10-14 (England et al., 1987).
+If the capillary number is less than 10-4, flow modeling lends itself to fast invasion percolation simulations which yield high-resolution numerical solutions (Carruthers, 2003).
+With respect to the Sleipner CO2 plume, the viscosity of the brine (0.7-0.8mPas) and interfacial tension between the brine and CO2 (25-27mN/m) have been estimated (Singh et al., 2010).
+Therefore, the limiting migration rate (Ca∼10-4) for the storage site can be calculated as 3-4mm/s.
+This fits well with observations, as the Sleipner CO2 plume flux is reasonably well constrained both vertically and horizontally: (a) the plume reached the caprock in 1999, approximately 3 years after injection began from the well 210m below - an observed ascent rate of about 70m/yr or 2μm/s; (b) the plume has spread laterally beneath the caprock, and is about 0.5km wide (E-W) and 3km long (N-S) after a decade - an observed lateral flux rate of less than 300m/yr or 10μm/s.
+It follows that the capillary number for the plume (Ca<10-7) is much lower than the necessary limit for a viscous-dominated Darcy flow simulation.
+The CO2 ascent and lateral spreading is very likely to be dominated by buoyancy and capillary forces, and therefore highly sensitive to contrasts in formation and shale threshold pressure (Table 1).
+Given these flow rate indications, it makes sense, a priori, to model the plume distribution with an invasion percolation simulator.
+The Young-Laplace equation describes the governing physics: a capillary pressure occurs at an interface between two immiscible fluids such as CO2 and brine.
+This equation, named after the Enlightenment scientists who discovered the principles of capillary action (Young, 1805; Laplace, 1806), is commonly used for multi-phase migration models.
+The pressure is a result of the tension of the surface that forms at the interface between the two fluids.
+A popular expression of the Young-Laplace equation (Eq.
+(2a)) relates the gravitationally stable column height of an oil or gas trap, and related capillary pressure, to the threshold pressure of the rock at which breakthrough occurs (Hobson, 1954).
+By exchanging the capillary pressure term with the density difference between the two fluids, the column height of the buoyant fluid can be determined (Eqs.
+(2b) and (2c)):(2a)Threshold pressure, Pth=2γ cos θr(2b)Capillary pressure, Pc=Δρgh(2c)Breakthrough condition, Δρgh=2γ cos θrWhere Pth is the threshold pressure of the rock at which breakthrough occurs; γ, the interfacial tension between the invading phase and resident phase; θ, the wetting angle between the invading phase and the rock (a low angle results in a high threshold pressure as the cosine value approaches unity); r, the representative pore throat radius for the rock.
+Pc, the capillary pressure of the invading phase at the interface; Δρ, the density difference between the two phases; g, standard gravity; h, the column height of the invading phase.
+If the capillary pressure does not exceed the threshold pressure, the fluid will pool beneath the shale and back-fill the shale topography until a spill-point is reached.
+The CO2 will then migrate laterally until trapped again.
+However, if the capillary pressure at the top of the CO2 pool does exceed the shale threshold pressure, the pool will breach the seal and migrate vertically until the next shale is reached and trapping occurs again, resulting in a vertical stack of pools.
+Hence, the conceptual model is that this pattern of pooling, breaching and lateral spill will match the observed plume distribution.
+Plume model
+The properties of the shale and sandstone intervals are constrained by the geological framework of the Utsira Formation and present-day observations from the Sleipner storage site.
+The Utsira Formation is internally segmented by laterally extensive horizontal shales, approximately 1-2m thick, acting as barriers (Isaksen and Tonstad, 1989).
+Approximately 20m beneath the caprock of the Lower Seal, the shallowest shale barrier (7m thick shale) is thought to be lithologically identical to the caprock (Gregersen and Johannessen, 2001).
+Reviews of the reservoir geology indicate that this 7m thick shale merges laterally with the Lower Seal, which is considered to be an effective primary seal (Arts et al., 2000; Chadwick et al., 2004).
+As such, above the storage site and inter-layering with it as the 7m thick shale, are the Lower Seal shales of the Nordland Group.
+This is overlain by the Middle Seal, bounded at the top and base by regional unconformities (Gregersen and Johannessen, 2001; Gregersen and Johannessen, 2007).
+The upper unconformity provides important evidence of ice sheet erosion and exhumation during the Pleistocene.
+The shallower Pleistocene shales are referred to as the Upper Seal (Fig. 1).
+The primary seal and overburden stratigraphy have considerably more complexity and heterogeneity when considered in detail (Nicoll et al., 2012), with numerous shallow sands, chimney structures and sub-glacial relict features.
+However, a simple first approximation is suitable for this study.
+Geocellular model design
+The 3D profile of the plume (Fig. 1) is used to build a three-dimensional model of the storage site.
+The geometry of each CO2 layer and the associated shale barrier topographies are derived from published images of the CO2 layering (Bickle et al., 2007; Chadwick et al., 2008).
+The nine layers define the cross-sectional relief of the shale barriers above the CO2.
+The thin shale barriers that trap the first seven layers are assumed to be 1-2m thick; the thick shale overlying layer 8 is assumed to be 7m thick.
+The modeled shales are assumed to be petrologically similar to the Lower Seal shale, conforming to petrophysical data from the sampled well, 15/9A-11 (Gregersen and Johannessen, 2001).
+The model Utsira sandstone conforms to petrophysical data, i.e. clean, well-sorted and poorly cemented (Hellevang, 2006).
+Numerical simulation
+The simulation releases CO2 at the known perforation interval of the injection well, close to the base of the model, and calculates the percolation pathway and resultant accumulations for the ascent of a discrete supercritical phase of CO2.
+The simulation assumes a buoyant gravity-driven flow dominated by capillary forces.
+The depth range of the storage site is close to the phase boundary conditions for supercritical CO2.
+This results in significant fluid density changes with ascent (Bickle et al., 2007).
+These density variations are estimated from a commonly used equation of state for CO2 (Duan and Sun, 2003) assuming hydrostatic pressure and geothermal temperature profiles for the storage site (Table 2).
+The output of the model is a plume distribution of CO2 with respect to the geological framework (Fig. 3) and a numerical estimate of the associated masses for each CO2 layer and threshold pressures for each shale barrier (Table 2).
+While the layer distributions are known and stable in the model, the multiple migration pathways and breakthrough points for vertical migration (Fig. 3) only represent equivalent simulation pathways and potential breach locations for a given barrier at its shallowest expression.
+These are not expected to be better than an accurate approximation of the breach locations, as ascending migration paths in the actual storage site are likely to be sensitive to local heterogeneities in the shale barriers and sandstone formation.
+However, multiple realisations of the simulation confirm the robust and stable outcome of stacked CO2 layers that insensitive to variations in the precise position of CO2 breakthrough.
+Results for two simulation scenarios
+Two scenarios with identical geometry were tested by varying the threshold pressure of the shales within Utsira Formation: the first, a base case, assumed that the threshold pressure of approximately 1.6-1.9MPa measured in core recovered from Lower Seal shales (Springer and Lindgren, 2006) is applicable to all shale barriers within the model.
+The threshold pressures are assigned to the shales as a global mean value i.e. a single shale barrier has a uniform mean threshold pressure of 1.75MPa (three-sigma standard deviation of ±0.15MPa, equivalent to approximately ±8.5%, assuming a normal distribution).
+This base case model failed to match the observed CO2 distribution, as the high threshold pressures for the shales resulted in a 'zig-zag' pattern of predominantly laterally spilling migration.
+The simulation ultimately failed to reach the caprock, as the CO2 backfilled beneath the 7m thick shale without breaching, resulting in a final column height of hundreds of meters and total saturation of the reservoir.
+This scenario is totally unlike the Sleipner plume seismic observations, and is rejected.
+The second scenario is unchanged from the base case with the exception of reduced threshold pressures for the shales within the storage site.
+The threshold pressure was gradually reduced by iterative experimentation until the simulation exhibited thin CO2 layers similar to those observed in the seismic monitoring.
+The normal distribution range for the lower threshold pressures remained as ±8.5% of the mean assigned to a given shale barrier.
+This second scenario provides an excellent match with the observed phenomena i.e. a vertical 'pancake stack' of layers approximately 7-11m thick (Figs.
+1 and 3).
+The barrier geometry is prescribed by the observed geometry of the CO2 layers, and so the morphology of the simulated layers is forced, given the derivation of shale layer topography from the 4D seismic.
+However, the significance of the result lies in the replication of the stacked plume layering, and an estimate of CO2 layer thicknesses that results in a reasonable match to observations and a plausible mass balance (Fig. 3 and Table 2).
+It is notable that the model breakthrough pressure is surprisingly low in the calibrated match to the observed Sleipner plume.
+The simulation enables the inference of permeability and threshold pressures for the shales at the kilometer scale of the entire Sleipner storage site which are difficult or impossible to measure directly.
+The inferred threshold pressures required to achieve a thinly layered plume trapped by intra-formational shales are two orders of magnitude lower than the laboratory values measured on the caprock at well 15/9A-11.
+This is an important outcome of the model.
+The mode of CO2 ascent
+Given the model results, the mode of CO2 ascent within the storage site deserves further scrutiny.
+The favored scenario of thin, and stacked, CO2 layering with low intra-formational shale threshold pressures raises an obvious concern: if the assumptions hold regarding the similarity of the 7m thick shale to the Lower Seal, and the unbroken lateral continuity of the shale barriers, then the breakthrough condition for CO2 at the caprock may be as low as 50kPa (Table 2).
+Such an extremely low threshold pressure for shales can only occur in fractured rocks.
+It is therefore inferred that a network of micro-fractures span the shale barriers within the Utsira Formation, allowing the plume to ascend vertically, leaving a stack of thin CO2 layers.
+The significance of this finding with respect to the integrity of the caprock and Nordland Group shales is discussed below.
+Inferred fracture networks for shale barriers
+The width of the inferred micro-fractures can be characterized to a first approximation by a modified form of the Young-Laplace equation (Pankow and Cherry, 1996).
+In this modification for a fractured shale, the fracture half-width substitutes for pore throat radius, and the seal is breached when the capillary pressure of the CO2 layer, Pc (Eq.
+(2b)), exceeds the threshold pressure of a fracture, Pf, equivalent to the product of the interfacial tension, γ, and cosine of the wetting angle, θ, divided by the fracture half-width, f (Eq.
+(3)).
+The calibrated invasion percolation simulation (Fig. 3) enables the fracture width to be estimated as a function of the height of column retained beneath the shales.
+This indicates a fracture width of approximately 2μm (Table 2).
+Micron-thick fractures commonly occur in shales, and are physically observed in physical shale specimens as pale gossamer-like threads that appear on the faces of rock samples indicating cement-filled fractures, or salts drying out from fluids in open fractures.(3)Fracture threshold pressure, Pf=2γ cos θfwhere, Pf, threshold pressure of the fracture; γ, interfacial tension; θ, wetting angle; f, the half-width of the representative fracture aperture.
+The micro-fracture explanation for low threshold pressures raises a number of questions: what is the vertical extent of the inferred fractures? And, do these connect to form fracture networks that span the shale barriers? What are the origins of the fractures? And, is the integrity of the caprock compromised? Firstly, it is apparent that the 7m thick shale within the Utsira Formation transmits CO2.
+It follows that this span is the minimum limit for a connected network of percolating fractures within the storage site.
+It is unclear if such a percolation bridge might affect the much thicker Lower Seal.
+No observational evidence to date indicates that CO2 has penetrated the caprock.
+Given the very thin layers of CO2 (10-15m column heights with correspondingly low capillary pressures), a caprock breach would require a pre-existing fracture network.
+The evidence from a neighboring shale caprock, albeit older, more compacted and buried to 4km (the seal for the nearby Miller oilfield), shows that CO2 penetration of an unfractured caprock is very slow, taking approximately 70Ma to diffuse 10m into the caprock (Lu et al., 2009).
+However, the maximum limit of fracture connectivity at the Sleipner caprock, or through the Lower Seal remains unknown.
+In addition to potential fracture networks, paleo-gas chimneys and glacial tunnel valleys with the Nordland Group shales may provide physical routes for the rapid vertical escape of CO2, though these are not thought to intersect the present CO2 plume footprint or expected future distribution beneath the caprock (Zweigel et al., 2004; Nicoll et al., 2012).
+Concerning the origin of the micro-fractures, CO2 injection is an unlikely fracture mechanism for the breaching of thick or thin shales.
+A low capillary pressure of around 50kPa, associated with the buoyancy of a 10-15m CO2 column, may be high enough to allow CO2 to percolate through an existing fracture network for 1-7m thick shale barriers.
+However, the fracturing of shales as a consequence of such small pressure changes within the Utsira Formation is highly unlikely.
+By analogy, micro-fractures in overpressured hydrocarbon fields occur when the pore pressures exceed around 80% of the lithostatic pressure, typically equivalent to multi-MPa changes (Aplin et al., 2000).
+The Sleipner storage site is not significantly stressed or overpressured at the present day (Wei et al., 1990); the pore fluids are effectively at hydrostatic pressure; and so for Sleipner, the fluid pressure increase necessary to fracture an intact seal (about 10MPa) is highly unlikely.
+It is therefore inferred that the shales have been fractured prior to CO2 injection.
+Ice sheet unloading as a mechanism for fracturing
+Previous studies have put forward a number of ideas to explain the rapid vertical migration of CO2 within the Utsira Formation, as neatly summarized by Chadwick et al. (2009).
+The gamut ranges from small faults and natural holes in the intra-formational shale barriers, to geomechanically induced chimneys, sand injectites and changes in the wetting characteristics of shales exposed to CO2.
+However, these scenarios are hypothetical and frequently driven by model design, in terms of creating suitable pathways for simulating flow.
+The lack of sampling and direct observations from within the Utsira Formation has done little to narrow the field of possibilities.
+The modeling presented in this paper implies fracturing prior to CO2 injection, as outlined above.
+As a consequence, a plausible pre-injection fracturing mechanism is sought, given the geological history and context of the storage site.
+The following hypothesis further adds to the various competing ideas concerning the flow properties of the Utsira Formation, and the shale barriers in particular; and in common with those ideas, shares a lack of direct evidence from the storage site itself.
+However, there are a number of supporting regional indications, presented below, and the simplicity of the model, in itself, is encouraging.
+The Sleipner storage site location lies within the Pleistocene ice sheet domain of NW Europe (Boulton and Hagdorn, 2006).
+An erosional unconformity at the Pliocene/Pleistocene boundary between the Middle Seal and Lower Seal of the Nordland Group shales indicates that ice was in contact with the seabed, scouring and eroding the underlying sediments.
+Additional unconformities within the Middle Seal and Upper Seal indicate several similar events (Nicoll, 2012).
+The youngest ice sheet (Late Devensian) has left well-preserved sediments to record its position and demise; reconstructions of ice sheet thickness over the British Isles and Southern Norway during this final stage indicate that the ice was around 1000m thick and grounded over the Sleipner area of the Northern North Sea (Boulton and Hagdorn, 2006).
+Similar grounded ice sheets probably occurred during several glaciations over the last 1Ma from marine isotope stage MIS 12 onwards.
+Considering the effect of ice on fluid pressure and stress on the underlying shale, the following scenario is hypothesized:
+The gradual increase of ice sheet thickness during prograde glaciation produces a slow transient additional overburden load.
+This load is transferred to the sediments below the ice sheet if it is grounded rather than floating.
+The youngest grounded ice sheet (Late Devensian, MIS 2) can be precisely mapped; the MIS 2 ice sheet formed as a confluence of the British and Fennoscandian ice sheets, flowing to the north-west, and ultimately reaching the continental margin (Bradwell et al., 2008; Davison, 2012).
+The preservation of relict landform features indicates that, during deglaciation, the ice melted very rapidly, possibly catastrophically, within hundreds of years at 24ka, coincident with a global sea-level change (Bradwell et al., 2008).
+It is possible that the sea level rise transgressed beneath the grounded ice, causing it to float off the seabed; at which point the overburden pressure is removed instantaneously (Davidson, 2005; Bradwell et al., 2008).
+The significance of this deglaciation event is the possibility of unusually rapid and transient pore pressure changes within shales that may have exceeded the geomechanical limit, fracturing the shales (Cavanagh et al., 2006).
+Pressure fluctuations associated with deglaciation are distinct from more commonly encountered subsurface overpressure regimes in that both the hydrostatic and lithostatic baseline pressures are offset to higher values by loading from a grounded ice sheet (Fig. 4).
+Gradients remain the same but a change in the baseline pressure occurs which is dependent on ice sheet thickness.
+Hypothetically, the loading of the Nordland Group shales by a 1000m thick ice sheet (gray upper layer, Fig. 4) would cause both hydrostatic and lithostatic values to increase by about 10MPa during a glacial stage lasting several tens of millennia (Fig. 4).
+This affects a pore pressure increase within the Utsira Formation from 7MPa (700m depth) to a new equilibrium beneath the ice of 16MPa (1700m depth, including ice sheet).
+The new hydrostatic pressure gradient (gray lines, Fig. 4) starts near the top of the ice sheet; the new lithostatic gradient runs from the base of the ice sheet.
+The maximum ice load does not need to be located directly above the Utsira Formation as, for a hydraulically connected aquifer, a lateral transmission of pressure will occur for tens of kilometers.
+During deglaciation the ice melts rapidly, and both the lithostatic and hydrostatic equilibrium lines return geologically instantaneously to their normal positions (black lines, Fig. 4).
+Since pore fluids in the deep subsurface cannot flow instantaneously to re-equilibrate the rock, this rapid deglaciation leaves the pore fluids isolated at, or above the re-established normal fracture gradient.
+While the highly permeable Utsira Formation is free to flow and equilibrate rapidly, the much lower permeability shales are not.
+The shale pore pressure collides with the fracture gradient, at about 80% of lithostatic pressure, creating a zone of hydraulic fracturing potential (red triangle, Fig. 4).
+The thickness and strength of the overburden for any given stage is highly uncertain, hence the dashed line (fracture gradient, Fig. 4), which is conservatively estimated from present day leak-off test data (Nicoll, 2012).
+This mechanism suggests that, within this zone of fracturing potential, the shales of the Utsira Formation pervasively micro-fractured perpendicular to geological bedding, enabling rapid porewater escape during deglaciation.
+This fracturing is now responsible for the rapid migration of CO2 within the storage site.
+Five independent lines of evidence are considered to support this hypothesis:
+Firstly, reservoirs in the much deeper Sleipner hydrocarbon fields, both East and West, appear to be overpressured by about 10MPa (Wei et al., 1990; NPD, 2013).
+Secondly, a phenomenon known as the 'Oligocene-Miocene bump' appears to record a regional occurrence of 5-10MPa overpressure at about 1.3-1.5km depth in the Northern North Sea (Vik et al., 1998).
+There is no diagenetic reaction or hydrocarbon charge effect to explain such an overpressure.
+This suggests that both pressure phenomena are relicts from regional deglaciation events.
+Thirdly, seismic data for the Sleipner storage site locale display a number of discrete anomalies (pock marks, soft kicks, small chimney features) where sediment layering is disrupted, indicative of vertical gas migration in the Nordland Group shales (Zweigel, 2000; Nicoll et al., 2012).
+It is proposed that these shallow gas indications are relicts of natural gas leakage from the Utsira Formation during depressurization.
+Fourthly, observations of thirty nine deeper hydrocarbon fields across the North Sea show that thermogenic gas and condensates have leaked through caprocks to form diffuse zones hundreds of meters thick above the hydrocarbon reservoirs (Aplin et al., 2006).
+These seismic chimneys suggest that the leakage may be a regional manifestation of vertical micro-fractures created by the same transient depressurization phenomenon associated with ice sheet unloading.
+Finally, tectonophysical modeling of lithospheric flexure in response to the elastic deformation of the crust during glaciation and deglaciation (Grollimund and Zoback, 2000) indicates that the Sleipner region is currently in a state of horizontal extensional stress (5-15MPa at 2-3km depth) as a consequence of ice sheet unloading.
+Grollimund and Zoback suggest an explanation that is sympathetic to the hypothesis proposed here, i.e. the present-day unstressed hydrostatic pore pressure regime results from fracturing and pore fluid leakage: 'The stress decrease due to deglaciation might have brought horizontal compressional stress down to the existing pore pressure at the time when the stress decrease took place and parts of the fluids leaked away, leading to a pore pressure reduction' (Grollimund and Zoback, 2000).
+A recent, more detailed, analysis by Grollimund and Zoback (2003) includes the influence of ice sheet loading from 1Ma onwards, and a history of recent ice sheet melting events, with similar results.
+They determine that the common and widely observed indications of vertical fluid leakage from oil and gas fields within the region via faults or fractures is unlikely during glacial stages, but much more likely during regional deglaciations, with particular emphasis on events at 60ka and 15ka.
+It seems reasonable that these regional findings for paleo-stress, pore pressure, and fluid flow also apply to the Sleipner storage site.
+This combination of present-day overpressure observations, local vertical natural gas migration features and regional indications of pore pressure fluctuations associated with ice sheet-related lithospheric stress changes affirm the possibility of our inferred process for fracturing the Utsira Formation shales, both with respect to mechanism and magnitude.
+Discussion
+Successive seismic reflection surveys of the Sleipner CO2 storage site have shown by observation that the plume of injected CO2 at the Sleipner storage site has a geometry which reveals partial trapping beneath thin shales within the Utsira Formation.
+The flow modeling approach and analysis presented here suggest that the shale barriers have uncharacteristically low threshold pressures, enabling the rapid vertical migration of injected CO2 within the storage site.
+The inferred threshold of around 50kPa is much lower than the observed value of approximately 1.75MPa from core measurements by Springer and Lindgren (2006) and Harrington et al. (2009).
+However, it should be noted that standard methodologies for core sampling and threshold pressure measurements specifically avoid fractured samples, assuming such fractures to be indicative of drilling damage.
+As such, the influence of natural fracture networks on bulk shale threshold pressures is likely to be under-represented, if considered at all.
+The model results indicate that a definitive mass balance for the plume is difficult to ascertain given the inherent uncertainties in the data.
+However, a mid-range temperature profile and reasonable layer thickness estimate indicates that a mass balance for the plume is certainly possible.
+The modeled low shale barrier threshold pressures are potentially indicative of fracturing.
+However, the current pressure regime is extremely unlikely to cause fracturing, and so it is inferred that the shales may have been pervasively fractured in the past.
+A fracturing process consistent with the geological history of the region is that the shale barriers have undergone a transient pulse of fluid overpressure sufficient to fracture the rock.
+Such a pressure history could be a consequence of the rapid unloading of hundreds of meters of ice from the overburden during a deglaciation.
+A transient ice sheet load equivalent to 10MPa of overpressure could have been removed rapidly by melting, or instantly by a sea level rise and the flotation of an ice sheet grounded on the seabed, during a typical ablation timespan of less than a few thousand years.
+At the shallow burial depth of these shales, 10MPa is sufficient to exceed the tensional rock strength and cause pervasive hydraulic fracturing.
+This may have happened as a consequence of one or more regional ice sheet excursions into the basin.
+While the strength and thickness of the overburden at any given ice collapse is unknown, a conservative approximation for the fracture gradient, based on present-day leak-off tests (Nicoll, 2012), suggests that such an event is plausible.
+Two rival processes are acting on today's CO2 storage performance at this site.
+The first process, favoring retention, is the spreading and dispersal of the injected CO2.
+For this process, weak shale barriers within the storage formation are beneficial.
+These encourage the development of many thin layers of injected CO2, rather than one thick plume.
+This maximizes the surface area contact of CO2 to porewater within the formation while decreasing the column height acting on the caprock and minimizing the lateral spread of CO2.
+An increased surface area promotes the dissolution of CO2 in brine (Gilfillan et al., 2009), which results in permanent sequestration, as the slightly increased brine density causes the dissolved CO2 to descend away from the upper barrier surface (Arts et al., 2008).
+Solubility trapping is desirable as it eliminates the need to physically retain a lower density buoyant fluid; sequestration of CO2 by growth into new minerals is likely to be too slow in nature to effect trapping over the required timescale of hundreds-to-thousands of years (Wilkinson et al., 2011).
+The second process, opposing retention, is the vertical flow of CO2 which may be mediated by existing micro-fracture networks that span the shale barriers.
+This may be disadvantageous to CO2 storage for two reasons: firstly, because the CO2 is only partially spread laterally beneath the shale barriers, potentially resulting in a focused vertical flow path; secondly, because CO2 could potentially break through the caprock seal.
+Evidence from Sleipner indicates that the fracturing affects all the internal shale barriers including the uppermost 7m thick shale.
+This thick shale is geologically considered to be part of the overlying Lower Seal (Gregersen and Johannessen, 2001; Eidvin et al., 2013).
+Fracturing of the Lower Seal would be of particular concern, as the caprock acts as the primary seal for storage site.
+The question arises, has the caprock been fractured by the same deglaciation mechanism? And if so, do the observed chimney-like structures in the secondary seal within the vicinity of the storage site (Nicoll et al., 2012) contain vertical fracture networks that compromise the seal integrity? As yet, a percolation network of connected fractures through the much thicker shale sequences of the overburden has not been proven.
+Evidence against such a fracture network is the continued lateral migration of the uppermost CO2 plume at about 1m per day to the north (Chadwick et al., 2008), and the lack of seismic velocity changes observed in the caprock above the storage site, and within the Middle Seal, on successive 4D seismic surveys (StatoilHydro, 2009; Chadwick et al., 2009).
+This is encouraging, as even small amounts of CO2 gas added to the Lower Seal would result in a strong seismic reflection signal, given the strong density contrast between brine and gas for the pressure and temperature conditions of the overburden.
+These are reasonable grounds to assert that the caprock is a functioning seal that is significantly thicker than the underlying shales.
+If CO2 were to seep into the Lower Seal, then predictions of observable phenomena to be expected would include:(a)
+Stabilization or shrinkage of the upper plume layer on a timescale of years rather than decades, due to the seepage of CO2 via fractures rather than dissolution into the underlying formation.
+(b)
+Observable brightening and extending of seismic anomalies for the existing bright spots of natural gas pockets above and within the Lower Seal; 'lighting up' of existing seismic chimneys.
+(c)
+New 'soft kick' seismic anomalies appearing in the overburden as a consequence of gaseous CO2 ascending through micro-fractures and charging shallow sand bodies within the near future.
+(d)
+Ultimately, some form of surface expression at the sea floor, including pockmarking, seawater geochemical changes, bubble trains, and possibly behavioral changes in bottom-dwelling fauna.
+While none of these are apparent, or inferred at present (Pedersen et al., 2012), future monitoring of the Sleipner storage site could be directed toward testing such possibilities.
+Note that a significant increase in fluid pressure for aquifers and sand bodies above Utsira, a commonly cited detection criteria, is not expected due to the buoyant capillary-dominated nature of the flow and associated weak pressure differentials.
+Processes occurring in this storage site are relevant for all areas of the North Sea affected by regional ice sheets.
+The hydraulic fracturing of thin, shallow shale intervals during deglaciation could be a widespread feature beneath continental ice sheets.
+Similar processes may be expected to affect all northern hemisphere regions exposed to thick regional ice sheets in the past million years.
+Consequently, shales shallower than about 1.5km may be less effective primary seals than anticipated, but vertical stacking of multiple thin CO2 layers within storage formations is advantageous, as is the distribution of further CO2 layers beneath secondary seals within the storage complex, increasing the contact area with porewater and enhancing dissolution trapping.
+Dissolution uses more of the reservoir pore volume efficiently, and potentially increases site capacity relative to regional estimates of storage efficiency.
+However, a lack of understanding with respect to flow processes in the overburden will likely lead to conservative estimates of the secondary sealing potential and an underestimation of the important contribution of the overlying stratigraphy to the performance of a storage site.
+At the present time, in our opinion, the evidence from the very extensively analyzed geophysical data for Sleipner is compatible with retention of CO2.
+Conclusions
+The Sleipner CO2 storage site is an iconic carbon sequestration project and extraordinary fluid flow experiment in terms of the setting, nature and volume of fluid injected.
+This paper has documented a numerical modeling approach that results in a plausible CO2 distribution and mass balance estimate.
+Data acquisition and monitoring at Sleipner has been via remote geophysical sensing, primarily 4D seismic.
+As a consequence, a number of quite large uncertainties remain with respect to the observed plume distribution.
+The paper demonstrates the sensitivity of mass balance estimates associated with a poorly constrained temperature profile close to the critical point of CO2, and poorly constrained thickness estimates of the multiple thin layers that characterize the plume.
+With respect to simulations, it is noted that previous attempts to numerically model the plume have used software governed by Darcy flow physics, and achieved poor results.
+This paper presents an alternative approach that leads to a successful 3D simulation of the injected plume distribution using a model based on capillary flow and percolation physics.
+The paper carefully documents the modeling approach and justification for this unusual but effective method.
+The modeling indicates that the multiple layers of thin CO2 are likely a consequence of unexpectedly low threshold pressures for vertical migration through the shale barriers within the Utsira Formation.
+The estimated threshold pressures for CO2, at around 50kPa, are approximately 35-fold less than that measured on a sample of the caprock shale from well 15/9A-11, close to the site, at approximately 1.75MPa.
+This difference is most plausibly explained by microfracturing of the shale barriers, but CO2 injection at Sleipner is not considered to be a likely cause of fracturing.
+It is postulated that the fracturing occurred long before CO2 injection commenced, as a result of rapid pore pressure fluctuations associated with the collapse of thick ice sheets during multiple episodes of deglaciation in the region over the last million years.
+A number of independent observations are considered to support this hypothesis.
+Concerning seal integrity, the caprock and overlying Nordland Group shales of the Lower Seal may have also been fractured during deglaciation.
+However, it is noted that there is no evidence of CO2 leaking, possibly as a result of a different caprock response to CO2 retention, which is notably thicker than the thin shale barriers within the storage site.
+It is inferred that similar fracture networks within the primary seal are potentially only proximal to the formation, and may have limited percolation connectivity, preventing vertical migration through the overburden.
+Acknowledgements
+AJC was funded by the Scottish Funding Council.
+RSH was funded by the UK Energy Research Center, NERC, Scottish Power, and EPSRC (EP/F034520/1 and EP/K000446/1).
+We wish to thank Permedia for a license to use their software.
+We are also grateful to the Norwegian Petroleum Directorate archives for open-access.
+Much thanks to Grant Nicoll and Mark Wilkinson, University of Edinburgh, for helpful discussions.
+We sincerely appreciate the editorial work of Stefan Bachu, and constructive comments from the two anonymous reviewers.
+Surface datum is mean sea level.
+All measurements are in SI units unless stated otherwise.
+Geothermal gradient assumed linear between 41°C at 1012m (Bickle et al., 2007) and 35°C at 800m (Singh et al., 2010).
+Hydrostatic gradient, Pz=Pa+ρgz, the standard formulation (atmospheric pressure, 101.3kPa; gravitational constant, 9.81kg/m3).
+Pore water density, 1020kg/m3, assumed constant.
+CO2 interfacial tension, 27mN/m and CO2-pore water contact angle, 140°, assumed constant given reservoir temperature and pressure gradients, after published data (Shah et al., 2008; Bachu and Bennion, 2009).
+CO2 density 377-625kg/m3, from crest to injection point, calculated from Permedia PVT solver, based on a published equation of state (Huang et al., 1985).
+Sandstone porosity, 0.36±0.04 below the caprock.
+Sandstone porosity, 0.34±0.04at the base of the formation.
+Sandstone permeability assumed to be 1-5 darcy, after published data (Singh et al., 2010).
+Sandstone threshold pressure ∼10-20kPa (Sorkhabi and Tsuji, 2005).
+Sandstone CO2 saturation 0.80 (after a published Scw value of 0.2 (Bickle et al., 2007).
+Shale porosity, 0.30±0.02 assumed given depth.
+

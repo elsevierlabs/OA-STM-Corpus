@@ -1,0 +1,176 @@
+High performance inverted bulk heterojunction solar cells by incorporation of dense, thin ZnO layers made using atmospheric atomic layer deposition
+
+Abstract
+A thin ZnO (<200nm) film grown by Atmospheric Atomic Layer Deposition (AALD) in a matter of minutes was studied as a hole-blocking layer in poly(3-hexylthiophene-2,5-diyl):[6,6]-phenyl-C61-buyric acid methyl ester (P3HT:PCBM) based inverted solar cells.
+These AALD ZnO layers were compact, had a high electron mobility of 3.4+0.1cm2/Vs, had up to 100% transmittance to visible light, and a good wettability for the blend.
+Despite the very rapid, open atmosphere growth method, the cell performance was comparable with some of the best inverted bulk heterojunction P3HT:PCBM cells in the literature.
+The performance was also maintained after 200 days of storage in air in the dark.
+Graphical abstract
+Highlights
+•
+ZnO was deposited in under 5min using Atmospheric Atomic Layer Deposition (AALD).
+•
+AALD is a fast, ambient method that is compatible with roll-to-roll processing.
+•
+The AALD ZnO was used as the hole blocking layer in organic solar cells.
+•
+The devices had performances comparable with the highest reported in literature.
+•
+The low-temperature deposited AALD ZnO can be used in plastic substrate solar cells.
+
+Introduction
+Organic solar cells are a very promising, low cost and scalable alternative to conventional silicon-based solar cells [1-3].
+Some of the highest efficiency organic devices are thin-film polymer-fullerene bulk heterojunction junction (BHJ) solar cells [4,5].
+In BHJ devices, the p-type polymer and n-type fullerene are intimately mixed to form a nanoscale interpenetrating network, which improves charge separation by providing a large interfacial area, resulting in a significantly increased photocurrent [2,6].
+BHJ devices in the so-called 'inverted' structure improve the ease of fabrication because a stable, high work function anode can be used as the top contact to collect holes from the polymer [3].
+A transparent conducting cathode is used to collect electrons from the fullerene on the other side of the blend [7].
+However, in a BHJ device, the p-type and n-type materials would both be in contact with the cathode and anode, which results in recombination at the electrodes [8].
+At the anode, this has been overcome by inserting an electron-blocking layer, such as MoO3 [8,9], V2O5 [8,10], WOx [8] or the polymer PEDOT:PSS [8-10].
+At the cathode, TiO2 [9] and ZnO [1-3,7-10] have been used as hole blocking layers due to their low hole conductivity and high electron mobility [11].
+These oxides have been deposited using vacuum-based processes, such as conventional atomic layer deposition (ALD) [12,13], and also ambient processes, such as sol-gel [1,2] and electrodeposition [14].
+While ambient methods are attractive for the commercialisation of low-cost photovoltaics [1,2], most are batch processes, which limits their throughput.
+Recently, ALD11
+ALD is the abbreviation for Atomic Layer Deposition.
+ growth of oxides has been implemented under atmospheric conditions, which allows the oxides to be deposited rapidly, and which has high potential for implementing in a roll-to-roll process.
+This process is termed Atmospheric (or Spatial) Atomic Layer Deposition22
+AALD is the abbreviation for Atmospheric Atomic Layer Deposition.
+ (AALD) [15-18].
+AALD involves separating the precursors in space rather than time.
+This can be implemented in many ways [19].
+The system we have used involves a gas manifold and the process is schematically shown in Fig. 1 [19,20].
+The substrate moves through the metal precursor (M) and oxidant (O) gas streams beneath the AALD manifold, resulting in the oxide growing one monolayer at a time.
+The manifold is also in close proximity to the substrate (<100µm) to ensure laminar flow of the gas streams so that the inert gas channels (I) act as 'shields' to prevent oxygen ingress from the atmosphere and also to prevent the precursors from mixing together [19].
+The design of the manifold allows the two purge steps between oxidant/metal precursor exposures in conventional ALD to be eliminated, which enables more rapid depositions [16].
+In this work, we studied AALD ZnO as the hole blocking layer in the following device architecture: glass/ITO/AALD ZnO/P3HT:PCBM/MoO3/Ag.
+P3HT:PCBM was selected because it is well-studied and therefore suitable for investigating the AALD ZnO.
+MoO3 was also selected as the electron-blocking layer because we have used it successfully in the past, which allowed us to focus on studying the AALD ZnO, although a process more suitable for roll-to-roll processing, such as slot-die coating of vanadyl-triisopropoxide [10], would ultimately need to be used for large scale, high-throughput fabrication.
+In addition to charge selection, the AALD ZnO hole-blocking layer plays an important role in extending device lifetime through UV-filtering [15,21].
+The key property requirements of hole-blocking layers are: (i) compactness [1,2], (ii) high stability [1,2], (iii) high electron mobility [1], (iv) transparency to visible light [1,2,22], and (v) good blend wettability [22].
+Herein, we show that AALD ZnO fulfils all of these properties to give highly performing inverted BHJ devices.
+Experimental
+ZnO thin film deposition
+The soda glass substrates were of dimension 14mm×14mm×0.7mm and had 180nm of ITO (sheet resistance<10Ω/sq) coated on top (obtained from Praezisions Glas and Optik).
+These substrates were ultrasonically cleaned in acetone and isopropanol for 15min, successively.
+The AALD ZnO films were deposited onto two ITO substrates at a time, and the substrates held on a platen heated to 150°C.
+The platen was oscillated 50µm beneath the AALD manifold (heated to 40°C) at 50mm/s, with almost no delay between each cycle.
+Diethylzinc (Sigma-Aldrich) was used as the Zn precursor and H2O as the oxidant.
+Nitrogen gas was bubbled through the H2O at 50mL/min, and 25mL/min through the diethylzinc.
+The diethylzinc vapour was mixed with the nitrogen gas flowing at 150mL/min through the metal precursor line, which was fed to the AALD manifold.
+The H2O vapour in nitrogen gas was also mixed with nitrogen gas flowing at 150mL/min through the oxidant line that was fed to the AALD manifold.
+Nitrogen gas was also directly fed to the AALD manifold at 750mL/min to provide the inert gas channels needed to prevent mixing between the diethylzinc and H2O.
+The number of oscillations of the platen beneath the AALD manifold used were: 15, 40, 60, 80, and 125.
+From cross-sectional SEM, it was found that the film thickness (in nm) was approximately equal to the number of oscillations.
+The films deposited were crystalline in the as-deposited state, but post-annealing at 300°C for 1h was undertaken to further improve the crystallinity.
+Solar cell fabrication
+P3HT (poly(3-hexylthiophene-2,5-diyl), Rieke) and PCBM ([6,6]-phenyl-C61-buyric acid methyl ester, Sigma Aldrich) were each mixed in separate vials of chlorobenzene.
+Both had a concentration of 41.73mg/mL.
+Each vial was stirred for 2h at 800rpm and 60°C in the dark.
+The two solutions were then mixed together and stirred overnight.
+The AALD ZnO coated substrates were heated at 120°C for 10min and 150μL of the P3HT:PCBM blend was then spin-coated on the films at 600rpm for 6s, followed by 1000rpm for 60s.
+Afterwards, the samples were annealed at 150°C for 15min.
+The spin-coating equipment used was a Chemat Technology Spin-coater KW-4A.
+A strip of Kapton polyimide tape was put onto the bottom of the cell, and a strip etched off the top to expose the back ITO contact (Fig. 2).
+Three rectangular 4nm thick MoO3 contacts 0.15cm2 in area were evaporated onto the top of the blend, and 80nm of Ag evaporated on top of that.
+Both were evaporated sequentially in a glovebox evaporator.
+A drop of silver paste was then put on each contact, on the edge of the Kapton tape, as shown in Fig. 2.
+The grey arrows in Fig. 2 indicate where the pins of the solar simulation holder were in contact with the device.
+Characterisation
+Solar simulations were done using a Newport Oriel class A solar simulator with AM 1.5G filters.
+The light intensity was 100mW/cm2.
+A mask was used to accurately define an illumination area of 0.15cm2 for each cell.
+Cross-sectional SEM was done using a LEO VP-1530 field emission scanning electron microscope.
+Energy-dispersive X-ray spectroscopy (EDX) was done using this SEM with an Oxford Instruments detector, cooled with liquid nitrogen.
+Dektak profilometry was also used to measure the thickness of AALD ZnO films by etching a strip off the film using 10vol% hydrochloric acid and measuring the step height.
+The carrier properties of the thin film were measured with the Van der Pauw method using a Hall effect rig detailed in Refs [18] and [23].
+Firstly, the film was etched to a Greek cross with arms 2mm wide and 6mm long to reduce errors due to the finite size of the contacts.
+Indium pads were then put on the ends of the arms of the crosses and steel wires attached to the indium pads using Wood's metal.
+A Keithley 6220 current source and 2182A Nanovoltmeter were used to measure the sheet resistance.
+Hall effect measurements were then done using the same current source and Nanovoltmeter, in addition to a pair of magnets that applied a constant 1T field through the sample.
+From the Hall voltage measured, in addition to the measured sheet resistance, applied current and film thickness, the mobility of the film was determined.
+The X-ray diffraction patterns of the films were obtained with a Bruker D8 theta/theta system, using CuKα radiation (wavelength of 1.5406Å).
+A LynxEye position sensitive detector was used.
+The divergence slit was 1o, step size 0.04o and dwell time 2.5s.
+Atomic Force Microscopy (AFM) topography images of the films were obtained using a Veeco Dimension 3100 AFM system in TappingModeTM.
+Film transmittance was measured using UV-visible spectrophotometry.
+The device stability was determined by storing the devices at open-circuit under ambient conditions (~20°C, ~75% relative humidity) in the dark and characterising the device performance after 200 days using the solar simulator with AM 1.5G filters and 100mW/cm2 light intensity.
+This was similar to an ISOS-D-1 Shelf test, with the only deviation being that the characterisation was only done after 200 days rather than every week [24].
+Results and discussion
+Film compactness and device performance
+Compact films without pinholes or discontinuities were produced.
+This can be seen from the cross-sectional SEM image in Fig. 3a and the top-down topography image in Fig. 3c.
+By comparing Fig. 3c with 3d (bare ITO), it can be seen that the AALD ZnO film was also conformal to the ITO substrate, since the topography of the ITO can still be seen in the 80nm thick AALD ZnO film.
+The X-ray diffraction patterns in Fig. 3b showed only sharp ZnO peaks in both unannealed and annealed films, indicating high crystallinity and phase purity (to within the limits of the X-ray technique).
+Previous X-ray Photoelectron Spectroscopy measurements of ZnO films made using this AALD system have shown no significant traces of contaminants, other than the intentionally introduced dopants [25].
+EDX measurements on the films in this work (Fig.
+S1 in the supplementary material), have also not shown any detectable contaminants.
+The J-V curve of the best performing device is shown in Fig. 3e.
+This device was obtained using 125nm thick AALD ZnO (deposited in only 4.5 min) and tested one week after manufacture.
+This cell had a power conversion efficiency (PCE or η) of 3.6%, open-circuit voltage (VOC) of 0.602V, short-circuit current density (JSC) of -10.2mA/cm2 and fill factor (FF) of 59%.
+These performance values are comparable with the best performing inverted BHJ P3HT:PCBM devices with ZnO hole-blocking layers deposited using conventional vacuum-based ALD, sol-gel and electrodeposition [3,7,8,12,13].
+Also, the high VOCs and FFs clearly indicate at a high quality hole-blocking layer.
+The device parameters (VOC, JSC, PCE and FF) were found to be fairly constant for AALD ZnO films with a thickness of 40nm or more (Fig. 4a-c).
+This indicates that films of 40nm thickness have high compactness, despite the rapidity of the depositions: it only took 1.5min to deposit films of this thickness with excellent hole-blocking properties over a 15cm2 area.
+The thinness of an effective AALD ZnO layer and the short time of deposition are significant for industrial scalability, because it means that an effective hole-blocking layer could be obtained rapidly with very little material.
+Indeed, AALD is advantageous compared with conventional vacuum-based ALD, sol-gel and electrodeposition.
+This is because the AALD oxide can be grown around an order of magnitude faster than standard ALD and does not require a vacuum [19], and also the method is amenable to roll-to-roll processing while sol-gel and electrodeposition are not.
+Furthermore, whereas sol-gel often requires ageing of the precursors for a day or more [26], AALD precursors are fast reacting and can be used as-obtained, without requiring any ageing or further treatment for a compact ZnO film to be deposited.
+This ZnO film is already compact and crystalline (shown by the XRD pattern for the unannealed film in Fig. 3b), and does not require any further ageing before the blend can be deposited on top.
+Also, whereas electrodeposition requires careful optimisation of the electrolyte composition and pH [8], the optimistion of the AALD deposition conditions is relatively facile.
+Another positive attribute of using AALD growth for blocking layers is its good potential for coating flexible, polymer substrates.
+As mentioned in Section 2.1, the deposition temperature was 150°C and the post-annealing temperature was 300°C.
+These both are lower than the typical annealing temperatures of 350-600°C needed to adequately crystallise the sol-gel films [1,17,22,26].
+While the 300°C post-anneal is tolerable for growth on polyimides [27], it is not for lower melting polymers, such as polyethylene napthalate (PEN) [28] and polycarbonate (PC) [29].
+The post-annealed films are therefore not suitable for coating a wide range of flexible substrates.
+From an energy minimisation point of view, it is also advantageous to eliminate any post-annealing steps.
+Comparative cells of unannealed and annealed ZnO were made to study the amount of post-annealing needed to optimise the device properties so that they are suitable for use in plastic substrate solar cells.
+In addition to post-annealing at 300°C, we have also investigated post-annealing at 150°C.
+It was found that without annealing, the average efficiency was 1.7+0.2%.
+The efficiency increased with the post-annealing temperature of the 125nm thick AALD ZnO film due to an increase in the fill factor and open-circuit voltage, as can be seen in Table 1 and the J-V curves in Fig. 5.
+In order to meet the requirement for flexible device manufacturing, the post-annealing temperature should not exceed the upper working temperature of the plastic substrate.
+For PEN, this is 155°C, while those of other common plastic films, such as polyethylene terephthalate (PET) and PC are lower [28,29].
+Post-annealing at 150°C is therefore most suitable for plastic substrate solar cells because this improves the device performance compared with no annealing (from 1.7+0.2% to 2.4+0.5%), and yet the processing does not damage the plastic substrates.
+Also, since the AALD ZnO films were deposited at 150°C, it is not expected that post-annealing at temperatures lower than 150°C would significantly improve the device performance, especially considering the cost of the increased processing time and increased energy requirement.
+Thus, the AALD not only has significant commercial potential because it can deposit compact oxide films rapidly in open atmosphere, but it is also highly compatible with the high throughput roll-to-roll deposition of the oxide on large area plastic substrates.
+Stability
+Device stability is an extremely important factor for commercialisation [7].
+The devices with annealed AALD ZnO and the MoO3 electron blocking layers were kept at open-circuit in the dark under ambient conditions and re-measured after 200 days in a test similar to an ISOS-D-1 Shelf test [24].
+It can be seen in Fig. 4 that there was no statistically significant change in the device performance after this period.
+The result shows that the AALD ZnO is chemically and structurally stable because if it were not, the blend would have come into contact with the ITO, leading to recombination and a deterioration in device performance [8].
+Hole blocking layer electron mobility
+The electron mobility of spin-coated ZnO nanoparticles used for hole-blocking layers has been reported to be 0.066cm2/Vs [1,30].
+The as-grown AALD ZnO films of this work had two orders of magnitude higher electron mobility of 3.4+0.1cm2/Vs, which is consistent with the high compactness of the films.
+This would have allowed the electrons that reached the AALD ZnO layer to be rapidly transported to the cathode.
+However, the blend layer dominated the series resistance due to the much lower mobilities of the organic materials (10-5-10-3cm2/Vs) [31,32].
+This can be seen from the series resistances of the devices which do not significantly change for different thicknesses or storage time (Fig. 4d).
+Transmittance
+The ZnO hole-blocking layer should also allow visible light to pass through to the blend, but filter out the UV light to prevent blend degradation and thus improve device longevity [15,22].
+Transmittance measurements of annealed 15nm and 125nm thick AALD ZnO films on glass are shown in Fig. 6.
+Background measurements on glass only were performed to account for reflection and absorption by the glass.
+The onset of absorption occurred at a wavelength of 360nm (band gap of 3.4eV, as expected for ZnO), and the films had high transmittance for visible wavelengths.
+For wavelengths between 390nm and 700nm, the annealed 15nm film had an average transmittance of 96%, and the annealed 125nm film 92%.
+Both the 15nm and 125nm films had transmittances up to 100%.
+Below the onset of absorption, the transmittance of the 125nm film (8% on average) was much lower than that of the 15nm film (65% on average) due to there being more absorbing material, as expected.
+These results compare well with the literature, where transmittances are typically 55-100% for visible wavelengths and 20-60% for wavelengths below the onset of absorption [14,22,33], indicating that the smooth, compact ZnO layer admits visible light well to the blend and that the thicker ZnO films are especially effective at limiting UV light transmission.
+The high transmittance of visible light by the AALD ZnO films is also consistent with the JSC of the best device being comparable with the highest values from literature.
+Film wettability
+Good wettability is desirable for the AALD ZnO so that the contact area with the blend and the fraction of photogenerated charge in the PCBM that is collected are both maximised [22].
+Good wettability, in addition to compactness, should lead to high fill factors and VOCs because of good contact between the blend and the hole-blocking layer [34].
+From Fig. 3a, it can be seen that the blend has very good contact with the AALD ZnO layer to the extent that there was no delamination even after fracturing for cross-sectional SEM.
+This led to high VOCs of ~0.6V (Fig. 4a) that were comparable with the highest values in the literature for inverted BHJ P3HT:PCBM devices [3,7,8,12,13].
+The fill factors were also high and averaged around ~50% (Fig. 4c).
+The fill factor of the best device was also comparable with the highest values in the literature for inverted BHJ P3HT:PCBM devices [3,7,8,12,13].
+Conclusions
+We have shown that inverted BHJ devices made with rapidly grown ZnO hole blocking layers using atmospheric atomic layer deposition (AALD) give device performances that are comparable with the best inverted P3HT:PCBM BHJ devices reported to date.
+Working devices with good, but lower performance were obtained without any post-annealing of the as-grown AALD ZnO.
+On the other hand, these unannealed AALD ZnO films are suitable for making flexible, plastic substrate solar cells.
+A compromise between device performance and suitability for making plastic substrate solar cells was achieved by post-annealing the ZnO films at 150°C.
+The AALD ZnO fulfils the properties required for good hole blocking layers: the films are compact, have a high electron mobility, have up to 100% visible light transmittance, good blend wettability and very good device stability over time.
+In addition, the deposition process occurs under atmospheric conditions and has the potential to be implemented in a roll-to-roll process.
+AALD ZnO films are therefore highly suited as multifunctional components for inverted BHJ devices.
+Acknowledgements
+The authors would like to thank the Cambridge Commonwealth Trusts and the Rutherford Foundation of New Zealand, the ERC Advanced Investigator Grant, Novox, ERC-2009-adG 247276, EPSRC of the UK, Girton College (Cambridge), the Marie Curie program (FP7/2007-2013, grant agreement number 219332) and the Comissionat per a Universitats i Recerca (CUR) del DIUE de la Generalitat de Catalunya, Spain.
+Supporting information
+Supplementary data associated with this article can be found in the online version at 10.1016/j.solmat.2013.04.020.
+Supplementary materials
+Supplementary Material
+

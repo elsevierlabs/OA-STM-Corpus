@@ -1,0 +1,447 @@
+Energy distribution asymmetry of electron precipitation signatures at Mars
+
+Abstract
+The different types of asymmetry observed in the energy distributions of electrons and heavy-ions (M/Q=16-44) during signatures of electron precipitation in the Martian ionosphere have been classified.
+This has been achieved using the space plasma instrumentation of MEX ASPERA-3 from peri-centre altitude to 2200km.
+ASPERA-3 ELS observes signatures of electron precipitation on 43.0% of MEX orbits.
+Unaccelerated electrons in the form of sudden electron flux enhancements are the most common type of electron precipitation signature at Mars and account for ∼70% of the events observed in this study.
+Electrons that form unaccelerated electron precipitation signatures are either local ionospheric electrons with enhanced density, or electrons transported from another region of ionosphere, solar wind or tail, or a combination of local and transported electrons.
+The heating of electrons has a strong influence on the shape of most electron energy spectra from accelerated precipitation signatures.
+On most occasions the general flow of heavy-ions away from Mars is unchanged during the precipitation of electrons, which is thought to be the result of the finite gyroradius effect of the heavy-ions on crustal magnetic field lines.
+Only ∼17% of events show some form of heavy-ion acceleration that is either concurrent or at the periphery of an electron precipitation signature.
+The most common combination of electron and heavy-ion energy distributions for signatures of electron precipitation involves electrons that visually have very little asymmetry or are isotropic and heavy-ions that have a upward net flux, and suggest the upward current associated with aurora.
+Due to a lack of reliable measurements of electrons travelling towards Mars, it is likely we miss further evidence of upward currents.
+The second most common combination of electron and heavy-ion energy distributions for signatures of electron precipitation, are those distributions of electrons that are asymmetric and have an net upward flux, with distributions of heavy-ions that also have a net upward flux.
+Energy distributions of heavy-ions with a net flux towards Mars occur half as often as heavy-ions with an upward net flux.
+There is also evidence to suggest we observe downward currents during electron precipitation signatures when we find energy distributions of electrons that are asymmetric and have an upward net flux, combined with energy distributions of heavy-ions that have a downward net flux.
+Wave particle interactions and downward parallel electric fields may be responsible for electrons that display a large amount of asymmetry in the upward direction of the energy distribution and have a upward net flux.
+Highlights
+► We use ASPERA-3 to classify particle asymmetries during electron precipitation at Mars.
+► Most common type of energy distribution is of isotropic electrons and upward heavy-ions.
+► Distributions suggesting upward currents observed four times more than downward currents.
+► Heavy-ion flow at Mars mostly unaffected by electron precipitation due to finite gyro-radius.
+► Acceleration of heavy-ions is rarely observed during electron precipitation.
+
+Introduction
+Since the discovery that Mars has the remanent magnetisations of an ancient dynamo imprinted on its crust (Acuña et al., 1998), it has been conceivable that the otherwise non-magnetised planet could host mechanisms that energise plasma and accelerate particles, typically related to planets with strong intrinsic magnetic fields.
+Indeed, in 2005 the Mars EXpress (MEX) Spectroscopy for the Investigation of the Characteristics of the Atmosphere of Mars (SPICAM) Ultra-Violet (UV) spectrometer (Bertaux et al., 2004) made the first observations of localised auroral emissions from the nightside atmosphere of Mars over regions of strong crustal magnetic fields (Bertaux et al., 2005).
+Further processes akin to a planet with a strong dipole magnetic field have been found in observations of magnetic reconnection (Eastwood et al., 2009; Halekas et al., 2009), and flux rope formation at Mars (Brain et al., 2010; Morgan et al., 2011).
+The processes that occur at the low altitudes of the Martian ionosphere and also in the region of the crustal magnetic fields are far from being understood.
+As a result, little is known about the mechanisms responsible for the aurora that have been observed in the Martian atmosphere.
+In the case of planets with global dipole magnetic fields, such as the Earth, Saturn and Jupiter, auroral emissions occur as a result of atoms and molecules in the respective atmospheres undergoing excitation after collisions with precipitating electrons (McIlwain, 1960).
+At the Earth auroral emissions appear in either diffuse or discrete forms.
+The former results from electrons typically of plasma sheet origin moving along the Earth's magnetic field until contact is made with the upper atmosphere.
+The precipitation of electrons from the plasma sheet is thought to occur mainly from pitch angle diffusion as particles interact with electrostatic electron cyclotron harmonic (ECH) waves (Johnstone et al., 1993; Villalón et al., 1995) or the scattering of electrons by whistler mode waves (Lyons et al., 1974; Horne and Thorne, 2000).
+The sharp, bright and discrete form of aurora occurs when the electrons responsible for the auroral emissions have been accelerated.
+The type of acceleration most explored in research involves a quasi-static field-aligned potential drop that accelerate electrons over a narrow range in energy, thus forming what is known as a mono-energetic peak.
+The potential drop facilitates electrons transported over large distances via an upward current to reach the low altitudes where auroral emissions take place (Gurnett and Frank, 1973).
+It has been established that this process occurs as part of a larger current system that closes through the Pedersen and Hall currents in the ionospheres and a return parallel current to a dynamo at higher altitudes (Johansson et al., 2006).
+These current systems are responsible for transporting large amounts of energy and momentum within the magnetospheres of the magnetised planets and is therefore of great importance.
+For Earth and Saturn, the current system is powered by an external dynamo in the solar wind and for Jupiter the source is internal to the planet's magnetosphere.
+Acceleration of electrons can also be observed over a wide range or broad band of energies, as associated with dispersive Alfvén waves (DAWs) (Ergun et al., 1998; Chaston et al., 2003).
+For the Earth, modelling by Newell et al. (2009), shows that diffuse aurora may account for 70% of the precipitating particle energy flux into the high-latitude ionosphere.
+SPICAM observes an auroral signal as a sudden increase in the intensity of the nightglow from the Martian atmosphere.
+Leblanc et al. (2006) have calculated this is most probably produced by electrons with a peak energy of a few tens of eV and not by electrons that have been accelerated.
+This would suggest the aurora at Mars is more comparable to the Earth's diffuse aurora.
+Studies by Haider et al. (1992, 2007) and Seth et al. (2002), support such a possibility by demonstrating nightglow emissions at Mars would occur from the precipitation of unaccelerated solar wind electrons onto the atmosphere.
+However, evidence has been mounting that the UV emissions observed by SPICAM at Mars could also be associated with similar processes that occur in regions of the cusp/polar magnetic field of the Earth during discrete aurora.
+The first such example was of peaked electron distributions on open magnetic field lines indicative of acceleration by a current system similar to that found during the Earth's discrete aurora (Brain et al., 2006).
+This was followed by the detection of an "inverted-V" shape in the energy-time distribution of electrons and ions, with electrons moving downward and ions upward in the high altitude deep shadow of Mars, indicative of acceleration and the current from a parallel electric field (Lundin et al., 2006a).
+Further observations then revealed density depletions alongside peaked electron distributions and beams of O+ ions that have a missing cold component, indicative of long-lived active auroral type flux tubes (Dubinin et al., 2009).
+Despite the similarities in the properties of accelerated particles found at Mars and the Earth, there is a great amount of uncertainty as to whether the observations at Mars are the result of a direct analogy with the auroral current systems of the Earth.
+This is due to the difference of the Martian ionosphere, which has high values of Pedersen conductivity.
+Modelling by Dubinin et al. (2008b) shows that the high conductance of the Martian ionosphere would leave the electric currents that couple the Martian ionosphere and the induced magnetosphere prone to short circuit.
+Previous attempts were made by Leblanc et al. (2008), to compare UV observations of Martian aurora by SPICAM in its nadir orientation with in situ electron and ion measurements by MEX Analyzer of Space Plasmas and Energetic Atoms (ASPERA-3) Electron Spectrometer (ELS) and Ion Mass Analyzer (IMA) instruments and electron content as measured by the MEX MARSIS Radio Sounder.
+The study found a very good correlation between the locations of aurora with regions that were least probable to be on closed field lines from the crust, as well as a simultaneous correlation to increased electron content and precipitating electron flux at these locations.
+However, the SPICAM observations of the aurora did not show any corresponding ion signal from IMA measurements.
+This was possibly due to the lack of complimentary viewing direction between that of the SPICAM instrument with the aperture plane of IMA.
+Previous studies of "inverted-V" signatures using ELS and IMA were restricted by an earlier energy table of IMA before May 2007, which did not adequately resolve ion measurements below 50 eV.
+As a result, possible observations of heavy planetary ions as they begin to accelerate from low altitudes were missed.
+Without observing ion beams in conjunction with SPICAM UV observations of Martian aurora or in the low altitudes regions associated with the aurora, it is not possible to assess the current systems responsible for the Martian aurora and therefore to know with certainty that a similar mechanism for creating aurora at the Earth is present at Mars.
+Hence, this paper will survey accelerated and unaccelerated electron signatures of electron precipitation as could lead to the Martian aurora, to assess the different mechanisms that lead to electron precipitation.
+Using the ASPERA-3 ELS and IMA instruments we will compare the energy distributions in differential energy flux (DEF) of electrons and heavy-ions at the times of these signatures.
+The study will make use of IMA's updated energy table that allows for increased energy resolution of ion measurements below 50eV.
+By comparing the energy distributions of electron and heavy-ions with the new energy table of IMA, we will search for evidence of upward flowing ion beams from peri-centre altitude, ∼275km, up to altitudes of 2200km and further evidence of Earth-like auroral acceleration processes and current systems around Mars.
+A study by Nilsson et al. (2012), of average ion distribution functions around Mars, shows that there is a general outflow of ions from the Martian ionosphere, with greater amounts of cold plasma close to the planet.
+On average, ions are observed flowing away and towards Mars.
+In this study, we will look at the combination of energy distributions of electrons and heavy-ion during signatures of electron precipitation and will attempt to classify different types of particle distribution asymmetries.
+Instrumentation
+We present data from the ELS and IMA, the two plasma instruments on MEX ASPERA-3 (Barabash et al., 2004), to study the energy distributions of electrons and heavy-ions during signatures of electron precipitation at Mars.
+ELS is a compact spherical top-hat electrostatic analyzer and collimator system, and measures electrons in the energy range of 1-20keV with an energy resolution of ΔE/E=8%.
+ELS has a time resolution of 4s, which it takes to complete a sweep of 128 energy levels.
+The intrinsic field of view for ELS is 4°×360° and is divided in to 16×22.5° sectors.
+ELS is located on the ASPERA-3 main unit, which uses a rotating platform to perform scans over different scanner angles.
+For the first 2 years of MEX operation, the scanner did not move from its launch configuration, which was at a scanner angle of 90°.
+Since the scanner motion and for the purpose of this study, most data is obtained with the scanner offset angle of 10°.
+In this position the ELS sector 0 and sectors 12-15 look out over the spacecraft.
+The effect is that these anodes give less integrated flux of electrons compared to unobstructed anodes when observing what should be an isotropic feature of electrons.
+For the purpose of this study, we have chosen to interpolate across the spacecraft viewing ELS sectors rather than exclude the data.
+This is to compensate for the bias that would result from having sectors with no observations of electrons.
+IMA measures ions of energies 0.01-40keV/q for the main ion components H+, H2+, He+ and O+, and the group of molecular ions (20-80amu/q).
+IMA measures ions using a deflecting electrostatic analyser system to resolve the energy of the incoming ions and then uses a magnetic filter, which deflect and separate ions over 32 mass channels.
+The intrinsic field of view for IMA is 4.6°×360°, which is divided into 16, 22.5° sectors.
+IMA also uses electrostatic sweeping to take measurements from 16 polar angles that vary in elevation between ±45°.
+IMA completes a full 3-D sweep of 96 energy levels in 192s.
+Only heavy-ions are examined since IMA does not measure protons at energies below 700eV-1keV in standard instrument modes.
+We do not expect the results to be affected by missing lighter-ion measurements.
+This is because the electric field suggested by previous studies to be present during electron precipitation will accelerate different mass particles to the same energy.
+Therefore, if we do not observed acceleration in the heavy-ions, we do not expect acceleration to occur for the lighter-ions.
+Observations
+Our study covers two time periods after IMA started measuring below 50eV, from 25th June 2007 to 31st March 2008 and 1st November 2009 to 31st July 2010 (18 months).
+The signatures of electron precipitation were visually selected from hour long ELS energy-time DEF spectrograms of electrons, centred on closest approach of the spacecraft.
+As such, the altitude coverage for this study ranged from 2200km to the MEX peri-centre altitude of 275-300km.
+Fig. 1 shows the accelerated and unaccelerated signatures of electron precipitation used in this study.
+Each panel on the left shows an ELS spectrogram centred in time on the example signature.
+The colour of each spectrogram gives the DEF of electrons as averaged over all ELS sectors.
+Also shown is the altitude of MEX and the energy of the peak in DEF.
+The bar at the top of each panel gives the duration for each electron signature.
+The right of the figure compares the energy spectrum averaged over the duration of the electron signature with energy spectra from the ionosphere, wake, tail, solar wind and the induced magnetosheath.
+Throughout this paper, we will compare the energy spectra of the electron signatures with spectra from the different regions of the Mars solar wind interaction.
+In addition, we also compare to Maxwellian distributions that are modelled on the position of the main peak of the energy spectrum of the electron signature.
+The first distribution is referred to as the heated model (dotted line) since the accelerating potential is kept at 0eV and the electron temperature (Te) is increased until a curve of best fit is found.
+The second distribution is referred to as the heated/accelerated model (dotted and dashed line) as we decrease the electron temperature and increase the accelerating potential to create a best fit curve.
+The third distribution is referred to as the accelerated model (dashed line) as the electron temperature is decreased to a minimum and the accelerating potential is increased until the peak DEF of the model is shifted to the same energy as the measured peak DEF.
+When plotted in phase space density (PSD) (s3/km6), the lack of a low energy component to the modelled spectra after being shifted in energy by the accelerating potential, causes the model spectra to diverge with greater PSD than the measured spectra at the peak energy.
+To reduce this divergence in PSD, a second less accelerated or unaccelerated population of electrons with energy lower than the accelerating potential must be added to the spectra of the accelerated model.
+Hence, we have also plotted the DEF from adding together the heated model to the accelerated model (grey line).
+Comparing the different Maxwellian distributions should indicate whether the energy spectrum of the electron signature consists of electrons that have been accelerated, only unaccelerated electrons, electrons that have had some acceleration and some heating or the combination of a population of accelerated electrons and a population unaccelerated and possibly heated electrons.
+The first panel of Fig. 1 shows an example of a peaked electron distribution.
+The time interval of the ELS spectrogram is 12min, revealing a clear "inverted-V" structure over a 2-min interval at the centre of the spectrogram.
+The DEF energy spectrum at the right shows a positive gradient below the energy of the peak, which is at approximately 60eV.
+This corresponds to a peak of similar energy when the energy spectrum is plotted in PSD, but is not shown here.
+By comparing the energy spectrum of the electron feature to those from the different regions around Mars we find the origin is most likely from the solar wind.
+Comparing to the modelled Maxwellian distributions show the presence of an accelerated peak as well as an added contribution of heated electrons.
+This indicates the electron feature could be some way between penetrating solar wind and magnetosheath electrons.
+Evidence of electrons being accelerated and heated has been found in previous analysis of "inverted-V" electrons and is observed as preferably transverse to the magnetic field at low altitudes (Lundin et al., 2006b; Dubinin et al., 2009).
+The second panel shows 20min of data and provides an example of an "inverted-V" signature.
+The difference to a peaked electron signal is that the signature lasts for a longer time period of almost 10min.
+Its energy spectrum peaks in DEF at 300eV and at a similar energy in PSD.
+The energy spectrum is comparable with a typical observation from the induced magnetosheath.
+The spectrum also contains a population of secondary electrons and a small peak close to the photoelectron peak of the ionospheric spectrum at ∼17-18eV.
+When plotted in units of flux instead of DEF we find similar characteristics to the spectra of a low-altitude "inverted-V" as reported by Lundin et al. (2006a,b), where electrons with energy greater than the energy of the peak flux are those of the accelerated primary electrons, below this energy is degraded primary and backscattered electrons and at lower energies are secondary electrons caused by impacting primary electrons.
+However, we are unable to reproduce the main peak of the measured distribution using the accelerated or heated model alone and also when using the superposition of these two model distributions.
+Therefore, the "inverted-V" primary electrons are not only accelerated but also heated, such that a distribution between the heated and the heated/accelerated model would best represent the measurements.
+The third panel down shows another example of an "inverted-V" signature.
+However, this subset of "inverted-V" displays a more bursty appearance and a more intense enhancement in DEF of electrons.
+The energy of the peak DEF is also highly variable in time and sometimes displays a broader peak in DEF than is found with a typical "inverted-V".
+When averaged over the duration of the signature, the energy spectrum on the right shows the combination of spectra with different peak energies since they are changing in time.
+As in the first example of an "inverted-V", the energy spectrum shows two populations of electrons with a peak energy of 20eV and at 300eV, however in this case the secondary population is of comparable DEF to the main peak.
+In PSD the peak energies show up at ∼20eV and between 300 and 400eV when plotted in PSD.
+By comparing to the modelled distributions we see that the high energy peak compares more closely to the heated model than the sharp peak produced by the most accelerated model.
+Although some acceleration is needed to better represent the measurements, the extent in comparison to the amount of heating is a lot less than examples reported in previous studies.
+Such strong heating is evidence of wave-particle interaction, which in-turns contributes to the level of degraded primaries, backscattered and secondary electrons and may cause the larger intensities of secondary electrons (Lundin et al., 2006b).
+Similar bursty events were found on a number of orbits close to each other near the end of 2007.
+The orbits all had a similar orientation around the dusk terminator and peri-centre at southern latitudes.
+Most of the events were found near the edges of the crustal magnetic field regions.
+Some of the events occurred alongside strong beams of heavy planetary ions and ions in the M/Q=2 IMA mass channel.
+The ions were accelerated to similar energies as the electrons indicating acceleration by an electric field.
+A more detailed description for each of these events is beyond the scope of this paper and will be addressed in future work.
+It is important to note that one of the events on 19th November 2007 had been reported by Dubinin et al. (2008c), (Fig. 9 of the paper) as possibly due to the crossing of a plasma sheet or current sheet.
+Indeed, the bursty "inverted-V" signature have a similar appearance as electrons observed by the Mars Global Surveyor (MGS), Electron Reflectometer (ER) during current sheet crossings (Halekas et al., 2006).
+The bursty appearance also lends itself to comparisons with electron bursts observed at the Earth that form within the Alfvén acceleration region of the aurora (Paschmann et al., 2002) or as a result of the outflow from a reconnection X-line that are responsible for Alfvén jets (Paschmann et al., 1979).
+The fourth panel shows a further subset of "inverted-V" events where ELS observes electrons >1000eV, with low-to-medium DEF.
+This is illustrated in right hand energy spectrum where there is a peak DEF at ∼1000eV, as well as a secondary population of electrons with a peak DEF close to 10eV.
+The shape for this portion of the energy spectrum is closest in appearance to electrons from the tail.
+However, the overall shape of the spectrum is also close to that of the bursty "inverted-V" signature shown in the third panel.
+Comparing to the modelled spectrums shows that the heated model alone is capable of reproducing the higher energy peak without the need of acceleration to shift the spectrum.
+As in the previous example, this suggests wave-particle interactions are involved in the heating of electrons and also in the generation of a secondary electron population.
+Electrons characterised by such fluxes and energies sometimes appear as spikes as in this example, or are found as a more extended feature in time and accompany a more typical "inverted-V" event, for example to the left and right of the "inverted-V" shown in the second panel.
+A more detailed examination of these events will be left for future work.
+The fifth panel down shows our final signature of electron precipitation of two electron spikes characterised by their low-to-medium DEF and close occurrence to the cusps of crustal magnetic fields.
+The electron spikes typically peak in DEF at suprathermal energies (few tens of eV) and include a photoelectron peak, which indicates a connection to the ionosphere.
+This is demonstrated by the right hand energy spectrum where the peak in DEF occurs at the same energy as the photoelectron peak found in the ionosphere.
+Similar electron spectra have already been reported by Frahm et al. (2006).
+Comparing to the Maxwellian distribution shows this electron signature is unaccelerated as it was not necessary to use acceleration to reproduce a best fit spectrum.
+However, the electron spikes displayed here are characterised by a greater DEF at higher energies than an energy spectrum found in the ionosphere, and is comparable in form to electrons from the wake and tail.
+Our study also includes the electron spikes that only involve electrons ≤ 40eV, which are found at the cusps of the crustal magnetic fields between the electron voids contained within closed crustal magnetic fields (Mitchell et al., 2001; Soobiah et al., 2006).
+From ∼18 months of peri-centre data, we have found 157 events of peaked electrons, 22 events of "inverted-V" electrons, 15 events of bursty "inverted-V" electrons (subset-1), 17 events of subset-2 "inverted-V" electrons and 478 events of electron spikes.
+It is important to note, a number of other accelerated electron features occur in the Martian ionosphere that have not been included in this study.
+Each feature is characterised by a different appearance on the ELS spectrogram.
+The reason for not including other accelerated electron features in this study is due to those events having more association to the solar wind than processes involving the crustal magnetic fields.
+The main example includes the electron intensifications or electron spikes found on the dayside with a broad peak of large DEF in electrons (Lundin et al., 2004; Gurnett et al., 2010).
+Observations of this kind have been connected to localised distortions of the solar wind interaction boundaries as caused by Kelvin-Helmholtz instability (Penz et al., 2004; Gurnett et al., 2010).
+Fig. 2(b) shows the distributions of the different signatures of precipitating electrons in a Mars Solar Orbital (MSO) reference frame.
+Here the x-axis points towards the Sun, the z-axis is perpendicular to the planets velocity and directed towards the northern ecliptic hemisphere and the y-axis completes the right handed set and is in the opposite direction to the Mars velocity vector.
+Note, that the dusk terminator is located along the +y-axis and the dawn terminator is along the -y-axis.
+The first row of Fig. 2(a) shows the distributions of peaked electrons, "inverted-V" electrons (normal+first subset).
+The second row of Fig. 2(a) shows the distributions of "inverted-V" electrons (second subset) and electron spikes.
+The third row of Fig. 2(a) shows the orbital coverage given in number of passes for comparison.
+Fig. 2(a) shows the distributions of the electron precipitation signatures in the MSO reference frame are strongly dependent on the MEX orbit coverage.
+This is especially significant with regard to the dusk/dawn asymmetry with most events found in the dusk hemisphere of Mars.
+However, there is a reasonable suggestion of a north/south asymmetry with more signatures observed in the southern hemisphere.
+The distributions also suggest a greater concentration of peaked electrons and electron spikes at the dusk terminator.
+Also, we have separated the second subset of "inverted-V" in order to highlight the unique appearance to their distribution in the MSO frame, which is distributed more towards the ecliptic plane.
+Fig. 2(b) shows the distributions of the electron precipitation signatures over a map of the radial component of crustal magnetic field as measured by the MGS Magnetometer (MAG) instrument at 400km (Connerney et al., 2001).
+All signatures show a remarkable correlation with the contours of the radial magnetic field.
+This is an indication for the strong influence that the crustal magnetic fields have on the signatures.
+The correlation of the electron precipitation signatures with the contours of the radial crustal magnetic field also reflect results by Dubinin et al. (2008c), which showed when total electron fluxes on the nightside of Mars are plotted over regions of strong crustal magnetic field that a spatially well organised pattern of longitudinally stretched bands of electron penetration form over the strong crustal magnetic fields.
+However, Fig. 2(c) shows that signatures of enhanced electron precipitation are also arranged by the contours of weaker crustal magnetic fields.
+Note, as with the plot in the x-z axis of the MSO coordinate frame, the second subset of "inverted-V" also demonstrates an interesting and unique appearance over the map of the radial crustal magnetic field.
+Next we compare the 689 events of electron precipitation signatures found by ELS with heavy-ion data from IMA to assess the possible mechanisms leading to electron precipitation on a case by case basis.
+Energy distribution category-1: electrons down/heavy-ions up
+The ELS spectrogram of the first panel of Fig. 3(a) shows an example of a bursty "inverted-V" signature (subset-1), given the broad peak in DEF of electrons.
+This is compared to the IMA spectrogram of heavy-ions on the lower left panel, as well as the energy spectrum of the electrons in the upper right panel and the energy spectrum of the heavy-ions in the lower right panel.
+Orbit parameters (local time, solar zenith angle, latitude, and longitude) for the 11-min spectrograms are common and shown at the bottom of the heavy-ion spectrogram.
+The electron spectrogram is created as described previously.
+The spectrogram for heavy-ions (M/Q=16-44) is generated after the removal of instrument noise, by averaging DEF values for those IMA sectors which are not blocked by the spacecraft.
+Overplotted on the electron spectrogram is the radial component of the crustal magnetic field as predicted by the model of Cain et al. (2003).
+Overplotted on the ion spectrogram is the altitude of the MEX spacecraft.
+On both spectrogram panels, a solid line indicates the energy of the peak in DEF.
+The plots show the bursty "inverted-V" signature occurs at an altitude of ∼450km and on the eastern edge of the strong southern crustal magnetic field region.
+The right hand panel shows the electron signature has an energy spectrum that is closest to electrons from the magnetosheath and has a main peak in DEF at ∼75eV (∼100eV in PSD).
+There is also a strong element of secondary electrons with a possible photoelectron peak.
+Comparing the energy spectrum of the electron signature to the best fit Maxwellian distributions show that a good approximation of the main peak is found using the heated model on its own (Te=32eV).
+As in the example of a bursty "inverted-V" of Fig. 1, it is possible wave-particle interaction is responsible for the strong heating and for the large contribution of secondary electrons at lower energies.
+The IMA spectrogram of heavy-ions shows a correlation of heavy-ions to regions of ionosphere, where there is a photoelectron peak around ∼17-20eV in the ELS spectrogram.
+The DEF of the heavy-ions increases as MEX moves to smaller solar zenith angles and into greater levels of sunlight where the atmosphere would undergo greater levels of ionisation.
+The heavy-ions show very little response to the occurrence of the electron signature apart from a slight increase in energy.
+The initial format of the data from ELS and IMA is within the instrument frame and there is a corresponding vector direction in the MSO frame at every observation.
+Given this information we have resampled the data into 16 angular bins with respect to Mars.
+This results in the energy distribution with respect to Mars of electrons measured by ELS as shown in the first panel of Fig. 3(b) and heavy-ions measured by IMA in the second panel.
+The parallel direction represents electrons or ions moving towards (negative vertical axis) and away from Mars (positive vertical axis) and the perpendicular direction represents the horizontal above the Mars surface.
+Fig. 3(b) contains the data summed and averaged over the time period of the bursty "inverted-V" electron signature from Fig. 3(a), which is also indicated at the top of the figure.
+The shaded background indicates the viewing coverage of the energy distribution.
+Measurements where the average flux is greater than zero are shown with the colour scale.
+The black line at the rim of the electron distribution indicates those Mars angle bins that contains data interpolated over those ELS sectors viewing over the spacecraft.
+To determine the direction of electrons and heavy-ions, we first use the method of Fränz et al. (2006), to calculate the integrated moments of density and bulk velocity for both the electrons and heavy-ions.
+This involves correcting the data for the spacecraft potential and is determined using the method described by Fränz et al. (2006).
+The moment calculation is performed on the averaged electron and heavy-ion DEF data in the Mars angle bins.
+This assumes bins of angle around Mars and the instrument energy that contain no sample observations also contain an average particle flux of zero.
+Therefore, we recognise our data is biased for energy distributions that have incomplete coverage.
+The product of the density with velocity gives the net flux of the particles.
+The difference between the net flux from electrons and the heavy-ions then provides a rough estimate of the current density.
+It is also important to note that it is not possible to obtain a direct measurement of currents caused by parallel electric fields using the ASPERA-3 ELS and IMA instruments.
+This is because we have been unable to find evidence of clear beams of both electrons and heavy-ions in opposite directions for the ASPERA-3 ELS and IMA data used in this study.
+Also, ASPERA-3 only measures a fraction of the entire distribution function and we are therefore limited to how accurately we can determine currents.
+Fig. 3(b) shows the bursty "inverted-V" event of Fig. 3(a) has a rather isotropic distribution.
+Note, this is after interpolating across the spacecraft viewing sectors of ELS, which before the interpolation contained a reduction in DEF at energies ≳ 70eV.
+Despite the apparent isotropy shown in the figure, there is still some asymmetry since a comparison of the electron flux from each Mars angle bin of the energy distribution in the upward hemisphere to the downward hemisphere show a net flux of electrons is directed towards Mars.
+The heavy-ion energy distribution does not show a clear asymmetry apart for ions measured at higher energies.
+A comparison between heavy-ions fluxes from each hemisphere indicates the heavy-ions are directed away from Mars.
+The net flux of electrons and the heavy-ions in opposite hemispheres of the energy distribution is suggestive of an upward current, with electrons moving towards and the heavy-ions moving away from Mars.
+The estimate of the current density using the above method is ≈0.33μAm-2.
+Energy distribution category-2: electrons up/heavy-ions down
+Fig. 4(a) shows the observation of two electron spikes at 04:24:02 UT and 04:28:39 UT.
+The plot of the radial crustal magnetic field obtained using the Cain model shows both electron spikes occur at the boundary between open and closed crustal magnetic field.
+The spectrum of the second electron spike shown on the right has a peak DEF from photoelectrons at ∼13eV.
+The photoelectron peak is part of a broad peak from ∼10eV to ∼100eV indicative of an increase in density of the ionospheric electrons.
+However, the form of the energy spectrum is similar to electron spectra observed in the tail, but with increased density.
+Therefore, it is also possible the electron spike is made up of local photoelectrons (indicated by the line of peak DEF at the photoelectron energy) and electrons transported from the tail, which increase in density when focused by converging crustal magnetic fields.
+Being located at the terminator and not deeper in the nightside indicates there is a possibility that the electron spikes signatures could occur due to incursions of the magnetosheath as caused by a Kelvin-Helmholtz instability (Penz et al., 2004; Gurnett et al., 2010).
+However, this has so far been associated with electron spikes of much higher flux further on the dayside (Gurnett et al., 2010).
+The best fit Maxwellian distributions show when the electron temperature is reduced, only a small amount of acceleration can be applied to shift the peak of the modelled spectra to the peak energy of the measured spectrum.
+Therefore, this electron spike has not been accelerated.
+Both events coincide with sharp boundaries observed in the heavy-ions, as the spacecraft moves through regions of heavy-ions that are significantly structured and energised.
+The DEF energy spectrum for the heavy-ions shown on the right displays multiple peaks, where the peak with the largest DEF occurs at ∼11eV and a second main peak occurs at ∼100eV.
+Fig. 4(b) shows that at the time of the electron spike signature of Fig. 4(a), the electron energy distribution has a clear asymmetry between the upward and downward hemispheres.
+The difference is even larger between energies of 100-200eV.
+The moment calculation provides a strong upward net flux of electrons directed at ∼180° to the Mars nadir.
+Note, this result is in conflict with the appearance of the energy spectrum, which suggests the electron spike contains tail electrons precipitating along the crustal magnetic field, unless those electrons have already been reflected by converging magnetic fields.
+The second panel shows the heavy-ions clearly have a greater DEF for energies up to 100eV in the downward hemisphere of the energy distribution.
+The moment calculation for the heavy-ions provides a strong downward net flux directed at ∼15° to the Mars nadir.
+The energy distribution also seems rather isotropic in this hemisphere with the exception of heavy-ions found at larger energies at small angles to the nadir.
+Such an observation suggests a scattering process is occurring in the region of the electron spike, as might occur in the presence of plasma waves.
+This is possible as the results from the electron measurements suggest the spike feature is in a region of magnetic mirroring where wave-particle interaction could take place (Lennartsson, 1976).
+The large angle between the net flux of the electrons and heavy-ions suggests a downward current with electrons moving upwards and heavy-ions moving downwards.
+The current density is estimated as ≈0.13μAm-2.
+Energy distribution category-3: electron precipitation/heavy-ion hole
+Highlighted at the centre of the ELS spectrogram of Fig. 5(a) is a signature of electron precipitation in the form of peaked electrons.
+The energy spectrum of the electron signature shown in the right hand panel has a peak at ∼140eV (∼140eV in PSD).
+When compared to the best fit Maxwellian distributions, we see a strong resemblance between the main peak and the heated/accelerated model.
+This indicates the electrons observed during the signature have been accelerated as well as heated.
+At the same time of the accelerated electrons, there is a strong depletion of heavy-ions, such that a hole appears in the IMA spectrogram on the second panel.
+This event and other peaked distributions over the same region of the crustal magnetic field have been investigated by Dubinin et al. (2009).
+The investigation concluded the depletion of the heavy-ions is most likely the effect of the ejection of heated/accelerated oxygen ions from the ionosphere that would occur in an auroral-type magnetic flux tube.
+Therefore, these features were described as occurring in auroral-type magnetic flux tubes.
+Even though auroral flux tubes would be common aspect to most aurorae at Mars, we use the term here to identify a region that has a hole or is almost completely depleted of heavy-ions that IMA measures and is also limited to the same structure as the electron signature.
+In such cases, we are unable to form a reliable energy distribution for the heavy-ions and therefore we are unable to determine the type of mechanism leading to the electron precipitation apart from the above description.
+Fig. 5(b) shows that the peaked electron signature at the centre of the spectrogram in Fig. 5(a) has an energy distribution of electrons that is highly isotropic and illustrates results from previous studies (Brain et al., 2006; Dubinin et al., 2009).
+Due to the depletion of heavy-ions during this time, the energy distribution only displays a low flux of heavy-ions that is predominantly flowing towards Mars.
+Energy distribution category-4: electrons up/heavy-ions up
+The first panel of Fig. 6(a) shows the observation of a peaked electron signature by ELS and with lower DEF than is typical, as shown by its energy spectrum on the right.
+The peak is observed at ∼135eV (∼135eV in PSD) and occurs close to a cusp of the crustal magnetic field.
+The comparison with the best fit Maxwellian distributions shows the main peak of the energy spectrum of the electron signature fits most closely to the plot of the heated/accelerated model.
+This demonstrates the electron signature has been accelerated and heated.
+Indeed, when looking closely at the main peak of the electron energy spectra, we observed two smaller peaks at the very top, which would occur when the typical energies of the photoelectrons had been shifted upwards as a result of acceleration.
+The second panel and the energy spectrum on the right shows the appearance of heavy-ions at ∼400eV with a low DEF.
+At the same time, the heavy-ions at the low energy of ∼10eV decreases in DEF with respect to the surrounding region.
+Fig. 6(b) shows that the energy distribution of the electrons has a clear structure directed away from Mars, whereas the second panel shows that the heavy-ions at ∼400eV are found in the opposite hemisphere of the energy distribution directed towards Mars.
+However, a greater DEF of heavy-ions are found at lower energies (∼10eV) directed away from Mars.
+The net flux for both the electrons and heavy-ions are strongly directed away from Mars at an angle of ∼170° from the nadir in both circumstances.
+The difference in the net flux of electrons and heavy-ions gives an estimate of the current density as ≈0.18μAm-2.
+This is because the net flux of the heavy-ions as measured by IMA is almost always negligible compared to the net flux of electrons as measured by ELS.
+Given these results, the electron signature presented above is classified in an energy distribution category where electrons and heavy-ions both have a coincident distribution directed away from Mars.
+It is possible to explain such observations in general if we consider MEX to be above a region that has accelerated electrons upwards, in which case heavy-ions could also be accelerated downwards.
+This may explain the appearance of the very low DEF of heavy-ions at ∼400eV.
+However, due to the finite gyro-radius effect it is also plausible that the general behaviour of the heavy-ions flowing away from Mars may not change, even when passing an acceleration region.
+The gyroradius of heavy-ions with energies around ∼10eV at the location of the accelerated electron signature is around 100km, which is of a similar spatial scale to the horizontal size of a closed crustal magnetic field line at 400km.
+Therefore, it is possible the heavy-ions do not remain in the acceleration region long enough to experience its effects.
+The upward acceleration of ionospheric electrons without an acceleration of heavy-ions can also be expected to occur when most of the potential-drop responsible for accelerating the electrons is below the spacecraft.
+If however, some heavy-ions are found to be accelerated upward at the same time as the electrons, it may suggest that the heavy-ions have been heated and reflected by the mirror force.
+Another explanation is found with observations of double potential-drop structures in the Earth auroral region, where electrons from the ionosphere that have been accelerated upwards by a potential-drop below the observations, are sometimes observed alongside upflowing ion beams when a potential-drop is also present above the observation (Yoshioka et al., 2000).
+In this case, it suggests that the electrons have entered the bottom end of a potential-drop above the observation that is accelerating ions upwards and depending on the size of the potential counter-streaming electrons may be observed when electrons are reflected back to Earth by the potential (Yoshioka et al., 2000).
+Energy distribution category-5: electrons down/heavy-ions down
+Fig. 7(a) shows the observation of an electron spike at 05:20:33 UT (∼400km) and a peaked electron signature between 05:22:37 and 05:23:10 UT (∼500km).
+The same events were reported by Dubinin et al. (2009), as being caused by long-lived auroral flux tubes.
+The DEF energy spectrum of the electron spike signature shows a main peak due to the CO2 and O photoelectron peaks as observed in the energy spectrum from the ionosphere.
+At higher energies, the spectrum compares well to those found at larger SZA in the wake and tail, however with added multiple peaks.
+Such non-Maxwellian spectra are generally unstable and may create waves.
+On the other hand, particles that have passed through a region of plasma waves can also develop such an energy spectrum (Janhunen et al., 2001).
+Hence, we suggest that this is an example of wave-particle interaction.
+The observations of heavy-ions by IMA show there is a slight increase in the energy of peak DEF during the time of the electron spike signature.
+During the observation of the peaked signature that occurs afterwards, there is the depletion of heavy-ions as caused by the evacuation of an auroral-flux tube (Dubinin et al., 2009).
+Looking at Fig. 7(b) the energy distribution during the electron spike signature shows a strong downward direction towards Mars, with a net flux vector of 15° to the Mars nadir.
+There is also a reasonable suggestion that the heavy-ions also have a net flux directed down towards Mars.
+The heavy-ion energy distribution has three sectors in the downward hemisphere with DEF 1.5×10-5erg/(cm2·sr·sec·eV) compared to the sectors of the upward hemisphere where the DEF is no greater than 7.0×10-6erg/(cm2.
+sr.sec.eV).
+This indicates a clear asymmetry in the heavy-ion energy distribution and suggests a net downward flux.
+Though the poor coverage for the heavy-ion energy distribution makes it difficult to trust the net flux vector calculation, the clear asymmetry of the heavy-ions is reason to place this event into a category of coincident downward energy distribution for electrons and heavy-ions.
+Given the electron spike signature occurs near a cusp of the crustal magnetic field, it is possible that the energy distribution of electrons is the product of being located at the boundary of open and closed crustal magnetic fields.
+The presence of electrons below 40eV travelling towards Mars at the dusk terminator suggests an ionospheric population moving along closed field lines.
+This could represent an example of downgoing photoelectrons that could be absorbed by the atmosphere and cause auroral emissions, as suggested in the study by Liemohn et al. (2007).
+Such a plasma flow from the dayside would also involve heavy-ions moving in the same direction as the electrons.
+The dashed line overplotted on Fig. 6(b) shows the multiple narrow peaks found above 40eV in the energy spectrum of the electron spike, are observed in the downward direction and over a broad range of angles.
+This suggests we have observed electrons that have passed through a region of plasma waves above the spacecraft.
+As well as causing multiple peaks in the energy spectrum, the region of plasma waves could also be responsible for scattering the electrons over a broad range of angles.
+Energy distribution category-6: electrons down-up-horizontal/heavy-ions down-up-horizontal
+Fig. 8(a) shows an example of a bursty "inverted-V" signature of electron precipitation at ∼450km on the dusk terminator.
+The signature is also found at the eastern edge of a moderate region of crustal magnetic fields.
+As show by the energy spectrum on the right, the electron signature has a main peak in the DEF at ∼300eV (∼200eV in PSD), and a strong secondary contribution to the spectrum with a peak DEF between 20 and 30eV.
+Comparing to the best fit Maxwellian distributions shows that shape of the main peak of the signature is closest to that of the heated/accelerated model.
+As this model involves a significant accelerating potential of 160eV, we can conclude the electrons from the signature have been accelerated as well as receiving a moderate amount of heating.
+The second panel shows the behaviour of the heavy-ions is largely unaffected at the start and end of the bursty "inverted-V" signature, whereas at the centre of the signature there is a reduction in DEF of the heavy-ions.
+This could be a sign of an auroral flux tube as discussed in Section 3.3.
+However, this signature is not classified as such since the heavy-ions in this region still form an adequate energy distribution to compare to the electrons.
+Fig. 8(b) shows an isotropic energy distribution of electrons.
+Despite the isotropic appearance, the net flux vectors of the electrons are directed at 109° to the Mars nadir.
+However, when comparing the net flux of heavy-ions from each angle bin from the upward hemisphere with the downward hemisphere, there is an almost equal contribution from each hemisphere.
+We consider this to show that the heavy-ions are directed towards as well as away from Mars.
+Therefore, this could be the observation of electrons and heavy-ions moving away from Mars similar to energy distribution category-4 described in Section 3.4.
+Also possible is that this event could adhere to energy distribution category-2 as described in Section 3.2 where there is the suggestion of a downward current of electrons moving away and heavy-ions moving towards Mars.
+The much larger net flux in electrons estimates as a downward current of current density ≈0.46μAm-2.
+As the signature presented in Fig. 8(a) can be counted in more than one of the energy distribution categories, it is considered as showing a combination of different energy distribution categories.
+The drop out of heavy-ions that is aligned along both directions of the vertical axis of Fig. 8(b) is an interesting feature.
+If the vertical axis of Fig. 8(b) was aligned with the magnetic field direction, the feature could be interpreted as the loss cones of a trapped population of heavy-ions.
+Alternatively, if the magnetic field direction was horizontal as suggested by the Cain model and perpendicular to the vertical axis, the feature could be interpreted as showing bi-directional field aligned heavy-ions.
+Unfortunately, we are prevented from presenting a meaningful interpretation due to a limited field-of-view and lack of magnetometer data.
+Distribution of electron precipitation asymmetry categories
+Out of a total of 689 events of electron precipitation signatures, 38 were classified into energy distribution category-1, 137 were classified into energy distribution category-2, 40 were classified into energy distribution category-3 or auroral flux tubes, 306 were classified into energy distribution category-4, 4 were classified into energy distribution category-5, 56 were classified into energy distribution category-6, 34 were unidentified and 74 of the events had no heavy-ion data from IMA.
+Note that out of the 40 events classified into energy distribution category-3 and indicating an auroral flux tube, 34 events had energy distributions of electrons with net flux of electrons directed upwards.
+Most of the events classified into energy distribution category-6 were the result of the energy distribution of the heavy-ions having an almost equal flux directed away and towards Mars.
+Out of the 56 events classified into energy distribution category-6, 36 events had energy distributions of electrons with a net flux directed upwards.
+This result suggests that the flow of electrons is greatest away and not towards Mars for the majority of both accelerated and unaccelerated signatures of precipitating electrons.
+However, this is not expected, as it is counter to observing signatures of electrons that should be precipitating down on Mars.
+For those electrons that have been accelerated, it suggests a potential-drop exists below the spacecraft with a downward parallel electric field accelerating electrons upwards.
+We do not consider this as a likely explanation for the majority of cases, since previous studies using electron and in situ magnetic field data from the MAG/ER instrument on MGS of peaked electron distributions (Brain et al., 2006) and electron acceleration signatures (Halekas et al., 2008) do not find similar evidence of downward parallel electric fields.
+Therefore, we have explored factors that could influence the energy distributions to produce an upward net flux of electrons.
+We have found the angle for the net flux of electrons and therefore how the asymmetry of energy distributions are categorised, showed a strong dependence on the positioning of the ELS sectors.
+In particular, the angle to the Mars nadir of the electron net flux direction is mostly found in the opposite hemisphere to the flow direction of electrons measured by the ELS sectors that have the spacecraft in their field of view.
+Note, this is still the case even after interpolating data across those ELS sectors affected by the spacecraft.
+Since the ELS sectors viewing the spacecraft have a look direction that is away from Mars, it causes a bias towards measuring an upward net flux of electrons, as enhanced fluxes of electrons towards Mars would be missed and therefore measured less often at Mars by ELS.
+However, studies by Brain et al. (2007) and Halekas et al. (2008) show that even if we were able to measure the downgoing electrons accurately it is not hugely likely we will find downgoing field aligned beams of electrons, and is even less likely when the upgoing part of the energy distribution is isotropic.
+We are most likely to miss field aligned beams or other asymmetries in the energy distribution of electrons towards Mars, when the upgoing part of the energy distribution includes field aligned beams or other asymmetries.
+The study by Halekas et al. (2008), also showed that most accelerated electron events occur on closed magnetic field lines, which is evident from electron distributions with loss cones in both directions along the magnetic field.
+Note, if the loss cones are not in the measuring plane of the instrument, the remaining part of the distribution would be highly isotropic, which is usually the case for peaked electrons around Mars (Brain et al., 2006; Dubinin et al., 2009).
+As our study looks at the electron distribution with respect to the Mars nadir, we are quite likely to miss features from a loss cone.
+This is because for solar zenith angles between 30° and 135° SZA (14.0- 20.0 LT) as used in our study, the majority of magnetic field lines from either the crustal magnetic field or the solar wind occur at a large enough angles away from the Mars nadir or even horizontal to Mars, that loss cones in either direction along the magnetic field can be missed.
+Given the information from the studies by Brain et al. (2007) and Halekas et al. (2008), we can consider any electron energy distributions with an isotropic distribution in the upward direction, as also being isotropic in the downward direction.
+Therefore, even if an isotropic distribution is calculated with an upward net flux of electrons, it is still possible electrons also precipitate down on Mars, enough to reach the atmosphere and cause aurora.
+The result of making this assumption changes how the events of electron precipitation signatures are distributed in relation to the categories of electron and heavy-ion energy distribution asymmetry.
+The greatest change is to energy distribution category-1 and category-4, as 200 events from category-4 are now added into category-1.
+Out of a total of 689 events of electron precipitation signatures, 238 are now classified into energy distribution category-1, 137 are classified into energy distribution category-2, there are still 40 events classified into energy distribution category-3, 106 are classified into energy distribution category-4, 82 are classified into energy distribution category-5, there are still 56 events classified into energy distribution category-6 and the number of events that are unidentified or without heavy-ion data from IMA have remained unchanged.
+Fig. 9 shows the distribution of each energy distribution category from peri-centre altitudes up to 2200km.
+For each energy distribution category, the number of events are largest between 300 and 400km.
+The relationship with altitude could be influenced by the unequal amount of observing time with height.
+The nature of the elliptical orbit of MEX provides more observing time for equal distances as the altitude of the spacecraft decreases.
+However, we do not expect this to change the main feature of the above distribution.
+What Fig. 9 does show is that for each energy distribution category, most of the events occur below an altitude of 600km.
+The different categories of energy distribution asymmetry during electron precipitation signatures are plotted in Fig. 10(a,b) in the MSO reference frame.
+There is not much difference in how events from each energy distribution category are distributed around Mars and show a strong dependence on the MEX orbit coverage, as presented in Fig. 2(a,b).
+Unfortunately, the incomplete orbit coverage in local time impacts on our ability to observe any dependence of our classification scheme with local time and location around Mars.
+It would also be desirable to create a similar plot in IMF direction to see if this would reveal any relationship.
+Since our study started in 2007 we do not have the suitable solar wind proxy data from the MGS MAG instrument to do this, as the MGS mission ended in the same year.
+Although, we would expect a similar result to that from Dubinin et al. (2008d), which found peaked and "inverted-V" electrons measured by ELS occurred in the Martian hemisphere pointed by the interplanetary electric field.
+Summary and discussions
+We use the space plasma instrumentation of MEX ASPERA-3 to classify the different types of asymmetry found in the energy distributions of electrons and heavy-ions during signatures of electron precipitation at Mars.
+The study used data from peri-centre altitude up to 2200km.
+Our study included signatures of electron precipitation that had been accelerated as found during peaked and "inverted-V" electron signatures and those that only contained unaccelerated electrons as found during electron spike signatures.
+Note, the "inverted-V" electron signatures also covered two subset of signatures.
+The first subset were of bursty "inverted-V" signatures characterised by their sudden and bursty appearance of intense DEF in electrons over a broad energy range.
+Such features have previously been connected to current sheet crossings, but may also be associated with Alfvénic acceleration regions of the Earth aurora (Paschmann et al., 2002) or outflow from a reconnection X-line (Paschmann et al., 1979).
+Most of the energy spectra of these electron signatures showed evidence of either electrons being heated as well as accelerated or of a combination of heated and accelerated electron populations.
+The heating of electrons, have also been found in previous studies (Lundin et al., 2006b; Dubinin et al., 2009), and suggest the presence of wave-particle interactions.
+The second subset of "inverted-V" signatures consisted of electrons with energies up to 1keV, that were of a low-to-medium DEF and included two peaks of comparable DEF, one of secondary electrons at low energy and another peak at higher energies.
+The shape of the high energy peak showed little to no sign of acceleration and instead showed the electrons had mostly been heated, and therefore not like what is typically expected from an "inverted-V" signature.
+Electron spikes were also studied and represented unaccelerated signatures of electron precipitation.
+Similar signatures were first observed with MGS MAG/ER by Mitchell et al. (2001), and then with ELS by Soobiah et al. (2006).
+Dubinin et al. (2008a) found that electron fluxes from electron spikes and their enhanced precipitation could explain observed UV emissions.
+However, the study by Dubinin et al. (2008a), did not determine the origin of the electron spikes.
+Comparing the electron energy spectra for all 478 events of electron spikes with spectra from different regions of the solar wind interaction with Mars shows that the electron spikes have a variety of different sources.
+These included local plasma regions of the tail, dusk or dayside ionosphere, sometimes energy spectra indicated electrons transported from the solar wind or the tail and on other occasions a combination of both local and transported electrons were measured.
+Energy distribution of the electrons measured by ELS was created with respect to the Mars nadir and compared to the corresponding energy distributions of heavy-ions measured by IMA.
+The events of electron precipitation signatures were then categorised according to the combinations of asymmetry as defined by the net flux directions found in the energy distributions of the electrons and heavy-ions.
+This methodology resulted in six different combinations of energy distribution asymmetry that are listed in the first column of Table 1.
+Table 1 presents the percentage of MEX orbits that we observe the different combinations of energy distribution asymmetries.
+In total, ASPERA-3 observes electron precipitation signatures on 43.0% of MEX orbits at Mars.
+The signatures of unaccelerated electron precipitation from electron spikes make up ∼70% of this total, occurring on 29.8% of MEX orbits, and are therefore the most common form of electron precipitation signature at Mars.
+This compares to signatures of accelerated electron precipitation from peaked electrons and "inverted-V" electrons, which occur on 9.8 and 3.4% of MEX orbits, respectively.
+This suggests a similarity to the Earth where the diffuse aurora from the precipitation of unaccelerated electrons accounts for a much larger amount of the precipitating flux of particles onto the atmosphere than discrete aurora (Newell et al., 2009).
+Peaked electron, "inverted-V" electron and electron spike signatures are observed most with energy distributions that have a net upward flux of electrons.
+However, most of these events have electrons with energy distributions that are visually isotropic or with little asymmetry.
+As a result, such distributions are considered to also show electrons precipitating down on Mars.
+At the times of the electron precipitation signatures, heavy-ions are observed most with an asymmetrical energy distribution that has a net upward flux of heavy-ions.
+Hence, the combination of electron and heavy-ion energy distributions that suggest an upward current as associated with aurora (category-1), are the most common combination during signatures of electron precipitation signatures at Mars and is also associated the greatest with each signature of electron precipitation used in this study.
+Note, the combination of energy distributions that form category-1 would be one of the least common if we only used the direction of the net flux of electrons to classify the asymmetry.
+Furthermore, as downgoing field aligned beams of electrons are mostly likely missed in the ELS data when upward field aligned beams are observed, the number of electron precipitation signatures that could be connected to aurora and make up category-1 is still underestimated.
+Heavy-ions that have an asymmetrical energy distribution with a net downward flux, are also a common feature during electron precipitation signatures and occur half as often as those with a net upward flux.
+The combination of electron and heavy-ion energy distributions that make up category-2, suggestive of a downward current and category-4 with both up-going electrons and heavy-ions, is only considered for those electron precipitation signatures that have electron energy distributions with a significant asymmetry.
+For these signatures, up-going electrons and heavy-ions are the most common combination, while the combination of up-going electrons and down-going heavy-ions occur almost half as often.
+Even after discounting upward net flux of electrons from those signatures with isotropic electron energy distribution, category-4 still make up the second largest group and when added together with category-2 occur on 10% of MEX orbits.
+Energy distributions of heavy-ions with an almost equal flux directed towards and away from Mars are observed far less often.
+Therefore, the combination of energy distributions as classified by category-6 is one of the least common for electron precipitation signatures at Mars.
+The relationship of the different energy distribution categories for electron precipitation signatures in regions over crustal magnetic fields (CF) and in regions where there is almost no crustal magnetic fields (Non-CF) is shown in the sixth and seventh columns of Table 1.
+Electron precipitation signatures in regions over crustal magnetic fields and in regions where there is almost no crustal magnetic fields, both follow a similar relationship with the different energy distribution categories as found with the total amount of precipitation signatures.
+However, the amount of electron precipitation signatures is over four times greater for MEX orbits over the over crustal magnetic fields and is around ten times greater for those events involving auroral flux tubes.
+This further demonstrates the strong association signatures of electron precipitation at Mars have with the crustal magnetic fields, which is also illustrated by Fig. 2(c).
+Indeed, studies by the MGS MAG/ER show accelerated electron signatures at Mars have magnetic field pitch angle distributions of electrons that indicate the occurrence on crustal magnetic fields with open, closed and counter streaming magnetic field topology (Halekas et al., 2008).
+Although the upward net flux direction of electrons for the majority of electron precipitation signatures is questionable, due to the instrumental bias from ELS and the isotropic nature of the energy distributions, an upward net flux of electrons is more definite and believable for cases of energy distributions that are non-isotropic.
+This is shown for example in Figs.
+4(b) and 6(b).
+In the case of Fig. 4(b) it is possible to explain the net upward flux of electrons by the reflection of unaccelerated precipitating electrons by the converging magnetic field found near the cusps of the crustal magnetic field, and in the case of Fig. 6(b) by a downward parallel electric field below the spacecraft.
+The comparison of ELS spectrograms of electrons with IMA spectrograms of the heavy-ions measured by IMA (Figs.
+3-8) provided more straightforward results than comparing the energy distributions of electrons and heavy-ions created with respect to the Mars nadir.
+In particular, it demonstrated the variation in response of heavy-ions to the signatures of electron precipitation.
+Figs.
+3, 6 and 7 show examples where there is only a negligible response of the heavy-ions to the signatures of electron precipitation.
+As discussed earlier, the general flow of heavy-ions away from Mars is unchanged during most observations of electron precipitation signatures.
+This is thought to be the result of the finite gyro-radius effect of the heavy-ions on crustal magnetic field lines.
+The heavy-ions measured during a signature of electron precipitation may also show a strong depletion or a hole as presented in Figs.
+5 and 8 and is thought to occur as a result of an auroral flux tube (Dubinin et al., 2009).
+Fig. 5 also shows an acceleration of heavy-ions between ∼01:25:00 UT and 01:25:40 UT, prior to the first signature of electron precipitation shown in the ELS spectrogram.
+Similar acceleration of heavy-ions is found around a number of other events of electron precipitation signatures.
+Further analysis of this type of acceleration of heavy-ions will be left for future work.
+However, we refer to these events as showing a "peripheral acceleration" of heavy-ions.
+We have included the identification of these events in Table 1 to compare with the results of the energy distribution categories.
+Fig. 4a shows how a signature of electron precipitation occurs at boundary of heavy-ions that are energetic and structured.
+Note, this also coincided with energy distributions of the electrons and heavy-ions suggesting a downward current.
+Similar observations feature when a downward parallel electric field is measured at the sharp plasma boundary between the Earth's polar cap and plasma sheet (Johansson et al., 2006).
+Under the circumstances that arise at the Earth there is a strong association with monopolar electric fields as characterised by a stepped/S-shaped potential.
+Such a potential occurs when only one side of the boundary has a plasma population that supports significant field-aligned currents (FACs) and closure of the current.
+Unfortunately, Figs.
+3-8 do not show examples of accelerated heavy-ions that are restricted to the same structure of the electron precipitation signature, which we also observe.
+Such examples have already been noted in the discussion of the bursty "inverted-V" signature presented in Fig. 1.
+As with events showing a "peripheral acceleration" of heavy-ions, we have included the identification of these events in Table 1 to compare with the results of the energy distribution categories and are referred to as a "concurrent acceleration" of heavy-ions.
+Hence, the final two columns show the relationship of electron precipitation signatures observed with "concurrent" and "peripheral" acceleration of heavy-ions, respectively with the different energy distribution categories.
+The relationship of these events with the different signatures of electron precipitation is presented in the final two rows, respectively.
+Out of the total 689 events of electron precipitation signatures, 85 were observed with a concurrent acceleration of heavy-ions.
+This accounts for 12% of precipitation signatures occurring on ∼5% of MEX orbits.
+Only 37 events of electron precipitation signatures were observed with a peripheral acceleration of heavy-ions.
+This makes the peripheral acceleration of heavy-ions less common occurring on just 5% of precipitation signatures and on ∼2% of MEX orbits.
+Therefore, it is quite rare to observe accelerated beams of heavy-ions during signatures of electron precipitation at Mars.
+The final two rows of Table 1 show an even spread of events with concurrent acceleration of heavy-ions for unaccelerated and accelerated signatures of electron precipitation.
+This indicates the concurrent acceleration of heavy-ions has a greater association with signatures of accelerated electron precipitation given as there is a much larger number of unaccelerated electron precipitation signatures observed.
+This provides further evidence to previous studies for the association of a quasi-static field-aligned potential drop and its upward current with signatures of accelerated electron precipitation observed at Mars.
+Acknowledgments
+We wish to acknowledge the Swedish National Space Board for the support of this work and the ASPERA-3 ELS & IMA instruments at Swedish Institute of Space Physics (IRF), Kiruna, Sweden.
+We also wish to acknowledge NASA for their support of ELS at the South West Research Institute, San Antonio, TX, USA, on the NASA contract NASW-00003 and STFC, UK, for their support of ELS at the Mullard Space Science Laboratory, UK
+

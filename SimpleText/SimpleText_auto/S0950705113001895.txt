@@ -1,0 +1,529 @@
+Incremental approaches for updating approximations in set-valued ordered information systems
+
+Abstract
+Incremental learning is an efficient technique for knowledge discovery in a dynamic database, which enables acquiring additional knowledge from new data without forgetting prior knowledge.
+Rough set theory has been successfully used in information systems for classification analysis.
+Set-valued information systems are generalized models of single-valued information systems, which can be classified into two categories: disjunctive and conjunctive.
+Approximations are fundamental concepts of rough set theory, which need to be updated incrementally while the object set varies over time in the set-valued information systems.
+In this paper, we analyze the updating mechanisms for computing approximations with the variation of the object set.
+Two incremental algorithms for updating the approximations in disjunctive/conjunctive set-valued information systems are proposed, respectively.
+Furthermore, extensive experiments are carried out on several data sets to verify the performance of the proposed algorithms.
+The results indicate the incremental approaches significantly outperform non-incremental approaches with a dramatic reduction in the computational speed.
+
+Introduction
+Granular Computing (GrC), a new concept for information processing based on Zadeh's "information granularity", is a term of theories, methodologies, techniques, and tools that makes use of granules in the process of problem solving [1,2].
+With the development of artificial intelligence, the study on the theory of GrC has aroused the concern of more and more researchers [3-5].
+Up to now, GrC has been successfully applied to many branches of artificial intelligence.
+The basic notions and principles of GrC have appeared in many related fields, such as concept formation [6], data mining [7] and knowledge discovery [8,9].
+Rough Set Theory (RST) is a powerful mathematical tool for dealing with inexact, uncertain or vague information [10].
+It is also known as one of three primary models of GrC [11].
+In recent years, there has been a rapid growth of interest in RST and its applications.
+It seems to be of fundamental importance to artificial intelligence and cognitive sciences, especially in the areas of machine learning, decision analysis, expert systems, inductive reasoning and pattern recognition [13-16].
+The data acquired for rough set analysis is represented in form of attribute-value tables, consisting of objects (rows) and attributes (columns), called information systems [17].
+In real-life applications, data in information systems is generated and collected dynamically, and the knowledge discovered by RST need to be updating accordingly [12].
+The incremental technique is an effective method to update knowledge by dealing with the new added-in data set without re-implementing the original data mining algorithm [18,19].
+Many studies have been done towards the topic of incremental learning techniques under RST.
+Considering the problem of discretization of continuous attributes in the dynamic databases, Dey et al. developed a dynamic discreduction method based on RST and notions of Statistics, which merges the two tasks of discretization and reduction of attributes into a single seamless process, so as to reduce the computation time by using samples instead of the whole data to discretize the variables [20].
+Considering the problem of dynamic attribute reduction, Hu et al. proposed an incremental positive region reduction algorithm based on elementary set, which can generate a new positive region reduction quickly when a new object is added into the decision information systems [28].
+From the view of information theory, Wang et al. proposed an incremental attribute reduction algorithm based on three representative entropies by considering changes of data values, which can generate a feasible reduct in a much shorter time.
+However, the algorithm is only applicable on the case of the variation of data one by one [21].
+Furthermore, Wang et al. developed a dimension incremental strategy for attribute reduction based on information entropy for data sets with dynamically increasing attributes [22].
+Since the core of a decision table is the start point to many existing algorithms of attribute reduction, Yang et al. introduced an incremental updating algorithm of the computation of a core based on the discernibility matrix, which only inserts a new row and column, or deletes one row and updates corresponding column when updating the discernibility matrix [29].
+Considering the problem of dynamic rule induction, Fan et al. proposed an incremental rule-extraction algorithm (REA) based on RST, which updates rule sets by partly modifying original rule sets without re-computing rule sets from the very beginning and the proposal approach is especially useful in a large database, since it does not re-compute the reducts/rules that are not influenced by the incremental data set [23].
+Nevertheless, alternative rules which are as preferred as the original desired rules might exist since the maximum of strength index is not unique.
+The REA may lead to non-complete rules, then an incremental alternative rule extraction algorithm (IAREA) was proposed to exclude the repetitive rules and to avoid the problem of redundant rules [24].
+Zheng et al. developed a rough set and rule tree based incremental algorithm for knowledge acquisition, which is not only obviously quicker than that of classic algorithm, but also has a better performance of knowledge learned by the proposed algorithm to a certain degree [25].
+Liu et al. defined a new concept of interesting knowledge based on both accuracy and coverage of the generated rules in the information system, and presented an optimization model using the incremental matrix for generating interesting knowledge when the object set varies over time [26,27].
+The main goal of RST is to synthesize approximations of concepts from the acquired data, which is a necessary step for expressing and reducing incomplete and uncertain knowledge based on RST [30-32].
+The knowledge hidden in information systems can be discovered and expressed in the form of decision rules according to the lower and upper approximations [36-39].
+In order to resolve the problem of high computation complexity in computing approximations under the dynamic information systems, many incremental updating algorithms have been proposed.
+Therefore, extensive efforts have been devoted to efficient algorithms for computing approximations.
+Li et al. presented an incremental method for updating approximations in an incomplete information system through the characteristic relation when the attribute set varies over time, which can deal with the case of adding and removing some attributes simultaneously in the information system [40].
+Since the domain of attributes may change in real-life applications, attributes values may be added to or deleted from the domain, Chen et al. proposed the incremental updating approach of approximations while attributes values coarsening or refining in the complete and incomplete information systems [35].
+Zhang et al. discussed the change of approximations in neighborhood decision systems when the object set evolves over time, and proposed two fast incremental algorithms for updating approximations when multiple objects enter into or get out of the neighborhood decision table [33].
+Li et al. firstly introduced a kind of dominance matrix to calculate P-dominating sets and P-dominated sets in dominance-based rough sets approach, and proposed the incremental algorithms for updating approximations of an upward union and downward union of decision classes [34].
+Instead of considering the incremental updating strategies of rough sets, Cheng proposed two incremental methods for fast computing the rough fuzzy approximations, which are established respectively based on the redefined boundary set and the relation between a fuzzy set and its cut sets [41].
+However, to our best knowledge, previous studies on incremental computing approximations mainly concerned in the single-valued information systems, but little attention has been paid to the set-valued information systems.
+Set-valued information systems are an important type of data tables, and generalized models of single-valued information systems [42].
+In many practical decision-making issues, set-valued information systems have very wide applications, which can be used in intelligent decision-making and knowledge discovery from information systems with uncertain information and set-valued information.
+In such systems, some of the attribute values of an object may be set-valued, which are always used to characterize the incomplete information, i.e., the values of some attributes are unknown or multi-values.
+On the other hand, we often encounter the scenario where the ordering of properties of the considering attributes plays a crucial role in the analysis of information systems.
+Considering attributes with preference-ordered domains is an important characteristic of multi-attribute decision making problems in practice.
+Greco et al. proposed the Dominance-based Rough Sets Approach (DRSA) [44,45].
+This innovation is mainly based on the substitution of the indiscernibility relation by a dominance relation.
+Furthermore, Qian et al. established a rough set approach in Set-valued Ordered Information Systems (SOIS) to take into account the ordering properties of attributes in set-valued information systems, and classified the SOIS into two categories: disjunctive and conjunctive systems [43].
+Since the characteristics of the set-valued information systems is different from that of single-valued information systems (such as: some of the attribute values for an object are set-valued), the method for knowledge acquisition in the single-valued information systems cannot be applied directly to the set-valued ones.
+For this reason, the incremental method for updating approximations in the dynamic set-valued information systems is discussed in this paper.
+In [46], Zhang et al. proposed an incremental method for computing approximations in set-valued information systems under the tolerance relation, when the attribute set varies with time.
+In this paper, we focus on updating knowledge under the variation of the object set in SOIS.
+Firstly, we discuss the principles of incremental updating approximations when the objects in the universe change (increase or decrease) dynamically in the conjunctive/disjunctive SOIS.
+Then two incremental updating algorithms are proposed based on the principles.
+Finally, the performances of two incremental algorithms are evaluated on a variety of data sets.
+The remainder of the paper is organized as follows.
+In Section 2, some basic concepts of RST in SOIS are introduced.
+The principles and some illustrated examples for incremental updating approximations with the variation of the object set are presented in Section 3.
+In Section 4, we propose the incremental algorithms for computing approximations based on the updating principles.
+Performance evaluations are illustrated in Section 5.
+The paper ends with conclusions and further research topics in Section 6.
+Preliminaries
+For convenience, some basic concepts of rough sets and SOIS are reviewed in this section [42,43].
+A set-valued information system is an ordered quadruple S=(U,C∪{d},V,f), where U={x1,x2,…,xn} is a non-empty finite set of objects, called the universe.
+C is a non-empty finite set of condition attributes and d is a decision attribute with C∩{d}=∅; V=VC∪Vd, where V is the domain of all attributes, VC is the domain of all condition attributes and Vd is the domain of the decision attribute; f is a mapping from U×(C∪{d}) to V such that f:U×{C}→2Vc is a set-valued mapping and f: U×{d}→Vd is a single-valued mapping.
+In an information system, if the domain (scale) of a condition attribute is ordered according to a decreasing or increasing preference, then the attribute is a criterion.Definition 1
+A set-valued information system S=(U,C∪{d},V,f) is called a SOIS if all condition attributes are criterions.
+In real problems, many ways to present the semantic interpretations of set-valued information systems have been provided [47-50].
+Qian et al. summarized two types of set-valued information systems with two kinds of semantics, which are known as conjunctive (∀x∈U and c∈C, f(x,c) is interpreted conjunctively) and disjunctive (∀x∈U and c∈C, f(x,c) is interpreted disjunctively) set-valued information systems.
+According to the introduction of the following two dominance relations to these types of set-valued information systems, SOIS can be also classified into two categories: conjunctive and disjunctive SOIS [43].
+Assume the domain of a criterion a∈C is completely pre-ordered by an outranking relation ⪰a; x⪰ay means "x is at least as good as (outranks) y with respect to criterion a".
+For a subset of attributes A⊆C, we define x⪰Ay⇔∀a∈A,x⪰ay, which means "x is at least as good as (outranks) y with respect to all attributes in A".Definition 2
+Let S=(U,C∪{d},V,f) be a conjunctive SOIS and A⊆C.
+The dominance relation in terms of A is defined as:(1)RA∧⩾={(y,x)∈U×U|y⪰Ax}={(y,x)∈U×U|f(y,a)⊇f(x,a),∀a∈A}
+Example 1
+Table 1 illustrates a conjunctive SOIS, where U={x1,x2,x3,x4,x5,x6}, C={a1,a2,a3,a4}, d is the decision attribute, VC={e,f,g} and Vd={1,2,4}.
+Here, we can obtain that f(x1,a1)={e}, f(x2,a1)={e,f,g}.
+Since {e,f,g}⊇{e}, we have x2⪰a1x1, that is, x2 is at least as good as x1 with respect to a1.
+Definition 3
+Let S=(U,C∪{d},V,f) be a disjunctive SOIS and A⊆C.
+The dominance relation in terms of A is defined as:(2)RA∨⩾={(y,x)∈U×U|y⪰Ax}={(y,x)∈U×U|maxf(y,a)⩾minf(x,a),∀a∈A}
+Example 2
+Table 2 illustrates a disjunctive SOIS, where U={x1,x2,x3,x4,x5,x6},C={a1,a2,a3,a4}, D={d}, VC={0,1,2} and Vd={1,2,4}.
+Here, we can obtain that f(x1,a1)={1}, f(x2,a1)={0,1}.
+Since maxf(x1,a1)=1⩾minf(x2,a1)=0, we have x1⪰a1x2, that is, x1 is at least as good as x2 with respect to a1.
+For convenience, we denote RAΔ⩾(Δ∈{∧,∨}) as the dominance relation in SOIS, where ∧ represents the conjunctive SOIS and ∨ represents the disjunctive SOIS.
+Furthermore, we denote the granules of knowledge induced by the dominance relation RAΔ⩾(Δ∈{∧,∨}) as follows:•
+[x]AΔ⩾={y|(y,x)∈RAΔ⩾},(Δ=∧,∨)
+•
+[x]AΔ⩽={y|(x,y)∈RAΔ⩾},(Δ=∧,∨)
+where [x]AΔ⩾ is called the A-dominating set, describes the objects that dominate x in terms of A.
+[x]AΔ⩽ is called the A-dominated set, describes the objects that are dominated by x in terms of A, respectively.
+Let U/RA∧⩾ denote a classification on the universe, which is the family set {[x]AΔ⩾|x∈U}.
+Any element from U/RA∧⩾ is called a dominance class with respect to A.
+Dominance classes in U/RA∧⩾ do not constitute a partition of U in general.
+They constitute a covering of U.Example 3
+Continuation of Examples 1 and 2
+From Table 1, U/RC∧⩾={[x1]C∧⩾,[x2]C∧⩾,…,[x6]C∧⩾}, where [x1]C∧⩾={x1,x2,x3},[x2]C∧⩾={x2},[x3]C∧⩾={x2,x3},[x4]C∧⩾={x2,x4},[x5]C∧⩾={x2,x5},[x6]C∧⩾={x6}.
+Analogously, U/RC∧⩽={[x1]C∧⩽,[x2]C∧⩽,…,[x6]C∧⩽}, where [x1]C∧⩽={x1},[x2]C∧⩽={x1,x2,x3,x4,x5},[x3]C∧⩽={x1,x3},[x4]C∧⩽={x4},[x5]C∧⩽={x5},[x6]C∧⩽={x6}.
+From Table 2, U/RC∨⩾={[x1]C∨⩾,[x2]C∨⩾,…,[x6]C∨⩾}, where [x1]C∨⩾={x1,x5},[x2]C∨⩾={x2,x3},[x3]C∨⩾={x2,x3,x4,x5,x6},[x4]C∨⩾={x4,x6},[x5]C∨⩾={x5},[x6]C∨⩾={x4,x6}.
+Analogously, U/RC∨⩽={[x1]C∨⩽,[x2]C∨⩽,…,[x6]C∨⩽}, where [x1]C∨⩽={x1,x6},[x2]C∨⩽={x2,x6},[x3]C∨⩽={x2,x3,x6},[x4]C∨⩽={x3,x4,x6},[x5]C∨⩽={x1,x3,x5},[x6]C∨⩽={x3,x4,x6}.
+Assume that the decision attribute d makes a partition of U into a finite number of classes.
+Let D={D1,D2,…,Dr} be a set of these classes that are ordered, that is, ∀i, j⩽r, if i⩾j, then the objects from Di are preferred to the objects from Dj.
+The sets to be approximated in DRSA are upward and downward unions of classes, which are defined respectively as Di⩾=⋃i⩽jDj,Di⩽=⋃j⩽iDj,1⩽i⩽j⩽r.
+The statement x∈Di⩾ means "x belongs to at least class Di", where x∈Di⩽ means "x belongs to at most class Di".Definition 4
+Let S=(U,C∪{d},V,f) be a SOIS.
+A⊆C,∀Di⩾(1⩽i⩽r), the lower and upper approximations of Di⩾ with respect to the dominance relation RAΔ⩾(Δ∈{∧,∨}) are defined respectively as follows:(3)RAΔ⩾̲Di⩾=x∈U|[x]AΔ⩾⊆Di⩾,(4)RAΔ⩾¯Di⩾=⋃x∈Di⩾[x]AΔ⩾.Analogously, ∀Di⩽(1⩽i⩽r), the lower and upper approximations of Di⩽ are defined as:(5)RAΔ⩾̲Di⩽=x∈U|[x]AΔ⩽⊆Di⩽,(6)RAΔ⩾¯Di⩽=⋃x∈Di⩽[x]AΔ⩽.
+Example 4
+Continuation of Example 3
+(1)
+From Table 1, we have D={D1,D2,D3}, where D1={x3,x5},D2={x1,x4}, D3={x2,x6}.
+Thus, we get the unions of classes as follows: D1⩽=D1,D2⩽=D1∪D2,D2⩾=D2∪D3,D3⩾=D3.
+From Definition 4, we have: RCΔ⩾̲D1⩽={x5},RCΔ⩾¯D1⩽={x1,x3,x5},RCΔ⩾̲D2⩽={x1,x3,x4,x5},RCΔ⩾¯D2⩽={x1,x3,x4,x5},RCΔ⩾̲D2⩾={x2,x4,x6},RCΔ⩾¯D2⩾={x1,x2,x3,x4,x6},RCΔ⩾̲D3⩾={x2,x6},RCΔ⩾¯D3⩾={x2,x6}.
+(2)
+Analogously, from Table 2, we have D={D1,D2,D3}, where D1={x4},D2={x1,x3,x6}, D3={x2,x5}.
+Thus, we get the unions of classes as follows: D1⩽=D1,D2⩽=D1∪D2,D2⩾=D2∪D3,D3⩾=D3.
+From Definition 4, we have: RCΔ⩾̲D1⩽=∅,RCΔ⩾¯D1⩽={x3,x4,x6},RCΔ⩾̲D2⩽={x1,x4,x6},RCΔ⩾¯D2⩽={x1,x2,x3,x4,x6},RCΔ⩾̲D2⩾={x1,x2,x5},RCΔ⩾¯D2⩾={x1,x2,x3,x4,x5,x6},RCΔ⩾̲D3⩾=∅,RCΔ⩾¯D3⩾={x2,x3,x5}.
+Incremental updating approximations in SOIS when the object set varies with time
+With the variation of an information system, the structure of information granules in the information system may vary over time which leads to the change of knowledge induced by RST.
+For example, let us consider a practical information system from the test for foreign language ability of undergraduates in Shanxi University, the test results can be expressed as a set-valued information system where the attributes are all inclusion increasing preferences and the value of each student under each attribute is given by an evaluation expert through a set-value [43].
+However, during the process of evaluating the undergraduates language ability, data in an information system does not usually remain a stable condition.
+Some objects may be inserted into the original information system due to the arrival of the new students.
+On the other hand, some objects will be deleted from the original information system with the graduation of the senior students.
+Then the discovered knowledge may become invalid, or some new implicit information may emerge in the whole updated information system.
+Rather than restarting from scratch by the non-incremental or batch learning algorithm for each update, developing an efficient incremental algorithm to avoid unnecessary computations by utilizing the previous data structures or results is thus desired.
+In this section, we discuss the variation of approximations in the dynamic SOIS when the object set evolves over time while the attribute set remains constant.
+For convenience, we assume the incremental learning process lasts two periods from time t to time t+1.
+We denote a dynamic SOIS at time t as S=(U,C∪{d},V,f), and at time t+1, with the insertion or deletion of objects, the original SOIS will change into a new one, denoted as S′=(U′,C′∪{d′},V′,f′).
+Similarly, we denote the union of classes and the A-dominating set as Di⩾ and [x]AΔ⩾, respectively at time t, which are denoted as Di⩾′ and [x]AΔ⩾′, respectively at time t+1.
+According to Definition 4, the lower and upper approximations of Di⩾ with respect to A⊆C are denoted as RAΔ⩾̲Di⩾ and RAΔ⩾¯Di⩾, respectively at time t, which are denoted as RAΔ⩾̲Di⩾′ and RAΔ⩾¯Di⩾′, respectively at time t+1, respectively.
+Here, we only discuss the incremental approach for updating approximations in the cases that a single object enter and go out of the information system.
+The change of multiple objects can be seen as the cumulative change of a single object.
+The approximations can be updated step by step through the updating principles in the case that a single object varies.
+Principles for incrementally updating approximations with the deletion of a single object
+Given a SOIS S=(U,C∪{d},V,f) at time t, the deletion of object x¯∈U (x¯ denotes the deleted object) will change the original information granules [x]AΔ⩾ (x∈U,A⊆C) and the union of decision classes Di⩾ (1⩽i⩽r).
+The approximations of Di⩾ will change accordingly.
+Here, we discuss the principles for updating approximations of Di⩾ from two cases: (1) The deleted object belongs to Di⩾, i.e., x¯∈Di⩾; (2) The deleted object does not belong to Di⩾, i.e., x¯∉Di⩾.Case 1:
+The deleted object x¯ belongs to Di, i.e., x¯∈Di⩾.
+Proposition 1
+Let S=(U,C∪{d},V,f) be a SOIS, A⊆C.
+When x¯∈Di⩾ is deleted from U, for RAΔ⩾̲Di⩾′, we have:(1)
+If x¯∈RAΔ⩾̲Di⩾, then RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾-{x¯};
+(2)
+Otherwise, RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾.
+Proof
+When x¯∈Di⩾ is deleted from U, we have U′=U-{x¯},Di⩾′=Di⩾-{x¯}.
+For x∈U′,[x]AΔ⩾′=[x]AΔ⩾-{x¯}.
+∀x∈U′, if [x]AΔ⩾⊆Di⩾, then [x]AΔ⩾′⊆Di⩾′; Analogously, if [x]AΔ⩾⊈Di⩾, then [x]AΔ⩾′⊈Di⩾′; Thus, from the definition of lower approximation in Definition 4, we have ∀x∈U′, if x∈RAΔ⩾̲Di⩾, then x∈RAΔ⩾̲Di⩾′; If x∉RAΔ⩾̲Di⩾, then x∉RAΔ⩾̲Di⩾′.
+Hence, it is easy to get if x¯∈RAΔ⩾̲Di⩾, then RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾-{x¯}; Otherwise, the lower approximation of Di⩾ will remain constant, i.e., RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾.□
+Example 5
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 1, we compute the lower approximations of D2⩾ by deleting x1 and x2 from U, respectively.•
+Assume the object x1 is deleted from Table 1, and U′=U-{x1}.
+We have x1∈D2⩾ and x1∉RCΔ⩾̲D2⩾.
+Therefore, RAΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾={x2,x4,x6}.
+•
+Assume the object x2 is deleted from Table 1, and U′=U-{x2}.
+We have x2∈D2⩾ and x2∈RCΔ⩾̲D2⩾.
+Therefore, RAΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾-{x2}={x4,x6}.
+(2)
+For Table 2, according to Proposition 1, we compute the lower approximations of D2⩾ by deleting x1 and x3 from U, respectively.•
+Assume the object x1 is deleted from Table 2, and U′=U-{x1}.
+We have x1∈D2⩾ and x1∈RCΔ⩾̲D2⩾.
+Therefore, RAΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾-{x1}={x2,x5}.
+•
+Assume the object x3 is deleted from Table 2, and U′=U-{x3}.
+We have x3∈D2⩾ and x3∉RCΔ⩾̲D2⩾.
+Therefore, RAΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾={x1,x2,x5}.
+Proposition 2
+Let S=(U,C∪{d},V,f) be a SOIS, A⊆C.
+When x¯∈Di⩾ is deleted from U, for RAΔ⩾¯Di⩾′, we haveRAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾-[x¯]AΔ⩾∪Kwhere K={x|x∈[x¯]AΔ⩾∩K′},K′=⋃x∈Di⩾-{x¯}[x]AΔ⩾.
+Proof
+According to Definition 4, we have RAΔ⩾¯Di⩾=⋃x∈Di⩾[x]AΔ⩾.
+Thus, when the object x¯∈Di⩾ is deleted from U, the A-dominating set [x¯]AΔ⩾ should be removed from the upper approximation RAΔ⩾¯Di⩾, i.e., RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾-[x¯]AΔ⩾.
+However, ∃x∈Di⩾-{x¯} satisfies that K=[x¯]AΔ⩾∩[x]AΔ⩾≠∅, and the object x∈[y]AΔ⩾ (y∈Di⩾-{x¯}) should not be removed from RAΔ⩾¯Di⩾.
+Therefore, we have RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾-[x¯]AΔ⩾∪K, where K={x|x∈[x¯]AΔ⩾∩K′},K′=⋃x∈Di⩾-{x¯}[x]AΔ⩾.□
+Example 6
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 2, we compute the upper approximation of D2⩾ by deleting x1 from U.
+Assume the object x1 is deleted from Table 1, and U′=U-{x1}.
+We have x1∈D2⩾,K′=⋃x∈D2⩾-{x1}[x]CΔ⩾={x2,x4,x6}.
+Then K={x|x∈[x1]CΔ⩾∩K′}={x2},RCΔ⩾¯D2⩾′=RAΔ⩾¯Di⩾-[x¯]AΔ⩾∪K={x2,x4,x6}.
+(2)
+For Table 2, according to Proposition 2, we compute the upper approximation of D2⩾ by deleting x1 from U.
+Assume the object x1 is deleted from Table 2, and U′=U-{x1}.
+We have x1∈D2⩾,K′=⋃x∈D2⩾-{x1}[x]CΔ⩾={x2,x3,x4,x5,x6}.
+Then K={x∣x∈[x1]CΔ⩾∩K′}={x5},RCΔ⩾¯D2⩾′=RAΔ⩾¯Di⩾-[x¯]AΔ⩾∪K={x2,x3,x4,x5,x6}.
+Case 2:
+The deleted object x¯ does not belong to Di, i.e. x¯∉Di⩾.
+Proposition 3
+Let S=(U,C∪{d},V,f) be a SOIS, A⊆C.
+When x¯∉Di⩾ is deleted from U, for RAΔ⩾̲Di⩾′, we haveRAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪Kwhere K=x|x∈Di⩾-RAΔ⩾̲Di⩾,Di⩾⊇[x]AΔ⩾′.
+If x¯∈[x]AΔ⩾, then [x]AΔ⩾′=[x]AΔ⩾-{x¯}; Otherwise, [x]AΔ⩾′=[x]AΔ⩾.
+Proof
+According to Definition 4, we have ∀x∈Di⩾, if x∈RAΔ⩾̲Di⩾, then Di⩾⊇[x]AΔ⩾.
+When the object x¯∉Di⩾ is deleted from U, we have U′=U-{x¯},Di⩾′=Di⩾, and ∀x∈U′,[x]AΔ⩾′=[x]AΔ⩾-{x¯}.
+It is easy to get if Di⩾⊇[x]AΔ⩾, then Di⩾′⊇[x]AΔ⩾′; Thus, ∀x∈RAΔ⩾̲Di⩾,x∈RAΔ⩾̲Di⩾′.
+On the other hand, ∀x∈Di⩾-RAΔ⩾̲Di⩾, we know that Di⩾⊉[x]AΔ⩾.
+However, it may exist that x¯∈[x]AΔ⩾, and after the deletion of x¯,Di⩾⊇([x]AΔ⩾)′.
+Then x should be added to RAΔ⩾̲Di⩾′, that is, RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪{x}.
+Therefore, we have RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪K, where K=x|x∈Di⩾-RAΔ⩾̲Di⩾,Di⩾⊇[x]AΔ⩾′,[x]AΔ⩾′=[x]AΔ⩾-{x¯}.□
+Example 7
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 3, we compute the lower approximation of D2⩾ by deleting x3 from U.
+Assume the object x3 is deleted from Table 1, and U′=U-{x3}.
+We have x3∉D2⩾,D2⩾-RCΔ⩾̲D2⩾={x1},D2⩾⊇[x1]CΔ⩾-{x3}={x1,x2}.
+Therefore, K={x1} and RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪K={x1,x2,x4,x6}.
+(2)
+For Table 2, according to Proposition 3, we compute the upper approximation of D2⩾ by deleting x4 from U.
+Assume the object x4 is deleted from Table 2, and U′=U-{x4}.
+We have x4∉D2⩾,D2⩾-RCΔ⩾̲D2⩾={x3,x6},D2⩾⊇[x3]CΔ⩾-{x4}={x2,x3,x5,x6} and D2⩾⊇[x6]CΔ⩾-{x6}={x6}.
+Therefore, K={x3,x6} and RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪K={x1,x2,x3,x5,x6}.
+Proposition 4
+Let S=(U,C∪d,V,f) be a SOIS, A⊆C.
+When the object x¯∉Di⩾ is deleted from U, for RAΔ⩾¯Di⩾′, we have:(1)
+If x¯∈RAΔ⩾¯Di⩾, then RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾-{x¯};
+(2)
+Otherwise, RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾.
+Proof
+According to Definition 4, we have that RAΔ⩾¯Di⩾=⋃x∈Di⩾[x]AΔ⩾.
+Since the deleted object x¯∉Di⩾, there exists an object x∈Di⩾ satisfies x¯∈[x]AΔ⩾ if x¯∈RAΔ⩾¯Di⩾.
+Therefore, when x¯ is deleted, we have [x]AΔ⩾′=[x]AΔ⩾-{x¯}.
+Then RAΔ⩾¯Di⩾′=⋃x∈Di⩾[x]AΔ⩾′=RAΔ⩾¯Di⩾-{x¯}.
+On the other hand, if x¯∉RAΔ⩾¯Di⩾, we have ∀x∈Di⩾,x¯∉[x]AΔ⩾.
+Hence, the upper approximation of Di⩾ will remain constant, i.e., RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾.□
+Example 8
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 4, we compute the lower approximations of D2⩾ by deleting x3 and x5 from U, respectively.•
+Assume the object x3 is deleted from Table 1, and U′=U-{x3}.
+We have x3∉D2⩾ and x3∈RCΔ⩾¯D2⩾.
+Therefore, RAΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾-{x3}={x1,x2,x4,x6}.
+•
+Assume the object x5 is deleted from Table 1, and U′=U-{x5}.
+We have x5∉D2⩾ and x5∉RCΔ⩾¯D2⩾.
+Therefore, RAΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾={x1,x2,x3,x4,x6}.
+(2)
+For Table 2, according to Proposition 4, we compute the upper approximation of D3⩾ by deleting x3 and x4 from U, respectively.•
+Assume the object x3 is deleted from Table 2, and U′=U-{x3}.
+We have x3∉D3⩾ and x3∈RCΔ⩾¯D3⩾.
+Therefore, RAΔ⩾¯D2⩾′=RCΔ⩾¯D3⩾-{x3}={x2,x5}.
+•
+Assume the object x4 is deleted from Table 2, and U′=U-{x4}.
+We have x4∉D3⩾ and x4∉RCΔ⩾¯D3⩾.
+Therefore, RAΔ⩾¯D3⩾′=RCΔ⩾¯D3⩾={x2,x3,x5}.
+Principles for incrementally updating approximations with the insertion of a new object
+Given a SOIS (U,C∪{d},V,f) at time t, when the information system is updated by inserting a new object x̃ (x̃ denotes the inserted object) into the unverse U at time t+1, two situations may occur: (1) x̃ forms a new decision class, i.e., ∀x∈U,f(x̃,d)≠f(x,d); (2) x̃ does not form a new decision class, i.e., ∃x∈U,f(x̃,d)=f(x,d).
+The difference between the two situations is: in the first situation, in addition to updating the approximations of union of the existing decision classes, we need to compute the approximations for the new decision class.
+Firstly, for updating the approximations of the union of the existing decision classes Di⩾ (1⩽i⩽r) when inserting an object, we discuss the principles through two cases similar to the approach taken in the model of deletion: (1) The inserted object will belong to Di⩾, i.e., x̃⪰dx, where x∈Di; (2) The inserted object will not belong to Di⩾, i.e., x̃⪰dx, where x∈Di.
+To illustrate our incremental methods for updating approximations when inserting a new object into SOIS, two tables (Tables 3 and 4) are given as follows.
+We assume that the objects in Table 3 will be inserted into Table 1, and the objects in Table 4 will be inserted into Table 2.Case 1:
+The inserted object x̃ will belong to Di.
+Proposition 5
+Let S=(U,C∪{d},V,f) be a SOIS, A⊆C.
+When x̃ is inserted into U, for RAΔ⩾̲Di⩾′, we have:(1)
+If Di⩾′⊇[x̃]AΔ⩾, where Di⩾′=Di⩾∪{x̃}, then RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪{x̃};
+(2)
+Otherwise, RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾.
+Proof
+According to Definition 4, we have ∀x∈Di⩾, if [x]AΔ⩾⊆Di⩾, then x∈RAΔ⩾̲Di⩾.
+Thus, when the object x̃ is inserted into U, we have Di⩾′=Di⩾∪{x̃}; ∀x∈Di⩾, if x̃∈[x]AΔ⩾, then [x]AΔ⩾′=[x]AΔ⩾∪{x̃}.
+That is, if Di⩾⊇[x]AΔ⩾, then Di⩾′⊇[x]AΔ⩾′; If Di⩾⊉[x]AΔ⩾, then Di⩾′⊉[x]AΔ⩾′.
+It follows that if x∈RAΔ⩾̲Di⩾, then x∈RAΔ⩾̲Di⩾′; If x∉RAΔ⩾̲Di⩾, then x∉RAΔ⩾̲Di⩾′.
+Therefore, according to Definition 4, if [x̃]AΔ⩾⊆Di⩾′, we have x̃∈RAΔ⩾̲Di⩾′, and RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾∪{x̃}.
+Otherwise, RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾.□
+Example 9
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 5, we compute the lower approximations of D2⩾ when the object x7 and x8 in Table 3 insert into Table 1, respectively.•
+Assume the object x7 in Table 3 is inserted into Table 1, and U′=U∪{x7}.
+Since f(x7,d)=3, then D2⩾′=D2⩾∪{x7}.
+Because of Di⩾′⊇[x7]CΔ⩾={x2,x7}, we have RCΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾∪{x7}={x2,x4,x6,x7}.
+•
+Assume the object x8 in Table 3 is inserted into Table 1, and U′=U∪{x8}.
+Since f(x8,d)=3, then D2⩾′=D2⩾∪{x8}.
+Because of D2⩾′⊉[x8]CΔ⩾={x4,x6,x8}, we have RCΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾={x2,x4,x6}.
+(2)
+For Table 2, according to Proposition 4, we compute the lower approximation of D2⩾ when the objects x7 and x8 in Table 4 insert into Table 2, respectively.•
+Assume the object x7 in Table 4 is inserted into Table 2, and U′=U∪{x7}.
+Since f(x7,d)=2, then D2⩾′=D2⩾∪{x7}.
+Because of D2⩾′⊇[x7]CΔ⩾={x5,x7}, we have RCΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾∪{x7}={x1,x2,x5,x7}.
+•
+Assume the object x8 in Table 4 is inserted into Table 2, and U′=U∪{x8}.
+Since f(x8,d)=2, then D2⩾′=D2⩾∪{x8}.
+Because of D2⩾′⊉[x8]CΔ⩾={x4,x6,x8}, we have RCΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾={x1,x2,x5}.
+Proposition 6
+Let S=(U,C∪d,V,f) be a SOIS, A⊆C.
+When x̃ is inserted into U, for RAΔ⩾¯Di⩾′, we haveRAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾∪[x̃]AΔ⩾
+Proof
+When the object x̃ is inserted into U,U′=U∪{x̃}.
+According to Definition 4, we have RAΔ⩾¯Di⩾′=⋃x∈Di⩾′[x]AΔ⩾′.
+Since Di⩾′=Di⩾∪{x̃}, then we have RAΔ⩾¯Di⩾′=⋃x∈Di⩾[x]AΔ⩾′∪[x̃]AΔ⩾.
+Because ∀x∈U,[x]AΔ⩾′=[x]AΔ⩾∪{x̃} or [x]AΔ⩾′=[x]AΔ⩾, and x̃∈[x̃]AΔ⩾, we can obtain that RAΔ⩾¯Di⩾′=⋃x∈Di+1⩾[x]AΔ⩾∪[x̃]AΔ⩾=RAΔ⩾¯Di⩾∪[x̃]AΔ⩾.□
+Example 10
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 6, we compute the upper approximations of D2⩾ when the object x7 in Table 3 inserts into Table 1.
+Assume the object x7 in Table 3 inserts into Table 1, and U′=U∪{x7}.
+Since f(x7,d)=3, then D2⩾′=D2⩾∪{x7} and RCΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾∪[x7]CΔ⩾={x1,x2,x3,x4,x6,x7}.
+(2)
+For Table 2, according to Proposition 6, we compute the upper approximations of D2⩾ when the object x7 in Table 4 inserts into Table 2.
+Assume the object x7 in Table 4 inserts into Table 2, and U′=U∪{x7}.
+Since f(x7,d)=2, then D2⩾′=D2⩾∪{x7} and RCΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾∪[x7]CΔ⩾={x1,x2,x3,x4,x5,x6,x7}.
+Case 2:
+The inserted object x̃ will not belong to Di.
+Proposition 7
+Let S=(U,C∪d,V,f) be a SOIS, A⊆C.
+When x̃ is inserted into U, for RAΔ⩾̲Di⩾′, we haveRAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾-Kwhere K=x|x∈RAΔ⩾̲Di⩾,x̃∈[x]AΔ⩾′.
+Proof
+When the object x̃ is inserted into U, since x̃⪰dx (x∈Di), we have U′=U∪{x̃},Di⩾′=Di⩾.
+∀x∈Di⩾′,[x]AΔ⩾′=[x]AΔ⩾ or [x]AΔ⩾′=[x]AΔ⩾∪{x̃}.
+We have if [x]AΔ⩾⊈Di⩾, then [x]AΔ⩾⊈Di⩾′.
+That is, if x∉RAΔ⩾̲Di⩾, then x∉RAΔ⩾̲Di⩾′.
+Hence, we only consider the object x∈RAΔ⩾̲Di⩾, i.e., [x]AΔ⩾⊆Di⩾.
+When x̃ is deleted, there may exist that [x]AΔ⩾′=[x]AΔ⩾∪{x̃}.
+Then [x]AΔ⩾′⊈Di⩾′=Di⩾, i.e., x∉RAΔ⩾̲Di⩾′.
+Therefore, we have RAΔ⩾̲Di⩾′=RAΔ⩾̲Di⩾-K, where K=x|x∈RAΔ⩾̲Di⩾,x̃∈[x]AΔ⩾′.□
+Example 11
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 7, we compute the lower approximations of D2⩾ when the object x9 in Table 3 inserts into Table 1.
+Assume the object x9 in Table 3 inserts into Table 1, and U′=U∪{x9}.
+Since f(x9,d)=1, then D2⩾ remains unchanged.
+Because of RCΔ⩾̲D2⩾={x2,x4,x6},x9⪰Cx6, that is, x9∈[x6]CΔ⩾′.
+Hence, we have K={x|x∈RCΔ⩾̲D2⩾,x9∈[x]CΔ⩾′}={x6},RCΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾-K={x2,x4}.
+(2)
+For Table 2, according to Proposition 7, we compute the lower approximations of D2⩾ when the object x9 in Table 4 inserts into Table 2.
+Assume the object x9 in Table 4 is inserted into Table 2, and U′=U∪{x9}.
+Since f(x9,d)=1, then D2⩾ remains unchanged.
+Because of RCΔ⩾̲D2⩾={x1,x2,x5},x9⪰Cx1, that is, x9∈[x1]C⊇′.
+Hence K={x|x∈RCΔ⩾̲D2⩾,x9∈[x]CΔ⩾′}={x1},RCΔ⩾̲D2⩾′=RCΔ⩾̲D2⩾-K={x2,x5}.
+Proposition 8
+Let (U,C∪d,V,f) be a SOIS, A⊆C.
+When x̃ is inserted into U, for RAΔ⩾¯Di⩾′, we have:(1)
+If ∃x∈Di⩾,x̃∈[x]AΔ⩾, then RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾∪{x̃};
+(2)
+Otherwise, RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾.
+Proof
+When the object x̃ is inserted into U, since x̃⪰dx (x∈Di), we have U′=U∪{x̃},Di⩾′=Di⩾.
+Then, ∀x∈Di⩾′, if x̃∈[x]AΔ⩾, then [x]AΔ⩾′=[x]AΔ⩾∪{x̃}.
+According to Definition 4, we have x̃∈RAΔ⩾¯Di⩾′, that is, RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾∪{x̃}; Otherwise, if ∀x∈Di⩾,x̃∉[x]AΔ⩾′, that is, [x]AΔ⩾′=[x]AΔ⩾.
+Then we have RAΔ⩾¯Di⩾′=RAΔ⩾¯Di⩾.□
+Example 12
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 8, we compute the lower approximations of D2⩾ when the object x9 and x10 in Table 3 insert into Table 1, respectively.•
+Assume the object x9 in Table 3 inserts into Table 1, and U′=U∪{x9}.
+Since f(x9,d)=1, then D2⩾ remains unchanged.
+Because of D2⩾={x1,x2,x4,x6},x9⪰Cx6, that is, x9∈[x6]CΔ⩾′.
+Hence RCΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾∪{x9}={x1,x2,x3,x4,x6,x9}.
+•
+Assume the object x10 in Table 3 inserts into Table 1, and U′=U∪{x10}.
+Since f(x10,d)=1, then D2⩾ remains unchanged.
+Because of ∀x∈D2⩾={x1,x2,x4,x6},x9⪰Cx, that is, x9∉[x]CΔ⩾′.
+Hence RCΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾={x1,x2,x3,x4,x6}.
+(2)
+For Table 2, according to Proposition 8, we compute the upper approximations of D2⩾ when the object x9 and x10 in Table 4 insert into Table 2, respectively.•
+Assume the object x9 in Table 4 inserts into Table 2, and U′=U∪{x9}.
+Since f(x9,d)=1, then D2⩾ remains unchanged.
+Because of D2⩾={x1,x2,x3,x5,x6},x9⪰Cx1, that is, x9∈[x1]CΔ⩾′.
+Hence RCΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾∪{x9}={x1,x2,x3,x5,x6,x9}.
+•
+Assume the object x10 in Table 4 inserts into Table 2, and U′=U∪{x10}.
+Since f(x10,d)=1, then D2⩾ remains unchanged.
+Because of ∀x∈D2⩾={x1,x2,x3,x5,x6},x10⪰Cx, that is, x10∉[x]CΔ⩾′.
+Hence RCΔ⩾¯D2⩾′=RCΔ⩾¯D2⩾={x1,x2,x3,x5,x6}.
+Based on the above analysis, we can compute the approximations of the union of existing decision classes Di⩾ (1⩽i⩽r) when inserting a new object into SOIS.
+However, when a new object x̃ is inserted into the universe, it might happen that x̃ will form a new decision class, i.e., ∀x∈U,f(x̃,d)≠f(x,d).
+Then the universe U′=U∪{x̃} will be divided into r+1 partitions, such as: D={D1,…,Di, Dnew, Di+1,…,Dr}, where |D|=r+1,Dnew={x̃}.
+At this point, in addition to updating the approximations of the existing unions of decision classes, we need to compute the unions of new decision class Dnew: Dnew⩾=Di+1⩾∪{x̃}.Proposition 9
+Let S=(U,C∪d,V,f) be a SOIS, A⊆C.
+When x̃ is inserted into U, if ∀x∈U,f(x̃,d)≠f(x,d), then the lower approximation of the union of the new decision class Dnew⩾ can be computed as follows:(1)
+If [x̃]AΔ⩾⊆Dnew⩾, where Dnew⩾=Di+1⩾∪{x̃}, then RAΔ⩾̲Dnew⩾=RAΔ⩾̲Di+1⩾∪{x̃};
+(2)
+Otherwise, RAΔ⩾̲Dnew⩾=RAΔ⩾̲Di+1⩾.
+Proof
+When the object x̃ is inserted into U, then U′=U∪{x̃}.
+Since ∀x∈U,f(x̃,d)≠f(x,d),x̃ will form a new decision class.
+U′ will be divided into r+1 partitions, such as: D={D1,…,Di,Dnew,Di+1,…,Dr}, where |D|=r+1,Dnew={x̃}.
+It is easy to obtain that the union of the new decision class Dnew is: Dnew⩾=Di+1⩾∪{x̃}.
+Then from Definition 4, we know that ∀x∈U′, if [x]AΔ⩾′⊆Dnew⩾, then x∈RAΔ⩾̲Dnew⩾; Furthermore, since Dnew⩾=Di+1⩾∪{x̃} and ∀x∈U,[x]AΔ⩾′=[x]AΔ⩾∪{x̃} or [x]AΔ⩾′=[x]AΔ⩾, we have if x∈RAΔ⩾̲Di+1⩾, then x∈RAΔ⩾̲Dnew⩾, and if x∉RAΔ⩾̲Di+1⩾, then x∉RAΔ⩾̲Dnew⩾.
+Hence, if [x̃]AΔ⩾⊆Dnew⩾, then RAΔ⩾̲Dnew⩾=RAΔ⩾̲Di+1⩾∪{x̃}; Otherwise, RAΔ⩾̲Dnew⩾=RAΔ⩾̲Di+1⩾.□
+Example 13
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 9, we compute the lower approximations of Dnew⩾ when the object x11 and x12 in Table 3 insert into Table 1, respectively.•
+Assume the object x11 in Table 3 inserts into Table 1, and U′=U∪{x11}.
+Since ∀x∈U, f(x,d)≠f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x11}={x2,x6,x11}.
+Because of [x11]CΔ⩾={x2,x11},[x11]CΔ⩾⊆Dnew⩾, we have RCΔ⩾̲Dnew⩾=RCΔ⩾̲D3⩾∪{x11}={x2,x6,x11}.
+•
+Assume the object x12 in Table 3 inserts into Table 1, and U′=U∪{x12}.
+Since ∀x∈U, f(x,d)≠f(x12,d)=3 and f(D2,d)<f(x12,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x11}={x2,x6,x12}.
+Because of [x12]CΔ⩾={x2,x4,x12},[x11]CΔ⩾⊈Dnew⩾, we have RCΔ⩾̲Dnew⩾=RCΔ⩾̲D3⩾={x2,x6}.
+(2)
+For Table 2, according to Proposition 9, we compute the lower approximations of Dnew⩾ when the object x11 and x12 in Table 4 are respectively inserted into Table 2.•
+Assume the object x11 in Table 4 inserts into Table 2, and U′=U∪{x11}.
+Since ∀x∈U, f(x,d)≠f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x11}={x2,x5,x11}.
+Because of [x11]CΔ⩾={x5,x11},[x11]CΔ⩾⊆Dnew⩾, we have RCΔ⩾̲Dnew⩾=RCΔ⩾̲D3⩾∪{x11}={x11}.
+•
+Assume the object x12 in Table 4 inserts into Table 2, and U′=U∪{x12}.
+Since ∀x∈U, f(x,d)≠f(x12,d)=3 and f(D2,d)<f(x12,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x12}={x2,x5,x12}.
+Because of [x12]CΔ⩾={x3,x5,x12},[x12]CΔ⩾⊈Dnew⩾, we have RCΔ⩾̲Dnew⩾=RCΔ⩾̲D3⩾=∅.
+Proposition 10
+Let S=(U,C∪d,V,f) be a SOIS, A⊆C.
+When x̃ is inserted into U, if ∀x∈U,f(x̃,d)≠f(x,d), then the upper approximation of the union of the new decision class Dnew⩾ can be computed as follows:RAΔ⩾¯Dnew⩾=RAΔ⩾¯Di+1⩾∪[x̃]AΔ⩾where Dnew⩾=Di+1⩾∪{x̃}.
+Proof
+When the object x̃ inserts into U,U′=U∪{x̃}.
+According to Definition 4, we have RAΔ⩾¯Dnew⩾=⋃x∈Dnew⩾[x]AΔ⩾′=⋃x∈Di+1⩾[x]AΔ⩾′∪[x̃]AΔ⩾.
+Since Dnew⩾=Di+1⩾∪{x̃}, then RAΔ⩾¯Dnew⩾=⋃x∈Di+1⩾[x]AΔ⩾′∪[x̃]AΔ⩾.
+Because ∀x∈U,[x]AΔ⩾′=[x]AΔ⩾∪{x̃} or [x]AΔ⩾′=[x]AΔ⩾, and x̃∈[x̃]AΔ⩾, we can obtain that RAΔ⩾¯Dnew⩾=⋃x∈Di+1⩾[x]AΔ⩾∪[x̃]AΔ⩾=RAΔ⩾¯Di+1⩾∪[x̃]AΔ⩾.□
+Example 14
+Continuation of Example 4
+(1)
+For Table 1, according to Proposition 9, we compute the lower approximations of Dnew⩾ when the object x11 in Table 3 inserts into Table 1.
+Assume the object x11 in Table 3 inserts into Table 1, and U′=U∪{x11}.
+Since ∀x∈U, f(x,d)≠f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x11}={x2,x6,x11}.
+Because of [x11]CΔ⩾={x2,x11}, we have RCΔ⩾¯Dnew⩾=RCΔ⩾¯D3⩾∪[x11]AΔ⩾={x2,x6,x11}.
+(2)
+For Table 2, according to Proposition 9, we compute the lower approximations of Dnew⩾ when the object x11 in Table 4 inserts into Table 2.
+Assume the object x11 in Table 4 inserts into Table 2, and U′=U∪{x11}.
+Since ∀x∈U, f(x,d)≠f(x11,d)=3 and f(D2,d)<f(x11,d)<f(D3,d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x11}={x2,x5,x11}.
+Because of [x11]CΔ⩾={x5,x11}, we have RCΔ⩾¯Dnew⩾=RCΔ⩾¯D3⩾∪[x11]CΔ⩾={x2,x3,x5,x11}.
+Static (non-incremental) and incremental algorithms for computing approximations in SOIS with the variation of the object set
+In this section, we design static and incremental algorithms on the variation of the object set in SOIS corresponding to Sections 2 and 3, respectively.
+The static algorithm for computing approximations in SOIS
+Algorithm 1 is a static (non-incremental) algorithm for computing the lower and upper approximations in SOIS while the object set in the information system is changed.
+In Step 2, we compute all the decision classes, and the set of decision classes are preference-ordered according to the increasing order of class indices.
+Step 3-7 compute all the upward unions of classes based on the set of decision classes.
+Step 9-11 compute all the A-dominating sets.
+Step 12-21 compute the lower and upper approximations in SOIS based on Definition 4.
+The incremental algorithm for updating approximations in SOIS when deleting an object from the universe
+Algorithm 2 is an incremental algorithm for updating approximations in SOIS while deleting an object from the universe.
+Step 3-16 update the approximations of the union of classes Di⩾, when the deleted object x¯ belongs to the union of classes Di⩾.
+Step 4-8 compute the lower approximations of Di⩾ by Proposition 1.
+Step 9-16 compute the upper approximations of Di⩾ by Proposition 2.
+Step 18-34 update the approximations of the union of classes Di⩾, when the deleted object x¯ does not belong to the union of classes Di⩾.
+Step 19-27 compute the lower approximations of Di⩾ by Proposition 3.
+Step 28-33 compute the upper approximations of Di⩾ by Proposition 4.
+The incremental algorithm for updating approximations in SOIS when inserting an object into the universe
+Algorithm 3 is an incremental algorithm for updating approximations in SOIS while inserting an object into the universe.
+Step 2 compute the A-dominating set with respect to the inserted object x̃.
+Step 3-25 update the approximations of the union of classes Di⩾, when the inserted object x̃ will belong to the union of classes Di⩾.
+Step 5-10 compute the lower approximations of Di⩾ by Proposition 5.
+Step 11 compute the upper approximation of Di⩾ by Proposition 6.
+Step 13-24 update the approximations of the union of classes Di⩾, when the inserted object x̃ will not belong to the union of classes Di⩾.
+Step 13-18 compute the lower approximations of Di⩾ by Proposition 7.
+Step 19-24 update the approximations of Di⩾ by Proposition 8.
+Step 26-35 compute the approximation of the union of new decision class Dnew⩾, if the inserted object does not belong to any existed decision classes.
+Step 29-33 compute the lower approximation of Dnew⩾ by Proposition 9.
+Step 34 compute the upper approximation of Dnew⩾ by Proposition 10.
+Experimental evaluations
+In this section, in order to evaluate the performance of the proposed incremental algorithms, we conduct a series of experiments to compare the computational time between the non-incremental algorithm and the incremental algorithms for computing approximations based on standard data sets.
+The algorithms are implemental using the JAVA programming language in Eclipse 3.5 with Java Virtual Machine (JVM) 1.6 (available at http://www.eclipse.org/platform).
+Experiments are performed on a computer with 2.66GHz CPU, 4.0GB of memory and 32-bit Windows 7 OS.
+We download four data sets from the machine learning data repository, University of California at Irvine [51], where the basic information of data sets is outlined in Table 5.
+The data sets 1-4 in Table 5 are all incomplete information systems with missing values.
+In our experiment, we represent all the missing values by the set of all possible values of each attribute.
+Then this type of data sets can be regarded as a special case of the set-valued information system.
+Besides, we also use the set-valued data generator to generate two artificial data sets 5-6 in order to test the efficiency of the proposed algorithms, which are also outlined in Table 5.
+Generally, we perform the experimental analysis with applying the non-incremental algorithm along with our proposed incremental algorithms when the objects inserting into or deleting from the information system, respectively.
+In order to present more informative comparative data and acquire more dependable results in our experiments, we compare the computational efficiency of the algorithms according to the following two aspects:(1)
+Size of the data set: To compare the computational efficiency and distinguish the computational times used by the non-incremental and incremental algorithms with different-sized data sets, we divide each of the six data sets into 10 parts of equal size, respectively.
+The first part is regarded as the 1st data set, the combination of the first part and the second part is viewed as the 2nd data set, the combination of the 2nd data set and the third part is regarded as the 3rd data set, and so on.
+The combination of all ten parts is viewed as the 10th data set.
+(2)
+Update ratio of the data set: The size of updated objects which inserting into or deleting from the universe may different, that is, the update ratio, i.e., the ratio of the number of updating (deleting or inserting) data and original data, may different.
+Here, in order to analyze the influence of the update ratio on the efficiency of algorithms, we compare the computational time of the static and incremental algorithms with different update ratios.
+That is to say, for each data sets, we conduct the comparison experiments with the same original data size, but different update ratios, i.e., deleting ratios and inserting ratios.
+A comparison of computational efficiency between static and incremental algorithms with the deletion of the objects
+To compare the efficiency of static (Algorithm 1) and incremental (Algorithm 2) algorithms for computing approximations when deleting the objects from the data sets.
+Firstly, we compare the two algorithms on the six data sets in Table 5 with the same updating ratio (the ratio of the number of deleting data and original data), but different sizes of the original data.
+Here, we assume that the updating ratio is equal to 5%.
+The experimental results are shown in Table 6.
+More detailed changing trendline of each of two algorithms with the increasing size of data sets are illustrated in Fig. 1.
+Secondly, we compare the computational time of the two algorithms with the same size of original data, but different updating ratios for each data sets (from 5% to 100%).
+we show the experimental results in Table 7.
+More detailed changing trendline of each of two algorithms with the increasing updating ratio of data sets are presented in Fig. 2.
+In each sub-figures (a)-(f) of Fig. 1, the x-coordinate pertains to the size of the data set (the 10 data sets starting from the smallest one), while the y-coordinate presents the computational time.
+We use the star lines to denote the computational time of the static algorithm on different sizes of data sets, and the plus lines denote the computational time of the incremental algorithm on different sizes of data sets when deleting the objects into the universe.
+It is easy to see the computational time of the both algorithms usually increases with the increase of the size of data sets according to Table 6 and Fig. 1.
+As the important advantage of the incremental algorithm shown in Table 6 and Fig. 1, when deleting the objets from the universe, we find that the incremental algorithm is mush faster than the static algorithm for computing the approximations.
+Furthermore, the differences become larger and larger when increasing the size of data sets.
+In each sub-figures (a)-(f) of Fig. 2, the x-coordinate pertains to the ratio of the number of the deleting data and original data, while the y-coordinate concerns the computational time.
+According to the experimental results in Table 7 and Fig. 2, we find that, for the static algorithm, the computational time for computing approximations with deletion of the objects from the universe is decreasing monotonically along with the increase of deleting ratios.
+It is because with the increase of ratios, the size of the universe decreases gradually.
+On the contrary, for incremental algorithm, we can see that the computational efficiency for computing approximations is changing smoothly along with the increase of deleting ratios.
+It is easy to find out the incremental algorithm always performs faster than the non-incremental algorithm for computing approximations until a threshold of the deleting ratio.
+The threshold differs depending on the data sets.
+For example, in Fig. 2(a), (e), and (f), the thresholds of ratios are around 85%; In Fig. 2(b) and (c), the thresholds of ratios are around 65%; In Fig. 2(d), the incremental algorithm consistently outperforms the static algorithm even in the value of 90%.
+A comparison of computational efficiency between static and incremental algorithms with the insertion of the objects
+Similar to the experiment schemes for comparing the efficiencies between static and incremental algorithms when deleting the objects from the universe, we also adopt such schemes to compare the performance of algorithms on the case of inserting the objects into the universe.
+Firstly, we compare the two algorithms, i.e., Algorithm 1 and Algorithm 3, on the six data sets in Table 5 with the same updating ratio (the ratio of the number of inserting data and original data), but different sizes of the original data.
+Here, we assume the updating ratio is equal to 5%.
+The experimental results are shown in Table 8.
+More detailed change trendline of each of two algorithms with the increasing size of data sets are presented in Fig. 3.
+Secondly, we compare the computational times of the two algorithms with the changing of updating ratios for each data sets.
+We show the experimental results in Table 9, and more detailed change trendline of each of two algorithms with the increasing size of data sets are given in Fig. 4.
+In each sub-figures (a)-(f) of Fig. 3, the x-coordinate pertains to the size of the data set (the 10 data sets starting from the smallest one), while the y-coordinate presents the computational time.
+We use the star lines to denote the computational time of static algorithm (Algorithm 1) on different sizes of data sets, and the plus lines denote the computational time of incremental algorithm (Algorithm 3) on different sizes of data sets when inserting the objects into the universe.
+Obviously, according to Table 8 and Fig. 3, we can find that the computational time of the both algorithms usually increases with the increasing size of data sets.
+However, the incremental algorithm is much faster than the static algorithm for computing the approximations when inserting the objects into the universe.
+Furthermore, the differences between static and incremental algorithms are getting larger when increasing the data size.
+In each sub-figures (a)-(f) of Fig. 4, the x-coordinate pertains to the ratio of the number of the inserted objects and original data, while the y-coordinate concerns the computational time.
+According to the experimental results as shown in Table 9 and Fig. 4, we find that the computational time of both static (Algorithm 1) and incremental (Algorithm 3) algorithms are increasing monotonically along with the increasing of insert ratios.
+It is easy to get the incremental algorithm is always faster than the static algorithm when the inserting ratio increases from 10% to 100% according to Fig. 4(a)-(e).
+In Fig. 4(f), we find the incremental algorithm is mush faster than the static algorithm when the inserting ratio is less than 85%, but slower than the static algorithm when the inserting ratio is more than 85%.
+Conclusions
+The incremental technique is an effective way to maintain knowledge in the dynamic environment.
+In this paper, we proposed incremental methods for updating approximations in SOIS when the information system is updated by inserting or deleting objects.
+Through discussing the principles of updating approximations by deleting objects from the information system and inserting objects into the information system, respectively, we proposed the incremental algorithms for updating approximations based on SOIS in terms of inserting or deleting an object.
+Experimental studies pertaining to four UCI data sets and two artificial data sets showed that the incremental algorithms can improve the computational efficiency for updating approximations when the object set in the information system varies over time.
+In real-world applications, an information system may be updated by inserting and deleting some objects at the same time.
+In our further work, we will focus on improving the incremental algorithm for updating knowledge by deleting and deleting some objects simultaneously.
+Furthermore, as an information system consists of the objects, the attributes, and the domain of attributes values, all of the elements in the information system will change as time goes by under the dynamic environment.
+In the future, the variation of attributes and the domain of attributes values in SOIS will also be taken into consideration in terms of incremental updating knowledge.
+Acknowledgements
+This work is supported by the National Science Foundation of China (Nos.
+61175047, 61100117 and 71201133) and NSAF (No.
+U1230117), the Youth Social Science Foundation of the Chinese Education Commission (11YJC630127) and the Fundamental Research Funds for the Central Universities (SWJTU11ZT08, SWJTU12CX091, SWJTU12CX117).
+

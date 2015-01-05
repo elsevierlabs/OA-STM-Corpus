@@ -1,0 +1,293 @@
+Chemical weathering and provenance evolution of Holocene-Recent sediments from the Western Indus Shelf, Northern Arabian Sea inferred from physical and mineralogical properties
+
+Abstract
+We present a multi-proxy mineral record based on X-ray diffraction and diffuse reflectance spectrophotometry analysis for two cores from the western Indus Shelf in order to reconstruct changing weathering intensities, sediment transport, and provenance variations since 13ka.
+Core Indus-10 is located northwest of the Indus Canyon and exhibits fluctuations in smectite/(illite+chlorite) ratios that correlate with monsoon intensity.
+Higher smectite/(illite+chlorite) and lower illite crystallinity, normally associated with stronger weathering, peaked during the Early-Mid Holocene, the period of maximum summer monsoon.
+Hematite/goethite and magnetic susceptibility do not show clear co-variation, although they both increase at Indus-10 after 10ka, as the monsoon weakened.
+At Indus-23, located on a clinoform just west of the canyon, hematite/goethite increased during a period of monsoon strengthening from 10 to 8ka, consistent with increased seasonality and/or reworking of sediment deposited prior to or during the glacial maximum.
+After 2ka terrigenous sediment accumulation rates in both cores increased together with redness and hematite/goethite, which we attribute to widespread cultivation of the floodplain triggering reworking, especially after 200years ago.
+Over Holocene timescales sediment composition and mineralogy in two localities on the high-energy shelf were controlled by varying degrees of reworking, as well as climatically modulated chemical weathering.
+Highlights
+► We examine a high resolution multi-proxy physical properties from two marine cores.
+► Little correlation between physical proxies and climate in early Holocene ► Reworking probable cause of poor correlation in Early Holocene ► Possible anthropogenic influence on sedimentation in the last 200 years
+
+Introduction
+Understanding how climate change affects continental environments and weathering processes is a key component of quantifying solid Earth-climate interactions.
+Analysis of marine sediments holds out the prospect of being able to reconstruct this evolution over a number of timescales (e.g., Debrabant et al., 1993; Fagel et al., 1994; Colin et al., 1999; Abrajevitch et al., 2009).
+Geochemical analysis of Arabian Sea sediment has attracted significant interest from those seeking to reconstruct changing chemical weathering and provenance during the Cenozoic, over various timescales through analysis of elemental ratios or isotopic systems (e.g., Papavassiliou and Cosgrove, 1982; Suczek and Ingersoll, 1985; Fagel et al., 1994; Sirocko et al., 2000; Staubwasser and Sirocko, 2001; Clift and Blusztajn, 2005; Colin et al., 2006; Limmer et al., 2012).
+However, there has been limited interest in the physical and mineralogical properties of sediments in the Northern Arabian Sea over any timescale, especially during the Holocene to Recent, despite the relatively well-defined variability in climate and sea level known for this period.
+This lack of data is despite the fact that physical and mineralogical properties have been shown to be effective in tracing sediment transport in several areas worldwide (e.g., Balsam et al., 1995; Liu et al., 2003; Adler et al., 2009).
+The lack of a mineralogical record limits our ability to understand the impact that changing monsoon intensity has had on sediment composition sourced from a drainage basin with a strong erosional signal.
+Mineralogy has been studied on the deep sea Indus Fan, but this has been starved of sediment since 11.5ka (Prins et al., 2000) and contains no record spanning the Holocene, where we have the best climate records.
+Prior to 1947 under more natural conditions the Indus River delivered between 250 and 675milliontonnes of sediment to the Indus Delta annually (Milliman et al., 1984; Giosan et al., 2006) while since that time discharge has fallen sharply because of damming (Inam et al., 2007).
+However, it is possible that some anthropogenic impact on sediment flux occurred earlier starting with the agriculture of the Harappan Civilization, ~5ka (Possehl, 1999).
+The Indus Shelf provides a potential archive for tracking changes in sediment discharge from the river and relating this to changing conditions in the onshore flood plain.
+The sediment record since the Last Glacial Maximum (LGM) is the target of this study reflecting the fact that this period has the best defined monsoon climate record derived from oceanographic upwelling records (Gupta et al., 2003), from speleothems (Fleitmann et al., 2003) and from lacustrine records in western India (Enzel et al., 1999).
+The aim of this paper is to understand how evolving climate and sea level may have affected chemical weathering, as well sediment transport pathways and sources to the western shelf of the Indus delta (Fig. 1).
+We do this through examination of the physical properties and clay mineralogy of sediments deposited in that region.
+We focus on two Holocene-Recent cores taken from the Indus Shelf, which have already been the subject of a separate geochemical, weathering response and provenance study by Limmer et al. (2012).
+That study highlighted the importance of long-shore currents and the reworking of older sediment on the shelf, as well as direct supply from the Indus River in accounting for the sediment flux to the shelf during the Holocene.
+Applying a multi-proxy approach yields information about the transport, depositional history and origin of sediment on the Western Indus Shelf that cannot be obtained through analysis of individual sample methods.
+Moreover, application of continuous sensing methods allows rapid, cm-scale fluctuations to be examined in a way not possible with conventional geochemistry.
+The relative ease and low cost of sample preparation means a much larger and more complete dataset can be produced relatively quickly.
+We test the hypothesis that clay mineralogy, magnetic susceptibility and diffuse reflectance spectrophotometry can record changes in terrigenous sediment supply from the Indus River.
+We present a complete record of western Indus Shelf sedimentation based on whole core analysis and sampling.
+We use this record to investigate how sedimentation has changed in response to changes in monsoon strength and sea level.
+Background
+Regional setting
+The Indus Shelf, located in the northern Arabian Sea spans approximately 180km from the delta to the slope edge and stretches southeast from the Murray Ridge and Makran Coast to the Rann of Kutch in India (Fig. 1).
+The shelf is dominated by the submarine Indus delta and a large sinuous canyon structure, the Swatch (Giosan et al., 2006), separating the eastern and western shelves.
+The Holocene delta is built over an 11km-thick passive margin sediment pile dating back to the Late Cretaceous and which has been the recipient of large volumes of sediment from the Indus River since at least the Early Miocene (Clift et al., 2001).
+The region is tectonically quiescent, except for the transform plate boundary to the west, along the Murray Ridge.
+Sediment supply is dominantly from the Himalayas and Karakoram (Clift et al., 2004; Garzanti et al., 2005).
+Clay mineralogy and magnetic properties have been used to reconstruct palaeoenvironmental conditions and provenance of marine sediments throughout Asia (e.g., Bouquillon et al., 1989; Sirocko and Lange, 1991; Prins et al., 2000; Thamban et al., 2002; Boulay et al., 2005; Wan et al., 2007; Liu et al., 2009).
+However, these studies have often been focussed in deepwater settings, away from the influence of major river systems or sediment processes on high-energy shelves.
+The cores in this study are located only 20km away from the coast line in ~70m of water, and are strongly influenced by the Indus River as well as the high wave energy of the Indus Shelf.
+As a result the two sites could potentially provide detailed records of Holocene environmental conditions recorded by the Indus River and delta system.
+Clay mineralogy
+Clay mineralogy has been widely used as a proxy for reconstructing climate, weathering and provenance in marine sediments.
+Changes in clay mineralogy have been linked to changes in weathering in the terrestrial environment of several Asian continental margins (e.g., Clift et al., 2002; Liu et al., 2003; Boulay et al., 2005; Wan et al., 2007; Colin et al., 2010) and as a record of terrestrial climate change in the deep Indian Ocean (Fagel et al., 1994).
+The major assumption made with palaeoclimatic interpretation of clay minerals is that there is no post-depositional diagenesis (Chamley, 1989; Hillier, 1995) which is likely to be true in a young, shallow-buried core such as we consider here.
+Typically studies quantify changes in the relative abundances of kaolinite, chlorite, smectite and illite as weathering proxies.
+In the Arabian Sea variations in clay mineralogy have been interpreted to reflect changes in the relative strength of dust plumes from Arabia, India and Pakistan, as well as changes in the input by major fluvial systems in the region (Sirocko and Lange, 1991; Fagel, 2007).
+Indus River assemblages are dominated by smectite, illite and to a lesser extent chlorite (Rao and Rao, 1995; Alizai et al., 2012).
+Smectite is a product of chemical weathering and its presence is typically associated with alteration of volcanic minerals (Chamley, 1989; Liu et al., 2003), although it also forms in low-lying poorly-drained soils (Wilson, 1999).
+In contrast, kaolinite often forms in warm, wet tropical environments subject to strong leaching (Chamley, 2001; Thamban et al., 2002).
+Both illite and chlorite can form through the breakdown of muscovite and biotite from or through the erosion of sedimentary rocks or minerals (Boulay et al., 2003).
+Chlorite and illite are usually preserved in soils and sediments at high-latitude or cooler climatic conditions where they are inherited from parent materials (Biscaye, 1965).
+Chemical weathering in these settings is weak but physical erosion is often stronger (e.g., Campbell and Claridge, 1982).
+An additional property that has been used in clay mineral studies is the crystallinity index of illite, which is thought to be sensitive to alteration and thus to climate change (Chamley, 1989; de Visser and Chamley, 1990; Pandarinath, 2009).
+Low illite crystallinity is associated with greater chemical weathering (Pandarinath, 2009) or lower burial diagenesis (Kisch, 1983).
+High temperature and rainfall causes stronger weathering and thus wider XRD peaks and lower crystallinity.
+A stronger monsoon might favour greater hydrolyzation and stronger weathering causing a reduction in illite crystallinity (Lamy et al., 1998; Alizai et al., 2012).
+Diffuse reflectance spectrophotometry (DRS)
+DRS is applied to estimate mineral composition along a core using the reflectance of light (Balsam et al., 1999; St-Onge et al., 2007).
+The most simplistic and commonly used analysis of DRS data is that supplied by the Commission Internationale de l'Eclairage (CIE) (Debret et al., 2011) where the parameters L*, a* and b* are calculated (Balsam et al., 1999; Nederbragt et al., 2006; St-Onge et al., 2007).
+L*, often referred to as grey scale, represents lightness where 0 is dark and values of 100 are pale (Croft and Pye, 2004).
+L* has been widely used as a proxy for carbonate content (Rogerson et al., 2006).
+A* represents the red to green colour spectrum and is often used as an indicator of red mineral abundance, for example hematite (Croft and Pye, 2004; St-Onge et al., 2007).
+B* values represent the colour spectrum from yellow to blue (Croft and Pye, 2004; Almogi-Labin et al., 2009) and have been shown to respond to changes in organic matter (Debret et al., 2006; St-Onge et al., 2007).
+These values are calculated from the XYZ tri-stimulus coordinates (Rodgers et al., 2008).
+XYZ values are calculated from the material reflectance, the spectrum used and the standard observer values (Rodgers et al., 2008) and were also defined by the CIE (Croft and Pye, 2004).
+Because L* values have been shown to be affected by not only carbonate composition but also clay mineralogy (Balsam et al., 1999), we do not consider this to be suitable for this study.
+Another use of DRS is to estimate the relative proportion of the iron-bearing minerals hematite and goethite.
+Increasing values of redness (a*) and hematite/goethite ratios have been shown to relate to drought phases because hematite forms under warm, arid conditions and goethite under cool, wet conditions (Schwertmann, 1971; Zang et al., 2007).
+Hematite/goethite ratios are often estimated using the first derivative peak of hematite, which occurs at 575nm and the first derivative peak of goethite, which occurs at 565nm (Helmke et al., 2002).
+A simplistic method is to divide the reflectance value at 565nm by the reflectance value at 435nm, which corresponds to peak reflectance of hematite and goethite.
+Magnetic susceptibility
+Magnetic susceptibility (χ) is a measure of magnetic mineral concentration (De Menocal et al., 1991).
+Magnetite, the main control of magnetic susceptibility, is associated with terrigenous sediment supply (Kumar et al., 2005).
+It is therefore possible to use magnetic susceptibility as a proxy for terrigenous sediment supply (De Menocal et al., 1991).
+It is widely used in a variety of marine and terrestrial settings as an indicator of changing environmental conditions and thus climate in the Asian monsoon region (e.g., De Menocal et al., 1991; Kumar et al., 2005; Thamban et al., 2005; Yancheva et al., 2007; Sun et al., 2009).
+It has been shown that increasing values of magnetic susceptibility correlate with periods of strengthening monsoon, as reconstructed from oxygen isotope records, revealing a link between Eolian transport and strong East Asian Winter Monsoon winds (An et al., 2001).
+Records of Holocene monsoon evolution in Asia
+A comprehensive review of climate records and the mechanisms for climate change are presented in Staubwasser and Weiss (2006).
+This section discusses periods of short-lived (500years) changes in climate during the Holocene.
+Many authors have reported a trend for a period of strengthening of the SW Asian monsoon during the Early Holocene between ~10ka and ~8ka, followed by a gradual drying, especially between 6 and 2ka (Enzel et al., 1999; Sarkar et al., 2000; Staubwasser et al., 2002; Fleitmann et al., 2003).
+Several periods of abrupt weakening of the SW Asian monsoon were identified by Gupta et al. (2003), using planktonic foraminifera at 8.2ka, 6.2-5.8ka, 4.6-4.2ka, 3.2ka and 2ka-1.2ka.
+These have since been linked short-lived solar minima events Gupta et al. (2005).
+It is this robust knowledge of climate history that allows us to use the clay mineral data presented here to understand the environmental response to the climate forcing.
+Methodology
+The techniques used to ascertain the mineralogy and physical properties of the sediment are magnetic susceptibility, DRS, X-ray diffraction (XRD), and bulk density porosity.
+XRD and DRS yield semi-quantitative data in the form of estimates of mineral composition.
+We use bulk density with radiocarbon dating to calculate mass accumulation rates at the two core sites.
+The advantages of DRS and magnetic methods over bulk elemental and isotopic analyses are the relatively short sample preparation times and the speed of analysis.
+Apart from XRD all techniques are non-destructive and yield data for the entire core length.
+We chose two cores obtained during the Winter 2008/09 aboard cruise 64PE300 of the RV Pelagia on the western shelf of the Indus Delta in the Arabian Sea (Fig. 1).
+Core Indus-10 is 9.06m long was recovered from 71m water depth and is located 120km northwest of the modern Indus Canyon.
+Core Indus-23 is 7.67m long and is located ~100km southeast of Indus-10 in 70m water depth (Fig. 1).
+Grain size variation is low, with mean grain size values ranging from 20 to 50μm (Limmer et al., 2012).
+These provide excellent material for our chosen methods and also contained material suitable for 14C AMS dating.
+Radiocarbon dating from these cores demonstrates these cores date back to the Early Holocene (Fig. 2) (Limmer et al., 2012).
+At Indus-10 there is a depositional hiatus approximately 830cm below the present seafloor (cmbsf) (Fig. 3).
+A depositional hiatus near the base of the core is a transgressive surface, with Holocene material overlying sediments deposited during the Pleistocene and exposed during the last glacial, sea level lowstand.
+At Indus-23 a possible depositional hiatus in the Mid Holocene is identified at ~640cmbsf below the present day seafloor (Fig. 4) (Limmer et al., 2012).
+Clay mineralogy
+Semi-quantitative clay mineralogy was conducted on 80 samples, 40 from each core.
+Each sample was placed in a beaker with 500ml deionized water, sonicated with a probe for 5min and stirred to disperse the material.
+Some samples were rinsed with deionised water several times to remove soluble salts and thereby aid dispersion.
+The dispersed sample was then transferred to a labelled, Atterberg cylinder topped up with deionized water, shaken and left for 16h.
+The volume above a 20cm sedimentation depth, which according to Stoke's law contains the <2μm fraction was then syphoned into a labelled bottle.
+Specimens for XRD analysis were then made using the filter peel method (vacuum filtration) by transferring clay to a glass slide placed onto the filtrate, which was left to dry at room temperature (Hillier, 2003).
+The samples were run through a range of 2-45° 2θ on a Siemens D5000 X-Ray Diffractometer (XRD), with Co Kα radiation selected by a diffracted beam monochromator at The James Hutton Institute, Aberdeen, UK.
+Three diffraction patterns were recorded on the same specimen, air-dried, solvated in ethylene glycol by vapour pressure at 60°C for 24h and heating to 300°C for 1h (Hillier, 2003).
+Heating to 300°C enhances the illite peak due to collapse of in any expandable clays such as smectite or mixed-layer illite-smectite (Moore and Reynolds, 1989; Hillier, 2003).
+Analysis of the diffraction data was conducted by measuring peak intensity as peak area using Bruker Diffrac Plus EVA-12.0 software.
+Estimates of mineral composition were made by a reference intensity ratio method based on factors calculated with the Newmod programme as described in Hillier (2003).
+Illite crystallinity was measured using the full width at half maximum (FHWM) of the 001 basal illite peak and integral breadth (I Breadth) of the same peak (Kübler and Jaboyedoff, 2000).
+Both measurements are measured as values of ∆2°θ and show identical trends (Alizai et al., 2012).
+Because our cores are <9m long, post-depositional burial diagenesis should not be a significant factor in clay mineral composition.
+Where clay mineral values are greater than 10% uncertainty is estimated as better than 5% weight at the 95% confidence level (Hillier, 2003).
+Clay mineral estimates are shown in Table 1.
+Diffuse reflectance spectrophotometry (DRS)
+Core scanning was conducted at the British Ocean Sediment Core Research Facility (BOSCORF) at the National Oceanography Centre, Southampton (NOCS) using a Geotek MSCL-XYZ with a Konica-Minolta CM2006d for spectrophotometry measurements.
+The archived halves were lightly scraped and carefully rewrapped in polyethylene to limit air bubble formation.
+Scanning was conducted at 1-cm resolution in order to generate a sufficiently high resolution record, while at the same time allowing for the collection of data in a reasonable duration.
+Wavelengths ranging from 360nm to 740nm at 10nm intervals were recorded.
+This provided us with the full visible light spectrum, eliminating the problems of water absorption associated with greater wavelengths, while minimizing sample preparation (Jarrard and Vanden Berg, 2006).
+Values were measured as percentage reflectance compared to a barium sulphate calibration plate as a white standard (Balsam et al., 2000).
+Magnetic susceptibility
+Magnetic susceptibility values were measured on U-channels through all sections of Indus-10 and Indus-23 using a Barrington Instruments MS2 Magnetic Susceptibility metre at NOCS (Roberts and Lewin-Harris, 2000).
+Each U-channel was run three times and continuous measurements recorded every centimetre.
+Bulk density
+Data was collected using a Geotek MSCL-S at 1cm resolution at NOCS.
+The cores were stored at room temperature the night before analysis and the data then processed using unpublished conductivity, temperature and depth (CTD) data obtained from the same cruise.
+We use bulk density in order to calculate mass accumulation rates (MAR) for both cores.
+MAR was calculated assuming linear sedimentation rates between dated samples and the bulk density values.
+Age model
+A total of 19 radiocarbon dates were obtained from the two core sites (Table 2), 15 of which were published in Limmer et al. (2012) using the marine standard calibration of Hughen et al. (2009).
+Analysis of the original 11 samples was completed at National Ocean Sciences Accelerator Mass Spectrometry facility (NOSAMS, Woods Hole Oceanographic Institution, USA) using their standard method, as discussed by McNichol et al. (1995).
+Four additional dates obtained from shell samples were prepared for radiocarbon analysis at the NERC Radiocarbon Facility (Environment) at East Kilbride, UK.
+Shells were ultrasonicated in deionized water and the outer 25% by weight of each shell was removed by controlled hydrolysis with dilute HCl.
+A known weight of homogenised, pre-treated shell was hydrolysed to CO2 using 85% orthophosphoric acid at room temperature.
+The resulting CO2 was cryogenically trapped and a subsample of CO2 was collected for independent δ13C measurement.
+The remaining CO2 was converted to graphite by Fe/Zn reduction.
+The δ13C value was measured on a dual inlet stable isotope mass spectrometer (VG OPTIMA) and is representative of δ13C in the original, pre-treated sample material (quoted precision is the machine error).
+Graphite targets were analysed at the AMS Laboratory, East Kilbride and the results were corrected to δ13C Vienna Pee Dee Belemnite standard (VPDB‰ -25) using the δ13C values.
+For this study all ages were remodelled using Calib 6.0 calibration software (Hughen et al., 2009) and the Marine09 dataset (Reimer et al., 2009).
+A local marine reservoir correction (ΔR) of +232±26years was used based on the average reservoir age of two samples from a similar location to the Indus core sites, as shown on the 14Chrono Marine Reservoir Database (http://calib.qub.ac.uk/marine/).
+We note that two samples, one at Indus-10 (373cmbsf) and one at Indus-23 (578cmbsf) do not fit the general age model.
+In both cases these shells were unarticulated and located close to sandier sections of the cores implying that they could be reworked.
+They are not included in calculating sedimentation rates or the age model (Fig. 2).
+All the dated samples are included in Table 2 with the new ages highlighted in bold.
+Results
+Clay mineralogy
+The relative abundances of four minerals smectite, illite, chlorite and kaolinite were plotted together with the illite crystallinity proxies of I Breadth and FHWM for Indus-10 (Fig. 3).
+Beneath the depositional hiatus illite is slightly more abundant than smectite, with values of 44% for illite compared to values of 41% for smectite.
+Above the depositional hiatus, between 480cmbsf and 760cmbsf, smectite is generally the more abundant mineral, although the change is very modest.
+Smectite values range from 44 to 53%, while illite values range from 34 to 43%.
+Above 480cmbsf illite is generally more abundant than smectite (39-51% compared to 38-44%).
+Both minerals are far more abundant than kaolinite (3-6%) and chlorite (7-12%).
+The illite crystallinity proxies both show sharp increases above the depositional hiatus between 760cmbsf and 835cmbsf from 0.26 to 0.37 FHWM ∆2°θ and 0.40 to 0.57 I-Breadth ∆2°θ (i.e. lower crystallinity).
+Above 480cmbsf illite crystallinity remains low apart from two declines in FHWM ∆2°θ from 0.40 to 0.31 and in I-Breadth ∆2°θ from 0.60 to 0.48 at 240cmbsf.
+There is also a slight increase in crystallinity at 130cmbsf where FHWM ∆2°θ drops from 0.36 to 0.33 and I-Breadth ∆2°θ from 0.53 to 0.47.
+At Indus-23 (Fig. 3) illite crystallinity values remain very stable throughout the core with values that are generally lower (i.e., more crystalline, less altered) than those observed in Indus-10.
+FHWM ∆2°θ ranges 0.33-0.36 and I-Breadth ∆2°θ 0.45-0.53 at Indus-23.
+Illite (46-52%) seems more dominant than smectite (35-45%) throughout Indus-23.
+Smectite and illite are the dominant mineral groups, although chlorite contents do increase (from ~7 to 11%) when smectite values generally decline (~53 to 36%) in both cores.
+Magnetic susceptibility, DRS and bulk density
+Magnetic susceptibility, redness, hematite/goethite ratios and bulk density values were plotted with the sedimentary log for Indus-10 (Fig. 5).
+There is no clear correlation between sediment type and any of these geophysical proxies, apart from at the depositional hiatuses.
+Four areas where variations in patterns shift sharply are highlighted.
+Above the depositional hiatus at ~850cmbsf magnetic susceptibility increases from 75×10-6 SI to approximately 260×10-6 SI at 700cmbsf, while redness and hematite/goethite ratios values decline sharply from ~2.8% to 0.8% and 1.8 to 0.8 respectively.
+At 550cmbsf magnetic susceptibility, redness and hematite/goethite values all increase sharply while bulk density values decrease.
+Similar shifts also occur at ~440cmbsf and at ~220cmbsf respectively.
+Magnetic susceptibility, redness, hematite/goethite and bulk density variations were plotted with the sedimentary log for Indus-23 (Fig. 6).
+As at Indus-10 lithology does not appear to be a key control on proxy values, not least because there is not much lithological variation.
+Magnetic susceptibility values decline sharply at 680cmbsf from 300×10-6 SI to almost zero before rebounding back and reaching values 380×10-6 SI at 660cmbsf across the depositional hiatus.
+At the same point redness values initially decreases from ~1.3% to ~0.4% to close to zero at 660cmbsf.
+At ~640cmbsf magnetic susceptibility values increase, redness and hematite/goethite values peak at 2.2% and 1.9.
+Similar patterns are observed at 350cmbsf.
+Temporal variations in clay mineralogy
+Clay mineral ratios are calculated with the chemical weathered clays (smectite and kaolinite) divided by the physically eroded clay minerals (chlorite and illite) in order to generate a proxy for the relative intensity of chemical weathering although kaolinite-based values are of doubtful value because of the generally low concentrations of this mineral.
+Values for smectite/illite and smectite/(chlorite+illite) are generally lower in Indus-23 than Indus-10 (Fig. 7).
+We employ smectite/(chlorite+illite) because it has already been demonstrated to be effective in similar Quaternary sediments from the Mekong Delta (Colin et al., 2010).
+However, the smectite/chlorite value is generally higher in Indus-23 than in Indus-10.
+Below the hiatus in Indus-23 (~7.5ka), both cores show very similar patterns in clay mineralogy, although there is an increase in all ratios in Indus-10 between 13ka and 9ka.
+In Indus-10 all smectite-based ratios increase to very high values (e.g., 1.2 for smectite/illite and 1.1 for smectite/(chlorite+illite)) after ~2.5ka before declining sharply at 2ka (e.g., 0.4 for both smectite/illite and smectite/(chlorite+illite)).
+Smectite/(chlorite+illite) again increase to 0.8 after ~0.5ka (Fig. 8).
+A much higher resolution record is available for the last 1.5ka from core Indus-23 (Fig. 8).
+A net increase in smectite/illite (0.7 to 1.3), smectite/(chlorite+illite) (0.5 to 1.0) and smectite/chlorite (4 to 6) is observed.
+Much of this change appears to have happened in the past 200years.
+An opposing trend is observed in kaolinite/illite.
+The smectite/kaolinite ratio follows the pattern of smectite-based ratios (e.g., smectite/chlorite).
+In contrast, the Indus-10 record for the last 1.5kyr shows a significant scatter in all clay mineral ratios at ~0.6ka that is not observed at Indus-23, while the kaolinite/illite increases between 1.2ka and 0.6ka.
+Discussion
+The variations in clay mineralogy at both core sites are consistent with previously published data for the Arabian Sea (Sirocko and Lange, 1991) and Indus Fan (Kolla et al., 1981) in that smectite and illite are the dominant mineral groups.
+The data from Indus-10 and Indus-23 agree with recent work from the onshore delta and floodplains where chlorite was observed to account for less than 10% of the total clay assemblage (Alizai et al., 2012).
+Consistently low kaolinite values of 3-5% are also consistent with previously published work in the region that show that kaolinite concentrations are generally the highest in the central Arabian Sea (Sirocko and Lange, 1991).
+In order to compare our clay mineral assemblages with those from the onshore (Alizai et al., 2012), a ternary plot of kaolinite, smectite and (chlorite+illite) was constructed (Fig. 9).
+This plot shows that both the river mouth site at Keti Bandar and Indus-10, located in the northwest of the study area have very similar clay compositions.
+However, sediments from Indus-23 have consistently higher smectite contents.
+This indicates that sediment deposited at Indus-23 was eroded from a source that is generally more chemically weathered than that deposited at the river mouth.
+Such a source could include older sediments deposited before the Holocene, or that this part of the shelf was receiving sediment from a region where more smectite-producing rocks are exposed.
+Indeed the contrast between Indus-23 and the river mouth is quite surprising given their close proximity.
+Clay mineralogy as provenance tool: comparing onshore to offshore
+Clay mineralogy is known to be related to provenance in dust samples within the Arabian Sea.
+In order to assess whether clay mineralogy relates to provenance in this setting we compared the smectite/(chlorite+illite), smectite/kaolinite and kaolinite/illite with the neodymium isotope characteristics of the sediments because this isotope system is widely accepted as a reliable provenance proxy that is not affected significantly by chemical weathering (Goldstein et al., 1984) (Fig. 10).
+We exploit bulk neodymium isotope (as expressed by εNd) data from these same cores published by Limmer et al. (2012) and from the coast at Keti Bandar, where sedimentation is believed to track sediment delivery at the river mouth (Clift et al., 2008).
+Neodymium isotopes are known to be sensitive to source changes in the Indus basin (Clift et al., 2002).
+In both offshore cores less negative εNd (i.e., less continental, less Himalayan) is often, but not always, associated with higher smectite/(chlorite+illite) ratios.
+However, more negative εNd values are associated with a range of smectite/(chlorite+illite) ratios (Fig. 10A) and the highest smectite/(chlorite+illite) values are never associated with the least negative εNd values.
+The kaolinite/illite ratio (Fig. 10B) is associated with a range of εNd values, both onshore and offshore.
+Overall there is no correlation between clay mineralogy and εNd.
+We further compare the temporal evolution in neodymium isotope values with the variation in clay mineralogy in the two cores considered here, as well as from the river mouth (Alizai et al., 2012) (Fig. 11).
+Since ~11ka the two core sites show less negative εNd values compared to sediment deposited near the river mouth at Keti Bandar, although the discrepancy is most pronounced at Indus-10.
+This difference indicates that the sediment at the core sites is not totally dominated by direct flux from the Indus River at any given time.
+Indus-10 has received sediment from the Bela Ophiolite the west of the study area via longshore drift during the Early Holocene (Limmer et al., 2012), although the clay mineralogy does not reflect this change.
+The one εNd value from Indus-23 during the Early Holocene suggests that the sediment had more in common with Indus River sediment from the LGM rather than the active river, a hypothesis that is consistent with the less weathered state of the material.
+Together these data may indicate reworking of sediments on the shelf, for example those deposited and exposed during the LGM.
+In general however, the smectite/(chlorite+illite) ratios of the Indus sediments show higher values (more weathering) between 10 and 5ka, when the monsoon was stronger.
+As the climate dried falling smectite/(chlorite+illite) ratios are consistent with the notion of less chemical weathering, and supportive of a dominant flux from the Indus River to the core sites.
+The shift towards less negative εNd values in Indus-10 at ~3ka is probably linked to reworking of older shelf sediments (Limmer et al., 2012).
+During the recent past, especially the last 200years the overall pattern both in the on and offshore record is a net increase in the smectite/(chlorite+illite) ratios, following a period of falling ratios between 6 and 2ka at Indus-10 and a shift towards more negative εNd values.
+This more recent change is unlikely to be linked to natural climate changes but coincides with the onset of large scale agriculture across the Indus basin.
+Clay mineralogy as a weathering proxy
+Because of their contrasting origins kaolinite/illite ratios have been used as proxies for hydrolysis compared to physical erosion intensity in marine sediments (Chamley, 1989).
+Kaolinite/illite has also been used as a proxy for humidity (Thamban et al., 2002).
+Another commonly used ratio is smectite/(chlorite+illite), which is interpreted to reflect the proportion of chemically weathered material compared to physically weathered material (e.g., Boulay et al., 2005; Alizai et al., 2012).
+As a result, this ratio is a useful weathering indicator in sub-tropical and arid environments where there is little kaolinite present.
+Figs. 7 and 8 plotted clay minerals associated with chemical weathering against clay minerals associated with physical weathering over time in order to determine how intensity has changed with time.
+If greater values of kaolinite and smectite reflect increased chemical weathering then smectite/illite and kaolinite/illite would show identical patterns through time, which is not the case.
+This is because smectite is favoured by drier, more seasonal conditions, while kaolinite is formed by leaching in wet, tropical environments (Thiry, 2000).
+We further test the ability of clay minerals to act as weathering proxies by comparing them with K/Al, which is the weathering proxy that is least affected by grain size or carbonate content, at least on the Indus Shelf (Limmer et al., 2012) (Fig. 12).
+For all three clay mineral ratios there is a poorly defined negative relationship between weathering intensity from the geochemistry and the weathering intensity in the clay mineralogy, although some of this relationship may be caused by the effects of grain size, this could also be attributed to the loss of potassium and the increase in both kaolinite and smectite during chemical weathering.
+Such proxies need to be used with some care because K is enriched under moderate degrees of chemical weathering, but then becomes depleted under more intense weathering, as K-feldspars break down (Blaxland, 1974; Nesbitt et al., 1997).
+We suggest that the anti-correlation noted in Fig. 12C in particular reflects the relatively moderate degree of alteration in Indus River sediments.
+The generally higher values for smectite relative to illite in Indus-10 could also reflect the mixing of Bela Ophiolite-derived sediments into Indus-10 rather than increased chemical weathering.
+Response to Holocene sea level rise and monsoon intensification
+Temporal variations in magnetic susceptibility, mass accumulation rates, clay mineralogy, redness, illite crystallinity (FHWM) and hematite/goethite ratios are plotted against the Qunf Cave climate record of Fleitmann et al. (2003) (Fig. 13).
+The clay mineral proxy smectite/(chlorite+illite), as well as illite crystallinity, shows clearly that strong monsoons are associated with periods of more intense weathering.
+A similar coherent relationship between smectite/(chlorite+illite) and monsoon strength has been observed elsewhere in Asia (Colin et al., 1999).
+Interestingly, the start of the period of stronger weathering between 11 and 8ka is also a time when hematite/goethite and redness increased.
+Normally these trends would be associated with drier rather than wetter conditions, yet are superior climate record clearly rules this out in this case.
+We suggest that the change in hematite/goethite reflects erosion and reworking of pre-existing hematite-rich soils formed during the arid LGM period and our reworked during the period of intensifying monsoon in the Early Holocene.
+Alternatively, the high hematite abundance may be associated with increased seasonality (i.e. monsoonal conditions) (Schwertmann, 1971; Ji et al., 2005; Naidu, 2006).
+Magnetic susceptibility decline sharply in Indus-23 between 10ka and 8.5ka during a period when the monsoon had reached maximum strength, as observed in the oxygen isotope records of Fleitmann et al. (2003).
+At Indus-10 however there is no such drop in magnetic susceptibility at this time, indeed the reverse is observed.
+If susceptibility tracks the flux of magnetite-bearing clastic flux to the ocean then its reduction at Indus-23 at a time when run-off might have increased is unexpected and suggests flux of sediment away from that site.
+Another possibility is that the magnetic mineralogy of the sediments at Indus-23 has been altered after deposition, possibly through diagenesis.
+Indus-10 behaves as might be expected in the context of a strengthening monsoon.
+Both cores show an increase in FHWM (i.e. decreased illite crystallinity) during the Early Holocene indicating deposition of more weathered sediment at a time when the monsoon rains were strengthening.
+This is consistent with monsoonal moisture required for chemical weathering, although some of the weathered material being deposited might be reworked from older LGM-sediment driven by heavier monsoon rains.
+4ka is known to be a time of major climate change (Fleitmann et al., 2003; Gupta et al., 2003; Staubwasser and Weiss, 2006), which appears to have triggered a weathering response that is preserved in the sediment of Indus-10 (~560cm core depth; Fig. 5).
+Magnetic susceptibility and smectite/(chlorite+illite) values drop as the monsoon weakened.
+It is this drought phase that has been correlated with the demise of the Indus-Harrapan civilization (Staubwasser et al., 2003; Madella and Fuller, 2006).
+Unfortunately the resolution of our records does not allow this climate event to be better resolved, although it is clear that it forms part of a long-term trend to weaker chemical weathering, as shown by increasing redness, higher hematite/goethite ratios and falling smectite/(chlorite+illite) values in Indus-10 between 8 and 2ka.
+We conclude that clay mineralogy and DRS data can be correlated with palaeoclimatic data over periods >1000years at Indus-10.
+εNd values indicate that some of the sediment deposited in the Early Holocene at Indus-10 was sourced from the Makran region, presumably through longshore drift, as well as from the Indus River mouth (Limmer et al., 2012).
+This transport could account for the higher smectite abundance at Indus-10 during the Early Holocene (Fig. 7), although the parallel trend seen at Keti Bandar instead suggests that there is a common climatic control to weathering in both the Makran and the main Indus basin.
+What is more surprising is the contrast between sediment from Indus-23 and the drill site at Keti Bandar, despite their relative proximity.
+Nonetheless, since 1.5ka smectite/(illite+chlorite) values at the two sites are indistinguishable, suggesting that more recently all sediment west of the canyon is dominantly derived from the river mouth.
+During this time the monsoon is believed to have slightly strengthen, during what has been known as the Roman Warm Period (Chauhan et al., 2009), although there is no weathering response to this.
+The two sites only show moderate differences in magnetic susceptibility, redness and hematite/goethite since 2ka.
+Mass accumulation rates (MAR) increased at Indus-10 during the Holocene.
+Although rising sea level created accommodation space on the shelf this process was completed by ~6ka, before the increasing MAR as noted.
+The hiatus in the section at Indus-23 makes it impossible to derive a meaningful long-term MAR reconstruction.
+We have no way of knowing if the higher rates at Indus-10 are just a local anomaly or if sediment delivery rates really increased across the shelf.
+MAR increased at both sites after ~2ka and particularly since 500years ago when there is a modest increase in summer monsoon intensity (von Rad et al., 2002; Fleitmann et al., 2003).
+However, this increase is out of proportion to the modest climate change and more likely indicates anthropogenic activity, such as cultivation or irrigation of the floodplain, which is widely linked to enhanced erosion and sediment delivery to deltas worldwide (Syvitski et al., 2005).
+Conclusions
+A study of the geophysical properties and clay mineralogy of sediments from the Indus Shelf was conducted at two sites in ~70m water depths west of the Indus River mouth and canyon.
+Changing clay mineralogy reflects a climatically driven evolution in chemical weathering in the onshore basin.
+The coherent variation in smectite/(illite+chlorite) and illite crystallinity with monsoon intensity at Indus-10 is consistent with a climatic control to chemical weathering processes since 14ka.
+However, we do not know if this is a direct response to stronger summer monsoon rains, or stronger reworking of pre-existing, more weathered material.
+Increasing hematite/goethite in the Early Holocene indicates that reworking for older LGM sediment was important at least at Indus 23.
+Hematite/goethite values show a gradual fall at Indus-10 from 11 to 2ka, suggestive of reduced seasonality as the summer monsoon weakened.
+At Indus-10 susceptibility has increased first rapidly after 10.5ka, and then steadily after 8ka until 5.5ka, mostly during a period of strong summer monsoon.
+Falling susceptibility of the 5.5ka correlates with the weaker monsoon, although increases after 2.5ka are hard to relate to climate records.
+Sedimentation rates gradually increased during the Holocene, most notably in the last 200years, which is attributed to anthropogenic modification of the floodplain, boosting sediment delivered to the ocean, as a result of reworking of older weathered materials.
+Strengthening of the monsoon during this recent period has been minor and is unlikely to be the trigger of the trend since ~2ka.
+We conclude that there are links between climatic variation and clay mineralogy on the Indus Shelf, but that reworking can make this hard to relate to weathering processes in the Indus flood plains at all locations.
+The most promising weathering proxies are smectite/(illite+chlorite) and illite crystallinity, but it is unclear whether the positive correlation between weathering intensity and summer monsoon strength is driven by direct response, or more by erosion and reworking of material weathered during earlier time periods.
+Acknowledgements
+The work was funded by a NERC studentship grant NE/G002029/1 for DL.
+The work was also supported by a grant from the International Association of Sedimentologists (IAS) for clay mineral analysis and a NERC facility grant for additional radiocarbon dates (NRCF allocation 1529.0311).
+We thank Christophe Colin and Nathalie Fagel for their constructive reviews.
+DL thanks Guy Rothwell and Suzanne MacLachlan at BOSCORF for training on the Geotek MSCL-XYZ and technical assistance and Jeremy Sothcott for his help in preparing cores for bulk density measurements.
+Anwar Alizai and Raja Ganeshram are thanked for useful discussions.
+DL also thanks Ian Philips for his assistance with the XRD analysis.
+DL and CK thank Nicola Pressling for the use of the Barrington MS2 Magnetic Susceptibility metre.
+PC thanks the Hanse Wissenschaftskolleg, Germany for the time to think about monsoon river and delta systems.
+

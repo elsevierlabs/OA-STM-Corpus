@@ -1,0 +1,219 @@
+The effects of simultaneous root colonisation by three Glomus species on soil pore characteristics
+
+Abstract
+The spatial and temporal nature of the precise interactions between soil fungi and roots and their subsequent role in developing soil structure is still a subject where our understanding is limited.
+This research examines the relationship between three species of arbuscular mycorrhizal fungus (AMF) and soil structural characteristics.
+Plantago lanceolata was inoculated with one of: Glomus geosporum, Glomus mosseae or Glomus intraradices, and every combination of the fungal species.
+Infectivity was similar for each individual species, but G. mosseae and G. intraradices together resulted in the lowest per cent root length colonised.
+Despite the lower percentage colonisation, this combination induced the greatest mycorrhizal growth response.
+Aggregate stability and aggregate size distribution were unaffected by AMF but were increased by the presence of roots.
+Microbial biomass-C was also enhanced by roots.
+Pore size, pore size distribution and nearest neighbour distance were all reduced by G. mosseae and increased by G. intraradices.
+All AMF inocula containing G. intraradices resulted in greater distances between pores within the experimental soils.
+Porosity (%) was increased by G. mosseae suggesting that more, smaller pores with less distance between them enhanced overall porosity.
+Highlights
+► Soil aggregate stability was increased by plant roots.
+► Aggregate stability was unaffected by arbuscular mycorrhizal fungi.
+► Pore size was reduced by Glomus mosseae and increased by Glomus intraradices.
+► G. mosseae reduced distance between neighbouring soil pores.
+► G. intraradices increased distance between neighbouring soil pores.
+
+Introduction
+Arbuscular mycorrhizal fungi (AMF) form symbiotic associations with most terrestrial plant species (Clapp et al., 2002) and play an important role in plant nutrition (Smith et al., 2011), in protecting the plant from pathogens (Wehner et al., 2010) and from herbivorous insects (Gange et al., 2005).
+AMF in addition to roots and saprotrophic organisms also contribute to the formation of soil structure and stabilisation (Tisdall and Oades, 1982; Six et al., 2004; Rillig and Mummey, 2006).
+Roots stabilise soil aggregates through enmeshment and by the release of organic residues that bind soil particles and support many soil organisms, which in turn produce exudates and hyphae that assist in stabilisation (Morel et al., 1991; Jastrow et al., 1998; Hinsinger et al., 2009).
+These processes also influence the water sorptivity and repellency of soil aggregates (Czarnes et al., 2000; Traoré et al., 2000).
+AMF are widely acknowledged to benefit soil formation and stabilisation, albeit to varying degrees.
+AMF develop extraradical hyphae which radiate away from the mycorrhizal roots into the surrounding soil.
+These hyphae secrete extracellular compounds such as glomalin, glomalin-related soil proteins and polysaccharides which bind soil particles with varying degrees of physical strength and hydrophobicity (Wright and Upadhyaya, 1996, 1998; Wright and Anderson, 2000; Rillig et al., 2002).
+In addition, hyphal products influence microbiota and food webs which may in turn change the soil structure (Filion et al., 1999; Marschner and Baumann, 2003).
+Fungal mycelia also exert direct effects on soil structure when hyphae enmesh soil particles (Tisdall and Oades, 1982; Miller and Jastrow, 1990).
+Hyphal morphology, including width, wall thickness and branching characteristics differs depending on species (Rillig and Mummey, 2006), causing variability in the tensile strength applied to soil.
+Mycorrhizal fungal diversity influences plant productivity and community composition (Van der Heijden et al., 1998a; Hartnett and Wilson, 1999) and similarly, plant community diversity affects AMF species richness (Johnson et al., 2003); both factors influence soil structure.
+Rillig and Mummey (2006) argued that an understanding of soil and microbial processes at different scales is required to appreciate the complexities of the systems involved.
+AMF affect individual plants by modifying root morphology (Van der Heijden et al., 1998b; Copetta et al., 2006) and altering nutrient dynamics (Oliveira et al., 2006).
+Extraradical mycelium (ERM) can have different forms of growth and different phosphate uptake efficiencies (Jakobsen et al., 1992; Helgason et al., 2002; Munkvold et al., 2004; Avio et al., 2006) that could modify plant growth and soil structure.
+Van der Heijden et al. (1998b) observed that as the number of AMF taxa within the plant root increased, the shoot and root biomass increased until a certain point after which biomass declined.
+Schreiner et al. (1997) reported that Glomus mosseae stabilised large aggregates (2-4 mm) whilst Glomus etunicatum and Gigaspora rosea did not.
+Smaller aggregates were not affected by AMF species.
+There is therefore evidence that AMF play an important role in stabilising aggregates and in other aspects of maintaining and developing a good soil structure.
+Nevertheless, there is little information on the effects different species of AMF have on aggregate stability or on soil pore dynamics, or indeed whether different AMF species in disturbed conditions have complimentary functions in relation to soil structure.
+The aim of this investigation was to determine the relationship between three AMF species, a host plant and the development of soil structure in terms of aggregates and resulting porosity.
+Soil macrocosms were established which contained sieved homogenous soil, assembled communities of indigenous microflora (originating from a soil-water 'slurry') and Glomus geosporum, G. mosseae and Glomus intraradices individually and in every combination.
+A split-pot design enabled quantification of the effects that roots, mycorrhizas and hyphae had on aggregate stability, aggregate size distribution, pore size and pore nearest neighbour distance.
+Drew et al. (2003) demonstrated that pore size affected morphology of G. mosseae and G. intraradices and concluded that extraradical hyphae adapt to the environment but exhibit different levels of adaptability.
+Here we determine not how the species were affected by pore size but instead, how the species modify pore size and porosity in a homogeneous soil.
+Materials and methods
+Soil preparation
+A sandy loam soil (Dunnington Heath series) was collected from the University of Nottingham farm site at Sutton Bonington, Leicestershire (SK 512 267).
+Soil was taken from a depth of 5-20 cm, air dried and sieved to <2 mm before γ-irradiating at 25 kGy (Isotron Ltd, Daventry, UK) to primarily remove indigenous arbuscular mycorrhizal fungi.
+The soil had the following physical characteristics: Sand 66%, silt 18%, clay 16%, organic matter 3.7% and pH 7.35.
+Macrocosms (19.7 cm length × 10.8 cm internal diameter) were constructed by splitting pipes lengthways and placing 20 μm mesh (Cadisch Precision Meshes Ltd, London, UK) vertically through the centre of each column.
+This maintained roots within one half of the pot, but allowed AMF hyphae to penetrate the mesh and enter the root-free half of the pot.
+Mesh (400 μm) was also fixed to the base of each macrocosm.
+Soil was packed into both sides of each macrocosm to a bulk density of 1 g cm-3.
+A layer of AMF inoculum was placed into one side of the column (4.5 cm from the top) where seeds were later sown.
+Inoculum was added as a layer rather than mixed homogeneously throughout so that firstly, it would not interfere with soil structural properties and would be easily detected when columns were scanned and secondly, because roots would need to penetrate the layer thereby maximising the chance of encountering the inoculum.
+A layer of soil covered the inoculum and acted as a seed-bed.
+The AMF species used in this investigation originated from the same site, although not from the field where experimental soil was collected.
+Inoculum was originally sourced via PlantWorks Ltd (Sittingbourne, Kent, UK) and each species subsequently maintained in culture in sterilised Dunnington Heath field soil from the University of Nottingham farm, with Plantago lanceolata as the host.
+Inoculum used in this investigation consisted of three different AMF species: G. geosporum, G. mosseae and G. intraradices, applied as a mixture of substrate containing mycorrhizal roots, spores and extraradical hyphae.
+AMF species were inoculated individually and in every combination.
+Non-mycorrhizal treatments were given sterilised inoculum.
+The inoculum was split appropriately according to treatment.
+The non-mycorrhizal control received 12 g of sterilised inoculum; the one species inoculum consisted of 6 g of the appropriate species and 6 g of sterilised inoculum; the two-species mix consisted of 3 g of each species and 6 g of sterilised inoculum; the three-species mix consisted of 2 g of each individual AMF inoculum and 6 g of sterilised inoculum.
+Following addition of AMF inoculum, indigenous micro-organisms were introduced to each macrocosm by saturating with a soil slurry solution made from field fresh soil (Dunnington Heath sandy loam) and inoculum 'washings' by diluting in sterile, 1/4 strength Ringer's solution in a ratio of 10:1 and sieving.
+This ensured addition of a common microflora from the original field soil.
+Once the cores were saturated, they were left to drain for 2 days to reach field capacity and weighed.
+At the start of the experiment, three P. lanceolata seeds were sown into the top of each macrocosm in the half containing the AMF inoculum.
+Once seedlings had reached the one true leaf stage of growth, they were thinned to leave one seedling per macrocosm.
+Macrocosms were maintained in a glasshouse at 20-25 °C with a 16 h day-length supplemented by lights and maintained at field capacity (determined by weight) by watering with sterile deionised water.
+There were 8 replicates per treatment; six replicates were destructively harvested after 7 weeks and two were kept intact for X-ray CT imaging.
+The duration of the experiment was relatively short because the plants grew quickly so were harvested before pots became root bound.
+Plant and mycorrhizal measurements
+After 7 weeks shoot and root biomass was determined on oven-dried material (80 °C for 2-3 days to constant mass).
+Prior to drying, sub-samples of roots were weighed and then maintained in 70% ethanol for later determination of AMF colonisation which was carried out according to Brundrett et al. (1984).
+Roots were cleared in 10% KOH solution, rinsed in water and stained for 1 h at 90 °C in a 0.1% Chlorazol Black E lactoglycerol solution containing equal volumes of 80% lactic acid, glycerol and deionised water.
+After staining, the roots were transferred into glycerol for storage and destaining.
+Colonisation was quantified using the method of McGonigle et al. (1990) at ×200 magnification to give percentage root length colonised.
+Mycorrhizal growth response (MGR) was calculated from the following equation (Nadian et al., 1997) where M is mycorrhizal and NM is non-mycorrhizal:MGR=RootdwtofMplants-RootdwtofNMplantsRootdwtNMplants
+Presence of extraradical AMF hyphae was determined each side of the central mesh after extraction by the membrane filter technique of Jakobsen et al. (1992) and staining with Trypan Blue.
+Presence of AMF hyphae in each field of view (×100 magnification) was recorded and distinguished from hyphae of non-mycorrhizal fungi by visual appearance (Piotrowski et al., 2004).
+Microbial biomass-C was determined using the fumigation-extraction method described by Vance et al. (1987) and quantified using a correction factor of 0.45 (Wu et al., 1990).
+Aggregate size and stability
+A sub-sample of soil was air dried for 7-14 days.
+Aggregate size distribution was determined by sieving a 25 g dried homogenised sub-sample through nine sieves: 4000, 2000, 1000, 500, 425, 300, 212, 106 and 53 μm.
+The mass retained on each sieve was weighed, recorded and the percentage mass in each fraction calculated.
+From aggregate size distributions, the coefficient of uniformity (Kézdi, 1974) was used to numerically illustrate the differences in distributions where large and small aggregates co-existed.
+Aggregate stability was determined by the fast wetting (slaking) technique, developed by Le Bissonnais (1996) and expressed as mean weight diameter (MWD).
+X-ray computed tomography
+Soil structural analysis was undertaken non-destructively using an X-Tek Venlo H series, X-ray CT Scanner (H 350/225 CT; X-TEK, Tring, Hertfordshire, UK).
+Each column was scanned at 296 kV and 2.3 μA, with an exposure time of 220 ms.
+The samples were placed 145 mm away from the detector and scanned to collect a single image at 6 pre-determined depths (60, 80, 100, 120, 140 and 160 mm from the top of the column).
+A 2 mm primary copper filter was placed near the X-ray source to eliminate X-ray scatter, in addition to a 4 mm secondary copper filter placed at the detector to prevent detector saturation (i.e. when the input to the detector exceeds the total capacity) and beam hardening (Taina et al., 2008).
+The detector consisted of 3710 diodes set 83 μm apart.
+Gain and offset correction was applied to all of the diodes within the detector by applying a black (offset) and white (gain) reference to adjust for exposure variations.
+Each sample was scanned at pre-determined depths with the image resolution being 64 μm pixel-1.
+Images obtained from X-ray CT were processed in AnalySIS® (Soft Imaging Systems (SIS), Munster, Germany) in order to reduce background noise introduced into the image by the scanning and reconstruction process.
+To reduce the influence of ring artefacts, a polar transformation was applied to the image using polar co-ordination.
+After transformations, three convolve filters were applied before the image was reverted back to cartesian co-ordination.
+Since polar transformation is useful to unwrap images of rounded objects, it is an ideal method to remove ring artefacts prior to 'bending' of the image using the Cartesian transformation.
+Filtering was performed using: 1) A median filter which smoothed the image; 2) a sharpen filter, that emphasised detail; 3) a lowpass filter, that acted as a noise reduction filter to reduce the influence of artefacts; 4) image conversion to greyscale.
+Binarisation of the images was undertaken using a modified auto-threshold (where the overflow value was set as 32.7%), since the default settings did not satisfactorily separate the soil solids from the pore space.
+Finally an erosion morphological filter was applied with a hexagon lattice setting of size three pixels and two iterations.
+From processed binary images measurements regarding the pore size, distribution and morphology (i.e. shape) were determined.
+From processed binary images measurements of the overall image porosity, the individual pore size (area) and the distribution of pores (nearest neighbour statistics) were determined and expressed as an average of the 6 slices.
+Statistical analysis
+Analysis of variance (ANOVA) was performed in GenStat Release 13.1 (Lawes Agricultural Trust) to separate effects of AMF species (singly and in mixed inoculum) on plant biomass, and root and hyphal effects on porosity, pore size and aggregate size and stability.
+Data were log10 transformed where appropriate and percentages were ARCSINE-transformed.
+Normality was tested by plotting residuals against expected normal quantiles in GenStat.
+Comparison between means was based on least significant differences at the 0.05 probability level.
+Results
+Mycorrhizal colonisation
+AM fungal inoculum as a single factor was significant (P < 0.001) with distinct species combinations resulting in different levels of root colonisation.
+The individual inocula resulted in similar levels of colonisation (9.9%-16.2%; LSD = 7.01) irrespective of species, therefore valid comparisons with and between the mixed species could be made.
+The highest percentage colonisation was observed in the two-species mixture of G. geosporum plus G. mosseae (25.4%), followed by the combination of all three species (23.8%).
+Percentage colonisation by G. geosporum plus G. mosseae in combination appeared to be additive relative to that observed by the species individually (16.2%, G. geosporum; 9.9% G. mosseae).
+Colonisation was markedly reduced when G. mosseae and G. intraradices were paired (7.5%), particularly compared to the performance of G. intraradices individually (14.2%).
+Arbuscules followed a similar pattern to hyphal colonisation, with the G. geosporum and G. mosseae combination containing the most arbuscules (data not shown).
+No mycorrhizal colonisation was observed in the uninoculated plant roots.
+The presence of hyphae within the rooting chamber and in the portion of the pots where roots could not penetrate was confirmed microscopically.
+A greater amount of extraradical hyphae was detected in the rooted sides of the pots than in those without roots (8.02 and 7.02 m g-1 soil respectively, P = 0.022).
+Although there is an apparent trend towards greater hyphal lengths in the unrooted sides of pots containing more than one AMF species, this is not statistically significant (Fig. 1).
+Plant growth
+Shoot dry weight was not significantly affected by any mycorrhizal treatment.
+In contrast, root biomass was affected sufficiently to result in mycorrhizal-related differences in whole plant biomass (P = 0.005).
+Root biomass was greatest in plants inoculated with the G. mosseae plus G. intraradices mixture.
+The growth response when both these species were in combination was greater than when each fungus was inoculated individually.
+In terms of plant growth, G. geosporum in combination with other species did not enhance the effectiveness of the inoculum relative to when used singly.
+None of the mycorrhizal fungi when inoculated individually increased plant biomass.
+However, root growth responded positively to the G. mosseae plus G. intraradices combination, resulting in a mycorrhizal growth response of 115% on a whole plant basis and 169% on a root only basis (P = 0.001) (Fig. 2).
+The fungal combination that resulted in the lowest percentage root length colonised induced the highest mycorrhizal growth response.
+Soil aggregates and porous architecture characteristics
+Soil aggregates in the rooted side of the macrocosms were more stable than those in root-free portions (MWD = 2.23 and 1.61 mm respectively; roots as a single factor in ANOVA, P < 0.001).
+These values for MWD indicate that aggregates from the rooted side of the macrocosms could be classed as very stable and those from the root-free area as stable (Le Bissonnais, 1996).
+Mycorrhizal colonisation did not affect aggregate stability, nor did AMF influence aggregate size distribution (expressed as the coefficient of uniformity, ASDcu).
+Roots significantly increased ASDcu compared to that of soil where roots were absent (4.87 and 4.03 respectively; roots as a single factor, ANOVA, P < 0.001).
+Both values were <5 indicating the presence of a greater proportion of larger aggregates (Tecle et al., 2009).
+However, uniformity of aggregates in rooted soil was closer to the class boundary of 5 suggesting the effect of roots in soils is to create a degree of homogeneity in soil structure (Tecle et al., 2009).
+Soil porosity was affected by both AMF species mix (Fig. 3) and by roots (both as single factors, ANOVA, P = 0.015 and P = 0.003 respectively).
+No interaction between AMF and roots was observed.
+Soil within the rooted side of the macrocosm had a porosity of 12.89% whilst soil in the absence of roots had a mean porosity of 9.31%.
+The general effect of individual AM fungal species was to increase porosity whilst dual combinations decreased porosity to non-mycorrhizal levels with one exception, that of G. geosporum plus G. mosseae.
+G. mosseae significantly increased porosity compared to the non-mycorrhizal soil (14.81% vs 9.77%) and G. intraradices in combination reduced porosity to non-mycorrhizal levels (9.3%).
+The lowest percentage porosity was observed in soils containing the three-species mix (6.86%).
+Pore size distributions (Fig. 4) were similar for all species combinations except that distributions in soil inoculated with G. mosseae were in favour of a higher percentage of smaller pores compared to G. intraradices which encouraged a greater proportion of larger pores.
+These effects were not observed in soils containing the three-species mix.
+Pore size distributions were similar in the rooted and root-free sides of the macrocosms.
+Pore area (individual pore size, Fig. 5A) was significantly (P < 0.001) reduced in soils inoculated with G. mosseae which supports the observations for pore size distribution in soils inoculated with this species (Fig. 4).
+G. intraradices showed a tendency towards increasing pore area, although this was not significant and likely reflects the skewed pore size distribution towards pores that were log10 2 mm2 (Fig. 4).
+Plant roots did not affect pore size, but did reduce the distance between neighbouring pores (1.47 and 1.59 mm respectively) although this was only weakly significant (P = 0.058).
+G. mosseae significantly reduced the distance between neighbouring pores relative to all other mycorrhizal treatments (AMF as a single factor, ANOVA, P < 0.001).
+The effects of the different fungal species on nearest neighbour distance were more complex than those for porosity or pore area.
+The distance between neighbouring pores was greatest in all combinations containing G. intraradices.
+Therefore the distance between neighbours and pore size were reduced by G. mosseae and generally increased by G. intraradices.
+Microbial biomass
+The overall average organic matter content was 3.8% and this was unaffected by any treatment.
+Microbial biomass-C was significantly (P = 0.030) greater in rooted portions of the macrocosms relative to the root-free soils (103.8 and 79.7 μg C g-1 soil); AMF species did not affect microbial biomass-C.
+Discussion
+Glomus species often dominate agricultural soils (Daniell et al., 2001; Schnoor et al., 2011) and according to Mirás-Avalos et al. (2011) tillage allows for coexistence of more species than in untilled land.
+Therefore, the three Glomus species studied here might be expected to coexist and possibly complement each other in creating a stable soil structure from the homogenous soil within the macrocosms.
+There has been much interest in the effects of arbuscular mycorrhizal fungi (AMF) on soil aggregate stabilisation and positive correlations between AMF hyphae and aggregate stability have been recorded, either from the direct effects of the hyphae (Degens et al., 1996; Jastrow et al., 1998) or from indirect effects resulting from glomalin production (Wright and Upadhyaya, 1998; Rillig et al., 2002; Rillig, 2004).
+However, little work to date has considered the effects of different AMF species individually and in combination on a range of soil structural parameters including porous architecture characteristics.
+The split-pot design employed here enabled differentiation between the effects of root, mycorrhizas and AMF hyphae on soil structural parameters.
+The fungi used showed comparable infectivity when inoculated individually and per cent root length colonised by the three species was similar.
+Furthermore, each species produced similar amounts of extraradical hyphae.
+Although infectivity of the individual Glomus spp.
+studied here was similar, when in combination infectivity varied and G. mosseae plus G. intraradices did not colonise the plant roots as effectively as the individual inocula.
+However, root growth response was greatest in plants inoculated with this dual combination.
+McGonigle et al. (2003) demonstrated that G. mosseae either as a single inoculum or in combination with Gigaspora margarita stimulated maize growth in undisturbed soil.
+The P. lanceolata used here may have had a competitive advantage if G. mosseae colonised the roots rapidly and then G. intraradices developed later as suggested by Jansa et al. (2008).
+These authors quantified colonisation using real-time PCR which showed that G. mosseae rapidly colonised roots relative to other species and then quickly declined.
+The authors explain this as a rapid spread of mycelium followed by reduced vigour.
+They highlight that AMF community composition is likely to change with time as fast colonisers become less effective and others become more prevalent.
+Grace et al. (2009) grew non-responsive barley and found that G. intraradices contributed 48% of the plant's phosphate whilst G. geosporum contributed little.
+The treatments containing G. geosporum in the current investigation exhibited the highest percentage colonisation whilst not responding in terms of growth.
+The lack of growth response with inoculation may be due to depletion of photosynthates or changes in root and AMF phosphate uptake pathways.
+In contrast, the increased growth response when G. mosseae and G. intraradices were inoculated together suggests complementarity between the two species.
+Drew et al. (2003) reported complementary spatial acquisition of P by these two AMF species and this might explain the improved growth observed here although plant P was not measured.
+G. mosseae and G. intraradices have both been shown to grow at least 15 cm away from roots (Jansa et al., 2003, 2005) and the soil staining technique used in this investigation verified the presence of hyphae in all the AMF treatments, in both the rooted and unrooted zones of the macrocosms.
+Despite the presence of AMF hyphae, neither aggregate stability nor aggregate size distribution was significantly affected by the fungal species, although the presence of roots improved both parameters.
+In a parallel (unpublished) experiment, aggregate stability was affected by AM hyphae only after 3 months of plant growth and whilst aggregate turnover rates range from 4 to 88 days (De Gryze et al., 2005, 2006), the duration of the current investigation is likely to have been too short for the effects of AMF on aggregate stability to be observed.
+Indeed others maintained experiments for much longer, e.g.
+Hallett et al. (2009) for 84 days and Wilson et al. (2009) for up to 17 years.
+Microbial biomass-C was enhanced in the rooting chamber relative to the side of the macrocosm without roots.
+It has been known for some time that roots produce exudates that enhance microbial activity and the binding effects of the plant and microbial polysaccharides, with the enmeshing capability of fungal hyphae, improve aggregate stability (Haynes and Beare, 1996).
+Interestingly, Piotrowski et al. (2004) demonstrated that interactions between AMF and host species dictated the percentage of water-stable aggregates; nevertheless they concluded that root biomass and hyphal length are not good indicators and other factors are important in determining aggregate stability.
+These authors suggest that hyphal spread is likely to be more important than hyphal length in this process.
+In contrast to this, Bedini et al. (2009) demonstrated that MWD values of soil aggregates were correlated with total hyphal length (as well as density) of the AMF.
+Degens et al. (1996) found that hyphal cross-linkages between sand grains were the cause of aggregate stability in a sandy soil but insufficient lengths of hyphae were present to enmesh particles <250 μm.
+These authors did not find any evidence of aggregation being due to polysaccharide production.
+It is possible that extraradical hyphal growth was insufficient to enmesh the soil particles within this current investigation.
+Indeed, whilst Bedini et al. (2009) demonstrated a positive relationship between mean weight diameter and hyphal length, the greatest MWD was associated with total hyphal lengths of 40 m; in the current study, hyphal lengths were less than 10 m g-1 although these values are in line with the amounts recorded by Boddington et al. (1999).
+Despite the lack of correlation between aggregate stability and AMF, rapid growth of G. mosseae hyphae suggested by Jansa et al. (2008) might be expected to result in alterations in soil structure relative to hyphae of other slower growing species.
+Work by Giovannetti et al. (2001, 2004) demonstrated that AMF hyphae frequently anastamose and could result in a large network of interconnecting hyphae.
+Within the current experiment, colonisation by G. mosseae resulted in a higher proportion of small soil pores to large ones and reduced distances between neighbouring pores.
+A soil with a greater proportion of small pores (∼0.4 mm2) will retain water more effectively than a soil with larger pores; furthermore, small pores act as nutrient-rich habitats for soil microflora (Nunan et al., 2001).
+In contrast, G. intraradices led to soil with a greater number of large pores and all combinations of G. intraradices resulted in greater distances between neighbouring pores.
+Bearden (2001) concluded, in a study of soil-water characteristics, that AMF hyphae resulted in soils gaining groups of small pores which corroborates the current findings, although it is interesting that different Glomus species affect the size and distance between pores differently.
+Bearden (2001) used a combination of six Glomus species (including G. mosseae) in her investigation of vertisols.
+In contrast, Milleret et al. (2009) found no evidence of G. intraradices forming small diameter structural pores and the larger size of the pores relative to the AMF led them to conclude that pore development was an indirect effect of the mycorrhiza.
+Since the extraradical hyphae had a smaller diameter than the pores, the authors suggested that hyphal penetration of pores induced root exudation and increased microbial activity.
+The data in the current investigation show that plant roots, possibly by influencing the associated microbial biomass and not colonisation by AMF per se, positively affected aggregate stability.
+Previous studies (e.g. Bedini et al., 2009) showed that aggregate stability is affected by the plant-fungal system rather than by plant root metabolism.
+Hallett et al. (2009) performed an elegant experiment in which mycorrhizal-deficient and 'wild type' tomato plants were grown in an agricultural field soil amended with G. mosseae and G. intraradices.
+These authors demonstrated that aggregate stability and porosity were increased in planted soils irrespective of the plant type (and mycorrhizal status) and they conclude that roots drive the stabilisation of soil structure.
+Their experiment lasted for 84 days and during this time the soil experienced wet-dry cycles which may have encouraged microbial populations to produce polysaccharides which in turn enhanced aggregate production.
+However in the current study, individual AMF species and combinations of co-occurring AMF species caused short-term effects on pore dynamics which may result in long-term impacts on porosity and aggregate stability.
+Whilst it has been shown before that different AMF species may affect aggregate stability (Schreiner et al., 1997), the focus here is on the effects of the mycelium in addition to the mycorrhiza.
+No correlations were observed for AMF hyphal abundance and soil physical properties, demonstrating that the differences observed may relate to growth patterns and mycelium architecture rather than density, or perhaps to AMF-specific altered C-exudation since AM fungi are known to produce extracellular soil proteins such as glomalin (Wright and Upadhyaya, 1996).
+The data presented here demonstrate that different AMF species within the same genus may have contrasting effects on soil pore characteristics which could alter the micro-physical habitat for other soil organisms.
+Conclusions
+The results show that in a homogeneous soil, P. lanceolata roots increased aggregate size distribution (ASDcu) and aggregate stability (MWD) irrespective of whether roots were mycorrhizal or not.
+AMF hyphae had no measurable effect on aggregate size or stability over the relatively short duration of the investigation.
+Porosity and pore size distribution were affected by AM fungal species; in particular G. mosseae hyphae produced a more complex pore network, whilst G. intraradices was associated with a more porous open pore network.
+Since pore formation and pore connectivity are key elements in understanding the structural quality of soil, knowing which AMF species has the greatest influence on these factors will enable careful decisions to be made in management practices of agroecosystems.
+Acknowledgements
+We gratefully acknowledge the NERC Studentship awarded to SLM and ADAS for additional support.
+We also thank Chris Fox for technical expertise and anonymous Referees for making detailed and helpful suggestions.
+

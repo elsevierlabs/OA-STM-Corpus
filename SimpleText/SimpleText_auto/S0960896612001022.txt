@@ -1,0 +1,219 @@
+Single deletions in mitochondrial DNA - Molecular mechanisms and disease phenotypes in clinical practice
+
+Abstract
+Over 20years ago single clonal deletions were the first mitochondrial DNA (mtDNA) genetic defects described in association with human disease.
+Since then very large numbers of children and adults harbouring such deletions have been described and it is clear they are an important cause of human mitochondrial disease.
+However, there still remain many important challenges in relation to our understanding of mechanisms leading to deletion formation and propagation and in relation to the factors determining the complex and varying relationship between genotype and clinical phenotype.
+Although multidisciplinary team care is essential and can improve quality of life and outcomes for patients, a definitive molecular treatment for single mtDNA deletions remains an important translational research goal.
+Patients with mtDNA deletions exhibit a very wide range of different clinical phenotypes with marked variation in age at onset and disease severity.
+Single mtDNA deletions may enter into the differential diagnosis of many different paediatric and adult presentations across a wide range of medical specialties, although neurological presentations are amongst the most common.
+In this review, we examine the molecular mechanisms underpinning mtDNA replication and we consider the hypotheses proposed to explain the formation and propagation of single large-scale mtDNA deletions.
+We also describe the range of clinical features associated with single mtDNA deletions, outline a molecular diagnostic approach and discuss current management including the role of aerobic and resistance exercise training programmes.
+
+Introduction
+Mitochondria are double membrane-bound intracellular organelles that form large branching reticular networks inside all eukaryotic cells except erythrocytes.
+Their primary function is to convert food substrates in the presence of oxygen to energy, in the form of ATP, by aerobic respiration.
+This oxidative phosphorylation (OXPHOS) reaction is performed in the mitochondrial inner membrane by five enzyme complexes (so-called complexes I, II, III, IV and V).
+Electrons are provided by NADH and FADH2, which are reducing agents supplied by the oxidation of carbohydrates and fatty acids via the Krebs cycle and β-oxidation, respectively.
+Electrons are passed between a series of donors and increasingly electronegative acceptors until the final reduction of oxygen to water.
+Each step releases energy which is used to actively pump protons (via complex I, III and IV) from within the mitochondrial matrix into the intermembrane space, thereby creating an electrochemical gradient (Δψm) across the inner mitochondrial membrane [1].
+Some electrons leak directly to oxygen and form reactive oxygen species (ROS) and these molecules have long since been implicated in a number of disease states and ageing [2-4].
+The proton gradient enables the terminal OXPHOS enzyme, complex V (ATP synthase), to generate ATP from ADP and inorganic phosphate, by allowing protons to flow passively through it along the electrochemical gradient back into the mitochondrial matrix.
+Mitochondria are unique amongst intracellular organelles in that they contain their own DNA [5,6].
+The mitochondrial genome is a double-stranded circular structure consisting of 16,659 base-pairs (bp).
+Genes are located on both strands; the so-called heavy (H) and light (L) strands due to their relative composition of either mainly purines (adenine and guanine) or pyrimidines (thymine and cytosine), respectively, with the former having greater molecular weight than the latter.
+Mitochondrial DNA (mtDNA) is highly compact with no introns and only one major non-coding region (NCR), known as the control region (consisting of ∼900bp in mammals), which contains the origin of replication for the H-strand (OH), the origins of transcription for both H- and L-strands and the Displacement loop (D-loop).
+The D-loop is a triple-stranded region whose third strand (or 7S DNA) spans approximately 650bp from nucleotide numbers 16,111 to 191 [7].
+MtDNA codes for 37 genes which enable synthesis of 13 OXPHOS subunits required for aerobic respiration.
+The mtDNA is susceptible to oxidative DNA damage due to its close proximity to ROS at the inner mitochondrial membrane, lack of protective histone proteins, and limited mitochondrial DNA proof-reading and repair systems.
+As a result, mtDNA has a mutation rate 10-20 times that of nDNA [8,9].
+In vivo, nuclear DNA (nDNA) adopts a condensed structure associated with histones and other proteins [10,11] called nucleosomes which form the basic repeating units of eukaryotic chromatin.
+These protein-DNA complexes compact, order, and protect the DNA, and create a degree of regulatory control to ensure its correct expression.
+They also facilitate co-ordinated copying and segregation of DNA molecules.
+MtDNA is also packaged as protein-DNA complexes called nucleoids, which may be the units of mtDNA transmission and inheritance [12,13].
+Each mitochondrial nucleoid appears to contain a single mtDNA molecule.
+Nucleoids are associated with the inner mitochondrial membrane and are evenly spaced along the mitochondrial reticulum [14-17].
+Interestingly, the nucleoid distribution process appears to be reliant on protein-protein interactions and is independent from the DNA itself [18].
+More than 25 nucleoid-interacting proteins have been identified, but their precise role in mtDNA maintenance is not fully established.
+In fact, many of these proteins appear to have functions unrelated to mtDNA maintenance suggesting they are bifunctional [18].
+Some are important for packaging, division and sorting of nucleoids, whereas others are involved in mtDNA replication, repair and transcription [17].
+A detailed review of mitochondrial nucleoid-associated proteins and their function is given elsewhere [19].
+Although the mtDNA encodes 13 essential OXPHOS subunits, all other proteins needed for mitochondrial OXPHOS function are encoded by nuclear genes.
+These include the remaining 77 OXPHOS subunits, and proteins involved with transcription and translation of mtDNA, assembly of the OXPHOS enzyme complexes, biosynthesis of mobile electron carriers in the inner mitochondrial membrane, import of solutes and proteins into the mitochondrion, regulation of mitochondrial membrane dynamics and composition, and mitochondrial fission and fusion.
+More than 80 nuclear genes have already been linked to human mitochondrial disease; however, an estimated 1500 nuclear-encoded proteins are targeted to mitochondria [20].
+Defects in any of these genes could theoretically cause a mitochondrial disorder.
+Single large-scale deletions of mtDNA were the first mtDNA genetic defects to be described and associated with human mitochondrial disorders [21].
+In 1988 Holt et al. identified a deleted mtDNA subpopulation in skeletal muscle but not blood in nine patients with mitochondrial myopathy.
+They found that the deleted population coexisted with wild-type (WT) mtDNA in muscle, a state known as heteroplasmy.
+It has subsequently been shown that such single deletions account for a quarter of all adult patients with mtDNA-related disease [22]; data consistent with the authors' own clinical practice (unpublished data).
+They are also an important cause of paediatric mtDNA-related mitochondrial disease.
+Single mtDNA deletions are considered sporadic events with low inheritance risk, whereas multiple mtDNA deletions are the result of primary nuclear defects in genes responsible for mtDNA maintenance or nucleoside metabolism and follow Mendelian inheritance patterns [23].
+Here we review current understanding of the molecular mechanisms underlying single large-scale mtDNA deletion formation.
+We will also consider the clinical phenotypes, diagnostic work-up and management of this subgroup of mitochondrial disorders.
+Mitochondrial DNA replication
+mtDNA encodes only 13 of the 90 essential OXPHOS subunits.
+The remaining subunits, along with all the proteins required for their transcription, translation, post-translational modification and assembly, are nuclear-encoded.
+The nuclear encoded proteins include those essential for mtDNA maintenance and repair.
+Accurate mtDNA replication is essential to maintain the Δψm electrochemical potential, established across the inner mitochondrial membrane by respiration, and is necessary for energy production in the form of ATP.
+Although the mtDNA replication machinery is nuclear-encoded, it is completely separate from its nuclear counterpart, and consists of just 4 basic enzyme components: DNA polymerase gamma (POLγ); DNA helicase Twinkle; mitochondrial single-stranded DNA-binding protein (mtSSB); and mitochondrial RNA polymerase (POLRMT).
+Unlike nuclear DNA which replicates once during cell division, mtDNA replicates continuously throughout the cell cycle in dividing and post-mitotic cells.
+Although the replication apparatus is relatively well characterised, the precise mode of mtDNA replication has been intensely debated [24-26].
+For many years mtDNA replication was thought to occur exclusively by a strand-displacement model, where a leading strand is synthesised from OH and a lagging strand from the origin of L-strand replication (OL) in an asymmetric and unidirectional pattern [27-30].
+In 2000, Holt et al. proposed an alternative model in which leading- and lagging-strand syntheses were coupled (so-called synchronous or coupled replication), on the basis of Brewer and Fangman 2D-agarose gel electrophoresis (2D-AGE) [31].
+The strand-coupled mechanism was suggested to initiate simultaneously in both directions from a broad zone, OriZ [32].
+Later studies demonstrated that some replication intermediates were RNase H-sensitive, which led to the assumption that they were derived from ribonucleotide-rich DNA synthesis initiated unidirectionally from the non-coding region [33-35].
+According to this replication mode, referred to as the ribonucleotide incorporation throughout the lagging strand (RITOLS) model, the lagging strand is initially laid down as RNA before being converted to DNA.
+In a similar manner to the strand-displacement model, RITOLS predicts delayed lagging strand DNA synthesis.
+Although the precise mode of mtDNA replication is contentious, the weight of experimental data in support of all three models makes their combined existence likely.
+Molecular mechanisms underlying formation and timing of single mitochondrial DNA deletions
+Most deletions (∼85%) occur within the major arc between OH and OL and are flanked by runs of direct homologous base-pair repeats.
+It is generally considered that mtDNA deletions arise during replication through slipped-strand mispairing between direct homologous base-pairs (Fig. 1A-D) [36].
+This mechanism assumes the asynchronous strand displacement model of mtDNA replication, since it is reliant on the presence of long stretches of single-stranded DNA which do not exist in the coupled and RITOLS replication models.
+During replication a single stranded repeat of the H-strand misanneals with a newly exposed L-strand repeat (Fig. 1C).
+This forms a downstream loop of single-stranded parental H-strand which is degraded, with subsequent ligation of the free H-strands and continued replication.
+The end result is one WT and one deleted mtDNA molecule (Fig. 1D).
+A recent alternative hypothesis proposed that deletions form during repair of mtDNA at double-stranded breaks, rather than during replication [37].
+During repair of a double-stranded break (a commonly occurring transition state needed to restore the replication fork after a stalling event) single-stranded regions are generated by exonuclease activity.
+The single strands would be free to anneal with microhomologous sequences [38].
+Subsequent repair, ligation and degradation of the exposed single strands would lead to mtDNA molecules with a deleted portion.
+Krishnan et al. suggest that if deletion formation only occurs during replication, higher levels of deleted molecules should be present in mitotic rather than post-mitotic cells (where mtDNA replication is less frequent); however, this has been shown not to be the case in rapidly dividing colonic tissue [39].
+The slipped-strand model also predicts conservation of the 3′ repeat sequence in the deleted daughter molecule, which does not always occur [40,41].
+Uncertainty surrounding the pathophysiological mechanism underlying deletion formation in mtDNA includes the precise timing of the deletional event itself, which may occur during early embryonic development [42,43] or oogenesis [37].
+Deleted species have been demonstrated in tissue of mesodermal (skeletal muscle) and ectodermal (brain) origin, suggesting that the deletion is likely to occur prior to differentiation of these two embryonic layers [43].
+However, single large-scale mtDNA deletions have also been shown to exist in the oocyte prior to fertilisation [44,45].
+In the case of progressive external ophthalmoplegia (PEO), where muscle is the only tissue clinically involved, the deletion may arise later in development, for example during differentiation of the muscle precursor cells.
+An earlier deletion event during germ cell maturation followed by mitotic segregation of the mutant mtDNA might also explain the tissue-specific phenotype of this disorder [46].
+The case for deletion formation during germline maturation is compelling.
+Human oocytes contain around 100,000 mtDNA molecules [44].
+It is estimated that half of mature oocytes in healthy women each contain 5-20 molecules with the same "common" 4977bp mtDNA deletion found in patients with mtDNA deletion disorders [44,47,48].
+Chinnery et al. have hypothesised that the inherited deletion arises in the grandmother's oocyte [46].
+As mtDNA is maintained in a mature oocyte for many years without replicating, Krishnan et al. [37] suggested that the original mtDNA deletion event occurs in the grandmother's oocyte during repair of damaged mtDNA rather than during mtDNA replication.
+The lack of any correlation between increasing age of the maternal grandmother and risk of having a grandchild with a single mtDNA deletion disorder, however, does not appear to support this hypothesis [49].
+So, if an oocyte containing deleted mtDNA molecules due to aberrant replication or repair from the maternal grandmother is fertilised, the zygote is destined to become the unaffected mother, and it is possible a proportion of primordial germ cells contain low levels of deleted mtDNA.
+The deleted mtDNA levels must, however, reach a critical biochemical threshold for disease to develop in the grandchild.
+This rapid shift of mtDNA heteroplasmy between generations is attributed to the so-called genetic bottleneck theory of mtDNA transmission [50].
+Although the precise mechanism and timing of the bottleneck is widely discussed in the literature, there are currently three main biological mechanisms that might potentially explain the phenomenon: (1) amplification of a reduced number of mtDNA molecules during early embryonic primordial germ cell development (approximately 7-9days post-fertilisation) [51]; (2) selective replication and transmission of a subpopulation of mtDNA molecules at a later stage of development during post-natal oocyte maturation [52]; (3) segregation of identical heteroplasmic mtDNA molecules thereby forming homoplasmic units, with effective restriction on the pool available for mtDNA transmission without any significant reduction in mtDNA content in the germ cells [53,54].
+If a deleted mtDNA molecule or homoplasmic deleted unit is selected for clonal expansion after the bottleneck, an accumulation of abnormally high levels of deleted mtDNA molecules might occur in a small number of mature oocytes in the unaffected mother.
+This would predict a 5/100,000 risk of offspring inheriting high levels of the pathogenic mtDNA deletion, which roughly corresponds to the incidence of mtDNA deletion disorders in the general population [22].
+Clinically unaffected mothers are very unlikely to have more than one affected child.
+However, there is an estimated 4% risk of subsequent transmission from an affected woman [46].
+Size and location of single mitochondrial DNA deletions
+The size and location of large-scale deletions may vary.
+However, one third of patients harbour a common 4977bp mtDNA deletion [44,47,48].
+The deleted molecule exists as a single species and is heteroplasmic, with variable mutant levels detectable in different tissues.
+The majority of deletions arise within the long arc between OH and OL but retain these replication sites.
+The likely explanation for this is that for mtDNA deletions to accumulate within a cell, the deleted molecules must retain the ability to replicate.
+The deletion removes a variable number of essential protein-encoding subunits for complexes I, III, IV and V and tRNA-encoding genes required for translation of the mtDNA-encoded OXPHOS complexes, with resulting dysfunction in OXPHOS.
+Early work found no correlation between clinical severity and the type, size or location of the large-scale rearrangement [55].
+However, Yamashita et al. reported that a larger deleted segment, and consequently a greater number of deleted tRNAs, correlated with an earlier age of disease onset.
+Patients with large numbers of deleted tRNAs also appear to be more likely to develop Kearns-Sayre syndrome (KSS), suggesting that the quality of the deletion is somehow linked either to the development of the KSS phenotype or increased propensity for multi-systemic involvement [56].
+Since patients with the same "common" deletion show different clinical symptoms, other factors are postulated to contribute to the observed phenotypic heterogeneity, such as systemic distribution and mutant load of deleted mtDNA molecules.
+The time-point at which the deletion arises has also been suggested to determine the affected tissues, clinical phenotype, percentage and location of the deletion [57].
+Despite the probable importance of deletion size and location, many other factors are likely to contribute to the varied clinical phenotype and severity seen in this patient group.
+Deletions are heteroplasmic and mutant load may vary between tissue types and can shift over time.
+This may explain the clinical features (dependent on the tissue with the greatest energy demand and level of mutant mtDNA) and delayed onset that is sometimes seen in patients with the disease.
+Random mitotic segregation of mutant and WT mtDNA molecules, relaxed replication, tissue-specific energy requirements, contrasting selection bias of mitotic and post-mitotic cells, together with the mtDNA and nuclear haplotypes, are all thought to influence the ultimate spectrum of disease.
+There is marked tissue specificity seen with mtDNA deletions when compared with other mtDNA mutations [58-61].
+This observation, taken together with ongoing research examining the role the mitochondrial nucleoid plays in mtDNA distribution, is likely to be important in unravelling the cause of extreme tissue segregation seen in mtDNA deletion disorders.
+Clinical phenotypes associated with single mitochondrial DNA deletions
+Three sporadic clinical syndromes are classically associated with large-scale deletions of mtDNA.
+However, it is increasingly recognised that there is a continuum of clinical phenotypes associated with single mtDNA deletions, and a large number of variants exist.
+The less common phenotypes associated with single mtDNA deletions are summarised in Table 1, but for purposes of this review we will describe each of the classical phenotypes in detail.
+Pearson marrow-pancreas syndrome (PMPS)
+This is a severe and often rapidly fatal disorder of infancy/early childhood characterised by sideroblastic anaemia and variable involvement of other blood cells, together with exocrine pancreatic dysfunction.
+Onset is usually in early infancy with transfusion-dependent sideroblastic anaemia, neutropaenia, thrombocytopenia or pancytopaenia, poor growth and lactic acidosis.
+Pancreatic dysfunction may be present at disease onset or it may develop later.
+Other clinical features include an enteropathy that may need parenteral nutrition support, and severe renal tubulopathy.
+Bone marrow examination typically reveals high levels of ringed sideroblasts and vacuolisation of myeloid precursors [62-64].
+The disorder is frequently fatal in early childhood because of overwhelming lactic acidosis or liver failure.
+It is estimated that one out of three neonatal cases of PMPS surviving infancy develop features compatible with Kearns-Sayre syndrome (KSS) [65], including cardiac conduction defects, sensorineural hearing loss, pigmentary retinopathy and progressive neurological impairment which can sometimes resemble Leigh syndrome [66-69].
+In PMPS deleted mtDNA molecules are usually present at higher levels in blood than other tissues; hence haematological manifestations are such a prominent feature of the syndrome.
+Due to the high replication rate of blood cells, mtDNA deletions can be cleared from these cells with time, leading to resolution of the haematological manifestations (for example, the need for transfusions has usually resolved by 2years).
+In contrast, deleted mtDNA molecules tend to progressively accumulate in other tissues (especially non-dividing tissues), leading to the multisystem and relentlessly progressive nature of this disorder.
+Despite the classical description of PMPS, however, it is important to be aware of the more atypical presentations.
+Neonates can present with anaemia as the only onset symptom in one third of cases [65,70], and hepatopathy may be the most prominent feature [71].
+The diagnosis should also be considered when there is isolated pancreatic exocrine insufficiency without marrow involvement [72].
+Pancytopaenia and tubulopathy can occur without exocrine pancreatic dysfunction [73], and there are case reports of milder, childhood onset, isolated tubulopathy and hypoparathyroidism [74], which has also been reported in association with recurrent encephalopathy [75].
+Kearns-Sayre syndrome (KSS)
+KSS is a multisystem disorder defined clinically by the triad of PEO and pigmentary retinopathy with onset before the age of 20years plus at least one of: cardiac conduction block; cerebrospinal fluid (CSF) protein concentration greater than 0.1g/L; cerebellar ataxia [76-80].
+Frequent additional signs include sensorineural hearing loss, renal tubular acidosis, dementia, seizures, short stature and endocrine disturbance (diabetes mellitus, hypoparathyroidism and growth hormone deficiency).
+A progressive skeletal myopathy is also frequently seen.
+The most common magnetic resonance imaging (MRI) findings are cerebral and cerebellar atrophy with bilateral, often symmetrical, hyperintense lesions in the subcortical white matter, thalamus, basal ganglia and brainstem [81-83].
+Interestingly, there appears to be little correlation between neurological deficits and the severity of the MRI features [84].
+KSS is most commonly associated with single large-scale deletions of mtDNA [56].
+We recently identified a case of KSS caused by nuclear genomic dysfunction due to mutations in RRM2B in a patient with multiple deletions of the mtDNA [85].
+It is, therefore, possible for KSS to follow a Mendelian pattern of inheritance, although the majority of cases are sporadic.
+Progressive external ophthalmoplegia (PEO)
+PEO is considered the mildest of the three syndromes most commonly associated with single mtDNA deletions.
+It is characterised by slowly progressive bilateral ptosis and limitation of eye movements (often with reduced upgaze early in the disease process) secondary to extra-ocular muscle (EOM) weakness.
+There is often no diplopia as the ophthalmoparesis is bilateral, relatively symmetrical, and has gradual onset.
+Additional clinical features may include oropharyngeal dysfunction causing dysphagia, proximal limb weakness and exercise intolerance.
+Isolated PEO is usually associated with a normal lifespan.
+The reason for selective involvement of the EOMs in the single deletion disorders is not understood.
+It may relate to distinct structural, functional, biochemical and immunological properties of this muscle group compared to other skeletal muscles [86].
+The EOMs have also been reported to have a lower biochemical threshold for COX deficiency than limb muscles [87].
+Investigations and diagnosis of single mitochondrial DNA deletion disorders
+Table 1 outlines the potentially wide range of different clinical settings in which mitochondrial disease caused by single deletions of mtDNA enters into the differential diagnosis.
+The diagnosis of single mtDNA deletion disorders involves careful clinical assessment and tailored investigations that are often guided by the age of the patient.
+Mitochondrial DNA analysis
+Children, unlike adults, often have single large-scale rearrangements detectable in blood, and muscle biopsy is seldom required.
+In PMPS the mtDNA deletions are usually present at higher levels in blood than other tissues, so diagnosis is reliably made using leucocyte mtDNA.
+The deleted mtDNA molecules are selectively shed from the rapidly dividing leucocytes with increasing age [88-91].
+The consequence is that the deleted mtDNA molecules are often undetectable in blood by early adolescence.
+Deleted mtDNA molecules, however, appear more readily detectable in cells extracted from urine, and a diagnosis can occasionally be achieved by analysing mtDNA from uroepithelial cells (extracted from 30 to 50mls of urine).
+Unfortunately, in contrast to the m.3243A>G point mutation, where uroepithelial cell mutant levels have been shown to closely resemble mutant levels present in muscle tissue [92], urine levels of mtDNA deletions are not always representative of the most clinically affected tissues [93].
+As a consequence, a diagnostic muscle biopsy is still often ultimately required.
+MtDNA is analysed using long-range polymerase chain reaction (PCR) and Southern blot genetic techniques to demonstrate large-scale rearrangements (deletions and/or duplications) of the mitochondrial genome.
+Muscle histochemical analysis
+The muscle tissue itself can be examined using light microscopy for features that support the diagnosis of mitochondrial disease.
+These include subsarcolemmal mitochondrial accumulation demonstrated on routine histochemical staining as "ragged-red fibres" (RRF) in the modified Gomori trichrome stain, or as succinate dehydrogenase (SDH)-positive fibres.
+Cytochrome c oxidase (COX) staining may reveal fibres deficient in complex IV, and is particularly useful when combined with sequential SDH staining since COX-deficient SDH-positive fibres appear as "ragged-blue" fibres.
+Both RRF and COX-negative fibres are a common and expected finding in patients with single mtDNA deletions.
+Respiratory chain enzymology
+Biochemical analysis of the respiratory chain enzymes can be performed on fresh muscle by measuring substrate oxidation using polarography.
+Specific enzyme activities can also be measured using spectrophotometric assays using either fresh muscle or muscle immediately frozen in liquid nitrogen or isopentane and stored at -80°C.
+Single mtDNA deletions usually involve several genes, including at least one tRNA, so that global mitochondrial protein synthesis is affected.
+As a result, activities of OXPHOS complexes containing mtDNA-encoded subunits (complexes I, III, IV and V) can potentially be reduced [94].
+However, normal OXPHOS enzyme activities may be observed in the muscle of patients with single mtDNA deletions; therefore, genetic analysis should be performed if there is clinical suspicion of a single mtDNA disorder, regardless of the biochemical findings.
+Management of single mitochondrial DNA deletion disorders
+This review does not provide a comprehensive discussion of all current treatment regimens for mitochondrial disorders; these may be found in detail elsewhere [94-96].
+The following is a summary of treatment strategies aimed specifically at patients with single mtDNA deletions.
+Importance of multidisciplinary team care to optimise quality of life and improve outcomes
+Since no curative therapy currently exists for patients with mitochondrial disease, symptom management is critical to maintain quality of life.
+Awareness of potential disease complications allows early intervention, thereby reducing morbidly and mortality.
+All patients require support from a dedicated multidisciplinary team to facilitate careful consideration of both medical and non-medical needs.
+Clinical issues related to single mtDNA deletion disorders require input from doctors with specialist expertise in mitochondrial disorders.
+Patients with PMPS typically present during childhood to paediatricians and need supportive measures, including regular blood transfusions, pancreatic enzyme replacement, fat-soluble vitamin supplementation, hormone replacement for endocrine disease, and enteral feeding.
+Epilepsy, movement disorders and neuromuscular disease are common manifestations of mitochondrial disease in later life.
+As a consequence, patients usually present to the neurologist during adulthood.
+Ophthalmic review is often necessary to assess and monitor retinopathy, exclude cataracts, and provide prosthetic lid props or perform surgery for severe ptosis.
+A cardiology opinion is mandatory even if cardiac symptoms are absent.
+This is particularly important in patients with KSS in whom cardiac conduction defects are common and a permanent pacemaker or implantable defibrillator may be required.
+Audiological assessment for aids and cochlear implants for hearing loss, and referral to endocrinology, gastroenterology, renal or palliative care may all be appropriate.
+Finally, advice should be sought prior to general anaesthesia so that perioperative complications related to cardiac arrhythmia and administration of potentially mitotoxic agents are avoided.
+A specialist mitochondrial disease nurse is crucial and provides the patient with a point of contact so that medical needs are addressed between out-patient clinic appointments.
+They also offer invaluable practical advice concerning available social and income support.
+Speech and language therapy and dietetic review are required if there is bulbar involvement or problems surrounding adequate nutrition, and occupational therapy, physiotherapy and orthotics can maintain and improve mobility to enable an independent lifestyle.
+Pharmacotherapy
+Pharmacotherapy, including Co-enzyme Q10 (Ubiquinone), creatine and dichloroacetate have all been studied in randomised controlled double-blind clinical trials of patients with single mtDNA deletion disorders [97-101].
+However, a Cochrane systematic review concluded there was no clear evidence supporting their routine use in mitochondrial disease [102].
+Cerebral folate deficiency can occur in KSS [103,104], and significant clinical improvement and resolution of white matter changes on MRI have been reported in patients with KSS treated with folinic acid which, unlike folate, is able to cross the blood brain barrier [105].
+The frequency of cerebral folate deficiency in KSS is unknown, but CSF measurement and folinic acid supplementation should be considered, particularly when leukoencephalopathy is present.
+Exercise therapy to reduce deleted mitochondrial DNA molecules
+Finally, exercise training has provided promising results in patients with single mtDNA deletion disorders.
+Activation of muscle satellite cells by specific exercise training regimens allows WT mtDNA to repopulate muscle tissue and effectively reduce mutant load below the biochemical threshold needed to impair OXPHOS [106].
+Endurance exercise training has been shown to increase muscle aerobic capacity [107], whilst resistance training improves muscle strength and oxidative ability [108].
+The merits of resistance versus endurance exercise training are currently being evaluated in patients with single mtDNA deletions, with the aim of providing tailored exercise regimes suitable for individual patients in the near future.
+Conclusions
+Although single mtDNA deletions were the first mtDNA mutations associated with human disease [21], there are still many unanswered questions surrounding their origin and propagation.
+The variable clinical severity and heterogeneity of disease phenotype remains incompletely understood.
+Single mtDNA deletion disorders continue to provide a diagnostic challenge to paediatric and adult neurologists.
+Although primarily sporadic, a Mendelian inheritance pattern should not be used as an exclusion criterion for KSS, especially in the context of multiple mtDNA deletions [85].
+Diagnosis is usually achieved using DNA extracted from blood in children.
+However, use of uroepithelial cells is increasingly being recognised as a non-invasive alternative to muscle biopsy, particularly in children with cardiac conduction disorders in whom a general anaesthetic poses significant risks.
+Although treatment is primarily supportive, a multidisciplinary team complemented by a tailored exercise regimen significantly improves overall function and life quality for patients and their families.
+Acknowledgements
+R.D.S.P. is funded by MRC Grant Number G0800674.
+M.G.H. is supported by an MRC Centre grant G0601943 and The Myositis Support Group; S.R. is supported by Great Ormond Street Hospital Children's Charity.
+This review was supported by the NIHR UCLH/UCL Comprehensive Biomedical Research Centre and undertaken at University College London Hospitals/University College London, which received a proportion of funding from the Department of Health's National Institute for Health Research Biomedical Research Centres funding scheme.
+

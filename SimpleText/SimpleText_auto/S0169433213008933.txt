@@ -1,0 +1,162 @@
+Surface roughness reduction using spray-coated hydrogen silsesquioxane reflow
+
+Graphical abstract
+Highlights
+•
+Spray-coated silsesquioxane coating can be applied to planar and non-planar surfaces.
+•
+Cured coating sustains in excess of 10,000 molding cycles.
+•
+The peak-to-valley roughness is decreased 10 to 20 times.
+•
+Good agreement between mechanical (AFM) and optical (VSI) methods.
+Abstract
+Surface roughness or texture is the most visible property of any object, including injection molded plastic parts.
+Roughness of the injection molding (IM) tool cavity directly affects not only appearance and perception of quality, but often also the function of all manufactured plastic parts.
+So called "optically smooth" plastic surfaces is one example, where low roughness of a tool cavity is desirable.
+Such tool surfaces can be very expensive to fabricate using conventional means, such as abrasive diamond polishing or diamond turning.
+We present a novel process to coat machined metal parts with hydrogen silsesquioxane (HSQ) to reduce their surface roughness.
+Results from the testing of surfaces made from two starting roughnesses are presented; one polished with grit 2500 sandpaper, another with grit 11.000 diamond polishing paste.
+We characterize the two surfaces with AFM, SEM and optical profilometry before and after coating.
+We show that the HSQ coating is able to reduce peak-to-valley roughness more than 20 times on the sandpaper polished sample, from 2.44(±0.99)μm to 104(±22)nm and more than 10 times for the paste polished sample from 1.85(±0.63)μm to 162(±28)nm while roughness averages are reduced 10 and 3 times respectively.
+We completed more than 10,000 injection molding cycles without detectable degradation of the HSQ coating.
+This result opens new possibilities for molding of affordable plastic parts with perfect surface finish.
+
+Introduction
+Roughness of advanced polymer replication tools is costly and challenging to control, especially in case of complex geometries such as tools for freeform optical components, for microfluidic and medical diagnostics devices [1-3] or as substrates for nanopatterned surfaces.
+Such applications may often require special fabrication of molding tools.
+Low roughness surfaces fabricated by conventional means, such as abrasive diamond polishing or diamond turning, are often extremely costly.
+Hard coatings are often required to protect molds and to extend their lifetime.
+These coatings [4-6] are usually vacuum deposited [7,8] conformal coatings that simply copy an underlying topography, without affecting roughness.
+Electroplated coatings like hard chrome can even increase roughness.
+Wet deposited polymer coatings usually do not form sufficiently hard and durable films and the dip coating process may ruin fine features of a mold surface, such as microfluidic channels or micro- and nanopatterned regions.
+Silsesquioxanes are small, cage-like, organosilicate molecules with the formula [RSiO3/2], with three silicate bonds per silicon atom and one organic substituent R [9].
+They tend to form cross-linked, organic-inorganic networks.
+Such networks may demonstrate features of both a hard, ceramic-like materials and features of a soft, organic material.
+Properties can be tuned and modified by processing to achieve for instance high final hardness together with solution processing or spin coating.
+There is a wide range of applications for this sophisticated material, such as optical coatings [10], dielectric insulators [11], barrier coatings, nanocomposites [12], or lithography [13] to name a few.
+Hydrogen silsesquioxane (HSQ), where the organic substituent R is simply a hydrogen atom, is an established lithographic resist [14,15] with good contrast and high sensitivity.
+HSQ resist in a solvent consist of individual cage-like molecules or a partially cross-linked, low molecular mass oligomer.
+Hence, it flows and can be spray-coated on planar and non-planar surfaces.
+It can be re-saturated with solvent to reduce surface roughness, as we show in this paper, or it can be (nano)patterned [16-18].
+HSQ cross-links after curing and so forms a hard, fused silica-like structure.
+Patterned HSQ surfaces have previously been used as nanoimprint lithography masters [19].
+Prerequisite to use HSQ for an injection molding mold is durability and robustness, which we tested.
+Hence, a mold comprising of such a cross-linked HSQ surface, is expected to be able to withstand a large number of injection molding cycles.
+Another viable use of spray-coated HSQ film is repair/refurbishing of injection molds as they are often extremely costly to replace.
+HSQ mold surfaces can be coated with additional chemicals such as a monolayer of perfluorodecyltrichlorosilane (FDTS) which further reduces surface energy, sticking and demolding force.
+While coating of SiO2 [20-23] or cured HSQ [16] nanoimprint lithography tools with an antisticking/release layer is not new, it was suggested [24] and recently shown [25,26] that an FDTS monolayer coating can be successfully used to coat certain injection molding tools.
+This further reduction of the surface energy is important for a cost effective injection molding of complex and challenging articles such as nanopatterned superhydrophobic surfaces, where a successful part release remains a challenge.
+Methods
+We describe preparation of the metallic substrates, deposition, processing and curing of the HSQ film, sputtering of a reflective metallic film and characterization of the surfaces.
+Substrates
+Our testing substrates are the machined aluminum RSA 6061 alloy discs with a diameter of 33mm and a thickness of approximately 3.7mm, which may be used as an injection mold insert.
+The surface after machining was sanded with a series of sandpapers from Siawat fc, Switzerland for the grits P800, P1000, P1200 and from Rhynowet plus from Indasa, Portugal for the superfine grits P1500, P2000 and P2500.
+Sanding was performed in a wet state, using cca 10min with each grit.
+Ceramic polishing paste MPA 11,000/1 from Festool, Germany, corresponding to grit 11,000 was used on the appropriate sample for approximately 15min.
+All surfaces have been carefully rinsed with acetone, isopropylalcohol and blow dried in dry nitrogen after surface preparation.
+Aluminum substrates have been cleaned immediately before spray-coating in the air plasma chamber for 15min, using the chamber Diener Pico P100 from Diener Electronic, Germany to ensure perfect cleanliness and to reduce hydrocarbon contamination on the surface.
+HSQ film processing
+HSQ resist, FOX 16 from Dow Corning was applied using a spray-coating technique with an ultrasonic nozzle (Sonotek ExactaCoat with Impact spray nozzle).
+The resist passes through the nozzle and reaches the ultrasonically agitated nozzle tip, where it disintegrates into a mist.
+The mist is forced onto the sample surface using a carrier air stream.
+FOX 16 resist is mixed 1:10 with methyl isobutyl ketone as solvent, and then sprayed at a flow rate of 0.4mL/min, with the robot passing the nozzle at 25mm/s and line spacing of 0.88mm.
+Half of sample area was masked with cleanroom blue tape, and therefore not coated with HSQ.
+Re-saturation with a solvent
+Samples were transferred to the reflow chamber immediately after spray-coating.
+The reflow chamber consists of a bubbler bottle where inert gas is introduced to the MIBK solvent and then reintroduced back to the chamber to achieve fast exposure to the atmosphere saturated with solvent vapor.
+Samples are kept in the chamber for 30-60min, at ambient temperature and pressure.
+Curing
+Samples were cured in an inert gas atmosphere oven, first for 8h at 70°C to facilitate full solvent removal and then the temperature was ramped up to 400°C for 1h to ensure full cross-linking.
+Heating was turned off and the oven temperature slowly ramped down to room temperature.
+Characterization
+We used a Sensofar optical profiler in the Vertical Scan Interference (VSI) mode with 5 scans per spot and a 100× DI interference objective.
+We selected our tested area to be approximately 85×85μm, with the 512×512 pixels resolution, to be comparable with the AFM data.
+The pixel to pixel distance is 166nm, comparable to the 176nm for the AFM.
+Data was plane corrected.
+We measured 3 spots for each sample and treatment, each at least 2mm apart.
+To increase reflectance of the HSQ film and to avoid light transmission and reflection from the metal substrate, we sputter coated cured HSQ samples with a thin film of gold/palladium (80/20) alloy.
+We used the Balzers SCD 004 sputter coater, operated with 0.06-0.07mBar pressure of Argon.
+Samples have been processed for 240s at 30mA current.
+A silicon wafer is always included to examine the effect of sputtering on roughness.
+We also characterized our sample surfaces in a tapping mode with an AFM PSIA XE-150.
+We selected the maximal area, approx.
+90×90μm and measured it with 512×512 pixels resolution, giving a pixel to pixel distance of 176nm, comparable to the 166nm for the optical profiler.
+We used a BudgetSensor aluminium coated tip.
+Collected AFM data was evaluated using XEI software, 1.8.0 Build 16 from Park Systems corp.
+The samples were investigated in a Zeiss Crossbeam 1540 EsB.
+After transfer to the scanning electron microscope (SEM) the samples were tilted 54° relative to the beam.
+A focused ion beam (FIB) was used to selectively remove material from the samples in ca.
+10μm wide trenches, revealing the profile, i.e. the inner structure perpendicular to the surface.
+The samples were imaged using 3kV accelerating voltage.
+Results and discussion
+Aluminum disks having two different starting roughnesses were coated with a layer of hydrogen silsesquioxane (HSQ).
+The superfine sandpaper polished disk shows an initial area peak-to-valley roughness of 2.44(±0.99)μm while the paste polished disc shows 1.85(±0.63)μm.
+The HSQ layer was deposited by spray-coating, which is, unlike spin-coating, capable of coating non-planar surfaces and challenging geometries such as concave optical and micro-optical surfaces, molds for microfluidic devices and other geometries which would be impossible to polish by manual or mechanical means.
+Samples that have been spray-coated with HSQ and cured show considerably reduced roughness as shown in Fig. 1.
+The left sample is rougher as it was wet polished with superfine P2500 sandpaper, while the right sample was polished with a polishing paste corresponding to grit 11,000.
+We can see a vertical line on each sample, dividing it into two parts.
+The left part was masked and is thus uncoated, in the original state, and the right part, which was coated with HSQ, has substantially lower roughness.
+Films, spray-coated under conditions described in Section 2.2 consists of almost solvent-free particles of un-cross-linked HSQ.
+Such films do not reduce roughness per se; they have to be re-saturated with solvent prior to full cross-linking.
+However during re-saturation with solvent, the surface energy of the soft, plastic, solvent re-soaked film is minimized by self-smoothing.
+A soft HSQ film reflows to achieve the minimal surface area.
+This state and shape is then fixed by re-evaporation of solvent, which makes the HSQ films harder, yet still capable of a plastic deformation.
+This is especially true when the HSQ film is exposed to external forces, such as nanopatterning by imprinting [27].
+However, if we thermally cure a smooth, virtually solvent free film at an elevated temperature, it fully cross-links and forms a hard coating with a substantially reduced roughness, compared to the starting roughness of the metal substrate.
+This is demonstrated in Fig. 2.
+Structural changes in HSQ films during thermal curing, such as cross-linking, cage-to-network redistribution, and film densification of the resulting SiO2 film are already well described in literature.
+They have been studied using FTIR spectroscopy by Liu et al. [28], Yang and Chen [29], and using Broadband coherent anti-Stokes Raman scattering microscopy by Caster et al. [30].
+Thermally induced changes have been compared with e-beam induced changes by Choi et al. [31].
+We did not encounter issues with sublimation during heating possibly due to the fact that the film is partially cross-linked already at room temperature.
+The fully cross-linked HSQ film on the metal substrate is capable of and has been tested to withstand more than 10,000 injection molding cycles, when applied on the metal mold insert.
+We have been also able to demonstrate use of HSQ resist for a mold repair and refurbishing [32].
+We characterized coated and uncoated surfaces with AFM and an optical profiler.
+An example of AFM topography is shown in Fig. 3.
+For the 3-D optical profiler measurements on surfaces coated with the cured HSQ films it was necessary to sputter a thin layer of a reflective film in order to characterize roughness of HSQ coated surfaces.
+This is essential as the HSQ film alone is transparent, and has, according to the literature [29], a relatively low refractive index of about 1.36-1.39.
+Hence, HSQ only reflects approximately 2.4-2.7% of incident light, assuming perpendicular incidence and no roughness.
+This, together with an uneven, rough and highly reflective metallic substrate surface under the HSQ prevents reliable optical characterization without metallization.
+Neither the HSQ film thickness nor the surface topography/roughness can be reliably measured without metallization.
+However, when sputtering of a thin, reflective layer of metal on top of the HSQ, we can increase reflectance to well over 50% without altering the surface topography significantly.
+Using Fresnel equations and optical constants from literature [33,34] we can easily calculate that, for instance, as little as 14nm of gold gives a perpendicular reflectance R=0.51 for a wavelength of 500nm, which is sufficient for characterization using an optical profiler and the vertical scan interference method.
+One should note that the optical constants of an extremely thin (less than 15nm) metallic film differ slightly from the properties of the bulk metal [35,36] and that they usually form islands and voids instead of a continuous film.
+We can see this effect in the FIB-SEM profile micrographs, shown as Fig. 5, where the non-continuous metal film is seen as the uppermost layer.
+Therefore we sputtered thin reflective films not only on HSQ coated samples but also on silicon wafer samples, to verify the topography change due to the sputtering of a reflective film.
+We observed that a pristine silicon wafer sample shows root mean square roughness SRMS of 2.4±0.3nm while a sputter coated wafer with gold-palladium reflective film shows SRMS of 1.96±0.2nm, and the peak-to-valley roughnesses are 16±2.30nm and 13.6±1.6nm respectively.
+We can see that the topography change due to sputtering of a reflective film is indeed very small (see Supplementary Table S1) thus the effect is negligible.
+This finally allows surface topography measurement on HSQ coated substrates using a 3-D optical profilometer, as shown in Fig. 4.
+Areal roughness parameters, root mean square (RMS) roughness (SRMS) and the roughness average (Sa) are defined as the average of the height deviations and the mean surface (quadratic mean), and the arithmetic average (mean) of the 3-D roughness, taken over the evaluation area, therefore they are statistical parameters, and we present them in Figs.
+3 and 4.
+They are less sensitive to outliers and more independent from the choice of the evaluation area/region of interest.
+We see substantial decrease of roughness on the HSQ coated samples; approximately 10 times for a sample with initially higher roughness and 3 times for a sample with initially lower roughness.
+For the peak-to-valley roughness (SPV), defined as being the distance from the highest to the lowest point in the evaluation area, the decrease is the most dramatic one, as shown Fig. 2.
+We see a more than 20 times lower value for the sample with a higher starting roughness and a more than 10 times lower value for the paste polished sample with a lower starting roughness.
+Despite the fact that the peak-to-valley roughness is the one most affected by the region-of-interest-selection, and unlike the roughness average and the root mean square roughness it is not a statistically robust parameter, it is a very a important parameter since it dominates the sample appearance, the optical properties and the perception of quality.
+Even samples with decent, fairly low Sa and SRMS can easily be ruined by a few deep scratches, thus, the reduction of the peak-to-valley roughness is a very important effect.
+We see a very good correspondence between results from two fully independent methods, AFM and 3-D optical profilometry (after deposition of a reflective film) as can be seen by comparing Figs.
+3 and 4.
+This result is in agreement with the FIB-SEM micrographs, presented in Fig. 5.
+We can see cross-sections of a sandpaper polished surface with a visible tool marks in the left column and a paste polished surface in the right column.
+The bottom row shows profiles of same surfaces coated with a cured HSQ film.
+We can easily see an apparent film thickness and un-even morphology of an underlying metal substrate.
+With a known tilt angle and scale we can calculate The HSQ film thickness of approximately 1.3μm for selected spray parameters.
+We can also directly see a low roughness top surface, with islands and voids of metal from a deposition of a reflective film.
+Conclusion
+We observed smoothing of HSQ spray-coated and solvent re-saturated films on rough and polished metallic substrates.
+This reduction of surface roughness was measured with two independent methods, Atomic Force Microscopy (AFM) and Vertical Scan Interference (VSI) optical profilometry and their results are in a perfect agreement.
+Sample cross-sections micrographs, measured with a FIB-SEM confirms the same result.
+The peak-to-valley surface roughness (SPV) was reduced more than 20 times for an initially rougher sample, wet polished with superfine sandpaper and more than 10 times for an initially less rough sample, polished with paste.
+The roughness average (Sa) and the root mean square roughness (SRMS) were reduced 10 and 3 times, for the rougher and smoother substrates, respectively.
+In conclusion, we have been able to show that a relatively thin HSQ film on metallic substrates such as molds for injection molding is able to greatly to decrease surface roughness.
+This is important, since such coating can withstand more than 10,000 molding cycles and is capable of reducing roughness on otherwise inaccessible surfaces and geometries.
+This result opens new possibilities for molding affordable plastic parts with perfect finish.
+Acknowledgment
+This work was funded and supported by the DTU Nanotech, the Danish National Advanced Technology Foundation (HTF) projects "Integrated Camera Module" (grant no.
+051-2008-3) and "Advanced Technology Platform NanoPlast" (grant no.
+007-2010-2) and the Copenhagen Graduate School for Nanoscience and Nanotechnology (C:O:N:T).
+Authors would like to thank Dr. Kathrine Bjørneboe from the Danish Technological Institute for the FIB-SEM micrographs and Dr. Eric Jensen for proofreading.
+Supplementary data
+Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.apsusc.2013.05.004.
+Supplementary data
+

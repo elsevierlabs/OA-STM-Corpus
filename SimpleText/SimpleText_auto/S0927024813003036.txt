@@ -1,0 +1,332 @@
+Minority carrier lifetime in silicon photovoltaics: The effect of oxygen precipitation
+
+Abstract
+Single-crystal Czochralski silicon used for photovoltaics is typically supersaturated with interstitial oxygen at temperatures just below the melting point.
+Oxide precipitates therefore can form during ingot cooling and cell processing, and nucleation sites are typically vacancy-rich regions.
+Oxygen precipitation gives rise to recombination centres, which can reduce cell efficiencies by as much as 4% (absolute).
+We have studied the recombination behaviour in p-type and n-type monocrystalline silicon with a range of doping levels intentionally processed to contain oxide precipitates with a range of densities, sizes and morphologies.
+We analyse injection-dependent minority carrier lifetime measurements to give a full parameterisation of the recombination activity in terms of Shockley-Read-Hall statistics.
+We intentionally contaminate specimens with iron, and show recombination activity arises from iron segregated to oxide precipitates and surrounding defects.
+We find that phosphorus diffusion gettering reduces the recombination activity of the precipitates to some extent.
+We also find that bulk iron is preferentially gettered to the phosphorus diffused layer rather than to oxide precipitates.
+Highlights
+•
+Oxygen precipitation reduces absolute efficiency of silicon solar cells by up to 4%.
+•
+Full parameterisation of minority carrier lifetime due to oxide precipitates.
+•
+Iron contamination of oxide precipitates increases recombination activity.
+•
+Recombination activity reduced by phosphorus diffusion gettering.
+•
+Bulk iron gettered to phosphorus diffused layer, not oxide precipitates.
+
+Introduction
+At present the majority of solar cells are made from bulk crystalline silicon.
+Minority carrier lifetime is the main parameter used to assess the quality of wafers from which cells are produced.
+For a given generation rate, the minority carrier lifetime is largely determined by recombination processes.
+Some recombination is intrinsic (band-to-band and Auger), while other is determined by defects in the bulk or at surfaces.
+It is necessary to understand which defects are typically present in solar wafers before processing, and what effect processing has on those defects.
+Moreover, it is important to understand the mechanism by which the relevant defects give rise to recombination, as well as to quantify their recombination activity.
+Monocrystalline Czochralski silicon (Cz-Si) typically contains ~1018cm-3 of interstitial oxygen, which is mainly incorporated from the silica crucible which contains the melt.
+This level of oxygen is supersaturated below ∼1200°C, so the equilibrium state is reached by the formation of SiO2 particles (oxide precipitates) [1].
+The morphology of such particles changes as they grow, from unstrained particles initially, to strained precipitates, which are eventually surrounded by dislocations and sometimes stacking faults [2,3].
+The first stage in precipitation is nucleation, and the rate of this is strongly enhanced by the presence of crystal defects.
+In modern Cz-Si used for integrated circuits the grown-in defect concentration is insufficient for oxygen precipitation to occur unintentionally.
+However, even in the highest quality Cz-Si, oxide precipitates can nucleate upon prolonged annealing at 650°C to 850°C [1,4].
+In silicon for microelectronics thermal processes are often used to force oxygen precipitation to provide gettering centres for harmful metallic contaminants [5,6].
+For photovoltaics, the Cz-Si wafers used are often of lower crystal quality, and several studies have found concentric rings of oxide precipitates in wafers or cells after growth or processing [7-10].
+It is also noted that oxygen precipitation occurs at dislocations in multicrystalline silicon (mc-Si) during ingot cooling [11-13].
+The undesirable precipitation of oxygen in Cz-Si is not a new problem, having been widely studied (and essentially solved) in Cz-Si for integrated circuits.
+Oxide precipitates are known to form in vacancy-rich regions [14].
+The formation of such regions can be essentially eliminated by carefully controlling the so-called v/G criterion (where v is the crystal growth rate and G is the near-interface temperature gradient) [15].
+Although it is possible to reduce intrinsic point defect concentrations to levels which are essentially negligible, doing so requires slow growth rates and these are not always compatible with the commercial constraints of the silicon photovoltaics industry.
+Thus, although the problem can in principle be eliminated, the fact is many commercial Cz-Si solar wafers do contain vacancy-rich regions in which oxide precipitates form [7-9].
+Oxide precipitates have been linked to a substantial detrimental impact on conversion efficiencies in silicon solar cells [7,16].
+A study by Haunschild et al. associated oxide precipitates with a 4% (absolute) efficiency reduction [7].
+Interestingly, they found that the recombination activity to be strongly affected by a 10s anneal at 800°C.
+This, and earlier studies on iron-contaminated samples [17,18], suggests that impurities might play a role in the recombination mechanism.
+The aim of this paper is to answer some open questions regarding the effects of oxygen precipitation in silicon photovoltaics.
+These include:•
+Can the impact of oxide precipitates on minority carrier lifetime be systematically quantified?
+•
+What is the mechanism of recombination at oxide precipitates? Do impurities play a role?
+•
+What happens to the recombination activity of oxide precipitates after phosphorus diffusion gettering used in solar cell processing? Which is the more effective gettering system for bulk iron: oxide precipitates or phosphorus diffusion?
+This paper builds upon our previously published work in this area [19-23] by assimilating the key ideas in one article, adding new experimental data, and focussing specifically on photovoltaics.
+After presenting a general methodology for parameterising injection-dependent minority carrier lifetime in semiconductors, we apply this methodology to determine the recombination parameters of oxide precipitates in silicon.
+Parameterisation of carrier lifetimes
+Linear formulation of Shockley-Read-Hall statistics
+Shockley-Read-Hall (SRH) statistics [24,25] are frequently used to quantify the bulk minority carrier lifetime in semiconductor materials.
+SRH statistics enable the recombination activity of states associated with point-like defects to be quantified by using just three parameters: the energy position of the defect in the bandgap (ET), its capture coefficient for electrons (αn) and its capture coefficient for holes (αp).
+(Alternatively capture cross-sections for electrons (σn) and holes (σp) can be used instead of capture coefficients.
+The capture coefficient is the product of the capture cross-section and the thermal velocity).
+Capture coefficients (or cross-sections) are temperature-dependent empirically-determined parameters which quantify the propensity of the states to capture carriers.
+In some circumstances the use of simple SRH statistics is an oversimplification (see for example [26]), but for the most part the SRH approach is invaluable.
+The most commonly used formation of SRH statistics describes the minority carrier lifetime in terms of the excess concentration of minority carriers (Δn for electrons; Δp for holes) (see Ref.
+[27] for example).
+In our work we use a different form which we have derived in an earlier paper [21].
+We express the minority carrier lifetime as a linear function of the ratio of the total carrier concentrations.
+In p-type material, for example, the electron lifetime (τn) is expressed as a linear function of the ratio of the total electron concentration (n=n0+Δn) to the total hole concentration (p=p0+Δp) according to:(1)τn=1αnN[1+Qn1p0+p1p0+X(Q-Qn1p0-p1p0)]where X=(n/p)=(1/p0+n), where p0 is the equilibrium hole concentration, n0 is the equilibrium electron concentration, Q=(αn/αp)=(σn/σp), and N is the concentration of the defect.
+The so-called SRH densities for electrons (n1) and holes (p1) are given by:(2)n1=NCexp(-EC-ETkT)(3)p1=NVexp(-ET-EVkT)where EC and EV are the energies of the conduction band and valence band edge, respectively, and NC and NV are the densities of states in the conduction band and valence band, respectively.
+An equation analogous to Eq.
+(1) for the hole lifetime (τp) in n-type material can be derived as [21]:(4)τp=1αpN[1+n1n0+p1n0Q+Y(1Q-n1n0-p1Qn0)]where Y=(p/n)=(p/n0+p).
+Extracting defect parameters from injection-dependent lifetime data
+The linear formulation of SRH statistics provides an elegant route to parameterise recombination due to specific defects.
+The key feature of Eqs.
+(1) and (4) is that all the injection-dependence of the minority carrier lifetime is consumed into X or Y.
+All other terms in the Equations depend upon the properties of the defect, material or temperature.
+In the p-type case, information on the key SRH parameters can be extracted by taking the derivative of Eq.
+(1) with respect to X and dividing this by the high injection limit of lifetime (τn as X→1), which gives:(5)dτndX/τnX→1=Q1+Q-1p0(Qn1+p11+Q)By studying material with different values of p0, Eq.
+(5) can be used to deduce values of Q and Qn1+p1, and an example to show this is given in Section 2.3 below.
+Information can also be gained from inspecting the low injection limit of Eq.
+(1) (τn as X→0), which gives:(6)τnX→0=1αnN[1+1p0(Qn1+p1)]If Qn1+p1 is known it is thus possible to use Eq.
+(6) to extract αnN, which is useful as, for constant αn, it is proportional to the state density.
+It is important to note that from single temperature injection-dependent lifetime measurements alone it is not possible to extract unique values for αn, αp, or ET.
+Such measurements on samples with different doping levels enable the deduction of Q=(αn/αp) and Qn1+p1 (which depends upon ET via Eqs.
+(2) and (3)).
+To isolate separate values of αn and αp it is necessary to determine the state density, N, by another technique.
+Temperature-dependent lifetime measurements can be used to determine whether Qn1 or p1 dominates, and hence can allow ET to be uniquely found.
+In principle the linear SRH formulation is valid at all injection levels.
+However, it is important to note that care must be taken when using the approach over a wide range of injection levels.
+Under typical conditions, X=0.01 corresponds to Δn≈0.011p0.
+Thus processes which manifest themselves at low injection, such as trapping [28] and surface effects [29], can occur very close to the X→0 limit.
+Example of FeB in silicon
+We demonstrate the merits of this linear SRH formulation by considering the well-established example of FeB pairs in silicon.
+In Fig. 1(a) we have simulated the injection-dependent lifetime due to (only) this defect.
+We note that different values of the SRH parameters for FeB exist in the literature [30-32].
+For our example here we use the parameters of Rein and Glunz [30], which are ET=EC-0.26eV, σn=2.5×10-15cm2, σp=5.5×10-15cm2, and we have used 2×107cms-1 for the thermal velocity, 25°C for the temperature and a defect concentration of 1×1012cm-3.
+Values of NC and NV were taken from Ref.
+[33].
+The first feature to note in Fig. 1(a) is that the lifetime plotted against X is linear (Eq.
+(1)).
+Second, the lifetime at high injection (as X→1) tends to the so called 'ambipolar' lifetime given by Eq.
+(1) as (1/αn+1/αp)/N, which is independent of the doping level.
+Third, at low injection (as X→0), the lifetime is dependent upon the doping level.
+It would also be dependent upon the defect's energy level.
+Fig. 1(b) is a plot of the gradient of the data plotted in Fig. 1(a) normalised by the high injection lifetime, plotted against the reciprocal of doping in accordance with Eq.
+(5).
+The y-intercept of depends only upon Q, whereas the gradient depends only upon Q and Qn1+p1.
+Unsurprisingly the plot in Fig. 1(b) gives the characteristic Q value for the FeB pair and the Qn1+p1 value consistent with that of the FeB pair.
+Other information (such as temperature-dependent measurements) is needed to isolate whether the Qn1 or the p1 term is dominant.
+The same methodology is drawn upon in this paper to quantify recombination at oxide precipitates in silicon, for which the parameters are not well established.
+Experimental methods
+Sample production
+A set of samples with different oxide precipitate densities, sizes and morphologies were produced from high purity integrated circuit wafers with different doping levels, types and interstitial oxygen concentrations.
+A four-stage precipitation treatment, as described in detail in Ref.
+[19], is applied to the samples under test.
+P-type samples were doped with 3.9×1014cm-3 to 8.2×1015cm-3 of boron.
+N-type samples were doped with 5×1013cm-3 to 1.0×1015cm-3 of phosphorus.
+Strained oxide precipitate densities (Nstrained) were measured by Schimmel etching.
+Precipitate densities ranged from 3×106cm-3 to 7×1010cm-3.
+Some of the p-type samples have been characterised by transmission electron microscopy (TEM) and the results are discussed in detail elsewhere [3,19].
+The TEM study performed on a subset of the samples measured enabled the identification of samples in which dislocations, and in some cases stacking faults, were found to surround the oxide precipitates.
+Some of the data presented in this paper were obtained using samples in which substantial denuded zones free of oxide precipitates existed near the surfaces.
+This typically had a depth of ∼15μm to ∼35μm on each side.
+The denuded zones were removed prior to processing using a planar chemical etch (HF (40% aqueous by volume), HNO3 (69% aqueous by volume) and CH3COOH (100%) mixed in the volume ratio 8:75:17).
+Each sample was etched for 40min four times, so that between 40μm and 70μm of material was removed from each side.
+Great care was taken to avoid contamination of the samples by metallic impurities during the oxygen precipitation process.
+However, some samples were intentionally subsequently contaminated with iron, using the same procedure as in Refs.
+[23,34,35].
+This involved rubbing the back-side of the sample with iron pieces (99.95% purity from Testbourne Limited, UK).
+Samples were then annealed in air in a pre-heated furnace at temperatures up to 798°C for times chosen to ensure complete iron diffusion through the sample.
+Although our intention was to contaminate samples only with iron, the possibility that other transition metal impurities have entered the samples cannot be completely ruled out.
+Cooling was rapid, with the samples removed from the furnace at temperature and placed on a heat sink.
+It is estimated that samples were cooled to below ∼100°C in <10s.
+Samples which were not intentionally contaminated with iron are referred to as "uncontaminated" samples in this paper, although it is possible that the low levels of impurity contamination in such samples have significant effects, as discussed later.
+Surface passivation and measurement of lifetime
+Samples were cleaved into 3.5cm by 3.5cm or 5cm by 5cm pieces, which were RCA cleaned.
+Silicon nitride was then deposited on both surfaces by plasma enhanced chemical vapour deposition (PECVD).
+Two different PECVD processes were used for the results presented in this paper.
+The data presented in Figs.
+3-5 were from samples passivated by remote plasma PECVD at ISFH, which has previously been shown to give a surface recombination velocity below 10cms-1 [36].
+The data presented in Figs.
+6-8 were from samples passivated using a direct plasma Oxford Instruments Plasmalab 80 Plus PECVD system at the University of Oxford.
+The surface recombination velocity associated with this latter scheme has not been studied in detail, but is estimated to be of order 100cms-1.
+The lower quality scheme was used for samples with lower bulk lifetimes.
+The lifetime data for such samples could be fitted with the same recombination parameters extracted from the samples for which the better surface passivation scheme was used.
+It is possible that both PECVD processes introduces hydrogen into the bulk, which may passivate certain defects [37].
+Minority carrier lifetime was measured using transient or quasi-steady-state photoconductance [38] methods, with a Sinton WCT-120 lifetime tester.
+The injection level range studied varied with the lifetime of the sample, but was usually in the range 1013cm-3 to 1016cm-3.
+It is our aim to determine the absolute lifetime associated with oxygen precipitation, so care was taken to prevent or factor out well-understood recombination processes.
+Boron-oxygen defects were eliminated by storing the samples in the dark after passivation, or by performing a 10 min pre-anneal at 200°C [39] prior to lifetime measurement.
+The samples were subjected to ∼50 close-up flashes from the lifetime tester to dissociate FeB pairs [40], after which an initial lifetime measurement was made immediately.
+It is noted that the aggregated illumination time of the flashes of light used to dissociate the iron-boron pairs is very short (<20 ms), so any effect on the formation of boron-oxygen defects is kept to a minimum [39].
+A second lifetime measurement was made more than 24h later, which was sufficient time to reassociate the FeB pairs [19,34,41].
+The two lifetime measurements are then analysed to give the concentration of iron that exists in FeB pairs using an established method [30,40,42].
+This concentration is henceforth referred to as the bulk iron concentration, and excludes iron present in other forms such as iron silicide precipitates, or iron bound to, or precipitated at, oxide precipitates and any surrounding defects.
+The specific analysis approach used is described in a previous publication [19].
+The essential feature is that SRH statistics (Eq.
+(1)) are used with the recombination parameters of Rein and Glunz [30] to determine the bulk iron concentration required to account for a lifetime change at a given injection level.
+For the results presented in this paper, the injection level used was 0.2p0.
+The bulk iron concentrations in the "uncontaminated" samples were always ≤1.5×1012cm-3.
+We express our data in terms of a "residual" minority carrier lifetime, τresidual, defined according to:(7)1τresidual=1τmeasured-(1τband-to-band+1τCEAuger+1τFei)where τmeasured is the measured minority carrier lifetime with iron in the interstitial state, τband-to-band is the lifetime due to band-to-band recombination (from [43]), τCE Auger is the lifetime due to Coloumb-enhanced Auger recombination (from [44]) and τFei is the lifetime due to SRH recombination at bulk interstitial iron (parameters from [30]).
+More details of these corrections are given in our previous paper [19].
+It is not possible to measure the interstitial iron concentration in n-type samples, so no correction is made for bulk iron-related recombination in such samples, and, besides which, the recombination activity of iron in n-type silicon is generally much less significant than in p-type silicon [45].
+The effects of any remaining surface recombination are not factored out of the injection-dependent lifetime data.
+This is not believed to have a substantial effect on our findings.
+The work of Aberle et al. shows the surface recombination velocity to be dependent on injection-level, with the surface recombination velocity increasing at lower levels of injection [29].
+However, this alone is insufficient to explain the injection-level dependence we observe.
+It is noted that the same fit parameters can be used to fit lifetime data from samples with a high bulk lifetime (low precipitate density) and low bulk lifetime (iron contaminated precipitates with a high density), which suggests that differences between surface recombination rates between samples are not substantial.
+Phosphorus diffusion gettering
+Some uncontaminated samples were subjected to a phosphorus diffusion gettering process.
+The injection-dependent minority carrier lifetime and the bulk iron concentration were first measured as above.
+The silicon nitride was then removed from both surfaces by HF (40%) for up to ∼15s at room temperature.
+Samples were then RCA cleaned, followed by a phosphorus diffusion gettering process in a standard quartz-tube furnace with the temperature profile shown in Fig. 2.
+The process used is the standard POCl3-based process for formation of high efficiency passivated emitter and rear cell (PERC) type solar cells at ISFH.
+The phosphorus glass was then removed by immersion in HF (40%) for 3 min at room temperature, and the emitter was removed by a KOH etch for 3min at ∼90°C.
+This removed a total of ∼10μm of material from the surfaces, reducing the wafer thickness from ∼700μm to ∼690μm.
+The amount of material removed was calculated by weighing the wafer before and afterwards.
+Samples were then subjected to another RCA clean followed by silicon nitride surface passivation and lifetime measurement, as described above.
+Results
+"Uncontaminated" samples
+In Fig. 3, the residual minority carrier lifetime measured in uncontaminated samples containing oxide precipitates is plotted against X=n/p for two p-type specimens and Y=p/n for two n-type specimens.
+The supporting TEM study [3] found dislocations and stacking faults to surround the oxide precipitates in one of the p-type sample types, but not the other.
+The two n-type samples have different doping levels.
+Similar curves to those in Fig. 3(a) and (b) were obtained in ~100 other p-type samples studied.
+Eq.
+(1) shows that a single SRH centre gives a lifetime response which is linear with X=n/p, but the variation obtained experimentally is clearly not linear.
+Similarly Fig. 3(c) shows clear non-linearity with Y=p/n in the n-type case too.
+Thus it is the case that oxygen precipitation introduces more than simple single-level SRH recombination centre.
+We have previously ruled out the possibility that precipitation introduces a single defect with two energy levels [21].
+We find in all cases that the injection-dependence of the lifetime can be fitted with two single-levels that act independently, i.e.
+(1/τresidual)=((1/τ1)+(1/τ2)).
+These are referred to simply as "Defect 1" and "Defect 2", and their individual and combined effects that best fit the experimental data are plotted on the graphs in Fig. 3.
+To determine the properties of the two defects, the same approach as in the example shown in Fig. 1 was used.
+The gradients of the fits to the experimental data for both defects for a large number of p-type samples were normalised by the high injection (X→1) limits and were plotted against 1/p0 according to Eq.
+(5).
+A similar approach was taken for the n-type samples (see Ref.
+[21]).
+The plots are shown in Fig. 4.
+These plots were used to deduce the value of Q from the intercept and the values of Qn1+p1 (for p-type) and n1+p1/Q (for n-type) from the gradient.
+For Defect 1, both the p-type and n-type data give the ratio of the capture coefficient for electrons (αn1) to that of holes (αp1) as Q1=αn1/αp1=157.
+For Defect 2, both the p-type and the n-type data give the ratio of the capture coefficient for holes (αp2) to that of electrons (αn2) for Defect 2, 1/Q2=αp2/αn2=1,200.
+For Defect 1, for which n1 and p1 are the SRH densities given by Eqs.
+(2) and (3), respectively, the parameter Q1n1+p1 is 4.8×1015cm-3 from the p-type data and the parameter n1+(p1/Q1) is 3.1×1013cm-3 from the n-type data.
+For Defect 2, for which n2 and p2 are the corresponding SRH densities, the parameter Q2n2+p2 is 1.0×1015cm-3 from the p-type and the parameter n2+(p2/Q2) is 1.3×1018cm-3 from the n-type data.
+Temperature-dependent lifetime data reported previously [21] were used to determine the half of the band-gap in which the energy levels of the two defects lie.
+We deduce that Defect 1 is at EV+0.22eV, and that Defect 2 is at EC-0.08eV.
+The SRH parameters are summarised in Table 1.
+The temperature dependent lifetime data show that the capture coefficient for holes at Defect 1 (αp1) decreases with temperature with a 0.20eV activation energy, and that the capture coefficient for electrons at Defect 2 (αn2) decreases with temperature with a 0.14eV activation energy [21].
+As well as extracting SRH parameters from the lifetime data, it is possible to extract information on the density of each defect and to correlate this with the precipitate density measured by chemical etching.
+It is not possible to determine the absolute densities of Defect 1 (N1) and Defect 2 (N2) from lifetime measurements alone.
+However, using Eq.
+(6) it is possible to deduce N1αn1 and N2αn2 for each lifetime measurement in p-type material.
+A similar approach for n-type material allows for N1αp1 and N2αp2 to be extracted.
+The p-type parameters are plotted against the measured concentration of strained precipitates in Fig. 5(a) for the case when oxide precipitates are not surrounded by dislocations and stacking faults and in Fig. 5(b) in the case when the oxide precipitates are surrounded by other extended defects.
+In both plots, the correlation of N1αn1 and N2αn2 with Nstrained is approximately linear.
+The gradients of the linear fit shown are given alongside the SRH parameters in Table 1.
+Similar plots for n-type material have been published previously [21].
+We note that the relationship is only approximately linear, and we suggest this is due to differences in the decoration of the precipitates by impurities, as discussed in the next section.
+Iron contaminated samples
+Injection-dependent lifetime measurements on a set of p-type iron contaminated samples are plotted in Fig. 6.
+The samples used all came from the same wafer (so have very similar precipitate densities), and different levels of iron were diffused into the samples by varying the contamination temperature.
+The residual lifetime reduces with contamination temperature.
+It is noted that the lifetime component associated with bulk iron is factored out of τresidual (Eq.
+(7)), so reductions in lifetime are assumed to be due to recombination associated with iron segregated to oxide precipitates and any surrounding defects (dislocations and stacking faults).
+It is remarkable that the injection response of the residual lifetime has the same form in iron-contaminated and "uncontaminated" samples.
+In fact, the same defect parameters can be used to fit the experimental data in both cases.
+Nαn terms for both Defect 1 and Defect 2 have been extracted from fits to the data in Fig. 6.
+The values of these fit parameters increase with contamination temperature, and the ratio of N1αn1 to N2αn2 is fairly consistent at between 2.8 and 4.0.
+We discuss the relationship between recombination activity and iron decoration of the oxide precipitates and surrounding defects in Section 5.2.
+Samples subjected to phosphorus diffusion gettering
+Fig. 7 shows residual minority carrier lifetime plotted against X=n/p for a typical sample before and after phosphorus diffusion gettering using the temperature profile shown in Fig. 2.
+The injection response before and after gettering can be fitted using the parameters for Defect 1 and Defect 2 shown in Table 1.
+The gettering process increases the overall lifetime, and the Nαn term for both defects is reduced by ∼20%.
+The gettering process reduces the bulk iron concentration by a factor of ∼2.7.
+Discussion
+Parameterisation in terms of SRH statistics
+By studying the injection-dependence of minority carrier lifetime as a function of doping level in both p-type and n-type silicon it has been possible to quantify recombination at oxide precipitates in terms of SRH statistics.
+The recombination processes can be parameterised in terms of two independent single-level SRH centres, the parameters for which are stated in Table 1.
+It is not possible to determine the absolute density of these centres from our lifetime measurements alone.
+However, we have provided an empirical correlation between the strained oxide precipitate density (determined by etching) and Nαn for each defect.
+The existence of dislocations/stacking faults around the precipitates was found to increase the Nαn per precipitate values by a factor of ∼2 to 3.
+These other defects did not however introduce any other detectable recombination centres.
+It is interesting to note that the same parameterisation of the recombination activity can be used before and after phosphorus diffusion gettering (Fig. 7).
+This rules out the possibility that iron silicide precipitates form in the bulk during gettering.
+It is likely that these would have different recombination parameters, and our results show that the gettering process does not introduce other recombination centres in detectable concentrations for the conditions studied.
+The role of iron in the recombination process
+The data presented in Fig. 6 shows that the residual lifetime in iron-contaminated samples can be parameterised using the same two defects found in the "uncontaminated" samples.
+Iron contamination does not change the energy levels and the ratio of capture coefficients required to fit the injection-dependent lifetime data.
+However, the Nαn parameters required to fit the lifetime data increased with increasing contamination temperature.
+Although iron solubility is clearly a factor in the resultant recombination activity, it is not the only one, as we have previously shown that the cooling rate after the contamination anneal also plays a role [23].
+The bulk iron concentrations in the contaminated samples measured by photodissociation of FeB pairs are usually considerably lower than the solubility values [23].
+We assume that the difference in concentrations (ΔFe) has segregated to the oxide precipitates according to:(8)ΔFe=[Fesolubility]-[Febulk]where [Fesolubility] is the solubility of iron at the contamination temperature used, and [Febulk] is the bulk iron concentration in the contaminated sample measured by photodissociation of FeB pairs.
+The iron solubility in the relevant temperature range is given by[Fesolubility]=1.3×1021exp(-1.8eVkT)cm-3where T is the contamination temperature [34,35].
+Fig. 8 shows the relationship between the αnN parameter per strained precipitate and ΔFe per strained precipitate for the five samples for which the lifetime data are plotted in Fig. 6.
+This relationship is approximately linear for Defect 1 and Defect 2.
+This, combined with previously published data on samples with a wider variety of precipitate concentrations [23], suggests that segregated iron determines the recombination activity of the strained oxide precipitates and surrounding defects.
+On the assumption that αn is invariant, the density of the recombination centres appears to be proportional to the number of iron atoms segregated to the precipitates.
+This implies that atomic decoration is more likely than iron precipitation at the oxide precipitates.
+It is known that oxygen precipitation creates so-called Pb dangling bonds [20,46] which are known to give rise to recombination activity [20].
+However, these can be passivated by hydrogen [47,48], which is likely to be introduced into our samples during the PECVD surface passivation step [49].
+It is therefore possible that the only recombination activity we detect (and that would be expected in a completed solar cell) is due to impurities segregated to oxide precipitates and surrounding defects.
+We can estimate the number of iron atoms required to explain the recombination activity we measured in so-called "uncontaminated" samples.
+Fig. 5 shows the recombination rate via both defects in "uncontaminated" samples varies approximately linearly with precipitate density, with N1αn1/Nstrained=(1.7→2.9)×10-5cm3s-1 and N2αn2/Nstrained=(1.8→5.1)×10-6cm3s-1 (Table 1).
+Assuming the state density to be proportional to ΔFe, the linear relationship shown in Fig. 8 is consistent with each strained precipitate in "uncontaminated" samples being decorated with ≤50 atoms of iron.
+The idea that very low levels of impurity contamination can have substantial effects on the electrical properties of extended defects is not a new one.
+It has been previously shown that the recombination activity of dislocation is strongly enhanced by contamination with metallic impurities [50,51].
+It would not be surprising that oxide precipitates in monocrystalline Cz-Si solar wafers are decorated by such low levels of metal impurities.
+The iron concentration at the precipitates required for the electrical activity seen in "uncontaminated" samples is much less than the iron solubility at temperatures at used in solar cell processing.
+Haunschild et al. found a 10s thermal treatment at 800°C to result in a strong enhancement of the recombination activity of rings of oxide precipitates.
+Their thermal process would have been sufficient to redistribute low concentrations of bulk iron in the material, resulting in increased iron decoration of the precipitates.
+The efficiency reductions of up to 4% (absolute) that can arise due to oxygen precipitation in Cz-Si [7], is therefore likely to involve transition metal contamination of the precipitates and surrounding defects.
+It is interesting to note that the recombination activity of oxide precipitates in both "uncontaminated" and contaminated samples appears to be approximately dependent upon precipitate density and not size.
+An explanation for this is that iron segregates to regions of the precipitates whose number is invariant with size, such as in the vicinity of precipitate corners.
+Extended versus point-like defects
+It is interesting that although oxide precipitates and surrounding dislocations and stacking faults are extended defects, we find that their effect on bulk minority carrier lifetime is that expected from point-like defects.
+Our measurements were obtained in a wide range of samples (both types, different doping levels, a wide range of precipitate densities of morphologies, with/without iron contamination) and previously at different temperatures [21].
+Using our lifetime study alone, we have yet to find any feature of the process which cannot be explained using SRH statistics.
+We note that others have applied a SRH-like approach to this problem in the past [52,53].
+However, we also acknowledge that other previous studies have invoked forms of barrier-controlled capture at the precipitates [54].
+Reconciliation of the two approaches is a topic that requires further study.
+Lifetime in n-type and p-type silicon
+There has been considerable recent interest in producing photovoltaics from n-type silicon substrates [55].
+This is at partly because n-type material can have very high carrier lifetimes [56] due to the absence of light-induced degradation in boron-free material [57], and reduced recombination at interstitial iron [30,45].
+Do oxide precipitates and associated defects affect recombination in one type more than another?
+The parameterisation established here and previously [21,23] can be used to estimate this.
+We have established that iron decoration of oxide precipitates strongly enhances the recombination activity, so for a fair comparison we need to account for the iron decoration.
+Fitting the injection-dependent lifetime data alone does not allow for the separation of the state density (N) from the capture coefficient for electrons or holes (αn or αp, respectively).
+However, from assuming all the recombination activity arises due to iron decoration, we have previously combined iron-loss measurements with the lifetime data to estimate αn1=2×10-6cm3s-1 and αn2=4×10-7cm3s-1 [23].
+This assumes that each iron atom at an oxide precipitate gives rise to one of each of Defect 1 and Defect 2.
+We can use the values of Q in Table 1 to estimate αp1=1.3×10-8cm3s-1 and αp2=4.8×10-4cm3s-1.
+Under the stated assumptions, this gives us the full parameterisation necessary to estimate carrier lifetime due to iron-decorated oxide precipitates in p-type and n-type silicon.
+A plot of minority carrier lifetime multiplied by state density (N=N1=N2) versus excess minority carrier concentration in n-type and p-type silicon with different doping levels is shown in Fig. 9.
+Under the assumptions stated above, the state density is the density of iron atoms at the oxide precipitates.
+The estimated residual minority carrier lifetime depends strongly upon doping level and injection level, with the lifetimes at high injection tending to the ambipolar lifetime.
+At typical substrate doping levels for photovoltaics (∼1016cm-3), the lifetime in p-type material is higher than in n-type for injection levels at which the lifetime is not at the ambipolar limit.
+For higher substrate doping levels the lifetime benefit of p-type over n-type becomes more substantial.
+For lower substrate doping levels, the lifetime values are similar in the p-type and n-type cases, with any predicted differences likely to lie within the errors of the SRH parameters.
+In summary, the recombination activity associated with just the (iron-decorated) oxide precipitates is slightly better in typical p-type PV substrates than in n-type.
+That said, the increased recombination activity at bulk interstitial iron in p-type material [30,45] could easily eliminate any possible advantage.
+Competition between gettering systems
+In silicon wafers for integrated circuits oxide precipitates and associated defects are frequently used as a way of internally gettering transition metal impurities, thus preventing the impurities harming the devices [5,6].
+We performed phosphorus diffusion gettering on samples containing oxide precipitates, which enables us to assess the relative strength of the two gettering systems.
+For the results shown in Fig. 7, the bulk iron concentration was 1.4×1012cm-3 before gettering and 5.2×1011cm-3 after gettering, and Nαn terms associated with the oxide precipitates fell by ∼20%.
+As we have shown that the Nαn parameters correlate with the iron lost to the precipitates (Fig. 8), we conclude that the bulk iron lost has not been gettered to the oxide precipitates, and has most likely been gettered to the phosphorus diffused layer.
+Thus, for the conditions investigated, phosphorus diffusion gettering is more effective at gettering bulk iron than oxide precipitates.
+This is very encouraging from the perspective of solar wafers containing oxide precipitates and suggests that the recombination activities will not increase (and may decrease slightly) during the phosphorus diffusion gettering process.
+It is also noted that our findings are consistent with those of Rinio et al., who found evidence to suggest that impurities are gettered preferentially to the emitter rather than native crystal defects in mc-Si [58].
+The correlation between iron loss and recombination activity shown in Fig. 8 implies that our analysis approach is capable of measuring very low relative concentrations of atomic iron at oxide precipitates.
+The results presented in Fig. 7 show that the states associated with oxide precipitates are reduced by ∼20% by the phosphorus diffusion gettering process used.
+An explanation for this reduction is that this proportion of iron has dissociated from the oxide precipitates and surrounding defects.
+The future focus of our research is to use this approach with different thermal conditions to understand the fundamental thermodynamics of the interaction between iron and oxide precipitates.
+Conclusions
+As a consequence of using fast crystal pulling rates, some monocrystalline Cz-Si solar wafers contain vacancy-rich regions which act as preferential sites for precipitation of supersaturated bulk oxygen.
+Oxide precipitates and surrounding defects are associated with recombination activity, and this can have a substantial detrimental impact on the conversion efficiency of solar cells.
+We have used injection-dependent minority carrier lifetime measurements to study this recombination activity in ∼100 samples with different types, doping levels, precipitate morphologies and sizes.
+In all cases we find the lifetime can be parameterised in terms of two independent defect states.
+The first defect is at EV+0.22eV and has a capture coefficient for electrons ∼157 times greater than that for holes.
+The second defect is at EC-0.08eV and has a capture coefficient for holes ~1200 times greater than that for electrons.
+The concentration of centres appears to scale with the density (not size) of the precipitates, with surrounding dislocations and stacking faults increasing the density of centres per precipitate.
+Remarkably, we find the same defect states in oxide precipitate-containing samples which have been intentionally contaminated with iron.
+The density of the states per precipitate is dependent on the iron loss from the bulk per precipitate.
+We therefore conclude that at least some of the recombination activity of oxide precipitates in "uncontaminated" samples is due to the segregation of iron to the precipitates and surrounding defects.
+We find that a phosphorus diffusion gettering process reduces the density of states associated with the oxide precipitates by ∼20%, and that bulk iron is preferentially gettered to the phosphorus diffused layer rather than to the oxide precipitates.
+Acknowledgements
+The authors thank D.
+Gambaro, M. Cornara, and M. Olmo (SunEdison) for performing precipitation treatments and characterization, R.
+Chakalova (University of Oxford) for assistance with sample cleaning and surface passivation, and P.R.
+Wilshaw (University of Oxford) for helpful discussions.
+JDM is the holder of a Royal Academy of Engineering/EPSRC Research Fellowship and an EPSRC First Grant (EP/J01768X/1).
+

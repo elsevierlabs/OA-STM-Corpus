@@ -1,0 +1,161 @@
+Colloidal construction of porous polysaccharide-supported cadmium sulphide
+
+Graphical abstract
+Highlights
+•
+The preparation of high surface area, mesoporous cubic CdS/starch hybrids is presented.
+•
+A colloidal starch gel confines CdS growth to small, cubic nanoparticles (<40nm).
+•
+The method allows very high CdS loadings (i.e. 1:1wt/wt).
+•
+The gel and CdS phase interact to maintain surface and porosity of original gel.
+•
+The green route is applicable to a range of quantum dots and polysaccharide gels.
+Abstract
+A method for preparing CdS nanoparticles within the porous confines of a mesoporous starch gel is described.
+This method utilises the combined colloidal and flexible chemical nature of a porous polysaccharide (i.e. starch) gel to limit CdS growth.
+The resulting hybrid gels can be dried to produce CdS/starch materials with high surface areas, predominantly mesoporous characteristics and scope for high CdS loading.
+The synthesis is conducted in aqueous alcoholic solutions without the need for expensive preparation techniques or additional protection/templating strategies.
+Materials were prepared at increasing CdS loadings on the starch gel, which confined nanoparticle growth and directed size/surface coverage, dispersion and UV-vis absorption profile.
+The resulting powders presented large mesopore domains with high volumes (pore diameters>10nm; Vmeso>0.5cm3g-1) and surface areas (SBET>170m2g-1), interestingly effectively increasing with CdS loading.
+The synthesised CdS nanoparticles were characterised in the 5-40nm range of a cubic crystalline structure, increasing in size with loading.
+A complete surface coverage of the starch gel structure occurs at a CdS/starch ratio=1 (w/w), allowing the synthesis of a unique mesoporous CdS/polysaccharide hybrid.
+The presented route is simple, green and in principle extendable to a wide range of QDs and polysaccharide gels, whereby the porous polysaccharide gel acts as the deposition point of Cd2+, directing and stabilising both the growth of the inorganic CdS phase and the expanded high surface area polysaccharide form.
+
+Introduction
+Semiconductor quantum dots (QD) are of interest not only as an academic curiosity but also because these nanoparticles show potential as biological labels, photocatalysts, and nanoelectronic devices [1-3].
+QDs offer a wide range of properties accessible via manipulation of size, chemistry, band gap and photoluminescent properties [4].
+In this context, the fabrication of nano inorganic-organic hybrid materials is of particular interest, as the resulting materials may potentially possess the combined characteristics of the two original components [5].
+Cadmium-based QDs (e.g. cadmium sulfide (CdS)) are considered attractive for the aforementioned applications due to their bright emission in the visible and near infrared region of the electromagnetic spectrum [6].
+However, these semiconductor QDs have a number of application problems associated with the unsuitability of the capping agents employed (e.g. in a biological environment), the retention of particles over a certain size, magnification (e.g. in cells), or degradation/decomposition of these inorganic QD materials.
+To circumvent these problems a variety of synthetic strategies have been employed to stabilise such QDs [7].
+One promising approach is to employ materials (e.g. polymers) that provide coordination sites for Cd2+ and in turn stabilise the forming QD phase (e.g. CdS) during synthesis [8].
+Therefore, the use of natural polysaccharides seems appropriate as these sugar polymers are relatively inexpensive and can provide functionality, biocompatibility, abundance and nontoxicity [9].
+The preparation of QDs enclosed within the porous structure of a biocompatible polymer would offer a route to suitably capped or protected materials for biomedical applications (e.g. imaging) [8].
+The advantages of both the QDs and polymeric support could then be combined when the active component (e.g. the QD) is dispersed and stabilised within a biocompatible, inexpensive and potentially highly porous, network [8,10].
+In this context aqueous phase or "wet" colloidal chemistry approaches to the synthesis of nanomaterials can take inspiration from bio-mineralisation; that is the growth of inorganic crystals within the confines of biological systems - with the use of porous polysaccharide-derived materials seemingly a perfect match for the aforementioned criteria.
+The inspiration for this work comes from our and others previous reports on porous polysaccharide-supported metallic nanoparticles, and also from a number of literature reports detailing the synthesis of (non-porous) saccharide-capped CdS nanoparticles [8-12].
+Previously, a wide variety of metallic nanoparticles (e.g. Pd, Au, Ag, etc.) have been protected using polysaccharides (e.g. starch, amylose, cellulose), finding application predominantly in absorption and catalysis [11].
+Polysaccharides (and saccharides) have previously been employed to stabilise QDs (including CdS) [12], but significantly there have thus far been no reports that describe the use of porous polysaccharides (e.g. mesoporous starch) in the preparation of high surface area, (meso)porous QDs/polysaccharide hybrids.
+The polysaccharides, and indeed mesoporous forms of these biopolymers, would seem ideal vehicles to contain the growth of QDs to suitable sizes whilst at the same time providing in principle a biologically compatible transport media.
+Here, the synthesis of high surface area, CdS/mesoporous starch (MS) hybrids are presented, where the unique environment of a starch gel is utilised to confine the growth of the CdS phase.
+The presented materials have been characterised using X-ray diffraction, N2 sorption, transmission electron microscopy and diffuse reflectance ultraviolet-visible light spectroscopy.
+The CdS/MS materials, prepared at increasing CdS/starch (w/w) ratios, are synthesised in a straightforward manner based on green chemistry principles [13], demonstrating the straightforward, utile and transferable nature of the presented approach.
+Materials and methods
+Materials
+Purified high amylose corn starch was purchased from National Starch Food Innovation Plc.
+(Manchester, UK) and used as received.
+Ethanol was purchased from Fischer Scientific (UK) and used as received (i.e. 99% purity).
+Cadmium acetate (Cd(CH3CO2)2) and sodium sulphide (Na2S) were purchased from Sigma-Aldrich and used as received (i.e. >98% purity).
+Preparation of porous starch (MS)-supported CdS
+Preparation of said materials was conducted adapting a method proposed by Hullavarad et al. for the preparation of SiO2 supported CdS materials [14].
+MS was prepared in the absence of any reagents as a control sample.
+50.0g of MS gel prepared as reported previously (equivalent to 2.5g starch) was solvent exchanged to 50% ethanol content.
+To which the desired amount of cadmium acetate (0.1M) solution in ethanol was added.
+Samples were prepared at the following Cd/MS weight ratios: CdS3 (0.01w/w); CdS2 (0.10w/w); and (D) CdS1 (1.00w/w).
+Bulk CdS prepared in the absence of starch gel in an identical manner.
+The system was then stirred vigorously for 2h, before the addition of an appropriate volume of Na2S (0.1M) in ethanol.
+The Cd/S volume ratio employed was 1:5.
+The formation of the CdS was almost instant upon addition of Na2S (as indicated by a strong yellow colouration).
+Samples were left to stir for 2h to allow for complete reaction.
+Solvent exchange was continued as prescribed in described previously for the addition of ethanol [15].
+Samples were filtered under laboratory vacuum and re-immersed in ethanol.
+This was repeated in duplicate to remove any unreacted species.
+Samples were finally dried by rotary vacuum evaporation under mild heating (∼40°C) followed by vacuum oven drying at 50°C overnight to remove residual ethanol.
+The final CdS loading was calculated based on the mass recovered relative to the initial starch mass (2.5g), with marginal variance relative to intended experimental design.
+Characterisation
+Diffuse reflectance ultraviolet-visible spectroscopy (DRUVs)
+DRUVs spectra of supported nanoparticle materials were recorded on a Jasco V550 UV/VIS spectrophotometer (Jasco UK, Great Dunmow, UK), using a solid-state diffuse reflectance mode analysis cell.
+Spectra were acquired in the 190-900nm range, at a scanning speed of 100nm/min, with a data pitch of 0.5nm.
+A Jasco supplied background polystyrene block was used as the spectral reference material (unless otherwise stated in the text).
+Nitrogen sorption analysis
+Gas sorption analysis was performed using a Micromeritics ASAP 2010 porosimeter, utilising N2 as the probe molecule.
+Samples were degassed at 60°C under vacuum (p<10-2Pa) on the apparatus for >5h prior to analysis.
+Data processing was performed using ASAP 2010 v.5.02 and Origin Lab v.7.5 software.
+N2 sorption isotherms were measured at -196°C.
+Specific surface areas were determined via the Brunauer, Emmett and Teller (BET) method, based on the cross sectional area of the nitrogen molecule (0.162nm2).
+Surface areas were calculated using a BET plot of at least 5 data points over a relative pressure range of (P/P0) 0.05-0.30, where a linear relationship was maintained.
+Pore size distributions and mesopore volumes were calculated using the Barrett, Joyner, and Halenda (BJH) model [NB: artefact from nitrogen desorption at 3.7nm].
+Total pore volume was determined at a relative pressure of 0.975.
+t-Plot analysis employed N2 adsorption data in the P/P0 range 0.005-0.95.
+Dubinin-Radushkevich (DR) surface energy (EDR) values were determined from the DR model utilising N2 adsorption data, where linear fits of ∼10 points were obtained, typically in the 0.18-0.40 P/P0 range.
+Transmission electron microscopy (TEM)
+TEM images were recorded by a Tecnai 12 BioTwin transmission electron microscope (FEI Company, USA).
+Samples were suspended in ethanol, and then deposited onto carbon grids via solvent evaporation.
+Powder X-ray diffraction (XRD)
+Wide-angle diffraction patterns were acquired using a Bruker AXS D8 diffractometer with CuKα (λ=1.5418Å), over a 2θ range from 5° to 85°, using a step size of 0.1° and a counting time per step of 4s.
+CdS particle size was calculated using the Scherrer equation, assuming a spherical particle morphology and using a Gaussian peak fitting procedure to determine the FWHM (i.e. K=0.9).
+Results and discussion
+Preparation of mesoporous starch (MS)-supported CdS materials (CdS/MS) was conducted adapting a method developed by Hullavarad et al. [14] which conveniently allowed the introduction of the cadmium acetate and sodium sulfide precursors during solvent exchange in the preparation of MS.
+The desired quantity of cadmium acetate was added under vigorous stirring and the system left to equilibrate (i.e. ∼2h).
+The white opaque coloured system rapidly changed to a brightly coloured yellow, after addition of an ethanolic solution of Na2S.
+The system was solvent exchanged to ca.
+100% ethanol, and then extensively washed with fresh ethanol.
+Pure control samples of MS and CdS were also prepared to provide comparison.
+CdS/MS materials were prepared at increasing cadmium to starch ratios (w/w) and the bright yellow colouration observed during the addition of the reagents to the starch gel was maintained in the recovered solid with (as expected) a higher loading of CdS indicated by an increasingly stronger yellow appearance (Fig. 1).
+Wide angle powder X-ray diffraction analysis for material prepared at a Cd/starch ratio >0.10, revealed peaks at 2θ values of 26.7°, 44.0° and 52.1° corresponding to the (111), (220), and (311) crystal planes of cubic phase CdS (Fig. 2) [16].
+By comparison with previous reports and associated diffraction peaks for bulk CdS, and the diffraction patterns of CdS/MS materials presented here (i.e. CdS1 and CdS2), all the characteristic peaks are broadened, in agreement with the nature of the nanocrystalline (i.e. cubic phase) CdS [16].
+With increasing CdS loading, the diffraction patterns become better resolved from the amorphous MS support pattern.
+Based on the Scherrer equation, particle sizes were determined as CdS1=39.7nm and CdS2=30.1nm respectively.
+At the lowest Cd/MS ratio investigated in this study (i.e. CdS3=0.01), clear diffraction peaks associated with CdS phase (cubic or otherwise) were not resolvable from the pattern of the amorphous MS support.
+Unfortunately, due to the relatively low loading, amorphous nature and the overall low density of the CdS3 sample, a suitable diffraction pattern enabling the use of the Scherrer equation was not possible.
+All samples presented good textural properties (SBET>170m2g-1; Vtotal>0.5cm3g-1), similar to the MS control sample, interestingly showing no significant reduction in specific surface area with increasing CdS loading (Table 1).
+All CdS/MS materials presented Type IV/H3 reversible N2 sorption isotherms, characteristic of MS (Fig. 3) [15].
+An increase in the onset of capillary condensation, a shift in hysteresis profile and loop size to higher relative pressures and larger adsorption capabilities was observed with increasing CdS loading, indicative of a change of pore shape, diameter and dimensions; i.e. with increasing CdS loading, the pore structuring rearranges to accommodate the growing inorganic phase and associated increase in electrostatic repulsion forces, leading to the observed increase in pore volume properties.
+The CdS control sample prepared in the absence of starch (CdS4), presented a low surface area (<5m2g-1; Table 1).
+Contrary to previously reported results regarding MS-supported Pd nanoparticles [11(b)], the textural properties (particularly surface area) of these materials showed less variability and sensitivity to an increase in CdS loading.
+Increased CdS loading resulted in a shift to higher average pore sizes, larger average pore diameters and broader pore size distributions relative to the control MS (Fig. 4).
+This is reflected in a corresponding increase in total pore and mesopore volume as the number of large mesopores (PD>20nm) increased (Fig. 4).
+To characterise the optical absorption properties of the prepared CdS/MS materials, DRUVs spectroscopy was employed (Fig. 5).
+The MS parent material showed no significant absorption in the λ=260-700nm range.
+CdS/MS samples showed broad absorptions in this region, the intensity of which increased with Cd loading, with little sub-structure observed in the respective absorption spectra.
+Such broad optical peaks suggest a broad size distribution of CdS nanoparticles, although at high loadings (Cd:MS=1 (w/w)) a broad peak with a maximum at λ=435nm starts to resolve, representing a blue shift of ∼75nm with respect to the band gap of 515nm (2.41eV) for bulk CdS [17].
+Additionally, the DRUV spectrum at high loadings (i.e. CdS1) also shows a shoulder in the λ=380-420nm assigned to exciton peaks [18].
+At the highest loading, the DRUV spectrum exhibits an absorption profile increasingly similar to that observed for macrocrystalline CdS [19].
+Based on previous reports (e.g. the λonset-2R relationship), DRUVs analysis indicates that the formed CdS particles range from ca.
+5 to 10nm (CdS1) to increasingly larger bodies (>30nm) in agreement with XRD data size determination.
+As CdS loading decreases, a blue shift from the absorption band edge in CdS1 (λedgeCdS1=535nm), is also observed, blue-shifting to λ=526 and 508nm.
+This shift of ca.
+35nm is in good agreement with the work of Hillmyer et al. who observed similar blue band edge shifts for CdS nanoparticles prepared using nanoporous polystyrene monoliths as size directing agent, commenting that the blue shift was the result of CdS particle size decrease [20].
+The observed spectral shifts observed here might also be the result of initial CdS formation at hydroxyl sites within the (micro or small meso) pores, followed by a migration to the surface, as all pore sites are filled.
+Similar broad intense DRUVs spectra were observed for CdS nanoparticles supported on TiO2 nanotubes, polystyrene spheres and ordered mesoporous silica (e.g. MCM-41) [21].
+Images of the presented CdS/MS materials acquired by TEM indicate that at low CdS loadings, the CdS phase is well distributed and dispersed within the porous structure, with individual CdS nanoparticle having ∼4-6nm diameters (Fig. 6(A)).
+Increasing CdS loading resulted in the formation of larger clusters (ca.
+15-40nm), composed of what appear to be individual CdS nanoparticle of 8-12nm coalescing and stabilising within the porous domains of the gel (Fig. 6(B)).
+The lack of nanoparticle order is thought to be a consequence of the non-regular alignment of the pores in the porous starch support.
+The MS pore ordering was observed to be sensitive to the growth (and enlargement) of CdS particles as loading increased, producing wider (meso)pore domains characterised by N2 sorption analysis (Table 1; Figs.
+2 and 3).
+At a Cd:MS ratio of 1 (w/w), an very interesting hybrid material is generated in which the distribution of the CdS on the surface and within the pores of the solid appears completely uniform in nature (Fig. 6(C)).
+The material appearance and morphology was consistent throughout the sample imaged by TEM, and the system was stable in the electron beam.
+The near perfect covering of the electron-opaque MS support phase with CdS (i.e. CdS1; Fig. 6(C and D)), enables a rather randomly sized slit pore morphology to be observed - morphology suggested from N2 sorption isotherm profile.
+Presumably this material nanostructuring is the product of a complimentary self-assembly between polysaccharide nanocrystallites, which are uniformly coated with forming CdS species during synthesis.
+Given the N2 sorption isotherm profiles and corresponding pore size distributions, it potentially can be inferred that there exists a degree of complimentary, self-organisation and arrangement between the starch gel and forming phase CdS phase during synthesis resulting firstly in an increase in the overall textural "quality" in the final porous products.
+Given the density of CdS (ρ=4.83gcm-3) and that loading is based on 1.0g of the MS support, the actual pore volume of starch support for CdS1, can be estimated as >1.5cm3g-1; notably three times higher than the original MS control sample.
+Such a reorganisation and restructuring of the polysaccharide phase with increasing CdS loading can potentially be explained by repulsive forces and changes in surface charge as the porous hybrid structure is formed, generating the observed higher total pore volumes and expansion of the corresponding pore size distributions (Fig. 4).
+In the context of the presented synthesis, the polysaccharide (i.e. here a predominantly amylose) gel, given its metastable hydrogen-bonded network, will be sensitive to alterations in the ionic potential of the aquagel system/pore walls in the gel phase (e.g. from salts (e.g. sodium acetate by-product) or the forming CdS phase), which may act to reorganise the network during the solvent exchange process.
+Coordination of Cd2+ with the gel surface via hydroxyl pairs, possibly from adjacent polysaccharide chains, will alter the local "polysaccharide" ordering.
+The metastable polysaccharide "gel" may be expected to order itself to minimise surface energy in this dynamic system, with the pore dimensions presumably adapting to accommodate the introduction of a charged species (e.g. Cd2+).
+It is important to note that the divalent cation Cd2+ has an ionic radius of 0.097nm [22], which leads to a number of speculative points; (1) the diameter of the cation is smaller than the internal cavity of the amylose helix (double or single; ca.
+0.4-1.0nm), which itself is presumably flexible under the synthesis conditions to accommodate introduction of the Cd2+ into its hydrophobic cavity (perhaps occupying micropores (Table 1); (2) the diameter is also approximately the same length as the (OH) H-bonding distances (i.e. 0.19-0.21nm) [23] between adjacent glucose residues that form the amylose helix (believed to be key to the formation of the porous polysaccharide phase); [15,24] consequently coordination of Cd2+ may stabilise an alternative metastable polysaccharide confirmation(s), gel state and in turn expanded surface properties.
+It is thought that at low loadings (e.g. CdS3), Cd2+ is adsorbed initially within the (smaller) pores of MS, leading to a nanoconfinement of the forming CdS phase.
+CdS will nucleate here presumably according to a pseudo-epitaxial growth, generating confined, amorphous nanoparticles or "seeds" (as indicated from XRD data).
+As CdS nanoparticles grow and fill the porous domains as loading increases, the polysaccharide structure remains flexible, particularly in the presence of water (or water/alcohol mixtures), and the hydrogen bond network may then rearrange accordingly to accommodate the inorganic phase.
+As the CdS clusters grow in size (and becoming increasingly crystalline) in the mesopores, the electrostatic repulsion increases the average pore size but with no reduction in surface area presumably as a consequence of an increased primary particle separation within the gel phase.
+This is an interesting observation and may lead to the synthesis of a variety of polysaccharide/inorganic hybrids and templated materials, as well as the potential to utilise ionic potential to direct textural properties of polysaccharide gels and associated porous xero- and aerogels.
+Conclusions
+A series of mesoporous starch-supported CdS materials have been prepared using a relatively simple process employing an inexpensive, biomass-derived polysaccharide support, to immobilise the forming quantum dot nanoparticle phase.
+The resulting materials were characterised by a variety of techniques demonstrating the formation of a cubic CdS phase upon a high surface area, mesoporous polysaccharide-derived support phase.
+The complimentary interaction of the porous polysaccharide (starch) gel and the growing CdS inorganic phase and the resulting electrostatic repulsive forces generated materials with very high nanoparticle loadings, surprisingly high surface area, volumes and small CdS species.
+The synthesis is relatively simple and potentially scalable.
+Initially based on the use here of porous polysaccharide powders, the synthetic approach should be extendable to the preparation of porous CdS/polysaccharide films and monoliths.
+Selection of polysaccharide type and quantum dot chemistry potentially may lead to the synthesis of a variety of porous polysaccharide-derived materials as supports for QDs.
+The polysaccharides are typically transparent to incident radiation with of λ>410nm, rendering materials potentially suitable for sensor applications and biological environments.
+It is important to note that the presented results are somewhat unexpected given previous work (e.g. a pore filling model with PdNPs) [11(b)], and highlights the unusual nature of these porous polysaccharide networks - via the introduction of charged species and growth of CdS nanoparticles within the porous structure, the material porosity adapts, presumably as the flexible soft, biopolymer network adapts its porosity to accommodate the growing CdS phase.
+This demonstrates a certain responsive quality to the porous polysaccharide network and affinity for Cd2+ whereby it is possible to enhance textural and porous properties of the material via the loading and stabilisation of CdS nanoparticles.
+Acknowledgements
+TEM images were acquired with the assistance of Ms.
+Meg Stark, at the Technology Facility, Department of Biology, University of York, UK.
+Prof.
+Clark and Dr. White are grateful to the Engineering and Physical Science Research Council (EPSRC) for providing funding of this research via a DTA grant.
+

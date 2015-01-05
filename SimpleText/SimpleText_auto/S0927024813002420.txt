@@ -1,0 +1,186 @@
+Morphology control in co-evaporated bulk heterojunction solar cells
+
+Abstract
+Bulk heterojunction solar cells made by vacuum co-evaporation of polythiophene (PTh) and fullerene (C60) are reported and the blend morphology control through donor-acceptor composition and post-situ annealing demonstrated.
+Co-deposited heterojunctions are shown to generate about 60% higher photocurrents than their thickness-optimized PTh/C60 planar heterojunction counterparts.
+Furthermore, by annealing the devices post-situ the power conversion efficiency is improved by as much as 80%.
+UV-vis, XRD and AFM analysis shows that the enhanced photoresponse is a result of favorable morphological development of PTh upon annealing.
+Annealing-induced improvement of the donor-acceptor network is demonstrated across a wide range of compositions (20-80% PTh).
+This illustrates that good morphology control is possible in co-evaporated polymer-fullerene blends through multiple parameters and differentiates this donor-acceptor combination from the standard small-molecule systems.
+Graphical abstract
+Highlights
+•
+Vacuum deposition of polymer/fullerene bulk heterojunction solar cells is reported.
+•
+Their performance is optimized through composition as well as post-situ thermal annealing.
+•
+Annealing enhances efficiency over a wide range of D:A blend compositions (1:4-4:1).
+•
+Improved blend morphology results from favorable phase separation of the polymer.
+•
+Morphology control in the polymer blend is superior to the equivalent oligomer blends.
+
+Introduction
+There is fierce competition between solution and vacuum processed organic photovoltaics [1,2].
+The former relies on morphology control in polymer-fullerene blends resulting from phase separation in these systems [3-5].
+The latter takes advantage of solvent-free processing allowing highly complex multi-junction architectures [6] similar to inorganic photovoltaics.
+The different routes have demonstrated similarly high efficiencies and both show the potential for low-cost scale-up by means of roll-to-roll processing [7,8].
+In this work, we combine these approaches by co-depositing polymer-fullerene bulk heterojunctions using vacuum thermal evaporation.
+We show that morphology and performance can be controlled by polymer-fullerene composition ratio and post-production thermal annealing.
+A route to merge the useful aspects of both material systems to further enhance device efficiencies is identified, which goes beyond current small-molecule (molecular) photovoltaics.
+The intimate blend of donor and acceptor in a bulk heterojunction (BHJ) allows efficient exciton dissociation and charge extraction through an interpenetrated nanoscale network of the two phases [9].
+This architecture has demonstrated the ability to reach 100% internal quantum efficiency [10] and has become the standard platform for fabrication of devices with state-of-the-art performance [11].
+In solution processing, the two most common ways of controlling morphology are choice of solvent [12,13] and application of post-production thermal annealing [14,15].
+Vacuum co-deposition of small molecules allows gradient blends and therefore precise manipulation of horizontal as well as vertical donor-acceptor composition [16,17].
+Reports thus far have shown morphology control and related device efficiency improvements through in-situ [18,19] and ex-situ [20,21] thermal annealing, and evaporation additives [22].
+However, achieving the level of control comparable to solution-processed BHJs remains a challenge [20,23-29].
+Co-deposition often results in an almost homogeneous blend of the constituents with insufficient percolation pathways [27].
+Furthermore, the ease of crystallization of small molecules is not conducive to optimum phase separation.
+For example, post-production thermal annealing of molecular blends leads to nucleation and growth of microcrystals [20,28-31] rather than the formation or development of nanoscale percolated networks.
+In this study, we combine the advantages of these two competing approaches by using naturally phase-separating polymers for well-controlled morphology in a deposition system which allows multilayer device complexity.
+Our group [32], and also others [33-35], have demonstrated that conjugated polymers can be thermally evaporated in vacuum (in addition, oCVD has previously been used by Borelli et al. to grow photoactive polymer films, however requiring use of an FeCl3 oxidizing agent [36]).
+The molecules retain their chemical composition and structure after evaporation, but decrease in molecular weight.
+In a following study on planar heterojunction devices we have shown that vacuum-deposited polymer without side-groups, polythiophene (PTh), exhibits enhanced molecular packing and crystallinity as compared to its soluble counterpart poly(3-hexylthiophene) (P3HT).
+This resulted in significantly improved charge transport properties with relatively high hole mobilities (10-4cm2/Vs) and almost a 70% increase in power conversion efficiency [37].
+Moreover, the lack of side groups accounted for a considerably longer conjugation length of the evaporated polymer.
+Here we demonstrate vacuum co-deposited PTh:C60 bulk heterojunction solar cells.
+Using different polymer-fullerene compositions we study the effect of post-production thermal annealing on the development of morphology.
+Experimental section
+Materials and deposition
+Polythiophene (PTh) was purchased from Sigma-Aldrich (unknown Mw), poly(3,4-ethylenedioxythiophene)-poly(styrenesulfonate) (PEDOT:PSS, Baytron P dispersion) from H.C.
+Starck and fullerene (C60, 99.9% pure) from MER Corporation.
+All the materials were used as received.
+PTh and C60 were deposited by vacuum thermal evaporation from separate tungsten boats (Leybold Optics) which were heated by a Xantrex XHR 7.5-80 DC Power Supply and TDK-Lambda Genesys 8-300 DC Power Supply, respectively.
+The evaporation was conducted in high vacuum ∼1×10-5Torr at a temperature of 300±15°C.
+The individual rate of PTh and C60 deposition was ∼0.5-5Å/s depending on the BHJ composition.
+The average overall rate was approximately ∼1.5-3Å/s.
+Due to the insolubility of PTh, no accurate direct measurement of the molecular weight could be made (nor was this value indicated by the manufacturer), however a combination of different techniques in our previous work [37] suggested that the evaporated PTh is near its effective conjugation length (20-25 monomer units, Eg≈2.0eV), which corresponds to Mw~1500-2000gmol-1.
+Thin film characterization
+Optical absorption of the BHJ thin films was characterized by UV-vis-NIR spectroscopy Agilent Cary 5000.
+The surface topography of the films was scanned by an atomic force microscope AutoProbe CP (Park Scientific Instruments) in tapping mode.
+Imaged areas are actual active pixels of the devices from below the Al electrode (which was carefully peeled off).
+X-ray diffractometry was performed on a Philips PW1820 system with PW1727 X-ray generator using Cu Kα radiation (λ=1.5418Å).
+For XRD, polymer films were deposited on silicon wafer substrates by the process described above.
+The evaporation temperatures were the same ones as for device fabrication.
+The film thickness was approximately 0.3μm.
+XRD patterns were taken normal to the plane of the films, therefore such analysis does not map the full range of crystal orientations (with only hk0 reflections observed).
+There is no apparent orientational change on annealing, and the assessment of the effect of annealing on overall crystallinity is taken only from the hk0 peaks.
+Device fabrication
+Photovoltaic devices were prepared by parallel co-evaporation of PTh (or P3HT) and C60 in between an Al cathode and an ITO-on-glass anode as follows.
+The ITO surface was cleaned with acetone and isopropanol and then treated with oxygen plasma for 1min.
+A layer of PEDOT:PSS was spin coated at 5000rpm for 30s onto the prepared ITO surface and then heated for 5min at 140°C.
+Next, an active 70nm thick BHJ layer was co-evaporated from PTh and C60 sources as described above.
+The layer thickness was controlled in-situ using a quartz crystal microbalance (Q-Pod, Inficon) placed at the same distance from the source as the substrates.
+After the deposition, the value was further verified by Veeco DEKTAK surface profiler (Dektak 6M Stylus Profiler).
+Finally, a set of 80nm thick Al electrodes was evaporated on top of the sandwich structure.
+The active device area was 2.2mm2.
+Electronic characterization
+Photovoltaic characterization of the devices was carried out under white light illumination (AM1.5, 100mW/cm2) in an inert N2 atmosphere.
+The light intensity at the sample position was determined with a microprocessor-based power meter (Thermo-Oriel Instruments, Model no.70260) calibrated according to ASTM standards.
+A set of neutral ND filters (Melles Griot) were used for varying the illumination intensity.
+Current-voltage characteristics were measured using a Keithley 2400 source measurement unit.
+Results and discussion
+Optimization of annealing conditions
+The performance and morphology of vacuum co-deposited BHJs was studied through variation of four main parameters-active layer thickness, polymer-fullerene composition and post-production thermal annealing temperature and time.
+In order to see the effect of annealing on different PTh:C60 compositions, optimization of the annealing temperature and time had to be performed.
+A series of initial experiments indicated that BHJ with 80vol% of C60 and a thickness of 70nm lead to device characteristics comparable to the previously reported planar heterojunction devices (Jsc∼2-3mA/cm2 and Voc∼0.40-0.45V) [37].
+This composition thus served as a good standard for optimization of the annealing parameters.
+First, an optimal temperature was found by annealing the devices for 10min at different temperatures (100, 120, 140 and 160°C), and subsequently, the optimal annealing time was found for the optimized temperature (from 5, 15, 30 and 60min annealing at 120°C).
+Both steps are shown in Fig. 1a and b.
+The best performance was obtained for 30min annealing at 120°C, the temperature previously assigned by Chen et al. to the glass transition of PTh [38].
+The glass transition of the PTh:C60 system might, however, be lower if C60 acts as a plasticizer of PTh [39].
+The resulting increase in photocurrent was approximately 35% and PCE increased by 55%.
+We also observed that above 120°C the value of Voc consistently decreases.
+This could be a result of excessive crystallization of one of the phases (shown in the inset of Fig. 1a) and formation of shunt paths.
+Effect of thermal annealing on different PTh:C60 compositions
+Performance of BHJ solar cells is greatly affected by the ratio between the donor and the acceptor [27,40,41].
+In order to investigate this effect in our vacuum-deposited polymer-fullerene system, BHJs with different volume ratios of PTh (20%, 40%, 60% and 80%) were fabricated and divided into two groups-non-annealed and annealed.
+Both device groups were then studied and compared in terms of electronic performance and morphology.
+Light and dark J-V characteristics of representative devices with different compositions are shown in Figs.
+2a and a summary of the photovoltaic characteristics is shown in Fig. 2b and Table 1.
+Fig. 2a shows that increasing polymer content (up to 60%) results in improved current generation which in turn seems to be the main factor that drives the PCE in this BHJ system.
+Enhanced diode characteristics in light and dark curves, Fig. 2a (40-80% PTh), and decreasing series resistance Rs, Table 1 (40-60% PTh), are all consistent with the photocurrent increase.
+The films with higher PTh content show better overlap with the solar spectrum, as seen in Fig. 3.
+This improvement in absorption, however, could only be partially responsible for the Jsc increase, as the trend in absorption with PTh content does not correlate well with that in Jsc.
+The low fill factor (FF) suggests charge recombination and any improvement with increasing PTh content (for non-annealed devices) is minor.
+Open circuit voltage of donor-acceptor heterojunctions is determined by the HOMO level of the donor and LUMO level of the acceptor [42,43].
+However, we observe a systematic decrease in Voc, apparent in Fig. 2b, which we attribute to decreasing shunt resistance Rsh of the devices (Table 1).
+This could be ascribed to a higher content of crystalline PTh which could introduce more shunt paths and thereby lower Rsh.
+A similar trend has been observed in both solution- and vacuum-processed BHJs [44,45].
+The annealed devices show a clear enhancement in performance, with some of them improving their efficiencies by as much as 80%.
+The average increase in Jsc is approximately 20-30%.
+Thermal annealing not only improves the photocurrent, but also increases Rsh of the devices (for 40-60% PTh) and subsequently enhances the values of Voc.
+This could occur via the sealing of shunt paths created during the film growth [46].
+The exception is at 80% PTh, for which a rather unexpected drop in Rsh is calculated.
+This is the only case in which FF decreases after annealing, possibly as a result of blend coarsening.
+The other photovoltaic characteristics remain largely consistent with the ones of the non-annealed devices.
+It is important to note, that this system is one of only a few examples of a vacuum co-deposited BHJ in which post-production thermal annealing has lead to positive improvement in photocurrent and efficiency [20,21,47].
+Excessive crystallization of the molecular constituents often leads to increased film roughness and significant device shortening.
+In 2004, Uchida et al. [28] commented on this phenomenon in CuPc:C60 BHJ and since then there have not been any reports showing post-deposition improvements in similar systems (ZnPc:C60, SubPc:C60 or SQ:C60).
+The works of Peumans et al. [20] and Kim et al. [47] demonstrated an annealing-improved device performance when combining CuPc donor with perylene acceptors.
+These molecules are, however, both planar-stacking and do not form efficient percolating charge pathways, as already described by Xue et al. [48].
+The annealing of such blends results in a formation of isolated islands and protrusions with short charge collection lengths and poor performance [20,47,49].
+In another example, Sakai et al. demonstrated that PCE can be improved post-situ by annealing an oligomer blend (sexithiophene, 6T) with a dominant fullerene composition (C70:6T at a ratio of 5:1) [21].
+Nonetheless, there is less scope in this case for large crystallites to form.
+As a result, improvement of the 6T:C70 performance was mainly due to increased Voc and FF, while the contribution of Jsc was only minor.
+It is likely that the favorable improvement in phase separation/crystallization processes on annealing might be achieved using longer chain molecules [27] or a system with polydisperse conjugation lengths [50].
+The nature of this deposition method allows exploitation of both.
+In general, the best performance of the vacuum-deposited PTh:C60 devices, both before and after annealing, was found to peak between 40% and 60% PTh with devices showing efficiencies around 0.7%.
+Moreover, the donor-acceptor ratio with the highest photocurrent generation (60% PTh) corresponds well with the percolation model of solution-blended films, in which weight ratios close to optimal 1:1 (volume equivalent ~3:2, or 60%) have the highest interface-to-volume ratio as well as the most-balanced percolation and charge carrier transport in the phases [51].
+The photovoltaic characteristics of PTh:C60 cells are comparable to PTh and [6,6]-phenyl C61-butyric acid methyl ester (PCBM) BHJs processed in solution from thermo-cleavable precursors [52], and also to vacuum-deposited 6T:C60 devices [45].
+Further improvements could be made by the incorporation of an exciton blocking layer (LiF, or bathocuproine BCP) which is known to greatly increase Voc and FF in vacuum-deposited blends [53-56], and by use of a polymer with more favorable band levels to increase Voc.
+Morphological development in PTh:C60 BHJ
+The improvement in photocurrent after annealing implies enhanced charge generation due to increased absorption, and/or better charge extraction through more efficient exciton dissociation and charge collection at the electrodes [40,57].
+To examine this, we used a combination of XRD, UV-vis absorption spectroscopy and AFM.
+The crystal structure of PTh-only does not change upon annealing as the XRD traces in Fig. 3a show.
+This suggests that enhanced charge extraction cannot come from further polymer crystallization which would provide better hole transport [58].
+Neither does the increased photocurrent result from increased absorption of the annealed films, as can be seen in Fig. 3b.
+The absorbance remains unchanged for all of the PTh:C60 compositions owing to the already crystalline nature of vacuum-deposited PTh [59].
+These findings thus imply that it is a purely morphological development of the polymer-fullerene network that drives the increase in PCE.
+Favorable phase separation within the blend allows formation of better pathways for charge transport, and accounts for improved Jsc characteristics seen in all post-annealed devices (Fig. 2).
+The XRD traces of the blended 1:1 PTh:C60 composition, shown in Fig. 4, confirm that there is no significant increase in PTh crystallinity upon annealing either.
+Intensities of the characteristic PTh peaks at 19.6°, 22.8° and 28.0° 2θ remain similar [59,60].
+This shows that despite the relatively high amount of PTh (50%) present within the blend, no excessive crystallization occurs which would lead to strong phase segregation and device shorting as seen in small-molecule BHJs.
+Instead, annealing-induced improvement of all Voc figures can be observed.
+In contrast to the constancy of the PTh diffraction peaks, the relative intensity of the C60 peaks [61] appears more pronounced after annealing.
+Development of the donor-acceptor network on annealing is driven by crystallization and re-arrangement of C60 on phase separation from the PTh [62-65].
+The coherence length of the polymer crystals, ξ=110Å, was obtained from the peak 200 (non-annealed sample) using Debye-Sherrer relation [66].
+This crystal size agrees well with the scale of the optimal polythiophene/fullerene phase separation [67].
+The enhanced charge generation demonstrated in the PTh:C60 devices shows that the BHJ network can be well-optimized for efficient exciton dissociation by annealing.
+In order to relate photovoltaic performance of the devices to their phase morphology, AFM topographic and phase-contrast studies were performed, with representative images summarized in Fig. 5.
+The value of root-mean-square (RMS) surface roughness, taken from multiple samples and scan areas, is shown in Fig. 6a.
+The phase images contain not only information on lateral surface morphology but also on materials' properties, such as viscoelasticity and adhesion [68].
+Their quantification is represented by the average peak-to-peak distance of domains in the phase images, as shown in Fig. 6b (rather than intending to measure the polymer/fullerene domain size, these figures evaluate relative differences in the phase morphology of the blends, at least at the surface of the specimen).
+The trend of RMS roughness reaches a minimum at the PTh composition between 40% and 60% (see Fig. 6a).
+This central range also correlates with the peak of the BHJ performance, indicating that better donor-acceptor balance within the network has not only an impact on surface morphology, but also on the inner distribution of the phases and related enhanced charge extraction.
+Overall values of less than 3.5nm suggest a fine morphology in all blends.
+This is in contrast with 6T:C60 films which were shown to exhibit microcrystalline segregation of sexithiophene with RMS∼15-20nm at its 50% content [45].
+The effect of thermal treatment on RMS roughness is minor.
+Even for large content of PTh (80%) the increase in roughness is only around 30%.
+This particular difference can, however, explain the decrease in Rsh of the 80% PTh devices taking place after annealing, as shown in Table 1.
+In general, low RMS values confirm that a moderate morphological development takes place in annealed vacuum-deposited blends similar to polymer-fullerene systems.
+The domains observed in the phase image of the PTh:C60 blends range from an average size of ∼30-35nm at low PTh content to larger ∼45-50nm for 60% PTh.
+Moreover, there is a considerable development of the domain network upon annealing in all heterojunction films, as shown in Fig. 5 and Figs.
+6b.
+For 40-80% PTh, the network coarsens which could suggest phase separation within the blends.
+This would be consistent with annealing-induced phase separation of polythiophene indicated by the XRD findings, and the enhancement of Jsc in BHJ devices.
+The overall trend of the domain sizes corresponds well with that of the cells' ability to generate photocurrent (see Fig. 2).
+This implies that the self-assembled phase network reaches its optimal dimensions around 60% PTh when the values of Jsc culminate.
+The AFM study therefore confirms that the phase morphology can be controlled without detrimental large-scale segregation and thus optimized by both donor-acceptor composition and post-situ thermal treatment.
+Conclusions
+Vacuum-deposited PTh:C60 bulk heterojunctions with different donor-acceptor compositions were fabricated and the effect of post-production thermal annealing on their photovoltaic performance and morphology studied.
+We showed that co-deposition of blended mixtures leads to 60% higher photocurrents than in thickness-optimized PTh/C60 planar heterojunction counterparts [37].
+Furthermore, by annealing the devices post-situ we improved their power conversion efficiency by as much as 80%, achieving performance comparable to PTh:PCBM equivalents processed in solution from thermo-cleavable precursors [52].
+An enhanced photoresponse results from the favorable morphological development of PTh upon annealing, modestly larger grain sizes and increased crystallization of C60.
+In contrast to most small-molecule blends, annealing-induced phase separation does not lead to formation of microcrystals but rather to a controlled improvement of the donor-acceptor network.
+This is an inherent advantage of polymers over molecular systems.
+Although overall performance of the PTh:C60 devices does not match that of solution-cast P3HT:PCBM (average PCE 3%) [69], we emphasize that PTh is not optimized to form a heterojunction with C60 in the same way that P3HT is optimized for solution-processed heterojunction with PCBM.
+Better molecular design is necessary to adjust the energy levels of the polymer and thus improve absorption as well as its alignment with the acceptor for greater Voc.
+Finally, we have demonstrated that the morphology of vacuum-deposited PTh:C60 bulk heterojunctions can be controlled over a wide range of compositions.
+The next step is to achieve further control of phase-separation, for example, by co-depositing less miscible materials, such as polymeric donor and polymeric acceptor, or optimizing the molecular weight of the starting materials.
+Acknowledgments
+The authors are grateful to Mr.
+Long Jiang for assistance with the AFM measurements and discussion of the results, and Mr.
+Cheng Cheng for useful consultations.
+This work was financially supported by EPSRC and the John Fell Fund.
+

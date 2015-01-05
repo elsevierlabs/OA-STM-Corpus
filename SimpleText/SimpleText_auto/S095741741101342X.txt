@@ -1,0 +1,228 @@
+An experimental comparison of classification algorithms for imbalanced credit scoring data sets
+
+Abstract
+In this paper, we set out to compare several techniques that can be used in the analysis of imbalanced credit scoring data sets.
+In a credit scoring context, imbalanced data sets frequently occur as the number of defaulting loans in a portfolio is usually much lower than the number of observations that do not default.
+As well as using traditional classification techniques such as logistic regression, neural networks and decision trees, this paper will also explore the suitability of gradient boosting, least square support vector machines and random forests for loan default prediction.
+Five real-world credit scoring data sets are used to build classifiers and test their performance.
+In our experiments, we progressively increase class imbalance in each of these data sets by randomly under-sampling the minority class of defaulters, so as to identify to what extent the predictive power of the respective techniques is adversely affected.
+The performance criterion chosen to measure this effect is the area under the receiver operating characteristic curve (AUC); Friedman's statistic and Nemenyi post hoc tests are used to test for significance of AUC differences between techniques.
+The results from this empirical study indicate that the random forest and gradient boosting classifiers perform very well in a credit scoring context and are able to cope comparatively well with pronounced class imbalances in these data sets.
+We also found that, when faced with a large class imbalance, the C4.5 decision tree algorithm, quadratic discriminant analysis and k-nearest neighbours perform significantly worse than the best performing classifiers.
+
+Introduction
+The aim of credit scoring is essentially to classify loan applicants into two classes, i.e., good payers (i.e., those who are likely to keep up with their repayments) and bad payers (i.e., those who are likely to default on their loans).
+In the current financial climate, and with the recent introduction of the Basel II Accord, financial institutions have even more incentives to select and implement the most appropriate credit scoring techniques for their credit portfolios.
+It is stated in Henley and Hand (1997) that companies could make significant future savings if an improvement of only a fraction of a percent could be made in the accuracy of the credit scoring techniques implemented.
+However, in the research literature, portfolios that can be considered as very low risk, or low default portfolios (LDPs), have had relatively little attention paid to them in particular with regards to which techniques are most appropriate for scoring them.
+The underlying problem with LDPs is that they contain a much smaller number of observations in the class of defaulters than in that of the good payers.
+A large class imbalance is therefore present which some techniques may not be able to successfully handle.
+Typical examples of low default portfolios include high-quality corporate borrowers, banks, sovereigns and some categories of specialised lending (Van Der Burgt, 2007) but in some countries even certain retail lending portfolios could turn out to have very low numbers of defaults compared to the majority class.
+In a recent FSA publication regarding conservative estimation of low default portfolios, regulatory concerns were raised about whether firms can adequately asses the risk of LDPs (Benjamin, Cathcart, & Ryan, 2006).
+A wide range of classification techniques have already been proposed in the credit scoring literature, including statistical techniques, such as linear discriminant analysis and logistic regression, and non-parametric models, such as k-nearest neighbour and decision trees.
+But it is currently unclear from the literature which technique is the most appropriate for improving discrimination for LDPs.
+Table 1 provides a selection of techniques currently applied in a credit scoring context, along with references showing some of their reported applications in the literature.
+Hence, the aim of this paper is to conduct a study of various classification techniques based on five real-life credit scoring data sets.
+These data sets will then have the size of their minority class of defaulters further reduced by decrements of 5% (from an original 70/30 good/bad split) to see how the performance of the various classification techniques is affected by increasing class imbalance.
+The five real-life credit scoring data sets used in this empirical research study include two data sets from Benelux (Belgium, Netherlands and Luxembourg) institutions, the German Credit and Australian Credit data sets which are publicly available at the UCI repository (http://kdd.ics.uci.edu/), and the fifth data set is a behavioural scoring data set, which was also obtained from a Benelux institution.
+The techniques that will be applied in this paper are logistic regression (LOG), linear and quadratic discriminant analysis (LDA, QDA), least square support vector machines (LS-SVM), decision trees (C4.5), neural networks (NN), nearest-neighbour classifiers (k-NN10, k-NN100), a gradient boosting algorithm and random forests.
+We are especially interested in the power and usefulness of the gradient boosting and random forest classifiers which have yet to be thoroughly investigated in a credit scoring context.
+All techniques will be evaluated in terms of their area under the receiver operating characteristic curve (AUC).
+This is a measure of the discrimination power of a classifier without regard to class distribution or misclassification cost (Baesens et al., 2003).
+To make statistical inferences from the observed difference in AUC, we followed the recommendations given in a recent article (Demšar, 2006) that looked at the problem of benchmarking classifiers on multiple data sets.
+The recommendations given were for a set of simple robust non-parametric tests for the statistical comparison of the classifiers (Demšar, 2006).
+The AUC measures will therefore be compared using Friedman's average rank test, and Nemenyi's post hoc test will be employed to test the significance of the differences in rank between individual classifiers.
+Finally, a variant of Demšar's significance diagrams will be plotted to visualise their results.
+The organisation of this paper is as follows.
+Section 2 will begin by providing a literature review of the work that has been conducted on the topic of classification for imbalanced data sets.
+A brief explanation will then be given for the ten classification techniques to be used in the analysis of the data sets.
+Secondly, the empirical set up and criteria used for comparing the classification performance will be described.
+Thirdly, the results of our experiments are presented and discussed.
+Finally, conclusions will be drawn from the study and recommendations for further research work will be outlined.
+Literature review
+A wide range of different classification techniques for scoring credit data sets has been proposed in the literature, a non-exhaustive list of which was provided earlier in Table 1.
+In addition, some benchmarking studies have been undertaken to empirically compare the performance of these various techniques (e.g., Baesens et al., 2003), but they did not focus specifically on how these techniques compare on heavily imbalanced samples, or to what extent any such comparison is affected by the issue of class imbalance.
+For example, in Baesens et al. (2003) seventeen techniques including both well-known techniques such as logistic regression and discriminant analysis and more advanced techniques such as least square support vector machines were compared on eight real-life credit scoring data sets.
+Although more complicated techniques such as radial basis function least square support vector machines (RBF LS-SVM) and neural networks (NN) yielded good performances in terms of AUC, simpler linear classifiers such as linear discriminant analysis (LDA) and logistic regression (LOG) also gave very good performances.
+However, there are often conflicting opinions when comparing the conclusions of studies promoting differing techniques.
+For example, in Yobas, Crook, and Ross (2000), the authors found that linear discriminant analysis (LDA) outperformed neural networks in the prediction of loan default, whereas in Desai, Crook, and Overstreet (1996), neural networks were reported to actually perform significantly better than LDA.
+Furthermore, many empirical studies only evaluate a small number of classification techniques on a single credit scoring data set.
+The data sets used in these empirical studies are also often far smaller and less imbalanced than those data sets used in practice.
+Hence, the issue of which classification technique to use for credit scoring, particularly with a small number of bad observations, remains a challenging problem (Baesens et al., 2003).
+The topic of which good/bad distribution is the most appropriate in classifying a data set has been discussed in some detail in the machine learning and data mining literature.
+In Weiss and Provost (2003) it was found that the naturally occurring class distributions in the 25 data sets looked at, often did not produce the best-performing classifiers.
+More specifically, based on the AUC measure (which was preferred over the use of the error rate), it was shown that the optimal class distribution should contain between 50% and 90% minority class examples within the training set.
+Alternatively, a progressive adaptive sampling strategy for selecting the optimal class distribution is proposed in Provost, Jensen, and Oates (1999).
+Whilst this method of class adjustment can be very effective for large data sets, with adequate observations in the minority class of defaulters, in some low default portfolios there are only a very small number of loan defaults to begin with.
+Various kinds of techniques have been compared in the literature to try and ascertain the most effective way of overcoming a large class imbalance.
+Chawla, Bowyer, Hall, and Kegelmeyer (2002) proposed a synthetic minority over-sampling technique (SMOTE) which was applied to example data sets in fraud, telecommunications management, and detection of oil spills in satellite images.
+In Japkowicz (2000), over-sampling and downsizing were compared to the author's own method of "learning by recognition" in order to determine the most effective technique.
+The findings, however, were inconclusive but demonstrated that both over-sampling the minority class and downsizing the majority class can be very effective.
+Subsequently, Batista (2004) identified ten alternative techniques in dealing with class imbalances and trialed them on thirteen data sets.
+The techniques chosen included a variety of under-sampling and over-sampling methods.
+Findings suggested that generally over-sampling methods provide more accurate results than under-sampling methods.
+Also, a combination of either SMOTE (Chawla et al., 2002) and Tomek links or SMOTE and ENN (a nearest-neighbour cleaning rule), were proposed.
+Overview of classification techniques
+This study aims to compare the performance of a wide range of classification techniques within a credit scoring context, thereby assessing to what extent they are affected by increasing class imbalance.
+For the purpose of this study, ten classifiers have been selected which provide a balance between well-established credit scoring techniques such as logistic regression, decision trees and neural networks, and newly developed machine learning techniques such as least square support vector machines, gradient boosting and random forests.
+A brief explanation of each of the techniques applied in this paper is presented below.
+Logistic regression
+For this paper, we will be focusing on the binary response of whether a creditor turns out to be a good or bad payer (i.e., non-defaulter vs. defaulter).
+For this binary response model, the response variable, y, can take on one of two possible values; i.e., y=0 if the customer is a bad payer, y=1 if he/she is a good payer.
+Let us assume x is a column vector of M explanatory variables and π=Pr(y=1|x) is the response probability to be modelled.
+The number of observations is denoted by N.
+The logistic regression model then takes the form:(1)logit(π)≡logπ1-π=α+βTx,where α is the intercept parameter and βT contains the variable coefficients (Hosmer & Stanley, 2000).
+Linear and quadratic discriminant analysis
+Discriminant analysis assigns an observation to the response, y(y∈{0,1}), with the largest posterior probability; i.e., classify into class 0 if p(0|x)>p(1|x), or class 1 if the reverse is true.
+According to Bayes' theorem, these posterior probabilities are given by(2)p(y|x)=p(x|y)p(y)p(x).Assuming now that the class-conditional distributions p(x|y=0), p(x|y=1) are multivariate normal distributions with mean vector μ0, μ1, and covariance matrix Σ0, Σ1, respectively, the classification rule becomes: classify as y=0 if the following is satisfied:(3)x-μ0T∑0-1x-μ0-x-μ1T∑1-1x-μ1<2logP(y=0)-log(P(y=1))+log|Σ1|-log|Σ0|Linear discriminant analysis is then obtained if the simplifying assumption is made that both covariance matrices are equal, i.e., Σ0=Σ1=Σ, which has the effect of cancelling out the quadratic terms in the expression above.
+Neural networks (Multi-layer perceptron)
+Neural networks (NN) are mathematical representations modelled on the functionality of the human brain (Bishop, 1995).
+The added benefit of a NN is its flexibility in modelling virtually any non-linear association between input variables and target variable.
+Although various architectures have been proposed, our study focuses on probably the most widely used type of NN, i.e., the multilayer perceptron (MLP).
+A MLP is typically composed of an input layer (consisting of neurons for all input variables), a hidden layer (consisting of any number of hidden neurons), and an output layer (in our case, one neuron).
+Each neuron processes its inputs and transmits its output value to the neurons in the subsequent layer.
+Each such connection between neurons is assigned a weight during training.
+The output of hidden neuron i is computed by applying an activation function f(1) (for example the logistic function) to the weighted inputs and its bias term bi(1):(4)hi=f(1)bi(1)+∑j=1MWijxj,where W represents a weight matrix in which Wij denotes the weight connecting input j to hidden neuron i.
+For the analysis conducted in this paper, a binary prediction will be made; hence, for the activation function in the output layer, we will be using the logistic (sigmoid) activation function, f(2)(x)=11+e-x to obtain a response probability:(5)π=f(2)b(2)+∑j=1nhvjhj,with nh the number of hidden neurons and v the weight vector where vj represents the weight connecting hidden neuron j to the output neuron.
+During model estimation, the weights of the network are first randomly initialised and then iteratively adjusted so as to minimise an objective function, e.g., the sum of squared errors (possibly accompanied by a regularisation term to prevent over-fitting).
+This iterative procedure can be based on simple gradient descent learning or more sophisticated optimisation methods such as Levenberg-Marquardt or Quasi-Newton.
+The number of hidden neurons can be determined through a grid search based on validation set performance.
+Least square support vector machines (LS-SVMs)
+Support vector machines (SVMs) are a set of powerful supervised learning techniques used for classification and regression.
+Their basic principle is to construct a maximum-margin separating hyperplane in some transformed feature space.
+Rather than requiring one to specify the exact transformation though, they use the principle of kernel substitution to turn them into a general (non-linear) model.
+The least square support vector machine (LS-SVM) proposed by Suykens, Van Gestel, De Brabanter, De Moor, and Vandewalle (2002) is a further adaptation of Vapnik's original SVM formulation which leads to solving linear KKT (Karush-Kuhn-Tucker) systems (rather than a more complex quadratic programing problem).
+The optimisation problem for the LS-SVM is defined as:(6)minw,b,eJ(w,b,e)=12wTw+γ12∑i=1Nei2,subject to the following equality constraints:(7)yiwTφ(xi)+b=1-ei,i=1,…,N,Where w is the weight vector in primal space, γ is the regularisation parameter, and yi=+1 or -1 for good (bad) payers, respectively (Suykens et al., 2002).
+A solution can then be obtained after constructing the Lagrangian, and choosing a particular kernel function K(x,xi) that computes inner products in the transformed space, based on which a classifier of the following form is obtained:y(x)=sign∑i=1NαiyiK(x,xi)+b,where by K(x,xi)=φ(x)Tφ(xi) is taken to be a positive definite kernel satisfying the Mercer theorem.The hyper parameter γ for the LS-SVM classification technique is tuned using 10-fold cross validation.
+C4.5. decision trees
+A decision tree consists of internal nodes that specify tests on individual input variables or attributes that split the data into smaller subsets, and a series of leaf nodes assigning a class to each of the observations in the resulting segments.
+For our study, we chose the popular decision tree classifier C4.5, which builds decision trees using the concept of information entropy (Quinlan, 1993).
+The entropy of a sample S of classified observations is given by(8)Entropy(S)=-p1log2(p1)-p0log2(p0),where p1(p0) are the proportions of the class values 1(0) in the sample S, respectively.
+C4.5 examines the normalised information gain (entropy difference) that results from choosing an attribute for splitting the data.
+The attribute with the highest normalised information gain is the one used to make the decision.
+The algorithm then recurs on the smaller subsets.
+k-NN (memory based reasoning)
+The k-nearest neighbours algorithm (k-NN) classifies a data point by taking a majority vote of its k most similar data points (Hastie, Tibshirani, & Friedman, 2001).
+The similarity measure used in this paper is the Euclidean distance between the two points:(9)dxi,xj=‖xi-xj‖=xi-xjTxi-xj1/2.
+Random forests
+Random forests are defined as a group of un-pruned classification or regression trees, trained on bootstrap samples of the training data using random feature selection in the process of tree generation.
+After a large number of trees have been generated, each tree votes for the most popular class.
+These tree voting procedures are collectively defined as random forests.
+A more detailed explanation of how to train a random forest can be found in Breiman (2001).
+For the Random Forests classification technique two parameters require tuning.
+These are the number of trees and the number of attributes used to grow each tree.
+Gradient boosting
+Gradient boosting (Friedman, 2001, 2002) is an ensemble algorithm that improves the accuracy of a predictive function through incremental minimisation of the error term.
+After the initial base learner (most commonly a tree) is grown, each tree in the series is fit to the so-called "pseudo residuals" of the prediction from the earlier trees with the purpose of reducing the error.
+This leads to the following model:(10)F(x)=G0+β1T1(x)+β2T2(x)+⋯+βnTn(x),where G0 equals the first value for the series, T1,…,Tn are the trees fitted to the pseudo-residuals, and βi are coefficients for the respective tree nodes computed by the gradient boosting algorithm.
+A more detailed explanation of gradient boosting can be found in Friedman (2001, 2002).
+The gradient boosting classifier requires tuning of the number of iterations and the maximum branch size used in the splitting rule.
+Experimental set-up and data sets
+Data set characteristics
+The characteristics of the data sets used in evaluating the performance of the aforementioned classification techniques are given below in Table 2.
+The Bene1 and Bene2 data sets were obtained from two major financial institutions in the Benelux region.
+For these two data sets, a bad customer was defined as someone who had missed three consecutive months of payments.
+The German credit data set and the Australian Credit data set are publicly available at the UCI repository (http://www.kdd.ics.uci.edu/).
+The Behav data set was also acquired from a Benelux institution.
+As all the data sets used have a reasonable number of observations they will each be split into a training (two thirds) and a test set (one third).
+This test set will remain unchanged throughout the analysis of the techniques.
+Re-sampling setup and performance metrics
+In order for the percentage reduction in the bad observations, in each data set, to be relatively compared, the Bene1 set, Australian credit and the Behavioural Scoring set have first been altered to give a 70/30 class distribution.
+This was done by either under-sampling the bad observations (from a total of 1041 bad observations in the Bene1 data set, only 892 observations have been used; and from a total of 307 bad observations in the Australian credit data set, only 164 observations have been used) or under-sampling the good observations in the behavioural scoring data set, (from a total of 1436 good observations, only 838 observations have been used).
+For this empirical study, the class of defaulters in each of the training data sets was artificially reduced, by a factor of 5% up to 95% then by 2.5% and 1%, so as to create a larger difference in class distribution.
+As a result of this reduction, eight data sets were created for each of the five original data sets.
+The percentage splits created were 75%, 80%, 85%, 90%, 95%, 97.5%, 99% good observations.
+For this empirical study our focus is on the performance of classification techniques on data sets with a large class imbalance.
+Therefore detailed results will only be presented for the data set with the original 70/30 split, as a benchmark, and data sets with 85%, 90% and 99% splits.
+By doing so, it is possible to identify whether techniques are adversely affected in the prediction of the target variable when there is a substantially lower number of observations in one of the classes.
+The performance criterion chosen to measure this effect is the area under the receiver operator characteristic curve (AUC) statistic as proposed by Baesens et al. (2003).
+The receiver operating characteristic curve (ROC) is a two-dimensional graphical illustration of the trade-off between the true positive rate (sensitivity) and false positive rate (1-specificity).
+The ROC curve illustrates the behaviour of a classifier without having to take into consideration the class distribution or misclassification cost.
+In order to compare the ROC curves of different classifiers, the area under the receiver operating characteristic curve (AUC) must be computed.
+The AUC statistic is similar to the Gini coefficient which is equal to 2×(AUC-0.5).
+An example of an ROC curve is depicted in Fig. 1:
+The diagonal line represents the trade-off between the sensitivity and (1-specificity) for a random model, and has an AUC of 0.5.
+For a well performing classifier the ROC curve needs to be as far to the top left-hand corner as possible.
+In the example shown in Fig. 1, the classifier that performs the best is the ROC1 curve.
+Parameter tuning and input selection
+The linear discriminant analysis (LDA), quadratic discriminant analysis (QDA) and logistic regression (LOG) classification techniques require no parameter tuning.
+The LOG model was built in SAS using proc logistic and using a stepwise variable selection method.
+Both the LDA and QDA techniques were run in SAS using proc discrim.
+Before all the techniques were run, dummy variables were created for the categorical variables.
+The AUC statistic was computed using the ROC macro by DeLong, DeLong, and Clarke-Pearson (1988), which is available from the SAS website (http://.support.sas.com/kb/25/017.html).
+For the LS-SVM classifier, a linear kernel was chosen and a grid search mechanism was used to tune the hyper-parameters.
+For the LS-SVM, the LS-SVMlab Matlab toolbox developed by Suykens et al. (2002) was used.
+The NN classifiers were trained after selecting the best performing number of hidden neurons based on a validation set.
+The neural networks were trained in SAS Enterprise Miner using a logistic hidden and target layer activation function.
+The confidence level for the pruning strategy of C4.5 was varied from 0.01 to 0.5, and the most appropriate value was selected for each data set based on validation set performance.
+The tree was built using the Weka (Witten & Frank, 2005) package.
+Two parameters have to be set for the Random Forests technique: these are the number of trees and the number of attributes used to grow each tree.
+A range of [10,50,100,250,500,1000] trees has been assessed, as well as three different settings for the number of randomly selected attributes per tree ([0.5,1,2].M), whereby M denotes the number of attributes within the respective data set (Breiman, 2001).
+As with the C4.5 algorithm, Random Forests were also trained in Weka (Witten & Frank, 2005), using 10-fold cross-validation for tuning the parameters.
+The k-Nearest Neighbours technique was applied for both k=10 and k=100, using the Weka (Witten & Frank, 2005) IBk classifier.
+For the gradient boosting classifier a partitioning algorithm was used as proposed by Friedman (2001).
+The number of iterations was varied in the range [10,50,100,250,500,1000], with a maximum branch size of two selected for the splitting rule (Friedman, 2001).
+The gradient boosting node in SAS Enterprise Miner was used to run this technique.
+Statistical comparison of classifiers
+We used Friedman's test (Friedman, 1940) to compare the AUCs of the different classifiers.
+The Friedman test statistic is based on the average ranked (AR) performances of the classification techniques on each data set, and is calculated as follows:(11)χF2=12DK(K+1)∑j=1KARj2-K(K+1)24,whereARj=1D∑i=1Drij.In (13), D denotes the number of data sets used in the study, K is the total number of classifiers and rij is the rank of classifier j on data set i.
+χF2 is distributed according to the Chi-square distribution with K-1 degrees of freedom.
+If the value of χF2 is large enough, then the null hypothesis that there is no difference between the techniques can be rejected.
+The Friedman statistic is well suited for this type of data analysis as it is less susceptible to outliers (Friedman, 1940).
+The post hoc Nemenyi test (Nemenyi, 1963) is applied to report any significant differences between individual classifiers.
+The Nemenyi post hoc test states that the performances of two or more classifiers are significantly different if their average ranks differ by at least the critical difference (CD), given by(12)CD=qα,∞,KK(K+1)12D.In this formula, the value qα,∞,K is based on the studentised range statistic (Nemenyi, 1963).
+Finally, the results from Friedman's statistic and the Nemenyi post hoc tests are displayed using a modified version of Demšar (2006) significance diagrams (Lessmann, Baesens, Mues, & Pietsch, 2008).
+These diagrams display the ranked performances of the classification techniques along with the critical difference to clearly show any techniques which are significantly different to the best performing classifiers.
+Results and discussion
+The table on the following page (Table 3) reports the AUCs of all ten classifiers on the five credit scoring data sets at varying degrees of class imbalance.
+For each level of imbalance, the Friedman test statistic and corresponding p-value is shown.
+As these were all significant (p<0.005) a post hoc Nemenyi test was then applied to each class distribution.
+The technique achieving the highest AUC on each data set is underlined as well as the overall highest ranked technique.
+Table 3 shows that the gradient boosting algorithm has the highest Friedman score (average rank (AR)) on two of the five different percentage class splits.
+However at the extreme class split (99% good, 1% bad) Random Forests provides the best average ranking across the five data sets (Random Forests also ranks first on the 10% data set).
+In the majority of the class splits, the AR of the QDA and Lin LS-SVM classifiers are statistically worse than the AR of the Random Forests classifier at the 5% critical difference level (α=0.05), as shown in the significance diagrams included next.
+Note that, even though the differences between the classifiers are small, it is important to note that in a credit scoring context, an increase in the discrimination ability of even a fraction of a percent may translate into significant future savings (Henley & Hand, 1997).
+The following significance diagrams display the AUC performance ranks of the classifiers, along with Nemenyi's critical difference (CD) tail.
+The CD value for all the following diagrams is equal to 6.06.
+Each diagram shows the classification techniques listed in ascending order of ranked performance on the y-axis, and the classifier's mean rank across all five data sets displayed on the x-axis.
+Two vertical dashed lines have been inserted to clearly identify the end of the best performing classifier's tail and the start of the next significantly different classifier.
+The first significance diagram (see Fig. 2) displays the average rank of the classifiers at the original class distribution of a 70% good, 30% bad split:
+At this original 70/30% split, the linear LS-SVM is the best performing classification technique with an AR value of 1.2.
+This diagram clearly shows that the k-NN10, QDA and C4.5 techniques perform significantly worse than the best performing classifier with values of 7.7, 8.5 and 9.1 respectively.
+The following significance diagram displays the average rank of the classifiers at an 85% good, 15% bad class split:
+At the level where only 15% of the data sets are bad observations, it is shown in the significance diagram that gradient boosting becomes the best performing classifier (see Fig. 3).
+The gradient boosting classifier performs significantly better than the quadratic discriminant analysis (QDA) classifier.
+From these findings we can make a preliminary assumption that when a larger class imbalance is present, the QDA classifier remains significantly different to the gradient boosting classifier.
+All the other techniques used are not significantly different.
+At a 90% good, 10% bad class split the significance diagram shown in Fig. 4 indicates that the C4.5 and QDA algorithms are significantly worse than the random forests classifier.
+It can be noted that the Linear LS-SVM classifier however is progressively becoming less powerful as a large class imbalance is present (see Fig. 5).
+The final split, displaying a 99% good, 1% bad class split, indicates that, at the most extreme class distribution analysed, two classification techniques are significantly worse (Lin LS-SVM and QDA).
+This displays an interesting finding that at the extreme split, LOG is now close to being significantly worse than the Random Forests algorithm.
+The logistic regression technique therefore shows limited power in correctly classifying observations where only a small number of bad observations exist.
+It can also be concluded that the random forests classifier performs surprisingly well given a large class imbalance.
+In summary, when considering the AUC performance measures, it can be concluded that the gradient boosting and random forest classifiers yield a very good performance at extreme levels of class imbalance, whereas the Lin LS-SVM sees a reduction in performance as a larger class imbalance is introduced.
+However, the simpler, linear classification techniques such as LDA and LOG also give a relatively good performance, which is not significantly different from that of the gradient boosting and random forest classifiers.
+This finding seems to confirm the suggestion made in Baesens et al. (2003) that most credit scoring data sets are only weakly non-linear.
+However, techniques such as QDA, C4.5 and k-NN10 perform significantly worse than the best performing classifiers at each percentage reduction.
+The majority of classification techniques yielded classification performances that are quite competitive with each other.
+Conclusions and recommendations for further work
+In this comparative study we have looked at a number of credit scoring techniques, and studied their performance over various class distributions in five real-life credit data sets.
+Two techniques that have yet to be fully researched in the context of credit scoring, i.e., gradient boosting and random forests, were also chosen to give a broader review of the techniques available.
+The classification power of these techniques was assessed based on the area under the receiver operating characteristic curve (AUC).
+Friedman's test and Nemenyi's post hoc tests were then applied to determine whether the differences between the average ranked performances of the AUCs were statistically significant.
+Finally, these significance results were visualised using significance diagrams for each of the various class distributions analysed.
+The results of these experiments show that the gradient boosting and random forest classifiers performed well in dealing with samples where a large class imbalance was present.
+It does appear that in extreme cases the ability of random forests and gradient boosting to concentrate on 'local' features in the imbalanced data is useful.
+The most commonly used credit scoring techniques, linear discriminant analysis (LDA) and logistic regression (LOG), gave results that were reasonably competitive with the more complex techniques and this competitive performance continued even when the samples became much more imbalanced.
+This would suggest that the currently most popular approaches are fairly robust to imbalanced class sizes.
+On the other hand, techniques such as QDA and C4.5 were significantly worse than the best performing classifiers.
+It can also be concluded that the use of a linear kernel LS-SVM would not be beneficial in the scoring of data sets where a very large class imbalance exists.
+Further work that could be conducted, as a result of these findings, would be to firstly consider a stacking approach to classification through the combination of multiple techniques.
+Such an approach would allow a meta-learner to pick the best model to classify an observation.
+Secondly, another interesting extension to the research would be to apply these techniques on much larger data sets which display a wider variety of class distributions.
+It would also be of interest to look into the effect of not only the percentage class distribution but also the effect of the actual number of observations in a data set.
+Finally, as stated in the literature review section of this paper, there have been several approaches already researched in the area of over-sampling techniques to deal with large class imbalances.
+Further research into this and their effect on credit scoring model performance would be beneficial.
+Acknowledgements
+The authors of this paper would like to thank the EPSRC and SAS UK for their financial support to Iain Brown.
+

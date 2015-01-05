@@ -1,0 +1,302 @@
+Marine 187Os/188Os isotope stratigraphy reveals the interaction of volcanism and ocean circulation during Oceanic Anoxic Event 2
+
+Abstract
+High-resolution osmium (Os) isotope stratigraphy across the Cenomanian-Turonian Boundary Interval from 6 sections for four transcontinental settings has produced a record of seawater chemistry that demonstrates regional variability as a function of terrestrial and hydrothermal inputs, revealing the impact of palaeoenvironmental processes.
+In every section the 187Os/188Os profiles show a comparable trend; radiogenic values in the lead up to Oceanic Anoxic Event 2 (OAE 2); an abrupt unradiogenic trend at the onset of OAE 2; an unradiogenic interval during the first part of OAE 2; and a return to radiogenic values towards the end of the event, above the Cenomanian-Turonian boundary.
+The unradiogenic trend in 187Os/188Os is synchronous in all sections.
+Previous work suggests that activity of the Caribbean LIP (Large Igneous Province) was the source of unradiogenic Os across the OAE 2 and possibly an instigator of anoxia in the oceans.
+Here we assess this hypothesis and consider the influence of activity from other LIPs; such as the High Arctic LIP.
+A brief shift to high radiogenic 187Os/188Os values occurred in the Western Interior Seaway before the onset of OAE 2.
+We evaluate this trend and suggest that a combination of factors collectively played critical roles in the initiation of OAE 2; differential input of nutrients from continental and volcanogenic sources, coupled with efficient palaeocirculation of the global ocean and epeiric seas, enhanced productivity due to higher nutrient availability, which permitted penecontemporaneous transport of continental and LIP-derived nutrients to trans-equatorial basins.
+Highlights
+•
+Use Osi isotope stratigraphy to infer driving mechanism(s) of Oceanic Anoxic Event 2.
+•
+Osi profiles from 6 sites illustrate the regional variability of seawater chemistry.
+•
+δ13Corg and Osi records combined generate an integrated timescale model based on the GSSP.
+•
+Anoxia is a function of feedback based on climate change and volcanism.
+•
+Quantitatively constrain the duration of volcanism from Caribbean LIP.
+
+Introduction
+The Cenomanian-Turonian boundary (CTB) OAE 2 records an extensive period of global anoxia, represented worldwide by sections containing organic-rich marine sedimentary rocks.
+Strata marking the onset of OAE 2 are globally correlated by a 2 to 4‰ positive excursion in the carbon stable isotope composition of organic matter (δ13Corg) and marine carbonates (δ13Ccarb), which are interpreted to reflect the onset of massive organic carbon burial and widespread oxygen deficiency in the oceans (Jenkyns, 1980; Schlanger et al., 1987).
+The OAE 2 has been studied using numerous proxies (e.g. carbon, strontium, osmium, calcium, neodymium, lithium, TEX86 and phosphorus; Arthur et al., 1987; McArthur et al., 2004; Forster et al., 2007; Mort et al., 2007; MacLeod et al., 2008; Turgeon and Creaser, 2008; Voigt et al., 2008; Blättler et al., 2011; Pogge von Strandmann et al., 2013; Zheng et al., 2013) to determine the driving mechanisms for organic carbon burial and anoxia.
+Among the processes thought to play a role are: enhanced volcanism and CO2 output; increased land and sea surface temperatures; an accelerated hydrological cycle, sea level rise and increased rates of ocean circulation; and changes in nutrient supply and productivity.
+These have all been supported by different proxy studies (e.g. Jenkyns, 1980; Arthur et al., 1987; Arthur and Sageman, 1994; Mort et al., 2007; Turgeon and Creaser, 2008; Martin et al., 2012).
+In this study, we present a high-resolution initial osmium isotope (187Os/188Os; Osi) stratigraphy of the upper Cenomanian to lower Turonian from 4 transcontinental sections, and the Osi data from two previously analyzed representative sections of the proto-North Atlantic and Tethyan margin (Fig. 1; ODP Site 1260 and Furlo; Turgeon and Creaser, 2008) with additional analysis to enhance resolution.
+These data are predominantly controlled by the mass balance of two end-member Os isotope components: weathered continental crust (∼1.4) and mantle inputs (0.13) attributed to enhanced submarine volcanism (Peucker-Ehrenbrink and Ravizza, 2000).
+This, coupled with the short residence time of Os in seawater (⩽10 kyr; Oxburgh, 2001), makes 187Os/188Os composition an excellent monitor of palaeoceanographic changes in the geological record (Peucker-Ehrenbrink and Ravizza, 2000; Cohen, 2004), particularly across the CTB where there is evidence for accelerated weathering, as well as evidence of submarine volcanic activity (Snow et al., 2005; Frijia and Parente, 2008; Turgeon and Creaser, 2008; Pogge von Strandmann et al., 2013).
+Analysis of osmium isotope trends recorded from different sites provides information about changes in these inputs to the marine realm, as well as the interconnectivity of oceanic water masses with epeiric seas.
+The Osi data reported from the previous study show similar profiles, and suggest that for at least ∼700 kyr of the late Cenomanian-early Turonian the ocean basins were relatively well connected.
+The Osi data also show that a major pulse of volcanism interpreted to be associated with activity from Large Igneous Provinces (LIPs), i.e., Caribbean and High Arctic (Fig. 1; Snow et al., 2005; Tegner et al., 2011) occurred at or just prior to the onset of OAE 2.
+However, the High Arctic LIP is largely understudied due to lack of exposure.
+Since constraints on timing and duration of activity from LIP volcanism are ambiguous (Tegner et al., 2011; Zheng et al., 2013), we associate the Osi data presented here with activity from the better temporally constrained Caribbean LIP (Turgeon and Creaser, 2008).
+The Osi stratigraphic profiles across the CTB in this study are from (Fig. 1): the Portland #1 core, which is representative of the Global Stratotype Section and Point (GSSP) near Pueblo, Colorado (Western Interior Seaway (WIS); Kennedy et al., 2000); the Wunstorf core in Germany, a representative section in the NW European pelagic shelf sea (Voigt et al., 2008); the Vocontian Basin, south east France (Western Tethys; Grosheny et al., 2006; Jarvis et al., 2011); and DSDP Site 530 (proto-South Atlantic; Forster et al., 2008).
+The Portland #1 core has the most refined temporal control for the studied interval based on detailed biostratigraphy, new radioisotopic dating, astrochronology, and chemostratigraphy (Sageman et al., 2006; Meyers et al., 2012a; Ma et al., submitted), and provides a critical framework for global correlation.
+The Wunstorf core has a similarly good age control based on bio-, chemo-, and cyclostratigraphy and can be correlated to the Portland #1 core succession (Voigt et al., 2008).
+Based on the GSSP time scale, and confirmed by additional estimates from different OAE 2 sites, the duration of the C isotope excursion that characterizes the OAE 2 is between 500-600 kyr (Meyers et al., 2012b).
+In this study we investigate the Osi stratigraphy of multiple sections over an interval of ∼1.8 Myr from the late Cenomanian to the early Turonian and demonstrate that Osi values show some differences prior to OAE 2 depending on geographic location and depositional setting.
+These variations are interpreted to reflect differential water mass exchange between epeiric settings and the open ocean modulated by sea-level change, as well as changes in terrigenous weathering rates due to enhanced global warming, which may have also affected nutrient fluxes and primary production levels.
+These results suggest that epeiric seas, like the WIS or the European shelf sea, may have played an important role in the driving mechanism for OAE 2.
+Additionally, we show that in comparison to the pre-OAE 2 interval, the syn-OAE 2 Osi values from Site 1260 and Furlo combined with Portland, Wunstorf, the Vocontian Basin and Site 530 are remarkably similar.
+Coupled with the new geochronology from the WIS (Meyers et al., 2012a) a refined timing for the onset and duration of LIPs and its temporal association with OAE 2 is developed.
+Furthermore, our interpretation of the Osi profile concurs with the hypothesis of increased ocean circulation based on analysis of neodymium (Nd) isotopes (Martin et al., 2012; Zheng et al., 2013).
+OAE 2 section geology
+Portland #1 Core, Colorado, USA
+The studied interval was sampled from the USGS Portland #1 core (32°22.6′N, 105°01.3′W; Dean and Arthur, 1998; Meyers et al., 2001; Fig. 1).
+This core was taken about 40 km west of the site near Pueblo, CO that was ratified as the GSSP for the CTB (Kennedy et al., 2005), and its stratigraphy has been correlated, essentially bed for bed, to the GSSP section (Sageman et al., 2006).
+The Pueblo region was ratified as the GSSP site because the boundary interval contains abundant biostratigraphic index taxa, several options for geochronologic calibration, shows no obvious signs of condensation or significant disconformity, and has various stratigraphic markers that can be correlated over tens of thousands of square km (Hattin, 1971; Elder et al., 1994; Kennedy et al., 2005).
+Within the Portland core, the Cenomanian-Turonian Boundary Interval (CTBI) was studied in a 17.7 m-thick section of the Bridge Creek Limestone (∼12 m) and Hartland Shale (∼12.6 m) Members of the Greenhorn Formation (Cobban and Scott, 1972).
+These units include organic-rich calcareous shales and rhythmically interbedded couplets of shale and fossiliferous biomicritic limestone.
+The stratigraphy is also characterized by four bentonite units of 1 to 20 cm that have been regionally correlated (Elder, 1988).
+Recent sanidine 40Ar/39Ar and zircon 206Pb/238U geochronology integrated with astrochronology constrain the CTB at 93.90±0.15 Ma (Meyers et al., 2012a).
+The CTBI contains a variety of fossil taxa useful for biostratigraphy (e.g., Gale et al., 1993; Kennedy et al., 2000, 2005; Keller and Pardo, 2004; Keller et al., 2004; Cobban et al., 2006) some of which have intercontinental distributions; however, their transcontinental synchronicity is limited.
+The dominant foraminifera species spanning the CTBI are Rotalipora cushmani, Whiteinella archaeocretacea and Helvetoglobotruncana helvetica (Eicher and Worstell, 1970).
+The FO (first occurrence) of the ammonite Watinoceras devonense (Fig. 2; Kennedy et al., 2000) marks the basal Turonian, recorded at the base of bed 86 of the Bridge Creek Limestone (Meyers et al., 2001; bed numbers are based on Cobban and Scott, 1972).
+The FO of W. devonense coincides with the FO of Mytiloides puebloensis (Kennedy et al., 2000), which can be traced through both Tethyan and Boreal regions (Kennedy et al., 2005).
+The onset of OAE 2 is identified by an abrupt 2-3‰ VPDB δ13Corg positive shift from values of ∼-27‰ in the upper Hartland Shale, 4.3 m below the CTB (Fig. 2; Supplementary Material, Table 1a; Sageman et al., 2006).
+The positive excursion is characteristic of the isotopic response during OAE 2 and, although many localities record increased organic carbon deposition at this level (e.g., Tsikos et al., 2004), sites within the WIS do not.
+Here the onset is characterized by organic-poor interbedded limestones and shales that are generally bioturbated.
+Shale interbeds in the upper half of the OAE 2 interval, however, do become enriched in TOC in the WIS.
+The end of OAE 2 is expressed by a gradual fall in δ13Corg back to ∼-27‰ (Sageman et al., 2006).
+A high-resolution time scale for the study interval has been developed in recent years based on integration of new radioisotopic dates and astrochronological methods (Meyers et al. 2001, 2012a; Sageman et al., 2006; Ma et al., submitted).
+The astrochronological techniques yield a more accurate interpolation of time for the intervals between dated tuff horizons because they include evolutive assessment of changes in linear sedimentation rate (not corrected for compaction).
+Both radioisotopic and astrochronologic methods indicate a duration for OAE 2 of ∼600 kyr measured from the δ13Corg onset.
+Wunstorf, NW Germany
+The Wunstorf section was sampled from drill core from 52°24.187′N, 09°29.398′E and represents the European type section for the CTBI (Fig. 1; Voigt et al., 2008).
+The CTBI succession (Hesseltal Formation) at Wunstorf was deposited in the distal Lower Saxony Basin, which was part of the western European shelf sea (Wilmsen, 2003).
+The 26.5 m-thick Hesseltal Formation comprises cyclically interbedded couplets of organic-carbon rich shales, marls and limestones interpreted to represent nine short eccentricity cycles based on spectral analytical results (Voigt et al., 2008).
+Accordingly, OAE 2, as defined by the δ13Ccarb curve, includes 4.3 short eccentricity cycles or 21.2 precession cycles, respectively, indicating a duration of 430-445 kyr (Voigt et al., 2008).
+The biostratigraphy of the Hesseltal Formation is established by zonation with inoceramids, ammonites, acme occurrences of macrofossils and planktonic foraminifera (Ernst et al., 1984; Lehmann, 1999; Voigt et al., 2008).
+The ammonite and inoceramid zonation can be compared to that of the GSSP in detail.
+Although no macrofossils are recorded directly from the Wunstorf core, a series of index taxa can be placed based on a bed-by-bed correlation between the Lower Saxony Basin and the Munsterland Cretaceous Basin (Voigt et al., 2007, 2008).
+The FO of the ammonite Metoicoceras geslinianum is equivalent to the FO of Sciponoceras gracile at the GSSP (Gale et al., 2005, 2008), which corresponds to the base of the Hesseltal Formation at Wunstorf (Lehmann, 1999).
+The FO of W. devonense, the index taxon for the CTB (Fig. 2; Kennedy et al., 2005), is located in the Wunstorf core at 37.5±1 m (Lehmann, 1999; Voigt et al., 2008).
+Previously, the stratigraphic extent of OAE 2 was constrained by δ13Ccarb (Voigt et al., 2008).
+Here we present δ13Corg for the Wunstorf section, which shows frequent oscillations from -25 to -27‰ VPDB prior to OAE 2 (Fig. 2; Supplementary Material, Table 1b).
+A facies change depicts the onset throughout the European shelf (Voigt et al., 2007).
+This change records an initial positive excursion in the δ13Corg, consistent with the δ13Ccarb, followed by a second more distinct increase in the δ13Corg.
+At Wunstorf, δ13Corg only clearly records the second increase; however OAE 2 initiation corresponds to the first increase.
+The duration of OAE 2 at Wunstorf was estimated to be ∼435 kyr based on spectral analysis of lithological cyclicity (Voigt et al., 2008), which differs from the astrochronological and radioisotopic derived duration at the GSSP (∼600 kyr; applied in this study).
+Voigt et al. (2008) discussed several options for this discrepancy as the possible lack of strata, different definitions of onset and termination of OAE 2 in the Portland #1 and Wunstorf cores, and incorrect orbital frequency assignment to the dominant cycle length.
+The new organic δ13Corg curve of this study (Fig. 2) shows five distinct cycles close to the short eccentricity filter of Voigt et al. (2008).
+Such a reinterpretation would reduce the temporal discrepancy and is consistent with the recently documented stronger obliquity control during OAE 2 (Meyers et al., 2012).
+Further spectral analytical research is needed to fully address this question.
+Vocontian Basin (Pont d'Issole and Vergons), SE France
+The Vocontian Basin was part of the western gulf in the European Alpine region of the NW Tethys Ocean ∼30°N (Jarvis et al., 2011; Fig. 1).
+High rates of subsidence throughout the mid-Cretaceous provided accommodation space for thick rhythmically bedded bioturbated limestone-marl successions, where the variable facies are indicative of a fluctuating hemipelagic depositional environment of moderate depth.
+Different depositional and structural processes dependent on their location in the basin have affected CTB sections within the Vocontian Basin; e.g.
+the Vergons section is affected by syn-sedimentary slumping in the uppermost Cenomanian, but otherwise exposes a continuous Upper Albian-Lower Turonian succession, while the thinner Pont d'Issole section is complete through the CTBI.
+A ∼20 m thick package of black organic-rich calcareous shales, termed the "Niveau Thomel" (Takashima et al., 2009; Jarvis et al., 2011), characterize the CTBI.
+Detailed biostratigraphy has been obtained for the 24 m Pont d'Issole section (Grosheny et al., 2006; Jarvis et al., 2011).
+The distribution of index taxa R. cushmani and H. helvetica, coupled with complete δ13Corg and δ13Ccarb records (Fig. 2; Jarvis et al., 2011), permits bed-scale correlation with the GSSP near Pueblo.
+Above the onset of OAE 2, samples were taken from Pont d'Issole, whereas below the onset some of the samples (n=4) came from Vergons (Supplementary Material, Table 2d), which is correlated with Pont d'Issole based on litho-, bio-, and stable-isotope stratigraphy and is undisturbed by faulting in the pre-OAE 2 interval.
+The OAE 2 in the Pont d'Issole section includes a distinct facies change to finely laminated black shales (total organic carbon, TOC 0.3-3.5 wt.%) that occurs about a metre below the distinctive positive δ13Corg excursion (3‰) that marks the base of OAE 2 (Fig. 2; Supplementary Material, Table 1d; Jarvis et al., 2011).
+High-frequency fluctuations in the δ13Corg record, up to 1‰ in magnitude, occur throughout OAE 2, associated with the alternation of lithological units.
+The termination of OAE 2 is recorded by a gradual return to ∼-26‰.
+DSDP Site 530, Hole 530A, South Atlantic
+Palaeotectonic reconstruction situates Site 530 at 37°S, 38°W (Forster et al., 2008; Fig. 1).
+Site 530 is located on the abyssal floor of the Angola Basin, 4645 metres below sea level (mbsl) and approximately 150 km west of the base of the continental slope of SW Africa with a 3-4 degree incline.
+Drilling penetrated to a final depth of 1121 metres below sea floor (mbsf) after encountering durable basalt at 1103 mbsf (Forster et al., 2008).
+The δ13Corg excursion marking OAE 2 occurs within a 49 m section of the CTBI.
+Low sample resolution due to poor core recovery, and thus limited nannofossil data, only provide an approximate stratigraphic identification of the CTB.
+Lithology in the CTBI includes interbedded shales, clays and mudstones, some of which are pyritiferous.
+The organic matter in the black shales is of marine origin, but includes a significant fraction of terrigenous material (Forster et al., 2008).
+The black shales are highly laminated and relatively undisturbed by bioturbation.
+The δ13Corg record is incomplete due to poor core recovery and low sample yield, but an excursion signifying OAE 2 is recorded: a 0.5‰ VPDB negative shift immediately precedes the 4‰ positive excursion, -27.7 to -23.7‰ (Fig. 2; Supplementary Material, Table 1f; Forster et al., 2008).
+The characteristic excursion spans ∼2 m of finely interbedded shales and mudstones.
+Throughout OAE 2, the δ13Corg values fluctuate between ∼-23.5‰ to -27.5‰.
+The maximum enrichment in the δ13Corg is at 1035.75 mbsf, ∼3.52 m into OAE 2 (Forster et al., 2008).
+ODP Site 1260, Hole 1260B, Demerara Rise and Furlo, Italy
+In an effort to augment the understanding of seawater chemistry prior to OAE 2 provided by Turgeon and Creaser (2008), additional samples (n=12 [ODP] and n=6 [Furlo]; Fig. 1) were analyzed and the resolution of the Osi profiles was increased.
+The facies at Site 1260 include a mixture of terrigenous detritus and carbonates, with high organic contents up to ∼23 wt.%.
+The δ13Corg positive excursion reaches a maximum enrichment of -22.1‰ VPDB and the entire excursion is 1.2 m thick (Fig. 2; Supplementary Material, Table 1c; Forster et al., 2007).
+In the Furlo section the CTBI lies within the Scaglia Bianca Formation, which includes abundant biosiliceous limestone.
+The Livello Bonarelli is a 1 m thick condensed interval of millimetre-laminated black shale and brown radiolarian sand that represents the sedimentary expression of part of OAE 2 (Arthur and Premoli Silva, 1982).
+Up to 20 m beneath the Bonarelli level there are numerous centimetre scale organic-rich shale layers (Jenkyns et al., 2007).
+The δ13Corg record has a narrow variation in background values prior to OAE 2, ∼-25.9 to -26.5‰.
+The characteristic positive excursion in δ13Corg is a 4‰ shift, -27.2 to -23.1‰, occurring within <0.5 m (Fig. 2; Supplementary Material, Table 1e).
+Methods
+Analytical protocol
+In this study we have applied δ13Corg and Re-Os methodologies to determine the geochemical signatures of OAE 2 related strata.
+We have used published analytical protocols (e.g., Selby and Creaser, 2003; Jarvis et al., 2011), which are described in detail in the Supplementary Material together with our sampling protocol from core and outcrop.
+OAE 2 correlation
+To date, the CTBI has been correlated 'globally' using biostratigraphy and carbon isotope chemostratigraphy.
+Typically, characteristic peaks and troughs in the δ13C record are combined with key bioevents to establish correlation.
+The six sections presented here (Fig. 2) are correlated according to this method using points 'A', 'B' and 'C' of the δ13Corg curve that are similar to those first defined by Pratt et al. (1985) in the Western Interior and used later by Tsikos et al. (2004).
+For this correlation method, 'A' represents the last value of relatively depleted δ13Corg before the first major shift to positive values (typically -24 to -22‰).
+This shift marks the base of δ13Corg excursion defined as OAE 2 (reference respective of location).
+'B' defines a trough of depleted values following the initial positive excursion that occurs prior to the second positive shift (Pratt et al., 1985).
+'C' is the last relatively enriched δ13Corg value before the trend back toward pre-excursion values, or the end of the so-called "plateau" (Tsikos et al., 2004).
+In order to establish a common chronostratigraphic framework for comparing Osi data from distant localities, the chemostratigraphic method described above, confirmed by available biostratigraphic data, is used to extend the Pueblo GSSP timescale from the Portland #1 core (Meyers et al., 2012a) to the other sites.
+The Portland core record has the highest resolution CTB timescale based on integration of new radioisotope dates (Ar-Ar and U-Pb) and astrochronology (Meyers et al., 2012a), and new work (Ma et al., submitted) has extended this timescale further down section into the Cenomanian.
+As a result, our new Osi data and Osi results from a previous study (Turgeon and Creaser, 2008), can be plotted relative to individual timescales created for each section by exporting temporal information from the Portland #1 core (Fig. 3).
+Timescale development is based on the following steps (see Table 1):i.
+The new geochronology for the CTBI (Meyers et al., 2012a) employs a short eccentricity band pass to more accurately interpolate the age datum levels between dated tuff horizons.
+Based on this method, the stage boundary is constrained to 93.90±0.15 Ma.
+ii.
+The ages of the 'A', 'B' and 'C' markers defined by the δ13Corg record of the Portland core are also precisely determined using this approach (Fig. 2; Table 1).
+iii.
+Nominal ages for the 'A', 'B', and 'C' markers are exported to the 'A', 'B' and 'C' datum levels of the δ13Corg curve in the other sections (Fig. 2), allowing calculation of local linear sedimentation rate values between the datum levels (Table 1).
+A variable sedimentation rate is more realistic over such time frames, i.e., ∼100 kyr.
+In some sections there is a distinct decrease in rate in the B-C interval, which likely reflects condensation related to global sea-level highstand.
+Thus, the linear sedimentation rate calculated for A-B is applied to develop a timescale below the 'B' datum, and a linear sedimentation rate for B-C is used for the sections above the 'B' datum (Table 1).
+iv.
+Each timescale is developed using the onset of 'A' as the temporal datum set to 0 kyr (Fig. 3).
+This creates a coherent global framework using the onset of δ13Corg excursion as the key datum level.
+Although our methodology increases resolution and reduces uncertainty in the time scales for each section, it cannot eliminate uncertainty (e.g., constant sedimentation rates are still assumed for time scale segments).
+For the purpose of comparing δ13Corg and Osi records between different localities, however, we believe the chronostratigraphic framework is sufficient to recognize differences in the timing of key events.
+Initial 187Os/188Os (Osi)
+The Osi values in this study were determined from Re-Os data and the 187Re decay constant (1.666e-11a-1; Smoliar et al., 1996; Supplementary Material, Table 2a-f) using the CTB age of 93.90 Ma that was determined from astrochronologic interpolation between volcanic ash ages (based on both 40Ar/39Ar and 206Pb/238U determinations; Gradstein et al., 2012; Meyers et al., 2012a).
+Analytical uncertainty for individual calculated Osi is ⩽0.01.
+The reproducibility of calculated Osi, based on 12 analyses of the USGS rock reference material SDO-1 (Devonian Ohio Shale), was ∼0.04 (2 SD; Supplementary Material, Table 3).
+This uncertainty was used to account for the maximum uncertainty in the sample set for the calculated Osi.
+Calculated Osi ratios assume closed system behaviour after deposition with respect to both rhenium and osmium.
+Furthermore, the 187Os/188Os ratios reflect the isotope composition of the local seawater and are unaffected by mineral detritus.
+Results
+Re-Os abundance
+Across the onset of OAE 2 there is a dramatic shift to very high values in Os isotope concentration.
+At Portland Os concentration increases by ∼1000 ppt within ∼10 cm; at Wunstorf an increase of ∼1000 ppt within ∼30 cm; Site 1260 increases by ∼1000 ppt in <60 cm; in the Vocontian Basin there is an increase of ∼3500 ppt within 50 cm.
+In both Furlo and Site 530 there are very considerable changes in the Os concentration; >10 000 ppt within 10 cm and 40 cm, respectively.
+Conversely, Re abundance is relatively constant at each section, therefore the dramatic difference between the Re and Os abundance produce a similar profile in 187Re/188Os to the Osi profile, with an abrupt decrease in the 187Re/188Os directly associated with the abrupt increase in Os.
+187Os/188Os isotope stratigraphy
+The Osi profiles for all six sections show a similar trend; highly radiogenic values that suddenly become unradiogenic, before gradually returning to radiogenic values (Figs.
+2, 3; all Osi data presented in full in Supplementary Material Table 2).
+At Portland the Osi values show some distinct fluctuations prior to the onset of OAE 2 (point 'A' on the δ13Corg curve).
+The Os trend from ∼1.0 to 0.9, briefly return to ∼1.0, and then drop abruptly to ∼0.7 at ∼-237 kyr (below 'A').
+The trend toward unradiogenic values then reverses back toward the radiogenic end member up until the major shift to unradiogenic Osi at 'A'.
+In the Site 1260 record, a trend from ∼0.6 to 1.0 in the lowest samples is followed by a shift in the opposite direction, toward the unradiogenic end-member, but the values are variable and some spikes to >1 (radiogenic) persist.
+From -157 kyr there is a consistent trend toward unradiogenic Osi reaching a minimum value of ∼0.2 at the 'A' datum.
+At Wunstorf the rock units prior to 'A' are bereft of Re and Os.
+The Vocontian Basin records shifts to radiogenic Osi values (>0.9), before a gradual decrease to ∼0.76 followed by a brief increase to ∼0.82.
+A few metres below the positive excursion a major shift to <0.3 occurs.
+The Osi values at Furlo remain stable at ∼0.55 then shift suddenly to ∼0.65.
+Above this horizon there are no samples until 'A' when the Osi is unradiogenic <0.3.
+Site 530 has Osi values of ∼0.70 before showing a 0.2 decrease.
+The trend reverses to ∼0.7, then the major unradiogenic shift to <0.2 at 'A'.
+Importantly, the Osi record in the Portland core (Fig. 3) is significantly different between ∼-230 kyr and ∼-50 kyr relative to the other 4 sites (no data for Wunstorf).
+From 'A' through to the lower Turonian, the Osi profiles and values are very similar across Portland, Furlo, Site 530 and Wunstorf, progressively trending from unradiogenic (∼0.2) to radiogenic values (∼0.6 to 0.7; Fig. 3) within ∼350 kyr.
+The Osi values from point 'A' remain unradiogenic for ∼200-250 kyr before becoming progressively more radiogenic (Fig. 3).
+The majority of the Osi data from the Vocontian Basin, from slightly before the onset of the positive δ13Corg excursion through the initial ∼200 kyr are unradiogenic at ∼0.2, with some fluctuation to ∼0.4.
+In contrast to other sites that show a progressive return to radiogenic Osi values, the Vocontian Basin remains at values of ∼0.4 for an additional 200 kyr and then becomes radiogenic (0.94) very rapidly (within ∼80 kyr; Fig. 3).
+This abrupt change could indicate a minor hiatus during the latter part of OAE 2.
+The Osi values at Site 530 remain unradiogenic (0.12-0.25) for ∼145 kyr, returning to radiogenic values after ∼270 kyr.
+However, due to poor core recovery there is a ∼125 kyr gap in the Osi record (Fig. 3).
+Discussion
+Heterogeneous seawater 187Os/188Os prior to OAE 2
+Overall the Osi profiles from each section show similar variability in Osi values and in the 187Re/188Os composition before and during OAE 2.
+Combined with previous Os isotope stratigraphy (Turgeon and Creaser, 2008) and detailed litho-, bio-, and chemostratigraphy, the sections are interpreted to be reliable records of the CTBI.
+The Osi values for all sites in the WIS, western Tethys and proto-North Atlantic from -800 kyr to -210 kyr are radiogenic, and range from ∼0.5 to ∼1.0, illustrating that the seawater 187Os/188Os ratio during this time was not homogeneous, but was controlled by the 187Os/188Os composition of the fluxes entering the individual basins (Figs.
+1, 3).
+The radiogenic heterogeneity and high Osi values at Portland are attributed to the influence of weathered crustal components from the Sevier Orogenic Belt and the Canadian Shield, the major sources of weathered material to the basin.
+Recent seawater Os isotope studies during glacial episodes in the last 200 kyr demonstrate how regional variation is correlated to the heterogeneous flux of material into proximal basins (Paquay and Ravizza, 2012).
+This hypothesis is supported by the observed radiogenic Osi values for >500 kyr prior to 'A' at Portland and elsewhere (Fig. 3).
+We therefore infer that water masses were reasonably well connected until ∼-210 kyr, but the 187Os/188Os composition of the seawater in the individual basins was strongly influenced by regional factors (Figs.
+1, 3).
+In addition, the heterogeneity of the 187Os/188Os data may provide information on vertical mixing as a function of depth and circulation; the variations may indicate that seawater was not always well mixed.
+Implications of basin connectivity
+Between ∼-300 and -200 kyr, Osi values at Portland in the WIS reverse toward more radiogenic values.
+A similar pattern is observed at Site 1260, Vocontian Basin, Furlo and Site 530, although in each of these sites the radiogenic Osi inflection is brief (only a single data point) before the decline in Osi values (Fig. 3).
+There are two possible mechanisms that could contribute to produce an Osi signal of this type within a shallow epeiric seaway: increased input of weathered material and restriction of the connection to the open ocean, which would allow a radiogenic (weathering input) signal to dominate (e.g., Portland and the Vocontian Basin).
+In contrast, it is assumed that deep water sites preserve a signal more consistently representative of the open ocean (e.g., Site 1260 and 530).
+The shallow epeiric setting at Portland would certainly have become restricted from the global ocean during sea-level lowstands, however, the degree of sea level fall necessary to produce restriction is difficult to know.
+There is evidence of a small hiatus and a bone bed within the uppermost Hartland Shale, and two seaward stepping parasequences in the Dakota Formation of SW Utah correlate basinward to a level just below this hiatus (Elder et al., 1994), suggesting that a minor relative sea-level fall may have occurred (Gale et al., 2008).
+Subsequently, the lowermost beds of the Bridge Creek Limestone contain a diverse marine fauna with many Tethyan taxa (Kauffman, 1984), and there is strong evidence for transgression during the deposition of the basal limestone bed (Arthur and Sageman, 2005).
+Thus, the onset may have been immediately preceded by a relative fall in sea level that could have briefly reduced or shut down exchange of water masses with the global ocean, followed by a rapid sea-level rise.
+Basin restriction may also provide an explanation for the delayed return to pre-OAE 2 Osi values in the Vocontian Basin.
+Osi values return to ∼0.3 at 'B' comparable to other sections (Fig. 3).
+Yet between 'B' and 'C' the Osi values fluctuate around ∼0.4 for an additional ∼200 kyr relative to other sites, which suggests that mixing with the rest of the proto-North Atlantic was temporarily limited.
+Implications of enhanced weathering
+To explain the radiogenic pre-OAE 2 Osi values, a continuous radiogenic continental input into the ocean is required (Peucker-Ehrenbrink and Ravizza, 2000).
+Hence, the other mechanism resulting in radiogenic Osi values is a significant increase in the flux of weathered material to a basin.
+Interpreted increases in temperature before 'A' indicate a period of significant warming (Clarke and Jenkyns, 1999; Forster et al., 2007; Jenkyns et al., 2004; Barclay et al., 2010), an intensification of the hydrological cycle, and more extensive flooding in continental interiors, which led to the build-up of terrestrially derived nutrients and organic-rich sediments in shallow basin water masses immediately prior to 'A'.
+The radiogenic Osi prior to 'A' reflects sequestration of hydrogenous Os derived from the continent as a result of high weathering rates.
+If, in fact, the WIS did become briefly restricted, the influence of local weathering inputs and changes in mixing between basins would be amplified in the seawater chemistry.
+Additionally, there is evidence that increased input of weathered material influenced the Os chemistry of the shallow bathyal Site 1260 and the abyssal Site 530 before 'A'.
+Continental turbiditic sediments deposited on the continental slope at Site 1260 produce an oscillating Osi profile before the onset.
+At Site 530, comparatively less radiogenic Osi values prior to 'A' suggest that juvenile turbidites were sourced from juvenile detritus from the Walvis Ridge.
+The high rates of weathering produced waters enriched in micro-nutrients that led to an increase in productivity coincident with OAE 2, which is supported by bulk rock enrichments of Si, P, Ba, Cu, Mo, Ni and Zn in black shales at Demerara Rise ODP sites (Jimenez Berrosoco et al., 2008).
+In addition, enhanced weathering is inferred from Sr isotope trends, which despite possessing a longer residence time (1-4 Ma) have been interpreted to reflect global warming prior to, and during OAE 2 (Frijia and Parente, 2008).
+Caribbean large igneous province and OAE 2
+In contrast to the elevated radiogenic Osi values just before 'A' at Portland, the Osi values of Site 1260, Vocontian Basin, Furlo and Site 530 show a progressive trend to unradiogenic Osi values (0.75 to 0.55) over ∼155 kyr (Fig. 3) suggesting that hydrothermal input dominated Os chemistry in the open oceans.
+Within the WIS the stratigraphic evidence for sea-level rise is coincident with an abrupt shift of radiogenic Osi values to very unradiogenic values at Portland ∼50 kyr prior to 'A'.
+Therefore the trend to almost homogeneous unradiogenic Osi recorded in all sites at 'A' requires a sustained source of unradiogenic Os input to the ocean.
+Basaltic igneous provinces release unradiogenic Os, close to chondritic values (∼0.13; Cohen and Coe, 2002).
+There are two potential sources of volcanism: the Caribbean LIP and the High Arctic LIP.
+The eruption history from the High Arctic remains poorly constrained (Tegner et al., 2011) and trends interpreted at this stage are relatively ambiguous (Zheng et al., 2013).
+Consequently, the abrupt unradiogenic trend is interpreted to reflect an episode of submarine mafic volcanism from the Caribbean LIP (Fig. 3), sufficient to influence the global Os isotope budget (Turgeon and Creaser, 2008).
+The high-resolution of the Osi data presented here make an important contribution to the discussion of Caribbean LIP onset and cessation.
+Evidence supports the hypothesis that an influx of unradiogenic Os in the marine Os record is a direct consequence of volcanism (Ravizza and Peucker-Ehrenbrink, 2003).
+From ∼-50 kyr all sites show a synchronous abrupt trend towards unradiogenic Osi values (Fig. 3).
+Based on the trend to unradiogenic Osi values at Site 1260, Vocontian Basin, Furlo and Site 530 we suggest that the initiation of volcanism was at least ∼200 kyr prior to 'A' (∼94.58 Ma; Fig. 3, CLIP i), with the major pulse of submarine volcanism happening at ∼-30 kyr (94.41 Ma; Fig. 3, CLIP ii), where all locations possess near mantle-like Osi values.
+The timing of Caribbean LIP ii is supported by the rapid change in Os concentration (Section 4.2; Supplementary Material, Table 2) in all sections with the exception of Wunstorf where there is no record (Fig. 3).
+The sudden and high increase in Os concentrations occurs within 1 metre of deposition, which equates to <20 kyr at Furlo and Site 530, and <10 kyr at Portland, Site 1260 and Vocontian Basin.
+The increase in concentration is directly synchronous with the abrupt decrease to very low seawater Osi values and is contemporaneous with 'A' within <20 kyr.
+The trend recorded in the new sections studied here is consistent with the pattern observed in the previous work by Turgeon and Creaser (2008), where there was a clear and large increase in Os concentration at the onset of OAE 2.
+As discussed, high weathering rates across the CTB released large amounts of organic-rich material to the oceans, which sequester hydrogenous Os (Peucker-Ehrenbrink and Ravizza, 2000).
+The trend therefore implies that within <20 kyr the amount of unradiogenic dissolved Os to seawater significantly reduced the influence of radiogenic Os (Cohen and Coe 2002, 2007; Ravizza and Peucker-Ehrenbrink, 2003).
+Therefore, the observed regional variations in the data support the short residence time of Os in seawater and confirm the capability of Os to detect short-term forcing mechanisms, such as activity from LIPs.
+The interaction of both volcanism and enhanced global weathering on Osi means that quantifying the magnitude and isolating the extent of the two signals is problematic, since the extent of weathering on seawater chemistry is masked by the inputs from the Caribbean LIP to the global ocean.
+We can only estimate the Os contribution to seawater chemistry using a mixing model and assumed abundances.
+If we assume that the average seawater 187Os/188Os prior to the LIP onset was ∼0.8, and use an average Os abundance in seawater of 10 ppq (based on the present-day average; Peucker-Ehrenbrink and Ravizza, 2000), a basalt 187Os/188Os of 0.13 (Meisel et al., 2001) and an average Os abundance, we can evaluate the approximate Os contribution from the Caribbean LIP to the global ocean using a progressive mixing model (Faure, 1986, Eqs.
+(9.2) and (9.10)).
+We note that there are no published Os data for the Caribbean LIP.
+However, basalts can have variable Os abundances (1 to 600 ppt; Martin, 1991; Crocket and Paul, 2008); typical values range from 1 to 30 ppt (e.g., Shirey and Walker, 1998; Allegre et al., 1999; Dale et al., 2008).
+Using an Os abundance for a basalt of 30 ppt would require 75% Os contribution from the LIP to yield the least radiogenic Osi observed at all locations.
+Considerably less Os input from the LIP (25%) is needed if the LIP basalts possess higher Os abundances (100 ppt) and if the Os contribution to seawater also occurred through the addition of gas known to be enriched 20 times that of the basalt (e.g., Yudovskya et al., 2008).
+If we assume the emplacement and weathering of the LIP are direct indicators of volcanic activity (Cohen and Coe 2002, 2007), we can estimate the duration of volcanism at the Caribbean LIP based on the marine 187Os/188Os record.
+During the emplacement of the LIP we assume that growth of the plateau does not continue to affect the Os isotope composition (Robinson et al., 2009), since the Osi values are homogeneous (∼0.2; Fig. 3).
+The subsequent trend to radiogenic Osi values ∼200 kyr after 'A' potentially represents the cessation of volcanism.
+If we consider that the predominant 187Os/188Os of the ocean prior to the Caribbean LIP was 0.8, the influence of Os abundance and isotopic composition from the Caribbean LIP was less than 5% once the seawater 187Os/188Os had reached ∼0.50, which occurred ∼450 kyr after the onset (until ∼94.13 Ma; Fig. 3).
+Hiatuses identified during the CTBI
+At Portland the ∼17 kyr hiatus above 'B' was previously identified by Meyers and Sageman (2004), and the hiatus just before 'A', though quantitatively unconstrained, is equally minor based on site comparison (Elder et al., 1994; Ma et al., submitted).
+This study has identified one hiatus in the higher part of the OAE 2 at Site 1260.
+At Site 1260 Erbacher et al. (2005) suggested that ∼150 kyr is missing from Site 1258, yet present at Site 1260.
+However, distinct lithological breaks in the core images at 425.19 m and the δ13Corg record indicate that the hiatus may also be present in the latter section.
+A 150 kyr hiatus is inferred here from the Os isotope profile (Fig. 3).
+Palaeocirculation across OAE 2
+A model of quasi-estuarine circulation that was proposed for the WIS, which includes surface outflows causing deeper Atlantic/Tethyan water masses to be advected into the basin (Slingerland et al., 1996), is also suggested as a means to import Caribbean LIP influenced proto-Pacific waters into the proto-Atlantic and Tethys (Trabucho-Alexandre et al., 2010).
+The similar shape of the Osi profiles (from ∼-50 kyr until ∼200 kyr into OAE 2) suggest that unradiogenic Os-bearing water was rapidly transported from the proto-Pacific into and across the proto-North Atlantic/Tethys, and into the WIS (Fig. 4).
+This model is consistent with the hypothesis that palaeocirculation was not sluggish, as also indicated by climate models (Trabucho-Alexandre et al., 2010) and data from Nd isotopes.
+The latter suggest a dynamic deep/bottom-water circulation (MacLeod et al., 2008; Martin et al., 2012) that is interpreted to reflect the relationship between bottom-water sources, climate, ocean anoxia, and circulation (Martin et al., 2012).
+Conclusions
+Submarine volcanism alone cannot be the sole driving mechanism for OAEs, especially OAE 2.
+Osi data from 6 transatlantic and epeiric sections demonstrate that OAE 2 resulted from a combination of interacting factors.
+An influx of nutrients from the continents preconditioned the oceans and helped to trigger OAE 2 through increased productivity and, similarly to Jones and Jenkyns (2001), we infer that rising sea level may have been the tipping point for the development of widespread anoxia.
+The Osi profile at Portland suggests that the restriction of the epeiric WIS during the pre-OAE 2 interval amplified the affects of high weathering rates as abundant organic-rich sediments sequestered radiogenic Os derived from the ancient continental crust.
+The close similarity of Osi profiles from ∼50 kyr prior to the OAE 2 and throughout the syn-OAE 2 interval indicates that transgression progressed to a point where a homogeneous global seawater signal was delivered to multiple proto-transatlantic basins by active ocean circulation.
+Furthermore, the synchronicity of the unradiogenic Osi pattern suggests that the magnitude of Caribbean LIP volcanism was sufficient to simultaneously influence the seawater chemistry of each basin; the abundance of organic-rich sediments added to the water column as a result of enhanced continental weathering permitted sequestration of hydrogenous unradiogenic Os from the contemporaneous Caribbean LIP.
+The temporal coincidence provides empirical evidence for the duration of the Caribbean LIP of ∼450 kyr.
+Acknowledgments
+We would like to thank C.
+Dale, A.
+Finlay, J. Trabucho-Alexandre, and Joanne Peterkin for laboratory assistance and discussion.
+Thanks to H.C.
+Jenkyns for providing additional samples from Furlo for Osi analysis.
+The project was possible thanks to a NERC small grant to D.S. and D.R.G.
+(NE/G009678/1), NERC standard grants to D.R.G. and D.S.
+(NE/H021868/1) and I.J.
+(NE/H020756/1), BP funding to D.S., and a grant for fieldwork awarded to A.D.C.
+Du Vivier by the Geologists' Association.
+We are grateful for the constructive reviews from H.
+Jenkyns, G.
+Ravizza and G.
+Henderson that helped improve this manuscript.
+Supplementary material
+Supplementary material related to this article can be found online at http://dx.doi.org/10.1016/j.epsl.2013.12.024.
+Supplementary material
+The following is the Supplementary material related to this article.MMC 1
+The document contains additional information on sampling and analytical protocol to support the manuscript by Du Vivier et al.
+MMC 2
+Table 1.
+The workbook contains 6 tables of δ13Corg data for each section analyzed in the manuscript: Portland, Wunstorf, Site 1260, Vocontian Basin, Furlo, and Site 530.
+MMC 3
+Table 2.
+The workbook contains 6 tables of Re-Os geochemical data for samples for the CTB, for each section analyzed in the manuscript: Portland, Wunstorf, Site 1260, Vocontian Basin, Furlo, and Site 530.
+MMC 4
+Table 3.
+The workbook contains Re-Os geochemical data for USGS Std, SDO-1.
+

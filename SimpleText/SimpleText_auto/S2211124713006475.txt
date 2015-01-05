@@ -1,0 +1,296 @@
+Specification of Functional Cranial Placode Derivatives from Human Pluripotent Stem Cells
+
+Summary
+Cranial placodes are embryonic structures essential for sensory and endocrine organ development.
+Human placode development has remained largely inaccessible despite the serious medical conditions caused by the dysfunction of placode-derived tissues.
+Here, we demonstrate the efficient derivation of cranial placodes from human pluripotent stem cells.
+Timed removal of the BMP inhibitor Noggin, a component of the dual-SMAD inhibition strategy of neural induction, triggers placode induction at the expense of CNS fates.
+Concomitant inhibition of fibroblast growth factor signaling disrupts placode derivation and induces surface ectoderm.
+Further fate specification at the preplacode stage enables the selective generation of placode-derived trigeminal ganglia capable of in vivo engraftment, mature lens fibers, and anterior pituitary hormone-producing cells that upon transplantation produce human growth hormone and adrenocorticotropic hormone in vivo.
+Our results establish a powerful experimental platform to study human cranial placode development and set the stage for the development of human cell-based therapies in sensory and endocrine disease.
+Graphical Abstract
+Highlights
+•
+Timed withdrawal of BMP inhibitor is sufficient to induce placode fates from hESCs
+•
+Timed FGF inhibition suppresses placode fate and induces epidermal lineage
+•
+Placode-derived trigeminal neurons are functional in vitro and engraft in vivo
+•
+Pituitary placode-derived cells are capable of hormone release in vitro and in vivo
+Cranial placodes are essential for the development of sensory and endocrine organs.
+Here, Studer and colleagues report the efficient derivation of cranial placodes from human pluripotent stem cells.
+They demonstrate how to obtain specific placode derivatives such as trigeminal ganglia capable of in vivo engraftment, mature lens fibers, and anterior pituitary cells capable of producing human GH and ACTH in vivo.
+Their results establish a platform for studying human cranial placode development and for applications of placode derivatives in regenerative medicine.
+
+Introduction
+Cranial placodes give rise to cells of the sensory organs, including the optic lens, the nasal epithelium, otic structures, the adenohypophysis, and a subset of cranial nerves such as the trigeminal ganglia.
+During development, sensory placodes are formed at the interface of the nonneural ectoderm and neural plate, surrounding the anterior portion of the future CNS (Figure S1A).
+Defects in placode development cause a wide spectrum of human congenital malformations ranging from blindness and deafness to hormone imbalance or loss of smell (Abdelhak et al., 1997; Baker and Bronner-Fraser, 2001; Ruf et al., 2004).
+To date, cranial placode development has been characterized in model organisms, including the frog, zebrafish, chicken, and, to a lesser extent, the mouse (Baker and Bronner-Fraser, 2001; Bhattacharyya and Bronner-Fraser, 2004; Schlosser, 2006).
+However, human placode development has remained largely unexplored due to lack of access to early human tissue and specific placode markers.
+Human pluripotent stem cells (hPSCs), including human embryonic (hESCs), and human induced pluripotent stem cells (hiPSCs) have the potential to self-renew, while retaining a very broad differentiation potential.
+Over the last few years, protocols have been developed for directing the fate of hESCs into specific cell lineages.
+The derivation of CNS cells was among the first hESC differentiation protocols developed in the field (Reubinoff et al., 2001; Zhang et al., 2001).
+The differentiation of hESCs into cells of the peripheral nervous system has also been achieved (Lee et al., 2007; Menendez et al., 2011).
+In contrast to the successful derivation and application of defined CNS-and neural-crest (NC)-derived cell types, there has been limited success on modeling cranial placode development in hPSCs.
+Recently, we developed a neural induction strategy based on the concomitant inhibition of the Bone Morphogenetic Protein (BMP) and TGF-β/Activin/Nodal signaling pathways (dual-SMAD inhibition [dSMADi] (Chambers et al., 2009).
+Exposure to Noggin (N) and SB431542 (SB) leads to the synchronized, rapid and efficient differentiation of hPSCs into CNS fates.
+Here, we report that derepression of endogenous BMP signaling during dSMADi is sufficient for the selective induction of human cranial placodes.
+Using the placode induction protocol (PIP) >70% of all cells adopt a SIX1+ cranial placode precursor fate by day 11 of differentiation.
+We further identify a preplacodal lineage competent to differentiate into selective placode fates including trigeminal sensory neurons, mature lens fibers, and hormone-producing anterior pituitary cells.
+Trigeminal sensory neurons are characterized by marker expression, electrophysiology, and by transplantation into the developing chick embryo and the adult mouse CNS.
+Finally, we report the derivation of human pituitary cells producing growth hormone (GH) and adrenocorticotropic hormone (ACTH) hormones in vitro and in vivo.
+Results
+Derepression of Endogenous BMP Signaling Induces Placode at the Expense of Neuroectoderm
+To address whether the dSMADi protocol is suitable for the derivation of placodal cells, we first defined a set of appropriate placode markers.
+Based on studies in model organisms, we hypothesized that members of the SIX, EYA, and DLX family of transcription factors (Baker and Bronner-Fraser, 2001; Schlosser, 2006) mark human placode fate.
+Within the ectodermal lineage, SIX1 is placode specific, marking both the early preplacodal region and the various specific placodes (Schlosser, 2006).
+Based on studies in the chick embryo, placode induction relies on a complex interplay of fibroblast growth factor (FGF), BMP, and WNT signals during early ectodermal patterning in vivo (Litsiou et al., 2005).
+Activity of BMPs within the ectoderm is thought to be particularly critical in allocating fates.
+A model has been proposed initially whereby high levels of signaling promote an epidermal fate, moderate levels induce placodes, intermediate levels specify NC, and a complete absence of BMP activity is required for neural plate formation (Wilson et al., 1997).
+More recent studies have revised the original model by confirming an early role for BMP signaling in establishing placode competence (Kwon et al., 2010), whereas the subsequent stage was shown to require BMP inhibition rather than BMP activation (Ahrens and Schlosser, 2005; Kwon et al., 2010; Litsiou et al., 2005).
+To test whether early BMP exposure promotes the derivation of SIX1+ placodal cells, we exposed SB (the TGF-β inhibitor) -treated hESCs to various concentrations of BMP4.
+However, addition of BMP4 in the presence of SB caused a dramatic morphological change and triggered induction of CDX2 (Figures S1B and S1C), similar to the BMP-mediated induction of trophectoderm-like lineages reported previously (Xu et al., 2002).
+We next tested whether timed withdrawal of the BMP inhibitor Noggin during Noggin/SB431542 (N-SB)-mediated differentiation could induce placodal fates via derepressing endogenous BMP signaling.
+We performed a time-course analysis during which we removed Noggin at different time points of the N-SB protocol (Figure 1A).
+Gene expression analysis at day 11 revealed a robust induction of DLX3, SIX1, and EYA1 (Figure 1B) upon withdrawal of Noggin at days 2 or 3 of differentiation.
+In contrast, Noggin withdrawal at day 1 of differentiation led to the induction of EYA1 in the absence of SIX1 expression and triggered morphological changes as well as CDX2 expression, suggesting trophectodermal differentiation (though CDX2 and EYA1 can also be expressed in hESC-derived mesodermal lineages [Bernardo et al., 2011]).
+Our data indicate that EYA1 is expressed in both trophectodermal and placodal lineages, and that coexpression with SIX1 is required to define placodal lineage.
+Immunocytochemical analysis of hESC progeny at day 11 of differentiation demonstrated that Noggin withdrawal at day 3 (PIP conditions) induced a switch from 82% PAX6+ neuroectodermal cells under N-SB conditions to 71% SIX1+ putative placode precursor cells under PIP (Figures 1C, 1D, and S1D).
+SIX1+ clusters expressed other placodal markers such as EYA1, DACH1, and FOXG1 (BF1) (Figure 1E).
+DACH1 is also expressed in anterior neuroectodermal cells (Elkabetz et al., 2008) marking neural rosettes, whereas in PIP-treated cultures DACH1 marks placodal clusters (Figure S1E).
+Temporal analysis of gene expression under PIP conditions revealed rapid downregulation of pluripotency markers (OCT4, NANOG), as well as markers of trophectoderm (CDX2) (Figure 1F), mesoderm (T), and endoderm (SOX17) (Figure 1G).
+SIX1 expression in placode was confirmed in human primary tissue (Carnegie Stage 15, ∼5.5 weeks postconception [p.c.]; data not shown).
+SIX1 is also expressed in precursors of skeletal muscle, thymus, and kidney cells.
+However, we did not detect expression of skeletal muscle (MYOD), endoderm (SOX17), or mesoderm (Brachyury [T]) markers during PIP confirming that the hESC-derived SIX1+ cells are of placode identity.
+We also observed very few (<1%) NC lineage cells under PIP conditions based on SOX10 expression by immunocytochemistry and SOX10::GFP (Chambers et al., 2012; Mica et al., 2013) reporter line expression (Figure S1F).
+Induction of cranial placode markers was observed by day 5 with FOXG1 preceding expression of SIX1 and DLX3 (Figure 1H).
+The PIP protocol was validated in multiple hESC and hiPSC lines (Figures S1G and S1H).
+To further validate the identity of hESC-derived placodal precursors, we made use of a conserved Eya1 enhancer element (Ishihara et al., 2008).
+We readily observed GFP expression following nucleofection of the enhancer in olfactory placode but not in age-matched midbrain cultures (Figures S1I-S1J) confirming specificity.
+In hESC-derived placode, we observed an 8-fold increase in the percentage of cells with enhancer activity in PIP versus N-SB (Figure S1K).
+Microarray Analysis Reveals Human Placode Progenitor Gene Expression
+We next performed temporal transcriptome analysis to establish an unbiased molecular assessment of the in vitro placode induction process.
+RNA was collected at five time points in triplicates (days 1, 3, 5, 7, and 11) in control N-SB- versus PIP-treated cultures (Figures 2A-2E; all raw data are available at GEO accession no.
+GSE51533).
+Prior to microarray analysis, the quality of each sample was verified for expression of a panel of placode markers (SIX1, DLX3, EYA1) and the absence of other lineage markers (FOXA2, endoderm; SOX17, endoderm; MYOD, skeletal muscle; CDX2, trophoblast; and T, mesoderm).
+Cluster and principal component analyses showed a temporal segregation of the transcriptome data in PIP versus N-SB-treated cells by day 7 of differentiation (Figures 2A and S2A).
+Transcriptome data also defined a set of genes that distinguish placodal from neuroectodermal fate (Tables S1 and S2).
+To gain insight into specific genes differentially expressed during placode induction, we performed pairwise comparisons for each differentiation time point (Figures 2B-2E).
+Among the most highly enriched transcripts under PIP condition were known placode markers such as GATA3, DLX5, DLX3, TFAP2A, and TFAP2C.
+SIX1 was significantly upregulated in the microarray analysis by day 9 of differentiation, though it was not among the 20 most differentially regulated genes.
+Differential expression for these and additional genes was verified by quantitative RT-PCR (qRT-PCR) (Figure S2B).
+We also observed significant transcriptional changes in WNT and BMP pathway components such as an increase in the WNT pathway inhibitor DKK-1 and BMP antagonists, such as GREMLIN-1 and BAMBI (Figures 2B-2D), which are known transcriptional targets of BMP signaling (Grotewold et al., 2001).
+Interestingly, we also noticed induction of ISL1, a well-known marker for sensory neurons, motoneurons, heart progenitors, and pancreatic islet cells (Hunter and Rhodes, 2005).
+Based on the early onset of ISL1 expression and the absence of mesodermal fates, we surmised that under PIP conditions ISL1 represents an early human placode marker.
+ISL1 was one of the first makers induced during PIP differentiation.
+Similar to TFAP2A and SIX1 (Figure 2F), ISL1 protein remained expressed in the majority of cells by day 11 of differentiation partially colocalizing with SIX1 (Figure 2G).
+Another placode marker identified by our microarray expression data is OVOL2, a member of the Ovo family of zinc-finger transcription factors.
+OVOL2 was enriched during PIP by day 5 of differentiation, and placode clusters showed strong immunoreactivity for OVOL2 (Figure 2H).
+In contrast, OVOL2 was downregulated under conditions promoting CNS (N-SB) or neural crest (N-SB/CHIR [Chambers et al., 2012; Mica et al., 2013]) fates (Figure 2I).
+We identified additional differentially expressed genes during anterior placode specification, including FOXC1 and HAPNL1 (also known as CRTL1).
+FOXC1 marks the lens placode during chick development (Bailey et al., 2006) but may also be expressed at the preplacode stage (Sasaki and Hogan, 1993).
+HAPNL1 was one of the most differentially expressed genes in PIP and was previously shown to be expressed in the surface ectoderm and chick neural plate border (Colas and Schoenwolf, 2003).
+Gene ontology (GO) analysis, using DAVID (http://david.abcc.ncifcrf.gov/) (Dennis et al., 2003), indicated that transcripts highly enriched in PIP versus N-SB conditions at day 7 and day 9 of differentiation are associated with sensory organ development, BMP and WNT pathways, as well as ectoderm and epidermis development (Figure S2C).
+The total number of differentially expressed genes increased by day 7 of differentiation (Figures S2D and S2E) matching the proposed time frame for placode commitment.
+In summary, our molecular analyses present a roadmap of human placode development and an important resource for future functional studies.
+Early Treatment with FGF Inhibitor Suppresses Placode and Induces Surface Ectoderm Fate
+Lineage studies in several vertebrate species indicate that cranial placode precursors originate from the surface ectoderm and are induced by signals emanating from the adjacent neuroectoderm (Pieper et al., 2012), rather than being of neural origin.
+However, no such data are available for human development.
+The putative timing of human placode induction (approximately day 20 p.c.) (O'Rahilly, 1987) makes this a stage largely inaccessible to experimental manipulations.
+Gene expression data during PIP indicate that TFAP2A is one of the earliest upregulated and differentially expressed genes (Figures 2B-2E).
+During mouse development, early expression of the orthologous gene Tcfap2a (E7.5) is restricted to the future surface ectoderm (Arkell and Beddington, 1997).
+The induction of TFAP2A was first detected at day 5 of PIP, whereas absent in N-SB protocol (Figure 3A) suggesting that the period between days 3 and 5 of PIP corresponds to the commitment toward surface ectoderm.
+SIX1 was induced 2 days later than TFAP2A (Figures 3A and 3B) further pointing to a surface ectoderm intermediate.
+In vivo genetic studies indicate that high levels of BMPs in the absence of FGF signaling promote epidermal fate, whereas placodal cells are established at reduced levels of BMPs upon activation of FGFs (Kudoh et al., 2004; Litsiou et al., 2005).
+Therefore, we tested whether blocking endogenous FGF signaling under PIP conditions disrupts placode induction and triggers epidermal fate.
+Exposure to SU5402, a small molecule inhibiting FGF signaling, from day 3 to 11 of differentiation (Figure S3A) suppressed the emergence of SIX1+ clusters while maintaining TFAP2A expression (Figure 3C).
+Quantification of SIX1 and TFAP2A gene expression at day 11 confirmed a complete loss of placode marker expression (Figure 3D), whereas TFAP2A expression was maintained.
+The ectodermal precursor identity of TFAP2A+ cells was supported by the expression of the epidermal precursor marker KRT8 in PIP + SU5402-treated cultures (Figure 3E).
+Furthermore, long-term cultures (days 42-60) showed robust induction of the mature keratinocyte marker KRT14 (Figure 3F) and formed E-CADHERIN-positive patches with KRT14-immunoreactive cells at the periphery (Figure S3B).
+Analysis of the proliferative capacity of the epidermal precursors showed KI67 expression primarily in E-CADHERIN+/KRT14- cells.
+Cell proliferation decreased by day 60 concomitant with an increased percentage of cells expressing KRT14 (Figures 3G and S3C).
+In addition to the requirement for endogenous FGF signaling, we observed low WNT and BMP levels as other important parameters for the transition from surface ectoderm (day3) to early placode fate.
+Exposure to high concentrations of CHIR or BMP4 suppressed placode at the expense of NC or putative trophectoderm, respectively (Figures S3D and S3E).
+Placode Precursors Efficiently Differentiate into Trigeminal-type Sensory Neurons
+Cranial placodes give rise to a broad range of specialized cell types, including hormone-producing cells of the anterior pituitary gland, structural cells such as lens fibers in the eye, and sensory neurons including trigeminal neurons (Figure 4A).
+Placodes can be characterized by the expression of specific PAX genes (McCauley and Bronner-Fraser, 2002).
+We observed that under standard PIP conditions most SIX1+ clusters coexpressed PAX3 (Figure 4B), suggesting ophthalmic trigeminal placode identity (McCabe et al., 2004; Stark et al., 1997).
+The spontaneous generation of HNK1+ (Metcalfe et al., 1990) cells with neuronal morphologies and coexpression of ISL1 confirmed peripheral sensory neuron identity (Figure 4C).
+To further ascertain the placode origin of the sensory neurons under PIP conditions, we assessed coexpression of neuronal markers with SIX1 (Figures 4D and S4A).
+Lack of SOX10 expression during PIP-based sensory neuron differentiation ruled out a neural crest origin.
+By day 20 of differentiation (7 days after replating), the cells formed ganglia-like structures with neurons extending long, radial processes and with nuclear expression of BRN3A (Figures 4D and 4E), a sensory neuron marker.
+Most neurons retained ISL1 expression by day 42 of differentiation and acquired expression of the peripheral neuron marker peripherin (Figures 4F and S4B).
+Immunocytochemical analysis for neurotransmitter phenotypes revealed expression of glutamate (Figure 4G) but lack of expression of TH and GABA (data not shown).
+These data are compatible with the generation of glutamatergic trigeminal sensory neurons.
+Gene expression analysis showed induction of RUNX1 (Figures 4H and S4C) and RET (Figure S4D), indicating sensory/nociceptive lineage.
+Expression of TRK receptors (Figures 4I and S4E) including NTRK1 and NTRK2 points to the presence of both nociceptive and nonnociceptive sensory neurons (Figures S4E-S4G).
+Diagnostic markers of nociceptive neuron identity include expression of specific sodium channels (SCN9A, SCN10A, SCN11A; Figure 4J) as well as classic pain receptors such as the capsaicin receptor (TRPV1), the receptor for cold sensation (TRPM8), and the P2X3 receptor critical for sensation of inflammatory pain mediated by ATP (Figure 4K).
+Gene expression analysis in long-term trigeminal neuronal cultures (day 55) showed sustained expression of RET1 and RUNX1 (Figures S4C and S4D).
+Functional analysis of placode-derived sensory neurons was performed by whole-cell patch-clamp recordings (Figure S4G).
+Neurons were filled with Lucifer yellow from the recording pipette exhibiting either bipolar or tripolar morphologies (Figures 4L and 4M).
+Responses were measured to a series of hyperpolarizing and depolarizing pulses (Figure 4N).
+The hESC-derived neurons produced single action potentials at a threshold depolarization matching the functional properties reported for primary embryonic trigeminal neurons (Grigaliunas et al., 2002).
+The average resting membrane potential (RMP) was -65.6 ± 6.7 (Figures 4L and 4M).
+Passive membrane and action potential properties were comparable between bipolar and tripolar sensory neurons as summarized in (Figure 4O) suggesting that two morphologically distinct populations do not reflect functionally distinct subgroups.
+We further assessed the robustness of the trigeminal sensory neuron induction protocol across multiple hESC and hiPSC lines.
+We observed comparable percentages of ISL1- and BRN3A-expressing neurons across lines (Figure S4H).
+In Vivo Analysis of hESC-Derived Trigeminal Neurons in the Developing Chick Embryo and Adult Mouse CNS
+To assess the in vivo properties of hESC-derived trigeminal placode precursors, PIP-induced neuronal clusters, derived from a constitutively GFP-positive hESC line (Figures S5A and S5B), were injected into the developing chick embryo targeting the early trigeminal anlage at H&H stage 10-12 (Figure S5C).
+Human cells were identified based on GFP expression and use of human specific antibodies against cytoplasmic antigen (hCA).
+Two days after in ovo transplantation, surviving GFP+ cells were found dispersed in the area of the endogenous chick trigeminal ganglion (Figure 4P).
+We observed extensive GFP+ human fiber bundles coexpressing hCA and peripherin (Figures 4Q and 4R).
+In contrast, no hCA or peripherin expression was detected in the neural tube of the embryo (Figure S5D).
+The in vivo fiber outgrowth 2 days after transplantation was reminiscent of the extensive in vitro fiber outgrowth of replated trigeminal neuron clusters (Figure S5A).
+Peripherin expression in vivo (Figure 4S) confirmed the peripheral neuron identity of the grafted cells.
+We next addressed whether hESC-derived trigeminal neurons can engraft in the adult mouse CNS and project toward their physiological target.
+The trigeminal nuclei in the brainstem receive afferent innervation from the trigeminal sensory ganglion that is relayed to the contralateral thalamus.
+The pons was selected as site for transplantation, because it is surgically accessible and located within proximity of the trigeminal brain stem nuclei that receive afferent input from the trigeminal ganglia.
+Hence, GFP+ human trigeminal neuron clusters were injected into adult NOD/SCID mice via stereotactic surgery (see Experimental Procedures).
+Histological analysis 4 weeks after transplantation showed survival of GFP+ human cell graft in the ventral pons (Figure S5E).
+Although GFP+ cell bodies remained tightly clustered at injection site, GFP+ fibers showed extensive projections into the host brain (n = 6) including the endogenous trigeminal nuclei (Figure S5F).
+Expression of BRN3A confirmed the sensory neuron identity of the cells (Figure S5G).
+Graft-derived human fiber bundles (hNCAM+ and GFP+) were observed emanating from the graft core (Figure S5H).
+These data demonstrate in vivo survival of trigeminal placode derivatives, differentiation along sensory neuron lineage, and the establishment of axonal projections toward relevant endogenous targets in the embryonic chick and adult mouse brain.
+Identification of a Putative Preplacode Stage
+Our results indicate that current PIP conditions efficiently induce ophthalmic trigeminal placode fates.
+To investigate whether other placodal fates can be generated using modified PIP conditions, we first addressed the presence of putative preplacode cells in our culture system.
+During vertebrate development, the preplacode is characterized as the developmental anlage containing precursor cells competent to respond to signals determining placode identity (Martin and Groves, 2006).
+Preplacodal cells in various model organisms have been shown to express Six1 and to coexpress markers of both ectodermal and neural fate.
+However, the development of a human preplacode remains unexplored.
+We performed a time-course coexpression analysis for TFAP2A (early ectodermal marker) and PAX6 (early neuroectoderm marker [Zhang et al., 2010]).
+During the first 3 days of differentiation, only a few sparse patches of PAX6- or TFAP2A-expressing cells were observed without evidence of coexpression (Figure 5A).
+At day 5, 2 days following Noggin withdrawal (PIP), there was an increase in the number of TFAP2A+ cells (Figure 5B) under PIP conditions and a concomitant loss of TFAP2A+ cells in N-SB (Figure 5C).
+At day 7, N-SB conditions yielded PAX6+ cells devoid of TFAP2A expression (Figure 5C), whereas PIP-treated cultures showed extensive coexpression of TFAP2A and PAX6, indicating preplacode identity (Figure 5B).
+The emergence of TFAP2A/PAX6 double-positive cells coincided with the onset of SIX1 gene expression and the emergence of SIX1+ clusters around day 7 of differentiation (Figures 3B and S6A).
+By day 11, placode clusters were negative for PAX6 but retained expression of TFAP2A (Figure 5B), suggesting that early anterior PAX6+ preplacode cells give rise to PAX6-negative posterior placode populations enriched for PAX3+.
+This model was further supported by gene expression data showing a robust PAX3 increase from day 7 to 11 of PIP (Figure 5D).
+Treatment with inhibitors of WNT or FGF signaling from day 7 to 11 of PIP suppressed PAX3 induction (Figure 5E) while maintaining PAX6 (Figure 5F).
+Our results indicate that endogenous signals contribute to the transition from an anterior PAX6+ preplacode to a posterior PAX3+ placode lineage.
+The small number of TFAP2A cells in day 11 N-SB cultures (Figure 5C) likely represents neural crest precursors (Chambers et al., 2009) that lack PAX6 expression.
+Under PIP conditions the percentage of contaminating SOX10+ NC cells at day 11 was <1% (Figure S1F).
+Treatment with FGF Inhibitor SU5402 at Preplacode Stage Induces Lens Fates
+We next tested whether putative preplacode cells can be coaxed into specific placode fates other then trigeminal neurons.
+The spontaneous appearance of lens precursors (lentoid bodies) from primate and hESCs has been previously reported (Ooto et al., 2003; Zhang et al., 2010), although the lineage origin and inducing signals remained unexplored in those studies.
+We tested the impact of four developmental signaling pathways on lens placode specification using activators and inhibitors of BMP, FGF, WNT, and Hedgehog signaling.
+To quantify the induction of lens placode fate, we monitored expression of the lens precursor marker PITX3 at day 16 of differentiation (Figure S6B).
+PITX3 expression was significantly induced in the presence of recombinant BMP4 or upon exposure to the FGF-inhibitory molecule, SU5402 (Figure 5G).
+A role for BMPs and FGFs has been previously proposed in developmental studies in the chick (Sjödal et al., 2007).
+Further differentiation revealed strong induction of αβ-crystalline and the formation of mature lens fiber structures by day 57 (Figure 5H, left panel).
+The characteristic layering of lens fibers (Figure 5H, right panel) mimicked the structural properties of developing lens in vivo.
+Treatment with SHH at Preplacode Stage Induces Anterior Pituitary Cells
+We next explored whether preplacodal cells can be differentiated into anterior pituitary placode and recreate the various pituitary precursors and hormone-producing cell types (Figure 6A).
+We observed that treatment with agonists for SHH signaling (Figure S7A) at the preplacode stage (days 7-11) induced expression of the oral ectoderm marker SIX6 and PITX1 (Figure 6B), master regulators of pituitary gland development (Tremblay et al., 1998).
+Induction of PITX1 and SIX6 at transcript and protein levels was dependent on SHH dose (Figures 6B and 6C).
+Furthermore, SHH treatment triggered the expression of the definitive pituitary precursor marker LHX3 (Figure 6D).
+Endocrine cells of the anterior pituitary gland are derived from three main precursors lineages (Scully and Rosenfeld, 2002).
+Following PIP + SHH treatment, we observed robust induction of TBX19 (Figure 6E), specific to precursors giving rise to ACTH- and MSH-producing cells.
+Induction of PIT1 and GATA2 precursor lineages was less efficient but was increased following treatment with the γ-secretase inhibitor DAPT (Figures 6F and 6G).
+Immunocytochemistry for pituitary hormones showed expression of CGA by 16 days, whereas protein expression of FSH, ACTH, and GH was first observed by days 25-30 of differentiation (Figures 6H-6K).
+The induction of ACTH+ cells was particularly efficient (Figure 6J), and in vitro release of ACTH hormone could readily be detected by ELISA (Figure 6L).
+We next tested whether hESC-derived pituitary cells are capable of in vivo survival and function in mouse and rat xenograft models (Figures 6M, S7B, and S7C).
+Subcutaneous injection of GFP-marked, hESC-derived pituitary precursors (day 16 of differentiation) into adult male NOD/SCID mice demonstrated survival of glycoprotein subunit (GSU) and follicle-stimulating hormone (FSH) cells in vivo (Figures S7D and S7E).
+Longer-term survival studies in nude male rats (n = 8; 4-6 weeks postgrafting) showed significant increases in serum ACTH levels (Figure 6N) as measured during early morning hours (low point of endogenous ACTH expression during diurnal cycle).
+We also measured levels of human GH in vivo using an ELISA assay that selectively detects human but not mouse GH (Figure 6O).
+Transplantation into rat hosts allowed for repeated blood draws and showed a consistent increase of ACTH and GH levels in grafted as compared to sham injected (Matrigel-only) animals.
+Finally, histological analysis demonstrated in average 0.46 ± 0.015 million surviving hNCAM+ cells (Figure 6P) at 6 weeks after transplantation.
+About 10% of the surviving human cells expressed ACTH (Figure 6Q) and 6% of the cells were immunoreactive for GH (Figure 6R).
+The ability to derive functional hormone-producing pituitary cells from hESCs via modified PIP conditions is particularly intriguing given previous work in mouse ESCs suggesting the need for complex coculture systems to induce pituitary lineages (Suga et al., 2011).
+In vivo survival and production of graft-derived ACTH and GH suggest translational potential for patients suffering from genetic, surgical, or radiation induced hypopituitarism (Tabar, 2011).
+Discussion
+An Experimental Platform for the Efficient Generation of Human Cranial Placodes In Vitro
+The study of human cranial placode development has been challenging due to the lack of a tractable experimental system, the inaccessibility of this transient structure during early human development, and the absence of validated human placode markers.
+Our data resolve those major challenges and establish a versatile platform for the study of human placode and ectoderm development (Figure 7).
+Previous studies have observed the emergence of certain placode derivatives such as lens (Ooto et al., 2003; Zhang et al., 2010) or otic placode-derived cells (Chen et al., 2012; Oshima et al., 2010).
+However, the mechanisms of placode induction were not addressed, and no general model of placode specification has emerged from those studies.
+Very recent studies have shown some promise in directing pluripotent stem cells toward placode fates (Leung et al., 2013; Mengarelli and Barberi, 2013; Shi et al., 2007).
+However, no functional human placode derivatives have been reported under those conditions.
+In contrast, studies in mouse ESCs have successfully derived functional otic (Koehler et al., 2013) and pituitary (Suga et al., 2011) placode derivatives.
+A developmental question of particular interest is the origin of placode cells.
+The prevalent hypothesis is that placode tissue originates from nonneural ectoderm upon response to inductive signals from the adjacent neural tissue (Schlosser, 2006).
+Our data indicate that human placode development similarly originates from nonneural ectoderm based on the result that TFAP2A expression precedes the induction of SIX1, whereas TFAP2A is suppressed during N-SB induction.
+BMP-based induction of TFAP2A and GATA3 may be critical in establishing nonneural ectoderm lineage competent for placode induction (Kwon et al., 2010).
+The ability to block placode induction at the expense of nonneural ectoderm by inhibition of FGF signaling further supports a nonneural ectoderm origin and suggests that endogenous FGF signals may be the neural signal responsible for the placode default in PIP.
+Our findings further delineate the time point of developmental commitment to placodal fate by day 7, given that treatment of cells at day 7 of differentiation (preplacode) induced a switch between various placode fates but did not affect the ratio of cells of placode versus nonneural ectoderm fate.
+Previous work described FOXG1 and DACH1 as markers of anterior neuroectoderm and neural rosette stage cells during hPSC differentiation (Chambers et al., 2009; Elkabetz et al., 2008).
+Our study reports a small percentage of SIX1+ cells that emerge spontaneously under N-SB conditions.
+Therefore, differentiation studies aimed at generating CNS lineages should address whether contaminating placodal tissues are present in hPSC-derived neural cultures.
+Those spontaneously emerging placodal cells are likely the source of lentoid bodies and other placode derivatives observed in past neural differentiation studies.
+Our gene expression data define a broad set of placode markers valuable for future studies.
+For example, OVOL2 has been shown to be expressed in the mouse epiblast and surface ectoderm, and loss of Ovol2 leads to early embryonic lethality (Mackay et al., 2006).
+Here, we define OVOL2 as a human preplacode marker.
+FOXC1 and ISL1 are additional transcription factors specifically expressed at the preplacode stage.
+Our data provide a framework for defining transcriptional networks that distinguish cranial placode identity from early CNS, neural crest, and surface ectoderm identity.
+Specification toward Functional hESC-Derived Placode Derivatives
+The current study defines a transient preplacode population competent to adopt various specific placode identities.
+The emergence of a preplacodal region has been described during Xenopus and zebrafish development (Bailey et al., 2006; Martin and Groves, 2006; Schlosser, 2006).
+Our data indicate that PIP initially yields a PAX6+/SIX1+ anterior preplacode population that spontaneously adopts a more posterior, PAX3+ ophthalmic trigeminal fate upon further differentiation, likely due to the caudalizing effects of endogenous FGF and WNT signals.
+Exposure to SHH or suppression of FGF signaling at day 7 of differentiation directs the putative preplacode precursors into anterior pituitary and lens placodes fates.
+Lens placode has been suggested as the default state during chick placode development with FGF8 being necessary and sufficient to specify olfactory placode fate (Bailey et al., 2006).
+Elegant studies in mouse ESCs (Koehler et al., 2013; Suga et al., 2011) have shown the feasibility of generating hormone-producing pituitary cells and otic sensory neurons respectively using sophisticated 3D culture systems.
+Our results demonstrate that modified PIP conditions yield human pituitary precursors efficiently without the need for complex 3D culture conditions.
+Although we observe a bias in generating preferentially TBX19-related pituitary lineages including ACTH-producing cells, all three major precursor lineages (GATA-2, TBX19, and PIT1 lineages, Figure 6A) could be derived.
+Therefore, it is likely that further optimization of the protocol will provide selective access to individual pituitary hormone lineages.
+Our current in vivo studies are limited to a maximum engraftment period of 3 months, subcutaneous injections into the flank of adult murine hosts, and use of animals (both mouse and rat) with normal pituitary function.
+Future experiments should include longer-term survival studies and an in-depth analysis of graft integration into the hypothalamic-pituitary axis, possibly via orthotopic graft placement into the hypothalamus or the sella.
+Finally, in vivo hormone function will need to be validated in animal models of pituitary dysfunction.
+We present data on the specification of trigeminal, lens, and anterior pituitary placode lineages.
+However, preliminary evidence indicates that other placode fates are accessible as well using modified PIP conditions.
+For example, exposure of preplacode cells to FGF8 enriches for ASCL1 expression compatible with olfactory placode fate (Balmer and LaMantia, 2005).
+Exposure to caudalizing cues such as WNT3A leads to the induction of a population of cells coexpressing SIX1 and SOX10 compatible of otic placode fates.
+Those conditions, although requiring further optimization, support the notion that PIP represents a universal platform for cranial placode fate specification.
+One of the most immediate applications of PIP-based differentiation is the derivation of trigeminal sensory neurons.
+Given our recent success in deriving neural-crest-derived nociceptive neurons (Chambers et al., 2012), it will be intriguing to compare the developmental and functional features of neural crest versus placode-derived nociceptors.
+Trigeminal neurons are involved in several pain syndromes such as trigeminal nerve palsy, trigeminal neuralgia, and migraine pain (Love and Coakham, 2001).
+Therefore, the ability to generate large numbers of trigeminal neurons will be particularly useful for modeling human nociception and for the development of cell-based drug screens in pain research.
+Another important application will be modeling Herpes simplex encephalitis using human iPSCs (Lafaille et al., 2012).
+HSV-1 is a virus that specifically persists in a latent form within the trigeminal ganglia (Barnett et al., 1994).
+The ability to derive trigeminal neurons from patient-specific iPSCs should address whether defects in the control of viral latency contributes to Herpes simplex encephalitis.
+The robust in vivo survival of trigeminal placode precursors raises the possibility for developing future regenerative approaches with the goal of nerve repair following mechanical, radiation, or chemotherapy-induced damage.
+Finally, the potentially largest impact on regenerative medicine may come from deriving functional hormone-producing cells.
+Hypopituitarism is a common consequence of congenital defects, head injury, or therapeutic intervention in patients with pituitary tumors or patients receiving radiation therapy (Tabar, 2011).
+Although replacement hormones can be given to normalize resting serum levels in patients, the financial, logistic, and medical costs for such lifelong treatments are considerable.
+Furthermore, hormone replacement therapy does not allow for dynamic release in response to circadian rhythms, or rapid adjustments to physiological changes in the environment or stressful challenges.
+Therefore, the ability to generate large numbers of functional ACTH- and GH-producing cells launches the possibility of long-term therapeutic cell replacement strategies in pediatric and adult patients for restoring endocrine function.
+Experimental Procedures
+Cell Culture
+hESCs (WA-09; passages 35-45), hiPSC lines (iPS-14, iPS-27; passages 20-30), and I6 were maintained at undifferentiated state and differentiated toward CNS lineages using dual-SMAD inhibition protocol described previously.
+For PIP, Noggin was removed at day 3 of differentiation.
+In some experiments, BMP-4, Noggin, DKK-1, FGF8, SU5402, Wnt-3a, DAPT, CHIR99021, cyclopamine, Sonic Hedgehog (SHH), and purmorphamine were added as detailed in the Supplemental Experimental Procedures.
+For differentiation toward trigeminal sensory fate placode clusters were maintained in N2 medium supplemented with ascorbic acid and BDNF.
+Pituitary fate was induced by exposure to SHH and purmorphamine from day 7 to 11 of PIP followed by treatment with DAPT to promote PIT1+ fate.
+Cell Characterization
+qRT-PCR data were normalized to HPRT and are based on four to six technical replicates from at least three independent experiments.
+Global gene expression analysis was performed by the MSKCC genomics core according to the specification of the manufacturer (Illumina Human-6 oligonucleotide arrays).
+Detailed information on the use of primary antibodies for immunocytochemistry and flow analysis and on the electrophysiological analyses is presented in the Supplemental Experimental Procedures.
+Animal Studies
+Animal studies were done in accordance with protocols approved by our institutional Animal Care and Use Committee and following NIH guidelines.
+Hormone-producing cells were injected subcutaneously into adult male NOD-SCID IL2Rgc mice and eight adult male nude rats.
+Blood was collected at 4-6 weeks after the transplantation followed by ELISA analysis for determining hormone levels.
+Chick transplantation studies were performed at HH stage 9-10, and embryos were harvested at HH stage 20.
+Injections into pons of adult NOD-SCID IL2Rgc mice were performed by stereotactic surgery.
+Statistical Analysis
+Statistical analysis was performed using GraphPad Prism version 5.0b (GraphPad).
+All data were derived from at least three independent experiments.
+Asterisks mark experimental groups that were significantly different from control groups by a two-tailed Students t test, or by ANOVA followed by Dunnett test to compare control against multiple independent treatment groups.
+Data are presented as mean ± SEM unless indicated otherwise.
+Acknowledgments
+This work was supported in part through grants from the Starr Foundation, NINDS grant NS072381, and NYSTEM contract C026447.
+We are grateful to E. Lai for BF1 antibody, A.S.
+McNeilly for GSU antibody, R.
+Vinagolu for FSH antibody, and K.
+Kawakami for Eya1::GFP enhancer element.
+We also would like to thank H.
+Ford for advice on SIX1 antibody, M. Hashimi for advice on microarray analysis, M. Tomishima and J. Tchieu for critical review of the manuscript, and M. Bronner for help in designing the chick in vivo transplantation studies.
+Accession Numbers
+The GEO accession number for the microarray gene expression data reported in this paper is GSE51533.
+Supplemental Information
+Supplemental Information includes Supplemental Experimental Procedures, seven figures, and two tables and can be found with this article online at http://dx.doi.org/10.1016/j.celrep.2013.10.048.
+Supplemental Information
+Document S1.
+Figures S1-S7 and Supplemental Experimental ProceduresTable S1.
+PIP SignaturesTable S2.
+N-SB SignaturesDocument S2.
+Article plus Supplemental Information
+

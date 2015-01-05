@@ -1,0 +1,208 @@
+Synthesis, spectroscopic, coordination and biological activities of some organometallic complexes derived from thio-Schiff base ligands
+
+Graphical abstract
+Synthesis, spectroscopic, coordination and biological activities of some organometallic complexes derived from thio-Schiff base ligands
+Highlights
+•
+Thio Schiff base complexes derived from mono- and diacetyl ferrocene were synthesized.
+•
+The complexes are characterized by different spectroscopic techniques.
+•
+The complexes have different varieties of geometrical structures.
+•
+Biochemical studies were studied.
+Abstract
+Two series of mono- and binuclear complexes cyclic or acyclic thio-ferocine Schiff base ligands, derived from the condensation of 2-aminobenzenthiol (L) with monoacetyl ferrocene in the molar ratio 1:1 or in the molar ratio 1:2 for diacetyl ferocine have been prepared.
+The condensation reactions yield the corresponding Schiff Base ligands, HLa-Maf and H2Lb-Daf.
+The chelation of the ligands to metal ions occurs through the sulfur of the thiol group as well as the nitrogen atoms of the azomethine group of the ligands.
+HLa-Maf acts as monobasic bidentate or dibasic tetradentate, while H2Lb-Daf behaves as twice negatively cargend tetradentate ligand.
+The structures of these ligands were elucidated by elemental analysis, infrared, ultraviolet-visible spectra, as well as 1H NMR spectra.
+Reactions of the Schiff bases ligands with ruthenium(III), oxovanadium(IV) and dioxouranium(VI) afforded the corresponding transition metal complexes.
+The properties of the newly prepared complexes were analyse by elemental analyses, infrared, electronic spectra, 1H NMR as well as the magnetic susceptibility and conductivity measurement.
+The metal complexes exhibits different geometrical arrangements such as octahedral and square pyramidal coordination.
+Schiff base ligands and their metal complexes were tested against two pathogenic bacteria as Gram-positive and Gram-negative bacteria as well as one kind of fungi to study their biological activity.
+All the complexes exhibit antibacterial and antifungal activities against these organisms.
+
+Introduction
+π-Conjugated organic molecular systems provide a wide range of possible substitution and functionality are of considerable interest because of their applications in biochemistry [1,2] asymmetric catalysis [3], organometalic chemistry [4-10] material science [11-13], electronic and photonic technologies relevant to optical computing applications [14].
+The redox-active ferrocene moiety has also been exploited in the electrochemical sensing of anions; these receptors are expected to show cathodic shifts in their redox process when complexed to an anion [15-17].
+Furthermore, It has been reported, [18,19] the use of platinum and gold complexes of 1,1′-bis(diphenylphosphino)ferrocene might be used successfully against various tumours.
+An enhanced antibiotic activity of penicillin and cephalosporine may be obtained by replacing the aromatic group with the ferrocenyl moiety [20,21].
+In view of these facts, we have previously synthesized a new class of mono and disubstitutedferrocene-derived from thio-Schiff bases ligands and their coordination behaviour with different transition metals for which antimicrobial activities have been discussed [22].
+In continuation of our work, two new series of cyclic or acyclic mono- or binuclear complexes have been prepared from thio-Schiff base ligands, HLa-Maf and H2Lb-Daf.
+The reaction of Schiff bases ligands with ruthenium(III), oxovanadium(IV) and dioxouranium(VI), affords a mono or binuclear complex of a cyclic or macrocyclic complexes, according to the mole ratio of metal to ligand.
+The Schiff base and their newly prepared metal complexes were identified by different physicochemical and spectroscopic techniques.
+The microbial activity of Schiff bases and their transition metal complexes have been investigated against two pathogenic bacteria (Staphylococcus aureus) as Gram-positive bacteria, and (Pseudomonas fluorescens) as Gram-negative bacteria in addition to one kind of fungi (Fusarium oxysporum) to assess their antimicrobial properties.
+Experimental
+Materials
+The nitrate salt of dioxouranium(VI) was obtained from Merck or DBH.
+Oxovanadium(IV) acetae monohydrate is BDH.
+Ruthenium(III) chloride trihydrates was purchased from Sigma.
+Organic solvents (absolute ethyl alcohol, methyl alcohol, acetone, dimethylformamide (DMF) and dimethylsulfoxide, (DMSO) are reagent grade and were used without further purification.
+Mono- and 1,1′-diacetylferrocene were punctured from Aldrich.
+Physical measurements
+Microanalyses of carbon, hydrogen and nitrogen were carried out on a Perkin-Elmer 2400 Series II Analyzer.
+Electronic spectra of DMF solutions of the metal complexes were carried out by using UV-Vis Perkin-Elmer Model Lamda 900.
+NIR IR and Mid-range.
+FTIR spectra of the compounds were recorded as KBr-pellets within the range 4000-400cm-1 using a Perkin-Elmer 16PC FTIR spectrometer.
+Far FTIR spectra were recorded within the range 600-200cm-1 on a Perkin-Elmer System 2000, spectrometer using polyethylene pellets at Institute of Applied Synthetic Chemistry, Vienna University of Technology.
+Analyses of the metals in the complexes were carried out by the dissolution of the solid complex in concentrated HNO3, neutralizing the diluted aqueous solutions with ammonia.
+The metal content of the solutions were then titrated with EDTA [23].
+0.1g of uranyl complex was placed in a clean and dry weighed crucible and ignited on Bunsen flame for 15min.
+After that, the crucible was ignited in a muffle oven and heated at 1000°C until constant weight for about 2h.
+The residue was cooled and weighed again as U3O8.
+Mass spectra measurements were carried out on a Shimadzu-GC-MS-QP, mass spectrometer model 1000 EX using a direct inlet system, at 220°C and 70eV in the Micro Analytical Center, Cairo University, Egypt.
+1H NMR spectra of the ligands and UO2(IV) complexes, as solutions in DMSO-d6, were recorded on a Bruker WP 200 SY, spectrometer at room temperature using TMS as an internal standard, at national research center, Giza, Egypt.
+Magnetic susceptibilities of the complexes were measured at room temperature using a Johnson Matthey, Alfa Products, model MKI magnetic susceptibility balance.
+The effective magnetic moments were calculated from the expression μeff.=2.828 (χM·T)1/2 B.M., where χM is the molar susceptibility corrected using Pascal's constants for the diamagnetism of all atoms in the compounds [24].
+Molar conductivities were measured in DMF solutions of the complexes (10-3M) using a model LBR, WTWD-812, Weilheim Conductivity meter fitted with a LTA100 cell.
+Synthesis of the Schiff base, HLa-Maf and H2Lb-Daf
+The Schiff base, HLa-Maf and H2Lb-Daf ligands were prepared by the addition of monoacetyl ferrocine, Maf, (1.00g, 4.38mmol) in ethanol (20mL) to 2-aminobenzenthiol (0.548g, 4.38mmol) in a molar ratio 1:1, (For details see Supplementary material) The species H2Lb-Daf was synthesized in the molar ratio, 1:2 by the addition of 1,1′-diacetyl ferrocine, Daf, (1.00g, 3.70mmol) in ethanol (20mL) to (1.00g, 3.70mmol) (2-aminobenzenthiol).
+The solutions were refluxed for 3h.
+Brown (HLa-Maf) or dark orange (H2Lb-Daf) crystals were formed on cooling the solutions slowly to room temperature.
+The precipitates were collected by filtration, washed with ethanol then diethylether and finally air-dried.
+The yields were 68.97%, m.p.
+246°C for HLa-Maf and 62.46%, m.p.
+234°C for H2Lb-Daf.
+Synthesis of the transition metal complexes of the Schiff base
+Reaction of the Schiff base ligand HLa-Maf with ruthenium(III), oxovanadium(IV) and dioxouranium(VI) ions in molar 1:1 and 2:1 afforded the corresponding stoichiometry transition metal complexes.
+On the other hand, mono and binuclear complexes for H2Lb-Daf were obtained in its binegative form in the molar ratio 1:1 and 1:2 (H2Lb-Daf: metal).
+One example for the detailed preparations is given for each method to obtain mono- or binuclear metal complex in acyclic or cyclic geometry.
+For the preparation of the VO2+, complex, 0.1g of sodium acetate was added as a buffering agent to raise the pH medium.
+Synthesis of transition metal complexes 1 and 4
+A solution of Ru(III) (2.00g, 9.64mmol) in ethanol (40mL) was added gradually to a solution of the corresponding amount of Schiff base, HLa-Maf (3.23g, 9.46mmol), i.e. in the molar ratio, 1 metal: 1 HLa-Maf and to (6.46g, 6.20mmol) for (HLa-Maf)2 in ethanol (20mL), i.e. in the molar ratio, 1 metal: 2(HLa-Maf).
+The solutions were stirred for 30min and heated under reflux for further 3h.
+The precipitate was formed after cooling to room temperature.
+The precipitate was filtered off, washed with ethanol, and then diethyl ether and finally air dried.
+The yields were 58.76%, m.p.>250°C and 65.43%, m.p.>250°C for, 1[Ru(La-Maf)(Cl)2(H2O)2]·H2O and (4) [Ru(La-Maf)2(H2O)2]·H2O·Cl complexes, respectively (For details see Supplementary material).
+Synthesis of the transition metal complexes 7 and 11
+A solution of Ru(III) (1.00g, 4.82mmol) in ethanol (40mL) was added gradually to solution of the corresponding amount of Schiff base, H2Lb-Daf (2.33g, 4.82mmol), i.e. in the molar ratio, 1 metal: 1 H2Lb-Daf and to (1.167g, 2.41mmol) for (H2Lb-Daf)2 in ethanol (20mL), i.e. in the molar ratio, 2 metal: 1 H2Lb-Daf.
+The solutions were stirred for 30min and heated to reflux for 3h.
+The precipitate was formed after cooling to room temperature.
+It was filtered off, washed with ethanol, and then diethylether and finally air dried.
+The yields were 54.82%, m.p.>250°C and 58.46%, m.p.>250°C for (7)[Ru(Lb-Daf)(Cl)(H2O)]H2O and (10) [Ru2(Lb-Daf)(Cl)4(H2O)2]·H2O complexes, respectively (For details see Supplementary material).
+Biological studies
+In vitro antibacterial activity studies were carried out using the standardized disc-agar diffusion method [25] to investigate the inhibitory effect of the synthesized ligand and complexes against Gram-positive bacteria, such as S. aureus (ATCC25923), Gram-negative bacteria: as P. fluorescens (S97) and F. oxysporum as a kind of fungi.
+The antibiotic chloramphencol was used as standard reference in the case of Gram-negative bacteria and cephalothin was used as standard reference in the case of Gram-positive bacteria and cycloheximide was used as standard antifungal reference.
+An inhibition zone diameter indicates that the tested compounds are active against the used kinds of the bacteria and fungus.
+The tested compounds were dissolved in DMF (which have no inhibition activity), to get concentrations of 2 and 1mgmL-1.
+The test was performed on medium potato dextrose agar (PDA) which contains infusion of 200g potatoes, 6g dextrose and 15g agar [26,27].
+Uniform size filter paper disks (3 disks per compound) were impregnated by equal volume (10mL) from the specific concentration of dissolved tested compounds and carefully placed on incubated agar surface.
+After incubation for 36h at 27°C in the case of bacteria and for 48h at 24°C in the case of fungi, inhibition of the organisms, which evidenced by clear zone surround each disk, was measured and used to calculate mean of inhibition zones.
+The activity of tested compounds was categorized as (i) low activity=mean of zone diameter is ⩽1/3 of mean zone diameter of control, (ii) intermediate activity=mean of zone diameter ⩽2/3 of mean zone diameter of control and (iii) high activity=mean of zone diameter >2/3 of mean zone diameter of control.
+The studies are carried out at Faculty of Agriculture, Department of plant Pathology, Al-Azhar University.
+Results and discussion
+The physical and analytical data of the Schiff base ligands and their corresponding transition metal complexes are listed in Table 1.
+Comparing the IR spectra of the complexes with the spectra of the free ligands elucidated the mode of binding of the Schiff bases to the metal ions.
+These complexes are investigated also by elemental analyses and different spectroscopic methods.
+Characterization of Schiff bases ligands, HLa-Maf and H2Lb-Daf
+The Schiff base ligands, HLa-Maf and H2Lb-Daf, were characterized by elemental analysis, 1H NMR spectroscopy and UV-Vis spectrophotometer in DMF and in the solid state by FT-IR.
+The vibrational frequencies and tentative assignments for free HLa-Maf and H2Lb-Daf ligands and their transition metal complexes were recorded and are given in Table 2.
+Three important findings in the infrared spectrum of ligands will be discussed.
+The first one is the disappearance of the stretching frequencies of υ(NH2) bands which observes at 3285 and 3267cm-1 in 2-aminobenzenthiol as well as stretching frequencies of carbonyl groups, υ(CO) (ca.
+1723cm-1) of mono or diacetyl ferocine as a result of the condensation reactions [28,29].
+The second feature is the appearance of two intense band at 1655cm-1 and 1573cm-1 for HLa-Maf and at 1663 and 1567cm-1 for H2Lb-Daf, corresponding to the azomethine groups, υ(CN) and υ(CC), stretching frequencies respectively.
+The medium broad band at the region 2586cm-1 can be assigned to SH group.
+The broadening may be due to the intermolecular hydrogen bonded N⋯HS [30,31].
+The characteristic frequencies of the ferrocenyl moiety in the spectra of the two Schiff base ligands were observed near 3068, 1410 and 1156cm-1 and are assigned to a CH stretching band, asymmetric CC vibration and asymmetric ring-breathing vibration, respectively.
+The two bands located at 1014 and 823cm-1 are assigned to parallel and perpendicular CH bands, respectively.
+The remaining characteristic band at 484cm-1 can be assigned to the Fe-Cp stretching frequency [32,33].
+1H NMR spectra of HLa-Maf and H2Lb-Daf confirm the absence of NH2 group (ca.
+4.92) as a result of the condensation of the amine with the carbonyl groups.
+The signals due to methyl groups (CH3), thiol group (SH) and phenyl ring are observed at 2.23, 3.52 and (6.47-7.68) for HLa-Maf and at 2.18 and 4.48 and (6.48-7.77) for H2Lb-Daf, respectively [34].
+The spectra of HLa-Maf, Schiff base ligand, display signals due to α and β the protons of the cyclopentadienyl rings at 4.47 and 4.41 assigned to [m, 4H, C5H4] and resonance at 4.06 for [s, 5H, C5H5-Cp].
+On the other hand, cyclopentadienyl rings of H2Lb-Daf, displayed multiplets signals at 4.82, 4.78, 4.61 and 4.45 due to α, α′, β and β′-protons of the cyclopentadienyl rings. [35,36].
+Characterization of the complexes of the Schiff base ligand
+Infrared spectra
+Infrared spectra of the complexes were recorded to confirm their structures.
+The vibration frequencies and their tentative assignments for HLa-Maf and H2Lb-Daf ligands and their transition metal complexes are listed in Table 2.
+The assignments were aided by comparison with the vibrational frequencies of the free ligand and their related compounds.
+There are four main features in the infrared spectra of the complexes.
+The first one is the shift of the stretching frequencies of the azomethine (CN) group of the transition metal complexes to lower frequencies in the range, 1640-1655cm-1, compared with free HLa-Maf and H2Lb-Daf, due to the coordination of the azomethine moiety, ν(CN) vibration [37].
+Further evidence of the bonding is given by the observation of new bands in the spectra of the metal complexes of medium or weak intensity at the region 467-435cm-1 due to ν(MN) stretching vibrations supporting the involvement of the nitrogen atom of the azomethine group via coordination [38,39].
+The second feature is the disappearance of the band assigned to the stretching vibration of SH group upon complexation.
+This indicates the deprotonation of the thiol groups due to coordination with the metal ions [40].
+This is further supported by the band around 752-746cm-1 in the metal complexes due to ν(CS) and is inconsistent with the appearance of new weakly to medium bands in the region 356-382cm-1, which could be assigned to the stretching frequencies of ν(MS) bands, respectively, confirmed that, the chelation to the metal ions is achieved thiol-sulphur atoms [41].
+The third feature of the spectra of some complexes is the appearance of a broad band between the ranges 3300-3500cm-1, which could be assigned to the stretching frequencies of the hydroxyl group of either crystalline or coordinated water molecules associated with the complex [42].
+This result is confirmed by the elemental analysis.
+The later feature in the coordination behavior is associated with the anions, nitrate, chloride and acetate, respectively.
+For acyclic and macrocyclic ruthenium complexes, 1, 4, 7 and 10.
+The coordination behavior of chloride ions were investigated by the addition of AgNO3 solution for Ru(III) complexes, the chloride ions are detected only in complex 4, [Ru(La-Maf)2(H2O)2]·H2O·Cl, where its ions were precipitated.
+It is worth mentioning that, the absorptions at 326, 346 and 335cm-1 in the spectra of Ru(III) complexes 1, 7 and 10 were attributed to ν(RuCl) vibrations [43].
+The oxovanadium complexes, 2, 5 and 8 exhibit a strong band around 978-985cm-1 .This reflects the high π-band order of vanadium to oxygen link of VO+2 and indicate the presence of monomeric oxovanadium species [44,45].
+On the other hand, for complex 11, a high intensity band at 990cm-1 is observed.
+This could be attributed to dimerisation via V=0 which would be reflected by shifting the respective vibration [46,47].
+Bands in the region of 1575cm-1 and 1335cm-1 region for [VO(La-Maf)(OAc)(H2O)]·H2O, 2, are assigned to vas(COO) and vsym(COO)] respectively.
+The difference between the frequencies of the two bands is suggestive of mono-dentate behavior of acetate moiety [48].
+Also, the IR spectra of all the UO2(VI) complexes display a strong band around the ranges, 950-910 and 890-897cm-1 which are assigned to the νas(UO2) and νs(UO2) modes, respectively.
+This observation suggests that the OUO moiety is virtually linear in these complexes [49,50].
+Additionally it has been observed that, dioxouranium(VI) complexes 3 and 12, exhibited two bands at 1384 and 852cm-1, respectively, due to the free nitrate [51,52].
+Concluding from the infrared data, HLa-Maf acts as monobasic bidentate ligand and coordinates to metal ions via the azomethine and thiol atoms.
+H2Lb-Daf, act as tetradentate binegative ligand through similar coordination centers.
+The corresponding frequencies of the ferrocenyl moiety of the complexes appeared at nearly the same position, which indicates that the cyclopentadienyl ring of the ferrocene is not directly coordinated to the metal ion.
+Electronic spectra, magnetic moments and molar conductivity measurement
+The electronic spectra of the ligands and their transition metal complexes in the solid state with their assignments, magnetic moment and molar conductivity measurement are given in Table 3.
+The electronic spectral data for HLa-Maf and H2Lb-Daf ligands, show mainly three absorption bands at (267, 324 and 462nm) for the former and (260, 315 and 453nm) for the later.
+The first one is assigned to the transition of cyclopentadienyl rings in the two ligands [53,54].
+The second one, is due to π-π*, transition within the azomethin (CN) group which is shifted to lower absorption on coordination, as a result of the coordination of the nitrogen atom of the azomethin, This shift can be attributed to overlap of the central-metal-d-orbital with the p-orbital of the donor atom.
+The later broad absorption band is assigned to charge transfer from iron to either the non-bonding or the antibonding orbitals of cyclopentadienyl rings.
+These absorption bands become weaker without remarkable shift on complex formation [33].
+The electronic transition spectra of the ground state of Ru(III) is 2T2g, and the first excited doublet levels in the order of increasing energy are, 2A2g and 2A1g which arise from the t2g4eg1 configuration.
+In a d5 system, and especially in Ru(III) which is a relatively strong oxidizing agent, charge transfer bands are prominent in the low-energy region and obscure the weaker bands due to the d-d transition.
+The electronic spectra of Ru(III) complexes 1, 4, 7 and 10 exhibit mainly three bands at the ranges, (352-432nm), (571-563nm) and (643-663nm), respectively.
+The first band is assigned to the d-d transition (2T2g→2A2g), while the second intense band is due to M-Lπ* transition (2T2g→2Eg).
+The last one is attributed to the inter-ligand transition or to MLCT bands (2T2g→2A1g).
+For the macrocyclic complex, [Ru2(Lb-Daf)(Cl)4(H2O)2]·H2O, 10, the magnetic moment is lower than expected (1.53B.M).
+This behavior can be explained by the presence of partial coupling interaction between the two electrons of the ruthenium ions in the complex [55].
+The positions of the absorption bands as well as the magnetic susceptibility measurements indicate the presence of one unpaired electron and confirming a low-spin octahedral configuration Molar conductance indicate the neutral nature of complexes 1, 7 and 10 value at 36, 19 and 35Ω-1cm2mole-1 respectively, while complex 4, [Ru(La-Maf)2(H2O)2]·H2O·Cl, in agreement with the found electrolytic behavior (103Ω-1cm2mole-1) [56].
+The reflectance spectrum of each of the oxovanadium complexes, 2, 8 and 11 shows well-defined two bands at 518 and 724 for the former, 512 and 736nm for the second, 523 and 743nm for latter assigned to 1B2→2E and 1B2→2A1 in a square-pyramid structure configuration with effective magnetic moments 1.71, 1.74 and 1.56B.M.
+for complex, 2, 8 and 11 respectively [57], while for complex 5, absorption at 733 and 547nm can be assigned to 2B2→2E(ν1) and 2B2→2B1(ν2) corresponding to distorted octahedral geometry [58].
+For the cyclic complex, [(VO)2(Lb-Daf)(H2O)2].
+2H2O 11, its diamagnetic character offers a strong evidence for the presence of a V-V bond.
+This behavior can be explained by the presence of a strong metal-metal coupling interaction between the two parallel oxovandium ions in the complex.
+The unpaired electron in the 3dxy of vanadium ion is overlapped with the dxy orbital of the adjacent vanadium atom, which lead to direct spin-spin coupling [59].
+The conductivity measurements indicate the non-electrolytic nature of complexes 2, 5, 8 and 11.
+Complexes of (UO2)(VI) 3, 6, 9 and 11 are of diamagnetic nature, so there is no significant magnetic moment.
+The electronic spectra of the diamagnetic dioxouranium(VI) complex, show mainly two bands where, the absorption is tailing into the visible region, which produces the intense orange color.
+The first band is observed at the range 453-423nm corresponding to charge transfer from equatorial donor atoms of the ligand to the uranyl ion.
+The second band is observed at the range 532-545nm due to electronic transitions from apical oxygen atom to the f-orbitals of the uranyl atom characteristic of the uranyl moiety [58].
+Molar conductance values in DMF were 112 and 136Ω-1cm2mol-1, for 3, [UO2(La-Maf)(H2O)2]·NO3 and 12, [(UO2)2(Lb-Daf)(H2O)4]·2NO3 complexes, respectively, indicating the electrolytic nature for these compounds, on the other hand, for complex 6, [UO2(La-Maf)2]·3H2O and 9, [UO2(Lb-Daf)]·2H2O, the molar conductance value was 37Ω-1cm2mol-1 for the former and 42Ω-1cm2mol-1 for the later, indicating the non-electrolytic nature of theses complexes.
+With the aid of the elemental analysis and Infrared-spectra, the proposed configuration is expected to be a distorted octahedral for (UO2)(VI) complexes [59].
+1H NMR spectra
+1H NMR spectra of the free ligands HLa-Maf and H2Lb-Daf and their UO2(VI) complexes have been studied in DMSO-d6 without and with D2O and are characterized and summarized with their assignments in Table 4.
+The proton resonance of the thiol groups (3.51ppm) for HLa-Maf ligands and the signals of the thiol groups for H2Lb-Daf (3.48ppm) disappeared on adding D2O, which indicate that these protons are acidic.
+This observation has been further supported by the absence of resonances for SH protons in the spectra of [UO2(La-Maf)(H2O)2]·NO3, 3 and [UO2(Lb-Daf)]·2H2O, 9 complexes, indicates deprotonation of the SH group of the Schiff bases and coordination of the sulfur atoms through the coordination to the metal atom [62].
+Moreover, in the spectra of diamagnetic UO2(IV) complexes 4 and 10 the protons of methyl group bonded to the azomethine groups are shifted downfield compared to that of the free ligand as a result of chelation of azomethine group to metal ion, indicate that, the chelation of the ligand with the metal ions involves the nitrogen atom of the ligands.
+No appreciable change was observed in the chemical shift of the ferrocenyl or of the aromatic protons of the Schiff bases moieties on complexation. [63,64].
+Finally, from the interpretation of elemental analysis, spectral data and magnetic studies as well as the thermal analysis and molar conductivities measurements.
+It is possible to draw up the tentative structures of the transition metal complexes.
+Figs.
+1 and 2, depicts the proposed structures of the metal complexes.
+Biological studies
+The Schiff base, HLa-Maf and H2Lb-Daf and their metal complexes were evaluated for antimicrobial activity against one strain Gram-positive bacteria S. aureus and P. fluorescens as Gram-negative bacteria as well as one pathogenic fungus, as F. oxysporum The results of the biological studies of the ligand and the complexes are shown Table 5.
+The data are compared with standard antibiotics, chloramphencol as Gram-negative and cephalothin as standard reference for Gram-positive bacteria.
+Cycloheximide was used as antifungal standard reference.
+The in vitro antibacterial and antifungal activities demonstrated that complexes have higher antimicrobial activity in comparison with that of the ligand.
+According to Tweedy's theory [65], chelation reduces the polarity of the metal atom because of partial sharing of its positive charge with a donor group and the possible π-electron delocalization over the whole chelate ring [66].
+Such a chelation could enhance the lipophilic character of the central metal atom, which subsequently favors its permeation through the lipid layers of the cell membrane and blocking the metal binding sites on enzymes of microorganism [67,68].
+There are other factors which also increase the activity, such as solubility, conductivity and bond length between the metal and the ligand.
+It is worth to mention that, ligands showed highly biological activity against the tested strains compared to the complexes.
+Structure activity relationships showed that complexes 4,[Ru(La-Maf)2(H2O)2]·H2O·Cl, 5[VO(La-Maf)2H2O]·H2O and 6 [UO2(La-Maf)2]·3H2O, of higher microbial activities.
+It may be due to the presence of two ferrocene ring, which might increase the lipophilic character of the molecules, which facilitate the crossing through the biological membrane of the microorganisms and thereby inhibit their growth.
+The result revealed also that the binuclear complexes enhances the antimicrobial activity rather than the mononuclear complexes [69,70].
+Conclusion
+The Schiff bases derived from the condensation between mono and diacetyl ferrocine and 2-aminobenzenthiol in different molar ratio, lead to series of mono and binuclear complexes of varying geometries.
+HLa-Maf acts as monobasic bidentate ligand while H2Lb-Daf acts as dibasic tetradentate chelate.
+From the infrared spectra, the chelation of the metal ions to the ligands occurs through the sulfur of the thiol and the nitrogen atoms of the azomethine groups of the ligands.
+The nitrate ions, acetate, chloride, crystalline or coordinated water molecules satisfy the other coordination sites to complete the geometry around the central metal ion.
+The spectral, magnetic studies and molar conductivity measurements of the metal complexes were used to determine the type of coordination and the geometry around the central metal ion.
+Acyclic and cyclic complexes exhibit either square pyramidal or octahedral.
+Synthesized Schiff base and their corresponding metal complexes were tested for the growth inhibitory activity against phytopathogenic bacteria and fungi, including some which are antibiotic resistant, makes it interesting for a practical use as antimicrobial agent.
+It is obvious that the activity become more pronounced when two feroccine rings are coupled and metal complexes are more toxic against bacteria and fungi in comparison to their parent compounds.
+Acknowledgement
+Thanks for financial support are due to the Austrian Science foundation (Project 19335-N17).
+Supplementary material
+Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.saa.2013.06.078.
+Supplementary material
+Supplementary data 1
+

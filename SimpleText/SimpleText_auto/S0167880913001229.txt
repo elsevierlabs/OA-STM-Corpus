@@ -1,0 +1,254 @@
+Sink or source-The potential of coffee agroforestry systems to sequester atmospheric CO2 into soil organic carbon
+
+Highlights
+•
+SOC stocks decreased by 12.4% in Costa Rica and 0.13% in Nicaragua after establishment of coffee AFS.
+•
+SOC stocks increased in the top 10cm of soil; greater reduction occurred at 20-40cm.
+•
+Organic management caused a greater increase in 0-10cm SOC but did not influence reduction at depth.
+•
+Shade type effects on SOC were smaller; no significant difference between shaded and unshaded coffee.
+•
+SOC stocks tend to converge on a level determined by site environment during establishment.
+Abstract
+Current carbon accounting methodologies often assume interactions between above-ground and below-ground carbon, without considering effects of land management.
+We used data from two long-term coffee agroforestry experiments in Costa Rica and Nicaragua to assess the effect on total soil organic carbon (SOC) stocks of (i) organic versus conventional management, (ii) higher versus moderate agronomic inputs, (iii) tree shade types.
+During the first nine years of coffee establishment total 0-40cm depth SOC stocks decreased by 12.4% in Costa Rica and 0.13% in Nicaragua.
+Change in SOC differed consistently amongst soil layers: at 0-10cm SOC stocks increased by 2.14 and 1.26MgCha-1 in Costa Rica and Nicaragua respectively; however much greater reduction occurred at 20-40cm (9.65 and 2.85MgCha-1 respectively).
+Organic management caused a greater increase in 0-10cm SOC but did not influence its reduction at depth.
+Effects of shade type were smaller, though heavily pruned legume shade trees produced a greater increase in 0-10cm SOC than unpruned timber trees.
+No significant differences in SOC stocks were found between shaded and unshaded systems at any depth and SOC was poorly correlated with above-ground biomass stocks highlighting poor validity of "expansion factors" currently used to estimate SOC.
+SOC stock changes were significantly negatively correlated with initial SOC stock per plot, providing evidence that during establishment of these woody-plant-dominated agricultural systems SOC stocks tend to converge towards a new equilibrium as a function of the change in the quantity and distribution of organic inputs.
+Therefore it cannot be assumed that tree-based agricultural systems necessarily lead to increases in soil C stocks.
+While high inputs of organic fertiliser/tree pruning mulch increased surface-layer SOC stocks, this did not affect stocks in deeper soil, where decreases generally exceeded any gains in surface soil.
+Therefore site- and system-specific sampling is essential to draw meaningful conclusions for climate change mitigation strategies.
+
+Introduction
+Soils are the greatest terrestrial C stock and hold an estimated 1462-1548Pg of organic C to 1m depth (Batjes, 1996).
+However, surface soils (0-30cm depth), which store almost half of soil organic carbon (SOC) and up to three times the C stored above-ground in vegetation, are considered to be the most vulnerable to loss as CO2 emissions due to climatic and land-management change, highlighting a major threat to climate regulation (Powlson et al., 2011a).
+At the same time, it has been widely recognised that practices which maintain SOC stocks are important in ensuring the sustainability of soil functions (Lal, 2004; Nair et al., 2009a; Powlson et al., 2011a).
+Identifying how different agricultural management practices or changes in land-use create SOC sinks (accumulating additional C), act as C sources (emitting C) or maintain stocks at current levels is imperative in identifying effective strategies for land-based climate change mitigation.
+Agriculture that is established on land depleted in SOC will have potential to sequester C.
+However, some practices such as addition of organic matter that may increase SOC can also increase N2O emissions.
+In addition, it is not always clear how farm annual GHG flux may be altered by change in SOC stock, as this tends to occur slowly and with an uncertain trajectory.
+Therefore, assessment of how best to achieve climate change mitigation through agriculture needs to consider both short-term changes in GHG emissions from soil and longer-term changes in SOC stocks (Lal, 2004; Smith et al., 2008).
+To get a whole-system perspective this should be combined with assessment of changes in other C pools, such as above- and below-ground biomass and litter (e.g. of shade trees or crops such as coffee).
+Agroforestry systems (AFS) have been recognised for their potential to sequester large amounts of C above ground (and in some cases below ground into SOC) (Albrecht and Kandji, 2003; Nair et al., 2009a; Soto-Pinto et al., 2010; Verchot et al., 2007).
+Nair et al. (2009a) have suggested an area of more than 1000million (M) ha globally to be currently managed under AFS, including silvopastoral systems, with 630Mha more estimated to be suitable for conversion of unproductive croplands and grasslands to AFS (IPCC, 2000).
+This suggests a great potential for further above- and below-ground C sequestration.
+It is commonly believed that AFS enhance SOC stocks compared with tree-less annual crop systems (Nair et al., 2009b).
+However, much of this evidence is based on changes in the SOC of surface soils and little has been published on the effects of trees on stocks deeper in the soil.
+Understanding of the soil processes involved is still limited, making it difficult to predict accurately changes in SOC over time (Nair et al., 2009b).
+Much evidence of increases in SOC stocks after changes in agricultural management is based on extrapolation from rates of C sequestration by growing plants using weak evidence about the processes by which this might influence SOC stocks (which can be positive or negative (Sanderman and Jeffrey, 2010)).
+As a result of the complexity of assessing long-term SOC change, it had until recently been largely excluded from carbon accounting within land-based projects for international carbon markets, which tended to focus only on above-ground C as it is relatively easy to measure and model (IPCC, 2006).
+Recently, SOC has been included as a C pool within respected accounting methodologies, e.g.
+in four out of the seven used for small-scale afforestation and reforestation under the CDM pool (UNFCCC, 2011).
+However, all except one use a default value of an increase in SOC of 0.5MgCha-1year-1 for a C accounting period of 20 years following afforestation or reforestation of land.
+Similarly, the UNFCCC (2011) methodology specifies accounting by means of an assessment tool which is based on climatic default values that only allow for an increase in SOC, with a maximum value of 0.8MgCha-1year-1.
+Although initial losses of SOC through site preparation are recognised, the potential for reduction of SOC due to tree establishment is not accounted for.
+Use of these default values is rarely replaced by monitoring of actual changes in SOC stocks ex post, which might, in fact, reveal longer-term decreases in SOC (Bashkin and Binkley, 1998).
+Coffee production systems occupy over 10 million ha globally (FAO, 2011) so their design and management have potentially major importance for land-based C flux and storage.
+The aim of this study was to advance understanding of the extent to which producing coffee with shade trees (coffee agroforestry systems - CAFS) change SOC stocks and whether this provides a viable climate change mitigation strategy.
+Major variables in CAFS as implemented by farmers in Central America that we hypothesised would affect SOC stocks are: (i) the use of shade trees versus full-sun, (ii) amongst shade trees the use of timber species (unpruned, therefore predominantly providing only a litter input above-ground) versus nitrogen-fixing species that are frequently and heavily pruned; (iii) conventional chemical fertilisation versus organic fertilisation; (iv) the level at which these inputs are applied.
+By using experimental comparison of these specific variations amongst types of CAFS, this study sought to improve our understanding of the C cycle, the effects of coffee shade management on sequestration of C in soil relative to that in above-ground biomass, and the extent to which SOC should be taken into account in coffee-farm C projects considering the relative merits of alternative land-use C-accounting methods.
+The specific objectives were to investigate (a) how the addition and management of trees in agricultural systems change total SOC stocks through the soil profile and (b) how agronomic management affects SOC stocks in comparison with the effects of the trees.
+We evaluated these by assessing the differences in SOC firstly between shaded and un-shaded (full sun) coffee farming systems, and the effect that tree pruning has within shaded systems, and secondly between conventional and organic management, each with different input levels.
+Methods and materials
+Site description
+The research was conducted at two field sites in Costa Rica and Nicaragua, chosen to represent low altitude coffee growing regions, both managed by the 'Centro Agronómico Tropical de Investigación y Enseñanza' (CATIE).
+Experiments were established in both sites at the end of 2000.
+The Costa Rica site was located in Turrialba (9° 53′ 44″ N, 83° 40′ 7″ W) at 685m above sea level.
+The climate is humid tropical with no marked dry season: annual precipitation is 2600mmyear-1 and mean annual temperature is 22°C (Haggar et al., 2011).
+The soils have been classified as Inceptisols (Typic Endoaquepts) and Ultisols (Typic Endoaquults) under the USDA Soil Taxonomy classification system (Soil Survey Staff, 1999) and a water table that fluctuated up to 50cm depth (prior to drainage of the site at the time of establishing the experiment).
+The former land-use was sugar cane cultivation.
+The cultivar Coffea arabica L.
+'Caturra' was then planted in 2000.
+The Nicaragua site was located in Masatepe (11° 53′ 54″ N, 86° 08′ 56″ W) at 455m above sea level.
+The climate is semi-dry tropical with a distinct rainy season between May and November: mean annual rainfall is 1386mm and mean annual temperature is 24°C (Haggar et al., 2011).
+The soils have been classified as Andisols (Humic Durustands) or Andosols (Humic Haplustands) under the USDA Soil Taxonomy classification system (Soil Survey Staff, 1999).
+The former land-use was long-established shaded coffee.
+The cultivar C. arabica L.
+'Pacas' was then planted in 2001.
+At the Costa Rican site Ultisols were present in two of the three experimental blocks and are distinguished by the accumulation of clay in the B-horizon.
+Inceptisols were present in the third experimental block; they are distinguished by an absence of clay.
+High cation-exchange capacity (>30cmol(+)kg-1) was common throughout the site.
+The soils of the Nicaraguan site were commonly associated with low bulk densities, high amorphous mineral content, high retention of phosphorus, high organic matter content and high water retention.
+A particular feature of the soils in this region is the presence of a material locally known as 'talpetate'.
+This is a horizon of indurated volcanic tuff, which occurs between 15cm and 1m depth and can pose difficulties for agriculture due to its durability and the associated difficulties of water flow and root penetration.
+For the experiment, all of the existing coffee plants were uprooted and removed and the shade trees were felled and all trunk and branch material removed.
+Remaining leaf and fine branch material and root systems of the shade trees were left on-site to decompose.
+Experimental design
+The experiments were set up to study the ecological basis of efficiency in coffee production.
+A main aim was to compare organic and conventional coffee production systems under various types of shade.
+The main-plot treatments (on average 0.4ha) at each site were full sun (not agroforestry) and agroforestry with four different individual species or species combinations of shade tree (Table 1) and were allocated at random.
+The four treatments applied to subplots (with a size of 0.06ha in Nicaragua, 0.08ha in Costa Rica) were coffee management systems combining the two different types (conventional and organic), each with two different levels of nutrient and pest management inputs (intensive and moderate) (Table 2) and were allocated at random.
+The design was a randomised block with three blocks per site (1.8ha each in Costa Rica and 1ha in Nicaragua), each containing one replicate of each main-plot/subplot treatment combination; not all subplot treatments were represented within main-plot treatments as some combinations are not representative of real farming systems (e.g. full sun with organic management, Table 1).
+Shade trees were planted in 2000 at a density of 416 and 667treesperha-1 in Costa Rica and Nicaragua respectively but have since been progressively thinned and managed to achieve a uniform shade level (Table 1).
+Tree management
+The tree management regime varied according to species; at both sites timber tree shade was primarily managed through periodic thinning of trees to reduce tree density (Table 1).
+Across all four management treatments trunks and major branches of thinned and pruned timber trees were removed from the plots whereas leaf and small branch material was left.
+Trees of two of the leguminous species, Erythrina poeppigiana in Costa Rica and Inga laurina in Nicaragua, were pruned both for the management of shade level and to provide input of organic matter (rich in N) input to the soil.
+In Costa Rica, in the conventional intensive (CI) subplot treatments with E. poeppigiana, the trees were pruned at a height of 1.8-2.0m with the removal of all branches above this height (pollarding).
+This practice is frequently found in conventional high-intensity coffee agroforestry systems in Costa Rica.
+In the other three subplot treatments, however, E. poeppigiana trees were managed according to the recommendations of Muschler (2001) with pruning at a height of around 4m and a minimum of three branches left for partial shade cover.
+In Nicaragua, I. laurina was pruned to create a homogeneous canopy cover of approximately 40%, through annual pruning of branches at any height.
+Coffee bushes were pruned according to standard coffee agronomic practice, to the same level across all treatments, and all the pruned material was also left in the plots.
+Estimation of soil organic carbon stocks
+Soil was sampled in August to October 2001 and in February and March 2010 (10 years after the start of the experiment).
+The soil sampling design was systematic using a 7.6cm diameter metal auger with each sample divided into three depths (0-10, 10-20, and 20-40cm).
+In each subplot samples were taken at three different positions relative to shade trees within two different coffee rows: (a) within 1m of the shade tree stem, (b) half way between two shade trees within the same coffee row, and (c) half way between sampling points (a) and (b).
+For each of these positions three samples were taken at different distances from the coffee row: (i) within the coffee row, (ii) between adjacent coffee rows, and (iii) half way between positions (i) and (ii).
+Separately for each of the three depths, all 18 of the samples collected in each subplot were thoroughly mixed and then a single composite sample was taken for analysis of C content.
+The composite samples for each depth for each subplot in 2001 and 2010 were air dried on the same day as collection from the field.
+They were then ground and sieved through a 2-mm sieve to remove larger pieces of root material and the stone fraction.
+To measure bulk density, in each site a separate undisturbed core of soil 5cm diameter and 5cm deep was collected in 2010 in the centre of each of the subplots for each of the three designated sampling depths and oven dried to constant dry mass at 105°C, sieved to separate the fine fraction from the stones (>2mm), and then both fractions were weighed (calculation given in Supplementary Information).
+In 2001 bulk density was measured only in the Costa Rican site, in each subplot at the 0-10cm soil depth.
+Differences in 0-10cm depth soil bulk density between 2001 and 2010 across the experiment in Costa Rica (where drainage had been installed and land-use had been changed from sugar cane to shaded coffee) were small (0.84 and 0.86g/cm3 respectively) and were shown by a t-test to be far from significant (p=0.41).
+In the Nicaraguan site no drainage had been installed and the land-use (shaded coffee) was not changed at the initiation of the experiment.
+Therefore, we extrapolated from the Costa Rican result to assume a similar lack of change in soil bulk density from 2001 to 2010 in the Nicaraguan experiment.
+Changes in soil bulk density associated with land use change and agricultural practice are found to be much greater in surface than deeper soil levels (Wen-Jie et al., 2011).
+Therefore, we made our calculations of C stock per area for both years were made using the 2010 bulk density data (Table S1) collected in both countries separately at each of the three soil depths; thus the reported changes in stocks are proportional to the changes in measured C concentration.
+The soil samples from the two countries were analysed for bulk density at the Universidad Nacional Agraria (UNA) in Managua, Nicaragua and at the Soil Laboratories of the Centro Agronómico Tropical de Investigación y Enseñanza (CATIE) in Turrialba, Costa Rica.
+All soil samples were analysed at the latter laboratory for C content using a Thermo Finnegan combustion analyser.
+Statistical analysis
+To test the effect of main-plot shade and subplot coffee management treatments on the changes in SOC stocks 2001-2010 we fitted separate linear mixed effects models for each country using R (R Development Core Team, 2012) with the lme4 package (Bates et al., 2012).
+Main-plot/subplot treatment combinations were fitted as a factor with 15 levels for each country.
+Results were assessed using the Akaike Information Criterion (AIC) (Burnham and Anderson, 1998), and the model presenting the smallest AIC selected.
+This analysis was carried out on the measured SOC stocks between the three sampled depths (0-10, 10-20 and 20-40cm) and depth was included as a term in the model as the different depths are not independent.
+To elucidate specific treatment effects an ANOVA was carried out on changes in SOC stock for the main-plot/subplot combinations for each depth and country separately using INFOSTAT (InfoStat, 2004).
+Specific contrasts within the ANOVA were developed based on shaded versus non-shaded main-plot treatments, heavily versus lightly pruned treatments, organic versus conventional subplot treatments and a contrast between the two intensities of subplot treatment.
+Bivariate correlation analyses using Pearson's correlation coefficient for parametric data and Kendall's tau correlation for non-parametric data were carried out (separately for each depth) between all combinations of SOC stocks, SOC stock changes, above-ground biomass C stocks, pruning inputs and organic fertiliser inputs.
+These correlation tests were carried out separately for each country with each individual subplot as a replicate using SPSS (vers.
+19).
+Statistical significance is judged as p<0.05 unless otherwise stated in the text.
+The results are presented graphically as SOC stocks in MgCha-1 because this is the form that is of most relevance for carbon accounting, and for assessing the net impact of treatments on ecosystem carbon storage and thus their potential for climate change mitigation.
+Results
+Changes in soil organic carbon (SOC) stocks
+Overall, during the first nine years of coffee establishment total 0-40cm depth SOC stocks decreased by an average of 12.4% in Costa Rica and 0.13% in Nicaragua.
+The best fitting mixed effects model for predicting changes in total SOC stocks for both the experiment in Costa Rica and that in Nicaragua is based on subplot treatments (management type), depths, and the initial C content as fixed effects with random slope effects of the replicate blocks and of main-plot treatments nested within the replicate blocks (the AIC values of this model for Costa Rica and for Nicaragua were respectively 47.2 and 327.8), although for Nicaragua a model based on main-plot treatments instead of subplot treatments was equally as good (AIC=326.3).
+Effects of the individual main-plot and subplot treatments and of soil depth are presented below.
+The inclusion of initial SOC concentrations led to a considerable improvement in the models' prediction: in those subplots with a higher initial SOC concentration there was a greater subsequent reduction in concentration (Costa Rica) or smaller increase (Nicaragua) during the experiments (this result is also addressed below in more detail).
+There was a difference between the experiments in the two countries in the effects of main-plot (shade) and subplot (coffee management) treatments on total SOC stocks (MgCha-1).
+In Costa Rica the ANOVA showed significant (p<0.01) overall effects of both on the change in SOC stock at 0-10cm depth over the 9-year period.
+However, in deeper soil only the shade treatment effect remained significant and there was an additional significant (p<0.01) effect of initial C concentration at the 20-40cm depth.
+In contrast, in Nicaragua the ANOVA showed no significant effects of main-plot treatment or subplot treatment or of initial C concentration at any soil depth.
+Differences between pruned and un-pruned shade tree systems
+The ANOVA contrast of the main-plot full-sun treatment versus all the shaded treatments as a group showed no significant differences in change of SOC stocks at each depth in each country.
+However, in Costa Rica the pruned-legume (E, ET) shade treatments showed significantly different changes in SOC stock compared with the un-pruned shade systems (C, T, FS), at each of the three sampling depths (treatment codes are defined in Table 1).
+Across the treatments there were differences in trend of SOC stocks amongst the soil depths in both countries.
+In Costa Rica, for every shade type there was an increase in SOC at 0-10cm (average 2.14MgCha-1 or 8.5%), a decrease at 10-20cm (average -2.48MgCha-1 or 11.4%) and a large decrease at 20-40cm (average 9.65MgCha-1 or 28.6%) (Fig. 1 and Table S2).
+At 0-10cm the greatest increase was for the two pruned shade types (E, ET) (which (by chance) had lower initial average SOC stocks at the start of the experiment), whereas at both 10-20 and 20-40cm depth the E shade type showed the greatest decreases.
+Therefore, over the whole 0-40cm soil depth there was a similar mean decrease in SOC stock between the two pruned and two un-pruned shade types (9.9 and 9.7MgCha-1 respectively); thus the average SOC stock increased across all treatments by 8.5% in the top 10cm of soil and decreased by 21.8% in the 10-40cm depth.
+In contrast, the surrounding fields in which sugar cane cultivation had continued over the study period lost on average 11% of SOC in the top 10cm of soil but gained around 42% (from 47.3 to 67.3MgCha-1) in the 10-40cm depth.
+In Nicaragua, similar to the results in Costa Rica, in the top 10cm of soil there was an increase in mean SOC stock for every shade treatments (average 1.26MgCha-1 or 2.8%) (Fig. 2 and Table S2).
+However, in contrast to Costa Rica, at 10-20cm depth every shade type showed an increase in mean SOC stock (average 1.38MgCha-1 or 3.8%).
+At 20-40cm depth, the same as Costa Rica, across shade treatments average SOC stock generally decreased (by -2.85MgCha-1 or 4.6%), however this trend was only shown in four out of the five shade treatments.
+Over the whole 0-40cm soil depth there was a decrease in SOC stock during the experiment for three and an increase in two of the shade treatments.
+Therefore, across all the shade treatments there was an overall average decrease in SOC stock in both countries, but it was much smaller in Nicaragua (0.13%) than in Costa Rica (12.4%).
+Changes in soil organic carbon (SOC) stocks with management type (conventional versus organic)
+When the mixed effects model is restricted to the 0-10cm soil layer, the results for the best fitting models in both Costa Rica and Nicaragua include the coffee management (subplot) treatments and the initial C concentration as fixed effects with random slope effects of the replicate blocks and of main-plot treatments nested within the replicate blocks; AICs were 18.2 and 97.7 respectively (compared with 33.0 and 105.6 for models including main-plot treatment and subplot treatment as fixed effects and 37.0 and 99.8 for models based on main-plot treatments only).
+The contrasts within the ANOVA for 0-10cm soil depth SOC stock changes for Costa Rica further support the findings of the mixed effect models, showing a significantly greater increase in SOC stock in the organic than the conventional management treatments (p=0.0001) (Fig. 3).
+The difference between management treatments is likely to be due to the application of organic fertilisers (at up to 11.25Mgha-1year-1), as no significant differences were found between these subplot treatments for total inputs of above-ground biomass to the soil in the form of senescent leaf litter and pruned material (p=0.24).
+Further, there was a positive correlation between the mass of organic fertiliser inputs and changes in 0-10cm depth SOC (r2=0.18, p<0.01).
+Both conventional and organic managements showed a consistent decline in SOC stocks at the two lower soil depths with no significant between-treatment differences (Fig. 3).
+Changes in total 0-40cm depth SOC stock showed no significant correlations with either pruning or organic fertiliser inputs.
+In Nicaragua no significant differences in changes of SOC stock between the organic and conventional treatments were detected for any soil depth.
+Nevertheless, the trends were generally similar to Costa Rica, with a greater increase of SOC stock at 0-10cm depth in the organic compared with the conventional treatment and in the 20-40cm depth a similar decrease in SOC stock between them (Fig. 4).
+In Nicaragua, like Costa Rica, there was a positive correlation between the mass of organic fertiliser inputs and changes in 0-10cm depth SOC (r2=0.07, p<0.05).
+Relationships between above-ground biomass and soil organic carbon stocks
+In Costa Rica there was a highly significant (r2=0.53, p<0.001) negative correlation between SOC stocks in 2001 and the change in SOC stocks between 2001 and 2010 (Fig. 5a), however there was no significant correlation between above-ground C (AGC) stocks and SOC stocks in 2010 (Fig. 5b).
+In contrast, in Nicaragua there was a weaker, though still significant, negative correlation (r2=0.17, p<0.01) between SOC stocks in 2001 and the change in SOC stocks between 2001 and 2010 but a highly significant (r2=0.2, p<0.01) positive correlation between AGC and SOC stocks in 2010 (Fig. 5).
+Changes between 2001 and 2010 in 0-10cm depth SOC stock were not significantly correlated with 2010 AGC in either country (r2=0.01, p=0.29; r2=0.01, p=0.25 for Costa Rica and Nicaragua respectively).
+However, increases in the 0-10cm depth SOC stock were significantly positively correlated with the quantity of organic inputs in every form except for pruning inputs in Nicaragua which were non-significant (fertiliser: r2=0.18, p<0.01; r2=0.07, p<0.05; prunings: r2=0.08, p<0.05; r2=0.001, p=0.31 for Costa Rica and Nicaragua respectively; litter r2=0.07, p<0.05 for Costa Rica only as not measured in Nicaragua).
+The strongest correlation was with organic fertiliser inputs in both countries.
+Discussion
+Do trees help to sequester more C in soil?
+It is important to understand the effects on SOC of change in land use systems or agricultural practices when assessing their potential environmental impact.
+It is widely acknowledged that shifting from natural to managed ecosystems, such as arable cropping, results in a loss of SOC (Powlson et al., 2011b).
+In the present study, the plots with initially higher SOC stocks tended to have greater SOC losses (or smaller gains) during the observed period of coffee system establishment, notwithstanding the major difference between them in shade tree and coffee management treatments (Figs.
+4 and 5).
+This indicates that these systems, with biomass dominated by woody plants and limited soil disturbance after crop establishment, are in a transition towards a new equilibrium between inputs of organic matter and SOC stocks.
+Specifically, in Costa Rica the change in land-use from long-term arable sugar cane agriculture to an agroforestry system with perennial coffee and shade trees does not lead to an increase in SOC stocks over the first nine years, which is contrary to the widely held expectation (Powlson et al., 2011b).
+In fact, we found a nine-year decrease in SOC stocks over 0-40cm depth by an average, across all shade types, of 9.99MgCha-1 (12.4%) in Costa Rica, whereas in Nicaragua (where the long-term land use before the experiment had been the same as afterwards, shaded coffee) there was a much smaller decrease in average 0-40cm depth SOC stock of 0.2MgCha-1 (0.14%).
+The direction of change in SOC stocks varied with soil depth in a similar way between the two countries.
+In both countries there was an increase in 0-10cm depth SOC stocks which was positively correlated with the input mass of organic fertiliser (and in Costa Rica of prunings and litter too).
+This shows that, although their long-term development is influenced by soil type, climate, management and the SOC-storage capacity of the soil (Fließbach et al., 2007), SOC stocks in the surface do also depend on the quantity of above-ground organic matter inputs (Carter et al., 2002; Parton et al., 1996).
+This is further supported by the significant differences in SOC stock changes between the treatments with pruned and un-pruned trees in Costa Rica, though all treatments showed a huge contrast in trends of SOC stock with soil depth between an increase at 0-10cm and a decrease at 20-40cm.
+Despite the great variation in above-ground biomass between the shade treatments (between an average of 9.1MgCha-1 for full sun, 22.6MgCha-1 for pruned leguminous shade systems and 115.8MgCha-1 for unpruned timber shade systems (Noponen et al., 2013)), there were no significant differences in SOC stock changes between the shaded and full-sun systems at any depth.
+As the above-ground biomass was entirely represented by trees and coffee bushes planted at the start of the experiment, the 2010 biomass standing stock directly corresponds to biomass growth rate.
+There was a difference between the two experiments in the relationship between above-ground biomass and SOC stocks.
+In Nicaragua SOC stocks were correlated with above-ground biomass C stocks (though r2 was only 0.20) but there was no such correlation in Costa Rica.
+This lack of universality in relationships between above-ground biomass and soil carbon stocks indicates the potential for introduction of a large error into calculations of total ecosystem C stocks when they include estimates of SOC stocks based simply on an assumed linear correlation with above-ground biomass as is commonly used in some of the small-scale afforestation and reforestation C accounting methodologies described in the introduction (UNFCCC, 2011).
+Therefore, it is just as essential that soil be adequately sampled and SOC measured directly, as it is for an adequate inventory of above-ground biomass.
+Do tree-based systems sequester more C in deeper soil layers?
+In both the Nicaraguan and Costa Rican experiments during the first nine years of coffee and tree establishment, SOC stocks in 20-40cm depth soil generally decreased (and this also occurred in 10-20cm depth soil in Costa Rica, giving an average loss over 10-40cm of 12.1MgCha-1).
+The stocks of SOC in deeper soil are generally considered to be more stable than in the surface layer, reacting more slowly to changes in the land-use system (Jenkinson and Coleman, 2008).
+There are strong limitations to the rate of incorporation of organic material from the soil surface into deeper soil layers, where SOC stocks are predominantly controlled by mechanisms mediated by root systems (both direct inputs of organic matter through root turnover, exudation, mycorrhizas and herbivory, and indirect effects, e.g.
+due to the effect of the root sink on soil water relations).
+In the Costa Rican experiment reduction in average SOC stocks in 10-40cm depth soil occurred in all shade and management treatments.
+This SOC decomposition might have been stimulated by an increase in aeration which could in turn have accelerated the effect of labile C from root systems priming the soil microbes to accelerate their depletion of existing SOC stocks (Richter et al., 2007, 1999; Dunne and Leopold, 1999).
+Such aeration could have been due to greater transpiration of coffee bushes/trees compared with the previous annual crop of sugar cane and/or to the drainage carried out as part of the site preparation for the experiment, although the redox zone in the soil profiles would suggest that the previous high water level was below 50cm (Haggar, unpublished data).
+In the Nicaraguan experiment the previous land use had been coffee with shade trees and no drainage was carried out, and its reduction in average SOC stock in deeper soil had been much less (only 2.85MgCha-1 at 20-40cm soil depth).
+Nonetheless, a reduction did occur in all four management treatments and four out of the five shade treatments, therefore (on balance) the present study does provide some evidence of the generality of this phenomenon to the development phase of coffee systems after replanting and during the rapid early growth during shade tree establishment.
+It cannot just be attributed to the particular conditions at the Costa Rican site.
+A similar result was found in a long-term forest re-establishment experiment in South Carolina where, over the 50 years of loblolly pine establishment after previous arable land use under cotton, SOC stocks increased in the surface soil but decreased in the soil deeper than 35cm (Richter et al., 2007).
+In order to compare SOC stock changes between coffee cultivation and the previous land use at the site in Costa Rica (sugar cane cultivation), SOC was also monitored in the surrounding fields, which continued to be used to grow sugar cane without additional drainage.
+SOC stocks in the sugar cane fields showed an opposite trend to that in the experiment at each depth: decreasing by 11% in the 0-10cm depth soil, but increasing greatly at 10-40cm (by 42%), giving an overall increase of 16.0MgCha-1 (19%) over the nine year period.
+Here, fields are annually fertilised primarily with N-based fertilisers, burned before harvest and periodically tilled before replanting (the latter is likely to be a major factor in the loss of SOC from the surface soil).
+Similar results have been found by other studies where the long-term cultivation of sugar cane that is burnt before harvesting resulted in a decrease in SOC stocks at 0-10cm depth (Galdos et al., 2009) and an increase in SOC stocks at 20-40cm to levels near those of natural forest (Silva et al., 2007).
+Grass species such as sugar cane are known to input carbon into deeper soil layers quicker than some tree species (Bashkin and Binkley, 1998).
+Changes in SOC in an experiment in Hawaii in which land formerly under sugar cane cultivation was afforested with a fast growing eucalyptus plantation showed remarkably similar results.
+Measured using stable isotope ratios to examine changes in soil organic C derived from cane (SOC4) and eucalyptus (SOC3), 10-13 years after establishment SOC in the top 10cm had increased by 11.5Mgha-1 in the eucalyptus plantation but decreased by 10.1Mgha-1 in the 10-55cm depth soil (Bashkin and Binkley, 1998).
+These losses in deeper soil were indicated by losses of SOC4 derived from sugar cane being much greater than the gains of SOC3 in this layer attributed to the growth of the eucalyptus.
+Similarly, in the present study's experiment in Nicaragua, although the prior land-use was a coffee agroforestry system, the accumulation of organic matter inputs to the soil was disrupted by its clearance and the subsequent re-establishment of new coffee and shade trees.
+As a result, the levels of organic matter input of the previous system will have only been reached after several years of the experiment.
+In addition, the penetration of roots into the deeper soil, and thereby the deposition of C at that depth (which showed the greatest decrease in SOC stocks) would have been delayed during the establishment of the new trees and coffee bushes.
+Thus, although tree-based systems might have a greater potential to sequester C into more stable stocks in deeper soil than some treeless systems (Haile et al., 2010), this is strongly influenced by other site- and land use change-specific variables.
+Organic versus conventional management
+The results of the present study showed that coffee production systems under organic management increased SOC stocks in the top 10cm of soil more than did conventional production systems in Costa Rica (with a highly significant ANOVA test result), but not in Nicaragua.
+However, evidence for the generality of this result was provided by the more powerful mixed effects model which showed that management system had a greater effect on changes in 0-10cm depth SOC concentration than did shade type in both countries.
+The mixed effects model applied to all three soil depths also showed that management system was an important factor (as well as depth itself) influencing changes in SOC concentration in both countries.
+In the last decade much attention has centred on the management of SOC and its potential for climate change mitigation through increased C sequestration into soils.
+Proponents of organic systems have often claimed that they sequester more C into the soil than do conventional systems (Freibauer et al., 2004; Scialabba and Müller-Lindenlauf, 2010).
+Recent studies (Sanderman and Jeffrey, 2010; Powlson et al., 2011a,b), however, have warned of the shortcomings of many field trial results and of current C-accounting methodologies that can over-estimate the net sequestration of C into soil.
+The term sequestration is often used simply to describe an increase in SOC stocks over time following a change in land-use system or practice.
+Powlson et al. (2011b), however, argue that these changes only contribute to climate change mitigation if they do actually result in a net additional transfer of C from atmospheric CO2 to soil or vegetation, which is not necessarily the case.
+At the centre of this argument lies the issue exemplified by the question of how the fate of added organic C material would have differed were it to have an alternative use.
+For example, management practices that increase SOC through application of manure and other organic materials such as crop residues or prunings are often only a transfer of C from one terrestrial pool to another (Powlson et al., 2011b).
+If alternative uses would have stored the C for longer (e.g. in solid wood products or through conversion of the organic material to biochar) or would have substituted for fossil fuel emissions (e.g. from domestic cooking) then they may have had a more positive effect on climate change mitigation.
+Assessments restricted to the soil itself show that changes in land management which increase SOC stocks could still have a detrimental net climate change impact by increasing emissions of non-CO2 greenhouse gases (GHG) such as CH4 and N2O which have much higher global warming potentials (25 and 298 times respectively over 100 years) compared with CO2.
+For example, Noponen et al. (2012) estimated that the coffee management systems of the present experiments produced non-CO2 GHG emissions from soil ranging between 0.66 and 2.24MgCO2eha-1year-1 for the conventional and 0.55 and 2.02MgCO2eha-1year-1 for the organic treatments.
+Especially in the organic systems, which have additional organic matter inputs in the form of manures and coffee pulp, the climate change mitigation potential of the gains in SOC stock in the 0-10cm depth soil equate to an average of 1.45MgCO2eha-1year-1 in Costa Rica and 0.88MgCO2eha-1year-1 in Nicaragua, both of which lie well within the range of estimated non-CO2 GHG emissions from soil resulting from the inputs of organic matter.
+Therefore, the organic management may lead to no net mitigation of global warming via the soil and may even cause net GHG emissions.
+This calculation, however, does not include the GHG emissions associated with the transport of the organic material, or consider which of the emissions would also occur if the organic material is subject to alternative uses or fates, while analysis of conventional coffee management also needs to include the emissions associated with the production and transport of the agrochemicals that are used (Powlson et al., 2011b).
+Incorporation of some of the chicken manure and coffee pulp applied to coffee farms into the soil might result in lower GHG emissions than their decomposition in open air, should the soil have a capacity to absorb some of the CH4 and N2O emissions, which would be a priority for future research.
+Through their increase in the SOC content of upper soil layers, organic amendments can improve physical soil properties that are beneficial for crop production (Powlson et al., 2011a).
+This improvement in soil growing conditions might achieve equivalent yields to those obtained with higher applied nutrient contents in inorganic fertiliser, thereby reducing the net GHG emissions (especially of N2O) of the farming operation.
+Increased biomass growth rates of perennial crops and shade trees resulting from improved soil properties will further contribute to a real reduction of atmospheric CO2 concentration while the biomass remains intact.
+The existing condition of the soil is also an important consideration.
+The results of the present study show that where agroforestry systems are established on soils more depleted in SOC concentration they provide a greater potential for climate change mitigation through higher SOC stocks, at least until a new equilibrium in SOC concentration is reached (Johnston et al., 2009).
+Therefore, despite the detailed measurement of these experiments, covering many aspects of C stocks and GHG emissions, it remains difficult to answer the question of the extent to which organic management is more favourable to mitigating global warming compared with conventional management, such is the complexity of processes involved.
+The diversity of net changes in SOC stocks amongst treatments found in the present study in Nicaragua and in Costa Rica illustrates the complexity of predicting which changes in existing coffee production systems will have a net positive or negative impact, especially where they involve soil-disturbing agronomic operations.
+The long timescale for changes in SOC stocks to become manifest also presents a challenge for the evidence.
+There was an overall mean decrease of 0-40cm depth SOC stocks in eight of the ten shade treatments over the nine years after system establishment.
+However, positive effects of shade tree growth might be realised over the longer term.
+As already reported in many previous studies (Bashkin and Binkley, 1998; Binkley et al., 2004; Poulton et al., 2003; Resh et al., 2002; Richter et al., 1999) the benefits of shade trees in terms of sequestration of C into above-ground biomass are already apparent.
+For Costa Rica there was a range of mean sequestration rates per shade treatment of 3.3-12.9MgCha-1year-1 (Noponen et al., 2013), more than five times the rates of loss of 0-40cm depth SOC (with a range of 0.65-1.54MgCha-1year-1 per shade treatment) reported in the present paper.
+In Nicaragua, mean above-ground C sequestration rates ranged between 1.73 and 2.70MgCha-1year-1 per shade treatment (Noponen unpublished data) which are again higher than the loss or gain of 0-40cm depth SOC reported here (ranging from 0.44MgCha-1year-1 loss to 1.58MgCha-1year-1 gain).
+Conclusion
+It is commonly assumed that increasing above-ground C stocks by planting trees or perennial crops will result in an automatic proportional increase in SOC.
+The results of this nine-year study highlight, however, that this is not always the case and that, on the contrary, overall SOC might even decrease.
+Such a result should not be surprising given the multitude of factors influencing changes in SOC stock.
+Overall the results of this study show that the C stock changes down to 40cm soil depth were greatly outweighed by the C gains in the above-ground biomass.
+While loss of SOC below 40cm depth probably also occurred, it is improbable that it matched the increases in above-ground biomass.
+This further emphasises the importance both of conservation of tree biomass in established forest and agroforestry systems and of avoiding practices that reduce stocks of SOC.
+Land use decisions designed to take into account impacts on climate change mitigation should be based on analyses that include all of the major components.
+For example, assessment of alternative agricultural soil management systems that change SOC stocks should take into account not only C sequestration in the soil, but also emissions of all GHGs, impacts on biomass growth rate of all system components and impacts on crop yield (with its potential effect on future farmer management decisions).
+Acknowledgements
+We thank CATIE for providing and managing the study sites; Mirna Barrios, Elias de Melo, Luis Romero, Elvin Navarette and Ledis Navarette for their great efforts in helping to collect the data for this study; James Gibbons for his advice on the statistical analysis; Davey Jones for his advice on the soil analysis, and last but not least Gareth Edwards-Jones whose sheer brilliance is greatly missed.
+This research was funded by a UK Economic & Social Research Council/Natural Environment Research Council studentship award and partial fieldwork grants by CAFNET and the Coalbourn Trust to MRAN.
+Supplementary data
+Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.agee.2013.04.012.
+Supplementary data
+

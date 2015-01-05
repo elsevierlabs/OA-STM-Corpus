@@ -1,0 +1,302 @@
+Scalable expansion of human induced pluripotent stem cells in the defined xeno-free E8 medium under adherent and suspension culture conditions
+
+Abstract
+Large-scale production of human induced pluripotent stem cells (hiPSCs) by robust and economic methods has been one of the major challenges for translational realization of hiPSC technology.
+Here we demonstrate a scalable culture system for hiPSC expansion using the E8 chemically defined and xeno-free medium under either adherent or suspension conditions.
+To optimize suspension conditions guided by a computational simulation, we developed a method to efficiently expand hiPSCs as undifferentiated aggregates in spinner flasks.
+Serial passaging of two different hiPSC lines in the spinner flasks using the E8 medium preserved their normal karyotype and expression of undifferentiated state markers of TRA-1-60, SSEA4, OCT4, and NANOG.
+The hiPSCs cultured in spinner flasks for more than 10 passages not only could be remained pluripotent as indicated by in vitro and in vivo assays, but also could be efficiently induced toward mesodermal and hematopoietic differentiation.
+Furthermore, we established a xeno-free protocol of single-cell cryopreservation and recovery for the scalable production of hiPSCs in spinner flasks.
+This system is the first to enable an efficient scale-up bioprocess in completely xeno-free condition for the expansion and cryopreservation of hiPSCs with the quantity and quality compliant for clinical applications.
+Highlights
+•
+We report the first suspension culture of hiPSCs using E8 medium.
+•
+We report the first hydrodynamic model for glass-ball type spinner flasks.
+•
+We establish a scalable bioprocess in completely defined xeno-free conditions.
+•
+We optimized a single-cell cryopreservation for hiPSCs in suspension.
+•
+Human iPSCs maintained pluripotency and normal karyotype along the bioprocess.
+
+Introduction
+Human pluripotent stem cells (hPSCs), including human induced pluripotent stem cells (hiPSCs) and human embryonic stem cells (hESCs) that can differentiate into any mature cell type of the body, hold great promise for revolutionizing regenerative medicine.
+Specifically, the integration-free reprogramming technologies, such as ones using plasmids, provide a feasible method to generate autologous and clinical-grade hiPSC lines for therapeutic applications under current good manufacture practice (cGMP) conditions.
+Patient-specific hiPSC lines derived from postnatal somatic cells (Chou et al., 2011; Dowey et al., 2012; Ye et al., 2009) exhibit vast potential not only in disease modeling for pathological studies but also in practical cellular therapies.
+These clinical applications require a large number of hiPSCs or their progenies.
+For example, an optimized dose was suggested to contain 4.2×108 to 5.6×108 CD34+ cells for hematopoietic stem cell (HSC) transplantation for a 70-kg adult patient (Mehta et al., 2009).
+Production of a clinically relevant quantity of hiPSCs and/or their progenies for specific applications, sometimes considered as ~1 to 2billion (Kehoe et al., 2010), in a chemically defined condition by robust, reproducible and economic methods remains a major challenge for advancing hiPSC technology from the bench to the clinic.
+Conventionally, hiPSCs are induced and expanded on feeder cells as adherent colonies in media containing sera or serum replacement containing human or animal serum albumin (Okita et al., 2007; Yu et al., 2007).
+The involvement of animal products or sera impedes these culture conditions to meet the strict requirement of clinical or pre-clinical utilization because of the uncertainty of complex components and the quality variance from batch to batch.
+Since the first isolation of hiPSCs, significant improvements in feeder- and serum-free chemically defined culture medium and substrates for adherent hiPSC culture have been developed (Chen et al., 2011; Li et al., 2005; Ludwig et al., 2006; Vallier et al., 2005; Wang et al., 2007).
+However, these approaches involving adherent culture of hiPSCs in Petri dishes still raise a major hurdle of large scale and well-controlled expansion for clinical use.
+Suspension culture for hiPSC expansion provides a feasible solution for its scale-up capacity.
+After a Rho-associated-coiled-coil kinase (ROCK) inhibitor Y27632 was reported to permit the survival of dissociated hESCs when supplemented in the medium only on the first day of seeding (Watanabe et al., 2007), detailed protocols were established for the single-cell inoculation and suspension culture of hPSCs as cell aggregates in a variety of vessel types (Amit et al., 2011; Olmer et al., 2010; Zweigerdt et al., 2011).
+Other studies have also reported successful suspension culture in spinner flasks in 100-ml vessels (Abbasalizadeh et al., 2012; Chen et al., 2012; Fluri et al., 2012; Krawetz et al., 2010; Olmer et al., 2012; Singh et al., 2010; Steiner et al., 2010).
+Despite the rapid development of hPSC suspension culture in these studies, most of the reproducible systems are based on commercially available serum-free media, StemPro or mTeSR, which are complex and expensive.
+The unknown composition (such as StemPro) and high cost of these media pose a major concern for developing reproducible methods for large-scale expansion of hiPSCs.
+Chen et al. recently reported the development of a significantly improved hiPSC culture medium, E8, which contains only seven other completely defined and xeno-free components supplementing the standard DMEM/F-12 medium (Chen et al., 2011).
+We did confirm that this significantly improved medium without the need to add bovine serum albumin (BSA) Fraction V or human albumin supported the growth of multiple hiPSC lines under feeder-free conditions in adhesion.
+Based on this, we sought to test whether the significantly simplified E8 medium could support a robust and economic suspension culture system in a stirred bioreactor for large-scale expansion and cryopreservation of hiPSCs.
+Here, we used two integration-free hiPSC lines, BC1 and TNC1, which were derived from leukocytes of either a healthy donor or a sickle cell disease patient using plasmid-based episomal vectors (Chou et al., 2011).
+We began by evaluating the capacity of E8 medium to support the expansion of hiPSCs in static suspension cultures.
+We then optimized the operating protocol for direct adaptation and expansion of the hiPSCs in spinner flasks using computational simulation of the hydrodynamic properties and experimental tests.
+Furthermore, we tested serial passaging and differentiation potential of hiPSCs expanded in spinner flasks.
+Finally, xeno-free cryopreservation and recovery methods were established for hiPSCs cultured in the bioreactor.
+Materials and methods
+Maintenance of hiPSCs in adhesion
+Human iPSC lines BC1 and TNC1 were initially maintained on mouse embryonic fibroblast (MEF) feeders in standard ESC medium as previously described (Chou et al., 2011).
+At passage 30-32, BC1 cells were dissociated using 0.5mM EDTA in calcium- and magnesium-free PBS (Beers et al., 2012), and directly adapted onto tissue culture plates coated with Matrigel (MG, 1.67μg/cm2, BD) or truncated recombinant human vitronectin (VNT-N, 5μg/cm2, Invitrogen) in E8 medium (home-made as described by Chen et al. (2011) or Essential 8 from Invitrogen) supplemented with 10μM ROCK inhibitor Y27632 (Stemgent) for 24h.
+Medium was changed daily.
+Cells were routinely passaged as small clumps using EDTA method (Beers et al., 2012) or as single cells using Accutase (Sigma-Aldrich) with the split ratio of 1:8 to 1:12 every 2 to 3days after reaching 60% to 80% confluence.
+Suspension culture of hiPSCs
+BC1 and TNC1 were cultured in feeder-free adhesion culture for at least 5 passages before transfer in suspension culture.
+Prior to the passage, hiPSCs were treated with Y27632 for 1h and dissociated with pre-warmed Accutase for 2 to 3min in 37°C.
+After gentle pipetting, the single cell solution was diluted 1:10 with DMEM/F-12, and centrifuged at 200g for 5min.
+Cells were resuspended by adding E8 medium with 10μM Y27632 and plated at a density of 1.5×105 to 2.0×105cells/ml in ultra-low attachment plates or seeded at 4×105 to 5×105cells/ml.
+Daily medium change was performed by replacing 70% of the medium with fresh E8 medium without ROCK inhibitor.
+Cells were cultured in static condition or in spinner flasks (CELLSPIN system of 100ml capacity with a single glass-ball stirring pendulum, Integra Bio-sciences) in standard 5% CO2 incubator at 37°C and passaged every 3 to 4days using Accutase as aforementioned.
+Analysis for aggregates and metabolism
+Samples of cell aggregates were analyzed for cell number, viability, and metabolic products.
+Briefly, 0.5 to 1.5ml of samples were taken and placed still for 5min.
+Supernatants were filtered, stored in -20°C, and tested for glucose, lactate, and pH in a blood gas analyzer (Radiometer, ABL 710 at Department of Radiology, Johns Hopkins Medical Institute).
+Light microscopy images were captured using Axiovert phase contrast microscope (Zeiss).
+The total number of cell aggregates Nagg in a 1-ml sample was analyzed by using the "Embryoid body analysis" module in Celigo imaging cytometer (Brooks).
+The average equivalent diameter of aggregates d and the size of each aggregate in the sample were also measured in this analysis.
+For counting the cell number in a 1-ml sample Ncell and the cell viability, cell aggregates were dissociated by Accutase, stained with 0.4% Trypan blue, and counted by Countess automated cell counter (Life Technologies).
+The average cell number per aggregate N=Ncell/Nagg was calculated in 8 samples containing aggregates in different average diameters d from three independent culture cycles.
+In the plot of N-d (Fig. 3c), the data points fit best to a 3rd-order polynomial, defined by having the smallest R2 value comparing to other fitting functions.
+Dissolved oxygen (DO) level in the suspension medium was monitored real-time using a non-invasive optical fiber probe and PSt3 sensor spots via Oxy-4 mini transmitter (PreSens).
+Flow cytometry
+See Supplementary methods.
+Immunofluorescent staining of hiPSCs in adhesion
+See Supplementary methods.
+Immunofluorescent staining of cell aggregates in suspension culture
+Whole aggregate staining was performed for immunofluorescence microscopy as described before (Chen et al., 2012).
+Fluorescent images of whole cell aggregates were captured and analyzed by LSM 510 META confocal microscope (Zeiss).
+Karyotyping
+Karyotype of hiPSCs was examined by a certified cytogeneticist using G-banding (300-500bands) method as previously described (Chou et al., 2011).
+At least 20 metaphases were checked for each sample.
+For example, the passage number of BC1 p30+21+21 (see Fig. 4d) means that the examined BC1 cells have been cultured for 30 passages on MEF, followed by 21 passages on VNT-N and 21 passages in bioreactor.
+For TNC1 p30+17+19, there have been 30 passages on MEF, 17 passages on Matrigel, and 19 passages in bioreactor.
+In vitro hematopoietic differentiation
+Human iPSCs were differentiated into hematopoietic stem cells (HSCs, CD34+CD45+ cells) using spin-embryoid body (spin-EB) method in feeder- and serum-free conditions as described before (Ng et al., 2008, 2005; Yu et al., 2008).
+The EBs were harvested on day 14 of differentiation.
+Single cells were isolated and analyzed by flow cytometry for the presence of hematopoietic markers and hematopoietic CFU assay as previously described (Yu et al., 2008; Zhan et al., 2004).
+In vitro spontaneous differentiation of germ cells
+Single cells were seeded in ultra-low-attachment plates in ESC medium supplemented with 10% fetal bovine serum (FBS, HyClone) at 3.3×105cells/ml to initiate EB formation.
+For iPSCs maintained in suspension in spinner flasks, cell aggregates were washed, and the entire medium was changed from E8 to differentiation medium to induce transformation from cell aggregates to EBs on day 3 after passaging.
+After 8days, EBs were transferred onto gelatin-coated plates and attached.
+Differentiated cells on day 12 were stained for fluorescence microscopy as described.
+Teratoma formation assay
+The use of immunocompromised mice for teratoma formation assay was approved by the Animal Care and Use Committee in Johns Hopkins University.
+The assay was performed as described before (Chou et al., 2011).
+See more details in the Supplementary methods.
+Cryopreservation and recovery of hiPSCs in suspension culture
+Cell aggregates on day 2 or day 3 were pre-treated with 10μM Y27632 for 1h and dissociated into a single cell suspension with Accutase.
+After washing with PBS once, cells were suspended in E8+10μM Y27632 and distributed into Cryovial aliquots.
+The same amount of E8+Y27632+20% (in volume) DMSO cryopreservation medium was added dropwise.
+Cells were immediately frozen at -80°C in isopropanol freezing containers overnight, and transferred to liquid nitrogen for storage.
+For recovery from frozen stock, the cells were thawed by following standard cell culture protocol.
+Single cells were seeded at 5×104cells/cm2 in either Matrigel- or VNT-N-coated 150-cm2 flasks or ultra-low attachment plates, or at 5×105cells/ml directly in spinner flasks at agitating speed of 60rpm.
+The aforementioned culture and passaging protocols were followed afterwards.
+Computational fluid dynamics (CFD) analysis
+See Supplementary methods.
+Data presentation and statistics
+For flow cytometry analysis, 20,000 events were collected and analyzed.
+Selected cell populations were shown as a percentage among the total gated live cells, based on the comparison with background staining shown when isotype controls of corresponding antibodies were used.
+Data of cell number, viability, pH of the medium, and glucose and lactate concentrations, were collected from at least three independent repeats (n≥3), and all measurements were done in duplicates or triplicates to avoid sampling error.
+Results were reported as mean±s.d.
+if not specified.
+The two-tailed Student's t-test or two-way analysis of variance (two-way ANOVA) was performed with GraphPad Prism 5 for comparison between two groups or multiple groups, respectively.
+Significance level was set as *P<0.05, **P<0.01, and ***P<0.001.
+Results
+Adaptation and robust growth in feeder-free adhesion culture
+To prevent contamination of feeder cells in suspension culture, we first acclimated hiPSCs expanded in conventional mouse embryonic fibroblast (MEF) culture conditions (Chou et al., 2011) into feeder-free condition.
+BC1 and TNC1 were transferred directly to E8 medium (Chen et al., 2011) on culture plates coated with diluted Matrigel or on purified recombinant vitronectin (VNT-N) substrate (Chen et al., 2011).
+We found that a step-by-step adaptation process, which is typically associated with other feeder-free conditions (Bigdeli et al., 2008; Desbordes and Studer, 2013; Stover and Schwartz, 2011), is not required when we switched to E8 feeder-free conditions.
+Culture on either Matrigel or VNT-N supports robust and long-term culture of adherent, undifferentiated hiPSCs as a monolayer in adhesion (Supplementary Fig.
+S1a-e).
+The hiPSCs were routinely passaged in single cells (using Accutase) or in small clumps (by EDTA) (Chen et al., 2011) at a split ratio of 1:8 to 1:12 every 3 to 4days.
+They expressed TRA-1-60, SSEA4, OCT4, and NANOG, which are markers for undifferentiated hPSCs (Supplementary Fig.
+S1c-e).
+After more than 30 passages cultured in E8 medium and feeder-free conditions, hiPSCs maintained normal karyotype (Supplementary Fig.
+S1f).
+These hiPSCs were able to form embryoid bodies (EBs) in vitro containing cells from all three germ layers (Supplementary Fig.
+S2a), confirming that the hiPSCs retained their pluripotency.
+We also examined directed hematopoietic differentiation of BC1 and TNC1 cultured under the E8 feeder-free conditions for at least 10 passages.
+Using the spin-EB method (Ng et al., 2008, 2005; Yu et al., 2008) in a feeder- and serum-free condition, we found that on day 14, ~25%-80% of the differentiating hiPSCs were CD34+CD45+ characteristic of hematopoietic progenitor cells (HPCs) (Supplementary Fig.
+S2b).
+Moreover, hiPSCs expanded in E8 feeder-free condition showed comparable potential to generate multiple hematopoietic lineages as hiPSCs expanded in MEF culture conditions in the standard colony-forming unit (CFU) assay (Yu et al., 2008; Zhan et al., 2004) (Supplementary Fig. S2c).
+Serial passaging and expansion in static suspension culture
+It has not been reported whether the significantly simplified E8 medium is sufficient to support the survival and proliferation of undifferentiated hPSCs in suspension culture.
+Thus our studies began by establishing a static suspension culture condition in E8 medium for serial passaging and expansion of hiPSCs.
+BC1 cells cultured on E8 feeder-free conditions (E8-Matrigel or E8-VNT-N) for at least 3 passages were seeded as a single cell suspension in E8 medium supplemented with Y27632 on the first day (Watanabe et al., 2007).
+The cells survived and formed convex dish-shaped aggregates within 24h due to the gravity force (Fig. 1a).
+The size of the cell aggregates gradually increased corresponding to the cell number along the culture period.
+BC1 cells expanded in static suspension in E8 medium with an average rate of 3.7±0.9 fold per passage, 3.7×106 fold increase in total with >99% of the cells being TRA-1-60+ after 13 passages (Fig. 1b,c).
+We also examined the differentiation potential of expanded cells, using the spin-EB method (Ng et al., 2008, 2005; Yu et al., 2008).
+We found that under the hematopoiesis-inducing condition, leukocyte-like cells emerged around day 10 (Fig. 1d) with 46.8%±1.6% of the cells becoming CD34+CD45+ HPCs (Fig. 1e).
+These results indicate that undifferentiated hiPSCs can be expanded in suspension in E8 medium supplemented with one-day treatment of Y27632, and retain their differentiation potential.
+Initiation of dynamic suspension culture of hiPSCs
+Computational fluid dynamics (CFD) analysis of glass-ball spinner flask
+Previous studies suggest that an adaptation of hPSCs expanded in adherent culture to suspension culture in static conditions is needed prior to inoculation in dynamic suspension culture (Amit et al., 2011; Zweigerdt et al., 2011; Abbasalizadeh et al., 2012).
+To support a robust production of hiPSCs from the bench to a clinical setting, we sought to adapt the cells directly from feeder-free adhesion culture to dynamic suspension culture in spinner flasks.
+A key parameter of spinner flasks to control is the agitation forces, which should be sufficient to ensure homogeneous distribution of cell aggregates, nutrients and oxygen, but not too severe to harm the cells.
+Human PSCs are sensitive to high shear stress that may cause unexpected cell death (Kehoe et al., 2010; Abbasalizadeh et al., 2012) and differentiation (Adamo et al., 2009; Yamamoto et al., 2005).
+Thus the velocity field profile and the shear stress distribution in the vessel are major considerations in the bioreactor design and setting for suspension culture of hPSCs.
+Spinner flasks equipped with pendulum-shaped (glass-ball) impellers were advantageous compared to other impeller types in previous studies (Zweigerdt et al., 2011; Yirme et al., 2008) that might be due to mild shear stress generated by the smooth surface.
+Therefore, we chose the CELLSPIN system with a 100-ml spinner flask equipped with a single glass-ball stirring pendulum as the platform for hiPSC suspension culture.
+To predict the hydrodynamic property, we performed computational fluid dynamics (CFD) analysis for a 3-D model of the glass-ball spinner flask (see Supplementary methods).
+The physical properties of 37°C pure water were applied to approximate the properties of a single cell suspension in E8 medium during the first 12h after inoculation when the cells are most vulnerable to high shear stress.
+The simulation of the steady-state CFD at agitating speeds of 40rpm, 60rpm and 75rpm (maximum spinning speed available of the system) was performed.
+A stable flow profile was found in all agitating speeds examined without inadequate mixing or large disturbing turbulence (representatively showing 60rpm, Fig. 2a).
+Highest local Reynolds number, Re, was found at the small area tracking the rotating pendulum, which increased from laminar flow regime (Re<1000) to laminar-turbulent transition regime (1000<Re<2000) (O'Connor and Terry Papoutsakis, 1992; Sucosky et al., 2004) as the agitating speed increased (Supplementary Fig.
+S3a).
+The profile of the z-direction velocity and the streamline indicated that even at the lowest agitation speed of 40rpm, the rotating pendulum provides appropriate convective flow in the vertical direction that enhances the mass transfer (Fig. 2b).
+At the maximum spinning speed, 75rpm, the highest shear stress was determined as 0.152N/m2 (1.52dyn/cm2) at the point near the farthest reach of the glass ball from the spinning axis (Fig. 2c).
+This shear stress level is lower than spinner flasks equipped with other types of impellers, such as pitched-blade impeller (2-5.2dyn/cm2, 50-100rpm) (Cormier et al., 2006) and paddled impeller (4.5-7.8dyn/cm2, 80-120rpm) (Kehoe et al., 2010; Li et al., 2009), indicating mild hydrodynamic impact on the cells.
+Optimization of agitating speed and cell split interval
+BC1 cells cultured in E8-Matrigel condition were used for the optimization of agitating speed and cell split interval.
+Consistent with previous studies (Zweigerdt et al., 2011; Singh et al., 2010), preliminary experiments using seeding density lower than 4×105cells/ml showed inconsistent cell survival and proliferation (data not shown).
+Thus, we used 4×105 to 5×105cells/ml as the seeding density for all following experiments.
+After treatment with ROCK inhibitor and dissociation, a single cell suspension of BC1 hiPSCs from feeder-free adhesion culture was directly inoculated into the spinner flask with 45ml of E8+Y27632.
+Cell growth at agitating speeds of 40rpm, 60rpm, and 75rpm was compared, and three independent repeats were performed in each condition (n=3).
+Within 24h, hiPSCs formed spherical aggregates with diameters of 104.2±44.8μm, 80.6±20.3μm, and 60.8±16.5μm on average in 40rpm, 60rpm and 75rpm, respectively (Fig. 2d-e).
+The cell aggregates gradually increased in size along the culture period reaching 120-300μm on day 5.
+This is partially due to aggregate agglomeration, but mostly due to the expansion of the cells with 2-3 fold increase after 5-day culture (Fig. 2f-g).
+These results further demonstrated significantly higher cell density (Fig. 2f, P=0.0188) without compromising cell viability (Fig. 2g) in hiPSCs cultured in agitation rate of 60rpm.
+Moreover, hiPSCs formed more homogeneous aggregates at 60rpm compared to hiPSCs cultured in 40rpm and 75rpm (Fig. 2e and Supplementary Fig.
+S3a).
+The cell expansion rate decreased from day 3 to day 4 (Fig. 2f) while the cell viability varied on day 5 (Fig. 2g).
+Therefore, we decided to culture the cells at 60rpm and split them every 3 to 4days.
+Characterization of hiPSCs in dynamic suspension culture
+We continued to characterize BC1 cells cultured in the spinner flasks for pluripotency associated marker expression, apoptosis level, and metabolism.
+We found that >98% of the cells are positive for TRA-1-60, SSEA4, NANOG, and OCT4 after 4days of culture by flow cytometry analysis (Fig. 3a).
+The fluorescent images by confocal microscopy showed the nuclear expression of OCT4 with membrane localization of SSEA4 in BC1 cell aggregates sampled from suspension culture on day 3 (Fig. 3b), indicating the maintenance of the undifferentiated state inside the cell aggregates.
+We further found that the cell number per aggregate increased in the order of the cubic diameter - the volume (Fig. 3c).
+Together with the confocal z-stack images of cell aggregates, our data suggested an even distribution of cells throughout the entire aggregate without compact center or hollow cavity.
+The rate of apoptosis in the cell aggregates was found to be 1.56%±0.1% (n=3, Fig. 3d), indicating no severe programmed cell death due to the aggregate formation and the dynamic culture.
+Cell metabolism was monitored by measuring the consumption of glucose, the accumulation of lactate, the change of pH and the oxygen partial pressure (pO2) in the culture medium.
+We found that by replacing 2/3 of the medium daily with pre-warmed fresh E8, the consumption of glucose did not exceed 40%.
+Also, the concentration of lactate was restricted under 10mM (Fig. 3e), and the pH dropped to 6.75 by day 5 (Fig. 3f).
+For real-time monitoring of pO2 in the medium, a non-invasive O2 sensor and optical fiber probe were equipped to the bioreactor (Abaci et al., 2012).
+We show that the pO2 was kept above 15% (Fig. 3g), indicating sufficient oxygen supply merely by diffusion through the gas-liquid interface and convective transport in the medium.
+These data are consistent with the exponential growth on the first three days followed by a reduced expansion rate after day 4 when the cell density reached ~1.5×106cells/ml (Fig. 2f).
+Serial passaging and expansion of hiPSCs in suspension culture
+To meet the requirement of scale-up processes for hiPSC production, serial passaging and extended expansion of BC1 and TNC1 cells cultured in our bioreactor system were tested.
+Human iPSCs were inoculated into spinner flasks as mentioned above, cultured for 3 to 4days, passaged as a single cell suspension, and re-inoculated at the same conditions.
+Both BC1 and TNC1 cells were maintained in spinner flasks for at least 2.5months with 25 passages.
+During the culture period, BC1 showed an average expansion rate of 2.4±0.3 per passage, while TNC1 expanded 3.5±0.5 folds per passage on average (Fig. 4a), indicating variation of growth rate in suspension culture between the two different cell lines.
+The cells maintained high viability during the serial passaging in suspension.
+The overall viability was 92.9%±2.1% for BC1 and 95.0%±1.6% for TNC1 (Fig. 4b).
+Both cell lines were also maintained in their undifferentiated state, as indicated by 95-100% positive stain of TRA-1-60, SSEA4, OCT4, and NANOG during the expansion period (Fig. 4c).
+Furthermore, BC1 and TNC1 cultured for up to 20 passages in spinner flask (plus at least 20 passages in feeder-free adhesion culture before transfer to suspension culture) retained normal karyotypes (Fig. 4d).
+Differentiation potential of hiPSCs in suspension culture
+BC1 and TNC1 hiPSCs cultured in spinner flasks for more than 10 passages were tested for their pluripotency by in vitro and in vivo differentiation methods.
+For in vitro assay, by simply replacing the entire E8 medium with differentiation medium of day-2 spinner flask suspension culture, BC1 and TNC1 aggregates transformed into EBs and started spontaneous differentiation under the stimulation of 10% serum (Supplementary Fig.
+S4).
+After 8days in spinner flask followed by 4days on gelatin-coated tissue culture plates in differentiation medium, cells of all three germ layers could be detected by immunofluorescent staining of specific markers (Fig. 5a).
+In contrast, undifferentiated hiPSCs on day 0 showed negative staining of all germ markers (data not shown).
+For in vivo assay, BC1 and TNC1 harvested from suspension culture in spinner flasks were injected into immune-deficient mice and were able to form teratomas containing cells of all germ layers, including glandular epithelium, chondrocytes, and neural rosettes (Fig. 5b).
+Directed hematopoietic differentiation potential was also tested as previously described (Fig. 5c).
+Differentiating BC1 and TNC1 cells contained 43.57%±4.35% (n=3) and 43.22%±7.13% (n=3) CD34+CD45+ HPCs on day 14 of differentiation, respectively.
+The CFU assay measuring hematopoietic progenitors showed that hiPSCs cultured in spinner flasks were able to generate colonies of different hematopoietic cell lineages.
+The total number of CFUs was comparable or significantly larger (P=0.0307, n=3) than cells cultured in parallel in adhesion cultures (Fig. 5d).
+Cryopreservation and recovery of hiPSCs in suspension culture
+It has been reported that E8 medium with 10% DMSO can be used as cryopreservation medium for hPSCs frozen in small clumps (Beers et al., 2012).
+However, whether E8-based freezing medium can support single-cell cryopreservation has not been reported.
+As the inclusion of Y27632 in freezing medium was proven to enhance single cell survival at thaw (Li et al., 2009), we examined cryopreservation of hiPSCs harvested from expansion in bioreactors in E8 medium supplemented with 10% (in volume) DMSO and 10μM Y27632.
+Following at least two weeks of storage in liquid nitrogen, we thawed the frozen cells in both adhesion and suspension culture conditions.
+The viability of the frozen cells upon thaw was measured as 89%±4% for BC1 (n=3) and 93%±2% for TNC1 (n=3).
+Moreover, both BC1 and TNC1 showed good attachment and typical morphology of undifferentiated hiPSCs on Matrigel or VNT-N (Fig. 6a).
+The cells reached 80% confluence after 3 to 4days in culture and were passaged routinely hereafter, indicating a rapid recovery and good adaptation back in adhesion culture.
+Thawed cells were also able to survive and form aggregates in both static and dynamic suspension culture (Fig. 6a).
+Three protocols for recovery were tested for the purpose of further expansion in suspension.
+Cells were thawed in adhesion (AD), ultra-low attachment plate (UL), or spinner flask (SF) for the first passage, and then transferred directly to spinner flasks on the next splitting (AD-SF, UL-SF, and SF, respectively, Fig. 6b).
+We note that the first passage after thawing in static or dynamic suspension culture conditions usually required longer culture period (5 to 6days) to allow enough cell growth for splitting (Fig. 6b).
+Cells regained typical expansion rate at the third passage after thawing (Fig. 6b) and contained >98% of the population with positive staining of TRA-1-60, SSEA4, OCT4, and NANOG after 5 passages (Fig. 6c).
+Cells in AD-SF and UL-SF conditions showed 2-3-fold higher expansion rate in the first passage than hiPSCs that were directly thawed in spinner flasks (Fig. 6b).
+The spin-EB hematopoietic differentiation of hiPSCs recovered from UL-SF protocol demonstrated an efficient differentiation into hematopoietic progenitor cells (Fig. 6d).
+Furthermore, hiPSCs were tested for karyotype stability after sequential freeze-thaw cycles using single-cell cryopreservation.
+After more than 5 times of sequential freeze-thaw process after adapted to completely xeno-free conditions, including at least 4 times of cryopreservation following UL-SF protocol, both BC1 and TNC1 after ~70 passages maintained normal karyotype (Figs.
+6e and 4d), indicating a reliable cryopreservation protocol for hiPSCs throughout their useful lifespan.
+This xeno-free cryopreservation and recovery protocol completed our bioreactor system, offering opportunities for large-scale cell growth and banking of hiPSC lines.
+Discussion
+Following the demonstration that a ROCK inhibitor such as Y27632 permits the survival of single-cell hESCs (Watanabe et al., 2007), several groups utilized it to establish suspension culture systems for the expansion of hPSCs based on single-cell inoculation (Amit et al., 2011; Olmer et al., 2010; Zweigerdt et al., 2011; Abbasalizadeh et al., 2012; Chen et al., 2012; Fluri et al., 2012; Krawetz et al., 2010; Olmer et al., 2012; Singh et al., 2010; Steiner et al., 2010).
+Zweigerdt et al. and Amit et al. established detailed protocols for the adaptation and suspension culture of hPSCs in a variety of vessel types (Amit et al., 2011; Zweigerdt et al., 2011).
+Recently, Olmer et al. reported a high yield culture in a monitored spinner flask with 100-ml working volume.
+Up to 2×108 of hiPSCs were obtained in a single run of 7days (Olmer et al., 2012).
+Chen et al. showed long-term culture of hESCs in suspension for at least 20 passages with an average 4.3-fold expansion rate within 3 to 4days of interval, and demonstrated a complete strategy for hESC banking under cGMP or cGLP condition (Chen et al., 2012).
+Most of these approaches were based on serum-free media that contain BSA Fraction V or human serum albumin as the major protein component.
+The batch-to-batch variance of this animal-source product led to compromised defined medium (Chen et al., 2011).
+Toward this, we first transferred hPSCs into the newly developed E8 medium on human vitronectin substrate, to avoid BSA and have a completely xeno-free condition with low concentration of protein components.
+We then demonstrated that E8 medium (with Y27632 on the first day of seeding) is sufficient to support hiPSC aggregation and survival, and serial passaging in the undifferentiated state using static suspension culture.
+We next aimed to optimize the protocol for dynamic suspension culture in spinner flasks.
+While there are many experimental and computational studies for assessing the flow dynamics in spinner flasks equipped with various types of paddle-shaped impellers (Bilgen and Barabino, 2007; Collignon et al., 2010; Papoutsakis, 1991; Venkat et al., 1996; Youn et al., 2006), the relevant analysis for glass-ball spinner flasks has not been reported.
+We simulated the velocity field and shear stress of the flow in the glass-ball type spinner flask, providing reasonable prediction of the effect of flow on single cells during the first several hours after inoculation.
+Some rational approximations were applied to simplify the model, such as using the properties of 37°C water instead of the unknown data of the medium, omitting gravity due to its negligible effects on single cells compared to the agitating force, and ignoring the cell aggregation due to the complexity it would bring to the model.
+Although the model could not estimate the shear stress on the surface of cell aggregates after emergence, the method provides an efficient tool for the design and analysis of the bioreactors with complex vessel structures or non-standardized impeller designs (Bilgen and Barabino, 2007; Venkat et al., 1996).
+Using CFD analysis, we found a steady flow in all agitation speeds (i.e. 40rpm, 60rpm and 75rpm).
+Although small turbulent flow may occur at high agitating speeds according to the calculation of the local Reynolds number, the shear stress generated by the glass-ball impeller is considerably lower than by other types of impellers.
+Experimentally, we further found that an agitation speed of 60rpm supports the formation of homogeneous cell aggregates, showing significantly higher expansion rates and relatively better cell viability than the other agitation speeds.
+As a comparison, hiPSCs formed relatively large aggregates on day 1 at 40rpm, which reduced the potential of further proliferation due to the diffusion limitation.
+Moreover, occasions of undesired aggregate agglomeration, resulting in aggregates larger than 800μm, were observed on later days due to insufficient agitating force (from Supplementary Fig.
+S3b).
+At 75rpm, cell viability dropped significantly on day 1, leading to slower recovery and expansion.
+Based on these results, the optimal split interval at 60rpm was next determined.
+We noticed a reduction in cell expansion after day 3 or day 4, which might be due to the diffusion limitation as cell aggregates grow.
+It is widely accepted that the diffusion limitation of oxygen in human tissue is 100 to 200μm (Hoeben et al., 2004).
+Therefore, we determined to split the cells on day 3 or day 4 when most of the cell aggregate diameters reached ~150-200μm.
+The concentration of glucose and lactate in the culture media also suggested a reduced growth after day 3, when the pH of the media drop to ~6.75 as cell density increased, which might be harmful for the hiPSC lines that are more sensitive to changes in pH and influence the expansion.
+This issue may be solved by gradually increasing the culture volume or the media change frequency.
+The inclusion of a non-invasive O2 probe-patch made it possible to monitor pO2 levels real-time without disturbing the flow and the rotation of the impeller in the glass-ball bioreactor, which are normally difficult to equip with a standard large O2 probe (Zweigerdt et al., 2011; Niebruegge et al., 2009).
+Using the optimized operating conditions we demonstrate serial passaging and expansion of two integration-free hiPSC lines in completely defined xeno-free media in 100-ml bioreactors.
+The cells exhibited homogeneous aggregate formation, steady expansion in their pluripotent state, and normal karyotype after ~20 passages.
+Note that one experiment of extended expansion of TNC1 cells in spinner flask (p30+6+21) showed abnormal karyotype (47, XXY).
+However, there is no evidence that it should be attributed to the suspension culture.
+In general, recently improved iPSC culture conditions reduce selective pressure for the growth of mutated cells that acquire growth advantages.
+Although karyotypically abnormal cells were found occasionally after long-term cultures under both adherent and suspension conditions, the frequency is low (5% of tested batches of hiPSCs and hESCs).
+The standard karyotyping or other genotyping methods like what we performed here will remain necessary to manage this inherent issue of long-term cell cultures.
+Undifferentiated hiPSCs expanded in bioreactors retained their potential of spontaneous and directed hematopoietic differentiation comparable to cells cultured via adherent culture.
+The transformation from day 2 or day 3 cell aggregates to EBs for spontaneous differentiation in the spinner flask demonstrates the possibility to use this system for a continuous bioprocess that begins with a large-scale expansion and directed differentiation in one single batch.
+Interestingly, although comparable amount of HPCs and CFU was derived from hiPSCs expanded in bioreactor as in adhesion, HPCs derived from TNC1 in bioreactor generated a considerably higher proportion of cells in erythroid lineage rather than in myelocyte lineage.
+Further studies are needed to reveal the significance and the mechanism underlying the contribution of hydrodynamic forces to hPSC differentiation in suspension.
+Studies of hematopoietic differentiation in spinner flasks are ongoing.
+The development of a single-cell cryopreservation protocol concluded the establishment of our chemically defined xeno-free suspension culture system.
+For continuous expansion, UL-SF protocol was the preferred method for recovery with small number of hiPSCs from cryopreservation.
+The hiPSCs can be directly thawed in a spinner flask; cells cultured in a spinner flask can be transferred back to VNT-N-coated surface for the applications that require adhesion culture, indicating good flexibility of the system.
+The single-cell cryopreservation protocol and the suspension culture system can significantly reduce the workload when handling cells in the scale required for translational uses.
+Furthermore, this xeno-free protocol of cryopreservation and recovery was theoretically proved to be compliant to a scale-up strategy for hiPSCs in suspension and under cGMP condition, allowing a yield of ~1×109 cells within 20days after thawing of 1×106 frozen cells (Fig. 7).
+The scale-up strategy, which includes multiple xeno-free processes, employs 100-ml and 1-l spinner flasks, enabling the transition from lab scale to pilot scale of hiPSC expansion.
+The CFD simulation of the 1-l spinner flask (Supplementary Fig.
+S5) equipped with two glass-ball stirring pendulums (such as one from Integra Bio-sciences) indicated that it could be scalable using 1-l spinner flasks toward clinically relevant quantities of hiPSCs from a single batch.
+The simulation revealed a steady flow at the highest agitating speed of 75rpm and an even lower maximum shear stress (0.047N/m2) compared to the 100-ml spinner flask in steady state.
+On one hand, the distance between the farthest points of the pendulums and the spin axis (r=38.9mm in Supplementary Fig.
+S5, equivalent to impeller radius of paddle impellers) in the 1-l spinner flask is not much longer than the 100-ml spinner flask (r=28.2mm); thus, the highest velocity in 1-l spinner flasks is not much higher than that in 100-ml spinner flasks (vmax,1l=0.309m/s vs. vmax,100ml=0.224m/s).
+On the other hand, there is much more space between the pendulums to the flask wall in the radial direction (l in Supplementary Fig.
+S5, l1l=29.1mm vs. l100ml=3.5mm).
+This causes a more moderate drop of velocity from the maximum at the far reach of the pendulums to zero at the flask wall in 1-l spinner flask compared to the 100-ml spinner flask, leading to a significant decrease of the gradient of velocity, dvz/dx, which contributes to the majority of the shear stress.
+Before reaching steady state, stepping acceleration could be used to protect the cells from sudden exposure to high-speed flow.
+Also, the liquid level of 600-ml medium in the 1-l spinner flask is similar to that of 60-ml medium in the 100-ml spinner flask, which was proven in this study not to cause any reduced O2 transport (from Fig. 3g).
+While optimization of the agitation speed should be performed for different hiPSC lines to support appropriate size aggregate formation (for example, diameter of 50-80μm after 24h), this direct scale-up process in 1-l spinner flasks with the same well-designed system should be attainable.
+Another practical advantage of the system is its relative low cost.
+The high price of current commercially available serum-free media such as StemPro and mTeSR always hinders the universal application of the scale-up technologies for hiPSC expansion, especially for xeno-free media when albumin is required in the medium (Chen et al., 2011).
+The simplicity of the medium dramatically cuts down the price (~30%-60%) and makes it possible for bulk production in academic laboratories and cGMP-compliant institutions.
+In conclusion, we established a reproducible approach for rapid, economic, and scalable expansion of hiPSCs in xeno-free condition to meet the demand of practical research and clinical applications.
+The complete elimination of components from animal sources and remarkably reduced cost of this system provide a reliable technology for scale-up of hiPSC expansion and take a significant step toward the realization of stem cell therapies.
+Author contributions
+Y.W., S.G. and L.C. developed the concepts and designed the experiments; Y.W., B.C., C.H. and S.D. performed the experiments; Y.W., S.G. and L.C. analyzed the results and wrote the paper.
+Competing financial interests
+The authors declare no competing financial interests.
+Acknowledgment
+We thank members in the laboratories of Drs.
+Gerecht and Cheng for discussions and support.
+We thank Sravanti Kusuma for helping with edits of this manuscript.
+This study is supported in part by Edythe Harris Lucas and Clara Lucas Lynn Chair in Hematology to L.C., and grants from Maryland Stem Cell Research Fund (2011-MSCRFII-0088 to L.C.), NIH (U01-HL107446 and 2R01-HL073781 to L.C.) and NSF (1054415 to S.G.).
+Supplementary data
+Supplementary figures and methods.
+Supplementary data
+Supplementary data to this article can be found online at http://dx.doi.org/10.1016/j.scr.2013.07.011.
+

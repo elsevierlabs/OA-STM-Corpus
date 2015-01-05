@@ -1,0 +1,1032 @@
+Generalized Macdonald-Ruijsenaars systems
+
+Abstract
+We consider the polynomial representation of Double Affine Hecke Algebras (DAHAs) and construct its submodules as ideals of functions vanishing on the special collections of affine planes.
+This generalizes certain results of Kasatani in types An, (Cn∨,Cn).
+We obtain commutative algebras of difference operators given by the action of invariant combinations of Cherednik-Dunkl operators in the corresponding quotient modules of the polynomial representation.
+This gives known and new generalized Macdonald-Ruijsenaars systems.
+Thus in the cases of DAHAs of types An and (Cn∨,Cn) we derive Chalykh-Sergeev-Veselov operators and a generalization of the Koornwinder operator respectively, together with complete sets of quantum integrals in the explicit form.
+
+Introduction
+The main goal of this paper is to obtain commutative algebras of difference operators containing generalizations of Macdonald-Ruijsenaars operators using special representations of Double Affine Hecke Algebras (DAHAs).
+In the work [27] the Macdonald-Ruijsenaars operator related to the root system R=AN-1 appeared as the relativistic version of quantum Calogero-Moser system, this operator has the form(1.1)H=∑i=1N∏j=1j≠iNexi-exj+ηexi-exjTxiℏ, where Txiℏ=eℏ∂xi is the shift operator and η,ℏ are parameters.
+Macdonald derived and considered operator (1.1) and its generalizations for any root system and (quasi-)minuscule coweight in the context of multi-variable orthogonal polynomials [25].
+Commutative algebras of difference operators containing the operators constructed by Macdonald were realized by Cherednik with the help of his DAHA and its polynomial representation [5,8].
+These algebras are centralizers of the Macdonald-Ruijsenaars operators in the algebras of Weyl-invariant difference operators [22].
+The whole area of DAHA is a very rich mathematical subject with deep connections and interactions with combinatorics, theory of (quantum) symmetric spaces, representation theory, noncommutative geometry [9].
+The first generalization of the Macdonald-Ruijsenaars operator which is not directly associated to a root system was found by Chalykh [2].
+The operator is a difference version of the Hamiltonian which describes interaction of the system of Calogero-Moser particles of two possible masses [4].
+The approach of [2] (see also [3]) is based on the multidimensional Baker-Akhiezer functions, in this case all but one particles have equal masses.
+The generalization of Chalykhʼs operator to the system of N1+N2 particles of two types was introduced by Sergeev and Veselov [29], the corresponding operator has the form(1.2)HN1,N2=∑i=1N1∏j=1j≠iN1exi-exj+ηexi-exj∏ℓ=1N2exi-eyℓ+ℏexi-eyℓTxiℏ+eℏ-1eη-1∑ℓ=1N2∏i=1N1eyℓ-exi+ηeyℓ-exi∏m=1m≠ℓN2eyℓ-eym+ℏeyℓ-eymTyℓη.
+In the work [29] the operator (1.2) was obtained from the action of the Macdonald-Ruijsenaars operator (1.1) extended to the space of symmetric functions in the infinite number of variables with subsequent restriction of the operator (1.1) to the special discriminant subvariety.
+Further rational generalized Macdonald-Ruijsenaars operators were derived in [12,30] starting from the generalized Calogero-Moser systems and using the bispectrality.
+In the present work we develop a uniform approach to the generalized Macdonald-Ruijsenaars systems based on the special representations of DAHAs.
+DAHA can be associated to any affine root system [25].
+The main cases are DAHA of type Rˆ and of type Rˆ∨ where R is a reduced irreducible root system, Rˆ is its affinization and Rˆ∨ denotes the dual affine root system (see Cherednikʼs papers [7] and [5] respectively), and DAHA of type (Cn∨,Cn) (see [26,28]).
+The original Cherednikʼs construction [5,7] allowed to obtain Macdonald-Ruijsenaars systems for any root system R from the polynomial representation of the corresponding DAHA.
+The difference operators from the commutative algebra are obtained by the averaging of the Cherednik-Dunkl operators over the Weyl group with subsequent restriction of the result to the space of invariant polynomials.
+In [26] Noumi generalized the construction for the (Cn∨,Cn) case which allowed to obtain commutative algebra containing the Koornwinder operator [21].
+In order to obtain generalized Macdonald-Ruijsenaars systems we first specialize DAHA-invariant ideals in the polynomial representation, these ideals consist of functions vanishing on certain collections of planes.
+Then the action of the invariant combinations of Cherednik-Dunkl operators is defined on the functions on these planes.
+Upon restriction to Weyl group invariants we obtain commutative algebras of difference operators.
+In this way we recover operator (1.2) (under assumption that ℏ/η∈Z) for the case of DAHA of type A and derive further known and new generalized Macdonald-Ruijsenaars operators starting from other root systems.
+Similar approach to the generalized Calogero-Moser systems was developed by one of the authors in [13].
+It is based on finding special ideals invariant under the rational Cherednik algebras with subsequent restriction of invariant combinations of Dunkl operators thus generalizing Heckmanʼs construction of the usual Calogero-Moser systems [16].
+The idea to describe submodules of the polynomial representations of DAHAs by vanishing conditions was very successfully used by Kasatani in [18,19] (see also discussion in the introduction of [10] where the polynomial representation is studied from another perspective).
+Thus in the work [18] a filtration of the polynomial representation in type A by the ideals given by vanishing ("wheel") conditions was introduced so that it provides composition factors of the polynomial module (see also [11]).
+The paper [19] deals with the polynomial representation of DAHA associated to the affine root system (Cn∨,Cn).
+Ideals in the ring of symmetric polynomials invariant under the Macdonald-Ruijsenaars operator (1.1) were earlier defined by wheel conditions in [15].
+Submodules in the polynomial representations exist at special relations between parameters of the DAHAs.
+Therefore the generalized Macdonald-Ruijsenaars operators which we obtain carry these restrictions.
+This is different from the type A construction of [29] where the authors work in the space of symmetric functions in infinitely many variables and consider some invariant ideals in that algebra.
+Nevertheless, for the classical series of root systems one can consider polynomial representations for different ranks of root systems and the respective invariant submodules so that the resulting operators coincide.
+That is one obtains operators at some integral restriction on the parameters but the corresponding integral values can be chosen arbitrarily and the operators do not depend on these values.
+This allows to omit these restrictions and to continue the commuting families of the resulting operators into the general parameters.
+In type An this leads to the operator (1.2) and its quantum integrals.
+In type (Cn∨,Cn) this leads to the generalizations of Koornwinder and van Diejen operators.
+The structure of the paper is as follows.
+In Section 2 we recall Cherednikʼs construction of the commutative algebra of difference operators using DAHA of type Rˆ.
+In Section 3 we introduce arrangements of planes D corresponding to subsets S0 of the set of simple roots of the root system R and we define ideals of functions ID vanishing on these planes.
+Our first main result (Theorem 3.3) states that for the special geometry of S0 and for the related choice of parameters for DAHA the ideals ID are DAHA-invariant.
+The arising arrangements D are shifted versions of the linear arrangements appearing in the study of invariant ideals for the rational Cherednik algebras [13].
+In Section 3.4 we construct further invariant ideals given by vanishing conditions where we allow parallel planes.
+This generalizes construction of such ideals for DAHA for classical root systems from [18,19].
+In Section 4 we present our next main result (Theorem 4.1) which explains how commutative algebras of difference operators arise in the quotients of the polynomial representations by the above ideals ID.
+We show in Section 4.2 that these algebras contain complete sets of algebraically independent operators.
+We verify in Section 4.3 that in type A we obtain operators (1.2).
+We also construct explicitly a complete set of commuting operators for (1.2) (Theorem 4.5).
+We consider further examples illustrating the approach in Sections 4.4, 4.5.
+Thus we demonstrate that starting from the Macdonald operator of type B we obtain trigonometric version of the operators known from [30,12].
+Subsystems in the exceptional root systems provide new families of commutative algebras, we demonstrate this by getting a restricted operator starting from the Macdonald operator for the root system R=F4.
+In Section 5 we extend our constructions for the (Cn∨,Cn) DAHA.
+We specify invariant ideals in the polynomial representation by imposing vanishing condition on suitable arrangements of planes (Theorem 5.2).
+These submodules correspond to the intersections of the submodules investigated in [19].
+We introduce generalized Koornwinder operator and derive it as a restriction of the Koornwinder operator in Propositions 5.4, 5.5.
+This operator depends on six parameters like the original Koornwinder operator, and also it reflects that there are interacting particles of two types.
+Although the restriction construction imposes some integrality relation(s) on the parameters we show that the operator can be embedded into a large commutative algebra of difference operators for any values of the parameters.
+In Theorem 5.7 we find a complete set of quantum integrals in the explicit form.
+This generalizes van Diejenʼs quantum integrals for the Koornwinder operator [31].
+In Section 6 we present our constructions for DAHA of type Rˆ∨ [5].
+The invariant ideals are specified in Theorem 6.1.
+Macdonald-Ruijsenaars systems from DAHA
+In this section we recall the construction of the Macdonald-Ruijsenaars systems from the Cherednik-Dunkl operators.
+We consider here DAHAs of type Rˆ (other cases will be considered in Sections 5, 6 and Appendix A).
+Following [7-9,20] we define DAHA for the Rˆ case, then we define the Cherednik-Dunkl operators as elements of DAHA acting in the polynomial representation and describe the Macdonald-Ruijsenaars systems in these terms.
+Double Affine Hecke Algebra
+Let R⊂Rn⊂V=Cn be an irreducible reduced root system of rank n.
+Let (⋅,⋅) be the standard bilinear symmetric non-degenerated form in V and let β∨=2β/(β,β).
+We have (α,β∨)∈Z for all α,β∈R.
+Consider the orthogonal reflections sα corresponding to the roots α∈R, they act on x∈V as sα(x)=x-(α,x)α∨.
+The group W generated by the orthogonal reflections sα, α∈R, is a Weyl group.
+Let R+ be a set of positive roots and Δ={α1,…,αn}⊂R+ be the set of simple roots.
+The reflections sα1,…,sαn generate the Weyl group W.
+Let us introduce lattices of coroots, of coweights and of weights:(2.1)Q∨=⨁i=1nZαi∨,P∨=⨁i=1nZbi,P=⨁i=1nZωi, where bi and ωi are fundamental coweights and fundamental weights:(2.2)(αi,bj)=δij,(ωi,αj∨)=δij.
+Introduce also the subsets of dominant and anti-dominant coweights:P+∨={λ∈P∨|(α,λ)≥0,∀α∈R+},P-∨={λ∈P∨|(α,λ)≤0,∀α∈R+}.
+Let Vˆ be the space of affine functionals on V.
+Each functional α∈Vˆ acts on x∈V as α(x)=(α(1),x)+α(0), where α(1)∈V and α(0)∈C, we write α=[α(1),α(0)] in this case.
+The roots γ∈R can be considered as elements of Vˆ acting as γ(x)=(γ,x).
+Define the bilinear form on the space Vˆ by the formula (α,β)=(α(1),β(1)), where α=[α(1),α(0)], β=[β(1),β(0)], and α∨=2α(α,α)=[2α(1)(α(1),α(1)),2α(0)(α(1),α(1))] for any α=[α(1),α(0)]∈Vˆ.
+The reflection sα corresponding to α=[α(1),α(0)]∈Vˆ is the following affine map: sα(x)=x-α(x)(α(1))∨.
+It is the orthogonal reflection with respect to the hyperplane H(α)={x∈V|α(x)=0}.
+The action sα on V induces the action on Vˆ given by the formula sα(β)=β-(β,α∨)α, where α,β∈Vˆ.
+Let ℏ∈C be a non-zero complex parameter.
+Introduce the functional α0=[-θ,ℏ], where θ∈R is the maximal root for R with respect to the basis Δ.
+For λ∈V denote by τ(λ) the shift operator τ(λ)x=x+ℏλ, ∀x∈V.
+Affine Weyl group W˜ is generated by the reflections sα, with α=[α(1),α(0)] such that α(1)∈R and α(0)∈ℏZ.
+The set Rˆ={[α(1),ℏk]|α(1)∈R,k∈Z} is the affine root system corresponding to the root system R [23].
+The group τ(Q∨) is a normal subgroup in W˜ and W˜=W⋉τ(Q∨).
+The group W˜ is generated by the reflections s0,s1,…,sn, where si=sαi for i=0,1,…,n, (see [17]).
+The subset Δ˜={α0,α1,…,αn}⊂Rˆ is a basis of Vˆ called the set of affine simple roots.
+For 0≤i,j≤n, i≠j we denote by mij=mji the order (finite or infinite) of the element sisj∈W˜.
+Extended affine Weyl group is defined as Wˆ=W⋉τ(P∨) with the commutation relations wτ(λ)=τ(wλ)w, where w∈W, λ∈P∨.
+The action of the group Wˆ on V induces the following linear action on the space Vˆ:(2.3)wτ(λ)(α)=[w(α(1)),α(0)-ℏ(α(1),λ)], where w∈W, λ∈P∨, α=[α(1),α(0)].
+Let Π={π∈Wˆ|πΔ˜=Δ˜}⊂Wˆ be a subgroup of elements preserving the set of simple affine roots.
+Then Wˆ=Π⋉W˜.
+The group Π is finite: Π={πr|r∈O}, where O⊂{0,1,…,n} and each element πr is uniquely determined by the condition πr(α0)=αr.
+They have the form π0=1, πr=τ(br)ur-1 for r∈O′, where O′=O\{0} and ur∈W are transformations preserving the set {-θ,α1,…,αn} and satisfying ur(αr)=-θ.
+The corresponding fundamental coweights br form the entire set of minuscule coweights, that is {br|r∈O′}={λ∈P∨|0≤(α,λ)≤1,∀α∈R+}.
+Let Pˆ={μ=[μ(1),μ(0)]|μ(1)∈P,μ(0)∈ℏϵ0Z}⊂Vˆ, where ϵ0 is an integer such that (P,P∨)⊂ϵ0-1Z.
+We consider the weight lattice P as a sublattice of Pˆ.
+Now we define DAHA corresponding to the affine system Rˆ.
+Let t:Rˆ→C\{0} be a Wˆ-invariant function on Rˆ, that is tβ=twˆ(β), for all β∈Rˆ, wˆ∈Wˆ, where we denote tβ=t(β).
+We also denote ti=tαi for i=0,1,…,n, these values uniquely determine the function t.
+Let q=eℏ/2.
+We will assume that ℏ∉πiQ, so q is not a root of unity.
+Definition 2.1
+([7], see also [20].) Double Affine Hecke Algebra (for Rˆ case) is defined as the algebra t=ℏ,tRˆ generated by the elements T0,T1,…,Tn, by the set of pairwise commuting elements {Xμ}μ∈Pˆ, and by the group Π={πr|r∈O} with the relations(2.4)XμXμ′=Xμ+μ′,μ,μ′∈Pˆ;(2.5)Xν=q2s=eℏs,ν=[0,ℏs]∈Pˆ,s∈ϵ0-1Z;(2.6)(Ti-ti)(Ti+ti-1)=0;(2.7)TiTjTi…︸mijfactors=TjTiTj…︸mijfactors,if i≠j and mij<∞;(2.8)πrTiπr-1=Tj,if πr(αi)=αj,r∈O;(2.9)Ti-1XμTi-1=Xμ-αi,if (μ,αi∨)=1,μ∈Pˆ;(2.10)TiXμ=XμTi,if (μ,αi∨)=0,μ∈Pˆ;(2.11)πrXμπr-1=Xπr(μ),r∈O,μ∈Pˆ; where i,j=0,1,…,n.
+Note that the generators T0,T1,…,Tn, Xμ, πr of the algebra t are invertible elements.
+We define an element Twˆ∈t for each element wˆ∈Wˆ according to its reduced expression:(2.12)Twˆ=πrTi1…Til,for wˆ=πrsi1…sil, where l=l(wˆ) is the length of wˆ∈Wˆ: l(wˆ)=|Rˆ-∩wˆRˆ+|, where Rˆ+=-Rˆ-=R+∪{[α,ℏk]|α∈R,k∈Z>0}.
+In particular, Tπr=πr and Tsi=Ti.
+For wˆ,vˆ∈Wˆ one has the relation(2.13)Tvˆwˆ=TvˆTwˆ,if l(vˆwˆ)=l(vˆ)+l(wˆ).
+Since for the fundamental coweights we have l(τ(bi+bj))=l(τ(bi))+l(τ(bj)) it leads to Tτ(bi)Tτ(bj)=Tτ(bj)Tτ(bi) for all i,j=1,…,n.
+Let us define the commutative family of elements Yλ for λ∈P∨:(2.14)Yλ=∏i=1n(Tτ(bi))mi,if λ=∑i=1nmibi,mi∈Z.
+They span a subalgebra C[Y] of t isomorphic to C[P∨] and they satisfy the relations (see [20])(2.15)YλYλ′=Yλ+λ′,λ,λ′∈P∨;(2.16)TiYλ-YsiλTi=(ti-ti-1)Yλ-Ysiλ1-Y-αi∨,λ∈P∨, where i=1,…,n.
+These formulae imply that the generators T1,…,Tn commute with the elements of the subalgebra C[Y]W⊂C[Y] consisting of the polynomials invariant under the usual action w:Yλ↦Ywλ of the Weyl group W.
+Denote by C∞(V)2πiQ∨ the space of smooth periodic functions f:V→C with the lattice of periods 2πiQ∨, that is f(x+2πiαj∨)=f(x) for j=1,…,n.
+Let(2.17)F={f∈C∞(V)2πiQ∨|f is holomorphic in a neighbourhood of Z}, where Z:={x∈V|α(x)∈2πiZ for some α∈Rˆ}.
+The space F is Wˆ-invariant with respect to the action(2.18)wˆf(x)=f(wˆ-1x),wˆ∈Wˆ,f∈F,x∈V.
+The elements of the algebra t can be represented as operators acting in F:(2.19)Xμ=eμ(x),πr=πr,Ti=ti-ti-11-e-αi(x)+ti-1-tie-αi(x)1-e-αi(x)si, where μ∈Pˆ, r∈O, i=0,1,…,n.
+In order to show that Tif∈F for all f∈F and i=0,1,…,n we first rearrange the formula for Ti into the form(2.20)Ti=ti+ti-1-tie-αi(x)1-e-αi(x)(si-1).
+Then we note that the function g(x)=f(x)-f(six)=f(x)-f(x-αi(x)(αi(1))∨) belongs to F and vanishes whenever αi(x)∈2πiZ.
+Hence the function g˜(x)=g(x)1-e-αi(x) is holomorphic in a neighbourhood of Z and smooth everywhere.
+So that g˜∈F and the function(2.21)Tif(x)=tif(x)+(ti-1-tie-αi(x))g˜(x) also belongs to F.
+The formulae (2.19) define a faithful representation of DAHA t on the space F called polynomial representation (extended to smooth functions).
+The elements Yλ in this representation are called Cherednik-Dunkl operators.
+Macdonald-Ruijsenaars systems
+Denote by FW the subspace of invariant functions f∈F, that is f(wx)=f(x) for all w∈W and x∈V.
+Consider the subalgebra C[Y]W⊂C[Y]⊂t.
+It is spanned as a vector space by the elements(2.22)mλ(Y)=∑ν∈WλYν=1|Wλ|∑w∈WYwλ, where Wλ={wλ|w∈W} is the orbit of the coweight λ∈P∨ and Wλ={w∈W|wλ=λ} is the stabilizer of λ.
+We will normally be choosing λ∈P-∨ for the operators mλ(Y).
+In the representation (2.19) the elements mλ(Y) have the form(2.23)mλ(Y)=∑ν∈P∨∑w∈Wgν,wλ(x)τ(ν)w, where gν,wλ(x) are some meromorphic functions and τ(ν) are the shift operators acting on functions by τ(ν)f(x)=f(x-ℏν).
+The subspace FW⊂F can be characterized as a space annihilated by all the operators T1-t1,…,Tn-tn.
+Since the elements of C[Y]W commute with T1,…,Tn they preserve this subspace: mλ(Y)(FW)⊂FW.
+Thus we can restrict the elements of C[Y]W to FW [5,6].
+The restriction of (2.23) is(2.24)Mλ=Res(mλ(Y))=mλ(Y)|FW=∑ν∈P∨∑w∈Wgν,wλ(x)τ(ν).
+Let Mer(V) be the space of meromorphic functions φ(x) on V such that φ(x+2πiαj∨)=φ(x) for all j=1,…,n.
+Define the subspace M⊂Mer(V) consisting of functions φ∈Mer(V) holomorphic out of the union of hyperplanes ⋃β∈Rˆ{x∈V|β(x)∈2πiZ}.
+Consider the smash-product algebra D=M#C[τ(P∨)] defined by the commutation relation τ(λ)φ(x)=φ(x-ℏλ)τ(λ).
+This is the algebra of difference operators acting on the space M. Any element a∈D has the form a=∑λ∈P∨∑w∈Wgλ,w(x)τ(λ)w, where gλ,w∈M and the sum over λ is finite.
+Note that Mλ∈D for any λ∈P∨.
+Let r∈O′, so br∈P∨ is a minuscule coweight.
+Then the restriction of m-br(Y) to FW can be written explicitly [5,8,25]:(2.25)M-br=∑λ∈W(-br)(∏α∈R(α,λ)=1tαe(α,x)-tα-1e(α,x)-1)τ(λ)(2.26)M-br=∑λ∈W(-br)(∏α∈R(α,λ)=1tαe(α,x)-tα-1e(α,x)-1)(τ(λ)-1)+m-br,t, where mλ,t=∑ν∈Wλ∏α∈R+tα(α,ν).
+Note that in the cases R=E8, F4, G2 the minuscule coweights do not exist.
+For any R there exists quasi-minuscule coweight λ=-θ∨.
+The corresponding operator has the form [8,25]:(2.27)M-θ∨=∑β∈Wθ(∏α∈R(α,β∨)>0tαe(α,x)-tα-1e(α,x)-1)q-1t0e(β,x)-qt0-1q-1e(β,x)-q(τ(β∨)-1)+m-θ∨,t.
+The operators (2.25), (2.27) are called Macdonald operators (see e.g. [24]).
+Consider the subspace R⊂D spanned by the elements Mλ defined by (2.24).
+Since the restriction operation Res:mλ(Y)↦Mλ is an algebra homomorphism the subspace R=Res(C[Y]W) is a commutative subalgebra in D.
+We will recall that R contains n algebraically independent elements.
+First we introduce some notations.
+For each λ∈P∨ there exists a unique dominant coweight λ+∈P+∨ such that λ+∈Wλ.
+Let ν,λ∈P∨ be two coweights.
+We write ν>λ if ν≠λ and ν-λ=∑j=1nkjαj∨ for some kj∈Z≥0.
+We also introduce another order on P∨: we write ν≺λ if ν+<λ+ or (ν+=λ+ and ν>λ) (see [20]).
+As it is explained in [20] the Cherednik-Dunkl operators have the form(2.28)Yλ=∑w∈Wg˜wλ(x)τ(λ)w+∑ν≺λ∑w∈Wg˜ν,wλ(x)τ(ν)w, for some functions g˜ν,wλ(x), g˜wλ(x).
+For an anti-dominant coweight λ∈P-∨ one has a more exact formula [20](2.29)Yλ=gλ(x)τ(λ)+∑ν≺λ∑w∈Wg˜ν,wλ(x)τ(ν)w.
+Here gλ(x)=∏α∈Rˆλtαeα(x)-tα-1eα(x)-1, where Rˆλ=Rˆ-∩(τ(λ)Rˆ+) is a subset in Rˆ.
+Thus, for any λ∈P-∨ we obtain(2.30)mλ(Y)=gλ(x)τ(λ)+∑ν≺λ∑w∈Wgν,wλ(x)τ(ν)w for some functions g˜ν,wλ(x).
+In accordance with the formula (2.24) the restriction of (2.30) to the subspace FW gives the following difference operator(2.31)Mλ=gλ(x)τ(λ)+∑ν≺λgνλ(x)τ(ν), where gνλ(x)=∑w∈Wgν,wλ(x).
+Since in the case λ∈P-∨ the condition ν≺λ implies ν>λ we can replace the order ≺ with the order > in the sum in the formula (2.31).
+It follows now that for any m1,…,mn∈Z≥0 one has(2.32)∏j=1n(M-bj)mj=gm1,…,mn(x)τ(λ)+∑ν>λgνm1,…,mn(x)τ(ν), where gm1,…,mn(x)≢0 and λ=-∑i=1nmjbj∈P-∨.
+Since the right-hand sides of (2.32) are linearly independent the operators M-b1,…,M-bn are algebraically independent.
+Remark 2.1
+One can show that the operator (2.32) has the form cλλMλ+∑ν∈P-∨,ν>λcνλMν such that cλλ≠0.
+Then [1, VI, §3, 4, Lemma 4] implies that the operators (2.32) form a basis of the space R.
+It follows the commutative algebra R is isomorphic to the algebra of polynomials C[z1,…,zn], and the isomorphism can be given by M-bj↦zj.
+In particular the elements M-b1,…,M-bn generate the algebra R.
+The subalgebra R⊂D is called the Macdonald-Ruijsenaars system.
+The Macdonald-Ruijsenaars operator (2.25) or the operator (2.27) can be considered as a Hamiltonian of this system.
+Invariant shifted parabolic ideals
+The goal of this section is to construct some t-submodules of F, which will be used in the next section.
+Note that any ideal of the algebra F is invariant under the action of the generators Xμ∈t.
+We define some ideals as the sets of functions vanishing on certain planes.
+We show that these ideals are invariant under the actions of other generators of DAHA if parameters satisfy special conditions.
+Let η:R→C be a W-invariant function on the irreducible reduced root system R, that is ηw(α)=ηα=η(α), ∀α∈R, ∀w∈W.
+We will also denote ηi=ηαi for the simple roots αi.
+To each subset S⊂R we associate the plane(3.1)Hη(S)={x∈V|(α,x)=ηα,∀α∈S}=⋂α∈S{x∈V|(α,x)=ηα}.
+Note that Hη(wS)=wHη(S) for any w∈W.
+Let S0 be a subset of the set of simple roots Δ and let W0⊂W be the subgroup generated by sα, α∈S0.
+We associate to S0 the following subset(3.2)W+={w∈W|wS0⊂R+}⊂W.
+Let V0=〈S0〉 be the linear subspace of V spanned by the set S0.
+Then R0=V0∩R is the root system with the set of simple roots S0.
+Note that the transformations w∈W+ restricted to R0 respect the standard order.
+More exactly, if β≤γ, β,γ∈R0 then wβ≤wγ.
+(Here δ1≤δ2 means δ2-δ1=∑i=1nmiαi, where mi∈Z≥0.)
+Remark 3.1
+The elements of W+ are the shortest coset representatives of the left cosets of W0 in W (see [17]).
+Let us consider the plane(3.3)D0=Hη(S0)={x∈V|(α,x)=ηα,∀α∈S0} and the union of planes(3.4)D=⋃w∈W+Hη(wS0)=W+D0.
+The arrangement D is obtained by shifting the linear arrangement WH0(S0), where H0(S0) is defined by the formula (3.3) with the function η≡0.
+More exactly, the following two statements take place.
+Proposition 3.1
+For any w∈W there exists w′∈W+ such that H0(wS0)=H0(w′S0).
+Thus each plane wH0(S0) is parallel to some plane w′D0⊂D.
+Proof
+The element w∈W can be decomposed as w=w′w0 where w′∈W+, w0∈W0 (see [17]).
+Since H0(S0)=H0(R0) and w0R0=R0 we have w0H0(S0)=H0(S0).
+Hence H0(wS0)=w′w0H0(S0)=w′H0(S0)=H0(w′S0). □
+Proposition 3.2
+If the planes wD0 and w′D0 are parallel for some w,w′∈W+ then they coincide: wD0=w′D0.
+Proof
+Let w,w′∈W+.
+If the planes wD0 and w′D0 are parallel then wV0=w′V0.
+In particular, this implies(3.5)wα=∑β∈S0γαβw′β,for all α∈S0, where γαβ∈C.
+Applying (w′)-1 to (3.5) we conclude that γαβ∈Z≥0, ∀β∈S0 or γαβ∈Z≤0, ∀β∈S0.
+Taking into account wα∈R+ and w′β∈R+ we deduce from (3.5) that γαβ∈Z≥0, ∀α,β∈S0.
+Analogously we have(3.6)w′β=∑α∈S0γ˜βαwα,for all β∈S0, where γ˜βα∈Z≥0.
+The formulae (3.5), (3.6) lead to the following system of equations(3.7)∑β∈S0γαβγ˜βα˜=δα,α˜,α,α˜∈S0, where δα,β is the delta-symbol: δα,α=1, δα,β=0 for α≠β.
+Under conditions γαβ,γ˜βα∈Z≥0 the general solution of the system (3.7) is(3.8)γαβ=γ˜βα=δσ(α),β, where σ:S0→S0 is a bijection.
+Hence(3.9)wα=∑β∈S0δσ(α),βw′β=w′σ(α),for all α∈S0.
+Using this one yieldswD0={x∈V|(wα,x)=ηα,∀α∈S0}={x∈V|(w′σ(α),x)=ηα,∀α∈S0}={x∈V|(w′σ(α),x)=ησ(α),∀α∈S0}={x∈V|(w′α,x)=ηα,∀α∈S0}=w′D0, where we used ηα=ησ(α) obtained from (3.9). □
+Let R1,…,Rm be irreducible components of R0=V0∩R, R0=⨆ℓ=1mRℓ.
+In each root subsystem Rℓ we have the corresponding set of simple roots Sℓ=S0∩Rℓ, so that S0=⨆ℓ=1mSℓ, where Sℓ∩Sℓ′=∅ for ℓ≠ℓ′.
+The reflections sα, α∈Rℓ, generate the Weyl group Wℓ⊂W corresponding to the root system Rℓ.
+For each root system Rℓ there exists the maximal root θℓ∈Rℓ with respect to Sℓ.
+Let kℓ=|Sℓ| and Sℓ={α1ℓ,α2ℓ,…,αkℓℓ}, then θℓ=∑j=1kℓnjℓαjℓ, where njℓ≥1 are integers.
+Definition 3.1
+Let θ=∑i=1nniαi be the maximal root of R with respect to the set of simple roots Δ.
+The numberhη=ηθ+∑i=1nniηαi is called generalized Coxeter number for the root system R and the invariant function η.
+We note that the generalized Coxeter number for the root system R does not depend on the choice of R+ (or, equivalently, on the choice of Δ).
+For a constant function ηα≡η the generalized Coxeter number hη=η⋅h, where h=1+∑i=1nni is the usual Coxeter number (see [1]).
+Remark 3.2
+The generalized Coxeter number can be equivalently defined as the coefficient of proportionality of the following W-invariant inner products (cf. [13]):(3.10)∑α∈Rηα(α,u)(α,v)(α,α)=hη⋅(u,v),∀u,v∈V.
+Note that the restriction of the function η:R→C to the subsystems Rℓ⊂R is a Wℓ-invariant function on Rℓ.
+Since Rℓ is irreducible one can define the generalized Coxeter numbers for this subsystem:(3.11)hηℓ=ηθℓ+∑j=1kℓnjℓηjℓ, where ηjℓ=ηαjℓ.
+Define the ideal of functions vanishing on the union of planes (3.4):(3.12)ID={f∈F|f(x)=0,∀x∈D}.
+The main result of this section is the following theorem.
+Theorem 3.3
+Suppose that the subsystem S0⊂Δ and the function η are such that(3.13)hηℓ=ℏ,for all ℓ=1,…,m.
+Let the parameters of DAHA t satisfy tα2=eηα for all α∈R.
+Then the ideal ID⊂F is invariant under the action of DAHA: tID⊂ID.
+We will prove this theorem in the next tree subsections.
+We establish the invariance under Ti, 1≤i≤n in Section 3.1, the invariance under πr is established in Section 3.2 and the invariance under T0 is established in Section 3.3.
+Remark 3.3
+The degenerations of the ideals ID at η→0 give invariant parabolic ideals for the rational Cherednik algebra Hc(W) with c=η/ℏ.
+Any radical ideal invariant under Hc(W) can be obtained this way (see [13]).
+Remark 3.4
+The invariant ideals ID for the A series are the ideals obtained by Kasatani in [18], namely these are the ideals Im(k,r) with r=2 and the same m as we use.
+(The ideals in [18] are considered in the space of polynomials of multiplicative variables.)
+Let us record the introduced planes in terms of affine functionals.
+For a root α∈R+ we denote α′=[α,-ηα]∈Vˆ.
+Note that w(α′)=[wα,-ηα]=[wα,-ηwα]=(wα)′ for all w∈W+, α∈R+.
+For a subset S⊂Vˆ let(3.14)H(S)={x∈V|β(x)=0,∀β∈S}.
+We will write H(β1,β2,…) instead of H({β1,β2,…}).
+In these notations the definitions (3.1) and (3.4) take the form(3.15)Hη(S)=H(S′)={x∈V|α′(x)=0,∀α∈S},D=⋃w∈W+H(wS0′), where S′={α′|α∈S}, S0′={α′|α∈S0}.
+Note also that wH(S′)=H(wS′).
+Invariance under T1,…,Tn
+Lemma 3.4
+Let S=wS0 where S0⊂Δ, and w∈W+.
+Let β∈Δ.
+If β∉S then β cannot be expressed as a linear combination of the elements of S.
+Proof
+Suppose that there exist numbers γα∈C for α∈S0 such that β=∑α∈S0γαwα.
+Then, w-1(β)=∑α∈S0γαα.
+Since S0⊂Δ this equation implies that the numbers γα are integers with the same sign: γα′≥0, ∀α∈S0 or γα′≤0, ∀α∈S0.
+Taking into account that wα∈R+ for any α∈S0 we see that the relation β=∑α∈S0γαwα holds only if β∈S, but this contradicts the condition of the lemma. □
+Proposition 3.5
+Let parameters of DAHA t satisfy tα2=eηα for all α∈R.
+Then the ideal ID given by (3.12), (3.4), (3.3) is invariant under the action of the operators T1,…,Tn, moreover TiID=ID for all i=1,…,n.
+Proof
+Let f∈ID.
+Consider the subset S=wS0⊂R+, where w∈W+.
+We need to prove that the function Tif(x) vanishes on the plane H(S′).
+Consider first the case αi∈S.
+Consider the expression (2.21) for the function Tif(x).
+Let x∈H(S′), then the first term in this expression vanishes since the function f(x) vanishes on the plane H(S′) and the second term vanishes since ti-1-tie-αi(x)=ti-1-tie-ηi=0.
+Now consider the case αi∉S.
+Then we have si(S)⊂R+.
+This means that siw∈W+, siH(S′)=H(siwS0′)⊂D and f(six)=0 whenever x∈H(S′).
+Thus, if x∈H(S′) and e-αi(x)≠1 then both terms in(3.16)Tif(x)=ti-ti-11-e-αi(x)f(x)+ti-1-tie-αi(x)1-e-αi(x)f(six) vanish: Tif(x)=0.
+Note that for any p∈Z the intersection of the planes H(S′) and H([αi,2πip]) has positive codimension in H(S′).
+Indeed, otherwise H(S′)⊂H([αi,2πip]) and this implies, in particular, that αi can be obtained as a linear combination of the elements of S, but this is impossible by Lemma 3.4.
+Thus the subset {x∈H(S′)|e-αi(x)≠1} is everywhere dense in the plane H(S′).
+Since the function Tif(x) is continuous it vanishes on the whole plane: Tif(x)=0, ∀x∈H(S′).
+We have proved TiID⊂ID.
+The relation Ti-1=Ti+(ti-1-ti) implies Ti-1ID⊂ID and then TiID=ID. □
+Remark 3.5
+If the W-invariant function η:R→C is fixed then one can choose a Wˆ-invariant function t:Rˆ→C satisfying the conditions of Proposition 3.5 by the formula t[β,ℏk]=eηβ/2 for all β∈R and k∈Z.
+Invariance under the group Π
+Lemma 3.6
+(Cf. [1].) Let θ=∑i=1nniαi be the maximal root of R with respect to the set of simple roots Δ.
+Then nr=1 for some r if and only if there exists ur∈W such that ur({-θ}∪Δ)={-θ}∪Δ and ur(αr)=-θ.
+Furthermore, if ur(αi)=αj then ni=nj.
+Proof
+In the notations of Section 2.1 the statement means O′={r|nr=1} and it is proved in [1].
+Now let r∈O′.
+Define the number r⁎∈O′ such that πr⁎=πr-1, then ur⁎=ur-1, which leads to ur(-θ)=αr⁎.
+Taking into account that ur(αr)=-θ, ur(αi)=αj, nr=1 and ur(Δ\{αr})=Δ\{αr⁎}, we rearrange ur(-∑i=1nniαi)=αr⁎ asniαj+∑k≠j,r⁎nn˜kαk-∑k=1nnkαk+αr⁎=0, where n˜k∈Z.
+We obtain ni=nj since j≠r⁎ by extracting the coefficient at αj. □
+Proposition 3.7
+Suppose that the subsystem S0⊂Δ and the function η are such that hηℓ=ℏ for all ℓ=1,…,m.
+Then the arrangement (3.4) and the ideal (3.12) satisfy πrD=D and πrID=ID for any r∈O.
+Proof
+It is sufficient to establish that πr-1D⊂D for any r∈O′.
+Consider the subset wS0⊂R+, where w∈W+.
+We will show that there exists w˜∈W+ such that πr-1H(wS0′)=H(w˜S0′).
+First we note that(3.17)if α∈R+ and (α,br)=0 then urα∈R+.
+Indeed since the transformation πr-1 preserves the set Δ˜ it also preserves the set Rˆ+.
+Therefore urα=πr-1α∈Rˆ+∩R=R+, where we used ur=πr-1τ(br) and urα∈R.
+Lemma 3.6 and r∈O′ imply nr=1.
+Since the roots wαjℓ and wθℓ=∑j=1kℓnjℓwαjℓ are positive and coweight br is minuscule the products (wθℓ,br) and (wαjℓ,br) are equal to 0 or 1.
+So for each ℓ one of the following two possibilities holds:(i)
+(wθℓ,br)=1, hence (wαjℓ,br)=δjpℓ and npℓℓ=1 for some pℓ such that 1≤pℓ≤kℓ;
+(ii)
+(wθℓ,br)=0, hence (wαjℓ,br)=0 for all j=1,…,kℓ.
+ We can fix pℓ=1 by renumbering the roots α1ℓ,…,αkℓℓ if necessary.
+Consider first the case (i): γrjℓ=δj1 and n1ℓ=1.
+Let us first rearrange the plane H(wSℓ′) as follows.
+We can replace inH(wSℓ′)=H([wα1ℓ,-η1ℓ],[wα2ℓ,-η2ℓ],…,[wαkℓℓ,-ηkℓℓ]) the functional [wα1ℓ,-η1ℓ] by the linear combination ∑j=1kℓnjℓ[-wαjℓ,ηjℓ]; so taking into account wθℓ=∑j=1kℓnjℓwαjℓ and the formula (3.11) we obtain(3.18)H(wSℓ′)=H([-wθℓ,hηℓ-ηθℓ],[wα2ℓ,-η2ℓ],…,[wαkℓℓ,-ηkℓℓ]).
+This gives(3.19)πr-1H(wSℓ′)=H([-urwθℓ,hηℓ-ηθℓ-ℏ],[urwα2ℓ,-η2ℓ],…,[urwαkℓℓ,-ηkℓℓ]) using πr-1=urτ(-br) and urτ(-br)α=[urα(1),α(0)+ℏ(α(1),br)], where α=[α(1),α(0)]∈Vˆ.
+It follows from (3.17) that urwαjℓ∈R+ for j=2,…,kℓ.
+We note that -urwθℓ∈R+ since (urwθℓ,urbr)=1 and urbr∈P-∨.
+The latter property is proved as follows.
+Since Π is a group there exists r⁎∈O′ such that πr-1=πr⁎.
+Rearranging πr=πr⁎-1 as τ(br)ur-1=ur⁎τ(-br⁎) we obtain urbr=-br⁎∈P-∨, where we used the relation urτ(br)ur-1=τ(urbr).
+Since n1ℓ=1 it follows by Lemma 3.6 applied to the root system Rℓ that there exists an element vℓ∈Wℓ such that vℓ(Sℓ)={-θℓ,α2ℓ,…,αkℓℓ}.
+So using hηℓ=ℏ we obtain(3.20)πr-1H(wSℓ′)=H(urwvℓSℓ′)andurwvℓSℓ⊂R+.
+In the case (ii) the formulae (3.20) are valid for vℓ=1.
+Indeed πr-1H(wSℓ′)=H(urwSℓ′) and it follows from (3.17) that urwαjℓ∈R+ for all j=1,…,kℓ.
+Define now w˜=urw∏ℓ=1mvℓ.
+Since vℓ∈Wℓ acts identically on Sℓ′ for ℓ′≠ℓ we derive(3.21)w˜S0=⋃ℓ=1murwvℓSℓ⊂R+, hence w˜∈W+, and(3.22)πr-1H(wS0′)=⋂ℓ=1mπr-1H(wSℓ′)=⋂ℓ=1mH(urwvℓSℓ′)=H(⋃ℓ=1murwvℓSℓ′)=H(w˜S0′).
+Thus the invariance of D and, as consequence, the invariance of ID are proven. □
+Invariance under T0
+If O≠{0} then there exists r∈O′ and the invariance of ID under T0 follows from the formula T0=πr-1Trπr.
+Otherwise (O={0} for R=E8, F4, G2) we need to prove the invariance under T0 separately.
+We will prove it in the general case.
+We start with two preliminary lemmas.
+Lemma 3.8
+Let w∈W+.
+Suppose the maximal roots for the system R and the subsystem Rℓ for some ℓ satisfy wθℓ≠θ.
+Then θ∉wRℓ.
+Proof
+Suppose θ∈wRℓ and let β=w-1θ.
+Then β∈Rℓ hence β≤θℓ.
+Since w∈W+ and β,θℓ∈R0 it follows θ=wβ≤wθℓ (see the comment after the formula (3.2)).
+Since θ is the maximal root we get θ=wθℓ, which is a contradiction. □
+Lemma 3.9
+Suppose the subsystem S0⊂Δ and the function η are such that hηℓ=ℏ for all ℓ=1,…,m.
+Let w∈W+ and suppose wθℓ≠θ for all ℓ=1,…,m.
+Then s0H(wS0′)⊂D.
+Proof
+We will prove the existence of an element w˜∈W+ such that s0H(wS0′)=H(w˜S0′).
+First we note that Lemma 3.8 implies θ≠wαjℓ for all j=1,…,kℓ, ℓ=1,…,m.
+Recall that if α∈R+ and α≠θ then (α,θ∨) equals 0 or 1 (see [1]).
+Since wθℓ=∑j=1kℓnjℓwαjℓ≠θ there are only two possibilities for each ℓ:(i)
+(wθℓ,θ∨)=1 and hence (wαjℓ,θ∨)=δjlℓ, npℓℓ=1 for some pℓ such that 1≤pℓ≤kℓ;
+(ii)
+(wθℓ,θ∨)=0 and hence (wαjℓ,θ∨)=0 for all j=1,…,kℓ.
+ Here we took into account that wθℓ,wαjℓ∈R+.
+Consider the case (i).
+We can assume pℓ=1.
+Rewriting H(wSℓ′) as (3.18) and acting to this plane by s0=sθτ(-θ∨) one yields(3.23)s0H(wSℓ′)=H([-sθwθℓ,hηℓ-ηθℓℓ-ℏ],[sθwα2ℓ,-η2ℓ],…,[sθwαkℓℓ,-ηkℓℓ]).
+Taking into account that sθ(α)=α-(α,θ∨)θ, ∀α∈R, we conclude sθwαjℓ=wαjℓ∈R+ for j=2,…,kℓ and -sθwθℓ=θ-wθℓ∈R+.
+Since n1ℓ=1 there exists vℓ∈Wℓ such that vℓ(Sℓ)={-θℓ,α2ℓ,…,αkℓℓ} (due to Lemma 3.6).
+Then the condition hηℓ=ℏ implies(3.24)s0H(wSℓ′)=H(sθwvℓSℓ′),sθwvℓSℓ⊂R+.
+In the case (ii) the formulae (3.24) are valid for vℓ=1, because in this case s0wαjℓ=sθwαjℓ=wαjℓ∈R+ for all j=1,…,kℓ.
+Thus we have s0H(wS0′)=H(w˜S0′), where w˜=sθw∏ℓ=1mvℓ∈W+. □
+Now the invariance of the ideal ID under the action of the operator T0 can be established.
+Proposition 3.10
+Suppose the subsystem S0⊂Δ and the functions η, t satisfy hηℓ=ℏ for all ℓ=1,…,m and t02=eηθ.
+Then T0ID=ID.
+Proof
+We need to prove that for any f∈ID and w∈W+ the function T0f(x) vanishes on the plane H(S′), where S=wS0.
+Let us first suppose that wθℓ=θ for some ℓ.
+Let x∈H(S′).
+Since hηℓ=ℏ and ηθℓ=ηθ one yields α0(x)=-(wθℓ,x)+ℏ=ηθℓ-hηℓ+ℏ=ηθ and hence e-α0(x)=t0-2.
+Therefore the right-hand side in (2.21) with i=0 vanishes.
+Otherwise wθℓ≠θ for all ℓ and by virtue of Lemma 3.9 we have s0H(S′)⊂D.
+Hence the function(3.25)T0f(x)=t0-t0-11-e-α0(x)f(x)+t0-1-t0e-α0(x)1-e-α0(x)f(s0x) vanishes on the subset H(S′)∩{x∈V|e-α0(x)≠1}.
+Let us prove that this subset is everywhere dense in H(S′).
+Indeed, otherwise H(S′) is contained in a plane H(α0+[0,2πip]) for some p∈Z.
+This leads to [-θ,ℏ+2πip]=∑α∈wS0γαα′.
+Therefore θ∈wV0, where V0⊂V is the subspace spanned by S0.
+Since w-1θ∈R then w-1θ∈R0=V0∩R, and the formula R0=⨆ℓ=1mRℓ implies that w-1θ∈Rℓ for some ℓ.
+But this is impossible due to Lemma 3.8.
+Thus the continuous function T0f(x) vanishes on all the plane H(S′). □
+Theorem 3.3 follows from Propositions 3.5, 3.7, 3.10.
+Further invariant ideals
+In this subsection we generalize previously constructed ideals ID by requiring functions to vanish on the families of parallel planes containing the planes wD0 with w∈W+.
+For DAHA associated with the classical root systems such submodules were considered by Kasatani in [18,19].
+Consider a subset wS0⊂R, where w∈W, and its decomposition wS0=⨆ℓ=1mwSℓ.
+For a function ξ:wS0→Z≥0 we denote |ξ|ℓw=∑α∈wSℓξ(α), where ℓ=1,…,m.
+Note that if wS0=w′S0 for some w′∈W then the values |ξ|1w,…,|ξ|mw and |ξ|1w′,…,|ξ|mw′ are related by |ξ|ℓw′=|ξ|σ(ℓ)w, where a permutation σ∈Sm is such that Rσ(ℓ)≅Rℓ.
+Let r1,…,rm∈Z≥0 be such that rℓ=rℓ′ if Rℓ≅Rℓ′.
+For an element w∈W we define the following set of functions(3.26)Ξr→(w)={ξ:wS0→Z≥0|ξ-1(0)⊂R+,|ξ|ℓw≤rℓ,ℓ=1,…,m}, where r→=(r1,…,rm).
+The condition ξ-1(0)⊂R+ means that ξ(α)=0 implies α∈R+.
+Let η:R→C be a fixed W-invariant function.
+To a subset S⊂R and a function ξ:S→Z≥0 we associate the plane(3.27)Hη(S;ξ)={x∈V|(α,x)=ηα-ℏξ(α),∀α∈S}.
+Starting from the subset S0 and r→ we define the union of planes(3.28)Dr→=⋃w∈W⋃ξ∈Ξr→(w)Hη(wS0;ξ).
+We will assume that r→ is such that(3.29)GCD(rℓ+1,kℓ+1)=1,if Rℓ≅Akℓ,ℓ=1,…,m,(3.30)rℓ=0,if Rℓ≇Akℓ,ℓ=1,…,m, where GCD stands for the greatest common divisor.
+Note that in the case r→=0 the union Dr→ coincides with D=W+D0 defined by the formula (3.4).
+We also generalize the conditions hηℓ=ℏ as(3.31)hηℓ=(rℓ+1)ℏ.
+Theorem 3.11
+Suppose the parameters of DAHA t satisfy tα2=eηα for all α∈R.
+Suppose the subsystem S0⊂Δ, the function η and the parameters r1,…,rm are such that the conditions (3.29), (3.30) and (3.31) are satisfied.
+Then the ideal(3.32)IDr→={f∈F|f(x)=0, for all x∈Dr→} where Dr→ is given by (3.28), is invariant under the action of DAHA t.
+First we establish the invariance under T1,…,Tn.
+Lemma 3.12
+Under assumptions of Theorem 3.11 one has TiIDr→⊂IDr→ for i=1,…,n.
+Proof
+Similar to the proof of Proposition 3.5 we show that the function (Tif)(x) vanishes on the plane Hη(wS0;ξ), where f∈IDr→, w∈W and ξ∈Ξr→(w).
+If αi∈ξ-1(0) then it follows vanishing of the function ti-1-tie-αi(x) (see the formula (2.21)).
+Suppose now that αi∉ξ-1(0).
+It follows si(ξ-1(0))=(ξ∘si)-1(0)⊂R+ and, therefore, ξ∘si∈Ξr→(siw).
+If x∈Hη(wS0;ξ) then six∈Hη(siwS0;ξ∘si)⊂Dr→ and the function f(six) vanishes as well as the function f(x).
+We are left to prove that Hη(wS0;ξ)⊄H([αi,2πip]) for all p∈Z.
+Suppose the opposite, that is αi=∑α∈S0γαwα and 2πip=∑α∈S0γα(ℏξ(wα)-ηα) for some γα∈C and p∈Z.
+Since w-1αi=∑α∈S0γαα∈R0, γα are integers of the same sign and there exists ℓ, 1≤ℓ≤m such that w-1αi∈Rℓ.
+Therefore 2πip=∑α∈Sℓγα(ℏξ(wα)-ηα).
+If rℓ=0 then ξ|wSℓ≡0 hence wSℓ⊂R+ and αi∈wSℓ which is not possible as ξ(αi)≠0.
+If rℓ≠0 then Rℓ≅Akℓ, hence η|Rℓ=const and θℓ=∑α∈Sℓα.
+Note that ±w-1αi=±∑α∈Sℓα≤θℓ hence |γα|≤1.
+The condition (3.31) implies(3.33)2πip=ℏ(∑α∈Sℓγαξ(wα)-rℓ+1kℓ+1∑α∈Sℓγα).
+Since ℏ∉2πiQ the expression in the brackets vanishes.
+As |∑α∈Sℓγα|=∑α∈Sℓ|γα|≤kℓ we get a contradiction with the condition (3.29). □
+We will need the following technical lemma for the rest of the proof of Theorem 3.11.
+Lemma 3.13
+Let u∈W, λ∈P+∨ such that uλ∈P-∨.
+Suppose that uˆR+⊂Rˆ+, where uˆ=uτ(-λ).
+Let Rℓ≅Akℓ for some ℓ and let Sℓ={α1ℓ,…,αkℓℓ} be a basis of simple roots.
+Assume that w∈W and ξ∈Ξr→(w) satisfy the conditions |ξ|ℓw+m0ℓ≤rℓ+1 and ξjℓ+mjℓ≥0 for all j=1,…,kℓ, where m0ℓ=(wθℓ,λ), ξjℓ=ξ(wαjℓ), mjℓ=(wαjℓ,λ).
+Denote ξℓ=ξ|wSℓ.
+Then uˆHη(wSℓ;ξℓ)=Hη(uwvℓSℓ;ξ˜ℓ) for some element vℓ∈Wℓ and some map ξ˜ℓ:uwvℓSℓ→Z≥0 such that ∑α∈uwvℓSℓξ˜(α)≤rℓ and ξ˜ℓ-1(0)⊂R+.
+Proof
+Since Rℓ≅Akℓ the maximal root in Rℓ is θℓ=∑j=1kℓαjℓ and hence m0ℓ=∑j=1kℓmjℓ.
+Denoting ζjℓ=ξjℓ+mjℓ we have ζjℓ≥0.
+Let us show that(3.34)ζjℓ=0impliesuwαjℓ∈R+.
+If ζjℓ=0 there are two cases: ξjℓ=mjℓ=0 and ξjℓ=-mjℓ>0.
+Consider the first case.
+Note that mjℓ=0 implies that uwαjℓ=uˆwαjℓ.
+Since ξjℓ=0 we have wαjℓ∈R+ and using uˆR+⊂Rˆ+ we obtain uwαjℓ∈R∩Rˆ+=R+.
+In the case when -mjℓ>0 we have (uwαjℓ,uλ)=mjℓ<0.
+Since uλ∈P-∨ we also deduce uwαjℓ∈R+.
+There are two possible cases:(i)
+|ξ|ℓw+m0ℓ=rℓ+1 and hence m0ℓ≥1;
+(ii)
+|ξ|ℓw+m0ℓ≤rℓ.
+Consider first the case (i).
+Since m0ℓ≥1 there exists pℓ, 1≤pℓ≤kℓ such that mpℓℓ≥1.
+We can assume pℓ=1, that is m1ℓ≥1.
+The formula (3.18) can be generalized in this case as(3.35)Hη(wSℓ;ξℓ)=H([-wθℓ,-ℏ|ξ|ℓw+hηℓ-ηθℓ],[wα2ℓ,ℏξ2ℓ-η2ℓ],…,[wαkℓℓ,ℏξkℓℓ-ηkℓℓ]).
+Acting by uˆ=uτ(-λ) and taking into account (3.31) we obtain(3.36)uˆHη(wSℓ;ξℓ)=H([-uwθℓ,-ηθℓ],[uwα2ℓ,ℏζ2ℓ-η2ℓ],…,[uwαkℓℓ,ℏζkℓℓ-ηkℓℓ]).
+Due to Lemma 3.6 there exists vℓ∈Wℓ such that {-θℓ,α2ℓ,…,αkℓℓ}=vℓSℓ.
+Define the function ξ˜ℓ:uwvℓSℓ→Z≥0 by ξ˜ℓ(-uwθℓ)=0 and ξ˜ℓ(uwαjℓ)=ζjℓ where j=2,…,kℓ.
+Let us check that the sum of values of the function ξ˜ℓ is not greater than rℓ.
+Indeed, ∑j=2kℓζjℓ=|ξ|ℓw+m0ℓ-ξ1ℓ-m1ℓ=rℓ+1-ξ1ℓ-m1ℓ≤rℓ, where we used m1ℓ≥1.
+Since uλ∈P-∨ and (uwθℓ,uλ)=m0ℓ≥1 we have -uwθℓ∈R+.
+Taking into account (3.34) we derive ξ˜ℓ-1(0)⊂R+.
+In the case (ii) we set vℓ=1 and ξ˜ℓ(uwαjℓ)=ζjℓ where j=1,…,kℓ.
+The sum of values of the function ξ˜ℓ is still not greater than rℓ, indeed ∑j=1kℓζjℓ=|ξ|ℓw+m0ℓ≤rℓ.
+From (3.34) we derive ξ˜ℓ-1(0)⊂R+ for this case as well.
+In both cases we arrive at uˆHη(wSℓ;ξℓ)=Hη(uwvℓSℓ;ξ˜ℓ). □
+Now we are ready to establish the invariance of IDr→ under the operators πr and T0.
+Lemma 3.14
+Let r∈O.
+Under assumptions of Theorem 3.11 one has πrIDr→⊂IDr→.
+Proof
+It is sufficient to establish πr-1Dr→⊂Dr→ for arbitrary r∈O′.
+Consider an element w∈W and a function ξ∈Ξr→(w).
+We will show that there exists an element w˜∈W and a function ξ∈Ξr→(w˜) such that πr-1Hη(wS0;ξ)=Hη(w˜S0;ξ˜).
+Note that we have(3.37)πr-1Hη(wS0;ξ)=⋂ℓ=1mπr-1Hη(wSℓ;ξℓ), where ξℓ=ξ|wSℓ.
+For each ℓ we have two possible cases: Rℓ≅Akℓ or Rℓ≇Akℓ.
+Suppose first that Rℓ≅Akℓ.
+For u=ur and λ=br we can apply Lemma 3.13.
+Indeed, it easy to see that urbr∈P-∨ (see the proof of Proposition 3.7).
+The transformation uˆ=urτ(-br)=πr-1 preserves the set Δ˜ and hence uˆR+⊂Rˆ+.
+Since br is a minuscule coweight miℓ∈{-1,0,1} for i=0,1,…,kℓ (we use the notations of Lemma 3.13) and hence |ξ|ℓw+m0ℓ≤rℓ+1.
+Further we have ξjℓ+mjℓ≥0 because otherwise ξjℓ=0 and mjℓ=-1; since ξ-1(0)⊂R+ the first equality means that wαjℓ∈R+, but this contradicts the second equality.
+So due to Lemma 3.13 there exists an element vℓ∈Wℓ and a map ξ˜ℓ:urwvℓSℓ→Z≥0 with the sum of values not greater than rℓ such that ξ˜ℓ-1(0)⊂R+ and(3.38)πr-1Hη(wSℓ;ξℓ)=Hη(urwvℓSℓ;ξ˜ℓ).
+In the case Rℓ≇Akℓ we have rℓ=0 and therefore ξℓ≡0, Hη(wSℓ;ξℓ)=H(wSℓ′).
+So the relation (3.20) holds for an appropriate vℓ∈Wℓ (see the proof of Proposition 3.7).
+In this case the equality (3.38) is valid for the function ξ˜ℓ:urwvℓSℓ→Z≥0 defined as ξ˜ℓ≡0.
+Note that we have ξ˜ℓ-1(0)=urwvℓSℓ⊂R+.
+Define the element w˜=urw∏ℓ=1mvℓ and the function ξ˜:w˜S0→Z≥0 by the formula ξ˜|w˜Sℓ=ξ˜ℓ.
+We already checked in fact that |ξ˜|ℓw˜≤rℓ.
+Since ξ˜ℓ-1(0)⊂R+ for all ℓ=1,…,m one has ξ˜-1(0)⊂R+.
+So ξ˜∈Ξr→(w˜).
+Thus we obtain πr-1Hη(wS0;ξ)=Hη(w˜S0;ξ˜) as required (cf.
+(3.22)). □
+Lemma 3.15
+Under assumptions of Theorem 3.11 one has T0IDr→⊂IDr→.
+Proof
+Let f∈IDr→, w∈W and ξ∈Ξr→(w).
+Then we need to prove that the function (T0f)(x) vanishes on the plane Hη(wS0;ξ).
+Let ξℓ, αjℓ and ξjℓ be defined as in Lemma 3.13.
+Then there are three different possibilities:(a)
+θ=wθℓ and |ξ|ℓw=rℓ for some ℓ;
+(b)
+wαjℓ=-θ and ξjℓ=1 for some j and ℓ;
+(c)
+the other cases satisfying neither the condition (a) nor (b).
+In the cases (a) and (b) we have α0(x)=ηθ for x∈Hη(wS0;ξ).
+So that the expression (2.21) with i=0 for the function (T0f)(x) vanish on the plane Hη(wS0;ξ).
+Now consider the case (c).
+We will prove in this case s0Hη(wS0;ξ)⊂Dr→ by providing w˜∈W and ξ˜∈Ξr→(w˜) such that s0Hη(wS0;ξ)=Hη(w˜S0;ξ˜).
+Let Rℓ≅Akℓ.
+Put m0ℓ=(wθℓ,θ∨) and mjℓ=(wαjℓ,θ∨), then m0ℓ=∑j=1kℓmjℓ.
+We have |miℓ|≤2 for all i=0,1,…,kℓ.
+Firstly note that |ξ|ℓw+m0ℓ≤rℓ+1.
+Indeed, in the case (c) we have θ≠wθℓ or |ξ|ℓw≤rℓ-1.
+If the first condition holds then the inequality we are proving follows from m0ℓ≤1 and |ξ|ℓw≤rℓ, otherwise it follows from m0ℓ≤2 and |ξ|ℓw≤rℓ-1.
+Secondly ξjℓ+mjℓ≥0 for all j=1,…,kℓ.
+Indeed, if ξjℓ+mjℓ<0 then mjℓ<0, which implies wαjℓ∈R- and hence ξjℓ≠0; so that the only possibility is ξjℓ=1 and mjℓ=-2.
+This implies wαjℓ=-θ, which is impossible in the case (c).
+Note that s0=sθτ(-θ∨) satisfies s0R+⊂Rˆ+.
+Thus using Lemma 3.13 for u=sθ and λ=θ∨ we have(3.39)s0Hη(wSℓ;ξℓ)=Hη(sθwvℓSℓ;ξ˜ℓ) for some element vℓ∈Wℓ and some map ξ˜ℓ:sθwvℓSℓ→Z≥0 with sum of values not greater than rℓ such that ξ˜ℓ-1(0)⊂R+.
+If Rℓ≇Akℓ then rℓ=0 and, therefore, ξℓ≡0, Hη(wSℓ;ξℓ)=H(wSℓ′).
+So we have the equality (3.24) for the appropriate vℓ∈Wℓ (see the proof of Lemma 3.9).
+Thus in this case the relation (3.39) is valid for the map ξ˜ℓ:sθwvℓSℓ→Z≥0 defined as ξ˜ℓ≡0.
+Note that we have ξ˜ℓ-1(0)=sθwvℓSℓ⊂R+.
+Define the element w˜=sθw∏ℓ=1mvℓ and the function ξ˜:w˜S0→Z≥0 by the formula ξ˜|w˜Sℓ=ξ˜ℓ.
+We already checked that |ξ˜|ℓw˜≤rℓ.
+Since ξ˜ℓ-1(0)⊂R+ for all ℓ=1,…,m one has ξ˜(0)∈R+, so ξ˜∈Ξr→(w˜).
+Then we obtain s0Hη(wS0;ξ)=Hη(w˜S0;ξ˜).
+Thus f(x)=f(s0x)=0 for all x∈Hη(wS0;ξ) and we are left to prove that the denominator 1-e-α0(x) in the formula (3.25) does not vanish identically on the plane Hη(wS0;ξ).
+Indeed otherwise α0+[0,2πip]=∑α∈S0γα[wα,ℏξ(wα)-ηα] for some p∈Z and γα∈Z.
+Then there exists ℓ, 1≤ℓ≤m such that γα≠0 only for α∈Sℓ.
+Hence 2πip=ℏ(∑α∈Sℓγαξ(wα)-1)-∑α∈Sℓγαηα and γα are all non-negative or all non-positive.
+If rℓ=0 then ξ|wSℓ≡0 and hence wSℓ⊂R+.
+Since θ∈wRℓ it follows that θ=wθℓ (cf.
+Lemma 3.8) which is a contradiction as we are in case (c) and not in case (a).
+If rℓ≠0 then Rℓ≅Akℓ, η|Rℓ=const.
+The condition (3.31) implies(3.40)2πip=ℏ(∑α∈Sℓγαξ(wα)-1-rℓ+1kℓ+1∑α∈Sℓγα) with |γα|≤1.
+Since ℏ∉2πiQ the expression in the brackets vanishes and due to |∑α∈Sℓγα|=∑α∈Sℓ|γα|≤kℓ we have a contradiction with the condition (3.29). □
+Theorem 3.11 follows from Lemmas 3.12, 3.14 and 3.15.
+Example 3.1
+Let R=An, then Rℓ≅Akℓ, m-1+∑ℓ=1mkℓ≤n and ηα=η1 for all α∈R.
+In this case the conditions (3.29) and (3.31) imply r1=⋯=rm and k1=⋯=km such that GCD(r1+1,k1+1)=1 and (k1+1)η1=(r1+1)ℏ.
+The corresponding invariant ideals (in the representation of DAHA of type GLn+1) were constructed in [18].
+Generalized Macdonald-Ruijsenaars systems
+In this section we use the invariant ideals ID found in Section 3 to obtain commutative algebras of difference operators acting in the space of functions defined on the affine planes.
+We work in the assumptions of Theorem 3.3, so that the ideal ID is invariant and the quotient module is defined.
+The symmetrized Cherednik-Dunkl operators mλ(Y) considered in the quotient representation define a commutative algebra of difference operators.
+We consider explicit examples of operators arising this way.
+The operation of restriction
+In Section 2 we reviewed how the Macdonald-Ruijsenaars systems are obtained in terms of the polynomial representation of DAHAs.
+In this section we show how the generalized Macdonald-Ruijsenaars systems are obtained in terms of the representation(4.1)ρD:t→End(F/ID) on the quotient module F/ID.
+Thus ρD(a)(g)=a(f)|D, where a∈t, f∈F and g=[f]=f|D is a class of the function f identified with its restriction on D.
+Consider the subspace F0⊂F/ID of functions on D which have W-invariant extension in V, that is F0={[f]∈F/ID|f∈FW}.
+Since D⊂WD0 the elements of F0 are determined by their values on the plane D0 and we can identify the space F0 with the space {f|D0|f∈FW} of functions on D0.
+Since C[Y]WFW⊂FW the operators belonging to the algebra ρD(C[Y]W) preserve the space F0.
+For any a∈C[Y]W letresρD(a)=ρD(a)|F0.
+This operator as an operator on D0 is given more explicitly by the next theorem.
+Before its formulation we introduce some notations.
+Let V¯={x∈V|(α,x)=0,∀α∈S0}.
+Denote by λ¯ the orthogonal projection of a vector λ∈V onto the subspace V¯ and by P∨¯ the set of projections of the coweights: P∨¯={λ¯|λ∈P∨}⊂V¯.
+The shift operators τ(λ¯) preserve the affine plane D0 and therefore they act on functions ψ on this plane: τ(λ¯)ψ(x)=ψ(x-ℏλ¯), where x∈D0.
+Let M¯ be the space of meromorphic functions on D0 which are restriction ψ|D0, ψ∈M.
+Define the algebra D of difference operators on D0 by D¯=M¯#τ(P∨¯).
+Note that any element a∈t in the representation (2.19) has the form(4.2)a=∑λ∈P∨∑w∈Wgλ,wτ(λ)w, where gλ,w∈M
+Theorem 4.1
+Let a∈C[Y]W have the form (4.2).
+Then(4.3)resρD(a)=∑λ′∈P∨¯(∑w∈W∑λ∈P∨λ¯=λ′gλ,w)|D0τ(λ′).
+Formula (4.3) defines the algebra homomorphism res:ρD(C[Y]W)→D¯.
+Proof
+Let us write v≈v′ for v,v′∈V if wv-v′∈2πiQ∨ for some w∈W.
+Denote Pλx={ν∈P∨|x-ℏν≈x-ℏλ}.
+Let fλx0(x)∈FW be a function which equals 1 in the points x≈x0-ℏλ and vanishes outside the small neighbourhoods of these points (such function exists if x0∉Z).
+Note that for any f∈FW the function (af)(x) is smooth.
+Let x0∈V\Z.
+Substituting f=fλ0x0 for λ0∈P∨ and taking the limit x→x0 in the formula(4.4)(af)(x)=∑λ∈P∨∑w∈Wgλ,w(x)f(x-ℏλ) we obtain (afλ0x0)(x0)=limx→x0Gλ0x0(x), where Gλx0(x)=∑ν∈Pλx0∑w∈Wgν,w(x).
+So that the functions Gλx0(x) are defined in the point x=x0 (have finite limit).
+Note also that f|D0=0 implies (af)|D0=0 since aID⊂ID.
+Hence if Gλx0(x0)≠0 for some x0∈D0\Z, λ∈P∨ then there exists w∈W such that w(x0-ℏλ)∈D0+2πiQ∨.
+Let the W-invariant function η satisfying the conditions hηℓ=ℏ be generic.
+In particular we will assume that Z⊅D0.
+Let x0 be a generic point of D0\Z (that is a generic point of D0).
+Then it follows from w(x0-ℏλ)∈D0+2πiQ∨ where w∈W that w0(x0-ℏλ)∈D0+2πiQ∨ for some w0∈W0.
+Indeed, for generic x0∈D0 the formula w(x0-ℏλ)∈D0+2πiQ∨ implies w-1S0⊂V0 and hence wV0=V0.
+Decomposing the element w∈W as w=w′w0 with w′∈W+, w0∈W0 (see Remark 3.1 and [17]) we obtain w′V0=V0.
+Then by applying Proposition 3.2 we derive w′D0=D0 and hence w0(x0-ℏλ)∈D0+2πiQ∨.
+One can show (for generic function η) that w0(x0-ℏλ)∈D0+2πiQ∨ implies x0-ℏλ≈x0-ℏλ¯.
+Note that the right-hand side of (4.4) at x=x0 has the form (af)(x0)=∑λ∈P∨1|Pλx0|Gλx0(x0)f(x0-ℏλ).
+Since each term contributes only if Gλx0(x0)≠0 we can rewrite the expression as(4.5)(af)(x0)=∑λ∈P∨1|Pλx0|Gλx0(x0)f(x0-ℏλ¯), where we used the W-invariance and 2πiQ∨-periodicity of the function f(x).
+One can prove that if x0-ℏλ¯≈x0-ℏν¯ for some λ,ν∈P∨ then λ¯=ν¯.
+Thus we get ν¯=λ¯ if Gλx0(x0)≠0 and ν∈Pλx0.
+Hence the formula (4.5) can be rearranged to(4.6)(af)(x0)=∑λ′∈P∨¯(∑w∈W∑λ∈P∨λ¯=λ′gλ,w)(x0)f(x0-ℏλ′).
+We established the equality (4.6) for generic x0∈D0 and η.
+Since the left-hand side is defined for all x0∈D0 and η the equality is valid for all x0∈D0 and η.
+Since (resρD(a)f|D0)(x0)=(af)(x0) for f∈FW the equality (4.3) follows.
+Note that by putting f=fλ0′x0 where λ0′∈P∨¯ in (4.6) we see that each function (∑w∈W∑λ∈P∨,λ¯=λ0′gλ,w)(x0) is defined for any admissible η and generic x0∈D0.
+Notice that if A∈D¯ is such that Aϕ=0 for any ϕ∈F0 then A=0.
+Indeed consider the action of A=∑λ′∈P∨¯gλ′τ(λ′) where gλ′∈M¯ on ϕ=fλ0′x0|D0.
+Then one yields gλ0′(x0)=0 for generic x0∈D0 and all λ0′∈P∨¯.
+It follows that the linear map res:ρD(C[Y]W)→D¯ defined by the formula (4.3) is an algebra homomorphism. □
+We are going to derive generalized Macdonald-Ruijsenaars operators using the operation resρD from Theorem 4.1.
+First it is useful to note that restrictions to the invariant functions and restrictions to the quotient module can be interchanged.
+More specifically, let D∈D be an operator of the form D=∑λ∈P∨gλτ(λ).
+Define the operator(4.7)D¯=∑λ′∈P∨¯(∑λ∈P∨λ¯=λ′gλ)|D0τ(λ′)∈D¯ in the case when for any λ′∈P∨¯ the restricted function (∑λ∈P∨,λ¯=λ′gλ)|D0 is well-defined meromorphic function on D0.
+Proposition 4.2
+The subspace R¯=res∘ρD(C[Y]W)⊂D¯ is a commutative subalgebra in D¯.
+The map ρD¯:D↦D¯ given by (4.7) is well defined on the subspace R=Res(C[Y]W)⊂D.
+The algebra R¯ coincides with the image of the map ρD¯:R→D¯, thus it is spanned by the elements Mλ¯, λ∈P∨.
+The following diagram of surjective linear maps is commutative:(4.8) and the map ρD¯:R→R¯ is an algebra homomorphism.
+Proof
+The space R¯ is a commutative algebra as an image of the homomorphism res∘ρD.
+The definition of the map res:ρ(C[Y]W)→D¯ implies that res∘ρD(a)=Res(a)¯ for any a∈C[Y]W.
+Due to this formula and surjectivity of the map Res:C[Y]W→R the operator D¯ is defined for any D∈R.
+We also conclude that R¯ coincides with image of the map ρD¯:R→D¯ and that the diagram (4.8) commutes.
+Since the operators Mλ form a basis in R their images Mλ¯ span the space R¯.
+The commutativity of the diagram implies in turn that ρD¯:R→R¯ is a homomorphism: a′⋅b′¯=Res(a)⋅Res(b)¯=Res(a⋅b)¯=res∘ρD(a⋅b)=res∘ρD(a)⋅res∘ρD(b)=a′¯⋅b′¯, where a,b∈C[Y]W such that a′=Res(a) and b′=Res(b). □
+We will say that the image D¯ of D∈R under ρD¯ is the restriction of the operator D onto D0.
+The commutative subalgebra R¯⊂D¯ is the generalized Macdonald-Ruijsenaars system.
+The restrictions M-br¯ and M-θ∨¯ of the Macdonald operators M-br and M-θ∨ are the generalized Macdonald-Ruijsenaars operators.
+Integrability of generalized Macdonald-Ruijsenaars systems
+Let n¯=dimD0=n-|S0|, where |S0| is a number of elements in the subset S0⊂Δ.
+The set of indexes J={j∈Z>0|αj∉S0} has size n¯, let J={j1,…,jn¯}.
+If j∈J then the corresponding fundamental coweight belongs to the subspace V¯, that is bj¯=bj, bj∈P∨¯ and τ(±bj) preserve the plane D0.
+Theorem 4.3
+The operators M-bj1¯,…,M-bjn¯¯ are algebraically independent elements of R¯.
+Proof
+By the formula (2.31) with λ=-bj we have(4.9)M-bj=g-bj(x)τ(-bj)+∑ν≺-bjgν-bj(x)τ(ν), where gν-bj∈M and g-bj(x)=∏α∈Rˆ-bjtαeα(x)-tα-1eα(x)-1.
+Let j∈J.
+Firstly note that ν≺-bj implies ν¯≠-bj.
+Indeed, if a weight ν∈P∨ satisfies ν≺-bj then it follows the corresponding inequality between the lengths: |ν|≤|-bj|.
+If ν¯=ν then ν¯=ν≠-bj.
+If ν¯≠ν then one has |ν¯|<|ν| hence |ν¯|<|-bj| and therefore ν¯≠-bj.
+Taking into account that bj¯=bj one yields(4.10)M-bj¯=g-bj|D0τ(-bj)+∑ν′∈P∨¯ν′≠-bj(∑ν≺-bjν¯=ν′gν-bj)|D0τ(ν′).
+Let us prove that the function g-bj|D0 does not vanish identically.
+Indeed, otherwise there exists an affine root α=[α(1),α(0)]∈Rˆ-bj such that eα(x)≡e(α(1),x)+α(0)=tα-2 for all x∈D0.
+This implies that α(1)∈R is a linear combination of the elements of S0 and, consequently, (α(1),bj)=0.
+But on the other handRˆ-bj=(τ(-bj)Rˆ+)∩Rˆ-={[β,ℏk]|β∈R-,k∈Z,(β,bj)<k≤0}, which implies (α(1),bj)<0.
+Hence g-bj|D0≢0.
+Let us introduce the order on the set P∨¯: we will write ν′⋗λ′ for ν′,λ′∈P∨¯ if ν′≠λ′ and ν′-λ′=∑i=1nγiαi∨¯ for some γi∈Z≥0.
+One can check that this is a partial order on P∨¯.
+The ordering ν≺-bj for ν∈P∨ implies ν>-bj, ν¯≠-bj and hence ν¯⋗-bj.
+So denoting g¯ν′-bj=∑ν≺-bj,ν¯=ν′gν-bj∈M¯ for ν′≠-bj we obtain(4.11)M-bj¯=g-bj|D0τ(-bj)+∑ν′∈P∨¯ν′⋗-bjg¯ν′-bjτ(ν′), where g-bj|D0≠0.
+Let m1,…,mn¯∈Z≥0 and λ′=-∑l=1n¯mlbjl∈P-∨¯, then(4.12)∏l=1n¯(M-bjl¯)ml=gm1,…,mn¯τ(λ′)+∑ν′∈P∨¯ν′⋗λ′gν′m1,…,mn¯τ(ν′), where gm1,…,mn¯,gν′m1,…,mn¯∈M¯ and gm1,…,mn¯≠0.
+Since the operators (4.12) are linearly independent the elements M-bj1¯,…,M-bjn¯¯ are algebraically independent. □
+Now we introduce some notations.
+Let f be a function of several variables depending, in particular, on a complex variable z.
+Then we denote by Tza the operator acting on f by the shift:(4.13)(Tzaf)(…,z,…)=f(…,z+a,…), where a∈C.
+Let xi=(ei,x)+ci for i=1,…,N, where {ei} is a set of pairwise orthogonal vectors in CN and ci∈C.
+Then we have TxiℏKi=τ(-ei) on the functions f(x)=f(x1,…,xN), where Ki=(ei,ei).
+An type examples
+The root system R=An is defined as {ei-ej|i,j=1,…,n+1,i≠j} considered in the space V={x=∑i=1n+1xiei∈Cn+1|∑i=1n+1xi=0}, where {ei} is the standard orthonormal basis in Cn+1.
+The simple roots are α1=e1-e2, α2=e2-e3,…,αn=en-en+1 and the maximal root is θ=e1-en+1 All fundamental coweights br, r=1,…,n are minuscule.
+Any Wˆ-invariant function t:Rˆ→C\{0} is constant.
+We will consider functions f on V as functions of n+1 variables satisfying the condition ∏i=1n+1Txiaf(x1,…,xn+1)=f(x1,…,xn+1), ∀a∈C.
+Then we have Txiℏf=τ(-ei)f=τ(-eˆi)f, where eˆi is the orthogonal projection of the vector ei to the subspace V⊂Cn+1.
+Taking the coweight b1=eˆ1 in (2.25) we obtain the operator(4.14)M-b1=∑i=1n+1∏j=1j≠in+1texj-xi-t-1exj-xi-1Txiℏ.
+Any root subsystem R0 has irreducible components Rℓ of type A only in its decomposition R0=⨆ℓ=1mRℓ.
+The invariant function η=const.
+The generalized Coxeter number is hηℓ=kη for Rℓ≅Ak-1.
+Thus the conditions (3.13) lead to R1≅R2≅⋯≅Rm≅Ak-1 and ℏ=kη for some k∈Z≥2.
+Let us choose(4.15)Sℓ={eN1+k(ℓ-1)+1-eN1+k(ℓ-1)+2,…,eN1+kℓ-1-eN1+kℓ},ℓ=1,…,N2, where N1=n+1-mk and N2=m.
+Introduce new variables(4.16)yℓ=1k∑s=0k-1(xN1+kℓ-s-sη)=1k∑s=0k-1xN1+kℓ-s-k-12η,ℓ=1,…,N2.
+Note that xN1+kℓ-s|D0=yℓ|D0+sη for all s=0,…,k-1.
+The values of the variables xi,yℓ with i=1,…,N1, ℓ=1,…,N2 satisfying ∑i=1N1xi+k∑ℓ=1N2yℓ=-k(k-1)η/2 uniquely determine a point on the affine plane D0.
+The functions f:D0→C are functions f(x1,…,xN1,y1,…,yN2) satisfying ∏i=1N1Txia∏ℓ=1N2Tyℓa/kf=f, ∀a∈C.
+Proposition 4.4
+Let t=eη/2.
+The restriction of the operator (4.14) onto D0 takes the form(4.17)M-b1¯=∑i=1N1∏j=1j≠iN1texj-xi-t-1exj-xi-1∏ℓ′=1N2qeyℓ′-xi-q-1eyℓ′-xi-1Txiℏ+q-q-1t-t-1∑ℓ=1N2∏j=1N1texj-yℓ-t-1exj-yℓ-1∏ℓ′=1ℓ′≠ℓN2qeyℓ′-yℓ-q-1eyℓ′-yℓ-1Tyℓη.
+Proof
+The coefficient at Txiℏ in M-b1 has non-zero restriction on D0 only if 1≤i≤N1 or i=N1+kℓ for some ℓ=1,…,N2.
+These restrictions can be calculated explicitly using the formulae (valid on D0)∏s=0k-1g(xN1+kℓ′-s-a;t,1)=g(yℓ′-a;tk,1),∏s=1k-1g(xN1+kℓ-s-xN1+kℓ;t,1)=g(0;tk,t)=tk-t-kt-t-1, where a∈C and g(z;b,c)=bez-b-1cez-c-1.
+Further since ei¯=ei for i=1,…,N1 the restriction of Txiℏ=τ(-ei) in this case coincides with Txiℏ.
+For i=N1+kℓ the restriction of Txiℏ=τ(-ei) is equal to Tyℓℏ/k due to ei¯=1k∑s=0k-1eN1+kℓ-s and yℓ=(ei¯,x)-(k-1)η/2 (see the end of Section 4.2).
+Taking into account the condition ℏ=kη and its exponential form q=tk we can write the restriction of (4.14) in the form (4.17). □
+Note that the operator (4.17) does not effectively depend on k, it depends on N1, N2, ℏ, η only, where it is assumed that ℏ/η∈Z>0.
+The operator (4.17) was previously obtained and investigated in [29] for general parameters ℏ and η and earlier in [2] in the case N2=1.
+The formula (2.25) gives the explicit form of n Macdonald operators(4.18)M-br=∑I⊂{1,…,n+1}|I|=r∏i∈Ij∉Itexj-xi-t-1exj-xi-1∏i∈ITxiℏ,r=1,…,n, where |I| is the number of elements in the set I⊂{1,…,n+1}.
+Similar to the proof of Proposition 4.4 we calculate the restrictions of the operators (4.18) onto D0.
+We obtain(4.19)M-br¯=∑I⊂{1,…,N1}mℓ∈Z≥0|I|+∑ℓ=1N2mℓ=r∏i,j=1i∈Ij∉IN1texj-xi-t-1exj-xi-1∏ℓ,ℓ′=1N2∏s=0mℓ-1qt-seyℓ′-yℓ-q-1tstmℓ′-seyℓ′-yℓ-ts-mℓ′∏ℓ=1i∈IN2qeyℓ-xi-q-1tmℓeyℓ-xi-t-mℓ∏ℓ=1j∉IN2texj-yℓ-t-1t1-mℓexj-yℓ-tmℓ-1∏i∈ITxiℏ∏ℓ=1N2Tyℓmℓη, where q=eℏ/2, t=eη/2.
+In the case r=1 the operator (4.19) takes the form (4.17).
+Theorem 4.5
+For any values of the parameters ℏ and η the operators M-br¯ given by the formula (4.19), r∈Z>0, pairwise commute.
+The operators M-br¯ with r=1,…,N1+N2-1 are algebraically independent at generic values of ℏ and η.
+Proof
+For any r,r′∈Z>0 the commutator has the form(4.20)[M-br¯,M-br′¯]=∑k1,…,kN1∈Z≥0m1,…,mN2∈Z≥0Cm1,…,mN2k1,…,kN1(x,y;q,t)∏i=1N1Txikiℏ∏ℓ=1N2Tyℓmℓη, where the coefficients Cm1,…,mN2k1,…,kN1(x,y;q,t) are rational functions of q=eℏ/2 and t=eη/2.
+It follows from Proposition 4.2 that these functions equal zero if ℏ,η∈C\πiQ such that ℏ/η∈Z>1 and N1+ℏηN2>max(r,r′).
+Thus the coefficients vanish for any parameters ℏ and η, and the operators commute.
+The second part follows from the fact that the operators M-br¯ at ℏ=η are specializations of the Macdonald operators M-br with n=N1+N2-1, which are algebraically independent. □
+Bn type examples
+The root system R=Bn is defined as the set {ϵei+ϵ′ej|1≤i<j≤n,ϵ,ϵ′=±1}∪{ϵei|1≤i≤n,ϵ=±1}.
+The simple roots are α1=e1-e2, α2=e2-e3,…,αn-1=en-1-en, αn=en.
+The maximal root is θ=e1+e2.
+The group Wˆ has two orbits on Rˆ so the function t:Rˆ→C\{0} is determined by the values t1=t±ei±ej and tn=t±ei.
+There is a unique minuscule coweight b1=e1.
+The corresponding Macdonald operator is(4.21)M-e1=∑i=1n(∏j=1j≠in(t1exi-xj-t1-1)(t1exi+xj-t1-1)(exi-xj-1)(exi+xj-1)tnexi-tn-1exi-1Txi-ℏ+∏j=1j≠in(t1exj-xi-t1-1)(t1e-xi-xj-t1-1)(exj-xi-1)(e-xi-xj-1)tne-xi-tn-1e-xi-1Txiℏ), where xi=(ei,x) are coordinates on V.
+The invariant function η satisfies η1=η2=⋯=ηn-1 and ηθ=η1.
+The generalized Coxeter number is hηℓ=kη1 for Rℓ≅Ak-1 and hηℓ=2(k-1)η1+2ηn if Rℓ≅Bk.
+We have two cases αn∉S0 and αn∈S0 depending on the choice of S0⊂Δ.
+Consider first the case αn∉S0.
+All the irreducible components Rℓ are of type A.
+Then the conditions hηℓ=ℏ imply ℏ=kη1 for some k∈Z>0 and Rℓ≅Ak-1 for all ℓ.
+Hence q=t1k and we can choose(4.22)Sℓ={eN1+k(ℓ-1)+1-eN1+k(ℓ-1)+2,…,eN1+kℓ-1-eN1+kℓ},ℓ=1,…,N2, where N1=n-mk and N2=m.
+Define new variables(4.23)yℓ=1k∑s=0k-1xN1+kℓ-s=k-12η1+1k∑s=0k-1(xN1+kℓ-s-sη1),ℓ=1,…,N2.
+Note that xN1+kℓ-s|D0=yℓ|D0-(k-1)η1/2+sη1 for all s=0,…,k-1.
+The variables xi,yℓ with i=1,…,N1, ℓ=1,…,N2 form a system of orthogonal coordinates on the affine plane D0.
+Proposition 4.6
+Let t1=eη1/2.
+In the case αn∉S0 the restriction of the operator (4.21) onto D0 takes the form(4.24)M-e1¯=∑i=1ϵ=±1N1Aiϵ(x,y)Txi-ϵℏ+q-q-1t1-t1-1∑ℓ=1ϵ=±1N2Bℓϵ(x,y)Tyℓ-ϵη1, where(4.25)Aiϵ(x,y)=∏j=1j≠iN1(g(ϵxi-xj;t1,1)g(ϵxi+xj;t1,1))∏ℓ′=1N2(g(ϵxi-yℓ′;q1/2t11/2,q-1/2t11/2)g(ϵxi+yℓ′;q1/2t11/2,q-1/2t11/2))g(ϵxi;tn,1),(4.26)Bℓϵ(x,y)=∏j=1N1(g(ϵyℓ-xj;q1/2t11/2,q1/2t1-1/2)g(ϵyℓ+xj;q1/2t11/2,q1/2t1-1/2))∏ℓ′=1ℓ′≠ℓN2(g(ϵyℓ-yℓ′;q,1)g(ϵyℓ+yℓ′;q,1))g(ϵyℓ;q1/2t1-1/2tn,q1/2t1-1/2)g(2ϵyℓ;qt1-1,1), and(4.27)g(z;a,b)=aez-a-1bez-b-1,a,b∈C.
+Proof
+The coefficient at Txi-ϵℏ in M-e1 has non-zero restriction on D0 only if 1≤i≤N1 or i=N1+kℓ-(1+ϵ)(k-1)/2 for some ℓ=1,…,N2.
+To calculate these coefficients we first use(4.28)∏s=0k-1g(a±xN1+kℓ′-s;t1,1)=g(a±yℓ′;q1/2t11/2,q-1/2t11/2),(4.29)∏s=0s≠N1+kℓ-ik-1g(ϵxi-xN1+kℓ-s;t1,1)g(ϵxi+xN1+kℓ-s;t1,1)=g(0;q,t)g(2ϵyℓ;qt1-1,1), where i=N1+kℓ-(1+ϵ)(k-1)/2.
+Further, if i=N1+kℓ-(1+ϵ)(k-1)/2 then we have ϵxi=ϵ(yℓ-(k-1)η1/2+(1+ϵ)(k-1)η1/2)=ϵyℓ+(k-1)η1/2 and hence(4.30)g(ϵxi+a;b,c)=g(ϵyℓ+a;bq1/2t1-1/2,cq1/2t1-1/2) for any b,c≠0.
+Thus we obtain (4.24). □
+If αn∈S0 then we suppose that the numeration of the components Sℓ is such that αn∈Sm.
+Then Rℓ≅Ak-1 for ℓ=1,…,m-1 and Rm≅Bk˜, where k=|S1|+1 and k˜=|Sm|.
+Put N1=n-(m-1)k-k˜, N2=m-1, and let S1,…,Sm-1 have the form (4.22), while(4.31)Sm={en-k˜+1-en-k˜+2,en-k˜+2-en-k˜+3,…,en-1-en,en}.
+The variables x1,…,xN1 together with (4.23) are coordinates on D0.
+Proposition 4.7
+Let t1=eη1/2 and tn=eηn/2.
+In the case αn∈S0 the restriction of the operator (4.21) onto D0 takes the form(4.32)M-e1¯=∑i=1ϵ=±1N1A˜iϵ(x,y)Txi-ϵℏ+q-q-1t1-t1-1∑ℓ=1ϵ=±1N2B˜ℓϵ(x,y)Tyℓ-ϵη1+C˜(x,y), where(4.33)A˜iϵ(x,y)=g(ϵxi;t1tn-1,q-1/2)g(ϵxi;q1/2t1,1)∏j=1j≠iN1g(ϵxi-xj;t1,1)g(ϵxi+xj;t1,1)∏ℓ′=1N2g(ϵxi-yℓ′;q1/2t11/2,q-1/2t11/2)g(ϵxi+yℓ′;q1/2t11/2,q-1/2t11/2),(4.34)B˜ℓϵ(x,y)=g(ϵyℓ;q1/2t11/2tn-1,t1-1/2)g(ϵyℓ;qt11/2,q1/2t1-1/2)g(2ϵyℓ;qt1-1,1)∏j=1N1g(ϵyℓ-xj;q1/2t11/2,q1/2t1-1/2)g(ϵyℓ+xj;q1/2t11/2,q1/2t1-1/2)∏ℓ′=1ℓ′≠ℓN2g(ϵyℓ-yℓ′;q,1)g(ϵyℓ+yℓ′;q,1),(4.35)C˜(x,y)=(q1/2t1tn-1-q-1/2t1-1tn)(q1/2+q-1/2)t1-t1-1∏j=1N1g(-xj;q1/2t1,q1/2)g(xj;q1/2t1,q1/2)∏ℓ′=1N2g(-yℓ′;qt11/2,t11/2)g(yℓ′;qt11/2,t11/2), and g(z;a,b) is defined by (4.27).
+Proof
+Note that xn-s=ηn+sη1 for all s=0,…,k˜-1.
+So the functional coefficient at Txi-ϵℏ has non-zero restriction on D0 only if 1≤i≤N1 or i=N1+kℓ-(1+ϵ)(k-1)/2 for some ℓ=1,…,N2 or i-n+k˜=ϵ=+1.
+To calculate the coefficients for the first two cases we use the formulae (4.28), (4.29), (4.30) and the formulag(a;tn,1)∏s=0k˜-1g(a-xn-s;t1,1)g(a+xn-s;t1,1)=g(a;t1tn-1;q1/2)g(a;q1/2t1,1).
+The restriction of Txn-k˜+1-ℏ yields the identity operator 1.
+The corresponding coefficient is calculated usingg(xn-k˜+1+a;b,c)=g(a;bt1k˜-1tn,ct1k˜-1tn)=g(a;bq1/2,cq1/2),g(xi;tn,1)∏s=0k˜-2g(xi-xn-s;t1,1)g(xi+xn-s;t1,1)=g(0;q1/2t1tn-1,t1)g(0;q,q1/2), where i=n-k˜+1 and we used the condition 2(k˜-1)η1+2ηn=ℏ in the form t1k˜-1tn=±q1/2. □
+Remark 4.1
+The operator (4.32) can be rewritten in the form(4.36)M-e1¯=∑i=1ϵ=±1N1A˜iϵ(x,y)(Txi-ϵℏ-1)+q-q-1t1-t1-1∑ℓ=1ϵ=±1N2B˜ℓϵ(x,y)(Tyℓ-ϵη1-1)+m-e1,t, where m-e1,t=t1n-t1-nt1-t1-1(tnt1n-1+tn-1t11-n).
+Remark 4.2
+Rational degeneration of the operators (4.24) and (4.32) can be obtained by substitution xi→xi/ω, yi→yi/ω, ηα→ηα/ω, ℏ→ℏ/ω and taking the limit ω→∞.
+This gives particular case of the operator considered by Sergeev and Veselov in [30, formula (94)], see also [12].
+An example from root system F4
+The root system R=F4 is given in V=C4 by(4.37)R={ϵei|1≤i≤4,ϵ=±1}∪{ϵ1ei+ϵ2ej|1≤i<j≤4,ϵ1,ϵ2=±1}∪{12∑k=14νkek|ν1,…,ν4=±1}.
+The simple roots are α1=e2-e3, α2=e3-e4, α3=e4 and α4=12(e1-e2-e3-e4).
+The maximal root is θ=e1+e2.
+The corresponding Weyl group W has two orbits on R.
+There are no minuscule coweights in this case.
+The W-invariant function η satisfies η1=η2 and η3=η4.
+We impose t0=t1=t2=eη1/2 and t3=t4=eη3/2.
+The Macdonald operator (2.27) takes the form(4.38)M-θ∨=∑1≤i<j≤4ϵ1,ϵ2=±1g(ϵ1xi;t3,1)g(ϵ2xj;t3,1)∏k≠i,jϵ3=±1(g(ϵ1xi+ϵ3xk;t1,1)g(ϵ2xj+ϵ3xk;t1,1))∏ν1,…,ν4=±1νi=ϵ1,νj=ϵ2g(12∑k=14νkxk;t3,1)g(ϵ1xi+ϵ2xj;t1,1)g(ϵ1xi+ϵ2xj;q-1t1,q-1)(Txi-ϵ1ℏTxj-ϵ2ℏ-1)+m-θ∨,t, where g(z;a,b) is defined by (4.27).
+Let us consider the simplest example S0={α3}≅A1.
+Then D0={x∈V|x4=η3} and the condition (3.13) becomes 2η3=ℏ.
+The restriction of the operator (4.38) takes the form(4.39)M-θ∨¯=∑1≤i<j≤3ϵ1,ϵ2=±1g(ϵ1xi;q1/2,1)g(ϵ1xi;t1q1/2,q1/2)g(ϵ1xi;t1q-1/2,q-1/2)g(ϵ2xj;q1/2,1)g(ϵ2xj;t1q1/2,q1/2)g(ϵ2xj;t1q-1/2,q-1/2)g(ϵ1xi+ϵ2xj;t1,1)g(ϵ1xi+ϵ2xj;q-1t1,q-1)∏ϵ3=±1(g(ϵ1xi+ϵ3xk;t1,1)g(ϵ2xj+ϵ3xk;t1,1)g(12(ϵ1xi+ϵ2xj+ϵ3xk);q3/4,q-1/4))(Txi-ϵ1ℏTxj-ϵ2ℏ-1)+(q1/2+q-1/2)∑1≤i≤3ϵ1=±1g(ϵ1xi;q1/2,1)∏l≠i,4ϵ3=±1(g(ϵ1xi+ϵ3xl;t1,1)g(ϵ3xl;q1/2t1,q1/2))∏ν1,…,ν3=±1νi=ϵ1g(12∑l=13νlxl;q3/4,q1/4)g(ϵ1xi;t1q1/2,q1/2)g(ϵ1xi;q-1/2t1,q-1/2)(Txi-ϵ1ℏ-1)+m-θ∨,t, where in every term in the sum k is such that 1≤k≤3, k≠i,j; and t1=eη1/2, q1/2=eℏ/4 are parameters.
+Remark 4.3
+It is possible to obtain a commuting operator to (4.39) by restriction of the relevant Macdonald operators for the small weights [32].
+Similarly one can get Hamiltonians and quantum integrals starting from the Macdonald operators for the small weights in the case of other exceptional root systems.
+The case (Cn∨,Cn)
+The affine root system of type (Cn∨,Cn) is given by(5.1)S={[ϵ1ei+ϵ2ej,ℏk]|1≤i<j≤n;ϵ1,ϵ2=±1;k∈Z}∪{ϵ⋅[ei,ℏk2]|1≤i≤n;ϵ=±1,±2;k∈Z}⊂Vˆ (see [23,25]).
+Let W˜ be the group generated by the affine reflections sα with α∈S.
+The corresponding DAHA is defined in [28] (see also [26]).
+We recall the associated commuting difference operators below.
+Let R=Cn, that is(5.2)R={ϵ1ei+ϵ2ej|1≤i<j≤n;ϵ1,ϵ2=±1}∪{ϵ2ei|1≤i≤n;ϵ=±1},(5.3)Δ={αi=ei-ei+1|i=1,…,n-1}∪{αn=2en}⊂R, let Rˆ={[α,ℏk]|α∈R;k∈Z} and Δ˜=Δ∪{α0=[-θ,ℏ]=[-2e1,ℏ]}.
+Then W˜={sα|α∈S}={sα|α∈Rˆ} is the affine Weyl group for Cn.
+Let Q∨, P∨, P and W be the lattices of coroots, of coweights, of weights and the Weyl group for the root system R=Cn respectively.
+Let also Pˆ⊂Vˆ be the subset defined in Section 2.1 for R=Cn.
+Noumi representation of (Cn∨,Cn) type DAHA and Koornwinder operator
+Let t,u:Rˆ→C\{0} be such that tα=tw˜α=t(α), uα=uw˜α=u(α) for any w˜∈W˜, α∈Rˆ.
+Put u±ei±ej=1, ti=tαi, ui=uαi.
+So we have t1=t2=⋯=tn-1 and u1=u2=⋯=un-1=1.
+Definition 5.1
+(See [28].) Double Affine Hecke Algebra of type (Cn∨,Cn) is the algebra t,u generated by the elements T0,T1,…,Tn, and by the set of pairwise commuting elements {Xμ}μ∈Pˆ with the relations (2.4)-(2.7), (2.10) and(5.4)Ti-1XμTi-1=Xμ-αi+(ui-ui-1)Xμ-αi/2Ti-1,if (μ,αi∨)=1,μ∈Pˆ, where i=0,1,…,n.
+The algebra t,u depends on six independent parameters t1, tn, t0, un, u0 and ℏ.
+Note that the elements πr are not included in this case.
+One can also define an 'extended' version of (Cn∨,Cn) type DAHA where affine Weyl group W˜=W⋉τ(Q∨) is replaced with the extended affine Weyl group Wˆ=W⋉τ(P∨).
+However the Wˆ-invariance of the functions t,u leads to less independent parameters in this algebra and subsequently in the commuting difference operators.
+Note also that if u0=un=1 then the algebra t,u can be interpreted as a 'non-extended' version of DAHA of type Cnˆ.
+Consider the action of the generators of t,u on the space F given by the Noumi representation [26](5.5)Xμ=eμ(x),Ti=ti+ti-1(1-tiuie-αi(x)/2)(1+tiui-1e-αi(x)/2)1-e-αi(x)(si-1), where μ∈Pˆ, i=0,1,…,n.
+The elements Tw˜∈t,u with w˜∈W˜ and Cherednik-Dunkl operators Yλ∈t,u with λ∈Q∨ are defined by the formula (2.12), where πr=1, and(5.6)Yλ-ν=Tτ(λ)Tτ(ν)-1,λ,ν∈P+∨∩Q∨.
+The operators Yλ commute with each other and satisfy the relations [26,25](5.7)TiYλ-YsiλTi=ti-ti-1+(t¯i-t¯i-1)Y-αi∨1-Y-2αi∨(Yλ-Ysiλ),i=1,…,n, where λ∈Q∨, t¯i=ti for i=1,…,n-1 and t¯n=t0.
+Let C[Y] be the commutative subalgebra of t,u spanned by the Cherednik-Dunkl operators (5.6).
+The relation (5.7) implies that the elements of the subalgebra C[Y]W⊂C[Y] preserve the subspace of W-invariant functions F, that is mλ(Y)FW⊂FW, where λ∈Q∨ and mλ(Y) is the operator defined by the formula (2.22).
+By restricting these operators to the subspace FW we obtain the difference operators Mλ given by formula (2.24) with (2.23).
+Thus we get a commutative algebra R spanned by Mλ with λ∈Q∨.
+It is generated by the algebraically independent elements Mνi=M-νi, where νi=e1+e2+⋯+ei and i=1,…,n.
+The first of the generators is the Koornwinder operator [26,21](5.8)M-e1=M-θ∨=∑i=1ϵ=±1n(t0tn)-1∏j=1j≠in(g(ϵxi-xj;t1,1)g(ϵxi+xj;t1,1))(1-t0u0q-1eϵxi)(1+t0u0-1q-1eϵxi)(1-tnuneϵxi)(1+tnun-1eϵxi)(1-q-2e2ϵxi)(1-e2ϵxi)(Txi-ϵℏ-1)+κt, where g(z;a,b)=aez-a-1bez-b-1 and κt=t1n-t1-nt1-t1-1(t0tnt1n-1+t0-1tn-1t11-n).
+Invariant ideals and generalized Koornwinder operator
+Let η:R→C be a W-invariant function.
+It is defined by independent parameters η1=ηα1 and ηn=ηαn.
+Let S0⊂Δ and let D0, W+, D and ID be defined in the same way as in Section 3 for the case R=Cn.
+Let S0=⨆ℓ=1mSℓ and R0=⨆ℓ=1mRℓ be the decompositions defined in Section 3.2.
+We denote kℓ=|Sℓ|.
+There are two possible cases: αn∉S0 and αn∈S0.
+In the former case the components Rℓ≅Akℓ for all ℓ=1,…,m.
+In the latter case one of the components is of type C.
+We suppose αn∈Sm so that Rℓ≅Akℓ for all ℓ=1,…,m-1 and Rm≅Ckm.
+Lemma 5.1
+Assume that(5.9)hηℓ=ℏ,whenever αn∉Rℓ.
+Let w∈W+ be such that wθℓ≠θ for all ℓ=1,…,m.
+Then s0Hη(wS0)⊂D.
+Proof
+If αn∉S0 then the assumptions of Lemma 3.9 hold and, therefore, s0Hη(wS0)⊂D.
+If αn∈S0 then the statement can be proved in the same way as Lemma 3.9.
+Indeed, in the proof of Lemma 3.9 the condition hηℓ=ℏ was used only if (wθℓ,θ∨)=1.
+Thus it is sufficient to establish that (wθm,θ∨)=0.
+Since wSm consists of positive roots only this set has the form(5.10)wSm={ei1-ei2,ei2-ei3,…,eikm-1-eikm,2eikm}, for some 1≤i1<i2<⋯<ikm≤n.
+Since wθm=2ei1 the condition wθm≠θ=2e1 implies i1≠1 and, hence, (wθm,θ∨)=(2ei1,e1)=0. □
+Theorem 5.2
+Suppose the subset S0⊂Δ and the function η are such that the condition (5.9) is satisfied.
+Suppose the parameters of DAHA t,u are such that t12=eη1 if n>1 and ϵntnunϵn=eηn/2 for some ϵn=±1.
+Suppose also that if αn∈S0 then(5.11)ϵ0ϵntnt0unϵnu0ϵ0t12(k˜-1)q-1=1 for some ϵ0=±1, where k˜=|Sm| is the rank of the irreducible component of type C.
+Then the ideal ID⊂F is invariant under the action of t,u in the Noumi representation (5.5).
+Proof
+Let f∈ID and x∈wD0 for some w∈W+.
+The operators T1,…,Tn-1 have the same form as the operators T1,…,Tn-1 of Section 3 in the case R=Cn, and the proof of invariance under their action follows by Proposition 3.5.
+To prove the invariance under Tn note that if αn∉wS0 then we have f(x)=f(snx)=0 and, hence, Tnf(x)=0 (see the proof of Proposition 3.5).
+If αn∈wS0 then 1-tnune-xn=0 or 1+tnun-1e-xn=0 hence Tnf(x)=0.
+To prove the invariance under T0 suppose first that wθℓ=θ for some ℓ.
+This is possible only if αn∈S0 and ℓ=m since αn∈Sm.
+In this case we obtain -α0(x)=(wθm,x)-ℏ=hηm-ηθ-ℏ=2(k˜-1)η1+ηn-ℏ.
+Then the condition (5.11) implies that ϵ0t0u0ϵ0e-α0(x)/2=1 for some ϵ0=±1.
+Now T0f(x)=0 since t0u0e-α0(x)/2=1 or t0u0-1e-α0(x)/2=-1.
+In the case when wθℓ≠θ for all ℓ=1,…,m the plane s0(wD0)=s0Hη(wS0) is contained in D due to Lemma 5.1 and hence f(s0x)=0.
+As in the proof of Proposition 3.10 it follows that T0f(x)=0 for all x∈wD0. □
+Remark 5.1
+The condition (5.11) can be rewritten in the form ϵ0t0u0ϵ0=eη0/2 where η0∈C is such that 2(k˜-1)η1+ηn+η0=ℏ.
+Thus the number hˆηm=2(k˜-1)η1+ηn+η0 can be interpreted as a generalized Coxeter number for the affine root system Rˆm⊂S of type (Ck˜∨,Ck˜).
+Remark 5.2
+Submodules in the polynomial representation of DAHA of type (Cn∨,Cn) were investigated by Kasatani [19].
+In the case αn∉S0 the invariant ideals ID correspond to the Kasataniʼs submodules Im(k,r) with r=2 (see [19, Proposition 4.13]).
+In the case αn∈S0, m=1 the ideals ID correspond to the submodules V with r=2 constructed in the paper [19, Section 4.8], the conditions (5.11) correspond to the conditions (49), (50) of [19] with r=2.
+Theorem 5.2 guarantees that the arguments of Section 4.1 remain valid in the (Cn∨,Cn) case.
+Thus we obtain the commutative algebra R¯ spanned by the operators Mλ¯, λ∈Q∨, defined by the formula (4.7).
+To establish the integrability we use the method of Section 4.2 where the lattice P∨ is replaced by Q∨.
+Note that νi=e1+e2+⋯+ei, i=1,…,n, form the basis of Q∨.
+As before we denote J={j=1,…,n|αj∉S0}={j1,…,jn¯}, where n¯=dimD0.
+Theorem 5.3
+The algebra R¯ contains n¯ algebraically independent elements, namely, the operators M-νj1¯,…,M-νjn¯¯.
+Indeed, the operators Mλ in this case have the form (2.31) withgλ(x)=∏α∈Rˆλ(1-tαuαeα(x)/2)(1+tαuα-1eα(x)/2)1-eα(x).
+If the function g-νj(x) is identically zero on D0 for some j∈J then the function 1-tαuαeα(x)/2 or 1+tαuα-1eα(x)/2 is identically zero on D0 for some α=[α(1),α(0)]∈Rˆ-νj.
+It is possible only if α is a linear combination of the elements of S0 and hence (α(1),νj)=0.
+From the definition of Rˆλ it follows that (α(1),νj)<0, hence g-νj|D0≢0, and the operators M-νj, j∈J, are algebraically independent (see the proof of Theorem 4.3 for details).
+The algebra R¯ contains the generalized Koornwinder operator.
+Let us introduce this operator explicitly.
+It acts on functions of two sets of variables x1,…,xN1, y1,…,yN2 and it depends on six independent parameters: two shift parameters ℏ, ξ and the parameters a,b,c,d.
+It is defined as(5.12)MN1,N2=∑i=1ϵ=±1N1Aiϵ(x,y)(Txi-ϵℏ-1)+1-q-21-s-2∑ℓ=1ϵ=±1N2Bℓϵ(x,y)(Tyℓ-ϵξ-1), where q=eℏ/2, s=eξ/2 and(5.13)Aiϵ(x,y)=∏j=1j≠iN1g(ϵxi-xj;s,1)g(ϵxi+xj;s,1)∏ℓ′=1N2g(ϵxi-yℓ′;q1/2s1/2,q-1/2s1/2)g(ϵxi+yℓ′;q1/2s1/2,q-1/2s1/2)(1-aeϵxi)(1-beϵxi)(1-ceϵxi)(1-deϵxi)(1-q-2e2ϵxi)(1-e2ϵxi),(5.14)Bℓϵ(x,y)=∏j=1N1g(ϵyℓ-xj;q1/2s1/2,q1/2s-1/2)g(ϵyℓ+xj;q1/2s1/2,q1/2s-1/2)∏ℓ′=1ℓ′≠ℓN2g(ϵyℓ-yℓ′;q,1)g(ϵyℓ+yℓ′;q,1)(1-aqs-1eϵyℓ)(1-bqs-1eϵyℓ)(1-cqs-1eϵyℓ)(1-dqs-1eϵyℓ)(1-s-2e2ϵyℓ)(1-e2ϵyℓ).
+For N2=0 this operator coincides with the Koornwinder operator (5.8) up to a constant and a factor (where a,b,c,d,ξ are expressed through the parameters of DAHA t,u).
+We note that this operator is invariant (up to a factor) under the involution(5.15)N1↔N2,x↔y,ξ↔ℏ,s↔q,a↦aqs-1,b↦bqs-1,c↦cqs-1,d↦dqs-1.
+Now we explain how this operator arises by the restriction of the Koornwinder operator M-e1.
+Consider first the case αn∉S0.
+In this case we assume that all the subsets Sℓ coincide with (4.22) and t1=eη1/2.
+Then N1=n-mk, N2=m, ℏ=kη1, q=t1k.
+We introduce orthogonal coordinates x1,…,xN1, y1,…,yN2 on the corresponding plane D0 by (4.23).
+Proposition 5.4
+In the case αn∉S0 we have M-e1¯=(t0tn)-1MN1,N2+κt, where MN1,N2 is the generalized Koornwinder operator (5.12) with N1=n-mk, N2=m and the parameterss=t1,ξ=η1,a=t0u0q-1,b=-t0u0-1q-1,c=tnun,d=-tnun-1 satisfying the condition ℏ/η1=k∈Z≥2.
+In the case αn∈S0 the subsets Sℓ with ℓ=1,…,m-1 coincide with (4.22) and(5.16)Sm={en-k˜+1-en-k˜+2,en-k˜+2-en-k˜+3,…,en-1-en,2en}, where k˜=km=|Sm|; t1=eη1/2, ϵntnunϵn=eηn/2.
+Then(5.17)N1=n-(m-1)k-k˜,N2=m-1, and the orthogonal coordinates x1,…,xN1, y1,…,yN2 on D0 are given by (4.23).
+Proposition 5.5
+In the case αn∈S0 we have M-e1¯=(t0tnt12k˜)-1MN1,N2+κt, where MN1,N2 is the generalized Koornwinder operator (5.12) with N1, N2 given by (5.17) and the parameterss=t1,ξ=η1,a=ϵnt12tn-1un-ϵn,b=-ϵntnun-ϵn,c=ϵ0qt12t0-1u0-ϵ0,d=-q-1ϵ0t0u0-ϵ0 where the condition (5.11) holds for k˜∈Z≥1, and if m>1 then ℏ/η1=k∈Z≥2.
+The propositions can be established by direct calculations.
+In both cases the obtained operators M-e1¯ depend on six independent parameters.
+Namely, in the case αn∉S0 we have five continuous parameters ξ,a,b,c,d and one discrete parameter k (where ℏ=kξ), and in the case αn∈S0 we have four continuous parameters ξ,b,c,d and two discrete ones k,k˜ (ℏ=kξ, a=c-1e(k˜+1)ξ).
+Remark 5.3
+The operator (5.12) generalizes the deformed rational Koornwinder operator [30, formula (94)].
+Namely the latter can be obtained by the substitution xi→xi/ω, yi→yi/ω, ξ→ξ/ω, ℏ→ℏ/ω, a=ea′/ω, b=-eb′/ω, c=ec′/ω, d=-ed′/ω to (5.12) and by taking the limit ω→∞.
+It follows from above that the operator MN1,N2 comes together with the complete algebra of commuting difference operators.
+We specify these operators explicitly and establish commutativity (without extra integrality restriction for a combination of parameters).
+We start with the explicit formula for the higher Koornwinder operators obtained by van Diejen [31]:(5.18)Hr=∑J1⊂{1,…,n},|J1|=rϵi=±1,i∈J1∏i∈J1G(eϵixi)∑J2⊂J1(-1)r-|J2|U1U2∏i∈J2Txi-ϵiℏ, where r=1,…,n,(5.19)G(z)=(1-t0u0q-1z)(1+t0u0-1q-1z)(1-tnunz)(1+tnun-1z)(1-q-2z2)(1-z2),(5.20)Ub=∏i,j∈Jb\Jb+1i<jg(ϵixi+ϵjxj;t1,1)g(ϵixi+ϵjxj;q-1t12b-3,q-1)∏i∈Jb\Jb+1j∉Jbg(ϵixi+xj;t1,1)g(ϵixi-xj;t1,1), where b=1,2, J3=∅ and q=eℏ/2.
+These operators commute with each other, and for r=1 we have H1=t0tn(M-e1-κt), where M-e1 is the Koornwinder operator (5.8).
+Note that the operators have the form Hr=g-νrr(x)τ(-νr)+∑λ>-νrgλr(x)τ(λ), where νr=e1+⋯+er and gλr(x) are meromorphic functions such that g-νrr(x)≢0.
+Hence the operators (5.18) with r=1,…,n are algebraically independent (cf.
+Section 2.2).
+The operators Hr are W-invariant.
+Since for generic parameters the centralizer of M-e1 in the algebra of W-invariant difference operators (with suitable coefficients) coincides with the algebra R (see [22, Theorem 3.15]) we obtain Hr∈R.
+Hence Hr∈R for any values of the parameters, and the restrictions of the operators Hr onto the corresponding plane D0 can be defined and they commute with each other.
+Consider restriction of the operators (5.18) in the case αn∉S0.
+The structure of the functions (5.20) implies that if Ub is not zero on the plane D0 then Jb have the form(5.21)Jb=Ib∪⋃ℓ=1N2{N1+kℓ-s|0≤s≤mℓb--1 or k-mℓb+≤s≤k-1},b=1,2, where I2⊂I1⊂{1,…,N1} and mℓb± are non-negative integers such that mℓ2±≤mℓ1±, mℓ1-+mℓ1+≤k and either mℓ2- or mℓ2+ vanishes for each ℓ.
+Moreover, the signs ϵi are given by(5.22)ϵN1+kℓ-s={-1,if 0≤s≤mℓ1--1,+1,if k-mℓ1+≤s≤k-1.
+We recall the coordinates x1,…,xN1, y1,…,yN2 defined by (4.23) on the plane D0.
+Proposition 5.6
+The restriction of the operator Hr takes the form(5.23)Hr¯=∑I1⊂{1,…,N1}ϵi=±1,i∈I1mℓ1±∈Z≥0,1≤ℓ≤N2|I1|+∑ℓ=1N2(mℓ1++mℓ1-)=r∏i∈I1G(eϵixi)∏ℓ=1ϵ=±1N2∏p=0mℓ1ϵ-1G(qt1-1-2peϵyℓ)∑I2⊂I1,mℓ2±∈Z≥0mℓ2±≤mℓ1±,mℓ2+mℓ2-=0(-1)r-|I2|-∑ℓ=1N2(mℓ2++mℓ2-)U¯1U¯2∏i∈I2Txi-ϵiℏ∏ℓ=1N2Tyℓ-(mℓ2+-mℓ2-)η1, where(5.24)U¯b=∏ℓ=1N2∏p=mℓ,b+1+mℓb+-1g(0;qt1-p-mℓ,b+1-,t1-p+mℓb+)g(0;t1-p-1-mℓb-,t1-p-1-mℓ,b+1-)∏ℓ=1N2∏p=mℓ,b+1-mℓb--1g(0;qt1-p-mℓb+,t1-p+mℓb-)∏i,j∈Ib\Ib+1i<jg(ϵixi+ϵjxj;t1,1)g(ϵixi+ϵjxj;q-1t12b-3,q-1)∏i∈Ib\Ib+1ϵ=±1j∉Ibg(ϵixi+ϵxj;t1,1)∏ℓ=1ϵ,ϵ′=±1j∉IbN2g(ϵyℓ+ϵ′xj;q12t112-mℓ,b+1ϵ,q12t112-mℓbϵ)∏ℓ=1ϵ=±1i∈Ib\Ib+1N2g(ϵixi+ϵyℓ;q12t112-mℓ,b+1ϵ,q-12t112+mℓb-ϵ)g(ϵixi+ϵyℓ;q-12t12b-32-(2-b)mℓ1ϵ,q-12t12b-32-mℓ2ϵ)∏1≤ℓ<ℓ′≤N2ϵ,ϵ′=±1∏p=mℓ,b+1ϵmℓbϵ-1(g(ϵyℓ+ϵ′yℓ′;qt1-p-mℓ′,b+1ϵ′,t1-p+mℓ′b-ϵ′)g(ϵyℓ+ϵ′yℓ′;t1-p-(2-b)(1+mℓ′1ϵ′),t1-p-(2-b)-mℓ′2ϵ′))∏1≤ℓ′<ℓ≤N2ϵ,ϵ′=±1∏p=mℓ,b+1ϵmℓbϵ-1g(ϵyℓ+ϵ′yℓ′;qt1-p-mℓ′bϵ′,t1-p+mℓ′b-ϵ′)∏ℓ=1ϵ=±1N2∏p=mℓ,b+1ϵmℓbϵ-1g(2ϵyℓ;qt1-1-2p,t1-p+mℓb-ϵ)g(2ϵyℓ;t1-1-bp-(2-b)mℓ1ϵ,t1-2(2-b)-(3-b)p-(b-1)mℓ2ϵ), with b=1,2, I3=∅, mℓ3±=0 and q=eℏ/2, t1=eη1/2.
+Note that we do not impose the condition mℓ1-+mℓ1+≤k in the sum in (5.23) since the product U¯1U¯2 vanishes if mℓ1-+mℓ1+>k, so the operators Hr¯ do not have explicit dependence on k.
+Proof of Proposition 5.6
+The structure of the operator (5.23) follows from the formulae (5.21), (5.22).
+Let i=N1+kℓ-s∈Jℓb for some ℓ=1,…,N2, s=0,…,k-1, b=1,2.
+Then the formulae (5.21), (5.22) imply that on D0 one has ϵxi=ϵyℓ+(k-12-p)η1 for some p=0,…,mℓbϵ-1 with ϵ=ϵi.
+Hence the restriction of ∏i∈J1G(eϵixi) takes the form∏i∈I1G(eϵixi)∏ℓ=1ϵ=±1N2∏p=0mℓ1ϵ-1G(qt1-1-2peϵyℓ).
+Consider the restriction of the first product in the expression (5.20) which is taken over i,j∈Jb\Jb+1.
+Its part corresponding to the case i<j≤N1 is equal to∏i,j∈Ib\Ib+1i<jg(ϵixi+ϵjxj;t1,1)g(ϵixi+ϵjxj;q-1t12b-3,q-1).
+For i≤N1<j we obtain(5.25)∏i∈Ib\Ib+1∏ℓ=1ϵ=±1N2∏p=mℓ,b+1ϵmℓbϵ-1g(ϵixi+ϵyℓ;q12t112-p,q12t1-12-p)g(ϵixi+ϵyℓ;q-12t1-12-p+2b-3,q-12t1-12-p)=∏ℓ=1ϵ=±1i∈Ib\Ib+1N2g(ϵixi+ϵyℓ;q12t112-mℓ,b+1ϵ,q12t112-mℓbϵ)g(ϵixi+ϵyℓ;q-12t12b-32-(2-b)mℓ1ϵ,q-12t12b-32-mℓ2ϵ).
+Here we used the formulae∏p=mMg(z;at11-p,at1-p)=g(z;at11-m,at1-M),∏p=mMg(z;at1-1-p,at1-p)=g(z;at1-1-M,at1-m), where m,M∈Z are such that m≤M+1, a,z∈C (the second formula is used in the case b=1 only).
+If N1<i<j then i=N1+kℓ-s and j=N1+kℓ′-s′, where 1≤ℓ,ℓ′≤N2, 0≤s,s′≤k-1.
+If ℓ≠ℓ′ then we obtain(5.26)∏1≤ℓ<ℓ′≤N2ϵ,ϵ′=±1∏p=mℓ,b+1ϵmℓbϵ-1∏p′=mℓ′,b+1ϵ′mℓ′bϵ′-1g(ϵyℓ+ϵ′yℓ;qt1-p-p′,qt1-1-p-p′)g(ϵyℓ+ϵ′yℓ;t1-1-p-p′+2b-3,t1-1-p-p′)=∏1≤ℓ<ℓ′≤N2ϵ,ϵ′=±1∏p=mℓ,b+1ϵmℓbϵ-1(g(ϵyℓ+ϵ′yℓ′;qt1-p-mℓ′,b+1ϵ′,qt1-p-mℓ′bϵ′)g(ϵyℓ+ϵ′yℓ′;t1-p-(2-b)(1+mℓ′1ϵ′),t1-p-(2-b)-mℓ′2ϵ′)),while if ℓ=ℓ′ we derive the following two factors.
+The factor corresponding to ϵi=-ϵj=+1 is equal to(5.27)∏ℓ=1N2∏p=mℓ,b+1+mℓb+-1∏p′=mℓ,b+1-mℓb--1g(0;qt1-p-p′,qt1-1-p-p′)g(0;t1-1-p-p′+2b-3,t1-1-p-p′)=∏ℓ=1N2∏p=mℓ,b+1+mℓb+-1g(0;qt1-p-mℓ,b+1-,qt1-p-mℓb-)g(0;t1-p-1-mℓb-,t1-p-1-mℓ,b+1-).
+(In the case b=2 both sides of the equality (5.27) equal 1.) The factor corresponding to ϵi=ϵj=ϵ=±1 is equal to(5.28)∏ℓ=1ϵ=±1N2∏p=mℓ,b+1ϵmℓbϵ-1∏p′=p+1mℓbϵ-1g(2ϵyℓ;qt1-p-p′,qt1-1-p-p′)g(2ϵyℓ;t1-1-p-p′+2b-3,t1-1-p-p′)=∏ℓ=1ϵ=±1N2∏p=mℓ,b+1ϵmℓbϵ-1g(2ϵyℓ;qt1-1-2p,qt1-p-mℓbϵ)g(2ϵyℓ;t1-1-bp-(2-b)mℓ1ϵ,t1-2(2-b)-(3-b)p-(b-1)mℓ2ϵ).
+Now consider the restriction of the second product in the expression (5.20) which is taken over i∈Jb\Jb+1, j∉Jb.
+If 1≤i,j≤N1 we obtain∏i∈Ib\Ib+1j∉Ibg(ϵixi+xj;t1,1)g(ϵixi-xj;t1,1).
+For j≤N1<i we obtain∏ℓ=1ϵ,ϵ′=±1N2∏j=1j∉IbN1g(ϵyℓ+ϵ′xj;q12t112-mℓ,b+1ϵ,q12t112-mℓbϵ).
+If i≤N1<j then ϵxj=ϵyℓ+(k-12-p)η1 with p=mℓbϵ,…,k-1-mℓb-ϵ for any ϵ=±1 (it follows from j∉Jb), so we obtain(5.29)∏ℓ=1ϵ=±1i∈Ib\Ib+1N2∏p=mℓbϵk-1-mℓb-ϵg(ϵixi+ϵyℓ;q12t112-p,q12t1-12-p)=∏ℓ=1ϵ=±1i∈Ib\Ib+1N2g(ϵixi+ϵyℓ;q12t112-mℓbϵ,q-12t112+mℓb-ϵ).
+If N1<i<j then i=N1+kℓ-s and j=N1+kℓ′-s′, where 1≤ℓ,ℓ′≤N2, 0≤s,s′≤k-1.
+In the case ℓ≠ℓ′ we obtain(5.30)∏ℓ,ℓ′=1ℓ≠ℓ′ϵ,ϵ′=±1N2∏p=mℓ,b+1ϵmℓbϵ-1∏p′=mℓ′bϵ′k-1-mℓ′b-ϵ′g(ϵyℓ+ϵ′yℓ′;qt1-p-p′,qt1-1-p-p′)=∏ℓ,ℓ′=1ℓ≠ℓ′ϵ,ϵ′=±1N2∏p=mℓ,b+1ϵmℓbϵ-1g(ϵyℓ+ϵ′yℓ′;qt1-p-mℓ′bϵ′,t1-p+mℓ′b-ϵ′), and for ℓ=ℓ′ we derive(5.31)∏ℓ=1ϵ,ϵ′=±1N2∏p=mℓ,b+1ϵmℓbϵ-1∏p′=mℓbϵ′k-1-mℓb-ϵ′g(ϵyℓ+ϵ′yℓ;qt1-p-p′,qt1-1-p-p′)=∏ℓ=1ϵ=±1N2∏p=mℓ,b+1ϵmℓbϵ-1g(0;qt1-p-mℓb-ϵ,t1-p+mℓbϵ)∏ℓ=1ϵ=±1N2∏p=mℓ,b+1ϵmℓbϵ-1g(2ϵyℓ;qt1-p-mℓbϵ,t1-p+mℓb-ϵ) (the first factor in the right-hand side corresponds to ϵ′=-ϵ and the second one corresponds to ϵ′=ϵ).
+By combining the factors (5.27), (5.28) and (5.31) we obtain the beginning and ending of the formula (5.24).
+Then combining (5.26) and the factors of (5.30) with ℓ<ℓ′ we obtain the corresponding factors of (5.24).
+By combining (5.25) with (5.29) and taking into account all the remaining factors we obtain the formula (5.24). □
+For r=1 we obtain the generalized Koornwinder operator H1¯=MN1,N2 with the parameters as in Proposition 5.4, so we get a collection of operators commuting with the operator (5.12).
+Note that if ℏ=η1 the operators Hr¯ coincide with the specialization of Hr for n=N1+N2.
+Thus we obtain the following theorem.
+Theorem 5.7
+For any values of the parameters ℏ, η1, t0,tn,u0,un (u0,un≠0) the operators Hr¯ given by the formulae (5.23), (5.24), r∈Z>0, pairwise commute.
+The operators Hr¯ with r=1,…,N1+N2 are algebraically independent at generic values of the parameters.
+The case of DAHA of Rˆ∨ type
+Let Rˆ∨={α∨|α∈Rˆ}⊂Vˆ, where R is an irreducible reduced root system in Rn⊂V≅Cn with the set of simple roots Δ={α1,…,αn}.
+We have Rˆ∨≇Rˆ only for R=Bn, Cn, F4 and G2, but we will consider the general R.
+Let W, Wˆ, Π, O be the same as in Section 2 and let t:Rˆ∨→C\{0} be a Wˆ-invariant function.
+Put ti=tαi∨=t(αi∨) and P∨ˆ={μ=[μ(1),μ(0)]|μ(1)∈P∨,μ(0)∈ℏϵ0Z}⊂Vˆ, where ϵ0∈Z is such that (P∨,P∨)⊂ϵ0-1Z.
+Then P∨ is a sublattice of P∨ˆ.
+The associated DAHA is defined as follows.
+Definition 6.1
+(See [9,5].) Double Affine Hecke Algebra of type Rˆ∨ is the algebra tRˆ∨ generated by the elements T0,T1,…,Tn, by the set of pairwise commuting elements {Xμ}μ∈Pˆ and by the group Π={πr|r∈O} with the relations (2.4)-(2.8), (2.11) (with P∨ˆ instead of Pˆ) and(6.1)Ti-1XμTi-1=Xμ-αi∨,if (μ,αi)=1,μ∈P∨ˆ;(6.2)TiXμ=XμTi,if (μ,αi)=0,μ∈P∨ˆ; where i=0,1,…,n.
+Consider the space Fˇ of functions f∈C∞(V)2πiQ holomorphic in a neighbourhood Uf of Zˇ=⋃α∈Rˆ∨{x∈V|α(x)∈2πiZ}, where C∞(V)2πiQ is the space of smooth functions f:V→C such that f(x+2πiαj)=f(x), ∀j=1,…,n.
+The representation of DAHA tRˆ∨ in this space is defined by the formulae(6.3)Xμ=eμ(x),πr=πr,Ti=ti-ti-11-e-αi∨(x)+ti-1-tie-αi∨(x)1-e-αi∨(x)si, where μ∈P∨ˆ, r∈O, i=0,1,…,n, so(6.4)Tif(x)=tif(x)+(ti-1-tie-αi∨(x))g˜(x) where f∈Fˇ and g˜(x)=f(six)-f(x)1-e-αi∨(x)∈Fˇ.
+Let mλ(Y) be the elements (2.22) of tRˆ∨ in the representation (6.3), where Yλ are defined by the formulae (2.12), (2.14).
+Their restrictions to FˇW are difference operators Mλ=Res(mλ(Y)) spanning the commutative algebra R.
+The algebra R is generated by the algebraically independent operators M-b1,…,M-bn, where bi are the fundamental coweights for R.
+This is the Macdonald-Ruijsenaars system corresponding to the affine root system Rˆ∨.
+In particular, it always contains the Macdonald operator(6.5)M-θ∨=∑ν∈Wθ∨(∏α∈R(α,ν)>0tα∨e(α∨,x)-tα∨-1e(α∨,x)-1)t0e(ν,x)-ℏ(θ∨,θ∨)/2-t0-1e(ν,x)-ℏ(θ∨,θ∨)/2-1(τ(ν)-1)+m-θ∨,t.
+Let S0⊂Δ and let η:Rˆ∨→C be a Wˆ-invariant function (it is sufficient to define it on the subsystem R∨⊂Rˆ∨).
+Define the corresponding ideal ID⊂F as follows(6.6)W+={w∈W|wS0⊂R+}⊂W,(6.7)D0=H((S0∨)′)={x∈V|(α∨,x)=ηα∨,∀α∈S0},(6.8)D=W+D0,ID={f∈F|f(x)=0,∀x∈D}.
+Let R0=⨆ℓ=1mRℓ and S0=⨆ℓ=1mSℓ be the decompositions into irreducible components, where R0=〈S0〉∩R.
+Let θℓ∈Rℓ be the maximal root with respect to the basis Sℓ.
+Let Sℓ={αjℓ|j=1,…,kℓ}, θℓ=∑j=1kℓnjℓαjℓ and ηjℓ=η(αjℓ)∨.
+Define the corresponding generalized Coxeter numbers as(6.9)hˇηℓ=(θℓ,θℓ)2ηθℓ∨+∑j=1kℓ(αjℓ,αjℓ)2njℓηjℓ.
+Theorem 6.1
+Suppose the subset S0⊂Δ and the invariant functions η,t satisfy hˇηℓ=ℏ for all ℓ=1,…,m and tα∨2=eηα∨ for all α∈R.
+Then the ideal ID⊂Fˇ is invariant under the action of tRˆ∨.
+Proof
+First we define the W-invariant function η′:R→C by the formula ηα′=(α,α)2ηα∨.
+Note that one can represent (6.7) as(6.10)D0=Hη′(S0)={x∈V|(α,x)=ηα′,∀α∈S0}.
+By virtue of (6.10) the ideal (6.8) for the function η:R∨→C coincides with the ideal (3.12) for the function η′, moreover the conditions hˇηℓ=ℏ are equivalent to hη′ℓ=ℏ where hη′ℓ is the generalized Coxeter number for the function η′.
+Hence the invariance under the action of πr follows from Proposition 3.7.
+Let f∈ID and x∈wD0 for some w∈W+.
+Consider first the invariance under Ti with i=1,…,n.
+In the case αi∈wS0 it follows from f(x)=0 and (ti-1-tie-αi∨(x))=0.
+In the case αi∉wS0 we have f(x)=f(six)=0 and the plane wD0=Hη′(wS0) does not lie in any plane H([αi∨,2πik])=H([αi,πik(αi,αi)]) due to Lemma 3.4 (see the proof of Proposition 3.5 for detail).
+Consider now the invariance under T0.
+If wθℓ=θ for some ℓ then α0∨(x)=ηθ∨ and t0-1-t0e-α0∨(x)=0; so that T0f(x)=0.
+If wθℓ≠θ for all ℓ=1,…,m then the plane s0D0=s0Hη′(wS0) contains in D due to Lemma 3.9 and the condition hη′ℓ=ℏ.
+Hence f(x)=f(s0x)=0 and T0f(x)=0 for x∈wD0 such that eα0∨(x)≠1.
+Thus we are left to prove that wD0=Hη′(wS0) does not lie in the affine hyperplane H(α0∨+[0,2πik])=H(α0+[0,πik(θ,θ)]).
+This is done in the same way as in the proof of Proposition 3.10. □
+Let Mλ¯ be the restriction of the difference operator Mλ to the plane D0 defined as in Section 4.1.
+Repeating the reasoning of Sections 4.1 and 4.2 we conclude that the operators Mλ¯ span the commutative algebra R¯ containing n¯=dimD0 algebraically independent elements.
+This is the generalized Macdonald-Ruijsenaars system for the Rˆ∨ case.
+Concluding remarks
+We considered submodules in the polynomial representation of DAHA given by vanishing conditions and derived the corresponding generalized Macdonald-Ruijsenaars operators and their quantum integrals acting in the quotient module.
+In some particular cases the eigenfunctions of these operators can be given by Baker-Akhiezer functions [2,3,12] but more generally the understanding of eigenfunctions is a major challenge in the area.
+It follows from our construction that the restriction of a Weyl-invariant eigenfunction of the higher Macdonald operators Mλ onto the plane D0 is an eigenfunction of the corresponding operators Mλ¯.
+However the question of finding the solutions is non-trivial as the specializations of the parameters so that the ideals ID are invariant are such that the Macdonald polynomials do not exist in general at these specializations.
+We also note that more generally, the non-symmetric generalized eigenfunctions for the Cherednik-Dunkl operators at the special parameters are studied in [10].
+Further comparison with [10] may be important for extracting the information on the eigenfunctions of the operators Mλ¯.
+At generic values of the parameters for the restricted operators the eigenfunctions might have different structure and description.
+Thus in type A a complete set of eigenfunctions (so-called super Macdonald polynomials) is constructed in [29] at generic η,ℏ, these polynomials are symmetric in each set of variables xi, yj and span a subspace in the space of functions of xi, yj with simple description.
+It would be interesting to obtain Pieri formulae for the super Macdonald polynomials, and Theorem 4.5 might be useful.
+Another important question is on the composition series of the polynomial representation.
+In the case of R=AN it is given in terms of the ideals defined by vanishing ("wheel") conditions [18,11].
+It would be interesting to see if the ideals ID can be used to define the composition factors in some other cases.
+Further, the vanishing conditions of the submodules in the polynomial representation for the rational Cherednik algebras were helpful to establish unitarity of certain submodules [14].
+It would be interesting to see if analogous approach can be applied for the case of DAHA.
+Acknowledgments
+We are grateful to M. Noumi, J. Stokman and A.P.
+Veselov for stimulating discussions.
+We are very grateful to J. Shiraishi for interesting discussions which led us to Theorem 4.5.
+The work of both authors was supported by the EPSRC grant EP/F032889/1.
+M.F. also acknowledges support of the British Council (PMI2 Research Cooperation award).
+The work of A.S. was partially supported by the RFBR grant 09-01-00239-a.
+A.S. also thanks LAREMA and Department of Mathematics of the University of Angers for the hospitality during the visit.
+Other affine root systems
+The Macdonald-Ruijsenaars systems and their generalized versions can be defined starting from a general affine root system.
+The cases of affine root systems not considered in the main part of the paper lead to particular cases of the operators Mλ¯ from Section 5.
+Nevertheless we present these cases for completeness.
+Let S⊂Vˆ be an irreducible affine root system [23,25] and let W˜=W˜(S) be the group generated by {sα|α∈S} - affine Weyl group for the affine root system S. Let Δ1={a0,a1,…,an} be a basis of S and let(A.1)a¯i={ai,if 2ai∉S,2ai,if 2ai∈S,Δ2={a¯0,a¯1,…,a¯n}.
+The sets S1={α∈S|α/2∉S} and S2={α∈S|2α∉S} are reduced affine root subsystems in Vˆ and Δ1 and Δ2 are bases of S1 and S2 respectively.
+The group W˜ is generated by the affine simple reflections si=sai=sa¯i.
+Let t:S2→C\{0} and u:S2→C\{0} be W˜-invariant functions such that uα=u(α)=1 for all α∈S1∩S2.
+Let ti=ta¯i, ui=ua¯i, i=0,1,…,n.
+The functions t and u are completely determined by these values and the restriction condition on u can be reformulated as ui=1 if ai=a¯i.
+Consider the operators(A.2)Ti=ti+ti-1(1-tiuie-a¯i(x)/2)(1+tiui-1e-a¯i(x)/2)1-e-a¯i(x)(si-1),i=0,1,…,n.
+These operators preserve the space F of smooth functions f∈C∞(V) satisfying f(x)=f(x+2πi(a¯j(1))∨) for all j=0,1,…,n and holomorphic in a neighbourhood Uf of the set ⋃α∈S{x∈V|α(x)∈2πiZ}.
+Proposition A.1
+The operators (A.2) satisfy the affine Hecke algebra relations (2.6) and (2.7) where mij is the order of the element sisj∈W˜.
+The proposition follows from the established cases S=(Cn∨,Cn) and S=Rˆ where R is a reduced root system.
+Now consider the affine root systems not covered in the previous sections.
+These are S=(Bn,Bn∨), BCnˆ, (BCn,Cn) and (Cn∨,BCn).
+In the above notations we have S1=Bnˆ, S2=Bnˆ∨ for S=(Bn,Bn∨), S1=S2=BCnˆ for S=BCnˆ; S1=BCnˆ, S2=Cnˆ for S=(BCn,Cn); S1=Cnˆ∨, S2=BCnˆ for S=(Cn∨,BCn).
+We consider the standard realizations of these affine root systems, so in particular, S⊃Dn={±ei±ej|1≤1<j≤n}.
+Define the lattice LY=Zn=PBn∨=QCn∨=PDn∨, where PBn∨, QCn∨ and PDn∨ are the coweight lattice for R=Bn, the coroot lattice for R=Cn and the coweight lattice for R=Dn respectively.
+Let HSLY be the affine Hecke algebra generated by the operators Twˆ=TwˆS with wˆ∈W⋉τ(LY) defined by the formulae (2.12), (A.2).
+So we consider 'extended' affine Hecke algebra for S=(Bn,Bn∨) and 'non-extended' for other cases as the group W⋉τ(LY) is the extended affine Weyl group Wˆ=Π⋉W˜(S) for S=(Bn,Bn∨) and it is the usual affine Weyl group W˜=W˜(S) for other S.
+We will also consider the 'non-extended' affine Hecke algebras HSLY for S=Cnˆ and Cnˆ∨, where LY is as above.
+The Cherednik-Dunkl operators Yλ=YSλ, λ∈LY, are defined by the formula Yμ-ν=Tτ(μ)Tτ(ν)-1, where μ,ν∈P+∨∩LY.
+These operators form the commutative subalgebra C[YSLY]⊂HSLY.
+The elements mλ(Y)=∑ν∈WλYν preserve the space of invariants FW, their restrictions Mλ=mλ|FW form commutative algebra RLY of difference operators.
+The simplest operators in this algebra has the form(A.3)M-ν=1|W-ν|∑w∈Wg-ν(w-1x)(τ(-wν)-1)+const, where ν is a minuscule coweight br or ν=θ∨, and(A.4)g-ν(x)=∏α∈S2(-ν)(1-tαuαeα(x)/2)(1+tαuα-1eα(x)/2)tα(1-eα(x)), where S2(-ν)=S2-∩(τ(-ν)S2+), S2+=-S2-={α∈S2|α(x)>0 whenever a¯i(x)>0,∀i=0,1,…,n}.
+The following diagram explains how one gets the subalgebras C[YSLY]⊂HSLY by specializing the parameters starting from the subalgebra generated by the Cherednik-Dunkl operators in the (Cn∨,Cn) DAHA.
+We also include in the diagram the affine Hecke algebras parts of DAHA of Rˆ and Rˆ∨ type where R=Bn,Dn.
+The double arrows in the diagram mean the isomorphism of the corresponding Cherednik-Dunkl subalgebras under the specialization and the single arrows mean the embedding of these subalgebras.
+The parameters t0,tn,u0,un are the parameters of the operators (A.2) for S=(Cn∨,Cn).
+The validity of these isomorphisms essentially follows from the following two lemmas.
+Lemma A.2
+If t0=u0=1 then the affine Hecke algebra H(Cn∨,Cn)Q∨ coincides with the affine Hecke algebra H(Bn,Bn∨)P∨.
+More exactly, under the specialization the generators correspond as(A.5)Ti(Cn∨,Cn)=Ti(Bn,Bn∨),T0(Cn∨,Cn)=π1(Bn,Bn∨), where i=1,…,n, and the Cherednik-Dunkl operators correspond as Y(Cn∨,Cn)λ=Y(Bn,Bn∨)λ, ∀λ∈LY.
+Proof
+The affine Hecke algebra H(Cn∨,Cn)Q∨ is generated by T0(Cn∨,Cn),T1(Cn∨,Cn),…,Tn(Cn∨,Cn) while the algebra H(Bn,Bn∨)P∨ is generated by π1(Bn,Bn∨),T1(Bn,Bn∨),…,Tn(Bn,Bn∨).
+The operators Ti(Cn∨,Cn) and Ti(Bn,Bn∨) coincide for each i=1,…,n (at any parameters) so denote them by Ti.
+The operator T0(Cn∨,Cn) at the specialization of parameters becomes s0(Cn∨,Cn)=τ(e1)se1=π1(Bn,Bn∨).
+Thus we are left to prove the formula Y(Cn∨,Cn)λ=Y(Bn,Bn∨)λ at this specialization.
+It is enough to check this formula for λ=ei, i=1,…,n.
+From the definition one yields Y(Cn∨,Cn)e1=T0(Cn∨,Cn)Tse1(Cn∨,Cn) and Y(Bn,Bn∨)e1=π1(Bn,Bn∨)Tse1(Bn,Bn∨).
+Then for i=2,…,n the equality Y(Cn∨,Cn)ei=Y(Bn,Bn∨)ei follows by induction from the formula YSei=Ti-1-1YSei-1Ti-1-1 valid for both S=(Cn∨,Cn) and S=(Bn,Bn∨). □
+Consider now S=Dnˆ, n≥2.
+The simple roots of Dn are αi=ei-ei+1 for i=1,…,n-1 and αn=en-1+en.
+Denote by πrDn, TiDn the corresponding elements of the algebra HDnˆP∨ where r∈O={0,1,n-1,n}, i=0,1,…,n.
+Note that if tn=1 then the affine Hecke algebra HBnˆP∨ in the representation (2.19) coincides with the affine Hecke algebra HBnˆ∨P∨ in the representation (6.3).
+Indeed, the algebras HBnˆP∨, HBnˆ∨P∨ have the only different generator Tn which becomes Tn=sen at tn=1.
+Since the corresponding operators π1,Ti of the algebras HBnˆP∨ and HBnˆ∨P∨ coincide at this specialization we denote them by π1Bn, TiBn where i=0,…,n.
+Lemma A.3
+At the specialization tn=1 one has(A.6)YBnˆλ=YBnˆ∨λ=YDnˆλ for all λ∈LY.
+That is the corresponding algebras are embedded at this specialization: C[YBnˆP∨]=C[YBnˆ∨P∨]⊂C[YDnˆP∨].
+Proof
+Note first that the operators TiBn and TiDn coincide for i=1,…,n-1 (at any parameters) and we denote them by Ti.
+Since TnBn=sen (at the specialization tn=1) we obtain(A.7)π1Dn=τ(e1)se1sen=π1BnTnBn,TnDn=snTn-1sn=(TnBn)-1Tn-1TnBn.
+Comparing the expressions(A.8)YBne1=π1BnT1…Tn-2Tn-1TnBnTn-1…T1,(A.9)YDne1=π1DnT1…Tn-2TnDnTn-1…T1 we derive YBne1=YDne1.
+Due to the formula YRei=Ti-1-1YRei-1Ti-1-1 valid for both R=Bn and R=Dn we establish the equality (A.6) for all λ=ei, where i=1,…,n, and, hence, for all λ∈LY. □
+It follows that the operators Mλ for the affine root system S coincide with the operators Mλ from Section 5 at the corresponding specialization.
+In particular the specializations of the Koornwinder operator (5.8) give the operators M-e1 determined by (A.3).
+The specializations of the generalized Koornwinder operator (5.12) give the generalized Macdonald-Ruijsenaars operators M-e1¯ for the affine root system S. Each specialization of the operators Mλ¯ from Section 5 gives commutative algebra containing the operator M-e1¯.
+These algebras were constructed in Sections 4, 6 for S=Bnˆ,Dnˆ,Bnˆ∨.
+For other cases the invariant ideals and these operators can also be defined using the specialization of the invariant ideals for S=(Cn∨,Cn).
+For example consider the case S=(Bn,Bn∨), so S2=Bnˆ∨.
+Let η:Bn∨→C be a W-invariant function and let S0 be a subset of the set of simple roots of Bn.
+Define the ideal ID by the formulae (6.7) and (6.8).
+Let S0=⨆ℓ=1mSℓ be the decomposition to the irreducible components S1,…,Sm⊂S0.
+Let hˇηℓ be the corresponding generalized Coxeter number defined by (6.9).
+Let Fˇ be the space defined in Section 6 for R=Bn.
+Then the following statement takes place.
+Theorem A.4
+Suppose that t12=eη1 if n>1, ϵntnunϵn=eηn/2 for some ϵn=±1 and hˇηℓ=ℏ for all ℓ=1,…,m.
+Then the ideal ID⊂Fˇ is invariant under the actions of the operators (A.2) and π1.
+The corresponding generalized Macdonald-Ruijsenaars operator M¯-e1 can be obtained by the specialization of the parameters in the generalized Koornwinder operator (5.12).
+

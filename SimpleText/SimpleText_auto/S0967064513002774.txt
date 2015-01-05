@@ -1,0 +1,241 @@
+Short-term metabolic and growth responses of the cold-water coral Lophelia pertusa to ocean acidification
+
+Abstract
+Cold-water corals are associated with high local biodiversity, but despite their importance as ecosystem engineers, little is known about how these organisms will respond to projected ocean acidification.
+Since preindustrial times, average ocean pH has decreased from 8.2 to ~8.1, and predicted CO2 emissions will decrease by up to another 0.3 pH units by the end of the century.
+This decrease in pH may have a wide range of impacts upon marine life, and in particular upon calcifiers such as cold-water corals.
+Lophelia pertusa is the most widespread cold-water coral (CWC) species, frequently found in the North Atlantic.
+Here, we present the first short-term (21 days) data on the effects of increased CO2 (750ppm) upon the metabolism of freshly collected L. pertusa from Mingulay Reef Complex, Scotland, for comparison with net calcification.
+Over 21 days, corals exposed to increased CO2 conditions had significantly lower respiration rates (11.4±1.39 SE, µmolO2g-1tissuedryweighth-1) than corals in control conditions (28.6±7.30 SE µmolO2g-1tissuedryweighth-1).
+There was no corresponding change in calcification rates between treatments, measured using the alkalinity anomaly technique and 14C uptake.
+The decrease in respiration rate and maintenance of calcification rate indicates an energetic imbalance, likely facilitated by utilisation of lipid reserves.
+These data from freshly collected L. pertusa from the Mingulay Reef Complex will help define the impact of ocean acidification upon the growth, physiology and structural integrity of this key reef framework forming species.
+
+Introduction
+Cold-water corals are among the most three-dimensionally complex deep-sea habitats known and are associated with high local biodiversity (Roberts et al., 2006, 2009).
+However, their remoteness and the relatively short history of ecological research in these habitats mean that to date, we have little information on how these ecosystems will fare in the face of predicted future climate change.
+Similar to their tropical counterparts, cold-water corals (referred to as CWC herein) are under potential threat from increasing sea temperatures and ocean acidification.
+Ocean acidification, also referred to as the 'other CO2 problem' or the 'evil twin of global warming', is caused by CO2 dissolving into the oceans.
+As atmospheric CO2 levels increase, more CO2 dissolves into the oceans and forms carbonic acid, which dissociates to form hydrogen and bicarbonate ions.
+This process has led to a decrease in pH by 0.1 units since the industrial revolution, and increasing amounts of atmospheric CO2 are projected to further decrease ocean pH by another 0.3-0.4 pH units by the end of the century in addition to altering seawater carbonate chemistry (Caldeira and Wickett, 2003; Guinotte et al., 2006; Kleypas et al., 1999; Orr et al., 2005).
+The shift in carbonate chemistry associated with ocean acidification also reduces the saturation state of aragonite, which is a naturally occurring polymorph of calcium carbonate from which most framework-building corals build their skeletons.
+The aragonite saturation depth or 'horizon' (ASH) (Guinotte et al., 2006) is predicted to become shallower (shoal), making it more difficult for calcifying organisms near this depth to maintain their calcified structures, thus affecting net reef growth.
+CWC are under particular threat as they inhabit a much larger bathymetric range than tropical corals, and as such are closer to the ASH (Fautin et al., 2009; Form and Riebesell, 2012; Guinotte et al., 2006; Kleypas, 2006; McCulloch et al., 2012a; Roberts et al., 2006; Thresher et al., 2011; Turley et al., 2007).
+Only 5% of CWC are found below the ASH at present (Form and Riebesell, 2012), as net calcification below the ASH would require considerable energetic input at the detriment of other energetic processes.
+Shoaling of the horizon could thus have potentially severe consequences for CWC.
+To date, only a handful of studies have been conducted on the responses of Lophelia pertusa to ocean acidification.
+These focus on growth rate, ranging from very short term 24 hour experiments (Maier et al., 2009) on freshly collected coral, to longer-term 6 month (Form and Riebesell, 2012) experiments on laboratory-kept specimens.
+Ocean acidification has very varied effects on the growth of calcifying organisms, with different phyla, and even species within phyla showing highly variable responses in experimental studies to date (Ries et al., 2009; Wicks and Roberts, 2012).
+For scleractinian corals (i.e. calcareous skeleton forming corals), many studies demonstrate a reduction in growth (net calcification rates) in response to ocean acidification (Gattuso et al., 1998; Kleypas and Langdon, 2006; Krief et al., 2010; Langdon and Atkinson, 2005; Marubini et al., 2003).
+However, corals can actively increase the pH in the organic matrix where calcification occurs.
+Thus even in situations where the surrounding water is undersaturated with respect to aragonite, calcification can still occur (McCulloch et al., 2012a, 2012b).
+The process of increasing pH at calcification sites within corals is driven by Ca2+ATPase, which pumps Ca2+ ions into the sub-calicoblastic space in exchange for H+ ions (Allemand et al., 2004; Cohen and McConnaughey, 2003; Mass et al., 2012).
+However, this process is energy intensive and thus may require increased food intake (Edmunds, 2011).
+The low abundance of CWC below the ASH suggests that increased energetic demands cannot usually be met, and that dissolution of exposed skeletal framework may be greater that net calcification by tissue-covered skeleton.
+To fully understand the impact of increased CO2 on live CWC, it is important to combine growth rates with measures of metabolism, which has not been done previously.
+The research presented here addressed the question of whether ocean acidification will impact upon the metabolism and net calcification rate of the CWC Lophelia pertusa in a short-term experiment.
+To this end, respiration and net calcification rates were calculated in corals exposed to increased CO2 conditions every 7 days for a total period of 21 days.
+Methods
+Sample collection
+Colonies of Lophelia pertusa were collected from Area 1 within the Mingulay Reef Complex (Roberts et al., 2005, 2009), 56° 49.38 N, 7° 22.56 W (Figs.
+1 and 2), during RRS Discovery cruise 366/7 in July 2011 (Achterberg and Richier, 2012).
+The Mingulay complex is a relatively shallow inshore seascape of Lophelia reefs that developed through the Holocene with oldest currently dated coral from within the reef mounds at 7.68ka (Douarin et al., in press).
+They are the only known inshore Lophelia reef in UK waters.
+Colonies were collected using a modified video assisted van-Veen grab (Dodds et al., 2007).
+All colonies were collected from 141-167m.
+Upon return to the surface, corals were placed in a holding tank at ambient seabed temperature for 2 days, to recover from collection.
+Corals were then carefully fragmented into smaller pieces for experiments.
+These fragments had 5-20 polyps, and were taken from the top of sampled colonies to ensure that relatively young polyps were used consistently, as polyp age can determine physiological response with younger polyps known to be the fastest-growing (Maier et al., 2009).
+Fragments were attached to pre-labelled bases made of PVC pipe with Grotech Korafix epoxy.
+Treatments
+Two tanks (each ~350L seawater within 430L volume (0.9×0.6×0.8m)) were established for experiments; one at ambient reef conditions of 9.5°C, 380ppm and the other at 9.5°C, 750ppm in accordance with the IPCC IS92a CO2 emission scenario.
+Elevated CO2 750ppm gas was purchased pre-mixed (BOC) and generously bubbled directly into a corner of the experimental tank near a powerhead to ensure gas and water mixing and dispersal throughout the tank.
+To check that bubbling was sufficient, tank pH was checked with a Mettler-Toledo SevenGo SG2 pH meter.
+Ambient air was pumped into the control tank and checked for consistency with a Li-820 gas analyser (Licor).
+Both tanks were equipped with chillers, filtration units and powerheads to provide adequate temperature control, filtration and circulation.
+Water circulation in this closed system from the tank to the filtration unit and chiller was 300lh-1.
+Thirty per cent water changes were conducted on each tank every 2 days.
+Tank temperatures and salinity were checked throughout the experimental period with a YSI (30) salinity and temperature meter.
+Salinity and temperature for the control and experimental tanks were 35.2±0.04 and 35.3±0.03, and 9.72±±0.13°C and 9.86±0.07°C respectively.
+Corals (n=32 in each treatment) were fed a mixture of live Artemia and Skeletonema marinoi every two days.
+Time points were Time Zero, +7 days, +14 days and +21 days.
+Following measurements at time zero, 750ppm gas bubbling was initiated in the treatment tank.
+Fragments from individual colonies were split evenly between treatments and time points to avoid colony pseudo replication.
+Site and experimental carbonate chemistry
+Mingulay carbonate chemistry was assessed on two cruises; on D366/7 (July-August 2011) and on RRS James Cook 073 (Roberts et al., 2013) (May-June 2012) in surface waters (<20m) and near the reef crest (~120m).
+Borosilicate glass bottles with ground glass stoppers were used to collect seawater from Niskin bottles on the CTD rosette, and sample bottles were rinsed and filled according to standard procedures detailed in Dickson et al. (2007).
+Samples were poisoned with mercuric chloride, and duplicate samples were taken from the same Niskin bottle.
+Samples were bought to room temperature (approx.
+23°C) and analysed for total inorganic carbon and total alkalinity within 24h of collection.
+Total Alkalinity (AT) and Dissolved Inorganic Carbon (CT) were calculated according to depth-specific salinity, and also normalised to a salinity of 35 for comparative purposes across depths where salinity changed.
+AT was corrected for the addition of mercuric chloride.
+Carbonate parameters were calculated using CO2sys (Pierrot et al., 2006) with dissociation constants from Mehrbach et al. (1973), refit by Dickson and Millero (1987) and KSO4 using Dickson (1990).
+AT and CT samples were collected (as described above) from the middle of experimental tanks at each time point.
+Although there was only one experimental tank per treatment, the turnover of seawater between time points (through regular maintenance water changes) ensured that carbonate chemistry was not pseudo-replicated across time points.
+For full details of instruments used to assess AT and CT for experimental purposes, and for site carbonate chemistry, please refer to Supplementary Material.
+Physiology
+Rates of oxygen consumption were assessed in coral fragments placed within 220mL incubation chambers fitted with oxygen optodes connected to a temperature-compensated oxygen analyser (Oxy-4 Mini with Temp-4, Presens & Loligo systems).
+Magnetic stirrers ensured homogeneity of oxygen around the coral fragments.
+Chambers were filled with tank seawater and corals were allowed to acclimate to the conditions for 2h.
+Ten chambers were used per treatment at each time point; 8 for respiration, and 2 as seawater 'blanks' in order to measure (and subsequently subtract) background microbial respiration.
+Prior to respiration measures, corals were not fed for 48h.
+Once chamber lids were attached ensuring no headspace, oxygen consumption was recorded for a 40-min period for each fragment, during which oxygen saturation did not fall below 80%.
+Following incubations at T+21 days, fragments were removed and preserved at -20°C for subsequent weight determination.
+The ash-free dry mass (AFDM) of each sample was determined by adding homogenised material to a pre-weighed porcelain crucible and noting the weight of the crucible and the sample.
+The crucibles were covered and placed in a muffle furnace (Nabertherm Controller B170).
+The temperature of the furnace increased to 450°C over a 30-min period and then remained at that temperature for a further 4h.
+After this time the crucibles were re-weighed and the difference in the weight of the sample minus the ashed weight gave the amount of organic matter or AFDM.
+Net calcification
+Two methods were used to assess L. pertusa growth through net calcification; the alkalinity anomaly technique (Smith and Key, 1975) and uptake of labelled carbon (Marshall and Wright, 1998).
+To determine if there was any increase or decrease in tissue mass, the AFDM was compared to dry coral weight.
+For additional comparison to recent CWC studies (Form and Riebesell, 2012; Maier et al., 2012, 2009), coral polyp numbers were also counted to determine calcification per polyp.
+Different fragments were used for both techniques (Table 1).
+Alkalinity anomaly
+Following techniques from Smith and Key (1975), and Ohde and Hossain (2004) calcification rates were calculated in L. pertusa by measuring the change in seawater alkalinity in respiration chambers housing coral fragments for 4h.
+Samples of incubation water were taken at the beginning and end of the experimental period, and total alkalinity determined using an automatic titrator (Metrohm 702 SM Titrino).
+Calcification (µmolCaCO3g-1h-1) was estimated following Eq.
+(1),(1)Calcification=0.5(ΔTA)·V/ΔT/AFDMwhere ΔTA is the change of total alkalinity (µmol/l), V is the volume of experimental seawater (L) and ΔT is the experimental period (h).
+Calcification rates were calculated per hour (and extrapolated to per day) through a linear function.
+However, this may potentially underestimate growth rates if all newly accreted material contributes to calcification.
+Further study is needed to calculate whether L. pertusa growth over time is better represented by linear or exponential growth functions.
+With regard to nutrients, corrections applied to total alkalinity to account for the release of nutrients during incubations are considered negligible, especially for tropical corals (Riebesell et al., 2010; Smith, 1995).
+Considering that the ~10% underestimation of net calcification rate due to nutrient omission is small compared to natural variation in CWC calcification (Maier et al., 2012), nutrients were considered negligible for experiments here.
+Changes in aragonite, CT and pH during incubation were not quantified.
+For comparison to other CWC studies, calcification rates were also expressed as a percentage compared to initial skeletal weight of the corals to give growth as %d-1.
+Radioisotope
+Calcification rates were measured by incorporation of 14C (from sodium bicarbonate, CHNaO3), into new coral skeleton.
+Fragments of live corals (different from those used for respiration/alkalinity anomaly) from both treatments were placed in 30ml filtered seawater (FSW) maintained at tank temperature (9.5°C) in 50ml falcon tubes (20ml headspace).
+After 1h acclimation, 120μl of 14C stock solution was added to each tube to a final activity of 3kBq/ml (0.08101uCi/ml) (Al-Horani et al., 2005).
+Two controls were included; one of a dead coral fragment (previously placed in a 4% formalin solution), and one of Filtered Sea Water (FSW).
+Tubes were kept in floating tube racks, so ship movement and a pump maintained gentle movement of the tubes to ensure isotope mixing.
+Immediately following addition of the radioisotope, 100µl of sample water was removed and added to 4ml of Optisafe scintillation cocktail with 200µl ß-phenylethylamine to assess total activity.
+Following 6h incubation, another 100µl was taken to assess the decrease in total activity in incubation water.
+Coral fragments were then placed in FSW for 1h to remove unbound tracer.
+This step was repeated before corals were preserved at -20°C for analysis following the expedition.
+No samples of water carbonate chemistry were taken from the experiment tubes before or after incubation.
+To determine the amount of 14C incorporated in skeleton, frozen samples were dried overnight at 60°C.
+Samples were weighed and tissue was then hydrolysed with a known volume of 2N NaOH at 90°C.
+Hydrolysate (100µl) was sampled for uptake of 14C in coral tissue.
+The skeleton was rinsed with distilled water and dried overnight again for re-weighing.
+Tissue dry weight was calculated as the difference between skeleton and tissue weight, and skeleton weight.
+To calculate uptake of 14C, skeletons were placed in flasks fitted with an outlet to a swinnex filter holder which contained a GF/C filter impregnated with ß-phenylethlyamine.
+Excess acid (HCl) was added to flasks to dissolve the skeleton and evolve CO2.
+Evolved 14C was trapped in the GF/C filter, and following complete skeletal dissolution, the filter was placed in 4ml of Optisafe scintillation cocktail for counting on a Packard 1900CA Tri-Carb Liquid Scintillation Analyser.
+Results
+Mingulay seawater parameters
+From CTD casts in June 2012, salinity increased with depth at Mingulay whereas temperature slightly decreased from the surface to the reef crest (ca.
+120m) (Table 2).
+CT increased with depth, both when normalised to the changing salinity and when normalised to 35 for comparison with surface values (Table 2).
+AT increased with depth when using depth-specific salinity values, but when normalised to 35, a decrease in AT was observed with depth.
+In situ pHT decreased with depth as pCO2 increased (Table 2).
+Deeper CTD casts taken in July 2011 at the side of the Mingulay Reef mounds correlate with Table 1; such that AT and CT increased with depth (AT 2332.7±1.18; DIC 2149.0±2.08 at 172m).
+Physiology
+The respiration rates for coral fragments at Time Zero before fragments were exposed to experimental conditions was 23µmolO2g-1h-1.
+For fragments in the control treatment at 380ppm, 9.5°C, pH 8.07 (Table 3), there was no significant change in respiration rates from Time Zero to 21 days.
+For fragments exposed to increased CO2 at 750ppm, 9.5°C, pH 7.77 (Table 3), respiration rates were significantly lower than control fragments at 14 days with 12.1±1.30 SE at 750ppm versus 23.7±5.13 SE at 380ppm, and at 21 days with 11.441.39 SE at 750ppm versus 28.6±7.30 SE at 380ppmµmolO2g-1tissuedryweighth-1 (two sample t-test; t=2.19, p<0.05; t=2.31, p<0.05 respectively), see Fig. 3.
+Microbial respiration typically ranged from 0.005 to 1.3µmolO2h-1, but on average was ~0.5µmolO2h-1 in the experimental chambers.
+There was no difference in the relationship between AFDM and whole coral (skeleton+tissue) dry weight between 380ppm and 750ppm treatments after 21 days, so tissue mass did not change in coral fragments under acidified conditions compared to control individuals.
+Fragments from 380ppm and 750ppm were thus combined for correlation analysis between AFDM and whole coral dry weight.
+The linear regression was strong (r2=0.85, Fig. 4A, at T+21 days; y=0.0428x+0.08473) even with the presence of one anomalous point.
+If this point was removed from the regression, y=0.0415x+0.0849, r2=0.97, p<0.0001, with tissue dry weight approximately 5% of dry coral weight.
+Respiration rates for each treatment at T+21 days were compared to AFDM, with positive relationships for both 380ppm (r2=0.62, p=0.04) and 750ppm (r2=0.78, p=0.008) fragments (Fig. 4C).
+However, these regressions were partially driven by one larger coral in each treatment.
+Comparisons of AFDM and respiration rates to fragment polyp numbers elicited poor relationships; 380ppm (r2=0.14, p=0.40), 750ppm (r2=0.08, p=0.59) (Fig. 4D).
+Net calcification
+Net calcification rates at time zero, measured with the alkalinity anomaly technique, were ca.
+1.5µmolCaCO3g-1tissuedryweighth-1.
+This did not change significantly for either treatment over the 21 days, or between treatments at any time point (Fig. 5A).
+Changes in AT (blank corrected) across both treatments were on average 34.7 (±3.34)µmolkg-1 and ranged from 9 to 59µmolkg-1.
+Growth rates measured as %d-1 did not change significantly over the 21 days either, and averaged~0.028%d-1 (Fig. 5B).
+Calcification rate as determined by 14C uptake did not differ between treatment and control fragments at either the experiment start (380ppm; 19.3×10-2 (±SE 2.76), 750ppm; 21.8×10-2 (±SE 7.36)µmolCaCO3g-1tissuedryweighth-1) or end (380ppm; 1.68×10-2 (±SE 0.60), 750ppm; 4.38×10-2 (±SE 1.6)µmolCaCO3g-1tissuedryweighth-1).
+However, there was a significant decrease in calcification rates measured by 14C uptake in 380ppm fragments over time (380ppm, two sample t-test; t=7.28, p=0.001), which was not significant in 750ppm fragments due to very high variability.
+This decrease was not observed through the alkalinity anomaly technique.
+14C uptake into L. pertusa tissue was approximately the same for all treatments and time points (ca.
+60×10-2µmol14Cg-1tissuedryweighth-1) and did not significantly change between treatments or over time.
+Discussion
+Physiology, calcification and ocean acidification
+Lophelia pertusa respiration rate was significantly lower in fragments exposed to increased CO2 than in control fragments after 2 weeks.
+Metabolic respiration is needed to produce ATP, which in turn is used to support energy-requiring processes (Al-Horani et al., 2003).
+This includes calcification, tissue production, mucus-production (Wild et al., 2009) (which accounts for a large proportion of tropical corals' carbon budget (Muscatine et al., 1984)) and driving the transport protein Ca2+ATP-ase.
+This transport protein is essential for calcification to occur, as it actively pumps Ca2+ ions into the sub-calicoblastic space in exchange for H+ ions, thereby increasing Ca2+ concentration and making conditions favourable for calcification to occur by increasing pH (McCulloch et al., 2012a).
+The decreased respiration found in the present study under acidified conditions may indicate a decreased requirement of ATP production by L. pertusa under increased levels of CO2 after a few weeks.
+This may be due to a change in energetic requirements, a reallocation of resources, or changing metabolic pathways (Findlay et al., 2011).
+Form and Riebesell (2012) noted discrepancies in L. pertusa physiology between very short (24h) and longer-term (months) experiments; whereby responses observed during the first 24h were no longer exhibited after some months.
+This indicates that L. pertusa may have both 'shock' and acclimation responses to changes in CO2 conditions.
+The two-week period observed here before any noticeable differences were observed between experimental and control fragments may indicate a switching of metabolic pathways cued by extended exposure to elevated CO2.
+However, due to coral respiration in closed-system experimental chambers, it is likely that there will have been a significant rise in CT and corresponding decrease in pH during the respiration incubation periods (Form and Riebesell, 2012).
+Although unquantified in this experiment, reductions in pH may have matched those reported by Maier et al. (2009) where decreases over 24h (in smaller vessels) ranged from 0.1-0.5 pH units.
+For low pH treatments (such as the 750ppm), reductions could be potentially larger due to the reduced buffering capacity.
+Although this is important to consider, the fact that respiration was not significantly lower than T0 in the experimental treatment at T+7 days, but only after 14 days, indicates that it was likely to be a result of experimental conditions rather than changes during incubations.
+This is supported by observations that there are no significant differences in respiration rates in corals in the first 30min of respiration incubation compared to after T+4h in the same incubation water (Hennige, S., personal observation).
+Respiration rates for L. pertusa documented in this study are higher than those reported by Dodds et al. (2007).
+However, this experiment was conducted on freshly collected L. pertusa fragments, and not on colonies kept in aquaria conditions for several months.
+Indeed, respiration rates by Dodds et al. (2007) are very comparable to rates observed in L. pertusa fragments that have been maintained in aquaria at Heriot-Watt University for more than a year (Hennige, S., personal observation).
+This is likely due to the feeding limitations of aquaria in comparison to the in situ food supply.
+Freshly collected fragments will be acclimated to the conditions they were removed from in situ, but may exhibit an unquantified and unknown element of stress due to collection and pressure differences.
+However, while long-term aquarium fragments may not have any unknown 'stress' and can be kept at very specific conditions, they may be acclimated to some unrepresentative aquarium conditions.
+Both approaches are equally valid but it has to be considered that freshly collected corals may not always exhibit similar physiological responses to long-term aquarium corals.
+Results here were normalised to AFDM in preference to polyp number, as respiration rates of fragments from both treatments significantly correlated with tissue mass, and not polyp number.
+Although coral polyps are the centres of heterotrophic feeding, dry tissue weight, which includes both polyp tissue and the surrounding coenosarc (which also respires), is therefore a potentially more useful normalisation parameter than polyp number.
+The relationship between AFDM and dry coral weight means that dry skeletal weight can provide a convenient proxy of tissue weight, without the need to kill the coral.
+Net calcification rates as measured by the alkalinity anomaly technique and 14C uptake, did not differ between control and experimental fragments, even though experimental fragments were at a much lower aragonite saturation level (still>1).
+This complements a 24-h study by Maier et al. (2012) and a longer-term experiment by Form and Riebesell (2012), where growth rates of L. pertusa did not significantly change under different CO2 conditions.
+The stable net calcification rates reported in this study are in contrast to the reduced respiration in experimental fragments.
+This suggests an energetic imbalance between the production of ATP, and the use of ATP to actively provide Ca2+ needed for calcification.
+In a recent study, Kaniewska et al. (2012) found that under high CO2 conditions, metabolic activity in the tropical coral Acropora millepora was suppressed after a period of weeks, and changes were observed in genes regulating membrane cytoskeletal interactions and cytoskeletal remodelling.
+Results by Kaniewska et al. (2012) also indicated a possible breakdown of lipid reserves, which could provide the energy needed to maintain net calcification rates even with suppressed metabolism as observed.
+This highlights the importance of considering energetic budgets and wider cellular processes in studies such as this (Findlay et al., 2009; Kaniewska et al. 2012).
+The consistent AFDM: coral dry weight between fragments exposed here to ambient and 750ppm conditions did not indicate any major change in tissue mass in coral fragments from either treatment.
+However, it is probable that an increase in lipid breakdown would not be apparent through changes in tissue mass over this relatively short time period.
+Net calcification rates reported here from the alkalinity anomaly technique are comparable to previously published rates by Maier et al. (2012, 2009), and Form and Riebesell (2012).
+Net calcification rates reported here for L. pertusa were slightly lower than those reported by Maier et al. (2009) where 45Ca was used to determine net calcification, within variability of alkalinity anomaly derived data in Maier et al. (2012), and slightly higher than those reported in Form and Riebesell (2012).
+Net calcification rates in L. pertusa are often highly variable, even within studies where fragments are collected from the same locale and time of year.
+It is perhaps expected then, that differences exist between L. pertusa from different reefs, depths, and age.
+Further differences may be elicited through irregular growth episodes or 'spurts' (Form and Riebesell, 2012; Mortensen et al., 2001), which is typical in scleractinian corals.
+The calcification rates measured by 14C uptake were significantly lower than rates calculated through the alkalinity anomaly technique.
+This is not surprising, as labelled bicarbonate is not guaranteed to be taken up solely into the coral skeleton as calcium carbonate, and its uptake can be significantly less than 45Ca (Marshall and Wright, 1998).
+The reduction in 14C uptake from time zero to the end of the experiment in both control and experimental fragments indicates that some physiological process may have altered during this time.
+This may indicate a degree of acclimation to tank conditions (changing food source/change in circulation) that may have impacted the control of internal coral chemistry and cellular processes, so less 14C bicarbonate was incorporated into the skeleton.
+Non-quantified changes in carbonate chemistry during radioisotope experimental incubations may also have impacted upon these calcification rates.
+Considering the similarity of 14C incubations to the 45Ca incubations by Maier et al. (2009), it is possible that pH may have changed during incubations by up to 0.5 units, even though incubations here were four times shorter.
+However, considering that calcification rates (as measured through the alkalinity anomaly technique) did not change over the course of the 21 days, it is likely the reduction in 14C uptake from T0 represents experimentally induced and not incubation induced changes.
+In general, the impact of ocean acidification upon scleractinian corals; both tropical and cold, seems to be inconsistent, with different species exhibiting negative (Ohde and Hossain, 2004), no measureable response (Reynaud et al., 2003), or variable responses (Gattuso et al., 1998) to a change in conditions (Wicks and Roberts, 2012).
+This is further complicated by suggestions that corals may be more or less susceptible to ocean acidification depending upon their ontogenetic stage.
+Albright et al. (2010) demonstrated that the tropical coral Acropora palmata is negatively impacted by increasing CO2 with respect to fertilisation, settlement of larvae, and growth of juveniles.
+Impacts on these aspects in L. pertusa, and indeed any CWC remain unknown to date.
+Scleractinian responses to ocean acidification may also not be observable in physiology, and may be enacted through changes in biomineralisation (Cohen and Holcomb, 2009; Holcomb et al., 2010).
+However, when comparing existing ocean acidification studies, care has to be taken, as methodologies often differ with respect to length of exposure to increased CO2 levels, the speed at which organisms are subjected to change (instantly versus increasing intermediate levels) and the way in which pH is reduced, i.e. acid addition versus CO2 bubbling (Wicks and Roberts, 2012).
+A particularly interesting area for future focus may be whether the internal pH upregulation noted in certain coral species (Anagnostou et al., 2012; McCulloch et al., 2012a; McCulloch et al., 2012b; Venn et al., 2009) is consistent across species, and across different simulated future conditions.
+Environmental conditions at Mingulay
+The increases observed in CT and AT from the surface to the reef crest were primarily driven by increasing salinity with depth.
+When normalised to a salinity of 35, AT decreased from the surface to the reef.
+Proximity to the reef, where active calcification is occurring, would explain this decrease in alkalinity through calcification (Kleypas and Langdon, 2006), as for every mole of CaCO3 produced by the coral, total alkalinity of the water decreases by two moles.
+Differences observed between normalised CT indicate that there is either an addition of CT at the reef, or a drawdown of CT at the surface.
+This may be a combination of phytoplankton photosynthesis at the surface (Riebesell, 2004), and respiration from the coral reef, which would act to increase CT.
+It has been noted in tropical corals that as ΩAragonite decreases from 3 or 4 (Kleypas and Langdon, 2006) to ca.
+2, significant reduction in calcification rates can occur (Wicks and Roberts, 2012).
+The ΩAragonite at Mingulay (Table 1), which is considered relatively shallow for a Lophelia pertusa reef (Roberts et al., 2006), is about half that of many tropical reefs (Kleypas and Langdon, 2006).
+However, ΩAragonite is still >1, so dissolution should not occur.
+At Mingulay Reef, corals experience a periodic downwelling of surface water (Davies et al., 2009).
+Recently characterised in terms of changing seawater carbonate chemistry (Findlay et al., 2013), this surface water will bring with it an influx of food from the surface, as well as periods of warmer water.
+Thus, corals at Mingulay are exposed to regularly fluctuating water conditions, both in terms of temperature and also water chemistry.
+This raises the possibility that corals at Mingulay may have higher tolerance for changing seawater conditions than those in more stable, bathyal environments.
+These and related questions form the basis of on-going investigations.
+Conclusions
+From this experiment, we present the first short-term data on the effects of increased CO2, (750ppm) upon the metabolism of freshly collected L. pertusa from Mingulay Reef Complex, Scotland, and its comparison with net calcification rates.
+The sustained net calcification rates of L. pertusa under elevated CO2 conditions corresponds with other studies, but the observed decrease in respiration rate highlights an energetic imbalance, whereby L. pertusa may be forced to use energetic reserves to maintain calcification rates.
+However, the observed decrease in respiration in response to ocean acidification is potentially detrimental in the longer term, as expending energetic reserves is a finite strategy.
+Thus, it is crucial to perform longer-term experiments on Lophelia pertusa metabolism and growth to assess the acclimation potential, and ultimately the success, of this deep-sea ecosystem engineer to predicted increases of CO2 and warming.
+Finally it is important to note that the rapid rise in atmospheric CO2 is not only causing ocean acidification but warming.
+Further studies examining the combined effects of warming and acidification alongside other predicted stressors are urgently needed if we are to truly appreciate the significance of global climatic change on cold-water corals and other vulnerable marine ecosystems.
+Acknowledgments
+This paper is a contribution to the UK Ocean Acidification Research Programme (NE/H017305/1 to JMR; funded by the Natural Environment Research Council, the Department for Energy and Climate Change, and the Department for Environment, Food and Rural Affairs) and the European Commission's Seventh Framework Programme projects EPOCA (Grant agreement no.
+211384) and HERMIONE (Grant agreement no.
+226354).
+SJH, LCW and JMR acknowledge support from Heriot-Watt University's Climate Change Theme.
+We thank Juan Moreno-Navas for GIS assistance and multibeam maps, the Scottish Association for Marine Science for the loan of coral sampling equipment, and the captains, crew and scientific participants of RRS Discovery cruise 366/7 and RRS James Cook cruise 073 for assistance at sea.
+Supplementary Information
+Supplementary data associated with this article can be found in the online version at 10.1016/j.dsr2.2013.07.005.
+Supplementary materials
+Supplementary Material
+

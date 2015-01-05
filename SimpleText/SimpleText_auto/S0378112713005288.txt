@@ -1,0 +1,234 @@
+Regeneration of native broadleaved species on clearfelled conifer plantations in upland Britain
+
+Highlights
+•
+We examine native tree regeneration on clearfelled conifer plantations.
+•
+Mean regeneration density exceeded 1000stems/ha and was dominated by birch.
+•
+Regeneration is increased by the absence of ground flora after clearfelling.
+•
+Proximity to a wind-dispersed seed source increased natural regeneration.
+•
+Brash piles reduced regeneration density.
+Abstract
+In upland areas of Great Britain, large tracts of non-native conifer plantations have been established on poor quality agricultural land.
+There is now considerable interest in the conversion of some of these plantations to a more natural woodland comprised of native tree species.
+We studied the tree regeneration and ground flora on 15 upland sites (altitudes ranging from 120m to 380m above sea level) that had been clearfelled of conifers.
+Regeneration of native tree species was successful where a clearcut site was adjacent to mature native trees, which acted as a seed source.
+Mean regeneration densities of native tree species on clearcut sites were typically greater than 1000stems/ha, exceeding minimum recommended planting densities for the establishment of new native woodland.
+Whilst 10 native woody tree species were recorded, the regeneration was dominated by birch species.
+Regeneration densities were significantly higher on clearcut sites than on adjacent areas of unplanted moorland, probably due to the lack of a dense ground flora following the clearfelling operations.
+Our results indicate that where local native seed sources exist, clearfelling upland conifer plantation sites to allow natural regeneration has the potential to be an effective method of establishing native woodland.
+
+Introduction
+Timber plantations have been widely established across Northern Hemisphere mid-latitudes (Zerbe, 2002; Yamagawa et al., 2010) with plantation forests now making up 14% of total forest area in western European countries (Forest Europe, 2011) and about 70% of total forest area in Britain (Brockerhoff et al., 2008).
+These plantation forests usually consist of fast-growing, non-native conifer species located on marginal agricultural land in the uplands (Humphrey et al., 2006).
+They are typically intensively managed for timber production with substantial site preparation before planting (e.g., ploughing, drainage, and occasional use of fertiliser) and harvesting of timber occurring by clearfelling after a relatively short rotation.
+Whilst plantation forests can provide habitat for a range of species (Humphrey et al., 2000; Quine and Humphrey, 2010; Bremer and Farley, 2010; Coote et al., 2012), semi-natural woodlands typically contain greater biological diversity (Brockerhoff et al., 2008; Bremer and Farley, 2010).
+Furthermore, plantation forests can result in soil and stream acidification (Carling et al., 2001) as well as potential negative impacts on water resources.
+Recently, a greater interest in woodlands for their ecological and recreational value means that semi-natural and mixed forests consisting of native species are becoming increasingly valued (Felton et al., 2010).
+As many plantations are now reaching the end of their rotations, there is considerable potential for establishment of semi-natural woodland on former plantation forest sites (Spiecker et al., 2004; Dedrick et al., 2007).
+The restoration of plantation forests to semi-natural woodland can be carried out through a range of methods.
+The conifer crop can either be clearfelled or the trees can be removed more gradually through multiple thinning operations.
+There are also a range of methods for establishing native trees including planting, direct seeding or natural regeneration.
+Natural regeneration is the establishment of trees from seeds produced in situ (Harmer and Kerr, 1995) and is the preferred means of achieving native woodland expansion in Great Britain (Forestry Commission, 1994).
+Potential advantages of natural regeneration include the preservation of local genotypes and greater structural diversity of the resulting woodland (Peterken, 1996), high seedling density (Holgén and Hånell, 2000) as well as increased cost-effectiveness (Tarp et al., 2000; Jonásová et al., 2006).
+Natural regeneration has been studied in a range of environments including degraded lowland tropical pasture (Parrotta et al., 1997), tropical mountain forests (Holl et al., 2000), boreal forest (Peltzer et al., 2000; Holgén and Hånell, 2000; Hanssen, 2003; Man et al., 2008; Man et al., 2009), lowland European forests (Madsen and Larsen, 1997; Emborg, 1998; Olesen and Madsen, 2008; Modrý et al., 2004; Swagrzyk et al., 2001; Harmer and Morgan, 2009; Wagner et al., 2010; Smit et al., 2012) and European mountain forests (Jonásová et al., 2010; Bace et al., 2012).
+However, the regeneration of native species on clearfelled conifer plantations is still poorly understood (Zerbe, 2002) with Wallace (1998)'s study of birch regeneration in clearfelled spruce plantations the only previous study in upland Britain.
+Here we report the first extensive study of natural regeneration of native hardwood species on clearfelled upland conifer plantations in Britain.
+We addressed the following questions: (i) How well do native tree species regenerate on clearfelled upland conifer plantations? (ii) How does regeneration on clearfelled conifer plantations compare to regeneration on improved farmland and open moorland? (iii) What are the dominant factors controlling regeneration? (iv) How does the ground flora develop in the years following clearfelling and how does this impact tree regeneration?
+Materials and methods
+Experimental sites
+We surveyed a total of 21 sites at 4 different upland locations: Hardknott forest and Rainsbarrow wood in the Lake District, north-west England and Clashindarroch forest and Bin forest in Aberdeenshire, north-east Scotland.
+All forests surveyed were managed by the Forestry Commission.
+The soil type, obtained from Forestry Commission soil maps, was used to predict the natural woodland community that would be expected to develop (Rodwell and Patterson, 1994).
+Details of the sites selected are given in Table 1 and locations are shown in Fig. 1.
+Hardknott forest was planted on upland moorland between 1940 and 1955 (N.
+Williams 2008, Forestry Commission, personal communication).
+There are several broadleaf woodland fragments of Quercus spp.
+(oak spp.), Betula spp.
+(birch), Sorbus aucuparia (rowan), Ilex aquifolium (holly) and Salix spp.
+(willow).
+Nearby Rainsbarrow woodland was planted with conifers between 1959 and 1962 and is designated as a Planted Ancient Woodland Site (PAWS) (Thompson et al., 2003).
+PAWS are sites with a long history of forest cover, with the original semi-natural woodland cleared and replaced by a plantation, a practice that was widespread in the UK before around 1980 (Thompson et al., 2003).
+Clashindarroch forest was established from 1930 onwards (Forestry Commission, 1964).
+Prior to afforestation, the land was mostly upland moorland with a dense flora of Calluna vulgaris (ling heather) and Vaccinium myrtillus (bilberry) with limited areas of Pteridium aquilinium (bracken) on the lower elevations (Forestry Commission, 1952).
+Bin forest was established from 1926 onwards when most of the land was upland moorland with dense ling heather vegetation (Forestry Commission, 1964).
+Both Clashindarroch and Bin forests retained small fragments of semi-natural woodland consisting largely of birch and rowan as well as Alnus glutinosa (common alder) and willow on the wetter ground.
+At these 4 locations we surveyed 15 sites that had been afforested with conifers, clearfelled and then left to regenerate naturally.
+Table 1 details the species of the felled conifer crop, which was generally dominated by Picea sitchensis (Sitka spruce), matching the dominant conifer species used across Britain (Forestry Commission, 2012).
+The harvesting residues, known as brash, were typically windrowed - that is, gathered into regularly spaced linear mounds known as brash mats or windrows.
+Date of afforestation ranged from 1926 to 1942 and the date of clearfelling ranged from 1988 to 2009.
+At the time of our surveys the time since clearfelling varied from 1 to 15years.
+Table 1 details the date surveys were carried out.
+The area of clearfells was estimated using digitized maps and varied between 0.9 and 35.2ha.
+We compared the rates of native tree regeneration on these clearfelled sites to nearby areas which had not been previously planted with conifers (control sites).
+We surveyed 6 control sites.
+The control sites were typically situated less than 1km from the study sites.
+At a number of the sites former agricultural use had resulted in considerable alteration to the vegetation and the physical and chemical properties of the soil.
+Therefore we broadly classified all sites as either upland moorland (UM), upland improved farmland (IF) or PAWS (P) based on the present land-use of the control sites or the land-use prior to afforestation for the clearfelled sites.
+Both the control and the clearfelled sites were fenced to exclude stock.
+Capreolus capreolus (roe deer) and Cervus elaphus (red deer) were present at the Clashindarroch and Lake District sites.
+Only roe deer occurred in Bin forest.
+Deer control was practiced by the Forestry Commission at all sites.
+Sampling methods
+Sites were surveyed using 2×2m temporary quadrats placed along equally spaced line transects.
+The separation S (in m) between transects and between quadrats on transects was computed by the formula (Harmer and Morgan, 2009): S=100A/n, where A is the site area (ha) and n the number of quadrats (detailed in Table 1).
+Quadrats on forest track margins were omitted.
+In total we surveyed 1140 quadrats.
+Within each quadrat the species, number and height of all regenerating juveniles (defined here as either seedlings with a height ⩽50cm or saplings with a height >50cm) were noted.
+The height of saplings was measured with an extensible folding rule.
+The incidence of leading stems damaged by browsing on trees <2m tall was noted.
+No attempt was made to distinguish the different birch, oak and willow spp.
+The distance to the nearest seed source (defined as a mature tree) was measured in the field for each tree species (all the sampled plots lay within 250m of a native seed source).
+Within each quadrat we recorded the percentage of quadrat area beneath the canopy of each vascular plant species (as 2 or more species can overlap, this can result in a total vegetation cover of more than 100%) as well as the percentage cover of decaying woody debris (stumps, fallen logs and brash).
+Soil samples were taken from each quadrat and the pH was measured electrometrically using a soil-water paste.
+We were interested in the effect of brash on regeneration density so in sites that had been recently clearfelled (U6a, F2 and F4) a transect with equally spaced quadrats was oriented along a windrow and, parallel to this, another transect along the adjacent area (interrow) between the windrows.
+It was not possible to do this analysis on sites that had been clearfelled more than a few years ago as the vegetation growth and rotting of the brash made it increasingly difficult to discern windrows.
+Statistical analyses
+Trees and shrubs
+(i)
+The effect of environmental characteristics (distance to seed source, % vascular plant cover, % woody debris, altitude and soil pH) on the tree regeneration densities were examined using Spearman rank correlation coefficients.
+The analyses were carried out separately for the dominant species that were identified (birch, alder, rowan, willow and oak).
+(ii)
+To explore the influence of site type, regeneration densities on clearfelled upland moorland (UM) and clearfelled improved farmland (IF) were compared to control areas of unplanted UM and unplanted IF using a nested analysis of variance (ANOVA).
+To avoid confounding the effects of site type, time since clearfelling and soil type this analysis was conducted on a subset of 4 clearfelled brown earth UM sites that were predicted to develop to NVC type W11 (U2L, U3L, U4L and U5) with similar times since clearfelling to our clearfelled IF sites (also brown earth sites predicted to develop to W11).
+Our control sites were also all brown earth soils (UL and Ua; Fa, Fb and Fc).
+A lack of Lake District IF sites meant that we were unable to account for the effect of site location as a covariate.
+The data was transformed using logarithms and the Satterthwaite approximation used due to unequal sample sizes.
+When the difference was found to be significant the means of the site types were compared by Tukey's honestly significant difference (HSD) test.
+(iii)
+Regeneration densities on Lake District brown earth sites (U2L, U3L, U4L and U7L) were compared with densities on Lake District peaty gley sites (U9L and U10L) using a nested ANOVA.
+The data was transformed using logarithms and the Satterthwaite approximation used due to unequal sample sizes.
+(iv)
+The Clark-Evans nearest neighbour method (Blackith, 1958) was used to analyse the distribution pattern of regeneration for the animal-dispersed tree species of oak and rowan.
+This method computes the ratio (R) of the mean distance between nearest neighbours and the expected distance in the case of random distribution dran (dran=1/2D, where the density D=number of stems/area).
+For R=1 the population is randomly distributed, for R significantly less than 1 the population is clumped and for R significantly greater than 1 the population is evenly dispersed.
+A t-test was used to determine whether R was significantly different from 1.
+(v)
+A paired t-test (data transformed by square root) was applied to examine differences in regeneration density between the windrows and interrows at sites U6a, F2 and F4.
+A 2-proportion z-test was used to compare the proportion of regenerating trees that were rowan in windrows and interrows.
+(vi)
+Linear regression analysis was used to examine the change in height of birch with time since clearfelling.
+Ground flora
+Ground flora characteristics in each quadrat were analysed as: (i) Total number of species, S, (ii) % vascular plant cover of each species, and (iii) linear regression analysis was used to examine the difference in vascular plant coverage with time since clearfelling.
+Results
+Tree regeneration
+A total of 14 tree and shrub species were found to be regenerating, of which 10 were species native to Great Britain.
+The non-native species consisted of three conifers (Sitka spruce, Pinus contorta (lodgepole pine) and larch) and one broadleaved species (Alnus incana (grey alder)).
+The native species were birch, oak, rowan, willow, common alder, Fraxinus excelsior (ash), holly, Fagus sylvatica (common beech), Corylus avellana (common hazel) and Juniperus communis (common juniper).
+The mean density of regeneration of native species on clearfelled sites varied from 0stems/ha to >5000stems/ha (Table 2).
+While the regeneration density of non-native tree species is shown in Table 2 it is important to note that in a number of study sites regenerating non-native conifers had been felled, making it difficult to draw any conclusions about the frequency of non-native regeneration.
+The linear regression of time since clearfelling on regeneration density of native species was not found to be significant (r2=0.26, n.s.).
+Table 3 shows the density of regeneration for native species and the fraction of clearfelled sites where each species was recorded.
+Regeneration was dominated by birch and rowan.
+Whilst the regeneration of holly and oak were recorded infrequently (<20% of sites), relatively high regeneration densities were recorded at specific sites for these species (for example, 723stems/ha in the case of oak).
+The regeneration density of birch and alder was found to be negatively correlated with distance from seed source (see Table 4).
+In the case of birch, for example, 63% of regeneration occurred within 20m of a seed source.
+No significant relationship was found for rowan or oak.
+No significant relationship between plant cover and regeneration density was seen for any species.
+However, when the regenerating trees were divided into sapling (taller than 0.5m) or seedling (shorter than 0.5m) categories then a significant negative correlation was seen between birch seedling density and vascular plant cover.
+Birch also showed a significant negative correlation with the percentage of brash (woody debris).
+No such effects were noted for alder, willow, oak or rowan.
+Regeneration density against distance from seed source is plotted in Fig. 2.
+In general, birch showed a broad shoulder of dense regeneration close to source, followed by a very rapid decline and then a long tail consisting of a slow decline.
+Linear regression found a logarithmic decline in birch density with increased distance to seed source (see Fig. 2).
+No significant correlation between distance from seed source (for distances up to 100m from the source) and regeneration density was seen for animal-dispersed species (oak and rowan).
+However, the regeneration of both rowan and oak were still strongly clumped (R=0.23 and 0.28 respectively, both p<0.0001).
+We found significantly higher regeneration in interrows (mean (M)=2313, standard deviation (SD)=3463) than in windrows (M=522, SD=1113; t(66)=5.694, p=5×10-5).
+We found no statistically significant difference between the proportion of trees that were rowans in windrows and interrows (z=-0.456, n.s.).
+Table 5 shows that the regeneration density of different site types (upland improved farmland or upland moorland).
+Site type (upland improved farmland or upland moorland) produced a significant variation in total regeneration densities (F(3,8.9)=4.1, p=0.03).
+20% of the total observed variation was due to variation between the different site types.
+The overall regeneration density on clearfelled upland moorland was significantly greater than on unplanted upland moorland (p<0.01).
+However there was no significant difference between the regeneration density of clearfelled improved farmland and unplanted improved farmland (see Table 5).
+No significant difference in regeneration densities was found between brown earth and peaty gley soils (F(1,3.95)=1.75, p=n.s.).
+Mean birch height increased significantly with time after clearfelling from 19cm tall at 2years to 101cm tall 10years post felling (p=0.03).
+Fig. 3 contrasts the height distributions of birch trees 4years post-felling (measured at U4L) and 10years post-felling (measured at U10L).
+Four years post-felling the number of regenerating trees declines exponentially with tree height so that we see large numbers of seedlings and few saplings.
+Ten years post-felling this has changed to a more Gaussian distribution of heights with fewer seedlings.
+Ground flora
+We recorded 70 species of vascular plants across the study locations (detailed in Supplementary Table 1).
+The most frequent and abundant species was the perennial Deschampsia flexuousa (wavy hair-grass), being found on 78% of quadrats surveyed.
+The similarity of upland clearfelled sites was noteworthy: 5 species (bilberry, Galium saxatile (heath bedstraw), ling heather, foxglove and Potentilla erecta (tormentil)) occurred in all upland sites and only 2 species occurred at a single site (Ajuga reptans (bugle) and Valeriana dioica (common valerian), both found at U10).
+The predicted woodland type on clearfelled brown earth sites was W11 - upland oak - birch woodland with Hyacinthoides non-scripta (bluebell) (see Table 1).
+However, on UM clearfelled sites desired invader species such as Oxalis acetosella (woodsorrel), Anemone nemorosa (wood anemone), Conopodium majus (pignut) and Primula vulgaris (primrose) were not found, while bluebell was seen on only 15 quadrats and Teucrium scorodonia (wood sage) on just 2.
+The solitary PAWS site that was examined had a considerably richer ground flora with wood sorrel, wood sage and bluebell seen on 21%, 29% and 79% of quadrats respectively.
+We found that the sites which had been clearfelled 10years ago had significantly greater vascular plant coverage (111%) compared to sites that had been clearfelled 2years ago (11.7%, p=0.001).
+The % mean woody debris on spruce clearfell sites declined from 51% 2years after felling to 12.7% and 5.1% at 5 and 10years post-felling respectively.
+Discussion and conclusion
+We have explored the regeneration density of native broadleaved species on clearfelled conifer sites in upland Britain.
+We compared regeneration on clearfelled sites to control sites that had neither been planted with conifers or clearfelled.
+We restricted our analysis to a subset of sites with similar time since clearfelling and soil type.
+Mean regeneration density on this subset of clearfelled upland moorland sites (3392individuals/ha) was significantly greater than on upland moorland (64individuals/ha) or improved farmland (14individuals/ha) sites.
+Availability of data meant that in this analysis we combined sites across regions (Lake District and eastern Scotland) and were unable to account for site location as a covariate.
+Regeneration density on all clearfelled upland moorland sites (3515individuals/ha) was at the lower end of that recorded by Harmer and Morgan (2009) (3000-11,000individuals/ha) in a storm damaged lowland conifer site in south-east England that had been allowed to naturally regenerate.
+The regeneration density we recorded was lower than conifer regeneration within small windthrows (Jonásová et al., 2010) or clearfells (Modrý et al., 2004; Holgén and Hånell, 2000) where sapling densities as great as 160,000individuals/ha have been recorded (Modrý et al., 2004; Holgén and Hånell, 2000; Jonásová et al., 2010).
+The high regeneration density in these studies was likely due to an ample seed source due to the surrounding woodland whereas in our study the seed source was limited to individual mature trees.
+Nevertheless, the regeneration density on clearfelled upland moorland sites and a clearfelled PAWS site (5790stems/ha) exceeded the suggested sapling stocking densities for new native woodland in Britain of between 500 and 2000stems/ha (Forestry Commission, 2010).
+The diversity of regenerating species was usually lower than that of the adjacent seed sources with regeneration dominated by birch on all but one clearfelled site, as has been found previously at storm damaged lowland sites in Britain (Harmer and Morgan, 2009; Harmer et al., 2011) and elsewhere in Europe (Degen et al., 2005).
+Overall, birch accounted for 56% of regenerating saplings in our study.
+The density of birch regeneration on clearfelled upland moorland on our study sites is similar to that recorded in a storm damaged lowland conifer site in Britain (Harmer and Morgan, 2009) and to clearfelled upland conifer sites in Scotland (Wallace, 1998).
+Despite the presence of mature individuals of ash, beech, juniper and hazel adjacent to clearfelled sites only a handful of saplings of these species were noted.
+Overall we found that pioneer, shade-intolerant species such as birch, rowan and willow regenerated more frequently than shade-tolerant species such as beech and holly (Brzeiziecki and Kienast, 1994).
+We explored the role of distance from seed source on regeneration density for distances up to 100m from the source.
+The regeneration of the small-seeded and wind-dispersed alder and birch species were found to be strongly dependent on the distance from parent trees.
+The majority of the saplings were found within 20m of a parent tree, although for birch there was a long tail, limited in our study to the width of the clearfelled site.
+The patchy distribution which results from this clumping around seed sources is not necessarily a disadvantage for establishment of natural woodland.
+Rodwell and Patterson (1994) suggest that 20-50% of woodland sites should be retained as open ground to enhance structural diversity and wildlife value.
+The fluctuations in sapling density may result in a more natural woodland structure to that produced through planting.
+The shoulder of the regeneration curve at distances less than 10m from the woodland edge could be attributable to an edge effect - root competition or light and rain interception from the mature trees counteracting the increased regeneration caused by the rise in seed density as you approach the edge.
+The seed dispersion curve for a point source (Harper, 1977; Nathan et al., 2001) is similarly shaped to the regeneration curves for solitary trees in having a peak in seed fall density a short distance from the parent tree.
+Regeneration of oak and rowan was found to be significantly clumped although not significantly dependent on distance from the seed source.
+Rowan is primarily dispersed through ingestion by birds, particularly various thrush species (Raspe et al., 2000), while oak relies on hoarding by both birds and mammals but especially Garrulus glandarius (jay) and Apodemus sylvaticus (wood mouse) (Forget et al., 2004), both of which occur at the study sites.
+The distribution of regenerating saplings will therefore be partly controlled by the behaviour of the dispersing animal.
+Previous work in central Europe has demonstrated that the majority of oak regeneration occurs within 100m of a seed source and declines rapidly at greater distances (Mirschel et al., 2011).
+However, our findings are in contrast to previous work carried out in lowland sites in the UK that found positive relationships between the number of oak seedlings and distance to parent trees but no significant effect for birch seedlings (Harmer et al., 2005), possibly indicating differences between the shelterwood examined by Harmer et al. (2005) and the more extensive clearfells that we considered.
+The determination of any relationship between vascular plant cover and regeneration density was complicated by the constantly changing nature of ground flora - the current vegetation structure does not necessarily reflect that present when the seedlings first started growing.
+Indeed, the only significant correlation between regeneration density and vascular plant cover was the negative correlation found for birch seedlings (shorter than 0.5m).
+The small size of a birch seed means that its food reserve is only sufficient to grow to 2cm in height (Miles and Kinnaird, 1979), before it must be able to support itself through photosynthesis.
+This results in birch's difficulty in establishing itself in thick vegetation.
+Scarification (exposure of mineral soil) can increase seedling density in birch spp.
+(Kinnaird, 1974; Karlsson, 1996).
+The ground disturbance and lack of ground vegetation after clear felling provides opportunities for seedlings to become established in bare ground before it is covered with vegetation.
+In contrast, the lack of regeneration seen on the unplanted upland moorland and unplanted improved farmland sites is likely due to the dense flora coverage (120% and 142% respectively) in combination with the lack of any ground disturbance.
+The rate of tree growth was slow, with regenerating trees achieving a median height of 104cm after 10years of growth post-felling.
+These growth rates are markedly poorer than those recorded by Harmer and Morgan (2009) in lowland England or by Worrell et al. (2000) in upland NE Scotland.
+We found that the height distribution of the regenerating trees changed with time since clearfelling (Fig. 3), with large numbers of small trees 4years post-felling changing to a more even distribution of heights 10years post-felling.
+This indicates that the recruitment of new trees is most prolific in the first few years following felling, with fewer seedlings 10years post-felling indicating a slowdown in this process.
+This decline is likely to be driven by the increase in herbaceous cover following clearfelling combined with the negative correlation between birch regeneration and herbaceous cover.
+The weighting of seedling recruitment to the years immediately following clearfelling may also contribute to the observed site to site variability in regenerating tree number since any temporal fluctuations in the ability of trees to regenerate will have substantial effects on the resulting density.
+Potential factors influencing interannual variability in seed dispersal and seedling germination include temporal variation in seed production (Harper, 1977) and climatic factors such as wind speed or precipitation (Nyland, 1996) and amount of snow cover (Greene and Johnsson, 1997; Forestry Commission, 2004).
+We found that the dense layers of brash produced by windrowing significantly reduced the amount of natural regeneration.
+Windrows could be up to a metre high and several metres wide, producing a physical barrier that prevented seedling establishment and creating regions with little or no regeneration.
+While we might expect seedlings from larger seeded species like rowan (200,000 seeds weigh 1kg) to have an advantage over seedlings from smaller seeded species such as birch (5.9million seeds weigh 1kg) in growing through brash (Leishman and Westoby, 1994) we found no significant difference between the proportion of rowan in windrows and interrows.
+Furthermore, previous studies have found that where grazing pressure is high, brash (Truscott et al., 2004) and coarse woody debris (Smit et al., 2012) can help protect seedlings from browsing.
+However, it is difficult to draw any conclusions from our study as only a single site (U15) recorded significant browsing.
+The low incidence of browsing at our study sites (grazing pressure was controlled) means that grazing is unlikely to limit regeneration (Palmer et al., 2004; Olesen and Madsen, 2008; Yamagawa et al., 2010).
+Clearfelled sites undergo substantial ground disturbance resulting in a mean 19% ground flora coverage 2years post-felling.
+On upland moorland sites, vegetation after clearfelling was largely comprised of ruderal species such as wavy hair-grass and Deschampsia cespitosa (tufted hair-grass) before being joined by species associated with open moorland like ling heather and G. saxatile (heath bedstraw).
+Colonisation by woodland ground flora species was poor.
+Many previous studies have focused on restoration of PAWS to semi-natural woodland with current advice advocating a gradual approach to restoration through thinning (Thompson et al., 2003; Woodland Trust, 2005).
+In this study we explored the potential conversion of conifer plantations on upland moorland and improved farmland to semi-natural woodland through a process of clearfelling followed by natural regeneration.
+There has been comparatively little work carried out on this despite the large area of uplands used for conifer plantations in Britain.
+We found that where remnants of native woodland survive, clearfelling results in conditions favourable for natural regeneration and typically producing regeneration densities of native species equal to or greater than that recommended for planting.
+Where forest managers aim to develop part of their forest estate as native woodland, we recommend sites be surveyed for native woodland remnants and adjacent conifers clearfelled to allow regeneration of native woodland.
+Where seed sources of non-native conifer exist these species may also regenerate at high densities (Stokes et al., 2009; Stokes and Kerr, 2013) and further work is needed to explore to what extent this hinders the development of semi-natural woodlands.
+Gradual thinning of the conifer crop may be less likely to produce ideal conditions for natural regeneration (disturbed soil and little ground vegetation) while extending the supply of non-native conifer seed sources (Stokes et al., 2009), although further work is required to compare these approaches.
+Taking advantage of the natural regeneration process means that it may be possible to produce semi-natural woodland of a high ecological and landscape value at a substantially reduced cost (Jonásová et al., 2006).
+However, where extensive thinning of non-native species would be required this would greatly increase costs (Stokes and Kerr, 2013).
+We found natural regeneration was mostly of shade-intolerant pioneer species and was dominated by birch.
+The lack of important timber producing species within the regeneration has been raised as a concern in lowland British sites (Harmer and Morgan, 2009) but is less likely to be a issue for upland sites where timber production may be a lower priority.
+The dominance of birch within natural regeneration follows the expected pattern of natural succession and, given oak seed sources in the area, we might expect oak regeneration to follow in due course (Patterson, 1993).
+Future work will quantify the rate at which oak seedlings establish and explore whether supplementary planting may be required.
+Given that recent work (Harmer and Kiewitt, 2007; Harmer et al., 2011) has shown that a gradual conversion of lowland conifer PAWS may not always allow satisfactory regeneration of broadleaved tree seedlings, we feel that clearfelling of conifer plantations followed by natural regeneration as a method of establishing semi-natural woodlands warrants further research and consideration.
+Acknowledgments
+We acknowledge the Forestry Commission for permitting site access and providing maps.
+The Friends of the Lake District and the Natural Environment Research Council (NE/G015015/1) provided funding for this study.
+We acknowledge two anonymous reviewers whose comments greatly improved this manuscript.
+Supplementary material
+Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/j.foreco.2013.08.001.
+Supplementary material
+Supplementary data
+

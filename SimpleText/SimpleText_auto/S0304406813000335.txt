@@ -1,0 +1,349 @@
+Efficient sets are small
+
+Abstract
+We introduce efficient sets, a class of sets in Rp in which, in each set, no element is greater in all dimensions than any other.
+Neither differentiability nor continuity is required of such sets, which include: level sets of utility functions, quasi-indifference classes associated with a preference relation not given by a utility function, mean-variance frontiers, production possibility frontiers, and Pareto efficient sets.
+By Lebesgue's density theorem, efficient sets have p-dimensional measure zero.
+As Lebesgue measure provides an imprecise description of small sets, we then prove the stronger result that each efficient set in Rp has Hausdorff dimension at most p-1.
+This may exceed its topological dimension, with the two notions becoming equivalent for smooth sets.
+We apply these results to stable sets in multi-good pillage games: for n agents and m goods, stable sets have dimension at most m(n-1)-1.
+This implies, and is much stronger than, the result that stable sets have m(n-1)-dimensional measure zero, as conjectured by Jordan.
+
+Introduction
+For x,y∈Rp,x≫y means xi>yi for all i=1,…,p.
+Then: Definition 1.1
+A subset E of Rp is an efficient set if it has the property that, for all x and y in Rp, if x≫y then x and y are not both in E.
+ Efficient sets11
+Properly, this defines weakly efficient sets; these are larger than the conventionally defined efficient sets, which exclude distinct x and y such that xi≥yi∀i.
+Thus, our bounds on the size of efficient sets therefore also apply to conventionally defined efficient sets.
+ pervade economics, including as examples: level sets of continuous utility functions, quasi-indifference classes,22
+Let ≿ be a preference relation on the positive orthant, R++p, which need not be represented by a continuous utility function.
+Given any point x in R++p, each ray, R, from the origin is divided into two parts by a unique point, xR, such that x is strictly preferred to all points on R strictly below xR, while all points on R strictly beyond xR are strictly preferred to x.
+The quasi-indifference class for x is the set of such points xR.
+In the case of the lexicographic ordering on R++2, each quasi-indifference class is a vertical line (Beardon, 1995).
+ mean-variance frontiers, production possibility frontiers, Pareto efficient sets, and the efficient frontiers of data envelopment or stochastic frontier analysis.
+Furthermore, we have natural intuitions about the size of such sets.
+Most obviously, they are small.
+More strongly, their dimension is one less than that of their ambient space, making them subsets of regular curves or surfaces.
+This paper proves that these intuitions are correct.
+Our first intuition, that efficient sets should be small, is naturally thought of in the sense of Lebesgue: efficient sets in Rp should have p-dimensional measure zero.
+We show that this is an immediate consequence of Lebesgue's density theorem.
+Other proofs (with the additional assumption of measurability) exist in the literature; Candeal and Induráin (1994), for example, show this in the context of indifference sets.
+As a measure theoretic result, it implies the weaker topological result that efficient sets have empty interior.33
+The most common version of this is that locally non-satiated indifference curves are not thick (Arrow and Hahn, 1971; Diewert, 1973; Mas-Colell et al., 1995).
+While topological notions of nullity and genericity are "less sharp" (Mas-Colell, 1985, p.
+318) than their measure theoretic equivalents, they are more familiar to economists.
+While this establishes the usual understanding of nullity, Lebesgue measure fails to differentiate between sets which are of measure zero, but of very different sizes.44
+Lebesgue measure is also meaningless if p is infinite, an observation which has led to interest in concepts like 'prevalence' and 'shyness' (Mas-Colell, 1985; Hunt et al., 1992).
+This is not a concern of the present paper.
+ Consequently, it cannot establish our second natural intuition about efficient sets.
+For example, the straight line, the nowhere dense Cantor set formed by iteratively removing the middle third from line segments (q.v.
+Fig. 1), and the infinite length von Koch curve formed by iteratively augmenting line segments' middle thirds (q.v.
+Fig. 2) all have plane measure zero.
+Thus, since Hausdorff, showing that a set has Lebesgue measure zero has simply raised a more basic problem, namely that of finding the appropriate dimension in which to then measure the set.
+Furthermore, since Peano's space-filling curve in the late 19th century, a distinction has been drawn between topological and measure theoretic notions of dimension.55
+See Jordan and Xu (1999), Kehoe et al. (2002) and Nisan and Segal (2006) for references to space filling curves, such as Peano's, in the economics literature.
+ The former is better known to economists due to its applications within general equilibrium theory (q.v.
+Debreu, 1970, 1972, 1976): assuming differentiability, a p-1 dimensional object in Rp is a p-1-dimensional submanifold of Rp.
+As any point in the submanifold is locally homeomorphic to Rp-1, it can be described by p-1 parameters.
+Application of Sard's theorem allows conclusions about solutions' uniqueness, at least locally.
+When local uniqueness is not a desired property, the differentiability requirements of this approach are unnecessarily restrictive.
+In some cases, differentiability may only fail on a null subset of a theoretically generated efficient set (e.g. the standard Leontief indifference curves); in others, such as the frontier of the production set in Jouini (1988), the failure is more pervasive.
+In empirical work, where efficient sets are interpolated from a finite data set (e.g. data envelopment or stochastic frontier analysis), one may wish to know whether one's results are insensitive to differentiability or continuity conditions imposed by any particular interpolation technique.
+More fundamentally, though, topology's concern is shape, rather than size.
+Thus, even on metric spaces, topological dimension is an unreliable guide to size.
+A standard example is the union of the set of rationals and the irrationals on the unit interval: each has topological dimension zero, yet their union has dimension one.66
+More generally, the decomposition theorem states that any set in a separable, metrizable space with topological dimension ≤p may be decomposed into p+1 disjoint subsets, each with dimension ≤0 (Hurewicz and Wallman, 1941).
+In such spaces, the coincidence theorem states that Lebesgue covering dimension, inductive dimension, and large inductive dimension-the three leading notions of topological dimension-are equivalent.
+ More generally, homeomorphic transformations-which preserve topological dimension-can be arbitrarily extreme in their distortion of measure: continuous, monotone maps may be constructed from null sets to sets with full Lebesgue measure.77
+A classic example can be found in Gelbaum and Olmsted (1962, 8.16), which uses a Cantor function; Mehta (1991) also uses Cantor's function, in a different context.
+Thus, Hausdorff's measure theoretic understanding of dimension is used to establish our second intuition.
+It is, by design, a more sensitive concept than either Lebesgue measure or topological dimension, being defined for any extended non-negative real number.88
+When even this is not fine enough, Hausdorff dimension may be defined over dimension functions (Falconer, 1990; Mattila, 1995).
+ subset E of Rp with p-dimensional Lebesgue measure zero, the Hausdorff dimension can be any number between 0 and p, inclusive (Beardon, 1965).
+Of the above examples, Table 1 illustrates that only Hausdorff dimension is capable of discrimination between all three.
+The topological and Hausdorff notions of dimension do coincide for smooth sets.
+For non-smooth sets, Hausdorff dimension may exceed topological dimension: any curve that is homeomorphic to a circle is a one-dimensional manifold, but a sufficiently irregular curve can have Hausdorff dimension greater than one.
+This is the case for the von Koch curve, whose topological dimension is 1 (Epstein and Śniatycki, 2008).
+(In contrast to topological dimension, Hausdorff dimension is only invariant under bi-Lipschitz transformations.) Furthermore, approximations to the von Koch curve based on finite iterations of the sort displayed in Fig. 2 maintain a constant Hausdorff dimension of 1.
+Our main result is that the Hausdorff dimension of any efficient set in Rp is no more than p-1.
+This satisfies our intuition that efficient sets are (subsets of) regular curves or surfaces rather than, say, thick sets like the von Koch curve.
+This result derives entirely from the properties efficient sets, regardless of whether or not they are also sub-manifolds.
+Finally, we provide a non-trivial application of the results, bounding the stable sets of multi-good pillage games.
+In one-good pillage games, the stable sets are finite (Jordan, 2006).99
+See Kerber and Rowat (2011) and Saxton (2011) for tighter bounds.
+ In the two-good world, Rowat (2009) proved that stable sets have empty interior, and Jordan has conjectured in personal communication that they have measure zero.
+We confirm Jordan's conjecture (and its stronger Hausdorff dimension variant) by showing that we may work equivalently in either of two convenient Euclidean subspaces: an mn-dimensional allocation space, or an m(n-1)-dimensional 'Edgeworth' space.
+While it is straightforward to demonstrate this, by showing that the projection is bi-Lipschitz, we are not aware that this has been done before, making it perhaps of interest in its own right.
+Section 2 proves that efficient sets in Rp have p-dimensional Lebesgue measure zero.
+Section 3 introduces Hausdorff dimension and proves that efficient sets have dimension no more than p-1.
+Section 4 introduces multi-good pillage games and applies the above results to bound their stable sets.
+Before proceeding, we note some basic properties of efficient sets that shall be used throughout: Lemma 1.2
+LetEbe an efficient set inRp. Then:1.
+the closureĒofEis an efficient set;
+2.
+any subset ofEis an efficient set;
+3.
+ifTis a translation ofRp, thenT(E)is an efficient set.
+Proof
+Suppose that E is an efficient set, but that its closure Ē is not.
+Then there are u and v in Ē with u≫v.
+Since this implies that there are u′ and v′ in E with u≫u′≫v′≫v, this is a contradiction.
+The remaining two properties are trivial.□
+Efficient sets have measure zero
+Let μp be Lebesgue's p-dimensional measure in Rp.
+If x and y are in Rp then we write x=(x1,…,xp);‖x-y‖ denotes the Euclidean distance between x and y.
+This section's main result is that each efficient set has measure zero: Theorem 2.1
+IfEis an efficient set inRp, thenμp(E)=0.
+To establish this, we use Lebesgue's density theorem, which requires the following definition: Definition 2.2
+The density of a measurable subset A of Rp at a point a is ρA(a)≡limr→0μp(A∩{x:‖x-a‖<r})μp({x:‖x-a‖<r}), whenever this limit exists.
+ Lebesgue's density theorem is then: Theorem 2.3
+Corollary 2.14, Mattila, 1995
+IfAis measurable, thenρA(x)exists and equals one for almost all pointsxinA.
+In particular, ifAis measurable and has positive measure, thenρA(x)exists and equals one at somexinA.
+Example 2.4
+Cantor Sets with Positive Measure
+Cantor sets with linear measure arbitrarily close to one while remaining nowhere dense may also be constructed (Gelbaum and Olmsted, 1962, pp.88-89).
+Begin with E0=[0,1] and an arbitrary α∈(0,1).
+Now let En be the union of 2n mutually disjoint closed intervals of equal length formed by removing open intervals of length 21-2nα from the middle of each interval in En-1; for any n,2n-1 intervals are removed.
+Thus, the length removed after n such operations is (12+14+⋯+12n)α, which converges to α as n converges to ∞.
+The ensuing set therefore has linear measure 1-α.
+Fig. 3 illustrates an example in which α=23, so that μ1=13.
+Unlike the middle-third Cantor set, the relative length of the removed segment decreases at each iteration.
+ Sets formed this way are also called 'fat' Cantor sets, Smith-Volterra-Cantor sets, or ε-Cantor sets (Edlin and Shannon, 1998; Aliprantis and Burkinshaw, 1981).
+As they have positive measure they must, by the Lebesgue density theorem, contain elements with density one.
+Intuitively, these are all the elements that are not the endpoints of intervals: while there are countably many endpoints (with density less than one), there are uncountably many elements that are not endpoints.1010
+Applying the same reasoning to measure zero Cantor sets, "almost all" points means "none".
+We may now state the proof of this section's main result: Proof of Theorem 2.1
+Let Ē be the closure of E. Now Ē is a closed (hence measurable) and, by Lemma 1.2, efficient set.
+Take any x in Ē and let B(x,r) be the open ball with center x and radius r.
+Then, as U≡{y∈Rp:y≫x},L≡{y∈Rp:x≫y} and Ē are disjoint: μp(U∩B(x,r))=μp(L∩B(x,r))=12pμp(B(x,r)) which implies, in turn, that μp(Ē∩B(x,r))≤(1-22p)μp(B(x,r)).
+Thus, lim supr→0μp(Ē∩B(x,r))μp(B(x,r))≤2p-1-12p-1<1.
+There are therefore no points x in Ē at which ρĒ(x) exists and equals one, and this implies that μp(Ē)=0.1111
+Use of U alone yields the weaker bound of (2p-1)/2p<1, which still suffices for the result.
+ Since E⊂Ē, and Ē has measure zero, it follows from the completeness of Lebesgue's measure that E is measurable and has measure zero.□
+Candeal and Induráin (1994) derive a similar result by assuming measurability.
+Rather than requiring measurability of E, our result actually proves that E is measurable.
+In either case, the result is stronger than the familiar topological result that efficient sets have empty interior: a non-empty interior forces the existence of a ball of positive measure, so that measure zero sets are (weakly) subsets of those with empty interior; sets with empty interior but positive measure, like the Smith-Volterra-Cantor set, make the relation strict.1212
+Constructing a meager set-negligible, in the topological sense-with full measure on the unit interval is a standard exercise in analysis (q.v.
+Royden, 1988, Chapter 7, Ex. 33).
+As argued in the Introduction, finding that a set has Lebesgue measure zero for finite p is a challenge to find the correct dimension in which to measure the set.
+To make more precise observations about such a set, we need the notion of Hausdorff dimension, which we now introduce.
+Measuring thin and highly irregular sets
+Figs. 1 and 2 illustrated that Lebesgue measure fails to distinguish between very different null sets.
+Hausdorff noted that a measure zero result indicated that the right dimension for measurement had yet to be found, and defined a set of measures for real rather than just integer dimensions.
+Example 3.1
+Consider a disc D lying in the plane.
+Clearly D has positive, finite, two-dimensional measure, zero volume and, in any reasonable sense, infinite linear measure.
+Thus, denoting the measure in dimension t by Ht, we have H3(D)=0<H2(D)<+∞=H1(D).
+The construction of Hausdorff measures allows us to extend these ideas to all extended real, positive t.
+In this case we shall see that Ht(D)=+∞ when t<2, while Ht(D)=0 when t>2.
+We now construct the t-dimensional Hausdorff measure and apply it to efficient sets.1313
+See Mattila (1995) for a more thorough treatment of the theory of Hausdorff dimension.
+ A subset of Rp is said to be a δ-set, where δ>0, if its diameter, d(⋅) is at most δ.
+A δ-covering of E,C(E,δ), is a countable collection of δ-sets whose union covers E; we denote the class of δ-coverings of E by C(E,δ).
+If δ<ρ then C(E,δ)⊂C(E,ρ), so that infAi∈C(E,ρ)∑id(Ai)t≤infAi∈C(E,δ)∑id(Ai)t, and this guarantees that the limit (3.1)Ht(E)=limδ→0{infAi∈C(E,δ)∑id(Ai)t} exists.
+We call Ht(E), where t≥0, the t-dimensional Hausdorff (outer) measure of E.
+The Hausdorff p-dimensional measure Hp of a subset E of Rp is related to its Lebesgue measure μp by Hp(E)=Kpμp(E), where Kp is a (known) quantity which depends on p but not E. Thus, Hp(E)=0 if and only if μp(E)=0.
+The key facts about the t-dimensional Hausdorff outer measure of E are: 1.
+if Ht(E)<+∞ and s>t then Hs(E)=0, and
+2.
+if Ht(E)>0 and s<t then Hs(E)=+∞.
+ It follows that there is a unique non-negative number dim(E), called the Hausdorff dimension of E, Ht(E)={0if t>dim(E),+∞if 0≤t<dim(E).
+When t=dim(E), the value of Ht(E) can be anywhere in the closed extended interval [0,+∞].
+The Hausdorff dimension may be greater (but not smaller) than the topological dimension of a manifold.
+The two definitions agree for sufficiently smooth manifolds.
+The preceding allows us to state this section's main result, a counterpart to Theorem 2.1 which establishes the Hausdorff dimension of an efficient set: Theorem 3.2
+IfEis an efficient set inRp, thendim(E)≤p-1.
+The result that dim(E)≤p-1 is stronger than μp(E)=0 for it implies that Ht(E)=0 for all t with p-1<t≤p and not just for t=p.
+The rest of this section proves the above theorem, by means of the following steps.
+First, Lipschitz and bi-Lipschitz maps are defined; as they control sets' distortions, this allows presentation of a known theorem controlling sets' dimension under such mappings.
+In particular, a corollary determines their dimension relative to that of the unit sphere, S, in Rp.
+We then present a lemma that radially projects any bounded efficient set, Ei-possibly under a translation-onto the strictly positive orthant of the unit sphere, S∩R++p; this bounds dim(Ei)≤p-1.
+Finally, as any efficient set can be expressed as the countable union of the Ei, an existing result may be applied to bound dim(E)≤p-1, the theorem's result.
+Definition 3.3
+A map f:A→Rp, where A⊂Rp, is Lipschitz on A if there is a positive number K such that ‖f(x)-f(y)‖≤K‖x-y‖ for all x and y in A.
+The number K is called a Lipschitz constant for f.
+The map is bi-Lipschitz if both it and its inverse are Lipschitz, yielding two Lipschitz constants.
+Contraction mappings, for which K≤1 in the following definition, are the best known example of Lipschitz mappings within economics.
+The following result forms the basis of all our results on Hausdorff dimension.
+It follows directly from the fact that a δ-covering {Ai} of the set E is mapped by a Lipschitz map f, with Lipschitz constant K, to a Kδ-covering {f(Ai)} of the set f(E): Theorem 3.4
+Theorem 7.5, Mattila, 1995
+Suppose thatf:A→Rpis Lipschitz, whereA⊂Rp. Thendim(f(A))≤dim(A).
+An important corollary for us is: Corollary 3.5
+IfA⊂S, whereSis the unit sphere inRp, and if a LipschitzfmapsAintoRp, then(3.2)dim(f(A))≤dim(A)≤dim(S)=p-1.
+While the Hausdorff dimension of even simple sets may be difficult to compute (Falconer, 1990, Chapter 2), the Corollary's final equality is easily established.
+Since S is compact, given any positive r,S can be covered by a finite number of open balls B(xj,r) of radius r centered at xj.
+Let Tj be the tangent space of S at xj; this is (up to an isometry) Rp-1.
+If r is sufficiently small then each S∩B(xj,r) can be projected (parallel to the normal of Tj) onto a ball in Tj, and these projections are bi-Lipschitz.
+It follows from Theorem 3.4 (applied to each projection and its inverse) that for each xj,S∩B(xj,r) has dimension p-1; thus S, covered by a finite number of objects of dimension p-1 also has dimension p-1.
+The remaining two lemmas exploit our ability to express any efficient set E in terms of bounded efficient sets, which may be translated to lie within the strictly positive orthant.
+Lemma 3.6
+Suppose thatE++is a bounded, efficient subset ofR++p. Thendim(E++)≤p-1.
+We prove Lemma 3.6 by means of a radial projection, which we now construct.
+First, let x̄∗≡1p(1,1,…,1)∈Rp; this is in S∩R++p and let Ω={y∈Rp:y≫12x̄∗}.
+By Lemma 1.2, the translation of an efficient set is efficient; by Theorem 3.4 the translation (a degenerate bi-Lipschitz map) leaves unchanged the set's Hausdorff dimension.
+Thus, it suffices to prove Lemma 3.6 in the case when E++⊂Ω.
+Further, as E++ is bounded, there is a translation of it that lies in Ω and outside S, allowing: Lemma 3.7
+LetE++be an efficient set lying outsideSinΩ, so that its radial projectionE∗intoSlies inΩ.
+Then the inverse of the radial projection map,ψ:E∗→E++, is Lipschitz onE∗.
+The proof will use the following notation: given x∈E++, its radial projection onto S∩R++p is x∗=φ(x)=x/‖x‖; similarly, x=ψ(x∗)=‖x‖x∗ is the inverse image of x∗.
+Fig. 4 illustrates these points and mappings.1414
+The figure also includes the δ-coverings previously mentioned.
+An alternative strategy for deriving a set's Hausdorff dimension to that pursued here is as follows.
+Letting # denote a set's cardinality, if #C(E,δ)×δt is bounded by a finite constant as δ→0, then dim(E)=t.
+Proof of Lemma 3.7
+Suppose that u∗ and v∗ are in E∗, and let ru=‖u‖, and similarly for v.
+Then (3.3)‖ψ(u∗)-ψ(v∗)‖=‖u-v‖=‖ruu∗-rvv∗‖≤‖ruu∗-ruv∗‖+‖ruv∗-rvv∗‖=‖u‖‖u∗-v∗‖+|‖u‖-‖v‖|.
+As E++ is bounded, there is a positive number, K1, such that ‖u‖≤K1.
+So, finding a positive number, K2, such that |‖u‖-‖v‖|≤K2‖u∗-v∗‖, therefore establishes that ψ is Lipschitz.
+To find such a K2, notice that, for u∗ and v∗ in E∗, we have |ui∗vi∗-1|=|ui∗-vi∗|vi∗<2p‖u∗-v∗‖,i=1,…,p, with the inequality holding as v∗∈Ω, so that vi∗>12p for all i.
+Hence, for each i, ui∗vi∗<1+2p‖u∗-v∗‖.
+As v≫u is false, there is some j with uj≥vj, and hence uj∗‖u‖=uj≥vj=vj∗‖v‖.
+Thus (3.4)‖v‖‖u‖≤uj∗vj∗<1+2p‖u∗-v∗‖, so that (3.5)‖v‖<‖u‖+2p‖u‖‖u∗-v∗‖≤‖u‖+2pK1‖u∗-v∗‖.
+By symmetry between u and v, we also have (3.6)‖u‖<‖v‖+2pK1‖u∗-v∗‖; so that |‖u‖-‖v‖|<2pK1‖u∗-v∗‖, and, with K2=2pK1, the proof of Lemma 3.7 is complete.□
+As Lemma 3.7 has established the Lipschitz mapping between E∗ and E++, Corollary 3.5 then establishes Lemma 3.6, for efficient sets in R++p.
+We may therefore now return to this section's main theorem:
+Proof of Theorem 3.2
+Conclusion
+Any efficient set E⊂Rp may be expressed as the countable union of bounded subsets, Ei:E=∪i=1∞Ei.
+By Lemma 1.2, each of the Ei is also efficient.
+The lemma also allows translation of each Ei into R++p so that it satisfies the requirements of E++ in Lemma 3.7.
+Lemmas 3.6 and 3.7 then establish that dim(Ei)≤p-1.
+Finally, as dim∪i=1∞Ei=supidimEi (Mattila, 1995, p.59), the result holds for any efficient set in Rp.□
+Pillage games and stable sets
+We now present a non-trivial application of the above results, allowing us to establish both Jordan's conjecture that stable sets in pillage games have measure zero, and its more precise Hausdorff dimension interpretation.
+Pillage games are cooperative games whose dominance operators are representable by power functions, increasing functions of both a coalition's membership and its resource holdings.
+Thus, they model power contests independently of game forms (which may themselves be contested) while allowing externalities between coalitions both for (intrinsic) reasons and as a result of (extrinsic) resource holdings.
+They form an uncountable, open set of games, which typically take the two best known classes of cooperative games (those in characteristic and partition function form) as boundary points.
+Jordan (2006) introduced one-good pillage games; multi-good pillage games, as defined below, were introduced by Rowat (2009).
+Let there be m goods, each with unitary aggregate endowment, and a finite set I={1,…,n} of agents, where n≥2.
+Agent i ranks allocations according to a continuous, strictly convex, strongly monotone preference relation ≿i defined on R+m; denote strict preference by ≻i and indifference by ∼i.
+Agent i's allocation is xi=(x1i,…,xmi), where 0≤xji≤1 for each i and j.
+An allocation of the goods is a vector x=(x1,…,xn), and the set of allocations is A={(x1,…,xn):∑ix1i=⋯=∑ixmi=1,0≤xji≤1}⊂(Rm)n, which we identify in a natural way with a subset of Rmn.
+A coalition is any (possibly empty) set of agents (that is, a subset of I).
+A coalition's power is given by a power function: Definition 4.1
+A power function is a function π:2I×A→R which, for all subsets C and C′ of I, and all allocations x and y, satisfies (WC)
+if C′⊃C then π(C′,x)≥π(C,x);
+(WR)
+if yi≥xi when i∈C, then π(C,y)≥π(C,x);
+(SR)
+if C≠0̸, and yi>xi when i∈C, then π(C,y)>π(C,x).
+These axioms-weak coalitional monotonicity, weak resource monotonicity, and strict resource monotonicity-extend those in Jordan (2006) from the one good to the m-good environment.1515
+Axiom (WR) implies that π(0̸,x) is independent of x, and that, from (WC), this common value is the smallest value taken by π.
+This motivates the assumption that C≠0̸ in (SR).
+Yet π(C,x)=π(0̸,x) does not imply that C=0̸: under the wealth is power function, the leading example in Jordan (2006), a coalition's power is the aggregate quantity of the single good held by its members; if every i∈C holds zero quantities of the good, then π(C,x)=π(0̸,x).
+ Given allocations x and y, we let Cx≻y be the coalition of agents who strictly prefer x to y.1616
+In Jordan (2006), the sets Cx≻y and Cy≻x are identified as W and L.
+Definition 4.2
+An allocation ydominates an allocation x, written yx, if π(Cy≻x,x)>π(Cx≻y,x) or, equivalently, if the coalition who strictly prefers y to x has more power with allocation x than does the coalition who strictly prefers x to y.
+Definition 4.3
+Given allocations u and v, the associated balance of power locus is the set B(u,v)={x∈A:π(Cu≻v,x)=π(Cv≻u,x)}.
+When Cu≻v=Cv≻u=0̸,B(u,v)=A.
+The requirement that both Cu≻v and Cv≻u be empty is equivalent to ui∼ivi for all i∈I.
+The set of u and v satisfying this condition holds all agents to their indifference curves.
+Similarly, when Cu≻v≠0̸ but Cv≻u=0̸, a move from v to u is Pareto improving.
+As shall be seen in the proof of Theorem 4.7, this need not imply that uv.
+See Jordan (2006) for a motivation of stable sets as the appropriate solution concept:
+Definition 4.4
+A set S⊆A of allocations is 1.
+internally stable if no allocation in S dominates another allocation in S;
+2.
+externally stable if each y in A∖S is dominated by some x in S;
+3.
+stable if it is both internally and externally stable.
+The preceding and one more set of definitions will allow us to represent internally stable sets as subsets of more tractable objects: Definition 4.5
+B+(u,v)≡{x∈A:π(Cu≻v,x)>π(Cv≻u,x)};B-(u,v)≡{x∈A:π(Cu≻v,x)<π(Cv≻u,x)}=B+(v,u);B≡{B(u,v):u,v∈A;Cu≻v,Cv≻u≠0̸};B̄≡{B(u,v):u,v∈A;Cu≻v∪Cv≻u≠0̸}.
+ Thus, B is the set of balance of power loci, excluding those generated when at least one of Cu≻v or Cv≻u is empty; its cardinality is 3n-2n+1+1 (Kerber and Rowat, 2011).
+Similarly, B̄ is the set of balance of power loci for which no more than one of Cu≻v and Cv≻u is non-empty; its cardinality is 3n-1.
+It follows that no two allocations in an internally stable set can lie on the same side of the balance of power locus that they induce: Lemma 4.6
+An internally stable set cannot contain two allocations,u,v∈A, such that eitheru,v∈B+(u,v)oru,v∈B-(u,v)for someB(u,v)inB̄.
+Proof
+Suppose that a stable set S contains two allocations u and v that are in B+(u,v).
+Then, by definition, π(Cu≻v,v)>π(Cv≻u,v), so that u dominates v.
+This is impossible, since u and v are in S, and S is stable.
+Similarly, S cannot contain two allocations u and v that are in B+(v,u), which is B-(u,v).□
+In the one-good world, the lemma implies the basis for the result that stable sets are finite (Jordan, 2006): no stable set can contain a sequence of four allocations, x1,…,x4 over which one coalition of agents always prefers xk+1 to xk and an opposing, disjoint coalition always prefers the reverse.
+This allows us to establish the representation of an internally stable set: Theorem 4.7
+Any internally stable set,S, is a subset of the union of a finite number of each of: balance of power loci, isolated allocations, and allocations over which all agents are indifferent.
+Proof
+Index the balance of power loci in B̄ by j=1,…,‖B̄‖.
+Any x∈A may be located relative to the balance of power locus induced by uj,vj as follows: x∈{B-(uj,vj)B(uj,vj)B+(uj,vj)}⇒βj(x)={-101}.
+Case 1: if βj(x)=0 for some x in S and j in {1,…,‖B̄‖}, then x belongs to one of the 3n-1 balance of power loci in B̄, consistent with the theorem.
+Case 2: now consider those x in S for which βj(x)≠0 for all j in {1,…,‖B̄‖}.
+Thus, (β1(x),…,βB̄(x)) takes on one of 23n-1 values, a finite number.
+By Lemma 4.6, there cannot also be a y in S such that βj(y)=βj(x) for all j in {1,…,‖B̄‖}; were there, one of x and y would dominate the other, violating internal stability.
+Thus, there are at most 23n-1 allocations that do not lie on one of the balance of power loci in B̄, consistent with the theorem.
+Case 3: the last case to consider is that when x and y in S are such that both the sets Cx≻y and Cy≻x are empty.
+In this case, x∼iy for all i in I, the indifference loci in the theorem's statement.
+Suppose that there exists a second pair, x′ and y′ in S, such that x′∼iy′ for all i in I.
+To show that only finitely many such indifference intersections arise, consider two further subcases:
+Case 3a: if x∼ix′∼iy′∼iy for all i in I then x′ and y′ lie on the same intersection of indifference loci, consistent with the theorem.
+Case 3b: otherwise, without loss of generality, there exists at least one agent i in I for whom x≁ix′, so that at least one of Cx≻x′ and Cx′≻x is non-empty.
+Then, for each of x and x′, if there exists a j in {1,…,‖B̄‖} such that βj(x) or βj(x′) equals zero, case 1, above, applies.
+Otherwise case 2 applies, and we are done.□
+Thus, Jordan's conjecture can be settled if the elements identified by the theorem can be bounded: the isolated allocations, as countable sets, have measure and dimension zero; Theorems 2.1 and 3.2 bound the indifferent allocations; the balance of power loci have not yet been bounded.
+Before bounding them, thus settling the conjecture, note that they belong to a measure zero subset of allocation space, A⊂Rmn, but the natural domain of Jordan's conjecture is what we shall define as Edgeworth space, E⊂Rm(n-1).
+As these two spaces are different, Theorems 2.1 and 3.2 cannot be immediately applied to bound balance of power loci.
+We therefore first show that E can be identified with A in such a way that null sets in one of these spaces correspond to null sets in the other.
+Before proceeding, we fix concepts in the familiar two-good two-agent Edgeworth box.
+Here the allocation space lies in R4, but the Edgeworth box lies in R2.
+It was Pareto (1906) who made the appealing geometric observation that each point in the unit square [0,1]2 in R2 represents the allocation to the first agent, and the co-ordinates of this same point relative to a new origin taken at (1,1) (and all co-ordinate directions reversed) give the allocation to the second agent.
+The essential feature is that the Edgeworth box lies in a lower dimensional space than does the set of allocations.
+To proceed beyond this dominant case, consider the special case in which a unit endowment of a single good is shared between the agents in I.
+Then the allocation space reduces to (4.1)A1={(x1,…,xn)∈Rn:xj≥0,x1+⋯+xn=1}, where xj is the allocation to agent j.
+As xn is completely determined by the other allocations via xn=1-(x1+⋯+xn-1), it is sufficient to consider the corresponding Edgeworth space(4.2)E1={(x1,…,xn-1)∈Rn-1:x1,…,xn-1≥0,x1+⋯+xn-1≤1}.
+Thus E1⊂Rn-1 whereas A1⊂Rn.
+However, it is convenient to embed Rn-1 in Rn by identifying it with the subset {xn=0}, yielding E1={(x1,…,xn-1,0)∈Rn:x1,…,xn-1≥0,x1+⋯+xn-1≤1}.
+In these circumstances, the Edgeworth map, E, is the vertical projection map of Rn onto Rn-1×{0} given by E(x1,…,xn)=(x1,…,xn-1,0).
+Thus, E maps A1 bijectively onto E1.
+The case of n=3 is illustrated in Fig. 5.
+In this case, A1 is the triangle in R3 with vertices (1,0,0),(0,1,0) and (0,0,1), and E1 is the triangle in R2 with vertices (0,0),(0,1) and (1,0).
+If we identify E1 with a subset of the plane x3=0, then we can regard E1 as the triangle in R3 with vertices (0,0,0),(0,1,0) and (1,0,0), and A1 projects vertically downwards onto E1.
+This reasoning extends to the case of n agents and m goods, each with unit aggregate.
+The allocation and Edgeworth spaces are now the spaces (4.3)A≡A1×⋯×A1⊂Rmn,E≡E1×⋯×E1⊂Rm(n-1), respectively, where each product has m factors.
+As above, we can identify E with a subset of Rmn in which n of the co-ordinates are zero.
+Then: Definition 4.8
+The Edgeworth mapE of A onto E is the map obtained by applying the map E to each factor of A.
+Theorem 4.9
+The Edgeworth mapEofAontoEsatisfies(4.4)‖E(x)-E(y)‖≤‖x-y‖≤2mn‖E(x)-E(y)‖.
+Proof
+Since E(x1,…,xm)=((x1,1,…,x1,n-1),…,(xm,1,…,xm,n-1));(x1,…,xm)=((x1,1,…,x1,n-1,x1,n),…,(xm,1,…,xm,n-1,xm,n)); the first inequality in (4.4) is clear.
+To verify the second inequality, recall that xj,n=1-(xj,1+⋯+xj,n-1).
+Further, for all u and v in Rp,‖u-v‖1≤p‖u-v‖≤p‖u-v‖1, where ‖⋅‖1 is the taxicab metric, ‖u-v‖1≡∑j=1p|uj-vj|.
+Thus, ‖x-y‖≡∑j=1m∑i=1n(xj,i-yj,i)2≤‖x-y‖1≡∑j=1m∑i=1n|xj,i-yj,i|=‖E(x)-E(y)‖1+∑j=1m|xj,n-yj,n|≤‖E(x)-E(y)‖1+∑j=1m∑i=1n-1|xj,i-yj,i|=2‖E(x)-E(y)‖1≤2mn‖E(x)-E(y)‖.□
+The theorem thus establishes that the Edgeworth map E is bi-Lipschitz, so that null sets in A correspond to null sets in E, and conversely.
+We may now resolve the question of bounding balance of power loci: Lemma 4.10
+GivenuandvinA, the balance of power locusB(u,v)hasm(n-1)-dimensional measure zero.
+Even with Theorem 4.9, Theorem 2.1 cannot yet be directly applied as the aggregate endowment constraint prevents x≫y for any allocations x and y.
+The proof therefore relies on a measure-preserving orthogonal map. Proof
+Take three allocations u,v and x in A⊂Rmn with x=(x1,…,xn) such that xi=(x1i,…,xmi)∈Rm.
+Now define a map σ:Rmn→Rmn by σ(x1,…,xn:u,v)≡(xˆ1,…,xˆn), where xˆi≡{xiif i∈Cv≻u-xiif i∉Cv≻u.
+Obviously σ depends parametrically on u and v; for simplicity, we omit this dependence in the notation.
+We now establish that σ(B(u,v)) is an efficient set in Rmn (although not in the positive orthant).
+Were it otherwise, there would exist allocations x and y in B(u,v) such that σ(x)≫σ(y).
+In turn, as this sets xi≫yi for all i∈Cv≻u and yi≫xi for all other agents, SR implies (4.5)π(Cv≻u,x)>π(Cv≻u,y)=π(Cu≻v,y)>π(Cu≻v,x); so that x∉B(u,v), a contradiction proving that σ(B(u,v)) is an efficient set.
+By Theorem 2.1, μmn(σ(B(u,v)))=0.
+By Theorem 4.9, its projection into the Edgeworth space is also null, μm(n-1)(E(σ(B(u,v))))=0.
+As σ is an orthogonal map, it preserves Euclidean distances, and therefore measures.
+This completes the proof.□
+The preceding establishes Jordan's conjecture: Theorem 4.11
+A stable set,SinAhasm(n-1)-dimensional measure zero.
+Appealing to Theorem 3.2 instead of Theorem 2.1 bounds the Hausdorff dimension of balance of power loci, establishing a stronger and more natural interpretation of Jordan's conjecture: Theorem 4.12
+A stable set,S, inAhas dimension less than or equal tom(n-1)-1.
+We conclude by illustrating the preceding arguments in a two-good, two-agent Edgeworth box, depicted in Fig. 6.
+The power function is an extension of Jordan's wealth is power function, πW(C,x)≡∑i∈C[αx1i+(1-α)x2i] for some α∈(0,1).1717
+See Rowat (2009) for a more detailed presentation.
+The power function depicted sets α>12.
+ The dashed line denotes the balance of power locus, B(t1,t2), where ti is agent i's tyrannical allocation, granting it the whole endowment.
+By SR, agent 1 is strictly more powerful than agent 2 for allocations to its northeast, and vice versa.
+The indifference curve for each agent tangent to the balance of power locus is labeled as ∼i.
+The interval of allocations lying between the two tangencies forms an internally stable set as, for any x and y along that locus, agents 1 and 2 are opposed in interests, but equally powerful.
+Adding {t1,t2} to this set leaves it internally stable, while making it externally stable as well.
+Consistent with Theorem 4.7, it is a subset of a balance of power locus, B(t1,t2), and the isolated tyrannical allocations; it has zero area, and is a curve of Hausdorff dimension one, a stronger claim.
+This example illustrates both the finite bound on stable sets in the one-good world (Jordan, 2006), and how it must be modified for multiple goods.
+Simulate a single good by considering only allocations ordered by ≫ for agent i.
+Then, an internally stable set may contain a sequence of three allocations, t11≫y1≫t12, where y∈B(t1,t2) lies between the tangencies; Lemma 4.6 prevents addition of a fourth ordered allocation to a stable set.
+However, with two goods, an internally stable, infinite sequence xk for k=1,… such that agent 1 prefers each xk+1 to each xk, and agent 2 the reverse, can be constructed by using allocations in the interval of the balance of power locus.
+Intuitively, multiple goods break the monotonicity in Jordan (2006) between utility and power, maintaining stability by holding the middle allocation of Jordan's sequence fixed in power space, while 'stretching' it in utility space.
+

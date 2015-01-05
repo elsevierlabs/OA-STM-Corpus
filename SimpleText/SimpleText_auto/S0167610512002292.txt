@@ -1,0 +1,250 @@
+An investigation of plate-type windborne debris flight using coupled CFD-RBD models.
+Part II: Free and constrained flight
+
+Abstract
+A coupled Computational Fluid Dynamics-Rigid Body Dynamics (CFD-RBD) model is presented, which is capable of modelling the 3D flight of plate-type windborne debris.
+The RBD model is based on rotational quaternions, which means that complex spinning modes of flight can be modelled accurately and robustly.
+For debris that is free to fly in the absence of obstructions, it is shown that, depending on the initial plate orientation, a number of distinct flight modes are observed.
+When the plate is aligned at right angles to the flow, the flight mode depends critically on the initial angle of attack.
+The plate may wobble or flutter as it flies, never completing a full rotation, or it may enter an autorotational flight mode.
+Depending on the direction of rotation, the plate is capable of flying faster than the wind.
+It does this by converting some of its potential energy into rotational energy.
+The rotation of the plate causes the forces acting on the plate to further accelerate or decelerate it, depending on the rotation direction.
+When the plate is not aligned at right angles to the flow, the plate always enters a complex 3D spinning mode, with significant crosswind motion, which is absent when the plate is aligned at right angles to the flow.
+This spinning mode is more typical of plates flying in real wind storms.
+In addition, using a porous region to represent a simple double-eaved building, plates are launched from the roof and their trajectory is simulated.
+The complex flow fields around the building result in more realistic plate trajectories.
+For this particular scenario, large suctions on the windward slope of the roof produce large amounts of lift in the plates released from that position, causing them to fly well above the building, never entering the wake of the building.
+Highlights
+► We use CFD coupled to Rigid Body Dynamics to study the flight of windborne debris.
+► Different modes of flight are identifiable, dependent on the initial orientation.
+► Some debris flies faster than the wind as potential energy is converted to kinetic.
+► Plates are shown launched from the roof of a typical building.
+► The predicted flights compare well with limited experimental observations.
+
+Introduction
+This paper is a companion to Part I (Kakimpa et al., in press), in which a robust, coupled CFD-RBD (Computational Fluid Dynamics-Rigid Body Dynamics) model is developed.
+The model is shown to be capable of predicting the unconstrained free flight of plate-type debris.
+The present paper takes that model and applies it to two cases.
+Firstly, the model has been used to investigate the influence of the plate's initial orientation, Tachikawa number, mass moment of inertia and geometric parameters, such as thickness-ratio and aspect-ratio, on the trajectory of the plate.
+This first case will be referred to as the "Free flight Simulations".
+Secondly, the model has been applied to debris that is launched from the building envelope and whose subsequent flight is influenced by the flow field in the locale of the building.
+This second case will be referred to as "complex launch conditions".
+The Introduction of Part I describes the rationale behind the need for better understanding of the flow processes that occur during the flight of wind borne debris.
+Here, we concern ourselves with a review of the literature appropriate to these complex launch conditions.
+Damage assessment reports of extreme windstorms in the UK, such as the Birmingham Tornado in 2005 (Marshall and Robinson, 2006) have revealed a definitive link between damage to downstream property and windborne debris generated from upstream structures.
+This pattern, illustrated in Fig. 1 is referred to as the debris damage chain (Minor and Beason, 1976; Holmes, 2010).
+With reference to the upwind building in Figs.
+1 and 2 shows the sequence of roof failure.
+A large suction at the upwind eave of the gable roof produces partial lift-off of tiles.
+Lift off then continues as the wind gets under the roof, creating a positive pressure which assists the suction on the outside of the roof.
+Two possibilities then occur: the peeling off of tiles across the roof or the entire roof structure being blown off.
+Later, Lin et al. (2006) extended the early work by Holmes (2004) on compact debris to plate-type debris.
+Model experiments and full-scale tests on plates were conducted and the plate's mode of motion was observed, together with measurements of plate trajectory, and velocities, all of which are affected by the wind field, model characteristics, and initial support configuration.
+More significantly, however, further experimental studies have recently been performed, mainly focused on investigating the effects of atmospheric turbulence and complex launch conditions on debris flight.
+Visscher and Kopp (2007), Kordi et al. (2010) and Kordi and Kopp (2011) have recently undertaken pioneering experimental work involving a destructive wind tunnel modelling approach that more realistically represents the unsteady force coefficients on the plate which change dramatically as the panel lifts off of the roof, leaving a hole beneath.
+The experiments also included a simulated turbulent atmospheric boundary layer.
+This work has provided some insights into the influence of initial conditions (i.e. the fixing conditions and complex flow environment around the plate initially mounted on a roof) and flow turbulence to the mechanics of plate flight.
+Visscher and Kopp (2007) studied a 1:20 scale, aero-elastic "failure" model of a roof panel on a scaled house in a scaled, open country, turbulent boundary layer.
+The panel was held on the roof of the house with electromagnets which applied a restraining force.
+For similar initial conditions, Visscher and Kopp (2007) observed different modes of flight including translational, autorotational and intermediate modes.
+The translational mode was observed 75% of the time, while the autorotational mode was observed 25% of the time.
+Translational trajectories were found to have a short range with less scatter, resulting in less dispersion in the landing location, while autorotational trajectories were far more variable in landing location.
+An initial overturning failure was observed for every test although the results were noted to be dependent on hold down strength, panel mass and size as well as the angle of attack of the wind and the house geometry.
+Visscher and Kopp (2007) suggest that the effects of variability of the flow field on the resulting aero-dynamic normal forces play a critical role in determining the flight mode and this is probably most significant during the initial overturning and the first few moments thereafter.
+They conclude that the sensitivity to particular flight conditions appears to be greater even than indicated by Baker (2007) when actual panel failures are considered.
+Visscher and Kopp (2007) also found the speed at which sheathing panels fly to be a fraction of the mean wind speed and was calculated as 0.60 with standard deviation of 0.08 for the translational mode, and 0.70 with standard deviation of 0.12 for the autorotational mode for the particular panel, wind angle, roof location and hold-down force examined.
+Kordi et al. (2010) and then Kordi and Kopp (2011) applied the same failure model approach to investigate the effect of varying wind direction, debris properties and the surrounding neighbourhood structures.
+They observed that with oblique wind approach angles relative to the roof ridge, complex 3D spinning was the most dominant mode of flight and that the mode of flight was dependent on the approaching wind direction.
+Comparisons with the theoretical asymptotic limit from analytical models revealed conflicting results for different debris types with shingles flying close to the theoretical asymptotic limit speed while tiles did not.
+The present work is broken down into the aforementioned sections the first dealing with free flight, the second with complex launch conditions.
+Free flight simulations-sensitivity to initial orientation
+CFD model and cases
+The setup of the CFD model is described in detail in Section 3, Part I (Kakimpa et al., in press), which includes a detailed description of the CFD-RBD coupling.
+In the first series of 36 simulations (hereafter Batch 1) the plates were held at initial angles of attack in the vertical XY plane, αz=90°-ψ, ranging from -85° to 90° at intervals of 5° (Fig. 3).
+Notice an increase in ωz corresponds to an increase in ψ and is of an opposite sense to the angle of attack.
+The plates were held normal to the flow in the horizontal XZ plane for these simulations.
+A second series of 41 simulations (hereafter Batch 2) were performed with the plate rotated at 15° intervals about the Z-axis and the Y-axis such that its initial orientation is no longer normal to the flow.
+In these cases, an initial orientation, ψ, about the Z-axis is applied, followed by a second rotation θ about the Y-axis.
+These two rotations would correspond to a pitch followed by a yaw of the plate.
+Debris flight modes
+Batch 1 simulations resulted in no significant lateral crosswind motion even though plates were free to translate and rotate in the crosswind direction.
+The debris trajectories for Batch 1 cases can be categorised into three distinct modes of flight; Flutter, Transitional and Autorotational.
+Fig. 4 illustrates the corresponding modes observed for various initial angles of attack.
+The asymmetry of mode behaviour about αz=90° initial orientation is attributed in part to the contribution of the plate's vertical velocity, which affects the effective angle of attack.
+In the discussion of the various flight modes that follows, several figures are presented which contain the non-dimension parameters: the horizontal non-dimensional distance, Kx⋆=Kxg/U2 and the non-dimensional time, Kt⋆=Ktg/U.
+The coordinates x, y and z used in these non-dimensional variables are in the fixed inertial reference frame (i.e. in the global coordinate system of the CFD domain)-they are not in the plate's local reference frame.
+Flutter11
+Andersen et al. (2005) used the term "fluttering" to describe the motion of free-falling plates and the mechanism described here has similar traits.
+ is mainly translational and is observed for plates with an initial angle of attack in the range 70°<αz<95°.
+As shown in Fig. 5(a), the rotational motion of fluttering plates is characterised by oscillations between positive and negative values of ω¯z.
+Values of ω¯z generally remain within the range ω¯z<|ω¯o|, where ω¯o is the stable autorotational speed, which for a plate with the mass and inertia under consideration here is approximately 1.0 as shown by the dotted lines in Fig. 5.
+Kordi et al. (2010) called this mode "translational", but flutter is considered more descriptive.
+This value of ω¯o is higher than the CFD-RBD and experimental fit predictions of ω¯o≈0.70 for a fixed-axis autorotating plate of similar dimensions (Kakimpa et al., 2010; Martinez-Vazquez et al., 2010).
+This may be attributed in part to the additional non-linear effects due to the presence of periodic fluctuations in the magnitude and direction of the mean wind speed relative the plate in the free-flight cases, while in the fixed-axis autorotational simulations the mean wind speed is kept constant.
+The amplitude of ω¯z increases from one cycle to the next for fluttering plates, and given a long enough flight duration, plates in the flutter mode would eventually reach ω¯z≈ω¯o and transition into stable autorotation.
+Transitional behaviour is observed for plates with an initial angle of attack in the range 45°<αz<70° or 95°<αz<140°.
+These transitional mode plates initially exhibit oscillations between positive and negative values of ω¯ but eventually enter into stable autorotation when ω¯z≈ω¯o as shown in Fig. 5(b).
+Based on the results from fluttering and transitional plates, it might be postulated that provided the flight duration is long enough and the mass moment of inertia of the plate is sufficiently large to allow plate autorotation, a free-flying plate will enter into autorotation at a stable value of ω¯o, regardless of the initial orientation.
+Plate geometry and mass moment of inertia are therefore crucial parameters in determining whether plate autorotation occurs.
+However, the rotational direction and time required to reach stable autorotation are found to be strongly dependent on the initial orientation of the plate.
+It could be argued that flutter and transitional plates are essentially the same classification.
+For the proposed classification to make sense, the flight time is crucial-if the plate enters an autorotational state (for even a single rotation) before it lands, then it can be termed transitional.
+This assumes that it has undergone at least one reversal of its rotational direction before autorotation sets in.
+Autorotational flight occurs for -35°<αz<45°.
+Plates rotate with either positive or negative angular velocities from the start, with no change in rotational direction during the simulation, and quickly reach the stable autorotational speed, ω¯o, as shown in Fig. 5(c).
+The plate's rotational direction is strongly influenced by initial orientation, with plates having an initial orientation in the range -35°<αz<0° exhibiting ω¯z>0 while plates with initial orientation 0°<αz<45° have ω¯z<0, where the positive sense of rotation is shown in Fig. 3.
+It should be noted, however, that due to the high initial positive lift experienced by plates with initial angle of attack, αz>0°, in contrast to the negative lift experienced by plates with initial angle, αz<0°, the plates with a positive initial angle of attack are observed to fly further, Fig. 6(c), for the flight durations considered.
+This is despite having a lower horizontal velocity, u¯=u/Uw, as can be seen in Fig. 7(c).
+It can be seen from the slopes of the lines in Fig. 6(c), that plates with negative initial angle of attack would in fact catch up with the positive initial angle of attack plates and subsequently fly further, if released from a higher point above the ground.
+In all three modes, the terminal vertical velocity of the plate is found to be relatively independent of initial orientation.
+The horizontal velocity is however strongly influenced by the rotational direction of the plate.
+Plates with a terminal ω¯z>0 fly with u¯>1, while plates with terminal ω¯z<0 exhibit u¯<1.
+Plates in the transitional flight mode with an unstable ω¯z of zero mean, Fig. 5(b), exhibit an oscillating u¯ with values close to 1.0, as shown in Fig. 7(b).
+These CFD-RBD results reveal that existing assumptions, in some models, that u¯ has an asymptotic limit of 1.0 are in fact incorrect and need to be re-evaluated.
+Kordi and Kopp (2009) have identified that the limit may be above or below 1, depending on the sense of rotation.
+This coupling between the rotational direction and the terminal plate horizontal speed can be explained by the presence of autorotational drag, lift and torque.
+Depending on the direction of rotation, the autorotational drag will either act to accelerate or decelerate the plate.
+Consider the case of a plate that has quickly accelerated to a terminal vertical velocity and a stable horizontal velocity and has settled into its stable flight stage.
+In this stage, the plate exhibits fluid-structure interaction (FSI) effects equivalent to a fixed-axis plate autorotation.
+Fig. 8 shows the 10s-1 isosurface of Q-criterion for such a fixed-axis plate undergoing autorotation.
+The Q-criterion was proposed by Hunt et al. (1988) as means by which vortices could be identified more easily and is defined as(1)Q=12(|Ω|2-|S|2),where a vortex is identified as a region where Q>0, characterised when the vorticity tensor, Ω is more prominent than the flow shear, represented by the strain-rate tensor, S. For the fixed-axis autorotating plate of Fig. 8, vortex shedding is observed from the retreating and advancing edges, as well as the side edges during each rotation.
+Fig. 9 shows contours of Q-criterion for a flying, stably autorotating (in the anti-clockwise or positive ωz sense) plate as a vortex detaches from the advancing edge (see Fig. 3 for a definition).
+The plate is flying and the images are cropped such that the right-hand edge of (a) and (b) corresponds to the centre of (c) and (d), which in turn corresponds with the left-hand edge of (e) and (f).
+As the plate falls away to the lower right of the plots, the vortex is left behind.
+Clearly this differs from the fixed-axis autorotating case, but if the relative velocity of the plate to the air is taken into account, there are distinct similarities.
+For a plate autorotating in the opposite direction, Fig. 10, a different pattern of vortex shedding is seen from the retreating edge in this case.
+It is suggested that fixed-axis autorotation is a sufficient qualitative representation of plate behaviour in the stable, autorotating flight stage.
+Further, it would be expected that quasi-steady force models might be expected to perform well during this part of the flight (indeed evidence is presented in Part I that endorses this view).
+We may decompose the flow field into a vertical wind component flow associated with the relative downward motion between the plate and the surrounding air, and a horizontal wind flow component due to the mean horizontal relative wind speed.
+The mean force in the X-direction, FX, and the mean force in the Y-direction, FY, over a rotational cycle may then also be decomposed into components due to the horizontal and vertical wind speeds, as illustrated in Fig. 11.
+For the plate shown with counter-clockwise (positive) rotational speed, the horizontal and vertical forces acting on the plate over a rotational cycle are(2)FX=DH+LV,(3)FY=DV-LH-mg,where DH and LH are respectively the drag and lift forces acting on the plate due to the relative horizontal wind speed, Uw-up, and DV and LV are the drag and lift forces acting on the plate due to the relative vertical wind speed, -vp.
+Let us start at the non-dimensional time, Kt⁎≈1.0, when most plates, regardless of their sense of rotation, have reached their peak vertical speeds, whether positive or negative, and have similar horizontal speeds u¯≈0.4, as shown in Fig. 7(c).
+For counter-clockwise rotating plates, since DH and LV both act to accelerate the plate, it will continue to accelerate beyond up≈0.8Uw, until up≈Uw, implying a zero relative horizontal component of wind speed.
+Note that up is the instantaneous horizontal component of the plate's velocity.
+At this point, which occurs at Kt⁎≈3.0, the drag and lift forces due to the relative horizontal wind speed become zero, DH=LH=0.
+However, a significant horizontal accelerating force, FX=LV is still present because the plate is falling.
+This continues to drive the horizontal velocity of the plate such that up>Uw (i.e. u¯>1.0).
+As up continues to increase beyond Uw, the horizontal component of relative wind speed becomes reversed and consequently, the drag and lift forces associated with this negative relative wind speed are also reversed.
+There comes a point, Kt⁎≈6.0, where, on average, the drag force due to the over-speeding in the horizontal direction, DH, equates in magnitude, but is opposite in direction, to the lift force, LV, which is acting on the plate due its fall.
+For those plates rotating in the counter-clockwise sense, the vertical velocity, v¯, will initially decrease in magnitude from its peak negative value to reach a mean vertical velocity of u¯≈-0.25 at Kt⁎≈6.
+For plates rotating in the clockwise direction, the components of lift, LH and LV are reversed in direction.
+The drag due to the autorotating plate is independent of the sense of rotation, the lift is not.
+The same arguments as those above hold, except that the lift force due to the vertical component of the falling plate serves to keep the mean horizontal velocity, v¯<1.0, as seen in Fig. 7(c).
+In summary, the terminal vertical and horizontal speeds of the plate are therefore thought to be controlled by the autorotational drag and lift associated with the non-linear interaction between the plate and the flow.
+As a result of this interaction, a rotating plate is able to convert some of its gravitational potential energy into lateral kinetic energy and depending on the direction of rotation, this will result in plates exhibiting terminal horizontal wind speeds higher than the mean wind speed or consistently lower than the mean wind speed.
+Complex 3D spinning is the final mode and this was observed for plates in Batch 2 only.
+As a result of the plate's non-zero yaw, side-force and torque are generated resulting in significant horizontal cross-wind motion and complex 3D free-axis autorotation.
+Fig. 12 illustrates the broad range of resulting debris trajectories observed for Batch 2 plates.
+The figure demonstrates both the considerable spread of trajectories and the fact that some of the plates cross the centreline several times.
+Terminal horizontal and vertical speeds, u¯, and v¯, are in the same range as the Batch 1 modes.
+In addition, complex 3D spinning mode plates exhibit non-zero horizontal cross-wind velocity components as well as rotations about the X-axis and vertical Y-axis.
+This flight mode has been identified by Kordi and Kopp (2009) as the most common flight mode based on observations of wind tunnel trajectories.
+The CFD-RBD model has been shown to both qualitatively and quantitatively reproduce the four major flight modes observed experimentally by Kordi and Kopp (2009, 2011) in their destructive wind tunnel studies.
+Fig. 13 shows instantaneous snapshots of a plate in each of the four flight modes.
+Parametric studies
+As described earlier, Tachikawa (1983) showed that debris trajectories are sensitive to the properties of the flow and the plate, not just its initial orientation.
+In this section, the sensitivity of plate's motion to the Tachikawa number, the dimensionless mass moment of inertia parameter, the thickness ratio and aspect ratio are studied.
+In order to achieve this, an additional 35 simulations are presented.
+The cases are sub-divided into seven "Batches", A to G, depending on the initial orientation and expected flight as shown in Table 1.
+Cases A and D are autorotational mode, case B transitional mode, case C flutter mode, while cases labeled E, F and G are expected to enter into a complex 3D spinning mode.
+Within each Batch, five Cases were run.
+A description of the parameters associated with each of the cases is presented in Table 2.
+By combining the two tables, Case A3, for example, corresponds to an autorotational mode in a wind speed of 15.0m/s.
+Sensitivity to the Tachikawa number
+Tachikawa (1983) presented a non-dimensionalised formulation of the debris flight equations, which showed that plate type debris was controlled by a number of dimensionless parameters.
+Chief among these was the ratio of aerodynamic force to gravitational force, K=ρUw2A2mg,where ρ is the density of air, Uw is the mean wind speed, A is the area of the plate, m is the mass of the plate and g is the acceleration due to gravity.
+Later, the parameter K was called the Tachikawa number in recognition of this pioneering work (Holmes et al., 2006).
+In addition, Tachikawa used a Froude number, Fr=UwgL,and a dimensionless mass moment of inertia parameter, Δ=mL2I,where L is the characteristic length of the plate and I is the mass moment of inertia.
+To study the sensitivity to the Tachikawa number, K, within each case group, wind speeds 20.0m/s, 17.5m/s and 15.0m/s, were run.
+For example, cases D1, D2 and D3 correspond to Tachikawa numbers of 8.325, 6.374 and 4.683 for plates that were expected to enter the autorotational flight mode.
+As shown in Fig. 14(a), (c) and (e), with increasing K, plates are observed to fly further due to the greater influence of aerodynamic forces relative to gravitational forces.
+Even when non-dimensionalised using K and when using a relatively small range of variation in Tachikawa number, the variation in mean trajectory is still evident.
+The direct implication of this is that although K is shown to be an adequate parameterisation of debris flight range, the validity of fit expressions for Kx⁎ and Ky⁎, such as those quoted in Lin et al. (2006) is questionable.
+Although such expressions have become incorporated into debris risk models (Lin and Vanmarcke, 2010), they are clearly not valid when the Tachikawa number differs from the range for which they are derived.
+It was also found that the terminal horizontal, vertical and rotational speeds were independent of K.
+As a result, fit expressions for u¯ may be expected to remain valid over a range of K.
+In addition, the lateral cross-wind velocity component in the 3D spinning mode cases is found to be sensitive to K.
+As a result, a significant difference in the overall lateral dispersion of trajectories is therefore observed, Fig. 14(b), (d), (f), although a distinctive trend is difficult to identify with such limited data.
+Sensitivity to plate properties
+For each of the 7 initial orientations, a case, numbered 4 in Table 2, was run using a 0.563m square plate of thickness 0.025m.
+The density of the plate was adjusted to ensure that at the mean horizontal wind flow, the Tachikawa number, K and Froude number Fr are the same as in the number 1 cases.
+The result is two sets of cases, A1 to G1 and A4 to G4, with the same set of initial orientations, aspect ratio and flow parameter but considerably lower thickness ratio, τ=t/L, and non-dimensionalised mass moment of inertia about the Z-axis, Δzz, in the A4 to G4 cases.
+Similarly a fifth case, numbered 5 in Table 2 is run for each initial orientation, and the plate's K, FrL, τ and Δzz are kept constant relative to cases numbered 4, but the width of the plate, B is increased to give a higher aspect ratio.
+For plates of same B/L, K, and initial angle of attack, different flight modes may be observed due to changes in Δzz and τ.
+For instance, consider case F1 which has a plate of mass, m=3.0kg and Izz=0.25kgm2, and case F4 which has a plate of mass 0.534kg and Izz=0.014kgm2.
+The results for these two cases are shown in Fig. 15(a) and (b) and reveal that the plate changes from a flutter mode of flight for F4, to an autorotational mode of flight for F1.
+The thickness ratio, τ, clearly affects the flight mode observed in this instance, which also results in a change in the cross-wind motion of debris for these complex 3D spinning cases.
+The effects, however, are not as clear for other cases.
+The cross-wind dispersion was also found to be highly sensitive to aspect ratio, B/L.
+A much greater dispersion is observed in both the cross-wind directions with increasing aspect ratio.
+Aspect ratio also had an effect on the observed flight modes, with none of the plates exhibiting the flutter mode at higher aspect ratios.
+Incorporating complex launch conditions
+According to Kordi et al. (2010), the common quasi-steady approach to windborne debris flight neglects two important facts:(i)
+windborne debris initiating from a real roof is affected by the building aerodynamics and the local velocities on the roof and in the wake, and
+(ii)
+the debris flies in the turbulent wind defined by both the terrain and the gust structure causing failure.
+CFD-RBD models offer an additional tool for the study of these effects because of their ability to simulate these complex flow fields around buildings as well as the non-linear interaction between debris and this flow.
+To this end, the CFD-RBD model was extended to include the complex velocity fields around a building.
+A low rise residential building was introduced into a cuboid domain (Fig. 16).
+A square flat plate of side L=0.5m and thickness t=0.0125m is initially held static at the eaves of the building, as shown in Fig. 16 and then subsequently released into the flow and transported downstream.
+The building has a square plan, with side 12L, an eaves height of 6L and a double-pitched roof with a 20° slope, giving a ridge height of approximately 8L.
+The computational domain has dimensions 75L×26L×40L.
+This domain size is not constructed with the recommendations of Franke et al. (2007), but rather to give the debris room to fly above and behind the building.
+In all other respects the CFD setup is the same for the free flight simulations.
+The results from three different simulations are presented here-one with a 1.0kg plate, a second with a 6.35kg plate (typical of a clay roofing tile), and a third with a 12kg plate.
+The latter is rather heavy for a typical roof tile, but was used to test the range of applicability of the model.
+A uniform inflow condition is used, with the wind speed of 35m/s (126km/h) is used, which is within the range of full-scale failure wind speeds typically discussed by Visscher and Kopp (2007).
+As described in Part 1 (Kakimpa et al., in press), the plate is held in an inner mesh region that translates and rotates monolithically with the plate in order to preserve mesh quality close to the plate walls, while the outer region of the domain is re-meshed to accommodate plate motion.
+Since the plate is initially expected to coincide with wall boundaries of the roof, the use of body fitting meshes and building walls is not possible.
+In order to address this limitation, the buildings have been represented as porous regions of high viscous resistance, as opposed to the traditional approach of using wall bounded volumes.
+As a result of this porous building approach, the region occupied by the building can be re-meshed as the plate approaches the building and in addition, the plate can initially lie in contact with the geometric plane corresponding to the roof.
+A set of geometric expressions prescribing the volume bounded by the building's walls are used to define the mesh region occupied by the building.
+Inside this region a source term, Si, is added to the each of the momentum transport equations in order to represent the momentum loss in each cell due to viscous resistance of the porous media as(4)Si=-μαvi,where μ is the dynamic viscosity of the fluid, vi is the velocity component in the i direction, and α is the permeability of the media, which is assumed to be homogenous.
+After calibration studies aimed at selecting an appropriate value of α that results in a near-zero velocity at the surface of the porous region, a very low permeability value of 10-9 has been used.
+Using this porous building approach, multiple buildings could be defined with relative ease with boundaries in very close proximity or even co-incident with the plate's walls.
+A similar approach has been used with some success in the completely unrelated field of embankment erosion (Yusof et al., 2010).
+Standard wall-bounded simulations were run, without the porous model nor any debris, in order to compare the flow field from the porous building model to that from the wall-bounded building model.
+Fig. 17 shows the vertical profiles of the horizontal wind speed and turbulent kinetic energy for each of the two building representations above the ridge and the downstream top corner of the building.
+With the Y-coordinate having its origin at the ground, zero velocities are seen for the porous model inside the building, up to height of y/L=8 at the ridge and y/L=6 at the downstream corner.
+The flow solution using the porous building model is shown to give a qualitatively and quantitatively similar prediction for the velocity flow field around the building, although the turbulent kinetic energy is over-predicted above the building.
+Clearly, these high levels of turbulence seen with the porous approach are not realistic (certainly when compared with experimental data but also with standard, wall-bounded Reynolds-Averaged Navier-Stokes models).
+The high turbulence is due to the very abrupt change in velocity between the outermost cell in the porous region and the cell above it in the free stream.
+The shear stress creates a large production term in the turbulent kinetic energy transport equation, which otherwise would be modified by a law of the wall.
+For the present, however, the assumption is made that it is the mean wind speed that most determines the trajectory of the plate.
+Far from the building, the velocity and turbulence levels are identical.
+Fig. 18(a) and (b) shows instantaneous snapshots of the plate during flight for all three simulations.
+The lighter plate is seen to rise more rapidly and is ultimately found (not shown) to travel further as a result.
+The heaviest plate simply does not have enough initial lift to overcome gravity and falls back onto the roof.
+That in itself may cause further failures of the roof envelope.
+In addition, Fig. 19 shows the velocity time-series for the 1kg and 6.35kg plates only.
+Here, both plates are seen to accelerate both in the along wind direction and the vertical.
+There is a very short period in which the plate moves in the upwind direction immediately after launch.
+This is due to the normal force acting on it at the point of launch, caused by the local suction.
+Although the flights are short, some time into the flights, as witnessed by the rotation of the plate, Fig. 19(c), both plates may be entering a fluttering state, or perhaps the purely translation mode discussed by Kordi et al. (2010).
+In a unobstructed flow, plates of similar negative initial angle of attack would be expected to experience negative lift and positive torque during launch.
+However, in the more realistic flow scenario presented, the "roof-launched" plates are shown to experience positive lift and negative torque due to the large suction pressures at the windward eaves of the building.
+Similar findings have been reported from recent destructive wind tunnel studies of launch and flight of a plate from a low rise building roof by Kordi and Kopp (2011).
+The plate trajectory is shown to be significantly affected by the flow field at the launch position, most notably, the suction pressures at the eaves which create the large positive vertical velocity, and a slight negative initial horizontal velocity.
+As both cases represent high lift trajectories, no significant interaction with the recirculation region in the wake of the building was observed.
+Conclusions
+The introduction of a robust rigid body model based on quaternions, coupled with CFD flow simulations, as outlined in the Part I paper, has allowed the prediction of the free flight of plate-type debris to an extent not seen previously.
+The replacement of the limited Euler Angle parametrisation has allowed complex 3D spinning modes to be modelled easily.
+Based on the results of CFD-RBD simulations, four primary flight modes have been confirmed, which depend on the initial orientation of the plate: autorotational, transitional, flutter and complex 3D spinning.
+These flight modes are found to be qualitatively similar to those experimentally observed by Kordi et al. (2010).
+The distance that the plate is likely to fly has been shown to be dependent on the direction of rotation, with the autorotational effects resulting in plates over-speeding with a non-dimensionalised horizontal speed greater than 1, or flying with a non-dimensionalised speed consistently below 1.
+Previous assumptions, suggesting a non-dimensionalised terminal horizontal speed of 1 are shown to be invalid, except for flutter mode plates which have no net rotation.
+This coupling between the terminal horizontal speed and rotational direction is due to the direction of the autorotational drag component.
+The modelling of failure and flight of plate type roof components has traditionally been restricted to experimental investigations, such as Kordi and Kopp (2011).
+The CFD-RBD models presented in the present research are capable of reproducing this behaviour and allowing more detailed investigations of the FSI involved.
+Further, while traditionally numerical models have been limited to uniform steady wind-flow and simple launch conditions involving only initial orientation, the CFD-RBD model can be extended to more realistic flow conditions.
+Using CFD-RBD simulations, the complex launch flow field is directly simulated and its impact on debris flight accounted for.
+The porous region building model presented here is a simple method of obtaining qualitatively similar flow fields to those observed with conventional wall bounded building models.
+Acknowledgements
+The authors would like to express their thanks to project partners at the University of Birmingham: Prof.
+Chris Baker, Drs.
+Mark Sterling, Andrew Quinn and Pedro Martinez-Vasquez.
+Also, the input of Prof.
+Peter Richards of the University of Auckland and Dr. John Holmes has been invaluable.
+We also acknowledge the financial support of the Engineering and Physical Sciences Research Council in the UK and the Dean of the Faculty of Engineering's Research Fund at the University of Nottingham.
+

@@ -1,0 +1,252 @@
+The effects of particle morphology on the analysis of discrete particle dispersion using Delaunay tessellation
+
+Abstract
+Particle-reinforced composites and nanocomposites can contain a wide range of discrete particles, of various morphologies (e.g. spherical, fibre, and tube).
+Two-dimensional micrographs of the material are used to assess whether the particles are well- or poorly-dispersed, but typically use the assumption that all particles are identical and spherical.
+However we show, by considering elliptical particles, that the sizing and shapes of the discrete particles can change the overall appearance of the system, without the underlying mechanisms changing.
+Thus our interpretation of particle dispersion is obtained by comparing our measurements to a reference system, which takes into account the particle morphologies, and demonstrates that discrepancies are brought on by oversimplification.
+
+Introduction
+Particulate composites are an important and well-established class of composite materials.
+The quality of discrete particle (nanoparticle) dispersion, which characterises the uniformity in spread of the particles through the material (i.e. whether the particles are ordered, random or clustered) can affect the material properties [1].
+It is time-consuming and expensive to obtain micrographs of a composite material, and so only a few images are available for analysis.
+Hence robust quantitative analysis must be performed on the available micrographs to obtain an objective measurement of dispersion.
+The measurement of nanoparticle dispersion is rapidly advancing [2-5].
+Ideally these techniques would be applied universally to any type of nanocomposite or particulate-reinforced material.
+These require a comparison against a known reference system, where typically the particles are either perfectly or randomly dispersed.
+Inappropriate idealisation of both the quality of the data and the particle morphology (i.e. the particle shape) leads to inaccurate conclusions.
+Nonetheless many analyses assume that theories where the particles are point-like (i.e. having no volume or shape) are valid.
+Thus a major hindrance is that it is not well understood how the morphological (shape) properties of the nanoparticles affect these parameters.
+Morphology of nanoparticles
+Types of nanomaterials
+Within a particular material there can be a significant variation of the nanoparticles' size, aspect ratio and regularity of shape.
+Thus it is useful to consider some of the nanoparticles used in existing materials.
+Many nanoparticles can be manufactured with a low aspect ratio (defined as the major axis length divided by the minor axis length such that a sphere has an aspect ratio of 1).
+Ceramic nanoparticles (e.g. silica, titania and alumina) can be readily produced with diameters of 3-300nm, e.g.
+[6], but these often have an irregular surface [7].
+Core-shell particles with a 100-300nm diameter rubbery core and a hard shell are often used for toughening of thermoset polymers, e.g.
+[8].
+Rubber particles can also be produced via phase-separation of initially soluble rubbers during curing of thermoset polymer matrices, and spherical particles with diameters between 40nm [9] and 200μm [10] can be achieved, as reviewed by Bagheri et al. [11].
+However, poly-dispersity of the particle size cannot be neglected in these materials, as the formation of the carboxyl-terminated butadiene acrylonitrile (CTBN) rubber particles leads to large size variations.
+For example, Hsieh et al. [7] measured a mean diameter of 0.54μm, but with a standard deviation of 0.27 times the mean value.
+Conventional plate-like particles are generally irregularly shaped; particles such as muscovite mica are typically used with an average diameter between 10 and 80μm [12] and a thickness of a few microns.
+Nanoclays (e.g. montmorillonite or hectorite) are layered silicates with a structure of stacked platelets which can be exfoliated to give platelets approximately 1nm thick with lateral dimensions that can vary from 30nm to tens of microns [13].
+Research on graphene is very active at present, and platelets one atom thick with linear dimensions potentially in the order of millimetres are achievable, although smaller aspect ratios with linear dimensions of tens of microns would be expected for use in particulate composites [14].
+Particles can become very elongated, the extreme case being carbon fibres which are microns in diameter and can be kilometres long.
+However, these would not make particulate composites.
+Chopped (short) carbon fibres are typically 7μm in diameter and are 1-6mm long, giving aspect ratios of 140-850 [12].
+Rod-like wollastonite particles are 10μm in diameter and 50μm long, giving an aspect ratio of up to 5 [12].
+Aluminium borate whiskers have lengths between 10 and 20μm and diameters of 0.5-1μm giving aspect ratios of 10-40 [15].
+Carbon nanotubes and silica nanowires can also have very high aspect ratios.
+Single-walled nanotube diameters range from 0.4 to 5.6nm with a maximum length of several millimetres, while for multiwalled nanotubes the diameter is from several to hundreds of nanometres, with lengths up to the centimetre range [16].
+For multiwalled nanotubes, a length of 140μm and a diameter of 120nm is typical [17], giving an aspect ratio of about 100.
+Nanowires have been fabricated with lengths of 110mm and diameters as small as 60nm, giving an aspect ratio of around 3700 [18].
+However, shorter lengths and hence smaller aspect ratios would again be expected for use in particulate composites.
+It would clearly be inappropriate to approximate particles with such high aspect ratios as point-like, i.e. having no size or shape.
+Material measurement and spatial representation
+A material's structure can be studied by taking images across its cross-section using a microscope.
+Statistics on the positions of particle centres provide a direct way of assessing the spatial arrangement of nanoparticles, e.g.
+through Ripley's K-function or the pair-correlation function [19].
+However, these analyses are complicated by features caused by the discrete size and shape of the particles [20].
+Partitioning the image into space-filling regions can provide topological information about the material.
+One widely used method is Voronoi tessellation, where each region represents the space surrounding an enveloped nearest particle [21].
+A complementary representation is given by a network of Delaunay triangles.
+Each vertex of the triangles lies at a centre of mass position of a particle, such that the triplet of particles are considered as nearest neighbours.
+Fig. 1a shows how a Delaunay tessellation is applied to a real micrograph of a nanoparticle composite.
+Parametrizing dispersion
+Our chosen quantitative parameter for spatial dispersion is the Area Disorder of Delaunay tessellation (ADDel), which we previously showed gave a reliable measure of the system's spatial dispersion [5,22].
+The Area Disorder is a function of the coefficients of variation of the Delaunay triangle's area (A) and is calculated using(1)ADDel=(A¯/σA+1)-1,where A¯ and σA are the mean and standard deviation of A, respectively [22].
+ADDel measures the global regularity of the particle arrangement within the system.
+The larger the value (where 0⩽ ADDel⩽1), the more clustered the system is.
+ADDel is chosen to be invariant to the number density of particles present.
+The dispersion of a material is interpreted by comparing the measured ADDel against the expected value for a randomly arranged set of particles, i.e. it is compared to a reference model.
+If the material is statistically equal to or more regular than a model of random particles then it is taken to be well-dispersed.
+Otherwise, if the material is more clustered than the random model it is taken to be poorly-dispersed.
+It is this part of the analysis where the morphological properties of the particles become a concern.
+Specifically, they affect the description of randomly arranged, by which we actually mean that particles have no preference to where they are found (i.e. there is neither attraction nor repulsion between particles), other than lying outside the exclusion areas set up by the macroscopic size of the particles.
+Thus sets of nanoparticles with different morphological details can have the same dispersion quality but be structurally arranged differently.
+Reference models
+A hard-core particle model can be used to represent the nanoparticles by their centre of mass positions.
+These points are arranged such that they do not occupy the same space, as governed by the nanoparticles' physical size.
+A major detraction of handling hard-core considerations is that they are complicated by the form of the particles, which is a combination of the particle sizes, shapes and orientations.
+Simplifying particles to centre of mass points may be tempting, particularly as much is known about the spatial statistical behaviour of uninhibited points.
+However this simplification can lead to discrepancies in the interpretation compared to other measurements that consider the particle surface [23].
+For these models to be valid we assume that the material has no spatial gradients (i.e. the material has the same statistics anywhere within it) such that a sample micrograph of the material is truly representative of the whole.
+Size and shape
+The effect of nanoparticle size on dispersion was previously studied using identical spherical particles [22].
+By increasing the area fraction (coverage) of particles, the system appeared more regular, due to an enforced minimum separation distance (i.e. the particle diameter) and accordingly the Area Disorder would reduce.
+Variation of particle sizes is introduced into micrographs from several sources, these include: (1) the non-identical manufacturing of nanoparticles; (2) stereological effects within the micrograph (e.g. the projection of nanoparticles); and (3) an intentional manufacturing of dissimilar sized nanoparticles (i.e. bi-disperse population).
+To investigate the role that the individual particle morphology (size, shape) has on dispersion we model randomly disordered materials containing: (1) non-identical hard-core particles, with a size distribution and (2) non-circular ellipsoid particles with associated orientations and aspect ratios.
+Simulation and measurement
+Micrographs of a randomly dispersed material are modelled by a hard-core random particle model (HR), where the particle's size inhibits its placement within the system.
+Treating particles as points (in a point random model (PR)), would allow particles to be placed at random anywhere within the system irrespective of the other particles, which clearly is not correct.
+Our model consists of a two-dimensional square system, with pre-set side length of L=1m, containing N=1000 discrete particles.
+The overall coverage of particles in the material is given by the number density, λ=N/L2 (fixed at 1000m-2) and the area fraction, Af=λa¯, where a¯ is the mean cross-sectional area of a particle.
+Periodic boundary conditions are applied to the edges of the system to reduce finite size effects [22].
+Our choice of units is irrelevant to the dispersion quality.
+Discrete particles are described as ellipses with a centre of mass, semi-major (r+) and semi-minor (r-) axis lengths and an orientation angle α.
+Fig. 1b shows a labelled schematic of two such particles.
+The aspect ratio of the elliptical particle is given by f=r+/r-.
+When both r- and r+ are zero then a PR system is restored.
+When f=1, then the particles are treated as discs.
+Method of modelling the hard-core random model
+A configuration is produced by placing the particles one at a time into the system using the simple sequential inhibition (SSI) technique.
+First, the particle's orientation angle α is selected from the range 0° to 180° with uniform probability of acceptance.
+Next the centre of mass position is provisionally chosen at random and the distance between this particle and any pre-placed particles are measured.
+If these distances are greater than the distance of closest approach between the elliptical particles (calculated using the algorithm developed by [24] and indicated as d in Fig. 1b), then the new particle is accepted as not overlapping.
+If the particle is not accepted then a new position is generated, and the test repeated until it is accepted.
+The configuration of particles is complete when all particles have been placed.
+A reliable estimate for the mean Area Disorder, AD¯, and standard deviation, SAD is calculated from 1000 or 5000 configurations.
+Models used
+In this article we explore the effect on the measured Area Disorder of two specific morphological properties: (1) the dispersion in particle sizes and (2) the aspect ratio of the particles.
+We consider three variations of the hard-core random model.
+The first two types contain circularly-shaped (f=1) particles where the distribution of particle sizes is either bi-dispersed (HRB) or poly-dispersed (HRP).
+The third type has identical elliptically-shaped particles (HRE) with aspect ratios satisfying f⩾1.
+In HRB a collection of N particles are divided into two populations, numbering p1N and p2N, with p1 and p2 being positive unit-less values satisfying p1+p2=1.
+The particle radii for the two populations are r and r2r (with scalar r2⩾1), respectively, such that the total area fraction is conserved through Af=λπr2p1+p2r22.
+In HRP the particle radius is selected from a log-normal distribution of particle areas in which the mean radius, r¯, corresponds to the true area fraction and the standard deviation is equal to (sr¯), with s being a positive number.
+Simulation results
+Bi-dispersed and poly-dispersed particles
+Fig. 2a-c shows example arrangements of particles found for these systems, and Fig. 3 shows the variation of the measured Area Disorder.
+In all cases the Area Disorder is bounded between the conservative upper-bound, given by PR and the conservative lower-bound, given by identical hard-core discs (i.e.
+HRB with r2=1, or HRP with s=0).
+Hence, increasing the area fraction results in a larger range of allowed values for ADDel, due to the lower-bound dropping towards zero as the geometrical arrangements become more crystalline.
+Beginning with the bi-dispersed case (HRB), the morphology of the system is adjusted by either (i) 1⩽r2⩽10 while keeping p2=p1=1/2; or (ii) 0⩽p2⩽1 while keeping r2 fixed.
+Increasing the size disparity between the two particle populations, through using larger r2, enlarges the value of the Area Disorder, see Fig. 3a, with the effect of reducing the regularity in the arrangement of particles of the system.
+The size-inhabitation of the larger particles ensures that the Area Disorder cannot exceed that expected for a set of point-like particles (f=0).
+Thus the Area Disorder tends to a constant at high r2.
+The broadness of the particle areas is characterised by the standard deviation of particle areas, S(a), shown in Fig. 3d-f.
+As the variance in particle sizes increases then ADDel rises and the particles appear to be more clustered.
+By contrast, the Area Disorder is a singular peaked function of p2, as seen in Fig. 3b, which correlates with the peak in S(a) seen in Fig. 3e.
+The minimum value of ADDel is found when the system only has one population present, i.e. for particles which are mono-dispersed in size.
+The maximum value of ADDel, does not correspond to p2=1/2, but is biased towards systems with more smaller particles than larger particles.
+This suggests that a material with many small particles amongst a few large particles appears statistically more clustered (thus worse dispersed) than a few small particles dispersed amongst many large particles.
+For particles that are poly-dispersed in size, Fig. 3c shows the Area Disorder as a function of the parameter s for the area fractions 0.1 and 0.2.
+Broadening the distribution of particle radii, by enlarging the parameter s, raises the value of the Area Disorder, and makes the particles of the system appear more clustered.
+This behaviour mirrors the trend seen by increasing the disparity in sizes of a bi-dispersed population of particles where as S(a) increases with s so too does ADDel, as illustrated in Fig. 3f.
+Elliptical particles
+In this section we study the changes in behaviour of the Area Disorder as the aspect ratio of the nanoparticles increases, i.e. they become more fibre-like and less circular.
+For the case of Af=0.1, Fig. 4a-c gives sample particle arrangements for the HRE model at three different aspect ratios.
+At low aspect ratios (Fig. 4a) the particle arrangement looks isotropic (random orientations and positions), but on increasing the aspect ratio the orientation of the neighbouring particles becomes more correlated leading to the appearance of grain like structures at high aspect ratios (Fig. 4c).
+Fig. 5a plots the mean Area Disorder as a function of aspect ratio and area fraction.
+We investigated a range of aspect ratios from f=1 (disc shape) up to f=160(Af=0.05), 70 (Af=0.1), 30 (Af=0.2) and 10 (Af=0.3).
+Fig. 5a illustrates the complex relation between the apparent extent of regularity/clustering in the arrangement of nanoparticles given by ADDel and the shape of the particles.
+Each dataset can be divided into three distinct regions of behaviour.
+When the aspect ratio is low, such that 1⩽f⩽fiso, ADDel decreases with f implying that the particles appear to be arranged more regularly.
+When f=fiso then the isotropic appearance of the system is lost and some of the particles are rotationally correlated.
+An example configuration is given in Fig. 4a.
+At moderate aspect ratios, fiso⩽f⩽fcol, the system behaviour is more complicated.
+Initially it becomes more regular on raising f before switching to become progressively irregular in appearance, corresponding to a rise in ADDel.
+An example configuration is given in Fig. 4b.
+ADDel is at a minimum for f=fmin.
+fmin is plotted as a function of area fraction and aspect ratio in Fig. 5b.
+For low area fractions (Af→ 0) the minimum value of ADDel corresponds well with fminAf=2.02±0.02.
+Nevertheless, the true behaviour of fmin deviates from this form at higher area fractions.
+fmin represents a turning point from where the particles are predominantly in close proximity with one neighbour to that where particles are predominantly in contact with two or more particles, forming small networks.
+At high aspect ratios, f>fcol, the ADDel trend lines of various area fractions collapse (indicated by the solid line in Fig. 5a) beginning at the aspect ratio fcol≈3.6/Af.
+The value of ADDel increases further to become greater than expected for PR giving a clustered appearance to the centre of mass positions of the particles.
+An example configuration is given in Fig. 4c.
+Here the system takes on a grain-like appearance where particles are either networked together forming the boundaries of the grain or in near rotational correlation, filling the interior of the grain.
+Note that there is no interaction (neither repulsion nor attraction) between the particles in the models.
+Hence the formation of such grains, which is often quoted as indicating that interactions or crystallinity are present, is simply an effect of the high aspect ratio.
+Region boundary prediction
+The moderate aspect ratio regime begins when there becomes no way of arranging all particles isotropically.
+The minimum space (which includes the area occupied by the particle) that each particle requires to be rotationally unconstrained is a disc of radius r+.
+The semi-major axis length is defined by r+= (f Af/(πλ))1/2.
+The closest each disc can be packed is in a hexagonal close-packed crystallographic arrangement with an area fraction of π/23, see Fig. 6a.
+Hence fiso is given by(2)fisoAf=π23≈0.906The onset at high aspect ratios of the collapse in ADDel behaviours and strong positional correlation at small length-scales happens with the materialisation of the grain-like structure.
+This occurs when there becomes no way of placing further particles into the grain network and thus the remainder have to go inside the grains.
+On average each particle is surrounded by six neighbours suggesting a hexagonal arrangement for the framework of the grains.
+The closest that the particle centres can be placed apart, such that the particles only just touch, is approximately equal to r+ as r- becomes small (see Fig. 6b where the dashed circles show potential lattice positions of the networked particles).
+The lattice spacing for this hexagonal network, spanning the entire system, satisfies 1/λ=3r+2/2.
+Thus we arrive at(3)fAf⩽2π3⩽3.627Hence a structural change in the system occurs at fAf>3.6, and is brought on by the high aspect ratio compared to the area fraction.
+The Area Disorder of the hexagonal grain network (GR) is analogous to ADDel=0.367 for the imperfect hexagonal lattice where, due to the length of the particle, an average of 4 out of the 7 lattice positions are occupied by particle centre of masses [5].
+This value of ADDel corresponds well with that found at structural transition shown in Fig. 5a.
+Application to nanocomposite micrographs
+In the above section we found that care needs to be taken when inferring the material's dispersion from a sample measurement of the nanoparticles' geometrical arrangement using Delaunay tessellation.
+In this section we apply these techniques to example materials.
+The quality of dispersion
+A pragmatic consideration is whether a reference model of point or identical disc nanoparticles will suffice for determining whether the material is randomly dispersed.
+Fig. 7 shows the correspondence between the dispersion type and combinations of the Area Disorder and area fraction, for poly-dispersed particles (Fig. 7a) and low-to-moderate aspect ratio elliptical particles (Fig. 7b).
+No such diagram can be used for categorising particles with high aspect ratio, defined as f⩾4π/3Af, in which it is possible for a random set of particles to have an ADDel very much larger than that expected for point particles.
+The middle grey region of the diagram shows all the possible values of ADDel that might indicate the system is random, depending on the morphology of the particles.
+The upper bound is that expected if the particles were point-like, while the lower bound may depend on the particle morphology.
+A system is most poorly dispersed when all the nanoparticles have aggregated into a single cluster.
+Thus Fig. 7 exhibits an un-physical region of high ADDel values that are excluded.
+For identical spherical particles the division between a good and a poor dispersion is given by the dashed-line.
+Poly-dispersing the sizes of a randomly dispersed set of particles increases the disorder of the system such that ADDel will be larger than that for identical particles, given by the dashed-line in Fig. 7.
+Point-like particle behaviour can be approached by increasing the size range of the poly-dispersed particles.
+Varying the shape of a particle away from spherical introduces more complex relations to the measured ADDel.
+The lower bound of the grey region is defined by the minimum ADDel value given by HRE at fmin and approaches the dashed-line as the area fraction increases.
+At Af⩾0.3 the two trend-lines converge which corresponds with the loss of the minima of ADDel with respect to f seen in Fig. 5.
+A single sample
+Getting a precise estimation of a material's mean Area Disorder from micrographs is impractical, given the high cost of microscopy and the large number of micrographs required.
+Instead a small number of test micrographs of the material are used.
+Each micrograph exhibits an unknown deviation away from the mean behaviour of the material.
+A statistical two-sided z-test is applied to determine whether a measured micrograph is likely to have come from a randomly dispersed material, of the form:(4)Z=(ADDel(test)-E(ADDel(HR)))/SAD(HR),where ADDel(test) is the measurement from the material, E (ADDel(HR)) and SAD(HR) are the mean and standard deviation, respectively, of the null-hypothesis HR model.
+Independent fluctuations in the particle distribution between samples of the HR model result in its Area Disorder being Gaussian-distributed about the mean value [22].
+The null hypothesis is rejected at the 5% significance level if ∣Z∣>1.96.
+In these cases the quality of the dispersion of the test material is likely to be better than randomly dispersed when Z<-1.96, or alternatively worse than that when Z>1.96.
+If the null hypothesis is not rejected then the test material is indeterminate from being random.
+To perform the statistical z-test requires an estimate for the value of SAD(HR).
+Values of SAD(HR) from our studies are summarised in Fig. 5c and Table 1.
+Example analysis of real micrographs
+The above methodology is now applied to two real micrographs.
+Material A (micrograph shown in Fig. 8a) consists of 20nm diameter silica nanoparticles in an anhydride-cured epoxy polymer matrix.
+Material B consists of the same silica nanoparticles (shown in Fig. 8b as light particles which are analysed) and CTBN rubber microparticles (shown in Fig. 8b as dark patches but are not analysed) set in the same anhydride-cured epoxy polymer [7].
+The micrographs are obtained using an atomic force microscope, and the centre of mass of each particle is identified using the imaging techniques outlined in [5].
+These positions are then used to produce the Delaunay tessellation and calculate the Area Disorder.
+The size and extent of each identified nanoparticle is also recorded.
+The total area occupied by the nanoparticles is used to determine the area fraction of the micrograph, while the major and minor axis lengths of each nanoparticle give the particle's aspect ratio.
+From these we establish the reference HR model which has the equivalent area fraction, mean aspect ratio and number of particles.
+The reference Area Disorder is then calculated from an ensemble of particle configurations.
+Fig. 8 illustrates the micrographs used, and Table 2 tabulates the key statistics of the number of particles, mean and maximum aspect ratio and area fraction.
+The Area Disorder, measured from the micrograph, is stated along with analysis from the z-test using reference models of PR and HRE.
+These material cases demonstrate that when the aspect ratio is low and the particle density is small then testing against either the PR or HRE model leads to the same conclusions.
+Material A is found to be indeterminate from random and material B is poorly dispersed.
+The confidence in these conclusions, given by the Z values, depends on the reference model, with it being less certain using the PR model than using the more accurate HRE model.
+It is expected that the difference between models becomes more prevalent with denser packings and/or higher aspect ratios and may lead to contradictory conclusions.
+Further discussion
+Particle shape plays an important role in characterising the spatial behaviour of the nanoparticles in the material.
+Ellipses can approximate nanoparticles at low aspect ratio and nanotubes at very high aspect ratios.
+A summary of the key features is provided in Table 3.
+For low to moderate aspect ratios, fAf<2π/3, similar upper- and lower-bounds for the Area Disorder can be defined.
+The lower-bound is adjusted at area fractions below 0.3 to allow for a range of aspect ratios where the random arrangement of particles appears more regular than for discs.
+This analysis covers materials from the highly spherical, e.g.
+silica nanoparticle composites, to plate-like particles, rod-like wollastonite and aluminium borate whiskers.
+At high aspect ratios, satisfying fAf>2π/3, it is no longer appropriate to use point or disc-like theories and instead line-like approximations can be used.
+These systems can have a spatial dispersion which is more clustered than expected for points and are most regularly arranged when organised along grain boundaries.
+When f→∞ there is no upper-limit to the number of line-like particles which can fit into the system.
+Hence the Area Disorder for such a system can tend to 1 and an apparent high clustering of particle centres arises.
+Materials that fall into this category naturally include nanowires and short carbon fibres, but can also include (depending on Af) aluminium borate whiskers.
+Additionally, long nanofibres are flexible and may bend or weave around one another.
+Interlocking of concave surfaces of nanoparticles could lead to closer packing than allowed for in these models.
+Both these effects have been known to change a material's spatial appearance.
+These require comparison against a reference model with more morphological properties than the ellipses used in this study.
+Broadening the distribution of particle sizes, such that the variance in particle areas increases, makes discrete particles appear more clustered than a system of identically sized particles but more regular than if they were either point-like or line-like (depending on aspect ratio).
+Thus, a material with an Area Disorder less than HRE is said to be spatially well-dispersed, or greater than PR/line-random (LR) is said to be poorly dispersed.
+Here PR/LR is used as the limiting model for extreme particle size variation.
+Poly-dispersing the aspect ratios in HRE may provide a better representation of nanotubes in a material, where the micrograph of randomly orientated nanotubes contains imaged particles of different shapes depending on how each nanotube is sectioned or a material with several types of particle.
+This can be done using our elliptical particle reference models by providing a unique aspect ratio for each particle.
+These systems represent a hybrid between the particle and line descriptions, and need a test criteria for spatial-dispersion beyond that for discs (with lower limits for Area Disorder given by the mono-dispersed case and upper limits dependent on the maximum aspect ratio of a particle).
+However, due to the length of these nanotubes it is highly likely that the micrographs of such materials will exhibit conjoined nano-tubes, where one is actually underneath the other in the material.
+Hence to ensure reliability of our analysis development of error correction strategies is required, such as modifying the physical parameters (e.g. the area fraction or size dispersion parameters) or the reference models, by allowing some overlap between particles [5].
+Conclusions
+Studies like the ones discussed in this article, for particle size dispersion and ellipticality of the shape, inform us of when differences in particle morphology (from that of identical discs) should or should not significantly affect the estimates of randomly-dispersed nanoparticles.
+These estimates are used as the basis from which to decide whether a material has nanoparticles dispersed better (hence more regularly arranged) or worse (more clustered) than random.
+The microstructure is found to change with aspect ratio and area fraction, even in the absence of any chemical or crystalline growth effects.
+At low aspect ratios, (relative to the area fraction) the particles behave particle-like and can be well described by disc/point particle theories.
+At moderate aspect ratios, the overall space restriction partially correlates the orientation of neighbouring particle.
+At high aspect ratios a grain-like microstructure is formed, at a predictable onset, where the orientations of three or more neighbouring particles are correlated.
+In these systems particles may be better treated as line-like.
+These studies have hence shown that ordering in polymers, which may previously have been attributed to crystallinity or attraction between particles, can arise from particle shape alone.
+Overall, it is quite clear that, given the different behaviour of highly elongated particles, we will need to use much better reference systems than those of point or spherical particles if we are to make use of dispersion methods to interpret images of high aspect nanotubes or fibres.
+While differences between the current definitions of a well-dispersed system means that discrepancies in interpretation can exist, our work highlights that the inherent nature of dispersion can also prevent there being a unique value for the selected dispersion parameter, that covers all realistic particle morphologies with equivalent dispersion quality.
+For example, a random set of spherical particles did not measure the same as a set of elliptical particles because of shape and size considerations.
+Instead fair ranking of dispersion quality requires the material under test to be compared to a reference model capturing similar particle morphologies.
+Acknowledgements
+This work was carried out under the EPSRC grant EP/H00582X/1.
+The AFMs were provided by Dr. R.D.
+Brooker and Dr. K.
+Masania of Imperial College London.
+

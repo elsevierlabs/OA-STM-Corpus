@@ -1,0 +1,313 @@
+Flow structure and near-field dispersion in arrays of building-like obstacles
+
+Abstract
+Dispersion in the near-field region of localised releases in urban areas is difficult to predict because of the strong influence of individual buildings.
+Effects include upstream dispersion, trapping of material into building wakes and enhanced concentration fluctuations.
+As a result, concentration patterns are highly variable in time and mean profiles in the near field are strongly non-Gaussian.
+These aspects of near-field dispersion are documented by analysing data from direct numerical simulations in arrays of building-like obstacles and are related to the underlying flow structure.
+The mean flow structure around the buildings is found to exert a strong influence over the dispersion of material in the near field.
+Diverging streamlines around buildings enhance lateral dispersion.
+Entrainment of material into building wakes in the very near field gives rise to secondary sources, which then affect the subsequent dispersion pattern.
+High levels of concentration fluctuations are also found in this very near field; the fluctuation intensity is of order 2 to 5.
+Highlights
+•
+We document key aspects of near-field dispersion in urban areas using DNS data.
+•
+We relate these dispersion features to the underlying flow structure.
+•
+The effects of wind direction, building layout and source location are examined.
+•
+Secondary sources in the near field have a strong effect on the plume spread.
+•
+Concentration means and fluctuations are mapped and their magnitudes quantified.
+
+Introduction
+Understanding dispersion processes in urban areas is important for modelling air quality as well as pollution from accidental or terrorist releases.
+The chaotic nature of turbulent flow and the complexity of the building geometry both contribute to making such modelling non-trivial.
+Urban geometry affects the mean flow and turbulence significantly (Barlow and Coceal, 2009) and thereby exerts a strong control on dispersion processes (Belcher, 2005).
+For localised releases, such effects are particularly important in the near-field region (here defined as within a few building blocks of the release), where conventional models such as Gaussian plume models fail (Belcher et al., 2013).
+In this region, certain characteristics of the dispersion become significant, although they are usually justifiably neglected further downstream.
+Recently, Wood et al. (2009) reported above-background dosages within 6-8 times the building height in all directions around the source in field experiments in central London.
+But comprehensive data and understanding on these near-field dispersion aspects are currently lacking.
+The present paper is an attempt to document such near-field aspects for simple urban-like geometries, where their effects can be more easily isolated and therefore better understood.
+Specifically, the main questions investigated here are the following:•
+What are the main characteristics of near-field dispersion from localised sources in urban areas?
+•
+How are they related to the underlying flow structure around the buildings?
+•
+How do the mean concentration and concentration fluctuations vary in the near field?
+These questions are explored by analysing data from the recent direct numerical simulations (DNS) reported in Branford et al. (2011) and new simulations presented here.
+These simulations involve the continuous release of a passive scalar from localised ground-level sources within a regular array of cubes.
+The effect of different flow directions, obstacle layout and source location is investigated.
+The paper is structured as follows.
+In Section 2, we elaborate on the methodology and the cases studied.
+Results are presented in Section 3, which first looks at the instantaneous and mean flow field; the scalar field is then explored by looking at the instantaneous and mean concentration patterns, concentration profiles and time series.
+Conclusions are presented in Section 4.
+Method
+The numerical technique for solving the Navier-Stokes equations in the DNS is described in Yao et al. (2001) and Coceal et al. (2006).
+In brief, the equations are discretized using second-order central finite differences in space and a second-order Adams-Bashforth scheme in time, based on the pressure correction method.
+The Poisson equation for pressure is solved by a multigrid method.
+The code is parallelized using Message Passing Interface (MPI).
+Branford et al. (2011) performed a series of DNS for different wind directions (0°, 30° and 45°) over a regular array of cubical obstacles of height H.
+The domain size was 16H x 16H×16H in the horizontal and 8H in the vertical - see Fig. 1a and b.
+In the present paper we analyse data from the 0° and 45° runs.
+Additionally, we present results for new simulations done for flow at an angle of 45° over a smaller staggered array of domain size 8H x 8H×8H x 8H×8H - see Fig. 1c.
+Comparison with simulations over a larger staggered array of domain size 16H x 12H×12H x 8H×8H (Coceal et al., 2007) revealed similar turbulence statistics; hence, since the emphasis here is on near-source dispersion, the size of the present domain is adequate.
+All the simulations were conducted under conditions of neutral stability and fully rough turbulent flow.
+Periodic boundary conditions were imposed in the horizontal directions, effectively simulating flow over an infinite array of cubes.
+The Reynolds number based on the velocity at the top of the domain and the cube height was typically between 4750 and 7000.
+While this is much less than Reynolds numbers at full scale, it is comparable to typical Reynolds numbers achieved in many wind tunnel experiments.
+Numerical tests showed that a grid resolution of H/32 was sufficient, producing flow and concentration statistics that agreed with test runs at double the resolution (H/64) to within a few percent (Coceal et al., 2006, Branford et al., 2011).
+Based on the wall friction velocity uτ and the cube dimension H, a non-dimensional time scale characterizing the turnover time of eddies shed from the cubes can be defined as T=H/uτ.
+The simulations were run with a time step of 0.00025T, spun up for a duration of approximately 200T to allow fully developed turbulence conditions and statistics were collected over an interval of approximately 100T.
+The simulations for the larger arrays typically took a few weeks in total to run on 124 dual-core 2.5GHz PowerPC 970MP processors.
+In this study we investigate the dispersion of a passive scalar, which is modelled by numerically solving the scalar transport equation using an Eulerian approach.
+Point sources are discretized as Gaussian balls over a few grid points.
+The Schmidt number is fixed at one in all the simulations.
+A sponge layer is applied to the scalar field around the domain to prevent the scalar from re-entering the domain due to the periodic boundary conditions.
+The scalar is allowed to freely escape at the top of the domain.
+Further details are given in Branford et al. (2011).
+The scalar is released continuously and at a steady rate from an ensemble of point sources close to the ground (at z=0.0625H) within the simulated urban area; the source locations are indicated in Fig. 1.
+The sources in both cases (a) and (b) are placed in equivalent locations, therefore they form an ensemble of equivalent releases and ensemble averaging can be performed to extend the time series of each individual release.
+In case (c) the flow is not symmetrical because of the staggered arrangement of the cubes.
+Here the sources are in three different locations: behind a cube (3 equivalent locations), in front of a cube (3 equivalent locations) and in the space between two cubes (1 location).
+Near-source dispersion is sensitive to the building geometry and it is therefore impossible to perform a comprehensive study of the influence that specific urban geometrical features have on the dispersion.
+Our motivation, therefore, is to gain insight into generic features of the dispersion patterns and how they are influenced by the flow structure in simple commonly-occurring urban setups.
+The choice of these different configurations allows us to look at the effect of wind direction, building layout and source location on dispersion in a simple but plausible setup.
+Detailed comparisons of mean concentration profiles at different locations within and above the array showed good agreement with data from a water-channel experiment (Hilderman and Chong, 2007) on the same configuration of cubical buildings, as reported in Branford et al. (2011).
+Mean flow and turbulence statistics were compared extensively with wind tunnel data in Coceal et al. (2006, 2007).
+The reader is referred to those papers for details of the validation of the DNS.
+Results and discussion
+The flow field
+Dispersion within a building array is heavily influenced by the flow structure and how it varies in space and time.
+We therefore begin by surveying the spatial and temporal variation of the flow field.
+Instantaneous flow patterns
+To form an idea of the instantaneous flow field, Figs.
+2 and 3 show wind vector snapshots for the aligned array for the two wind directions of 0° and 45° at four different heights, corresponding to values of z/H of 0.23, 0.52, 0.80 and 1.08.
+For clarity, in these and other vector plots, vectors are only shown at every fourth grid point.
+We adopt a Cartesian coordinate system in which the x coordinate is directed from left to right (along the mean forcing direction for the 0° case), the y coordinate points upwards and along the plane of the paper and the z coordinate points vertically out of the paper.
+The corresponding instantaneous velocity components are u, v and w, with mean components denoted by U, V and W and fluctuating components denoted by u′, v′ and w′ respectively.
+The instantaneous, mean and fluctuating components of the scalar concentration field are denoted by c, C and c′ respectively.
+Fig. 2 shows that the instantaneous pattern is quite complex, even for this simple configuration.
+Broadly speaking, two main flow patterns can be discerned in these plots: a recirculation in the wake region behind the cubes with generally low velocity and a faster channelling flow along the unobstructed channels between alternate rows of cubes.
+However, on an instantaneous basis, the flow in these channels is far from being linear along the direction of the forcing.
+Rather, the wind vectors change direction continuously and unpredictably, especially around the intersections.
+A consequence of the highly unsteady character of the turbulent flow in this complex geometry is that individual flow realisations may behave in somewhat unintuitive ways.
+For example, at z=0.23H there is a swirling motion in the intersection region which drives faster fluid at an angle into the downstream section of the upper channel (Fig. 2a).
+Elsewhere, for example in the upstream section of the lower channel at z=0.52H (Fig. 2b), much of the flow diverts into the side 'street' behind the building wake instead of proceeding downstream along the channel as one might expect.
+Such intermittent flow features drive turbulent exchanges between the channels along the forcing direction and the 'streets' perpendicular to it.
+Further up at z=0.80H (Fig. 2c) the flow pattern along the lower channel meanders between the alternate rows of buildings.
+Clearly then, there is significant vertical variation in the structure of the flow too.
+Even above the array at z=1.08H (Fig. 2d) the wind vector pattern is still horizontally inhomogeneous.
+Fig. 3 shows that the patterns of wind vector snapshots for the 45° flow are again quite complex.
+The array is laterally symmetric with respect to the flow direction of 45°, but at any particular instant, the actual flow pattern is non-symmetrical.
+Again, the flow structure is different at different heights.
+Hence, the flow is highly inhomogeneous and three-dimensional spatially and unsteady in time.
+The unsteadiness is accentuated by the intermittent character of the recirculations behind the leeward faces of the cubes.
+For example, at z=0.23H there is a recirculation behind the eastward face of the cube on the lower left but none on the northward face.
+Above the array at 1.08H, the flow is broadly in the direction of the forcing on average, but there are strong deviations associated with flow around the cube tops.
+Similar observations on the asymmetry and unsteadiness of the instantaneous flow patterns can be made for the staggered array (not shown).
+Mean flow structure: horizontal
+The time-averaged flow structure in the aligned array for the two forcing directions of 0° and 45° and in the staggered array for 45° are shown in Fig. 4.
+Streamlines are plotted in horizontal planes at two different heights of z=0.12H and 0.73H for each configuration.
+Fig. 4a and b shows the streamlines for a 0° flow.
+The implicit averaging over many instantaneous realisations has removed much of the small scale complexity in the flow pattern and emphasized the two main features identified earlier, namely large recirculations within the 'canyon' region behind the buildings and a channelling flow in the open 'street' region between the rows of cubes.
+The streamlines within this channelling region appear much more linear now and look similar at the two heights within the array.
+In contrast, the structure of the recirculations changes with height, indicating that the building wake has a three-dimensional structure (Goulart, 2012).
+Fig. 4c and d shows the flow structure for the flow at 45° over the aligned array.
+There is a recirculation behind each face of the cubes, symmetrically disposed with respect to the 45° diagonal line through the cubes.
+The recirculations reduce in size with height.
+Streamlines from the two perpendicular streets upstream of the intersection come together and then diverge around the corner of the next building at the intersection, part of them feeding into a recirculation on the leeward face of the upstream buildings in the street perpendicular to the original flow direction and another part channelling into the far side of that same street.
+As we shall see, both of these flow features play an important role in near-source dispersion.
+Firstly, the diverging streamlines around the building corner lead to considerable mean transport into lateral streets and thereby enhance horizontal (lateral) dispersion, a process known as 'topological dispersion' (Davidson et al., 1995, Belcher, 2005).
+Secondly, the recirculations trap material and release them on a slower timescale (Vincent, 1978) higher up and into the flow above the array.
+The relative roles of the recirculations and the channelling flow change with increasing height, as the recirculations reduce in size, coupled with stronger mean flow into the side streets.
+Fig. 4e and f shows the corresponding pattern of streamlines for flow at 45° over the staggered array.
+Staggering the cube rows in the streamwise direction means that the flow is no longer symmetrical with respect to the 45° diagonal line through the array.
+This asymmetry modifies the details of the flow topology drastically, but broadly similar structural elements can be identified as in the aligned array.
+There are now two recirculations behind one leeward face of the cube and a smaller one on the other leeward face.
+The streamlines still diverge around the cubes, but now do so around a cube face rather than around a corner.
+The exact location at which this occurs depends on height, being different at z=0.12H and z=0.73H.
+As for the aligned array, the recirculations are weaker and the channelling flow is stronger in the gaps further up.
+Mean flow structure: vertical
+Given that the flow field is three-dimensional, particularly when the flow direction is oblique, it is instructive to look at its structure in a vertical plane.
+Fig. 5 shows the locations of eight vertical y-z planes through the aligned and staggered arrays at values of x/H of 0.02, 0.14, 0.39, 0.64, 1.02, 1.14, 1.39 and 1.64.
+Fig. 6 shows a sequence of mean wind vector plots in these vertical planes for the aligned array for 45° flow.
+Since the array is regular, the same patterns repeat in other units.
+Also, due to symmetry about the 45° axis, the same pattern applies to the (u, w) wind vectors in corresponding x-z planes.
+The salient features of the flow at these different locations are summarised below.•
+At x=0.02H (close to the entry into the 'street', Fig. 6a), there is a strong flow component towards the downstream side of the street canyon.
+•
+At x=0.14H (a little further into the canyon, Fig. 6b), we start seeing a weak updraft up the leeward face of the buildings.
+•
+At x=0.39H (almost halfway into the canyon, Fig. 6c), there is a recirculation with an associated strong updraft along the leeward face.
+•
+At x=0.64 H (about two-third of the way into the street, Fig. 6d), a similar picture applies, but the core of the vortex is further up and there is now a strong flow in the lower part of the canyon towards the lee of the building.
+This would cause any material in the street canyon (which, for example, might have come from advection along the street from upstream) to be driven into the recirculation region.
+•
+At x=1.02H (into the long street region and close to the face of a cube, Fig. 6e), an updraft inclined at some angle can be seen over most of the building's face.
+At the canyon exit, the vortex is still present, but has moved further along.
+•
+At x=1.14H (a little further into the long street, Fig. 6f), there is still a strong updraft over most of the leeward face of the cube, now almost straight upward, whereas the vortex is still present but with its core a little lower down.
+•
+At x=1.39H (almost halfway into the street, Fig. 6g), there is now a strong flow along the street, but an upward displacement of the flow in the intersection region.
+Hence, the flow structure is still three-dimensional in the intersection.
+•
+At x=1.64H (closer to the face of the downstream buildings, Fig. 6h), advection along the street predominates, with a weaker upward flow close to the downstream cube.
+Qualitatively similar flow features are observed for 45° flow in the staggered array (Fig. 7), except in the last two vertical planes at x=1.39H and x=1.64H, where the presence of a building at the end of the street at x=2H (see Fig. 5b) gives rise to a reverse flow region in the middle part of the plane shown.
+These observations indicate that the mean flow structure is quite complex, three-dimensional and highly heterogeneous.
+A key three-dimensional characteristic of the flow is the strong updraft up the leeward face of the buildings due to the recirculating vortex in the building wake.
+This will tend to move material caught in the wake upwards and out of the array.
+This is a manifestation of the 'chimney effect' observed especially in the vicinity of tall buildings (see e.g.
+Heist et al., 2009).
+The concentration field
+Having surveyed the structure of the flow field, we now move on to consider its effect on the resulting concentration patterns and dispersion characteristics.
+Instantaneous concentration patterns
+Figs. 8 and 9 show snapshots of the concentration field for the aligned array for the two wind directions of 0° and 45° at four different heights, corresponding to values of z/H of 0.23, 0.52, 0.80 and 1.08.
+In these plots the plume is represented using 'smoke' visualisation and with the regions of highest concentration indicated by contour lines.
+Focusing first on the 0° case (Fig. 8), in which the release is close to the ground (at z=0.0625 H) in the middle of the gap between the two middle cubes, it is clear that much of the material is captured in the wake region behind the upstream cube.
+This results in a build-up of material in the building wake, where the concentration is highest (Fig. 8a-c).
+Material is then released gradually from the wake at higher levels.
+Due to this trapping and the fact that the mean flow in the adjacent channels is at 0° (see Fig. 4c and d), the lateral spread of the plume is rather limited.
+The situation for the 45° case is more interesting (Fig. 9).
+Here the release is in an intersection and the flow is oblique.
+In this snapshot, at z=0.23H the whole plume is blown into the canyon region between the cubes in the y-direction and none in the x-direction.
+Note that the flow is constantly changing and that this is literally a snapshot.
+In a different snapshot this might of course be different and on average the plume would be equally likely to be blown into the gap in the x-direction.
+A little further up, at z=0.52H, we see that much of the material is now caught in the wake region.
+A little still comes from the horizontal location of the original source.
+Higher still, at z=0.80H, most of the material is concentrated in the region between the cubes.
+Nothing comes from the horizontal location of the original source.
+The highest concentration is around the centre of the gap, but somewhat away from the mean location of the core of the recirculation behind the upstream cube.
+This indicates the possible release of material trapped further down in the recirculation.
+These visualisations suggest the idea that transfer from the original source location to the wake occurs predominantly at low levels, whereas the re-release of material occurs mainly at higher levels.
+It would be of interest to test this hypothesis quantitatively in future studies.
+Above the array, material appears to be coming from the wake region, which therefore acts as a 'secondary source'.
+For the staggered array (not shown), the setup is somewhat different as there are no clearly defined 'intersections'.
+Moreover, the flow structure is asymmetrical with respect to the 45° direction.
+This spatial asymmetry results in a plume that tends to fluctuate in a preferential direction and causes more material to accumulate in the wake of particular buildings in the immediate vicinity of the source; this is examined in the next section.
+Mean concentration patterns
+Fig. 10 shows contour plots of the mean concentration at two different heights z=0.23H and z=0.98H for 0° and 45° flow over the aligned array.
+These result from the integration of the instantaneous concentration distribution over a total duration of 100T, where T is an eddy turnover time.
+In Fig. 10a and b (which show results for the 0° case) the flow is perpendicular to the faces of the cubes.
+As discussed earlier, the concentration pattern results from the trapping of material into the wake of the building immediately upstream of the source, and the escape of material into the channels on either side, which is then swept downstream in the fast flow in the channel.
+Some of that material enters the wake regions of the cubes downstream, but this represents a much smaller fraction compared to that entrained into the wake of the first cube.
+This is not surprising; as the plume becomes more distributed, there is less material left to be trapped in subsequent wakes.
+It is most significant in the immediate vicinity of the release, where the plume is concentrated in a small region of space.
+In the lower part of the array (z=0.23 H), a lateral profile of concentration at most locations downstream would show a bimodal distribution (not shown), due to the bifurcation of the plume around the obstacles.
+Near the array top (z=0.98 H), this is less so, presumably because material can flow over the cube tops and then be re-entrained into the region below the cube tops.
+There is a similar bifurcation effect for the 45° case (Figs.
+10c and d).
+But this division of the plume is accentuated by the effect of the two secondary sources in the wakes of the two cubes immediately downstream of the source.
+Indeed, as Fig. 10c shows, material from the source in the intersection rapidly spreads into these wakes in the lower part of the array (here shown for z=0.23H) and this trapped material is released further up (here shown at z=0.98H, Fig. 10d), effectively giving two overlapping plumes originating from the two secondary sources.
+The combined effect of these secondary sources and the topological dispersion around the cubes contribute to making the plume wider than that in the 0° case.
+This difference is particularly pronounced at higher locations.
+A similar picture emerges regarding the formation and effect of secondary sources for the staggered array (Fig. 11).
+The mean concentration pattern is plotted at two different heights (z=0.23H and z=0.98H) when the source is directly downstream of a cube in the x direction (Fig. 11a and b), directly upstream of a cube (Fig. 11c and d) and in the channel between two cubes (Fig. 11e and f).
+In the first and second cases material is drawn back into the recirculation behind the upstream cube(s) (Fig. 11a and c); in the third case, it is first swept forward along the channel and thereafter entrained into the building wakes upstream (Fig. 11e).
+Further up, the material is released and appears to originate from secondary sources in the respective building wakes (Fig. 11b,d and f).
+In this case, the secondary sources are not symmetrical like the aligned array due to the asymmetry of the flow pattern, so that one of the secondary sources is predominant (Goulart, 2012).
+Concentration profiles
+The secondary sources in the near field have a strong effect on the subsequent dispersion pattern above the array.
+This is illustrated here for the 45° aligned array case by looking at lateral profiles of concentration just above the array (at z=1.02H) at different distances from the original source (Fig. 12).
+In this plot and in the text below horizontal distances are given in a coordinate system along the mean plume direction (x') and perpendicular to it (y').
+In the very near field (x'<~H, Fig. 12a), before the next obstacle, the pattern is multimodal.
+There is a central peak associated with material coming directly from the original source, but there are also two stronger peaks on either side associated with the secondary sources.
+The concentration at the higher peaks due to the secondary sources is about twice that of the central peak.
+There are two other, smaller, peaks on either side of the centre with a mean concentration about a third of that of the central peak.
+Fitting a triple Gaussian to the concentration profile captures the central part of the plume very well, including the three central peaks.
+Further on (x'~2-3H, Fig. 12b), the profile only has a double peak, with the maximum concentration at the peaks about twice that of the central minimum.
+This double-peaked profile arises as the original source is obscured and material at that point originates mostly from the two secondary sources.
+Macdonald et al. (1998) reported similar double-peaked lateral profiles in their wind-tunnel experiments involving a release upstream of an aligned array of cubical obstacles.
+Their measurements were within the array, and they attributed the double peaks to the bifurcation of the plume around an obstacle immediately downstream of the release, an interpretation supported by visualisation of the plume in a similarly-configured field experiment.
+In the present case, the profile is above the array and the double peaks cannot be explained simply by bifurcation around the cube; rather they are a consequence of the two strong secondary sources.
+Still further from the source (x'~4H, Fig. 12c), as the two plumes widen they begin to merge and their superposition results in an approximately single-peaked profile.
+A Gaussian fit to the profile works fairly well except at the plume edges.
+The shape of this lateral mean concentration profile therefore marks a transition region where the influence of the near-field distribution of sources begins to be smoothed out, but where the profile is still not quite Gaussian yet.
+In the terminology of Theurer et al. (1996), the 'radius of homogenization' has not been reached yet.
+At x'~9H (Fig. 12d), a Gaussian fit to the lateral profile works much better.
+This makes sense physically in terms of the superposition of plumes coming from the two secondary sources - far enough they appear so close together that they are approximately equivalent to a single effective source.
+Owing to the generality of this argument, one would expect a similar behaviour in the far field for more complex building morphologies, for example with buildings of different heights - although the precise distance at which this occurs would likely depend on the details of the building arrangement, which determines the physical locations of the resulting secondary sources.
+So in the far field, which may be thus defined, the initial near-field source distribution does not matter; and a practical diagnostic of the far field might be construed in terms of the goodness of fit to a Gaussian (Goulart, 2012).
+Concentration time series
+As seen in Section 3.1, the flow field in the arrays is highly unsteady in time as well as spatially inhomogeneous.
+An important question for dispersion modelling is to understand the temporal as well as spatial variation of concentration.
+How do concentration fluctuations vary around the area of a release? What is the order of magnitude of the fluctuating concentration compared to the mean concentration?
+In this section we analyse the DNS results to shed some light on these questions.
+Figs. 13-16 show concentration time series and computed statistics at different locations within and just above the aligned array for 0° and 45° flow.
+In these figures the location of each subplot corresponds to the actual location of the block that it pertains to, i.e. the distribution of subplots shows the actual layout of the array.
+The black squares represent the cube locations.
+Indices i and j in the plot titles refer to the location of each block in the x and y directions respectively, starting from the lower left hand corner (i=1, j=1).
+Each time series is sampled at the centre of the relevant block.
+So the sampling locations within the array (Figs.
+13 and 15) are situated at z=0.5 H and those above the array (Figs.
+14 and 16) are situated at z=1.5H.
+The time series span a duration of 100T, over which are computed the mean concentration C (solid line), the root mean square fluctuating concentration crms (dash-dot line) and the relative fluctuation intensity I, defined as I=crms/C, in each of the blocks.
+In Fig. 13, the location of the source is in the block located at (i=4, j=7) and the mean wind is from left to right (0°).
+Not surprisingly, the mean and r.m.s.
+concentrations are both very large in the block where the source is located.
+The blocks immediately adjacent in the channels on either side also have high mean and r.m.s.
+concentrations, although not as high as in the source block.
+The concentration fluctuation intensity in those blocks is among the highest, namely between 3 and 4.
+Concentration fluctuations are therefore very large in the near field; thereafter C, crms and I all decrease monotonically downstream.
+Within the canyons directly downstream of the source (along the middle of the array in Fig. 13), C, crms and I are all smaller compared to their values in corresponding blocks in the adjacent channel.
+Moreover, the intermittency at those locations is considerably reduced in comparison.
+This is probably due to the combined effect of more efficient mixing in those canyons due to the canyon vortex and less exposure to larger scale eddies, which are more likely to be present in the channels where they might cause meandering of the plume and hence greater intermittency.
+In the top and bottom rows, the fluctuation intensity is quite high, however; this is because it is at the plume edge where the mean concentration is small in comparison to the fluctuations.
+Finally, we note the intermittent bursts in the concentration in the two blocks upstream of the release with correspondingly high fluctuation intensity of around 5 or greater.
+Corresponding time series and concentration statistics are shown for the blocks just above the array in Fig. 14.
+The most striking difference is that the fluctuation intensity is larger than within the array.
+Closer inspection of the time series reveals that the intermittency is also larger.
+This is not unexpected: the flow above the array is exposed to larger scale fluctuations compared to the size of the plume, so that the plume above the array is more prone to meander.
+Davidson et al. (1995) found similar results in their field experiments.
+Along the plume centreline the mean concentration decreases very slowly whereas the r.m.s.
+concentration decreases more rapidly, hence the rapid decrease in the fluctuation intensity.
+The whole plume is displaced downstream relative to that within the array due to the fast flow above.
+Hence, the maximum concentration at this height is not directly above the source block but one or two blocks downstream.
+Inspection of Fig. 15 reveals a broadly similar picture for the 45° flow as in the 0° case, but with some notable differences.
+Here the release is in the (i=4, j=4) block.
+Interestingly, we find that the largest value of mean concentration C is found not in the source cell (at least at that height) but in the two blocks immediately downstream in the x and y directions.
+These blocks encompass the region where most of the wake trapping occurs.
+The r.m.s.
+concentration crms is also high at those locations.
+However, crms is highest in the source block and so is the fluctuation intensity I, which has a value of around four there.
+As within the array, there is a general decrease in the values of C, crms and I with distance from the source.
+Fig. 16 shows corresponding plots for blocks immediately above the array for the 45° flow.
+It is noteworthy that there is not much material above the source cell at all.
+Hence, little material is detrained into the air directly above the source.
+There is more material above the location of the secondary sources.
+This is consistent with the picture that material released at the initial source location moves horizontally into the wake region of adjacent buildings where it is then pushed up by the updraft flow visualised in Section 3.1.3 and then spread by the faster flow above the array.
+Due to this faster flow, the whole pattern is displaced downstream relative to the pattern in the array below.
+As in the 0° flow, the fluctuation intensity I is larger than within the array; it generally decreases with distance from the source, except when the mean concentration C is very small.
+Conclusions
+In this study we have analysed data from direct numerical simulations to document the effect of buildings on near-source dispersion for three case studies with different wind directions, building layout and source location.
+The analysis has highlighted the following aspects of near-field dispersion:•
+Dispersion is strongly affected by the presence of buildings in the near field.
+First, diverging streamlines around buildings lead to considerable mean transport and enhance lateral dispersion.
+Secondly, trapping and re-release of material in the wakes of buildings in the immediate vicinity of the release gives rise to secondary sources.
+This appears to be a ubiquitous phenomenon, at least in the relatively high packing density regime investigated here, which is characteristic of city centres.
+Without knowledge of these secondary sources, erroneous modelling assumptions might be made based purely on the initial location of the release.
+In an emergency response scenario involving accidental or terrorist releases this could be critical.
+•
+These near-field dispersion characteristics derive from the underlying flow structure around the buildings, which exerts a strong influence in the near field where there is a higher concentration of material.
+The detailed flow topology depends on the wind direction and building layout, but salient features such as diverging streamlines and wake recirculations are robust.
+The three-dimensional structure of these flow features is especially pertinent and needs to be taken into account in models that aim to predict near-field concentrations.
+•
+The levels of concentration fluctuations within and directly above the building arrays depend significantly on location around the source.
+High levels of concentration fluctuations are found in the very near field, in open channels and immediately above the buildings.
+An order of magnitude estimate for the fluctuation intensity is between 2 and 5 in the near field.
+These results could be incorporated for example in semi-empirical models of concentration fluctuations (e.g. Cierco et al., 2010).
+These results are valuable for informing the development and validation of simple models of dispersion that could perform better than current approaches in the near-field region.
+In this context, incorporating some of the current findings into street network models (Soulhac, 2000; Belcher, 2005; Hamlyn et al., 2007) offers an especially promising possibility.
+Preliminary work in this respect has been performed by the authors and is reported in Goulart (2012) and Belcher et al. (2013).
+Ongoing work is focusing on extending the capabilities of such models to predicting near-field dispersion by accounting for wake sources and three-dimensional effects.
+Statistical analysis of concentration fluctuations will also help to develop and validate a stochastic version of the network model.
+Finally, inverse modelling using empirical data such as the present datasets can be used to infer optimal parameters for the street network model.
+Acknowledgements
+Omduth Coceal gratefully acknowledges funding from the Natural Environment Research Council (NERC) through their National Centre for Atmospheric Science (NCAS) under grant no.
+R8/H12/83/002.
+Simon Branford was supported by the University of Reading Research Endowment Trust Fund.
+Elisa V.
+Goulart's Ph.D. was funded by the National Council for Scientific and Technological Development (CNPq), Brazil.
+Underlying research materials (e.g. data) used in this work can be accessed by contacting the corresponding author.
+

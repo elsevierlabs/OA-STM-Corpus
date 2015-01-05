@@ -1,0 +1,181 @@
+Bacterial involvement in otitis media with effusion
+
+Abstract
+Objective
+Otitis media with effusion (OME), a common chronic childhood condition affecting hearing, is thought to be a result of bacterial infection, with biofilms recently implicated.
+Although bacterial DNA can be detected by polymerase chain reaction in 80% of patients, typically fewer than half of effusions are positive using standard culture techniques.
+We adopted an alternative approach to demonstrating bacteria in OME, using a bacterial viability stain and confocal laser scanning microscopy (CLSM): staining allows detection of live bacteria without requiring growth on culture, while CLSM allows demonstration of the three-dimensional structure typical of biofilms.
+Methods
+Effusion samples were collected at the time of ventilation tube insertion, analysed with CLSM and bacterial viability stain, and extended culture techniques performed with the intention of capturing all possible organisms.
+Results
+Sixty-two effusions (42 patients) were analysed: 28 (45.2%) were culture-positive, but 51 (82.3%) were CLSM-positive.
+Combining the two techniques demonstrated live bacteria in 57 (91.8%) samples.
+Using CLSM, bacteria exhibited biofilm morphology in 25 effusions and were planktonic in 26; the proportion of samples exhibiting biofilm morphology was similar in the culture-positive and culture-negative groups (50.0% and 48.3%, respectively).
+Biofilm samples contained an average of 1.7 different bacterial isolates and planktonic samples 2.0, with the commonest bacteria identified being coagulase-negative staphylococci.
+Conclusion
+Live bacteria are present in most effusions, strongly suggesting that bacteria and biofilms are important in the aetiopathogenesis of OME.
+
+Introduction
+Glue ear (otitis media with effusion, OME) is the commonest cause of deafness in children in the developed world with point prevalence in the region of 20%, and up to 80% of children are affected at least temporarily by the age of 10 years [1,2].
+OME, acute otitis media (AOM) and recurrent AOM (3 or more episodes in 6 months) are closely related clinical conditions [3].
+AOM represents an acute infective (bacterial and/or viral) process, whereas OME is characterised by the presence of a middle ear effusion in the absence of symptoms and signs of acute inflammation [4].
+OME and AOM are the leading cause of primary care visits, and the most frequent reason for antibiotics or surgery [5,6].
+Although in the majority of cases OME is transient, a proportion of children develop persistent symptoms that may affect hearing, education, language or behaviour [2].
+If OME persists after a three month period of watchful waiting, treatment with ventilation tubes (VTs or grommets) or hearing aids may be considered [2].
+Most UK parents opt for surgery, and VT insertion is one of the commonest surgical procedures in children in the developed world [4].
+VT insertion is currently the only effective treatment to restore hearing but it requires a general anaesthetic in children.
+In addition, about a quarter of cases will require further surgical treatment within 2 years [7], with the average number of procedures per patient being 2.1 [8].
+Numerous medical treatments have also been tried.
+Antibiotics particularly have received considerable attention, but although oral antibiotics are effective in resolving OME in the short term, there is no long-term benefit, and it is not a recommended treatment in the UK [2,6,9].
+Due to its major socio-economic and health care importance, much attention has focused on the aetiology of OME [6].
+It is a chronic inflammatory condition affecting the middle ear mucosa resulting in secretion of mucus that accumulates in the middle ear cleft [4,10].
+However, the cause of the inflammatory response has been difficult to identify especially because OME is not characterised by symptoms and signs of acute inflammation that would be expected in a typical acute bacterial infection caused by planktonic bacteria; there is no pain, fever, or tympanic membrane inflammation.
+The role of bacteria in OME has therefore been controversial.
+The typical bacteria implicated in OME are Streptococcus pneumoniae, Moraxella catarrhalis and Haemophilus influenzae [4], but in most studies bacteria were culturable in less than half of samples, ranging from 21 to 70% [11-16].
+Although this may suggest that bacteria are not important in OME, it contrasts with studies examining effusions for the presence of bacterial nucleic acids by polymerase chain reaction (PCR), which have demonstrated bacterial DNA typically in excess of 80% of effusions [4,17,18].
+However, the presence of bacterial nucleic acids does not necessarily equate to the presence of viable bacteria as components of effusion samples have been shown to inhibit nuclease activity, and this has been postulated to cause the persistence of RNA and DNA even if bacteria are no longer viable [19].
+A possible explanation for the discrepancy between high PCR-positive rate and low culture-positive rate in OME is the involvement of biofilms in the progression of this pathology [20].
+Indeed, biofilms have been identified on human middle ear mucosa in children with OME and/or recurrent AOM in more than 90% of cases, but not in any control samples studied [12].
+In addition to tissue surfaces, biofilms have also been identified attached to mucus [21,22] and attach in vitro to collagen gel matrix [23].
+In OME, biofilms may be attached to mucus as well as mucosa, thus providing the inflammatory stimulus leading to a middle ear effusion [10,13,24].
+To demonstrate bacteria and biofilms in OME, an alternative approach was adopted in this study.
+In addition to extended microbial culture on a wide variety of media of middle ear effusion samples taken at the time of VT insertion, effusions were also analysed using a bacterial viability stain and confocal laser scanning microscopy (CLSM).
+The advantage of the former technique is that staining allows detection of live bacteria without requiring them to grow on culture, while CLSM demonstrates three-dimensional structure of bacterial communities typical of biofilms [25].
+The results presented here differ from data presented by Hall-Stoodley et al. in that the present analysis relates to the middle ear effusion itself, rather than the mucosal biopsies examined by previous research [12].
+This study aimed to determine the proportion of effusion samples that could be shown to contain live bacteria on extended culture and/or CLSM with bacterial viability staining.
+We also identified the bacteria involved, and determined whether they existed as biofilms in middle ear effusions.
+Methods
+The study was approved by Nottingham Research Ethics Committee.
+Written informed consent was provided by the parents or legal guardians of the study participants.
+Patients were listed for VT insertion according to standard clinical practice: symptomatic OME persisting for at least 3 months.
+The deliberately wide inclusion criteria were chosen to maximise the applicability of study results to clinical practice.
+The ear canal was disinfected by instilling 70% isopropanol for 2min, with swabs performed before and after alcohol disinfection.
+Myringotomy was performed using standard aseptic technique, and effusion aspirated into a sterile collection tube and transported for immediate processing.
+Samples were analysed in a dedicated microbiology laboratory routinely involved in the processing of clinical samples for research, supervised by a certified clinical microbiologist (RB).
+Effusion samples were cultured on six different media.
+Sheep blood and MacConkey agar plates (Oxoid, Basingstoke, UK) were incubated aerobically for up to three weeks at 37°C.
+The remaining four media (Helicobacter pylori, chocolatised blood for H. influenzae, and Mycoplasma selective agars incubated in 5% CO2, and sheep blood agar incubated anaerobically), were incubated for up to ten weeks with rigorous precautions to prevent contamination.
+Bacteria were identified using conventional tests including Gram stain, catalase, oxidase and DNase production, optochin susceptibility, response to growth factors X (haemin) and V (nicotinamide adenine dinucleotide), and growth in anaerobic conditions, with Analytical Profile Index (API) strips (bioMérieux, Marcy l'Etoile, France) used to speciate the isolates.
+CLSM was performed using a Leica SP2 microscope, on samples stained with LIVE/DEAD™ stain (Molecular Probes, OR, USA) according to the product literature protocol.
+The LIVE/DEAD™ stain employs differential membrane permeability to stain intact and uncompromised bacterial cell membranes (i.e. live bacteria) green with SYTO 9, whereas nuclei of dead bacteria stain red with propidium iodide.
+Eukaryotic-derived material also has a tendency to stain red.
+Morphology of bacterial populations was also analysed.
+Biofilms were identified on the basis of well-established morphologic criteria that have been applied to OME in the past [12,25].
+Three-dimensional bacterial clusters within an amorphous matrix and associated with a surface such as eukaryotic cells or strands were classified as biofilms.
+In contrast, bacteria that appeared as individual bacteria rather than a grouping were considered planktonic, as were any bacterial groups that were not associated with a surface.
+Typical examples are shown in Fig. 1.
+Two assessors (RB, MD) determined bacterial morphology, and both were blinded to the culture result.
+Mucins were identified by Alcian blue/periodic acid Schiff (PAS) staining.
+Samples were smeared thinly onto a glass slide and fixed in methanol.
+After addition of Alcian blue (HD Supplies, Aylesbury, UK), slides were placed in 1% periodic acid, then Schiff's reagent, stained with Mayer's haematoxylin, "blued" with 1% lithium carbonate, and mounted in dibutyl phthalate in xylene (Sigma-Aldrich, Poole, UK).
+Any mucin stains blue/purple in colour with this technique.
+PASW Statistics18 was used for statistical analysis.
+Results
+A total of 62 samples from 42 different patients (27 male, 15 female) were analysed.
+Most patients (35, 83.3%) were aged under 18 years, the median age being 4.5 years and age ranging from 1 to 75.
+Canal disinfection
+A random subset of 14 ears was analysed to assess effectiveness of alcohol disinfection, by comparing culture results in swabs taken before and after disinfection.
+Four swabs were culture positive prior to disinfection (one containing Streptococcus constelatus, one Bacillus spp., and two coagulase negative staphylococci).
+All swab cultures were negative after disinfection.
+Effusion culture and confocal microscopy
+Twenty-eight of the 62 effusions were culture-positive (45.2%), but CLSM demonstrated live bacteria in 51 (82.3%) samples.
+Table 1 illustrates the relationship between culture and CLSM results, showing that combining the two techniques identified live bacteria in 57 effusions (91.9%).
+Among the CLSM-positive samples, 25 (49.0%) contained biofilms and 26 (51.0%) planktonic bacteria.
+Culture positivity appeared not to influence bacterial morphology at CLSM, as the proportion of samples exhibiting biofilm morphology was similar in the culture-positive and culture-negative groups (50.0% and 48.3%, respectively).
+Differences between adults and children were explored on a per-patient (rather than per-ear) basis; where data existed for two ears, the per-patient analysis was carried out using the criteria of at least one ear being culture/confocal positive and at least one ear containing biofilms.
+Children appeared to have a greater number of culture-positive, confocal-positive, and biofilm results than adults (54.3% vs. 14.3%, 82.9% vs. 57.1%, and 67.9% vs. 0%, respectively).
+However, only the presence of biofilms reached statistical significance (Fisher's exact test p=0.02).
+In the 20 patients (all children) in whom data from both ears were available the correlation between the findings in the two ears was assessed.
+The agreement rate was 70.0% (14/20) in the case of culture positivity rate (kappa=0.381, fair agreement), 90.0% (18/20) in the case of confocal positivity rate (kappa=0.444, moderate agreement), and 58.8% (10/17 confocal positive samples) in the case of confocal morphology type (kappa=0.168, poor agreement).
+The same bacteria were identified in both ears in 7 children (35.0%).
+Table 2 shows the range of different bacterial isolates, including the relationship of bacterial isolates to CLSM findings.
+The mean number of different bacterial isolates was 1.8 per culture-positive sample, with no significant difference between confocal-positive and confocal-negative samples.
+Biofilm samples contained an average of 1.7 and planktonic samples 2.0 different bacterial isolates, but this was not statistically significant on t-test (p=0.51).
+Fig. 1 shows representative images obtained by CLSM.
+The red strands observed at CLSM had the appearance of mucin, confirmed with Alcian blue/PAS staining (Fig. 2).
+Discussion
+Summary of findings
+The results show that combining culture and confocal microscopy enables demonstration of live bacteria in more than 90% of OME samples, strongly suggesting a role for bacteria in the aetiopathogenesis of OME.
+Extended cultures alone were positive in 45.2%.
+However, CLSM was positive in 82.3%, and in these samples biofilms were demonstrated in 49.0%.
+A wide variety of different bacteria were also identified, rather than just the traditional three studied in the past (S. pneumoniae, H. influenzae, M. catarrhalis).
+Biofilms in OME
+The microbiology of OME has been studied for many decades, yet controversy still exists as to the role of bacteria in the aetiology of OME [4,26].
+A high proportion of effusions (typically more than half) are culture-negative [11-16].
+However, while PCR has demonstrated bacterial nucleic acids in a much greater number of patients [4,17,18], nucleic acids identified at PCR may not represent viable bacteria, even when the quantitative technique of real time PCR is used [27], although a novel technique of differentiating whether DNA comes from live or dead bacteria has recently been developed [28].
+An alternative view of bacteria in OME is that they might be viable but not culturable by conventional means, a state that is commonly seen in biofilms [29,30].
+An additional problem is the issue of sampling: a biofilm may be localised to only one part of the effusion, so unless the entire effusion is analysed, a localised biofilm may be missed.
+Our data add to current knowledge of bacterial and biofilm involvement in OME as we examined mucus as the site of biofilm attachment rather than mucosa, and clearly demonstrated that the bacteria were viable (something that PCR cannot do) in more than 90% of samples [4,12,20,31,32].
+Biofilms and bacterial structural components may themselves be pathogenic, and have been shown to cause inflammatory cytokine release [13,33], but may also act as a reservoir of bacteria, with some bacteria leaving the biofilm to become planktonic and disseminated.
+While bacteria in biofilm mode are usually in dormant phase and do not, for instance, produce toxins or invasion-related virulence factors, this facility can be restored on reversion to planktonic mode [34].
+Using CLSM we were able to detect biofilms in just under half of CLSM-positive samples.
+However, CLSM identified live bacteria in 85.3% of the culture-negative samples.
+Among culture-negative samples 14.7% were also confocal-negative, but of the culture-positive samples 21.4% were confocal-negative.
+This suggests that CLSM may under-estimate the presence of bacteria, perhaps due to sampling differences, especially important where small samples of effusion were divided between several tests.
+There appeared to be no great difference between planktonic and biofilm bacteria identified on LCSM-positive samples, with similar numbers being culture-positive.
+Although one might have expected all samples containing planktonic bacteria to have been culture-positive according to the non-culturable biofilm theory, 16 such effusions were culture-negative.
+It is possible that these bacteria did exist in biofilm form (which would make them difficult to culture), but that their original morphology was disturbed by the process of surgical aspiration or laboratory preparation/mixing.
+The fact that some effusions containing biofilms on confocal microscopy were culture positive is not surprising as bacteria from biofilms frequently leave the biofilm to enter the planktonic state (and would therefore be culturable), and processing of samples for analysis may also disrupt the biofilm thus rendering the bacteria planktonic and the culture positive.
+Children's effusions appeared to be more likely to contain biofilms than adults, in keeping with the expected infective aetiology of OME in children but a possibly different aetiology in adults [4].
+No great correlation between findings in the opposite ears has been demonstrated, suggesting that individual ears may be subject to different local aetiopathogenic mechanisms.
+Biofilms were identified on the basis of well-established morphological criteria that have been applied to OME in the recent past, i.e. the presence of three-dimensional bacterial clusters within an amorphous matrix and associated with a surface such as eukaryotic cells or strands [12,25].
+Although the BacLight stain enables differentiation only between bacteria with intact and damaged cytoplasmic membranes it is often used to differentiate between active and dead cells [35,36], and while it appears to be reasonable to consider membrane-compromised bacterial cells as dead, the reverse (i.e. intact membrane signifies live cells) may not be true in a small number of cases [35].
+However, given that 82.3% of the samples in this study stained live on confocal microscopy, a small false-live rate will still leave the majority of samples containing live bacteria.
+The question of whether OME is a biofilm infection has been addressed by Fergie et al. [20].
+Parsek and Singh suggested that the following criteria should be fulfilled for a disease to be considered a biofilm infection [25]:•
+Bacteria are adherent to substratum or a surface.
+•
+Bacteria are living in cell clusters or micro-colonies encased in an extracellular matrix.
+•
+Infection is generally confined to a particular location.
+•
+Infection is difficult or impossible to eradicate with antibiotics, despite the responsible bacteria being susceptible to the antibiotic when in the planktonic state.
+Our results show that extended culture techniques and confocal microscopy together can identify live bacteria in 92% of cases, and we found biofilms in just under half of effusions.
+Although studies of middle ear mucosa have shown biofilms in most (but not all) samples, this does not necessarily contradict our findings as there are several reasons why this difference between mucosa and mucus may exist [12,32].
+It is possible that biofilms exist on the mucosa in most people with OME but exist within the effusion associated with mucins in only just under half of cases, or that biofilms on mucosa act as reservoirs of bacteria that then enter the effusion, or that there is an issue with which part of the effusion is sampled for analysis.
+The presence of an intact mucus layer appears to be important in controlling bacteria within the human gastro-intestinal tract as most bacteria reside on the luminal side of the mucus layer [37], with no direct contact with the epithelium unless inflammation is present [38,39].
+Could biofilms be a part of the normal middle ear flora rather than the pathogenic cause of OME? While Hall-Stoodley [12] did not find any biofilms in their healthy controls, another study [40] of middle ear mucosal biopsy at time of cochlear implant showed biofilms in 2 out of 45 cases without evidence of previous otologic problems or abnormalities, suggesting that biofilms may exist in the asymptomatic middle ear.
+The difficulty when researching biofilms in OME is choice of control group.
+Entirely normal patients do not require ear surgery, and all the control groups chosen are patients having surgery for another (ostensibly non-related) reason, but they cannot be considered to be normal.
+When studying effusions as in this study, the problem is compounded by the fact that the normal ear does not have an effusion, therefore no suitable negative control exists.
+A further problem relates to the common phenomenon of temporary OME, so it possible that children considered "normal" may have biofilms in their middle ear because they have a temporary problem that would never come to medical attention otherwise.
+Nevertheless, the presence of a biofilm may lead to an inflammatory stimulus that results in middle ear mucosal inflammation and therefore clinical OME [10,13].
+Biofilms have also been found in patients with cholesteatoma and chronic suppurative otitis media [32,41].
+Bacterial types in OME
+S. pneumoniae, M. catarrhalis and H. influenzae are the most common pathogens implicated in OME, and all are capable of forming biofilms [33,42].
+However, rather than focusing just on those three bacteria, this study cultured effusions on a wide range of different media for prolonged time periods in order to capture as many isolates as possible.
+Interestingly, coagulase negative staphylococci (CoNS), Veillonella spp.
+and S. aureus were the three commonest pathogens isolated in this study.
+CoNS were long thought to be non-pathogenic commensals, but with the recognition of their biofilm-forming capacity have emerged as the leading cause of biomaterials-related infection [43,43].
+S. lugdunensis, isolated here on three occasions, in particular has been implicated in endocarditis, wound infection, and implant-related infection as well as otitis media, behaving more like S. aureus than other CoNS [45].
+Other CoNS have also been previously implicated in otitis media, with a recent study finding that they account for 60% of bacteria isolated from OME [46,47].
+Veillonella is a Gram-negative anaerobe that inhabits the mouth and upper respiratory tract, forms biofilms [48] and has previously been found in middle ear disease [49,50].
+S. aureus also forms biofilms and has been identified in middle ear disease [51,52].
+Although most of the bacteria in Table 2 have previously been isolated in middle ear disease, to the best of the authors' knowledge Flavimonas oryzihabitans, Vibrio metschnikovii and Gemella haemolysans have not been implicated previously.
+It is unclear why the present study identified the three traditional OME bacteria in a lower proportion of samples than other studies.
+Although the samples in this study may have been cultured for longer periods of time (with the intention of identifying slow-growing species) than is typical in the routine diagnostic laboratory, the authors do not consider that results represent contamination as stringent precautions were taken.
+Variation in prevalence of OME over time has been previously documented [16], and may be due to patterns of antibiotic use or vaccination, particularly with the introduction of vaccines against H. influenzae type b and S. pneumoniae.
+The adoption of a broad microbiological approach in this study with the aim of identification of all bacteria may also have detected species missed by studies adopting a narrower culturing approach.
+Confocal microscopy itself does not allow identification of bacterial species, therefore Hall-Stoodley et al. have characterised bacteria by fluorescence in situ hybridisation [12].
+However, as bacterial identification is obtained only when a species-specific probe is used, this approach is not suitable when trying to identify every species as part of a strategy aimed at identifying the broadest possible range of bacterial species.
+Although numbers of isolates of any one bacterial species are small, it is interesting to note that majority of samples that grew CoNS and S. aureus on culture appeared to contain planktonic bacteria on confocal microscopy, despite both being well-recognised as biofilm-forming pathogens [43,44,51].
+Pseudomonas aeruginosa, which is well known to produce biofilms [42] was also identified in biofilm morphology in this study, but Acinetobacter appeared difficult to detect on CLSM.
+Glue ear treatment
+This study clearly implicates bacteria in the aetiopathogenesis of OME.
+Our study finds biofilms in 49.0% of confocal-positive effusions, and previous research has demonstrated them on more than 90% of mucosal biopsies in children with OME or recurrent AOM [12].
+This new understanding of OME aetiology also leads to potentially novel therapeutic possibilities that may improve current management options.
+At present, treatment of persistent symptomatic OME involves drainage of the effusion and VT insertion, but this does not address any persistent bacterial infection, and serves to merely remove the effusion that is the result of a middle ear inflammation.
+It is therefore perhaps not surprising that about a quarter of cases will require further surgical treatment within 2 years, and the average number of procedures per child is greater than two [7,8].
+Unlike planktonic bacteria, which would be expected to respond to conventional antibiotic treatment, bacteria in biofilms adopt a distinct phenotype with a slow growth rate that makes them recalcitrant to standard antibacterial therapy [42,53,54].
+However, novel antibacterial strategies such as locally delivered high-dose antibiotics over a prolonged time period [53,54] or new drug delivery systems and antimicrobial-impregnated devices appear promising [53,55,56], and other novel techniques such as ultrasound [57,58], low-strength electrical fields [59], enzymatic degradation of extracellular matrix [60], inhibition of quorum sensing [61-63], disruption of biofilm-related genes, or indeed a combination of the above in a smart system that detects and treats biofilm infection [64] might be of interest.
+However, at present the application of these approaches to OME remains speculative.
+Conclusion
+The role of bacteria in OME has been controversial, with a long-held debate fuelled by the low number of effusions that are culture-positive and the controversy over whether PCR-positive samples indicate live bacteria.
+However, this study, using extended cultures and confocal microscopy, demonstrates live bacteria in more than 90% of middle ear effusions in children with glue ear, strongly suggesting that bacteria and biofilms are important in the pathogenesis of the condition.
+Funding
+This work was supported by Deafness Research UK, but the funder played no role in study design, collection, analysis and interpretation of data, in the writing of the manuscript, and in the decision to submit the manuscript for publication.
+Conflict of interest statement
+None.
+Acknowledgements
+The authors wish to thank staff at the Advanced Microscopy Unit at the University of Nottingham for help with confocal microscopy, and staff at Nottingham University Hospitals operating theatres for help with sample collection.
+

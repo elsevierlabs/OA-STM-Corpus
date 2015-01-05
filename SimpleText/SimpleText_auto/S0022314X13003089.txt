@@ -1,0 +1,311 @@
+Integral-valued polynomials over sets of algebraic integers of bounded degree
+
+Abstract
+Let K be a number field of degree n with ring of integers OK.
+By means of a criterion of Gilmer for polynomially dense subsets of the ring of integers of a number field, we show that, if h∈K[X] maps every element of OK of degree n to an algebraic integer, then h(X) is integral-valued over OK, that is, h(OK)⊂OK.
+A similar property holds if we consider the set of all algebraic integers of degree n and a polynomial f∈Q[X]: if f(α) is integral over Z for every algebraic integer α of degree n, then f(β) is integral over Z for every algebraic integer β of degree smaller than n.
+This second result is established by proving that the integral closure of the ring of polynomials in Q[X] which are integer-valued over the set of matrices Mn(Z) is equal to the ring of integral-valued polynomials over the set of algebraic integers of degree equal to n.
+
+Introduction
+Let K be a number field of degree n over Q with ring of integers OK.
+Given f∈K[X] and α∈OK, the evaluation of f(X) at α is an element of K.
+If f(α) is in OK we say that f(X) is integral-valued on α.
+If this condition holds for every α∈OK, we say that f(X) is integral-valued over OK.
+The set of such polynomials forms a ring, usually denoted by:Int(OK)≑{f∈K[X]|f(OK)⊂OK}.
+Obviously, Int(OK)⊃OK[X] and this is a strict containment (over Z, consider X(X-1)/2).
+A classical problem regarding integral-valued polynomials is to find proper subsets S of OK such that if f(X) is any polynomial in K[X] such that f(s) is in OK for all s in S then f(X) is integral-valued over OK.
+A subset S of OK with this property is usually called a polynomially dense subset of OK.
+For example, it is easy to see that cofinite subsets of OK have this property.
+For a general reference of polynomially dense subsets and the so-called polynomial closure see [1] (see also the references contained in there).
+Obviously, for a polynomially dense subset S we have Int(S,OK)≑{f∈K[X]|f(S)⊂OK}=Int(OK) (in general we only have one containment).
+Gilmer gave a criterion which characterizes polynomially dense subsets of a Dedekind domain with finite residue fields [6].
+His result was later elaborated by McQuillan in this way ([9]; we state it for the ring of integers of a number field): a subset S of OK is polynomially dense in OK if and only if, for every non-zero prime ideal P of OK, S is dense in OK with respect to the P-adic topology.
+By means of this criterion, we show here the following theorem.
+Theorem 1.1
+Let K be a number field of degree n over Q.
+Let OK,n be the set of algebraic integers of K of degree n.
+Then OK,n is polynomially dense in OK.
+The previous problem concerns the integrality of the values of a polynomial with coefficients in a number field K over the set of algebraic integers of K.
+We also address here our interest to the study of the integrality of the values of a polynomial with rational coefficients over the set of algebraic integers of a proper finite extension of Q, or, more in general, over a set of algebraic integers which lie in possibly infinitely many number fields, but of bounded degree.
+In this direction, Loper and Werner introduced in [8] the following ring of integral-valued polynomials:IntQ(OK)≑{f∈Q[X]|f(OK)⊂OK}.
+This ring is the contraction to Q[X] of Int(OK).
+It is easy to see that it is a subring of the usual ring of integer-valued polynomials Int(Z)={f∈Q[X]|f(Z)⊂Z}.
+Moreover, this is always a strict containment: take any prime integer p such that there exists a prime ideal of OK above p whose residue field strictly contains Z/pZ; then the polynomial X(X-1)⋯(X-(p-1))/p is in Int(Z) but it is not in IntQ(OK).
+In [8] another ring of integral-valued polynomials has been introduced.
+Given an integer n, we denote by An the set of all algebraic integers of degree less than or equal to n in a fixed algebraic closure Q¯ of Q.
+We define the following ringIntQ(An)≑{f∈Q[X]|f(An)⊂An}.
+Notice that for n=1 we have the usual ring Int(Z).
+Given any algebraic integer α of degree n and f(X) any polynomial with rational coefficients, f(α) belongs to Q(α) and in particular its degree is less than or equal to n.
+Therefore, a polynomial f∈Q[X] is in IntQ(An) if and only if for every α in An, f(α) is in the ring A∞⊂Q¯ of all algebraic integers.
+We have then IntQ(An)=IntQ(An,A∞)={f∈Q[X]|f(An)⊂A∞}, where the latter ring is the contraction to Q[X] of the ring Int(An,A∞), which is the ring of polynomials in Q¯[X] which are integer-valued over the subset An of A∞ (notice that by definition the quotient field of A∞ is Q¯).
+In particular, this implies that for all n∈N we have IntQ(An)⊂IntQ(An-1).
+As the authors in [8] show, the ring IntQ(An) is also equal to(1)IntQ(An)=⋂[K:Q]⩽nIntQ(OK) where the intersection is over the set of all number fields K of degree less than or equal to n.
+One of the reason why these rings have been introduced was to show the existence of a Prüfer domain lying properly between Z[X] and Int(Z) (see question Q1 at the beginning of [8]).
+Indeed, they prove that IntQ(An) and IntQ(OK) for any number field K are examples of such rings.
+We can ask whether a result similar to Theorem 1.1 holds for An.
+More specifically, let An be the subset of An of elements of degree equal to n.
+We consider the following ringIntQ(An,An)≑{f∈Q[X]|f(An)⊂An} that is, polynomials with rational coefficients which map the set of algebraic integers of degree n to algebraic integers (which of course have degree less than or equal to n; like before, notice that IntQ(An,An)=IntQ(An,A∞), with the obvious notation).
+A priori this ring contains IntQ(An), since An is a subset of An.
+By Theorem 1.1 it follows that there exist algebraic integers of degree smaller than n (namely, the ring of integers of all number fields of degree n) on which any f∈IntQ(An,An) is integral-valued (we treat this consequence of Theorem 1.1 in Remark 3.2).
+Using the same terminology adopted for subsets of the ring of integers of a number field, we say that An is not polynomially closed in An.
+The main result of this paper is that the two rings of integral-valued polynomials over An and An actually coincide:Theorem 1.2
+For every positive integer n we have:IntQ(An,An)=IntQ(An).
+In this way, in order to check whether a polynomial f∈Q[X] is integral-valued over the set of algebraic integers of degree bounded by n, it is sufficient to check if f(X) is integral-valued over the set of algebraic integers of degree exactly equal to n.
+As above, we say that An is polynomially dense in An.
+In particular, Theorems 1.1 and 1.2 also show that it is not necessary to take a set S of algebraic integers properly containing Z to exhibit a Prüfer domain properly contained between Z[X] and Int(Z) (specifically, IntQ(S,A∞)).
+The ring IntQ(An) has been introduced in [8] also for another reason.
+We denote by Mn(Z) the noncommutative Z-algebra of n×n matrices with entries in Z.
+Given a matrix M∈Mn(Z) and a polynomial f∈Q[X], f(M) is a matrix with rational entries.
+If f(M) has integer entries, we say that f(X) is integer-valued on M.
+We consider the ring of polynomials which are integer-valued over all the matrices of Mn(Z) (introduced in [2]):Int(Mn(Z))≑{f∈Q[X]|f(M)∈Mn(Z),∀M∈Mn(Z)}.
+Like IntQ(An), Int(Mn(Z)) is a subring of the ring of integer-valued polynomial Int(Z) (Z embeds into Mn(Z) as the subalgebra of scalar matrices).
+In [8] the following theorem is proved: Theorem 1.3
+The ring Int(Mn(Z)) is not integrally closed and its integral closure is IntQ(An), which is a Prüfer domain.
+What is behind the containment between these two rings of integer-valued polynomials, is based on the following fact: if f∈Q[X] is integer-valued over a matrix M∈Mn(Z), then f(X) is integral-valued over the set of roots of the characteristic polynomial of M, which are elements of An (that is, the eigenvalues of M as a matrix over Q¯).
+This fact can be easily proved directly, but we will give an alternative point of view based on a representation of the ring Int(Mn(Z)) as an intersection of pullbacks of Q[X], which turn out to be equal to a particular class of rings of integer-valued polynomials over algebraic integers.
+Our Theorem 1.2 is proved by means of a result of Frisch ([3, Proposition 6.2], [4]) which says that the set of matrices with irreducible characteristic polynomial is polynomially dense in Mn(Z).
+We give a summary of the paper.
+In the second section we use Gilmerʼs criterion to prove a generalization of Theorem 1.1 for orders of a number field K.
+By means of a result of Győry, we also show that if we remove from OK,n those elements which generates OK as a Z-algebra (if any) we still get a polynomially dense subset.
+In Section 3 we establish the connection between the subring of Q[X] of integer-valued polynomials over a set of n×n integral matrices with irreducible characteristic polynomial in a prescribed set P (these rings have been studied in [10]) and rings of integral-valued polynomials over the roots of the polynomials in P (which are algebraic integers of degree n), showing that the latter is the integral closure of the former.
+This result is achieved by means of Theorem 3.1.
+We need a result from [10] which says that the ring of integer-valued polynomials over matrices with prescribed characteristic polynomial p∈Z[X] is equal to the pullback ring Z[X]+p(X)⋅Q[X].
+Theorem 3.1 proves that the integral closure of the intersection of a collection of pullbacks of this kind is the intersection of the integral closure of the pullbacks of the family.
+The crucial assumption we need is that the degree of the polynomials of the set P is bounded by the above integer n.
+From this result, Theorem 1.2 follows.
+In Remark 3.2 we stress that Theorem 1.1 does not imply directly Theorem 1.2.
+We also prove another related result, analogous to Theorem 1.3.
+As IntQ(An) is the integral closure of the ring Int(Mn(Z)), in the same way, for every number field K, IntQ(OK) (which by (1) is an overring of IntQ(An)) is equal to the integral closure of a certain overring of Int(Mn(Z)), namely, the ring of integer-valued polynomials over the set MnK(Z) of matrices with characteristic polynomial equal to a minimal polynomial of some algebraic integer of maximal degree of K.
+Polynomially dense subsets of the ring of integers of a number field
+We recall from the introduction that a subset S of a domain D with quotient field K is polynomially dense in D if the ring Int(S,D)≑{f∈K[X]|f(S)⊂D} is equal to Int(D)={f∈K[X]|f(D)⊂D}.
+Let K be a number field with ring of integers OK.
+The statement of the criterion of Gilmer ([6, Theorem 8], originally stated for Dedekind domains with finite residue fields) we mentioned in the introduction is the following: a subset S of OK is polynomially dense in OK if and only if for every non-zero prime ideal P of OK and any positive integer k, the set S contains a complete set of representatives of the residue classes modulo Pk.
+According to Gilmerʼs terminology, such a subset is called prime power complete.
+As McQuillan showed in [9], this property corresponds to S being dense in OK with respect to the P-adic topology, for each non-zero prime ideal P of OK.
+By [1, Chapter IV] the same result holds for orders of K.
+We recall that an order of K is a subring of K which has maximal rank as a Z-module; in particular, an order O of K is contained in OK, which is called maximal order.
+If n is the degree of K over Q and O⊆OK is an order, we denote by On the set of elements of O of degree n, thus On≑{α∈O|Q(α)=K}.
+We denote Int(On,O)={f∈K[X]|f(On)⊂O} and Int(O)={f∈K[X]|f(O)⊂O} (the quotient field of O is the number field K).
+Via Gilmerʼs criterion it is easy to see that, if a subset S of OK is polynomially dense in OK then it has non-zero intersection with On.
+In fact, if S is contained in a proper subfield K′ of K, just consider a prime ideal P of OK whose residue field is strictly bigger than the residue field of the contraction of P to OK′.
+This implies that there are residue classes modulo P which are not covered by the set S.
+The next theorem is a generalization of Theorem 1.1 of the introduction.
+Theorem 2.1
+Let K be a number field of degree n and O an order of K.
+ThenInt(On,O)=Int(O) that is, On is polynomially dense in O.
+ Proof
+Given a non-zero ideal I of O, there exists α∈I of degree n.
+In fact, suppose I∩Z=dZ, for some non-zero integer d.
+Since dO⊂I, it is sufficient to prove the claim for the principal ideals of O generated by an integer d.
+Pick an element α in O of degree n.
+Then there are exactly n conjugates of dα over Q and they lie in dO.
+Let Pk be the power of a non-zero prime ideal of OK.
+By the discussion above Pk has non-trivial intersection with On.
+We have to show that every residue class α+Pk has a representative which lies in On.
+If α∈O∖On, pick an element β∈Pk of maximal degree.
+Then, using an argument similar to the proof of the primitive element theorem, there is an integer k such that the algebraic integer γ=α+kβ (which is in α+Pk) is a generator of Q(α,β)=Q(β)=K, thus γ has maximal degree n. □
+Since OK,n⊂OK∖Z⊂OK we also have that OK∖Z is polynomially dense in OK.
+We may wonder whether there exist polynomially dense subsets properly contained in the subset On of an order O of a number field K of degree n.
+The next proposition gives a positive answer to this question.
+Given such an order O⊆OK, we consider the setAO≑{α∈O|Z[α]=O}.
+The set AO is contained in On and it may be empty.
+By a result of Győry, AO is a finite union of equivalence classes with respect to the equivalence relation given by α∼β⇔β=±α+m, for some m∈Z (see [7]).
+This means thatAO=⋃i=1,…,k(±αi+Z) where O=Z[αi], i=1,…,k and αi±αj∉Z, ∀i≠j.
+With these notations we have the following Proposition.
+Proposition 2.1
+On∖AO is polynomially dense in O.
+ Proof
+If AO is empty then by Theorem 2.1 we are done.
+Suppose now that AO is not empty.
+Let I=Pk be a power of a prime ideal P (our arguments hold for any ideal I of O, indeed).
+Suppose that a residue class α+I is contained in AO.
+This means that the class α+I itself (and consequently the ideal I) can be partitioned into a finite union of sets, each contained in ±βi+Z, βi=αi+α.
+That is, we have I=⋃1,…,k(±βi+Z)∩I.
+Now for each i=1,…,k, choose (if it exists) γi∈I such that γi-βi∈Z (there exists at least one such value of i, or else I would be empty).
+Then we haveI=⋃i=1,…,t(γi+(Z∩I)) (t⩽k; the containment (⊇) is obvious; conversely, if γ∈I, for some βi we have βi∼γ, so that γ∼γi and so γ-γi∈Z∩I).
+Hence, the additive group of I is a finite union of residue classes modulo J=I∩Z.
+This is not possible: J is a free-Z module of rank 1 and I is a free-Z module of rank n>1. □
+Rings of integer-valued polynomials as intersection of pullbacks
+Let α be a fixed algebraic integer over Z.
+Given a polynomial f∈Q[X], the evaluation of f(X) at α is an element of the number field K=Q(α), which is by its very definition the set of all the f(α)ʼs, with f∈Q[X].
+This set is clearly a ring (a field, indeed), since it is the image under the evaluation homomorphism at α of the polynomial ring Q[X].
+It is well-known that the set of those f(α)ʼs which are integral over Z is a subring of K, called the ring of integers of K.
+We denote this subring by OQ(α) (we stress that this subring does not depend on α but only on the number field K).
+Notice that, if f∈Z[X], then f(α) is clearly in Z[α]⊆OQ(α), but there exist other polynomials f(X) in Q[X]∖Z[X] such that f(α) is in Z[α].
+In order to study this phenomenon, we introduce the following rings.
+Definition 3.1
+Rα≑IntQ({α},Z[α])={f∈Q[X]|f(α)∈Z[α]},Sα≑IntQ({α},OQ(α))={f∈Q[X]|f(α)∈OQ(α)}.
+Notice that Z[X]⊂Rα⊆Sα⊂Q[X], so that Rα and Sα are Z[X]-algebras.
+If α generates the ring OQ(α) as a Z-algebra, that is Z[α]=OQ(α), we say that the ring of integers OQ(α) is monogenic.
+In particular, if this condition holds, Rα=Sα.
+It is easy to see that in general the containment Rα⊂Sα is proper.
+Take α=22.
+Then Q(α)=Q(2) so that OQ(α)=Z[2].
+We consider f(X)=X/2.
+Then f(α)=2∈OQ(α)∖Z[α], so that f∈Sα∖Rα.
+In general Z[α] is only contained in OQ(α) and the two rings have the same quotient field Q(α).
+The integral closure of Z[α] in Q(α) is obviously OQ(α).
+By the next lemma, the previous implication can be reversed, namely if Rα=Sα then Z[α]=OQ(α).
+Lemma 3.1
+Let α be an algebraic integer and K=Q(α).
+We setRα(α)≑{f(α)|f∈Rα},Sα(α)≑{f(α)|f∈Sα}.
+Then Rα(α)=Z[α] and Sα(α)=OK.
+ Proof
+By definition Rα(α)⊆Z[α].
+Since Z[X]⊂Rα we also have the other containment.
+For the same reason we have Sα(α)⊆OK.
+Let c=cα=[OK:Z[α]] and take β∈OK.
+We have that cβ∈Z[α], so that cβ=g(α) for some g∈Z[X].
+Then f(X)≑g(X)/c∈Q[X] has the property that f(α)=β∈OK, that is f∈Sα and its evaluation on α is β as wanted. □
+By [1, Proposition IV.4.3], the integral closure of Int({α},Z[α]) in its quotient field Q(α)(X) is Int({α},OK).
+We notice that Int({α},OK)=OK+(X-α)K[X], where K=Q(α), so Int({α},OK) is a pullback of K[X].
+The next proposition shows that analogous properties hold for the contraction of these rings to Q[X], which are the rings Rα and Sα, respectively.
+For a general treatment of pullbacks see [5].
+Proposition 3.1
+Let α be an algebraic integer of degree n over Z and pα∈Z[X] its minimal polynomial.
+Then Rα and Sα are pullbacks of Q[X].
+In particular, Rα=Z[X]+Mα, where Mα is the maximal ideal of Q[X] generated by pα(X).
+Moreover, the integral closure of Rα in its quotient field Q(X) is Sα, which is a Prüfer domain, and Rα is integrally closed if and only if Z[α]=OQ(α).
+ Proof
+It is easy to see that Mα=pα(X)⋅Q[X] is a common ideal of Rα, Sα and Q[X].
+We have the following diagram:(2)Rα→Rα/Mα≅Z[α]↓↓Sα→Sα/Mα≅OQ(α)↓↓Q[X]→Q[X]/Mα≅Q(α) where the vertical arrows are the natural inclusions and the horizontal arrows are the natural projection, which can be viewed as the evaluation of a polynomial f(X) at α (in fact, the residue class f(X)+Mα is equal to f(α)+Mα).
+The kernel of the evaluation homomorphism at α at each row is the ideal Mα.
+Notice that Mα∩Z={0}, so that Z injects into the above residue rings.
+Because of that and by Lemma 3.1, Rα/Mα≅Rα(α)=Z[α] and Sα/Mα≅Sα(α)=OK.
+Obviously, Q[X]/Mα≅Q(α).
+Thus, by definition, Rα and Sα are pullbacks of Q[X].
+We have to show that Rα=Z[X]+Mα.
+The containment (⊇) is straightforward.
+Conversely, let f∈Rα, f(X)=g(X)/d, for some g∈Z[X] and d∈Z∖{0}.
+Then g(X)=q(X)pα(X)+r(X), for some q,r∈Z[X], deg(r)<n.
+Then f(α)=r(α)/d∈Z[α], that is r(α)∈dZ[α].
+Now 1,α,…,αn-1 is a free Z-basis of the Z-module Z[α].
+This means that, if r(α)=∑i=0,…,n-1aiαi, for some a0,…,an-1∈Z, then d divides ai for all i, so that r∈dZ[X].
+This shows that f∈Z[X]+Mα.
+Finally, since OQ(α) is the integral closure of Z[α], we apply [5, Theorem 1.2] to our pullback diagram to conclude that Sα is the integral closure of Rα and Rα is integrally closed if and only if Z[α]=OQ(α).
+Finally, in a pullback diagram like in (2) (see for instance [5, Corollary 4.2]), Sα is a Prüfer domain because Q[X] and OQ(α) are Prüfer domains (indeed, they are Dedekind domains).
+Notice that, for the same result, if Z[α]⊊OK, Rα cannot be Prüfer, since in this case Z[α] is not integrally closed. □
+We now consider an arbitrary set A of algebraic integers of bounded degree and the corresponding intersections of the rings Rα and Sα, for α∈A, respectively.
+We recall from the introduction that for each positive integer n, An denotes the set of algebraic integers of degree bounded by n and An the subset of An of those algebraic integers of degree equal to n.
+Definition 3.2
+Given a subset A of An, we setRA≑⋂α∈ARα⊆SA≑⋂α∈ASα.
+ Remark 3.1
+Notice that, for all A⊆An we have Z[X]⊂RA⊆SA⊂Q[X], so that RA and SA are Z[X]-algebras.
+For every A⊆An, we have SAn⊆SA.
+This containment implies that SA is Prüfer, since it is an overring of the Prüfer ring IntQ(An) (Theorem 1.3).
+Let Aα≑{α1=α,…,αn} be the set of conjugates of α over Q.
+If we consider the action of the Galois group of Q(α1,…,αn) over Q, it is easy to see that Rαi=Rαj, Sαi=Sαj for all i,j∈{1,…,n}.
+In particular, Sα=SAα and Rα=RAα.
+Given an algebraic integer α of degree m⩽n, it is easy to see that the following equality holds:Sα=IntQ({α},An)≑{f∈Q[X]|f(α)∈An}.
+It follows that, for any A⊆An, we have SA=IntQ(A,An)={f∈Q[X]|f(A)⊂An}.
+In the same way, as we remarked in the introduction, SA=IntQ(A,A∞).
+From this fact it follows that the ring SA is integrally closed by [1, Proposition IV.4.1], since SA is the contraction to Q(X) of an integrally closed subring of Q¯(X).
+In particular, we have(3)SAn=IntQ(An)⊆IntQ(An,An)=SAn.
+This is another representation of the rings IntQ(An) and IntQ(An,An) as an intersection of the rings Sα.
+Notice that SZ=Int(Z).
+In the same way, given a number field K, [K:Q]⩽n, we haveIntQ(OK)=IntQ(OK,An)=SOK.
+So for all number fields K, the ring IntQ(OK) can be represented as an intersection of the rings Sα, α∈OK.
+Actually, by Theorem 2.1 we can restrict the intersection to the algebraic integers of K of degree n=[K:Q]: SOK=SOK,n.
+In most cases, we can even consider the intersection on strictly smaller subsets of algebraic integers which are polynomially dense in OK (see Proposition 2.1).
+ Remark 3.2
+Since An=⋃[K:Q]=nOK,n (the union is over the family of number fields of degree n over Q) we have SAn=⋂[K:Q]=nSOK,n and RAn=⋂[K:Q]=nROK,n.
+By the above observation that SOK,n=SOK, we have(4)IntQ(An,An)=⋂[K:Q]=nIntQ(OK).
+This representation for IntQ(An,An) is similar to the representation for IntQ(An) in (1) (notice that this intersection is over all the number fields K of degree equal to n, while in (1) the intersection is taken over all the number fields of degree less than or equal to n).
+In particular, the equality in (4) shows that An is not polynomially closed in An.
+More precisely, given a polynomial f∈Q[X] which is integral-valued over the set of all the algebraic integers of degree n, it follows that f(X) is integral-valued over the ring of integers of every number field of degree n.
+We notice that from (4) we have Theorem 1.2 for n=2.
+However, this not prove Theorem 1.2 in general, because the algebraic integers of a number field of degree n have degree which divides n (for example, if n=3 then OK=OK,3∪Z, no algebraic integers of degree 2 can be in OK).
+We give now a generalization of the last statement of Proposition 3.1.
+The next theorem shows that, given any subset A of algebraic integers of degree bounded by n, the integral closure of RA is SA, so, by Proposition 3.1, we can say that the integral closure of the intersection of the rings Rα, α in A, is equal to the intersection of their integral closures Sα.
+Theorem 3.1
+For any A⊆An, SA is the integral closure of RA.
+The proof of Theorem 3.1 follows by the argument given in [8] to show that the integral closure of Int(Mn(Z)) is IntQ(An).
+Lemma 3.2
+For all f∈SA, there exists c∈Z∖{0} such that c⋅RA[f]⊂RA.
+The lemma says that every element of SA is almost integral over RA, that is, SA is contained in the complete integral closure of RA (remember that both have the same quotient field Q(X)).
+In particular, we also have c⋅Z[f]⊂RA. Proof
+It is sufficient to show that there exists a non-zero c∈Z such that for every i∈N, c⋅f(X)i∈RA.
+Let i∈N be fixed and let α∈A.
+We know that f(α)∈OQ(α), so there exists a monic polynomial mα∈Z[X] of degree ⩽n such that mα(f(α))=0.
+For all α∈A we haveXi=qα,i(X)mα(X)+rα,i(X) for some qα,i,rα,i∈Z[X], rα,i(X)=0 or deg(rα,i)<n.
+Thereforef(α)i=rα,i(f(α)).
+Since there is a uniform bound on the degree of the polynomials rα,i(X), for α∈A and i∈N, c⋅f(α)i∈Z[α] for some c∈Z (actually, we can take c=dn-1, where d is a common denominator of the coefficients of f(X)).
+Notice that c does not depend on i.
+It follows that c⋅f(X)i∈RA for all i∈N. □
+The following proposition will prove Theorem 3.1, since SA is integrally closed by Remark 3.1.
+Proposition 3.2
+For every A⊆An, RA⊆SA is an integral ring extension.
+ Proof
+Let f∈SA and let c∈Z as in Lemma 3.2.
+We show that there exists a monic φ∈Z[X] such that φ(f(X))∈RA.
+By hypothesis, for each α∈A there exists mα∈Z[X] monic of degree n such that mα(f(α))=0.
+Let S be a set of monic representatives in Z[X] of all the degree n monic polynomials in the quotient ring (Z/c2Z)[X] and let φ(X)=∏φi∈Sφi(X)∈Z[X] (notice that φ is monic).
+For each α∈A there exists i=i(α) such that mα(X)≡φi(X)(modc2).
+Let φ=φiφ˜ where φ˜ is the product of the remaining φj in S.
+In this way we haveφ(f(α))=c2r(f(α))φ˜(f(α)) for some r∈Z[X].
+By the previous lemma φ(f(α)) is in Z[α], and this holds for any α∈A (φ is independent of α).
+Hence, φ(f(X))∈RA. □
+ Remark 3.3
+We conclude this section with a remark.
+The ring RA is integrally closed if and only if it is a Prüfer domain, because its integral closure SA is always a Prüfer domain.
+If this holds, then all the overrings Rα of RA, for α∈A, are integrally closed.
+By Proposition 3.1 this holds if and only if Z[α]=OQ(α) for each such αʼs.
+If the last condition holds, clearly RA=SA.
+We have thus shown thatRAis integrally closed if and only ifA⊆Aˆn, where Aˆn≑{α∈An|Z[α]=OQ(α)}.
+If A⊆OK,n, where K is a given number field, then RA=SA if and only if A⊆AOK={α∈OK|Z[α]=OK}.
+The next subsection gives a connection between ring of integral-valued polynomials over algebraic integers and rings of integer-valued polynomials over integral matrices.
+Integer-valued polynomials over matrices
+We recall some results from [10].
+Given a subset M of Mn(Z), we consider the ring of polynomials which are integer-valued over M:Int(M,Mn(Z))≑{f∈Q[X]|f(M)∈Mn(Z),∀M∈M}.
+Let Pn be the set of monic polynomials in Z[X] of degree n.
+For a subset P of Pn we denote by MnP(Z) the subset of Mn(Z) of those matrices whose characteristic polynomial is in P. If P={p(X)}, we set Mnp(Z)=MnP(Z); this is the set of matrices whose characteristic polynomial is equal to p(X).
+For a generic P⊆Pn, since MnP(Z)=⋃p∈PMnp(Z) we have(5)Int(MnP(Z),Mn(Z))=⋂p∈PInt(Mnp(Z),Mn(Z)).
+We recall that, by [10, Lemma 2.2 and Remark 2.1], for every p∈Pn we have(6)Int(Mnp(Z),Mn(Z))=Z[X]+p(X)⋅Q[X].
+In this way, by (5) above, every ring of integer-valued polynomial over matrices with prescribed characteristic polynomial can be represented as an intersection of pullbacks of Q[X] of the above kind.
+By Proposition 3.1 and (6) we have the following corollary, which establishes the connection between rings of integer-valued polynomials over matrices and rings of integral-valued polynomials over algebraic integers: Corollary 3.1
+Let α be an algebraic integer of degree n over Z and pα∈Z[X] its minimal polynomial. ThenIntQ({α},Z[α])=Int(Mnpα(Z),Mn(Z))=Z[X]+pα(X)⋅Q[X].
+ Remark 3.4
+Immediately from (6) and by the Cayley-Hamilton theorem, for every M∈Mnp(Z) the evaluation of any f∈Int(Mnp(Z),Mn(Z)) on M is a matrix in the Z-algebra Z[M].
+Since Z[X] is obviously a subring of Int(Mnp(Z),Mn(Z)), we have:Int(Mnp(Z),Mn(Z))(M)={f(M)|f∈Int(Mnp(Z),Mn(Z))}=Z[M].
+This result is a generalization of [3, Theorem 6.4] (indeed, it holds over any integral domain D).
+Let Cp be the companion matrix of p(X).
+By [10, Lemma 2.2] we have Int(Mnp(Z),Mn(Z))=Int({Cp},Mn(Z)).
+By the previous equality we haveInt({Cp},Mn(Z))=Int({Cp},Z[Cp])≑{f∈Q[X]|f(Cp)∈Z[Cp]}.
+If we put together Corollary 3.1 and the previous equality we have(7)IntQ({α},Z[α])=Int({Cpα},Z[Cpα]) In the same way, we can prove that IntQ(Z[α])=Int(Z[Cpα]).
+ Remark 3.5
+By [3, Proposition 6.2] and [4] we have(8)Int(Mn(Z))=Int(Mnirr(Z),Mn(Z)), where Mnirr(Z) is the set of matrices with irreducible characteristic polynomial.
+Let Pnirr be the subset of Pn of irreducible polynomials.
+We can make a partition of Pnirr according to which number field of degree n a polynomial p∈Pnirr has a root:Pnirr=⋃[K:Q]=nPnK where the union is taken over the set of all number fields K of degree n and PnK is the set of minimal polynomials of algebraic integers of OK of maximal degree n.
+Notice that for each p∈Pn,K we have K≅Q[X]/(p(X))≅Q(α), where α is a root of p(X) (in particular, α is an algebraic integer of K).
+To ease the notation, we set MnPnK(Z)=MnK(Z).
+This is the set of matrices whose characteristic polynomial is irreducible and has a root in K.
+By (8) we have(9)Int(Mn(Z))=⋂[K:Q]=nInt(MnK(Z),Mn(Z)).
+We have the following theorem, which resembles Theorem 1.3: Theorem 3.2
+For a given number field K, the ring Int(MnK(Z),Mn(Z)) is not integrally closed and its integral closure is IntQ(OK).
+We prove Theorems 1.2 and 3.2 together in the next and final subsection.
+Proofs of Theorems 1.2 and 3.2
+The connection between rings of integral-valued polynomials and rings of integer-valued polynomials over matrices is given by Corollary 3.1 and (7).
+Notice that the two rings Z[α] and Z[Cpα] are isomorphic, since both are isomorphic to Z[X]/(pα(X)).
+We may now represent the rings of integer-valued polynomials over a set of matrices MnP(Z), P a subset of Pnirr, as an intersection of the pullback rings Rα, where α ranges through the set of roots of the polynomials in P. Indeed, for such a subset P, by Corollary 3.1 and (5) we have:Int(MnP(Z),Mn(Z))=⋂α∈A(P)Rα=RA(P) where A(P)⊆An is the set of roots of all the polynomials p(X) in P (notice that by assumption all these algebraic integers have degree equal to n).
+By Galois invariance (see Remark 3.1) for each polynomial p∈P we can just take one of its roots.
+In this way we have(10)Int(MnP(Z),Mn(Z))=RA(P)⊆SA(P)=IntQ(A(S),An).
+By Theorem 3.1, the latter ring is the integral closure of Int(MnP(Z),Mn(Z)).
+In particular, by Remark 3.3, Int(MnP(Z),Mn(Z)) is integrally closed if and only if Z[α]=OQ(α), for all α∈A(S).
+Let K be a number field of degree n over Q.
+Notice that the set of roots of the minimal polynomials of algebraic integers of degree n in K (this set is denoted by PnK in Remark 3.5) is exactly OK,n, that is: A(PnK)=OK,n.
+Then (10) gives:(11)Int(MnK(Z),Mn(Z))=ROK,n⊂SOK,n=IntQ(OK).
+The equality SOK,n=IntQ(OK) is given by Theorem 1.1.
+Hence, the integral closure of Int(MnK(Z),Mn(Z)) is IntQ(OK).
+This containment is also proper.
+In fact, the overrings Rα, for α∈OK,n, are integrally closed if and only if Z[α]=OK.
+In general there are plenty of α∈OK,n such that this condition is not satisfied (see Proposition 2.1).
+This concludes the proof of Theorem 3.2.
+In the same way, by (9) and (11) we have(12)Int(Mn(Z))=⋂[K:Q]=nInt(MnK(Z),Mn(Z))=⋂[K:Q]=nROK,n=RAn (the latter equality is given in Remark 3.2).
+We remark that, as already mentioned in [8], this representation of Int(Mn(Z)) as an intersection of the rings Rα for α∈An, shows that Int(Mn(Z)) is not Prüfer, since there are many overrings Rα which are not integrally closed: by Proposition 3.1 it is sufficient to consider an algebraic integer α of degree n such that Z[α]⊊OQ(α); then the corresponding Rα is such an overring.
+Finally, since for all n we have Int(Mn(Z))⊂Int(Mn-1(Z)), by (12) RAn⊂RAn-1, so that RAn=⋂m=1,…,nRAm=RAn.
+In particular, by Theorem 3.1, the rings SAn and SAn are equal, since they are the integral closure of RAn and RAn, respectively, and these two rings coincide.
+By (3), the equality SAn=SAn is exactly Theorem 1.2.
+Acknowledgments
+The author wishes to thank Stefania Gabelli for her survey article about pullbacks and Alan Loper for his useful suggestions.
+The author was supported by the Austrian Science Foundation (FWF), Project Number P23245-N18.
+

@@ -1,0 +1,83 @@
+Phialemonium infection complicating chronic suppurative otitis media
+
+Abstract
+Phialemonium infection in humans is rare.
+We report a 7-year-old healthy boy who presented with chronic otorrhea, which persisted despite adequate antibiotic therapy and four preservative tympanomastoidectomy operations.
+Following 3 years of intermittent topical antibiotic therapy, cultures eventually grew Phialemonium, which necessitated a more extensive operation, combined with systemic/topical anti-fungal agent to achieve clinical cure.
+
+Introduction
+Phialemonium spp are a type of dematiaceous fungi that are emerging as opportunistic pathogens of humans.
+To date, less than 30 cases of human Phialemonium infections have been reported, mainly occurring in immunocompromised patients [1,2].
+However, infection of immunocompetent patients have been reported in the literature as well in recent years [3].
+Case
+A 7-year-old boy presented for right-sided otalgia and an ongoing otorrhea despite local and systemic antibiotic therapy administered for 1 month (Fig. 1).
+His past medical history was remarkable for recurrent episodes of otitis media since early childhood, allergic rhinitis and a cutaneous abscess that required drainage.
+His social history was significant for living on a ranch, daily interaction with outdoor animals, and swimming in a lake 2 weeks prior.
+On his initial physical exam (day "0"), otoscopy of the right ear revealed pink granulation tissue, obscuring the tympanic membrane (TM).
+Antibiotic treatment for acute otitis media failed, and examination of the right ear under anesthesia (EUA), performed on day 26, revealed a polyp arising from a posterior-superior TM perforation.
+Specimens sent to surgical pathology demonstrated granulation tissue with chronic inflammation.
+Initial computed tomography (CT) of the temporal bone showed a soft tissue opacification in the right middle ear cavity, poorly aerated mastoid cavity, and erosion of the scutum and ossicles.
+These findings were consistent with chronic serous otitis media (CSOM), with a possible cholesteatoma (Fig. 2A).
+Four months after initial presentation, an attic retraction pocket was observed with anterior tympanosclerosis of the right TM.
+A repeat CT study demonstrated mild improvement of right tympanomastoid cavity opacification with new-onset thinning of the mastoid cortex (Fig. 2B).
+The patient underwent a canal-wall-down (CWU) tympanomastoidectomy on day 169; operative findings were remarkable for keratin debris in the epitympanum, intact malleus and stapes bones, erosion of the incus, and significant swelling of the middle ear mucosa.
+Surgical pathology revealed cholesteatoma and granulation tissue with chronic inflammation.
+Post-operatively, the patient continued to complain of right otorrhea, otalgia and mild ipsilateral conductive hearing loss despite antibiotic therapy.
+One year later, the patient developed a right post-auricular abscess that was emergently treated by surgical incision and drainage on day 533.
+A second CWU tympanomastoidectomy with bilateral tympanostomy tubes insertion was performed 2 months later, on day 628.
+Operative findings included middle ear mucosa swelling with a small amount of debris in the epitympanum.
+In a planned second-look CWU procedure performed 10 months later (day 922), there was no residual cholesteatoma.
+However, right otorrhea persisted post-operatively.
+Otorrhea cultures over time (days 30-990) grew P. aeruginosa and Fusarium spp, and antibiotics were prescribed according to culture results (oral amoxicillin/azithromycin, intravenous ceftazidime and topical ciprofloxacin drops).
+Phialemonium species was first cultured from an otorrhea swab nearly 3 years after initial presentation (day 1135).
+The isolates were received on Sabouraud agar (Becton, Dickinson), sub-cultured on potato flakes agar (Remel), and incubated at 30°C.
+After preliminary identification of Phialemonium species was reported, the isolates were referred to the Fungus Testing Laboratory at the University of Texas Medical Branch at Galveston, which confirmed the genus twice, but could not identify the exact species.
+This unusual fungal isolation was despite several attempts to treat for bacterial-origin otorrhea with antibiotics.
+Due to the persistent CSOM-related otorrhea, now complicated by a rare fungus, the possibility of an underlying immunologic deficiency was considered.
+However, a comprehensive work up of the patient was normal, and included complement levels in the blood, HIV test, immunoglobulin electrophoresis, blood protein electrophoresis, leukocyte adhesion deficiency test, T lymphocytes count and complete blood count.
+Despite a long-term administration of systemic/topical anti-fungals treatment (clotrimazole, 10mg troche given 5 times/day for 14 days, and voriconazole, 200mg tablet given twice/day, for 3 weeks), Phialemonium spp was still isolated in four consecutive cultures over the following year (days 1271, 1295, 1435, 1498).
+Systemic anti-fungal therapy was eventually discontinued due to severe allergic skin reactions.
+After attempting to treat the fungal infection medically for 12 months, the patient underwent a fifth tympanomastoidectomy.
+This procedure was done through a canal-wall-down (CWD) approach.
+Intra-operatively, there was a small amount of cholesteatoma.
+Significant swelling and inflammation of the middle ear mucosa were also observed.
+In post-operative monthly visits, the patient reported significant improvement of the right otalgia and otorrhea.
+As expected, the mastoid bowl was epithelialized within 3 months.
+No further surgical procedures were carried out, and no post-operative CT studies were performed.
+At 18-months postoperative follow-up, all cultures from the right ear have been negative for Phialemonium spp.
+Discussion
+We present an unusual case of CSOM in an immunocompetent patient presenting with persistent fungal otorrhea.
+The isolated mold, Phialemonium, is an extremely rare human pathogen.
+To our knowledge, this is the first report of such an infection in the ear.
+We describe a confined local Phialemonium infection in the tympanomastoid cavity without any systemic manifestations.
+Unlike other cases of CSOM-associated otomycosis, the patient׳s fungal infection was eradicated only after more aggressive treatment.
+Phialemonium spp.
+was first described as a human pathogen in 1986 (7).
+Widely distributed in the environment, Phialemonium species have been isolated from air, soil, industrial water, and sewage.
+Although these species rarely cause human disease, this fungal infection can be fatal (9).
+Due to its affinity to the endovascular system, Phialemonium spreads in the blood stream and can eventually cause endocarditis.
+To date, most of the reported Phialemonium infections cases manifested as systemic disease in immunocompromised patients and were associated with a high mortality rate.
+We hypothesize two potential sources for this patient׳s Phialemonium inoculation.
+First, his extensive history of animal contact puts him at greater risk for soil-borne pathogens [4].
+Second, his exposure to lake water while swimming may have exposed him to Phialemonium as contaminated water is a common culture site [5].
+These risk factors combined with an increased susceptibility to secondary fungal infections after chronic antibiotic therapy greatly increased the patient׳s chance of becoming infected with Phialemonium.
+In the CWD procedure, the posterior wall of the external auditory canal is removed in order to create a single cavity mastoid bowl open to outside air.
+This procedure externalizes the middle ear disease and gives chronic conditions, such as cholesteatoma, a pathway out of the closed middle ear cavity.
+In pediatric CSOM cases, efforts are made to avoid this radical procedure.
+Post-operative disadvantages include repeated external auditory canal and mastoid bowl cleaning, avoidance of water exposure, and possible hearing changes.
+These can often severely affect the quality of life of a young child.
+Thus many surgeons usually tend to choose the less aggressive CWU mastoidectomy approach early in the disease course.
+The described patient received the standard of care for CSOM.
+Each acute episode was promptly treated with antibiotic therapy, debriding and cleansing.
+The four CWU procedures were indicated by the presence of cholesteatoma as observed during EUA, clinic examination and imaging studies.
+However, the course of CSOM in this patient was complicated by the co-existence of a rare fungal infection.
+Initially the Phialemonium infection was treated with topical anti-fungal therapy; systemic anti-fungal were added.
+Late in the disease course a CWD tympanomastoidectomy was warranted after the patient continued to experience otorrhea, severe otalgia, residual cholesteatoma foci and repeated Phialemonium cultures.
+With so little known about effective treatment methods for otic Phialemonium infections, further long-term follow-up is very important.
+In our patient, eradication of the fungal infection was achieved only after the CWD tympanomastoidectomy procedure.
+We propose that early radical surgical intervention for the treatment of CSOM-associated Phialemonium infections may shorten the disease course.
+Conflict of interest
+There are none.
+Acknowledgments
+None.
+

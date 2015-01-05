@@ -1,0 +1,281 @@
+Surface waves on Saturn's magnetopause
+
+Abstract
+Waves on the surface of a planetary magnetopause promote energy transport into the magnetosphere, representing an important aspect of solar wind-magnetosphere coupling.
+At Saturn's magnetopause it has been proposed that growth of the Kelvin-Helmholtz (K-H) instability produces greater wave activity on the dawn side of the surface than on the dusk side.
+We test this hypothesis using data taken by the Cassini spacecraft during crossings of Saturn's magnetopause.
+Surface orientation perturbations are primarily controlled by the local magnetospheric magnetic field orientation, and are generally greater at dusk than at dawn.
+53% of all crossings were part of a sequence of regular oscillations arising in consecutive surface normals that is strong evidence for tailward propagating surface waves, with no detectable local time asymmetry in this phenomenon.
+We estimate the dominant wave period to be ∼5h at dawn and ∼3h at dusk.
+The role played by the magnetospheric magnetic field, tailward wave propagation, and the dawn-dusk difference in wave period suggests that K-H instability is a major wave driving mechanism.
+Using linear K-H theory we estimate the dominant wavelength to be ∼10 Saturn radii (RS) and amplitude to be ∼1 RS at both dawn and dusk, giving propagation speeds of ∼30 and ∼50kms-1 at dawn and dusk, respectively.
+The lack of the hypothesized dawn-dusk asymmetry in wave activity demonstrates that we need to revise our understanding of the growth of the K-H instability at Saturn's magnetopause, which will have implications for the study of other planetary magnetospheres.
+Highlights
+► Surface waves on a planetary magnetopause transport energy into the magnetosphere.
+► Differences in the level of wave activity across Saturn's magnetopause has been predicted.
+► Kelvin-Helmholtz waves often form on Saturn's magnetopause surface.
+► There is no evidence for the predicted difference across the surface.
+► We need to revise our understanding of surface waves on Saturn's magnetopause.
+
+Introduction
+A planetary magnetosphere results from the interaction between the solar wind and a magnetized planet, producing a cavity around the planet that effectively shields it from the solar wind flow.
+The boundary of a magnetosphere is referred to as its magnetopause, and is often the site of transport of solar wind energy into the system.
+Waves on the surface of a planetary magnetopause are one of the processes that promotes this energy transport.
+Our understanding of this phenomenon is mainly based on spacecraft data taken at the boundary of Earth's magnetosphere, which is understandably the most-observed planetary magnetopause (see the review by de Keyser et al. (2005) and references therein).
+Substantial evidence for surface waves on Earth's magnetopause has been reported (e.g. Aubry et al., 1971) and the driving mechanisms responsible for these waves include solar wind pressure pulses (Song et al., 1988; Sibeck, 1990), growth of the Kelvin-Helmholtz (K-H) instability (Owen et al., 2004; Foullon et al., 2008; Eriksson et al., 2009), and magnetic reconnection (Song et al., 1988).
+Resolving the wave driving mechanism is often difficult, but is important because of the insight it provides into the nature of the transport of momentum and energy between the solar wind and the magnetosphere.
+Saturn's magnetosphere is significantly different from Earth's in many respects (see the reviews by Gombosi et al. (2009) and Mitchell et al. (2009)).
+In terms of the phenomenon of magnetopause surface waves, Saturn's magnetosphere is a natural laboratory in which we can examine one of the most widely studied wave driving mechanisms: The growth of the K-H instability.
+This instability can grow at an interface between two fluids (e.g. a planetary magnetopause (Dungey, 1955)), particularly under high flow shear conditions.
+A seed perturbation of a K-H unstable interface will grow with time, rather than be suppressed, leading to surface waves in the linear phase of the instability, and complex boundary vortices in the subsequent nonlinear phase.
+Growth of the K-H instability at Earth's magnetopause has been the subject of much research attention, with spacecraft data revealing evidence for K-H vortices associated with plasma mixing and local magnetic reconnection (Fairfield et al., 2000; Nikutowski et al., 2002; Hasegawa et al., 2004, 2006, 2009; Nykyri et al., 2006; Nishino et al., 2011).
+One of the principal differences between the magnetospheres of Earth and Saturn is that plasma in Saturn's magnetosphere circulates in the sense of planetary rotation throughout the dayside magnetosphere (Thomsen et al., 2010), whereas at Earth such plasma motion is confined to the inner magnetosphere.
+Consequently, although it is subject to large temporal and spatial variability, the shear between the flow of magnetosheath solar wind plasma and the flow of magnetospheric plasma is significantly greater on the dawn side of Saturn's magnetopause than on the dusk side.
+This variation in the flow shear across Saturn's magnetopause with local time is expected to lead to a generally K-H unstable boundary on the dawn side and a generally K-H stable boundary on the dusk side, producing greater boundary perturbations (waves and vortices) at dawn than at dusk (Galopeau et al., 1995).
+This plausible expectation has featured in theories of magnetosphere-ionosphere coupling at Saturn (Galopeau et al., 1995; Sittler et al., 2006).
+However, this prediction of a local time asymmetry in the K-H instability of Saturn's magnetopause has not been previously tested.
+Two initial studies of the orientation of the magnetopause surface, each based on data returned by the Cassini Saturn orbiter during magnetopause crossings that occurred in an interval of a few days, have revealed evidence for wave activity on both the dawn side and on the dusk side (Masters et al., 2009; Cutler et al., 2011).
+In both these cases the K-H instability was found to be a plausible driver of the identified waves, with both sets of waves propagating tailward.
+We note that although this tailward propagation was correctly concluded by Masters et al. (2009) in their analysis of the dawn side waves the presented analysis results suggest sunward propagation instead, due to a discrepancy between the data and the text.
+Another region of interest concerning the predicted dawn-dusk asymmetry in magnetopause K-H instability is Saturn's Low-Latitude Boundary Layer (LLBL).
+This quasi-permanent layer lies adjacent to, and planetward of, the magnetopause at low latitudes, resulting from the transport of solar wind plasma into the magnetosphere (McAndrews, 2007; Masters et al., 2011a, 2011b).
+If present, a strong dawn-dusk asymmetry in magnetopause K-H instability could produce a related asymmetry in the properties (e.g. thickness) of the LLBL, since K-H instability can facilitate the cross-magnetopause plasma transport that creates the layer (see the review by Sibeck (1999) and references therein).
+However, a recent examination of Saturn's LLBL was not able to detect any clear dawn-dusk difference in the thickness of the layer (Masters et al., 2011a), further questioning whether the hypothesized dawn-dusk asymmetry in magnetopause K-H instability is present.
+In addition, Saturn's LLBL represents an intermediate plasma regime that will affect the K-H stability of the magnetopause, as well as creating an additional interface that could also become unstable: The inner (planetward) edge of the LLBL.
+Since plasma flow in Saturn's LLBL is poorly understood at present it is not possible to accurately predict how the presence of the layer affects the hypothesized magnetopause K-H instability asymmetry; however, a Cassini encounter with a K-H vortex has been identified on the inner edge of the LLBL (Masters et al., 2010), implying that this interface may be typically more K-H unstable than the magnetopause (e.g. Ogilvie and Fitzenreiter, 1989).
+As well as these observational studies, magnetohydrodynamic simulations of Saturn's magnetosphere have been carried out in which waves and vortices form on the magnetopause (Fukazawa et al., 2007a, b; Walker et al., 2011).
+The perturbations of the magnetopause surface in these simulations are consistent with a K-H instability driving mechanism, and an important result of these studies is that simulated waves and vortices can form on both the dawn and dusk sides, with the orientation of the interplanetary magnetic field being an important controlling factor.
+Recent hybrid simulations have drawn attention to the importance of the growth of K-H instability at Saturn's magnetopause for mass transfer across the boundary, which can influence magnetospheric dynamics (Delamere et al., 2011).
+The sum of these Cassini-era studies of Saturn's magnetopause suggest that we need to test the prediction of a dawn-dusk asymmetry in the K-H instability of Saturn's magnetopause using spacecraft observations.
+Additional magnetopause studies based on Cassini observations have confirmed an aspect of Saturn's magnetopause dynamics that must also be considered when investigating boundary dynamics.
+The mysterious, persistent modulation of Saturn's magnetospheric environment at approximately the period of planetary rotation (∼10.75h, see the review by Mitchell et al. (2009)) leads to a quasi-periodic modulation of the total pressure adjacent to the magnetopause in Saturn's outer magnetosphere at a similar period (hereafter referred to as the "magnetospheric period").
+This leads to an oscillation of the magnetopause with an estimated typical amplitude of ∼1.2 Saturn radii (RS; 1 RS=60,268km) (Clarke et al., 2006, 2010).
+This effect has been interpreted as a displacement of the boundary on a large-scale (with respect to the scale of the dayside magnetopause), which is not expected to produce perturbations of the surface orientation as great as those reported by recent surface wave case studies (Masters et al., 2009; Cutler et al., 2011).
+In this paper we test the hypothesized dawn-dusk asymmetry in the K-H instability of Saturn's magnetopause for the first time by assessing the extent of surface wave activity using data taken by the Cassini spacecraft during 520 magnetopause crossings.
+Although we find evidence for significant perturbations of the magnetopause surface orientation and surface wave activity, and that growth of the K-H instability is a major driver of these surface perturbations, we find no clear evidence for the hypothesized dawn-dusk asymmetry.
+Observations
+The coordinate system used throughout this study is the Kronocentric Solar Magnetospheric (KSM) system, which is Saturn-centered with the positive x-axis pointing toward the Sun.
+The z-axis is chosen such that the xz plane contains Saturn's magnetic dipole axis, with the positive z-axis pointing toward the North.
+The y-axis completes the orthogonal set, with the positive y-axis pointing toward dusk.
+To examine the occurrence of surface waves on Saturn's magnetopause we analyzed data taken during 520 crossings of the boundary made by the Cassini spacecraft between 28 June 2004 and 23 July 2007.
+This period was chosen as it provides us with 260 crossings on the dawn side of the magnetopause and 260 crossings on the dusk side.
+The positions of these crossings are shown in Fig. 1.
+The crossings took place between magnetic latitudes of -38° and 52°, and between Saturn Local Times (SLT) of 03:25 and 17:37.
+This distribution of crossings largely confines our assessment of surface waves to the region sunward of the terminator.
+The scatter of the crossing positions is a result of the highly variable position of the magnetopause (Kanani et al., 2010).
+Many of the crossings clearly occurred on the same orbital pass due to magnetopause motion at speeds greater than that of the spacecraft.
+The time duration between crossings on a particular pass was highly variable, with some as short as ∼20min and others as long as a few days.
+This variability arises from the superposition of different influences on the boundary position, for example, solar wind dynamic pressure changes, magnetospheric period oscillation, and wave activity.
+The basis of this study of surface waves is the calculation of the orientation of Saturn's magnetopause surface for each appropriate Cassini magnetopause crossing.
+This calculation is based on magnetic field data acquired by the fluxgate magnetometer sensor of the Cassini dual-technique magnetometer (Dougherty et al., 2004) during the crossing.
+To provide confirmation of the timing of each magnetopause crossing we also used electron data taken by the ELectron Spectrometer (ELS) of the Cassini plasma spectrometer, which detects electrons between 0.5eV and 26keV (Young et al., 2004).
+Electron moments were calculated using background-subtracted data from anode 5, assuming an isotropic distribution in the spacecraft frame (Lewis et al., 2008).
+Since ELS data were only used to confirm magnetopause crossings we present only electron moments in this paper, to complement the magnetic field data.
+Fig. 2 shows magnetic field and electron data taken during a Cassini magnetopause crossing on 1 May 2005.
+The spacecraft began the interval in the magnetosphere where the magnetic field strength was ∼5nT and the local electron population was characterized by a number density of ∼0.006cm-3 and at a temperature of ∼100eV.
+From the beginning of the interval until ∼08:18 Universal Time (UT) the spacecraft gradually entered a region of similar field characteristics, but where the electron density increased and the electron temperature decreased.
+We identify this region as the LLBL (Masters et al., 2011a).
+Between ∼08:18 and ∼08:22 UT the field orientation changed and the field strength decreased.
+The angle between the field vectors measured at the start and end of this interval is ∼139°.
+The interval was also associated with a strong increase in the electron density and a decrease in the electron temperature with time.
+We identify this interval (shaded dark-gray in Fig. 2) as the magnetopause current layer (MPCL).
+From ∼08:22 UT until the end of the interval the spacecraft was in the magnetosheath, where the field remained weak but steady and the electron environment remained relatively dense and cold.
+The determination of the orientation of Saturn's magnetopause surface at the time of each crossing was dependent on the identification of shaded intervals analogous to those shown in Fig. 2.
+In all 520 cases we attempted to identify the interval when the spacecraft crossed the MPCL, and intervals immediately either side of this MPCL interval (shaded light-gray in the example shown in Fig. 2).
+At some crossings the identification of the MPCL interval was ambiguous, particularly in cases where there was a low magnetic shear between the magnetospheric and magnetosheath magnetic fields.
+We did not consider such crossings further, reducing our total crossing set to 477 (233 at dawn and 244 at dusk).
+Determining magnetopause surface orientation
+In this paper we use two methods to determine the orientation of Saturn's magnetopause, both of which are based on magnetic field data taken near and during a traversal of the MPCL.
+These surface normals can be compared to the normal predicted by the most recent model of Saturn's large-scale magnetopause surface that was constructed by Kanani et al. (2010).
+To obtain this predicted normal for each crossing the model was scaled to intersect the position of the crossing, and the normal to the model surface at this position was calculated.
+Throughout this paper we refer to such normals as "model normals".
+A model normal is effectively the nominal orientation of the magnetopause surface at a specific location, providing us with a reference to use when assessing the perturbation of the boundary orientation.
+All model normals, and all normals determined using the two approaches described below, were defined to point out into magnetosheath, away from Saturn.
+The first normal determination method is based on the average magnetic fields measured in few-minute intervals either side of an MPCL traversal (Fig. 2, intervals shaded light-gray).
+If the boundary is a Tangential Discontinuity (TD-magnetic field is parallel to the plane of the boundary surface on both sides) then the vector product of these two average fields gives the normal direction.
+To a first approximation a planetary magnetopause is a TD that separates the interplanetary and planetary magnetic fields, albeit with a finite thickness, making Tangential Discontinuity Analysis (TDA) a viable method for determining the surface orientation.
+Throughout this paper we refer to the normals arising from this technique as "TDA normals".
+The second normal determination method is based on all the magnetic field measurements made during an MPCL traversal (Fig. 2, interval shaded dark-gray).
+Minimum Variance Analysis (MVA) (Sonnerup and Scheible, 1998) is widely employed in space plasma physics.
+It is an analysis technique applied to a set of vectors that determines the directions of minimum, intermediate, and maximum variance of the observed vector field.
+These directions form an orthogonal set and each direction is associated with an eigenvalue, with the smallest and largest eigenvalues respectively associated with the minimum and maximum variance directions.
+The greater the ratio between eigenvalues the better defined a variance direction is.
+For example, the higher the ratio of intermediate to minimum eigenvalue the better defined the minimum variance direction is.
+The minimum variance direction resulting from the application of MVA to the set of magnetic field vectors measured during an MPCL traversal is a measure of the orientation of a magnetopause boundary, often favored in single spacecraft studies (e.g. Lepping and Burlaga, 1979).
+Assuming that the boundary is a perfect TD, the component of the field in the direction normal to the actual magnetopause should equal 0 and remain constant throughout the crossing of the MPCL, and this direction is detected by MVA as the minimum variance direction.
+Throughout this paper we refer to such normals as "MVA normals".
+We refer the reader to Lepping and Behannon (1980) and Knetter et al. (2004) for a detailed discussion of both the TDA and MVA methods applied to interplanetary magnetic field discontinuities.
+Figs. 3 and 4 show data taken during two different sets of consecutive Cassini magnetopause crossings.
+These example crossing sets are used here to introduce the important quantities associated with the normal determination at each crossing, and to illustrate the possible variability of these values.
+In Section 5 these crossing sets will be re-visited in the context of identifying evidence for surface wave activity.
+Five crossings occurred during the interval shown in Fig. 3 and six occurred during the interval shown in Fig. 4.
+In both figures panels (c) and (d) present information related to the normal determination methods described in this section.
+The ratio of intermediate to minimum MVA eigenvalue (λ2/λ3) was generally above 10 for the crossings in both sets, although some crossings were associated with lower values.
+The mean normal field component divided by the mean field strength during the MPCL transition (|Bn|/|B|) is based on the MVA normal, and assesses to what degree the boundary may be approximated as a TD (for a perfect TD this value should be 0).
+All of these |Bn|/|B| values are below 0.3, which is generally consistent with a TD (Lepping and Behannon, 1980; Knetter et al., 2004), and also suggests TDA is an appropriate method for determining the surface normal.
+The angles between the MVA and TDA normals are all below 30°, revealing a good agreement between these two different methods, and also giving a measure of the angular uncertainty associated with the normals resulting from either approach.
+Lastly, the angles between the MVA and model normals are variable and sometimes as high as 60° for these two sets of crossings, suggesting that strong perturbations of the surface orientation can occur.
+Fig. 5 shows histograms of parameters resulting from our assessment of the orientation of Saturn's magnetopause for all 477 crossings.
+The magnetic shear across the boundary (given by the angular difference between magnetic fields measured immediately before and after each MPCL traversal) was variable, and often below 90°.
+Higher shears are preferable for both the MVA and TDA normal determination methods (Knetter et al., 2004).
+A large level of variability was also associated with the intermediate to minimum eigenvalue ratio from MVA (median value: 6.9).
+At some of the crossings the minimum variance direction was poorly defined, particularly in the cases of a ratio approaching 1.
+The |Bn|/|B| value during each MPCL transition was predominantly below 0.3 (95%), with a significant fraction of the values below 0.1 (73%).
+This suggests that Saturn's magnetopause was generally well described by a TD for the crossings in our set.
+High values of the normal field component should be analyzed in a future study to assess whether they are examples of an "open" magnetopause resulting from magnetic reconnection.
+The angle between the MVA and TDA normals was predominantly below 30° (91%), confirming the typically good agreement between these different approaches to determining the normal.
+These results concerning the orientation of Saturn's magnetopause surface suggest that both the MVA and TDA methods generally capture the true surface normal to within an angular uncertainty of roughly 30°, but in some cases the validity of the normals is questionable due to a low magnetic shear and/or a low MVA eigenvalue ratio.
+We note that alternative methods for determining the angular uncertainty in these normals (e.g. Sonnerup and Scheible, 1998) result in errors that are generally comparable to our estimate of 30°.
+Furthermore, the conclusions we draw in Sections 4 and 5 are based on statistics, and the identification of a systematic oscillation of consecutive surface normals by angles predominantly in excess of 30°.
+We conclude that a more sophisticated error analysis is not necessary here, given the aims of the present study.
+Since we rely on the number of crossings in our data set to reveal the global picture of waves on Saturn's magnetopause surface, we do not omit any crossings on the basis of an inferred low level of confidence in the associated normal.
+Our conclusions are not affected by omitting crossings below a reasonable threshold of magnetic shear (e.g. 30°) or MVA eigenvalue ratio (e.g. 5) in order to isolate the most reliable normals.
+In the following sections we use MVA normals, with the exception of one part of our analysis where we use TDA normals for reasons discussed in Section 4.
+However, none of the conclusions we draw from our results are sensitive to the choice of normal determination method, consistent with the generally good agreement between the normals produced by these different methods (see Fig. 5).
+Perturbations of the magnetopause surface
+In this section we examine the nature of perturbations of Saturn's magnetopause surface orientation, given by the difference between measured surface normals and predicted surface normals from a large-scale model of magnetopause morphology (Kanani et al., 2010).
+We refer to the angle between the MVA and model normal for each crossing as the "perturbation angle".
+Fig. 6 shows the variation of the perturbation angle with SLT, and histograms of this angle for all dawn side crossings and all dusk side crossings.
+There is a clear local time asymmetry in the perturbation angles.
+At dawn the perturbation angle is typically between 10 and 50°, whereas at dusk the distribution is broader with more angles above 50°.
+These results show that strong perturbations of the surface orientation can occur, and that they are typically greater at dusk than at dawn.
+This is the opposite of the hypothesis based on K-H instability that was discussed in Section 1, which predicts greater perturbation angles at dawn than at dusk.
+Note that the bins of perturbation angle used in Fig. 6 do not cover equal solid angles, producing an apparent deficit of crossings in the 0 to 10° bin (best agreement with the model normal).
+To extend this assessment of surface orientation perturbations we examined the dependence of the perturbation direction on the magnetic field orientation measured immediately either side of the boundary.
+However, the MVA normals may be influenced by the local magnetospheric magnetic field orientation as a by-product of the MVA analysis technique.
+The local magnetospheric field is generally stronger than the local magnetosheath field (e.g. Masters et al., 2011a), thus when MVA was applied to each MPCL interval the maximum variance direction was often well-defined (median maximum-to-intermediate eigenvalue ratio of 13.7, compared to median intermediate-to-minimum eigenvalue ratio of 6.9), and was generally close to the direction of the local magnetospheric field (mean angle between maximum variance direction and local magnetospheric magnetic field: 33°).
+As a result the minimum variance direction may have been constrained to lie in a plane that is perpendicular to the local magnetospheric magnetic field due to the analysis technique.
+However, this does not affect the TDA normals, and the good agreement between the two normal determination methods (see Fig. 5) suggests that this is not a major issue concerning the MVA normals.
+Nonetheless, in this detailed assessment of the role of the local magnetic field orientations we use TDA normals to avoid the issue entirely.
+Like all our conclusions, those we draw from these results are not sensitive to the choice of MVA or TDA normals.
+Note that this is the only part of our analysis (in this section or Section 5) where TDA normals were preferred to MVA normals.
+Fig. 7 shows a representation of the orientation of all the normals organized by the model normal and the local magnetic field direction (magnetosheath or magnetosphere) for each crossing.
+In the case of each adjacent magnetic field all the TDA normals have been plotted from a common origin, with all model normals in alignment.
+Each TDA normal was then rotated about the common model normal direction so that the adjacent magnetic field vector in question points vertically upwards when viewed in the model normal-perpendicular plane.
+It is evident that the model normal represents the typical, un-perturbed orientation of the boundary.
+To quantify this, the average TDA normal (in this coordinate system) agrees with the model normal to within 7°.
+However, Fig. 7 also reveals that the orientation of the magnetospheric magnetic field clearly influences the surface orientation.
+The measured surface normal is generally confined to lie in a plane containing the model normal and the direction perpendicular to the magnetospheric magnetic field.
+The orientation of the magnetosheath field appears to have a similar influence, but it is clearly weaker.
+There is no local time asymmetry in this effect, and it is not the result of a bias introduced by poorly determined normals (indicated by relatively large angles between MVA and TDA normals, see Fig. 7).
+We interpret this role played by the local magnetic field as a consequence of the stabilizing influence of magnetic tension forces.
+These tension forces act to resist boundary perturbations in the field-parallel direction, but are unable to resist field-perpendicular perturbations.
+This interpretation also explains the difference between the magnetosheath and magnetospheric field influences; the magnetospheric field is generally stronger than the magnetosheath field (see examples in Figs.
+3 and 4), leading to greater magnetospheric field tension forces and a greater influence exerted by this magnetic field regime.
+We note that predominantly field-perpendicular boundary normal perturbations are consistent with perturbations resulting from the growth of the K-H instability, on the basis of the same argument related to magnetic tension forces given above (e.g. Southwood, 1968).
+Surface wave analysis
+Identification of oscillation of consecutive normals
+To investigate the occurrence and properties of surface waves we identified the crossings that were most likely to have been associated with wave activity.
+This was done on the basis of the behavior of consecutive MVA normals within each set of crossings.
+Although waves may have been present on the surface for the duration of a set of crossings, other drivers of motion of the boundary (e.g. the magnetospheric period oscillation (Clarke et al., 2006, 2010)) can play a dominant role in determining when spacecraft crossings occurred, each of which provides a "snapshot" of the surface orientation.
+However, if surface wave activity played a sufficiently important role in controlling when the spacecraft crossed the boundary then this should be revealed by the oscillation of consecutive normals about the model normal, and the timing of crossings associated with such normal oscillations can be used to infer the typical wave properties.
+Fig. 8 illustrates why an oscillation of consecutive normals is consistent with wave activity.
+The quantitative approach we used to identify crossings that were part of such an oscillating set of boundary normals is the same as the approach that was employed by Masters et al. (2009) and Cutler et al. (2011), which is also illustrated in Fig. 8.
+If a set of normals oscillate in a particular direction then they form a "fan-like" distribution when plotted using a common origin (using KSM coordinates).
+Our motivation was to define a coordinate system (unique to each set of normals) where two of the axes define the approximate plane of this "fan", which could then be used to identify which crossings were most likely to have been associated with wave activity.
+We hereafter refer to this coordinate system as "surface wave coordinates".
+The "n" axis of surface wave coordinates is the average of the normals for the set of crossings being considered, which was generally in agreement with the average model normal to within 20°.
+MVA was then applied to all the normals in a particular set of crossings (these normals also resulted from MVA, but applied to magnetic field vectors measured in Saturn's MPCL).
+If a "fan" of normals exists, which was often apparent based on a visual inspection, then the maximum variance direction resulting from the application of MVA to the set of normal vectors should lie approximately in the plane of this "fan".
+The plane containing this maximum variance direction and the "n" axis is roughly the required "fan" plane.
+The maximum variance direction was flipped if necessary to ensure that it had a positive sunward component, and it was rotated in this plane to ensure that it was perpendicular to "n" (the rotation was less than 10° in all cases).
+The resulting vector is the "b" axis.
+The "a" axis completes the right-handed, orthogonal set.
+The maximum variance direction used to define "b" in this coordinate system was generally well defined, with a typical ratio of maximum to intermediate eigenvalue of ∼8.
+As expected based on the results presented in Section 4, the "nb" plane was generally close to containing the direction perpendicular to the local magnetospheric magnetic field (typical rotation of the "nb" plane about the "n" axis required to make it perpendicular to the local magnetospheric field vector: <30°).
+Fig. 8a shows how the angles α and β are defined.
+The perturbation of a normal in the "na" plane is given by α, and the perturbation in the "nb" plane is given by β.
+If the normals for a set of crossings were part of an oscillating pattern caused by waves (with a greater spatial scale in the perpendicular rather than parallel direction to wave propagation) we would expect the magnitude of the α angles to be generally less than that of the β angles, and the β angles to oscillate between positive and negative values between crossings, with a difference between consecutive β angles of greater than the approximate angular uncertainty associated with the normals (∼30°, see Section 3).
+The sets of crossings shown in Figs.
+3 and 4 are respective examples of sets where there is not, and is, evidence of an oscillation of consecutive surface normals.
+Panel (e) of both figures shows the α and β angle for each crossing.
+For the set shown in Fig. 3 the β angles are typically larger than the α angles (as expected given how surface wave coordinates are defined) but there is no clear positive-negative oscillation of β.
+However, for the set of crossings shown in Fig. 4 the β angles are not only typically higher than the α angles, but also the β angles clearly follow a positive-negative oscillation.
+The first crossing in Fig. 4 was not identified as part of the oscillating set because in this case β was less than α, and the normal was poorly defined, as indicated by the eigenvalue ratio shown in panel (c).
+This analysis was carried out for each set of crossings in our total data set of 477.
+A set of crossings was typically defined as the crossings made during a particular inbound/outbound pass of a spacecraft orbit, although in some orbits more than one set was defined on a single pass on the basis of distinct sets of crossing locations.
+Sets containing less than 4 consecutive crossings were not included in this surface wave analysis, since any conclusions about normal oscillation that are drawn from so few crossings are inconclusive.
+This led to the identification of all the crossings that were part of a pattern of oscillating normals that is strong evidence for surface wave activity, hereafter referred to as crossings associated with waves.
+Of the 412 crossings in all the sets that were included in this surface wave analysis 53% were associated with waves.
+These comprise 46% of the included dawn side crossings and 58% of the included dusk side crossings.
+This lack of a significant dawn-dusk asymmetry is further evidence against the hypothesis that the growth of the K-H instability at Saturn's magnetopause leads to greater wave activity at dawn than at dusk (see Section 1).
+Determination of wave properties
+The crossings associated with waves provide information about the nature of wave activity on Saturn's magnetopause.
+Since the Cassini spacecraft moves at a typical speed of ∼4kms-1 in the vicinity of Saturn's magnetopause and estimated speeds of waves on the surfaces of planetary magnetopauses suggest wave speeds of order 100kms-1 (e.g. Lepping and Burlaga, 1979), these crossings can shed light on the direction of wave propagation.
+Panels (b) and (c) of Fig. 8 illustrate how this information is extracted.
+For a sunward propagating wave the normal for an inbound crossing should be tilted sunward, and vice versa for outbound crossings; whereas for a tailward propagating wave the normal for an inbound crossing should be tilted antisunward, and vice versa for outbound crossings.
+We initially made the assumption that all crossing normals were related to wave activity, even those not part of a clear oscillation.
+Thus the temporal sense of a crossing associated with a normal (inbound/outbound) and the tilt of the measured normal with respect to the model normal (sunward/antisunward) tells us if the assumed waves were propagating sunward or tailward.
+Panels (a) and (b) of Fig. 9 show the results of this exercise.
+77% of the crossings suggest tailward propagation, comprising 77% of the dawn side crossings and 76% of the dusk side crossings.
+Considering that not all of the crossings were necessarily crossings of a boundary perturbed by surface waves, these results support predominantly tailward wave propagation.
+Panels (c) and (d) of Fig. 9 show the inferred propagation directions for the crossings associated with waves only.
+In this case, 89% of the crossings suggest tailward propagation, comprising 94% of the dawn side crossings and 86% of the dusk side crossings.
+The wave-associated crossings that suggest sunward propagation are all relatively close to the subsolar region.
+These surface waves could plausibly have been caused by the growth of the K-H instability.
+In Section 4 we showed that the dominant direction of perturbations of the boundary normal, including those normals for crossings clearly associated with waves, is related to the direction of the local magnetospheric field vector, and we highlighted that this magnetic field influence is consistent with K-H instability theory (e.g. Southwood, 1968).
+In addition, since evolving seed perturbations of a K-H unstable boundary are stationary in the center-of-mass frame we expect the tailward flow of dense magnetosheath solar wind plasma (relative to magnetospheric plasma) to largely control the motion of the center-of-mass frame with respect to the rest frame of the planet, consistent with the observed predominantly tailward wave propagation.
+We note that the crossings associated with waves that suggest sunward wave propagation are among the closest crossings to the subsolar region, where the magnetosheath flow speed is slower and the motion of the center-of-mass frame with respect to the planet is more likely to deviate from tailward.
+Other possible drivers to consider are magnetospheric period oscillations, magnetic reconnection at the magnetopause, and solar wind pressure fluctuations.
+Magnetospheric period oscillations are not expected to lead to strong perturbations of the surface normal, and would produce sunward propagation at dawn and tailward at dusk (Clarke et al., 2010), which is not observed.
+Limited evidence for reconnection at Saturn's magnetopause has been identified to date (McAndrews et al., 2008), and the relatively small magnetic field components presented in Fig. 5 also do not suggest widespread reconnection.
+However, solar wind pressure fluctuations as a wave driving mechanism is consistent with both tailward propagation and the absence of a clear dawn-dusk difference in the level of surface wave activity (Ridley et al., 2006; Samsonov et al., 2006; Safránková et al., 2007).
+Based on these considerations the identified surface waves on Saturn's magnetopause are most likely a superposition of waves driven by solar wind pressure fluctuations and waves driven by the growth of the K-H instability.
+The task of extracting surface wave properties such as wave speed from a set of crossings of a planetary magnetopause is non-trivial, and in previous work a range of approaches have been used (e.g. Lepping and Burlaga, 1979; Foullon et al., 2008; Boardsen et al., 2010; Sundberg et al., 2010a, 2011).
+In the case of Saturn's magnetopause it appears that relatively large solar wind dynamic pressure changes (Kanani et al., 2010), the magnetospheric period oscillation (Clarke et al., 2006, 2010), and surface wave activity (Masters et al., 2009; Cutler et al., 2011) are the major drivers of boundary dynamics, and the superposition of these effects will need to be carefully considered in future studies of specific sets of magnetopause encounters.
+Furthermore, Masters et al. (2009) showed that multiple surface waveforms are possible.
+However, since this study uses multiple sets of Cassini magnetopause crossings to carry out a global assessment of surface wave activity on Saturn's magnetopause we can use our larger total crossing set to infer the typical properties of the dominant surface waveform.
+After isolating the crossings associated with waves we extracted all the excursion durations, defined as the time between consecutive crossings.
+Histograms of these durations for both the wave-associated crossings on the dawn side and on the dusk side are shown in Fig. 10.
+The large range of these durations could be due to differences in the wave properties between crossing sets, multiple surface waveforms, the range of possible spacecraft trajectories with respect to the waves, the influence of other effects (e.g. the magnetospheric period oscillation), or a combination of these.
+Despite the large range of durations the median of each distribution gives us a dominant excursion duration of ∼2.6h at dawn and ∼1.6h at dusk, which we identify as half the period of the dominant surface waveform, giving a typical wave period of ∼5h at dawn and ∼3h at dusk.
+Although our approach of isolating the crossings associated with clear wave activity does not rigorously remove the effect of magnetospheric period oscillation of the boundary, we note that these periods are clearly shorter than that of the oscillation (∼10.75h).
+Furthermore, these periods are in reasonable agreement with the results of both the case study of surface wave activity on a particular dawn pass carried out by Masters et al. (2009) and the simulations of Saturn's magnetosphere carried out by Walker et al. (2011), which both suggested a dominant waveform with a period of order hours.
+Although the relative importance of solar wind pressure fluctuations and growth of the K-H instability for generating magnetopause surface waves is unclear, the difference between the inferred dominant wave periods at dawn and dusk provides evidence that growth of the K-H instability is a major wave driving mechanism.
+The center-of-mass argument described earlier in this section suggests that the oppositely directed magnetosheath and magnetospheric plasma flows at dawn should lead to a slower motion of the center-of-mass frame with respect to the planet than at dusk, producing a slower wave speed at dawn that could lead to a longer wave period compared to dusk.
+This dawn-dusk difference in the period of the dominant waveform cannot be clearly explained by a solar wind pressure fluctuation driving mechanism alone, and demonstrates that the influence of growth of the K-H instability can be statistically resolved despite the possible presence of surface waves driven by this other mechanism (i.e. if there is a dawn-dusk asymmetry in growth of the K-H instability at Saturn's magnetopause the levels of surface wave activity calculated here should reflect this).
+In the following we assume that the dominant wave periods correspond to K-H surface waves, allowing us to estimate further wave properties.
+Linear K-H instability theory relates the wave vector (k) to the thickness of the LLBL (d) by kd∼1 (Miura and Pritchett, 1982), and this relationship is supported by simulations of waves on Saturn's magnetopause (Walker et al., 2011).
+Using this relation and the median thickness of Saturn's LLBL calculated by Masters et al. (2011a) (∼2 RS) leads to a typical dominant wavelength of ∼10 RS at both dawn and dusk, since Masters et al. (2011a) found no evidence for a dawn-dusk asymmetry in the LLBL thickness.
+Combining this wavelength with the dominant dawn and dusk periods leads to typical wave speeds of ∼30kms-1 at dawn, and ∼50kms-1 at dusk.
+We note that the wave speed is likely to vary considerably across the dayside magnetopause, as flow conditions either side of the boundary change.
+The nightside magnetopause is better sampled at dawn than at dusk by our set of crossings, but the removal of crossings in order to give a better balance between the dawn-dusk coverage of the nightside boundary does not have a significant effect on our results.
+If we assume a sinusoidal waveform, and that the mean value of the wave angle β (see Section 5.1) for the crossings associated with waves represents the typical steepness of the waveform at the point of 0 amplitude (the position of the unperturbed surface), then we can estimate the typical wave amplitude as ∼0.6 RS at dawn and ∼0.9 RS at dusk.
+Both the inferred wavelength of ∼10 RS and these amplitudes of order 1 RS are comparable to those calculated by Lepping et al. (1981) in their case study of surface waves on Saturn's magnetopause based on Voyager observations.
+Separating the sunward and antisunward tilted normals for the crossings associated with waves allows us to examine wave steepening.
+The mean β angle in these two subsets is ∼32 and ∼34°, respectively, therefore our approach and data set suggests that strong wave steepening is not widespread on the sampled region of Saturn's magnetopause.
+Although there may be a latitude dependence on the level of surface wave activity and wave properties, the results presented in Section 4 and in the present section do not reveal such a dependence.
+This may be due to the limited range of latitudes covered by the positions of the set of crossings used in this study.
+Summary
+In this paper we have used data taken by the Cassini spacecraft during 520 crossings of Saturn's magnetopause to examine the nature of wave activity on the boundary.
+We have shown that strong perturbations of the boundary orientation can occur, the nature of which is primarily controlled by the orientation of the local magnetospheric magnetic field.
+53% of the crossings were part of a sequence of regular oscillations arising in consecutive surface normals that is strong evidence for tailward propagating surface waves.
+We estimated the typical period of the waves as ∼5h at dawn and ∼3h at dusk.
+These results suggest that growth of the K-H instability is a major driver of these boundary normal perturbations and surface waves.
+Using linear K-H theory, we also estimate the dominant wavelength to be ∼10 Saturn radii (RS) and amplitude to be ∼1 RS at both dawn and dusk, giving propagation speeds of ∼30 and ∼50kms-1 at dawn and dusk, respectively.
+The main objective of this analysis of waves on Saturn's magnetopause was to test the prediction of a greater level of wave activity on the dawn side of the surface than on the dusk side, due to an assumed asymmetry in the nature of the growth of the K-H instability at the interface.
+We find no evidence of either a significantly greater level of perturbations of the surface orientation or wave activity on the dawn side than on the dusk side.
+In fact, for the sample of crossings analyzed, perturbations of the boundary orientation are generally greater at dusk than at dawn.
+We note that the absence of a dawn-dusk asymmetry in wave activity reported here is consistent with studies based on Cassini data that identified initial evidence for waves on both the dawn and dusk side magnetopause (Masters et al., 2009; Cutler et al., 2011), and a study that has demonstrated that there is no clear local time asymmetry in the properties of Saturn's low-latitude boundary layer that could be attributed to a dawn-dusk asymmetry in the growth of the K-H instability at the magnetopause (Masters et al., 2011a).
+This lack of observational support for a strong dawn-dusk asymmetry in surface waves on Saturn's magnetopause related to the K-H instability means we need to revise our understanding of this topic, particularly since this predicted asymmetry has been discussed in the context of magnetosphere-ionosphere coupling at Saturn (Galopeau et al., 1995; Sittler et al., 2006).
+The hypothesized asymmetry was based on the clear differences in the flow shear across the boundary caused by the corotating sense of outer magnetospheric plasma motion that has been confirmed by Cassini (Thomsen et al., 2010), which makes the lack of observational support for a strong local time asymmetry surprising.
+The K-H stability of a space plasma boundary is not only affected by flow conditions but also the plasma densities and local magnetic fields; thus it is likely that for the Saturnian magnetopause one or both of these other factors plays a more important role than we expected.
+Furthermore, as discussed in Section 1, the presence of the LLBL and its associated plasma flow may have a strong effect on the growth of the K-H instability at Saturn's magnetopause.
+To make further progress in understanding this topic there are four main directions for future research.
+The first of these is a detailed examination of the dynamics of Saturn's magnetopause with the aim of assessing the relative importance of all the drivers of boundary motion, which would shed more light on the properties of surface waves.
+The second is a search for Cassini encounters with K-H vortices, which would require a detailed analysis of Cassini ion data to infer the distinctive flow patterns associated with these complex structures.
+The third is a detailed examination of the nature of plasma flow in Saturn's LLBL, and an assessment of how this plasma regime will affects the flow shear across the magnetopause.
+The fourth is an assessment of the K-H stability of Saturn's magnetopause using Cassini measurements of all local plasma and magnetic field conditions.
+Such a study would resolve the open issue concerning the K-H instability at Saturn's magnetopause that has been highlighted by the present study, and which also has implications for other corotation-dominated magnetospheres.
+Acknowledgments
+AM acknowledges useful discussions with S.W.H.
+Cowley and H.
+Hasegawa.
+We acknowledge the support of the MAG and CAPS data processing/distribution staff, and L.K.
+Gilbert and G.R.
+Lewis for ELS data processing.
+We acknowledge the use of the list of Cassini magnetopause crossings compiled by H.J.
+McAndrews and S.J.
+Kanani.
+This work was supported by UK STFC through rolling grants to MSSL/UCL and Imperial College London.
+

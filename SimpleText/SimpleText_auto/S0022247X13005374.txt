@@ -1,0 +1,267 @@
+Amos-type bounds for modified Bessel function ratios
+
+Abstract
+We systematically investigate lower and upper bounds for the modified Bessel function ratio Rν=Iν+1/Iν by functions of the form Gα,β(t)=t/(α+t2+β2) in case Rν is positive for all t>0, or equivalently, where ν≥-1 or ν is a negative integer.
+For ν≥-1, we give an explicit description of the set of lower bounds and show that it has a greatest element.
+We also characterize the set of upper bounds and its minimal elements.
+If ν≥-1/2, the minimal elements are tangent to Rν in exactly one point 0≤t≤∞, and have Rν as their lower envelope.
+We also provide a new family of explicitly computable upper bounds.
+Finally, if ν is a negative integer, we explicitly describe the sets of lower and upper bounds, and give their greatest and least elements, respectively.
+
+Introduction
+Let Iν be the modified Bessel function of order ν, and Rν the (modified) Bessel function ratio Rν(t)=Iν+1(t)/Iν(t).
+These ratios are of great importance in a variety of application areas, including statistics [e.g., 7] and numerical analysis [e.g., 1], either directly or through the fact that by the well-known recurrence relations for modified Bessel functions, log(Iν)′(t)=Iν′(t)Iν(t)=Iν+1(t)+(ν/t)Iν(t)Iν(t)=Rν(t)+νt from which by integration and taking limits, log(Iν)(t)=∫0tRν(s)ds+νlog(t/2)-log(Γ(ν+1)).
+For functions f and g defined on the positive reals, write f≤g iff f(t)≤g(t) for all t>0, with f<g defined analogously.
+If neither f≤g nor g≤f, we say that f and g are incomparable.
+Let G be a family of functions on the positive reals and f∈G.
+We say that f is the least element (minimum) of G iff f≤g for all g∈G, and that f is a minimal element of G iff there is no g∈G for which f>g, with the greatest element (maximum) and maximal elements of G defined analogously.
+Let Gα,β(t)=tα+t2+β2, where in what follows we always (without loss of generality) take β≥0.
+For ν≥0, Eqs.
+(9), (11) and (16) in Amos [1] show that max(Gν+1,ν+1,Gν+1/2,ν+3/2)≤Rν≤min(Gν,ν,Gν,ν+2,Gν+1/2,ν+1/2).
+Such "Amos-type" bounds were re-established and extended in several publications (see Section 3 for details).
+These bounds are very attractive because they allow both for explicit inversion and integration.
+Thus, Amos-type bounds yield bounds (and approximations) also for Rν-1 and the antiderivate of Rν (equivalently, Iν and its logarithm).
+Let Lν={(α,β):Gα,β≤Rν},Uν={(α,β):Gα,β≥Rν} be the set of all (α,β) for which Gα,β is a lower/upper Amos-type bound for Rν, and write GLν={Gα,β:(α,β)∈Lν},GUν={Gα,β:(α,β)∈Uν}, for the corresponding families of lower/upper Amos-type bounds for Rν.
+In this paper, we investigate the structure of GLν and GUν under the condition that Rν>0, or equivalently, ν≥-1 or ν a negative integer.
+Preliminaries
+Let vν(t)=tIν(t)/Iν+1(t)=t/Rν(t) and hα,β(t)=α+t2+β2 so that Gα,β(t)=t/hα,β(t).
+Using, e.g., Watson [10, Formula 3.7.2], Rν(t)=t2∑n=0∞t2n/(4nn!Γ(n+ν+2))∑n=0∞t2n/(4nn!Γ(n+ν+1)).
+If ν≥-1, all coefficients in the numerator and denominator series are non-negative and eventually positive, and hence Rν>0.
+If ν is a negative integer, the same is true; otherwise, limt→0vν(t)=2Γ(ν+2)/Γ(ν+1)=2(ν+1) which is negative if ν<-1, and hence Rν(t)<0 for all sufficiently small positive t.
+Using the asymptotic expansion of Iν for large argument [10, e.g., Formula 7.23.2], one can show that for arbitrary ν, (1)Rν(t)=1-ν+1/2t+ν2-1/42t2+O(1/t3),t→∞, see also Schou [7, Eq.
+(6), assuming ν≥0].
+As hα,β is increasing with hα,β(0)=α+β, we have Gα,β>0 iff α+β≥0.
+Hence, when ν≥-1 or ν is a negative integer and α+β≥0,Gα,β is a (strict) upper or lower bound for Rν if and only if hα,β is a (strict) lower or upper bound for vν, respectively.
+Lemma 1
+For ν≥-1,(2)vν(t)=2(ν+1)+t22(ν+2)+O(t4),t→0.
+Proof
+More generally, if ν is not a negative integer, vν(t)=t(t/2)ν(1Γ(ν+1)+t2/4Γ(ν+2)+O(t4))(t/2)ν+1(1Γ(ν+2)+t2/4Γ(ν+3)+O(t4))=2(ν+1)+t24+O(t4)1+t24(ν+2)+O(t4)=2(ν+1)+t22(ν+2)+O(t4),t→0.
+If ν=-k is a negative integer, 1/Γ(ν+n+1) vanishes for n from 0 to k-1, and hence v-k(t)=2∑n=k∞t2n/(4nn!Γ(n-k+1))∑n=k-1∞t2n/(4nn!Γ(n-k+2))=2t2k/(4kk!)t2(k-1)/(4k-1(k-1)!)1+t24(k+1)+O(t4)1+t24k+O(t4)=t22k+O(t4),t→0.
+As for ν=-k=-1 we have 2(ν+1)=0 and ν+2=1=k, we can combine the two expansions to obtain the lemma.□
+Lemma 2
+If β>0,(3)hα,β(t)=(α+β)+t22β+O(t4),t→0.For arbitrary α and β≥0,(4)Gα,β(t)=1-αt+2α2-β22t2+O(t-3),t→∞.
+Proof
+If β>0, then t2+β2=β1+(t/β)2=β(1+t22β2+O(t4))=β+t22β+O(t4) for t→0, whence Eq.
+(3) by adding α.
+As t→∞,1+β2/t2=1+β2/(2t2)+O(t-4) and thus Gα,β(t)=1α/t+1+β2/t2=11+α/t+β2/(2t2)+O(t-4)=1-αt+2α2-β22t2+O(t-3),t→∞.□
+Theorem 1
+For arbitrary ν,Gα,β≤Rν or Gα,β≥Rν are only possible when α≥ν+1/2 or α≤ν+1/2, respectively.
+If ν≥-1, then Gα,β≤Rν or Gα,β≥Rν are only possible when α+β≥2(ν+1) or 0≤α+β≤2(ν+1), respectively.
+Proof
+The first assertion is immediate by comparing the expansions of Rν and Gα,β for t→∞.
+If α+β<0,hα,β has a unique zero t>0, and Gα,β changes from -∞ to ∞ at t.
+If ν≥-1,Rν>0, so upper and lower Gα,β bounds necessarily must have α+β≥0.
+The second assertion now follows by comparing the values of vν and hα,β at t=0.□
+Lemma 3
+Let β1<β2 and min(α1+β1,α2+β2)≥0 . Then Gα1,β1<Gα2,β2 iff α1+β1≥α2+β2, and Gα1,β1>Gα2,β2 iff α1≤α2 . Otherwise, if α1>α2 and α1+β1<α2+β2 andt=((β2-β1)2-(α1-α2)2)((β2+β1)2-(α1-α2)2)2(α1-α2),Gα1,β1(s)>Gα2,β2(s) for 0<s<t and Gα1,β1(s)<Gα2,β2(s) for s>t.
+Proof
+Consider Δ=hα1,β1-hα2,β2.
+Then Δ(0)=(α1+β1)-(α2+β2) and as t2+β12-t2+β22=(t2+β12)-(t2+β22)t2+β12+t2+β22=β12-β22t2+β12+t2+β22→0 as t→∞,Δ(t)→Δ(∞)=α1-α2 as t→∞.
+As Δ′(t)=tt2+β12-tt2+β22, if β1<β2 we have Δ′>0 and hence Δ>0 iff Δ(0)≥0, and Δ<0 iff Δ(∞)≤0.
+As min(α1+β1,α2+β2)≥0,Gα1,β1<Gα2,β2 (or >) iff Δ>0 (or <).
+Otherwise, i.e., iff α1>α2 and α1+β1<α2+β2,Δ has a unique zero t∗ in (0,∞), which can be determined as follows.
+Let u=t2+β12>β1 so that t=u2-β12 and t2+β22=u2+(β22-β12), and Δ(t)=0 iff α1+u-α2=u2+(β22-β12).
+Taking squares, u2+2(α1-α2)u+(α1-α2)2=u2+(β22-β12) from which u=β22-β122(α1-α2)-α1-α22.
+Then u-β1=(β22-β12)-(α1-α2)22(α1-α2)-β1=(β2-β1-α1+α2)(β2+β1+α1-α2)2(α1-α2).
+The numerator equals ((α2+β2)-(α1+β1))((α1-α2)+(β1+β2))>0 so that indeed u>β1.
+Similarly, u+β1=β22-β12+2β1(α1-α2)-(α1-α2)22(α1-α2)=(β2+β1-α1+α2)(β2-β1+α1-α2)2(α1-α2) so that with t2=u2-β12=(u-β1)(u+β1) we indeed obtain t=((β2-β1)2-(α1-α2)2)((β2+β1)2-(α1-α2)2)2(α1-α2) for the unique solution of Δ(t)=0 (and equivalently Gα1,β1(t)=Gα2,β2(t)) on (0,∞).
+Clearly, Δ(s)<0 for 0≤s<t and Δ(s)>0 for s>t, so that Gα1,β1(s)>Gα2,β2(s) for 0<s<t and Gα1,β1(s)<Gα2,β2(s) for s>t, and the proof is complete.□
+Lemma 4
+Suppose the quadratic polynomial Q(t)=t2+γt+δ has two real zeros t1≤t2 . Then Q(t)<0 iff t1<t<t2.
+Proof
+Trivial, as Q(t)=(t-t1)(t-t2).□
+Previous work
+Amos [1] gives the bounds Gν+1/2,ν+3/2≤Rν≤Gν+1/2,ν+1/2,ν≥0 (Eq.
+(16)) and Gν+1,ν+1≤Rν≤Gν,ν+2≤Gν,ν,ν≥0 (Eqs.
+(9) and (11)).
+Using Lemma 3 with β1=ν+1<ν+3/2=β2 and α1+β1=2ν+2=α2+β2 we see that the first lower bound is uniformly better (larger) than the second one, whereas again with Lemma 3, neither of the upper bounds Gν+1/2,ν+1/2 and Gν,ν+2 is uniformly better (smaller) than the other: in fact, with α1-α2=1/2,β2-β1=3/2 and β2+β1=2ν+5/2, we get t=(9/4-1/4)(4ν2+10ν+25/4-1/4)2⋅(1/2)=2(ν+1)(2ν+3), so that Gν,ν+2(s)<Gν+1/2,ν+1/2(s) for 0<s<t and Gν+1/2,ν+1/2(s)<Gν,ν+2(s) for s>t.
+Nåsell [5] gives rational bounds for Rν, and notes (p.
+8) that the Amos-type bounds Gν+1/2,ν+3/2<Rν and Rν<Gν+1/2,ν+1/2 are valid for ν>-1 and ν>-1/2, respectively.
+But trivially R-1/2=tanh<1=G0,0, so that the upper bound is in fact valid for ν≥-1/2.
+Simpson and Spector [9, Theorem 2] show that vν(t)2-(2ν+1)vν(t)-(t2+ν+1/2)>0,t>0,ν≥0.
+As the quadratic function Q(s)=s2-(2ν+1)s-(t2+ν+1/2) has zeros ν+1/2±(ν+1/2)2+(t2+ν+1/2)=ν+1/2±t2+(ν+1/2)(ν+3/2),Lemma 4 implies that vν(t)>ν+1/2+t2+(ν+1/2)(ν+3/2) and hence Rν<Gν+1/2,(ν+1/2)(ν+3/2),ν≥0.
+Using Lemma 3, we see that this bound is uniformly better than the Amos-type bound Gν+1/2,ν+1/2.
+To compare with Gν,ν+2, note that ((β2-β1)2-(α1-α2)2)((β2+β1)2-(α1-α2)2)=(β22-β12)2-2(β22+β12)(α1-α2)2+(α1-α2)4.
+Thus, using Lemma 3 with α1=ν+1/2,β1=(ν+1/2)(ν+3/2),α2=ν and β2=ν+2, we get α1-α2=1/2,β22-β12=2ν+13/4,β22+β12=2ν2+6ν+19/4 and t=(2ν+13/4)2-2(2ν2+6ν+19/4)/4+1/16=3ν2+10ν+33/4=(3ν+11/2)(ν+3/2), and therefore Gν+1/2,(ν+1/2)(ν+3/2)(s)<Gν,ν+2(s) for s>t, and Gν,ν+2(s)<Gν+1/2,(ν+1/2)(ν+3/2)(s) for 0<s<t.
+Neuman [6, Proposition 5] shows that vν2(t)-(2ν+1)vν(t)-(t2+ν+1/2)<ν+3/2,t>0,ν>-3/2.
+As the quadratic function Q(s)=s2-(2ν+1)s-(t2+2(ν+1)) has zeros ν+1/2±(ν+1/2)2+t2+2(ν+1)=ν+1/2±t2+(ν+3/2)2,Lemma 4 implies that vν(t)<ν+1/2+t2+(ν+3/2)2 for t>0 and ν>-3/2.
+If ν≥-1,vν>0 and hence Rν>Gν+1/2,ν+3/2.
+Yuan and Kalbfleisch [11, Eq.
+(A.5)] show that Gν+1,ν+1≤Rν≤Gν,ν,ν>-1.
+Baricz and Neuman [2, Theorems 2.1 and 2.2] show that if a>1 and b=1/(4log(a)), then vν(t)2-(2ν+1)vν(t)-t2<2(ν+1),0<t≤2b,ν≥b-2 and that vν(t)2-2νvν(t)-t2>4(ν+1),t>0,ν>-2 (the reference uses p-1 for ν).
+The former extends the earlier result of Neuman [6] when ν≤-3/2, in which case the bounds are not valid for all t>0.
+As s↦Q(s)=s2-2νs-(t2+4(ν+1)) has zeros ν±ν2+t2+4(ν+1)=ν±t2+(ν+2)2,Lemma 4 yields that for ν≥-1, the latter is equivalent to Rν<Gν,ν+2, extending the previously established ν range for this bound.
+Laforgia and Natalini [4, Theorem 1.1] show that -ν+t2+ν2t<Iν(t)Iν-1(t),t>0,ν≥0 (the condition that t>0 is not stated explicitly in the theorem, but given in Eq.
+(1.8) of the reference used in the proof).
+As t2+ν2-νt=(t2+ν2)-ν2t(t2+ν2+ν)=tν+t2+ν2=Gν,ν(t), the result is equivalent to Rν>Gν+1,ν+1,ν≥-1, which is weaker than the Rν>Gν+1/2,ν+3/2 bound.
+Segura [8, Theorem 3] shows that Iν+1/2(t)Iν-1/2(t)<tν+t2+ν2,t>0,ν≥0 or equivalently, Rν<Gν+1/2,ν+1/2 for ν≥-1/2.
+For rν(t)=Iν(t)/(tIν-1(t))=Rν-1(t)/t, Segura [8, Eqs.
+(22) and (61)] also shows that for t>0 and ν≥0, 1(ν-1/2)+t2+(ν+1/2)2<rν(t)<1ν+ν2+t2ν/(ν+1).
+Clearly, the lower bound is equivalent to Rν>Gν+1/2,ν+3/2 for ν≥-1, and the upper bound to Rν(t)<tν+1+(ν+1)2+t2(ν+1)/(ν+2) for t>0 and ν≥-1, which is weaker than the upper bound Rν<Gν,ν+2.
+Kokologiannaki [3, Theorem 2.1] shows that for fν(t)=Iν+1(t)/(tIν(t))=Rν(t)/t, -ν+1t2+(ν+1)2t4+1t2<fν(t)<-ν+1t2+(ν+1)2t4+1t2+14(ν+1)2(ν+2) for t>0 and ν>-1.
+As -ν+1t+(ν+1)2t2+1=t2+(ν+1)2-(ν+1)t, the lower bound again is equivalent to Rν>Gν+1,ν+1 for ν>-1.
+Write UK(t) for the above upper bound and γ=1/(4(ν+1)2(ν+2)).
+UK(t) is the larger root of the quadratic polynomial s↦Q(s;t)=s2+2(ν+1)t2s-1t2-γ, so by Lemma 4, for any function s(t) with Q(s(t),t)<0 for all t>0 we have s<UK.
+Consider s(t)=Gν,ν+2(t)/t, and write β=ν+2.
+Then Q(s(t),t)<0 iff 1(ν+t2+β2)2+2(ν+1)t21ν+t2+β2<1t2+γ, which in turn is equivalent to (1+γt2)(ν+t2+β2)2-2(ν+1)(ν+t2+β2)-t2>0.
+Let ξ=t2+β2-β so that t≠0 iff ξ>0,t2=(ξ+β)2-β2=ξ(ξ+2β),ν+t2+β2=2(ν+1)+ξ, and the inequality becomes 0<P(ξ)=γξ4+γ(4(ν+1)+2β)ξ3+(1+8(ν+1)βγ+4(ν+1)2γ-1)ξ2+(4(ν+1)+8(ν+1)2βγ-2(ν+1)-2β)ξ+(4(ν+1)2-4(ν+1)2).
+The coefficient of the linear term is 0, so that P(ξ)=γξ2(ξ2+(4(ν+1)+2β)ξ+(8(ν+1)β+4(ν+1)2)) and for ν>-1 we have P(ξ)>0 for ξ>0.
+Thus, Gν,ν+2(t)/t<UK(t) for all t>0.
+We thus have the following.
+Theorem 2
+For all t>0 and ν>-1,Gν,ν+2(t)t<-ν+1t2+(ν+1)2t4+1t2+14(ν+1)2(ν+2).
+Hence, the upper bound in Kokologiannaki [3, Theorem 2.1] is strictly weaker than the bound fν(t)=Rν(t)/t<Gν,ν+2(t)/t.
+The various results can be summarized as follows: the "best" (in the sense of not being uniformly weaker than other) Amos-type bounds for Rν currently available are Gν+1/2,ν+3/2<Rν,ν≥-1,Rν<Gν,ν+2,ν≥-1,Rν<Gν+1/2,(ν+1/2)(ν+3/2),ν>0,Rν<Gν+1/2,ν+1/2,-1/2≤ν≤0.
+Results
+Theorem 3
+For ν≥-1,Lν={(α,β):α≥ν+1/2,α+β≥2(ν+1),β≥0}and Gν+1/2,ν+3/2 is the maximum of the family GLν of lower Amos-type bounds for Rν.
+Proof
+We already know that for ν≥-1,Gν+1/2,ν+3/2<Rν.
+By Theorem 1, Gα,β≤Rν is only possible if α+β≥2(ν+1)=(ν+1/2)+(ν+3/2) and α≥ν+1/2.
+If β<ν+3/2, Lemma 3 implies that Gα,β<Gν+1/2,ν+3/2.
+Otherwise, we trivially have Gα,β≤Gα,ν+3/2≤Gν+1/2,ν+3/2.□
+Theorem 4
+For ν≥-1,Uν is a closed convex set.
+Proof
+For fixed t>0,(α,β)↦hα,β(t) is continuous, linear in α, and satisfies ∂hα,β(t)/∂β=β(t2+β2)-1/2≥0 and hence ∂2hα,β(t)∂β2=(t2+β2)-1/2-β2(t2+β2)-3/2=t2(t2+β2)-3/2≥0 and is thus convex.
+By Theorem 1, Gα,β≥Rν is only possible when α+β≥0, for which it is equivalent to hα,β≤vν.
+Hence, Uν=⋂t>0{(α,β):hα,β(t)≤v(t)} is the intersection of closed convex sets, and thus a closed convex set.□
+Let Vν(α)={β:(α,β)∈Uν}βν∗(α)=supVν(α)αν∗=sup{α:Vν(α)≠0̸}.
+As limβ→∞Gα,β(t)=0 for t>0, clearly βν∗(α)<∞ for ν≥-1.
+Theorem 5
+For ν≥-1,Uν={(α,β):α≤αν∗,max(0,-α)≤β≤βν∗(α)},with βν∗ continuous, decreasing and concave.
+Proof
+For ν≥-1, we have β∈Vν(α) iff α+β≥0 and hα,β≤vν.
+Thus, as hα,β is continuous and increasing in β, if Vν(α) is non-empty, it is the closed interval [max(0,-α),βν∗(α)].
+By Lemma 3, Gα-η,β+η>Gα,β for all η>0, so βν∗ must be decreasing as long as Vν(α) is non-empty.
+If αn↑αν∗,βn=βν∗(αn) is decreasing and non-negative and thus must have a finite limit β∞.
+Taking limits in αn+βn≥0 and hαn,βn≤vν implies that αν∗+β∞≥0 and hαν∗,β∞≤vν.
+Thus, Vν(αν∗) is non-empty.
+As Uν=⋃αVν(α), the first assertion follows.
+Finally, as Uν is closed and convex, βν∗ must be continuous and concave.□
+Theorem 6
+Let ν≥-1 . For α≤ν,βν∗(α)=2(ν+1)-α . For ν<α≤αν∗,βν∗(α)<2(ν+1)-α.
+Proof
+We know that (ν,ν+2)∈Uν.
+By Theorem 1, Gα,β≥Rν is only possible if α+β≤2(ν+1)=ν+(ν+2) so that βν∗(α)≤2(ν+1)-α.
+If α+β=2(ν+1) and β>0, hα,β(t)=2(ν+1)+t22β+O(t4),t→0 by Eq.
+(3) and comparison with Eq.
+(2) shows that hα,β≤vν is only possible if in fact β≥ν+2>0, or equivalently, if α≤2(ν+1)-(ν+2)=ν.
+For α<ν, Lemma 3 implies that Gα,2(ν+1)-α>Gν,ν+2≥Rν, so that indeed βν∗(α)=2(ν+1)-α.□
+Let Qα,β(s)=β2+(2(ν+1)α-α2-β2)s+2(ν+1/2-α)s2.
+Lemma 5
+Let Δ=vν-hα,β . ThentΔ′(t)=Qα,β(t2+β2)t2+β2+(2(ν+1)-vν(t)-hα,β(t))Δ(t).
+Proof
+As shown in Simpson and Spector [9], vν satisfies the Riccati equation tvν′(t)=t2+2(ν+1)vν(t)-vν(t)2 and clearly, hα,β′(t)=t/t2+β2.
+Hence, as v2=h2+(v2-h2)=h2+(v-h)(v+h), tvν′(t)=t2+2(ν+1)(Δ(t)+hα,β(t))-(hα,β(t)2+Δ(t)(vν(t)+hα,β(t)))=t2+2(ν+1)hα,β(t)-hα,β(t)2+(2(ν+1)-vν(t)-hα,β(t))Δ(t) with t2+2(ν+1)hα,β(t)-hα,β(t)2=t2+2(ν+1)(α+t2+β2)-(α2+2αt2+β2+t2+β2)=2(ν+1)α-α2-β2+2(ν+1-α)t2+β2 so that t2+2(ν+1)hα,β(t)-hα,β(t)2-t2t2+β2=(2(ν+1)α-α2-β2)t2+β2+2(ν+1-α)(t2+β2)-t2t2+β2=Qα,β(t2+β2)t2+β2, whence the lemma.□
+Let αν♭=min(ν+1/2,2ν+1) (so that αν♭ equals ν+1/2 for ν≥-1/2 and 2ν+1 otherwise), and for -1≤ν≤α≤αν♭ let βν♭(α)=2ν+1-2α+2ν+1+2να-α2=2(ν+1/2-α)+(α+1)(2ν+1-α) (where the second expressions shows that βν♭ is well-defined).
+Lemma 6
+Let ν≥-1 . Then βν♭ is strictly concave with βν♭(ν)=ν+2,βν♭(αν♭) equals (ν+1/2)(ν+3/2) if ν≥-1/2 and -2(ν+1/2) if -1≤ν≤-1/2, and α↦α+βν♭(α) is non-negative and decreasing.
+Proof
+The assertions about the values of βν♭ at ν and αν♭ are straightforward.
+If ν=-1,αν♭=ν and there is nothing left to prove.
+Hence, take ν>-1.
+The second derivative of α↦f(α) is given by d2f(α)dα2=f″(α)f(α)-f′(α)2/22f(α)3.
+For f1(α)=2(ν+1/2-α) and f2(α)=2ν+1+2να-α2 we have f1′(α)=-2,f1″(α)=0,f2′(α)=2(ν-α) and f2″(α)=-2, giving numerators -2 and -2(2ν+1+2να-α2)-4(ν-α)2/2=-2(ν+1)2<0.
+Hence βν♭ is the sum of two strictly concave functions, and thus strictly concave.
+Clearly, dβν♭(α)dα=-12ν+1-2α+ν-α2ν+1+2να-α2 with value -1 at α=ν.
+By strict concavity, the derivative of βν♭ is decreasing, and hence less than -1 for α>ν, so that the derivative of α↦f(α)=α+βν♭(α) is negative for α>ν and f is decreasing.
+It remains to show that f(αν♭)≥0.
+If ν≥-1/2, this is immediate from αν♭=ν+1/2≥0.
+Otherwise, αν♭=2ν+1<0 and f(αν♭)=2ν+1+-(2ν+1), which is non-negative as 0≤-(2ν+1)≤1.□
+Theorem 7
+Let ν≥-1 . Then for ν≤α≤αν♭,Gα,βν♭(α)≥Rν.
+Proof
+The proof will be based on the ideas of Simpson and Spector [9].
+Suppose Δ is sufficiently often continuously differentiable on [0,∞) with Δ(0)>0.
+Suppose that for all t>0,Δ(t)=0 implies that there exists a suitable odd k such that Δ(l)(t)=0 for l<k and Δ(k)(t)>0.
+Then Δ(t)≥0 for all t≥0, as otherwise for s=inf{t>0:Δ(t)=0} we would have Δ(s-ϵ)=Δ(k)(s∗)(-ϵ)k/k!<0 for all sufficiently small ϵ>0 and a suitable s∗∈(s-ϵ,s), which is impossible.
+In our case, Δ=vν-hα,β, where β=βν♭(α).
+If α=ν, we have β=ν+2 and we already know for ν≥-1 that Gα,β=Gν,ν+2≥Rν.
+By Lemma 6, α+βν♭(α) is decreasing and hence maximal for α=ν with value 2(ν+1).
+Thus, for α>ν we have α+βν♭(α)<2(ν+1), or equivalently, Δ(0)>0.
+Write s(t)=t2+β2.
+If α=ν+1/2, which is only possible if ν≥-1/2, we have β=(ν+1/2)(ν+3/2) and Qα,β=β2 for all s.
+If ν=-1/2, we already know that R-1/2=tanh≤G0,0.
+Otherwise, Qα,β(s)=β2>0.
+If Δ(t)=0 for some t>0, Lemma 5 implies that Δ′(t)=β2/(ts(t))>0, completing the proof for this case.
+Hence, consider the case where ν<α<ν+1/2.
+Solving Qα,β(s)=0 has discriminant (2(ν+1)α-α2-β2)2-8(ν+1/2-α)β2=(2(ν+1)α-α2-β2+2β2ν+1-2α)⋅(2(ν+1)α-α2-β2-2β2ν+1-2α), with β=βν♭(α) the larger root of the first factor.
+Hence, the discriminant vanishes, and with σ=-2(ν+1)α-α2-β24(ν+1/2-α)=22ν+1-2αβ4(ν+1/2-α)=β2ν+1-2α>0 we have Qα,β(s)=γ(s-σ)2, where γ=2ν+1-2α>0.
+If Δ(t)=0 for some t>0, Lemma 5 implies that tΔ′(t)=Qα,β(s(t))/s(t).
+If s(t)≠σ,Qα,β(s(t))>0, and the proof is complete.
+Otherwise, use Lemma 5 to write tΔ′(t)=ξ(t)+η(t)Δ(t), where ξ(t)=γ(s(t)-σ)2/s(t)=γ(s(t)-2σ+σ2s(t)) so that ξ′(t)=γ(s′(t)-σ2s′(t)/s(t)2) and ξ″(t)=γ(s″(t)-σ2(s″(t)s(t)2-2s′(t)2s(t)3)).
+If s(t)=σ,ξ′(t)=0 and ξ″(t)=2γs′(t)2/σ>0.
+Differentiation gives Δ′(t)+tΔ″(t)=ξ′(t)+η′(t)Δ(t)+η(t)Δ′(t) and 2Δ″(t)+tΔ‴(t)=ξ″(t)+η″(t)Δ(t)+2η′(t)Δ′(t)+η(t)Δ″(t), so that if s(t)=σ,Δ(t)=Δ′(t)=Δ″(t)=0 and Δ‴(t)=ξ″(t)/t>0, and the proof is complete.□
+Theorem 8
+Let ν≥-1 . Then the elements of {Gα,βν♭(α):ν≤α≤αν♭} are mutually incomparable.
+Proof
+By Lemma 6, α↦α+βν♭(α) is decreasing, whence the result by using Lemma 3.□
+Theorem 9
+For ν≥-1/2,αν∗=ν+1/2 andβν∗(ν+1/2)=βν♭(ν+1/2)=(ν+1/2)(ν+3/2).For -1≤ν<-1/2,αν∗<ν+1/2.
+Proof
+Let β♭=βν♭(ν+1/2)=(ν+1/2)(ν+3/2).
+For arbitrary β, Gν+1/2,β=1-ν+1/2t+2(ν+1/2)2-β22t2+O(t-3),t→∞ by Eq.
+(4) and comparison with Eq.
+(1) shows that Gν+1/2,β≥Rν is only possible if 2(ν+1/2)2-β2≥(ν+1/2)(ν-1/2), or equivalently, if β2≤2(ν+1/2)2-(ν+1/2)(ν-1/2)=(ν+1/2)(ν+3/2).
+For ν<-1/2, the upper bound is negative, so that Gν+1/2,β≥Rν is impossible for all β≥0 and hence αν∗<ν+1/2.
+For ν≥1/2, the condition is equivalent to β≤β♭.
+By Theorem 7, (ν+1/2,β♭)∈Uν and by Theorem 1, α≤ν+1/2, so that αν∗=ν+1/2 and βν∗(ν+1/2)=β♭.□
+Theorem 10
+Let ν≥-1/2 and ν<α<ν+1/2 . Then there exists a unique positive tν∗(α) at which Gα,βν∗(α) is tangent to Rν . The map α↦tν∗(α) is continuous and increasing on (ν,ν+1/2), with limα→ν+tν∗(α)=0 and limα→ν+1/2-tν∗(α)=∞.
+Proof
+Write β∗=βν∗(α).
+By Theorem 6, we can find δ>0 such that β∗≤2(ν+1)-α-δ.
+Using Lemma 3 and the fact that (ν+1/2)(ν+3/2)≤βν♭(α)≤β∗, we can find 0<t1<t2 such that for all β∗≤β≤β∗+δ,Gα,β(t)≥Gν,ν+2(t)>Rν(t) for 0<t≤t1 and Gα,β(t)≥Gν+1/2,(ν+1/2)(ν+3/2)(t)>Rν(t) for t≥t2.
+If Gα,β∗>Rν, we have for all η>0 sufficiently small that Gα,β∗+η(t)≥Rν(t) for t1≤t≤t2.
+By the above, the same holds true for 0<t≤t1 and t≥t2.
+Hence, Gα,β∗+η≥Rν for all η>0 sufficiently small, which contradicts the maximality of β∗.
+Thus, there must be at least one t>0 such that Gα,β∗(t)=Rν(t), and clearly, the derivatives must agree at t as otherwise Gα,β∗ could not be an upper bound for Rν.
+Equivalently, hα,β must be tangent to vν at t.
+By Lemma 5, this is the case iff t solves Qα,β∗(t2+β∗2)=0, from which we infer that t=tν∗(α) is uniquely determined and continuous as a function of α.
+The limits for α→ν from the right and α→ν+1/2 from the left are obvious.
+To show that t∗ is increasing, it suffices to show that it is injective.
+Hence, let ν<α1<α2<ν+1/2 and suppose that tν∗(α1)=tν∗(α2)=t∗.
+Then with βi∗=βν∗(αi), the hαi,βi∗ must have the same value and derivative at t∗, so that t∗t∗2+β1∗2=t∗t∗2+β2∗2, and hence β1∗=β2∗, which is impossible as βν∗ is decreasing by Theorem 5.□
+Theorem 11
+Let ν≥-1/2 . Then {Gα,βν∗(α):ν≤α≤ν+1/2} are the minimal elements of the family GUν of upper Amos-type bounds for Rν, andRν=min{Gα,βν∗(α):ν≤α≤ν+1/2}.
+Proof
+Let t>0.
+By Theorem 10, there exists a unique ν<α<ν+1/2 so that tν∗(α)=t and hence Rν(t)=Gα,βν∗(α)(t), proving the second assertion.
+Let ν≤α1<α2≤ν+1/2 and βi∗=βν∗(αi).
+If α1=ν, Theorem 6 shows that 2(ν+1)=α1+β1∗>α2+β2∗.
+If α1>ν and α1+β1∗≤α2+β2∗, Lemma 3 implies that Rν≤Gα2,β2∗<Gα1,β1∗, which is impossible as by Theorem 10, Gα1,β1∗ must be the only tangent to Rν at tν∗(α1).
+Thus we always have α1+β1∗>α2+β2∗, and again by Lemma 3, there always exists t=t(α1,α2) such that Gα1,β1∗(s)<Gα2,β2∗(s) for 0<s<t and Gα1,β1∗(s)>Gα2,β2∗(s) for s>t.
+As Gα,βν∗(α)>Gν,ν+2=Gν,βν∗(ν) for α<ν and trivially Gα,β≥Gα,β∗(α) provided that (α,β)∈Uν, the first assertion follows, and the proof is complete.□
+Finally, let us consider the cases where ν=-k is a negative integer.
+As readily seen from the series expansion, I-k=Ik, and hence R-k=I-k+1/I-k=Ik-1/Ik=1/Rk-1.
+Theorem 12
+If k is a positive integer,U-k={(-β,β):β≥k}and G-k,k is the minimum of the family GUν of upper Amos-type bounds for R-k.
+Proof
+As R-k>0 and has a pole at t=0, the same must be true for upper bounds Gα,β of R-k, implying that necessarily α+β=0.
+As G-β,β(t)=tt2+β2-β=t(t2+β2+β)(t2+β2)-β2=t2+β2+βt=1Gβ,β(t), we have 1/Gβ,β=G-β,β≥R-k=1/Rk-1 iff Rk-1≥Gβ,β, i.e., (β,β)∈Lk-1.
+From the characterization of Lν for ν≥-1 (Theorem 3), this is possible iff β≥k-1/2 and 2β≥2k, or equivalently, β≥k.□
+Theorem 13
+If k is a positive integer,L-k={(α,β):α≥-(k-1/2),α+β≥0,β≥0}and G-(k-1/2),k-1/2 is the maximum of the family GLν of lower Amos-type bounds for R-k.
+Proof
+For lower bounds Gα,β of R-k, we must have α+β≥0 by the usual arguments, and Theorem 1 implies that necessarily α≥-k+1/2.
+On the other hand, we also know that Rk-1≤Gk-1/2,k-1/2, or equivalently, G-(k-1/2),k-1/2≤R-k, and the proof is complete.□
+Note that for k=1, we already know by Theorem 3 that G-1+1/2,-1+3/2=G-1/2,1/2 is the greatest lower bound for R-1, and Theorem 6 yields that β-1∗(-1)=1, so that G-1,1 is the least upper bound for R-1 with α=-1.
+Summary and conclusions
+In this paper, we systematically investigate lower and upper Amos-type bounds for Rν=Iν+1/Iν on the positive reals when Rν is positive, or equivalently, when ν≥-1 or ν is a negative integer.
+For ν≥-1, the set Lν of all (α,β) giving lower bounds Gα,β≤Rν has a simple explicit description, and Gν+1/2,ν+3/2 is the maximum of the family GLν of lower Amos-type bounds for Rν (Theorem 3).
+For ν≥-1, the set Uν of all (α,β) giving upper bounds Gα,β≥Rν is of the form {(α,β):α≤αν∗,max(0,-α)≤β≤βν∗(α)}, where ν≤αν∗≤ν+1/2 and βν∗ is continuous, decreasing and concave (Theorem 5), with βν∗(ν)=ν+2 and α+βν∗(α)<2(ν+1) for α>ν (Theorem 6).
+If ν≥-1/2, αν∗=ν+1/2 and βν∗(ν+1/2)=(ν+1/2)(ν+3/2) by Theorem 9, and the upper bounds in the family {Gα,βν∗(α),ν≤α≤ν+1/2} are tangent to Rν in exactly one point tν∗(α) (Theorem 10, taking tν∗(ν)=0 and tν∗(ν+1/2)=∞), and the minimal elements of the family GUν of upper Amos-type bounds for Rν, with Rν as their lower envelope (Theorem 11).
+Thus, for ν≥-1, the pointwise maximum over all lower Amos-type bounds equals Gν+1/2,ν+3/2<Rν, and hence is always smaller than Rν.
+On the other hand, for ν≥-1/2, the pointwise minimum over all upper Amos-type bounds equals Rν.
+For ν≥-1 and ν≤α<αν♭=min(ν+1/2,2ν+1), Theorems 7 and 8 establish a family {Gα,βν♭(α),ν≤α≤αν♭} of explicitly computable, mutually incomparable upper bounds for Rν with βν♭(ν)=βν∗(ν)=ν+2.
+For ν<α<αν♭, these bounds are new.
+For ν≥-1/2,αν♭=αν∗=ν+1/2 and βν♭(ν+1/2)=βν∗(ν+1/2), and Theorem 7 extends the range of the bound Gν+1/2,(ν+1/2)(ν+3/2)≥Rν given in Simpson and Spector [9] from ν≥0 to ν≥-1/2, and for -1/2<ν<0 dominates Gν+1/2,ν+1/2 as the best previously available upper bound with α=ν+1/2 (and hence first order exact as t→∞).
+Finally, for the cases where ν=-k is a negative integer, Theorems 12 and 13 give explicit characterizations of U-k and L-k, and establish G-k,k and G-(k-1/2),k-1/2 as the least upper and greatest lower Amos-type bounds for R-k, respectively.
+For -1≤ν<-1/2, the value of αν∗ is not known; the results in this paper imply that αν♭≤αν∗<ν+1/2.
+It is also not known whether in this case Rν can be obtained as the lower envelope of all upper Amos-type bounds.
+For ν=-1, this is certainly not the case (as G-1,1 is the uniformly smallest upper bound).
+Hence the range -1<ν<-1/2 deserves further investigation.
+Acknowledgment
+This research was funded by the Austrian Science Fund(FWF): V170-N18.
+

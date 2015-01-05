@@ -1,0 +1,204 @@
+Generation of familial amyloidotic polyneuropathy-specific induced pluripotent stem cells
+
+Abstract
+Familial amyloidotic polyneuropathy (FAP) is a hereditary amyloidosis induced by amyloidogenic transthyretin (ATTR).
+Because most transthyretin (TTR) in serum is synthesized by the liver, liver transplantation (LT) is today the only treatment available to halt the progression of FAP, even though LT is associated with several problems.
+Despite the urgent need to develop alternatives to LT, the detailed pathogenesis of FAP is still unknown; also, no model fully represents the relevant processes in patients with FAP.
+The induction of induced pluripotent stem (iPS) cells has allowed development of pluripotent cells specific for patients and has led to useful models of human diseases.
+Because of the need for a tool to elucidate the molecular pathogenesis of FAP, in this study we sought to establish heterozygous ATTR mutant iPS cells, and were successful, by using a Sendai virus vector mixture containing four transcription factors (Oct3/4, Sox2, Klf4, and c-Myc) to reprogram dermal fibroblasts derived from FAP patients.
+Moreover, FAP-specific iPS cells had the potential to differentiate into hepatocyte-like cells and indeed expressed ATTR.
+FAP-specific iPS cells demonstrated the possibility of serving as a pathological tool that will contribute to understanding the pathogenesis of FAP and development of FAP treatments.
+Highlights
+•
+We established, for the first time, FAP-specific iPS cells by using a Sendai virus.
+•
+FAP-specific iPS cells have potential to differentiate into hepatocyte-like cells.
+•
+Hepatocyte-like cells from FAP-specific iPS cells indeed expressed ATTR Val30Met.
+•
+FAP-specific iPS cells demonstrate the possibility to serve as a pathological tool.
+
+Introduction
+Transthyretin (TTR) is a β-sheet-rich protein that is mainly synthesized by the liver (Buxbaum and Reixach, 2009).
+TTR normally serves as a plasma transport protein for thyroid hormone and retinol-binding protein with vitamin A (Kanai et al., 1968).
+Mutant forms of TTR, however, cause familial amyloidotic polyneuropathy (FAP), which is the most common type of autosomal-dominant hereditary systemic amyloidosis (Saraiva et al., 1983; Ando et al., 2005).
+As of today, more than 100 different points of mutation and a deletion in the TTR gene have been reported (Westermark et al., 2002; Ando and Ueda, 2012; Benson and Kincaid, 2007), with the Val30Met mutation being the most common.
+Systemic amyloid depositions in FAP cause various symptoms, including cardiac and renal dysfunctions, gastrointestinal disorders, glandular and autonomic dysfunctions, and peripheral neuropathy (Ando and Suhr, 1998; Ando et al., 1993, 1997; Araki, 1984).
+Because the liver synthesizes most of the TTR in the serum, liver transplantation (LT) is the only treatment available to halt the progression of FAP (Ando et al., 1995a; Suhr et al., 1995).
+Although LT is widely accepted as the only lifesaving treatment option for FAP patients (Ando et al., 1995b), LT involves several problems, such as a shortage of liver donors, the effects of immunosuppressants, and the progression of ocular disorders caused by a continuing production of amyloidogenic TTR (ATTR) by the retina (Ong et al., 1994; Kawaji et al., 2005).
+Despite an urgent need to develop alternatives to LT, details about the mechanism of amyloid formation in FAP are still unknown.
+Although attempts were made to establish experimental models of FAP, a suitable tool is not yet available (Buxbaum et al., 2003; Pokrzywa et al., 2007; Berg et al., 2009).
+Because FAP is an autosomal-dominant inherited disease, TTR secreted into plasma is the heterotetrameric mixture of wild-type TTR and variant TTR.
+However, all TTRs used in experiments have been homotetramers, and an artificial Val30Met-overexpressed cell system does not fully represent the relevant processes in patients with FAP (Sousa et al., 2000; Cardoso et al., 2008; Sato et al., 2007).
+Therefore, an urgent need exists to establish an experimental model such as heterozygous ATTR mutant cells derived from FAP patients.
+Induced pluripotent stem (iPS) cells have an unlimited replicative ability and the potential to differentiate into most cell types in organisms (Takahashi and Yamanaka, 2006; Takahashi et al., 2007; Yu et al., 2007).
+The creation of iPS cells has permitted the development of patient-specific pluripotent cells and has led to useful models of human diseases (Saha and Jaenisch, 2009).
+Recent studies reported success in generating patient-specific iPS cells for various diseases including neurologic (Dimos et al., 2008; Ebert et al., 2009; Soldner et al., 2009), hematologic (Raya et al., 2009), and metabolic disorders (Maehr et al., 2009).
+A report on spinal muscular atrophy-specific iPS cells suggested applications to disease modeling and drug screening by showing the disease-specific changes in cell survival and function (Ebert et al., 2009).
+A report on Fanconi anemia-specific iPS cells also indicated a potential value for cell therapy by correcting the genetic defect before iPS cell derivation (Raya et al., 2009).
+Thus, although disease-specific iPS cells may help therapeutic research, iPS cells from patients with FAP have not yet been generated.
+In this study, we first report the generation of iPS cells from patients with FAP ATTR Val30Met, which we achieved by reprogramming their fibroblasts with a mixture of Sendai virus (SeV) vector, which does not integrate into the host genome (Li et al., 2000) and has a low risk of tumorigenicity, encoding four transcription factors: octamer 3/4 (Oct3/4), sex-determining region Y box 2 (Sox2), Kruppel-like factor 4 (Klf4), and c-Myc (Fusaki et al., 2009; Ban et al., 2011).
+FAP-specific iPS cells indeed differentiated into hepatocyte-like cells (Shiraki et al., 2008; Shiraki et al., 2011) and expressed Val30Met ATTR.
+FAP-specific iPS cells may thus provide valuable experimental tools to elucidate the molecular pathogenesis of FAP with a potential value for cell therapy applications.
+Materials and methods
+Reagents
+Reagents were purchased and used at the designated concentrations as follows: recombinant human Activin A (HumanZyme, Chicago, IL), 100ng/ml; recombinant human basic fibroblast growth factor (ReproCELL, Yokohama, Japan); recombinant human Bone morphogenetic protein 4 (R&D systems, Minneapolis, MN), 10ng/ml; recombinant human Fibroblast growth factor 10 (PeproTech, London, UK), 10ng/ml; recombinant human hepatocyte growth factor (PeproTech), 10ng/ml; dexamethasone (Dex; Sigma, St.
+Louis, MO), 1μM; Y-27632 (Rho-associated kinase inhibitor; Wako Chemical, Osaka, Japan), 10μM; Dulbecco's Modified Eagle Medium (Gibco, Funakoshi, Tokyo, Japan); RPMI-1640 (Invitrogen, Glasgow, UK); B27 supplement (Invitrogen), nonessential amino acids (Gibco); l-glutamine (Gibco); knockout serum replacement (Gibco); polyclonal rabbit anti-human TTR antibody (Dako, Glostrup, Denmark); Mouse anti-Oct3/4 antibody (Santa Cruz Biotechnology, Texas, USA), Rabbit anti-Alphafeto protein antibody (Dako), Goat anti-human Albumin antibody (Bethyl, Texas, USA), Goat anti-Sox17 antibody (R&D systems); and Rabbit anti-HNF-4α antibody (Santa Cruz Biotechnology).
+Patients
+Skin biopsy samples were obtained from three Japanese female patients with FAP ATTR Val30Met in Kumamoto University Hospital.
+All FAP patients in this study had a definitive diagnosis of FAP on the basis of genetic investigations and clinical manifestations of FAP (Table 1).
+The research followed the guidelines of the Kumamoto University Ethical Committee.
+Generation of iPS cells
+Skin fibroblasts from patients with FAP ATTR Val30Met were maintained in Dulbecco's Modified Eagle Medium (Gibco) supplemented with 10% fetal bovine serum.
+Induction of human iPS cells was performed as described previously (Fusaki et al., 2009; Ban et al., 2011).
+In brief, 1×106 human fibroblasts BJ from neonatal foreskin (American Type Culture Collection, Manassas, VA) or FAP patients' fibroblasts were infected with conventional SeV vectors carrying Oct3/4, Sox2, Klf 4, and a temperature-sensitive vector, which has c-Myc at the HNL position at a multiplicity of infection of 3.
+One week after infection, cells were collected and replated on mitomycin C-treated mouse embryonic fibroblast feeder cells.
+The next day, medium was changed to a primate embryonic stem cell medium supplemented with 10ng/ml basic fibroblast growth factor.
+Embryonic stem cell-like colonies were picked up 28days after infection.
+At passage 3, many colonies were negative for the SeV vector; if the vector was present, SeV-negative clones were obtained by incubating cells at nonpermissive temperature (38°C for 3days).
+The reprogramming efficiency was calculated as the number of alkaline phosphatase (ALP)-positive embryonic stem cell-like colonies formed per number of infected cells seeded.
+Differentiation into hepatocyte-like cells
+FAP-specific iPS cells were differentiated into hepatocyte-like cells using feeder free method modified from reported protocols (Shiraki et al., 2008, 2011), with the following modifications: FAP-specific iPS cells were pretreated overnight with 10μM Y-27632 (Wako Chemical) and were then dissociated by using 0.25% trypsin-EDTA and were plated at 100,000 cells per well in 96-well plates that had been previously coated with fibronectin.
+The cells were cultured for 5days in DMEM supplemented with 100ng/ml Activin A (HumanZyme), 2% B27 supplement (Invitrogen), nonessential amino acids (Gibco), l-glutamine (Gibco), penicillin and streptomycin, and β-mercaptoethanol.
+For differentiation from D5 to D7, RPMI-1640 (Invitrogen) supplemented with 10ng/ml BMP4, 10ng/ml Fgf10 and 2% B27 supplement, nonessential amino acids (Gibco), l-glutamine (Gibco), penicillin and streptomycin, and β-mercaptoethanol.
+The medium was then changed to hepatic differentiation medium-DMEM supplemented with 10% knockout serum replacement (Gibco), 10ng/ml hepatocyte growth factor (PeproTech), 1μM Dex (Sigma), nonessential amino acids, l-glutamine, penicillin and streptomycin, and β-mercaptoethanol-for up to 20days.
+Medium was replaced every day (Day 0-5) or every 2days (Day 5-20) with fresh differentiation medium supplemented with growth factor.
+Human iPS cell lines (201B7), the first iPS cells established from human dermal fibroblasts by Dr. Shinya Yamanaka, and HepG2 cells, a human hepatocellular carcinoma cell line, were used as control (Takahashi et al., 2007).
+For albumin and TTR secretion assay, definitive endoderm cells (Day 5) were dissociated with 0.25% trypsin-EDTA (Invitrogen) and then plated at 200,000 cells/well on a synthemax (corning) pre-coated 96-well plate, and culture up to Day 20 using the abovementioned protocol.
+ALP staining
+ALP staining was performed with ALP substrate (1-Step NBT/BCIP; Pierce, IL, USA) after fixation with 10% neutral buffered formalin solution (Wako Chemical), as previously described (Fusaki et al., 2009; Ban et al., 2011).
+Reverse-transcription polymerase chain reaction (RT-PCR) analysis
+RNA extraction, cDNA synthesis, and RT-PCR were performed as described previously (Fusaki et al., 2009; Shiraki et al., 2008).
+The following primers were used: NANOG homeobox (NANOG): forward 5′-TACCTCAGCCTCCAGCAGAT-3′, reverse 5′-TGCGTCACACCATTGCTATT-3′; telomerase reverse transcriptase (TERT): forward 5′-TGCCCGGACCTCCATCAGAGCCAG-3′, reverse 5′-TCAGTCCAGGATGGTCTTGAAGTCTG-3′; SeV: forward 5′-TGGCTAAGAACATCGGAAGG-3′, reverse 5′-GTTTTGCAACCAAGCACTCA-3′; and β-actin: forward 5′-CAACCGCGAGAAGATGAC-3′, reverse 5′-AGGAAGGCTGGAAGAGTG-3′.
+Real-time PCR analysis
+The real-time PCR conditions were as follows: denaturation at 95°C for 15s and annealing and extension at 60°C for 60s, for up to 40cycles.
+Target messenger RNA (mRNA) levels were expressed as arbitrary units and were determined by using the standard curve method.
+The following primers were used: Oct3/4: forward 5′-AGGTGTGGGGGATTCCCCCAT-3′, reverse 5′-GCGATGTGGCTGATCTGCTGC-3′; Sox17: forward 5′-ACTGCAACTATCCTGACGTG-3′, reverse 5′-AGGAAATGGAGGAAGCTGTT-3′; alpha-fetoprotein (AFP): forward 5′-TGCCAACTCAGTGAGGACAA-3′, reverse 5′-TCCAACAGGCCTGAGAAATC-3′; albumin (ALB): forward 5′-GATGTCTTCCTGGGCATGTT-3′, reverse 5′-ACATTTGCTGCCCACTTTTC-3′; TTR: forward 5′-CATTCTTGGCAGGATGGCTTC-3′, reverse 5′-CT CCCAGGTGTC ATCAGCAG-3′; and GAPDH: forward 5′-CGAGATCCCTCCAAAATCAA-3′, reverse 5′-CATGAGTCCTTCCACGATACCAA-3′.
+Immunocytochemistry
+For whole-mount immunocytochemical analysis, iPS cell cultures were fixed in 4% paraformaldehyde in phosphate-buffered saline (PBS) for 30min, followed by permeabilization with 0.1% Triton-X (Nakalai Tesque) in PBS for 10min at room temperature, rinsed several times with PBS then incubated with diluted antibody in 20% Blocking One (Nakalai Tesque) in PBST (0.1% Tween-20 in PBS) in a humidified chamber overnight at 4°C.
+Cells were washed in PBST, and incubated with secondary antibody in 20% Blocking One for 2h at room temperature in the dark.
+After washing off the secondary antibody in PBST, cells were counterstained with 6-diamidino-2-phenylindole (DAPI) (Roche Diagnostics, Indianapolis, IN).
+The following antibodies were used as first antibodies: rabbit anti-AFP (Dako), Goat anti-human Albumin antibody (Bethyl), anti-Oct3/4 antibody (Santa Cruz Biotechnology), goat anti-Sox17 antibody (R&D systems), rabbit anti-HNF-4α antibody (Santa Cruz Biotechnology), and anti-HN monoclonal antibody IL4.1 (Fusaki et al., 2009).
+Secondary antibodies used were Alexa 568-conjugated and Alexa 488-conjugated antibodies (Invitrogen).
+To assess the efficiency of differentiation, Sox17-, AFP-, and ALB-positive cells versus total cells (DAPI-positive cells) were quantified using ImageXpress Micro cellular imaging system (Molecular Devices Sunnyvale, CA).
+PAS analysis
+The cultured cells were fixed in 3.3% formalin for 10min, and intracellular glycogen was stained using a PAS staining solution (Muto Pure Chemicals, Tokyo, Japan), according to the manufacturer's instructions.
+Albumin secretion assay
+The differentiation medium was changed to fresh medium 48h before the assay.
+Albumin secretion was measured by the central clinical laboratory at Kumamoto University, Kumamoto, Japan.
+PCR-restriction fragment length polymorphism analysis (PCR-RFLP)
+Extraction of RNA from HepG2 cells and the frozen samples of livers from FAP patients A002 and cDNA synthesis were performed as previously described (Fusaki et al., 2009).
+RNA was extracted from FAP-specific iPS cells with the RNeasy Micro Kit (Qiagen, Hilden, Germany) according to the manufacturer's protocol, and cDNA synthesis was performed as described elsewhere (Sueyoshi et al., 2012).
+PCR primers, which were the same as those used in the real-time PCR reaction, were designed to amplify the Val30Met mutation in exon 2 of the TTR gene.
+The PCR conditions were 5min at 98°C; 35cycles at 94°C for 30s, 55°C for 30s, and 72°C for 1min; followed by 7min at 72°C.
+The PCR product of 199bp was digested at 37°C for 2h with 5U Nsi1 restriction enzyme (New England Biolabs, Ipswich, MA, USA), which recognized the mutation site.
+PCR products were evaluated via a microchip electrophoresis system (Cosmo-I SV1210; Hitachi Electronics Engineering, Tokyo, Japan).
+Measurements were obtained according to the manufacturer's manual.
+Surface-enhanced laser desorption/ionization time-of-flight mass spectrometry (SELDI-TOF MS)
+Serum specimens and culture supernatants were evaluated with the PCS 4000 SELDI-TOF MS instrument (Bio-Rad Laboratories, Hercules, CA, USA) by using the following protocol (Ueda et al., 2009), unless otherwise specified: ion focus mass, 13,800m/z; laser energy, 2000nJ; matrix attenuation, 500m/z; sample rate, 800; shots/pixel, 5; partition, 1 of 4; and acquired mass range from 0 to 100,000m/z.
+Baseline smoothing: smoothing before fitting baseline, window 25 points.
+Baseline width: automatic.
+These baseline settings were the default settings.
+External calibration of the instrument was performed by using the All-in-One protein molecular mass standard (Bio-Rad Laboratories).
+Conditions: Q10 ProteinChip in 50mmol/l phosphate buffer, pH7.0.
+Liquid chromatography-tandem mass spectrometry (LC-MS/MS)
+The Amicon Ultra centrifugal filter 10K (Millipore, Billerica, MA, USA) was used to make 7-10-fold concentrated culture supernatants.
+The concentration was incubated overnight at 4°C with 5μg of polyclonal rabbit anti-human TTR antibody (Dako).
+PureProteome Protein G Magnetic Beads (Millipore) were added to the reaction to capture the immune complexes and were agitated for 2h at 4°C.
+After the immune complexes were washed three times with PBST, 25μl of sample buffer (Bio-Rad Laboratories) was added and incubation proceeded for 5min at 95°C.
+Sample buffers (25μl), which eluted TTR protein from the beads, were fractionated via sodium dodecyl sulfate-polyacrylamide gel electrophoresis.
+Silver staining of gels was performed with ProteoSilverTM Plus Silver Stain Kit (Sigma-Aldrich) according to the manufacturer's protocol.
+The bands of TTR were excised from the gel, destained according to the manufacturer's protocol, digested with sequence-grade modified trypsin (Promega, Madison, WI).
+The peptide mixtures were dried and redissolved with 40μl of MS-grade water containing 0.1% trifluoroacetic acid and 2% acetonitrile, and were used for nano-flow reversed-phase LC-MS/MS (LTQ Velos Pro; Thermo Fisher Scientific, San Jose, CA).
+A capillary reversed-phase LC-MS/MS system composed of an Advance Splitless Nano-Capillary LC dual solvent delivery system (Bruker-Michrom, Auburn, CA), an HTS-xt PAL autosampler (CTC Analytics, Zwingen, Switzerland), and LTQ Velos Pro equipped with an XYZ nanoelectrospray ionization source (AMR, Tokyo, Japan) was used.
+The samples were injected into a peptide L-trap column (Chemical Evaluation Research Institute, Tokyo, Japan).
+The peptides were separated by using a capillary reversed-phase C18 column (Chemical Evaluation Research Institute) with gradient elution and an ion spray into the mass spectrometer at a spray voltage of 2.3kV.
+The peptide and fragment mass tolerances were 2.0Da and 0.8Da, respectively.
+To calculate the ratios of wild-type TTR and ATTR to total TTR in culture supernatants, we measured the areas of the peptide mass peaks derived from wild-type TTR and ATTR, respectively.
+Peptides (22-34 peptides; GSPAINVAVHVFR) derived from wild-type TTR had a molecular mass of 684m/z.
+Peptides (22-34 peptides; GSPAINVAMHVFR) derived from ATTR had a molecular mass of 700m/z.
+Western blotting
+As described in the LC-MS/MS section, the immune complexes, made from 20-fold concentrated culture supernatants, were washed three times with PBS, 20μl of sample buffer (Bio-Rad Laboratories) was added and incubation proceeded for 5min at 95°C.
+Sample buffers (10μl), which eluted TTR protein from the beads, were fractionated via sodium dodecyl sulfate-polyacrylamide gel electrophoresis and transferred to nitrocellulose membranes (GE Healthcare, Buckinghamshire, UK).
+Membranes were blocked with 5% nonfat dried milk and PBST and were then incubated overnight at 4°C with antibodies against TTR in 5% bovine serum albumin (Sigma) and PBST.
+After the membranes were washed, they were incubated in biotinylated secondary antibodies for 1h and then in horseradish peroxidase-conjugated streptavidin for 1h.
+After this process, specific protein bands were detected with an enhanced chemiluminescence system (Amersham Pharmacia Biotech, Buckinghamshire, UK).
+Enzyme-Linked ImmunoSorbent Assay (ELISA)
+The concentration of TTR protein in the media of differentiated FAP-specific iPS cells was measured by ELISA assay.
+The differentiation medium was changed to fresh medium 48h before the assay.
+The wells of Nunc-ImmunoTM plate II (Thermo Fisher Scientific) were coated with 7000-fold dilution of TTR sheep anti-human polyclonal antibody (LifeSpan BioSciences, Seattle, USA) in carbonate/bicarbonate buffer and incubated overnight at 4°C.
+The coating buffer was removed and the wells were washed three times with 200μl PBST.
+250μl blocking buffer and 0.5% gelatin in the coating buffer were added per well and incubated for 1h at room temperature.
+The blocking buffer was removed and the wells were washed as described above.
+100μl of appropriately diluted samples and serum as the standard were added to each well and incubated for 1h at room temperature.
+The samples and standard were removed and the wells were washed as described above.
+100μl of 10,000-fold diluted polyclonal rabbit anti-human TTR antibody (Dako) in 0.5% gelatin in the PBST was added to each well and incubated for 1h at room temperature.
+The detection antibody was removed and wells were washed as described above.
+100μl of 5000-fold diluted polyclonal goat anti-rabbit immunoglobulins/HRP (Dako) in 0.5% gelatin in the PBST was added to each well and incubated for 1h at room temperature.
+The secondary antibody was removed and the wells washed as described above.
+100μl of TMB (KPL, Gaithersburg, USA) solution was added to each well and 1 and half min later, equal volume of stop solution (1M HCL) was added and read the optical density at 450nm.
+Results
+Generation of iPS cells from patients with FAP
+Dermal fibroblasts obtained from heterozygotic FAP Val30Met patients (Table 1) were cultured and infected with SeV vectors encoding the reprogramming factors Oct3/4, Sox2, Klf4, and c-Myc.
+Forms of TTR in the serum of one FAP patient (A002) were analyzed by using SELDI-TOF MS, which detected peaks of approximately 13,761Da for wild-type TTR and 13,792Da for ATTR Val30Met (Fig. 1).
+The reprogrammed cells were positive for ALP activity (Fig. 2A).
+RT-PCR confirmed the expression of pluripotency markers such as NANOG and TERT in FAP-specific iPS cells.
+SeV vectors were diluted during cell growth and removed after the temperature shift treatment (at 38°C for 3days) (Fig. 2B).
+Immunostaining with the antibody against SeV protein demonstrated the clones free of viral proteins (Fig. 2C).
+The reprogrammed cells exhibited the ES-like morphology and the expression of pluripotency marker Oct3/4 was confirmed by immunostaining (Fig. 2D).
+The induction efficiency of FAP-specific iPS cells ranged from 0.054% to 0.41% for each individual (Table 1).
+Differentiation of FAP-specific iPS cells into hepatocyte-like cells
+For cell differentiation, FAP-specific iPS cells were cultured with serial changes of media as shown in Fig. 3A.
+To test whether FAP-specific iPS cells can differentiate into hepatocyte-like cells, we analyzed several markers via real-time PCR analysis on Day 5 (D5), D13 and D20 differentiated FAP-specific iPS cells (Fig. 3B).
+A decrease in expression of the pluripotency marker Oct3/4 was accompanied by differentiation of FAP-specific iPS cells.
+Expression of the endoderm marker Sox17 was observed on D5 differentiation and decreased gradually after the medium was changed to hepatic differentiation medium on D7 (Fig. 3B).
+The hepatic progenitor marker AFP and the mature hepatocyte marker ALB were obviously expressed on D13 and D20.
+In addition, immunocytochemical analyses showed Sox17 expression on D5, both HNF-4α and AFP expression on D13, and ALB cytoplasmic staining on D20 (Fig. 3C).
+Quantitative imaging analysis revealed that approximately 78±0.6% of cells were Sox17-positive on D5 and approximately 88±1.1% of cells were AFP-positive on D13 and approximately 29±0.9% of cells were ALB-positive on D20 (Fig. 3D).
+The ALB secretion in the media of differentiated FAP-specific iPS cells on D20 was approximately 20μg/ml (Fig. 3E).
+Moreover, these D20 differentiated FAP-specific iPS cells were also periodic acid-Schiff (PAS)-positive, indicating cytoplasmic glycogen storage (Fig. 3F).
+These results clearly indicated that FAP-specific iPS cells had the potential to differentiate into hepatocyte-like cells.
+Production of wild-type TTR and ATTR Val30Met by differentiated hepatocyte-like cells
+We next sought to determine whether hepatocyte-like cells differentiated from FAP-specific iPS cells would indeed express TTR.
+Expression of TTR mRNA was detectable from D13 (Fig. 4A).
+To confirm the presence of TTR protein, Western blotting of culture supernatant was performed with an anti-human TTR antibody.
+As Fig. 4B shows, expression of TTR protein levels was confirmed in the concentrated D20 culture supernatant.
+The approximate concentration of TTR protein in the media of differentiated FAP-specific iPS cells was approximately 2.28μg/ml (Fig. 4C).
+In addition, the PCR-RFLP method showed that hepatocyte-like cells differentiated from FAP-specific iPS cells indeed expressed ATTR Val30Met and wild-type TTR mRNA, similar to expression in the liver of the FAP patient from whom FAP-specific iPS cells were generated (Fig. 5A).
+Moreover, LC-MS/MS analysis clearly showed that hepatocyte-like cells differentiated from FAP-specific iPS cells indeed expressed both ATTR Val30Met and wild-type TTR at protein level and the ratio of TTR protein to ATTR protein is approximately 1 to 1 in the D20 culture supernatant (Fig. 5B).
+Other FAP-specific iPS cell lines also expressed both ATTR Val30Met and wild-type TTR at protein level in the culture supernatant (data not shown).
+Discussion
+In the present study, we generated iPS cells from patients with FAP ATTR Val30Met by introducing four reprogramming factors (Oct3/4, Sox2, Klf 4, and c-Myc) into dermal fibroblasts via SeV vector infection.
+FAP-specific iPS cells had the potential to differentiate into hepatocyte-like cells, a major TTR-producing cell, and indeed expressed ATTR Val30Met and wild-type TTR protein.
+FAP-specific iPS cells demonstrated the possibility of serving as a pathological tool, which may contribute to elucidating the molecular pathogenesis of FAP and developing novel therapeutic strategies for FAP.
+Attempts to establish the experimental models of FAP (Buxbaum et al., 2003; Pokrzywa et al., 2007; Berg et al., 2009) have not been as successful as researchers would wish.
+It has been reported that transgenic mice overexpressing mutated TTR did not display signs of neuropathology (Buxbaum et al., 2003).
+It is still controversial whether the pathogenic mechanism of FAP in Drosophila model is in the same manner as human (Pokrzywa et al., 2007; Berg et al., 2009).
+In addition, a review of previous studies about the molecular pathogenesis of FAP indicates that most of the studies investigated the pathologic effect of ATTR using non-mutant cells or an artificial high expression system (Sousa et al., 2000; Cardoso et al., 2008; Sato et al., 2007).
+Indeed, the neurodegeneration induced by ATTR or endoplasmic reticulum quality control of ATTR was studied with non-mutant mammalian cells transfected with the receptor for advanced glycation end products (Sousa et al., 2000) or wild-type TTR and ATTR (Sato et al., 2007).
+Because FAP is an autosomal-dominant hereditary disease and those systems did not utilize heterozygous ATTR mutant cell models, those systems do not fully represent the relevant processes in patients with FAP and are unsuitable for evaluation of therapy.
+The ratio of expression of TTR protein to ATTR protein varies among cells.
+As with iPS cells designed to be specific for other diseases, iPS cells generated from patients who were heterozygous for FAP are more useful for elucidating the pathogenesis of FAP: TTR and ATTR in heterozygous FAP form heterotetramers, which produce amyloid, and recombinant TTR forms a homotetramer, which is a totally different form of TTR in plasma and tissues.
+Generation of various FAP-specific iPS cells may help clarify the mechanism of the phenotypic variations among individuals with the same genotype (Kato-Motozaki et al., 2008) and the cellular and molecular pathogenesis.
+In this study, hepatocyte-like cells differentiated from FAP-specific iPS cells indeed secreted TTR and ATTR protein in the ratio of almost 1 to 1 as heterozygous ATTR mutant cells (Fig. 5B).
+The amount of TTR protein was approximately 2.28μg/ml (Fig. 4C), which is comparable with the previous result (0.2-2μg/ml) in functional hepatocyte-like cells differentiated from normal iPS cells (Sullivan et al., 2010), and exhibits 50 times higher than the previous result (0.034-0.057μg/ml) in human hepatocytes in primary culture (Wigmore et al., 1997).
+Moreover, differentiation of the same FAP-specific iPS cell line into various cells such as neurons and cardiomyocytes may aid understanding of the tissue selectivity of amyloidosis, which differs according to variants (Hammarstrom et al., 2003; Sekijima et al., 2003; Yamashita et al., 2005).
+Studies of other FAP-specific iPS cell lines generated from TTR variants other than the Val30Met mutation are currently in progress.
+FAP-specific iPS cells may also be used for screening novel drug candidates such as inhibitors of amyloid formation.
+Additional investigations are needed to evaluate the phenotype of FAP-specific iPS cells in greater detail and confirm the value of these cells as a novel experimental tool of FAP.
+In this study, we took full advantage of the special characteristics of this SeV vector to establish FAP-specific iPS cells.
+Because SeV vectors replicate only in the cytoplasm of infected cells and do not integrate into the host genome (Li et al., 2000), no risk of modifying the host genome exists.
+Using retrovirus or lentivirus vectors results in integration of viral transgenes into the host genome, which includes a risk of tumorigenicity (Hussein et al., 2011; Gore et al., 2011).
+To solve this problem, plasmids (Okita et al., 2008), a Cre/loxP system (Soldner et al., 2009), adenoviruses (Stadtfeld et al., 2008), piggyback (Woltjen et al., 2009), a minicircle vector (Jia et al., 2010), and proteins (Zhou et al., 2009) have been developed.
+The risk of integration into the genome still remains, however, for DNA-type vectors (Harui et al., 1999), and those methods also demonstrated low induction efficiency.
+Thus, the SeV vector that we used is believed to have a significant advantage compared with available methods because of its safety, efficiency, and convenience.
+SeV vectors are slowly diluted and disappear during iPS cell division, and SeV vector-positive cells can be removed by means of an anti-SeV-HN antibody (Fusaki et al., 2009).
+Moreover, with the temperature-sensitive SeV vector used in this study, vectors, even if present, could easily be removed after the temperature shift treatment and would not be reactivated in iPS cells (Ban et al., 2011).
+FAP-specific iPS cells would thus be safe and may be a source for cell replacement therapy.
+Conclusions
+We successfully generated, for the first time, FAP-specific iPS cells.
+Such FAP-specific iPS cells may serve as valuable experimental tools to clarify the molecular pathogenesis of FAP, with potential value in cell therapy applications.
+Acknowledgments
+We thank Dr. Konen Obayashi for technical assistance and Mrs.
+Hiroko Katsura for her technical support during histopathologic investigations.
+

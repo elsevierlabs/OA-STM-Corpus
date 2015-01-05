@@ -1,0 +1,314 @@
+Episodic bright and dark spots on Uranus
+
+Highlights
+► A spot of high and increasing brightness was discovered on Uranus on 26 October 2011.
+► This 24°N spot was found about 500 mb above the 1.2bar methane condensation level.
+► A second and 500mb deeper brightspot was discovered just 2°N of the first.
+► Their different drift rates measured from July to Dec led to many close approaches.
+► Hubble imaging revealed a rare dark spot near their 25 December 2011 close approach.
+Abstract
+The northern mid-latitudes of Uranus produce greater episodes of bright cloud formation than any other region on the planet.
+Near 30°N, very bright cloud features were observed in 1999, 2004, and 2005, with lifetimes of the order of months.
+In October 2011, Gemini and HST observations revealed another unusually bright cloud feature near 23°N, which was subsequently identified in July 2011 observations and found to be increasing in brightness.
+Observations obtained at Keck in November 2011 revealed a second bright spot only 2°N of the first, but with a substantially different drift rate (-9.2°E/day vs -1.4°E/day), which we later determined would lead to a close approach on 25 December 2011.
+A Hubble Target of Opportunity proposal was activated to image the results of the interaction.
+We found that the original bright spot had faded dramatically before the HST observations had begun and the second bright spot was found to be a companion of a new dark spot on Uranus, only the second ever observed.
+Both spots exhibited variable drift rates during the nearly 5months of tracking, and both varied in brightness, with BS1 reaching its observed peak on 26 October 2011, and BS2 on 11 November 2011.
+Altitude measurements based on near-IR imaging in H and Hcont filters showed that the deeper BS2 clouds were located near the methane condensation level (≈1.2bars), while BS1 was generally ∼500mb above that level (at lower pressures).
+Large morphological changes in the bright cloud features suggest that they are companion clouds of possibly orographic nature associated with vortex circulations, perhaps similar to companion clouds associated with the Great Dark Spot on Neptune, but in this case at a much smaller size scale, spanning only a few degrees of longitude at their greatest extents.
+
+Introduction
+As the northern mid-latitudes of Uranus emerged from a long dark winter in the late 1990s, bright cloud features began to appear in near-IR images, unlike any that had been seen in the southern hemisphere.
+In 1997, using the recently commissioned HST NICMOS camera, Karkoschka (1998) found several bright clouds near the northern limb of Uranus.
+The local contrast of these features reached a maximum near 190% at 1.7μm, and the fractional integrated differential brightness (FIDB), which is the total extra light reflected by one of these clouds as a fraction of the total light reflected by the planet, reached about 1.2%.
+This was followed by the Sromovsky et al. (2000) detection of even brighter cloud features in 1998 and 1999 groundbased images obtained with the NASA IRTF NSFCAM imager.
+One of these features, located at a latitude of 30°±6°N, reached a local contrast of ∼500% (in deconvolved images) and an FIDB of 4.9±0.7% using the Spencer 1.73-μm filter.
+The brightest single cloud feature ever observed on Uranus was found 6years later by Sromovsky et al. (2007) in 14-15 August 2005 Keck II images obtained with the NIRC2 camera and adaptive optics system.
+This feature (the brightest feature in Fig. 1B) reached an FIDB value of 4-5% in the H filter and ∼13% in the K′ filter.
+The high brightness was short lived, however.
+In images taken on 6 July (before the peak) and on 29 October (more than two months later) the feature was a factor of 4-10times dimmer.
+Another especially interesting transient feature was found at nearly the same latitude in 2004 images (Sromovsky and Fry, 2005), but in this case the bright clouds formed a huge complex extending across almost 90° of longitude (Fig. 1A).
+These transient but very bright cloud features in the northern hemisphere of Uranus were seen in both H and K′ filters, the latter implying that the features were elevated to relatively high altitudes, placing significant amounts of aerosol scattering above the background of methane and hydrogen absorption.
+These features reached pressures in the 300-500mb range (Sromovsky et al., 2007), which is well above the 1.2-bar methane condensation level (Sromovsky et al., 2011).
+These eruptions of bright cloud material are thus almost certainly composed largely of methane ice, perhaps as pure particles or as methane ice coatings on particles originally condensed at deeper levels and then lofted above the methane condensation level.
+These bright cloud features might possibly be due to deep convective events, qualitatively similar to thunderstorms on Jupiter.
+A more likely explanation, however, is that such features are generated by vertical displacements of atmosphere flowing around vortex circulations, resulting in local condensation as the flow is displaced above the methane condensation level.
+Bright cloud features associated with Neptune's Great Dark Spot were termed companion clouds because they traveled along with it in defiance of the meridional shear of the local zonal wind profile (Hammel et al. (1989)).
+Such clouds are thought to be similar to orographic clouds generated by lee waves downwind of mountain ranges, an idea first suggested by Smith et al., 1989 and later verified by dynamical models in which vortex circulations produced similar cloud features (Stratman et al., 2001).
+Companion clouds were also found to be associated with the first dark spot ever seen on Uranus (Hammel et al., 2009), which was also found at northern mid-latitudes in July 2006.
+The dark spot itself was near 28°N planetocentric latitude, while bright companion clouds were seen over a latitude range of 3° centered about 29°N.
+Companion clouds related to this dark spot were also seen in H images obtained with the Keck II telescope NIRC2 Narrow Angle (NA) camera (Fig. 1C), though they were not unusually bright in these images.
+A similar configuration of even brighter clouds was observed in 2007 (Fig. 1D), also thought to be associated with a dark oval circulation feature (Sromovsky et al., 2009), although the evidence is not as strong in this case.
+The cause of these sudden increases in high altitude cloud development is unknown, and whether they are all related to vortex circulation features is likewise unknown.
+Thus, further examples that can be studied in detail offer the possibility of gaining a better understanding of this phenomenon.
+On 26 October 2011, Gemini images of Uranus revealed another unusually bright cloud feature (Fig. 2C), providing us with another possible opportunity to study this episodic development.
+We also located these features in a set of Hubble images taken to support an investigation of the planet's rings (M.
+Showalter, PI) on 13 October and 23 October 2011 using the F845M filter.
+These images (Fig. 2A and B) revealed that the cloud feature had brightened and impelled us to further investigation.
+In the following, we describe the observations obtained in pursuit of this feature, the motions we determined from them, the morphological changes that occurred, the nature of a second bright spot discovered at nearly the same latitude, the predicted close approach of the two features, their brightness changes over time, the Target of Opportunity imaging results, constraints on their vertical structure, and our conclusions.
+Observations
+From the "discovery" observation on 26 October 2011, we worked backward and forward to locate other observations of the bright spot we here refer to as BS1.
+Observations were gathered from HST, Keck II, Gemini-North, the VLT, and from Pic du Midi.
+After the November 2011 Keck II observations identified a second bright spot (here designated BS2) at nearly the same latitude as BS1, we also examined the extant data to identify additional observations of this second feature.
+All the imaging observations we used for feature tracking from the large telescopes are summarized in observing time sequence in Table 1.
+The images we used for estimating cloud height are listed in Table 2.
+A complete list of the HST imaging observations that were part of the TOO program is provided in Table 3.
+The camera characteristics for each observing configuration are given in Table 4 and filter throughputs are displayed in Fig. 3 above a plot of the spectral penetration depth of sunlight into Uranus' atmosphere.
+Morphology and position measurements
+Morphology
+There was considerable temporal variation in the morphology of both bright spots, as illustrated in Fig. 4.
+The rectangular projections in that figure are mostly from H-filter images and generally enhanced to show morphology rather than relative changes in brightness.
+An exception is the pair of F845M images (Fig. 4D and E) which are enhanced in the same way, so that in this case the apparent brightness increase from 13 to 23 October is meaningful and amounts to a 30% increase in FIDB.
+When first identified in the 26 October 2011 Gemini-North image (Fig. 4F), the bright spot (BS1) appeared as a relatively compact feature with two adjacent components.
+Between 13 and 23 October, the feature became more compact as well as brighter, but then expanded in area by 26 October.
+Its very compact appearance on 19 September (Fig. 4C) is probably a result of the 1.764-μm filter used for that image.
+As indicated in Fig. 3, this filter does not penetrate as deeply as the H filter and thus weights the higher part of the cloud more heavily, which seems to be more compact than the deeper structure.
+The apparent expansion of the cloud area seen in the 10-11 November images (Fig. 4G and H) is mainly a result of a temporary misalignment of the adaptive optics lenslet array, which produced an extended and oddly shaped PSF when extended objects were used as a wavefront reference.
+This misalignment had the effect of producing a secondary image displaced in the x direction from the primary image.
+However, some of the expansion of the BS1 image is likely to be real, based on its subsequent appearance as a multi-element structure in the 13 November image (panel I), which was taken after the AO misalignment was fixed.
+This image shows several very compact features distributed over a somewhat wider area than previously seen.
+The 16 December image (panel J) shows a very small feature and an overall fading of BS1, which we verified by brightness measurements described in the next section.
+The brightness continued to decline so much that it became quite difficult to locate BS1 in any later F845M images (see Section 7).
+Panels K-M are centered within the 15° range of where we expected BS1 to be, but except for panel L, which we think is dominated by BS2, there is no obvious bright feature to be found.
+On the other hand there are hints of BS1, better seen in FQ889N images (see Section 7), where there is a low contrast streak near the center of panel K and a bright spot just left of center in panel M.
+The F845M image in panel M also registers that bright feature and also a faint dark spot just below it.
+We did not become aware of the second bright spot (BS2) until we saw the 10 November image (Fig. 4P).
+It seemed to be at nearly the same latitude, but drifted relative to BS1 at a rate of nearly 8°/day (compare panels G and H or P and Q).
+We then looked for it in previous observations and did find it in all of the H-band images taken when BS2 was on the sunlit side of the planet.
+The relative motions, close approach, and relative expansion seen in both features in the November images, suggested the possibility of interactions between the two features.
+This might take the form of increased vertical disturbances and condensation cloud formation, an idea suggested by such an occurrence on Saturn in 1981, as shown in Fig. 4 of Sromovsky et al. (1983).
+Morphological variations in BS2 are displayed in Fig. 4N-V, from 27 July 2011 to 29 December 2011.
+There is some doubt about the July observation because of the long gap from then until its next sighting on 25 October, and because it appears at a considerably higher latitude in the earlier observation.
+However, latitudinal variations are not uncommon for Uranian cloud features.
+The most unusual morphological change associated with BS2 occurred during the December sequence of observations, when a small dark spot was revealed in 20-29 December images, with maximum contrast occurring on 25 December (Fig. 4U).
+This is only the second dark spot ever seen on Uranus.
+Position measurements and modeling
+Large telescope results
+The morphological variations during the period over which the spots were tracked made the measurement of their positions somewhat of a challenge.
+To define their positions we used two different methods: (1) the location of the center of differential brightness (CODB) and (2) the location of the brightest pixel.
+In the first method we weight the position of each pixel inside a box containing the feature by the differential brightness above the image background.
+The coordinates of the CODB are mathematically defined as follows:(1)xCODB=∑i,jtargetxi·[I(i,j)-IB(i,j)]∑i,jtarget[I(i,j)-IB(i,j)](2)yCODB=∑i,jtargetyi·[I(i,j)-IB(i,j)]∑i,jtarget[I(i,j)-IB(i,j)]where I(i,j) is the reflectivity at image location i, j, IB(i,j) is the background reflectivity at the perimeter of the target box interpolated to the i, j position, xi and yj are the physical coordinates associated with the indexed pixel coordinates, and the summation is over the area of the target box.
+The CODB position measurements are summarized in Table 5.
+The uncertainties in establishing a position value are relatively low for each individual image, but the position of the suspected underlying circulation feature that generates the cloud features is far less certain, and probably better estimated from the variability in latitude values from different images and longitude deviations from a constant drift rate model.
+The CODB positions are less variable than peak locations, although the variability is only significant for latitude measurements to be discussed later.
+The CODB results for longitude are displayed in Fig. 5 for BS1 and in Fig. 6 for BS2.
+Initially it appeared that BS1 was drifting at a constant drift rate, but subsequent observations revealed a more complex behavior.
+Constant drift model fit results are summarized in Table 6 for several different time periods.
+While the average rates are very precisely defined, the instantaneous drift rates are much more uncertain because they vary with time.
+After 26 October, the BS1 feature increased its westward drift rate in comparison to the average observed between July and October.
+The average drift rate for the 26 July to 16 December period was 1.386°W/day, which is nearly the same as the drift rate seen for the 26 July to 26 October period.
+But, from 10 November to 16 December the drift rate increased to 1.749°W/day, raising serious doubts about our ability to predict its position during the planned Target of Opportunity imaging by Hubble.
+The residuals for the July-December fit raise the possibility of a long-period (∼150-day) oscillation in drift rate.
+It is also conceivable that the drift rate was perturbed by interactions with the second bright spot (discussed in the next section).
+Although we were initially unsure of which spot was seen in the 20 December HST image, its longitude deviates roughly 30° from the expected location of BS1, while it almost exactly matches the predicted location of BS2.
+The decline of BS1 in combination with the inherently lower contrast in FQ845M images compared to H images may both be responsible for its near disappearance on 19 December.
+The only hint of its location is a faint streak in the FQ889N image (see Section 7), which we used to estimate its position at that time.
+As shown in Fig. 6, the location of the bright spot observed on 20 December 2011 is in good agreement with the position predicted from the linear drift models for BS2.
+When that and the 25 December observation are included in a fit to observations from 27 July through 25 December, we obtain a drift rate of 9.125°W/day, which is 7.739°W/day faster than BS1.
+The spot drift rates are only roughly compatible with the mean zonal wind profile at their respective latitudes, which are compared in Fig. 7.
+One way to interpret the substantial deviations from the zonal mean profile is that there are unseen vortices (V1 and V2 in Fig. 7) centered at the latitudes defined by the intersections of the drift rates and the wind profile curve.
+If that interpretation were valid, then the BS1 bright spot appears on average to be located a few degrees north of its generating vortex (V1), while the average BS2 cloud material is located a few degrees south of its (different) generating vortex (V2).
+However, we will later see that BS2 clouds may appear at different locations relative to its associated dark spot (a possible vortex marker).
+Another possible interpretation for the deviations from the zonal wind profile is that the BS1 is drifting more slowly than the mean profile because it is at a higher altitude than the mean of cloud features used to establish the zonal wind profile, and that BS2 is drifting more rapidly because it is a deeper feature.
+This makes qualitative sense because Voyager IRIS observations of Uranus (Flasar et al., 1987) imply that winds generally decay with height, although the quantitative estimates for the 500-1000mb region are only 2-5m/s per scale height at 25-30°N.
+To explain the 40m/s net BS1 and BS2 deviations from the zonal mean profile as effects of vertical wind shear would require at least 8 scale heights of vertical separation.
+As we shall see later, the measured cloud height difference is only ∼500mb, which is less than one scale height.
+Thus, vertical wind shear is not a plausible explanation, unless the cloud generating feature for BS2 is much deeper than the clouds that it generates.
+The latitudinal variations of the two spots are shown in Fig. 8.
+The most surprising results in this comparison are the 2-3° northward displacement of the latitudes observed in July 2011, and the relative reversal of latitudes on December 16, when the BS1 feature appears slightly north of the BS2 feature.
+If the putative unseen vortex generating BS1 is actually following the mean zonal flow, then the observed latitudinal variation of BS1 would suggest a relatively lower drift rate (less westward) in October and a peak-to-peak deviation of a few degrees per day, according to Fig. 7.
+The location of the minimum roughly matches this model, but the actual drift rate variation is only about 0.4°/day.
+It is hard to discern a pattern in BS2 latitudes because of smaller late variation and the large temporal gap between July and October measurements.
+Pic du Midi results
+The spot discovered in October observations with Gemini triggered several observation runs on other instruments and a detailed search for the spot in previous observations.
+We were able to recover images of the spot in observations obtained with the 1-m telescope at the Pic du Midi observatory on August 2011.
+Other observations with this telescope were obtained during October; observations planned for December were canceled due to bad weather.
+Early ephemerides of the spot transit were largely based on these observations together with those of Gemini.
+These observations were acquired by several minute runs of rapid image acquisition.
+A lucky imaging technique was then used to select the best images, which avoids the worst atmospheric seeing effects (Law et al., 2006).
+This technique has been very successful for observations of Jupiter and Saturn (Hueso et al., 2010), but is more difficult to implement for observations of Uranus.
+The typical frame rate is only 4framespersecond, so very good seeing conditions are required to detect the spot.
+The approach is to obtain a good quality video sequence of the imaged object, then sort the images according to a sharpness criteria.
+The best images are selected, shifted, and added to produce a final image with high signal-to-noise ratio.
+The image is then processed to retrieve the fine-scale structure.
+A very strong enhancement based on wavelet algorithms is applied.
+The final image quality approaches in some cases the diffraction limit of the telescope, however this strong processing required to bring out the atmospheric details does not allow accurate photometric measurements.
+In Fig. 9, the Pic du Midi images from 10 August, and 10, 12, and 30 October are compared to predicted locations inferred from the July to December regression fit to large-telescope observations of BS1 (the fit shown by the solid line in Fig. 5).
+While the features displayed in the images are not of high contrast, they are reasonably consistent with the predictions, especially in October.
+The August images put the feature nearly 10° east of the prediction, which is evidence for a variation, possibly a slow oscillation, in the drift rate of BS1.
+Spot interactions
+BS1 and BS2 were generally found at very similar latitudes, on average differing less than 2°, which is comparable to the latitudinal variability of their individual cloud elements and also to the size of the 2006 dark spot (Hammel et al., 2009), which is thought to be about the same size as the unseen associated vortex circulation.
+Thus it is plausible to consider that there might be an interaction when these two features make a close approach, as was seen on Saturn (Sromovsky et al., 1983).
+These close approaches can be predicted from the drift rate fits discussed previously and are illustrated in Fig. 10.
+The close approach on 8 November might have caused the generation of a wider distribution of cloud cover seen in the 10-13 November images (Fig. 4G and H).
+The VLT images obtained just two days before the encounter (Fig. 11) indicate that BS2 was quite dim just prior to the encounter, although it is difficult to define a specific FIDB value in those images.
+The anomalous location of BS1 in the Pic du Midi image taken on 10 August might have been the result of an interaction related to the close approach on 7 August.
+Similarly, the presence of significantly increased high-altitude aerosols on 25 December might also be a result of the close approach of BS1 and BS2 on that date.
+Vertical structure
+Spectral constraints on cloud pressure
+The different penetration depths of key filters into the atmosphere of Uranus are indicated in Fig. 3, and more precisely shown in Fig. 12, where the apparent brightness of a unit albedo reflecting surfaces viewed through each filter is shown as a function of the pressure level of the reflector.
+There we see that K′ and FQ889N images will not reveal any cloud features deeper than about 1bar.
+The H and Hcont images will reveal deeper cloud features but the contrast will decrease with increasing pressure more rapidly for H than for Hcont.
+A limited number of K′ and Hcont images provide especially useful constraints on the vertical structures of the two features when paired with nearly simultaneous H images.
+These height-constraining images are listed in Table 2.
+The constraints are illustrated in the images displayed in Fig. 13.
+There, in the 10 November image set, we find that BS1 is brighter than BS2 in the H image, but dimmer in the Hcont image.
+A similar reversal in relative brightness is seen in the pair of H and Hcont images from 27 July (Fig. 14).
+This indicates that BS2 is a deeper and optically thicker cloud feature than BS1.
+Also note in Fig. 13 that BS1 is prominent in the K′ image, but BS2 is not even visible in that image, again implying a much higher altitude for BS1 (400-600mb vs >1000mb for BS2).
+This relative prominence of BS1 is also seen in the K′ image from 13 November, where the morphology is similar at both wavelengths.
+Quantitative pressure estimates: technique
+An estimate of the pressure levels of the BS1 and BS2 features can be made using the ratio of spatial modulations in H and Hcont filters, as employed in the simplest form by de Pater et al. (2011) and in a more exact form here.
+These two filters are well suited for this purpose because they not only have different penetration depth profiles over a useful pressure range (Fig. 12), but they also have sufficiently similar effective wavelengths that we can ignore wavelength dependent differences in seeing, effective spatial resolution, or cloud properties, which otherwise might distort the observed modulation ratios and the inferred cloud pressures.
+The useful pressure range for H and Hcont is between 300mb and 4-5bars, between which the H-filter I/F differences (between regions with more and less cloud amount) decline more rapidly with pressure than the corresponding Hcont I/F differences.
+The ratio of H to Hcont modulation within a given target area thus provides a measure of the pressure location of the modulations in cloud properties.
+To apply the spatial modulation technique to our observations, we first calculated model ratios for middle latitudes for an array of cloud pressures and view angles including the effects of the main cloud layer between 1.2 and 2bars, using the optimum F1 profiles of Sromovsky et al. (2011) for temperature and methane mixing ratio.
+We treat the cloud perturbation as a thin layer inserted into the background structure.
+Both the background and the inserted physically thin layer are modeled as conservative Mie particle layers of 0.8μm in radius with a refractive index of 1.3.
+(These particle properties were chosen to roughly match the 0.3-1μm backscatter efficiency of the tropospheric particles defined by Karkoschka and Tomasko (2009), while providing a physical basis for extrapolation beyond 1μm, which is not provided by the Karkoschka and Tomasko parameterization.
+This choice, though somewhat arbitrary, also allows good fits to observed H-band spectra.)
+From the ratio of H and Hcont spatial modulations in I/F we can infer an effective pressure at which the modulations are occurring, and from the peak-to-peak amplitude we can infer the change in optical depth required.
+This is illustrated in Fig. 15, for observer and solar zenith angle cosines of 0.9.
+The solid curve is our model, which is compared to the de Pater et al. (2011) reflecting layer models.
+If the cloud feature is not spatially resolved, then the inferred optical depth maximum will be less than the true optical depth, while the pressure will not be significantly affected.
+Quantitative pressure estimates: results
+A sample application of the modulation ratio technique to the BS1 feature on 26 July 2011 is shown in Fig. 16.
+A target box size is selected and positioned in the Hcont image.
+The target box in the H image is shifted slightly as needed to maximize correlation between Hcont and H variations.
+This shift is usually less than a few tenths of a degree in longitude and latitude, and compensates for slight navigation errors and/or small cloud motions during the time interval between images.
+Once the correlation is maximized, the linear regression fit is used to obtain a slope in the H vs Hcont plot of pixels within the target box.
+From the ratio at the observed view angles we use a spline interpolation of the model ratios vs pressure and view angle to infer a pressure.
+From the estimated pressure we interpolate the models of I/F vs optical depth to infer a cloud optical depth change that would yield the observed variation of I/F.
+For target A in Fig. 16 the effective pressure is 390±10 mb, and the optical depth variation is 0.4.
+While the formal uncertainties are generally quite small or completely negligible, there are substantial uncertainties due to relative calibration errors, which are discussed in the following paragraph.
+Note that background I/F gradients defined by the boundary of the target box are generally subtracted from the gradients within the box to avoid background variations from affecting local changes.
+Otherwise, the relatively high feature surrounded by background clouds deeper in the atmosphere would appear at an intermediate pressure between its true pressure and that of the background clouds.
+Targets B and C in this figure are found to have effective pressures of about 590mb and 540mb respectively and about half the optical depth of Target A (see Table 7).
+Applying this technique to NIRC2 Wide Angle H and Hcont images from 27 July, we were able to estimate and effective pressure of 1.03±0.05bars and an optical depth of 0.2 for the BS2 feature.
+The pressure and optical depth change of a cloud feature inferred from the ratio of H and Hcont I/F spatial variations is strongly affected by the relative calibration error between the H and Hcont images.
+Our analysis measures the central disc value of each image and then converts the image to I/F units using a scale factor that produces a central disk I/F equal to (1.09±0.06)×10-2 (H) or (4.1±0.35)×10-2 (Hcont), which are values obtained by Sromovsky and Fry (2007) from 2004 Keck images.
+New central disc measurements using preliminary calibrations of 2011 Gemini-North images, indicate significant changes to values of 0.86×10-2 (H) and 2.9×10-2 (Hcont) with relative errors of 5% and 10% respectively.
+The most critical change is in the ratio of H to Hcont central disc values, which increases by 11% from 2004 to 2011, which is also comparable to the uncertainty in the ratio.
+The effect on derived pressures in a typical example is to decrease P by about 100mb and increase derived optical depth by 30%.
+Thus the formal uncertainties given in Table 7 are generally far less significant than the uncertainties associated with relative calibrations, which add about 0.1bars to the pressure uncertainty and 30% to the optical depth uncertainty.
+In the Keck II NIRC2 imaging from 10 November 2011 we were able to perform a correlation analysis for both BS1 and BS2, using the brightest part of each feature to minimize the effects of PSF artifacts, and inferred cloud parameters given in Table 7.
+We find that the main region of BS1 reaches a relatively low pressure near 500mb, well above the altitude at which methane condensation would be expected (P=1.2bars).
+But the inferred optical depths are much lower, by at least a factor of two, most of which is undoubtedly due to the broad PSF produced by an out-of-adjustment AO system.
+However, there also appears to be a drop in the FIDB values, implying that loss of resolution may not be entirely responsible for the change.
+The results for BS2 on 10 November (Table 7), also for the brightest part of the feature, show that BS2 remained a much deeper feature than BS1, with a pressures of about 1.3bars, and an optical depth somewhat exceeding that of BS1.
+Its optical depth is also degraded by PSF blur, but the relative comparison is still meaningful.
+This explains why BS2 is relatively brighter in the Hcont image, and why BS2 is not seen at all in the K′ image.
+It would also not have been seen in a WFC3 FQ889N image, had there been one taken on 11 November, while BS1 would have been seen in such images.
+Brightness variations
+A problem arises in quantifying the brightness of BS1 and BS2.
+To simply record the maximum I/F in a calibrated image fails to account for the size of the feature or the variations in peak I/F due to seeing variations or to resolution differences.
+Thus we use a more robust measure, which is the fractional integral of the differential brightness.
+We define this, following Sromovsky et al. (2000), as(3)FIDB=∑i,jtarget[I(i,j)-IB(i,j)]∑i,jplanetI(i,j),where the variables are the same as defined for Eq.
+2.
+This provides a measure of the fraction of the total brightness of the planet that is due to the presence of the target cloud feature.
+If the target box has sufficient margin to cover variations in apparent physical size due to seeing and resolution differences, the measure becomes relatively insensitive to those variations, though still uncertain to ∼10%, or even more at very low levels.
+Brightness changes for BS1 and BS2 are illustrated in Fig. 17.
+The increasing brightness from 26 July to 26 October in H images and between 13 and 23 October in F845M images, was not sustained in November images.
+By 13 November, BS2 declined dramatically, while BS1 rose only slightly above the 10 November value.
+Instead of approaching the record values seen in 2005 (Sromovsky et al., 2007), the 2011 spots faded.
+Target of Opportunity imaging by WFC3
+Observing sequence
+The last image obtained from the Keck II telescope prior to the Target of Opportunity (TOO) imaging program was obtained on 16 December 2011 (Fig. 4J and S).
+This was taken using an H filter in a time window when we expected to see both BS1 and BS2 in the same image, and that was indeed the case.
+However, we did find some unexpected results.
+BS1 and BS2 both were dramatically dimmer than previously observed by factors of 10 or more.
+BS2 seemed to decline more significantly than BS1 although it was so close to the limb in the 16 December image that it is hard to be sure about this.
+We were also surprised to find both features to be very compact and to find that while the latitude of BS2 was as expected, BS1 had moved north of BS2! As this image was contributed by a program with different science objectives, only a single image was requested, precluding any clear altitude information.
+Adding position measurements from that image to the prior results, we discovered that BS1 was changing drift rate in an unpredictable way (not surprising considering its latitude change), while BS2 was remaining close to its prior drift rate, which is consistent with its more stable latitude, presuming that the feature (or the vortex it is pinned to) drifts with the mean zonal flow.
+We did not know if the deviation of BS1 was a temporary excursion from its mean behavior, or a persistent change in drift rate.
+Accordingly, we considered both options in making predictions for BS1.
+For the Hubble TOO observations, we predicted that BS1 and BS2 were likely to reach the same longitude on 25 December, and arranged a program of three visits, one on 20 December 2011 to capture the features well before any possible interaction, one on 25 December to catch the interaction in progress, and one on 29 December to observe any extended aftermath of the interaction.
+This imaging program is summarized in Table 3.
+The spectral and vertical sampling of the filters chosen are indicated in Fig. 3.
+A dark spot similar to the GDS of Neptune would be expected to be visible at short wavelengths (in F547M and F467M images) while a dark spot similar to the previous Uranus dark spot would be visible only at longer wavelengths, with a maximum contrast in the F658N filter.
+As evident in Fig. 18, there was no indication of a dark spot in F658N images.
+To enhance visibility of features near the limb, we corrected for limb darkening in the F658N images using the empirical factor [1-exp(-μ/0.2)], where μ is the cosine of the solar zenith angle (which is approximately equal to the observer zenith angle as well for our low phase angle observations).
+The main WFC3 filters that were useful in detecting discrete cloud features were F845M and FQ889N, the former sensing relatively deeply with good overall contrast, and the latter providing information on which cloud features extended well above the 1.2-bar methane condensation level (Fig. 12).
+Because the FQ889N images have substantial limb brightening, it is difficult to display an entire image with good feature contrast at all positions.
+To remove most of the limb brightening in such images we multiplied by an empirical function of the form (1-exp(-μ/0.1))× [1-0.856×(1-exp(-3.2μ))].
+An additional scaling factor is chosen to achieve the desired intensity relative to other color components in composite images.
+To enhance the resolution and signal to noise ratio of the F845M images, we used four dithered exposures combined together to form a single enhanced image.
+Identification and tracking of discrete features
+The TOO imaging results and predicted locations of features for each visit are shown in Fig. 18.
+On the first visit, 20 December 2011, we were surprised again, this time finding no obvious cloud feature in the range of predicted locations for BS1 on that date.
+There is only a faint hint of a feature in the FQ889N image near the 1a prediction position.
+On the other hand we did see a distinct feature at the predicted position for BS2 and that feature took the form of a small dark spot with a bright southern companion (Fig. 4T).
+No evidence of that companion feature is apparent in the FQ889N image taken during that visit.
+In the 25 December image, we again found a small dark spot and a bright eastward companion cloud close to the predicted location of BS2, but this time the companion feature is quite bright in the FQ889N image, indicating cloud particles had at this time reached pressures significantly lower (i.e. at altitudes significantly higher) than the methane condensation level.
+From Fig. 12 it can be inferred that this feature would also have been visible in K′ images, had any been taken at the time.
+This is the only time that BS2 was observed to generate high altitude clouds.
+There were bright clouds associated with BS2 in the FQ889N filter on that day, but not on 20 or 29 December.
+However, since BS1, if it still existed as a circulation feature, might also be near the same location at this time (the observed feature is between 1a and 1b prediction points), what we are seeing might be BS1, BS2, or a combination of both.
+And perhaps it is BS1 that is really responsible for the high altitude feature.
+In the TOO images taken on 29 December, there is again a distinct feature near the BS2 prediction point, and a slight hint of a feature between 1a and 1b prediction points for BS1, both in F845M and FQ889N images.
+Here again BS1 seems associated with higher altitude aerosols, while BS2 produces no detectable result in the FQ889N image, and thus can be inferred to be at a significantly higher pressure (lower altitude).
+In Fig. 4V, we see BS2 cloud aerosols to the west and south of what appears to be a somewhat faded dark spot.
+Spectral character of the dark spot
+The dark spot that appeared on 25 December 2011 is unlike the Neptune dark spots and unlike the previously observed Uranus dark spot.
+While the Neptune dark spots achieved maximum contrast at short wavelengths, usually in the F467M filter, the first discovered Uranus dark spot achieved its maximum contrast in an F658N image and was also visible at longer wavelengths.
+In contrast to those results, there is no hint of the 2012 Uranus dark spot in F467M, F547M, or F658N images.
+The best dark spot contrast is seen in F775W and F845M images, the latter registering significantly more contrast than the former for the companion clouds associated with the dark spot.
+Among the filters we used in the TOO observations (Table 3), the highest companion cloud contrast is seen in the FQ889N and FQ906N filters.
+However, it should be remembered that before the dark spot became visible, BS1 was visible in K′ images, while BS2 was not.
+If both features are actually companions to an unseen vortex feature, not all companions reach the high altitudes that produce high contrast at wavelengths of strong methane absorption.
+These spectral differences suggest that the Uranus dark spots might be produced by cloud clearing, which appears dark at long wavelengths due to absorption by the methane below the cloud level.
+But at short wavelengths, the bright Rayleigh scattering of a clear atmosphere is hard to distinguish from the scattering by the surrounding cloud layer.
+On the other hand, the Neptune dark spots appear more likely to be a result of a cloud component that absorbs most at short wavelengths, much like the stratospheric haze on Neptune.
+Summary and conclusions
+Our main conclusions are as follows:1.
+On 26 November 2011 we discovered a new bright spot on Uranus near 25°N (named BS1) that grew increasingly bright near the time of discovery, suggesting a possible major brightening might be underway, perhaps competing with previous features observed in 1999, 2004, and 2005.
+2.
+With the help of observations from Gemini-North, Keck, Pic du Midi, and HST observatories, some before and some after the discovery date, we were able to track BS1 from 26 July through 16 December, and found it to be drifting at nearly a constant rate of 1.386°/day westward at a mean latitude of 24.3° planetocentric until 13 November, after which its drift rate increased to 1.749°/day westward.
+3.
+We discovered a second bright spot (named BS2) on November 10, when it was very close to BS1.
+This second spot was tracked from 27 July until at least 20 December, although with larger time gaps because it was not found in the October HST images.
+BS2 was found to have a mean latitude of 25.5° and a mean drift rate of 9.125°/day westward from 27 July 2011 through 16 December 2011, increasing to 9.235°/day westward for the November-December time period.
+4.
+From spectral modulation ratios in H and Hcont image pairs obtained in July, October, and November, we inferred that BS1 was a higher altitude feature than BS2, with inferred pressures mainly in the 350-600 mb range for BS1 and mainly in the 1-1.3bar range for BS2, explaining why BS2 was never seen in any K′ image over that period.
+The vertical separation does not seem large enough to explain their relative deviations from the drift rate expected from the most recent zonal wind profile obtained from fits to 2007 cloud tracking results.
+5.
+Because BS1 and BS2 differed in mean latitudes by only 1.6° and had drift rates differing by 7.7°/day, there was a possibility of interaction between these features at 46.5-day intervals, with one of the close approaches occurring on 8 November 2011, shortly after which there was a large expansion in horizontal size of the features, and another close approach occurring on 25 December 2011.
+Capturing the results of this possible interaction was the aim of the TOO imaging carried out on 20, 25, and 29 December 2011.
+6.
+The large drift rate difference between BS1 and BS2 (7.7°/day) in comparison with the difference expected from the latitudinal shear in the zonal wind profile (1.5°/day) is quite large, and might be due to these features actually being companions to unseen vortices at somewhat different and more widely separated latitudes that do follow the zonal flow.
+7.
+BS1 began to decline in brightness between October 26 and November 10, and was not clearly identifiable after 16 December, though subtle features were found that are consistent with survival through our last image on 29 December 2011, in which BS1 appears just north of a faint dark spot visible in F845M images, and has much more contrast in the F889N image taken on that date.
+8.
+The variable drift rates of both BS1 and BS2 suggest the possibility of long period oscillations in drift rates and latitudes, although latitudinal variability of the bright features is too large to confirm a simple advective model in which drift rate is proportional to latitude.
+9.
+BS2 was identifiable in 20 and 29 December TOO images, and in the 25 December image the feature seen may be either BS2 or the result of merging of BS1 and BS2.
+In the 20 and 29 December images BS2 is found adjacent to a faint dark spot, which is plausibly a marker for the putative vortex circulation that might be producing the bright cloud features.
+10.
+The main feature visible in the 25 December image is a small dark spot accompanied by a bright companion cloud.
+The dark spot is visible in F845M and F775W images and the companion cloud is visible in these images and also with greater contrast in FQ889N and FQ906N images, implying that the bright cloud is elevated well above the methane condensation level.
+11.
+The observed peak in the fractional integrated differential brightness of BS1 in the H filter was observed to be 0.64% in the discovery image on 26 October 2011, and declined to 0.02% by December 16.
+12.
+The observed peak in the fractional integrated differential brightness of BS2 in the H filter was observed to be 0.13% on 11 November 2011, declined to 0.003% by 16 December, and appears to have risen to 0.03% by 25 December.
+13.
+The small dark spot observed in late December has the greatest contrast at 0.7-0.8μm, while Neptune's dark spots have the highest contrast at 0.4-0.6μm, suggesting a different formation mechanism or difference in vertical structure that remains to be understood.
+Acknowledgments
+We thank Michael Brown of Caltech for contributing his 19 September 2011 Keck images of Uranus to this investigation.
+This research was partly based on Hubble Space Telescope observations.
+We thank William Januszewski of STScI for help in setting up the Hubble TOO Program.
+We thank Thomas Gaballe of the Gemini Observatory for assistance with our Gemini-North observations.
+We thank Elie Rousset and Philippe Tosi who assisted with the observations of Uranus from Pic du Midi.
+We thank Team Keck (science staff at the W.
+M.
+Keck Observatory) for contribution of telescope time and for technical assistance with some of the observations.
+The Keck Observatory is made possible by the generous financial support of the W.
+M.
+Keck Foundation.
+We also thank two anonymous reviewers who made useful suggestions to improve the paper.
+L.A.S. and P.M.F. acknowledge support by Grants from the Space Telescope Science Institute and NASA's Planetary Astronomy and Planetary Atmospheres Programs.
+I.D.P. acknowledges support by NASA Grant NNX07AK70G.
+R.H. and A.S.L. are supported by the Spanish MICIIN Project AYA2009-10701 with FEDER and Grupos Gobierno Vasco IT-464-07.
+This work was partially supported by an RCUK Fellowship and an STFC Standard Grant for T.S.
+We thank those of Hawaiian ancestry on whose sacred mountain we are privileged to be guests.
+Without their generous hospitality few of our groundbased observations would have been possible.
+

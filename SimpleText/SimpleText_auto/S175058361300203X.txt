@@ -1,0 +1,201 @@
+Impact of temperature on CO2 storage at the Ketzin site based on fluid flow simulations and seismic data
+
+Highlights
+•
+Seismic modeling demonstrates significant effects of CO2 on 4D seismic data (Ketzin).
+•
+CO2 saturation is insensitive to the reservoir temperature in Ketzin.
+•
+CO2 density is considerably lower for the higher reservoir temperature in Ketzin.
+•
+Qualitative impact of reservoir temperature is low on 4D seismic data from Ketzin.
+•
+Quantitative impact of temperature is considerable on 4D seismic data from Ketzin.
+Abstract
+Temperature is one of the main parameters influencing the properties of CO2 during storage in saline aquifers since it along with pressure and co-constituents controls the phase behavior of the CO2/brine mixture.
+When the CO2 replaces brine as a free gas it is well known to affect the elastic properties of porous media considerably.
+In order to track the migration of geologically stored CO2 at the Ketzin site, 3D time-lapse seismic data were acquired by means of a baseline (pre-injection) survey in autumn 2005 and a first monitor survey in autumn 2009.
+During this period the temperature in the storage reservoir near the injection well was observed to have increased from 34°C to 38°C.
+This temperature increase led us to investigate the potential impact of temperature on the seismic response to the CO2 injection and on the CO2 mass estimations based on the Ketzin 4D seismic data.
+Two temperature scenarios in the reservoir (34°C and 38°C) were studied using multiphase fluid flow modeling.
+The simulations show that the impact of temperature on the seismic response is minor, but that the impact of the temperature on the CO2 mass estimations is significant and can, with the help of the multiphase fluid flow simulations, be explained mostly by the impact on the density of the CO2.
+
+Introduction
+It is well known that temperature is a major parameter influencing CO2 storage and migration in saline aquifers along with pressure and co-constituents (e.g. Kumar et al., 2005; Bachu and Bennion, 2009).
+For example, the trapping of CO2 at irreducible saturation is a direct function of temperature, as well as in situ pressure.
+However, only few experimental data are reported in the temperature and pressure range of interest for geological CO2 storage (Kumar et al., 2005).
+At the Ketzin pilot site, Germany, CO2 is being injected at about 640m depth with temperature data being continuously acquired with a permanently installed system (Giese et al., 2009).
+These temperature measurements are performed over the entire length of the Ketzin boreholes using a distributed temperature sensing system (Henninges et al., 2011).
+Ketzin is the first European onshore pilot scale project for CO2 storage in a saline aquifer and was initiated in 2004 with the aim to evaluate and develop methods for CO2 storage monitoring (Würdemann et al., 2010; Martens et al., 2012).
+The site is situated on the southern flank of an anticlinal structure, which has its crest approximately 1.5km to the north of the site (Fig. 1).
+The anticline is the eastern part of the Roskow-Ketzin double anticline (Norden et al., 2010) and hosts the sandstones of the Triassic Stuttgart Formation that serve as the storage reservoir (Fig. 2).
+The Stuttgart Formation is lithologically heterogeneous, consisting not only of sandstones with good reservoir properties, but also alternating with muddy rocks of poor reservoir quality.
+The sandstones vary in thickness between 15 and 30m (Förster et al., 2006) and are present in the depth range of 620-650m beneath the injection site.
+The Stuttgart Formation is sealed by an approximately 200m thick cap rock section of playa-type mudstones of the Weser and Arnstadt Formations (Förster et al., 2006) (Fig. 2).
+Monitoring at the Ketzin site is performed by means of surface-based and borehole-based methods.
+The latter use the injection well (Ktzi201/2007) and additionally two observation wells (Ktzi200/2007 and Ktzi202/2007), which are located at distances of 50m and 112m from the injection well, respectively (Fig. 2).
+The wells were drilled in 2007 to depths of approximately 800m (Prevedel et al., 2008) after baseline characterization that included a 3D surface seismic survey (Juhlin et al., 2007).
+CO2 injection started in June 2008 and more than 60 kilotons of CO2 had been injected by November 2012.
+Nearly all of the CO2 injected to date at Ketzin has been food grade quality, except for about 1500 tons of CO2 (purity 99.7%) from the oxyfuel pilot plant Schwarze Pumpe (Vattenfall) that were injected within a trial period from May 4, 2011 to June 13, 2011 (Martens et al., 2012).
+Therefore, the phase behavior of the CO2 is not expected to change due to the effects of co-constituents, e.g.
+SO2.
+However, in cases where the level of co-constituents is high changes in the phase behavior of the CO2 can be expected (Kummerow and Spangenberg, 2011).
+Numerical modeling of multiphase flow is an essential tool to ensure the viability of long-term and safe CO2 storage in geological formations (Kumar et al., 2005; Bryant et al., 2008).
+Thus, a number of reservoir simulations have been performed to enhance the understanding of the CO2 migration at the Ketzin site (Kempka et al., 2010; Lengler et al., 2010; Bergmann et al., 2010).
+Successful integration of reservoir simulations and 4D seismic data analysis at the Sleipner CO2 storage site (e.g. Arts et al., 2004; Chadwick et al., 2010) motivated us to integrate both methods also at the Ketzin site.
+The 3D baseline seismic survey at the Ketzin site was acquired in autumn 2005 (Fig. 1) and revealed a sequence of clear reflections from approximately 150ms to 900ms two-way traveltime (TWT) in the stacked volume (Juhlin et al., 2007).
+In the autumn of 2009, a subset of this baseline survey was acquired around the injection well after approximately 22-25 kilotons of CO2 had been injected (Ivanova et al., 2012) (Fig. 1).
+This first 3D seismic repeat survey showed a pronounced time-lapse amplitude anomaly at the top of the storage reservoir (Ivandic et al., 2012; Ivanova et al., 2012).
+The extent of this anomaly was approximately 250m in the S-N direction and 350m in the W-E direction.
+This anomaly, as well as delayed arrival times of reflections below the reservoir ("velocity push-down effect": Arts et al., 2004; Chadwick et al., 2010), demonstrated that CO2 injected at the Ketzin site could be monitored by means of surface-based seismic methods.
+As a follow up, the time-lapse seismic images were used to make estimates on the imaged amount of CO2, important for assessing storage efficiency and monitoring potential leakage.
+The minimum degree of accuracy is a crucial issue in these investigations.
+Such minimum thresholds establish the smallest amount of CO2 that is possible to be monitored by means of surface-based methods (JafarGandomi and Curtis, 2011).
+At Ketzin, quantification of the mass of the injected CO2 was performed using the time-lapse seismic data, petrophysical investigations on core samples, and in situ CO2 saturations from pulsed neutron gamma (PNG) logging as input (Ivanova et al., 2012).
+The uncertainty range in the order of 5-7% encompasses the true injected mass CO2.
+In the Ivanova et al. (2012) study the impact of reservoir temperature on the mass estimation was not included.
+However, temperature is known to have a significant effect on CO2 density and can presumably have an effect on the mass estimation based on the time-lapse seismic data.
+Fig. 3 illustrates the dependence of CO2 density on pressure and temperature in the reservoir at Ketzin.
+Prior to the start of the CO2 injection, pressure and temperature at the injection horizon were approximately 6.2MPa and 34°C, respectively.
+Both pressure and temperature increased due to the injection (Giese et al., 2009; Würdemann et al., 2010).
+In October 2009, pressure and temperature reached values of approximately 7.73MPa and 38°C, respectively, in the injection well Ktzi201/2007 at the injection depth.
+At the observation well Ktzi200/2007, the temperature increased only slightly.
+There was no significant change in the values of the reservoir temperature at the observation well Ktzi202/2007 (Fig. 2) (Möller et al., 2012).
+Based on these observations, it appears likely that the CO2 density was around 260kg/m3 at the injection point (38°C) in autumn 2009, whereas it was near 320kg/m3 in the more distant part of the plume, close to the ambient temperature (34°C) (Fig. 3).
+In order to investigate the impact of the reservoir temperature variation on the interpretation of the 4D seismic data at Ketzin, we deduce quantitative CO2 mass estimates for both temperature limits in this study.
+In the first step we apply seismic forward modeling and fluid substitution using the so far established petrophysical models for the Ketzin reservoir sandstone (Kummerow and Spangenberg, 2011; Ivanova et al., 2012).
+Subsequently, CO2 mass estimations based on reservoir isothermal simulations for both temperature scenarios are compared to those obtained by in situ PNG logging (Ivanova et al., 2012).
+Seismic modeling
+Kazemeini et al. (2010) investigated the surface seismic response at the Ketzin site to various levels of CO2 saturation in the reservoir and established petrophysical models based on Gassmann's equations (1951) for homogeneous and patchy CO2 distributions.
+The seismic response for different CO2 distribution geometries and saturation levels were modeled using 1D elastic and 2D acoustic finite difference methods.
+In this contribution, forward modeling of the synthetic seismic response has been carried out using the reflectivity method (Wang, 1999) while incorporating results from petrophysical experiments (Kummerow and Spangenberg, 2011; Ivanova et al., 2012) and PNG logging (Henninges et al., 2011; Ivanova et al., 2012).
+By using the reflectivity method, we assume that the geology around the wellbores can be approximated as 1D media (Fuchs and Mueller, 1971; Margrave and Manning, 2004).
+Input to the modeling consisted of the compressional wave velocity (Vp), shear wave velocity (Vs), and density (ρ) near the injection well obtained from borehole logging data (Fig. 4).
+Vp and ρ were vertically averaged from the logs to remove high frequency fluctuations.
+Vs values from the well Ktzi202/2007 were vertically averaged over the main lithological units (Förster et al., 2010).
+The resulting Vs model was linearly interpolated to the injection well using the interpreted lithological horizons after Kling (2011).
+The input wavelet was extracted from the 3D seismic baseline data (Juhlin et al., 2007) (Fig. 4), yielding a dominant frequency of 40Hz.
+Seismic modeling with the reflectivity method using the previously described Vp, Vs and density models as input parameters resulted in a synthetic trace corresponding to a 3D surface seismic baseline trace near the injection well (Fig. 4).
+In order to study the impact of a variable degree of CO2 saturation in a reservoir layer of constant thickness and the impact of a variable reservoir thickness at constant CO2 saturation near the injection well we applied fluid substitution models for Vp, Vs and ρ and repeated the seismic modeling for each case.
+Results from petrophysical experiments on two core samples from the target reservoir (Kummerow and Spangenberg, 2011; Ivanova et al., 2012) showed a near linear relationship between Vp and the CO2 saturation (Fig. 5).
+A least-squares fit of the data yields the following equation:(1)ΔVpVp=-0.46×S(CO2)where ΔVp/Vp is the relative change of Vp and S(CO2) is the corresponding level of CO2 saturation, respectively.
+This relationship was then used to scale the baseline Vp model in the reservoir layer.
+At Ketzin, the average velocity from ultra-sonic laboratory experiments with 100% formation brine saturation (three measurements on two samples) is 3135m/s, while on the logging data the average P-wave velocity is 3012m/s in the three wells at the Ketzin site in the reservoir sands.
+This velocity is close to what is observed on crosshole seismic data between the two observation wells.
+Although velocity dispersion is probably present in the Ketzin reservoir rocks, we do not consider it to be large enough to considerably affect interpretation of our time-lapse seismic data (Ivanova et al., 2012).
+The petrophysical experiments by Kummerow and Spangenberg (2011) showed that Vs is almost unaffected by CO2/brine fluid substitution.
+Therefore, we used an unchanged baseline Vs model (Fig. 4) throughout the modeling.
+The density of the composite fluid (the brine and the CO2) was calculated by the following equation:(2)ρfluid=ρbrine(1-SCO2×ρCO2)where ρfluid is the density of the composite fluid, ρbrine is the formation brine density - 1164.59kg/m3 (after Kummerow and Spangenberg, 2011), SCO2 is CO2 saturation and ρCO2 is the CO2 density at the injection well at the time of the 3D seismic repeat acquisition - 266.62kg/m3 after Ivanova et al. (2012).
+We used the porosities (ø) from borehole logging (Förster et al., 2010) for the calculation of bulk densities in the brine/CO2 saturated reservoir units using:(3)ρsat=ϕ×ρfluid+(1-ϕ)×ρmatrixwhere ρmatrix is the density of the matrix which can be calculated using the density of the rock fully saturated with brine ρsatbrine by the equation:(4)ρmatrix=ρsatbrine-ϕ×ρbrine1-ϕ
+Based on these equations, the modeled decrease in density due to CO2 injection in the reservoir near the injection well in the autumn of 2009 was approximately 4% (at 50% CO2 saturation).
+The impact of a variable degree of CO2 saturation in a reservoir layer of constant thickness and the impact of a variable reservoir thickness at constant CO2 saturation are illustrated with Fig. 6a and b, respectively.
+The latter case considers a CO2 saturation level of 50%, which is the average value of measured CO2 saturation at the injection well during the acquisition of the 3D seismic repeat survey (Ivanova et al., 2012).
+According to Eq.
+(1), this yields a relative change in Vp of about -25%.
+Considering that the average baseline Vp is 3142m/s, the average time-lapse Vp used for the CO2 response modeling is then 2372m/s.
+Both the amplitude changes and "push-down effects" (up to 6ms) can be observed in the synthetic data for the case of increasing the thickness of the CO2 layer (Fig. 6b).
+The amplitude change for variable reservoir thickness further shows a "tuning effect" over the range of thicknesses tested.
+The time window used for this amplitude calculation is 515-540ms.
+Maximum tuning occurs at approximately 20m (Fig. 6b).
+Arrival time delays of wave coda from below the reservoir reach values of up to 6ms for both cases (Fig. 6a and b).
+The push-down velocity time delay is nearly linear with increasing CO2 saturation in Fig. 6a and with increasing layer thickness in Fig. 6b.
+Multiphase fluid flow simulations
+Next we apply the multi-phase fluid flow simulations of Lengler et al. (2010) to account for the lateral variability in the petrophysical properties of the storage formation at Ketzin.
+Lengler et al. (2010) performed simulations on multiple realizations of the Ketzin reservoir using a stochastic Monte Carlo approach in order to take into account the high degree of uncertainty in the reservoir characterization at the scale required for fluid flow simulations.
+In this paper, we use a similar approach, but this time to investigate the impact of the reservoir temperature on the fluid migration and, in turn, on the 4D seismic data.
+Hydrogeological studies at the Ketzin site (Norden et al., 2010) have shown that a 2D radially symmetric model of the upper part (33m) of the Stuttgart Formation can be used to interpret the 3D data acquired near the injection well (Fig. 7).
+This model accounts for the presence of channel sandstones in the reservoir that are the most favorable for CO2 migration and contains effective porosities in the range of 20-25% (Förster et al., 2010).
+As known from core and log analysis of the injection well Ktzi201/2007 and the first observation well Ktzi200/2007, the reservoir is composed of two high porosity sandstone layers.
+These layers are separated by a thin strongly cemented sandstone layer (Norden et al., 2010).
+Since the thickness of this layer is in the decimeter range, it cannot be detected with the seismic wavelengths typically available from surface-seismic measurements.
+However, this layer is known to be a significant constraint to fluid migration due to its low permeability (Wiese et al., 2010).
+This cemented sandstone layer is absent in the second observation well Ktzi202/2007, where only one sandstone layer is observed, which is situated at a distance of only 112m away from the injection well.
+This observation shows the high degree of heterogeneity in the reservoir.
+However, pumping tests have demonstrated that the three wells are hydraulically connected (Wiese et al., 2010).
+Therefore, the conceptual model presented here assumes a simple connection between the sandstone intervals in the three wells.
+Initial reservoir conditions and rock properties within the reservoir sandstone and the surrounding mudstone are listed in Table 1.
+They are assumed to be spatially constant for the flow simulations.
+The model boundary was set 10km away from the injection well to ensure that the simulated flow would not be affected by the boundary conditions.
+The generated mesh was regularly spaced at 0.3m in the vertical direction.
+In the study area, the lateral discretization was 5.0m, but with closer spacing within a radius of 7.5m around the injection well.
+To simulate the vertical injection well, the vertical permeability of the well elements was set 104 times higher than that of the reservoir sandstone, and injection was simulated at 4 elements of the well column.
+This approach resulted in all elements of the well column being charged.
+The injection rate was modeled at a constant rate of 2tons/h (the average rate until 1 October 2009), and 3tons/h (the average rate until 29 October 2009 during the time of the 1st repeat seismic survey).
+The simulations were performed using the numerical program TOUGH2 version 2.0 (Pruess et al., 1999) with the fluid property module ECO2N, which was designed for application to the geologic sequestration of CO2 in saline aquifers (Pruess, 2005).
+Two cases were considered, one where the reservoir temperature is 34°C and the other where the temperature is 38°C.
+Fig. 7 displays distributions of CO2 saturation and CO2 density in the reservoir for both the 34°C and 38°C scenarios.
+The CO2 saturation does not differ significantly between the two scenarios (less than 5%), whereas the CO2 density is notably lower for the higher temperature case.
+However, the difference in CO2 density decreases with decreasing pressure (Fig. 3) and, therefore, with distance from the injection well (Table 2).
+In the vicinity of the injection well, the difference in CO2 density is up to 20% and on average 12%.
+The slight increase in CO2 saturation with the isothermal temperature of 38°C follows from the small increase in pressure that, in turn, is due to a lower CO2 density.
+The same mass of CO2 has to be injected and, therefore, a larger CO2 volume is present in the higher temperature case, as evident in the greater lateral extent and volume of the CO2 plume (Table 2).
+With an increasing volume of the CO2 plume, the contact area between the CO2 and the formation water increases.
+Temperature effects on the seismic data
+In order to investigate the impact of temperature in the reservoir on the 4D seismic data at the Ketzin site, the CO2 saturation and CO2 density, as well as the thickness of the CO2 layer obtained by multiphase fluid flow simulations were used as input to seismic modeling (see Section 2 of this paper).
+Porosity was assumed to be constant in the reservoir (20%) for modeling the temperature effects on the seismic data.
+It is well known that the seismic velocity in sandstones saturated with brine does not depend on temperatures in the range of 34-38°C (e.g. Mavko, 2005).
+To demonstrate this we calculated the difference in Vp between both temperature scenarios present at the Ketzin site at the time of the 1st 3D seismic repeat campaign (Ivanova et al., 2012) using Gassmann's equations (1951) for 50% CO2 saturation.
+The resulting difference between the scenarios in Vp is less than 5m/s.
+Considering the uncertainties (e.g. ±5% error in CO2 saturation) in the petrophysical experiments (Kummerow and Spangenberg, 2011; Ivanova et al., 2012) corresponding to ±70m/s in Vp (Fig. 5), we did not take into account the Vp changes (Fig. 5, Eq.
+(1)) due to the different temperature scenarios (34 and 38°C).
+The resulting synthetic seismic differences (Fig. 8) of both the 34°C and 38°C options look very similar and also show some similarity to the real data, also shown in Fig. 8.
+The synthetic difference (repeat-base) seismograms from near the top of the reservoir agree reasonably well with the real difference seismograms (repeat-base) for the Ktzi201/2007 and Ktzi200/2007 wells reported by Ivanova et al. (2012).
+However, obvious disagreements are found at the Ktzi202/2007 well, which may be due to the fact that the velocity model used at this location is not sufficiently correct.
+Seismic amplitude differences between the 38°C and 34°C scenarios correspond to less than 1% of the amplitude values of the baseline (Fig. 8).
+Since the normalized root mean square (NRMS) differences in the 3D time-lapse data are greater than 10% (Kashubin et al., 2011) these temperature effects in the reservoir will not be resolvable with surface seismic methods at the Ketzin site.
+Although it is not possible to determine the reservoir temperature from the seismic data, the temperature does have a significant impact when estimating the volume of CO2 injected based on the above modeling.
+We show this here by applying the method of volumetric estimation of Ivanova et al. (2012) to both the 34°C and 38°C reservoir temperature scenarios.
+We calculate minimum and maximum limits for the two temperature cases based on the bounds suggested by the total amount of injected CO2 for the period in which the repeat survey was active over the injection area (1 October 2009 to 28 October 2009) in this study.
+In Ivanova et al. (2012) results of two PNG logging runs before and after the 1st seismic 3D repeat campaign were averaged for minimum and maximum scenarios.
+Fig. 9 shows the resulting CO2 mass distribution maps for both temperature cases and reveals that they look similar to that from Ivanova et al. (2012).
+The minimum total mass (∼25.6 kilotons) and the maximum total mass (∼29.3 kilotons) for the 34°C option are considerably higher than the amount of injected CO2 at the time of the repeat survey in 2009 (21.1-24.2 kilotons).
+However, for the 38°C option, the minimum mass (∼22.3 kilotons) and maximum mass (∼22.8 kilotons) are completely within the bounds of the amount of injected CO2 (21.1-24.2 kilotons) and match well with the CO2 mass estimation from Ivanova et al. (2012) (∼20.5-23 kilotons).
+These calculations confirm that the impact of reservoir temperature is considerable when trying to quantify the amount of CO2 in the subsurface and that it needs to be accurately estimated.
+Based on these calculations it appears that a significant portion of the reservoir containing CO2 was at 38°C at the time of the repeat survey in 2009.
+Discussion
+Seismic modeling and observations show that the effects of the injected CO2 on the 4D seismic data from Ketzin are significant, both regarding seismic amplitudes and time delays.
+However, reservoir heterogeneity and seismic resolution, as well as random and coherent seismic noise are negative factors to be considered in seismic monitoring.
+It is likely that the simulated scenarios of 38°C and 34°C are representative in the vicinity of the injection well and in the remaining reservoir, respectively, in October 2009.
+This is based on a measured temperature of approximately 38°C at the injection well at the monitoring time, while at the well Ktzi200/2007 the temperature increased to only slightly above 34°C and at the well Ktzi202/2007 the temperature remained at 34°C during the injection period.
+Since most of the CO2 is concentrated around the injection well, the higher temperature value plays an important role in estimating the mass of CO2 from the seismic data.
+The integration of seismic modeling and multiphase fluid flow simulations generated synthetic difference seismograms (repeat-base) that demonstrate the main features of the real difference seismograms (repeat-base) (Ivanova et al., 2012) (Fig. 8).
+Taking into account the assumptions made constructing the model we consider the correlation between the synthetic and real seismic sections to be satisfactory.
+However, the following points should be considered when evaluating the modeling results.
+Firstly, the constant 20% reservoir porosity (Förster et al., 2009) used for modeling of the temperature effects is probably an over-simplification since the reservoir is quite heterogeneous (Förster et al., 2006).
+Secondly, sound waves may have a frequency dependent propagation velocity (e.g. White, 1975; Müller et al., 2010) so that the higher the frequency the higher the speed.
+Although velocity dispersion is probably present in the Ketzin reservoir rocks, we do not consider it to be large enough that it could considerably affect the qualitative and quantitative interpretation of our time-lapse seismic data (Ivanova et al., 2012).
+Thirdly, Eq.
+(1) was derived using results of petrophysical experiments at 40°C.
+For brine saturated sandstone, the seismic velocity does not depend on temperatures in the range of 34-40°C (Mavko, 2005), resulting in that there are only minor differences for Vp at conditions near the critical point (Han et al., 2010).
+Via the Gassmann equations (1951) this translates into a maximum difference in Vp of 9m/s for 50% CO2 saturation for the Ketzin site comparing the 40°C and 34°C scenarios.
+Therefore, the effect of temperature on the velocity CO2 at the Ketzin site can be disregarded.
+The volumetric estimations of the CO2 mass based on the Ketzin 4D seismic data (Fig. 9) shows that the impact of temperature is significant for the calculations due to its impact on CO2 density.
+Hence, temperature monitoring is an important component for quantitative seismic interpretations at Ketzin, and probably at other sites.
+Using the temperature measured at the injection well for the mass estimations gives the best result for the CO2 mass quantification (Fig. 9).
+It is completely within the bounds of the known injected CO2 mass at the beginning and end of 3D seismic repeat acquisition campaign and in very good agreement with the CO2 mass estimation based on in situ CO2 saturation PNG logging (Fig. 9).
+Nevertheless, the quantitative analysis contains considerable uncertainties as discussed above and in Ivanova et al. (2012).
+Future issues to be considered include expanding the temperature range (34-38°C in this study) to be investigated and the resulting effects on the seismic response, as well as the role of the reservoir heterogeneity.
+In addition, it would be important to investigate the impact of temperature on CO2 storage at other sites with favorable P-T conditions in the reservoir (Fig. 3).
+A similar approach applied to studying the impact of pressure in the reservoir would be also important for CO2 monitoring using 3D time-lapse seismic methods.
+Conclusions
+By integrating seismic modeling and multiphase fluid flow simulations, we have estimated the impact of the reservoir temperature on the 4D seismic data from Ketzin.
+We studied two cases, one where the injection was performed at 34°C and the other at 38°C.
+Results from the multiphase fluid flow simulations show that the difference between the two cases is small for the CO2 migration.
+Likewise, the temperature does not affect significantly the seismic amplitude response, although the CO2 density is considerably lower for the higher temperature case.
+The difference in CO2 density between 34°C and 38°C decreases with decreasing pressure and, therefore, with increasing distance from the injection well.
+Therefore, the modeled time-lapse seismic differences for the two temperature scenarios is minor regarding the qualitative analysis of the 4D seismic data from the Ketzin CO2 storage site (Fig. 8).
+However, the volumetric estimation of the CO2 based on the 4D seismic data from Ketzin using results from the multiphase fluid flow simulations (Fig. 9) shows that the impact of temperature in the reservoir at the monitoring time is significant for these estimations.
+This is mostly due to its impact on CO2 density, which strongly depends on temperature.
+In addition to temperature effects, the simulated CO2 saturation levels also influence volumetric estimation.
+Our results show that temperature monitoring is very important for quantitative seismic interpretation at the Ketzin site.
+Using the higher temperature scenario, corresponding to that measured at the injection well, gives the best result for the CO2 mass quantification.
+The estimate is completely within the bounds of the true amount of injected CO2.
+Acknowledgements
+The authors cordially thank Manfred Stiller, Julia Götz, Michael Widenbeck and Magdalena Gil for helpful comments on the paper.
+Alexei Petrunin is acknowledged for further discussions.
+We thank anonymous reviewers for their constructive criticism.
+We would like to acknowledge the European Union (project CO2SINK, no.
+502599) for funding the 3D seismic baseline survey in Ketzin in 2005 and the German Federal Ministry of Education and Research, BMBF (project 3DRep1, AZ 03G0679A (Geotechnologien program), and project CO2MAN, Grant 03G0770A), for funding the 3D repeat survey in 2009 and current studies.
+We would like to thank the following industrial partners of CO2MAN project: VNG, Vattenfall, RWE, Statoil, Dillinger Hüttenwerke, Saarstahl and OMV.
+This is the Geotechnologien paper number GEOTECH2097.
+

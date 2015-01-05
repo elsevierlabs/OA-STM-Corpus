@@ -1,0 +1,255 @@
+Marine and terrestrial environmental changes in NW Europe preceding carbon release at the Paleocene-Eocene transition
+
+Abstract
+Environmental changes associated with the Paleocene-Eocene thermal maximum (PETM, ∼56Ma) have not yet been documented in detail from the North Sea Basin.
+Located within proximity to the North Atlantic igneous province (NAIP), the Kilda Basin, and the northern rain belt (paleolatitude 54°N) during the PETM, this is a critical region for testing proposed triggers of atmospheric carbon release that may have caused the global negative carbon isotope excursion (CIE) in marine and terrestrial environments.
+The CIE onset is identified from organic matter δ13C in exceptional detail within a highly expanded sedimentary sequence.
+Pollen and spore assemblages analysed in the same samples for the first time allow a reconstruction of possible changes to vegetation on the surrounding landmass.
+Multiproxy palynological, geochemical, and sedimentologic records demonstrate enhanced halocline stratification and terrigenous deposition well before (103yrs) the CIE, interpreted as due to either tectonic uplift possibly from a nearby magmatic intrusion, or increased precipitation and fluvial runoff possibly from an enhanced hydrologic cycle.
+Stratification and terrigenous deposition increased further at the onset and within the earliest CIE which, coupled with evidence for sea level rise, may be interpreted as resulting from an increase in precipitation over NW Europe consistent with an enhanced hydrologic cycle in response to global warming during the PETM.
+Palynological evidence indicates a flora dominated by pollen from coastal swamp conifers before the CIE was abruptly replaced with a more diverse assemblage of generalist species including pollen similar to modern alder, fern, and fungal spores.
+This may have resulted from flooding of coastal areas due to relative sea level rise, and/or ecologic changes forced by climate.
+A shift towards more diverse angiosperm and pteridophyte vegetation within the early CIE, including pollen similar to modern hickory, documents a long term change to regional vegetation.
+Highlights
+► We identify the carbon isotope excursion from the North Sea in exceptional detail.
+► We document changes to ocean stratification well before atmospheric carbon release.
+► Precursor stratification may be associated with the trigger for carbon release.
+► Increased precipitation and runoff likely occurred along with carbon release.
+► We document a rapid change to regional vegetation during carbon release.
+
+Introduction
+The PETM was a period of geologically-rapid global warming that punctuated a warming Eocene climate 55.8Ma ago (Charles et al., 2011), and saw sea surface temperatures rise by 5-8°C from background levels (Zachos et al., 2005; Sluijs et al., 2007).
+It was associated with a substantial injection of δ13C-depleted carbon into the ocean-atmosphere system (see Pagani et al., 2006a) over <20ka (Cui et al., 2011), causing a negative carbon isotope excursion (CIE) between -2 and -7‰ in marine and terrestrial sediments (see overview in Schouten et al., 2007) lasting 170ka (Röhl et al., 2007), and a prominent dissolution horizon in the deep sea signifying deep ocean acidification (Kennett and Stott 1991; Zachos et al., 2005).
+The source and rate of released carbon are still under debate (Pagani et al., 2006a; Zeebe et al., 2009; Cui et al., 2011), but may have been linked to the dissociation of marine hydrates containing biogenic methane (δ13C of<-60‰) (Dickens et al., 1995), thermogenic methane from marine sediments around the Norwegian Sea (Svensen et al., 2004), or dissolved methane from a silled Kilda Basin between Greenland and Norway (Nisbet et al., 2009).
+The PETM may be a good analogue to test modelling studies that suggest current global warming trends may result in an enhanced hydrologic cycle (Seager et al., 2010), whereby increased precipitation in temperate rain belts is coupled with increased evaporation in lower latitudes.
+Modelling studies of the PETM have further indicated the potential importance of an increased hydrologic cycle (Lunt et al., 2010; Bice and Marotzke 2002), which could have altered ocean circulation causing methane hydrate reservoirs to destabilise, triggering massive carbon release (Bice and Marotzke, 2002).
+Palynological evidence from Arctic Spitsbergen (Harding et al., 2011) and New Zealand (Crouch et al., 2003a) suggests increased terrestrial runoff occurred at the onset of the CIE which may be related to hydrologic changes, and massive Pyrenees conglomerate deposits have been interpreted as the result of an abrupt increase in extreme precipitation within the early CIE (Schmitz and Pujalte, 2007).
+In addition, hydrogen and carbon isotope measurements of terrestrial plant and aquatic-derived n-alkanes from the central Arctic Ocean indicate that the core of the PETM was associated with increased precipitation and hence hydrologic cycle (Pagani et al., 2006b), although the onset of PETM warming was not recovered in the sediment core.
+Despite numerous additional evidence for changes in terrestrial runoff and potentially hydrology during the PETM (see overview in McInterney and Wing, 2011), there is a lack of clear evidence for hydrologic changes from high resolution sections able to resolve important lead/lag relationships, and therefore there remains a need for studies of hydrologic changes in sensitive locations over the onset of the CIE in order to understand the relationship between precipitation and global carbon release.
+Biome changes in response to modern global warming have been observed, but approaches to predict the vulnerability of ecosystems to future changes are still in development (Gonzalez et al., 2010).
+Vegetation shifts during the rapid warming associated with the PETM may provide a useful analogue to future biome responses.
+Whilst neotropical vegetation in Central America appears to have responded to warming during the PETM with increased diversity and origination rates (Jaramillo et al., 2010), central North America experienced a rapid migration of plant communities associated with lower precipitation at the onset of the CIE (Wing et al., 2005), and southern England may have experienced a major change in plant composition due to changes in local fire-regime (Collinson et al., 2009).
+To better understand biome responses to climatic change during the PETM, further high resolution vegetation cover studies are needed, specifically from temperate and boreal forests which may be amongst the most vulnerable ecosystems to global warming (Gonzalez et al., 2010).
+In this study we focus on paleoenvironmental signals from a high resolution marine core collected from the central North Sea (Fig. 1), in order to understand changes to precipitation, ocean stratification, productivity and vegetation over the onset of the PETM.
+This core is located in a critical region proximal to the NAIP, as there are currently no high resolution records of environmental change during the PETM from the North Sea Basin.
+Furthermore, as overturning of a stratified Kilda Basin at the CIE onset is hypothesised as a possible trigger for dissolved methane release to the atmosphere (Nisbet et al., 2009), analysing the stratification history of the nearby North Sea is a possible way to test this hypothesis.
+Regional setting
+During the late Paleocene-early Eocene the North Sea was a restricted marine basin, characterised by siliciclastic sedimentation and high terrigenous input, principally from the Scotland-Faeroe-Shetland landmass (Knox 1998, Fig.
+S1).
+Core 22/10a-4 is located in the central part of the basin (Figs.
+1 and S1) and is therefore disconnected from many marginal marine processes that could mask oceanographic signals (e.g. tidal or storm-induced erosion and slumping).
+Paleobathymetry estimates in the North Sea during the Paleocene and Eocene are difficult to constrain accurately, as the extant benthic foraminifera present in the Paleogene are found today living between 200 and >1000m water depth (Gradstein et al., 1992), and are controlled predominantly by substrate and bottom water properties.
+However using a number of paleoecologic micropaleontology methods together (Gillmore et al., 2001), along with 2D structural restoration (Kjennerud and Sylta, 2001), broad agreement was found and central parts of the northern North Sea appear to have had paleodepths of >0.5km in the earliest Eocene near 22/10a-4 (Kjennerud and Gillmore, 2003, Fig. S1).
+As 22/10a-4 is in the deep (>0.5km) central part of the basin, it acted as a depocentre and exhibits a Paleocene-Eocene transition sequence that is not only expanded but is also close to being stratigraphically complete.
+The only evidence for breaks in the succession is minor erosion at the base of thin turbidite sandstones (typically <10cm).
+Because these sandstones may contain reworked material, they were not sampled in this study.
+During the late Paleocene, the basin became restricted following a fall in in the order of 100m that resulted from regional uplift associated with the proto-Iceland mantle plume in the North Atlantic (see Knox, 1996).
+This event is evident in 22/10a-4 as a lithologic change from unbedded to bedded mudstone (the Lista and Sele Formation boundary, Fig. 2).
+Restriction of the basin also led to the establishment of poorly oxygenated bottom waters, as is evident by a shift in the benthic foraminiferal assemblages towards low diversity low oxygen-tolerant agglutinated species (Knox, 1996).
+The CIE at the Paleocene-Eocene boundary was accompanied by a relative sea level rise, as documented in southeast England (Powell et al., 1996) and Spitsbergen (Harding et al., 2011), due to the thermal expansion of sea water and possible melting of ice caps, although the North Sea basin remained restricted as evidenced by the persistence of low oxygen facies in 22/10a-4.
+The North Sea had a widespread freshwater catchment area, and a halocline was in place from the late Paleocene to early Eocene (Zacke et al., 2009).
+Therefore, surface water salinity changes in the North Sea Basin provide a sensitive gauge for stratification forced by changes in tectonics and the hydrologic cycle.
+Methods and materials
+Sedimentology
+Borehole 22/10a-4 (57°44'8.47"N; 1°50'26.59"E) provides a continuous core through the Forties Sandstone Member and into the Lista Formation (Fig. 2).
+The core consists of variably fissile claystone with interbedded fine to coarse grained sandstone layers interpreted as turbidites, with occasional mm-thick ash layers (Fig. 3).
+All samples in this study were taken from claystone horizons to avoid sampling substantial quantities of reworked material.
+The section of 22/10a-4 analysed in this study is from 2605m to 2634m (core depth), chosen because this part of the core is predominantly in claystone facies and provides a greatly expanded section over the onset of the CIE (Figs.
+2 and 3).
+At 2609-2613m the claystone becomes finely laminated with alternately pale and dark laminae couplets ranging from 1 to 25permm (Fig.
+S2).
+The pale laminae consist of clay and silt, and the dark laminae are rich in organic carbon and pyrite inclusions.
+Laminae were counted at 26 horizons throughout the core and approximately 13 pairspermm.
+Micropaleontology
+A total of 71 palynology samples were prepared at the British Geological Survey using standard preparation procedures (Moore et al., 1991).
+Samples were demineralised with hydrochloric (HCl) and hydrofluoric (HF) acids, and residual mineral grains removed using heavy liquid (zinc bromide) separation.
+Elvacite was used to mount slides.
+The palynomorphs were analysed using a Nikon transmitted light microscope, counting the total number of palynomorphs on a strew slide (Table S1).
+Each slide was produced from 1/100th of the total material processed, where the initial weight of material was 5g of dried sediment.
+Thus, the palynology counts represent the total number of specimens per 0.05g of dried sediment.
+Statistical analysis was carried out using the software of Hammer et al. (2005).
+The %wood/plant tissue was determined by palynological investigation, and is the sum of '%wood plant tissue' and '%various (non-woody) plant tissue' in Table S1.
+Organic material for δ13CAOM analysis was collected from the same palynology samples, and the remaining processed material separated into size fractions.
+The >250μm fractions, found through light microscope analysis to be dominated (>90%) by amorphous organic matter (AOM), were also analysed for δ13C.
+Foraminifera samples between 20 and 60g of dried sediment were processed by washing through a 63μm sieve with water.
+All specimens were counted and converted to foraminifera/g (Table S2).
+All species exhibited agglutinated (non calcareous) test walls.
+Geochemistry
+All analyses were carried out at the NERC Isotope Geosciences Laboratory.
+C and N analyses (from which we present weight % C/N) were performed on 225 samples by combustion in a Costech ECS4010 Elemental Analyser (EA) calibrated against an acetanilide standard (Table S3).
+C/N atomic ratios were calculated by multiplying by 1.167.
+Replicate analysis of well-mixed samples indicated a precision of ±<0.1.
+Carbon isotope analysis was carried out on 289 bulk rock samples (Table S4) after removing migrated hydrocarbons (Stephenson et al., 2005).
+The hydrocarbons were removed by crushing the rock fragments using a ball mill, and the soluble organic matter from all rock samples was extracted using a Soxhlet extractor.
+The samples were refluxed for 24h in an azeotropic mixture of dichloromethane and methanol (93:7, v/v).
+All materials (cellulose Soxhlet thimbles, silica wool, vials) were cleaned with analytical grade organic solvents prior to use.
+Any remaining solvent was then removed by evaporation and the dried sediments were transferred to vials.
+Any calcites (shelly fragments) were removed by placing the samples in 5% HCl overnight before rinsing and drying down.
+Carbon isotope analysis was also carried out on palynology residues of the >250μm size fractions dominated by AOM.
+13C/12C analyses were performed on 35 samples by combustion in a Costech Elemental Analyser (EA) online to a VG TripleTrap and Optima dual-inlet mass spectrometer, with δ13C values calculated to the VPDB scale using a within-run laboratory standards calibrated against NBS-18, NBS-19, and NBS-22.
+Replicate 13C/12C analyses were carried out on the section, and the mean standard deviation on the replicate analyses is 0.4‰.
+Results and discussion
+Statistical analysis
+Correspondence analysis (CA) and statistical diversity analysis were carried out on the palynological dataset (total counts per gram) to confirm assemblage designations (Figs.
+4 and 5), to identify any disturbance to the core prior to interpretation, and to estimate diversity (Fig. 6).
+Dinoflagellate cyst assemblages (DA1-DA5) and pollen assemblages (PA1-PA4) were defined by visually comparing changes in the species dominance (Figs.
+7 and 8), and confirmed by CA (Fig. 4) using the first three axes (describing the highest percentages of variance).
+Five samples from below the CIE at 2619.60, 2617.35, 2617.44, 2614.73, and 2614.71m (indicated in Fig. 5) contain Apectodinium, in contrast to the other samples below the CIE (Figs.
+3 and 7).
+Some of these samples (2619.60, 2614.73, and 2614.71m) also contain negative δ13CTOC, indicative of the CIE (Fig. 3).
+To test if coincident pollen and spore changes also occur in these samples, we used CA on the pollen and spore data only (Fig. 5a).
+PA1-PA4 (symbols) plot in clusters, signifying their palynological similarity.
+The species most associated with an assemblage are clustered with the samples from that assemblage.
+For example, Inaperturopollenites hiatus and bisaccate pollen (highly abundant before the CIE, Fig. 8) are high on axis 1 where the earlier samples from PA1 and PA2 occur, and Caryapollenites spp.
+and fungal spores (abundant after the CIE, Fig. 8) are low on axis 1 near the younger samples from PA4.
+The two samples 2619.60 and 2614.71 have a spore and pollen palynological signature similar to samples from PA3/4 during the CIE (plot lower on axis 1) and are either not in the correct location (it cannot be discounted that these samples represent tectonically emplaced younger material (Payne et al., 2005), or were misplaced during drilling operations core handling), or represent very short episodes of both marine and terrestrial ecologic change to CIE-type conditions.
+The rapid and transient nature of these two shifts appears to suggest that the latter explanation may be unlikely, and we have therefore shaded samples from these two depths in Figs.
+3, 6-9.
+The majority of the morphospecies in our study represent taxonomic groupings of terrestrial plant species, from generic to higher level groupings, such that any palynology diversity measure will underestimate vegetation diversity.
+However, although subtle changes may not be resolved, large changes to the diversity of regional vegetation are likely to be reflected in palynology assemblages.
+Palynological data have therefore previously been used to estimate plant diversity in the geologic record (e.g. Ogaard, 2001; Harrington, 2004; Jaramillo et al., 2010).
+The number of pollen and spore species in each sample (Fig. 6d) fluctuates, trending towards increasing number over the CIE onset (from PA2 to PA3).
+To account for the changing number of specimens counted in each sample (more species will be encountered with higher counts), two statistical indices were used (Fig. 6e, f).
+Both confirm the significant increase in pollen and spore diversity from before to after the CIE onset.
+We do not use the range-through method, as we are interested in changes to local vegetation habitats.
+The increase in the number of pollen and spore species appears to be largely driven by pteridophytes (largely ferns, Fig. 6g), although angiosperm diversity also increases over the CIE onset (Fig. 6h) and fungal spores become more prevalent (Fig. 8m).
+Gymnosperms are only represented by two morphospecies and so diversity was not calculated for this group.
+Isotope changes and age model
+The Lista-Sele Formation boundary (Fig. 2) occurs in the lower part of magnetochron 24r in the Faeroe-Shetland Basin (Mudge and Bujak, 2001), giving a date of >56.6Ma for the base of the studied section (Gradstein and Ogg, 2005).
+The top of the studied section is within nannofossil zone NP9 (Knox, 1996), dated as <55.7Ma (Gradstein and Ogg, 2005).
+The Paleocene-Eocene marker event Apectodinium augustum (Bujak and Brinkhuis, 1998) occurs in 22/10a-4 at 2617.35m (Fig. 3), approximately at the CIE onset (as was found at 30/14-1, Fig. 1, Sluijs et al., 2007).
+The global CIE is determined by the negative shift in both marine and terrestrial δ13C between 2‰ and 7‰ (see Schouten et al., 2007) and has recently been radioisotopically dated in Spitsbergen to 55.8Ma (Charles et al., 2011).
+The global CIE onset is present in 22/10a-4 within the interval from 2614 to 2612m (Fig. 3), where a negative δ13C shift of 5‰ occurs along with a peak in Apectodinium.
+The palynological results (from samples containing sufficient material for analysis; red symbols in Fig. 3) show that %wood/plant tissue varies from 10% to 88% throughout this interval (Fig.
+S3).
+We found that the samples containing >30% wood/plant tissue (open red symbols in Fig. 3) in the palynological residues have consistently heavier δ13CTOC values than those with less wood/plant tissues (solid red symbols).
+The presence of transported Corg thus precludes an unambiguous interpretation of the rate of atmospheric carbon release from the shape of the CIE onset at 22/10a-4, but the initial negative δ13C shift between 2614.3 and 2613.5m (shaded box, Fig. 3) can be taken as marking the earliest evidence of δ13C-depleted atmospheric carbon release and the onset of the global CIE.
+This positioning of the CIE onset is supported by δ13C analysis of isolated AOM (Fig. 3), likely of marine origin (see Supplementary Material) and less likely to be composed of mixtures of different sources of Corg (although it is still susceptible to reworking).
+As we observe only a 1‰ 'recovery' in the CIE, the age of the top of the studied section appears to be no more than 75ka from the CIE onset by comparison with the cyclostratigraphically correlated Longyearbyen section in Spitsbergen (Charles et al., 2011), giving an average sedimentation rate of ≥8cm/ka after the CIE onset (if sand horizons (Fig. 3) are removed, assuming rapid turbidite deposition).
+The long term 0.7‰ positive shift in δ13C at 2609m (Fig. 3) may correlate to a similar shift in the Longyearbyen section (Charles et al., 2011), which is cyclostratigraphically correlated to 45ka after the CIE onset (Charles et al., 2011), and would give a sedimentation rate of on average 8cm/ka for this section.
+The finely laminated part of the core may also provide temporal insight.
+There is no direct evidence for the period of deposition of each lamination couplet, but as modern marine lamination-forming basins produce annual laminae pairs (e.g. the Black Sea: Arthur et al., 1994; Carioaco Basin: Tedesco and Thunell, 2003; Santa Barbara Basin: Thunell et al., 1995), the 40,000 estimate of the number of laminae pairs present between 2613 and 2609m (see Section 3.1) may represent approximately 40ka, and a sedimentation rate of 7.5cm/ka.
+Dinoflagellate cysts and surface water changes
+Dinoflagellate cysts have been used extensively for reconstructing paleoenvironments in the Paleogene (see overview in Sluijs et al., 2005), as they are particularly sensitive to changes in salinity, temperature, and nutrient levels (Powell et al., 1992; Pross and Brinkhuis 2005; Sluijs et al., 2005).
+We calculate "%low salinity dinoflagellate cysts" (Figs.
+7-9) by grouping cysts of similar inferred ecologic preferences (see Fig. 7, and discussion in the Supplementary Material) to provide an indication of environmental change, and by excluding species of uncertain affinity such as Apectodinium.
+Samples with fewer than 20 specimens were also excluded.
+Despite the limitations of this method, the large variation in the %low salinity dinoflagellate cysts (ranging from 0% to 80%) clearly indicates that significant environmental changes in surface water conditions occurred during the CIE onset in the central North Sea, and is supported by coeval changes in the sedimentary carbon/nitrogen (C/N) ratio (Fig. 10) which reflects changes in the proportion of terrestrial/marine organic material deposited in the North Sea Basin due to terrestrial runoff and productivity (see Section 4.4).
+Dinoflagellate cyst assemblage 1 (DA1, from 2632 to 2618m, Fig. 7p) contains high proportions of typically open marine and hence normal marine salinity associated Achomosphaera/Spiniferites spp., undifferentiated chorate cysts and Areoligera/Glaphyrocysta spp.
+DA1 also contains on average 5% peridinoid cysts including Deflandrea spp.
+regarded as a coastal/neritic taxon indicating high productivity and nutrient availability (Brinkhuis, 1994; Pross and Brinkhuis, 2005).
+These characteristics indicate that a somewhat restricted but fully marine shelf environment was present before the onset of the CIE in the central North Sea, with availability of nutrients indicated by the presence of Deflandrea spp.
+DA2 (- 2614m) contains a similar abundance of Achomosphaera/Spiniferites spp.
+and chorate cysts to DA1, but with a marked increase in the abundance of low salinity tolerate Cerodinium depressum and Senegalinium spp., which may also have been a heterotrophic genus indicative of elevated nutrient levels (Sluijs and Brinkhuis, 2009).
+Undifferentiated peridinoid cysts also peak in abundance, and may also be indicative of elevated nutrient and reduced salinity conditions (although they are not included in the %low salinity dinoflagellate cysts, Fig. 7c).
+There is also an increase in the abundance of Areoligera/Glaphyrocysta spp., thought to indicate unrestricted neritic environments of more typical marine salinity.
+In summary, the higher proportion of low salinity tolerant dinoflagellate cysts in DA2 (Fig. 7c) appears to indicate continuous or episodic freshening surface waters below typical marine salinities (<31‰ in the modern ocean).
+In addition, DA2 is characterised by elevated numbers of dinoflagellate cysts per gram (70per 0.05g in DA1; 110per 0.05g in DA2) indicating a possible increase in cyst production which would be consistent with increased fluvial runoff carrying nutrients from nearby landmasses.
+DA2 also contains an abundance maximum of Apectodinium, an extinct genus with a somewhat uncertain ecologic affinity (see Crouch et al., 2003b), although likely reflecting relatively warm and eutrophic conditions (Crouch et al., 2003b; Sluijs et al., 2007; see Supplementary Material).
+The transient appearance of Apectodinium occurs with a reduced abundance of open marine dinoflagellates, and a peak in Deflandrea indicating possibly lower salinity and higher nutrient availability.
+DA3 (2614-2612m) is characterised by Apectodinium making up an average 40% of the assemblage, and a reduction in the abundance of all other species apart from Deflandrea and Senegalinium.
+DA3 may therefore indicate a continuation of high nutrient surface water with an elevated freshwater input.
+In this respect, it is perhaps similar to DA2, although the low abundances of dinoflagellates with known ecologic affinities make interpretations more tentative.
+The appearance of bottom water anoxia (laminations) and sporadic high accumulation of marine AOM (see Supplementary Material) is consistent with highly productive surface waters.
+DA4 (2612-2609m) shows an increase in the number of low salinity/high nutrient species Cerodinium depressum and Senegalinium spp., with a continued low abundance of normal marine salinity Achomosphaera/Spiniferites spp., such that the proportion of low salinity tolerant dinoflagellate cysts is at a maximum (Fig. 7c) indicating the presence of a pronounced halocline.
+The lack of freshwater fern and algal spores Azolla, Pediastrum and Botryococcus (Table S1) indicates that surface water salinities were probably not below 5‰ (the limit for Azolla, Brinkhuis et al., 2006), and may have been greater than 20‰ as Botryococcus was found living in salinities as high as 20‰ in modern Australian lakes (de Deckker, 1988).
+This minimum salinity value is consistent with Zacke et al. (2009), who found continuous occurrences of shark teeth in shallow marine North Sea facies throughout the late Paleocene/early Eocene, and noted that sharks do not live in salinities below 20‰ in the modern ocean.
+Highly productive surface waters are indicated by dinoflagellate cysts (Fig. 7c), and consistent with bottom water anoxia (laminations and disappearance of benthic foraminifera) and very high accumulation of marine AOM.
+DA5 (2609-2607m) shows a decrease in low salinity tolerant dinoflagellate cysts and an increase in unrestricted (normal marine salinity) Areoligera/Glaphyrocysta spp.
+and other chorate cysts.
+The reduction in AOM together with the loss of lamination (possibly end of bottom water anoxia) indicates a return towards marine salinities that existed before the onset of the CIE (represented by DA1), although the persistence of Apectodinium may indicate a long term change in marine ecology.
+Enhanced terrigenous deposition
+The increase in abundance of low salinity tolerant Cerodinium depressum and Senegalinium spp.
+before and after the CIE onset (DA2-DA4, Fig. 7) most likely indicates a reduction in surface water salinity and elevated nutrient levels (see Section 4.3).
+This appears to have been associated with increased terrigenous deposition, as evidenced by a concomitant increase in the C/N ratio of 22/10a-4 (Figs.
+9c and S4), and an elevated kaolinite contribution to the clay assemblage (Fig. 9e).
+Sedimentary atomic C/N ratios can be used to differentiate the origin of organic matter (Meyers, 1997; Storme et al., 2012), with values in 22/10a-4 averaging 10-15 (Fig. 10) indicating a mix of terrestrial land plant-derived and marine/lacustrine algal-derived carbon (Meyers, 1997).
+C/N values broadly follow %low salinity dinoflagellate cysts (Fig. 9), with an increase at the Lista/Sele Formation boundary, 4m before the onset of the CIE and within the early CIE.
+As dinoflagellate cyst assemblages suggest higher productivity (%low salinity dinoflagellate cysts, Apectodinium), the C/N ratio increase likely indicates an increased flux of terrigenous material to 22/10a-4, rather than a lower marine carbon flux.
+Kaolinite also increases before and after the onset of the CIE in 22/10a-4 (Fig. 9e).
+Kaolinite forms as a result of intense chemical weathering that typically develops on well-drained surfaces receiving high precipitation (Robert and Kennett, 1994).
+Increased kaolinite at the PETM had been regarded as indicative of an increase in chemical weathering and hence humidity in the source region (e.g. Robert and Kennett, 1994; Knox, 1996), but the long formation time of thick soil kaolinite (>1myr) suggests these increased proportions probably resulted from erosion of previously formed kaolinite (Thiry and Dupuis, 2000; Schmitz et al., 2001).
+Pollen, spores and vegetation shifts
+The pollen and spore assemblages (PA) that characterise the pre-CIE interval in 22/10a-4 (PA1 and PA2, Fig. 8n) are dominated by I. hiatus and bisaccate pollen.
+Both taxa are produced in abundance by a variety of coniferous plants, and are typical in the Paleogene of the northern UK and Greenland region (Boulter and Manum 1989; Jolley and Whitham 2004; Jolley and Morton 2007), as well as mid-latitude North America (Smith et al., 2007) and Arctic Canada (Greenwood and Basinger, 1993).
+I. hiatus is a member of the Cupressaceae family (coniferous trees) and most likely represents Metasequoia and/or Glyptostrobus swamp conifers (Greenwood and Basinger, 1993; Jolley and Morton, 2007; Jolley et al., 2009).
+In terrestrial Paleocene deposits from western Scotland, abundant I. hiatus was recorded in association with Momipites, Cupuliferoipollenites, Platycaryapollenites, Plicapollis pseudoexcelsus, and Alnipollenites interpreted as derived from a channel-margin bog community on a wet substrate (Jolley et al., 2009).
+Bisaccate pollen (family Pinaceae) was likely derived from temperate coniferous trees possibly on drier substrates, with an elevation from several metres within swamps (Greenwood and Basinger, 1993) to possibly much higher altitude (Jolley and Whitham 2004).
+Both are relative overproducers of pollen (Smith et al., 2007).
+Lowland swamp vegetation appears to have been present before the CIE on the Scotland-Faeroe-Shetland platform (this study; Jolley and Morton 2007), the catchment area for 22/10a-4 (Fig.
+S1, Knox 1996), with the relative increase of I. hiatus over bisaccate pollen from PA1 to PA2 possibly due to sea level fall at the Lista/Sele boundary (Knox, 1996) allowing lowland swamp conifers to expand and/or come into closer proximity to 22/10a-4.
+The most significant floral change at 22/10a-4 occurs at the onset of the CIE (PA2-PA3), with a large drop in the proportion of I. hiatus, increasing diversity (Fig. 6), higher proportions of angiosperms (Alnipollenites and P. pseudoexcelsus), and fern and fungal spores (Fig. 8).
+Alnipollenites was probably from the birch Alnus (alder), and in this setting represents generalist vegetation as it occurred in all the terrestrial Paleocene communities from western Scotland (Jolley et al., 2009).
+Alnus and associated ferns were most common where Metasequoia (possible source of I. hiatus) was rare in Arctic Canada, where exceptionally well-preserved Paleocene-Eocene Metasequoia and Glyptostrobus swamp deposits are prevalent, and interpreted as Alnus-fern bogs (Greenwood and Basinger, 1993).
+Alnus is a known nitrogen-fixing pioneer species in nutrient-depleted soils (Hobbie et al., 1998).
+P. pseudoexcelsus is similar to modern Juglans (walnut) pollen sometimes associated with wetland plants (Jolley and Whitham, 2004).
+The fern spores Cicatricosisporites and Laevigatosporites (family Schizaeaceae) were generalists, associated with all environments from the terrestrial Paleocene communities analysed in western Scotland (Jolley et al., 2009).
+Since dinoflagellate cysts indicate increased halocline stratification of the North Sea at the CIE (Fig. 9d), and C/N ratios indicate a greater proportion of terrestrial carbon (Fig. 9c), it seems likely that the large reduction in I. hiatus in 22/10a-4 reflects a change in vegetation cover in the source region rather than simply a general reduction in the supply of pollen due to proximity of the coast.
+Replacement of I. hiatus-dominated swamp communities (PA2) with generalist taxa (PA3) indicative of Alnus-fern bogs (Greenwood and Basinger, 1993) would be consistent with local sea level fall (partially draining coastal plains) or sea level rise (flooding established coastal swamp plains).
+There is evidence for sea level rise at the onset of the CIE in southeast England (Powell et al., 1996) and in Spitsbergen (Harding et al., 2011), although any uplift associated with the proximal NAIP could have caused local sea level fall near the Faeroe-Shetland platform.
+Alternatively, the reduction in gymnosperm swamp conifers and pines at the expense of angiosperms may have been a climatic response to the PETM, as a similar floristic change was also recorded during the PETM in the Bighorn Basin, Wyoming (Smith et al., 2007), and the Lomonosov Ridge (Sluijs et al., 2006).
+The early ephemeral peak in Alnipollenites and P. pseudoexcelsus and drop in coastal swamp I. hiatus at 2617.35m, associated with the initial peak in Apectodinium (Fig. 8), may indicate a brief episode of coastal flooding from increased precipitation, in association with lower surface water salinity (peak in Deflandrea, Fig. 7i).
+A further ecologic shift occurs within the core of the CIE (PA4) as Caryapollenites (Fig. 8h) begins to dominate, moss (Stereisporites) and fungal spores increase in relative abundance, bisaccate pollen and Alnipollenites decreases (Fig. 8), and diversity remains relatively high (Fig. 6).
+Caryapollenites, similar to modern Carya (hickory) pollen, is common in terrestrial Paleocene deposits from western Scotland interpreted as bogs (Jolley et al., 2009), and many may have been adapted as primary colonisers in wet substrates (Jolley and Whitham 2004).
+Its association with moss and fern spores in PA4 indicate a possible predominance of bog environments, consistent with high regional precipitation and poorly drained acidic bedrock.
+As bogs receive water and nutrients directly from precipitation (Price and Waddington, 2000), the change from PA3 to PA4 appears to be the result of climatic change (e.g. precipitation and temperature) rather than sea level.
+Other changes include a further increase in the proportion of angiosperm over gymnosperm pollen (largely a reduction in pine), consistent with previous observations from the Lomonosov Ridge (Sluijs et al., 2006) and Bighorn Basin, Wyoming (Smith et al., 2007).
+Environmental and climatic changes before the CIE
+The North Sea Basin became restricted before the PETM, as indicated by a lithologic change throughout the North Sea Basin (the Lista/Sele boundary, Figs.
+2 and 9) and the presence of low oxygen benthic foraminifera in 22/10a-4 (Knox, 1996).
+This relative sea level fall was recognised as a lithologic change from marine to lagoonal/shallow marine facies in southeast England (Knox et al., 1994) and considered to have been largely the result of major regional uplift possibly in the order of 100m (Knox, 1996).
+The documented major tectonic uplift at the Lista/Sele boundary best explains the concomitant increase in terrigenous input to 22/10a-4 (increase C/N ratio, Fig. 9c), the domination of lowland swamp vegetation (swamp conifers, Fig. 8), and the lowering of surface water salinity (dinoflagellate cysts, Fig. 9d) as the basin became more restricted.
+The gradual lowering of surface water salinity and increase in the C/N ratio from 4m before the CIE onset at 22/10a-4 (above 2618m, Fig. 9), therefore, may also be the result of further uplift and restriction of the North Sea Basin, bringing the coastline and transported terrestrial material into closer proximity to the centrally-located 22/10a-4, although there is no documented sea level fall in the North Sea preceding the CIE (Knox, 1996; Powell et al., 1996).
+The increase in kaolinite in this scenario would be coincidental, perhaps having been formed after (>1myr, Thiry and Dupuis, 2000) the uplift at the List/Sele boundary.
+As the North Sea Basin was proximal to the NAIP during the Paleocene/Eocene (Figs.
+1 and S1), regional uplift before the CIE would most likely be related to intrusive activity west of the North Sea Basin, restricting deep-water connections between the North Sea and Atlantic Ocean.
+Uplift and restriction is therefore consistent with the hypothesis that a mantle-derived magmatic intrusion of organic-rich sediments occurred in the NE Atlantic before the CIE, triggering atmospheric methane release (Svensen et al., 2004).
+Alternatively, an increase in regional precipitation could have caused elevated terrestrial runoff (C/N ratios, kaolinite) and lower surface water salinity above 2618m before the CIE onset (Fig. 9).
+The North Sea Basin surrounding landmasses were within the northern rain belt (the southern boundary today is 40°N), which would have experienced elevated precipitation if the global hydrologic cycle became enhanced (Pagani et al., 2006b; Schmitz et al., 2001).
+This scenario would be consistent with a gradual increase in the global hydrologic cycle before the CIE, perhaps from gradual warming, which was hypothesised to have triggered ocean circulation changes, methane hydrate destabilisation, and global carbon release at the CIE (Bice and Marotzke, 2002).
+We note however that there is currently no evidence for an enhanced hydrologic cycle well before the CIE in other regions.
+Our results provide the first evidence that the North Sea became stratified from 103 yrs before the CIE onset (above 2618m, Fig. 9).
+This is significant as Nisbet et al. (2009) hypothesised that the proximal Kilda Basin became stratified and anoxic before the CIE, allowing significant build-up of methane and CO2 at depth.
+They proposed that overturning of this basin could have released greenhouse gases and triggered the CIE, although there is currently no direct evidence as marine records from the Kilda Basin remain rare (Nisbet et al., 2009).
+Our North Sea records likely indicate enhanced stratification also of the proximal and linked Kilda Basin before the CIE (Fig. 1).
+Evidence for the linkage of the North Sea, Kilda and Arctic Basins comes from the coincident onset of A. augustum and laminated sediments at the CIE onset in sections from the North Sea (this study), Spitsbergen (Harding et al., 2011), and Lomonosov Ridge (Sluijs et al., 2006).
+Although our results evidence a probable stratified Kilda Basin before the CIE, proxies for overturning are now needed to further test the Kilda basin hypothesis.
+The brief peak in Apectodinium, AOM and low salinity dinoflagellate cysts (Deflandrea) at 2617.4m (Fig. 7) indicate a sporadic episode of surface water freshening/eutrophication before the CIE, which is best explained by an increase in regional precipitation due to its rapid nature.
+A coincident reduction in I. hiatus swamp conifers indicates possible disturbance of nearby coastal environments possibly from flooding (see Section 4.5).
+An associated reduction in δ13C may have been caused by stratification of the North Sea from an enhanced halocline, trapping 12C-enriched organic carbon at depth.
+This scenario may also explain the other peaks in Apectodinium at 2619.6 and 2614.7m (although see Section 4.1).
+Environmental and climatic changes within the CIE
+The influx of Apectodinium (indicating the onset of the CIE) at the Paleocene-Eocene boundary in southeast England occurred in characteristically marine assemblages following non-marine deposition, and was interpreted as an indication of relative sea level rise associated with a transgression immediately preceding a maximum flooding surface within the early PETM (Powell et al., 1996).
+Sea level rise at the CIE onset was also recorded in Arctic Spitsbergen (Harding et al., 2011).
+The large reduction in lowland swamp pollen at the CIE onset of 22/10a-4 indicates a possible change in regional sea level.
+As there is no direct evidence for regional uplift causing further restriction of the North Sea Basin associated with the CIE onset, increased regional precipitation may have been the major cause of increased C/N ratios (elevated fluvial runoff) and dinoflagellate cyst changes (lower surface water salinity) at and following the CIE onset in 22/10a-4 (Fig. 9).
+Although our records cannot distinguish changes in seasonality, which may have increased in the Pyrenees (Schmitz et al., 2001; Schmitz and Pujalte, 2007) and mid-latitude North America (Wing et al., 2005; Kraus & Riggins 2007), they are consistent with an overall increase in precipitation over NW Europe associated with the CIE.
+Our records therefore provide evidence consistent with the hypothesis that a northward migration of storm tracks occurred from an intensified hydrologic cycle as a result of global warming at the PETM, proposed by Pagani et al. (2006b) to explain elevated Arctic runoff during the PETM.
+As Pagani et al. (2006b) could not fully resolve the CIE onset due to incomplete core recovery, our records provide evidence that an enhanced hydrologic cycle may have occurred in approximate concert with global carbon release at the CIE onset.
+Alternatively, uplift of the NAIP could have caused further restriction and stratification of the North Sea.
+The reduction in %low salinity dinoflagellate cysts and the C/N ratio above 2609m (Fig. 9) may indicate a reduction in precipitation over NW Europe, or more likely tectonic subsidence causing the basin to become less restricted.
+Conclusions
+A negative carbon isotope excursion of 5‰ has been identified from δ13CTOC and δ13CAOM in an expanded Paleocene-Eocene boundary section from the central North Sea Basin.
+Palynological (dinoflagellate cyst, pollen, and spore assemblages) and sedimentologic (C/N ratios and kaolinite distribution) evidence indicate major changes occurred to marine and terrestrial environments in NW Europe both preceding and over the CIE.
+Enhanced halocline stratification and terrigenous input from 4m before the CIE may indicate tectonic uplift and oceanic restriction of the North Sea, supporting hypotheses for NAIP volcanism as a trigger for the CIE (Svensen et al., 2004), and/or increased terrigenous runoff and regional precipitation, supporting hypotheses of an enhanced hydrologic cycle triggering carbon release (Bice and Marotzke, 2002).
+A peak in Apectodinium before the CIE is interpreted as an ephemeral increase in terrestrial runoff causing local eutrophication.
+Further enhanced halocline stratification and terrigenous input at and immediately after the CIE onset, coupled with evidence for sea level rise in coastal areas, indicate possible increased regional precipitation over NW Europe.
+At this location (paleolatitude 54oN) increased precipitation would support the hypothesis that a poleward migration of storm tracks from an enhanced hydrologic cycle resulted from global warming during the PETM (Pagani et al., 2006b).
+Palynological spore and pollen assemblages from 22/10a-4 record a rapid major shift in vegetation at the CIE onset, with dominant swamp conifer communities and pines largely replaced by generalist taxa including fern and fungal spores and various angiosperms.
+A change to a dominance of angiosperm over gymnosperm pollen at the CIE onset has previously been recorded in the Arctic (Sluijs et al., 2006) and Wyoming (Smith et al., 2007).
+The rapid reduction in lowland gymnosperm swamp pollen at the CIE onset may indicate a change in lowland topography from sea level alteration, and/or it may indicate ecologic changes driven by climate (e.g. precipitation and temperature).
+This floral shift occurs simultaneously with the first persistent appearance of Apectodinium in 22/10a-4, indicating that precursor CIE ecologic changes identified in NW Atlantic and North Sea marine records (Sluijs et al., 2007) had a terrestrial counterpart in the North Sea region.
+Longer term vegetation changes after the CIE onset indicate a move towards more diverse generalist angiosperm and pteridophyte communities (dominance of Caryapollenites, fern, and fungal spores).
+The pollen and spore assemblages therefore indicate that long term ecologic change occurred in NW Europe probably in response to temperature and hydrologic changes during the PETM, but that the most dramatic changes recorded in 22/10a-4 occurred abruptly at the onset of the CIE.
+Acknowledgements
+We thank B.G.
+Group for making core material available for analysis.
+We gratefully acknowledge two anonymous reviewers for enhancing the paper, and Appy Sluijs for constructively reviewing a previous version of the paper.
+The work is published with the approval of the Executive Director of the British Geological Survey (NERC).
+Supplementary information
+Supplementary data associated with this article can be found in the online version at http://dx.doi.org/10.1016/j.epsl.2012.08.011.
+Supplementary information
+Supplementary materials
+Supplementary materials
+Supplementary materials
+
