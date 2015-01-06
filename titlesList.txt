@@ -1,0 +1,111 @@
+S0001870812002101.txt Integrality of the Chern character in small codimension
+S0001870813002715.txt Bergman spaces of natural G-manifolds
+S0001870813003265.txt Generalized Macdonald-Ruijsenaars systems
+S0006322312001096.txt Vascular Risk Status as a Predictor of Later-Life Depressive Symptoms: A Cohort Study
+S0012821X12004384.txt Marine and terrestrial environmental changes in NW Europe preceding carbon release at the Paleocene-Eocene transition
+S0012821X13002185.txt Opening the gateways for diatoms primes Earth for Antarctic glaciation
+S0012821X13007309.txt Marine 187Os/188Os isotope stratigraphy reveals the interaction of volcanism and ocean circulation during Oceanic Anoxic Event 2
+S0016236113008041.txt Minor and trace element emissions from post-combustion CO2 capture from coal: Experimental and equilibrium calculations
+S0019103511004994.txt The Cassini Enceladus encounters 2005-2010 in the view of energetic electron measurements
+S0019103512001388.txt Episodic bright and dark spots on Uranus
+S0019103512002801.txt Energetic electron observations of Rhea's magnetospheric interaction
+S0019103512003533.txt Magnetosphere-atmosphere coupling at Saturn: 1 - Response of thermosphere and ionosphere to steady state polar forcing
+S0019103512003995.txt The escape of heavy atoms from the ionosphere of HD209458b.
+S0019103512004009.txt The escape of heavy atoms from the ionosphere of HD209458b.
+S0019103513005058.txt The formation of sulfate, nitrate and perchlorate salts in the martian atmosphere
+S0021869313002846.txt Sets of lengths in maximal orders in central simple algebras
+S0021979713004438.txt In situ investigations of Fe3+ induced complexation of adsorbed Mefp-1 protein film on iron substrate
+S0022000014000026.txt Rigorously modeling self-stabilizing fault-tolerant circuits: An ultra-robust clocking scheme for systems-on-chip
+S0022247X13005374.txt Amos-type bounds for modified Bessel function ratios
+S0022247X13008238.txt A note on weakly hyperbolic equations with analytic principal part
+S0022314X13001777.txt Sylow p-groups of polynomial permutations on the integers mod pn
+S0022314X13003089.txt Integral-valued polynomials over sets of algebraic integers of bounded degree
+S0022399913003358.txt The prevalence of tinnitus and the relationship with neuroticism in a middle-aged UK population
+S0022459611006116.txt Structural studies of magnesium nitride fluorides by powder neutron diffraction
+S0024379513003716.txt Two cores of a nonnegative matrix
+S0025322712001600.txt Chemical weathering and provenance evolution of Holocene-Recent sediments from the Western Indus Shelf, Northern Arabian Sea inferred from physical and mineralogical properties
+S0031405612000728.txt Soil structural responses to alterations in soil microbiota induced by the dilution method and mycorrhizal fungal inoculation
+S0032063312000487.txt Surface waves on Saturn's magnetopause
+S0032063312002437.txt The transterminator ion flow at Venus at solar minimum
+S0032063312003054.txt Energy distribution asymmetry of electron precipitation signatures at Mars
+S0032063313003218.txt Response of the Jovian thermosphere to a transient 'pulse' in solar wind pressure
+S0032386113005454.txt The mechanical properties and toughening mechanisms of an epoxy polymer modified with polysiloxane-based core-shell particles
+S0032386113009889.txt The modelling of the toughening of epoxy polymers via silica nanoparticles: The effects of volume fraction and particle size
+S0038071711004354.txt Dual-chamber measurements of δ13C of soil-respired CO2 partitioned using a field-based three end-member model
+S0038071712001010.txt The effects of simultaneous root colonisation by three Glomus species on soil pore characteristics
+S0038071713001971.txt Fungal networks in yield-invigorating and -debilitating soils induced by prolonged potato monoculture
+S0040609012014393.txt Halide doping effects on transparent conducting oxides formed by aerosol assisted chemical vapour deposition
+S016412121300188X.txt Coherent clusters in source code
+S0164121213002641.txt Using SPIN for automated debugging of infinite executions of Java programs
+S0165587612003680.txt Bacterial involvement in otitis media with effusion
+S0167278913001450.txt Leaving flatland: Diagnostics for Lagrangian coherent structures in three-dimensional flows
+S0167577X13006393.txt Fabrication of calcium phosphate fibres through electrospinning and sintering of hydroxyapatite nanoparticles
+S0167577X14001256.txt Direct observation of solute-dislocation interaction on screw dislocation in a neutron irradiated modified 316 stainless steel
+S0167610512002292.txt An investigation of plate-type windborne debris flight using coupled CFD-RBD models.
+S0167610513001001.txt An assessment of a three-beam Doppler lidar wind profiling method for use in urban areas
+S0167610513002729.txt Flow structure and near-field dispersion in arrays of building-like obstacles
+S0167739X12001525.txt Adaptive resource configuration for Cloud infrastructure management
+S0167739X13001349.txt A memory access model for highly-threaded many-core architectures
+S0167819113001051.txt SpiNNaker: Fault tolerance in a power- and area- constrained large-scale neuromimetic architecture
+S0167880913001229.txt Sink or source-The potential of coffee agroforestry systems to sequester atmospheric CO2 into soil organic carbon
+S016816561300552X.txt Investigating the feasibility of scale up and automation of human induced pluripotent stem cells cultured in aggregates in feeder free conditions
+S0168945213001805.txt Potential transgenic routes to increase tree biomass
+S0169433213008933.txt Surface roughness reduction using spray-coated hydrogen silsesquioxane reflow
+S0254629913003086.txt Rhizosphere acid and alkaline phosphatase activity as a marker of P nutrition in nodulated Cyclopia and Aspalathus species in the Cape fynbos of South Africa
+S0257897213007573.txt Preparation and characterization of a dual-layer carbon film on 6H-SiC wafer using carbide-derived carbon process with subsequent chemical vapor deposition
+S0261219413001944.txt Effect of glyphosate on Macrophomina phaseolina in vitro and its effect on disease severity of soybean in the field
+S027737911400050X.txt Late Quaternary tephrostratigraphy of southern Chile and Argentina
+S0301010413004096.txt Inelastic neutron scattering study of binding of para-hydrogen in an ultra-microporous metal-organic framework
+S0304406813000335.txt Efficient sets are small
+S030881461301604X.txt The intake of inorganic arsenic from long grain rice and rice-based baby food in Finland - Low safety margin warrants follow up
+S0378112713005288.txt Regeneration of native broadleaved species on clearfelled conifer plantations in upland Britain
+S0378383911001669.txt Experimental study of bore-driven swash hydrodynamics on impermeable rough slopes
+S0378383912000130.txt Numerical model of swash motion and air entrapment within coarse-grained beaches
+S0378383913001567.txt An integral contravariant formulation of the fully non-linear Boussinesq equations
+S037842901300244X.txt Development of a pearl millet Striga-resistant genepool: Response to five cycles of recurrent selection under Striga-infested field conditions in West Africa
+S092181811300218X.txt Correlating Mediterranean shallow water deposits with global Oligocene-Miocene stratigraphy and oceanic events
+S0921818113002245.txt An estimate of post-depositional remanent magnetization lock-in depth in organic rich varved lake sediments
+S0925443913001385.txt Mutations in mitochondrial ribosomal protein MRPL12 leads to growth retardation, neurological deterioration and mitochondrial translation deficiency
+S0925443913003037.txt Mutation of the human mitochondrial phenylalanine-tRNA synthetase causes infantile-onset epilepsy and cytochrome c oxidase deficiency
+S0927024813001955.txt High performance inverted bulk heterojunction solar cells by incorporation of dense, thin ZnO layers made using atmospheric atomic layer deposition
+S0927024813002420.txt Morphology control in co-evaporated bulk heterojunction solar cells
+S0927024813002961.txt Influences on the energy delivery of thin film photovoltaic modules
+S0927024813003036.txt Minority carrier lifetime in silicon photovoltaics: The effect of oxygen precipitation
+S0927775713009606.txt Colloidal construction of porous polysaccharide-supported cadmium sulphide
+S0950705113001895.txt Incremental approaches for updating approximations in set-valued ordered information systems
+S095741741101342X.txt An experimental comparison of classification algorithms for imbalanced credit scoring data sets
+S0960148113002048.txt Robust VAWT control system evaluation by coupled aerodynamic and electrical simulations
+S0960148113002735.txt Aerodynamic and electrical evaluation of a VAWT farm control system with passive rectifiers and mutual DC-bus
+S0960148113004989.txt Tidal turbine array optimisation using the adjoint approach
+S096014811300517X.txt Simulations of a vertical axis turbine in a channel
+S0960148113005727.txt How does wind farm performance decline with age?
+S0960896612001022.txt Single deletions in mitochondrial DNA - Molecular mechanisms and disease phenotypes in clinical practice
+S0967064513002774.txt Short-term metabolic and growth responses of the cold-water coral Lophelia pertusa to ocean acidification
+S1084804513001987.txt Performance analysis of quantization-based approximation algorithms for precomputing the supported QoS
+S1161030113001950.txt Phosphorus levels in croplands of the European Union with implications for P fertilizer use
+S1359645413009816.txt Grain boundary excess volume and defect annealing of copper after high-pressure torsion
+S1359835X13001875.txt The effects of particle morphology on the analysis of discrete particle dispersion using Delaunay tessellation
+S1367912013002277.txt The Ti/Al molar ratio as a new proxy for tracing sediment transportation processes and its application in aeolian events and sea level change in East Asia
+S1386142513006823.txt Synthesis, spectroscopic, coordination and biological activities of some organometallic complexes derived from thio-Schiff base ligands
+S1387700313001822.txt Chirality delivery through multiple and helical H-bonding from chiral coordination complex to its supramolecular architecture
+S1388248113001951.txt NaFe0.5Co0.5O2 as high energy and power positive electrode for Na-ion batteries
+S1389128612002496.txt Flow level detection and filtering of low-rate DDoS
+S1550413113004920.txt Analysis of Transcription Factors Key for Mouse Pancreatic Development Establishes NKX2-2 and MNX1 Mutations as Causes of Neonatal Diabetes in Man
+S1570870512000637.txt Efficient and adaptive congestion control for heterogeneous delay-tolerant networks
+S175058361300203X.txt Impact of temperature on CO2 storage at the Ketzin site based on fluid flow simulations and seismic data
+S1750583613004192.txt The Sleipner storage site: Capillary flow modeling of a layered CO2 plume requires fractured shale barriers within the Utsira Formation
+S1873506113001116.txt Scalable expansion of human induced pluripotent stem cells in the defined xeno-free E8 medium under adherent and suspension culture conditions
+S1873506114000075.txt Generation of familial amyloidotic polyneuropathy-specific induced pluripotent stem cells
+S2211124712002884.txt Induced Pluripotent Stem Cell Models of Progranulin-Deficient Frontotemporal Dementia Uncover Specific Reversible Neuronal Defects
+S2211124713006475.txt Specification of Functional Cranial Placode Derivatives from Human Pluripotent Stem Cells
+S2211753914000025.txt Phialemonium infection complicating chronic suppurative otitis media
+S2213158213000302.txt Reorganisation of brain networks in frontotemporal dementia and progressive supranuclear palsy
+S2213158213000582.txt Frontal and superior temporal auditory processing abnormalities in schizophrenia
+S2213158213001253.txt Combined analysis of sMRI and fMRI imaging data provides accurate disease markers for hearing impairment
+S2213671113000672.txt Genetic Correction of Tauopathy Phenotypes in Neurons Derived from Human Induced Pluripotent Stem Cells
+S2213671113000738.txt Direct Comparison of Autologous and Allogeneic Transplantation of iPSC-Derived Neural Cells in the Brain of a Nonhuman Primate
+S2213671113000908.txt Generation of Multipotent Foregut Stem Cells from Human Pluripotent Stem Cells
+S2213671113000921.txt Analysis of SOX2-Expressing Cell Populations Derived from Human Pluripotent Stem Cells
+S2213671113001288.txt A Panel of CpG Methylation Sites Distinguishes Human Embryonic Stem Cells and Induced Pluripotent Stem Cells
+S2213671113001306.txt Human RPE Stem Cells Grown into Polarized RPE Monolayers on a Polyester Matrix Are Maintained after Grafting into Rabbit Subretinal Space
+titlesList.txt S0001870812002101.txt Integrality of the Chern character in small codimension

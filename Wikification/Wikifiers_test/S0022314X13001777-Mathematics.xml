@@ -1,0 +1,1682 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="2">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/lauruhnm/Documents/ResearchProjects/Wikification/STMCor10/STM-5K/SylowP-Groups1777.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sylow<Node id="5"/> <Node id="6"/>p-groups<Node id="14"/> of <Node id="18"/>polynomial<Node id="28"/> <Node id="29"/>permutations<Node id="41"/> on the <Node id="49"/>integers<Node id="57"/> <Node id="58"/>mod<Node id="61"/>&#xd;
+<Node id="63"/>&#xd;
+<Node id="65"/>Abstract&#xd;	
+<Node id="76"/>We enumerate and describe the <Node id="106"/>Sylow<Node id="111"/> <Node id="112"/>p-groups<Node id="120"/> of the <Node id="128"/>groups<Node id="134"/> of <Node id="138"/>polynomial<Node id="148"/> <Node id="149"/>permutations<Node id="161"/> of the <Node id="169"/>integers<Node id="177"/> <Node id="178"/>mod<Node id="181"/> pn for n?1 and of the <Node id="204"/>pro-finite group<Node id="220"/> which is the<Node id="233"/> <Node id="234"/>projective limit<Node id="250"/> of these <Node id="260"/>groups<Node id="266"/>.&#xd;
+<Node id="269"/>Keywords&#xd;
+<Node id="279"/>&#xd;
+<Node id="281"/>Polynomial<Node id="291"/> <Node id="292"/>permutations<Node id="304"/>&#xd;<Node id="305"/>
+<Node id="306"/>&#xd;<Node id="307"/>Polynomial<Node id="317"/> functions<Node id="327"/>&#xd;
+<Node id="329"/>Polynomial<Node id="339"/> <Node id="340"/>mappings<Node id="348"/>&#xd;
+<Node id="350"/>p-Groups&#xd;<Node id="359"/>
+<Node id="360"/>Pro-<Node id="364"/>p-groups<Node id="372"/>&#xd;<Node id="373"/>
+<Node id="374"/>Sylow<Node id="379"/> <Node id="380"/>p-groups<Node id="388"/>&#xd;<Node id="389"/>
+<Node id="390"/>Finite<Node id="396"/> <Node id="397"/>rings<Node id="402"/>&#xd;
+<Node id="404"/>&#xd;
+<Node id="406"/>Introduction&#xd;
+<Node id="420"/>&#xd;
+<Node id="422"/>Fix a prime p and let n?N. Every <Node id="455"/>polynomial<Node id="465"/> f?<Node id="468"/>Z[<Node id="470"/>x] defines a <Node id="483"/>function<Node id="491"/> from Zpn= to itself. If this <Node id="521"/>function<Node id="529"/> happens <Node id="538"/>to be<Node id="543"/> <Node id="544"/>bijective<Node id="553"/>, it is <Node id="561"/>called<Node id="567"/> a <Node id="570"/>polynomial<Node id="580"/> <Node id="581"/>permutation<Node id="592"/> of <Node id="596"/>Zpn<Node id="599"/>. The <Node id="605"/>polynomial<Node id="615"/> <Node id="616"/>permutations<Node id="628"/> of <Node id="632"/>Zpn<Node id="635"/> form a group (Gn,°) with <Node id="661"/>respect<Node id="668"/> to <Node id="672"/>composition<Node id="683"/>. The <Node id="689"/>order<Node id="694"/> of this <Node id="703"/>group<Node id="708"/> has been <Node id="718"/>known<Node id="723"/> since at least 1921 (<Node id="745"/>Kempner<Node id="752"/> [10]) to be|<Node id="765"/>G2<Node id="767"/>|=p!(p-1)pppand|Gn|=p!(p-1)<Node id="794"/>pppp<Node id="798"/>?k=3nß(k)for n?3, where ß(k) is the least n such that <Node id="852"/>pk<Node id="854"/> divides n!, but the structure of (Gn,°) is elusive. (See, however, Nöbauer [15] for some <Node id="944"/>partial<Node id="951"/> <Node id="952"/>results<Node id="959"/>.) Since <Node id="968"/>the <Node id="972"/>order<Node id="977"/> of Gn is <Node id="987"/>divisible<Node id="996"/> by a <Node id="1002"/>high power<Node id="1012"/> of (p-1) for <Node id="1026"/>large<Node id="1031"/> p, even <Node id="1040"/>the number<Node id="1050"/> of <Node id="1054"/>Sylow<Node id="1059"/> <Node id="1060"/>p-groups<Node id="1068"/> is not obvious. <Node id="1085"/>We<Node id="1087"/> will show that there are (p-1)!(p-1)p-2 Sylow <Node id="1134"/>p-groups<Node id="1142"/> of Gn and describe these <Node id="1168"/>Sylow<Node id="1173"/> <Node id="1174"/>p-groups<Node id="1182"/>, see <Node id="1188"/>Theorem<Node id="1195"/> 5.1 and <Node id="1204"/>Corollary<Node id="1213"/> 5.2.Some notation: p is a <Node id="1240"/>fixed<Node id="1245"/> prime throughout. A <Node id="1266"/>function<Node id="1274"/> g:Zpn?<Node id="1281"/>Zpn<Node id="1284"/> arising from a<Node id="1299"/> <Node id="1300"/>polynomial<Node id="1310"/> in <Node id="1314"/>Zpn<Node id="1317"/>[x]<Node id="1320"/> or, equivalently, from a <Node id="1346"/>polynomial<Node id="1356"/> in <Node id="1360"/>Z[<Node id="1362"/>x]<Node id="1364"/>, is called a <Node id="1378"/>polynomial function<Node id="1397"/> on <Node id="1401"/>Zpn<Node id="1404"/>. <Node id="1406"/>We<Node id="1408"/> denote by (<Node id="1420"/>Fn<Node id="1422"/>,°) the <Node id="1430"/>monoid<Node id="1436"/> with <Node id="1442"/>respect<Node id="1449"/> to <Node id="1453"/>composition<Node id="1464"/> of <Node id="1468"/>polynomial<Node id="1478"/> functions<Node id="1488"/> on <Node id="1492"/>Zpn<Node id="1495"/>. By <Node id="1500"/>monoid<Node id="1506"/>, we mean <Node id="1516"/>semigroup<Node id="1525"/> with an <Node id="1534"/>identity element<Node id="1550"/>. Let (Gn,°) be the <Node id="1570"/>group<Node id="1575"/> of <Node id="1579"/>units<Node id="1584"/> of (<Node id="1589"/>Fn<Node id="1591"/>,°), which is the <Node id="1609"/>group<Node id="1614"/> of <Node id="1618"/>polynomial<Node id="1628"/> <Node id="1629"/>permutations<Node id="1641"/> of Zpn.Since every <Node id="1661"/>function<Node id="1669"/> induced by a <Node id="1683"/>polynomial<Node id="1693"/> preserves <Node id="1704"/>congruences<Node id="1715"/> <Node id="1716"/>modulo<Node id="1722"/> ideals, there is a <Node id="1742"/>natural<Node id="1749"/> <Node id="1750"/>epimorphism<Node id="1761"/> <Node id="1762"/>mapping<Node id="1769"/> <Node id="1770"/>polynomial<Node id="1780"/> functions<Node id="1790"/> on Zpn+1 onto <Node id="1805"/>polynomial<Node id="1815"/> functions<Node id="1825"/> on <Node id="1829"/>Zpn<Node id="1832"/>, and we write it as pn:<Node id="1856"/>Fn<Node id="1858"/>+1?<Node id="1861"/>Fn<Node id="1863"/>. If f is a <Node id="1875"/>polynomial<Node id="1885"/> in <Node id="1889"/>Z[<Node id="1891"/>x] (or in <Node id="1901"/>Zpm<Node id="1904"/>[x] for m?n) we denote the <Node id="1931"/>p<Node id="1932"/>olynomial function<Node id="1950"/> on <Node id="1954"/>Zpn<Node id="1957"/>[x] induced by f by [f]pn.&#xd;
+<Node id="1985"/>&#xd;
+<Node id="1987"/>The<Node id="1990"/> <Node id="1991"/>order<Node id="1996"/> of <Node id="2000"/>Fn<Node id="2002"/> and that of Gn have been <Node id="2028"/>determined<Node id="2038"/> by <Node id="2042"/>Kempner<Node id="2049"/> [10] in a rather <Node id="2067"/>complicated<Node id="2078"/> manner. <Node id="2087"/>His<Node id="2090"/> results were <Node id="2104"/>cast<Node id="2108"/> into a <Node id="2116"/>simpler<Node id="2123"/> <Node id="2124"/>form<Node id="2128"/> by Nöbauer [14] and <Node id="2149"/>Keller<Node id="2155"/> and <Node id="2160"/>Olson<Node id="2165"/> [9] among others. Since then there have been many <Node id="2216"/>generalizations<Node id="2231"/> of the <Node id="2239"/>order<Node id="2244"/> formulas<Node id="2253"/> to more general <Node id="2270"/>finite<Node id="2276"/> <Node id="2277"/>rings<Node id="2282"/> [16,13,2,6,1,8,7]. Also, <Node id="2308"/>polynomial<Node id="2318"/> <Node id="2319"/>permutations<Node id="2331"/> in several <Node id="2343"/>variables<Node id="2352"/> (<Node id="2354"/>permutations<Node id="2366"/> of (<Node id="2371"/>Zpn<Node id="2374"/>)k defined by <Node id="2388"/>k-tuples<Node id="2396"/> of <Node id="2400"/>polynomials<Node id="2411"/> in k <Node id="2417"/>variables<Node id="2426"/>) have been looked into [5,4,19,17,18,11].2<Node id="2469"/>Polynomial<Node id="2479"/> functions and permutationsTo put <Node id="2513"/>things<Node id="2519"/> in <Node id="2523"/>context<Node id="2530"/>, we <Node id="2535"/>recall<Node id="2541"/> some <Node id="2547"/>well-known<Node id="2557"/> <Node id="2558"/>facts<Node id="2563"/>, <Node id="2565"/>to be<Node id="2570"/> found, among <Node id="2584"/>other places<Node id="2596"/>, in [10,14,3,9]. The reader familiar with <Node id="2639"/>polynomial<Node id="2649"/> functions<Node id="2659"/> on <Node id="2663"/>finite<Node id="2669"/> <Node id="2670"/>rings<Node id="2675"/> is encouraged to skip to <Node id="2701"/>Section 3<Node id="2710"/>.<Node id="2711"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="14" Type="CCG-Illinois" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="CCG-Illinois" StartNode="29" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="CCG-Illinois" StartNode="49" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="CCG-Illinois" StartNode="18" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="CCG-Illinois" StartNode="106" EndNode="111">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="CCG-Illinois" StartNode="58" EndNode="61">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="CCG-Illinois" StartNode="138" EndNode="148">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="CCG-Illinois" StartNode="128" EndNode="134">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Group_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="CCG-Illinois" StartNode="169" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="22" Type="CCG-Illinois" StartNode="149" EndNode="161">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="25" Type="CCG-Illinois" StartNode="204" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Profinite_group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="24" Type="CCG-Illinois" StartNode="178" EndNode="181">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="27" Type="CCG-Illinois" StartNode="260" EndNode="266">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Group_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="26" Type="CCG-Illinois" StartNode="234" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Inverse_limit</Value>
+</Feature>
+</Annotation>
+<Annotation Id="29" Type="CCG-Illinois" StartNode="281" EndNode="291">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="28" Type="CCG-Illinois" StartNode="292" EndNode="304">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="31" Type="CCG-Illinois" StartNode="329" EndNode="339">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="30" Type="CCG-Illinois" StartNode="307" EndNode="317">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="34" Type="CCG-Illinois" StartNode="483" EndNode="491">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="35" Type="CCG-Illinois" StartNode="521" EndNode="529">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="32" Type="CCG-Illinois" StartNode="374" EndNode="379">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="33" Type="CCG-Illinois" StartNode="397" EndNode="402">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ring_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="38" Type="CCG-Illinois" StartNode="561" EndNode="567">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Subroutine</Value>
+</Feature>
+</Annotation>
+<Annotation Id="39" Type="CCG-Illinois" StartNode="570" EndNode="580">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="36" Type="CCG-Illinois" StartNode="538" EndNode="543">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Copula</Value>
+</Feature>
+</Annotation>
+<Annotation Id="37" Type="CCG-Illinois" StartNode="544" EndNode="553">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Bijection</Value>
+</Feature>
+</Annotation>
+<Annotation Id="42" Type="CCG-Illinois" StartNode="632" EndNode="635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="43" Type="CCG-Illinois" StartNode="616" EndNode="628">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="40" Type="CCG-Illinois" StartNode="581" EndNode="592">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="41" Type="CCG-Illinois" StartNode="596" EndNode="599">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="46" Type="CCG-Illinois" StartNode="672" EndNode="683">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_composition</Value>
+</Feature>
+</Annotation>
+<Annotation Id="47" Type="CCG-Illinois" StartNode="703" EndNode="708">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Group_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="44" Type="CCG-Illinois" StartNode="605" EndNode="615">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="45" Type="CCG-Illinois" StartNode="661" EndNode="668">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Respect</Value>
+</Feature>
+</Annotation>
+<Annotation Id="51" Type="CCG-Illinois" StartNode="952" EndNode="959">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Result</Value>
+</Feature>
+</Annotation>
+<Annotation Id="50" Type="CCG-Illinois" StartNode="944" EndNode="951">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Partial_function</Value>
+</Feature>
+</Annotation>
+<Annotation Id="49" Type="CCG-Illinois" StartNode="745" EndNode="752">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Kempner,_Texas</Value>
+</Feature>
+</Annotation>
+<Annotation Id="48" Type="CCG-Illinois" StartNode="718" EndNode="723">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Knowledge</Value>
+</Feature>
+</Annotation>
+<Annotation Id="55" Type="CCG-Illinois" StartNode="1040" EndNode="1050">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pi</Value>
+</Feature>
+</Annotation>
+<Annotation Id="54" Type="CCG-Illinois" StartNode="1026" EndNode="1031">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Large_format_(photography)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="53" Type="CCG-Illinois" StartNode="1002" EndNode="1012">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/High-power_rocketry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="52" Type="CCG-Illinois" StartNode="968" EndNode="977">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Batting_order_(cricket)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="59" Type="CCG-Illinois" StartNode="1188" EndNode="1195">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Theorem</Value>
+</Feature>
+</Annotation>
+<Annotation Id="57" Type="CCG-Illinois" StartNode="1085" EndNode="1087">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/We_(novel)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="56" Type="CCG-Illinois" StartNode="1054" EndNode="1059">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="63" Type="CCG-Illinois" StartNode="1300" EndNode="1310">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="62" Type="CCG-Illinois" StartNode="1281" EndNode="1284">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="61" Type="CCG-Illinois" StartNode="1240" EndNode="1245">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Match_fixing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="60" Type="CCG-Illinois" StartNode="1168" EndNode="1173">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="CCG-Illinois" StartNode="1406" EndNode="1408">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/We_(novel)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="CCG-Illinois" StartNode="1430" EndNode="1436">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Monoid</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="CCG-Illinois" StartNode="1442" EndNode="1449">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Respect</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="CCG-Illinois" StartNode="1453" EndNode="1464">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_composition</Value>
+</Feature>
+</Annotation>
+<Annotation Id="64" Type="CCG-Illinois" StartNode="1314" EndNode="1317">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="65" Type="CCG-Illinois" StartNode="1346" EndNode="1356">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="CCG-Illinois" StartNode="1378" EndNode="1397">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="CCG-Illinois" StartNode="1401" EndNode="1404">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="CCG-Illinois" StartNode="1570" EndNode="1575">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Group_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="CCG-Illinois" StartNode="1579" EndNode="1584">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Unit_(ring_theory)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="CCG-Illinois" StartNode="1609" EndNode="1614">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Group_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="CCG-Illinois" StartNode="1618" EndNode="1628">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="CCG-Illinois" StartNode="1468" EndNode="1478">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="CCG-Illinois" StartNode="1492" EndNode="1495">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="CCG-Illinois" StartNode="1516" EndNode="1525">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Semigroup</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="CCG-Illinois" StartNode="1534" EndNode="1550">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Identity_element</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="CCG-Illinois" StartNode="1750" EndNode="1761">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Epimorphism</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="CCG-Illinois" StartNode="1742" EndNode="1749">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Natural_number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="CCG-Illinois" StartNode="1770" EndNode="1780">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="CCG-Illinois" StartNode="1762" EndNode="1769">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="81" Type="CCG-Illinois" StartNode="1661" EndNode="1669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="80" Type="CCG-Illinois" StartNode="1629" EndNode="1641">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="CCG-Illinois" StartNode="1704" EndNode="1715">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="CCG-Illinois" StartNode="1683" EndNode="1693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="CCG-Illinois" StartNode="1932" EndNode="1950">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="CCG-Illinois" StartNode="1901" EndNode="1904">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ancient_technology_in_Stargate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="95" Type="CCG-Illinois" StartNode="1987" EndNode="1990">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Article_(grammar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="94" Type="CCG-Illinois" StartNode="1954" EndNode="1957">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="CCG-Illinois" StartNode="1829" EndNode="1832">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="CCG-Illinois" StartNode="1805" EndNode="1815">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="CCG-Illinois" StartNode="1875" EndNode="1885">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="CCG-Illinois" StartNode="1861" EndNode="1863">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/FN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="CCG-Illinois" StartNode="2116" EndNode="2123">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Simplicity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="CCG-Illinois" StartNode="2124" EndNode="2128">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Homogeneous_polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="CCG-Illinois" StartNode="2087" EndNode="2090">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Histidine</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="CCG-Illinois" StartNode="2104" EndNode="2108">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Casting</Value>
+</Feature>
+</Annotation>
+<Annotation Id="98" Type="CCG-Illinois" StartNode="2042" EndNode="2049">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Kempner,_Texas</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="CCG-Illinois" StartNode="2067" EndNode="2078">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Complications_of_pregnancy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="96" Type="CCG-Illinois" StartNode="2000" EndNode="2002">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/FN</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="CCG-Illinois" StartNode="2028" EndNode="2038">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Determinacy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="CCG-Illinois" StartNode="2319" EndNode="2331">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="CCG-Illinois" StartNode="2371" EndNode="2374">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/N-class_blimp</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="CCG-Illinois" StartNode="2277" EndNode="2282">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ring_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="CCG-Illinois" StartNode="2308" EndNode="2318">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="CCG-Illinois" StartNode="2216" EndNode="2231">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Glittering_generality</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="CCG-Illinois" StartNode="2270" EndNode="2276">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Finite_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="CCG-Illinois" StartNode="2149" EndNode="2155">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Keller,_Texas</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="CCG-Illinois" StartNode="2160" EndNode="2165">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Bobo_Olson</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="CCG-Illinois" StartNode="2584" EndNode="2596">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_oil_spills</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="CCG-Illinois" StartNode="2565" EndNode="2570">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Copula</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="CCG-Illinois" StartNode="2558" EndNode="2563">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fact</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="CCG-Illinois" StartNode="2547" EndNode="2557">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Celebrity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="CCG-Illinois" StartNode="2523" EndNode="2530">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Context</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="CCG-Illinois" StartNode="2513" EndNode="2519">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Thing_(assembly)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="CCG-Illinois" StartNode="2400" EndNode="2411">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="112" Type="CCG-Illinois" StartNode="2388" EndNode="2396">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Tuple</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Wikipedia-Miner" StartNode="49" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Wikipedia-Miner" StartNode="29" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Wikipedia-Miner" StartNode="18" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="Wikipedia-Miner" StartNode="6" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="CCG-Illinois" StartNode="2701" EndNode="2710">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Section_Three_of_the_Canadian_Charter_of_Rights_and_Freedoms</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="CCG-Illinois" StartNode="2670" EndNode="2675">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ring_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="CCG-Illinois" StartNode="2663" EndNode="2669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Finite_set</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="CCG-Illinois" StartNode="2639" EndNode="2649">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="Wikipedia-Miner" StartNode="292" EndNode="304">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Wikipedia-Miner" StartNode="281" EndNode="291">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="Wikipedia-Miner" StartNode="340" EndNode="348">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Map_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="Wikipedia-Miner" StartNode="307" EndNode="327">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Wikipedia-Miner" StartNode="329" EndNode="339">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="Wikipedia-Miner" StartNode="380" EndNode="389">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="Wikipedia-Miner" StartNode="364" EndNode="373">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Wikipedia-Miner" StartNode="112" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="128" Type="Wikipedia-Miner" StartNode="58" EndNode="61">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Wikipedia-Miner" StartNode="149" EndNode="161">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Wikipedia-Miner" StartNode="138" EndNode="148">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Wikipedia-Miner" StartNode="178" EndNode="181">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Wikipedia-Miner" StartNode="169" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Wikipedia-Miner" StartNode="234" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Inverse_limit</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Wikipedia-Miner" StartNode="204" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Profinite_group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="Wikipedia-Miner" StartNode="605" EndNode="615">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="Wikipedia-Miner" StartNode="616" EndNode="628">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="Wikipedia-Miner" StartNode="672" EndNode="683">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_composition</Value>
+</Feature>
+</Annotation>
+<Annotation Id="155" Type="Wikipedia-Miner" StartNode="689" EndNode="694">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Order_%28group_theory%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="Wikipedia-Miner" StartNode="972" EndNode="977">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Order_%28group_theory%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Wikipedia-Miner" StartNode="987" EndNode="996">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Divisor</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="Wikipedia-Miner" StartNode="1060" EndNode="1068">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="Wikipedia-Miner" StartNode="1134" EndNode="1142">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="144" Type="Wikipedia-Miner" StartNode="390" EndNode="396">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Finite_set</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="Wikipedia-Miner" StartNode="397" EndNode="402">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ring_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="Wikipedia-Miner" StartNode="455" EndNode="465">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="Wikipedia-Miner" StartNode="483" EndNode="491">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="Wikipedia-Miner" StartNode="521" EndNode="529">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="Wikipedia-Miner" StartNode="544" EndNode="553">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Bijection</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="Wikipedia-Miner" StartNode="570" EndNode="580">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="Wikipedia-Miner" StartNode="581" EndNode="592">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="Wikipedia-Miner" StartNode="1500" EndNode="1506">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Monoid</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="Wikipedia-Miner" StartNode="1468" EndNode="1488">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Wikipedia-Miner" StartNode="1453" EndNode="1464">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_composition</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Wikipedia-Miner" StartNode="1430" EndNode="1436">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Monoid</Value>
+</Feature>
+</Annotation>
+<Annotation Id="175" Type="Wikipedia-Miner" StartNode="1618" EndNode="1628">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="174" Type="Wikipedia-Miner" StartNode="1570" EndNode="1584">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Unit_%28ring_theory%29#Group_of_units</Value>
+</Feature>
+</Annotation>
+<Annotation Id="173" Type="Wikipedia-Miner" StartNode="1534" EndNode="1550">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Identity_element</Value>
+</Feature>
+</Annotation>
+<Annotation Id="172" Type="Wikipedia-Miner" StartNode="1516" EndNode="1525">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Semigroup</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Wikipedia-Miner" StartNode="1266" EndNode="1274">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="Wikipedia-Miner" StartNode="1204" EndNode="1213">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Corollary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="Wikipedia-Miner" StartNode="1188" EndNode="1195">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Theorem</Value>
+</Feature>
+</Annotation>
+<Annotation Id="160" Type="Wikipedia-Miner" StartNode="1174" EndNode="1182">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Wikipedia-Miner" StartNode="1378" EndNode="1397">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial#Polynomial_functions</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Wikipedia-Miner" StartNode="1346" EndNode="1356">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Wikipedia-Miner" StartNode="1300" EndNode="1310">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Wikipedia-Miner" StartNode="1932" EndNode="1950">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial#Polynomial_functions</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Wikipedia-Miner" StartNode="1991" EndNode="1996">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Order_%28group_theory%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="Wikipedia-Miner" StartNode="1805" EndNode="1825">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Wikipedia-Miner" StartNode="1875" EndNode="1885">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Wikipedia-Miner" StartNode="2277" EndNode="2282">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ring_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Wikipedia-Miner" StartNode="2308" EndNode="2318">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Wikipedia-Miner" StartNode="2239" EndNode="2244">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Order_%28group_theory%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Wikipedia-Miner" StartNode="2270" EndNode="2276">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Finite_set</Value>
+</Feature>
+</Annotation>
+<Annotation Id="178" Type="Wikipedia-Miner" StartNode="1683" EndNode="1693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="Wikipedia-Miner" StartNode="1704" EndNode="1715">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="176" Type="Wikipedia-Miner" StartNode="1629" EndNode="1641">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="177" Type="Wikipedia-Miner" StartNode="1661" EndNode="1669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="Wikipedia-Miner" StartNode="1762" EndNode="1769">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Map_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="Wikipedia-Miner" StartNode="1770" EndNode="1790">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="Wikipedia-Miner" StartNode="1716" EndNode="1722">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="181" Type="Wikipedia-Miner" StartNode="1750" EndNode="1761">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Epimorphism</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="DBpedia-Spotlight" StartNode="49" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="DBpedia-Spotlight" StartNode="29" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="DBpedia-Spotlight" StartNode="106" EndNode="111">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="206" Type="DBpedia-Spotlight" StartNode="58" EndNode="61">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="DBpedia-Spotlight" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="Wikipedia-Miner" StartNode="0" EndNode="5">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="203" Type="DBpedia-Spotlight" StartNode="18" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="DBpedia-Spotlight" StartNode="6" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="Wikipedia-Miner" StartNode="2639" EndNode="2659">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="Wikipedia-Miner" StartNode="2469" EndNode="2479">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="Wikipedia-Miner" StartNode="2670" EndNode="2675">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ring_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="Wikipedia-Miner" StartNode="2663" EndNode="2669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Finite_set</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="Wikipedia-Miner" StartNode="2354" EndNode="2366">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="192" Type="Wikipedia-Miner" StartNode="2319" EndNode="2331">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="Wikipedia-Miner" StartNode="2400" EndNode="2411">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Wikipedia-Miner" StartNode="2388" EndNode="2396">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Tuple</Value>
+</Feature>
+</Annotation>
+<Annotation Id="220" Type="DBpedia-Spotlight" StartNode="360" EndNode="372">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Pro-p_group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="221" Type="DBpedia-Spotlight" StartNode="374" EndNode="379">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="222" Type="DBpedia-Spotlight" StartNode="380" EndNode="388">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="223" Type="DBpedia-Spotlight" StartNode="390" EndNode="402">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Finite_ring</Value>
+</Feature>
+</Annotation>
+<Annotation Id="216" Type="DBpedia-Spotlight" StartNode="204" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Profinite_group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="217" Type="DBpedia-Spotlight" StartNode="233" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Inverse_limit</Value>
+</Feature>
+</Annotation>
+<Annotation Id="218" Type="DBpedia-Spotlight" StartNode="307" EndNode="317">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="219" Type="DBpedia-Spotlight" StartNode="329" EndNode="339">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="212" Type="DBpedia-Spotlight" StartNode="178" EndNode="181">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="DBpedia-Spotlight" StartNode="281" EndNode="291">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="DBpedia-Spotlight" StartNode="292" EndNode="305">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="208" Type="DBpedia-Spotlight" StartNode="112" EndNode="120">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="DBpedia-Spotlight" StartNode="138" EndNode="148">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="210" Type="DBpedia-Spotlight" StartNode="149" EndNode="161">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">dbpedia.org/resource/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="211" Type="DBpedia-Spotlight" StartNode="169" EndNode="177">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="239" Type="DBpedia-Spotlight" StartNode="1266" EndNode="1274">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="DBpedia-Spotlight" StartNode="1060" EndNode="1068">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/P-group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="DBpedia-Spotlight" StartNode="1054" EndNode="1059">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sylow_theorems</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="DBpedia-Spotlight" StartNode="987" EndNode="996">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Divisor</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="DBpedia-Spotlight" StartNode="852" EndNode="854">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Psychokinesis</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="DBpedia-Spotlight" StartNode="794" EndNode="798">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Pakistan_Peoples_Party</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="DBpedia-Spotlight" StartNode="765" EndNode="767">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/G2_phase</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="DBpedia-Spotlight" StartNode="616" EndNode="628">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="231" Type="DBpedia-Spotlight" StartNode="605" EndNode="615">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="230" Type="DBpedia-Spotlight" StartNode="581" EndNode="592">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="229" Type="DBpedia-Spotlight" StartNode="570" EndNode="580">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="228" Type="DBpedia-Spotlight" StartNode="544" EndNode="553">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Bijection</Value>
+</Feature>
+</Annotation>
+<Annotation Id="227" Type="DBpedia-Spotlight" StartNode="521" EndNode="529">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="226" Type="DBpedia-Spotlight" StartNode="483" EndNode="491">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Function_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="225" Type="DBpedia-Spotlight" StartNode="468" EndNode="470">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Quadratic_integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="224" Type="DBpedia-Spotlight" StartNode="455" EndNode="465">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="254" Type="DBpedia-Spotlight" StartNode="1683" EndNode="1693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="255" Type="DBpedia-Spotlight" StartNode="1704" EndNode="1715">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="252" Type="DBpedia-Spotlight" StartNode="1629" EndNode="1641">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="253" Type="DBpedia-Spotlight" StartNode="1661" EndNode="1669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">dbpedia.org/resource/Function_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="250" Type="DBpedia-Spotlight" StartNode="1589" EndNode="1591">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Karyotype</Value>
+</Feature>
+</Annotation>
+<Annotation Id="251" Type="DBpedia-Spotlight" StartNode="1618" EndNode="1628">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="248" Type="DBpedia-Spotlight" StartNode="1516" EndNode="1525">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Semigroup</Value>
+</Feature>
+</Annotation>
+<Annotation Id="249" Type="DBpedia-Spotlight" StartNode="1534" EndNode="1550">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Identity_element</Value>
+</Feature>
+</Annotation>
+<Annotation Id="246" Type="DBpedia-Spotlight" StartNode="1468" EndNode="1488">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="247" Type="DBpedia-Spotlight" StartNode="1500" EndNode="1506">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Monoid</Value>
+</Feature>
+</Annotation>
+<Annotation Id="244" Type="DBpedia-Spotlight" StartNode="1420" EndNode="1422">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Karyotype</Value>
+</Feature>
+</Annotation>
+<Annotation Id="245" Type="DBpedia-Spotlight" StartNode="1430" EndNode="1436">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Monoid</Value>
+</Feature>
+</Annotation>
+<Annotation Id="242" Type="DBpedia-Spotlight" StartNode="1360" EndNode="1362">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Quadratic_integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="243" Type="DBpedia-Spotlight" StartNode="1378" EndNode="1397">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="240" Type="DBpedia-Spotlight" StartNode="1300" EndNode="1310">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="241" Type="DBpedia-Spotlight" StartNode="1346" EndNode="1356">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="275" Type="DBpedia-Spotlight" StartNode="2639" EndNode="2659">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="274" Type="DBpedia-Spotlight" StartNode="2535" EndNode="2541">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Recall_%28memory%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="273" Type="DBpedia-Spotlight" StartNode="2417" EndNode="2426">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Variable_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="272" Type="DBpedia-Spotlight" StartNode="2400" EndNode="2411">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="279" Type="Manual" StartNode="106" EndNode="120">
+</Annotation>
+<Annotation Id="278" Type="Manual" StartNode="18" EndNode="41">
+</Annotation>
+<Annotation Id="277" Type="Manual" StartNode="0" EndNode="14">
+</Annotation>
+<Annotation Id="276" Type="DBpedia-Spotlight" StartNode="2663" EndNode="2675">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Finite_ring</Value>
+</Feature>
+</Annotation>
+<Annotation Id="283" Type="Manual" StartNode="605" EndNode="635">
+</Annotation>
+<Annotation Id="282" Type="Manual" StartNode="234" EndNode="250">
+</Annotation>
+<Annotation Id="281" Type="Manual" StartNode="204" EndNode="220">
+</Annotation>
+<Annotation Id="280" Type="Manual" StartNode="138" EndNode="161">
+</Annotation>
+<Annotation Id="287" Type="Manual" StartNode="1299" EndNode="1320">
+</Annotation>
+<Annotation Id="286" Type="Manual" StartNode="1054" EndNode="1068">
+</Annotation>
+<Annotation Id="284" Type="Manual" StartNode="1805" EndNode="1832">
+</Annotation>
+<Annotation Id="258" Type="DBpedia-Spotlight" StartNode="1770" EndNode="1790">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="259" Type="DBpedia-Spotlight" StartNode="1805" EndNode="1825">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="256" Type="DBpedia-Spotlight" StartNode="1716" EndNode="1722">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Modular_arithmetic</Value>
+</Feature>
+</Annotation>
+<Annotation Id="257" Type="DBpedia-Spotlight" StartNode="1750" EndNode="1761">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Group_homomorphism</Value>
+</Feature>
+</Annotation>
+<Annotation Id="262" Type="DBpedia-Spotlight" StartNode="1875" EndNode="1885">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="263" Type="DBpedia-Spotlight" StartNode="1889" EndNode="1891">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Quadratic_integer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="260" Type="DBpedia-Spotlight" StartNode="1856" EndNode="1858">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Karyotype</Value>
+</Feature>
+</Annotation>
+<Annotation Id="261" Type="DBpedia-Spotlight" StartNode="1861" EndNode="1863">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Karyotype</Value>
+</Feature>
+</Annotation>
+<Annotation Id="266" Type="DBpedia-Spotlight" StartNode="2000" EndNode="2002">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Karyotype</Value>
+</Feature>
+</Annotation>
+<Annotation Id="267" Type="DBpedia-Spotlight" StartNode="2270" EndNode="2282">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Finite_ring</Value>
+</Feature>
+</Annotation>
+<Annotation Id="264" Type="DBpedia-Spotlight" StartNode="1901" EndNode="1904">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ancient_technology_in_Stargate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="265" Type="DBpedia-Spotlight" StartNode="1931" EndNode="1950">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="270" Type="DBpedia-Spotlight" StartNode="2343" EndNode="2352">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Variable_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="271" Type="DBpedia-Spotlight" StartNode="2354" EndNode="2366">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="268" Type="DBpedia-Spotlight" StartNode="2308" EndNode="2318">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Polynomial</Value>
+</Feature>
+</Annotation>
+<Annotation Id="269" Type="DBpedia-Spotlight" StartNode="2319" EndNode="2331">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Permutation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="288" Type="Manual" StartNode="1346" EndNode="1364">
+</Annotation>
+<Annotation Id="289" Type="Manual" StartNode="1378" EndNode="1404">
+</Annotation>
+<Annotation Id="290" Type="Manual" StartNode="1468" EndNode="1495">
+</Annotation>
+<Annotation Id="291" Type="Manual" StartNode="1534" EndNode="1550">
+</Annotation>
+<Annotation Id="292" Type="Manual" StartNode="1742" EndNode="1761">
+</Annotation>
+<Annotation Id="293" Type="Manual" StartNode="2239" EndNode="2253">
+</Annotation>
+<Annotation Id="294" Type="Manual" StartNode="2270" EndNode="2282">
+</Annotation>
+<Annotation Id="295" Type="Manual" StartNode="2308" EndNode="2331">
+</Annotation>
+<Annotation Id="296" Type="Manual" StartNode="281" EndNode="304">
+</Annotation>
+<Annotation Id="297" Type="Manual" StartNode="307" EndNode="327">
+</Annotation>
+<Annotation Id="298" Type="Manual" StartNode="329" EndNode="348">
+</Annotation>
+<Annotation Id="299" Type="Manual" StartNode="350" EndNode="359">
+</Annotation>
+<Annotation Id="300" Type="Manual" StartNode="360" EndNode="372">
+</Annotation>
+<Annotation Id="301" Type="Manual" StartNode="374" EndNode="388">
+</Annotation>
+<Annotation Id="302" Type="Manual" StartNode="390" EndNode="402">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="63">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="76" EndNode="269">
+</Annotation>
+<Annotation Id="3" Type="paragraph" StartNode="269" EndNode="279">
+</Annotation>
+<Annotation Id="4" Type="paragraph" StartNode="281" EndNode="306">
+</Annotation>
+<Annotation Id="5" Type="paragraph" StartNode="307" EndNode="329">
+</Annotation>
+<Annotation Id="6" Type="paragraph" StartNode="329" EndNode="350">
+</Annotation>
+<Annotation Id="7" Type="paragraph" StartNode="350" EndNode="360">
+</Annotation>
+<Annotation Id="8" Type="paragraph" StartNode="360" EndNode="374">
+</Annotation>
+<Annotation Id="9" Type="paragraph" StartNode="374" EndNode="390">
+</Annotation>
+<Annotation Id="10" Type="paragraph" StartNode="390" EndNode="404">
+</Annotation>
+<Annotation Id="11" Type="paragraph" StartNode="406" EndNode="420">
+</Annotation>
+<Annotation Id="12" Type="paragraph" StartNode="422" EndNode="1985">
+</Annotation>
+<Annotation Id="13" Type="paragraph" StartNode="1987" EndNode="2711">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

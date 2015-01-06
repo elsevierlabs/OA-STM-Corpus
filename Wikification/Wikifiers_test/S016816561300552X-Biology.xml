@@ -1,0 +1,1465 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="2">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/lauruhnm/Documents/ResearchProjects/Wikification/STMCor10/STM-5K/PluripotentStemCells552X.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Investigating the <Node id="18"/>feasibility<Node id="29"/> of <Node id="33"/>scale<Node id="38"/> up and <Node id="46"/>automation<Node id="56"/> of <Node id="60"/>human<Node id="65"/> <Node id="66"/>induced pluripotent stem cells<Node id="96"/> <Node id="97"/>cultured<Node id="105"/> in <Node id="109"/>aggregates<Node id="119"/> in feeder free <Node id="135"/>conditions<Node id="145"/>&#xd;
+<Node id="147"/>&#xd;
+<Node id="149"/>Highlights<Node id="159"/>&#xd;
+&#x2022; First <Node id="169"/>published<Node id="178"/> <Node id="179"/>protocol<Node id="187"/> for <Node id="192"/>scalable<Node id="200"/> <Node id="201"/>automation<Node id="211"/> of <Node id="215"/>hiPSC<Node id="220"/> in feeder-free conditions.&#xd;
+&#x2022; Successful <Node id="262"/>transfer<Node id="270"/> of <Node id="274"/>hiPSC<Node id="279"/> between <Node id="288"/>sites<Node id="293"/> representative of research and <Node id="325"/>manufacture<Node id="336"/>.&#xd;
+&#x2022; <Node id="341"/>Comparability<Node id="354"/> between <Node id="363"/>manual<Node id="369"/> and automated <Node id="384"/>expansion<Node id="393"/> <Node id="394"/>protocols<Node id="403"/> for <Node id="408"/>hiPSC<Node id="413"/>.&#xd;
+Abstract&#xd;
+The <Node id="430"/>transfer<Node id="438"/> of a <Node id="444"/>laboratory<Node id="454"/> <Node id="455"/>process<Node id="462"/> into a <Node id="470"/>manufacturing<Node id="483"/> <Node id="484"/>facility<Node id="492"/> is one of the most <Node id="512"/>critical<Node id="520"/> <Node id="521"/>steps<Node id="526"/> required for the <Node id="544"/>large scale production<Node id="566"/> of <Node id="570"/>cell-based therapy<Node id="588"/> products.&#xd;
+This <Node id="605"/>study<Node id="610"/> describes <Node id="621"/>the first<Node id="630"/> <Node id="631"/>published<Node id="640"/> <Node id="641"/>protocol<Node id="649"/> for <Node id="654"/>scalable<Node id="662"/> automated <Node id="673"/>expansion<Node id="682"/> of <Node id="686"/>human<Node id="691"/> <Node id="692"/>induced<Node id="699"/> <Node id="700"/>pluripotent<Node id="711"/> <Node id="712"/>stem<Node id="716"/> <Node id="717"/>cell<Node id="721"/> lines<Node id="727"/> growing in <Node id="739"/>aggregates<Node id="749"/> in feeder-free and <Node id="769"/>chemically <Node id="780"/>defined<Node id="787"/> medium<Node id="794"/>.&#xd;
+<Node id="797"/>Cells<Node id="802"/> were successfully <Node id="821"/>transferred<Node id="832"/> between <Node id="841"/>different<Node id="850"/> <Node id="851"/>sites<Node id="856"/> representative of research and <Node id="888"/>manufacturing<Node id="901"/> <Node id="902"/>settings<Node id="910"/>; and passaged manually and using the CompacT SelecT <Node id="963"/>automation<Node id="973"/> platform.&#xd;
+Modified <Node id="994"/>protocols<Node id="1003"/> were <Node id="1009"/>developed<Node id="1018"/> for the <Node id="1027"/>automated system<Node id="1043"/> and <Node id="1048"/>the management<Node id="1062"/> of <Node id="1066"/>cells<Node id="1071"/> <Node id="1072"/>aggregates<Node id="1082"/> (clumps) was <Node id="1096"/>identified<Node id="1106"/> as the <Node id="1114"/>critical<Node id="1122"/> step.&#xd;
+<Node id="1130"/>Cellular<Node id="1138"/> <Node id="1139"/>morphology<Node id="1149"/>, <Node id="1151"/>pluripotency<Node id="1163"/> <Node id="1164"/>gene<Node id="1168"/> <Node id="1169"/>expression<Node id="1179"/> and <Node id="1184"/>differentiation<Node id="1199"/> into the three <Node id="1215"/>germ layers<Node id="1226"/> have been used co		mpare the <Node id="1256"/>outcomes<Node id="1264"/> of <Node id="1268"/>manual<Node id="1274"/> and automated processes.&#xd;
+<Node id="1301"/>&#xd;
+<Node id="1303"/>Introduction&#xd;
+<Node id="1317"/>Human <Node id="1323"/>induced <Node id="1331"/>pluripotent<Node id="1342"/> <Node id="1343"/>stem cells<Node id="1353"/> (<Node id="1355"/>hiPSC<Node id="1360"/>) are <Node id="1366"/>generated<Node id="1375"/> from <Node id="1381"/>reprogrammed<Node id="1393"/> <Node id="1394"/>fibroblasts<Node id="1405"/> by <Node id="1409"/>overexpression<Node id="1423"/> of <Node id="1427"/>pluripotency<Node id="1439"/> <Node id="1440"/>factors<Node id="1447"/> (<Node id="1449"/>Takahashi<Node id="1458"/> et al., 2007; <Node id="1473"/>Yu<Node id="1475"/> et <Node id="1479"/>al.<Node id="1482"/>, 2007).&#xd;
+These <Node id="1498"/>pluripotent<Node id="1509"/> <Node id="1510"/>cells<Node id="1515"/> have the <Node id="1525"/>unique<Node id="1531"/> characteristic to self renew <Node id="1561"/>in vitro<Node id="1569"/> while maintaining the <Node id="1592"/>capacity<Node id="1600"/> to <Node id="1604"/>differentiate<Node id="1617"/> into a broad <Node id="1631"/>number<Node id="1637"/> of <Node id="1641"/>cell<Node id="1645"/> types<Node id="1651"/>.&#xd;
+By combining these <Node id="1673"/>unique properties<Node id="1690"/>, hiPSC could <Node id="1704"/>enable<Node id="1710"/> the generation of large <Node id="1735"/>quantity<Node id="1743"/> of <Node id="1747"/>cells<Node id="1752"/> for clinical applications.&#xd;
+Furthermore, the <Node id="1798"/>possibility<Node id="1809"/> of generating hiPSC from <Node id="1835"/>somatic cells<Node id="1848"/> using <Node id="1855"/>epigenetic<Node id="1865"/> reprogramming represents a <Node id="1893"/>unique<Node id="1899"/> <Node id="1900"/>opportunity<Node id="1911"/> for <Node id="1916"/>personalized<Node id="1928"/> <Node id="1929"/>regenerative<Node id="1941"/> medicine<Node id="1950"/>.&#xd;
+Indeed, these <Node id="1967"/>pluripotent<Node id="1978"/> <Node id="1979"/>stem<Node id="1983"/> <Node id="1984"/>cells<Node id="1989"/> could <Node id="1996"/>enable<Node id="2002"/> <Node id="2003"/>the production<Node id="2017"/> of <Node id="2021"/>patient<Node id="2028"/> <Node id="2029"/>specific<Node id="2037"/> <Node id="2038"/>cell<Node id="2042"/> types<Node id="2048"/> that are <Node id="2058"/>fully<Node id="2063"/> <Node id="2064"/>immuno<Node id="2070"/>-compatible with the <Node id="2091"/>original<Node id="2099"/> donor thereby <Node id="2114"/>avoiding<Node id="2122"/> the <Node id="2127"/>need<Node id="2131"/> for immune suppressive <Node id="2155"/>treatment<Node id="2164"/> after <Node id="2171"/>cell<Node id="2175"/> <Node id="2176"/>transplantation<Node id="2191"/>.&#xd;
+Nevertheless, the practical, financial and <Node id="2237"/>temporal<Node id="2245"/> obstacles in <Node id="2259"/>producing<Node id="2268"/> and <Node id="2273"/>validating<Node id="2283"/> <Node id="2284"/>personalized<Node id="2296"/> clinical-grade hiPSC and their <Node id="2328"/>differentiated<Node id="2342"/> <Node id="2343"/>progeny<Node id="2350"/> will almost <Node id="2363"/>certainly<Node id="2372"/> limit the <Node id="2383"/>feasibility<Node id="2394"/> of this approach.&#xd;
+These limitations could <Node id="2438"/>selectively<Node id="2449"/> <Node id="2450"/>restrict<Node id="2458"/> <Node id="2459"/>patient<Node id="2466"/> <Node id="2467"/>access<Node id="2473"/> to <Node id="2477"/>autologous<Node id="2487"/> <Node id="2488"/>cell<Node id="2492"/>-based therapies (Faden et al., 2003).&#xd;
+The creation of clinical <Node id="2557"/>banks<Node id="2562"/> of hiPSC from <Node id="2577"/>donors<Node id="2583"/> that can provide <Node id="2601"/>HLA<Node id="2604"/> matching to <Node id="2617"/>recipients<Node id="2627"/> is <Node id="2631"/>proposed<Node id="2639"/> as a <Node id="2645"/>strategy<Node id="2653"/> to <Node id="2657"/>attenuate<Node id="2666"/> the host <Node id="2676"/>immune response<Node id="2691"/> to <Node id="2695"/>transplanted <Node id="2708"/>tissue<Node id="2714"/> (<Node id="2716"/>Lin<Node id="2719"/> et al., 2009; <Node id="2734"/>Taylor<Node id="2740"/> et al., 2005, 2011).&#xd;
+Similarly, hiPSC can be used to <Node id="2795"/>develop<Node id="2802"/> <Node id="2803"/>in vitro<Node id="2811"/> <Node id="2812"/>disease<Node id="2819"/> models, allowing <Node id="2837"/>large<Node id="2842"/> <Node id="2843"/>scale<Node id="2848"/> studies otherwise <Node id="2867"/>restricted<Node id="2877"/> due to the <Node id="2889"/>limited availability<Node id="2909"/> of <Node id="2913"/>primary <Node id="2921"/>cells<Node id="2926"/> and <Node id="2931"/>biopsy<Node id="2937"/> <Node id="2938"/>material<Node id="2946"/>.&#xd;
+<Node id="2949"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="3" Type="Wikipedia-Miner" StartNode="66" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Wikipedia-Miner" StartNode="97" EndNode="105">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_culture</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Wikipedia-Miner" StartNode="325" EndNode="336">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Wikipedia-Miner" StartNode="444" EndNode="454">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Laboratory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Wikipedia-Miner" StartNode="470" EndNode="483">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Wikipedia-Miner" StartNode="570" EndNode="588">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Wikipedia-Miner" StartNode="692" EndNode="721">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Wikipedia-Miner" StartNode="780" EndNode="794">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Growth_medium</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Wikipedia-Miner" StartNode="797" EndNode="802">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Wikipedia-Miner" StartNode="888" EndNode="901">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Wikipedia-Miner" StartNode="1066" EndNode="1071">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Wikipedia-Miner" StartNode="1130" EndNode="1138">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Wikipedia-Miner" StartNode="1139" EndNode="1149">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Morphology_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Wikipedia-Miner" StartNode="1164" EndNode="1168">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Gene</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="Wikipedia-Miner" StartNode="1151" EndNode="1163">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="Wikipedia-Miner" StartNode="1184" EndNode="1199">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cellular_differentiation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="Wikipedia-Miner" StartNode="1169" EndNode="1179">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Gene_expression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="Wikipedia-Miner" StartNode="1323" EndNode="1353">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="Wikipedia-Miner" StartNode="1215" EndNode="1226">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Germ_layer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="Wikipedia-Miner" StartNode="1409" EndNode="1423">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Gene_expression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="22" Type="Wikipedia-Miner" StartNode="1394" EndNode="1405">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fibroblast</Value>
+</Feature>
+</Annotation>
+<Annotation Id="25" Type="Wikipedia-Miner" StartNode="1498" EndNode="1509">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="24" Type="Wikipedia-Miner" StartNode="1427" EndNode="1439">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="27" Type="Wikipedia-Miner" StartNode="1561" EndNode="1569">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/In_vitro</Value>
+</Feature>
+</Annotation>
+<Annotation Id="26" Type="Wikipedia-Miner" StartNode="1510" EndNode="1515">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="29" Type="Wikipedia-Miner" StartNode="1641" EndNode="1645">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="28" Type="Wikipedia-Miner" StartNode="1604" EndNode="1617">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cellular_differentiation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="31" Type="Wikipedia-Miner" StartNode="2921" EndNode="2926">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="30" Type="Wikipedia-Miner" StartNode="2931" EndNode="2937">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Biopsy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="34" Type="Wikipedia-Miner" StartNode="2695" EndNode="2714">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Organ_transplantation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="35" Type="Wikipedia-Miner" StartNode="2676" EndNode="2691">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Immune_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="32" Type="Wikipedia-Miner" StartNode="2812" EndNode="2819">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Disease</Value>
+</Feature>
+</Annotation>
+<Annotation Id="33" Type="Wikipedia-Miner" StartNode="2803" EndNode="2811">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/In_vitro</Value>
+</Feature>
+</Annotation>
+<Annotation Id="38" Type="Wikipedia-Miner" StartNode="2477" EndNode="2487">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Autotransplantation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="39" Type="Wikipedia-Miner" StartNode="2328" EndNode="2342">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cellular_differentiation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="36" Type="Wikipedia-Miner" StartNode="2601" EndNode="2604">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Human_leukocyte_antigen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="37" Type="Wikipedia-Miner" StartNode="2488" EndNode="2492">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="42" Type="Wikipedia-Miner" StartNode="2064" EndNode="2070">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Immune_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="43" Type="Wikipedia-Miner" StartNode="2038" EndNode="2042">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="40" Type="Wikipedia-Miner" StartNode="2176" EndNode="2191">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Organ_transplantation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="41" Type="Wikipedia-Miner" StartNode="2171" EndNode="2175">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="46" Type="Wikipedia-Miner" StartNode="1747" EndNode="1752">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_%28biology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="47" Type="Wikipedia-Miner" StartNode="1855" EndNode="1865">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Epigenetics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="44" Type="Wikipedia-Miner" StartNode="1967" EndNode="1989">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="45" Type="Wikipedia-Miner" StartNode="1835" EndNode="1848">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Somatic_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="51" Type="DBpedia-Spotlight" StartNode="46" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="50" Type="CCG-Illinois" StartNode="33" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Scale_(anatomy)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="49" Type="CCG-Illinois" StartNode="18" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Feasibility</Value>
+</Feature>
+</Annotation>
+<Annotation Id="48" Type="Wikipedia-Miner" StartNode="1929" EndNode="1950">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Regenerative_medicine</Value>
+</Feature>
+</Annotation>
+<Annotation Id="55" Type="CCG-Illinois" StartNode="149" EndNode="159">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Highlights_(album)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="54" Type="CCG-Illinois" StartNode="135" EndNode="145">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Medicine</Value>
+</Feature>
+</Annotation>
+<Annotation Id="53" Type="CCG-Illinois" StartNode="66" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="52" Type="CCG-Illinois" StartNode="60" EndNode="65">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Human</Value>
+</Feature>
+</Annotation>
+<Annotation Id="59" Type="CCG-Illinois" StartNode="201" EndNode="211">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="58" Type="CCG-Illinois" StartNode="192" EndNode="200">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Scalability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="57" Type="CCG-Illinois" StartNode="179" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="56" Type="CCG-Illinois" StartNode="169" EndNode="178">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Video_game_publisher</Value>
+</Feature>
+</Annotation>
+<Annotation Id="63" Type="CCG-Illinois" StartNode="363" EndNode="369">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Manual_transmission</Value>
+</Feature>
+</Annotation>
+<Annotation Id="62" Type="CCG-Illinois" StartNode="341" EndNode="354">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Comparability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="61" Type="CCG-Illinois" StartNode="288" EndNode="293">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Website</Value>
+</Feature>
+</Annotation>
+<Annotation Id="60" Type="CCG-Illinois" StartNode="262" EndNode="270">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Transfer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="CCG-Illinois" StartNode="455" EndNode="462">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_industrial_processes</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="CCG-Illinois" StartNode="470" EndNode="483">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="CCG-Illinois" StartNode="484" EndNode="492">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Facility</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="CCG-Illinois" StartNode="512" EndNode="520">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Critical_mass</Value>
+</Feature>
+</Annotation>
+<Annotation Id="64" Type="CCG-Illinois" StartNode="384" EndNode="393">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Expansion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="65" Type="CCG-Illinois" StartNode="394" EndNode="403">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="CCG-Illinois" StartNode="430" EndNode="438">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Transfer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="CCG-Illinois" StartNode="444" EndNode="454">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Laboratory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="CCG-Illinois" StartNode="621" EndNode="630">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_automotive_superlatives</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="CCG-Illinois" StartNode="631" EndNode="640">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Video_game_publisher</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="CCG-Illinois" StartNode="641" EndNode="649">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="CCG-Illinois" StartNode="654" EndNode="662">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Scalability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="CCG-Illinois" StartNode="521" EndNode="526">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Steps_and_skips</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="CCG-Illinois" StartNode="544" EndNode="566">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Mass_production</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="CCG-Illinois" StartNode="570" EndNode="588">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="CCG-Illinois" StartNode="605" EndNode="610">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Research</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="CCG-Illinois" StartNode="717" EndNode="727">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_culture</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="CCG-Illinois" StartNode="712" EndNode="716">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant_stem</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="CCG-Illinois" StartNode="780" EndNode="787">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Definition</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="CCG-Illinois" StartNode="739" EndNode="749">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Construction_aggregate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="81" Type="CCG-Illinois" StartNode="686" EndNode="691">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Human</Value>
+</Feature>
+</Annotation>
+<Annotation Id="80" Type="CCG-Illinois" StartNode="673" EndNode="682">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Expansion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="CCG-Illinois" StartNode="700" EndNode="711">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="CCG-Illinois" StartNode="692" EndNode="699">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Enzyme_inhibitor</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="CCG-Illinois" StartNode="963" EndNode="973">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="CCG-Illinois" StartNode="902" EndNode="910">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Setting_(narrative)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="95" Type="CCG-Illinois" StartNode="1009" EndNode="1018">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Video_game_developer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="94" Type="CCG-Illinois" StartNode="994" EndNode="1003">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="CCG-Illinois" StartNode="841" EndNode="850">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Difference</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="CCG-Illinois" StartNode="821" EndNode="832">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Transfer_(association_football)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="CCG-Illinois" StartNode="888" EndNode="901">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="CCG-Illinois" StartNode="851" EndNode="856">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Site</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="CCG-Illinois" StartNode="1139" EndNode="1149">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Morphology_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="CCG-Illinois" StartNode="1151" EndNode="1163">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="CCG-Illinois" StartNode="1096" EndNode="1106">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Gender_identity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="CCG-Illinois" StartNode="1114" EndNode="1122">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Critical</Value>
+</Feature>
+</Annotation>
+<Annotation Id="98" Type="CCG-Illinois" StartNode="1066" EndNode="1071">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="CCG-Illinois" StartNode="1072" EndNode="1082">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Construction_aggregate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="96" Type="CCG-Illinois" StartNode="1027" EndNode="1043">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="CCG-Illinois" StartNode="1048" EndNode="1062">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Investment_management</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="CCG-Illinois" StartNode="1366" EndNode="1375">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Generating_set_of_a_group</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="CCG-Illinois" StartNode="1381" EndNode="1393">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Reprogramming</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="CCG-Illinois" StartNode="1343" EndNode="1353">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="CCG-Illinois" StartNode="1331" EndNode="1342">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="CCG-Illinois" StartNode="1215" EndNode="1226">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Germ_layer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="CCG-Illinois" StartNode="1256" EndNode="1264">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Outcome_(game_theory)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="CCG-Illinois" StartNode="1164" EndNode="1179">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Gene_expression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="CCG-Illinois" StartNode="1184" EndNode="1199">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cellular_differentiation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="CCG-Illinois" StartNode="1449" EndNode="1458">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Takahashi,_Okayama</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="CCG-Illinois" StartNode="1427" EndNode="1439">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="CCG-Illinois" StartNode="1440" EndNode="1447">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Divisor</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="CCG-Illinois" StartNode="1409" EndNode="1423">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Gene_expression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="112" Type="CCG-Illinois" StartNode="1394" EndNode="1405">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fibroblast</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="CCG-Illinois" StartNode="1704" EndNode="1710">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Enabling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="CCG-Illinois" StartNode="1673" EndNode="1690">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Liquefaction</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="CCG-Illinois" StartNode="1641" EndNode="1645">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="CCG-Illinois" StartNode="1631" EndNode="1637">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="CCG-Illinois" StartNode="1592" EndNode="1600">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Capacity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="CCG-Illinois" StartNode="1525" EndNode="1531">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Uniqueness_quantification</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="CCG-Illinois" StartNode="1479" EndNode="1482">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Arabic_definite_article</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="CCG-Illinois" StartNode="1473" EndNode="1475">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_Spriggan_characters#Yu_Ominae</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="CCG-Illinois" StartNode="1967" EndNode="1978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="CCG-Illinois" StartNode="1929" EndNode="1941">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Regeneration_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="CCG-Illinois" StartNode="1984" EndNode="1989">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="CCG-Illinois" StartNode="1979" EndNode="1983">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant_stem</Value>
+</Feature>
+</Annotation>
+<Annotation Id="141" Type="CCG-Illinois" StartNode="2003" EndNode="2017">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sparkling_wine_production</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="CCG-Illinois" StartNode="1996" EndNode="2002">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Enabling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="CCG-Illinois" StartNode="2029" EndNode="2037">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Species</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="CCG-Illinois" StartNode="2021" EndNode="2028">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Patient</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="CCG-Illinois" StartNode="1747" EndNode="1752">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="128" Type="CCG-Illinois" StartNode="1735" EndNode="1743">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Quantity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="CCG-Illinois" StartNode="1835" EndNode="1848">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Somatic_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="CCG-Illinois" StartNode="1798" EndNode="1809">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Possibility</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="CCG-Illinois" StartNode="1893" EndNode="1899">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Uniqueness_quantification</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="CCG-Illinois" StartNode="1855" EndNode="1865">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Epigenetics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="CCG-Illinois" StartNode="1916" EndNode="1928">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Personalization</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="CCG-Illinois" StartNode="1900" EndNode="1911">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Opportunity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="CCG-Illinois" StartNode="2273" EndNode="2283">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Validation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="CCG-Illinois" StartNode="2284" EndNode="2296">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Personalization</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="CCG-Illinois" StartNode="2343" EndNode="2350">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Offspring</Value>
+</Feature>
+</Annotation>
+<Annotation Id="155" Type="CCG-Illinois" StartNode="2363" EndNode="2372">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Certainty</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="CCG-Illinois" StartNode="2383" EndNode="2394">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Feasibility</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="CCG-Illinois" StartNode="2438" EndNode="2449">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Selective_breeding</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="CCG-Illinois" StartNode="2450" EndNode="2458">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Restrict</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="CCG-Illinois" StartNode="2459" EndNode="2466">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Patient</Value>
+</Feature>
+</Annotation>
+<Annotation Id="144" Type="CCG-Illinois" StartNode="2038" EndNode="2048">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_type</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="CCG-Illinois" StartNode="2058" EndNode="2063">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fully</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="CCG-Illinois" StartNode="2091" EndNode="2099">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Originality</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="CCG-Illinois" StartNode="2114" EndNode="2122">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Tax_noncompliance</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="CCG-Illinois" StartNode="2127" EndNode="2131">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Need</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="CCG-Illinois" StartNode="2155" EndNode="2164">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pharmaceutical_drug</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="CCG-Illinois" StartNode="2171" EndNode="2175">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="CCG-Illinois" StartNode="2259" EndNode="2268">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Record_producer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="CCG-Illinois" StartNode="2795" EndNode="2802">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Development</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="CCG-Illinois" StartNode="2734" EndNode="2740">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Taylor_County,_Florida</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="CCG-Illinois" StartNode="2716" EndNode="2719">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Lin</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="CCG-Illinois" StartNode="2676" EndNode="2691">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Immune_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="175" Type="CCG-Illinois" StartNode="2867" EndNode="2877">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Restricted_representation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="174" Type="CCG-Illinois" StartNode="2843" EndNode="2848">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Scale_(anatomy)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="173" Type="CCG-Illinois" StartNode="2837" EndNode="2842">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Large_format_(photography)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="172" Type="CCG-Illinois" StartNode="2812" EndNode="2819">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Disease</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="CCG-Illinois" StartNode="2601" EndNode="2604">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Human_leukocyte_antigen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="CCG-Illinois" StartNode="2577" EndNode="2583">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Donor_(semiconductors)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="CCG-Illinois" StartNode="2557" EndNode="2562">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Banks</Value>
+</Feature>
+</Annotation>
+<Annotation Id="160" Type="CCG-Illinois" StartNode="2467" EndNode="2473">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Access</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="CCG-Illinois" StartNode="2657" EndNode="2666">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Attenuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="166" Type="CCG-Illinois" StartNode="2645" EndNode="2653">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Strategy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="CCG-Illinois" StartNode="2631" EndNode="2639">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Marriage_proposal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="CCG-Illinois" StartNode="2617" EndNode="2627">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Recipient</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="DBpedia-Spotlight" StartNode="363" EndNode="369">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Manual_transmission</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="DBpedia-Spotlight" StartNode="394" EndNode="403">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="DBpedia-Spotlight" StartNode="201" EndNode="211">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="DBpedia-Spotlight" StartNode="341" EndNode="354">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Comparability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="DBpedia-Spotlight" StartNode="641" EndNode="649">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="DBpedia-Spotlight" StartNode="692" EndNode="721">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="DBpedia-Spotlight" StartNode="444" EndNode="454">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Laboratory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="DBpedia-Spotlight" StartNode="470" EndNode="483">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="178" Type="CCG-Illinois" StartNode="2931" EndNode="2937">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Biopsy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="CCG-Illinois" StartNode="2938" EndNode="2946">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Material</Value>
+</Feature>
+</Annotation>
+<Annotation Id="176" Type="CCG-Illinois" StartNode="2889" EndNode="2909">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Limited_availability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="177" Type="CCG-Illinois" StartNode="2913" EndNode="2926">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Primary_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="DBpedia-Spotlight" StartNode="109" EndNode="119">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Construction_aggregate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="DBpedia-Spotlight" StartNode="179" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="CCG-Illinois" StartNode="46" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="181" Type="DBpedia-Spotlight" StartNode="66" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="DBpedia-Spotlight" StartNode="1394" EndNode="1405">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fibroblast</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="DBpedia-Spotlight" StartNode="1323" EndNode="1353">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Induced_pluripotent_stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="DBpedia-Spotlight" StartNode="1427" EndNode="1439">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_potency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="206" Type="DBpedia-Spotlight" StartNode="1409" EndNode="1423">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Gene_expression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="DBpedia-Spotlight" StartNode="1184" EndNode="1199">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cellular_differentiation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="DBpedia-Spotlight" StartNode="1164" EndNode="1179">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Gene_expression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="203" Type="DBpedia-Spotlight" StartNode="1268" EndNode="1274">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Manual_transmission</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="DBpedia-Spotlight" StartNode="1215" EndNode="1226">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Germ_layer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="DBpedia-Spotlight" StartNode="1072" EndNode="1082">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Construction_aggregate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="DBpedia-Spotlight" StartNode="1066" EndNode="1071">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="DBpedia-Spotlight" StartNode="1151" EndNode="1163">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_potency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="DBpedia-Spotlight" StartNode="1130" EndNode="1149">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Morphology_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="DBpedia-Spotlight" StartNode="888" EndNode="901">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Manufacturing</Value>
+</Feature>
+</Annotation>
+<Annotation Id="192" Type="DBpedia-Spotlight" StartNode="739" EndNode="749">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Construction_aggregate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="DBpedia-Spotlight" StartNode="994" EndNode="1003">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Communications_protocol</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="DBpedia-Spotlight" StartNode="963" EndNode="973">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Automation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="220" Type="DBpedia-Spotlight" StartNode="2477" EndNode="2487">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Autotransplantation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="221" Type="DBpedia-Spotlight" StartNode="2601" EndNode="2604">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Human_leukocyte_antigen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="222" Type="DBpedia-Spotlight" StartNode="2657" EndNode="2666">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Attenuation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="223" Type="DBpedia-Spotlight" StartNode="2676" EndNode="2691">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Immune_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="216" Type="DBpedia-Spotlight" StartNode="2038" EndNode="2048">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_type</Value>
+</Feature>
+</Annotation>
+<Annotation Id="217" Type="DBpedia-Spotlight" StartNode="2171" EndNode="2175">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="218" Type="DBpedia-Spotlight" StartNode="2176" EndNode="2191">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Hematopoietic_stem_cell_transplantation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="219" Type="DBpedia-Spotlight" StartNode="2237" EndNode="2245">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Time</Value>
+</Feature>
+</Annotation>
+<Annotation Id="212" Type="DBpedia-Spotlight" StartNode="1855" EndNode="1865">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Epigenetics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="213" Type="DBpedia-Spotlight" StartNode="1929" EndNode="1950">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="DBpedia-Spotlight" StartNode="1967" EndNode="1978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_potency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="DBpedia-Spotlight" StartNode="1979" EndNode="1989">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Stem_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="208" Type="DBpedia-Spotlight" StartNode="1498" EndNode="1509">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_potency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="DBpedia-Spotlight" StartNode="1510" EndNode="1515">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="210" Type="DBpedia-Spotlight" StartNode="1641" EndNode="1651">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Cell_type</Value>
+</Feature>
+</Annotation>
+<Annotation Id="211" Type="DBpedia-Spotlight" StartNode="1835" EndNode="1848">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Somatic_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="239" Type="Manual" StartNode="769" EndNode="794">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Chemically_defined_medium</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="Manual" StartNode="1215" EndNode="1226">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Germ_layer#Germ_layers</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="Manual" StartNode="1151" EndNode="1179">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Cell_potency#Induced_pluripotency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="Manual" StartNode="1130" EndNode="1149">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Morphology_(biology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="Manual" StartNode="570" EndNode="588">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Stem_cell_therapy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="Manual" StartNode="1355" EndNode="1360">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="Manual" StartNode="1317" EndNode="1353">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="Manual" StartNode="686" EndNode="721">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="231" Type="Manual" StartNode="408" EndNode="413">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="230" Type="Manual" StartNode="274" EndNode="279">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="229" Type="Manual" StartNode="215" EndNode="220">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="228" Type="Manual" StartNode="60" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell#Human_induced_pluripotent_stem_cells</Value>
+</Feature>
+</Annotation>
+<Annotation Id="227" Type="DBpedia-Spotlight" StartNode="2931" EndNode="2937">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Biopsy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="226" Type="DBpedia-Spotlight" StartNode="2913" EndNode="2926">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Primary_cell</Value>
+</Feature>
+</Annotation>
+<Annotation Id="225" Type="DBpedia-Spotlight" StartNode="2812" EndNode="2819">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Disease</Value>
+</Feature>
+</Annotation>
+<Annotation Id="224" Type="DBpedia-Spotlight" StartNode="2708" EndNode="2714">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Tissue_(biology)</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="147">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="149" EndNode="1301">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="1303" EndNode="2949">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,1869 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="2">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/lauruhnm/Documents/ResearchProjects/Wikification/STMCor10/STM-5K/Fertilizer1950.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Phosphorus<Node id="10"/> <Node id="11"/>levels<Node id="17"/> in <Node id="21"/>croplands<Node id="30"/> of the <Node id="38"/>European Union<Node id="52"/> with <Node id="58"/>implications<Node id="70"/> for <Node id="75"/>P <Node id="77"/>fertilizer<Node id="87"/> use&#xd;
+<Node id="93"/>&#xd;
+<Node id="95"/>Highlights&#xd;
+&#x2022; <Node id="109"/>Soil<Node id="113"/> P supply and <Node id="127"/>fertilizer<Node id="137"/> need maps<Node id="147"/> of the <Node id="155"/>EU<Node id="157"/> were elaborated for <Node id="178"/>the first<Node id="187"/> <Node id="188"/>time<Node id="192"/>.&#xd;
+&#x2022; Estimated <Node id="207"/>annual<Node id="213"/> P input<Node id="221"/> <Node id="222"/>need<Node id="226"/> of the <Node id="234"/>EU<Node id="236"/>'s<Node id="238"/> <Node id="239"/>agriculture<Node id="250"/> is 3.85 million <Node id="267"/>tons<Node id="271"/>.&#xd;
+&#x2022; <Node id="276"/>Plant<Node id="281"/> available P in <Node id="297"/>cropland<Node id="305"/> <Node id="306"/>soils<Node id="311"/> follows <Node id="320"/>climatic<Node id="328"/> <Node id="329"/>patterns<Node id="337"/> and <Node id="342"/>yield<Node id="347"/> <Node id="348"/>levels<Node id="354"/> in the <Node id="362"/>EU<Node id="364"/>.&#xd;
+&#x2022; <Node id="369"/>Regional<Node id="377"/> P <Node id="380"/>means<Node id="385"/> <Node id="386"/>vary<Node id="390"/> largely but <Node id="403"/>cases<Node id="408"/> with <Node id="414"/>high<Node id="418"/> P <Node id="421"/>levels<Node id="427"/> are present in all <Node id="447"/>regions<Node id="454"/>.&#xd;
+&#x2022; Inconsistencies between advised and reported P <Node id="506"/>fertilizer<Node id="516"/> consumptions pointed out.&#xd;
+<Node id="544"/>&#xd;
+<Node id="546"/>Abstract&#xd;
+<Node id="556"/>&#xd;
+<Node id="558"/>In the <Node id="565"/>frame<Node id="570"/> of the <Node id="578"/>Land Use<Node id="586"/>/Land Cover Area Frame <Node id="609"/>Survey<Node id="615"/> sampling<Node id="624"/> of <Node id="628"/>topsoil<Node id="635"/> was <Node id="640"/>carried<Node id="647"/> out on around 22,000 <Node id="669"/>points<Node id="675"/> in <Node id="679"/>25 <Node id="682"/>EU Member States<Node id="698"/> in 2009 and in additional 2 <Node id="727"/>Member States<Node id="740"/> in 2012.&#xd;
+Besides other <Node id="765"/>basic<Node id="770"/> <Node id="771"/>soil<Node id="775"/> properties<Node id="786"/> <Node id="787"/>soil<Node id="791"/> <Node id="792"/>phosphorus<Node id="802"/> (P) <Node id="807"/>content<Node id="814"/> of the <Node id="822"/>samples<Node id="829"/> were also <Node id="840"/>measured<Node id="848"/> in a <Node id="854"/>single<Node id="860"/> <Node id="861"/>laboratory<Node id="871"/> in both <Node id="880"/>years<Node id="885"/>.&#xd;
+Based on the <Node id="901"/>results<Node id="908"/> of the<Node id="915"/> <Node id="916"/>LUCAS<Node id="921"/> <Node id="922"/>topsoil<Node id="929"/> survey<Node id="936"/> we performed an assessment of <Node id="967"/>plant<Node id="972"/> available P <Node id="985"/>status<Node id="991"/> of <Node id="995"/>European croplands<Node id="1013"/>.&#xd;
+<Node id="1016"/>Higher<Node id="1022"/> P <Node id="1025"/>levels<Node id="1031"/> can be <Node id="1039"/>observed<Node id="1047"/> in regions where <Node id="1065"/>higher<Node id="1071"/> <Node id="1072"/>crop yields<Node id="1083"/> can be expected and where <Node id="1110"/>high<Node id="1114"/> <Node id="1115"/>fertilizer<Node id="1125"/> P <Node id="1128"/>inputs<Node id="1134"/> are <Node id="1139"/>reported<Node id="1147"/>.&#xd;
+<Node id="1150"/>Plant<Node id="1155"/> <Node id="1156"/>available<Node id="1165"/> <Node id="1166"/>phosphorus<Node id="1176"/> <Node id="1177"/>levels<Node id="1183"/> were <Node id="1189"/>determined<Node id="1199"/> using two selected <Node id="1219"/>fertilizer<Node id="1229"/> <Node id="1230"/>recommendation systems<Node id="1252"/>: one from <Node id="1263"/>Hungary<Node id="1270"/> and one from the <Node id="1288"/>United Kingdom<Node id="1302"/>.&#xd;
+The <Node id="1309"/>fertilizer<Node id="1319"/> <Node id="1320"/>recommendation system<Node id="1341"/> of the <Node id="1349"/>UK<Node id="1351"/> <Node id="1352"/>does not<Node id="1360"/> recommend additional <Node id="1382"/>fertilizer<Node id="1392"/> use on <Node id="1400"/>croplands<Node id="1409"/> with <Node id="1415"/>highest<Node id="1422"/> P <Node id="1425"/>supply<Node id="1431"/>, which covers regions mostly in <Node id="1464"/>Belgium<Node id="1471"/> and <Node id="1476"/>the <Node id="1480"/>Netherlands<Node id="1491"/>.&#xd;
+According to a <Node id="1509"/>Hungarian<Node id="1518"/> <Node id="1519"/>advisory<Node id="1527"/> system there is a <Node id="1546"/>need<Node id="1550"/> for <Node id="1555"/>fertilizer<Node id="1565"/> P input in all regions of the <Node id="1596"/>EU<Node id="1598"/>.&#xd;
+We established a <Node id="1618"/>P <Node id="1620"/>fertilizer<Node id="1630"/> <Node id="1631"/>need<Node id="1635"/> <Node id="1636"/>map<Node id="1639"/> based on integrating <Node id="1661"/>results<Node id="1668"/> from the two <Node id="1682"/>systems<Node id="1689"/>.&#xd;
+Based on data from 2009 and 2012, <Node id="1726"/>P input <Node id="1734"/>demand<Node id="1740"/> of <Node id="1744"/>croplands<Node id="1753"/> in the <Node id="1761"/>European Union<Node id="1775"/> was <Node id="1780"/>estimated<Node id="1789"/> to 3,849,873 tons(<Node id="1808"/>P2O5<Node id="1812"/>)/year.&#xd;
+Meanwhile we found <Node id="1840"/>disparities<Node id="1851"/> of <Node id="1855"/>calculated<Node id="1865"/> input <Node id="1872"/>need<Node id="1876"/> and reported <Node id="1890"/>fertilizer<Node id="1900"/> <Node id="1901"/>statistics<Node id="1911"/> both on <Node id="1920"/>local<Node id="1925"/> (<Node id="1927"/>country<Node id="1934"/>) <Node id="1936"/>scale<Node id="1941"/> and <Node id="1946"/>EU<Node id="1948"/> <Node id="1949"/>level<Node id="1954"/>.&#xd;
+<Node id="1957"/>The first<Node id="1966"/> ever <Node id="1972"/>uniform<Node id="1979"/> <Node id="1980"/>topsoil<Node id="1987"/> P survey<Node id="1996"/> of the <Node id="2004"/>EU<Node id="2006"/> highlights the <Node id="2022"/>contradictions<Node id="2036"/> between <Node id="2045"/>soil<Node id="2049"/> P management of <Node id="2066"/>different<Node id="2075"/> <Node id="2076"/>countries<Node id="2085"/> of the <Node id="2093"/>Union<Node id="2098"/> and the <Node id="2107"/>inconsistencies<Node id="2122"/> between reported P <Node id="2142"/>fertilizer<Node id="2152"/> <Node id="2153"/>consumption<Node id="2164"/> and advised P doses.&#xd;
+<Node id="2187"/>Our<Node id="2190"/> analysis shows a status of a <Node id="2220"/>baseline<Node id="2228"/> <Node id="2229"/>period<Node id="2235"/> of the <Node id="2243"/>years<Node id="2248"/> 2009 and 2012, while a <Node id="2272"/>repeated<Node id="2280"/> <Node id="2281"/>LUCAS<Node id="2286"/> <Node id="2287"/>topsoil<Node id="2294"/> survey can be a useful <Node id="2318"/>tool<Node id="2322"/> to <Node id="2326"/>monitor<Node id="2333"/> <Node id="2334"/>future<Node id="2340"/> <Node id="2341"/>changes<Node id="2348"/> of <Node id="2352"/>nutrient<Node id="2360"/> <Node id="2361"/>levels<Node id="2367"/>, including P in <Node id="2384"/>soils<Node id="2389"/> of the <Node id="2397"/>EU<Node id="2399"/>.&#xd;
+<Node id="2402"/>&#xd;
+<Node id="2404"/>Introduction&#xd;
+<Node id="2418"/>&#xd;
+<Node id="2420"/>Soil<Node id="2424"/> represents a <Node id="2438"/>temporary<Node id="2447"/> <Node id="2448"/>reservoir<Node id="2457"/> for <Node id="2462"/>phosphorus<Node id="2472"/> (P) in which its <Node id="2490"/>availability<Node id="2502"/> affects <Node id="2511"/>plant<Node id="2516"/> growth<Node id="2523"/> and <Node id="2528"/>biological<Node id="2538"/> processes (Lair et al., 2009).&#xd;
+<Node id="2571"/>Soil<Node id="2575"/> <Node id="2576"/>phosphorus<Node id="2586"/> (P) is an <Node id="2597"/>essential element<Node id="2614"/> for <Node id="2619"/>plant<Node id="2624"/> <Node id="2625"/>growth<Node id="2631"/> but is often slowly available to <Node id="2665"/>plants<Node id="2671"/> within the <Node id="2683"/>soil<Node id="2687"/> <Node id="2688"/>environment<Node id="2699"/>.&#xd;
+This is mainly due to <Node id="2724"/>soil<Node id="2728"/> P being <Node id="2737"/>sorbed<Node id="2743"/> to the <Node id="2751"/>soil<Node id="2755"/> <Node id="2756"/>reactive<Node id="2764"/> <Node id="2765"/>clay<Node id="2769"/> <Node id="2770"/>surfaces<Node id="2778"/>, <Node id="2780"/>Al<Node id="2782"/> and <Node id="2787"/>Fe<Node id="2789"/> <Node id="2790"/>oxides<Node id="2796"/>, <Node id="2798"/>carbonates<Node id="2808"/>, <Node id="2810"/>organic matter<Node id="2824"/>.&#xd;
+The <Node id="2831"/>soil pH<Node id="2838"/> then determines the <Node id="2859"/>chemical<Node id="2867"/> <Node id="2868"/>complexion<Node id="2878"/> of P (<Node id="2885"/>Torrent<Node id="2892"/>, 1997; Borggaard et <Node id="2913"/>al<Node id="2915"/>., 2004).<Node id="2924"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="6" Type="CCG-Illinois" StartNode="0" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="CCG-Illinois" StartNode="11" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level_(video_gaming)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="CCG-Illinois" StartNode="21" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="CCG-Illinois" StartNode="38" EndNode="52">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="CCG-Illinois" StartNode="58" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Implication</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="CCG-Illinois" StartNode="155" EndNode="157">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="CCG-Illinois" StartNode="178" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_automotive_superlatives</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="CCG-Illinois" StartNode="188" EndNode="192">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Time</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="CCG-Illinois" StartNode="207" EndNode="213">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Annual_plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="CCG-Illinois" StartNode="222" EndNode="226">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Need</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="CCG-Illinois" StartNode="239" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Agriculture</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="CCG-Illinois" StartNode="234" EndNode="236">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="CCG-Illinois" StartNode="276" EndNode="281">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="CCG-Illinois" StartNode="267" EndNode="271">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Tons</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="CCG-Illinois" StartNode="320" EndNode="328">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Climate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="CCG-Illinois" StartNode="297" EndNode="305">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="CCG-Illinois" StartNode="342" EndNode="347">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Yield</Value>
+</Feature>
+</Annotation>
+<Annotation Id="22" Type="CCG-Illinois" StartNode="329" EndNode="337">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pattern</Value>
+</Feature>
+</Annotation>
+<Annotation Id="25" Type="CCG-Illinois" StartNode="362" EndNode="364">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="24" Type="CCG-Illinois" StartNode="348" EndNode="354">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level_(video_gaming)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="27" Type="CCG-Illinois" StartNode="380" EndNode="385">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Wealth</Value>
+</Feature>
+</Annotation>
+<Annotation Id="26" Type="CCG-Illinois" StartNode="369" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Northeast_Regional</Value>
+</Feature>
+</Annotation>
+<Annotation Id="29" Type="CCG-Illinois" StartNode="403" EndNode="408">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Grammatical_case</Value>
+</Feature>
+</Annotation>
+<Annotation Id="28" Type="CCG-Illinois" StartNode="386" EndNode="390">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Variance</Value>
+</Feature>
+</Annotation>
+<Annotation Id="31" Type="CCG-Illinois" StartNode="421" EndNode="427">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level_(video_gaming)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="30" Type="CCG-Illinois" StartNode="414" EndNode="418">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Secondary_education</Value>
+</Feature>
+</Annotation>
+<Annotation Id="34" Type="CCG-Illinois" StartNode="565" EndNode="570">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Film_frame</Value>
+</Feature>
+</Annotation>
+<Annotation Id="35" Type="CCG-Illinois" StartNode="578" EndNode="586">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Land_use</Value>
+</Feature>
+</Annotation>
+<Annotation Id="32" Type="CCG-Illinois" StartNode="447" EndNode="454">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="33" Type="CCG-Illinois" StartNode="506" EndNode="516">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="38" Type="CCG-Illinois" StartNode="669" EndNode="675">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Railroad_switch</Value>
+</Feature>
+</Annotation>
+<Annotation Id="39" Type="CCG-Illinois" StartNode="682" EndNode="698">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Member_state_of_the_European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="36" Type="CCG-Illinois" StartNode="628" EndNode="635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="37" Type="CCG-Illinois" StartNode="640" EndNode="647">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Broadcasting</Value>
+</Feature>
+</Annotation>
+<Annotation Id="42" Type="CCG-Illinois" StartNode="792" EndNode="802">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="43" Type="CCG-Illinois" StartNode="787" EndNode="791">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="40" Type="CCG-Illinois" StartNode="727" EndNode="740">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Member_state_of_the_European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="41" Type="CCG-Illinois" StartNode="765" EndNode="770">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Base_(chemistry)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="46" Type="CCG-Illinois" StartNode="822" EndNode="829">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sampling_(music)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="47" Type="CCG-Illinois" StartNode="840" EndNode="848">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Measurement</Value>
+</Feature>
+</Annotation>
+<Annotation Id="44" Type="CCG-Illinois" StartNode="771" EndNode="786">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil_mechanics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="45" Type="CCG-Illinois" StartNode="807" EndNode="814">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Content</Value>
+</Feature>
+</Annotation>
+<Annotation Id="51" Type="CCG-Illinois" StartNode="901" EndNode="908">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Result</Value>
+</Feature>
+</Annotation>
+<Annotation Id="50" Type="CCG-Illinois" StartNode="880" EndNode="885">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="49" Type="CCG-Illinois" StartNode="861" EndNode="871">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Laboratory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="48" Type="CCG-Illinois" StartNode="854" EndNode="860">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Single_(music)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="55" Type="CCG-Illinois" StartNode="985" EndNode="991">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Status</Value>
+</Feature>
+</Annotation>
+<Annotation Id="54" Type="CCG-Illinois" StartNode="967" EndNode="972">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="53" Type="CCG-Illinois" StartNode="922" EndNode="929">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="52" Type="CCG-Illinois" StartNode="916" EndNode="921">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Lucas_(film)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="59" Type="CCG-Illinois" StartNode="1025" EndNode="1031">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level_(video_gaming)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="58" Type="CCG-Illinois" StartNode="1016" EndNode="1022">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Higher_(Scottish)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="63" Type="CCG-Illinois" StartNode="1110" EndNode="1114">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Secondary_education</Value>
+</Feature>
+</Annotation>
+<Annotation Id="62" Type="CCG-Illinois" StartNode="1072" EndNode="1083">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Crop_yield</Value>
+</Feature>
+</Annotation>
+<Annotation Id="61" Type="CCG-Illinois" StartNode="1065" EndNode="1071">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Higher_education</Value>
+</Feature>
+</Annotation>
+<Annotation Id="60" Type="CCG-Illinois" StartNode="1039" EndNode="1047">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="CCG-Illinois" StartNode="1156" EndNode="1165">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Availability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="CCG-Illinois" StartNode="1166" EndNode="1176">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="CCG-Illinois" StartNode="1177" EndNode="1183">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level_(video_gaming)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="CCG-Illinois" StartNode="1189" EndNode="1199">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Determinism</Value>
+</Feature>
+</Annotation>
+<Annotation Id="64" Type="CCG-Illinois" StartNode="1115" EndNode="1125">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="65" Type="CCG-Illinois" StartNode="1128" EndNode="1134">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Input</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="CCG-Illinois" StartNode="1139" EndNode="1147">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Law_report</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="CCG-Illinois" StartNode="1150" EndNode="1155">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="CCG-Illinois" StartNode="1309" EndNode="1319">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="CCG-Illinois" StartNode="1349" EndNode="1351">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/United_Kingdom</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="CCG-Illinois" StartNode="1352" EndNode="1360">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Concealed_ovulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="CCG-Illinois" StartNode="1382" EndNode="1392">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="CCG-Illinois" StartNode="1263" EndNode="1270">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Hungary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="CCG-Illinois" StartNode="1288" EndNode="1302">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/United_Kingdom</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="CCG-Illinois" StartNode="1320" EndNode="1341">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Recommender_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="CCG-Illinois" StartNode="1519" EndNode="1527">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Advice</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="CCG-Illinois" StartNode="1509" EndNode="1518">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Hungary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="CCG-Illinois" StartNode="1555" EndNode="1565">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="CCG-Illinois" StartNode="1546" EndNode="1550">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Need</Value>
+</Feature>
+</Annotation>
+<Annotation Id="81" Type="CCG-Illinois" StartNode="1415" EndNode="1422">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Elevation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="80" Type="CCG-Illinois" StartNode="1400" EndNode="1409">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="CCG-Illinois" StartNode="1464" EndNode="1491">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Seventeen_Provinces</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="CCG-Illinois" StartNode="1425" EndNode="1431">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Supply</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="CCG-Illinois" StartNode="1682" EndNode="1689">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/System</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="CCG-Illinois" StartNode="1661" EndNode="1668">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Result</Value>
+</Feature>
+</Annotation>
+<Annotation Id="95" Type="CCG-Illinois" StartNode="1744" EndNode="1753">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="94" Type="CCG-Illinois" StartNode="1734" EndNode="1740">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Supply_and_demand</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="CCG-Illinois" StartNode="1620" EndNode="1630">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="CCG-Illinois" StartNode="1596" EndNode="1598">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="CCG-Illinois" StartNode="1636" EndNode="1639">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Map</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="CCG-Illinois" StartNode="1631" EndNode="1635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Need</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="CCG-Illinois" StartNode="1890" EndNode="1900">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="CCG-Illinois" StartNode="1901" EndNode="1911">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Statistics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="CCG-Illinois" StartNode="1855" EndNode="1865">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Calculation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="CCG-Illinois" StartNode="1872" EndNode="1876">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Need</Value>
+</Feature>
+</Annotation>
+<Annotation Id="98" Type="CCG-Illinois" StartNode="1808" EndNode="1812">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus_pentoxide</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="CCG-Illinois" StartNode="1840" EndNode="1851">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Disparity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="96" Type="CCG-Illinois" StartNode="1761" EndNode="1775">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="CCG-Illinois" StartNode="1780" EndNode="1789">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Estimation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="CCG-Illinois" StartNode="1972" EndNode="1979">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Uniform</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="CCG-Illinois" StartNode="1980" EndNode="1987">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="CCG-Illinois" StartNode="1949" EndNode="1954">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="CCG-Illinois" StartNode="1957" EndNode="1966">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/National_Union_Government_(1916)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="CCG-Illinois" StartNode="1936" EndNode="1941">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Scale_(music)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="CCG-Illinois" StartNode="1946" EndNode="1948">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="CCG-Illinois" StartNode="1920" EndNode="1925">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Local_government</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="CCG-Illinois" StartNode="1927" EndNode="1934">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="CCG-Illinois" StartNode="2142" EndNode="2152">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="CCG-Illinois" StartNode="2107" EndNode="2122">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Consistency</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="CCG-Illinois" StartNode="2093" EndNode="2098">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="CCG-Illinois" StartNode="2076" EndNode="2085">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Country</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="CCG-Illinois" StartNode="2066" EndNode="2075">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Difference</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="CCG-Illinois" StartNode="2045" EndNode="2049">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="CCG-Illinois" StartNode="2022" EndNode="2036">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Contradiction</Value>
+</Feature>
+</Annotation>
+<Annotation Id="112" Type="CCG-Illinois" StartNode="2004" EndNode="2006">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="CCG-Illinois" StartNode="2287" EndNode="2294">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="CCG-Illinois" StartNode="2281" EndNode="2286">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Lucas_(film)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="CCG-Illinois" StartNode="2272" EndNode="2280">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Rerun</Value>
+</Feature>
+</Annotation>
+<Annotation Id="124" Type="CCG-Illinois" StartNode="2243" EndNode="2248">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Year</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="CCG-Illinois" StartNode="2229" EndNode="2235">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Period_(geology)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="CCG-Illinois" StartNode="2220" EndNode="2228">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Baseline_(surveying)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="CCG-Illinois" StartNode="2187" EndNode="2190">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Our_(river)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="CCG-Illinois" StartNode="2153" EndNode="2164">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Consumption_(economics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="CCG-Illinois" StartNode="2462" EndNode="2472">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="CCG-Illinois" StartNode="2448" EndNode="2457">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Reservoir</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="CCG-Illinois" StartNode="2511" EndNode="2523">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="CCG-Illinois" StartNode="2490" EndNode="2502">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Availability</Value>
+</Feature>
+</Annotation>
+<Annotation Id="141" Type="CCG-Illinois" StartNode="2576" EndNode="2586">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="CCG-Illinois" StartNode="2528" EndNode="2538">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Biology</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="CCG-Illinois" StartNode="2597" EndNode="2614">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Dietary_element</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="CCG-Illinois" StartNode="2571" EndNode="2575">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="CCG-Illinois" StartNode="2326" EndNode="2333">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Monitor_(warship)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="128" Type="CCG-Illinois" StartNode="2318" EndNode="2322">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Tool</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="CCG-Illinois" StartNode="2341" EndNode="2348">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Chord_progression</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="CCG-Illinois" StartNode="2334" EndNode="2340">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Future</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="CCG-Illinois" StartNode="2361" EndNode="2367">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Level_(video_gaming)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="CCG-Illinois" StartNode="2352" EndNode="2360">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nutrient</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="CCG-Illinois" StartNode="2438" EndNode="2447">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Temporary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="CCG-Illinois" StartNode="2397" EndNode="2399">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="CCG-Illinois" StartNode="2765" EndNode="2769">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Clay</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="CCG-Illinois" StartNode="2770" EndNode="2778">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Surface</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="CCG-Illinois" StartNode="2780" EndNode="2782">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Aluminium</Value>
+</Feature>
+</Annotation>
+<Annotation Id="155" Type="CCG-Illinois" StartNode="2787" EndNode="2789">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Iron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="CCG-Illinois" StartNode="2798" EndNode="2808">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Carbonate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="CCG-Illinois" StartNode="2810" EndNode="2824">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Organic_matter</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="CCG-Illinois" StartNode="2831" EndNode="2838">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil_pH</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="CCG-Illinois" StartNode="2868" EndNode="2878">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Complexion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="144" Type="CCG-Illinois" StartNode="2619" EndNode="2624">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="CCG-Illinois" StartNode="2625" EndNode="2631">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Economic_growth</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="CCG-Illinois" StartNode="2683" EndNode="2687">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="CCG-Illinois" StartNode="2688" EndNode="2699">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ecosystem</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="CCG-Illinois" StartNode="2724" EndNode="2728">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="CCG-Illinois" StartNode="2737" EndNode="2743">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sorption</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="CCG-Illinois" StartNode="2751" EndNode="2755">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="CCG-Illinois" StartNode="2756" EndNode="2764">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Chemical_reaction</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="Wikipedia-Miner" StartNode="276" EndNode="281">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="Wikipedia-Miner" StartNode="239" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Agriculture</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Wikipedia-Miner" StartNode="234" EndNode="238">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Wikipedia-Miner" StartNode="155" EndNode="157">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="175" Type="Wikipedia-Miner" StartNode="506" EndNode="516">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="174" Type="Wikipedia-Miner" StartNode="362" EndNode="364">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="173" Type="Wikipedia-Miner" StartNode="320" EndNode="328">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Climate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="172" Type="Wikipedia-Miner" StartNode="297" EndNode="305">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Wikipedia-Miner" StartNode="0" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="CCG-Illinois" StartNode="2913" EndNode="2915">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Arabic_definite_article</Value>
+</Feature>
+</Annotation>
+<Annotation Id="160" Type="CCG-Illinois" StartNode="2859" EndNode="2867">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Chemical_substance</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Wikipedia-Miner" StartNode="127" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="166" Type="Wikipedia-Miner" StartNode="77" EndNode="87">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Wikipedia-Miner" StartNode="38" EndNode="52">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Wikipedia-Miner" StartNode="21" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Wikipedia-Miner" StartNode="1150" EndNode="1155">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Wikipedia-Miner" StartNode="1166" EndNode="1176">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Wikipedia-Miner" StartNode="1115" EndNode="1125">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="Wikipedia-Miner" StartNode="1288" EndNode="1302">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/United_Kingdom</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="Wikipedia-Miner" StartNode="1349" EndNode="1351">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/United_Kingdom</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Wikipedia-Miner" StartNode="1219" EndNode="1229">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Wikipedia-Miner" StartNode="1263" EndNode="1270">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Hungary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="178" Type="Wikipedia-Miner" StartNode="679" EndNode="698">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Member_state_of_the_European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="Wikipedia-Miner" StartNode="727" EndNode="740">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Member_state_of_the_European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="176" Type="Wikipedia-Miner" StartNode="609" EndNode="624">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Survey_sampling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="177" Type="Wikipedia-Miner" StartNode="628" EndNode="635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="Wikipedia-Miner" StartNode="922" EndNode="929">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="Wikipedia-Miner" StartNode="967" EndNode="972">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="Wikipedia-Miner" StartNode="792" EndNode="802">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="181" Type="Wikipedia-Miner" StartNode="861" EndNode="871">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Laboratory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="Wikipedia-Miner" StartNode="1946" EndNode="1948">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="Wikipedia-Miner" StartNode="1901" EndNode="1911">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Statistics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="Wikipedia-Miner" StartNode="2004" EndNode="2006">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="206" Type="Wikipedia-Miner" StartNode="1980" EndNode="1987">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="Wikipedia-Miner" StartNode="1744" EndNode="1753">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="Wikipedia-Miner" StartNode="1620" EndNode="1630">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="203" Type="Wikipedia-Miner" StartNode="1890" EndNode="1900">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="Wikipedia-Miner" StartNode="1761" EndNode="1775">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="Wikipedia-Miner" StartNode="1509" EndNode="1518">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Hungary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="Wikipedia-Miner" StartNode="1476" EndNode="1491">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Netherlands</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="Wikipedia-Miner" StartNode="1596" EndNode="1598">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="Wikipedia-Miner" StartNode="1555" EndNode="1565">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="Wikipedia-Miner" StartNode="1382" EndNode="1392">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="192" Type="Wikipedia-Miner" StartNode="1309" EndNode="1319">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="Wikipedia-Miner" StartNode="1464" EndNode="1471">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Belgium</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="Wikipedia-Miner" StartNode="1400" EndNode="1409">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Farm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="220" Type="Wikipedia-Miner" StartNode="2798" EndNode="2808">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Carbonate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="221" Type="Wikipedia-Miner" StartNode="2831" EndNode="2838">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Soil_pH</Value>
+</Feature>
+</Annotation>
+<Annotation Id="222" Type="DBpedia-Spotlight" StartNode="0" EndNode="10">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="223" Type="DBpedia-Spotlight" StartNode="21" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Crop</Value>
+</Feature>
+</Annotation>
+<Annotation Id="216" Type="Wikipedia-Miner" StartNode="2619" EndNode="2624">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="217" Type="Wikipedia-Miner" StartNode="2665" EndNode="2671">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="218" Type="Wikipedia-Miner" StartNode="2737" EndNode="2743">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sorption</Value>
+</Feature>
+</Annotation>
+<Annotation Id="219" Type="Wikipedia-Miner" StartNode="2765" EndNode="2769">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Clay</Value>
+</Feature>
+</Annotation>
+<Annotation Id="212" Type="Wikipedia-Miner" StartNode="2448" EndNode="2457">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Reservoir</Value>
+</Feature>
+</Annotation>
+<Annotation Id="213" Type="Wikipedia-Miner" StartNode="2462" EndNode="2472">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="Wikipedia-Miner" StartNode="2511" EndNode="2516">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="215" Type="Wikipedia-Miner" StartNode="2576" EndNode="2586">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="208" Type="Wikipedia-Miner" StartNode="2142" EndNode="2152">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="Wikipedia-Miner" StartNode="2287" EndNode="2294">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="210" Type="Wikipedia-Miner" StartNode="2352" EndNode="2360">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nutrient</Value>
+</Feature>
+</Annotation>
+<Annotation Id="211" Type="Wikipedia-Miner" StartNode="2397" EndNode="2399">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="239" Type="DBpedia-Spotlight" StartNode="727" EndNode="740">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Member_state_of_the_European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="DBpedia-Spotlight" StartNode="682" EndNode="698">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Member_state_of_the_European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="DBpedia-Spotlight" StartNode="628" EndNode="635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="DBpedia-Spotlight" StartNode="609" EndNode="624">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Survey_sampling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="DBpedia-Spotlight" StartNode="506" EndNode="516">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="DBpedia-Spotlight" StartNode="362" EndNode="364">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="DBpedia-Spotlight" StartNode="320" EndNode="328">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Climate_change</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="DBpedia-Spotlight" StartNode="306" EndNode="311">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="231" Type="DBpedia-Spotlight" StartNode="297" EndNode="305">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Crop</Value>
+</Feature>
+</Annotation>
+<Annotation Id="230" Type="DBpedia-Spotlight" StartNode="239" EndNode="250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Agriculture</Value>
+</Feature>
+</Annotation>
+<Annotation Id="229" Type="DBpedia-Spotlight" StartNode="234" EndNode="236">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="228" Type="DBpedia-Spotlight" StartNode="155" EndNode="157">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="227" Type="DBpedia-Spotlight" StartNode="127" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="226" Type="DBpedia-Spotlight" StartNode="109" EndNode="113">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="225" Type="DBpedia-Spotlight" StartNode="77" EndNode="87">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="224" Type="DBpedia-Spotlight" StartNode="38" EndNode="52">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="254" Type="DBpedia-Spotlight" StartNode="1219" EndNode="1229">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="255" Type="DBpedia-Spotlight" StartNode="1230" EndNode="1252">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Recommender_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="252" Type="DBpedia-Spotlight" StartNode="1115" EndNode="1125">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="253" Type="DBpedia-Spotlight" StartNode="1166" EndNode="1176">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="251" Type="DBpedia-Spotlight" StartNode="1072" EndNode="1083">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Crop_yield</Value>
+</Feature>
+</Annotation>
+<Annotation Id="248" Type="DBpedia-Spotlight" StartNode="967" EndNode="972">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="246" Type="DBpedia-Spotlight" StartNode="916" EndNode="921">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Lucas_Industries</Value>
+</Feature>
+</Annotation>
+<Annotation Id="247" Type="DBpedia-Spotlight" StartNode="922" EndNode="929">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="244" Type="DBpedia-Spotlight" StartNode="854" EndNode="860">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Monotypic_taxon</Value>
+</Feature>
+</Annotation>
+<Annotation Id="245" Type="DBpedia-Spotlight" StartNode="861" EndNode="871">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Laboratory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="242" Type="DBpedia-Spotlight" StartNode="792" EndNode="802">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="243" Type="DBpedia-Spotlight" StartNode="822" EndNode="829">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sampling_(statistics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="240" Type="DBpedia-Spotlight" StartNode="771" EndNode="775">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="241" Type="DBpedia-Spotlight" StartNode="787" EndNode="791">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="275" Type="DBpedia-Spotlight" StartNode="2004" EndNode="2006">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="274" Type="DBpedia-Spotlight" StartNode="1980" EndNode="1987">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="273" Type="DBpedia-Spotlight" StartNode="1946" EndNode="1948">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="272" Type="DBpedia-Spotlight" StartNode="1890" EndNode="1900">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="279" Type="DBpedia-Spotlight" StartNode="2153" EndNode="2164">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Consumption_(economics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="278" Type="DBpedia-Spotlight" StartNode="2142" EndNode="2152">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="277" Type="DBpedia-Spotlight" StartNode="2093" EndNode="2098">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soviet_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="276" Type="DBpedia-Spotlight" StartNode="2045" EndNode="2049">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="283" Type="DBpedia-Spotlight" StartNode="2384" EndNode="2389">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="282" Type="DBpedia-Spotlight" StartNode="2352" EndNode="2360">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Nutrient</Value>
+</Feature>
+</Annotation>
+<Annotation Id="281" Type="DBpedia-Spotlight" StartNode="2287" EndNode="2294">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Topsoil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="280" Type="DBpedia-Spotlight" StartNode="2281" EndNode="2286">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Lucas_Industries</Value>
+</Feature>
+</Annotation>
+<Annotation Id="287" Type="DBpedia-Spotlight" StartNode="2462" EndNode="2472">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="286" Type="DBpedia-Spotlight" StartNode="2420" EndNode="2424">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="285" Type="DBpedia-Spotlight" StartNode="2448" EndNode="2457">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Petroleum_reservoir</Value>
+</Feature>
+</Annotation>
+<Annotation Id="284" Type="DBpedia-Spotlight" StartNode="2397" EndNode="2399">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="258" Type="DBpedia-Spotlight" StartNode="1309" EndNode="1319">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="259" Type="DBpedia-Spotlight" StartNode="1320" EndNode="1341">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Recommender_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="256" Type="DBpedia-Spotlight" StartNode="1263" EndNode="1270">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Hungary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="257" Type="DBpedia-Spotlight" StartNode="1288" EndNode="1302">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/United_Kingdom</Value>
+</Feature>
+</Annotation>
+<Annotation Id="262" Type="DBpedia-Spotlight" StartNode="1400" EndNode="1409">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Crop</Value>
+</Feature>
+</Annotation>
+<Annotation Id="263" Type="DBpedia-Spotlight" StartNode="1464" EndNode="1471">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Belgium</Value>
+</Feature>
+</Annotation>
+<Annotation Id="260" Type="DBpedia-Spotlight" StartNode="1349" EndNode="1351">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/United_Kingdom</Value>
+</Feature>
+</Annotation>
+<Annotation Id="261" Type="DBpedia-Spotlight" StartNode="1382" EndNode="1392">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="266" Type="DBpedia-Spotlight" StartNode="1555" EndNode="1565">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="267" Type="DBpedia-Spotlight" StartNode="1596" EndNode="1598">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="264" Type="DBpedia-Spotlight" StartNode="1480" EndNode="1491">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Netherlands</Value>
+</Feature>
+</Annotation>
+<Annotation Id="265" Type="DBpedia-Spotlight" StartNode="1509" EndNode="1518">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Hungary</Value>
+</Feature>
+</Annotation>
+<Annotation Id="270" Type="DBpedia-Spotlight" StartNode="1761" EndNode="1775">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/European_Union</Value>
+</Feature>
+</Annotation>
+<Annotation Id="271" Type="DBpedia-Spotlight" StartNode="1808" EndNode="1812">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Phosphorus_pentoxide</Value>
+</Feature>
+</Annotation>
+<Annotation Id="268" Type="DBpedia-Spotlight" StartNode="1620" EndNode="1630">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Fertilizer</Value>
+</Feature>
+</Annotation>
+<Annotation Id="269" Type="DBpedia-Spotlight" StartNode="1744" EndNode="1753">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Crop</Value>
+</Feature>
+</Annotation>
+<Annotation Id="305" Type="Manual" StartNode="21" EndNode="52">
+</Annotation>
+<Annotation Id="304" Type="DBpedia-Spotlight" StartNode="2885" EndNode="2892">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/BitTorrent</Value>
+</Feature>
+</Annotation>
+<Annotation Id="307" Type="Manual" StartNode="0" EndNode="17">
+</Annotation>
+<Annotation Id="306" Type="Manual" StartNode="75" EndNode="87">
+</Annotation>
+<Annotation Id="308" Type="Manual" StartNode="127" EndNode="147">
+</Annotation>
+<Annotation Id="311" Type="Manual" StartNode="320" EndNode="337">
+</Annotation>
+<Annotation Id="310" Type="Manual" StartNode="207" EndNode="221">
+</Annotation>
+<Annotation Id="313" Type="Manual" StartNode="578" EndNode="615">
+</Annotation>
+<Annotation Id="312" Type="Manual" StartNode="342" EndNode="354">
+</Annotation>
+<Annotation Id="315" Type="Manual" StartNode="915" EndNode="936">
+</Annotation>
+<Annotation Id="314" Type="Manual" StartNode="787" EndNode="814">
+</Annotation>
+<Annotation Id="317" Type="Manual" StartNode="1150" EndNode="1183">
+</Annotation>
+<Annotation Id="316" Type="Manual" StartNode="995" EndNode="1013">
+</Annotation>
+<Annotation Id="319" Type="Manual" StartNode="1263" EndNode="1270">
+</Annotation>
+<Annotation Id="318" Type="Manual" StartNode="1219" EndNode="1252">
+</Annotation>
+<Annotation Id="288" Type="DBpedia-Spotlight" StartNode="2511" EndNode="2516">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="289" Type="DBpedia-Spotlight" StartNode="2571" EndNode="2575">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="290" Type="DBpedia-Spotlight" StartNode="2576" EndNode="2586">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Phosphorus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="291" Type="DBpedia-Spotlight" StartNode="2619" EndNode="2624">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Plant</Value>
+</Feature>
+</Annotation>
+<Annotation Id="292" Type="DBpedia-Spotlight" StartNode="2683" EndNode="2687">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="293" Type="DBpedia-Spotlight" StartNode="2724" EndNode="2728">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="294" Type="DBpedia-Spotlight" StartNode="2737" EndNode="2743">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Sorption</Value>
+</Feature>
+</Annotation>
+<Annotation Id="295" Type="DBpedia-Spotlight" StartNode="2751" EndNode="2755">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil</Value>
+</Feature>
+</Annotation>
+<Annotation Id="296" Type="DBpedia-Spotlight" StartNode="2756" EndNode="2764">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Chemical_reaction</Value>
+</Feature>
+</Annotation>
+<Annotation Id="297" Type="DBpedia-Spotlight" StartNode="2765" EndNode="2769">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Clay</Value>
+</Feature>
+</Annotation>
+<Annotation Id="298" Type="DBpedia-Spotlight" StartNode="2787" EndNode="2789">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Iron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="299" Type="DBpedia-Spotlight" StartNode="2790" EndNode="2796">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Oxygen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="300" Type="DBpedia-Spotlight" StartNode="2798" EndNode="2808">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Carbonate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="301" Type="DBpedia-Spotlight" StartNode="2810" EndNode="2824">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Organic_matter</Value>
+</Feature>
+</Annotation>
+<Annotation Id="302" Type="DBpedia-Spotlight" StartNode="2831" EndNode="2838">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Soil_pH</Value>
+</Feature>
+</Annotation>
+<Annotation Id="303" Type="DBpedia-Spotlight" StartNode="2859" EndNode="2867">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Chemical_substance</Value>
+</Feature>
+</Annotation>
+<Annotation Id="326" Type="Manual" StartNode="1726" EndNode="1740">
+</Annotation>
+<Annotation Id="327" Type="Manual" StartNode="1980" EndNode="1996">
+</Annotation>
+<Annotation Id="324" Type="Manual" StartNode="1618" EndNode="1639">
+</Annotation>
+<Annotation Id="325" Type="Manual" StartNode="1744" EndNode="1775">
+</Annotation>
+<Annotation Id="322" Type="Manual" StartNode="1480" EndNode="1491">
+</Annotation>
+<Annotation Id="320" Type="Manual" StartNode="1288" EndNode="1302">
+</Annotation>
+<Annotation Id="321" Type="Manual" StartNode="1464" EndNode="1471">
+</Annotation>
+<Annotation Id="328" Type="Manual" StartNode="2352" EndNode="2367">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="93">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="95" EndNode="544">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="546" EndNode="556">
+</Annotation>
+<Annotation Id="3" Type="paragraph" StartNode="558" EndNode="2402">
+</Annotation>
+<Annotation Id="4" Type="paragraph" StartNode="2404" EndNode="2418">
+</Annotation>
+<Annotation Id="5" Type="paragraph" StartNode="2420" EndNode="2924">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

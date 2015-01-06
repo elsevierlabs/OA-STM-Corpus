@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="2">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/lauruhnm/Documents/ResearchProjects/Wikification/STMCor10/STM-5K/FlowStructure2729.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Flow structure<Node id="14"/> and <Node id="19"/>near-field<Node id="29"/> <Node id="30"/>dispersion<Node id="40"/> in <Node id="44"/>arrays<Node id="50"/> of building-like obstacles&#xd;
+<Node id="79"/>&#xd;
+<Node id="81"/>Abstract&#xd;
+<Node id="91"/>Dispersion<Node id="101"/> in the <Node id="109"/>near-field region<Node id="126"/> of localised releases in <Node id="152"/>urban areas<Node id="163"/> is difficult to predict because of the strong influence of individual buildings.&#xd;
+Effects include <Node id="262"/>upstream <Node id="271"/>dispersion<Node id="281"/>, trapping of material into building wakes and <Node id="328"/>enhanced <Node id="337"/>concentration<Node id="350"/> fluctuations<Node id="363"/>.&#xd;
+As a result, <Node id="379"/>concentration<Node id="392"/> patterns<Node id="401"/> are highly variable in time and mean profiles in the near field are strongly non-<Node id="483"/>Gaussian<Node id="491"/>.&#xd;
+These aspects of <Node id="511"/>near-field<Node id="521"/> <Node id="522"/>dispersion<Node id="532"/> are documented by analysing data from <Node id="571"/>direct <Node id="578"/>numerical simulations<Node id="599"/> in <Node id="603"/>arrays<Node id="609"/> of building-like obstacles and are related to the underlying flow structure.&#xd;
+The <Node id="692"/>mean flow<Node id="701"/> structure around the buildings is found to exert a strong influence over the <Node id="779"/>dispersion<Node id="789"/> of material in the near field.&#xd;
+<Node id="822"/>Diverging <Node id="832"/>streamlines<Node id="843"/> around buildings enhance <Node id="869"/>lateral<Node id="876"/> <Node id="877"/>dispersion<Node id="887"/>.&#xd;
+<Node id="890"/>Entrainment<Node id="901"/> of material into building wakes in the very near field gives rise to secondary sources, which then affect the subsequent <Node id="1023"/>dispersion<Node id="1033"/> pattern<Node id="1041"/>.&#xd;
+<Node id="1044"/>High levels<Node id="1055"/> of <Node id="1059"/>concentration<Node id="1072"/> fluctuations<Node id="1085"/> are also found in this very near field; the fluctuation intensity is of order 2 to 5.&#xd;
+Highlights&#xd;
+&#x2022; We document key aspects of <Node id="1214"/>near-field<Node id="1224"/> <Node id="1225"/>dispersion<Node id="1235"/> in <Node id="1239"/>urban areas<Node id="1250"/> using <Node id="1257"/>DNS<Node id="1260"/> data<Node id="1265"/>.&#xd;
+&#x2022; We relate these <Node id="1286"/>dispersion<Node id="1296"/> features to the <Node id="1313"/>underlying flow structure<Node id="1338"/>.&#xd;
+&#x2022; The effects of <Node id="1358"/>wind direction<Node id="1372"/>, building layout and source location are examined.&#xd;
+&#x2022; Secondary sources in the near field have a strong effect on the <Node id="1491"/>plume<Node id="1496"/> spread.&#xd;
+&#x2022; <Node id="1508"/>Concentration<Node id="1521"/> means<Node id="1527"/> and fluctuations are mapped and their <Node id="1566"/>magnitudes<Node id="1576"/> quantified.&#xd;
+<Node id="1590"/>&#xd;
+<Node id="1592"/>Introduction&#xd;
+Understanding <Node id="1620"/>dispersion<Node id="1630"/> processes in <Node id="1644"/>urban areas<Node id="1655"/> is important for <Node id="1673"/>modelling<Node id="1682"/> <Node id="1683"/>air quality<Node id="1694"/> as well as <Node id="1706"/>pollution<Node id="1715"/> from accidental or <Node id="1735"/>terrorist<Node id="1744"/> releases.&#xd;
+The <Node id="1760"/>chaotic nature<Node id="1774"/> of <Node id="1778"/>turbulent flow<Node id="1792"/> and the complexity of the building <Node id="1828"/>geometry<Node id="1836"/> both contribute to making such <Node id="1868"/>modelling<Node id="1877"/> non-trivial.&#xd;
+Urban <Node id="1898"/>geometry<Node id="1906"/> affects the <Node id="1919"/>mean flow<Node id="1928"/> and <Node id="1933"/>turbulence<Node id="1943"/> significantly (Barlow and Coceal, 2009) and thereby exerts a strong control on <Node id="2023"/>dispersion<Node id="2033"/> processes (Belcher, 2005).&#xd;
+For localised releases, such effects are particularly important in the <Node id="2133"/>near-field region<Node id="2150"/> (here defined as within a few building blocks of the release), where conventional models such as <Node id="2248"/>Gaussian<Node id="2256"/> <Node id="2257"/>plume<Node id="2262"/> models fail (Belcher et al., 2013).&#xd;
+In this <Node id="2308"/>region<Node id="2314"/>, certain characteristics of the <Node id="2347"/>dispersion<Node id="2357"/> become significant, although they are usually justifiably neglected further downstream.&#xd;
+Recently, Wood et al. (2009) reported above-background dosages within 6-8 times the building height in all directions around the source in <Node id="2586"/>field experiments<Node id="2603"/> in <Node id="2607"/>central London<Node id="2621"/>.&#xd;
+But comprehensive data and understanding on these <Node id="2674"/>near-field<Node id="2684"/> <Node id="2685"/>dispersion<Node id="2695"/> aspects are currently lacking.&#xd;
+The present paper is an attempt to document such <Node id="2777"/>near-field<Node id="2787"/> aspects for simple urban-like <Node id="2818"/>geometries<Node id="2828"/>, where their effects can be more easily isolated and therefore better understood.<Node id="2910"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="3" Type="Wikipedia-Miner" StartNode="337" EndNode="350">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="4" Type="Wikipedia-Miner" StartNode="379" EndNode="392">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="5" Type="Wikipedia-Miner" StartNode="578" EndNode="599">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Computer_simulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="Wikipedia-Miner" StartNode="692" EndNode="701">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Discharge_%28hydrology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Wikipedia-Miner" StartNode="1059" EndNode="1072">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Wikipedia-Miner" StartNode="1508" EndNode="1521">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Wikipedia-Miner" StartNode="1673" EndNode="1682">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Computer_simulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Wikipedia-Miner" StartNode="1683" EndNode="1694">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Air_pollution</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Wikipedia-Miner" StartNode="1706" EndNode="1715">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pollution</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Wikipedia-Miner" StartNode="1735" EndNode="1744">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Terrorism</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Wikipedia-Miner" StartNode="1760" EndNode="1774">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Chaos_theory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Wikipedia-Miner" StartNode="1778" EndNode="1792">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Turbulence</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Wikipedia-Miner" StartNode="1828" EndNode="1836">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Geometry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Wikipedia-Miner" StartNode="1898" EndNode="1906">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Geometry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="Wikipedia-Miner" StartNode="1868" EndNode="1877">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Computer_simulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="Wikipedia-Miner" StartNode="1933" EndNode="1943">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Turbulence</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="Wikipedia-Miner" StartNode="1919" EndNode="1928">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Discharge_%28hydrology%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="DBpedia-Spotlight" StartNode="19" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="Wikipedia-Miner" StartNode="2818" EndNode="2828">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Geometry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="DBpedia-Spotlight" StartNode="44" EndNode="50">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Matrix_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="22" Type="DBpedia-Spotlight" StartNode="30" EndNode="40">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="25" Type="DBpedia-Spotlight" StartNode="109" EndNode="126">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="24" Type="DBpedia-Spotlight" StartNode="91" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Dispersion_relation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="27" Type="DBpedia-Spotlight" StartNode="271" EndNode="281">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="26" Type="DBpedia-Spotlight" StartNode="152" EndNode="163">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Urban_area</Value>
+</Feature>
+</Annotation>
+<Annotation Id="29" Type="DBpedia-Spotlight" StartNode="379" EndNode="392">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="28" Type="DBpedia-Spotlight" StartNode="337" EndNode="350">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="31" Type="DBpedia-Spotlight" StartNode="511" EndNode="521">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="34" Type="DBpedia-Spotlight" StartNode="603" EndNode="609">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Matrix_%28mathematics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="35" Type="DBpedia-Spotlight" StartNode="779" EndNode="789">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="32" Type="DBpedia-Spotlight" StartNode="522" EndNode="532">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="33" Type="DBpedia-Spotlight" StartNode="571" EndNode="599">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Direct_numerical_simulation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="38" Type="DBpedia-Spotlight" StartNode="877" EndNode="887">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="39" Type="DBpedia-Spotlight" StartNode="890" EndNode="901">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Entrainment_%28engineering%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="36" Type="DBpedia-Spotlight" StartNode="832" EndNode="843">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Streamlines,_streaklines,_and_pathlines</Value>
+</Feature>
+</Annotation>
+<Annotation Id="37" Type="DBpedia-Spotlight" StartNode="869" EndNode="876">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Anatomical_terms_of_location</Value>
+</Feature>
+</Annotation>
+<Annotation Id="42" Type="DBpedia-Spotlight" StartNode="1214" EndNode="1224">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="43" Type="DBpedia-Spotlight" StartNode="1225" EndNode="1235">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="40" Type="DBpedia-Spotlight" StartNode="1023" EndNode="1033">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="41" Type="DBpedia-Spotlight" StartNode="1059" EndNode="1072">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Concentration</Value>
+</Feature>
+</Annotation>
+<Annotation Id="46" Type="DBpedia-Spotlight" StartNode="1286" EndNode="1296">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="47" Type="DBpedia-Spotlight" StartNode="1358" EndNode="1372">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Wind_direction</Value>
+</Feature>
+</Annotation>
+<Annotation Id="44" Type="DBpedia-Spotlight" StartNode="1239" EndNode="1250">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Urban_area</Value>
+</Feature>
+</Annotation>
+<Annotation Id="45" Type="DBpedia-Spotlight" StartNode="1257" EndNode="1260">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Domain_Name_System</Value>
+</Feature>
+</Annotation>
+<Annotation Id="51" Type="DBpedia-Spotlight" StartNode="1644" EndNode="1655">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">dbpedia.org/resource/Urban_area</Value>
+</Feature>
+</Annotation>
+<Annotation Id="50" Type="DBpedia-Spotlight" StartNode="1620" EndNode="1630">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="49" Type="DBpedia-Spotlight" StartNode="1566" EndNode="1576">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Euclidean_vector</Value>
+</Feature>
+</Annotation>
+<Annotation Id="48" Type="DBpedia-Spotlight" StartNode="1491" EndNode="1496">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Plume_%28hydrodynamics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="54" Type="DBpedia-Spotlight" StartNode="1735" EndNode="1744">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Terrorism</Value>
+</Feature>
+</Annotation>
+<Annotation Id="53" Type="DBpedia-Spotlight" StartNode="1706" EndNode="1715">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">dbpedia.org/resource/Pollution</Value>
+</Feature>
+</Annotation>
+<Annotation Id="52" Type="DBpedia-Spotlight" StartNode="1683" EndNode="1694">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">dbpedia.org/resource/Air_pollution</Value>
+</Feature>
+</Annotation>
+<Annotation Id="59" Type="DBpedia-Spotlight" StartNode="1778" EndNode="1792">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Turbulence</Value>
+</Feature>
+</Annotation>
+<Annotation Id="58" Type="DBpedia-Spotlight" StartNode="1760" EndNode="1774">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Chaos_theory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="63" Type="DBpedia-Spotlight" StartNode="2023" EndNode="2033">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="62" Type="DBpedia-Spotlight" StartNode="1933" EndNode="1943">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Turbulence</Value>
+</Feature>
+</Annotation>
+<Annotation Id="61" Type="DBpedia-Spotlight" StartNode="1898" EndNode="1906">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Geometry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="60" Type="DBpedia-Spotlight" StartNode="1828" EndNode="1836">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Geometry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="DBpedia-Spotlight" StartNode="2347" EndNode="2357">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="DBpedia-Spotlight" StartNode="2586" EndNode="2603">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Field_experiment</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="DBpedia-Spotlight" StartNode="2607" EndNode="2621">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Central_London</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="DBpedia-Spotlight" StartNode="2674" EndNode="2684">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="64" Type="DBpedia-Spotlight" StartNode="2133" EndNode="2150">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="65" Type="DBpedia-Spotlight" StartNode="2248" EndNode="2256">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Normal_distribution</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="DBpedia-Spotlight" StartNode="2257" EndNode="2262">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Plume_%28hydrodynamics%29</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="DBpedia-Spotlight" StartNode="2308" EndNode="2314">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="CCG-Illinois" StartNode="1044" EndNode="1055">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_countries_by_percentage_of_population_living_in_poverty</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="CCG-Illinois" StartNode="1257" EndNode="1260">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Domain_Name_System</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="CCG-Illinois" StartNode="2248" EndNode="2256">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Air_pollution_dispersion_terminology</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="CCG-Illinois" StartNode="2607" EndNode="2621">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Central_London</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="DBpedia-Spotlight" StartNode="2777" EndNode="2787">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Near_and_far_field</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="DBpedia-Spotlight" StartNode="2685" EndNode="2695">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Atmospheric_dispersion_modeling</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="CCG-Illinois" StartNode="91" EndNode="101">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Dispersion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="CCG-Illinois" StartNode="890" EndNode="901">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Entrainment</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="Manual" StartNode="262" EndNode="281">
+</Annotation>
+<Annotation Id="84" Type="Manual" StartNode="152" EndNode="163">
+</Annotation>
+<Annotation Id="87" Type="Manual" StartNode="379" EndNode="401">
+</Annotation>
+<Annotation Id="86" Type="Manual" StartNode="328" EndNode="363">
+</Annotation>
+<Annotation Id="81" Type="Manual" StartNode="91" EndNode="126">
+</Annotation>
+<Annotation Id="83" Type="Manual" StartNode="19" EndNode="40">
+</Annotation>
+<Annotation Id="82" Type="Manual" StartNode="0" EndNode="14">
+</Annotation>
+<Annotation Id="93" Type="Manual" StartNode="1214" EndNode="1235">
+</Annotation>
+<Annotation Id="92" Type="Manual" StartNode="1023" EndNode="1041">
+</Annotation>
+<Annotation Id="95" Type="Manual" StartNode="1257" EndNode="1265">
+</Annotation>
+<Annotation Id="94" Type="Manual" StartNode="1239" EndNode="1250">
+</Annotation>
+<Annotation Id="89" Type="Manual" StartNode="511" EndNode="532">
+</Annotation>
+<Annotation Id="88" Type="Manual" StartNode="483" EndNode="491">
+</Annotation>
+<Annotation Id="91" Type="Manual" StartNode="1044" EndNode="1085">
+</Annotation>
+<Annotation Id="90" Type="Manual" StartNode="822" EndNode="843">
+</Annotation>
+<Annotation Id="96" Type="Manual" StartNode="1313" EndNode="1338">
+</Annotation>
+<Annotation Id="97" Type="Manual" StartNode="1508" EndNode="1527">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="79">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="81" EndNode="1590">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="1592" EndNode="2910">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

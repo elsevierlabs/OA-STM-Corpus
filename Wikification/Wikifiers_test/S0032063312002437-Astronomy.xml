@@ -1,0 +1,1857 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="2">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/lauruhnm/Documents/ResearchProjects/Wikification/STMCor10/STM-5K/Venus2437.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The <Node id="4"/>transterminator <Node id="20"/>ion<Node id="23"/> flow<Node id="28"/> at <Node id="32"/>Venus<Node id="37"/> at <Node id="41"/>solar minimum<Node id="54"/>&#xd;<Node id="55"/>
+&#xd;
+Abstract&#xd;
+&#xd;
+The <Node id="74"/>transterminator <Node id="90"/>ion<Node id="93"/> flow<Node id="98"/> in the <Node id="106"/>Venusian<Node id="114"/> <Node id="115"/>ionosphere<Node id="125"/> is <Node id="129"/>observed<Node id="137"/> at <Node id="141"/>solar minimum<Node id="154"/> for <Node id="159"/>the first<Node id="168"/> <Node id="169"/>time<Node id="173"/>.&#xd;
+Such a flow, which transports <Node id="206"/>ions<Node id="210"/> from <Node id="216"/>the day<Node id="223"/> to the<Node id="230"/> <Node id="231"/>nightside<Node id="240"/>, has been <Node id="251"/>observed<Node id="259"/> previously around <Node id="278"/>solar maximum<Node id="291"/>.&#xd;
+At <Node id="297"/>solar minimum<Node id="310"/> this <Node id="316"/>transport<Node id="325"/> <Node id="326"/>process<Node id="333"/> is severely <Node id="346"/>inhibited<Node id="355"/> by the lower <Node id="369"/>altitude<Node id="377"/> of the <Node id="385"/>ionopause<Node id="394"/>.&#xd;
+The <Node id="401"/>observations<Node id="413"/> presented were those made of the <Node id="447"/>Venusian<Node id="455"/> <Node id="456"/>ionospheric<Node id="467"/> <Node id="468"/>plasma<Node id="474"/> by the <Node id="482"/>ASPERA<Node id="488"/>-4 <Node id="491"/>experiment<Node id="501"/> onboard the <Node id="514"/>Venus Express<Node id="527"/> <Node id="528"/>spacecraft<Node id="538"/>, and which constitute <Node id="561"/>the first<Node id="570"/> <Node id="571"/>extensive<Node id="580"/> <Node id="581"/>in-situ<Node id="588"/> <Node id="589"/>measurements<Node id="601"/> of the <Node id="609"/>plasma<Node id="615"/> near <Node id="621"/>solar minimum<Node id="634"/>.&#xd;
+Observations near the <Node id="659"/>terminator<Node id="669"/> of the energies of <Node id="689"/>ions<Node id="693"/> of <Node id="697"/>ionospheric<Node id="708"/> <Node id="709"/>origin<Node id="715"/> showed <Node id="723"/>asymmetry<Node id="732"/> between the <Node id="745"/>noon<Node id="749"/> and <Node id="754"/>midnight<Node id="762"/> sectors, which indicated an <Node id="791"/>antisunward <Node id="803"/>ion<Node id="806"/> flow<Node id="811"/> with a <Node id="819"/>velocity<Node id="827"/> of (2.5±1.5)kms-1.&#xd;
+It is <Node id="854"/>suggested<Node id="863"/> that this <Node id="874"/>ion<Node id="877"/> flow contributes to maintaining the <Node id="914"/>nightside<Node id="923"/> <Node id="924"/>ionosphere<Node id="934"/> near the <Node id="944"/>terminator<Node id="954"/> <Node id="955"/>region<Node id="961"/> at <Node id="965"/>solar minimum<Node id="978"/>.&#xd;
+The interpretation of <Node id="1003"/>the result<Node id="1013"/> was <Node id="1018"/>reinforced<Node id="1028"/> by <Node id="1032"/>observed<Node id="1040"/> asymmetries in the <Node id="1060"/>ion<Node id="1063"/> <Node id="1064"/>number<Node id="1070"/> counts<Node id="1077"/>.&#xd;
+The <Node id="1084"/>observed<Node id="1092"/> <Node id="1093"/>dawn-dusk <Node id="1103"/>asymmetry<Node id="1112"/> was consistent with a nightward <Node id="1145"/>transport<Node id="1154"/> of <Node id="1158"/>ions<Node id="1162"/> while the noon-midnight <Node id="1187"/>observations<Node id="1199"/> indicated that the flow was highly <Node id="1235"/>variable<Node id="1243"/> but could <Node id="1254"/>contribute<Node id="1264"/> to the maintenance of the <Node id="1291"/>nightside<Node id="1300"/> <Node id="1301"/>ionosphere<Node id="1311"/>.&#xd;
+&#xd;
+Introduction&#xd;
+&#xd;
+The <Node id="1336"/>nightside<Node id="1345"/> <Node id="1346"/>ionosphere<Node id="1356"/> of <Node id="1360"/>Venus<Node id="1365"/> has a <Node id="1372"/>dynamic<Node id="1379"/> and <Node id="1384"/>complex structure<Node id="1401"/> (Brace et al., 1979).&#xd;
+<Node id="1425"/>To<Node id="1427"/> <Node id="1428"/>date<Node id="1432"/> the most <Node id="1442"/>extensive<Node id="1451"/> <Node id="1452"/>set<Node id="1455"/> of <Node id="1459"/>in <Node id="1462"/>situ<Node id="1466"/> <Node id="1467"/>observations<Node id="1479"/> of the <Node id="1487"/>ionospheric<Node id="1498"/> <Node id="1499"/>plasma<Node id="1505"/> were obtained by <Node id="1523"/>Pioneer Venus Orbiter<Node id="1544"/> (<Node id="1546"/>PVO<Node id="1549"/>).&#xd;
+Although the <Node id="1566"/>PVO<Node id="1569"/> mission covered an <Node id="1589"/>entire<Node id="1595"/> <Node id="1596"/>solar<Node id="1601"/> cycle<Node id="1607"/> the <Node id="1612"/>ionospheric<Node id="1623"/> <Node id="1624"/>measurements<Node id="1636"/> were largely <Node id="1650"/>restricted<Node id="1660"/> to a <Node id="1666"/>limited<Node id="1673"/> <Node id="1674"/>period<Node id="1680"/> close to <Node id="1690"/>solar maximum<Node id="1703"/> between 1978 and 1980 when the <Node id="1735"/>PVO<Node id="1738"/> <Node id="1739"/>periapsis<Node id="1748"/> was at a <Node id="1758"/>sufficiently<Node id="1770"/> <Node id="1771"/>low <Node id="1775"/>altitude<Node id="1783"/> to <Node id="1787"/>allow<Node id="1792"/> <Node id="1793"/>sampling<Node id="1801"/> of the <Node id="1809"/>ionosphere<Node id="1819"/>.&#xd;
+The <Node id="1826"/>solar flux<Node id="1836"/> during <Node id="1844"/>this period<Node id="1855"/> was about 200 <Node id="1870"/>solar flux<Node id="1880"/> <Node id="1881"/>units<Node id="1886"/> (<Node id="1888"/>sfu<Node id="1891"/>).&#xd;
+These <Node id="1901"/>PVO<Node id="1904"/> <Node id="1905"/>observations<Node id="1917"/> covered all <Node id="1930"/>local time<Node id="1940"/> sectors.&#xd;
+In the <Node id="1958"/>nightside<Node id="1967"/> <Node id="1968"/>ionosphere<Node id="1978"/> they showed that precipitating <Node id="2010"/>electrons<Node id="2019"/> could <Node id="2026"/>contribute<Node id="2036"/> only ~25% of the <Node id="2054"/>plasma<Node id="2060"/> <Node id="2061"/>densities<Node id="2070"/> observed and that <Node id="2089"/>changes<Node id="2096"/> in <Node id="2100"/>ionospheric<Node id="2111"/> <Node id="2112"/>densities<Node id="2121"/> were much more <Node id="2137"/>variable<Node id="2145"/> than, and not correlated with, <Node id="2177"/>changes<Node id="2184"/> in the <Node id="2192"/>flux<Node id="2196"/> of precipitating <Node id="2214"/>electrons<Node id="2223"/> (Spenner et al., 1981).&#xd;
+Observations of the <Node id="2269"/>flux<Node id="2273"/> of <Node id="2277"/>atomic oxygen<Node id="2290"/> <Node id="2291"/>ions<Node id="2295"/> across the <Node id="2307"/>terminator<Node id="2317"/> from <Node id="2323"/>the day<Node id="2330"/> to <Node id="2334"/>nightside<Node id="2343"/> showed that this <Node id="2361"/>ion<Node id="2364"/> <Node id="2365"/>flux<Node id="2369"/> was sufficient to <Node id="2388"/>explain<Node id="2395"/> the <Node id="2400"/>observed<Node id="2408"/> <Node id="2409"/>ion<Node id="2412"/> <Node id="2413"/>densities<Node id="2422"/> in the <Node id="2430"/>nightside<Node id="2439"/> <Node id="2440"/>ionosphere<Node id="2450"/> at <Node id="2454"/>solar maximum<Node id="2467"/> (Knudsen et al., 1980).&#xd;
+The <Node id="2497"/>ions<Node id="2501"/> were assumed to <Node id="2518"/>follow<Node id="2524"/> <Node id="2525"/>ballistic<Node id="2534"/> <Node id="2535"/>trajectories<Node id="2547"/> and theoretical calculations predicted that 80% of the <Node id="2603"/>ions<Node id="2607"/> that crossed the <Node id="2625"/>terminator<Node id="2635"/> had <Node id="2640"/>recombined<Node id="2650"/> with <Node id="2656"/>electrons<Node id="2665"/> before they reached a <Node id="2688"/>solar<Node id="2693"/> <Node id="2694"/>zenith<Node id="2700"/> <Node id="2701"/>angle<Node id="2706"/> (<Node id="2708"/>SZA<Node id="2711"/>) of 110°.&#xd;
+<Node id="2723"/>Only<Node id="2727"/> those <Node id="2734"/>ions<Node id="2738"/> that crossed the <Node id="2756"/>terminator<Node id="2766"/> at the <Node id="2774"/>highest<Node id="2781"/> altitudes reached the <Node id="2804"/>central<Node id="2811"/> <Node id="2812"/>region<Node id="2818"/> of the <Node id="2826"/>nightside<Node id="2835"/> <Node id="2836"/>ionosphere<Node id="2846"/>.&#xd;
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="5" Type="CCG-Illinois" StartNode="90" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="6" Type="CCG-Illinois" StartNode="106" EndNode="114">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="CCG-Illinois" StartNode="41" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="CCG-Illinois" StartNode="32" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="CCG-Illinois" StartNode="114" EndNode="125">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="CCG-Illinois" StartNode="20" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="CCG-Illinois" StartNode="129" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="CCG-Illinois" StartNode="141" EndNode="154">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="CCG-Illinois" StartNode="206" EndNode="210">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="16" Type="CCG-Illinois" StartNode="159" EndNode="168">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_automotive_superlatives</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="CCG-Illinois" StartNode="230" EndNode="240">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="CCG-Illinois" StartNode="216" EndNode="223">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/24_(season_5)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="CCG-Illinois" StartNode="251" EndNode="259">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="38" Type="CCG-Illinois" StartNode="316" EndNode="325">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Transport</Value>
+</Feature>
+</Annotation>
+<Annotation Id="39" Type="CCG-Illinois" StartNode="326" EndNode="333">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Process</Value>
+</Feature>
+</Annotation>
+<Annotation Id="37" Type="CCG-Illinois" StartNode="297" EndNode="310">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="42" Type="CCG-Illinois" StartNode="401" EndNode="413">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="43" Type="CCG-Illinois" StartNode="447" EndNode="455">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="40" Type="CCG-Illinois" StartNode="346" EndNode="355">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Enzyme_inhibitor</Value>
+</Feature>
+</Annotation>
+<Annotation Id="41" Type="CCG-Illinois" StartNode="369" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Altitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="46" Type="CCG-Illinois" StartNode="491" EndNode="501">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Experiment</Value>
+</Feature>
+</Annotation>
+<Annotation Id="47" Type="CCG-Illinois" StartNode="514" EndNode="527">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Venus_Express</Value>
+</Feature>
+</Annotation>
+<Annotation Id="44" Type="CCG-Illinois" StartNode="456" EndNode="467">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="45" Type="CCG-Illinois" StartNode="468" EndNode="474">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="51" Type="CCG-Illinois" StartNode="581" EndNode="588">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/In_situ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="50" Type="CCG-Illinois" StartNode="571" EndNode="580">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Intensive_and_extensive_properties</Value>
+</Feature>
+</Annotation>
+<Annotation Id="49" Type="CCG-Illinois" StartNode="561" EndNode="570">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/List_of_automotive_superlatives</Value>
+</Feature>
+</Annotation>
+<Annotation Id="48" Type="CCG-Illinois" StartNode="528" EndNode="538">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Spacecraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="55" Type="CCG-Illinois" StartNode="609" EndNode="615">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="54" Type="CCG-Illinois" StartNode="278" EndNode="291">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="53" Type="CCG-Illinois" StartNode="169" EndNode="173">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Time</Value>
+</Feature>
+</Annotation>
+<Annotation Id="52" Type="CCG-Illinois" StartNode="589" EndNode="601">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Measurement</Value>
+</Feature>
+</Annotation>
+<Annotation Id="59" Type="CCG-Illinois" StartNode="697" EndNode="708">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="58" Type="CCG-Illinois" StartNode="689" EndNode="693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="57" Type="CCG-Illinois" StartNode="659" EndNode="669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="56" Type="CCG-Illinois" StartNode="621" EndNode="634">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="63" Type="CCG-Illinois" StartNode="754" EndNode="762">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Midnight</Value>
+</Feature>
+</Annotation>
+<Annotation Id="62" Type="CCG-Illinois" StartNode="745" EndNode="749">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Noon</Value>
+</Feature>
+</Annotation>
+<Annotation Id="61" Type="CCG-Illinois" StartNode="723" EndNode="732">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Asymmetry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="60" Type="CCG-Illinois" StartNode="709" EndNode="715">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Origin_(mathematics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="68" Type="CCG-Illinois" StartNode="914" EndNode="923">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="69" Type="CCG-Illinois" StartNode="924" EndNode="934">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="70" Type="CCG-Illinois" StartNode="944" EndNode="954">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="71" Type="CCG-Illinois" StartNode="965" EndNode="978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="64" Type="CCG-Illinois" StartNode="803" EndNode="806">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="65" Type="CCG-Illinois" StartNode="819" EndNode="827">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Velocity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="66" Type="CCG-Illinois" StartNode="854" EndNode="863">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Suggestion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="67" Type="CCG-Illinois" StartNode="874" EndNode="877">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="76" Type="CCG-Illinois" StartNode="1064" EndNode="1070">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Number</Value>
+</Feature>
+</Annotation>
+<Annotation Id="77" Type="CCG-Illinois" StartNode="1084" EndNode="1092">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="78" Type="CCG-Illinois" StartNode="1103" EndNode="1112">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Asymmetry</Value>
+</Feature>
+</Annotation>
+<Annotation Id="79" Type="CCG-Illinois" StartNode="1145" EndNode="1154">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Transport</Value>
+</Feature>
+</Annotation>
+<Annotation Id="72" Type="CCG-Illinois" StartNode="1003" EndNode="1013">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Relativity_of_simultaneity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="73" Type="CCG-Illinois" StartNode="1018" EndNode="1028">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Reinforced_concrete</Value>
+</Feature>
+</Annotation>
+<Annotation Id="74" Type="CCG-Illinois" StartNode="1032" EndNode="1040">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="75" Type="CCG-Illinois" StartNode="1060" EndNode="1063">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="85" Type="CCG-Illinois" StartNode="1346" EndNode="1356">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="84" Type="CCG-Illinois" StartNode="1291" EndNode="1300">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="87" Type="CCG-Illinois" StartNode="1372" EndNode="1379">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Double_act</Value>
+</Feature>
+</Annotation>
+<Annotation Id="86" Type="CCG-Illinois" StartNode="1360" EndNode="1365">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="81" Type="CCG-Illinois" StartNode="1187" EndNode="1199">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="80" Type="CCG-Illinois" StartNode="1158" EndNode="1162">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="83" Type="CCG-Illinois" StartNode="1254" EndNode="1264">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Foehn_wind</Value>
+</Feature>
+</Annotation>
+<Annotation Id="82" Type="CCG-Illinois" StartNode="1235" EndNode="1243">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Variable</Value>
+</Feature>
+</Annotation>
+<Annotation Id="93" Type="CCG-Illinois" StartNode="1462" EndNode="1466">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Situ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="92" Type="CCG-Illinois" StartNode="1452" EndNode="1455">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Set</Value>
+</Feature>
+</Annotation>
+<Annotation Id="95" Type="CCG-Illinois" StartNode="1499" EndNode="1505">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="94" Type="CCG-Illinois" StartNode="1467" EndNode="1479">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="89" Type="CCG-Illinois" StartNode="1425" EndNode="1427">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/TO</Value>
+</Feature>
+</Annotation>
+<Annotation Id="88" Type="CCG-Illinois" StartNode="1384" EndNode="1401">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Complex_manifold</Value>
+</Feature>
+</Annotation>
+<Annotation Id="91" Type="CCG-Illinois" StartNode="1442" EndNode="1451">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Intensive_and_extensive_properties</Value>
+</Feature>
+</Annotation>
+<Annotation Id="90" Type="CCG-Illinois" StartNode="1428" EndNode="1432">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Calendar_date</Value>
+</Feature>
+</Annotation>
+<Annotation Id="102" Type="CCG-Illinois" StartNode="1612" EndNode="1623">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="103" Type="CCG-Illinois" StartNode="1624" EndNode="1636">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Measurement</Value>
+</Feature>
+</Annotation>
+<Annotation Id="100" Type="CCG-Illinois" StartNode="1589" EndNode="1595">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Entire_function</Value>
+</Feature>
+</Annotation>
+<Annotation Id="101" Type="CCG-Illinois" StartNode="1596" EndNode="1601">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sun</Value>
+</Feature>
+</Annotation>
+<Annotation Id="98" Type="CCG-Illinois" StartNode="1546" EndNode="1549">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="99" Type="CCG-Illinois" StartNode="1566" EndNode="1569">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="96" Type="CCG-Illinois" StartNode="1487" EndNode="1498">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="97" Type="CCG-Illinois" StartNode="1523" EndNode="1544">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="110" Type="CCG-Illinois" StartNode="1758" EndNode="1770">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Forgiveness</Value>
+</Feature>
+</Annotation>
+<Annotation Id="111" Type="CCG-Illinois" StartNode="1771" EndNode="1783">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Altitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="108" Type="CCG-Illinois" StartNode="1735" EndNode="1738">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="109" Type="CCG-Illinois" StartNode="1739" EndNode="1748">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Apsis</Value>
+</Feature>
+</Annotation>
+<Annotation Id="106" Type="CCG-Illinois" StartNode="1666" EndNode="1673">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Term_limit</Value>
+</Feature>
+</Annotation>
+<Annotation Id="107" Type="CCG-Illinois" StartNode="1690" EndNode="1703">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="104" Type="CCG-Illinois" StartNode="1650" EndNode="1660">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Speed_limit</Value>
+</Feature>
+</Annotation>
+<Annotation Id="105" Type="CCG-Illinois" StartNode="1674" EndNode="1680">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Orbital_period</Value>
+</Feature>
+</Annotation>
+<Annotation Id="119" Type="CCG-Illinois" StartNode="1901" EndNode="1904">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="118" Type="CCG-Illinois" StartNode="1881" EndNode="1886">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Units_of_measurement</Value>
+</Feature>
+</Annotation>
+<Annotation Id="117" Type="CCG-Illinois" StartNode="1870" EndNode="1880">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_energy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="116" Type="CCG-Illinois" StartNode="1844" EndNode="1855">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ilkhanate</Value>
+</Feature>
+</Annotation>
+<Annotation Id="115" Type="CCG-Illinois" StartNode="1826" EndNode="1836">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_energy</Value>
+</Feature>
+</Annotation>
+<Annotation Id="114" Type="CCG-Illinois" StartNode="1809" EndNode="1819">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="113" Type="CCG-Illinois" StartNode="1793" EndNode="1801">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sampling_(statistics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="112" Type="CCG-Illinois" StartNode="1787" EndNode="1792">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Allow</Value>
+</Feature>
+</Annotation>
+<Annotation Id="127" Type="Wikipedia-Miner" StartNode="278" EndNode="291">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="126" Type="Wikipedia-Miner" StartNode="206" EndNode="210">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="125" Type="Wikipedia-Miner" StartNode="115" EndNode="125">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="123" Type="Wikipedia-Miner" StartNode="141" EndNode="154">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="122" Type="Wikipedia-Miner" StartNode="90" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="121" Type="CCG-Illinois" StartNode="1930" EndNode="1940">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Time_zone</Value>
+</Feature>
+</Annotation>
+<Annotation Id="120" Type="CCG-Illinois" StartNode="1905" EndNode="1917">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="137" Type="Wikipedia-Miner" StartNode="689" EndNode="693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="136" Type="Wikipedia-Miner" StartNode="621" EndNode="634">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="139" Type="Wikipedia-Miner" StartNode="803" EndNode="806">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="138" Type="Wikipedia-Miner" StartNode="697" EndNode="708">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="141" Type="Wikipedia-Miner" StartNode="924" EndNode="934">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="140" Type="Wikipedia-Miner" StartNode="874" EndNode="877">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="143" Type="Wikipedia-Miner" StartNode="1060" EndNode="1063">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="142" Type="Wikipedia-Miner" StartNode="965" EndNode="978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="129" Type="Wikipedia-Miner" StartNode="369" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Altitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="128" Type="Wikipedia-Miner" StartNode="297" EndNode="310">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="131" Type="Wikipedia-Miner" StartNode="468" EndNode="474">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="130" Type="Wikipedia-Miner" StartNode="456" EndNode="467">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="133" Type="Wikipedia-Miner" StartNode="514" EndNode="538">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Venus_Express</Value>
+</Feature>
+</Annotation>
+<Annotation Id="132" Type="Wikipedia-Miner" StartNode="491" EndNode="501">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Experiment</Value>
+</Feature>
+</Annotation>
+<Annotation Id="135" Type="Wikipedia-Miner" StartNode="609" EndNode="615">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="134" Type="Wikipedia-Miner" StartNode="581" EndNode="588">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/In_situ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="152" Type="Wikipedia-Miner" StartNode="1566" EndNode="1569">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="153" Type="Wikipedia-Miner" StartNode="1596" EndNode="1607">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_cycle</Value>
+</Feature>
+</Annotation>
+<Annotation Id="154" Type="Wikipedia-Miner" StartNode="1612" EndNode="1623">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="155" Type="Wikipedia-Miner" StartNode="1690" EndNode="1703">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="156" Type="Wikipedia-Miner" StartNode="1735" EndNode="1738">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="157" Type="Wikipedia-Miner" StartNode="1739" EndNode="1748">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Apsis</Value>
+</Feature>
+</Annotation>
+<Annotation Id="158" Type="Wikipedia-Miner" StartNode="1775" EndNode="1783">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Altitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="159" Type="Wikipedia-Miner" StartNode="1809" EndNode="1819">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="144" Type="Wikipedia-Miner" StartNode="1158" EndNode="1162">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="145" Type="Wikipedia-Miner" StartNode="1301" EndNode="1311">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="146" Type="Wikipedia-Miner" StartNode="1346" EndNode="1356">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="147" Type="Wikipedia-Miner" StartNode="1459" EndNode="1466">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/In_situ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="148" Type="Wikipedia-Miner" StartNode="1487" EndNode="1498">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="149" Type="Wikipedia-Miner" StartNode="1499" EndNode="1505">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="150" Type="Wikipedia-Miner" StartNode="1523" EndNode="1544">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="151" Type="Wikipedia-Miner" StartNode="1546" EndNode="1549">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="171" Type="Wikipedia-Miner" StartNode="2277" EndNode="2290">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Allotropes_of_oxygen#Atomic_oxygen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="170" Type="Wikipedia-Miner" StartNode="2269" EndNode="2273">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="169" Type="Wikipedia-Miner" StartNode="2214" EndNode="2223">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Electron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="168" Type="Wikipedia-Miner" StartNode="2192" EndNode="2196">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="175" Type="Wikipedia-Miner" StartNode="2409" EndNode="2412">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="174" Type="Wikipedia-Miner" StartNode="2365" EndNode="2369">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="173" Type="Wikipedia-Miner" StartNode="2361" EndNode="2364">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="172" Type="Wikipedia-Miner" StartNode="2291" EndNode="2295">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="163" Type="Wikipedia-Miner" StartNode="1968" EndNode="1978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="162" Type="Wikipedia-Miner" StartNode="1901" EndNode="1904">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="161" Type="Wikipedia-Miner" StartNode="1870" EndNode="1880">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="160" Type="Wikipedia-Miner" StartNode="1826" EndNode="1836">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="167" Type="Wikipedia-Miner" StartNode="2112" EndNode="2121">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Density</Value>
+</Feature>
+</Annotation>
+<Annotation Id="166" Type="Wikipedia-Miner" StartNode="2100" EndNode="2111">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="165" Type="Wikipedia-Miner" StartNode="2054" EndNode="2070">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="164" Type="Wikipedia-Miner" StartNode="2010" EndNode="2019">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Electron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="186" Type="Wikipedia-Miner" StartNode="2836" EndNode="2846">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="187" Type="Wikipedia-Miner" StartNode="20" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="184" Type="Wikipedia-Miner" StartNode="2694" EndNode="2706">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Zenith</Value>
+</Feature>
+</Annotation>
+<Annotation Id="185" Type="Wikipedia-Miner" StartNode="2734" EndNode="2738">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="190" Type="CCG-Illinois" StartNode="1958" EndNode="1967">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="191" Type="CCG-Illinois" StartNode="1968" EndNode="1978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="188" Type="Wikipedia-Miner" StartNode="41" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="189" Type="Wikipedia-Miner" StartNode="1958" EndNode="1967">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="178" Type="Wikipedia-Miner" StartNode="2454" EndNode="2467">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="179" Type="Wikipedia-Miner" StartNode="2497" EndNode="2501">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="176" Type="Wikipedia-Miner" StartNode="2413" EndNode="2422">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Density</Value>
+</Feature>
+</Annotation>
+<Annotation Id="177" Type="Wikipedia-Miner" StartNode="2440" EndNode="2450">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="182" Type="Wikipedia-Miner" StartNode="2656" EndNode="2665">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Electron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="183" Type="Wikipedia-Miner" StartNode="2688" EndNode="2693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sun</Value>
+</Feature>
+</Annotation>
+<Annotation Id="180" Type="Wikipedia-Miner" StartNode="2535" EndNode="2547">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Trajectory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="181" Type="Wikipedia-Miner" StartNode="2603" EndNode="2607">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="205" Type="CCG-Illinois" StartNode="2291" EndNode="2295">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="204" Type="CCG-Illinois" StartNode="2277" EndNode="2290">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Oxygen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="207" Type="CCG-Illinois" StartNode="2323" EndNode="2330">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/24_(season_5)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="206" Type="CCG-Illinois" StartNode="2307" EndNode="2317">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="CCG-Illinois" StartNode="2192" EndNode="2196">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="200" Type="CCG-Illinois" StartNode="2177" EndNode="2184">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Synaptic_plasticity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="CCG-Illinois" StartNode="2269" EndNode="2273">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="197" Type="CCG-Illinois" StartNode="2100" EndNode="2111">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="196" Type="CCG-Illinois" StartNode="2089" EndNode="2096">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Synaptic_plasticity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="199" Type="CCG-Illinois" StartNode="2137" EndNode="2145">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Variable</Value>
+</Feature>
+</Annotation>
+<Annotation Id="198" Type="CCG-Illinois" StartNode="2112" EndNode="2121">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Density</Value>
+</Feature>
+</Annotation>
+<Annotation Id="193" Type="CCG-Illinois" StartNode="2026" EndNode="2036">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Foehn_wind</Value>
+</Feature>
+</Annotation>
+<Annotation Id="192" Type="CCG-Illinois" StartNode="2010" EndNode="2019">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Electron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="195" Type="CCG-Illinois" StartNode="2061" EndNode="2070">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Density</Value>
+</Feature>
+</Annotation>
+<Annotation Id="194" Type="CCG-Illinois" StartNode="2054" EndNode="2060">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="220" Type="CCG-Illinois" StartNode="2518" EndNode="2524">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Follow</Value>
+</Feature>
+</Annotation>
+<Annotation Id="221" Type="CCG-Illinois" StartNode="2525" EndNode="2534">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ballistics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="222" Type="CCG-Illinois" StartNode="2535" EndNode="2547">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Trajectory</Value>
+</Feature>
+</Annotation>
+<Annotation Id="223" Type="CCG-Illinois" StartNode="2603" EndNode="2607">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="216" Type="CCG-Illinois" StartNode="2409" EndNode="2412">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="217" Type="CCG-Illinois" StartNode="2430" EndNode="2439">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="218" Type="CCG-Illinois" StartNode="2440" EndNode="2450">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="219" Type="CCG-Illinois" StartNode="2497" EndNode="2501">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="212" Type="CCG-Illinois" StartNode="2400" EndNode="2408">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Observation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="214" Type="CCG-Illinois" StartNode="2413" EndNode="2422">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Density</Value>
+</Feature>
+</Annotation>
+<Annotation Id="208" Type="CCG-Illinois" StartNode="2334" EndNode="2343">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="209" Type="CCG-Illinois" StartNode="2361" EndNode="2364">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/IonU</Value>
+</Feature>
+</Annotation>
+<Annotation Id="210" Type="CCG-Illinois" StartNode="2365" EndNode="2369">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="211" Type="CCG-Illinois" StartNode="2388" EndNode="2395">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Explanation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="239" Type="DBpedia-Spotlight" StartNode="32" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="238" Type="DBpedia-Spotlight" StartNode="20" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="237" Type="CCG-Illinois" StartNode="2826" EndNode="2835">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Nightside</Value>
+</Feature>
+</Annotation>
+<Annotation Id="236" Type="CCG-Illinois" StartNode="2804" EndNode="2811">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Central_nervous_system</Value>
+</Feature>
+</Annotation>
+<Annotation Id="235" Type="CCG-Illinois" StartNode="2774" EndNode="2781">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Elevation</Value>
+</Feature>
+</Annotation>
+<Annotation Id="234" Type="CCG-Illinois" StartNode="2756" EndNode="2766">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="233" Type="CCG-Illinois" StartNode="2734" EndNode="2738">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="232" Type="CCG-Illinois" StartNode="2723" EndNode="2727">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Only_(Nine_Inch_Nails_song)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="230" Type="CCG-Illinois" StartNode="2701" EndNode="2706">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Angle</Value>
+</Feature>
+</Annotation>
+<Annotation Id="229" Type="CCG-Illinois" StartNode="2694" EndNode="2700">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Zenith</Value>
+</Feature>
+</Annotation>
+<Annotation Id="228" Type="CCG-Illinois" StartNode="2688" EndNode="2693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Sun</Value>
+</Feature>
+</Annotation>
+<Annotation Id="226" Type="CCG-Illinois" StartNode="2656" EndNode="2665">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Electron</Value>
+</Feature>
+</Annotation>
+<Annotation Id="225" Type="CCG-Illinois" StartNode="2640" EndNode="2650">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Carrier_generation_and_recombination</Value>
+</Feature>
+</Annotation>
+<Annotation Id="224" Type="CCG-Illinois" StartNode="2625" EndNode="2635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://en.wikipedia.org/wiki/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="254" Type="DBpedia-Spotlight" StartNode="482" EndNode="488">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Aspera_European_Astroparticle_network</Value>
+</Feature>
+</Annotation>
+<Annotation Id="255" Type="DBpedia-Spotlight" StartNode="514" EndNode="527">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Venus_Express</Value>
+</Feature>
+</Annotation>
+<Annotation Id="252" Type="DBpedia-Spotlight" StartNode="456" EndNode="467">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="253" Type="DBpedia-Spotlight" StartNode="468" EndNode="474">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="250" Type="DBpedia-Spotlight" StartNode="369" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Altitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="251" Type="DBpedia-Spotlight" StartNode="447" EndNode="455">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="248" Type="DBpedia-Spotlight" StartNode="297" EndNode="310">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="249" Type="DBpedia-Spotlight" StartNode="316" EndNode="325">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Active_transport</Value>
+</Feature>
+</Annotation>
+<Annotation Id="246" Type="DBpedia-Spotlight" StartNode="231" EndNode="240">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="247" Type="DBpedia-Spotlight" StartNode="278" EndNode="291">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="244" Type="DBpedia-Spotlight" StartNode="141" EndNode="154">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="245" Type="DBpedia-Spotlight" StartNode="206" EndNode="210">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="242" Type="DBpedia-Spotlight" StartNode="106" EndNode="114">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="243" Type="DBpedia-Spotlight" StartNode="115" EndNode="125">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="240" Type="DBpedia-Spotlight" StartNode="41" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="241" Type="DBpedia-Spotlight" StartNode="90" EndNode="93">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="275" Type="DBpedia-Spotlight" StartNode="1158" EndNode="1162">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="274" Type="DBpedia-Spotlight" StartNode="1145" EndNode="1154">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Active_transport</Value>
+</Feature>
+</Annotation>
+<Annotation Id="273" Type="DBpedia-Spotlight" StartNode="1103" EndNode="1112">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Antimatter</Value>
+</Feature>
+</Annotation>
+<Annotation Id="272" Type="DBpedia-Spotlight" StartNode="1060" EndNode="1063">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="279" Type="DBpedia-Spotlight" StartNode="1346" EndNode="1356">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="278" Type="DBpedia-Spotlight" StartNode="1336" EndNode="1345">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="277" Type="DBpedia-Spotlight" StartNode="1291" EndNode="1300">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="276" Type="DBpedia-Spotlight" StartNode="1301" EndNode="1311">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="283" Type="DBpedia-Spotlight" StartNode="1499" EndNode="1505">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="282" Type="DBpedia-Spotlight" StartNode="1487" EndNode="1498">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="281" Type="DBpedia-Spotlight" StartNode="1384" EndNode="1401">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Grammar</Value>
+</Feature>
+</Annotation>
+<Annotation Id="280" Type="DBpedia-Spotlight" StartNode="1360" EndNode="1365">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Venus</Value>
+</Feature>
+</Annotation>
+<Annotation Id="287" Type="DBpedia-Spotlight" StartNode="1566" EndNode="1569">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Non-governmental_organization</Value>
+</Feature>
+</Annotation>
+<Annotation Id="286" Type="DBpedia-Spotlight" StartNode="1546" EndNode="1549">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Non-governmental_organization</Value>
+</Feature>
+</Annotation>
+<Annotation Id="285" Type="DBpedia-Spotlight" StartNode="1523" EndNode="1544">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Pioneer_Venus_project</Value>
+</Feature>
+</Annotation>
+<Annotation Id="258" Type="DBpedia-Spotlight" StartNode="609" EndNode="615">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="259" Type="DBpedia-Spotlight" StartNode="621" EndNode="634">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="256" Type="DBpedia-Spotlight" StartNode="528" EndNode="538">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Spacecraft</Value>
+</Feature>
+</Annotation>
+<Annotation Id="257" Type="DBpedia-Spotlight" StartNode="581" EndNode="588">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/In_situ</Value>
+</Feature>
+</Annotation>
+<Annotation Id="262" Type="DBpedia-Spotlight" StartNode="697" EndNode="708">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="263" Type="DBpedia-Spotlight" StartNode="723" EndNode="732">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Antimatter</Value>
+</Feature>
+</Annotation>
+<Annotation Id="260" Type="DBpedia-Spotlight" StartNode="659" EndNode="669">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="261" Type="DBpedia-Spotlight" StartNode="689" EndNode="693">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="266" Type="DBpedia-Spotlight" StartNode="874" EndNode="877">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="267" Type="DBpedia-Spotlight" StartNode="914" EndNode="923">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="264" Type="DBpedia-Spotlight" StartNode="803" EndNode="806">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="265" Type="DBpedia-Spotlight" StartNode="819" EndNode="827">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Velocity</Value>
+</Feature>
+</Annotation>
+<Annotation Id="270" Type="DBpedia-Spotlight" StartNode="955" EndNode="961">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="271" Type="DBpedia-Spotlight" StartNode="965" EndNode="978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_minimum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="268" Type="DBpedia-Spotlight" StartNode="924" EndNode="934">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="269" Type="DBpedia-Spotlight" StartNode="944" EndNode="954">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="305" Type="DBpedia-Spotlight" StartNode="2192" EndNode="2196">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="304" Type="DBpedia-Spotlight" StartNode="2100" EndNode="2111">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="307" Type="DBpedia-Spotlight" StartNode="2277" EndNode="2290">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Allotropes_of_oxygen</Value>
+</Feature>
+</Annotation>
+<Annotation Id="306" Type="DBpedia-Spotlight" StartNode="2269" EndNode="2273">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="309" Type="DBpedia-Spotlight" StartNode="2307" EndNode="2317">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="308" Type="DBpedia-Spotlight" StartNode="2291" EndNode="2295">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="311" Type="DBpedia-Spotlight" StartNode="2430" EndNode="2439">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="310" Type="DBpedia-Spotlight" StartNode="2334" EndNode="2343">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="313" Type="DBpedia-Spotlight" StartNode="2409" EndNode="2412">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="312" Type="DBpedia-Spotlight" StartNode="2361" EndNode="2369">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Flux</Value>
+</Feature>
+</Annotation>
+<Annotation Id="315" Type="DBpedia-Spotlight" StartNode="2454" EndNode="2467">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="314" Type="DBpedia-Spotlight" StartNode="2440" EndNode="2450">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="317" Type="DBpedia-Spotlight" StartNode="2525" EndNode="2547">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ballistics</Value>
+</Feature>
+</Annotation>
+<Annotation Id="316" Type="DBpedia-Spotlight" StartNode="2497" EndNode="2501">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="319" Type="DBpedia-Spotlight" StartNode="2625" EndNode="2635">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="318" Type="DBpedia-Spotlight" StartNode="2603" EndNode="2607">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="288" Type="DBpedia-Spotlight" StartNode="1596" EndNode="1607">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Sun</Value>
+</Feature>
+</Annotation>
+<Annotation Id="289" Type="DBpedia-Spotlight" StartNode="1612" EndNode="1623">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="290" Type="DBpedia-Spotlight" StartNode="1690" EndNode="1703">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_maximum</Value>
+</Feature>
+</Annotation>
+<Annotation Id="291" Type="DBpedia-Spotlight" StartNode="1735" EndNode="1738">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Non-governmental_organization</Value>
+</Feature>
+</Annotation>
+<Annotation Id="292" Type="DBpedia-Spotlight" StartNode="1739" EndNode="1748">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Apsis</Value>
+</Feature>
+</Annotation>
+<Annotation Id="293" Type="DBpedia-Spotlight" StartNode="1775" EndNode="1783">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Altitude</Value>
+</Feature>
+</Annotation>
+<Annotation Id="294" Type="DBpedia-Spotlight" StartNode="1793" EndNode="1801">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Sampling_(statistics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="295" Type="DBpedia-Spotlight" StartNode="1809" EndNode="1819">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="296" Type="DBpedia-Spotlight" StartNode="1826" EndNode="1836">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="297" Type="DBpedia-Spotlight" StartNode="1870" EndNode="1880">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="298" Type="DBpedia-Spotlight" StartNode="1888" EndNode="1891">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Simon_Fraser_University</Value>
+</Feature>
+</Annotation>
+<Annotation Id="299" Type="DBpedia-Spotlight" StartNode="1901" EndNode="1904">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Non-governmental_organization</Value>
+</Feature>
+</Annotation>
+<Annotation Id="300" Type="DBpedia-Spotlight" StartNode="1930" EndNode="1940">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Time_zone</Value>
+</Feature>
+</Annotation>
+<Annotation Id="301" Type="DBpedia-Spotlight" StartNode="1958" EndNode="1967">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="302" Type="DBpedia-Spotlight" StartNode="1968" EndNode="1978">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="303" Type="DBpedia-Spotlight" StartNode="2054" EndNode="2060">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Plasma_(physics)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="343" Type="Manual" StartNode="1093" EndNode="1112">
+</Annotation>
+<Annotation Id="342" Type="Manual" StartNode="1060" EndNode="1077">
+</Annotation>
+<Annotation Id="341" Type="Manual" StartNode="914" EndNode="934">
+</Annotation>
+<Annotation Id="340" Type="Manual" StartNode="791" EndNode="811">
+</Annotation>
+<Annotation Id="339" Type="Manual" StartNode="581" EndNode="601">
+</Annotation>
+<Annotation Id="338" Type="Manual" StartNode="514" EndNode="538">
+</Annotation>
+<Annotation Id="337" Type="Manual" StartNode="482" EndNode="501">
+</Annotation>
+<Annotation Id="326" Type="DBpedia-Spotlight" StartNode="2826" EndNode="2835">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Nightside_(book_series)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="327" Type="DBpedia-Spotlight" StartNode="2836" EndNode="2846">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ionosphere</Value>
+</Feature>
+</Annotation>
+<Annotation Id="324" Type="DBpedia-Spotlight" StartNode="2756" EndNode="2766">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/page/Terminator_(solar)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="325" Type="DBpedia-Spotlight" StartNode="2812" EndNode="2818">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Region</Value>
+</Feature>
+</Annotation>
+<Annotation Id="322" Type="DBpedia-Spotlight" StartNode="2708" EndNode="2711">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/SMZ_cycle-car</Value>
+</Feature>
+</Annotation>
+<Annotation Id="323" Type="DBpedia-Spotlight" StartNode="2734" EndNode="2738">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ion</Value>
+</Feature>
+</Annotation>
+<Annotation Id="320" Type="DBpedia-Spotlight" StartNode="2688" EndNode="2706">
+<Feature>
+  <Name className="java.lang.String">URL</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Solar_zenith_angle</Value>
+</Feature>
+</Annotation>
+<Annotation Id="334" Type="Manual" StartNode="385" EndNode="394">
+</Annotation>
+<Annotation Id="335" Type="Manual" StartNode="447" EndNode="474">
+</Annotation>
+<Annotation Id="332" Type="Manual" StartNode="74" EndNode="98">
+</Annotation>
+<Annotation Id="333" Type="Manual" StartNode="141" EndNode="154">
+</Annotation>
+<Annotation Id="330" Type="Manual" StartNode="41" EndNode="55">
+</Annotation>
+<Annotation Id="331" Type="Manual" StartNode="106" EndNode="125">
+</Annotation>
+<Annotation Id="328" Type="Manual" StartNode="4" EndNode="28">
+</Annotation>
+<Annotation Id="329" Type="Manual" StartNode="32" EndNode="37">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
