@@ -108,4 +108,3 @@ S2213671113000908.txt Generation of Multipotent Foregut Stem Cells from Human Pl
 S2213671113000921.txt Analysis of SOX2-Expressing Cell Populations Derived from Human Pluripotent Stem Cells
 S2213671113001288.txt A Panel of CpG Methylation Sites Distinguishes Human Embryonic Stem Cells and Induced Pluripotent Stem Cells
 S2213671113001306.txt Human RPE Stem Cells Grown into Polarized RPE Monolayers on a Polyester Matrix Are Maintained after Grafting into Rabbit Subretinal Space
-titlesList.txt S0001870812002101.txt Integrality of the Chern character in small codimension
