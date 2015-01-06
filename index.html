@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="OA STM Corpus : A corpus, and small treebank, of Open Access journal articles from multiple disciplines in Science, Technology, and Medicine">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>OA STM Corpus</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/elsevierlabs/OA-STM-Corpus">View on GitHub</a>
+
+          <h1 id="project_title">OA STM Corpus</h1>
+          <h2 id="project_tagline">A corpus, and small treebank, of Open Access journal articles from multiple disciplines in Science, Technology, and Medicine</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/elsevierlabs/OA-STM-Corpus/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/elsevierlabs/OA-STM-Corpus/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Natural Language Processing (NLP) tools perform best if they are
+used on the same kind of content on which they were trained and
+tested. Unfortunately for those in the STM domains, our content has
+some big differences from the newswire text that is commonly used
+in the development of most NLP tools. There are some corpora of STM
+content, but the ones we know of are specific to one domain, such
+as biomedicine, and will typically consist of abstracts instead of
+full articles. This is less than optimal because math articles are
+very different from biomed articles, and articles are very different
+from abstracts.</p>
+
+<h3>
+<a id="corpus" class="anchor" href="#corpus" aria-hidden="true"><span class="octicon octicon-link"></span></a>Corpus</h3>
+
+<p>To improve this situation, Elsevier is providing a selection of 110
+journal articles from 10 different STM domains as a freely-redistributable
+corpus. The articles were selected from our Open Access content
+and have a Creative Commons CC-BY license so they are free to
+redistribute and use.  The domains are agriculture, astronomy,
+biology, chemistry, computer science, earth science, engineering,
+materials science, math, and medicine.  Currently we provide 11
+articles in each of the 10 domains. (We also provide instructions
+on how to find all of our Open Access CC-BY content.)</p>
+
+<p>For each article in the corpus we provide:</p>
+
+<ul>
+<li>the XML source,</li>
+<li>a simple text version for easier text mining,</li>
+<li>several versions with different annotations. These include part
+of speech tags, sentence breaks, NP and VP chunks, lemmas, syntactic
+constituents parses, wikipedia concept identification, and discourse
+analysis. (Some of this is still under construction.)</li>
+</ul>
+
+<h3>
+<a id="annotations-and-test-sets" class="anchor" href="#annotations-and-test-sets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Annotations and Test Sets</h3>
+
+<p>In addition to having a wide-ranging STM corpus, we also hope that
+the content becomes densely annotated with many different types of
+NLP analyses beyond those mentioned above. Not only would this allow
+comparison of algorithms for the same type of annotations, it would also
+allow for the automatic selection of features to be used in creating
+higher-order annotations. </p>
+
+<p>Most of the annotations are automatically created. However, we have
+identified 10 documents as a default test set. As new annotation types
+are added, those articles should be the first choice for manually
+reviewed and corrected test data.</p>
+
+<h3>
+<a id="treebank" class="anchor" href="#treebank" aria-hidden="true"><span class="octicon octicon-link"></span></a>Treebank</h3>
+
+<p>To seed the process of manually creating test sets, Elsevier has
+commissioned a treebank of the ten full-text articles in the default test
+set.  We hope this corpus and treebank become a valuable resource
+for NLP, linguistics, and text mining researchers, developers, and
+users, as we all work towards tools that do a better job handling
+STM content.</p>
+
+<h3>
+<a id="context" class="anchor" href="#context" aria-hidden="true"><span class="octicon octicon-link"></span></a>Context</h3>
+
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~12M</td>
+<td>All Elsevier journal articles</td>
+</tr>
+<tr>
+<td>~100k</td>
+<td>All Open Access Elsevier journal articles. PDFs free to read.</td>
+</tr>
+<tr>
+<td>~15k</td>
+<td>Open Access articles with CC-BY license. PDFs free to read, redistribute, and use.</td>
+</tr>
+<tr>
+<td>110</td>
+<td>STM Corpus articles. PDFs and XML free to read, redistribute, and use.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Default test set of articles. Starting point for manual annotations.</td>
+</tr>
+</tbody>
+</table>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">OA STM Corpus maintained by <a href="https://github.com/elsevierlabs">elsevierlabs</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
