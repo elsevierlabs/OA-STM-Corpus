@@ -1,0 +1,397 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0167278913001450.tmf1" version="elsevier"/>
+<TITLE>Leaving flatland: Diagnostics for Lagrangian coherent structures in three-dimensional flows
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>Finite-time Lyapunov exponents (FTLE) are often used to identify Lagrangian Coherent Structures (LCS).</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>Most applications are confined to flows on two-dimensional (2D) surfaces where the LCS are characterized as curves.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Mot1" novelty="None" type="Mot"/><text>The extension to three-dimensional (3D) flows, whose LCS are 2D structures embedded in a 3D volume, is theoretically straightforward.</text></s>
+<s sid="4"><CoreSc1 advantage="None" conceptID="Mot2" novelty="None" type="Mot"/><text>However, in geophysical flows at regional scales, full prognostic computation of the evolving 3D velocity field is not computationally feasible.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Mot3" novelty="None" type="Mot"/><text>The vertical or diabatic velocity, then, is either ignored or estimated as a diagnostic quantity with questionable accuracy.</text></s>
+<s sid="6"><CoreSc1 advantage="None" conceptID="Mot4" novelty="None" type="Mot"/><text>Even in cases with reliable 3D velocities, it may prove advantageous to minimize the computational burden by calculating trajectories from velocities on carefully chosen surfaces only.</text></s>
+<s sid="7"><CoreSc1 advantage="None" conceptID="Mot5" novelty="None" type="Mot"/><text>When reliable 3D velocity information is unavailable or one velocity component is explicitly ignored, a reduced FTLE form to approximate 2D LCS surfaces in a 3D volume is necessary.</text></s>
+<s sid="8"><CoreSc1 advantage="None" conceptID="Met1" novelty="None" type="Met"/><text>The accuracy of two reduced FTLE formulations is assessed here using the ABC flow and a 3D quadrupole flow as test models.</text></s>
+<s sid="9"><CoreSc1 advantage="None" conceptID="Met2" novelty="None" type="Met"/><text>One is the standard approach of knitting together FTLE patterns obtained on adjacent surfaces.</text></s>
+<s sid="10"><CoreSc1 advantage="None" conceptID="Met3" novelty="None" type="Met"/><text>The other is a new approximation accounting for the dispersion due to vertical (u,v) shear.</text></s>
+<s sid="11"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>The results are compared with those obtained from the full 3D velocity field.</text></s>
+<s sid="12"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>We introduce two diagnostic quantities to identify situations when a fully 3D computation is required for an accurate determination of the 2D LCS.</text></s>
+<s sid="13"><CoreSc1 advantage="None" conceptID="Obj3" novelty="None" type="Obj"/><text>For the ABC flow, we found the full 3D calculation to be necessary unless the vertical (u,v) shear is sufficiently small.</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Obj4" novelty="None" type="Obj"/><text>However, both methods compare favorably with the 3D calculation for the quadrupole model scaled to typical open ocean conditions.</text></s>
+Highlights
+•
+<s sid="15"><CoreSc1 advantage="None" conceptID="Obj5" novelty="None" type="Obj"/><text>Approximations of 2D Lagrangian coherent structures in 3D flows are studied.</text></s>
+•
+<s sid="16"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>Vertical shear is shown to be important in the three-dimensional flows.</text></s>
+•
+<s sid="17"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>A new approximate Cauchy-Green tensor without using vertical velocities is proposed.</text></s>
+•
+<s sid="18"><CoreSc1 advantage="None" conceptID="Bac5" novelty="None" type="Bac"/><text>Two velocity gradient diagnostics help to decide when the full 3D velocity is needed.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="19"><CoreSc1 advantage="None" conceptID="Bac6" novelty="None" type="Bac"/><text>Hassan Aref's 1984 seminal paper on chaotic advection [1] initiated a new direction for fluid mechanics research.</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Bac7" novelty="None" type="Bac"/><text>Dynamical systems theory (DST) has provided a theoretical and computational basis for much of the subsequent developments.</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Bac8" novelty="None" type="Bac"/><text>DST methods are now widely used to identify critical material structures that govern transport patterns.</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Bac9" novelty="None" type="Bac"/><text>In geophysical flows, these structures persist from a few hours to weeks.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Met4" novelty="None" type="Met"/><text>They are precisely identified by evolving distinguished invariant manifolds.</text></s>
+<s sid="24"><CoreSc1 advantage="None" conceptID="Met5" novelty="None" type="Met"/><text>Jones and Winkler [2] provide a widely used algorithm for computing such manifolds in two-dimensional (2D) flows.</text></s>
+<s sid="25"><CoreSc1 advantage="None" conceptID="Met6" novelty="None" type="Met"/><text>The methodology has been extended to three-dimensional (3D) dynamical systems by Branicki and Wiggins [3].</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Bac10" novelty="None" type="Bac"/><text>Although theoretically appealing, invariant manifold calculations are tedious and not easily automated.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Bac11" novelty="None" type="Bac"/><text>Consequently, a much simpler, easily automated approach for determining approximate transport barriers from finite-time Lyapunov exponents (FTLE) has been developed [4-6].</text></s>
+<s sid="28"><CoreSc1 advantage="None" conceptID="Bac12" novelty="None" type="Bac"/><text>The patterns in FTLE and related diagnostic fields are now known in the literature as Lagrangian Coherent Structures (LCS).</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Mot6" novelty="None" type="Mot"/><text>It is well known that LCS delineated by invariant manifolds and those derived from FTLE are equivalent for simple analytically prescribed flows.</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Mot7" novelty="None" type="Mot"/><text>However, this appears not to be true generally.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Mot8" novelty="None" type="Mot"/><text>Branicki and Wiggins [7] made an extensive comparison of both methods and established useful criteria for identifying when they are in agreement.</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Goa1" novelty="None" type="Goa"/><text>Here, we study FTLE, with the expectation that our conclusions apply to the identification of transport barriers, within the provisos established by Branicki and Wiggins [7].</text></s>
+<s sid="33"><CoreSc1 advantage="None" conceptID="Bac13" novelty="None" type="Bac"/><text>It is noteworthy that other diagnostics of LCS have been proposed [8-14].</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Mot9" novelty="None" type="Mot"/><text>All LCS diagnostics have attributes that are appropriate for particular situations.</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Mot10" novelty="None" type="Mot"/><text>Moreover, our impression is that all diagnostics agree when there are clear and robust LCS signatures.</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Obj6" novelty="None" type="Obj"/><text>Since all diagnostics are derived from trajectories, the effects of the approximations discussed here are likely to carry over to approaches other than FTLE as well.</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Bac14" novelty="None" type="Bac"/><text>Most studies that use DST methods to identify transport barriers have considered Hamiltonian-type flows and been restricted to 2D ([15], and references therein).</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Mot11" novelty="None" type="Mot"/><text>This restriction, however, is not a theoretical limitation, since the mathematical constructs have no dimensional requirements [16].</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Mot12" novelty="None" type="Mot"/><text>Indeed, several applications of DST methods to idealized 3D flows have been published[17-21,7].</text></s>
+<s sid="40"><CoreSc1 advantage="None" conceptID="Obj7" novelty="None" type="Obj"/><text>Haller [22] developed a theoretical framework for calculating LCS in 3D flows and applied it to steady and unsteady Arnold-Beltrami-Childress (ABC) flows.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Met7" novelty="None" type="Met"/><text>Lekien et al. [23] extended LCS theory to n-dimensional systems.</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Bac15" novelty="None" type="Bac"/><text>These and other studies have provided considerable theoretical insight into the topology of stirring and mixing in 2D and 3D flows.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Bac16" novelty="None" type="Bac"/><text>However, they are largely based on analytically prescribed flows or simple numerical models.</text></s>
+<s sid="44"><CoreSc1 advantage="None" conceptID="Bac17" novelty="None" type="Bac"/><text>Extensions of 2D methods to realistic 3D flows present a number of challenges that are not addressed in these studies.</text></s>
+<s sid="45"><CoreSc1 advantage="None" conceptID="Bac18" novelty="None" type="Bac"/><text>Some computational fluid dynamics studies require millions of particle trajectories to adequately resolve the complexity of the 2D LCS in 3D flows.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Met8" novelty="None" type="Met"/><text>To reduce the prohibitive associated computational cost, alternative algorithms that rely on reduced representations of the Cauchy-Green tensor have been proposed [24].</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Met9" novelty="None" type="Met"/><text>The approach of using a reduced Cauchy-Green tensor is attractive in the context of 3D geophysical flows, since the computation of 3D trajectories is hampered by a lack of reliable information about diabatic (atmosphere) or vertical (ocean) velocities.</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>These velocities are typically orders of magnitude smaller than the other two velocity components, and in many cases they are diagnostic variables recovered outside the prognostic model update cycle.</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>The value of including the effects of approximate diabatic or vertical velocities in LCS computations remains unclear.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>As most geophysical flows are nearly 2D, one might anticipate vertical particle excursions to be negligible.</text></s>
+<s sid="51"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>However, small vertical excursions can lead to significant horizontal end point differences due to vertical (u,v) shear [25].</text></s>
+<s sid="52"><CoreSc1 advantage="None" conceptID="Goa2" novelty="None" type="Goa"/><text>These considerations lead to the basic question addressed here: Under what conditions can 2D velocity fields satisfactorily generate 2D LCS in 3D flows?</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Goa3" novelty="None" type="Goa"/><text>Due to the unreliability of the third velocity component in many situations, the answer to this question should ideally be based on a diagnostic readily available from 2D model flows.</text></s>
+<s sid="54"><CoreSc1 advantage="None" conceptID="Goa4" novelty="None" type="Goa"/><text>Models for geophysical flows frequently solve the momentum equations for horizontal (respectively adiabatic) velocities in horizontal (respectively adiabatic) layers, leaving the normal velocity to be derived from the incompressibility condition.</text></s>
+<s sid="55"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>Thus, information on two of the three velocity components and six of the nine velocity gradient components is provided directly.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>This suggests a metric based on the magnitude of the components of the 2D velocity gradient tensor that are normal to the surfaces, since that information is currently not utilized in typical 2D analyses.</text></s>
+<s sid="57"><CoreSc1 advantage="None" conceptID="Bac19" novelty="None" type="Bac"/><text>The importance of this quantity was also highlighted by Branicki et al. [26], who show that invariant manifolds are nearly vertical within a layer whose thickness is much smaller than the ratio of the horizontal velocities to their vertical gradients.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Obj8" novelty="None" type="Obj"/><text>Also missing from the standard 2D analysis is any information on the normal velocity and its gradients, leading to the consideration of a second diagnostic capturing these effects.</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Obj9" novelty="None" type="Obj"/><text>To assess the impacts of these neglected velocity gradient components, 2D LCS derived from FTLE ridges are considered.</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Obj10" novelty="None" type="Obj"/><text>The structures obtained from 2D components of prescribed 3D velocity fields are compared with those from the full 3D fields.</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Obj11" novelty="None" type="Obj"/><text>For clarity in presentation, the geometry of the prescribed flows is here taken to be Cartesian, and the 2D surfaces are specified as horizontal planes.</text></s>
+<s sid="62"><CoreSc1 advantage="None" conceptID="Obj12" novelty="None" type="Obj"/><text>Two approaches for approximating 2D LCS from the 2D velocity field are considered.</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Obj13" novelty="None" type="Obj"/><text>The first treats each vertical level independently, with the 2D FTLE computed from 2D trajectories on each layer within the volume of interest.</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Obj14" novelty="None" type="Obj"/><text>This is the &quot;business as usual&quot; approach adopted by Branicki and Kirwan [27] in their assessment of the lobe structure of a large anticyclonic ring in the Gulf of Mexico.</text></s>
+<s sid="65"><CoreSc1 advantage="None" conceptID="Obj15" novelty="None" type="Obj"/><text>See also Bettencourt et al. [28] for a variation of this approach.</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Mod1" novelty="None" type="Mod"/><text>The second approach again uses 2D trajectories along each level surface, but accounts for the additional 3D dispersion due to horizontal separations between particle pairs in adjacent levels.</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Mod2" novelty="None" type="Mod"/><text>See Sulman et al. [29] for examples of this approach.</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Mod3" novelty="None" type="Mod"/><text>When computing FTLE in a 3D volume, the additional computational cost of the second approximation is minimal, since both approximations require 2D trajectories computed along each vertical level.</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Mod4" novelty="None" type="Mod"/><text>There is an additional approach that might be considered for approximating 2D LCS in cases where the full 3D velocity is known: using 3D trajectories, but restricting the analysis to a plane embedded in the flow.</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Mod5" novelty="None" type="Mod"/><text>Along this plane, the 3D FTLE can be approximated with a reduced Cauchy-Green tensor using only trajectories initialized on the plane, effectively neglecting normal gradients.</text></s>
+<s sid="71"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>Garth et al. [24] compared this planar approximation with the full 3D rendering of FTLE fields and reported that the fields agreed quite well.</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>Since this approach requires vertical velocities that are normally not available in geophysical models, and since the computational savings vis-à-vis the full solution are minimal in this context, we chose not to discuss this approach further.</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Met10" novelty="None" type="Met"/><text>Two test flows are used in the analysis.</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>The first is the well-studied ABC flow.</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>The second, which is more relevant to geophysical flows, is a quadrupole with the velocities scaled to match typical open ocean conditions.</text></s>
+<s sid="76"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>We anticipate that the results presented here will have some relevance to atmospheric flows when the diabatic velocities are small relative to the horizontal velocities.</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Obj16" novelty="None" type="Obj"/><text>We also discuss only steady flow.</text></s>
+<s sid="78"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>We found that adding prescribed time periodicity yielded little additional insight for these two test flows.</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Obj17" novelty="None" type="Obj"/><text>There are fundamental issues with more general time dependence, the most crucial being interaction between the integration period for evaluating the Cauchy-Green tensor and the intrinsic time scales of the flow.</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Bac20" novelty="None" type="Bac"/><text>A thorough investigation of this matter is ongoing.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Bac21" novelty="None" type="Bac"/><text>The report is organized as follows.</text></s>
+<s sid="82"><CoreSc1 advantage="None" conceptID="Bac22" novelty="None" type="Bac"/><text>Section 2 reviews FTLE theory.</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Obj18" novelty="None" type="Obj"/><text>Section 3 provides a useful paradigm for studying arbitrary incompressible flows and describes the two test models.</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>Section 4 assesses the impact of the two FTLE approximations in a steady ABC flow and analyzes the critical parameters in the problem.</text></s>
+<s sid="85"><CoreSc1 advantage="None" conceptID="Mod6" novelty="None" type="Mod"/><text>A steady quadrupole model is used to assess situations with more geophysical relevance in Section 5.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Mod7" novelty="None" type="Mod"/><text>A summary of the results and some additional remarks are given in Section 6.</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Mod8" novelty="None" type="Mod"/><text>Review of 3D FTLE theory</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Mod9" novelty="None" type="Mod"/><text>Consider the flow (1)dxdt=v(x,t),x∈Ω⊂R3,t∈[t0,tf] where v is a smooth velocity field and Ω is an open subset of R3.</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Mod10" novelty="None" type="Mod"/><text>Let x(t;t0,x0) denote the trajectory solution of (1) at time t with x(t0;t0,x0)=x0.</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Mod11" novelty="None" type="Mod"/><text>This solution is given by (2)x=x0+∫t0tv(x,τ)dτ.</text></s>
+<s sid="91"><CoreSc1 advantage="None" conceptID="Mod12" novelty="None" type="Mod"/><text>The right Cauchy-Green tensor is defined as (3)G=FTF, where the superscript T signifies the matrix transpose and F is the strain tensor (4)F=∂x∂x0=I+∫t0t∂v∂x⋅∂x∂x0dτ with I the identity matrix.</text></s>
+<s sid="92"><CoreSc1 advantage="None" conceptID="Mod13" novelty="None" type="Mod"/><text>The FTLE is then given by (5)Λ(tf;t0,x0)=log(λmax(G))tf-t0, where λmax(G) is the maximum eigenvalue of the matrix G.</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Mod14" novelty="None" type="Mod"/><text>Repelling LCS are typically defined as ridges of local maxima in the FTLE field computed from trajectories in forward time (tf&gt;t0).</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Mod15" novelty="None" type="Mod"/><text>Similarly, attracting LCS are defined as ridges in the backward-time (tf&lt;t0) FTLE field [4,22].</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>Where the peak values of these ridges are high, they have been shown to be good surrogates for the material manifolds that more precisely delineate LCS [6].</text></s>
+<s sid="96"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>In the full 3D formulation, x=(x,y,z),v=(u,v,w)∈R3, and (6)F0=∂x∂x0=[∂x∂x0∂x∂y0∂x∂z0∂y∂x0∂y∂y0∂y∂z0∂z∂x0∂z∂y0∂z∂z0].</text></s>
+<s sid="97"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>Our first FTLE approximation treats 2D horizontal cross-sections of Ω individually, so that x=(x,y) and v=(u,v).</text></s>
+<s sid="98"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>In this case, tensor G is second order, with (7)F1=∂x∂x0=[∂x∂x0∂x∂y0∂y∂x0∂y∂y0].</text></s>
+<s sid="99"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>While this approximation follows standard practice, it inherently neglects the fact that ocean flows are essentially 3D.</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>A more appropriate reduction of the full matrix (6) for 2D cross-sections would be (8)F1̃=[∂x∂x0∂x∂y00∂y∂x0∂y∂y00001].</text></s>
+<s sid="101"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>The singular values of F1 (i.e. the eigenvalues of G1) are identical to two of the singular values of F1̃, whose additional singular value is 1.</text></s>
+<s sid="102"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>For incompressible flows, det(G0)=det(F0)=1 so that volumes are conserved under the flow map.</text></s>
+<s sid="103"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>Since G0 is symmetric and positive definite (with three positive eigenvalues), λmax(G0)≥1.</text></s>
+<s sid="104"><CoreSc1 advantage="None" conceptID="Obj19" novelty="None" type="Obj"/><text>In the following, we will restrict our discussion to such flows.</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>It is likely then (although not guaranteed) that (7) and (8) will yield equivalent results.</text></s>
+<s sid="106"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>They will differ only where λmax(G1)&lt;1, leading to a negative FTLE.</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>We did not encounter this problem in any of the cases reported here.</text></s>
+<s sid="108"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>Our second FTLE approximation also ignores the vertical velocity w, which can be problematic in many geophysical fluid dynamics models, but considers vertical gradients, i.e. x∈R3 but ∂z/∂t=0∀x,t.</text></s>
+Consequently, (9)F2=∂x∂x0=[∂x∂x0∂x∂y0∂x∂z0∂y∂x0∂y∂y0∂y∂z0001].
+<s sid="109"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>Unlike approximation F1,F2 accounts for the effects of vertical shear in the horizontal velocity components.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Obj20" novelty="None" type="Obj"/><text>To summarize, we will compare three different FTLE formulations: 1.</text></s>
+<s sid="111"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>3D form of tensor G with trajectories from 3D velocities(10)FTLE3d3d=log(λmax(G0))tf-t0with G0=F0TF0</text></s>
+2.
+<s sid="112"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>2D form of tensor G with trajectories from 2D velocities(11)FTLE2d2d=log(λmax(G1))tf-t0with G1=F1TF1</text></s>
+3.
+<s sid="113"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>3D form of tensor G with trajectories from 2D velocities(12)FTLE3d2d=log(λmax(G2))tf-t0with G2=F2TF2.</text></s>
+<s sid="114"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>It follows from these definitions (see the Appendix) that (13)FTLE3d2d≥FTLE2d2d∀tf,to,x0.</text></s>
+<s sid="115"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>However, there is no similar general relationship between FTLE3d3d and either of the two approximations.</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>It follows directly from the above that FTLE2d2d=FTLE3d2d if ∂x/∂z0=∂y/∂z0=0.</text></s>
+<s sid="117"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>Due to (4), this condition is satisfied if ∂u/∂z=∂v/∂z=0∀x,t.</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>Define (14)Sv=(∂u∂z)2+(∂v∂z)2 as the measure of the vertical shear in the horizontal velocities.</text></s>
+When Sv=0∀x,t,FTLE2d2d=FTLE3d2d.
+<s sid="119"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>We propose to determine threshold Sv values for which FTLE2d2d and FTLE3d2d differ significantly.</text></s>
+<s sid="120"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>Similarly, (10) and (12) imply that FTLE3d3d=FTLE3d2d if ∂z/∂x0=∂z/∂y0=0 and ∂z/∂z0=1.</text></s>
+<s sid="121"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>Due to (4), this condition is satisfied if ∂w/∂x=∂w/∂y=∂w/∂z=0∀x,t.</text></s>
+<s sid="122"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>To identify cases when FTLE3d2d is a poor approximation for FTLE3d3d, the relevant diagnostic is therefore the magnitude of the vertical velocity gradient: (15)Sw=(∂w∂x)2+(∂w∂y)2+(∂w∂z)2.</text></s>
+<s sid="123"><CoreSc1 advantage="None" conceptID="Obj21" novelty="None" type="Obj"/><text>Generally, both Sv and Sw are functions of t and x.</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Obj22" novelty="None" type="Obj"/><text>However, below only steady flows are analyzed.</text></s>
+<s sid="125"><CoreSc1 advantage="None" conceptID="Obj23" novelty="None" type="Obj"/><text>Furthermore, whenever there is x-dependence, we will focus on the maximum values achieved.</text></s>
+<s sid="126"><CoreSc1 advantage="None" conceptID="Mod16" novelty="None" type="Mod"/><text>The notation max(Sv) and max(Sw) will imply maxima taken over space x.</text></s>
+<s sid="127"><CoreSc1 advantage="None" conceptID="Mod17" novelty="None" type="Mod"/><text>In Sections 4 and 5, FTLE3d3d, defined in (10) and derived from the full 3D formulation, is the benchmark against which the two approximations FTLE2d2d, defined in (11), and FTLE3d2d, defined in (12), are evaluated.</text></s>
+<s sid="128"><CoreSc1 advantage="None" conceptID="Mod18" novelty="None" type="Mod"/><text>To quantify the roles of Sv and Sw, the root-mean-square (RMS) differences between FTLE3d3d and each of the approximations are computed.</text></s>
+<s sid="129"><CoreSc1 advantage="None" conceptID="Mod19" novelty="None" type="Mod"/><text>To simplify the notation, we define (16)Δ1=|FTLE3d3d-FTLE2d2d|(17)Δ2=|FTLE3d3d-FTLE3d2d| and use the notation RMS(Δi) for the respective RMS values.</text></s>
+<s sid="130"><CoreSc1 advantage="None" conceptID="Mod20" novelty="None" type="Mod"/><text>Admittedly, this criterion is somewhat crude, as it does not focus singularly on the ridges that define the LCS but includes off-ridge data.</text></s>
+<s sid="131"><CoreSc1 advantage="None" conceptID="Mod21" novelty="None" type="Mod"/><text>It does capture differences in ridge sharpness.</text></s>
+<s sid="132"><CoreSc1 advantage="None" conceptID="Mod22" novelty="None" type="Mod"/><text>Ridge position shifts are considered separately, but an adequate metric to quantify these differences eludes us.</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Mod23" novelty="None" type="Mod"/><text>For the computation of the FTLE, trajectories are determined by integrating the differential equation (1) using DLSODA from the Fortran ODEPACK library [30] with an absolute tolerance of 1×10-6 and a relative tolerance of 1×10-6.</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Mod24" novelty="None" type="Mod"/><text>The derivatives in the Cauchy-Green tensors are then approximated using second-order centered finite-differences.</text></s>
+<s sid="135"><CoreSc1 advantage="None" conceptID="Mod25" novelty="None" type="Mod"/><text>Eigenvalues are calculated analytically using algebraic expressions.</text></s>
+<s sid="136"><CoreSc1 advantage="None" conceptID="Mod26" novelty="None" type="Mod"/><text>Test models for 3D incompressible flows</text></s>
+<s sid="137"><CoreSc1 advantage="None" conceptID="Obj24" novelty="None" type="Obj"/><text>We study the impact of the vertical velocity and the vertical shear of the horizontal velocity components on the FTLE approximations in two analytic 3D flows.</text></s>
+<s sid="138"><CoreSc1 advantage="None" conceptID="Mod27" novelty="None" type="Mod"/><text>The first is the well known ABC flow [31], in which the scales of the vertical velocities and the vertical shear of horizontal velocities are commensurate with the corresponding horizontal scales.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>Results of the analysis of this model are presented in Section 4.</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>In many geophysical fluid flows, however, the vertical velocities are small relative to the horizontal velocities, and there may be a disparity between the magnitudes of the horizontal and vertical shears.</text></s>
+<s sid="141"><CoreSc1 advantage="None" conceptID="Obj25" novelty="None" type="Obj"/><text>Since the ABC model cannot adequately represent these flows, we also study a single mode quadrupole model.</text></s>
+<s sid="142"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>Results and analysis for this model are described in Section 5.</text></s>
+<s sid="143"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>Even though our analyses are purely kinematic, we stress that both of these models have a dynamical basis.</text></s>
+<s sid="144"><CoreSc1 advantage="None" conceptID="Met11" novelty="None" type="Met"/><text>The ABC flow is an exact periodic solution to the nonlinear Euler equations in a non-rotating frame, while the quadrupole model solves the linear Euler equations on an f-plane in a periodic domain.</text></s>
+<s sid="145"><CoreSc1 advantage="None" conceptID="Mod28" novelty="None" type="Mod"/><text>Both model flows can be expressed in the vector potential representation of a general 3D incompressible flow [32] with the 3D velocity v given in terms of two scalar potentials Ψ and Φ as (18)v=∇×[-Ψk+∇×(Φk)].</text></s>
+<s sid="146"><CoreSc1 advantage="None" conceptID="Mod29" novelty="None" type="Mod"/><text>Generally, k can be the unit vector normal to any preferred surface.</text></s>
+<s sid="147"><CoreSc1 advantage="None" conceptID="Mod30" novelty="None" type="Mod"/><text>We take k to be the vertical unit vector, so the velocity components are (19a)u=-∂Ψ∂y+∂2Φ∂z∂x,(19b)v=∂Ψ∂x+∂2Φ∂z∂y,(19c)w=-∇h2Φ, where ∇h2 is the Laplacian with respect to the horizontal coordinates, i.e., (20)∇h2=∂∂x2+∂∂y2.Ψ and Φ are solutions to Helmholtz equations with Dirichlet and Neumann boundary conditions, respectively.</text></s>
+<s sid="148"><CoreSc1 advantage="None" conceptID="Mod31" novelty="None" type="Mod"/><text>Each can be expressed in terms of sine and cosine functions for our two model domains, both of which are rectangular and periodic.</text></s>
+Steady ABC flow
+<s sid="149"><CoreSc1 advantage="None" conceptID="Mod32" novelty="None" type="Mod"/><text>The steady ABC flow can be derived from (19) by defining Ψ and Φ as (21a)Ψ=-[Csin(y)+Bcos(x)],(21b)Φ=A[-xcos(z)+ysin(z)]-Ψ, where x,y,z∈R.</text></s>
+<s sid="150"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>The velocity components are then (22a)u=Asin(z)+Ccos(y),(22b)v=Bsin(x)+Acos(z),(22c)w=Csin(y)+Bcos(x).Fig. 1 shows example cross-sections of this velocity field with A=1 and B=C=0.8.</text></s>
+<s sid="151"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>We focus only on cases where B2+C2≥A2≥|B2-C2|.</text></s>
+<s sid="152"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>Note that this assures the existence of stagnation points in the flow (see [33] for more details).</text></s>
+We also choose B=C.
+<s sid="153"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>With this choice, the two free parameters independently control the two diagnostics.</text></s>
+<s sid="154"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>Sv=A and is constant throughout the domain, while Sw=B2sin2(x)+C2cos2(y)=|B|sin2(x)+cos2(y), with values ranging from 0 to |B|2.</text></s>
+<s sid="155"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>The left inequality of the stagnation point condition above is therefore equivalent to max(Sw)≥Sv.</text></s>
+<s sid="156"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>The computations presented in Section 4 are performed on a grid of size 201×201×201 for x,y,z∈[0,2π], from time t0=0 to tf=10.</text></s>
+Steady quadrupole flow
+<s sid="157"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>The steady quadrupole flow is obtained from (19) by defining Ψ and Φ as (23a)Ψ=A(z)sin(πx/Lx)sin(πy/Ly),(23b)Φ=B(z)cos(πx/Lx)cos(πy/Ly), where x∈(-Lx,Lx),y∈(-Ly,Ly), and z∈(-H,0).</text></s>
+<s sid="158"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>In this case, the velocity components are (24a)u=-(αyA(z)+αxBz(z))sin(αxx)cos(αyy),(24b)v=(αxA(z)-αyBz(z))cos(αxx)sin(αyy),(24c)w=(αx2+αy2)B(z)cos(αxx)cos(αyy), where (25)Bz=∂B∂z(26)αx=π/Lx(27)αy=π/Ly.</text></s>
+<s sid="159"><CoreSc1 advantage="None" conceptID="Goa5" novelty="None" type="Goa"/><text>We will restrict our analysis to a domain with Lx=Ly, so that we can define α=αx=αy.</text></s>
+<s sid="160"><CoreSc1 advantage="None" conceptID="Met12" novelty="None" type="Met"/><text>Sulman et al. [29] used this model to illustrate manifolds and associated flow properties for a prescribed free surface with non-zero velocity.</text></s>
+<s sid="161"><CoreSc1 advantage="None" conceptID="Obj26" novelty="None" type="Obj"/><text>Here the focus is on investigating the parameter space of Sv and Sw.</text></s>
+<s sid="162"><CoreSc1 advantage="None" conceptID="Obj27" novelty="None" type="Obj"/><text>For clarity, it is useful to further restrict the analysis to functions for A and B that are at most linear in z, i.e., (28a)A(z)=(1/α)[A0+A1z](28b)B(z)=(1/2α2)[B0+B1z].</text></s>
+<s sid="163"><CoreSc1 advantage="None" conceptID="Obs11" novelty="None" type="Obs"/><text>Horizontal and vertical length and velocity parameters can be scaled to be appropriate for the atmosphere or ocean.</text></s>
+<s sid="164"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>We choose typical oceanic values, setting the horizontal domain dimensions to Lx=Ly=200km.</text></s>
+<s sid="165"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>The domain depth is allowed to be infinite.</text></s>
+<s sid="166"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>This is a computational convenience necessitated by the linear vertical profiles of w, which lead in extreme cases to a handful of particles in the domain reaching depths below 20 km.</text></s>
+<s sid="167"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>Various boundary conditions could be imposed at a more realistic oceanic depth.</text></s>
+<s sid="168"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>We have examined several and found no impact on our conclusions.</text></s>
+<s sid="169"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>At any depth z in this flow, the LCS (ridges in the FTLE field) are straight lines at x=[-Lx,0,Lx] and y=[-Ly,0,Ly].</text></s>
+<s sid="170"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>Computations are performed on a horizontal grid of size 257×257 from time t0=0 to time tf=8days.</text></s>
+<s sid="171"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>The results presented here focus on a single horizontal layer at z=-0.3km.</text></s>
+<s sid="172"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>RMS differences as well as maxima are computed over this single layer only.</text></s>
+<s sid="173"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>Trajectories in adjacent vertical layers at z=-0.29km and z=-0.31km are also computed to allow for finite-difference approximation of strain tensor terms involving vertical gradients, using a 10 m vertical spacing representative of many ocean models.</text></s>
+<s sid="174"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>Parameter values in Section 5 are reported so that all quadrupole velocities have units of m s-1.</text></s>
+<s sid="175"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>With z in units of kilometers, this implies that A0 and B0 have units of m s-1, and A1 and B1 have units of m s-1 km-1.</text></s>
+<s sid="176"><CoreSc1 advantage="None" conceptID="Obs12" novelty="None" type="Obs"/><text>Note that B0 is the peak w magnitude at z=0, and when Bz=0,A0 is the peak horizontal velocity magnitude at z=0.</text></s>
+<s sid="177"><CoreSc1 advantage="None" conceptID="Obs13" novelty="None" type="Obs"/><text>Fig. 2 shows a steady quadrupole flow at depths 100, 500, 1000, and 1500 m with A(z) and B(z) defined as in (28).</text></s>
+<s sid="178"><CoreSc1 advantage="None" conceptID="Obs14" novelty="None" type="Obs"/><text>Notice that the quadrupole strength varies linearly with depth.</text></s>
+<s sid="179"><CoreSc1 advantage="None" conceptID="Obs15" novelty="None" type="Obs"/><text>LCS in steady ABC flows</text></s>
+<s sid="180"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>The role of Sv and Sw in determining the accuracy of the two FTLE approximations given in Section 2 is first tested on the ABC flow.</text></s>
+<s sid="181"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>The range of values for the parameters was chosen to sample a reasonably large section of the parameter space, within the constraints of permitting stagnation points within the flow.</text></s>
+<s sid="182"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>B and C are always set to be equal.</text></s>
+<s sid="183"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>This condition implies that there is no scaling difference between the two horizontal velocities.</text></s>
+<s sid="184"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>As discussed in Section 3.1, the two ABC parameters independently control the two diagnostics, with Sv=A and Sw depending only on B, with values ranging from 0 to |B|2.</text></s>
+<s sid="185"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>We proceed by systematically varying one of the parameters while keeping the other fixed, resulting in two series of experiments.</text></s>
+<s sid="186"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>As noted in Section 3.1, the condition guaranteeing stagnation points in the flow also implies that max(Sw)≥Sv.</text></s>
+<s sid="187"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>This is the reverse of the situation studied in the quadrupole flow (Section 5).</text></s>
+<s sid="188"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>Fixed max(Sw) with increasing Sv</text></s>
+<s sid="189"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>We first consider a series of cases with Sv=A=[0.1,0.2,…,1.1], keeping B=C fixed at a value of 0.8 for max(Sw)=1.13.</text></s>
+<s sid="190"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>Two examples of the three FTLE fields and their differences (Δ1=|FTLE3d3d-FTLE2d2d| and Δ2=|FTLE3d3d-FTLE3d2d|) are shown in Figs.</text></s>
+<s sid="191"><CoreSc1 advantage="None" conceptID="Obs16" novelty="None" type="Obs"/><text>3 and 4 for Sv=0.1 and Sv=1.1, respectively.</text></s>
+<s sid="192"><CoreSc1 advantage="None" conceptID="Obs17" novelty="None" type="Obs"/><text>Fig. 5(a)-(e) show cross-sections of the same five fields at z=2π for an intermediate Sv value (Sv=0.5).</text></s>
+<s sid="193"><CoreSc1 advantage="None" conceptID="Obs18" novelty="None" type="Obs"/><text>When Sv is small, both FTLE approximations (FTLE3d2d and FTLE2d2d) adequately capture much of the larger-scale LCS structure (Fig. 3).</text></s>
+<s sid="194"><CoreSc1 advantage="None" conceptID="Obs19" novelty="None" type="Obs"/><text>As Sv increases, however, both approximate FTLEs miss important smaller scale structure (Fig. 5), and for large Sv (Fig. 4), the differences are particularly striking, as both approximate FTLEs miss important vertical structure (Fig. 4(b)-(c)) when compared with the benchmark (Fig. 4(a)).</text></s>
+<s sid="195"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>Fig. 5 suggests that accuracy of the two FTLE approximations degrades steadily as Sv increases.</text></s>
+<s sid="196"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>Plots of RMS FTLE differences (computed over the entire domain) as a function of Sv (Fig. 5(f)) confirm this steady degradation in both approximations over the range of Sv considered here.</text></s>
+<s sid="197"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>Curiously, both RMS difference curves exhibit inflection points near Sv=0.8.</text></s>
+<s sid="198"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>Although A=B=C when Sv=0.8, a simple explanation for this feature in the difference growth rate eludes us.</text></s>
+<s sid="199"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>Fig. 5(f) shows that FTLE3d2d is a better approximation than FTLE2d2d for all Sv values considered.</text></s>
+<s sid="200"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>Note also that as they degrade, the spatial patterns in the two FTLE approximations remain quite similar to each other (Figs.</text></s>
+4(b)-(c) and 5(b)-(c)).
+<s sid="201"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>RMS FTLE differences (Fig. 5(f)) are convenient metrics for demonstrating the relationship between increasing Sv and decreasing accuracy in FTLE approximations.</text></s>
+<s sid="202"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>However, because these scalar metrics represent average differences computed over the entire 3D domain, they cannot easily be used to distinguish cases with differences due mostly to errors in FTLE magnitude (as in Fig. 3) from cases with differences due to significant errors in FTLE ridge positions (as in Fig. 4).</text></s>
+<s sid="203"><CoreSc1 advantage="None" conceptID="Obj28" novelty="None" type="Obj"/><text>The accuracy of approximate FTLE ridge positions can be explored by examining one-dimensional (1D) cross-sections of FTLE2d2d,FTLE3d2d, and FTLE3d3d.</text></s>
+<s sid="204"><CoreSc1 advantage="None" conceptID="Obs20" novelty="None" type="Obs"/><text>Fig. 6 provides an example along the x-direction at z=2π,y=π/2 for Sv=0.1, 0.5, and 1.1.</text></s>
+<s sid="205"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>These plots demonstrate that ridges in both FTLE2d2d and FTLE3d2d align well with those for FTLE3d3d when Sv=0.1 (Fig. 6(a)).</text></s>
+<s sid="206"><CoreSc1 advantage="None" conceptID="Res61" novelty="None" type="Res"/><text>For larger Sv values (Fig. 6(b)-(c)), FTLE2d2d and FTLE3d2d ridge positions are shifted significantly along the x-axis.</text></s>
+<s sid="207"><CoreSc1 advantage="None" conceptID="Res62" novelty="None" type="Res"/><text>Additionally, when Sv=1.1, peak FTLE values tend to be underestimated and FTLE3d2d overestimates FTLE values near local minima.</text></s>
+<s sid="208"><CoreSc1 advantage="None" conceptID="Res63" novelty="None" type="Res"/><text>These profile plots indicate that neither FTLE2d2d nor FTLE3d2d is a good approximation for FTLE3d3d when the magnitude of Sv approaches that ofmax(Sw).</text></s>
+<s sid="209"><CoreSc1 advantage="None" conceptID="Res64" novelty="None" type="Res"/><text>Fixed Sv with increasing max(Sw)</text></s>
+<s sid="210"><CoreSc1 advantage="None" conceptID="Obj29" novelty="None" type="Obj"/><text>We now consider the effects of increasing max(Sw) on approximate FTLEs computed for the ABC flow.</text></s>
+<s sid="211"><CoreSc1 advantage="None" conceptID="Mod33" novelty="None" type="Mod"/><text>Here, Sv is fixed by specifying A=0.1 and Sw is increased by choosing B=C=[0.5,0.6,…,1.5].</text></s>
+<s sid="212"><CoreSc1 advantage="None" conceptID="Res65" novelty="None" type="Res"/><text>Examples of the three FTLE fields and their differences Δ1 and Δ2 are shown in Figs.</text></s>
+<s sid="213"><CoreSc1 advantage="None" conceptID="Obs21" novelty="None" type="Obs"/><text>7 and 8 for B=C=0.5 and B=C=1.5, respectively.</text></s>
+<s sid="214"><CoreSc1 advantage="None" conceptID="Obs22" novelty="None" type="Obs"/><text>Fig. 9(a)-(e) show cross-sections of the same five fields at z=2π for an intermediate value (B=C=1.0).</text></s>
+<s sid="215"><CoreSc1 advantage="None" conceptID="Obs23" novelty="None" type="Obs"/><text>Plots of RMS FTLE differences (computed over the entire domain) as a function of max(Sw) are shown in Fig. 9(f).</text></s>
+<s sid="216"><CoreSc1 advantage="None" conceptID="Res66" novelty="None" type="Res"/><text>Figs. 7 and 8 show that, even for large max(Sw), both approximations capture the LCS structure adequately.</text></s>
+<s sid="217"><CoreSc1 advantage="None" conceptID="Res67" novelty="None" type="Res"/><text>RMS differences increase as max(Sw) increases (Fig. 9(f)), although the differences remain relatively small over the range of max(Sw) values considered here.</text></s>
+<s sid="218"><CoreSc1 advantage="None" conceptID="Res68" novelty="None" type="Res"/><text>At all max(Sw) values considered, the RMS differences show that FTLE3d2d is a better approximation than FTLE2d2d.</text></s>
+<s sid="219"><CoreSc1 advantage="None" conceptID="Obs24" novelty="None" type="Obs"/><text>Fig. 10 displays 1D cross-sections of FTLE3d3d, FTLE3d2d, and FTLE2d2d along the x-direction at z=2π and y=π/2 for B=C=0.5,1.0,1.5.</text></s>
+<s sid="220"><CoreSc1 advantage="None" conceptID="Res69" novelty="None" type="Res"/><text>These curves show that both FTLE approximations accurately describe peak FTLE values and ridge positions, with only small position differences along the x-axis.</text></s>
+<s sid="221"><CoreSc1 advantage="None" conceptID="Res70" novelty="None" type="Res"/><text>LCS in a steady quadrupole</text></s>
+<s sid="222"><CoreSc1 advantage="None" conceptID="Con15" novelty="None" type="Con"/><text>Analysis of the ABC flow (Section 4) identified the important role that vertical shear of the horizontal velocity plays in 3D LCS.</text></s>
+<s sid="223"><CoreSc1 advantage="None" conceptID="Con16" novelty="None" type="Con"/><text>That analysis also demonstrated that two potentially appealing FTLE approximations can be significantly degraded when this shear is ignored.</text></s>
+<s sid="224"><CoreSc1 advantage="None" conceptID="Con17" novelty="None" type="Con"/><text>In ABC flows, however, all three velocity components have similar scales since w is constrained by the same parameters that control the (u,v) structure.</text></s>
+<s sid="225"><CoreSc1 advantage="None" conceptID="Con18" novelty="None" type="Con"/><text>Consequently, ABC flows are not representative of most geophysical flows which have a natural disparity-typically three orders of magnitude or more-between the vertical and horizontal velocity scales.</text></s>
+<s sid="226"><CoreSc1 advantage="None" conceptID="Con19" novelty="None" type="Con"/><text>To assess the validity of the two FTLE approximations defined in Section 2 for flows with representative geophysical velocity scalings, we now appeal to the quadrupole model described in Section 3.2.</text></s>
+<s sid="227"><CoreSc1 advantage="None" conceptID="Con20" novelty="None" type="Con"/><text>This model allows for a natural separation between the horizontal and vertical velocity scalings.</text></s>
+<s sid="228"><CoreSc1 advantage="None" conceptID="Con21" novelty="None" type="Con"/><text>Like the ABC flow, it also allows Sv and Sw to be varied independently, so that the relative importance of vertical velocities and vertical (u,v) shear can be examined separately.</text></s>
+<s sid="229"><CoreSc1 advantage="None" conceptID="Res71" novelty="None" type="Res"/><text>Given the choices of the model formulation specified in Section 3.2, the two diagnostics take on the following values: (29)Sv=|A1|sin2(αx)cos2(αy)+cos2(αx)sin2(αy) and (30)Sw2=α2(B0+B1z)2[sin2(αx)cos2(αy)+cos2(αx)sin2(αy)]⋯+B12[cos2(αx)cos2(αy)].</text></s>
+<s sid="230"><CoreSc1 advantage="None" conceptID="Res72" novelty="None" type="Res"/><text>For ocean flows, the Richardson shear criterion provides an approximate upper bound on Sv.</text></s>
+<s sid="231"><CoreSc1 advantage="None" conceptID="Res73" novelty="None" type="Res"/><text>From this criterion, we expect N2/Sv2≥0.25 where N is the stratification (Brunt-Väisälä) frequency.</text></s>
+<s sid="232"><CoreSc1 advantage="None" conceptID="Res74" novelty="None" type="Res"/><text>Flows with Sv values exceeding this limit will likely be unstable.</text></s>
+<s sid="233"><CoreSc1 advantage="None" conceptID="Res75" novelty="None" type="Res"/><text>Here, we consider Nmax=1cycle/h (1.75×10-3s-1) as an upper bound for ocean flows and we examine a range of A0 and A1 values corresponding to maximum Sv values ranging from 0.2Nmax to 2Nmax.</text></s>
+<s sid="234"><CoreSc1 advantage="None" conceptID="Res76" novelty="None" type="Res"/><text>An ocean limit on Sw is harder to establish.</text></s>
+<s sid="235"><CoreSc1 advantage="None" conceptID="Res77" novelty="None" type="Res"/><text>To allow for more direct comparisons between quadrupole experiments with w≠0, we choose to fix the maximum vertical velocity magnitude (|w|max) at the analysis depth z=-0.3km at 10-4ms-1 in all cases.</text></s>
+From Eq.
+<s sid="236"><CoreSc1 advantage="None" conceptID="Res78" novelty="None" type="Res"/><text>(24c), note that both ∂w/∂x and ∂w/∂y scale like α|w|max=π|w|max/L, where L=Lx=Ly.</text></s>
+<s sid="237"><CoreSc1 advantage="None" conceptID="Res79" novelty="None" type="Res"/><text>For our choices of |w|max=10-4ms-1 and L=200km, these horizontal w gradients do not exceed 1.57×10-9s-1.</text></s>
+<s sid="238"><CoreSc1 advantage="None" conceptID="Res80" novelty="None" type="Res"/><text>For the incompressible ocean flows considered here, the remaining contributor to Sw,∂w/∂z, is equal to the horizontal divergence.</text></s>
+<s sid="239"><CoreSc1 advantage="None" conceptID="Res81" novelty="None" type="Res"/><text>Estimates of ocean mesoscale horizontal divergence from drifter trajectories indicate that a conservative upper bound on its magnitude is 0.1f, where f is the Coriolis parameter [34-36].</text></s>
+<s sid="240"><CoreSc1 advantage="None" conceptID="Res82" novelty="None" type="Res"/><text>Consequently, we choose a representative mid-latitude f value of 1×10-4s-1 and examine a range of B0 and B1 values corresponding to maximum ∂w/∂z magnitudes between 0.01f and 0.1f.</text></s>
+<s sid="241"><CoreSc1 advantage="None" conceptID="Res83" novelty="None" type="Res"/><text>For these parameter choices, since ∂w/∂z is always at least two orders of magnitude larger than either ∂w/∂x or ∂w/∂y,Sw∼|∂w/∂z|.</text></s>
+<s sid="242"><CoreSc1 advantage="None" conceptID="Res84" novelty="None" type="Res"/><text>In Sections 5.1 through 5.3, we consider three quadrupole cases: 1.</text></s>
+<s sid="243"><CoreSc1 advantage="None" conceptID="Res85" novelty="None" type="Res"/><text>Zero vertical (u,v) shear with nonzero vertical velocity gradients (Sv=0,max(Sw)≠0).</text></s>
+2.
+<s sid="244"><CoreSc1 advantage="None" conceptID="Res86" novelty="None" type="Res"/><text>Nonzero vertical (u,v) shear with zero vertical velocity (max(Sv)≠0,w=0,Sw=0).</text></s>
+3.
+<s sid="245"><CoreSc1 advantage="None" conceptID="Res87" novelty="None" type="Res"/><text>Nonzero vertical (u,v) shear with nonzero vertical velocity (max(Sv)≠0,w≠0,max(Sw)≠0).</text></s>
+<s sid="246"><CoreSc1 advantage="None" conceptID="Res88" novelty="None" type="Res"/><text>These three cases permit the investigation of the effects of Sv and Sw first separately and then jointly.</text></s>
+<s sid="247"><CoreSc1 advantage="None" conceptID="Res89" novelty="None" type="Res"/><text>Zero vertical (u,v) shear with nonzero w gradient</text></s>
+<s sid="248"><CoreSc1 advantage="None" conceptID="Res90" novelty="None" type="Res"/><text>Here we specify Sv=0 and max(Sw)≠0.</text></s>
+<s sid="249"><CoreSc1 advantage="None" conceptID="Res91" novelty="None" type="Res"/><text>This is achieved by setting A1=0.</text></s>
+<s sid="250"><CoreSc1 advantage="None" conceptID="Res92" novelty="None" type="Res"/><text>A0=0.5ms-1, and max(Sw) is varied by choosing (31)B0=-[2,5,8,11,14,17,20,23,26,29]×10-4 in m s-1 and (32)B1=-[1,2,3,4,5,6,7,8,9,10]×10-4 in m s-1 km-1.</text></s>
+<s sid="251"><CoreSc1 advantage="None" conceptID="Res93" novelty="None" type="Res"/><text>For these parameter choices, the peak w magnitude at z=-0.3km is fixed to 10-4ms-1.</text></s>
+<s sid="252"><CoreSc1 advantage="None" conceptID="Res94" novelty="None" type="Res"/><text>In the analysis layer, max(Sw) values, range from 0.0864 to 0.8640days-1.</text></s>
+<s sid="253"><CoreSc1 advantage="None" conceptID="Res95" novelty="None" type="Res"/><text>Note that, since Sv=0,FTLE3d2d and FTLE2d2d are derived from identical Cauchy-Green tensors.</text></s>
+<s sid="254"><CoreSc1 advantage="None" conceptID="Res96" novelty="None" type="Res"/><text>Thus, for this case only FTLE3d3d and FTLE2d2d are compared.</text></s>
+<s sid="255"><CoreSc1 advantage="None" conceptID="Res97" novelty="None" type="Res"/><text>Fig. 11((a)-(c)) show plots of FTLE3d3d,FTLE2d2d, and their absolute difference at z=-0.3km with B0=-2×10-4ms-1 and B1=-10-3ms-1km-1.</text></s>
+<s sid="256"><CoreSc1 advantage="None" conceptID="Res98" novelty="None" type="Res"/><text>The small absolute differences (Fig. 11(c)) demonstrate that FTLE2d2d is an excellent approximation in this case.</text></s>
+<s sid="257"><CoreSc1 advantage="None" conceptID="Res99" novelty="None" type="Res"/><text>Fig. 11(d) shows a plot of RMS(Δ1) versus max(Sw).</text></s>
+<s sid="258"><CoreSc1 advantage="None" conceptID="Res100" novelty="None" type="Res"/><text>This plot indicates that the RMS difference is insignificant (on the order of 10-6days-1) for max(Sw) values up to about 0.43days-1.</text></s>
+<s sid="259"><CoreSc1 advantage="None" conceptID="Res101" novelty="None" type="Res"/><text>For higher values of max(Sw),RMS(Δ1) increases rapidly by at least five orders of magnitude.</text></s>
+<s sid="260"><CoreSc1 advantage="None" conceptID="Res102" novelty="None" type="Res"/><text>Since the peak values of FTLE2d2d are O(1), these differences are significant.</text></s>
+<s sid="261"><CoreSc1 advantage="None" conceptID="Res103" novelty="None" type="Res"/><text>Nonzero vertical (u,v) shear with no vertical velocity</text></s>
+<s sid="262"><CoreSc1 advantage="None" conceptID="Obj30" novelty="None" type="Obj"/><text>Next we explore how vertical (u,v) shear impacts the FTLE approximations when Sw=0.</text></s>
+From Eq.
+<s sid="263"><CoreSc1 advantage="None" conceptID="Res104" novelty="None" type="Res"/><text>(30), this is obtained by specifying B0=B1=0.</text></s>
+<s sid="264"><CoreSc1 advantage="None" conceptID="Res105" novelty="None" type="Res"/><text>The following values are chosen for A0 and A1 to achieve a range of max(Sv): (33)A0=[0.53,0.59,0.65,0.80,0.95,1.10,1.25,1.40,1.55] in m s-1, and (34)A1=[0.10,0.30,0.50,1.00,1.50,2.00,2.50,3.00,3.50] in m s-1 km-1.</text></s>
+<s sid="265"><CoreSc1 advantage="None" conceptID="Res106" novelty="None" type="Res"/><text>These nine (A0,A1) pairs were chosen so that the (u,v) velocities at z=-0.3km remain constant, with a peak value of 0.5 m s-1.</text></s>
+<s sid="266"><CoreSc1 advantage="None" conceptID="Res107" novelty="None" type="Res"/><text>Over this range of A1 values, max(Sv) increases from 1×10-4 s-1 to 3.5×10-3s-1 (0.2Nmax to 2Nmax).</text></s>
+<s sid="267"><CoreSc1 advantage="None" conceptID="Res108" novelty="None" type="Res"/><text>Since w=0 here, the 3D and 2D trajectories are identical.</text></s>
+<s sid="268"><CoreSc1 advantage="None" conceptID="Res109" novelty="None" type="Res"/><text>Hence for this case, FTLE3d2d=FTLE3d3d, and we need only compare FTLE3d3d with FTLE2d2d.</text></s>
+<s sid="269"><CoreSc1 advantage="None" conceptID="Obs25" novelty="None" type="Obs"/><text>Fig. 12(a)-(c) show the two FTLE fields and their differences at z=-0.3km, with A0=0.53ms-1 and A1=0.10ms-1km-1.</text></s>
+<s sid="270"><CoreSc1 advantage="None" conceptID="Obs26" novelty="None" type="Obs"/><text>Note that the magnitude of the peak FTLE differences is comparable to the peak FTLE values.</text></s>
+<s sid="271"><CoreSc1 advantage="None" conceptID="Obs27" novelty="None" type="Obs"/><text>FTLE differences are small at the eddy centers and along the LCS.</text></s>
+<s sid="272"><CoreSc1 advantage="None" conceptID="Obs28" novelty="None" type="Obs"/><text>Panel (d) of this figure shows the RMS(Δ1) versus max(Sv) for the plane at z=-0.3km.</text></s>
+<s sid="273"><CoreSc1 advantage="None" conceptID="Res110" novelty="None" type="Res"/><text>The RMS differences rise rapidly with max(Sv) at first but increase more slowly after about 50days-1.</text></s>
+<s sid="274"><CoreSc1 advantage="None" conceptID="Res111" novelty="None" type="Res"/><text>Nonzero vertical (u,v) shear, nonzero w gradient</text></s>
+<s sid="275"><CoreSc1 advantage="None" conceptID="Res112" novelty="None" type="Res"/><text>In Sections 5.1 and 5.2, the effects of Sv and Sw were examined separately.</text></s>
+<s sid="276"><CoreSc1 advantage="None" conceptID="Res113" novelty="None" type="Res"/><text>Here, the general case where both max(Sv) and max(Sw) are nonzero is considered.</text></s>
+<s sid="277"><CoreSc1 advantage="None" conceptID="Res114" novelty="None" type="Res"/><text>Ninety separate cases are examined.</text></s>
+<s sid="278"><CoreSc1 advantage="None" conceptID="Res115" novelty="None" type="Res"/><text>These cases pair each of the ten values of max(Sw) explored in Section 5.1 (range of B0 and B1 values shown in Eqs.</text></s>
+<s sid="279"><CoreSc1 advantage="None" conceptID="Obs29" novelty="None" type="Obs"/><text>(31) and (32)) with the nine values of max(Sv) explored in Section 5.2 (range of A0 and A1 values shown in Eqs.</text></s>
+(33) and (34)).
+<s sid="280"><CoreSc1 advantage="None" conceptID="Obs30" novelty="None" type="Obs"/><text>Fig. 13(a)-(e) show the three FTLE fields and their differences at z=-0.3km, with A0=0.53ms-1,A1=0.10ms-1km-1,B0=-1.1×10-3ms-1, and B1=-4×10-3ms-1km-1.</text></s>
+<s sid="281"><CoreSc1 advantage="None" conceptID="Obs31" novelty="None" type="Obs"/><text>A comparison of panels (d) and (e) shows that Δ2 is much smaller than Δ1.</text></s>
+<s sid="282"><CoreSc1 advantage="None" conceptID="Obs32" novelty="None" type="Obs"/><text>In particular, the magnitude of max(Δ1) is comparable to the peak FTLE values, whereas max(Δ2) is an order of magnitude smaller.</text></s>
+<s sid="283"><CoreSc1 advantage="None" conceptID="Res116" novelty="None" type="Res"/><text>Also noteworthy are the uniformly small FTLE differences at the eddy centers and along the LCS, as in the previous section.</text></s>
+<s sid="284"><CoreSc1 advantage="None" conceptID="Res117" novelty="None" type="Res"/><text>At eddy centers, Sv=0 and Sw=0, so that small differences are expected.</text></s>
+<s sid="285"><CoreSc1 advantage="None" conceptID="Res118" novelty="None" type="Res"/><text>The LCS, on the other hand, pass through both maxima and minima in the Sv and Sw fields.</text></s>
+<s sid="286"><CoreSc1 advantage="None" conceptID="Res119" novelty="None" type="Res"/><text>We hypothesize that here the primary direction of dispersion lies in the horizontal plane, resulting in similar FTLE values for the approximations.</text></s>
+<s sid="287"><CoreSc1 advantage="None" conceptID="Obs33" novelty="None" type="Obs"/><text>Fig. 13(f) shows RMS(Δ1) and RMS(Δ2) versus max(Sv) for the case with max(Sw)=0.3456days-1.</text></s>
+<s sid="288"><CoreSc1 advantage="None" conceptID="Res120" novelty="None" type="Res"/><text>After an initial rise, RMS(Δ2) quickly levels off at a relatively low value, while RMS(Δ1) continues to grow.</text></s>
+<s sid="289"><CoreSc1 advantage="None" conceptID="Res121" novelty="None" type="Res"/><text>Fig. 14 shows contour plots of RMS(Δ1) and RMS(Δ2) as a function of both max(Sw) and max(Sv).</text></s>
+<s sid="290"><CoreSc1 advantage="None" conceptID="Res122" novelty="None" type="Res"/><text>For RMS(Δ2), the controlling diagnostic is max(Sw): For any nonzero value of max(Sv),RMS(Δ2) increases rapidly as max(Sw) increases.</text></s>
+<s sid="291"><CoreSc1 advantage="None" conceptID="Res123" novelty="None" type="Res"/><text>The exception occurs at very low values of max(Sv).</text></s>
+<s sid="292"><CoreSc1 advantage="None" conceptID="Res124" novelty="None" type="Res"/><text>Note that for max(Sv)=0,RMS(Δ2) is small and noticeably lower than for max(Sv)&gt;0.</text></s>
+<s sid="293"><CoreSc1 advantage="None" conceptID="Res125" novelty="None" type="Res"/><text>Sw is therefore important only in the presence of vertical (u,v) shear.</text></s>
+<s sid="294"><CoreSc1 advantage="None" conceptID="Res126" novelty="None" type="Res"/><text>Even though changes in max(Sw) have a greater impact on RMS(Δ2) than changes in max(Sv), an increase in max(Sv) is associated with larger RMS differences for almost all values of max(Sw).</text></s>
+<s sid="295"><CoreSc1 advantage="None" conceptID="Con22" novelty="None" type="Con"/><text>For large max(Sw) (greater than about 0.6days-1), this general rule no longer strictly holds, leading to the counter-intuitive result that increasing max(Sv) may actually improve the accuracy of the FTLE estimate slightly.</text></s>
+<s sid="296"><CoreSc1 advantage="None" conceptID="Con23" novelty="None" type="Con"/><text>This phenomenon may result from aliasing that arises when the integration time approximates an integer multiple of the eddy orbit period at some critical locations in the flow.</text></s>
+<s sid="297"><CoreSc1 advantage="None" conceptID="Res127" novelty="None" type="Res"/><text>Fig. 14(b) shows that, for RMS(Δ1), the situation is reversed: Especially at low values of max(Sv), increasing max(Sw) has little effect.</text></s>
+<s sid="298"><CoreSc1 advantage="None" conceptID="Res128" novelty="None" type="Res"/><text>The errors are dominated by the vertical (u,v) shear effects.</text></s>
+<s sid="299"><CoreSc1 advantage="None" conceptID="Res129" novelty="None" type="Res"/><text>As max(Sv) rises above about 100days-1,max(Sw) becomes more relevant, until it becomes the controlling factor (max(Sv)≳175days-1 and max(Sw)≳0.5days-1).</text></s>
+<s sid="300"><CoreSc1 advantage="None" conceptID="Res130" novelty="None" type="Res"/><text>It is worth noting that for most of the explored parameter space, RMS(Δ1) is close to an order of magnitude larger than RMS(Δ2).</text></s>
+<s sid="301"><CoreSc1 advantage="None" conceptID="Con24" novelty="None" type="Con"/><text>This suggests that the additional computational cost for FTLE3d2d is often justified by the improvement in the FTLE approximation.</text></s>
+<s sid="302"><CoreSc1 advantage="None" conceptID="Con25" novelty="None" type="Con"/><text>The metric used so far in the quadrupole analysis is an RMS difference between the exact FTLE field and FTLE approximations taken over the analysis layer at z=-0.3km.</text></s>
+<s sid="303"><CoreSc1 advantage="None" conceptID="Con26" novelty="None" type="Con"/><text>As for the ABC flow, identification of LCS positions as ridges and valleys may be less error-prone than the exact FTLE magnitudes over the entire field.</text></s>
+<s sid="304"><CoreSc1 advantage="None" conceptID="Res131" novelty="None" type="Res"/><text>Fig. 15 compares FTLE ridge positions, showing 1D cross-sections of FTLE3d3d,FTLE3d2d, and FTLE2d2d at z=-0.3km along an east-west transect at y=100km.</text></s>
+<s sid="305"><CoreSc1 advantage="None" conceptID="Res132" novelty="None" type="Res"/><text>The plots clearly show that both FTLE approximations capture the ridge locations nearly perfectly.</text></s>
+<s sid="306"><CoreSc1 advantage="None" conceptID="Con27" novelty="None" type="Con"/><text>FTLE3d2d also accurately reproduces the steep FTLE drop within the eddies.</text></s>
+Discussion
+<s sid="307"><CoreSc1 advantage="None" conceptID="Con28" novelty="None" type="Con"/><text>In baroclinic geophysical flows one expects that LCS are 2D structures embedded in a 3D flow field.</text></s>
+<s sid="308"><CoreSc1 advantage="None" conceptID="Con29" novelty="None" type="Con"/><text>In many models, only 2D velocities are calculated from the primitive equations, with the third component obtained from a diagnostic computation.</text></s>
+<s sid="309"><CoreSc1 advantage="None" conceptID="Con30" novelty="None" type="Con"/><text>Typically that component is small, and since the diagnostic calculation contains numerical uncertainty, it may be preferable to estimate the LCS characterizing a 3D flow with more reliable 2D velocities.</text></s>
+<s sid="310"><CoreSc1 advantage="None" conceptID="Con31" novelty="None" type="Con"/><text>The LCS intersect the corresponding surfaces along 1D curves.</text></s>
+<s sid="311"><CoreSc1 advantage="None" conceptID="Con32" novelty="None" type="Con"/><text>Here we investigated the conditions when 2D velocities are sufficient for delineating these curves.</text></s>
+<s sid="312"><CoreSc1 advantage="None" conceptID="Con33" novelty="None" type="Con"/><text>As discussed in Section 1, the answer has consequences: If these conditions are satisfied, the computational cost can be reduced, in the case of FTLE2d2d cutting the number of required trajectories by a factor of three.</text></s>
+<s sid="313"><CoreSc1 advantage="None" conceptID="Con34" novelty="None" type="Con"/><text>Moreover, the investigation here could validate, or negate, a substantial body of research in oceanography where only 2D velocities are readily available and in atmospheric sciences where diabatic velocities are often neglected.</text></s>
+<s sid="314"><CoreSc1 advantage="None" conceptID="Con35" novelty="None" type="Con"/><text>Our approach was to study this issue with two simple models, the ABC flow and a quadrupole model scaled for open ocean conditions.</text></s>
+<s sid="315"><CoreSc1 advantage="None" conceptID="Con36" novelty="None" type="Con"/><text>In Section 2, we proposed two reduced representations of the Cauchy-Green tensor that utilized just 2D velocity information.</text></s>
+<s sid="316"><CoreSc1 advantage="None" conceptID="Res133" novelty="None" type="Res"/><text>One was the standard 2×2 matrix widely used in oceanography.</text></s>
+<s sid="317"><CoreSc1 advantage="None" conceptID="Res134" novelty="None" type="Res"/><text>The other was a reduced form of the 3×3 matrix that included the vertical shears of the horizontal positions but none of the terms involving gradients of vertical positions.</text></s>
+<s sid="318"><CoreSc1 advantage="None" conceptID="Res135" novelty="None" type="Res"/><text>Two diagnostics were also proposed.</text></s>
+<s sid="319"><CoreSc1 advantage="None" conceptID="Con37" novelty="None" type="Con"/><text>One, Sv, involves the components of the 2D velocity gradient normal to the surfaces.</text></s>
+This is readily computed.
+<s sid="320"><CoreSc1 advantage="None" conceptID="Con38" novelty="None" type="Con"/><text>The other metric, Sw, involves the gradients of the vertical/diabatic velocity component.</text></s>
+<s sid="321"><CoreSc1 advantage="None" conceptID="Con39" novelty="None" type="Con"/><text>This is not generally available in general circulation models, but was specified in the simple models used here and employed as a guide to the impact these terms might have on the FTLE estimates.</text></s>
+<s sid="322"><CoreSc1 advantage="None" conceptID="Res136" novelty="None" type="Res"/><text>Comparisons of the FTLE obtained from the two approximations were made with that obtained from the complete 3D velocity fields.</text></s>
+<s sid="323"><CoreSc1 advantage="None" conceptID="Res137" novelty="None" type="Res"/><text>For the ABC model, when Sv was small, the analysis indicated that both approximations adequately described both LCS positions and peak FTLE values regardless of Sw (Section 4.2).</text></s>
+<s sid="324"><CoreSc1 advantage="None" conceptID="Res138" novelty="None" type="Res"/><text>For moderate to large Sv values, neither approximation adequately delineated the 2D LCS (Section 4.1).</text></s>
+<s sid="325"><CoreSc1 advantage="None" conceptID="Con40" novelty="None" type="Con"/><text>In these cases, magnitudes of the approximate FTLEs deviated significantly from the exact value and the approximations produced spurious LCS ridges.</text></s>
+<s sid="326"><CoreSc1 advantage="None" conceptID="Con41" novelty="None" type="Con"/><text>Analysis of the FTLE approximations for the quadrupole were more encouraging.</text></s>
+<s sid="327"><CoreSc1 advantage="None" conceptID="Con42" novelty="None" type="Con"/><text>In this case, the vertical and horizontal velocities along with their gradients were constrained to be consistent with open ocean conditions.</text></s>
+<s sid="328"><CoreSc1 advantage="None" conceptID="Con43" novelty="None" type="Con"/><text>Both FTLE approximations yielded magnitudes comparable to the exact values.</text></s>
+<s sid="329"><CoreSc1 advantage="None" conceptID="Con44" novelty="None" type="Con"/><text>More importantly, no spurious LCS ridges or LCS position errors were discovered.</text></s>
+<s sid="330"><CoreSc1 advantage="None" conceptID="Con45" novelty="None" type="Con"/><text>This suggests that, for geophysical models, approximate FTLEs computed using only 2D velocities may be accurate enough to reliably characterize important mixing structures.</text></s>
+<s sid="331"><CoreSc1 advantage="None" conceptID="Con46" novelty="None" type="Con"/><text>Recent studies have used FTLEs to explore how LCS change with depth in the vicinity of ocean mesoscale eddies.</text></s>
+<s sid="332"><CoreSc1 advantage="None" conceptID="Con47" novelty="None" type="Con"/><text>Branicki and Kirwan [27] and Bettencourt et al. [28] used 2D velocities to show that LCS surfaces near eddies are aligned almost vertically, like &quot;curtains&quot;, in the water column.</text></s>
+<s sid="333"><CoreSc1 advantage="None" conceptID="Con48" novelty="None" type="Con"/><text>Our analysis of approximate FTLEs in the idealized quadrupole does not invalidate these studies.</text></s>
+<s sid="334"><CoreSc1 advantage="None" conceptID="Con49" novelty="None" type="Con"/><text>However, a thorough assessment of approximate FTLEs in realistic ocean models is needed.</text></s>
+<s sid="335"><CoreSc1 advantage="None" conceptID="Con50" novelty="None" type="Con"/><text>Such an investigation should be guided by the diagnostics developed here.</text></s>
+<s sid="336"><CoreSc1 advantage="None" conceptID="Con51" novelty="None" type="Con"/><text>In particular, the diagnostic Sv was found useful for determining the accuracy of approximate FTLEs.</text></s>
+<s sid="337"><CoreSc1 advantage="None" conceptID="Con52" novelty="None" type="Con"/><text>Its utility is related to the Richardson criterion noted in Section 5.</text></s>
+<s sid="338"><CoreSc1 advantage="None" conceptID="Con53" novelty="None" type="Con"/><text>This criterion is similar to that identified by Branicki et al. [26], but replaces a scale velocity with N2 and gives a non-dimensional numerical threshold applicable to geophysical flows.</text></s>
+<s sid="339"><CoreSc1 advantage="None" conceptID="Con54" novelty="None" type="Con"/><text>It is used somewhat differently here, in that it characterizes the accuracy of the FTLE approximations and not the verticality of the invariant manifolds.</text></s>
+<s sid="340"><CoreSc1 advantage="None" conceptID="Con55" novelty="None" type="Con"/><text>Our results suggest that large values of Sv identify regions where FTLE2d2d approximations become problematic.</text></s>
+<s sid="341"><CoreSc1 advantage="None" conceptID="Con56" novelty="None" type="Con"/><text>Finally, we recommend the new approximation FTLE3d2d for geophysical flows with no reliable information about vertical or diabatic velocities.</text></s>
+<s sid="342"><CoreSc1 advantage="None" conceptID="Con57" novelty="None" type="Con"/><text>FTLE3d2d accounts for additional dispersion due to vertical (u,v) shear using an approximate Cauchy-Green tensor based on the strain tensor shown in Eq.</text></s>
+(9).
+<s sid="343"><CoreSc1 advantage="None" conceptID="Con58" novelty="None" type="Con"/><text>For the quadrupole studied here, this additional dispersion was often significant.</text></s>
+<s sid="344"><CoreSc1 advantage="None" conceptID="Con59" novelty="None" type="Con"/><text>Fig. 15 shows the substantial improvement FTLE3d2d provides when compared with the FTLE2d2d approximation most often used in prior work.</text></s>
+<s sid="345"><CoreSc1 advantage="None" conceptID="Con60" novelty="None" type="Con"/><text>Importantly, the necessary vertical (u,v) shear information is readily available in existing geophysical models.</text></s>
+</BODY>
+<OTHER>
+Acknowledgments
+Support for this research came from the Office of Naval Research through grants N00014-10-1-0522 and N00014-11-10081 to the University of Delaware, the Office of Naval Research MURI OCEAN 3D + 1 grant N00014-11-1-0087, a grant from BP/The Gulf of Mexico Research Initiative, and the Mary A.S.
+Lighthipe endowment to the University of Delaware.
+Below a derivation of the inequality in (13) is given.
+Proposition 1
+(35)FTLE3d2d≥FTLE2d2d∀tf,to,x0.
+Proof
+Recall the definitions (36)FTLE2d2d=log(λmax(G1))tf-t0with G1=F1TF1 and (37)FTLE3d2d=log(λmax(G2))tf-t0with G2=F2TF2, where (38)F1=[∂x∂x0∂x∂y0∂y∂x0∂y∂y0] and (39)F2=[].
+Note that λmax(Gi)=σmax(Fi), where σmax is the largest singular value.
+Define S to be the subspace of R3 spanned by {[1,0,0]T,[0,1,0]T}.
+There is an obvious bijection from R2 to S, namely γ([x,y]T)=[x,y,0]T.
+Note that γ preserves the L2-norm.
+Furthermore, for any vector r∈R2,γ(F1r)=F2(γ(r)).
+It is well established (e.g. [37]) that ‖M‖2=σmax(M), where ‖M‖2 denotes the matrix 2-norm, which is defined for an m by n matrix M as (40)‖M‖2=supr∈Rn,‖r‖2=1‖Mr‖2.
+In particular, (41)σmax(F1)=supr∈R2,‖r‖2=1‖F1r‖2, and (42)σmax(F2)=supν∈R3,‖ν‖2=1‖F2ν‖2(43)≥supν∈S,‖ν‖2=1‖F2ν‖2(44)=supr∈R2,‖r‖2=1‖F2γ(r)‖2(45)=supr∈R2,‖r‖2=1‖γ(F1(r))‖2(46)=supr∈R2,‖r‖2=1‖F1(r)‖2(47)=σmax(F1).
+Consequently, σmax(F2)≥σmax(F1), which implies that FTLE3d2d≥FTLE2d2d.□
+
+</OTHER>
+</PAPER>

@@ -1,0 +1,318 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0960148113002048.tmf1" version="elsevier"/>
+<TITLE>Robust VAWT control system evaluation by coupled aerodynamic and electrical simulations
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>A control system for a vertical axis wind turbine is presented.</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>The electric load is determined solely from the rotational velocity and the characteristics of the turbine, thus measurements of the incoming wind speed are not required.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>The control system is evaluated with an aerodynamic vortex model coupled with an electrical model.</text></s>
+<s sid="4"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>Three different sets of control system parameters are tested, representing different tradeoffs between a high power absorption and achieving a fast control strategy with high stability.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>The simulations show that the three control strategies provide a similar power absorption as a reference strategy based on known wind speed.</text></s>
+<s sid="6"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>For dynamic simulations with fast changes in wind speed, the fast control strategies are beneficial.</text></s>
+<s sid="7"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>All control strategies are stable throughout the simulations when proper power absorption characteristics of the turbine are used.</text></s>
+<s sid="8"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>It is also shown that if peak power absorption is estimated at a too low tip speed ratio, the control strategies may inadvertently stop the turbine.</text></s>
+Highlights
+•
+<s sid="9"><CoreSc1 advantage="None" conceptID="Obj3" novelty="None" type="Obj"/><text>A coupled aerodynamic - electric simulation model is presented.</text></s>
+•
+<s sid="10"><CoreSc1 advantage="None" conceptID="Obj4" novelty="None" type="Obj"/><text>A control strategy for VAWT that does not require wind measurements is evaluated.</text></s>
+•
+<s sid="11"><CoreSc1 advantage="None" conceptID="Obj5" novelty="None" type="Obj"/><text>Accuracy of control strategy versus convergence speed is analysed.</text></s>
+•
+<s sid="12"><CoreSc1 advantage="None" conceptID="Obj6" novelty="None" type="Obj"/><text>The sensitivity of the control parameters is investigated.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="13"><CoreSc1 advantage="None" conceptID="Obj7" novelty="None" type="Obj"/><text>Wind turbines are generally divided into horizontal axis wind turbines (HAWT) and vertical axis wind turbines (VAWT) [1].</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Obj8" novelty="None" type="Obj"/><text>This work focuses on the VAWT, which is omnidirectional, implying that a yaw mechanism is not needed.</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Met1" novelty="None" type="Met"/><text>Another advantage of the VAWT is that the vertical axis allows the generator to be placed on ground, which simplifies construction and maintenance.</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Met2" novelty="None" type="Met"/><text>A disadvantage of this design is that at low tip speed ratios(1)λ=rωV∞,the turbine torque is low, which implies that the generator has to be operated as a motor to start the turbine.</text></s>
+In Eq.
+<s sid="17"><CoreSc1 advantage="None" conceptID="Mod1" novelty="None" type="Mod"/><text>(1), r is the turbine radius, ω is the turbine rotational velocity and V∞ is the asymptotic wind speed.</text></s>
+<s sid="18"><CoreSc1 advantage="None" conceptID="Mod2" novelty="None" type="Mod"/><text>Another characteristic feature of the VAWT is the cyclic loads from the aerodynamic forces on the blades.</text></s>
+<s sid="19"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>A common design consideration is if a pitch mechanism should be included or not.</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>The most common design is a HAWT with pitch regulation, where the turbine characteristics can be changed by varying the blade pitch angle [2].</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Exp1" novelty="None" type="Exp"/><text>Pitch control for a VAWT has been used to improve performance for turbines operating at low tip speed ratios by avoiding stall [3,4].</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>The present investigation considers turbines optimised for higher λ, where the effects of stall are much smaller.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>Pitch regulation of a VAWT further requires that the pitch angle is changed around the entire revolution, and such a mechanism is an additional source of mechanical failure.</text></s>
+<s sid="24"><CoreSc1 advantage="None" conceptID="Mot1" novelty="None" type="Mot"/><text>Furthermore, many models for pitch control of a VAWT require knowledge of the wind direction, adding the requirement for additional sensors [5,6].</text></s>
+<s sid="25"><CoreSc1 advantage="None" conceptID="Obj9" novelty="None" type="Obj"/><text>For these reasons, pitch is not investigated here.</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Met3" novelty="None" type="Met"/><text>Instead, this paper considers a more robust way to control the turbine, where the turbine rotational velocity is the only control parameter.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Met4" novelty="None" type="Met"/><text>The rotational velocity can be controlled via the power extracted by the generator (c.f.</text></s>
+Fig. 1).
+<s sid="28"><CoreSc1 advantage="None" conceptID="Met5" novelty="None" type="Met"/><text>The investigation here treats control strategies which operate without measurements of the wind speed and where the generator torque is determined from the rotational velocity of the turbine.</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>Similar strategies have been applied for HAWTs [7], but the low aerodynamic power of VAWTs at low λ requires a separate investigation into the applicability of these models for the vertical axis case.</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Goa1" novelty="None" type="Goa"/><text>The study of the control system is based on an aerodynamic simulation model for the turbine performance coupled with a model for the electrical system.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Obj10" novelty="None" type="Obj"/><text>The control system is embedded into the electrical system.</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Obj11" novelty="None" type="Obj"/><text>This approach gives full control of the input parameters and makes a study of the performance of the complete system possible.</text></s>
+Control theory
+<s sid="33"><CoreSc1 advantage="None" conceptID="Mod3" novelty="None" type="Mod"/><text>The power extracted from a turbine is(2)P=12CPρAV∞3,where A is the turbine area, ρ is the fluid density and CP is the power coefficient.</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>The power coefficient is primarily a function of the tip speed ratio but does also depend on the Reynolds number, as can be seen in Fig. 2, where the turbine has been simulated for different wind speeds.</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>Turbine details are described in Section 5.</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>The peak of the power coefficient curves occurs at approximately the same tip speed ratio λmax.</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>The peak value of the power coefficient, CPmax, is higher for higher wind speeds since the stall angle increases and the drag decreases for a wing with increased Reynolds number.</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Met6" novelty="None" type="Met"/><text>The angular acceleration of the turbine is determined by(3)ω˙=P-PeJω,where Pe is the total mechanical power absorbed by the generator and J is the combined angular inertia of the turbine and drive train.</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Met7" novelty="None" type="Met"/><text>Most control strategies strive to maintain the λ that optimises CP by varying Pe.</text></s>
+<s sid="40"><CoreSc1 advantage="None" conceptID="Met8" novelty="None" type="Met"/><text>One way to accomplish this is to rely on real-time measurements of the wind speed, combined with an estimate of λmax.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Obj12" novelty="None" type="Obj"/><text>This paper investigates control strategies where the extracted power is determined from the rotor speed alone, i.e.</text></s>
+Pe=Pe(ω).
+<s sid="42"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>Fig. 1 shows the variation of aerodynamic power, P, with the rotational velocity for a given wind speed.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>In the same figure, an example of a control strategy based on the extracted power is illustrated.</text></s>
+According to Eq.
+<s sid="44"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>(3), the turbine will increase its rotational velocity whenever P&gt;Pe, decrease its rotational velocity if P&lt;Pe and the control strategy will have an equilibrium whenever P=Pe.</text></s>
+<s sid="45"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>In the case of Fig. 1, there is one stable region for high rotational velocities, while for too low rotational velocities, the extracted power is higher than the aerodynamic power and the turbine will stop.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>The speed of the control strategy depends on the difference between the turbine torque T=P/ω and the generator torque Te=Pe/ω, as this is the torque that accelerates/decelerates the turbine, see Eq.</text></s>
+(3).
+<s sid="47"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>If this strategy operates at the stable equilibrium and there is an increase in wind speed, the aerodynamic power will increase, hence P&gt;Pe and the turbine will accelerate until a new equilibrium is reached (compare with Fig. 5).</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>Similarly, a decrease in wind speed will decrease the turbine rotational velocity.</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>The aim of the control strategy is, for each wind speed, to have a stable equilibrium at a rotational velocity that gives a high power coefficient.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Bac5" novelty="None" type="Bac"/><text>To tune this strategy for the highest power coefficient at a given wind speed, both λmax and CPmax have to be known at this speed.</text></s>
+Studied control strategies
+<s sid="51"><CoreSc1 advantage="None" conceptID="Met9" novelty="None" type="Met"/><text>One control strategy is to adjust the extracted power to be proportional to the cube of the rotational velocity (strategy A),(4)Pe*=k2ω3,where k2 is a constant and Pe* is the target mechanical power.</text></s>
+<s sid="52"><CoreSc1 advantage="None" conceptID="Met10" novelty="None" type="Met"/><text>This control strategy has been used for HAWTs before, see Ref.</text></s>
+[7].
+<s sid="53"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>The normalised extracted power is(5)CPe=Pe*12ρAV∞3,which, by using Eqs.</text></s>
+<s sid="54"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>(1) and (4), can be rewritten as(6)CPe=k212ρAλ3R3.</text></s>
+Note that Eq.
+<s sid="55"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>(6) only depends on λ, whereby the strategy has a similar behaviour for different wind speeds.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>The normalised extracted power is plotted in Fig. 2.</text></s>
+<s sid="57"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>The control strategy is designed to have its stable equilibrium at the peak of the 6 m/s curve and power extraction is thereby optimised at this velocity.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>As the power coefficient increases with the wind speed, there is a small shift in the equilibrium tip speed ratio λe towards higher values for increasing wind speeds.</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>Fig. 2 shows that this strategy is stable for all rotational velocities at the wind speeds 6 m/s and 12 m/s, while for 3 m/s, the turbine will stop if the tip speed ratio drops below 2.2.</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>At low tip speed ratios, the turbine acceleration is low for all wind speeds due to the close proximity of CP and CPe.</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Met11" novelty="None" type="Met"/><text>One way to avoid the problem with an unstable region for the 3 m/s curve, and to obtain a faster control strategy, is to introduce a second order term according to(7){Pe*=0ω≤ω0,Pe*=k1ω2(ω-ω0)ω&gt;ω0,where and k1 and ω0 are constants (strategy B).</text></s>
+<s sid="62"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>For the control strategy showed in Fig. 3, k1 and ω0 are chosen so that the turbine starts to absorb power at λ=4 for 3 m/s wind speed and maximum CP is still obtained for 6 m/s.</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>With this modification of the control strategy, the tip speed ratio will be higher at low wind speeds (λe=5.2 at 3 m/s) and lower at high wind speeds (λe=3.7 at 12 m/s) compared to the design value λmax=4.1 at 6 m/s.</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>For the 3 m/s and 6 m/s cases, the new strategy has larger differences between extracted and absorbed power for all values below the equilibrium, while for the 12 m/s case, only the region below λ=2 shows larger margins.</text></s>
+<s sid="65"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>These larger differences in power, combined with a smaller range of rotational velocities, provide a faster control at the expense of steady state operation further away from λmax.</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>Note that forcing the turbine to operate at lower tip speed ratio for high wind speeds can be favourable from a structural mechanical point of view as it reduces structural loads.</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Met12" novelty="None" type="Met"/><text>The third case (strategy C), is a mix of the two previous strategies, where strategy A is used in a middle region between ω1 and ω2, and a more rapid change in extracted power is used between ω0 to ω1 and above ω2 up to the rated rotational velocity.</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>This is accomplished by(8){Pe*=0ω≤ω0,Pe*=k1ω2(ω-ω0)ω0&lt;ω≤ω1,Pe*=k2ω3ω1&lt;ω≤ω2,Pe*=k3ω2(ω-ω2)+k2ω2ω2ω2&lt;ω,where(9)k1=ω1ω1-ω0k2due to continuity.</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Obs11" novelty="None" type="Obs"/><text>The parameter values for strategies A-C are given in Table 1.</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Obs12" novelty="None" type="Obs"/><text>The upper limit, ω2, in Eq.</text></s>
+<s sid="71"><CoreSc1 advantage="None" conceptID="Mod4" novelty="None" type="Mod"/><text>(8) should be chosen with regard to structural and electrical aspects of the system.</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Mod5" novelty="None" type="Mod"/><text>Optimal parameter values depend on desired turbine operation where structural, mechanical and electrical considerations are important.</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>The equilibrium of strategy C is identical to that of strategy A between 4.5 m/s and 9 m/s, and ω0 is kept to the same value as in strategy B.</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>For simplicity, k1=k3 is chosen, which slightly lowers the tip speed ratio at high wind speeds.</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>The differences between strategies B and C can be seen from a comparison of Figs.</text></s>
+3 and 4.
+<s sid="76"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>At low tip speed ratios for 12 m/s, the extracted power of strategy C is somewhat closer to the aerodynamic power, but it has larger margins at tip speed ratios closer to the peak.</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>The decrease in tip speed ratio for the equilibrium is a reasonable design choice since lower rotational velocity reduces the forces on the turbine at high wind speed.</text></s>
+<s sid="78"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>The 3 m/s case has its equilibrium at λ=4.9 instead of 5.2, while still having large differences between P and Pe* at low tip speed ratios.</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>To further illustrate the control strategies at low rotational velocities, the power and torque are plotted against the rotational velocity in Fig. 5 and are compared to the aerodynamic torque for wind speeds of 4.5 m/s and 6 m/s.</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>The equilibria in the power plot illustrate the steady state performance while the speed of the control strategy is directly proportional to the difference in torque.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>For the 6 m/s equilibrium, the higher slope of strategy B in the torque plot corresponds to a more rapid response of this strategy.</text></s>
+<s sid="82"><CoreSc1 advantage="None" conceptID="Obs13" novelty="None" type="Obs"/><text>Further, the decreased generated torque of strategy C (compared to A) at ω≲1.4 shows the improvements in response times for this strategy at low rotational velocities.</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Obs14" novelty="None" type="Obs"/><text>To compare all three strategies for the whole interval between 3 m/s and 12 m/s, the equilibrium tip speed ratio is plotted in Fig. 6, where it is seen that strategy A keeps the tip speed ratio relatively constant, while strategy B has the largest variations.</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>The lower plot in Fig. 6 illustrates the penalty in power production caused by the different control strategies, where the power reduction factor is defined as(10)Pl=CPmax-CP(λe)CPmax.</text></s>
+<s sid="85"><CoreSc1 advantage="None" conceptID="Obs15" novelty="None" type="Obs"/><text>Fig. 6 shows the amount of non-extracted power resulting from turbine operation at a non-optimal tip speed ratio.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>For all schemes, the reduction of captured power is less than 2% for wind speeds above 4 m/s.</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>Strategy C behaves almost as good as strategy A over the major part of the interval, and it should be noted that the loss at 12 m/s is intentional to reduce mechanical loads.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Met13" novelty="None" type="Met"/><text>The control strategies A-C are designed for the variable rotational velocity operational regime.</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Met14" novelty="None" type="Met"/><text>For a real control system, additional limitations are necessary to prevent the turbine from exceeding rated power and rotational velocity.</text></s>
+Sensitivity analysis
+<s sid="90"><CoreSc1 advantage="None" conceptID="Met15" novelty="None" type="Met"/><text>For each strategy A-C, one parameter is of particular importance for optimisation of the power extraction (k2 for strategies A and C and k1 for strategy B).</text></s>
+<s sid="91"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>This parameter is determined from λmax and CPmax, where all strategies in Section 2 are designed for CPmax=0.43 and λmax=4.1.</text></s>
+<s sid="92"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>In the present analysis, the power coefficient curves are determined through simulations.</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>Power coefficient curves for real turbines are not known.</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>Therefore, the sensitivity of the control strategies, with respect to errors in λmax and CPmax, needs to be investigated.</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>Errors in λmax will have a stronger effect on the control strategies than errors in CPmax since the relation between rotational velocity and power is cubic, c.f.</text></s>
+Eq.
+(4).
+<s sid="96"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>For strategy A, a 10% overestimation of λmax is equivalent to a 25% underestimation of CPmax.</text></s>
+<s sid="97"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>With an overestimated λmax, power extraction is reduced but the system stability is improved.</text></s>
+<s sid="98"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>Consequently, an underestimated λmax decreases stability, see Fig. 7.</text></s>
+<s sid="99"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>For 3 m/s, the turbine will not run at all with strategy A, as the extracted power is larger than the turbine power.</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>The same strategy should run for 6 m/s and 12 m/s, but with small margins, and the turbine will stop in the 6 m/s case if the tip speed ratio drops below 2.</text></s>
+<s sid="101"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>Strategy C still works for the 3 m/s and 6 m/s cases, but with small margins in the 6 m/s case.</text></s>
+<s sid="102"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>This highlights the importance of knowing relevant turbine characteristics prior to designing the control strategy.</text></s>
+<s sid="103"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>For stable operation, it is better to overestimate than to underestimate λmax.</text></s>
+Vortex method
+<s sid="104"><CoreSc1 advantage="None" conceptID="Mod6" novelty="None" type="Mod"/><text>All aerodynamic simulations are performed with a vortex method, which is a time dependent simulation model based on the vorticity formulation of the incompressible version of Navier-Stokes equations [8].</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>This is a Lagrangian method, which discretizes the vorticity field using point vortices.</text></s>
+<s sid="106"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>The vorticity is a conserved quantity within the fluid and new vortices can only be injected from the turbine boundaries.</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>When a turbine is simulated, vortices are released from the turbine blades and propagate with the flow velocity.</text></s>
+<s sid="108"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>Here, it is assumed that the viscosity is zero, which for high Reynolds numbers is an acceptable assumption outside the boundary layer.</text></s>
+<s sid="109"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>Simulation of the boundary layer is computationally demanding and therefore not feasible if many revolutions are to be simulated.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>To create a fast simulation code, an additional model is required.</text></s>
+<s sid="111"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>There are two common approaches to this problem; the first is to use the Kutta condition [9], which gives the inviscid solution with zero drag force and neglects stall.</text></s>
+<s sid="112"><CoreSc1 advantage="None" conceptID="Mod7" novelty="None" type="Mod"/><text>The second is to use an empirical model for the forces, which requires external data, but includes drag forces and stall, which gives a more realistic power from the turbine.</text></s>
+<s sid="113"><CoreSc1 advantage="None" conceptID="Mod8" novelty="None" type="Mod"/><text>The model chosen for this study uses empirical lift and drag coefficients and a dynamic stall model to handle large angles of attack.</text></s>
+<s sid="114"><CoreSc1 advantage="None" conceptID="Mod9" novelty="None" type="Mod"/><text>The chosen dynamic stall model is the model developed by Gormont [10] and later modified by Massé [11] with the parameters suggested by Berg [12].</text></s>
+<s sid="115"><CoreSc1 advantage="None" conceptID="Mod10" novelty="None" type="Mod"/><text>Lift and drag coefficients are obtained from Ref. [13].</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Mod11" novelty="None" type="Mod"/><text>To implement the empirical model, the angle of attack is calculated from the flow velocity using a linear panel method as described in Ref.</text></s>
+[14].
+<s sid="117"><CoreSc1 advantage="None" conceptID="Mod12" novelty="None" type="Mod"/><text>The circulation for the inviscid case is calculated from the Kutta condition, and by comparing with the circulation for a wing in homogeneous wind, the circulation is converted into the corresponding angle of attack.</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Mod13" novelty="None" type="Mod"/><text>The empirical model uses this angle of attack to calculate the forces, and the Kutta Joukowski lift formula is used (as in Ref.</text></s>
+<s sid="119"><CoreSc1 advantage="None" conceptID="Mod14" novelty="None" type="Mod"/><text>[15]) to recover the circulation, which is now lower than the inviscid circulation if flow separation starts to occur.</text></s>
+<s sid="120"><CoreSc1 advantage="None" conceptID="Mod15" novelty="None" type="Mod"/><text>The magnitude of the vortices released into the flow is determined from the change in circulation for the blades, and one vortex is released from each blade at each time step.</text></s>
+<s sid="121"><CoreSc1 advantage="None" conceptID="Mod16" novelty="None" type="Mod"/><text>A two-dimensional vortex model is chosen in order to avoid the computational cost of a three-dimensional model.</text></s>
+<s sid="122"><CoreSc1 advantage="None" conceptID="Mod17" novelty="None" type="Mod"/><text>A drawback is that tip losses cannot be calculated directly from this model.</text></s>
+<s sid="123"><CoreSc1 advantage="None" conceptID="Mod18" novelty="None" type="Mod"/><text>As a simplified model, finite wing theory can be used to obtain some of the losses due to tip vortices.</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Mod19" novelty="None" type="Mod"/><text>The finite wing theory equations are applied in a similar way as done by Paraschivoiu for the stream-tube model [16], e.g.(11)a0=1.8π(0.8tbc),(12)CL=CL∞1+a0πAR,(13)αe=α-CLπARand(14)CD=CD∞+CL2πARare used as follows: The reduced angle of attack is calculated using Eqs.</text></s>
+<s sid="125"><CoreSc1 advantage="None" conceptID="Mod20" novelty="None" type="Mod"/><text>(11)-(13), then, the dynamic stall model is used to obtain lift and drag coefficients and finally, the induced drag is calculated from Eq.</text></s>
+(14).
+<s sid="126"><CoreSc1 advantage="None" conceptID="Mod21" novelty="None" type="Mod"/><text>Here, tb is the blade thickness, c the chord, CL∞ and CD∞ the lift and drag coefficients for infinitely long blades, AR the aspect ratio, α the angle of attack without the corrections and αe the corrected angle of attack.</text></s>
+<s sid="127"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>Another three-dimensional effect is the support structure for the blades, which has been neglected in the current work.</text></s>
+<s sid="128"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>For more information regarding struts, see Refs. [17-19].</text></s>
+<s sid="129"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>The tangential is(15)FT=(CLsinφ-CDcosφ)12ρchVr2,where φ is the angle of relative wind, h the turbine height and Vr the relative wind speed.</text></s>
+<s sid="130"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>The turbine torque can be calculated by summation over the blades as(16)T=∑NbrFT,where r is the turbine radius and Nb is the number of blades.</text></s>
+Electromechanical system
+<s sid="131"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>This section presents the ordinary differential equations used to model the electrical and mechanical parts of the energy conversion system.</text></s>
+<s sid="132"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>A passive diode rectifier and a DC-AC converter are used to supply the converted energy to a utility grid.</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>Diode rectifiers are robust and do not require a controller.</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>The diode rectifier has small internal power loss, compared to other semiconductor based rectifiers, since the switching occurs at zero current and a diode has a small forward voltage drop.</text></s>
+<s sid="135"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>The primary drawback of passive rectification, compared to active rectification, is that the armature currents have high harmonic content, causing generator torque fluctuations and increased armature resistive loss [20].</text></s>
+<s sid="136"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>The harmonic content of the armature currents can be reduced by adding inductance on the DC-side [21].</text></s>
+<s sid="137"><CoreSc1 advantage="None" conceptID="Obj13" novelty="None" type="Obj"/><text>Here the simplest system without extra inductance is considered.</text></s>
+<s sid="138"><CoreSc1 advantage="None" conceptID="Obs16" novelty="None" type="Obs"/><text>The model used for the electrical system is shown in Fig. 8, and all model parameters of the electromechanical model are presented in Table 2.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>The generator is modelled as Y-connected Thévenin equivalents of the three generator phases with the neutral terminal disconnected.</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>It follows from Kirchhoff's circuit laws that(17)L(ⅆI1ⅆt-ⅆI2ⅆt)=ε1-ε2-U1+U2-R(I1-I2)L(ⅆI2ⅆt-ⅆI3ⅆt)=ε2-ε3-U2+U3-R(I2-I3)I1+I2+I3=0where εn and Un are electromotive forces and terminal voltages respectively.</text></s>
+<s sid="141"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>The nth emf is(18)εn=Λωsin(NPPθ-n2π3)where Λ is the flux linkage and NPP is the number of pole pairs.</text></s>
+<s sid="142"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>The power extracted from the electromotive forces is(19)Pg=∑n=1,2,3Inεn.</text></s>
+<s sid="143"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>The voltage of the nth terminal of the generator is approximated by(20)Un=UDC+2UD2erf(InΔI),where UD is the forward voltage drop of one diode.</text></s>
+Approximation Eq.
+<s sid="144"><CoreSc1 advantage="None" conceptID="Con15" novelty="None" type="Con"/><text>(20) simplifies the automatic error control of the used ODE solver package.</text></s>
+<s sid="145"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>The approximation approaches ideal diodes as ΔI approaches zero.</text></s>
+<s sid="146"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>It follows from Kirchhoff's first law that the rectified generator current, Ir, is(21)Ir=12∑n=1,2,3|In|.</text></s>
+<s sid="147"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>The capacitor charges according to(22)ⅆUDCⅆt=Ir-IeC,and the power delivered to the load is(23)PL=ILUDC.</text></s>
+Losses
+<s sid="148"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>The electrical system has three principal loss mechanisms.</text></s>
+<s sid="149"><CoreSc1 advantage="None" conceptID="Res61" novelty="None" type="Res"/><text>The resistive loss in the generator armature(24)Pr=R∑n=1,2,3In2,loss due to the forward voltage drop in the diode rectifier(25)PD=2IrUDand loss in the stator core(26)Pc=khω+keω3/2+kcω2,where kh,ke,kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [23].</text></s>
+<s sid="150"><CoreSc1 advantage="None" conceptID="Res62" novelty="None" type="Res"/><text>Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.</text></s>
+<s sid="151"><CoreSc1 advantage="None" conceptID="Res63" novelty="None" type="Res"/><text>The instantaneous power absorbed by the generator, Pe, is the sum of core loss and converted power(27)Pe=Pg+Pc.</text></s>
+<s sid="152"><CoreSc1 advantage="None" conceptID="Res64" novelty="None" type="Res"/><text>On average, the power delivered to the load is(28)PL=Pe-Pc-Pr-PD,due to preservation of energy.</text></s>
+<s sid="153"><CoreSc1 advantage="None" conceptID="Res65" novelty="None" type="Res"/><text>Generator efficiency is defined as(29)ηg=1-∫Pr+Pcⅆt∫Pg+Pcⅆt.</text></s>
+<s sid="154"><CoreSc1 advantage="None" conceptID="Met16" novelty="None" type="Met"/><text>Several methods, such as adding a DC-side inductor or using an active rectifier, can be used to reduce the harmonic content of the armature currents and thereby reducing the armature resistive loss.</text></s>
+<s sid="155"><CoreSc1 advantage="None" conceptID="Res66" novelty="None" type="Res"/><text>An active rectifier can draw currents with low harmonic content at unity power factor thus minimising the resistive loss for a given voltage and power level.</text></s>
+<s sid="156"><CoreSc1 advantage="None" conceptID="Res67" novelty="None" type="Res"/><text>At unity power factor, the armature current is proportional to the phase emf; it then follows from Eqs.</text></s>
+<s sid="157"><CoreSc1 advantage="None" conceptID="Res68" novelty="None" type="Res"/><text>(18), (19), (24) and (27) that the armature resistive loss is(30)Pr′=2R3(PgωΛ)2,when ωΛ≠0 and the phase currents are drawn at unity power factor.</text></s>
+<s sid="158"><CoreSc1 advantage="None" conceptID="Res69" novelty="None" type="Res"/><text>Core loss can be reduced by reducing thickness of the stator laminations or using stator material with lower hysteresis loss.</text></s>
+Load control implementation
+<s sid="159"><CoreSc1 advantage="None" conceptID="Res70" novelty="None" type="Res"/><text>Control strategies A-C are implemented by controlling the load current so that the average of the extracted power Pe from the turbine is as close as possible to the power Pe* prescribed by the applied control strategy.</text></s>
+<s sid="160"><CoreSc1 advantage="None" conceptID="Res71" novelty="None" type="Res"/><text>Energy cannot flow &quot;backwards&quot; through the diode rectifier and, therefore, it is not possible to extract a power that is lower than that of the core loss of the generator.</text></s>
+<s sid="161"><CoreSc1 advantage="None" conceptID="Res72" novelty="None" type="Res"/><text>Furthermore, the load current is always kept positive, i.e. the grid is never used to charge the capacitor.</text></s>
+<s sid="162"><CoreSc1 advantage="None" conceptID="Res73" novelty="None" type="Res"/><text>The load current is(31)IL=max(0,Pe*-Pc-Pr-PDUDC),where Pe* is a, control strategy specific, function of ω.</text></s>
+<s sid="163"><CoreSc1 advantage="None" conceptID="Res74" novelty="None" type="Res"/><text>In this paper, control strategies A-C are compared to a reference control strategy.</text></s>
+<s sid="164"><CoreSc1 advantage="None" conceptID="Res75" novelty="None" type="Res"/><text>The reference strategy uses both the asymptotic wind speed and the rotational velocity as control signals.</text></s>
+<s sid="165"><CoreSc1 advantage="None" conceptID="Res76" novelty="None" type="Res"/><text>In the reference strategy, the voltage level of the DC-bus, rather than the load current, is controlled by a PI-regulator.</text></s>
+<s sid="166"><CoreSc1 advantage="None" conceptID="Con16" novelty="None" type="Con"/><text>Control of the voltage level is chosen since it simplifies the implementation of speed control.</text></s>
+<s sid="167"><CoreSc1 advantage="None" conceptID="Con17" novelty="None" type="Con"/><text>Voltage control is physically equivalent to current control in the sense that the only way to regulate the capacitor voltage is through control of the load current.</text></s>
+<s sid="168"><CoreSc1 advantage="None" conceptID="Res77" novelty="None" type="Res"/><text>The UDC setpoint depends only on the asymptotic wind speed V∞.</text></s>
+<s sid="169"><CoreSc1 advantage="None" conceptID="Res78" novelty="None" type="Res"/><text>The mapping from V∞ to UDC is determined in a simulated torque sweep where the voltage level is regulated so that the optimal tip speed ratio is maintained throughout the sweep.</text></s>
+<s sid="170"><CoreSc1 advantage="None" conceptID="Res79" novelty="None" type="Res"/><text>A limited integrating term is added to the controller to compensate for torque fluctuations during wake formation.</text></s>
+<s sid="171"><CoreSc1 advantage="None" conceptID="Res80" novelty="None" type="Res"/><text>Detailed modelling of a DC-AC converter is outside the scope of this paper.</text></s>
+<s sid="172"><CoreSc1 advantage="None" conceptID="Con18" novelty="None" type="Con"/><text>The DC-AC converter, for a system of this size, often consists of a DC-DC step and an IGBT based two-level inverter, but several other topologies exists [24].</text></s>
+<s sid="173"><CoreSc1 advantage="None" conceptID="Con19" novelty="None" type="Con"/><text>The simple model of the DC-AC converter used here is realistic to the extent that capacitor is large enough to smoothen switching transients.</text></s>
+<s sid="174"><CoreSc1 advantage="None" conceptID="Res81" novelty="None" type="Res"/><text>Interaction of electromechanical and aerodynamic model</text></s>
+<s sid="175"><CoreSc1 advantage="None" conceptID="Res82" novelty="None" type="Res"/><text>The combined electromechanical and aerodynamic system is simulated according to the following two step scheme (two steps for each model):1.</text></s>
+<s sid="176"><CoreSc1 advantage="None" conceptID="Res83" novelty="None" type="Res"/><text>The aerodynamic code calculates the aerodynamic torque T1 at the given time and propagates all vortices.</text></s>
+2.
+<s sid="177"><CoreSc1 advantage="None" conceptID="Res84" novelty="None" type="Res"/><text>The electromechanical model uses this torque to calculate the rotor angle and speed after a virtual time step Δt.</text></s>
+3.
+<s sid="178"><CoreSc1 advantage="None" conceptID="Res85" novelty="None" type="Res"/><text>The aerodynamic code calculates the aerodynamic torque T2 after the virtual time step with the updated rotor angle and speed from the electromechanical model.</text></s>
+<s sid="179"><CoreSc1 advantage="None" conceptID="Res86" novelty="None" type="Res"/><text>Vortex positions are recalculated using the average vortex velocities between the two steps.</text></s>
+4.
+<s sid="180"><CoreSc1 advantage="None" conceptID="Res87" novelty="None" type="Res"/><text>The electromechanical model assumes that the torque varies linearly between T1 and T2 during the time step, recalculates the new rotor angle and speed and transfers these values to the aerodynamic model.</text></s>
+<s sid="181"><CoreSc1 advantage="None" conceptID="Res88" novelty="None" type="Res"/><text>As the time constants of the electromechanical model are much smaller than for the vortex model, each electromechanical step is simulated with the lsoda library11</text></s>
+http://www.ccl.net/cca/software/SOURCES/C/kinetics2/index.shtml [accessed 20.20.2013].
+<s sid="182"><CoreSc1 advantage="None" conceptID="Res89" novelty="None" type="Res"/><text>with variable step length, i.e. each step Δt of the electromechanical model usually corresponds to many internal steps.</text></s>
+Simulations
+<s sid="183"><CoreSc1 advantage="None" conceptID="Res90" novelty="None" type="Res"/><text>All simulations are performed using the aerodynamic vortex code in Section 3, which provides realistic turbine torque ripple and wake effects, coupled with the electrical model in Section 4, which includes additional ripple effects from the rectification.</text></s>
+<s sid="184"><CoreSc1 advantage="None" conceptID="Res91" novelty="None" type="Res"/><text>This reasonably realistic system simulation helps avoiding the design of a control system that only works for idealised systems.</text></s>
+<s sid="185"><CoreSc1 advantage="None" conceptID="Res92" novelty="None" type="Res"/><text>In the dynamic tests of the control system, the asymptotic wind speed is changed during the simulation to determine how well the control system adapts the rotational velocity.</text></s>
+<s sid="186"><CoreSc1 advantage="None" conceptID="Res93" novelty="None" type="Res"/><text>All studies are performed with control strategies A-C and compared to a reference strategy outlined in Section 4.2.</text></s>
+<s sid="187"><CoreSc1 advantage="None" conceptID="Res94" novelty="None" type="Res"/><text>The reference strategy uses prior knowledge of the asymptotic wind speed to maintain constant and optimal λ but it is not allowed to operate the generator as a motor.</text></s>
+<s sid="188"><CoreSc1 advantage="None" conceptID="Res95" novelty="None" type="Res"/><text>The turbine chosen for the simulations is similar to the 3 bladed 200 kW turbine built by vertical wind [22], and has a height of 24 m and a diameter of 26 m.</text></s>
+<s sid="189"><CoreSc1 advantage="None" conceptID="Con20" novelty="None" type="Con"/><text>Due to the two-dimensional simplification of the simulation code, the exact chord cannot be simulated as it varies with height.</text></s>
+<s sid="190"><CoreSc1 advantage="None" conceptID="Con21" novelty="None" type="Con"/><text>Therefore, a chord of 0.75 m is chosen, which is a good approximation to the actual turbine.</text></s>
+Step response
+<s sid="191"><CoreSc1 advantage="None" conceptID="Con22" novelty="None" type="Con"/><text>The first study evaluates system performance during a step change in wind speed.</text></s>
+<s sid="192"><CoreSc1 advantage="None" conceptID="Obs17" novelty="None" type="Obs"/><text>The wind speed is stepwise changed from 3 m/s to 6 m/s, then up to 10 m/s, followed by a decrease to 6 m/s and finally to 3 m/s.</text></s>
+<s sid="193"><CoreSc1 advantage="None" conceptID="Obs18" novelty="None" type="Obs"/><text>The wind speed and turbine tip speed ratio are plotted in Fig. 9.</text></s>
+<s sid="194"><CoreSc1 advantage="None" conceptID="Res96" novelty="None" type="Res"/><text>As expected, the reference strategy has the fastest step response.</text></s>
+<s sid="195"><CoreSc1 advantage="None" conceptID="Res97" novelty="None" type="Res"/><text>The reference strategy is especially fast when the wind speed is reduced since the maximum generator torque is high while acceleration is limited by the turbine torque.</text></s>
+<s sid="196"><CoreSc1 advantage="None" conceptID="Res98" novelty="None" type="Res"/><text>Strategies B and C are faster than A for the step change from 3 m/s to 6 m/s, which is due to higher initial rotational velocities and the larger difference between extracted and aerodynamic power.</text></s>
+<s sid="197"><CoreSc1 advantage="None" conceptID="Res99" novelty="None" type="Res"/><text>Strategies A-C are designed for 6 m/s and will eventually reach the optimal tip speed ratio at this wind speed.</text></s>
+<s sid="198"><CoreSc1 advantage="None" conceptID="Res100" novelty="None" type="Res"/><text>The deviations in λ from λmax for strategy A at 3 m/s and 12 m/s are due to the Reynolds number dependence of CPmax, while the deviations for strategies B and C are due to design choices.</text></s>
+<s sid="199"><CoreSc1 advantage="None" conceptID="Res101" novelty="None" type="Res"/><text>The overshoot for strategies A-C, both for increasing and decreasing wind speed is an aerodynamic effect.</text></s>
+<s sid="200"><CoreSc1 advantage="None" conceptID="Res102" novelty="None" type="Res"/><text>When the wind speed is increased, the wake behind the turbine is not fully developed, which results in a higher aerodynamic torque during the formation of the wake.</text></s>
+<s sid="201"><CoreSc1 advantage="None" conceptID="Res103" novelty="None" type="Res"/><text>For decreasing wind speeds, the wake is over-developed, giving less aerodynamic torque, and the wake has to drift away before a steady state is obtained.</text></s>
+Oscillating wind speed
+<s sid="202"><CoreSc1 advantage="None" conceptID="Res104" novelty="None" type="Res"/><text>The second study concerns how the control system handles oscillating wind speeds.</text></s>
+<s sid="203"><CoreSc1 advantage="None" conceptID="Res105" novelty="None" type="Res"/><text>The wind speed is set to oscillate between 3 m/s and 8 m/s and the frequency of the oscillation is varied, see Fig. 10.</text></s>
+<s sid="204"><CoreSc1 advantage="None" conceptID="Res106" novelty="None" type="Res"/><text>At low oscillation frequencies, strategies A and C work well.</text></s>
+<s sid="205"><CoreSc1 advantage="None" conceptID="Res107" novelty="None" type="Res"/><text>While A starts to drop in efficiency quite early, strategy C keeps a higher efficiency a bit longer and appears to be a better strategy in general for this case, although the two strategies are similar.</text></s>
+<s sid="206"><CoreSc1 advantage="None" conceptID="Obs19" novelty="None" type="Obs"/><text>For higher frequencies, strategy B is better than both A and C.</text></s>
+<s sid="207"><CoreSc1 advantage="None" conceptID="Obs20" novelty="None" type="Obs"/><text>At frequencies above 0.018 Hz, the reference control strategy starts to drop rapidly in performance.</text></s>
+<s sid="208"><CoreSc1 advantage="None" conceptID="Obs21" novelty="None" type="Obs"/><text>The explanation is found in Fig. 11, where strategies A-C obtain higher average tip speed ratios for higher oscillation frequencies.</text></s>
+<s sid="209"><CoreSc1 advantage="None" conceptID="Obs22" novelty="None" type="Obs"/><text>For all strategies A-C, the difference in aerodynamic and generator torque is larger when the wind speed is increasing, i.e. when λ is slightly less than λmax, than when the wind speed is decreasing.</text></s>
+<s sid="210"><CoreSc1 advantage="None" conceptID="Res108" novelty="None" type="Res"/><text>Hence, the average tip speed ratio increases with increasing wind frequency.</text></s>
+<s sid="211"><CoreSc1 advantage="None" conceptID="Res109" novelty="None" type="Res"/><text>For the reference strategy, λ=λmax is maintained whenever the wind speed is decreasing.</text></s>
+<s sid="212"><CoreSc1 advantage="None" conceptID="Res110" novelty="None" type="Res"/><text>However, turbine torque is insufficient to maintain optimal λ when the wind speed increases rapidly, i.e. the average λ decreases with increasing wind frequency.</text></s>
+<s sid="213"><CoreSc1 advantage="None" conceptID="Res111" novelty="None" type="Res"/><text>As the power is proportional to the cube of the wind speed, keeping the correct tip speed ratio at high wind speeds is more important, which is the reason for the improved performance of strategies A-C, compared to the reference control strategy, during very rapid wind oscillations.</text></s>
+<s sid="214"><CoreSc1 advantage="None" conceptID="Res112" novelty="None" type="Res"/><text>The control strategies are also tested with a higher average wind speed (9.5 m/s, compared to 5.5 m/s) and the results are found in Fig. 12.</text></s>
+<s sid="215"><CoreSc1 advantage="None" conceptID="Res113" novelty="None" type="Res"/><text>In this high wind speed case, all strategies perform well and the differences between the strategies are only a few percent.</text></s>
+<s sid="216"><CoreSc1 advantage="None" conceptID="Res114" novelty="None" type="Res"/><text>At this point, the reference strategy delivers the most power, followed by strategy A, then C and finally B.</text></s>
+<s sid="217"><CoreSc1 advantage="None" conceptID="Res115" novelty="None" type="Res"/><text>As mentioned before, the lower power extraction for strategy C, as compared to strategy A, is intentional to reduce structural loads.</text></s>
+<s sid="218"><CoreSc1 advantage="None" conceptID="Res116" novelty="None" type="Res"/><text>Because of the smaller variations in λ there are smaller differences in delivered power between the strategies in the high wind speed case.</text></s>
+<s sid="219"><CoreSc1 advantage="None" conceptID="Res117" novelty="None" type="Res"/><text>Furthermore, the increased wind speed increases the aerodynamic torque and thereby reduces the time constants of the mechanical system, which is another reason why the drop in delivered power is not as significant in the high wind speed case.</text></s>
+<s sid="220"><CoreSc1 advantage="None" conceptID="Res118" novelty="None" type="Res"/><text>The small increase in power for higher wind frequencies is an aerodynamic effect and according to the present simulation model, it is actually possible to extract slightly more power in the oscillating case.</text></s>
+<s sid="221"><CoreSc1 advantage="None" conceptID="Con23" novelty="None" type="Con"/><text>However, this increase is small and considering aerodynamic model uncertainties and approximations, such as that the wind speed changes are implemented as a change of asymptotic wind speed, further studies are required to determine if this effect is physical.</text></s>
+<s sid="222"><CoreSc1 advantage="None" conceptID="Res119" novelty="None" type="Res"/><text>The small variations between each simulation point in Fig. 12 are within the simulation uncertainty, caused by the unsteady nature of the vortex wake.</text></s>
+Electrical analysis
+<s sid="223"><CoreSc1 advantage="None" conceptID="Res120" novelty="None" type="Res"/><text>The total system performance depends both on aerodynamic and electrical performance.</text></s>
+<s sid="224"><CoreSc1 advantage="None" conceptID="Res121" novelty="None" type="Res"/><text>While Section 2 only discusses the control strategies from an aerodynamic point of view, the simulations (Figs.</text></s>
+<s sid="225"><CoreSc1 advantage="None" conceptID="Res122" novelty="None" type="Res"/><text>10 and 12) present the delivered power to the electrical load, see Eq. (23).</text></s>
+<s sid="226"><CoreSc1 advantage="None" conceptID="Res123" novelty="None" type="Res"/><text>The generator efficiency, defined in Eq.</text></s>
+<s sid="227"><CoreSc1 advantage="None" conceptID="Res124" novelty="None" type="Res"/><text>(29), is presented in Fig. 13.</text></s>
+<s sid="228"><CoreSc1 advantage="None" conceptID="Con24" novelty="None" type="Con"/><text>Strategies A-C lead to similar generator efficiencies, the two major trends being that increased average wind speed causes a higher generator efficiency while a higher frequency of the wind speed reduces the generator efficiency.</text></s>
+<s sid="229"><CoreSc1 advantage="None" conceptID="Res125" novelty="None" type="Res"/><text>In the high wind speed case at low frequencies, the generator efficiency of the reference strategy is similar to that of the other strategies.</text></s>
+<s sid="230"><CoreSc1 advantage="None" conceptID="Res126" novelty="None" type="Res"/><text>However, the generator efficiency with the reference strategy is lower at high wind frequencies.</text></s>
+<s sid="231"><CoreSc1 advantage="None" conceptID="Res127" novelty="None" type="Res"/><text>This reduced efficiency is due to high resistive loss caused by the high generator torque during the rapid oscillations.</text></s>
+<s sid="232"><CoreSc1 advantage="None" conceptID="Res128" novelty="None" type="Res"/><text>In the low wind speed case at wind frequencies of 0.01-0.03 Hz, the generator efficiency is higher with the reference strategy than with the other strategies, since strategies A-C operate at too high rotational velocities and thereby increase the already dominant core loss.</text></s>
+<s sid="233"><CoreSc1 advantage="None" conceptID="Res129" novelty="None" type="Res"/><text>In the low wind speed case at wind frequencies above 0.003 Hz, the reference strategy causes a too low average tip speed ratio which reduces energy capture, see Figs.</text></s>
+10 and 11.
+<s sid="234"><CoreSc1 advantage="None" conceptID="Res130" novelty="None" type="Res"/><text>The resistive loss constitutes 19-27% of the generator losses in the high wind speed case and 5-7% of the generator losses in the low wind speed case.</text></s>
+<s sid="235"><CoreSc1 advantage="None" conceptID="Res131" novelty="None" type="Res"/><text>Drawing currents at unity power factor would reduce the resistive loss by up to 17% in the high wind speed case and 12% in the low wind speed case, which corresponds to an increase of the generator efficiency by 0.1-0.5%.</text></s>
+<s sid="236"><CoreSc1 advantage="None" conceptID="Con25" novelty="None" type="Con"/><text>The diode loss constitutes 2-3% of the total loss.</text></s>
+Discussion
+<s sid="237"><CoreSc1 advantage="None" conceptID="Con26" novelty="None" type="Con"/><text>In general, all tested control strategies work well for the considered turbine and the differences between them are small.</text></s>
+<s sid="238"><CoreSc1 advantage="None" conceptID="Con27" novelty="None" type="Con"/><text>These results are however only valid for this given turbine and requires that the real turbine actually behaves as the model predicts.</text></s>
+<s sid="239"><CoreSc1 advantage="None" conceptID="Con28" novelty="None" type="Con"/><text>The aerodynamic simulation tool model is two-dimensional, which introduces an error in the simulated power and the real power coefficients are most likely lower.</text></s>
+<s sid="240"><CoreSc1 advantage="None" conceptID="Con29" novelty="None" type="Con"/><text>This is presumably not crucial for the validity of the control strategy.</text></s>
+<s sid="241"><CoreSc1 advantage="None" conceptID="Con30" novelty="None" type="Con"/><text>The vortex model gives a reasonable power coefficient curve, and a real curve will have a similar shape, even if it peaks at a somewhat different power coefficient.</text></s>
+<s sid="242"><CoreSc1 advantage="None" conceptID="Con31" novelty="None" type="Con"/><text>The dynamic stall model in the vortex code cannot handle deep stall accurately.</text></s>
+<s sid="243"><CoreSc1 advantage="None" conceptID="Con32" novelty="None" type="Con"/><text>This means that all results at lower tip speed ratios are inaccurate.</text></s>
+<s sid="244"><CoreSc1 advantage="None" conceptID="Con33" novelty="None" type="Con"/><text>Experiences from the test setup in Marsta [25] indicate that the actual power coefficient at low tip speed ratios is higher than the simulated values, which increases the stability of the control strategy and should therefore not be an issue for the chosen control strategy.</text></s>
+<s sid="245"><CoreSc1 advantage="None" conceptID="Con34" novelty="None" type="Con"/><text>These issues do however mean that the specific parameters for the control system used in this article may not be the best suited parameters for a real turbine.</text></s>
+<s sid="246"><CoreSc1 advantage="None" conceptID="Con35" novelty="None" type="Con"/><text>Instead, the actual power coefficient curve should be measured to create a good control strategy.</text></s>
+<s sid="247"><CoreSc1 advantage="None" conceptID="Con36" novelty="None" type="Con"/><text>The sensitivity analysis shows that if no measured data exists for the power coefficient curve, a reasonable control strategy can still be created as long as λmax can be calculated with some accuracy, as this is the most important parameter.</text></s>
+<s sid="248"><CoreSc1 advantage="None" conceptID="Con37" novelty="None" type="Con"/><text>Once λmax is known, CPmax should be possible to estimate from simulation data combined with data from other similar turbines.</text></s>
+<s sid="249"><CoreSc1 advantage="None" conceptID="Con38" novelty="None" type="Con"/><text>For more stable operation, a too high λmax can be chosen, which causes slightly less power but higher stability.</text></s>
+<s sid="250"><CoreSc1 advantage="None" conceptID="Con39" novelty="None" type="Con"/><text>Another simulation issue is that wind speed changes through modified asymptotic wind speed are not a fully realistic model, as the wind speed is changes instantaneously in the entire domain.</text></s>
+<s sid="251"><CoreSc1 advantage="None" conceptID="Con40" novelty="None" type="Con"/><text>This approximation should work for slow wind speed changes but be less accurate for rapid changes.</text></s>
+<s sid="252"><CoreSc1 advantage="None" conceptID="Con41" novelty="None" type="Con"/><text>This model error is most prominent for the step change in wind speed.</text></s>
+<s sid="253"><CoreSc1 advantage="None" conceptID="Con42" novelty="None" type="Con"/><text>The simulations in this paper are intended to show the characteristics of the control strategies themselves.</text></s>
+<s sid="254"><CoreSc1 advantage="None" conceptID="Con43" novelty="None" type="Con"/><text>Even if the values in oscillating winds are not exact, the trends should still be valid, showing that the control strategies are capable of handling variations in wind speed.</text></s>
+<s sid="255"><CoreSc1 advantage="None" conceptID="Con44" novelty="None" type="Con"/><text>The results show that the studied control strategies work if the power coefficient curve has a similar shape as the ones used in the article.</text></s>
+<s sid="256"><CoreSc1 advantage="None" conceptID="Con45" novelty="None" type="Con"/><text>No studies have been performed on a turbine with much higher solidity, which would peak at a lower tip speed ratio, as the simulation tool is not designed for this region.</text></s>
+<s sid="257"><CoreSc1 advantage="None" conceptID="Con46" novelty="None" type="Con"/><text>Further analysis is therefore required to investigate how the control strategy would work for such a turbine.</text></s>
+Conclusions
+<s sid="258"><CoreSc1 advantage="None" conceptID="Con47" novelty="None" type="Con"/><text>A simple control system, which only uses the rotational velocity as input, can be sufficient for controlling a vertical axis turbine.</text></s>
+<s sid="259"><CoreSc1 advantage="None" conceptID="Con48" novelty="None" type="Con"/><text>A combined aerodynamic-electrical simulation model has been used to evaluate the effectiveness of the control system.</text></s>
+<s sid="260"><CoreSc1 advantage="None" conceptID="Con49" novelty="None" type="Con"/><text>The simulated performance is only slightly lower than for a reference control strategy with known wind speed.</text></s>
+<s sid="261"><CoreSc1 advantage="None" conceptID="Con50" novelty="None" type="Con"/><text>The difficulties of proper wind speed measurements make this simplified control strategy an attractive option.</text></s>
+<s sid="262"><CoreSc1 advantage="None" conceptID="Con51" novelty="None" type="Con"/><text>By decreasing the extracted energy at low rotational velocities, better stability can be achieved.</text></s>
+<s sid="263"><CoreSc1 advantage="None" conceptID="Con52" novelty="None" type="Con"/><text>For rapidly oscillating wind conditions, this modification can also increase the extracted power.</text></s>
+<s sid="264"><CoreSc1 advantage="None" conceptID="Con53" novelty="None" type="Con"/><text>The control strategy relies on accurate estimates of CPmax and, even more importantly, λmax.</text></s>
+<s sid="265"><CoreSc1 advantage="None" conceptID="Con54" novelty="None" type="Con"/><text>For system stability a slight overestimation of λmax is beneficial.</text></s>
+</BODY>
+<OTHER>
+Acknowledgements
+This work was financially supported by the Swedish Energy Agency, Statkraft AS, Vinnova and Uppsala University within the Swedish Centre for Renewable Electric Energy Conversion.
+
+</OTHER>
+</PAPER>

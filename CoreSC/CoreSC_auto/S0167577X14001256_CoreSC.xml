@@ -1,0 +1,129 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0167577X14001256.tmf1" version="elsevier"/>
+<TITLE>Direct observation of solute-dislocation interaction on screw dislocation in a neutron irradiated modified 316 stainless steel
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>A three-dimensional atom probe (3DAP) technique was used to observe the three-dimensional solute distribution around screw dislocations in neutron-irradiated modified 316 austenitic stainless steel.</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>Si, Ni, and P were observed to get enriched around the cores of screw dislocations, while Fe, Cr, Mn, and Mo were depleted in the same areas.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>Si was segregated to a narrow region in the core for which, it was concluded that Si was trapped in the initial stage of segregation.</text></s>
+<s sid="4"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>Other enriched elements segregated to some edge features such as kinks and/or jogs formed as a result of Si trapping.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>The results suggest that solute-dislocation interaction of screw dislocations was similar to radiation-induced segregation, which is affected by the volume size factor of solute atoms.</text></s>
+Highlights
+•
+<s sid="6"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>We observed screw dislocations in an irradiated 316 austenitic stainless steel by 3DAP.</text></s>
+•
+<s sid="7"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>Solute segregation around screw dislocation core was similar to radiation induced segregation.</text></s>
+•
+<s sid="8"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>Solute dislocation interaction on screw dislocations is affected by volume size factor.</text></s>
+•
+<s sid="9"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>Segregation behavior at screw dislocations suggests that a mixed dumb-bell mechanism occurred.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="10"><CoreSc1 advantage="None" conceptID="Bac5" novelty="None" type="Bac"/><text>It has been widely accepted that dislocations act as sinks for point defects and defect clusters.</text></s>
+<s sid="11"><CoreSc1 advantage="None" conceptID="Bac6" novelty="None" type="Bac"/><text>Especially, edge dislocations are controlled by irradiation defects due to the interstitial bias of the sink [1,2].</text></s>
+<s sid="12"><CoreSc1 advantage="None" conceptID="Bac7" novelty="None" type="Bac"/><text>Edge dislocations have hydrostatic stress fields around their core; therefore, it absorbs the point defects easily.</text></s>
+<s sid="13"><CoreSc1 advantage="None" conceptID="Bac8" novelty="None" type="Bac"/><text>While, there are no hydrostatic stress fields around the cores of screw dislocations.</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Bac9" novelty="None" type="Bac"/><text>Thus, it is presumed that a driving force for moving point defects to the core of a screw dislocation does not exist.</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Bac10" novelty="None" type="Bac"/><text>Because of these differences in the stress fields around the cores, the sink strength for a point defect is thought to be weaker than that for an edge dislocation.</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Bac11" novelty="None" type="Bac"/><text>However, the mechanism for the screw dislocation acting as a sink for point defects can be found indirectly, e.g., it is known that the absorption of either interstitials or vacancies at a screw dislocation changes it to a helical dislocation having partial edge component [3,4].</text></s>
+<s sid="17"><CoreSc1 advantage="None" conceptID="Bac12" novelty="None" type="Bac"/><text>Therefore, the core of the screw dislocation is considered to form kinks or jogs with an edge component, which shows interstitial bias.</text></s>
+<s sid="18"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>Such kinks or jogs would enhance the transformation from screw to helical dislocation.</text></s>
+<s sid="19"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>Irradiation softening is caused by such increase in the edge component.</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>This increase results in a large degree of softening in bcc metals because the Peierls stress rapidly increases at low temperature [5,6].</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>In this way, screw dislocations are considered to have a significant influence on the formation of defects during irradiation, and the resulting mechanical properties increases edge components as a result of solute-dislocation interactions.</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>Using conventional methods, it is difficult to analyze solute atoms trapped at the core of dislocations, and it is also difficult to clarify which solute atom is dominant in the solute-screw dislocation interactions.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>In a recent study, we succeeded in clearly visualizing in three-dimension, the solute segregation to the extended edge dislocations and proved solute segregation to stacking faults and Shockley partial dislocations in a neutron irradiated modified 316 stainless steel by using three-dimensional atom probe (3DAP) [7].</text></s>
+<s sid="24"><CoreSc1 advantage="None" conceptID="Obj3" novelty="None" type="Obj"/><text>In this study, we apply the method to liner screw dislocations to discuss the solute-screw dislocation interaction under neutron irradiation.</text></s>
+Experimental
+<s sid="25"><CoreSc1 advantage="None" conceptID="Exp1" novelty="None" type="Exp"/><text>For this study, we used modified 316 (Fe-16Cr-14Ni-2.5Mo-0.25P-0.004B-0.1Ti-0.1Nb-0.8Si-0.05Cwt.%) austenitic stainless steel.</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Exp2" novelty="None" type="Exp"/><text>The alloy was solution-annealed at 1353K for 4min before irradiation.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Exp3" novelty="None" type="Exp"/><text>Neutron irradiation was conducted in the experimental fast reactor JOYO at 862K with a neutron fluence of 1.12×1027n/m2 (≥0.1MeV), which corresponds to approximately 56dpa (displacements per atom).</text></s>
+<s sid="28"><CoreSc1 advantage="None" conceptID="Exp4" novelty="None" type="Exp"/><text>Needle-shaped specimens for the 3DAP analysis were prepared from irradiated specimens using the focused ion beam (FIB) lift-out technique [8].</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Exp5" novelty="None" type="Exp"/><text>The 3DAP specimen preparations were conducted in a FIB (FIB, SMI-2050; SII) using a 30keV Ga+ ion beam.</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Exp6" novelty="None" type="Exp"/><text>After the FIB milling, the in situ lift-out technique was used to transfer the milled stainless steel tip onto a needle-like W tip prepared by electropolishing.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Exp7" novelty="None" type="Exp"/><text>After bonding the tips by W deposition, the stainless steel tip was further thinned using FIB and a transmission electron microscope (TEM) to include tangled dislocations around the top of the tip, which did not include precipitates, grain boundaries or twins.</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Exp8" novelty="None" type="Exp"/><text>The 3DAP observations were performed using a Cameca Instruments Inc. laser-assisted local electrode 3DAP (LEAP-3000XHR).</text></s>
+<s sid="33"><CoreSc1 advantage="None" conceptID="Exp9" novelty="None" type="Exp"/><text>To reduce the probability of tip fracture during 3DAP evaporation of the atomic layers, we used field evaporation with a laser pulse instead of an electric field pulse.</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Exp10" novelty="None" type="Exp"/><text>The 3DAP observation conditions were as follows: laser energy of 0.5-0.6nJ, a laser-pulse repetition rate of 250kHz, a DC bias voltage of 4-7kV, and a specimen temperature of 55K.</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Exp11" novelty="None" type="Exp"/><text>The DC voltage was automatically controlled to keep a constant evaporation rate of 0.4% at constant energy of the laser pulse.</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Exp12" novelty="None" type="Exp"/><text>The Ga+-irradiated regions by FIB around the top of the thinned tip were fractured before 3DAP observation at a DC voltage range of 2-4kV.</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Exp13" novelty="None" type="Exp"/><text>The computer program IVAS3.6.1 (Cameca Instruments Inc.) was used to analyze the data.</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>Orientations of the screw dislocations were defined with high accuracy on the basis of {111} planes of stacking faults, which were observed while mapping the same atom.</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>Details of the methods were explained in our previous paper [7].</text></s>
+Results and discussion
+<s sid="40"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>Fig. 1(a) shows the typical three-dimensional atom map of Si before irradiation.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>In the atom map Si atoms are distributed homogeneously.</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>Since there was no linear or planer enrichment of solute atoms in approximately 20 million atoms, we assumed that significant segregation of solute atoms did not occur in dislocations, before irradiation.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>Fig. 1(b)-(e) shows Si atom maps of an irradiated specimen consist of two irradiated regions (Regions 1 and 2) and two different viewpoints.</text></s>
+<s sid="44"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>Regions 1 and 2 were obtained from the same needle-like specimen.</text></s>
+<s sid="45"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>Therefore, both atom maps show the same orientation.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>Fig. 1(b) and (c) are the atom maps viewed from the [101] direction.</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>Two defects were observed (marked by red and yellow circles), which were the areas of Si enrichment.</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>Fig. 1(c) and (e) shows atom maps viewed from the [01¯0] direction.</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>The defects are linear and extended in the [101¯] direction.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>Therefore, the linear defects are screw dislocations, and we named them as SD 1 and SD 2 (Fig. 1).</text></s>
+<s sid="51"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>Fig. 2 shows two-dimensional elemental mapping when SD 1 (Fig. 2(a)) and SD 2 (Fig. 2(b)) were observed from the [101] direction.</text></s>
+<s sid="52"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>White dotted lines indicate {111} planes, which cross the dislocation core.</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>While the undersized atoms (smaller than Fe) such as Ni, Si, and P were found to concentrate near the dislocation core, the oversized atoms (larger than Fe) such as Cr, Mo, and Mn were observed to be depleted.</text></s>
+<s sid="54"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>Moreover, the host atom was depleted.</text></s>
+<s sid="55"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>A high Si concentration zone was located within a 2nm radius of the dislocation core, whereas a Ni-rich zone was located within a 3-4nm radius.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>These atoms were arranged in almost concentric circles.</text></s>
+<s sid="57"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>This suggested that the SD 1 hardly had long edge component such as jogs.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Obs11" novelty="None" type="Obs"/><text>In the case of SD 2, while Fe and Cr were depleted along {111} planes, Ni was found to concentrate in the same plane.</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Obs12" novelty="None" type="Obs"/><text>Fig. 3 shows the one-dimensional composition profiles of Fe, Ni, Cr, Si, Mn, Mo, Nb, P, Ti, and C around a screw dislocation core, obtained from the elemental analysis along the arrow shown in the box of 4nm×20nm in Fig. 3(c) and (f).</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>Si profiles show narrow peaks around distances of 10nm, while the Ni profiles show broad peaks.</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>These differences in elemental distributions around the dislocation core suggested that Si enrichment occured during the initial stage of segregation.</text></s>
+<s sid="62"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>P was enriched near the dislocation core and depleted the dislocation core.</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>On the basis of the solute atom distribution, it can be concluded that the screw dislocations had not extended far; hence, it can beconsidered to be the predominant sink for interstitial atoms.</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>In the SD 2, the concentrations of Si and Ni around dislocation core were lower than that of SD 1 and showed a sub peaks to left side of the main peaks.</text></s>
+<s sid="65"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>We assumed that the sub peaks for Si and Ni correspond to the edge components such as jogs or kinks.</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>Under irradiation at the temperature where interstitial atoms and vacancies are mobile, undersized atoms are concentrated owing to drag effects of the interstitial atoms.</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>Oversized atoms diffuse in the direction opposite to that of the vacancies due to the inverse Kirkendall effect, generating oversized atom-depleted zones around sinks for point defects; this is known as radiation-induced segregation (RIS) [9-11].</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>The inverse Kirkendall effect is based on the vacancy mechanism of diffusion of substituted solute atoms.</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>The driving force of diffusion is considered to be the elastic stress field around sinks.</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>In a screw dislocation with no hydrostatic stress, a general RIS, in which atoms diffuse to a sink along an elastic stress field, is not expected.</text></s>
+<s sid="71"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>Another diffusion mechanism for undersized atoms is known as mixed dumb-bell mechanism [12].</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>In the case of mixed dumb-bell mechanism, undersized atom such as Si and Ni formed dumb-bells and show random walk in matrix.</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>In case of heavily irradiated matrix, many undersized atoms arrive at screw dislocation core, even in the absence of any driving force at the core, and eventually, get trapped at screw dislocation core.</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>The Si enrichment at dislocation core enhances formation of kinks for structure relaxation.</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>It is necessary to calculate the formation energy of Si kink in future.</text></s>
+<s sid="76"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>King et al. [3] suggested a mechanism in which relaxation of the dislocation core by Si segregation hampers Si pipe diffusion, resulting in the formation and growth of Si jogs.</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>This phenomenon might have occurred as Si was absorbed at the screw dislocations.</text></s>
+<s sid="78"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>A model proposed by Kuramoto et al. [13] showed the formation of a kink pair on a screw dislocation in bcc iron, regardless of the effect of the pipe diffusion.</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>Under irradiation, it is thought that the high mobility of undersized interstitial atoms, by a mixed dumb-bell mechanism in the matrix and pipe diffusion of Si in screw dislocation cores induced the formation of kinks in the screw dislocation, and the edge component caused significant Si and Ni segregation.</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>After the formation of kinks, the edge component generated elastic stress field around {111} slip plane of dislocation core.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>The other solute atoms were enriched or depleted around the dislocation core and the kinks grew to jogs.</text></s>
+<s sid="82"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>In this study, the inverse Kirkendall effect, which was observed in the Cr mapping in the Fig. 2(b), suggests the generation of elastic stress field.</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Obs13" novelty="None" type="Obs"/><text>Fig. 4 shows two-dimensional elemental maps when the SD 1 were observed from the [010] direction.</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Obs14" novelty="None" type="Obs"/><text>In the Fe, Cr, Ni, and Si mapping, periodic fluctuations in solute concentration along the dislocation core were observed.</text></s>
+<s sid="85"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>The wavelength of these concentration fluctuations was approximately 3-4nm.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>In the case of high voltage electron microscopy (HVEM) irradiation, Si addition to Fe-Cr-Ni alloy prevents the formation of jogs [3].</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>Yoshiie et al. reported that the screw dislocations changed into helical type dislocations during neutron irradiations.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>In their study, the pitch of helical type dislocations was approximately 100nm when irradiated at 567 K.</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>Therefore, the concentration fluctuations in our study suggest the formation of short edge component such as kinks in the SD 1.</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>Oka et al. investigated the irradiation softening in PNC316 samples, which were neutron-irradiated under almost the same conditions as used in our study [14].</text></s>
+<s sid="91"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>Hence, it can be assumed that the kink and/or jog formation on screw dislocation affects the irradiation softening.</text></s>
+<s sid="92"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>A detailed numerical calculation to model the solute-screw dislocation interaction and irradiation softening in fcc metals in future will be useful.</text></s>
+Conclusion
+<s sid="93"><CoreSc1 advantage="None" conceptID="Obj4" novelty="None" type="Obj"/><text>In the present work, we examined three-dimensional solute-screw dislocation interaction in a modified 316 stainless steel using laser assisted 3DAP.</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>Our study shed light on the segregation behavior of solute atoms under neutron irradiation.(1)</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>The enrichment of Si, Ni, and P was observed around the cores of screw dislocations, while Fe, Cr, Mn and Mo were observed to be depleted in the same region.</text></s>
+<s sid="96"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>These results suggest that the behavior of solute-screw dislocation interactions is related to the volume size factor of solute atoms.</text></s>
+(2)
+<s sid="97"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>In the Fe, Cr, Ni, and Si mapping, periodic fluctuations in solute concentration along dislocation cores was observed with a wavelength of approximately 3-4nm.</text></s>
+(3)
+<s sid="98"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>The enrichment of undersized atoms at the cores of the screw dislocations suggests that a mixed dumb-bell mechanism occurred during neutron irradiation.</text></s>
+<s sid="99"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>The enrichment of Si and Ni at the core seemed to generate edge components and enhance RIS.</text></s>
+</BODY>
+<OTHER>
+Acknowledgments
+This work was performed using facilities of the International Research Center for Nuclear Materials Science, Institute for Materials Research (IMR), Tohoku University.
+A part of this study was financially supported by the JAEA Cooperative Research Scheme on the Nuclear Fuel Cycle and Grant-in-Aid for Young Scientists (no.
+23760804).
+The authors acknowledge inspiring discussion with Y. Matsukawa.
+
+</OTHER>
+</PAPER>

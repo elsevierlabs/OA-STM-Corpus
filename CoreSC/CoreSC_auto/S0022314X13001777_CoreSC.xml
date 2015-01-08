@@ -1,0 +1,246 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0022314X13001777.tmf1" version="elsevier"/>
+<TITLE>Sylow p-groups of polynomial permutations on the integers mod pn
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>We enumerate and describe the Sylow p-groups of the groups of polynomial permutations of the integers mod pn for n⩾1 and of the pro-finite group which is the projective limit of these groups.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="2"><CoreSc1 advantage="None" conceptID="Mod1" novelty="None" type="Mod"/><text>Fix a prime p and let n∈N.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Mod2" novelty="None" type="Mod"/><text>Every polynomial f∈Z[x] defines a function from Zpn= to itself.</text></s>
+<s sid="4"><CoreSc1 advantage="None" conceptID="Mod3" novelty="None" type="Mod"/><text>If this function happens to be bijective, it is called a polynomial permutation of Zpn.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>The polynomial permutations of Zpn form a group (Gn,∘) with respect to composition.</text></s>
+<s sid="6"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>The order of this group has been known since at least 1921 (Kempner [10]) to be |G2|=p!(p-1)ppp and |Gn|=p!(p-1)pppp∑k=3nβ(k) for n⩾3, where β(k) is the least n such that pk divides n!, but the structure of (Gn,∘) is elusive.</text></s>
+<s sid="7"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>(See, however, Nöbauer [15] for some partial results.)</text></s>
+<s sid="8"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>Since the order of Gn is divisible by a high power of (p-1) for large p, even the number of Sylow p-groups is not obvious.</text></s>
+<s sid="9"><CoreSc1 advantage="None" conceptID="Goa1" novelty="None" type="Goa"/><text>We will show that there are (p-1)!(p-1)p-2 Sylow p-groups of Gn and describe these Sylow p-groups, see Theorem 5.1 and Corollary 5.2.</text></s>
+<s sid="10"><CoreSc1 advantage="None" conceptID="Mod4" novelty="None" type="Mod"/><text>Some notation: p is a fixed prime throughout.</text></s>
+<s sid="11"><CoreSc1 advantage="None" conceptID="Mod5" novelty="None" type="Mod"/><text>A function g:Zpn→Zpn arising from a polynomial in Zpn[x] or, equivalently, from a polynomial in Z[x], is called a polynomial function on Zpn.</text></s>
+<s sid="12"><CoreSc1 advantage="None" conceptID="Mod6" novelty="None" type="Mod"/><text>We denote by (Fn,∘) the monoid with respect to composition of polynomial functions on Zpn.</text></s>
+<s sid="13"><CoreSc1 advantage="None" conceptID="Mod7" novelty="None" type="Mod"/><text>By monoid, we mean semigroup with an identity element.</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Mod8" novelty="None" type="Mod"/><text>Let (Gn,∘) be the group of units of (Fn,∘), which is the group of polynomial permutations of Zpn.</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Mod9" novelty="None" type="Mod"/><text>Since every function induced by a polynomial preserves congruences modulo ideals, there is a natural epimorphism mapping polynomial functions on Zpn+1 onto polynomial functions on Zpn, and we write it as πn:Fn+1→Fn.</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Mod10" novelty="None" type="Mod"/><text>If f is a polynomial in Z[x] (or in Zpm[x] for m⩾n) we denote the polynomial function on Zpn[x] induced by f by [f]pn.</text></s>
+<s sid="17"><CoreSc1 advantage="None" conceptID="Mod11" novelty="None" type="Mod"/><text>The order of Fn and that of Gn have been determined by Kempner [10] in a rather complicated manner.</text></s>
+<s sid="18"><CoreSc1 advantage="None" conceptID="Mod12" novelty="None" type="Mod"/><text>His results were cast into a simpler form by Nöbauer [14] and Keller and Olson [9] among others.</text></s>
+<s sid="19"><CoreSc1 advantage="None" conceptID="Mod13" novelty="None" type="Mod"/><text>Since then there have been many generalizations of the order formulas to more general finite rings [16,13,2,6,1,8,7].</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Mod14" novelty="None" type="Mod"/><text>Also, polynomial permutations in several variables (permutations of (Zpn)k defined by k-tuples of polynomials in k variables) have been looked into [5,4,19,17,18,11].</text></s>
+Polynomial functions and permutations
+<s sid="21"><CoreSc1 advantage="None" conceptID="Mod15" novelty="None" type="Mod"/><text>To put things in context, we recall some well-known facts, to be found, among other places, in [10,14,3,9].</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Mod16" novelty="None" type="Mod"/><text>The reader familiar with polynomial functions on finite rings is encouraged to skip to Section 3.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Mod17" novelty="None" type="Mod"/><text>Note that we do not claim anything in Section 2 as new.</text></s>
+Definition
+<s sid="24"><CoreSc1 advantage="None" conceptID="Mod18" novelty="None" type="Mod"/><text>For p prime and n∈N, let αp(n)=∑k=1∞[npk] and βp(n)=min{m|αp(m)⩾n}.</text></s>
+<s sid="25"><CoreSc1 advantage="None" conceptID="Mod19" novelty="None" type="Mod"/><text>If p is fixed, we just write α(n) and β(n).</text></s>
+Notation
+<s sid="26"><CoreSc1 advantage="None" conceptID="Mod20" novelty="None" type="Mod"/><text>For k∈N, let (x)k=x(x-1)…(x-k+1) and (x)0=1.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Mod21" novelty="None" type="Mod"/><text>We denote p-adic valuation by vp.</text></s>
+Fact 2.1
+(1) αp(n)=vp(n!).
+<s sid="28"><CoreSc1 advantage="None" conceptID="Mod22" novelty="None" type="Mod"/><text>(2) For 1⩽n⩽p, βp(n)=np and for n&gt;p, βp(n)&lt;np.</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Mod23" novelty="None" type="Mod"/><text>(3) For all n∈Z, vp((n)k)⩾αp(k); and vp((k)k)=vp(k!)=αp(k).</text></s>
+Proof
+Easy. □
+Remark
+<s sid="30"><CoreSc1 advantage="None" conceptID="Mod24" novelty="None" type="Mod"/><text>The sequence (βp(n))n=1∞ is obtained by going through the natural numbers in increasing order and repeating each k∈Nvp(k) times.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Mod25" novelty="None" type="Mod"/><text>For instance, β2(n) for n⩾1 is: 2,4,4,6,8,8,8,10,12,12,14,16,16,16,16,18,20,20,….</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Mod26" novelty="None" type="Mod"/><text>The falling factorials (x)0=1, (x)k=x(x-1)…(x-k+1), k&gt;0, form a basis of the free Z-module Z[x], and representation with respect to this basis gives a convenient canonical form for a polynomial representing a given polynomial function on Zpn.</text></s>
+Fact 2.2
+<s sid="33"><CoreSc1 advantage="None" conceptID="Mod27" novelty="None" type="Mod"/><text>(Cf. Keller and Olson [9].)</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Mod28" novelty="None" type="Mod"/><text>A polynomial f∈Z[x], f=∑kak(x)k, induces the zero-function mod pn if and only if ak≡0 mod pn-α(k) for all k (or, equivalently, for all k&lt;β(n)).</text></s>
+Proof
+<s sid="35"><CoreSc1 advantage="None" conceptID="Mod29" novelty="None" type="Mod"/><text>Induction on k using the facts that (m)k=0 for m&lt;k, that vp((n)k)⩾αp(k) for all n∈Z, and that vp((k)k)=vp(k!)=αp(k). □</text></s>
+Corollary 2.3
+<s sid="36"><CoreSc1 advantage="None" conceptID="Mod30" novelty="None" type="Mod"/><text>(Cf. Keller and Olson [9].)</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Mod31" novelty="None" type="Mod"/><text>Every polynomial function on Zpn is represented by a unique f∈Z[x] of the form f=∑k=0β(n)-1ak(x)k, with 0⩽ak&lt;pn-α(k) for all k.</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Mod32" novelty="None" type="Mod"/><text>Comparing the canonical forms of polynomial functions mod pn with those mod pn-1 we see that every polynomial function mod pn-1 gives rise to pβ(n) different polynomial functions mod pn:</text></s>
+Corollary 2.4
+<s sid="39"><CoreSc1 advantage="None" conceptID="Mod33" novelty="None" type="Mod"/><text>(See cf. Keller and Olson [9].)</text></s>
+<s sid="40"><CoreSc1 advantage="None" conceptID="Mod34" novelty="None" type="Mod"/><text>Let (Fn,∘) be the monoid of polynomial functions on Zpn with respect to composition and πn:Fn+1→Fn the canonical projection.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Mod35" novelty="None" type="Mod"/><text>(1) For all n⩾1 and for each f∈Fn we have |πn-1(f)|=pβ(n+1).</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Mod36" novelty="None" type="Mod"/><text>(2) For all n⩾1, the number of polynomial functions on Zpn is|Fn|=p∑k=1nβ(k).</text></s>
+Notation
+<s sid="43"><CoreSc1 advantage="None" conceptID="Mod37" novelty="None" type="Mod"/><text>We write [f]pn for the function defined by f∈Z[x] on Zpn.</text></s>
+Lemma 2.5
+<s sid="44"><CoreSc1 advantage="None" conceptID="Mod38" novelty="None" type="Mod"/><text>Every polynomial f∈Z[x] is uniquely representable asf(x)=f0(x)+f1(x)(xp-x)+f2(x)(xp-x)2+⋯+fm(x)(xp-x)m+⋯ with fm∈Z[x], degfm&lt;p, for all m⩾0.</text></s>
+Now let f,g∈Z[x].
+<s sid="45"><CoreSc1 advantage="None" conceptID="Mod39" novelty="None" type="Mod"/><text>(1) If n⩽p, then [f]pn=[g]pn is equivalent to: fk=gk mod pn-kZ[x] for 0⩽k&lt;n.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Mod40" novelty="None" type="Mod"/><text>(2) [f]p2=[g]p2 is equivalent to: f0=g0 mod p2Z[x] and f1=g1 mod pZ[x].</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Mod41" novelty="None" type="Mod"/><text>(3) [f]p=[g]p and [f′]p=[g′]p is equivalent to: f0=g0 mod pZ[x] and f1=g1 mod pZ[x].</text></s>
+Proof
+<s sid="48"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>The canonical representation is obtained by repeated division with remainder by (xp-x), and uniqueness follows from uniqueness of quotient and remainder of polynomial division.</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>Note that [f]p=[f0]p and [f′]p=[f0′-f1]p.</text></s>
+This gives (3).
+<s sid="50"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>Denote by f∼g the equivalence relation fk=gk mod pn-kZ[x] for 0⩽k&lt;n.</text></s>
+Then f∼g implies [f]pn=[g]pn.
+<s sid="51"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>There are pp+2p+3p+⋯+np equivalence classes of ∼ and pβ(1)+β(2)+β(3)+⋯+β(n) different [f]pn.</text></s>
+For k⩽p, β(k)=kp.
+<s sid="52"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>Therefore the equivalence relations f∼g and [f]pn=[g]pn coincide.</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>This gives (1), and (2) is just the special case n=2. □</text></s>
+<s sid="54"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>We can rephrase this in terms of ideals of Z[x].</text></s>
+Corollary 2.6
+<s sid="55"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>For every n∈N, consider the two ideals of Z[x]In={f∈Z[x]|f(Z)⊆pnZ} and Jn=({pn-k(xp-x)k|0⩽k⩽n}).</text></s>
+Then [Z[x]:In]=pβ(1)+β(2)+β(3)+⋯+β(n) and [Z[x]:Jn]=pp+2p+3p+⋯+np.
+<s sid="56"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>Therefore, Jn=In for n⩽p, whereas for n&gt;p, Jn is properly contained in In.</text></s>
+Proof
+Jn⊆In. 
+<s sid="57"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>The index of Jn in Z[x] is pp+2p+3p+⋯+np, because f∈Jn if and only if fk=0 mod pn-kZ[x] for 0⩽k&lt;n in the canonical representation of Lemma 2.5.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>The index of In in Z[x] is pβ(1)+β(2)+β(3)+⋯+β(n) by Corollary 2.4(2) and [Z[x]:In]&lt;[Z[x]:Jn] if and only if n&gt;p by Fact 2.1(2). □</text></s>
+Fact 2.7
+(Cf. McDonald [12].) 
+Let n⩾2.
+<s sid="59"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>The function on Zpn induced by a polynomial f∈Z[x] is a permutation if and only if (1) f induces a permutation of Zp, and (2) the derivative f′ has no zero mod p.</text></s>
+Lemma 2.8
+<s sid="60"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>Let [f]pn and [f]p be the functions defined by f∈Z[x] on Zpn and Zp, respectively, and [f′]p the function defined by the formal derivative of f on Zp.</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>Then (1) [f]p2 determines not just [f]p, but also [f′]p.</text></s>
+(2) Let n⩾2.
+<s sid="62"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>Then [f]pn is a permutation if and only if [f]p2 is a permutation.</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>(3) For every pair of functions (α,β), α:Zp→Zp, β:Zp→Zp, there are exactly pp polynomial functions [f]p2 on Zp2 with [f]p=α and [f′]p=β.</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>(4) For every pair of functions (α,β), α:Zp→Zp bijective, β:Zp→Zp∖{0}, there are exactly pp polynomial permutations [f]p2 on Zp2 with [f]p=α and [f′]p=β.</text></s>
+Proof
+<s sid="65"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>(1) and (3) follow immediately from Lemma 2.5 for n=2 and (2) and (4) then follow from Fact 2.7. □</text></s>
+Remark 2.9
+<s sid="66"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>Fact 2.7 and Lemma 2.8(2) imply that (1) for all n⩾1, the image of Gn+1 under πn:Fn+1→Fn is contained in Gn, and (2) for all n⩾2, the inverse image of Gn under πn:Fn+1→Fn is Gn+1.</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>We denote by πn:Gn+1→Gn the restriction of πn to Gn.</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>This is the canonical epimorphism from the group of polynomial permutations on Zpn+1 onto the group of polynomial permutations on Zpn.</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>The above remark allows us to draw conclusions on the projective system of groups Gn from the information in Corollary 2.4 concerning the projective system of monoids Fn.</text></s>
+Corollary 2.10
+<s sid="70"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>Let n⩾2, and πn:Gn+1→Gn the canonical epimorphism from the group of polynomial permutations on Zpn+1 onto the group of polynomial permutations on Zpn.</text></s>
+Then|ker(πn)|=pβ(n+1).
+Corollary 2.11
+<s sid="71"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>(See cf. Kempner [10] and Keller and Olson [9].)</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>The number of polynomial permutations on Zp2 is|G2|=p!(p-1)ppp, and for n⩾3 the number of polynomial permutations on Zp2 is|Gn|=p!(p-1)pppp∑k=3nβ(k).</text></s>
+Proof
+<s sid="73"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>In the canonical representation of f∈Z[x] in Lemma 2.5, there are p!(p-1)p choices of coefficients mod p for f0 and f1 such that the criteria of Fact 2.7 for a polynomial permutation on Zp2 are satisfied.</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>And for each such choice there are pp possibilities for the coefficients of f0 mod p2.</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>The coefficients of f0 mod p2 and those of f1 mod p then determine the polynomial function mod p2.</text></s>
+So |G2|=p!(p-1)ppp.
+<s sid="76"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>The formula for |Gn| then follows from Corollary 2.10. □</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>This concludes our review of polynomial functions and polynomial permutations on Zpn.</text></s>
+<s sid="78"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>We will now introduce a homomorphic image of G2 whose Sylow p-groups bijectively correspond to the Sylow p-groups of Gn for any n⩾2.</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>A group between G1 and G2</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>Into the projective system of monoids (Fn,∘) we insert an extra monoid E between F1 and F2 by means of monoid-epimorphisms θ:F2→E and ψ:E→F1 with ψθ=π1,F1←ψE←θF2←π2F3←π3⋯.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>The restrictions of θ to G2 and of ψ to the group of units H of E will be group-epimorphisms, so that we also insert an extra group H between G1 and G2 into the projective system of the Gi,G1←ψH←θG2←π2G3←π3….</text></s>
+<s sid="82"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>In the following definition of E and H, f and f′ are just two different names for functions.</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Mod42" novelty="None" type="Mod"/><text>The connection with polynomials and their formal derivatives suggested by the notation will appear when we define θ and ψ.</text></s>
+Definition
+<s sid="84"><CoreSc1 advantage="None" conceptID="Mod43" novelty="None" type="Mod"/><text>We define the semigroup (E,∘) byE={(f,f′)|f:Zp→Zpf′:Zp→Zp} (where f and f′ are just symbols) with law of composition(f,f′)∘(g,g′)=(f∘g,(f′∘g)⋅g′).</text></s>
+Here (f∘g)(x)=f(g(x)) and ((f′∘g)⋅g′)(x)=f′(g(x))⋅g′(x).
+<s sid="85"><CoreSc1 advantage="None" conceptID="Mod44" novelty="None" type="Mod"/><text>We denote by (H,∘) the group of units of E.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Mod45" novelty="None" type="Mod"/><text>The following facts are easy to verify:</text></s>
+Lemma 3.1
+<s sid="87"><CoreSc1 advantage="None" conceptID="Mod46" novelty="None" type="Mod"/><text>(1) The identity element of E is (ι,1), with ι denoting the identity function on Zp and 1 the constant function 1.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Mod47" novelty="None" type="Mod"/><text>(2) The group of units of E has the formH={(f,f′)|f:Zp→Zp bijective, f′:Zp→Zp∖{0}}.</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Mod48" novelty="None" type="Mod"/><text>(3) The inverse of (g,g′)∈H is(g,g′)-1=(g-1,1g′∘g-1), where g-1 is the inverse permutation of the permutation g and 1/a stands for the multiplicative inverse of a non-zero element a∈Zp, such that (1g′∘g-1)(x)=1g′(g-1(x)) means the multiplicative inverse in Zp∖{0} of g′(g-1(x)).</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>Note that H is a semidirect product of (as the normal subgroup) a direct sum of p copies of the cyclic group of order p-1 and (as the complement acting on it) the symmetric group on p letters, Sp, acting on the direct sum by permuting its components.</text></s>
+<s sid="91"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>In combinatorics, one would call this a wreath product (designed to act on the left) of the abstract group Cp-1 by the permutation group Sp with its standard action on p letters.</text></s>
+<s sid="92"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>(Group theorists, however, have a narrower definition of wreath product, which is not applicable here.)</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>Now for the homomorphisms θ and ψ.</text></s>
+Definition
+<s sid="94"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>We define ψ:E→F1 by ψ(f,f′)=f.</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>As for θ:F2→E, given an element [g]p2∈F2, set θ([g]p2)=([g]p,[g′]p).</text></s>
+<s sid="96"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>θ is well defined by Lemma 2.8(1).</text></s>
+Lemma 3.2
+<s sid="97"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>(i) θ:F2→E is a monoid-epimorphism.</text></s>
+<s sid="98"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>(ii) The inverse image of H under θ:F2→E is G2.</text></s>
+<s sid="99"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>(iii) The restriction of θ to G2 is a group-epimorphism θ:G2→H with |ker(θ)|=pp.</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>(iv) ψ:E→F1 is a monoid-epimorphism and ψ restricted to H is a group-epimorphism ψ:H→G1.</text></s>
+Proof
+<s sid="101"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>(i) follows from Lemma 2.8(3) and (ii) from Fact 2.7.</text></s>
+<s sid="102"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>(iii) follows from Lemma 2.8(4).</text></s>
+<s sid="103"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>Finally, (iv) holds because every function on Zp is a polynomial function and every permutation of Zp is a polynomial permutation. □</text></s>
+Sylow subgroups of H
+<s sid="104"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>We will first determine the Sylow p-groups of H.</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>The Sylow p-groups of Gn for n⩾2 are obtained in the next section as the inverse images of the Sylow p-groups of H under the epimorphism Gn→H.</text></s>
+Lemma 4.1
+<s sid="106"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>Let C0 be the subgroup of Sp generated by the p-cycle (012…p-1).</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>Then one Sylow p-subgroup of H isS={(f,f′)∈H|f∈C0,f′=1}, where f′=1 means the constant function 1.</text></s>
+<s sid="108"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>The normalizer of S in H is NH(S)={(g,g′)|g∈NSp(C0), g′ a non-zero constant}.</text></s>
+Proof
+<s sid="109"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>As |H|=p!(p-1)p, and S is a subgroup of H of order p, S is a Sylow p-group of H.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>Conjugation of (f,f′)∈S by (g,g′)∈H (using the fact that f′=1) gives (g,g′)-1(f,f′)(g,g′)=(g-1,1g′∘g-1)(f∘g,g′)=(g-1∘f∘g,g′g′∘g-1∘f∘g).</text></s>
+<s sid="111"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>The first coordinate of (g,g′)-1(f,f′)(g,g′) being in C0 for all (f,f′)∈S is equivalent to g∈NSp(C0).</text></s>
+<s sid="112"><CoreSc1 advantage="None" conceptID="Mod49" novelty="None" type="Mod"/><text>The second coordinate of (g,g′)-1(f,f′)(g,g′) being the constant function 1 for all (f,f′)∈S is equivalent to ∀x∈Zp,g′(x)=g′(g-1(f(g(x)))), which is equivalent to g′ being constant on every cycle of g-1fg, which is equivalent to g′ being constant on Zp, since f can be chosen to be a p-cycle. □</text></s>
+Lemma 4.2
+<s sid="113"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>Another way of describing the normalizer of S in H is NH(S)={(g,g′)∈H|∃k≠0∀a,b,g(a)-g(b)=k(a-b); g′ a non-zero constant}.</text></s>
+Therefore, |NH(S)|=p(p-1)2 and [H:NH(S)]=(p-1)!(p-1)p-2.
+Proof
+<s sid="114"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>Let σ=(012…p-1) and g∈Sp then gσg-1=(g(0)g(1)g(2)…g(p-1)).</text></s>
+<s sid="115"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>Now g∈NSp(C0) if and only if, for some 1⩽k&lt;p, gσg-1=σk, i.e., (g(0)g(1)g(2)…g(p-1))=(0k2k…(p-1)k), all numbers taken mod p.</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>This is equivalent to g(x+1)=g(x)+k org(x+1)-g(x)=k and further equivalent to g(a)-g(b)=k(a-b).</text></s>
+<s sid="117"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>Thus k and g(0) determine g∈NSp(C0), and there are (p-1) choices for k and p choices for g(0).</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>Together with the (p-1) choices for the non-zero constant g′ this makes p(p-1)2 elements of NH(S). □</text></s>
+Corollary 4.3
+<s sid="119"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>There are (p-1)!(p-1)p-2 Sylow p-subgroups of H.</text></s>
+Theorem 4.4
+<s sid="120"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>The Sylow p-subgroups of H are in bijective correspondence with pairs (C,φ¯), where C is a cyclic subgroup of order p of Sp, φ:Zp→Zp∖{0} is a function and φ¯ is the class of φ with respect to the equivalence relation of multiplication by a non-zero constant.</text></s>
+<s sid="121"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>The subgroup corresponding to (C,φ¯) is S(C,φ¯)={(f,f′)∈H|f∈C,f′(x)=φ(f(x))φ(x)}.</text></s>
+Proof
+<s sid="122"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>Observe that each S(C,φ¯) is a subgroup of order p of H.</text></s>
+<s sid="123"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>Different pairs (C,φ¯) give rise to different groups: Suppose S(C,φ¯)=S(D,ψ¯).</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>Then C=D and for all x∈Zp and for all f∈C we get φ(f(x))φ(x)=ψ(f(x))ψ(x).</text></s>
+<s sid="125"><CoreSc1 advantage="None" conceptID="Res61" novelty="None" type="Res"/><text>As C is transitive on Zp the latter condition is equivalent to ∀x,y∈Zpψ(x)φ(x)=ψ(y)φ(y), which means that φ=kψ for a non-zero k∈Zp.</text></s>
+<s sid="126"><CoreSc1 advantage="None" conceptID="Res62" novelty="None" type="Res"/><text>There are (p-2)! cyclic subgroups of order p of Sp, and (p-1)p-1 equivalence classes φ¯ of functions φ:Zp→Zp∖{0}.</text></s>
+<s sid="127"><CoreSc1 advantage="None" conceptID="Res63" novelty="None" type="Res"/><text>So the number of pairs (C,φ¯) equals (p-1)!(p-1)p-2, which is the number of Sylow p-groups of H, by the preceding corollary. □</text></s>
+Proposition 4.5
+<s sid="128"><CoreSc1 advantage="None" conceptID="Res64" novelty="None" type="Res"/><text>If p is an odd prime then the intersection of all Sylow p-subgroups of H is trivial, i.e., ⋂(C,φ¯)S(C,φ¯)={(ι,1)}.</text></s>
+<s sid="129"><CoreSc1 advantage="None" conceptID="Res65" novelty="None" type="Res"/><text>If p=2 then |H|=2 and the intersection of all Sylow 2-subgroups of H is H itself.</text></s>
+Proof
+<s sid="130"><CoreSc1 advantage="None" conceptID="Res66" novelty="None" type="Res"/><text>Let p be an odd prime, and let (f,f′)∈⋂(C,φ¯)S(C,φ¯).</text></s>
+<s sid="131"><CoreSc1 advantage="None" conceptID="Res67" novelty="None" type="Res"/><text>Suppose f is not the identity function and let k∈Zp such that f(k)≠k.</text></s>
+<s sid="132"><CoreSc1 advantage="None" conceptID="Res68" novelty="None" type="Res"/><text>Note that φ in (C,φ¯) is arbitrary, apart from the fact that 0 is not in the image.</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Res69" novelty="None" type="Res"/><text>Therefore, and because p⩾3, among the various φ there occur functions ϑ and η with ϑ(k)=η(k) and ϑ(f(k))≠η(f(k)).</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Res70" novelty="None" type="Res"/><text>Now (f,f′)∈S(D,ϑ¯)∩S(E,η¯) for any cyclic subgroups D and E of Sp of order p.</text></s>
+<s sid="135"><CoreSc1 advantage="None" conceptID="Res71" novelty="None" type="Res"/><text>Therefore ϑ(f(k))ϑ(k)=f′(k)=η(f(k))η(k), and hence ϑ(f(k))=η(f(k)), a contradiction.</text></s>
+<s sid="136"><CoreSc1 advantage="None" conceptID="Res72" novelty="None" type="Res"/><text>Thus f is the identity and therefore f′=1.</text></s>
+<s sid="137"><CoreSc1 advantage="None" conceptID="Res73" novelty="None" type="Res"/><text>If p=2 then |H|=2 and therefore the one and only Sylow 2-subgroup of H is H. □</text></s>
+<s sid="138"><CoreSc1 advantage="None" conceptID="Res74" novelty="None" type="Res"/><text>In the case p⩾5, the lemma above can be proved in a simpler way: There is more than one cyclic group of order p, so for (f,f′)∈⋂(C,φ¯)S(C,φ¯), there are distinct cyclic groups D and E of order p with f∈D∩E.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Res75" novelty="None" type="Res"/><text>Therefore f has to be the identity.</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Res76" novelty="None" type="Res"/><text>Sylow subgroups of Gn and of the projective limit</text></s>
+<s sid="141"><CoreSc1 advantage="None" conceptID="Res77" novelty="None" type="Res"/><text>Again we consider the projective system of finite groups G1←ψH←θG2←π2⋯←πn-1Gn←πn where (Gn,∘) is the group of polynomial permutations on Zpn (with respect to composition of functions) and H is the group defined in section 3.</text></s>
+<s sid="142"><CoreSc1 advantage="None" conceptID="Res78" novelty="None" type="Res"/><text>Let G=limGn be the projective limit of this system.</text></s>
+<s sid="143"><CoreSc1 advantage="None" conceptID="Res79" novelty="None" type="Res"/><text>Recall that a Sylow p-group of a pro-finite group is defined as a maximal group consisting of elements whose order in each of the finite groups in the projective system is a power of p.</text></s>
+Theorem 5.1
+<s sid="144"><CoreSc1 advantage="None" conceptID="Res80" novelty="None" type="Res"/><text>(i) Let (Gn,∘) be the group of polynomial permutations on Zpn with respect to composition.</text></s>
+<s sid="145"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>If n⩾2 there are (p-1)!(p-1)p-2 Sylow p-groups of Gn.</text></s>
+<s sid="146"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>They are the inverse images of the Sylow p-groups of H (described in Theorem 4.4) under the canonical projection π:Gn→H, with π=θπ2…πn-1.</text></s>
+(ii) Let G=limGn.
+<s sid="147"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>There are (p-1)!(p-1)p-2 Sylow p-groups of G, which are the inverse images of the Sylow p-groups of H (described in Theorem 4.4) under the canonical projection π:G→H.</text></s>
+Proof
+<s sid="148"><CoreSc1 advantage="None" conceptID="Res81" novelty="None" type="Res"/><text>In the projective system G1←ψH←θG2←π2⋯←πn-1Gn the kernel of the group-epimorphism Gn→H is a finite p-group for every n⩾2, because for n⩾2 the kernel of πn:Gn+1→Gn is of order pβ(n+1) by Corollary 2.10 θ:G2→H is of order pp by Lemma 3.2(iii).</text></s>
+<s sid="149"><CoreSc1 advantage="None" conceptID="Res82" novelty="None" type="Res"/><text>So the Sylow p-groups of Gn for n⩾2 are just the inverse images of the Sylow p-groups of H and, likewise, the Sylow p-groups of the projective limit G are just the inverse images of the Sylow p-groups of H, whose number was determined in Corollary 4.3. □</text></s>
+<s sid="150"><CoreSc1 advantage="None" conceptID="Res83" novelty="None" type="Res"/><text>If we combine this information with the description of the Sylow p-groups of H in Theorem 4.4 we get the following explicit description of the Sylow p-groups of Gn.</text></s>
+<s sid="151"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>Recall that [f]pn denotes the function induced on Zpn by the polynomial f in Z[x] (or in Zpm[x] for some m⩾n).</text></s>
+Corollary 5.2
+Let n⩾2.
+<s sid="152"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>Let Gn be the group (with respect to composition) of polynomial permutations on Zpn.</text></s>
+<s sid="153"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>The Sylow p-groups of Gn are in bijective correspondence with pairs (C,φ¯), where C is a cyclic subgroup of order p of Sp, φ:Zp→Zp∖{0} is a function and φ¯ its class with respect to the equivalence relation of multiplication by a non-zero constant.</text></s>
+<s sid="154"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>The subgroup corresponding to (C,φ¯) is S(C,φ¯)={[f]pn∈Gn|[f]p∈C,[f′]p(x)=φ([f]p(x))φ(x)}.</text></s>
+Example
+<s sid="155"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>A particularly easy to describe Sylow p-group of Gn is the one corresponding to (C,φ) where φ is a constant function and C the subgroup of Sp generated by (012…p-1).</text></s>
+<s sid="156"><CoreSc1 advantage="None" conceptID="Res84" novelty="None" type="Res"/><text>It is the inverse image of S defined in Lemma 4.1 and it consists of the functions on Zpn induced by polynomials f such that the formal derivative f′ induces the constant function 1 on Zp and the function induced by f itself on Zp is a power of (012…p-1).</text></s>
+<s sid="157"><CoreSc1 advantage="None" conceptID="Res85" novelty="None" type="Res"/><text>Combining Theorem 5.1 with Proposition 4.5 we obtain the following description of the intersection of all Sylow p-groups of Gn for odd p.</text></s>
+Corollary 5.3
+<s sid="158"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>Let p be an odd prime.</text></s>
+<s sid="159"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>(i) For n⩾2 the intersection of all Sylow p-groups of Gn is the kernel of the projection π:G→H.</text></s>
+<s sid="160"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>(ii) Likewise, the intersection of all Sylow p-groups of G is the kernel of the canonical epimorphism of G onto H.</text></s>
+<s sid="161"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>(iii) The intersection of all Sylow p-groups of Gn (n⩾2) can also be described as the normal subgroup N={[f]pn∈Gn|[f]p=ι, [f′]p=1}, where ι denotes the identity function on Zp.</text></s>
+<s sid="162"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>Its order is ppp∑k=3nβ(k) and its index in Gn (for n⩾2) is [Gn:N]=p!(p-1)p.</text></s>
+<s sid="163"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>(iv) Likewise, the index of the intersection of all Sylow p-subgroups of G in G is p!(p-1)p.</text></s>
+Proof
+<s sid="164"><CoreSc1 advantage="None" conceptID="Res86" novelty="None" type="Res"/><text>(i) and (ii) follow immediately from Theorem 5.1 and Proposition 4.5.</text></s>
+<s sid="165"><CoreSc1 advantage="None" conceptID="Res87" novelty="None" type="Res"/><text>To see (iii), let π be the projection from Gn to H (that is π=θπ2…πn-1).</text></s>
+<s sid="166"><CoreSc1 advantage="None" conceptID="Res88" novelty="None" type="Res"/><text>Then N is the inverse image of {(ι,1)}, the identity element of H, under π, and is therefore the intersection of the Sylow p-groups of Gn by (i).</text></s>
+<s sid="167"><CoreSc1 advantage="None" conceptID="Res89" novelty="None" type="Res"/><text>As the kernel of a group homomorphism, N is a normal subgroup.</text></s>
+<s sid="168"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>The order of N is the order of the kernel of π, which is the product of pp (the order of the kernel of θ) and pβ(k) (the order of the kernel of πk-1) for 3⩽k⩽n.</text></s>
+<s sid="169"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>Finally, the index of the kernel of the homomorphism of Gn or G onto H is the order of H which is p!(p-1)p. □</text></s>
+</BODY>
+<OTHER>
+Acknowledgments
+The authors wish to thank W. Herfort for stimulating discussions.
+
+</OTHER>
+</PAPER>

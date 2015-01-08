@@ -1,0 +1,281 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0960148113002735.tmf1" version="elsevier"/>
+<TITLE>Aerodynamic and electrical evaluation of a VAWT farm control system with passive rectifiers and mutual DC-bus
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Met1" novelty="None" type="Met"/><text>A wind farm with a simple electrical topology based on passive rectifiers and a single inverter (mutual topology) is compared to a more complex topology where each turbine has a separate inverter (separate topology).</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Met2" novelty="None" type="Met"/><text>In both cases, the turbines are controlled electrically by varying the extracted power with the rotational velocity as control signal.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Met3" novelty="None" type="Met"/><text>These two electrical topologies are evaluated with respect to the absorbed power for a farm of four turbines placed either on a line or in a square configuration.</text></s>
+<s sid="4"><CoreSc1 advantage="None" conceptID="Mod1" novelty="None" type="Mod"/><text>The evaluation is done with a vortex model for the aerodynamics, coupled with a model of the electromechanical system.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>Simulations predict that individual control is beneficial for aerodynamically independent turbines if the wind speeds differ significantly between the turbines.</text></s>
+<s sid="6"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>If the differences in wind speed are caused by one turbine operating in the wake of another, the deviations in power output between the topologies are less prominent.</text></s>
+<s sid="7"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>The mutual topology can even deliver more power than the separate topology when one turbine is in the wake of another turbine if the wind speed changes rapidly.</text></s>
+Highlights
+•
+<s sid="8"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>A VAWT farm is simulated with vortex model coupled with electric model.</text></s>
+•
+<s sid="9"><CoreSc1 advantage="None" conceptID="Bac5" novelty="None" type="Bac"/><text>An electric system with passive rectifiers and a mutual DC-bus has been evaluated.</text></s>
+•
+<s sid="10"><CoreSc1 advantage="None" conceptID="Bac6" novelty="None" type="Bac"/><text>The proposed electric system is viable for a vertical axis wind turbine farm.</text></s>
+•
+<s sid="11"><CoreSc1 advantage="None" conceptID="Bac7" novelty="None" type="Bac"/><text>The aerodynamic interactions between the turbines is important for the evaluation.</text></s>
+•
+<s sid="12"><CoreSc1 advantage="None" conceptID="Bac8" novelty="None" type="Bac"/><text>The inter turbine distance is far more important than the electrical topology.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="13"><CoreSc1 advantage="None" conceptID="Bac9" novelty="None" type="Bac"/><text>Wind turbines are typically placed in farms where the turbines are in close proximity to each other.</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Mot1" novelty="None" type="Mot"/><text>This can have economical benefits due to synergy effects such as common grid connection and infrastructure.</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Mot2" novelty="None" type="Mot"/><text>The most common type of wind turbine is the horizontal axis turbine with active pitch control [1].</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Bac10" novelty="None" type="Bac"/><text>This work is devoted to the straight bladed vertical axis turbine without pitch control, whereby the rotational velocity is the only parameter left for control of the turbine.</text></s>
+<s sid="17"><CoreSc1 advantage="None" conceptID="Bac11" novelty="None" type="Bac"/><text>A comparison between the different design concepts is found in Ref.</text></s>
+[2].
+<s sid="18"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>Pitch regulation for vertical axis turbines has previously been studied, see e.g.</text></s>
+Refs.
+[3-5].
+<s sid="19"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>However, pitch is not considered here since it increases turbine complexity.</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>The number of constructed wind farms with straight bladed vertical axis turbines is quite limited, hence limiting the amount of empirical results.</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>Simulations of vertical axis turbine farms have indicated that such turbines can be placed relatively close to each other with good performance for quite a wide range of incoming wind directions [6-8].</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>The interaction between two turbines has been tested experimentally in a towing tank [9].</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Bac12" novelty="None" type="Bac"/><text>These simulations and experiments are limited to turbines at constant rotational velocity, while for a control system study, variations in wind speeds and rotational velocities for the different turbines are of interest.</text></s>
+In Ref.
+<s sid="24"><CoreSc1 advantage="None" conceptID="Bac13" novelty="None" type="Bac"/><text>[10], a control strategy where the extracted power is proportional to the cube of the wind speed was applied to a horizontal axis turbine.</text></s>
+The simulations in Ref.
+<s sid="25"><CoreSc1 advantage="None" conceptID="Bac14" novelty="None" type="Bac"/><text>[11] predict that a similar strategy should work for vertical axis turbines as well and this work is an extension of that work to turbine farms.</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Bac15" novelty="None" type="Bac"/><text>Although a rectifier and an inverter for each turbine can be used, a less complex approach is to connect several turbines to the same inverter.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>This electrical system has been studied in Refs.</text></s>
+<s sid="28"><CoreSc1 advantage="None" conceptID="Obj3" novelty="None" type="Obj"/><text>[12-14] and several different electrical topologies have also been studied in Refs.</text></s>
+[15-17].
+<s sid="29"><CoreSc1 advantage="None" conceptID="Obj4" novelty="None" type="Obj"/><text>All these studies focus on the electrical system of the farm, while the aerodynamic modelling is limited to prescribed power coefficients of the turbines.</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Obj5" novelty="None" type="Obj"/><text>Further, all these studies only consider horizontal axis turbines.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Obj6" novelty="None" type="Obj"/><text>The present work considers vertical axis turbines and provides a more elaborate aerodynamic description.</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Obj7" novelty="None" type="Obj"/><text>Time dependent aerodynamic simulations of the turbines are coupled with simulations of the electrical control system.</text></s>
+<s sid="33"><CoreSc1 advantage="None" conceptID="Obj8" novelty="None" type="Obj"/><text>The method includes the fluctuations in torque, which are characteristic to straight bladed vertical axis turbines.</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Obj9" novelty="None" type="Obj"/><text>These torque fluctuations cause small variations in the rotational velocity of the turbines.</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Obj10" novelty="None" type="Obj"/><text>The method also includes the mutual aerodynamic interaction of the turbines, making it possible to study the control system behaviour when one turbine is in the wake of another.</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Exp1" novelty="None" type="Exp"/><text>The vertical axis wind turbine in this study is similar to the 200 kW turbine built by Vertical Wind AB [18], which has a turbine height of 24 m, diameter of 26 m and uses a permanent magnet (PM) synchronous generator.</text></s>
+Control strategy
+<s sid="37"><CoreSc1 advantage="None" conceptID="Mod2" novelty="None" type="Mod"/><text>The tip speed ratio of a turbine is defined as(1)λ=rωV∞,where r is the turbine radius, ω is the rotational velocity and V∞ is the asymptotic wind speed.</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>Maximal power absorption occurs at roughly the same tip speed ratio regardless of wind speed.</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Met4" novelty="None" type="Met"/><text>Consequently, many control strategies strive to maintain the correct tip speed ratio by adjusting the rotational velocity.</text></s>
+<s sid="40"><CoreSc1 advantage="None" conceptID="Met5" novelty="None" type="Met"/><text>Accurate real time wind speed measurements can be used to determine the proper rotational velocity.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>A weakness of this approach is that this data is typically not available.</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>A method to control a single turbine without knowledge of the wind speed is presented in Ref.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>[10] and a brief overview is given here: For the given control strategy, there will be an equilibrium where the extracted power equals the turbine power (Pe=P), see Fig. 1.</text></s>
+<s sid="44"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>For maximum power capture, this equilibrium should occur at the tip speed ratio λmax that gives the highest power coefficient CPmax:(2)Pe=P=12CPmaxρAV∞3=12CPmaxρAr3ω3λmax3=k2ω3.</text></s>
+<s sid="45"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>As can be seen in Eq.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>(2), the extracted power increases as the cube of the rotational velocity as long as the tip speed ratio and the power coefficient are constant.</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>If the extracted power is higher than the turbine power, the rotational velocity decreases, while it increases if the extracted power is lower.</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>For low tip speed ratios, this control strategy may cause the turbine to stop, see Fig. 1.</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>In this work a more stable strategy is implemented:(3){Pe=0ω≤ω0,Pe=k1ω2(ω-ω0)ω0&lt;ω≤ω1,Pe=k2ω3ω1&lt;ω≤ω2,Pe=k3ω2(ω-ω2)+k2ω2ω2ω2&lt;ω,where(4)k1=ω1ω1-ω0k2due to continuity at ω=ω1.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>This latter strategy (Fig. 2) maintains a higher rotational velocity at low wind speeds, i.e. the turbine is prevented from stopping at the cost of a slightly lower power coefficient at low and steady wind speeds.</text></s>
+<s sid="51"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>The purpose of the ω2&lt;ω case is to decrease the tip speed ratio at high wind speeds in order to reduce power absorption and mechanical loads.</text></s>
+<s sid="52"><CoreSc1 advantage="None" conceptID="Exp2" novelty="None" type="Exp"/><text>The control system is optimised for 6 m/s wind speed.</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Exp3" novelty="None" type="Exp"/><text>The control system starts to extract power for a tip speed ratio of 4 at 3 m/s wind speed, uses the cubical behaviour between wind speeds 4.5 m/s and 9 m/s, and starts to decrease tip speed ratio above.</text></s>
+For simplicity, k1=k3.
+<s sid="54"><CoreSc1 advantage="None" conceptID="Met6" novelty="None" type="Met"/><text>These are the same control system parameters as in Ref. [11].</text></s>
+Farm control system
+<s sid="55"><CoreSc1 advantage="None" conceptID="Met7" novelty="None" type="Met"/><text>The most direct approach to farm control is to control each turbine separately as described in Section 2.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Met8" novelty="None" type="Met"/><text>This is referred to as the separate topology.</text></s>
+<s sid="57"><CoreSc1 advantage="None" conceptID="Met9" novelty="None" type="Met"/><text>Individual control of a permanent magnet (PM) generator can be implemented with one rectifier and inverter for each turbine.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Met10" novelty="None" type="Met"/><text>Alternatively individual turbine control can be achieved with active rectifiers and/or DC-DC converters, which allow the entire farm to share the grid side inverter.</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Exp4" novelty="None" type="Exp"/><text>For the separate topology, all turbines are operated according to Eq. (3).</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Exp5" novelty="None" type="Exp"/><text>The complexity of the electrical system is reduced if all generators are connected to a mutual DC-bus through passive rectifiers.</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>This is referred to as the mutual topology, see Fig. 3.</text></s>
+<s sid="62"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>The separate and mutual topologies are identical if the &quot;farm&quot; consists of a single turbine.</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>The only active component in the mutual topology is the grid side inverter, thereby limiting the control parameters to the total extracted power from the farm.</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>An outline of the system benefits of the mutual topology is found in Ref.</text></s>
+[19].
+<s sid="65"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>This topology tends to set an upper limit for the turbine rotational velocities, where the limit is proportional to the DC-bus voltage.</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>This prevents all turbines from operating at optimal tip speed ratio if wind speed variations exist between the turbines.</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>The total power extracted from the turbines is chosen as(5)Pe,tot=∑i=1NPe(ωi),where Pe(ωi) is given in Eq.</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>(3), N is the number of turbines in the farm and ωi is the rotational velocity of turbine i.</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>With this choice, both topologies yield identical behaviour if all turbines experience equal wind speed.</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>For different wind speeds, the average rotational velocity is higher for the mutual topology, compared to the separate topology, due to the cubic behaviour of the extracted power.</text></s>
+<s sid="71"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>This causes the turbines that experience high wind speeds to have tip speed ratios closer to the optimal values than the turbines that experience low wind speeds.</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>This is beneficial, as it is the turbines experiencing the higher wind speeds that deliver most of the power.</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>Optimising each turbine individually works well if all turbines are aerodynamically independent.</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>For an aerodynamically coupled problem, the characteristics of the control strategy will change.</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>If the reason for the lower wind speed of one turbine is that it is in the wake of another, decreasing the rotational velocity of the upstream turbine will decrease its power absorption (if it was running at optimal rotational velocity before), but will at the same time leave more energy for the turbine downstream.</text></s>
+<s sid="76"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>More information regarding the flow in a horizontal axis wind turbine farm can be found in Refs.</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>[20,21] and farm control systems are presented in e.g.</text></s>
+Refs. [22,23].
+The vortex method
+<s sid="78"><CoreSc1 advantage="None" conceptID="Mod3" novelty="None" type="Mod"/><text>The aerodynamic simulations are performed with the same two-dimensional vortex method as described in Ref.</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Mod4" novelty="None" type="Mod"/><text>[11], and only the basic working principles are described here.</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Mod5" novelty="None" type="Mod"/><text>The vortex model is used to calculate the velocity field, while an empirical model is used to determine lift and drag coefficients.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Mod6" novelty="None" type="Mod"/><text>This choice was made to substantially increase the speed of the code, as solving the boundary layer with the vortex method is computationally demanding.</text></s>
+<s sid="82"><CoreSc1 advantage="None" conceptID="Mod7" novelty="None" type="Mod"/><text>The empirical force coefficients are calculated from the data in Ref.</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Mod8" novelty="None" type="Mod"/><text>[24] combined with the dynamic stall model developed by Gormont [25] and later improved by Massé [26] using the parameters suggested by Berg [27].</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Mod9" novelty="None" type="Mod"/><text>The code uses a panel to calculate the angle of attack from the velocity [28].</text></s>
+<s sid="85"><CoreSc1 advantage="None" conceptID="Mod10" novelty="None" type="Mod"/><text>This angle of attack, combined with the Reynolds number, is used by the empirical force model to obtain the force coefficients.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Mod11" novelty="None" type="Mod"/><text>The lift coefficient is later used to calculate the circulation according to the Kutta Joukowski lift formula (as suggested in Ref.</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Mod12" novelty="None" type="Mod"/><text>[29]) and the vortex released from a blade is obtained as the change in circulation for the blade.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Mod13" novelty="None" type="Mod"/><text>Tip vortex corrections are applied using finite wing theory.</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Mod14" novelty="None" type="Mod"/><text>By combining the empirical model with the vortex model, only one vortex is released from each blade at each time step, which enables fast simulations.</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>To further increase the computational speed, vortices far away from the turbines are merged to reduce the total number of vortices.</text></s>
+Electrical system
+<s sid="91"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>This paper considers a simple and robust turbine design described in Ref.</text></s>
+[30].
+<s sid="92"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>Each turbine is connected to a direct driven cable wound PM generator.</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>PM generators are rugged and have low losses since no power or additional components are required to magnetise the rotor.</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>The current of each generator is rectified with a passive diode rectifier.</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>Passive diode rectifiers are reliable since no control system is required and the switching frequency is low.</text></s>
+<s sid="96"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>The rectified current charges a capacitance which, in turn, supplies power to an AC grid via an inverter.</text></s>
+<s sid="97"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>A drawback of the mutual topology is that the turbines are not controlled individually.</text></s>
+<s sid="98"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>The electromotive force of a permanent magnet synchronous machine is proportional to the angular velocity of the rotor.</text></s>
+<s sid="99"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>A generator with a diode rectifier does not deliver current to the DC-bus if the greatest line to line voltage of the generator is smaller than the DC-bus voltage.</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>Therefore, no power will be provided by a generator that operates below a threshold speed that is proportional to the DC-bus voltage.</text></s>
+<s sid="101"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>With the mutual topology, all generators are connected to the same DC-bus and start delivering power at the same rotational speed.</text></s>
+<s sid="102"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>The separate topology does not have this limitation since each turbine has a separate DC-bus.</text></s>
+<s sid="103"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>Grid losses and the efficiency of active power electronic devices are outside the scope of this paper.</text></s>
+<s sid="104"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>Instead only internal losses of the diode rectifiers and the generators are considered.</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>The individual control is implemented with one rectifier and inverter for each turbine.</text></s>
+Separate and mutual topology
+<s sid="106"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>In both the mutual and separate topology, the DC-bus voltage of bus n changes according to(6)dUDC,ndt=-IL,n-∑i∈xnIr,iCn,where Ir,i is the rectified current from generator i, xn is the set of turbines connected to DC-bus n, Cn is the bus capacitance and IL,n is the current drawn by the inverter.</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>Here, the bus capacitance per generator is equal for both topologies.</text></s>
+<s sid="108"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>The expression for the total extracted power from the farm is the same for both topologies,(7)Pfarm=∑n(Pe(ωn)-Ploss,n),where Ploss,n compensates for internal power losses.</text></s>
+Eq.
+<s sid="109"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>(7) is satisfied on a per turbine basis with load currents of(8)IL,i=Pgen,iUDC,iwith the separate topology.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>With the mutual topology, Eq.</text></s>
+<s sid="111"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>(7) is satisfied by drawing the total load current(9)IL,1=PfarmUDC,1.</text></s>
+<s sid="112"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>Further details on the implementation of the electrical system model, including parameter values, are found in Ref. [11].</text></s>
+Losses
+<s sid="113"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>The electrical system has three principal loss mechanisms.</text></s>
+<s sid="114"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>The resistive loss in the armature of a generator is(10)Pr=R∑k=a,c,bIk2,where R is the per phase resistance and Ik are the phase currents.</text></s>
+<s sid="115"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>The rectified current from the generator is(11)Ir=12∑k=a,b,c|Ik|.</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>The rectified current is roughly proportional to the generator torque.</text></s>
+<s sid="117"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>The loss due to the forward voltage drop of the diode rectifier is(12)PD=2IrUD.</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>The power loss in the stator core due to hysteresis and eddy currents in the stator sheets is(13)Pc=khω+keω3/2+kcω2,where kh, ke and kc are constants related to hysteresis loss, excess loss and classical eddy current loss respectively [31].</text></s>
+<s sid="119"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>Bearing friction and rotor windage are both neglected since they are typically small compared to the core loss in slowly moving machines.</text></s>
+Simulations
+<s sid="120"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>The first part of the simulations evaluate the differences between the two topologies for approximately static wind conditions and aerodynamically independent turbines, where different asymptotic wind speeds are set for different turbines.</text></s>
+<s sid="121"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>The second part studies aerodynamically coupled turbines in static wind fields.</text></s>
+<s sid="122"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>Several farm configurations are studied at various incident wind directions.</text></s>
+<s sid="123"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>In this part, all variations in wind speed between the turbines originate from aerodynamic interactions between the turbines.</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>The third part investigates the performance of the control systems for aerodynamically coupled turbines and rapid variations in wind speed.</text></s>
+<s sid="125"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>All simulation cases are performed with four turbines.</text></s>
+<s sid="126"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>This relatively small number of turbines was chosen to keep the simulation times reasonable.</text></s>
+Aerodynamically independent turbines
+<s sid="127"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>The first simulations concern turbines without mutual aerodynamic interaction.</text></s>
+<s sid="128"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>This corresponds to turbines which are spaced very far apart.</text></s>
+<s sid="129"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>In the simulations, the asymptotic wind speeds are slowly changed according to Fig. 4.</text></s>
+<s sid="130"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>All turbines are allowed a settling time of approximately 100 revolutions before the wind speed variations are initiated.</text></s>
+<s sid="131"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>The wind speed variations are performed during a time interval that is 10 times longer than the settling time.</text></s>
+<s sid="132"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>Fig. 5 shows that the rotational velocities with the mutual topology are within a narrower span than the velocities under the separate topology.</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>The significant change in behaviour for the mutual topology at time 1800 s occurs when the turbine that experiences the lowest wind speed (turbine 4) stops delivering power and all turbine power is used to overcome the generator core loss.</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>The mutual topology is unable to extract power from turbine 4 since the higher rotational velocity causes both a reduced CP (57% of the separate topology at 1800 s) and an increased core loss.</text></s>
+<s sid="135"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>The separate topology is able to extract power from turbine 4 until 2700 s due to the lower rotational velocity.</text></s>
+<s sid="136"><CoreSc1 advantage="None" conceptID="Res61" novelty="None" type="Res"/><text>At the time when the mutual topology stops extracting power from turbine 4, the rest of the turbines increase their rotational velocities faster, as the increases in delivered power from turbines 1 and 2 no longer are compensated for by a decrease in power from turbine 4, see Eq.</text></s>
+(5).
+<s sid="137"><CoreSc1 advantage="None" conceptID="Res62" novelty="None" type="Res"/><text>This is most beneficial for turbine 1, which obtains a better tip speed ratio and hence increases its efficiency.</text></s>
+<s sid="138"><CoreSc1 advantage="None" conceptID="Res63" novelty="None" type="Res"/><text>This is seen in Fig. 6, where the ratios between the mutual topology and the separate topology are displayed for each turbine.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Res64" novelty="None" type="Res"/><text>At the same point, turbine 3 starts to decrease its power coefficient at a higher rate, as the tip speed ratio for this turbine instead becomes less beneficial.</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Res65" novelty="None" type="Res"/><text>Even though the reduced turbine power absorption for the mutual topology appears significant for both turbines 3 and 4 (see Fig. 6), those two turbines are the ones that deliver the least energy.</text></s>
+<s sid="141"><CoreSc1 advantage="None" conceptID="Res66" novelty="None" type="Res"/><text>A small increase in efficiency for turbine 1 can easily compensate for lower efficiency of turbines 3 and 4, see Fig. 7.</text></s>
+<s sid="142"><CoreSc1 advantage="None" conceptID="Res67" novelty="None" type="Res"/><text>At the worst case at time 1800 s, the delivered power for the mutual topology is slightly below 93% of the delivered power for the separate topology.</text></s>
+<s sid="143"><CoreSc1 advantage="None" conceptID="Res68" novelty="None" type="Res"/><text>This corresponds to a speed difference of around 5.4 m/s between the highest and the lowest wind speeds.</text></s>
+<s sid="144"><CoreSc1 advantage="None" conceptID="Res69" novelty="None" type="Res"/><text>The different losses in the electrical system with different topologies can be seen by comparing the turbine power and the delivered power in Fig. 7.</text></s>
+<s sid="145"><CoreSc1 advantage="None" conceptID="Res70" novelty="None" type="Res"/><text>The higher average rotational speed with the mutual topology increases the core loss, which dominates the total losses for this system at the studied wind speeds, see Fig. 8.</text></s>
+<s sid="146"><CoreSc1 advantage="None" conceptID="Res71" novelty="None" type="Res"/><text>The resistive losses with the mutual topology are slightly higher than for the separate topology.</text></s>
+<s sid="147"><CoreSc1 advantage="None" conceptID="Res72" novelty="None" type="Res"/><text>This originates from turbine 1 which rotates at a lower speed than the corresponding turbine with the separate topology, see Eqs. (8)-(10).</text></s>
+<s sid="148"><CoreSc1 advantage="None" conceptID="Res73" novelty="None" type="Res"/><text>In the case with significant differences in wind speed between different turbines, it is investigated if the total power for the mutual topology can be increased through modification of the extracted power according to(14)Pe,k=k∑i=1NPe(ωi).</text></s>
+<s sid="149"><CoreSc1 advantage="None" conceptID="Res74" novelty="None" type="Res"/><text>At the time with the largest differences, i.e. at 1800 s, the overall power is increased by less than one percent with k in the range 0.8-0.9, which would cause a slight increase in rotational velocity.</text></s>
+<s sid="150"><CoreSc1 advantage="None" conceptID="Res75" novelty="None" type="Res"/><text>The small increase indicates that Eq.</text></s>
+<s sid="151"><CoreSc1 advantage="None" conceptID="Res76" novelty="None" type="Res"/><text>(5) is a reasonable choice also in the case of large wind speed differences between turbines.</text></s>
+Turbine farm
+<s sid="152"><CoreSc1 advantage="None" conceptID="Res77" novelty="None" type="Res"/><text>Two different farm configurations with 4 turbines each are tested, one where all turbines are located on a line, which according to Refs.</text></s>
+<s sid="153"><CoreSc1 advantage="None" conceptID="Res78" novelty="None" type="Res"/><text>[7,8] should be a good layout if the wind mainly comes from one direction.</text></s>
+<s sid="154"><CoreSc1 advantage="None" conceptID="Res79" novelty="None" type="Res"/><text>The second configuration is a square configuration, which better illustrates the behaviour of the control systems when turbines operate in the wakes of others.</text></s>
+<s sid="155"><CoreSc1 advantage="None" conceptID="Res80" novelty="None" type="Res"/><text>Both configurations are simulated with turbine spacings of 3 and 6 turbine diameters (see Fig. 9).</text></s>
+<s sid="156"><CoreSc1 advantage="None" conceptID="Res81" novelty="None" type="Res"/><text>The simulations are performed as several separate simulations with different incoming wind directions, all with wind speed 7 m/s.</text></s>
+<s sid="157"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>The extracted power is given in Fig. 10 for the line configuration and in Fig. 11 for the square configuration.</text></s>
+<s sid="158"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>The line configuration performs well for a wide range of incident wind angles.</text></s>
+<s sid="159"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>With 3D turbine spacing, the extracted power starts to decrease significantly for an incident angle of 70°, while the 6D spacing performs well up to 80°.</text></s>
+<s sid="160"><CoreSc1 advantage="None" conceptID="Res82" novelty="None" type="Res"/><text>With higher angles of incident wind, the performance of the downwind turbines is reduced, since they are inside the wake of the upwind turbines.</text></s>
+<s sid="161"><CoreSc1 advantage="None" conceptID="Res83" novelty="None" type="Res"/><text>The square configuration does in general show lower performance than the line configuration, except for incident angles close to 90°, as only two turbines in the square configuration are located downwind here.</text></s>
+<s sid="162"><CoreSc1 advantage="None" conceptID="Res84" novelty="None" type="Res"/><text>The small asymmetry around 45° for the square configuration is explained by the small asymmetry in the turbines themselves, as the rotational direction of the turbine slightly affects the wake behind it.</text></s>
+<s sid="163"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>The square configuration is more sensitive to the turbine spacing as a wider range of incidence angles causes a performance loss, compare Figs.</text></s>
+10 and 11.
+<s sid="164"><CoreSc1 advantage="None" conceptID="Con15" novelty="None" type="Con"/><text>It is therefore advisable to have a larger turbine spacing for the square configuration than for the line configuration.</text></s>
+<s sid="165"><CoreSc1 advantage="None" conceptID="Res85" novelty="None" type="Res"/><text>The differences between the mutual and the separate topologies are generally very small.</text></s>
+<s sid="166"><CoreSc1 advantage="None" conceptID="Res86" novelty="None" type="Res"/><text>For the line configuration at low incident wind angles, both topologies can be expected to work well, as the mutual interactions between the turbines are small.</text></s>
+<s sid="167"><CoreSc1 advantage="None" conceptID="Res87" novelty="None" type="Res"/><text>The trends do however continue over the entire interval of angles of incidence.</text></s>
+<s sid="168"><CoreSc1 advantage="None" conceptID="Res88" novelty="None" type="Res"/><text>When a turbine operates in the wake of another, the mutual topology causes the upstream turbine to extract less energy due to the lower rotational velocity.</text></s>
+<s sid="169"><CoreSc1 advantage="None" conceptID="Res89" novelty="None" type="Res"/><text>This leaves more energy for the downstream turbine which gives more even energy absorption than with the separate topology.</text></s>
+<s sid="170"><CoreSc1 advantage="None" conceptID="Res90" novelty="None" type="Res"/><text>Therefore, the topology is not as important if the differences in wind speed are caused by mutual turbine interaction, compared to the independent turbines in Section 6.1.</text></s>
+<s sid="171"><CoreSc1 advantage="None" conceptID="Res91" novelty="None" type="Res"/><text>The most significant difference is the 45° wind angle for the square configuration.</text></s>
+<s sid="172"><CoreSc1 advantage="None" conceptID="Res92" novelty="None" type="Res"/><text>Here, two of the turbines are operating without any turbine behind them and should therefore operate at the tip speed ratio of independent turbines.</text></s>
+<s sid="173"><CoreSc1 advantage="None" conceptID="Res93" novelty="None" type="Res"/><text>For the other two turbines (middle turbines), one is in the wake of the other and it should therefore be a viable strategy to reduce the extraction for the first turbine for a higher power extraction on the second turbine.</text></s>
+<s sid="174"><CoreSc1 advantage="None" conceptID="Res94" novelty="None" type="Res"/><text>The main issue here is that the two relatively independent turbines cause the mutual rotational velocity to increase, hence over-rotating the two middle turbines, thereby decreasing their efficiency.</text></s>
+<s sid="175"><CoreSc1 advantage="None" conceptID="Res95" novelty="None" type="Res"/><text>Further, the rotational velocities of the two independent turbines are too low as the two middle turbines absorb less energy than the two independent turbines.</text></s>
+<s sid="176"><CoreSc1 advantage="None" conceptID="Res96" novelty="None" type="Res"/><text>This causes the independent turbines to operate at a too low tip speed ratio, hence reducing their performance.</text></s>
+<s sid="177"><CoreSc1 advantage="None" conceptID="Res97" novelty="None" type="Res"/><text>The conclusion is that if all turbines are coupled to each other (or coupled in even pairs as for the square configuration at 0° and 90°), the difference in extracted power is very small between the topologies.</text></s>
+<s sid="178"><CoreSc1 advantage="None" conceptID="Con16" novelty="None" type="Con"/><text>However, if some turbines are coupled together while others are approximately independent, more energy will be absorbed with the separate topology.</text></s>
+Dynamic simulations
+<s sid="179"><CoreSc1 advantage="None" conceptID="Con17" novelty="None" type="Con"/><text>The final simulations are performed with varying wind velocities for different turbines in the same simulation.</text></s>
+<s sid="180"><CoreSc1 advantage="None" conceptID="Con18" novelty="None" type="Con"/><text>To create a varying velocity field within the given model, several additional vortices are inserted from the start of the simulation.</text></s>
+<s sid="181"><CoreSc1 advantage="None" conceptID="Con19" novelty="None" type="Con"/><text>The additional vortices are given byxi=-R(150.5+i),i=0,1,2,…,599,yi=-2Rsin(π10xi),Γi=180sin(0.03πxi),where (xi,yi) are the vortex positions and Γi are the vortex strengths.</text></s>
+<s sid="182"><CoreSc1 advantage="None" conceptID="Con20" novelty="None" type="Con"/><text>The particular values for these positions and strengths are chosen to get quite large fluctuations in the wind speed, while still originating from a simple expression.</text></s>
+<s sid="183"><CoreSc1 advantage="None" conceptID="Res98" novelty="None" type="Res"/><text>The vortices will in time form a pattern similar to a Karman street.</text></s>
+<s sid="184"><CoreSc1 advantage="None" conceptID="Res99" novelty="None" type="Res"/><text>The wind speeds at the turbine positions in the square configuration with 3 turbine diameters are found in Fig. 12.</text></s>
+<s sid="185"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>The shape is similar for the line configuration, although not identical as the turbine positions are different.</text></s>
+<s sid="186"><CoreSc1 advantage="None" conceptID="Obs11" novelty="None" type="Obs"/><text>The wind speeds in Fig. 12 are obtained from the case with the separate topology by calculating the velocity contribution from only these additional vortices at the center position of each turbine.</text></s>
+<s sid="187"><CoreSc1 advantage="None" conceptID="Obs12" novelty="None" type="Obs"/><text>The extracted powers as functions of time are presented in Fig. 13 for the line configuration and in Fig. 14 for the square configuration.</text></s>
+<s sid="188"><CoreSc1 advantage="None" conceptID="Res100" novelty="None" type="Res"/><text>In both cases, a low-pass filter has been applied to remove the effects of the power fluctuations during the revolution due to the torque ripple.</text></s>
+<s sid="189"><CoreSc1 advantage="None" conceptID="Res101" novelty="None" type="Res"/><text>The sinusoidal behaviour of the power can be related to the Karman-street behaviour of the velocity field.</text></s>
+<s sid="190"><CoreSc1 advantage="None" conceptID="Res102" novelty="None" type="Res"/><text>In total, the line configuration with the separate topology extracts 1.7% more energy than the mutual topology in the time interval from 200 s to 1400 s.</text></s>
+<s sid="191"><CoreSc1 advantage="None" conceptID="Res103" novelty="None" type="Res"/><text>For the square configuration, the mutual topology extracts 6.2% more energy in the same time interval.</text></s>
+<s sid="192"><CoreSc1 advantage="None" conceptID="Res104" novelty="None" type="Res"/><text>The mutual topology tends to keep all turbines at more similar rotational velocities than the separate topology.</text></s>
+<s sid="193"><CoreSc1 advantage="None" conceptID="Res105" novelty="None" type="Res"/><text>For the line configuration, where the turbines are nearly independent, this is disadvantageous as it does not allow each turbine to fully adapt to the changes in wind speed.</text></s>
+<s sid="194"><CoreSc1 advantage="None" conceptID="Res106" novelty="None" type="Res"/><text>It was seen in Section 6.1 that for large variations in wind speed between the turbines, the separate topology should perform better, which is seen here.</text></s>
+Ref.
+<s sid="195"><CoreSc1 advantage="None" conceptID="Res107" novelty="None" type="Res"/><text>[11] predicts that for rapid wind speed changes, it can be advantageous to keep the rotational velocity high to extract power at a high power coefficient for high wind speeds if the wind speed fluctuations are faster that the turbine response time.</text></s>
+<s sid="196"><CoreSc1 advantage="None" conceptID="Res108" novelty="None" type="Res"/><text>This is a possible explanation of the relatively good performance of the mutual topology.</text></s>
+<s sid="197"><CoreSc1 advantage="None" conceptID="Res109" novelty="None" type="Res"/><text>For the square configuration, the mutual topology performed better than the separate topology.</text></s>
+<s sid="198"><CoreSc1 advantage="None" conceptID="Res110" novelty="None" type="Res"/><text>One observed issue with the separate topology is that the turbines in front easily get high rotational velocities for the peak wind speeds.</text></s>
+<s sid="199"><CoreSc1 advantage="None" conceptID="Res111" novelty="None" type="Res"/><text>It is shown in Ref.</text></s>
+<s sid="200"><CoreSc1 advantage="None" conceptID="Res112" novelty="None" type="Res"/><text>[11] that for rapid increases in wind speed, the turbine temporarily obtains a higher rotational velocity and power before the wake has formed.</text></s>
+<s sid="201"><CoreSc1 advantage="None" conceptID="Res113" novelty="None" type="Res"/><text>For rapid decreases in wind speed, the existing wake causes an additional drop in wind speed.</text></s>
+<s sid="202"><CoreSc1 advantage="None" conceptID="Res114" novelty="None" type="Res"/><text>Hence the rotational velocity and the extracted power drop below the steady state value before the wake has drifted away.</text></s>
+<s sid="203"><CoreSc1 advantage="None" conceptID="Con21" novelty="None" type="Con"/><text>For the square configuration, a rapid increase in wind speed causes the front turbine to obtain a high rotational velocity, which generates a large wake behind the turbine.</text></s>
+<s sid="204"><CoreSc1 advantage="None" conceptID="Con22" novelty="None" type="Con"/><text>This large wake will drift into the downwind turbine, hence reducing the rotational velocity of the second turbine.</text></s>
+<s sid="205"><CoreSc1 advantage="None" conceptID="Res115" novelty="None" type="Res"/><text>This effect is seen in Fig. 15 at 1050 and 1170 s, where an increase in rotational velocity for turbines 1 and 3 in the separate case is followed by a rapid decrease in rotational velocity for turbine 3.</text></s>
+<s sid="206"><CoreSc1 advantage="None" conceptID="Con23" novelty="None" type="Con"/><text>The mutual topology does not suffer from this issue, as it prevents the turbines in the front from obtaining too high rotational velocities, while keeping the rotational velocity of the turbines in the back higher.</text></s>
+<s sid="207"><CoreSc1 advantage="None" conceptID="Con24" novelty="None" type="Con"/><text>As the additional vortices are inserted at the initialization of the simulation and drift with the flow velocity, the wakes of the turbines will affect the motion of these vortices.</text></s>
+<s sid="208"><CoreSc1 advantage="None" conceptID="Res116" novelty="None" type="Res"/><text>The wind speeds in Fig. 12 are therefore not identical to the wind speeds for the mutual topology, and some of the differences seen in Figs.</text></s>
+<s sid="209"><CoreSc1 advantage="None" conceptID="Res117" novelty="None" type="Res"/><text>13-15, such as the low rotational velocity for the separate topology at time 1130 s, can be explained by these differences in wind speed.</text></s>
+Discussion
+<s sid="210"><CoreSc1 advantage="None" conceptID="Con25" novelty="None" type="Con"/><text>The aim in this work is not to find the strategy that maximises power production, as this would be an extensive task and likely very turbine specific, hence requiring a much more advanced aerodynamic model.</text></s>
+<s sid="211"><CoreSc1 advantage="None" conceptID="Con26" novelty="None" type="Con"/><text>The aim is instead to show that a simple topology, such as the mutual DC-bus, can be a viable solution for the control of a vertical axis turbine farm as it can obtain relatively good performance without the need for wind speed measurements and additional electrical components.</text></s>
+<s sid="212"><CoreSc1 advantage="None" conceptID="Con27" novelty="None" type="Con"/><text>The control system used with the separate topology works well for independent turbines, but it is not optimised for turbine farms.</text></s>
+<s sid="213"><CoreSc1 advantage="None" conceptID="Con28" novelty="None" type="Con"/><text>The dynamic simulation case, where the mutual topology performed better than the separate topology only shows that it worked better than this particular implementation of individually controlled turbines.</text></s>
+<s sid="214"><CoreSc1 advantage="None" conceptID="Con29" novelty="None" type="Con"/><text>As individual turbine control has more parameters to control, maximum obtainable aerodynamic performance should at least be as high as the mutual topology, as individual control could copy the rotational velocities from the mutual topology.</text></s>
+<s sid="215"><CoreSc1 advantage="None" conceptID="Con30" novelty="None" type="Con"/><text>Active rectification both allows for individual turbine control and a mutual DC-bus [15].</text></s>
+<s sid="216"><CoreSc1 advantage="None" conceptID="Con31" novelty="None" type="Con"/><text>Active rectification should also decrease the power loss in the generator winding, since currents can be drawn at unity power factor, although the possible increase of the generator efficiency with active rectification is only 0.1-0.5% in a similar case with the same turbine and generator [11].</text></s>
+<s sid="217"><CoreSc1 advantage="None" conceptID="Con32" novelty="None" type="Con"/><text>However, active rectifiers are more complex and have higher internal losses than passive diode rectifiers.</text></s>
+<s sid="218"><CoreSc1 advantage="None" conceptID="Con33" novelty="None" type="Con"/><text>The aerodynamic model is two-dimensional and some issues regarding the two-dimensional approximation have been discussed in Ref.</text></s>
+<s sid="219"><CoreSc1 advantage="None" conceptID="Con34" novelty="None" type="Con"/><text>[11], such as over-estimation of power coefficients due to neglected aerodynamic losses etc.</text></s>
+<s sid="220"><CoreSc1 advantage="None" conceptID="Con35" novelty="None" type="Con"/><text>For the wind farm case, the two-dimensional approximation may be less accurate, as the distance between the turbines generally is larger than the turbine height.</text></s>
+<s sid="221"><CoreSc1 advantage="None" conceptID="Con36" novelty="None" type="Con"/><text>Further, the two-dimensional approximation should overestimate the mutual interaction as no flow expansion occurs in the vertical direction.</text></s>
+<s sid="222"><CoreSc1 advantage="None" conceptID="Con37" novelty="None" type="Con"/><text>The model does not include dissipation of the wake due to turbulence, velocity gradients, viscosity etc.</text></s>
+<s sid="223"><CoreSc1 advantage="None" conceptID="Con38" novelty="None" type="Con"/><text>The extracted power from a turbine in another turbines wake is therefore not as accurate as a more realistic full three-dimensional model, especially when the distances between the turbines are large.</text></s>
+<s sid="224"><CoreSc1 advantage="None" conceptID="Con39" novelty="None" type="Con"/><text>The model has problems with the accuracy at low tip speed ratios due to the high angles of incidence as the Gormont model only handles light stall.</text></s>
+<s sid="225"><CoreSc1 advantage="None" conceptID="Con40" novelty="None" type="Con"/><text>This should not be a major concern at tip speed ratio 4, where most simulations are performed.</text></s>
+<s sid="226"><CoreSc1 advantage="None" conceptID="Con41" novelty="None" type="Con"/><text>This can however affect the simulations in some of the cases where all turbines are operated at similar rotational velocities, but with different wind speeds.</text></s>
+Conclusions
+<s sid="227"><CoreSc1 advantage="None" conceptID="Con42" novelty="None" type="Con"/><text>Simulations with aerodynamically independent turbines have indicated that a mutual DC-bus with passive rectification is a viable design choice unless the variations in wind speed are very large.</text></s>
+<s sid="228"><CoreSc1 advantage="None" conceptID="Con43" novelty="None" type="Con"/><text>If the wind speed differences among the turbines are due to the turbines' mutual interaction, the mutual and the separate topologies are almost equal in performance.</text></s>
+<s sid="229"><CoreSc1 advantage="None" conceptID="Con44" novelty="None" type="Con"/><text>This illustrates the importance of including the aerodynamic interaction between the turbines when the viability of a control system is analysed.</text></s>
+<s sid="230"><CoreSc1 advantage="None" conceptID="Con45" novelty="None" type="Con"/><text>It is furthermore shown that the array configuration and the distance between the turbines are far more important than the electrical topology for the energy capture.</text></s>
+<s sid="231"><CoreSc1 advantage="None" conceptID="Con46" novelty="None" type="Con"/><text>According to the dynamic simulations, the separate topology is only slightly more efficient for the line configuration, while the mutual topology obtained better results for the square configuration.</text></s>
+<s sid="232"><CoreSc1 advantage="None" conceptID="Con47" novelty="None" type="Con"/><text>Power loss in the cores of the generators is larger when the mutual topology is used.</text></s>
+</BODY>
+<OTHER>
+Acknowledgements
+This work was financially supported by the Swedish Energy Agency, Statkraft AS, Vinnova and Uppsala University within the Swedish Centre for Renewable Electric Energy Conversion.
+
+</OTHER>
+</PAPER>

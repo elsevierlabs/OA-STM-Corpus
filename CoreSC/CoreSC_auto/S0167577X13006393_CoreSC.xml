@@ -1,0 +1,174 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0167577X13006393.tmf1" version="elsevier"/>
+<TITLE>Fabrication of calcium phosphate fibres through electrospinning and sintering of hydroxyapatite nanoparticles
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>Calcium phosphate (CaP) materials such as synthetic hydroxyapatite (HA, Ca10(PO4)6·(OH)2) and β-tricalcium phosphate (β-TCP, Ca3(PO4)2) are well-known for their potential in bone tissue engineering and drug delivery applications.</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>Processing such materials into submicrofibres might contribute to improve their biocompatibility.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>This paper presents a new method for creating CaP submicrofibres through the electrospinning route.</text></s>
+<s sid="4"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>A thermal treatment at sintering temperature (1100°C) was applied to electrospun polymer fibres filled with hydroxyapatite nanoparticles to cause aggregation of the nanoparticles and vaporise the polymer matrix.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>The images taken by electron microscopy revealed that the treated samples maintained their submicrofibrous morphology.</text></s>
+<s sid="6"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>Moreover, Fourier transform infrared spectroscopy, X-ray diffraction and X-ray photoelectron spectroscopy analysis confirmed that the resulting fibres are made of hydroxypatite and tricalcium phosphates.</text></s>
+Highlights
+•
+<s sid="7"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>CaP submicrofibres can be produced by using a combination of electrospinning and sintering.</text></s>
+•
+<s sid="8"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>Electrospun fibres were produced from a PLGA solution highly concentrated with HA nanoparticles.</text></s>
+•
+<s sid="9"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>Heat treatments were applied to evaporate the polymer and induce sintering of the nanoparticles.</text></s>
+•
+<s sid="10"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>Hydroxypatite was identified to be the main material in the sintered scaffold.</text></s>
+•
+<s sid="11"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>Approach potentially applicable to make submicrofibres from a variety of ceramic material.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="12"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>Calcium phosphate (CaP) materials are known to support bone ingrowth and to promote bone integration [1].</text></s>
+<s sid="13"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>They are also non-toxic, biodegradable and can easily adsorb bioactive molecules at their surface.</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>These characteristics make them useful for both tissue engineering (TE) and drug delivery applications [2,3].</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Bac5" novelty="None" type="Bac"/><text>Among CaP materials, synthetic hydroxyapatite (HA, Ca10PO46·(OH)2) and β-tricalcium phosphate (β-TCP, Ca3(PO4)2) are most widely used.</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Bac6" novelty="None" type="Bac"/><text>HA is the main form of calcium-phosphate crystal found in human bone.</text></s>
+<s sid="17"><CoreSc1 advantage="None" conceptID="Bac7" novelty="None" type="Bac"/><text>Usually, the degradability of CaP materials varies according to the Ca/P ratio, with β-TCP being more soluble than HA [4].</text></s>
+<s sid="18"><CoreSc1 advantage="None" conceptID="Mot1" novelty="None" type="Mot"/><text>Therefore, mixing CaP materials may help to control, to some extent, the degradation of the TE scaffold.</text></s>
+<s sid="19"><CoreSc1 advantage="None" conceptID="Mot2" novelty="None" type="Mot"/><text>In particular, HA/β-TCP ceramic scaffolds have been shown to be more effective in bone repair than pure HA or pure β-TCP [5].</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Mot3" novelty="None" type="Mot"/><text>CaP solid bodies have been used for many applications but they usually face the issue of being too brittle.</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Mot4" novelty="None" type="Mot"/><text>The poor mechanical properties of CaP ceramic materials have severely obstructed their clinical applications [6].</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Mot5" novelty="None" type="Mot"/><text>Fibres and other types of particle are generally more successful for filling bone defects and helping to repair the damaged tissue.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Mot6" novelty="None" type="Mot"/><text>Furthermore, they can be dispersed in polymer matrices for mechanical reinforcement purposes and for improved biocompatibility [7].</text></s>
+<s sid="24"><CoreSc1 advantage="None" conceptID="Bac8" novelty="None" type="Bac"/><text>CaP fibres have been produced through several routes including spinning, extrusion, precipitation, sol-gel and pyrolysis, and electrospinning [8-13].</text></s>
+<s sid="25"><CoreSc1 advantage="None" conceptID="Bac9" novelty="None" type="Bac"/><text>Electrospinning is a simple technology that allows the production of nano- and micro-fibres by applying a high voltage to a polymer solution.</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Bac10" novelty="None" type="Bac"/><text>It has been used to produce different types of ceramic fibres through the use of chemical precursors mixed to the polymer solution and by performing a thermal treatment on the resulting fibres [14,15].</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Bac11" novelty="None" type="Bac"/><text>However, the production of CaP fibres by electrospinning remains poorly investigated.</text></s>
+<s sid="28"><CoreSc1 advantage="None" conceptID="Met1" novelty="None" type="Met"/><text>Wu et al. have created HA microfibres by electrospinning a polymer mixture containing Ca(NO3)2·4H2O, (C2H5O)3PO (precursors) and by performing a thermal treatment on the collected fibres at 600°C for 1h [13].</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>The generation of HA nanofibres has been investigated by Kim and Kim [16].</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Bac12" novelty="None" type="Bac"/><text>They have based their strategy on the use of sol-gel precursors of the apatites and by adjusting the concentration of the sols, they could vary the diameter of the fibres in a range of a few micrometres to hundreds of nanometres.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Met2" novelty="None" type="Met"/><text>Calcination was performed at 700°C for 2h.</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Met3" novelty="None" type="Met"/><text>Also, Tadjiev et al. have used the same precursors as Wu and colleagues and heat treatments between 500 and 800°C to produce β-TCP ceramic nanofibres [17].</text></s>
+<s sid="33"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>Sintering of pure HA particles is usually reported to occur above 1000°C.</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>The choice of the sintering temperature is important as it has an effect on the properties of the resulting sample.</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>Most investigators agree that pure HA (ratio CaP=1.67) is stable in an air and argon atmosphere at temperatures upto 1200°C [18-20].</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>However, decomposition of HA at temperatures as low as 800°C has been observed for calcium deficient HA samples [19].</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>This paper investigates a new approach to obtain CaP submicrofibres through the electrospinning route.</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>In a previous research article [7], we have demonstrated that HA nanoparticles can be incorporated into Poly(lactic-co-glycolic acid) (PLGA) fibres at high concentration (upto 50% in weight to volume ratio within the polymer solution).</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>Here, we report that applying a heat treatment at sintering temperatures to such PLGA-HA composite fibres forces the aggregations of the nanoparticles and vaporises the polymer matrix, leading to the creation of CaP submicrofibres.</text></s>
+Materials and methods
+<s sid="40"><CoreSc1 advantage="None" conceptID="Exp1" novelty="None" type="Exp"/><text>Preparation of electrospinning solutions: Polymer solutions were prepared by dissolving Poly(lactic-co-glycolic acid) (PLGA, ratio 75:25, Mw: 66-107kDa, Sigma-Aldrich Chemical Company Ltd., Dorset, UK) into 1,1,1,3,3,3-hexafluoroisopropanol (HFIP, Apollo Scientific Limited, Cheshire, UK) at a concentration of 15% (weight to volume ratio).</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Exp2" novelty="None" type="Exp"/><text>Deficient hydroxyapatite synthetic nanoparticles with an average particle diameter of 93nm (HA nanopowder, Sigma-Aldrich) was then added to the polymer solution at concentrations of 50% (weight to volume ratio).</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Exp3" novelty="None" type="Exp"/><text>Solutions were agitated at room temperature on a roller for at least 24h to allow for complete dissolution of the polymers.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Exp4" novelty="None" type="Exp"/><text>Each solution was then homogenised on ice using a vibracell ultrasonicator (130W, 20kHz; Sonics Materials Inc., Newtown, USA) prior to electrospinning.</text></s>
+<s sid="44"><CoreSc1 advantage="None" conceptID="Exp5" novelty="None" type="Exp"/><text>Electrospinning: The polymer solution was transferred to a 1ml or 5ml syringe and positioned in the pump for the electrospinning process.</text></s>
+<s sid="45"><CoreSc1 advantage="None" conceptID="Exp6" novelty="None" type="Exp"/><text>The solution was pushed towards the electrospinning nozzle at a rate of 1ml/h and the voltage was set at 12.2kV.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Exp7" novelty="None" type="Exp"/><text>The electrospun fibres were collected in the form of a random mesh, as described previously in [7].</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Exp8" novelty="None" type="Exp"/><text>Preparation of calcium phosphate fibres: The PLGA-HA electrospun samples were folded to fit into an alumina ceramic crucible and the container was placed in the middle of a furnace (University of Oxford, Materials Department, Parks Road).</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Exp9" novelty="None" type="Exp"/><text>The heat treatment was applied in a 50kPa Argon atmosphere at 1100°C for 1h.</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Exp10" novelty="None" type="Exp"/><text>The furnace was brought to a temperature with a heating rate of 0.27°C/s and was cooled at a rate of 0.1°C/s.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Exp11" novelty="None" type="Exp"/><text>The treated samples were collected next day and were removed for characterisation.</text></s>
+<s sid="51"><CoreSc1 advantage="None" conceptID="Exp12" novelty="None" type="Exp"/><text>Scanning electron microscopy (SEM): Samples (PLGA-HA composites before and after treatment) were mounted on an aluminium stub using a carbon adhesive disk.</text></s>
+<s sid="52"><CoreSc1 advantage="None" conceptID="Exp13" novelty="None" type="Exp"/><text>The materials were then coated with a 2.5nm layer of platinum using a Cressington 208 HR Sputter coater (Vortex Control Systems Inc., Texas, USA) and high resolution images of the scaffolds were taken using a JSM 840F scanning electron microscope (JEOL, Tokyo, Japan).</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>On each sample, three different areas were observed randomly at different magnifications.</text></s>
+<s sid="54"><CoreSc1 advantage="None" conceptID="Met4" novelty="None" type="Met"/><text>Fourier transform infrared spectroscopy (FTIR): The surface chemistry of the treated samples was analysed by using a FTIR spectrometer (Bruker Optics Limited, Ettlingen, Germany).</text></s>
+<s sid="55"><CoreSc1 advantage="None" conceptID="Exp14" novelty="None" type="Exp"/><text>Pure PLGA fibres, PLGA-HA composite fibres and pure HA nanopowders were also analysed as controls.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Exp15" novelty="None" type="Exp"/><text>Each spectrum was acquired and averaged with a resolution of 4cm-1 by accumulation of 128 scans and the signal was measured in a range between 400 and 4000cm-1.</text></s>
+<s sid="57"><CoreSc1 advantage="None" conceptID="Exp16" novelty="None" type="Exp"/><text>X-ray diffraction (XRD): Samples were prepared by grinding the electrospun materials into powder and spreading the powder onto a crystal of silicon covered with a layer of silicone grease.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Exp17" novelty="None" type="Exp"/><text>Excess powder was removed and the crystal and powder were exposed to an X-ray beam.</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Exp18" novelty="None" type="Exp"/><text>X-ray diffraction measurements were carried out using a fully automated Siemens D5000 powder diffractometer, employing a Cu Kα radiation (λ=0.15406nm) and a secondary monochromator.</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Exp19" novelty="None" type="Exp"/><text>The samples were continuously spun during data collection and scanned using a step size of 0.05° 2θ over the range of 5°-75° 2θ, with a count time of 12s/step.</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Exp20" novelty="None" type="Exp"/><text>For comparison purposes, the X-ray diffraction of the HA nanopowder and of the PLGA-HA fibres were also recorded.</text></s>
+<s sid="62"><CoreSc1 advantage="None" conceptID="Exp21" novelty="None" type="Exp"/><text>X-ray photoelectron spectroscopy (XPS): Samples were mounted on a stub using a double sided adhesive tab before being placed into the ultrahigh vacuum (2×10-7mPa) analysis chamber of the spectrometer.</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Exp22" novelty="None" type="Exp"/><text>XPS analysis was carried out using a VG Clam 4 MCD analyser system with X-ray radiation from the Mg Kα band (hν=1253.6eV).</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Exp23" novelty="None" type="Exp"/><text>Recording was performed with an energy of 100eV and a take-off angle of 90°.</text></s>
+<s sid="65"><CoreSc1 advantage="None" conceptID="Exp24" novelty="None" type="Exp"/><text>The spectra were analysed using Microcal Origin 6.0 software and the assignment of the peaks was performed with reference to the UKSAF and NIST databases.</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Exp25" novelty="None" type="Exp"/><text>As controls, HA nanopowder and PLGA-HA fibres were also analysed.</text></s>
+Results
+<s sid="67"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>Sample morphology: The morphologies of PLGA-HA electrospun fibres before (left side) and after the treatment at 1100°C (right side) are shown in Fig. 1.</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>Interestingly, the treated samples (referred as &quot;CaP fibres&quot; in this paper) retain the submicrofibrous morphology of PLGA-HA composites.</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>Fig. 1(e) and (f) also reveals that the nanoparticles observed on PLGA-HA fibres have disappeared to leave a smooth and segmented surface in CaP fibres.</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>FTIR analysis: The FTIR spectra obtained from the different samples are indicated in Fig. 2.</text></s>
+<s sid="71"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>The spectra obtained from pure PLGA fibres and from HA nanopowder serve as controls.</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>In the PLGA spectrum, the C3O characteristic bands in the region 1065-1280cm-1 can be seen.</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>On the other hand, the spectrum of HA nanopowder reveals the characteristic peak assigned to PO4-3: ν1 vibration mode at about 964cm-1, ν3 vibration mode at 1031cm-1 and 1091cm-1 (asymmetric).</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>The spectrum of untreated PLGA-HA sample displays both characteristics from PLGA and HA, as described in [7].</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>On the other hand, the spectrum of CaP fibres seems to have less characteristics of PLGA (CåO and C3O bands).</text></s>
+<s sid="76"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>However, the aspect of the curve is slightly different from the one recorded for the HA nanopowder.</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>Indeed, weak absorption peaks can be detected at about 993, 1043 and 1067cm-1 near the ν3 vibration mode of PO4-3 (1031cm-1 and 1091cm-1).</text></s>
+<s sid="78"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>Another small shoulder could be observed at about 950cm-1 near the ν1 vibration mode characteristic (964cm-1).</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>XPS analysis: The experimental binding energies of the O 1s, C 1s, P 2p, and Ca 2p electrons and proportions of the corresponding atomes are indicated in Table 1.</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>In PLGA-HA fibres, C 1s was found at 284.4eV, O 1s at 530.7eV, Ca 2p at 345.5eV, and P 2p at 130.2eV.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>Carbon was the dominant element (51%) while only 2.37% of Ca and 2.95% of P were detected in the sample (ratio Ca/P=1.24).</text></s>
+<s sid="82"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>In HA nanopowder, O was found to be the dominant element with 50.87%, while Ca and P reached values as high as 13.94% and 10.13% respectively (ratio Ca/P=1.37).</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>Ca 2p and P 2p were found at slightly higher binding energies: 347.5eV and 133.3eV, respectively.</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>CaP fibres showed very similar observation when compared to the pure nanopowder in terms of binding energies and percentages of elements.</text></s>
+<s sid="85"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>Although the ratio O/C is slightly lower, 1.49 against 2.03 for the HA nanopowder, O was still the major element at 46.41%.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>Ca and P reached values of 12.78% and 9.6%, respectively (ratio Ca/P=1.33).</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>XRD analysis: The XRD patterns of the samples are shown in Fig. 3.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Met5" novelty="None" type="Met"/><text>The chemical identification was performed by comparing the experimental X-ray patterns to standards compiled by the International Centre for Diffraction Data (ICDD).</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>The analysis show that the diffractogram obtained for the PLGA-HA sample and HA nanopowder identified synthetic hydroxyapatite (Ca5(PO4)3OH) with a probability above 99% for both.</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>The pattern observed for CaP fibres identified hydroxyapatite with a probability of 81% with small amounts of whitlockite (Ca9(Mg,Fe++)(PO4)6·(PO3OH)) and β-TCP (Ca3(PO4)2) with probabilities of 14% and 11% respectively.</text></s>
+Discussions
+<s sid="91"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>In previous research, CaP fibres have been successfully produced by electrospinning through the combinative use of chemical precursors and heat treatments at temperature below 800°C [13-17].</text></s>
+<s sid="92"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>The strategy presented in this paper differs in the way that the CaP material was directly incorporated into the electrospun composite fibres in the form of nanoparticles.</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>Furthermore, the electrospinning process was followed by the heat treatment at sintering temperatures, i.e. above 1000°C.</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>This simple way of creating CaP fibres avoids the use of chemical precursors, often toxic and expensive, and potentially allows the creation of nano- and micro-fibres from a wide variety of ceramic material.</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>Here, we successfully demonstrated the approach with PLGA as a sacrificial polymer.</text></s>
+<s sid="96"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>However, cheaper materials such as polyvinylalcohol and polyvinylpyrrolidone could be used since these polymers have already been shown to be suitable for the preparation of ceramic fibres using a high temperature treatment [15].</text></s>
+<s sid="97"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>Polymers having low melting points, such as polycaprolactone, were not able to maintain the fibrous structure during the thermal treatment (data not shown).</text></s>
+<s sid="98"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>To enable the sintering process, particles must be densely packed.</text></s>
+<s sid="99"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>Therefore fibres prepared from a solution containing highly concentrated HA nanoparticles (50% w/v) were selected for this work.</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>Moreover, the large amount of nanoparticles in the polymer matrix might have played a role in maintaining the fibrous morphology while the polymer was subsequently molten and vaporised.</text></s>
+<s sid="101"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>The SEM images have revealed that the resulting CaP fibres acquire a segmented aspect, while the nanoparticles (seen at the surface of PLGA-HA composites) are not visible anymore (Fig. 1, right side).</text></s>
+<s sid="102"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>These observations suggest that sintering has occurred.</text></s>
+<s sid="103"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>In sintering processes, small individual structures merge together by diffusion to form bigger structures.</text></s>
+<s sid="104"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>To confirm the chemical nature of the heat-treated samples, further characterisations involving FTIR, XPS and XRD were performed.</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>FTIR analysis confirmed that the polymer was burnt out and evaporated during the thermal treatment since no characteristic of PLGA was observed in the spectrum of CaP fibres.</text></s>
+<s sid="106"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>Moreover, no band corresponding to carbonates was observed in the range 1400-1550cm-1, which suggests that carbonate ions were only present in trace quantities.</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>This may be due to the volatile nature of the carbonate group.</text></s>
+<s sid="108"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>Also, the emerged peaks from the splitting of the ν1 and ν3 vibration modes are characteristic of tricalcium phosphate [21].</text></s>
+<s sid="109"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>This suggests that the decomposition of HA started during the heat treatment.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>Moreover, consultation of the literature indicates that the spectra observed for CaP fibres is typical for a mixture of HA and β-tricalcium phosphate [22-24].</text></s>
+<s sid="111"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>This last observation is in agreement with the outcomes of the XRD analysis: HA was identified as the main phase of the CaP fibres, but β-tricalcium phosphates (β-TCP) and whitlockite (a Mg-containing β-TCP) were also identified.</text></s>
+<s sid="112"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>The XPS data clearly indicates that the HA nanoparticles used in this experiment are deficient in calcium (Ca/P ratio=1.37).</text></s>
+<s sid="113"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>This could explain why the HA decomposition occurs before 1200°C since deficient HA start their decomposition at temperatures lower than pure HA (ratio=1.67) [19].</text></s>
+<s sid="114"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>In the literature, this decomposition is described as partial although the reason remains unknown.</text></s>
+<s sid="115"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>The commonly accepted decomposition reaction for deficient HA isCa10(PO4)6(OH)2→3Ca3(PO4)2+CaO+H2O</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>The XPS analysis also reveals low calcium phosphate levels in the PLGA-HA samples, despite the fact that the fibres are filled with a large amount of nanoparticles.</text></s>
+<s sid="117"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>Since XPS is a surface chemical analysis technique (with analysis depth less than 10nm), this suggests that the nanoparticles lying at the surface of the fibres were embedded in a thin layer of polymer.</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>The presence of carbon observed by XPS at the surface of the HA nanoparticles might result from atmospheric contamination by CO2 and volatile fatty acids.</text></s>
+<s sid="119"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>At the surface of the CaP fibres, an additional reason for the presence of carbon might be the existence of residual atoms from the degradation-evaporation of the PLGA polymer.</text></s>
+<s sid="120"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>This would explain the higher proportion of carbon when compared to the native HA nanopowder and why the ratio of oxygen to carbon is lower.</text></s>
+<s sid="121"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>The slightly lower percentage of oxygen in CaP fibres, compared to the HA nanopowder, may result from the loss of OH groups (dehydroxylation) that occur at high temperature.</text></s>
+<s sid="122"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>For pure HA, this reaction is known to occur at sintering temperatures below 1200°C with a conversion degree of 0.4 to 0.5 [25].</text></s>
+<s sid="123"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>A simple way to present the reaction formula for dehydroxylation would beCa10(PO4)6(OH)2→Ca10(PO4)6O+H2O</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>The resulting oxyhydroxyapatite cannot be detected by XRD due to the high similarity of its crystalline structures with hydroxyapatite.</text></s>
+<s sid="125"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>It could not be seen by FTIR either, since the band characteristic of 3OH was observed below 400cm-1 which is below the range explored in this study.</text></s>
+<s sid="126"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>Systems containing both HA and TCP phases have been intensively investigated and have shown potential for bone tissue engineering [26,27].</text></s>
+<s sid="127"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>β-TCP has exceptionally good tissue compatibility, allowing direct bonding between the regenerated and the native bone without intermediate connective tissue, and encouraging faster bone regeneration and resorbability than HA.</text></s>
+<s sid="128"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>HA/TCP systems have been developed in order to regulate the resorption kinetics through varying the ratio HA/TCP.</text></s>
+<s sid="129"><CoreSc1 advantage="None" conceptID="Con15" novelty="None" type="Con"/><text>For similar reasons, the chemistry of the CaP fibres is likely to induce an excellent response from bone tissue.</text></s>
+<s sid="130"><CoreSc1 advantage="None" conceptID="Con16" novelty="None" type="Con"/><text>Measurements of mechanical robustness of the CaP fibres remain to be conducted, but initial inspection has indicated profound scaffold fragility compared to the PLGA-HA composites.</text></s>
+<s sid="131"><CoreSc1 advantage="None" conceptID="Con17" novelty="None" type="Con"/><text>Although the polymer-based fibres are more flexible and less fragile, the absence of polymer matrix may be preferred for applications such as bone tissue engineering and drug delivery.</text></s>
+<s sid="132"><CoreSc1 advantage="None" conceptID="Con18" novelty="None" type="Con"/><text>For PLGA in particular, the acidity of the polymer degradation product can cause tissue inflammation or deactivation of the drug.</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Con19" novelty="None" type="Con"/><text>If bone tissue engineering applications are considered, where robustness is required, CaP fibres will necessitate further improvement to their mechanical properties.</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Con20" novelty="None" type="Con"/><text>Alternatively, in their current condition, fibres may be more appropriate as coating or filling material for ceramic or metal implants, in order to enhance osteoconduction and facilitate the incorporation of the implant into the native bone tissue.</text></s>
+Conclusions
+<s sid="135"><CoreSc1 advantage="None" conceptID="Con21" novelty="None" type="Con"/><text>To conclude, the results presented in this paper have demonstrated that CaP fibres can be prepared by electrospinning a PLGA-HA composite solution and subsequently applying a thermal treatment at sintering temperature to the electrospun fibres.</text></s>
+<s sid="136"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>The polymer phase was evaporated at the high temperatures while the nanoparticles were sintered, allowing the samples to retain their submicrofibrous morphology.</text></s>
+<s sid="137"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>Hydroxyapatite was identified to be the main phase in the treated samples.</text></s>
+<s sid="138"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>Tricalcium phosphates were also found, as a result of the dehydroxylation and decomposition of deficient HA at high temperature.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Con22" novelty="None" type="Con"/><text>The chemistry of the new fibres holds great potential for bone tissue engineering.</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Con23" novelty="None" type="Con"/><text>However, more investigations are to be carried out, in particular to improve their mechanical properties, as these are currently insufficient for the fibres to be used as bone scaffold.</text></s>
+<s sid="141"><CoreSc1 advantage="None" conceptID="Con24" novelty="None" type="Con"/><text>Nevertheless, this simple approach is promising for the creation of submicrofibres made of a wide variety of ceramic materials without the use of toxic and expensive chemical precursors.</text></s>
+</BODY>
+<OTHER>
+Acknowledgements
+The authors would like to thank EPSRC for supporting PA Mouthuy's Ph.D. study with a studentship.
+Also we thank Mr Ian Lloyd for his assistance in the sample preparation.
+Supporting information
+Supplementary data associated with this article can be found in the online version at doi:10.1016/j.matlet.2013.04.110.
+Supplementary materials
+Fig. S1
+XPS spectra obtained for (a) PLGA-HA fibres, (b) HA nanopowder, (c) CaP fibres.
+
+</OTHER>
+</PAPER>

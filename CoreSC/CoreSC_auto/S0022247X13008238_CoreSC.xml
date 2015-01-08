@@ -1,0 +1,288 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0022247X13008238.tmf1" version="elsevier"/>
+<TITLE>A note on weakly hyperbolic equations with analytic principal part
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Goa1" novelty="None" type="Goa"/><text>In this note we show how to include low order terms in the C∞ well-posedness results for weakly hyperbolic equations with analytic time-dependent coefficients.</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Met1" novelty="None" type="Met"/><text>This is achieved by doing a different reduction to a system from the previously used one.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>We find the Levi conditions such that the C∞ well-posedness continues to hold.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="4"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>In this note we study the Cauchy problem(1.1){M(t,Dt,Dx)u(t,x)=0,(t,x)∈(δ,T+δ)×Rn,Dtju(t0,x)=gj(x),j=0,…,m-1, where t0∈(δ,T+δ), the equationM(t,Dt,Dx)u≡Dtmu-∑1⩽j⩽m,|ν|⩽jaν,j(t)Dtm-jDxνu=0 is hyperbolic with t-dependent coefficients, analytic in the principal part, and continuous in the lower order terms.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>Equations of the form (1.1) have been extensively studied in the literature.</text></s>
+If Eq.
+<s sid="6"><CoreSc1 advantage="None" conceptID="Mod1" novelty="None" type="Mod"/><text>(1.1) is strictly hyperbolic and its coefficients are in the Hölder class, aν,j∈Cα, 0&lt;α&lt;1, it was shown by the authors in [5, Remark 8] that the Cauchy problem (1.1) is well-posed in Gevrey classes Gs(Rn) provided that 1⩽s&lt;1+α1-α (if α=1, it is sufficient to assume the Lipschitz continuity of coefficients to get the well-posedness in Gs for all s⩾1).</text></s>
+<s sid="7"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>This extended to the general setting the results for certain second order equations by Colombini, de Giorgi and Spagnolo [1] who have also shown that the Gevrey index above is sharp.</text></s>
+<s sid="8"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>A result for differential systems was proved in [7].</text></s>
+<s sid="9"><CoreSc1 advantage="None" conceptID="Bac3" novelty="None" type="Bac"/><text>We also refer to [5, Remark 16] for the Gevrey-Beurling ultradistributional well-posedness for 1⩽s⩽1+α1-α.</text></s>
+<s sid="10"><CoreSc1 advantage="None" conceptID="Bac4" novelty="None" type="Bac"/><text>Equations with higher regularity aν,j∈Ck and lower order terms have been considered by Kinoshita and Spagnolo in [11] and by the authors in [6] in the Gevrey classes, yielding also the well-posedness in C∞ in the case when the coefficients aν,j of the principal part, |ν|=j, are analytic.</text></s>
+<s sid="11"><CoreSc1 advantage="None" conceptID="Bac5" novelty="None" type="Bac"/><text>There are also previous works on second and higher order equations using the quasisymmetrisers, see e.g.</text></s>
+[4].
+<s sid="12"><CoreSc1 advantage="None" conceptID="Mod2" novelty="None" type="Mod"/><text>In [6], the assumptions on (1.1) have been formulated in terms of the characteristic roots while the Levi conditions on lower order terms can be expressed in terms of the coefficients of the operator M.</text></s>
+<s sid="13"><CoreSc1 advantage="None" conceptID="Mod3" novelty="None" type="Mod"/><text>In addition, the quasisymmetriser has been used in [6] while here we use the symmetriser.</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Mod4" novelty="None" type="Mod"/><text>We refer to [5] and [6] for a review of the existing literature for this problem.</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Mod5" novelty="None" type="Mod"/><text>Recently, Jannelli and Taglialatela [10] treated Eq.</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Mod6" novelty="None" type="Mod"/><text>(1.1) with analytic coefficients, without lower order terms, proving the C∞ well-posedness under assumptions that can be expressed entirely in terms of the coefficients of the operator M.</text></s>
+<s sid="17"><CoreSc1 advantage="None" conceptID="Goa2" novelty="None" type="Goa"/><text>The purpose of this note is to show how to extend this to include lower order terms with Levi conditions still formulated in terms of the coefficients of M.</text></s>
+<s sid="18"><CoreSc1 advantage="None" conceptID="Goa3" novelty="None" type="Goa"/><text>This will be achieved in this paper by doing a different reduction of (1.1) to the first order system which will allow us to include the lower order terms in the energy.</text></s>
+<s sid="19"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>Indeed, in the case of the homogeneous operators, the reduction used in [10], analogous to the one used by Colombini and Kinoshita in [2], was done to a system which is homogeneous of order one in ξ.</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>Such a reduction cannot be used in the present context because the lower order terms introduce singularities in the symbols at ξ=0.</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Goa4" novelty="None" type="Goa"/><text>Instead, by employing a reduction to a pseudo-differential system, also used in [5], we are able to avoid such singularities.</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Obj3" novelty="None" type="Obj"/><text>Thus, the analysis in this note is based on a reduction from [5] combined with a number of results from [10], with a subsequent treatment of lower order terms in the energy under Levi conditions introduced below.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>An interesting feature is that the C∞ well-posedness holds for analytic coefficients in the principal part and lower order terms which are only continuous.</text></s>
+<s sid="24"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>We also give a result for bounded (and possibly discontinuous) lower order terms.</text></s>
+<s sid="25"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>Our main point in this note is to demonstrate that by applying a different reduction to a system one can handle lower order terms in the energy estimates.</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>For specific equations (e.g. second order equations) this result can be improved by other methods, but this lies outside our scope here.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>In [1], Colombini, de Giorgi and Spagnolo, and in [3], Colombini and Spagnolo gave examples of second order equations with time-dependent coefficients which are not distributionally well-posed.</text></s>
+<s sid="28"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>In this paper, we also prove the distributional well-posedness of (1.1) in our setting.</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>In Section 2 we introduce the notations and recall the results of [10].</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>In Section 3 we give our results.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>In Section 4 we give the proofs, and in Section 5 we analyse the meaning of the assumptions on both the principal part and lower order terms, and compare the obtained results with those in [6].</text></s>
+Preliminaries
+<s sid="32"><CoreSc1 advantage="None" conceptID="Obj4" novelty="None" type="Obj"/><text>We begin by recalling the theorem proved in [10] for the Cauchy problem(2.1){L(t,∂t,∂x)u(t,x)=0,for (t,x)∈(δ,T+δ)×Rn,∂tju(t0,x)=gj(x),for x∈Rn,j=0,…,m-1, where t0∈(δ,T+δ), andL(t,∂t,∂x)u(t,x)=∂tmu(t,x)-∑1⩽j⩽m,|ν|=jaν,j(t)∂tm-j∂xνu(t,x) is homogeneous of order m.</text></s>
+<s sid="33"><CoreSc1 advantage="None" conceptID="Obj5" novelty="None" type="Obj"/><text>This requires some preliminary notions which are collected in the sequel.</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Obj6" novelty="None" type="Obj"/><text>LetP(t,τ,ξ)=τm-∑1⩽j⩽m,|ν|=jaν,j(t)ξντm-j=τm-∑j=1mhj(t,ξ)|ξ|jτm-j be the symbol of i-mL.</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Obj7" novelty="None" type="Obj"/><text>This is also the principal symbol of M in (1.1).</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Mod7" novelty="None" type="Mod"/><text>Let(2.2)A0(t,ξ)=(010…0001…0…………1hmhm-1……h1) be the companion matrix of P(t,τ,ξ/|ξ|).</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Mod8" novelty="None" type="Mod"/><text>By construction the matrix A0(t,ξ) is homogeneous of oder zero in ξ, and the eigenvalues of A0(t,ξ)|ξ| are the characteristic roots τ1(t,ξ),…,τm(t,ξ) of P(t,τ,ξ).</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Mod9" novelty="None" type="Mod"/><text>For the moment let us fix t∈(δ,T+δ) and ξ so that P is a polynomial in τ with constant coefficients.</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Mod10" novelty="None" type="Mod"/><text>In [8] Jannelli constructed a real symmetric m×m matrix Q which is weakly positive definite if and only if P is weakly hyperbolic.</text></s>
+<s sid="40"><CoreSc1 advantage="None" conceptID="Mod11" novelty="None" type="Mod"/><text>This Q is called the standard symmetriser of P. Note that the entries of Q are fixed polynomials functions of h1,…,hm such that(2.3)QA0-A0⁎Q=0 anddetQ=∏1⩽k&lt;j⩽m(τj-τk)2.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Mod12" novelty="None" type="Mod"/><text>Let Qj be the principal j×j minor of Q obtained by removing the first m-j rows and columns of Q and let Δj its determinant.</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Mod13" novelty="None" type="Mod"/><text>When j=m we use the notations Q and Δ instead of Qm and Δm.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Mod14" novelty="None" type="Mod"/><text>The hyperbolicity of P can be seen at the level of the symmetriser Q and of its minors as stated in the following proposition (see [9]).</text></s>
+Proposition 2.1
+(i)
+<s sid="44"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>P is strictly hyperbolic if and only if Δj&gt;0 for all j=1,…,m.</text></s>
+(ii)
+<s sid="45"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>P is weakly hyperbolic if and only if there exists r&lt;m such thatΔ=Δm-1=⋯=Δr+1=0 and Δr&gt;0,…,Δ1&gt;0.</text></s>
+<s sid="46"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>(In this case there are exactly r distinct roots.)</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>Clearly, when t and ξ vary in (δ,T+δ) and Rn, respectively, Δr becomes a function Δr(t,ξ) homogeneous of degree 0 in ξ and analytic in t.</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Mod15" novelty="None" type="Mod"/><text>When Δr is not identically zero one can define the functionΔ˜r(t,ξ)=Δr(t,ξ)+(∂tΔr(t,ξ))2Δr(t,ξ), which is homogeneous of degree 0 in ξ as well, analytic on the interval (δ,T+δ).</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Mod16" novelty="None" type="Mod"/><text>In addition, the following property holds for Δ and Δ˜: if t↦Δ(t,ξ) vanishes of order 2k at a point t′ then t↦Δ˜(t,ξ) vanishes of order 2k-2 at t′.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Mod17" novelty="None" type="Mod"/><text>Note that estimating the quotient 〈∂tQV,V〉/〈QV,V〉 is equivalent to estimating the roots of the generalised Hamilton-Cayley polynomial(2.4)det(λQ-∂tQ)=∑j=0mdj(t)λm-j of Q and ∂tQ, where d0=detQ, d1=-∂t(detQ), dm=(-1)mdet(∂tQ) and, if m⩾2, d2=12trace(∂tQ∂t(Qco)), where Qco is the cofactor matrix of Q.</text></s>
+<s sid="51"><CoreSc1 advantage="None" conceptID="Mod18" novelty="None" type="Mod"/><text>We recall that the cofactor of Q is the matrix with entries qijco=(-1)i+jdij, where dij is the determinant of the submatrix obtained from Q by removing the i-th row and the j-th column.</text></s>
+<s sid="52"><CoreSc1 advantage="None" conceptID="Goa5" novelty="None" type="Goa"/><text>Finally, from the known identityλ12+⋯+λm2=(d1d0)2-2d2d0, valid for the roots λj, j=1,…,m, of the generalised Hamilton-Cayley polynomial, we see that d2 plays a fundamental role when one wants to estimate 〈∂tQV,V〉/〈QV,V〉.</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Obj8" novelty="None" type="Obj"/><text>We callψ(t,ξ):=d2(t,ξ) defined as above the check function of Q.</text></s>
+<s sid="54"><CoreSc1 advantage="None" conceptID="Obj9" novelty="None" type="Obj"/><text>Replacing Q with Qj in the definition of d2 we define the check function ψj(t,ξ) of Qj.</text></s>
+<s sid="55"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>Clearly, ψj(t,ξ) is homogeneous of order zero in ξ.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>Note that when m=1 the check function ψ is set to be identically zero.</text></s>
+<s sid="57"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>We are now ready to state the C∞ well-posedness theorem of Jannelli and Taglialatela given in [10].</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Goa6" novelty="None" type="Goa"/><text>Since the purpose of this note is to describe the possibility of adding lower order terms to L we will avoid long technicalities and will focus on the non-degenerate case, i.e., the case with Δ(⋅,ξ)≢0 is not identically zero in (δ,T+δ).</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Met2" novelty="None" type="Met"/><text>We skip the treatment of the Cauchy problem (2.1) in the degenerate case since it is lengthy but remark that the analysis can be carried out in this case as well along the lines of the analysis of the general case in [6].</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Mod19" novelty="None" type="Mod"/><text>In the present context, it would make use of Δr(⋅,ξ) and the corresponding check function ψr(t,ξ), where r=r(ξ) is the greatest integer such that Δr(⋅,ξ)≢0 in (δ,T+δ).</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Mod20" novelty="None" type="Mod"/><text>For more details on these for the case of homogeneous L, see Theorem 1 and Section 3 in [10].</text></s>
+Theorem 2.2
+<s sid="62"><CoreSc1 advantage="None" conceptID="Mod21" novelty="None" type="Mod"/><text>(See [10].) Let L(t,∂t,∂x) as in (2.1) be a weakly hyperbolic homogeneous operator with analytic coefficients in (δ,T+δ).</text></s>
+<s sid="63"><CoreSc1 advantage="None" conceptID="Mod22" novelty="None" type="Mod"/><text>Let P(t,τ,ξ) be the characteristic polynomial and A0(t,ξ) the companion matrix of P(t,τ,ξ/|ξ|).</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Mod23" novelty="None" type="Mod"/><text>Let Q(t,ξ) be its symmetriser and ψ(t,ξ) the check function of Q(t,ξ).</text></s>
+Let [a,b]⊂(δ,T+δ).
+<s sid="65"><CoreSc1 advantage="None" conceptID="Mod24" novelty="None" type="Mod"/><text>Assume that there exists a constant C&gt;0 independent of ξ such that(2.5)|ψ(t,ξ)|⩽CΔ˜(t,ξ) holds for all t∈[a,b].</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Mod25" novelty="None" type="Mod"/><text>Then, the Cauchy problem (2.1) is C∞ well-posed in [a,b].</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Mod26" novelty="None" type="Mod"/><text>We can write condition (2.5) in a different way by introducing the set Σ(ξ)={t1,…,tN(ξ):Δ(tj,ξ)=0} and the functionZ(t,ξ)={∏j=1N(ξ)|t-tj|if Σ(ξ)={t1,…,tN(ξ)},1if Σ(ξ)=∅.</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>Note that by the analyticity of Δ in t it follows that the function N(ξ) is locally bounded (see the proof of Lemma 5 in [6]).</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>Using again the fact that Δ(t,ξ) is analytic in t and homogeneous of order 0 in ξ one can prove that there exist constants c1&gt;0 and c2&gt;0 independent of ξ such thatc1Δ(t,ξ)Z2(t,ξ)⩽Δ˜(t,ξ)⩽c2Δ(t,ξ)Z2(t,ξ), for all t∈(δ,T+δ) and ξ≠0.</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>Hence, (2.5) can be reformulated as follows: there exists a constant C&gt;0 independent of ξ such that(2.6)Z2(t,ξ)|ψ(t,ξ)|⩽CΔ(t,ξ), for all t∈[a,b] and ξ≠0.</text></s>
+<s sid="71"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>This extends to any space dimension the one-dimensional observation of Jannelli and Taglialatela made in [10, p. 1000].</text></s>
+Results
+<s sid="72"><CoreSc1 advantage="None" conceptID="Obj10" novelty="None" type="Obj"/><text>We are now ready to study the Cauchy problem (1.1) or, in other words, to add lower order terms to the equation in (2.1).</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Obj11" novelty="None" type="Obj"/><text>First, we describe the reduction of (1.1) to a system since we will be making use of the symmetriser of the corresponding companion matrix.</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Obj12" novelty="None" type="Obj"/><text>We rewrite the equationM(t,Dt,Dx)u≡Dtmu-∑1⩽j⩽m,|ν|⩽jaν,j(t)Dtm-jDxνu=0 asDtmu(t,x)=∑1⩽j⩽m,|ν|=jaν,j(t)Dtm-jDxνu(t,x)+∑1⩽j⩽m,|ν|⩽j-1aν,j(t)Dtm-jDxνu(t,x).</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Mod27" novelty="None" type="Mod"/><text>First of all we perform the standard reduction to a system of pseudo-differential equations as in [5] by settingul=Dtl-1〈Dx〉m-lu, with l=1,…,m, where 〈Dx〉 is the pseudo-differential operator with symbol 〈ξ〉=(1+|ξ|2)12.</text></s>
+<s sid="76"><CoreSc1 advantage="None" conceptID="Mod28" novelty="None" type="Mod"/><text>This transformation makes the mth-order equation above equivalent to the first order system(3.1)DtU=A1(t,Dx)U+B(t,Dx)U, where U is the column vector with entries ul, A1(t,Dx) has symbol matrixA1(t,ξ)=〈ξ〉A(t,ξ)=〈ξ〉(010…0001…0…………1a1a2……am), whereaj(t,ξ)=∑|ν|=m-j+1aν,m-j+1(t)ξν〈ξ〉j-m-1, and B(t,Dx) has symbol matrixB(t,ξ)=(000…0000…0…………0b1b2……bm), with(3.2)bj(t,ξ)=∑|ν|⩽m-jaν,m-j+1(t)ξν〈ξ〉j-m.</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Mod29" novelty="None" type="Mod"/><text>The initial conditions Dtju(t0,x)=gj(x), j=0,…,m-1, are transformed intoul(t0,x)=〈Dx〉m-lgl-1(x), for l=1,…,m, and generate the column vector U0(x).</text></s>
+<s sid="78"><CoreSc1 advantage="None" conceptID="Mod30" novelty="None" type="Mod"/><text>In the following theorem we use functions ψ and Δ˜ which have been defined at the beginning of Section 2.</text></s>
+Theorem 3.1
+<s sid="79"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>Let M(t,Dt,Dx) as in (1.1) be a weakly hyperbolic operator with analytic coefficients in (δ,T+δ) in the principal part, and lower order terms continuous in t.</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>Let Q(t,ξ)={qij(t,ξ)}i,j=1m be the symmetriser of the matrix A(t,ξ) of the principal part, Δ its determinant and ψ(t,ξ) its check function.</text></s>
+<s sid="81"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>Let Δ(⋅,ξ)≢0 in (δ,T+δ) for all ξ with |ξ|⩾1 and let [a,b]⊂(δ,T+δ).</text></s>
+Assume that(i)
+<s sid="82"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>there exists a constant C1&gt;0 such that(3.3)|ψ(t,ξ)|⩽C1Δ˜(t,ξ) holds for all t∈[a,b] and |ξ|⩾1;</text></s>
+(ii)
+<s sid="83"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>the Levi condition(3.4)|(qimbj-bi¯qjm)(t,ξ)|⩽cΔ(t,ξ) holds for all 1⩽i,j⩽m, t∈[a,b] and |ξ|⩾1.</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>Then the Cauchy problem (1.1) is C∞ well-posed in [a,b] with initial data at t0=a, and it is also well-posed in D′(Rn).</text></s>
+<s sid="85"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>One of the features of this result is that we can allow lower order terms to be complex-valued.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>In Remark 4.6 we will comment on a small simplification of the Levi conditions (ii) if the matrix B is real.</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>In the case when lower order terms are discontinuous but still bounded, we have the following counterpart of the result above.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>The proof is similar to that of Theorem 4 in [6].</text></s>
+Theorem 3.2
+<s sid="89"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>Assume the conditions of Theorem 3.1, but instead of assuming that lower order terms are continuous, assume only that they are bounded, i.e. that aν,j∈L∞((δ,T+δ)), for all |ν|⩽j-1 with 1⩽j⩽m.</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>Then the statement remains true for C∞ Cauchy data provided that we replace the well-posedness conclusion u∈Cm([a,b];C∞(Rn)) byu∈Cm-1([a,b];C∞(Rn))∩W∞,m([a,b];C∞(Rn)), where W∞,m is the Sobolev space with m derivatives in L∞.</text></s>
+<s sid="91"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>The same distributional conclusion as we had in Theorem 3.1 also holds in Theorem 3.2, with the solutionu∈Cm-1([a,b];D′(Rn))∩W∞,m([a,b];D′(Rn)), provided that the Cauchy data are all in D′(Rn).</text></s>
+Proofs
+<s sid="92"><CoreSc1 advantage="None" conceptID="Mod31" novelty="None" type="Mod"/><text>Note that the eigenvalues of the matrix A1=〈ξ〉A(t,ξ) are the roots of the characteristic polynomial P(t,τ,ξ) and that the entries of the matrix A are related to the entries of the matrix A0 in (2.2) by the formula aj(t,ξ)〈ξ〉m-j+1=hm-j+1(t,ξ)|ξ|m-j+1.</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Mod32" novelty="None" type="Mod"/><text>Applying the Fourier transform to the system (3.1) we obtain the system(4.1)DtV(t,ξ)=〈ξ〉A(t,ξ)V(t,ξ)+B(t,ξ)V(t,ξ),V(t0,ξ)=V0(ξ), where V=Fx→ξU and V0=Fx→ξU0.</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Mod33" novelty="None" type="Mod"/><text>Note that by performing a reduction to a system of pseudo-differential equations the symmetriser Q(t,ξ), defined as in [6, Section 3], is a matrix of 0-order symbols which can be expressed in terms of the rescaled roots τj(t,ξ)〈ξ〉-1 (or eigenvalues of the matrix A).</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Mod34" novelty="None" type="Mod"/><text>More precisely, the entries qij of the symmetriser Q(t,ξ) are polynomials in τ1〈ξ〉-1,…,τm〈ξ〉-1.</text></s>
+<s sid="96"><CoreSc1 advantage="None" conceptID="Mod35" novelty="None" type="Mod"/><text>Making use of the concept of the Bezout matrix associated to the couple of polynomials (P,∂τP) it is also possible to express the entries of the symmetriser in terms of the coefficients hj, j=1,…,m.</text></s>
+<s sid="97"><CoreSc1 advantage="None" conceptID="Mod36" novelty="None" type="Mod"/><text>For further details we refer the reader to [10, p.</text></s>
+998].
+<s sid="98"><CoreSc1 advantage="None" conceptID="Goa7" novelty="None" type="Goa"/><text>We begin by proving some basic properties of the symmetriser which will be employed to prove the C∞ well-posedness.</text></s>
+The symmetriser Q
+<s sid="99"><CoreSc1 advantage="None" conceptID="Mod37" novelty="None" type="Mod"/><text>It is useful to make a comparison between the symmetriser Q of the matrix A and the symmetriser Q0 with homogeneous entries of order 0 employed by Jannelli and Taglialatela in [10].</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Mod38" novelty="None" type="Mod"/><text>These two matrices are both symmetric with polynomial entries in τ1〈ξ〉-1,…,τm〈ξ〉-1 and τ1|ξ|-1,…,τm|ξ|-1, respectively, as defined in [6, Section 3].</text></s>
+<s sid="101"><CoreSc1 advantage="None" conceptID="Mod39" novelty="None" type="Mod"/><text>By construction, QA-A⁎Q=0 and(4.2)Δ(t,ξ)=∏1⩽i&lt;j⩽m(τj(t,ξ)〈ξ〉-1-τi(t,ξ)〈ξ〉-1)2=〈ξ〉-m(m-1)∏1⩽i&lt;j⩽m(τj(t,ξ)-τi(t,ξ))2=〈ξ〉-m(m-1)|ξ|m(m-1)Δ0(t,ξ), where Δ and Δ0 are the determinants of Q and Q0, respectively, and Δ0 is expressed in terms of the 0-homogeneous roots τi/|ξ|.</text></s>
+<s sid="102"><CoreSc1 advantage="None" conceptID="Mod40" novelty="None" type="Mod"/><text>The following lemma on symmetric positive semi-definite matrices will be in the sequel applied to Q.</text></s>
+Lemma 4.1
+<s sid="103"><CoreSc1 advantage="None" conceptID="Mod41" novelty="None" type="Mod"/><text>Let N(t) be any symmetric positive semi-definite matrix with bounded coefficients on an interval [a,b].</text></s>
+<s sid="104"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>Then, there exist two positive constants c1 and c2 depending only on the L∞-norm of the entries of N(t) such thatc1detN(t)|V|2⩽〈N(t)V,V〉⩽c2|V|2 holds for all t∈[a,b] and V∈Cm.</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>Since Q(t,ξ) is a positive semi-definite matrix with eigenvalues λi(t,ξ), which satisfy symbol estimates of order 0 in ξ and we can assume them ordered, i.e., λ1⩽λ2⩽⋯⩽λm, there exists a constant c0&gt;0 such that0⩽λ1(t,ξ)⩽λ2(t,ξ)⩽⋯⩽λm(t,ξ)⩽c0 holds for all t∈[a,b] and ξ∈Rn.</text></s>
+<s sid="106"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>It follows that when detQ(t,ξ)&gt;0 we can write〈QV,V〉⩾λ1|V|2=detQ(t,ξ)λ2(t,ξ)⋯λm(t,ξ)|V|2⩾detQ(t,ξ)c0m-1|V|2.</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>It follows that Lemma 4.1 holds for the matrix Q(t,ξ).</text></s>
+More precisely, Lemma 4.2
+<s sid="108"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>Let Q(t,ξ) be the symmetriser of the weakly hyperbolic matrix A(t,ξ) defined above.</text></s>
+<s sid="109"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>Then, there exist two positive constants c1 and c2 such thatc1detQ(t,ξ)|V|2⩽〈Q(t,ξ)V,V〉⩽c2|V|2 holds for all t∈[a,b], ξ∈Rn and V∈Cm.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>Let I be a closed interval in R.</text></s>
+<s sid="111"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>We recall (see also [10, pp.</text></s>
+<s sid="112"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>1003-1004]) that if B(t) and C(t) are two real symmetric m×m matrices, C(t) is nonnegative and detC(t) has only isolated zeros then(4.3)〈B(t)V,V〉〈C(t)V,V〉∈L∞(I×(Cm∖0)) if and only if the roots λi of the generalised Hamilton-Cayley polynomialdet(λC(t)-B(t))=∑h=0mdh(t)λm-h of B(t) and C(t), are bounded functions of t.</text></s>
+<s sid="113"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>Since∑i=1mλi2(t)=d12(t)d02(t)-2d2(t)d0(t), we conclude that (4.3) holds if and only if(4.4)d12(t)d02(t)-2d2(t)d0(t) is bounded.</text></s>
+<s sid="114"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>We are now ready to prove the following lemma.</text></s>
+Lemma 4.3
+<s sid="115"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>Let Q(t,ξ) be the symmetriser of the matrix A(t,ξ).</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>Let Δ(t,ξ)=detQ(t,ξ), Δ˜(t,ξ)=Δ(t,ξ)+(∂tΔ(t,ξ))2/Δ(t,ξ), ψ(t,ξ) the check function of Q(t,ξ).</text></s>
+<s sid="117"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>Let I be a closed interval of R.</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>Then,(4.5)Δ(t,ξ)Δ˜(t,ξ)〈∂tQ(t,ξ)V,V〉〈Q(t,ξ)V,V〉∈L∞(I×Rn×Cm∖0) if and only if(4.6)ψ(t,ξ)Δ˜(t,ξ)∈L∞(I×Rn).</text></s>
+ Proof
+<s sid="119"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>Sincedet(λQ-∂tQΔΔ˜)=ΔΔ˜mdet(λΔ˜ΔQ-∂tQ), by (2.4) and the definition of d0, d1 and d2 we getdet(λQ-∂tQΔΔ˜)=Δλm-∂tΔΔΔ˜λm-1+ψΔΔ˜λm-2+∑h=3mdh(ΔΔ˜)h2λm-h.</text></s>
+<s sid="120"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>Applying (4.3) to B=∂tQΔΔ˜ and C=Q we obtain that (4.5) holds if and only if∂tΔΔΔ˜Δ andψΔΔ˜Δ are bounded functions on I×Rn and there is no cancellation of unbounded terms in (4.4).</text></s>
+<s sid="121"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>Since|∂tΔΔΔ˜Δ|⩽C we have that (4.5) is equivalent to (4.6). □</text></s>
+<s sid="122"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>A technical lemma about real analytic functions on a real interval</text></s>
+<s sid="123"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>Recalling the relationship between Δ and Δ0 in (4.2) we can apply Proposition 4.1 in [10] to the determinant Δ(t,ξ) of the symmetriser Q(t,ξ).</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>This yields the following statement.</text></s>
+Proposition 4.4
+<s sid="125"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>Let Δ(t,ξ) be as above.</text></s>
+Suppose that Δ(t,ξ)≢0. Then,(i)
+<s sid="126"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>there exists X⊂Sn-1 such that Δ(t,ξ)≢0 in (δ,T+δ) for any ξ∈X and the set Sn-1∖X is negligible with respect to the Hausdorff (n-1)-measure;</text></s>
+(ii)
+<s sid="127"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>for any [a,b]⊂(δ,T+δ) there exist c1,c2&gt;0 and p,q∈N such that for any ξ∈X and any ε∈(0,e-1] there exists Aξ,ε⊂[a,b] such that:-</text></s>
+<s sid="128"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>Aξ,ε is a union of at most p disjoint intervals,</text></s>
+-
+m(Aξ,ε)⩽ε,
+-
+mint∈[a,b]∖Aξ,εΔ(t,ξ)⩾c1ε2q‖Δ(⋅,ξ)‖L∞([a,b]),
+-
+∫t∈[a,b]∖Aξ,ε|∂tΔ(t,ξ)|Δ(t,ξ)dt⩽c2log1ε.
+<s sid="129"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>Proposition 4.4 provides a partition of the interval [a,b] which is crucial in the proof of the C∞ well-posedness in the next subsection.</text></s>
+<s sid="130"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>C∞ well-posedness of the Cauchy problem (1.1)</text></s>
+<s sid="131"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>To prove the C∞ well-posedness of the Cauchy problem (1.1) in the form (4.1) we make use of the energyE(t,ξ)={|V(t,ξ)|2for t∈Aξ/|ξ|,ε and ξ/|ξ|∈X,〈Q(t,ξ)V(t,ξ),V(t,ξ)〉for t∈[a,b]∖Aξ/|ξ|,ε and ξ/|ξ|∈X, defined for t∈[a,b], ξ∈Rn with ξ/|ξ|∈X, and ε∈(0,e-1].</text></s>
+<s sid="132"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>Note that Δ(t,ξ)&gt;0 when t∈[a,b]∖Aξ/|ξ|,ε and ξ/|ξ|∈X, and [a,b]∖Aξ/|ξ|,ε is a finite union of at most p closed intervals [ci,di].</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>The set Aξ/|ξ|,ε is a finite union of open intervals whose total length does not exceed ε.</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>We now distinguish between Kovalevskian energy and hyperbolic energy.</text></s>
+The Kovalevskian energy
+Let t∈[t′,t″]⊆Aξ/|ξ|,ε and ξ/|ξ|∈X.
+Hence∂tE(t,ξ)=2Re〈V(t,ξ),∂tV(t,ξ)〉=2Re〈V(t,ξ),i〈ξ〉A(t,ξ)V(t,ξ)+iB(t,ξ)V(t,ξ)〉⩽2(cA〈ξ〉+cB)E(t,ξ).
+<s sid="135"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>By Gronwallʼs Lemma on [t′,t″] we get(4.7)|V(t,ξ)|⩽e(cA〈ξ〉+cB)(t-t′)|V(t′,ξ)|⩽cec〈ξ〉(t-t′)|V(t′,ξ)|.</text></s>
+The hyperbolic energy
+<s sid="136"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>Let us work on any subinterval [ci,di] of [a,b]∖Aξ/|ξ|,ε.</text></s>
+<s sid="137"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>Assuming ξ/|ξ|∈X, we have that Δ(t,ξ)&gt;0 on [ci,di].</text></s>
+<s sid="138"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>Under the hypothesis (2.5) using (2.3), Lemma 4.3 and Lemma 4.2, we have that∂tE(t,ξ)=〈∂tQ(t,ξ)V(t,ξ),V(t,ξ)〉+〈Q(t,ξ)∂tV(t,ξ),V(t,ξ)〉+〈Q(t,ξ)V(t,ξ),∂tV(t,ξ)〉=〈∂tQ(t,ξ)V(t,ξ),V(t,ξ)〉〈Q(t,ξ)V,V〉E(t,ξ)+〈Q(t,ξ)(i〈ξ〉A(t,ξ)+iB(t,ξ))V(t,ξ),V(t,ξ)〉+〈Q(t,ξ)V(t,ξ),(i〈ξ〉A(t,ξ)+iB(t,ξ))V(t,ξ)〉=〈∂tQ(t,ξ)V(t,ξ),V(t,ξ)〉〈Q(t,ξ)V,V〉E(t,ξ)+i〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉⩽CΔ˜(t,ξ)Δ(t,ξ)E(t,ξ)+|〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉|.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>At this point it is clear that if we have Levi conditions on the matrix B such that(4.8)|〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉|〈Q(t,ξ)V,V〉∈L∞([a,b]×Rn×Cm∖0), then there exists a constant c&gt;0 such that(4.9)∂tE(t,ξ)⩽c(1+|∂tΔ(t,ξ)|Δ(t,ξ))E(t,ξ) holds for t∈[ci,di] and ξ∈Rn with ξ/|ξ|∈X.</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Res61" novelty="None" type="Res"/><text>Before proving that this energy estimate yields the C∞ well-posedness of the Cauchy problem (1.1) let us show that the Levi conditions (3.4) for the matrix B guarantee (4.8).</text></s>
+Proposition 4.5
+<s sid="141"><CoreSc1 advantage="None" conceptID="Res62" novelty="None" type="Res"/><text>Let bi and qij, i,j=1,…,m, be the entries of the matrix B and Q defined above.</text></s>
+<s sid="142"><CoreSc1 advantage="None" conceptID="Res63" novelty="None" type="Res"/><text>If there exists a constant c&gt;0 such that(4.10)|(qimbj-bi¯qjm)(t,ξ)|⩽cΔ(t,ξ) holds for all 1⩽i,j⩽m, t∈[a,b] and ξ∈Rn, then (4.8) holds.</text></s>
+ Proof
+<s sid="143"><CoreSc1 advantage="None" conceptID="Res64" novelty="None" type="Res"/><text>We begin by observing that the matrix QB-B⁎Q has entries dij=qimbj-bi¯qjm.</text></s>
+It follows that〈(QB-B⁎Q)V,V〉=∑i=1m∑j=1m(qimbj-bi¯qjm)VjVi¯.
+<s sid="144"><CoreSc1 advantage="None" conceptID="Res65" novelty="None" type="Res"/><text>Hence,|〈(QB-B⁎Q)V,V〉|⩽∑i,j=1,…,m|qimbj-bi¯qjm|(|Vi|2+|Vj|2) and by the hypothesis (4.10) we get|〈(QB-B⁎Q)V,V〉(t,ξ)|⩽cΔ(t,ξ)|V(t,ξ)|2, for some constant c&gt;0, uniformly in t∈[a,b] and ξ∈Rn.</text></s>
+<s sid="145"><CoreSc1 advantage="None" conceptID="Res66" novelty="None" type="Res"/><text>Finally, combining this estimate with the bound from below of Lemma 4.2 we obtain (4.8). □</text></s>
+Remark 4.6
+<s sid="146"><CoreSc1 advantage="None" conceptID="Res67" novelty="None" type="Res"/><text>Note that when the lower order terms are real-valued then the matrix QB-B⁎Q is skew-symmetric.</text></s>
+<s sid="147"><CoreSc1 advantage="None" conceptID="Res68" novelty="None" type="Res"/><text>This means that dij=qimbj-bi¯qjm is identically zero when i=j and dij=-dji.</text></s>
+<s sid="148"><CoreSc1 advantage="None" conceptID="Res69" novelty="None" type="Res"/><text>It follows that the Levi conditions (4.8) can be rewritten as(4.11)|(qimbj-biqjm)(t,ξ)|⩽cΔ(t,ξ), for 1⩽i&lt;j⩽m, t∈[a,b] and ξ∈Rn.</text></s>
+<s sid="149"><CoreSc1 advantage="None" conceptID="Res70" novelty="None" type="Res"/><text>We are now ready to prove Theorem 3.1.</text></s>
+Proof of Theorem 3.1
+<s sid="150"><CoreSc1 advantage="None" conceptID="Res71" novelty="None" type="Res"/><text>First of all, by the finite speed of propagation for hyperbolic equations we can always assume that the Cauchy data in (1.1) are compactly supported.</text></s>
+<s sid="151"><CoreSc1 advantage="None" conceptID="Res72" novelty="None" type="Res"/><text>We refer to the Kovalevskian energy and the hyperbolic energy introduced above.</text></s>
+<s sid="152"><CoreSc1 advantage="None" conceptID="Res73" novelty="None" type="Res"/><text>We note that in the energies in consideration we can assume |ξ|⩾1 since the continuity of V(t,ξ) in ξ implies that both energies are bounded for |ξ|⩽1.</text></s>
+<s sid="153"><CoreSc1 advantage="None" conceptID="Res74" novelty="None" type="Res"/><text>In particular, the Levi condition (4.10) for |ξ|⩾1 yields the energy estimate (4.9) for |ξ|⩾1.</text></s>
+<s sid="154"><CoreSc1 advantage="None" conceptID="Res75" novelty="None" type="Res"/><text>Hence, by Gronwallʼs Lemma on [ci,di] we get the inequality(4.12)E(t,ξ)⩽ec(di-ci)exp(c∫cit|∂sΔ(s,ξ)|Δ(s,ξ)ds)E(ci,ξ).</text></s>
+<s sid="155"><CoreSc1 advantage="None" conceptID="Res76" novelty="None" type="Res"/><text>Note that by Proposition 4.4, (ii), we haveΔ(t,ξ)⩾mins∈[a,b]∖Aξ,εΔ(s,ξ)⩾c1ε2q‖Δ(⋅,ξ)‖L∞([a,b]), for all t∈[ci,di].</text></s>
+<s sid="156"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>Hence, applying Lemma 4.2 to (4.12) we have that there exists a constant C&gt;0 such that(4.13)|V(t,ξ)|2⩽C1ε2q‖Δ(⋅,ξ)‖L∞([a,b])exp(∫cit|∂sΔ(s,ξ)|Δ(s,ξ)ds)|V(ci,ξ)|2,|V(t,ξ)|2⩽C1ε2q‖Δ(⋅,ξ)‖L∞([a,b])eClog(1/ε)|V(ci,ξ)|2, for all t∈[ci,di] and for |ξ|⩾1, where we have used Proposition 4.4, (ii), in the last step.</text></s>
+<s sid="157"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>Taking into account that we have at most p closed intervals [ci,di], by combining (4.7) with (4.13) we conclude that|V(b,ξ)|⩽C1εpq‖Δ(⋅,ξ)‖L∞([a,b])p/2eC(log(1/ε)+ε|ξ|)|V(a,ξ)|, for |ξ|⩾1.</text></s>
+<s sid="158"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>At this point setting ε=e-1〈ξ〉-1 we have that there exist constants C′&gt;0 and κ∈N such that(4.14)|V(b,ξ)|⩽C′〈ξ〉pq+κ|V(a,ξ)|, for |ξ|⩾1.</text></s>
+<s sid="159"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>This proves the C∞ well-posedness of the Cauchy problem (1.1).</text></s>
+<s sid="160"><CoreSc1 advantage="None" conceptID="Res77" novelty="None" type="Res"/><text>Similarly, (4.14) implies the well-posedness of (1.1) in D′(Rn). □</text></s>
+ Remark 4.7
+<s sid="161"><CoreSc1 advantage="None" conceptID="Res78" novelty="None" type="Res"/><text>Note that we can write the matrix B asB(t,ξ)=∑l=0m-1B-l(t,ξ), where B-l has entriesb-l,j(t,ξ)={∑|γ|=m-j-lam-j+1,γ(t)ξγ〈ξ〉j-m,for j⩽m-l,0,otherwise, of order -l for j=1,…,m.</text></s>
+It follows that〈(QB-B⁎Q)V,V〉=∑i=1m∑j=1m(qimbj-bi¯qjm)VjVi¯=∑l=0m-1∑i,j=1,…,m(qimb-l,j-b¯-l,iqjm)VjVi¯.
+<s sid="162"><CoreSc1 advantage="None" conceptID="Hyp1" novelty="None" type="Hyp"/><text>We notice that it is enough to put Levi conditions on terms up to order -(m-2) for the C∞ well-posedness.</text></s>
+More precisely, let h:=[m-12].
+<s sid="163"><CoreSc1 advantage="None" conceptID="Hyp2" novelty="None" type="Hyp"/><text>Then, it is enough to put Levi conditions on terms up to order -(2h-1) in order to get the C∞ well-posedness.</text></s>
+<s sid="164"><CoreSc1 advantage="None" conceptID="Res79" novelty="None" type="Res"/><text>Indeed, if|(qimb-l,j-b¯-l,iqjm)(t,ξ)|⩽cΔ(t,ξ),t∈[a,b],|ξ|⩾1 for 1⩽i,j⩽m and 0⩽l⩽2h-1 then by the hypothesis (3.3) and Proposition 4.4 we get the hyperbolic energy∂tE(t,ξ)=〈∂tQ(t,ξ)V(t,ξ),V(t,ξ)〉〈Q(t,ξ)V,V〉E(t,ξ)+i〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉⩽CΔ˜(t,ξ)Δ(t,ξ)E(t,ξ)+∑l=02h-1|〈(Q(t,ξ)B-l(t,ξ)-B-l⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉|+∑l=2hm-1|〈(Q(t,ξ)B-l(t,ξ)-B-l⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉|⩽c(1+|∂tΔ(t,ξ)|Δ(t,ξ))E(t,ξ)+c〈ξ〉-2hε-2hE(t,ξ).</text></s>
+<s sid="165"><CoreSc1 advantage="None" conceptID="Res80" novelty="None" type="Res"/><text>Note that∑l=02h-1|〈(Q(t,ξ)B-l(t,ξ)-B-l⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉| is estimated by means of the Levi conditions, whereas the bound 〈ξ〉-2hε-2hE(t,ξ) for∑l=2hm-1|〈(Q(t,ξ)B-l(t,ξ)-B-l⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉| is obtained by symbol properties.</text></s>
+<s sid="166"><CoreSc1 advantage="None" conceptID="Res81" novelty="None" type="Res"/><text>At this point setting ε=e-1〈ξ〉-1 we can estimate |V(t,ξ)|2 as in the proof of Theorem 3.1.</text></s>
+Remark 4.8
+<s sid="167"><CoreSc1 advantage="None" conceptID="Res82" novelty="None" type="Res"/><text>We thank the referee for pointing out that by using W, introduced in [6] (see Proposition 1, [6]) and the fact that〈QV,V〉=(m-1)!|WV|2, one can estimate 〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉 as follows:|〈(QB-B⁎Q)V,V〉|=(m-1)!|〈WBV,WV〉-〈WV,WBV〉|⩽C|WBV||WV|=C〈WBV,WBV〉12〈WV,WV〉12=C′〈QBV,BV〉12〈QV,V〉12=C′〈(B⁎QB)V,V〉12〈QV,V〉12.</text></s>
+<s sid="168"><CoreSc1 advantage="None" conceptID="Res83" novelty="None" type="Res"/><text>Now, by setting the Levi condition(4.15)〈(B⁎QB)V,V〉12⩽c|∂tΔ||V|, and applying the bound from below for the symmetriser in Lemma 4.2, we obtain|〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉|⩽c′|∂tΔ||V|〈QV,V〉12⩽c′|∂tΔ|Δ〈QV,V〉=c′2|∂tΔ|Δ〈QV,V〉.</text></s>
+<s sid="169"><CoreSc1 advantage="None" conceptID="Res84" novelty="None" type="Res"/><text>This will allow us to proceed with the energy estimate (4.9) even under the new Levi condition (4.15).</text></s>
+<s sid="170"><CoreSc1 advantage="None" conceptID="Res85" novelty="None" type="Res"/><text>The Levi conditions (4.10) and (4.15) seem unrelated.</text></s>
+<s sid="171"><CoreSc1 advantage="None" conceptID="Res86" novelty="None" type="Res"/><text>We simply note that, in the case of second order equations with principal part Dttu-a(t)Dxx, a⩾0, and arbitrary lower order terms, (4.15) is a condition on both the lower order terms b1 and b2 whereas (4.10) leaves b2 free.</text></s>
+<s sid="172"><CoreSc1 advantage="None" conceptID="Res87" novelty="None" type="Res"/><text>Finally, as suggested by the referee, one could slightly generalise the Levi condition (4.10) as follows:(4.16)|(qimbj-bi¯qjm)(t,ξ)|⩽c(Δ(t,ξ)+|∂tΔ(t,ξ)|).</text></s>
+<s sid="173"><CoreSc1 advantage="None" conceptID="Res88" novelty="None" type="Res"/><text>Indeed, (4.16) implies|〈(Q(t,ξ)B(t,ξ)-B⁎(t,ξ)Q(t,ξ))V(t,ξ),V(t,ξ)〉|⩽c(1+|∂tΔ(t,ξ)|Δ)E(t,ξ) and therefore the inequality (4.9) holds.</text></s>
+<s sid="174"><CoreSc1 advantage="None" conceptID="Res89" novelty="None" type="Res"/><text>For the second order equationDttu-t2μDxxu+itνDxu=0,μ,ν&gt;0, the condition (4.16) forcestν⩽c′t2μ-1, on [0,T], hence ν⩾2μ-1, whereas the Levi condition (4.10) entails ν⩾2μ.</text></s>
+<s sid="175"><CoreSc1 advantage="None" conceptID="Res90" novelty="None" type="Res"/><text>Examples and remarks on the condition (3.3) and the Levi conditions (3.4)</text></s>
+<s sid="176"><CoreSc1 advantage="None" conceptID="Res91" novelty="None" type="Res"/><text>In this section we collect some examples and we have a closer look at the hypothesis (3.3) and the Levi conditions (4.8) (or (3.4)).</text></s>
+<s sid="177"><CoreSc1 advantage="None" conceptID="Res92" novelty="None" type="Res"/><text>We begin with the hypothesis (3.3).</text></s>
+<s sid="178"><CoreSc1 advantage="None" conceptID="Hyp3" novelty="None" type="Hyp"/><text>For the sake of simplicity we will assume that the roots have only one zero at t=0 (the proof can be adapted to the case of a finite number of zeroes) and we will take the interval [a,b]=[0,T].</text></s>
+<s sid="179"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>Recall that in this case there exist positive constants c1,c2 such that(5.1)c11t2Δ(t,ξ)⩽Δ˜(t,ξ)⩽c21t2Δ(t,ξ), for t∈[0,T] and |ξ|⩾1.</text></s>
+<s sid="180"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>Before we argue this, we note that we will write such bounds over intervals of the type [0,T], meaning that they hold over (0,T] and extend uniformly over t=0 (usually due to cancellation of zeros).</text></s>
+<s sid="181"><CoreSc1 advantage="None" conceptID="Res93" novelty="None" type="Res"/><text>Now, the estimate (5.1) is trivial when t is far from 0, i.e. t∈[β,T]⊆[0,T] with β&gt;0, since both Δ(t,ξ) and Δ˜(t,ξ) are different from 0 there.</text></s>
+<s sid="182"><CoreSc1 advantage="None" conceptID="Res94" novelty="None" type="Res"/><text>When we are on a sufficiently small interval [0,β] using the analyticity in t of Δ(t,ξ) we have(5.2)t2(∂tΔ(t,ξ))2Δ2(t,ξ)∈L∞([0,β],|ξ|⩾1) and(5.3)t2Δ2(t,ξ)(∂tΔ(t,ξ))2∈L∞([0,β],|ξ|⩾1).</text></s>
+<s sid="183"><CoreSc1 advantage="None" conceptID="Res95" novelty="None" type="Res"/><text>To prove (5.2) recall the relation (4.2) and write Δ(t,ξ) as tkg(t,ξ), where k=k(ξ) is positive and bounded and |g(t,ξ)|⩾γ0 for all t∈[0,T] and |ξ|⩾1.</text></s>
+<s sid="184"><CoreSc1 advantage="None" conceptID="Res96" novelty="None" type="Res"/><text>Hence,t2(∂tΔ(t,ξ))2Δ2(t,ξ)=t2t2k-2(kg(t,ξ)+t∂tg(t,ξ))2t2kg2(t,ξ)⩽c for t∈[0,β] and |ξ|⩾1.</text></s>
+<s sid="185"><CoreSc1 advantage="None" conceptID="Res97" novelty="None" type="Res"/><text>Analogously, to prove (5.3) setting supt∈[0,T],|ξ|⩾1|g(t,ξ)|=γ1 and supt∈[0,T],|ξ|⩾1|∂tg(t,ξ)|=γ2 we gett2Δ2(t,ξ)(∂tΔ(t,ξ))2=t2t2kg2(t,ξ)t2k-2(kg(t,ξ)+t∂tg(t,ξ))2⩽t2k+2t2k-2g2(t,ξ)(k|g(t,ξ)|-t|∂tg(t,ξ)|)2⩽t4γ12(kγ0-tγ2)2, which is bounded on [0,β]×{ξ:|ξ|⩾1} choosing β small enough.</text></s>
+<s sid="186"><CoreSc1 advantage="None" conceptID="Res98" novelty="None" type="Res"/><text>Thus (5.1) is valid for t∈[0,β] and |ξ|⩾1.</text></s>
+<s sid="187"><CoreSc1 advantage="None" conceptID="Res99" novelty="None" type="Res"/><text>We are now ready to state the following proposition.</text></s>
+Proposition 5.1
+<s sid="188"><CoreSc1 advantage="None" conceptID="Res100" novelty="None" type="Res"/><text>Let m=2 and let λ1(t,ξ)=τ1(t,ξ)〈ξ〉-1,λ2(t,ξ)=τ2(t,ξ)〈ξ〉-1 be the renormalised roots of the characteristic polynomial of (1.1).</text></s>
+<s sid="189"><CoreSc1 advantage="None" conceptID="Res101" novelty="None" type="Res"/><text>Assume that λ1(t,ξ) and λ2(t,ξ) which are analytic in t coincide at t=0 only, with λ1(0,ξ)=λ2(0,ξ)=0.</text></s>
+<s sid="190"><CoreSc1 advantage="None" conceptID="Res102" novelty="None" type="Res"/><text>Then, the hypothesis (3.3) is equivalent to each of the following two conditions, for |ξ|⩾1 and T small enough:(i)</text></s>
+<s sid="191"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>there exists M&gt;0 such thatt2(∂tλ1(t,ξ))2+t2(∂tλ2(t,ξ))2⩽M(λ1(t,ξ)-λ2(t,ξ))2,t∈[0,T],|ξ|⩾1;</text></s>
+(ii)
+<s sid="192"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>there exists M&gt;0 such thatλ12(t,ξ)+λ22(t,ξ)⩽M(λ1(t,ξ)-λ2(t,ξ))2,t∈[0,T],|ξ|⩾1.</text></s>
+ Proof
+<s sid="193"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>We recall that τ1(t,ξ) and τ2(t,ξ) are the roots of the characteristic polynomialτ2-∑|ν|=1aν,|ν|(t)ξντ-∑|ν|=2aν,|ν|(t)ξν.</text></s>
+Hence,λ1(t,ξ)=∑|ν|=1aν,|ν|(t)ξν〈ξ〉-1-Δ(t,ξ)2 andλ2(t,ξ)=∑|ν|=1aν,|ν|(t)ξν〈ξ〉-1+Δ(t,ξ)2, whereΔ(t,ξ)=(∑|ν|=1aν,|ν|(t)ξν)2〈ξ〉-2+4∑|ν|=2aν,|ν|(t)ξν〈ξ〉-2.
+Clearly,(λ1(t,ξ)-λ2(t,ξ))2=Δ(t,ξ).
+Moreover,(∂tλ1(t,ξ))2+(∂tλ2(t,ξ))2⩽c(∂tλ1(t,ξ)+∂tλ2(t,ξ))2+c(∂tΔ(t,ξ))2.
+<s sid="194"><CoreSc1 advantage="None" conceptID="Res103" novelty="None" type="Res"/><text>By definition |ψ(t,ξ)|=(∂tλ1(t,ξ)+∂tλ2(t,ξ))2, hence (3.3) implies(5.4)(∂tλ1(t,ξ))2+(∂tλ2(t,ξ))2⩽c(Δ(t,ξ)+(∂tΔ(t,ξ))2Δ(t,ξ))=cΔ˜(t,ξ).</text></s>
+<s sid="195"><CoreSc1 advantage="None" conceptID="Res104" novelty="None" type="Res"/><text>From the previous observation (5.1) on Δ˜ we have that Δ˜(t,ξ)⩽c2(1/t2)Δ(t,ξ) on [0,T] for |ξ|⩾1.</text></s>
+<s sid="196"><CoreSc1 advantage="None" conceptID="Res105" novelty="None" type="Res"/><text>Applied to (5.4) this proves that (3.3) implies (i).</text></s>
+Assume that (i) holds.
+<s sid="197"><CoreSc1 advantage="None" conceptID="Res106" novelty="None" type="Res"/><text>By Taylorʼs expansion and adding and subtracting the term ∂tλ1(θ2t,ξ) we can write(λ1(t,ξ))2+(λ2(t,ξ))2=(∂tλ1(θ1t,ξ)t)2+(∂tλ2(θ2t,ξ)t)2⩽2t2(∂tλ1(θ1t,ξ)-∂tλ1(θ2t,ξ))2+2t2(∂tλ1(θ2t,ξ))2+t2(∂tλ2(θ2t,ξ))2.</text></s>
+The hypothesis (i) yields(5.5)(λ1(t,ξ))2+(λ2(t,ξ))2⩽ct2(∂tλ1(θ1t,ξ)-∂tλ1(θ2t,ξ))2+c(λ1(θ2t,ξ)-λ2(θ2t,ξ))2.
+<s sid="198"><CoreSc1 advantage="None" conceptID="Res107" novelty="None" type="Res"/><text>Both the summands in the right-hand side of (5.5) are bounded by (λ1(t,ξ)-λ2(t,ξ)).</text></s>
+<s sid="199"><CoreSc1 advantage="None" conceptID="Res108" novelty="None" type="Res"/><text>Indeed, recalling that λ1(t,ξ)=tk1g1(t,ξ), λ2(t,ξ)=tk2g2(t,ξ), where g1(t,ξ)≠0, g2(t,ξ)≠0 and the functions k1(ξ),k2(ξ) are positive and bounded, we obtaint2(∂tλ1(θ1t,ξ)-∂tλ1(θ2t,ξ))2Δ(t,ξ)=t2(k1(θ1t)k1-1g1(θ1t,ξ)+(θ1t)k1∂tg1(θ1t,ξ)-k2(θ2t)k2-1g2(θ2t,ξ)-(θ2t)k2∂tg2(θ2t,ξ))2(tk1g1(t,ξ)-tk2g2(t,ξ))2⩽cg1t2k1+cg2t2k2t2k(tk1-kg1(t,ξ)-tk2-kg2(t,ξ))2, where k=min{k1,k2}.</text></s>
+<s sid="200"><CoreSc1 advantage="None" conceptID="Res109" novelty="None" type="Res"/><text>Since the functions g1 and g2 are bounded with |g1(t,ξ)|⩾c1 and |g2(t,ξ)|⩾c2 for t∈[0,T] and |ξ|⩾1, we have that the bound from below|tk1-kg1(t,ξ)-tk2-kg2(t,ξ)|⩾c3 holds uniformly in |ξ|⩾1 and t∈[0,T], when T is sufficiently small.</text></s>
+Thus,t2(∂tλ1(θ1t,ξ)-∂tλ1(θ2t,ξ))2Δ(t,ξ)⩽cg1t2k1+cg2t2k2t2k(tk1-kg1(t,ξ)-tk2-kg2(t,ξ))2⩽C.
+Analogously,(λ1(θ2t,ξ)-λ2(θ2t,ξ))2Δ(t,ξ)=(λ1(θ2t,ξ)-λ2(θ2t,ξ))2(λ1(t,ξ)-λ2(t,ξ))2=((θ2t)k1g1(θ2t,ξ)-(θ2t)k2g2(θ2t,ξ))2(tk1g1(t,ξ)-tk2g2(t,ξ))2⩽cg1t2k1+cg2t2k2t2k(tk1-kg1(t,ξ)-tk2-kg2(t,ξ))2⩽C.
+<s sid="201"><CoreSc1 advantage="None" conceptID="Res110" novelty="None" type="Res"/><text>This completes the proof of (i) implies (ii).</text></s>
+<s sid="202"><CoreSc1 advantage="None" conceptID="Res111" novelty="None" type="Res"/><text>It remains to prove that (ii) implies (3.3).</text></s>
+<s sid="203"><CoreSc1 advantage="None" conceptID="Res112" novelty="None" type="Res"/><text>We recall that from Lemma 5 in [6], applied to ∂tλ1 and ∂tλ2, the estimatet|∂tλi(t,ξ)|⩽c|λi(t,ξ)| holds for i=1,2, uniformly in t∈[0,T] and |ξ|⩾1.</text></s>
+<s sid="204"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>Then, under the hypothesis (ii) we gett2|ψ(t,ξ)|=t2(∂tλ1(t,ξ)+λ2(t,ξ))2⩽2t2(∂tλ1(t,ξ))2+2t2(∂tλ2(t,ξ))2⩽cλ12(t,ξ)+cλ22(t,ξ)⩽M(λ1(t,ξ)-λ2(t,ξ))2=MΔ(t,ξ).</text></s>
+<s sid="205"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>Finally, from (5.1) we conclude that |ψ(t,ξ)|⩽CΔ˜(t,ξ).</text></s>
+<s sid="206"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>This completes the proof. □</text></s>
+<s sid="207"><CoreSc1 advantage="None" conceptID="Res113" novelty="None" type="Res"/><text>We assume now for simplicity that the lower order terms in (1.1) are real-valued.</text></s>
+<s sid="208"><CoreSc1 advantage="None" conceptID="Res114" novelty="None" type="Res"/><text>We want to compare the Levi condition in (4.11) with the corresponding Levi condition introduced in [6], which assumes(5.6)|bj(t,ξ)|2⩽cqjj(t,ξ),j=1,…,m.</text></s>
+<s sid="209"><CoreSc1 advantage="None" conceptID="Res115" novelty="None" type="Res"/><text>In general (5.6) is weaker than (4.11), in the sense that (4.11) implies (5.6).</text></s>
+<s sid="210"><CoreSc1 advantage="None" conceptID="Res116" novelty="None" type="Res"/><text>However, for the second order equations we have: Proposition 5.2</text></s>
+Let m=2.
+<s sid="211"><CoreSc1 advantage="None" conceptID="Res117" novelty="None" type="Res"/><text>If the roots λ1,λ2 fulfil(5.7)λ12(t,ξ)+λ22(t,ξ)⩽M(λ1(t,ξ)-λ2(t,ξ))2,t∈[a,b],|ξ|⩾1, then the Levi condition (5.6) is equivalent to(5.8)|(q12b2-b1q22)(t,ξ)|2⩽cΔ(t,ξ) for t∈[a,b] and |ξ|⩾1.</text></s>
+ Proof
+<s sid="212"><CoreSc1 advantage="None" conceptID="Con15" novelty="None" type="Con"/><text>We recall that in this case the symmetriser is given by the matrixQ=(λ12+λ22-λ1-λ2-λ1-λ22).</text></s>
+<s sid="213"><CoreSc1 advantage="None" conceptID="Res118" novelty="None" type="Res"/><text>From (5.7) it is clear that Δ(t,ξ) is equivalent to λ12(t,ξ)+λ22(t,ξ).</text></s>
+We begin by writing|2b1(t,ξ)|2⩽|q22(t,ξ)b1(t,ξ)-q12(t,ξ)b2(t,ξ)+q12(t,ξ)b2(t,ξ)|2⩽2|q22(t,ξ)b1(t,ξ)-q12(t,ξ)b2(t,ξ)|2+2|q12(t,ξ)b2(t,ξ)|2.
+<s sid="214"><CoreSc1 advantage="None" conceptID="Res119" novelty="None" type="Res"/><text>Using the definition of the entries of Q given above, the fact that Δ is equivalent to λ12+λ22 and the boundedness of b2, we obtain under the assumption (5.8) that|b1(t,ξ)|2⩽c(Δ(t,ξ)+(λ1(t,ξ)+λ2(t,ξ))2)⩽c′(λ12(t,ξ)+λ22(t,ξ))=c′q11(t,ξ).</text></s>
+<s sid="215"><CoreSc1 advantage="None" conceptID="Res120" novelty="None" type="Res"/><text>This shows that (5.8) implies (5.6) for j=1.</text></s>
+<s sid="216"><CoreSc1 advantage="None" conceptID="Res121" novelty="None" type="Res"/><text>For j=2 condition (5.6) means |b2(t,ξ)|⩽C which is trivially satisfied.</text></s>
+<s sid="217"><CoreSc1 advantage="None" conceptID="Res122" novelty="None" type="Res"/><text>Conversely, if (5.6) holds then|q22(t,ξ)b1(t,ξ)-q12(t,ξ)b2(t,ξ)|2⩽2|q22(t,ξ)b1(t,ξ)|2+2|q12(t,ξ)b2(t,ξ)|2⩽c(q11(t,ξ)+q122(t,ξ))⩽c′(λ12(t,ξ)+λ22(t,ξ)), which implies that (5.8) is valid. □</text></s>
+<s sid="218"><CoreSc1 advantage="None" conceptID="Res123" novelty="None" type="Res"/><text>Clearly Δ2(t,ξ)⩽cΔ(t,ξ) when t∈[a,b] and |ξ|⩾1, so (4.11)⇒(5.8)⇔(5.6) under the assumption on the roots (5.7).</text></s>
+<s sid="219"><CoreSc1 advantage="None" conceptID="Res124" novelty="None" type="Res"/><text>Proposition 5.2 also shows that the Levi conditions on the lower order terms can be improved by making use of the hypothesis (3.3).</text></s>
+<s sid="220"><CoreSc1 advantage="None" conceptID="Con16" novelty="None" type="Con"/><text>This requires a precise knowledge of the relation between the roots of the equation and the check function ψ.</text></s>
+
+</BODY>
+</PAPER>

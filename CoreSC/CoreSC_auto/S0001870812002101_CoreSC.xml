@@ -1,0 +1,562 @@
+<?xml version="1.0" ?><PAPER><mode2 hasDoc="yes" name="S0001870812002101.tmf1" version="elsevier"/>
+<TITLE>Integrality of the Chern character in small codimension
+</TITLE>
+<ABSTRACT>
+
+Abstract
+<s sid="1"><CoreSc1 advantage="None" conceptID="Obj1" novelty="None" type="Obj"/><text>We prove an integrality property of the Chern character with values in Chow groups.</text></s>
+<s sid="2"><CoreSc1 advantage="None" conceptID="Obj2" novelty="None" type="Obj"/><text>As a consequence, we obtain a construction of the p-1 first homological Steenrod operations on Chow groups modulo p and p-primary torsion, over an arbitrary field.</text></s>
+<s sid="3"><CoreSc1 advantage="None" conceptID="Obj3" novelty="None" type="Obj"/><text>We provide applications to the study of correspondences between algebraic varieties.</text></s>
+</ABSTRACT>
+<BODY>
+
+Introduction
+<s sid="4"><CoreSc1 advantage="None" conceptID="Mod1" novelty="None" type="Mod"/><text>The Grothendieck-Riemann-Roch theorem of [5] can be expressed as the existence of the homological Chern character, a collection of group morphisms chi:K0′(X)→CHi(X)Q, which are compatible with projective push-forwards.</text></s>
+<s sid="5"><CoreSc1 advantage="None" conceptID="Mod2" novelty="None" type="Mod"/><text>Here X is a (possibly singular) algebraic variety, K0′(X) the Grothendieck group of coherent sheaves, and CHi(X)Q the Chow group of X of algebraic cycles of dimension i, with Q-coefficients.</text></s>
+<s sid="6"><CoreSc1 advantage="None" conceptID="Mod3" novelty="None" type="Mod"/><text>Compatibility with pull-backs is expressed by a Riemann-Roch type formula involving the Todd class.</text></s>
+<s sid="7"><CoreSc1 advantage="None" conceptID="Mod4" novelty="None" type="Mod"/><text>Given a prime number p, one can formulate the following statement describing a p-integrality property of the homological Chern character. Conjecture</text></s>
+<s sid="8"><CoreSc1 advantage="None" conceptID="Mod5" novelty="None" type="Mod"/><text>Let X be a variety, and n a positive integer. Thenp[n/(p-1)]⋅chdimX-n[OX]∈im(CHdimX-n(X)Z(p)→CHdimX-n(X)Q).</text></s>
+<s sid="9"><CoreSc1 advantage="None" conceptID="Met1" novelty="None" type="Met"/><text>The topological analog of this conjecture was stated and proved by Adams in [1, Theorem 1].</text></s>
+<s sid="10"><CoreSc1 advantage="None" conceptID="Met2" novelty="None" type="Met"/><text>A more elementary proof of this topological result was later given by Atiyah [4, Theorem 7.1], under the quite restrictive assumption that X is a CW-complex whose homology has no torsion.</text></s>
+<s sid="11"><CoreSc1 advantage="None" conceptID="Met3" novelty="None" type="Met"/><text>Although our approach is more akin to Atiyah's than Adams' (where in particular Steenrod operations were used), no condition of such nature will appear.</text></s>
+<s sid="12"><CoreSc1 advantage="None" conceptID="Obj4" novelty="None" type="Obj"/><text>In [14, Theorem 4.4], we proved the conjecture for p=2 and n=1.</text></s>
+<s sid="13"><CoreSc1 advantage="None" conceptID="Obj5" novelty="None" type="Obj"/><text>In the present article, we prove it for n&lt;p(p-1), and any p (Section 3).</text></s>
+<s sid="14"><CoreSc1 advantage="None" conceptID="Obj6" novelty="None" type="Obj"/><text>In particular we recover the previously obtained result, using an argument of different nature.</text></s>
+<s sid="15"><CoreSc1 advantage="None" conceptID="Obj7" novelty="None" type="Obj"/><text>We discuss in Appendix how this result can be extended to the more general setting of a scheme of finite type over a regular base.</text></s>
+<s sid="16"><CoreSc1 advantage="None" conceptID="Bac1" novelty="None" type="Bac"/><text>Let us mention that the conjecture is an immediate consequence of the formula expressing compatibility of the homological Chern character with pull-backs when X is smooth, or more generally a local complete intersection variety.</text></s>
+<s sid="17"><CoreSc1 advantage="None" conceptID="Bac2" novelty="None" type="Bac"/><text>This remark can be used to prove the conjecture in the presence of some form of resolution of singularities.</text></s>
+<s sid="18"><CoreSc1 advantage="None" conceptID="Res1" novelty="None" type="Res"/><text>Using a result of Gabber on existence of regular alterations, we prove the conjecture for all n, when the characteristic of the base field is not p.</text></s>
+<s sid="19"><CoreSc1 advantage="None" conceptID="Res2" novelty="None" type="Res"/><text>The n-th Steenrod operation on Chow groups modulo p is an endomorphism of the Chow group with Z/p-coefficients which lowers dimension of cycles by n(p-1).</text></s>
+<s sid="20"><CoreSc1 advantage="None" conceptID="Obj8" novelty="None" type="Obj"/><text>The Steenrod operations constitute an efficient tool for studying rationality properties of projective homogeneous varieties.</text></s>
+<s sid="21"><CoreSc1 advantage="None" conceptID="Obj9" novelty="None" type="Obj"/><text>The classical constructions of the operations modulo p[6-8,21,30] do not work over a field of characteristic p.</text></s>
+<s sid="22"><CoreSc1 advantage="None" conceptID="Obj10" novelty="None" type="Obj"/><text>In [14], we constructed a weak form of the operation for p=2 and n=1, over any field.</text></s>
+<s sid="23"><CoreSc1 advantage="None" conceptID="Obj11" novelty="None" type="Obj"/><text>We later obtained the full version of this operation in [16].</text></s>
+<s sid="24"><CoreSc1 advantage="None" conceptID="Obj12" novelty="None" type="Obj"/><text>In the present paper, we construct a weak form of the n-th Steenrod operation modulo p, for p an arbitrary prime and n=1,…,p-1, over any field.</text></s>
+<s sid="25"><CoreSc1 advantage="None" conceptID="Mod6" novelty="None" type="Mod"/><text>More precisely, assuming that the conjecture above holds true for n≤m(p-1), and given any (possibly singular) variety X over an arbitrary field, we construct for each integer i such that 0&lt;i≤m, a morphism of graded abelian groups Ti:CH•(X)⊗Z/p→CH˜•-i(p-1)(X)⊗Z/p.</text></s>
+<s sid="26"><CoreSc1 advantage="None" conceptID="Obj13" novelty="None" type="Obj"/><text>Here CH˜d is the quotient of the Chow group CHd by its torsion subgroup.</text></s>
+<s sid="27"><CoreSc1 advantage="None" conceptID="Obj14" novelty="None" type="Obj"/><text>These morphisms are compatible with proper push-forwards, external products, and extension of the base field.</text></s>
+<s sid="28"><CoreSc1 advantage="None" conceptID="Obj15" novelty="None" type="Obj"/><text>We also provide a Riemann-Roch type formula expressing compatibility with pull-backs along local complete intersection morphisms.</text></s>
+<s sid="29"><CoreSc1 advantage="None" conceptID="Obj16" novelty="None" type="Obj"/><text>Thus we construct operations T1,…,Tp-1 unconditionally, and operations Ti for all i&gt;0 when the characteristic of the base field is not p.</text></s>
+<s sid="30"><CoreSc1 advantage="None" conceptID="Mod7" novelty="None" type="Mod"/><text>The operation Ti corresponds-up to a sign-to the i-th Steenrod operation modulo p when i≤p.</text></s>
+<s sid="31"><CoreSc1 advantage="None" conceptID="Mod8" novelty="None" type="Mod"/><text>More generally, the total operation ∑iTi corresponds to the inverse of the total Steenrod operation ∑jSj.</text></s>
+<s sid="32"><CoreSc1 advantage="None" conceptID="Obj17" novelty="None" type="Obj"/><text>We explain how to recover the operation induced by Sj on reduced Chow groups (the reduced Steenrod operation) from the operations Ti.</text></s>
+<s sid="33"><CoreSc1 advantage="None" conceptID="Obj18" novelty="None" type="Obj"/><text>In the last part of this paper, we prove the degree formula corresponding to the operations Ti.</text></s>
+<s sid="34"><CoreSc1 advantage="None" conceptID="Obj19" novelty="None" type="Obj"/><text>Since we only proved the conjecture in general for small values of n, we need to work with varieties of dimension ≤p(p-1) (note that the dimension p(p-1) is allowed).</text></s>
+<s sid="35"><CoreSc1 advantage="None" conceptID="Obj20" novelty="None" type="Obj"/><text>We first give a bound on the p-adic valuation of the index of a projective variety in terms of its dimension and of the Euler characteristic of its structure sheaf.</text></s>
+<s sid="36"><CoreSc1 advantage="None" conceptID="Obj21" novelty="None" type="Obj"/><text>Then we deduce from the degree formula that the Severi-Brauer variety of a central division algebra of prime degree p is strongly p-incompressible.</text></s>
+<s sid="37"><CoreSc1 advantage="None" conceptID="Mot1" novelty="None" type="Mot"/><text>This is a new statement when the base field has characteristic p.</text></s>
+<s sid="38"><CoreSc1 advantage="None" conceptID="Goa1" novelty="None" type="Goa"/><text>Finally, we show that the Euler characteristic of the structure sheaf of a smooth projective variety of dimension p-1, possessing a special correspondence but no zero-cycle of degree prime to p, is prime to p.</text></s>
+<s sid="39"><CoreSc1 advantage="None" conceptID="Obj22" novelty="None" type="Obj"/><text>This extends a statement of Rost to arbitrary base fields.</text></s>
+Notations
+<s sid="40"><CoreSc1 advantage="None" conceptID="Obj23" novelty="None" type="Obj"/><text>Varieties. We fix a base field k.</text></s>
+<s sid="41"><CoreSc1 advantage="None" conceptID="Obj24" novelty="None" type="Obj"/><text>A variety is a finite type, separated, quasi-projective scheme over k.</text></s>
+<s sid="42"><CoreSc1 advantage="None" conceptID="Obj25" novelty="None" type="Obj"/><text>A morphism of varieties is a morphism of schemes over k.</text></s>
+<s sid="43"><CoreSc1 advantage="None" conceptID="Obj26" novelty="None" type="Obj"/><text>We will denote by V ar/k this category.</text></s>
+<s sid="44"><CoreSc1 advantage="None" conceptID="Mod9" novelty="None" type="Mod"/><text>We also denote by Proj/k the category with the same objects, but with morphisms only those which are projective.</text></s>
+<s sid="45"><CoreSc1 advantage="None" conceptID="Mod10" novelty="None" type="Mod"/><text>The function field of an integral variety X shall be denoted by k(X).</text></s>
+Integral elements.
+<s sid="46"><CoreSc1 advantage="None" conceptID="Mod11" novelty="None" type="Mod"/><text>For a number α∈Q, we write [α] for the greatest integer ≤α.</text></s>
+<s sid="47"><CoreSc1 advantage="None" conceptID="Mod12" novelty="None" type="Mod"/><text>Let A be an abelian group.</text></s>
+<s sid="48"><CoreSc1 advantage="None" conceptID="Mod13" novelty="None" type="Mod"/><text>For any commutative ring R we write AR for A⊗ZR, and, if S is another commutative ring containing R, we write AR⊂S=im(AR→AS).</text></s>
+<s sid="49"><CoreSc1 advantage="None" conceptID="Mod14" novelty="None" type="Mod"/><text>Note that if A is a ring, then AR⊂S is a subring of AS.</text></s>
+<s sid="50"><CoreSc1 advantage="None" conceptID="Mod15" novelty="None" type="Mod"/><text>Let p be a prime number.</text></s>
+<s sid="51"><CoreSc1 advantage="None" conceptID="Mod16" novelty="None" type="Mod"/><text>When R=Z(p) (the subring of Q consisting of fractions with denominator prime to p), S=Q, and x∈AQ-{0}, we denote by vp(x) the greatest integer r such that p-r⋅x∈AZ(p)⊂Q.</text></s>
+We set vp(0)=∞.
+<s sid="52"><CoreSc1 advantage="None" conceptID="Mod17" novelty="None" type="Mod"/><text>When x,y∈AQ, we have vp(x+y)≥min(vp(x),vp(y)).</text></s>
+<s sid="53"><CoreSc1 advantage="None" conceptID="Mod18" novelty="None" type="Mod"/><text>If A is a commutative ring, M an A-module, a∈AQ, and m∈MQ, we have (1)vp(a⋅m)≥vp(a)+vp(m).</text></s>
+Grothendieck groups of schemes.
+<s sid="54"><CoreSc1 advantage="None" conceptID="Mod19" novelty="None" type="Mod"/><text>We denote by K0(-) the presheaf of rings on V ar/k which associates to a variety X the Grothendieck ring of locally-free coherent OX-modules.</text></s>
+<s sid="55"><CoreSc1 advantage="None" conceptID="Mod20" novelty="None" type="Mod"/><text>We denote by K0′(-) the functor Proj/k→Ab which associates to a variety X the Grothendieck group of coherent OX-modules.</text></s>
+<s sid="56"><CoreSc1 advantage="None" conceptID="Mod21" novelty="None" type="Mod"/><text>Here, and in the rest of the paper, the notation Ab stands for the category of abelian groups.</text></s>
+Local complete intersection morphisms.
+<s sid="57"><CoreSc1 advantage="None" conceptID="Mod22" novelty="None" type="Mod"/><text>(See [9, Appendix B.7.6].) These are the morphisms of varieties f:Y→X which can be factored as p∘i, with i a regular closed embedding, and p a smooth morphism.</text></s>
+<s sid="58"><CoreSc1 advantage="None" conceptID="Mod23" novelty="None" type="Mod"/><text>Such a morphism admits a virtual tangent bundle Tf=i∗[Tp]-[Ni]∈K0(Y), where Tp is the tangent bundle of p, and Ni the normal bundle of i.</text></s>
+<s sid="59"><CoreSc1 advantage="None" conceptID="Mod24" novelty="None" type="Mod"/><text>This element does not depend on the choice of the factorization.</text></s>
+<s sid="60"><CoreSc1 advantage="None" conceptID="Mod25" novelty="None" type="Mod"/><text>There are pull-backs f∗:CH(X)→CH(Y) and f∗:K0′(X)→K0′(Y).</text></s>
+<s sid="61"><CoreSc1 advantage="None" conceptID="Mod26" novelty="None" type="Mod"/><text>We call a variety X a local complete intersection variety if its structural morphism x:X→Spec(k) is a local complete intersection morphism.</text></s>
+<s sid="62"><CoreSc1 advantage="None" conceptID="Mod27" novelty="None" type="Mod"/><text>We denote by TX∈K0(X) the virtual tangent bundle Tx of x.</text></s>
+Topological filtration.
+<s sid="63"><CoreSc1 advantage="None" conceptID="Mod28" novelty="None" type="Mod"/><text>Let X be a variety, and d an integer.</text></s>
+<s sid="64"><CoreSc1 advantage="None" conceptID="Mod29" novelty="None" type="Mod"/><text>We denote by K0′(X)(d) the subgroup of K0′(X) generated by those OX-modules whose support has dimension ≤d.</text></s>
+<s sid="65"><CoreSc1 advantage="None" conceptID="Res3" novelty="None" type="Res"/><text>It coincides with the subgroup generated by elements of type i∗[OZ], where i:Z↪X is a closed embedding, and dimZ≤d.</text></s>
+<s sid="66"><CoreSc1 advantage="None" conceptID="Res4" novelty="None" type="Res"/><text>When f:Y→X is a projective morphism, we have f∗K0′(Y)(d)⊂K0′(X)(d).</text></s>
+<s sid="67"><CoreSc1 advantage="None" conceptID="Res5" novelty="None" type="Res"/><text>When f:Y→X is a local complete intersection morphism of relative dimension n, we have [11, Theorem 83 and Lemma 84]f∗K0′(X)(d)⊂K0′(Y)(d+n).</text></s>
+<s sid="68"><CoreSc1 advantage="None" conceptID="Res6" novelty="None" type="Res"/><text>The associated graded group is denoted by grdK0′(X)=K0′(X)(d)/K0′(X)(d-1).</text></s>
+<s sid="69"><CoreSc1 advantage="None" conceptID="Res7" novelty="None" type="Res"/><text>There is a natural transformation of functors Proj/k→Ab(2)φ-:CH(-)→grK0′(-) which respects the gradings [9, Example 15.5].</text></s>
+<s sid="70"><CoreSc1 advantage="None" conceptID="Res8" novelty="None" type="Res"/><text>It is moreover compatible with pull-backs along local complete intersection morphisms, external products, and extension of the base field (see [15, Section 3]).</text></s>
+Chow cohomology ring.
+<s sid="71"><CoreSc1 advantage="None" conceptID="Obj27" novelty="None" type="Obj"/><text>Let X be a possibly singular variety, and consider the operational Chow ring CH(X⟶idX) (see [9, Definition 17.3]).</text></s>
+<s sid="72"><CoreSc1 advantage="None" conceptID="Obj28" novelty="None" type="Obj"/><text>When resolution of singularities is available, this ring is commutative [9, Example 17.4.4].</text></s>
+<s sid="73"><CoreSc1 advantage="None" conceptID="Obj29" novelty="None" type="Obj"/><text>We denote by CH(X) the subgroup of elements x∈CH(X⟶idX) such that for any morphism f:Y→X the element f∗x belongs to the center of CH(Y⟶idY).</text></s>
+<s sid="74"><CoreSc1 advantage="None" conceptID="Obj30" novelty="None" type="Obj"/><text>The group CH(X) has a natural structure of a CH(X)-module.</text></s>
+<s sid="75"><CoreSc1 advantage="None" conceptID="Obj31" novelty="None" type="Obj"/><text>We obtain a presheaf of commutative rings CH on V ar/k, in which Chern classes of vector bundles take their values [9, Proposition 17.3.2].</text></s>
+<s sid="76"><CoreSc1 advantage="None" conceptID="Obj32" novelty="None" type="Obj"/><text>When E is a vector bundle over a variety X, we write Td(E)∈CH(X)Q for the total Todd class [9, Example 3.2.4].</text></s>
+<s sid="77"><CoreSc1 advantage="None" conceptID="Obj33" novelty="None" type="Obj"/><text>The individual components are Tdi(E)∈CHi(X)Q.</text></s>
+Chern character.
+<s sid="78"><CoreSc1 advantage="None" conceptID="Res9" novelty="None" type="Res"/><text>The homological Chern character is a natural transformation of functors Proj→Abch:K0′(-)→CH(-)Q.</text></s>
+<s sid="79"><CoreSc1 advantage="None" conceptID="Res10" novelty="None" type="Res"/><text>This is the map τ of [9, Theorem 18.3].</text></s>
+<s sid="80"><CoreSc1 advantage="None" conceptID="Obs1" novelty="None" type="Obs"/><text>Its component of dimension i will be chi:K0′(-)→CHi(-)Q.</text></s>
+Adams operations.
+(See [28]) Let l∈Z-{0}.
+<s sid="81"><CoreSc1 advantage="None" conceptID="Obs2" novelty="None" type="Obs"/><text>The l-th homological Adams operation is a natural transformation of functors Proj→Abψl:K0′(-)→K0′(-)⊗Z[1/l].</text></s>
+Part 1.
+<s sid="82"><CoreSc1 advantage="None" conceptID="Obs3" novelty="None" type="Obs"/><text>Integrality of the Chern character</text></s>
+<s sid="83"><CoreSc1 advantage="None" conceptID="Obs4" novelty="None" type="Obs"/><text>We fix a prime number p.</text></s>
+<s sid="84"><CoreSc1 advantage="None" conceptID="Obs5" novelty="None" type="Obs"/><text>We say that p-integrality holds in codimension ≤c if the following statement is true.</text></s>
+Statement 1.1
+<s sid="85"><CoreSc1 advantage="None" conceptID="Res11" novelty="None" type="Res"/><text>Let X be a variety and d≥0 an integer.</text></s>
+<s sid="86"><CoreSc1 advantage="None" conceptID="Res12" novelty="None" type="Res"/><text>Then for all integers n such that 0≤n≤c, and all elements x∈K0′(X)(d), we havevp(chd-n(x))≥-[np-1].</text></s>
+<s sid="87"><CoreSc1 advantage="None" conceptID="Res13" novelty="None" type="Res"/><text>We prove in Section 3 that p-integrality holds in codimension ≤p(p-1)-1.</text></s>
+<s sid="88"><CoreSc1 advantage="None" conceptID="Res14" novelty="None" type="Res"/><text>Moreover, we prove in Section 4 that p-integrality holds in codimension ≤m for all m when the characteristic of the base field is not p.</text></s>
+<s sid="89"><CoreSc1 advantage="None" conceptID="Hyp1" novelty="None" type="Hyp"/><text>We expect that this assumption is superfluous.</text></s>
+<s sid="90"><CoreSc1 advantage="None" conceptID="Obj34" novelty="None" type="Obj"/><text>Adams operations and Chern character</text></s>
+<s sid="91"><CoreSc1 advantage="None" conceptID="Obj35" novelty="None" type="Obj"/><text>We fix an element l∈Z-{0}.</text></s>
+<s sid="92"><CoreSc1 advantage="None" conceptID="Goa2" novelty="None" type="Goa"/><text>The sole purpose of this section is to prove, in Proposition 2.4, the relation for n≥0, (3)chn∘ψl=l-n⋅chn.</text></s>
+<s sid="93"><CoreSc1 advantage="None" conceptID="Con1" novelty="None" type="Con"/><text>This is certainly very classical, at least so is the cohomological counterpart of this statement.</text></s>
+<s sid="94"><CoreSc1 advantage="None" conceptID="Obj36" novelty="None" type="Obj"/><text>Due to the lack of suitable reference, we give some details in this section.</text></s>
+<s sid="95"><CoreSc1 advantage="None" conceptID="Obj37" novelty="None" type="Obj"/><text>We shall need to introduce some notations, but except in Appendix, the only thing used in the sequel will be the relation (3).</text></s>
+Cohomological variants.
+<s sid="96"><CoreSc1 advantage="None" conceptID="Obj38" novelty="None" type="Obj"/><text>The cohomological (i.e. usual) Chern character [9, Example 3.2.3] is a morphism of presheaves of rings on V ar/kch:K0(-)→CH(-)Q.</text></s>
+<s sid="97"><CoreSc1 advantage="None" conceptID="Obj39" novelty="None" type="Obj"/><text>The cohomological (i.e. usual) l-th Adams operation is a morphism of presheaves of rings on V ar/kψl:K0(-)→K0(-), sending the class of a line bundle to its l-th tensor power.</text></s>
+<s sid="98"><CoreSc1 advantage="None" conceptID="Obs6" novelty="None" type="Obs"/><text>When X is connected, the ring K0(X) has an augmentation rank:K0(X)→Z sending the class of a vector bundle to its rank.</text></s>
+Bott's class.
+<s sid="99"><CoreSc1 advantage="None" conceptID="Res15" novelty="None" type="Res"/><text>Consider the Laurent polynomial in the variable xtl(x)=1-xl1-x.</text></s>
+<s sid="100"><CoreSc1 advantage="None" conceptID="Res16" novelty="None" type="Res"/><text>There is a unique morphism of presheaves of abelian groups on V ar/kθl:K0(-)→(Z[1/l]⊗K0(-))× such that for all line bundles L, θl(L)=tl[L∨].</text></s>
+<s sid="101"><CoreSc1 advantage="None" conceptID="Res17" novelty="None" type="Res"/><text>Note that this does not follow [28], where θl(L)=tl[L].</text></s>
+K-theory with supports.
+<s sid="102"><CoreSc1 advantage="None" conceptID="Res18" novelty="None" type="Res"/><text>When X is a closed subvariety of a variety W, the notation K0X(W) stands for the Grothendieck group of complexes of locally free OW-modules, which are acyclic off X, modulo the classes of acyclic complexes.</text></s>
+<s sid="103"><CoreSc1 advantage="None" conceptID="Obs7" novelty="None" type="Obs"/><text>It has a natural structure of a K0(W)-module.</text></s>
+<s sid="104"><CoreSc1 advantage="None" conceptID="Obs8" novelty="None" type="Obs"/><text>We denote by CH(X→W) the bivariant Chow group (see [9, Definition 17.1]).</text></s>
+<s sid="105"><CoreSc1 advantage="None" conceptID="Obs9" novelty="None" type="Obs"/><text>There are maps -∩[OW]:K0X(W)→K0′(X),-∩[W]:CH(X→W)→CH(X) which are isomorphisms when W is smooth ([12, Lemma 1.9] and [9, Proposition 17.4.2]).</text></s>
+<s sid="106"><CoreSc1 advantage="None" conceptID="Res19" novelty="None" type="Res"/><text>We write chXW:K0X(W)→CH(X→W)Q for the local Chern character [9, Section 18.1], and ψXl:K0X(W)→K0X(W) for the Adams operation with supports [12, Section 4].</text></s>
+<s sid="107"><CoreSc1 advantage="None" conceptID="Mod30" novelty="None" type="Mod"/><text>Assume that W is smooth, and that x∈K0X(W).</text></s>
+<s sid="108"><CoreSc1 advantage="None" conceptID="Mod31" novelty="None" type="Mod"/><text>Then the homological Chern character is given by the formula [9, Theorem 18.3, (3)], (4)ch(x∩[OW])=(Td(TW)⋅chXW(x))∩[W], while homological Adams operations are defined by the formula [28, Théorème 7](5)ψl(x∩[OW])=(θl(-TW)⋅ψXl(x))∩[OW].</text></s>
+<s sid="109"><CoreSc1 advantage="None" conceptID="Mod32" novelty="None" type="Mod"/><text>Composing the maps chXW with projections CH(X→W)Q→CHj(X→W)Q, we obtain individual components (chXW)j.</text></s>
+<s sid="110"><CoreSc1 advantage="None" conceptID="Mod33" novelty="None" type="Mod"/><text>We now prove a few lemmas that will be used to obtain (3).</text></s>
+Lemma 2.1
+<s sid="111"><CoreSc1 advantage="None" conceptID="Mod34" novelty="None" type="Mod"/><text>Let X be a connected variety.</text></s>
+<s sid="112"><CoreSc1 advantage="None" conceptID="Mod35" novelty="None" type="Mod"/><text>We have in CH(X)Q, for all u∈K0(X),Td(-u)⋅ch∘θl(u)=lrank(u)⋅Td(-ψl(u)).</text></s>
+Proof
+<s sid="113"><CoreSc1 advantage="None" conceptID="Mod36" novelty="None" type="Mod"/><text>Assume that L is a line bundle.</text></s>
+Then ch∘θl(L)=ch(tl[L∨])=tl(ch[L∨])=tl(x-1)=1-x-l1-x-1, where x=ec1(L).
+Then Td(-L)⋅ch∘θl(L)=1-x-1c1(L)⋅1-x-l1-x-1=1-x-lc1(L)=l⋅1-e-c1(L⊗l)c1(L⊗l)=l⋅Td(-L⊗l).
+<s sid="114"><CoreSc1 advantage="None" conceptID="Obs10" novelty="None" type="Obs"/><text>Thus the claimed formula holds when u is the class of a line bundle.</text></s>
+<s sid="115"><CoreSc1 advantage="None" conceptID="Res20" novelty="None" type="Res"/><text>Both sides of this formula define morphisms of presheaves of abelian groups on V ar/kK0(-)→(CH(-)Q)×.</text></s>
+<s sid="116"><CoreSc1 advantage="None" conceptID="Con2" novelty="None" type="Con"/><text>Therefore, we can conclude with the splitting principle. □</text></s>
+Lemma 2.2
+<s sid="117"><CoreSc1 advantage="None" conceptID="Res21" novelty="None" type="Res"/><text>Let X be a variety.</text></s>
+<s sid="118"><CoreSc1 advantage="None" conceptID="Res22" novelty="None" type="Res"/><text>We have in CH(X)Q, for all u∈K0(X),Td(ψl(-u))=∑i≥0li⋅Tdi(-u).</text></s>
+Proof
+<s sid="119"><CoreSc1 advantage="None" conceptID="Res23" novelty="None" type="Res"/><text>For a line bundle L, we have Td(-L⊗l)=∑i≥0(-c1(L⊗l))i(i+1)!=∑i≥0li⋅(-c1(L))i(i+1)!=∑i≥0li⋅Tdi(-L), proving the formula for u the class of a line bundle.</text></s>
+<s sid="120"><CoreSc1 advantage="None" conceptID="Res24" novelty="None" type="Res"/><text>The lemma follows as above from the splitting principle. □</text></s>
+Lemma 2.3
+[19, Theorem 3.1]
+<s sid="121"><CoreSc1 advantage="None" conceptID="Res25" novelty="None" type="Res"/><text>Let X be a closed subvariety of a smooth variety W . We have in CH(X→W)Q, for x∈K0X(W),chXW(ψXl(x))=∑j≥0lj⋅(chXW)j(x).</text></s>
+Proposition 2.4
+<s sid="122"><CoreSc1 advantage="None" conceptID="Res26" novelty="None" type="Res"/><text>Let n≥0 be an integer.</text></s>
+We have chn∘ψl=l-n⋅chn.
+Proof
+<s sid="123"><CoreSc1 advantage="None" conceptID="Res27" novelty="None" type="Res"/><text>It will be enough to prove that the two sides of the formula have the same effect on any element of K0′(X), for X a connected variety.</text></s>
+<s sid="124"><CoreSc1 advantage="None" conceptID="Obs11" novelty="None" type="Obs"/><text>Choose a closed embedding X↪W into a smooth connected variety W of dimension d.</text></s>
+<s sid="125"><CoreSc1 advantage="None" conceptID="Obs12" novelty="None" type="Obs"/><text>Then, we have in CH(X)Q, for all x∈K0X(W), ch∘ψl(x∩[OW])=Td(TW|X)⋅(chXW(θl(-TW)⋅ψXl(x))∩[W])=(Td(TW|X)⋅ch∘θl(-TW|X))⋅(chXW(ψXl(x))∩[W])=l-d⋅Td(ψl(TW|X))⋅(chXW(ψXl(x))∩[W])=∑i=0dli-d⋅Tdi(TW|X)⋅∑j≥0lj⋅((chXW)j(x)∩[W])=∑n=0dl-n⋅∑i+j=d-nTdi(TW|X)⋅((chXW)j(x)∩[W])=∑n=0dl-n⋅chn(x∩[OW]).</text></s>
+<s sid="126"><CoreSc1 advantage="None" conceptID="Obs13" novelty="None" type="Obs"/><text>The first equality is (4) and (5).</text></s>
+<s sid="127"><CoreSc1 advantage="None" conceptID="Obs14" novelty="None" type="Obs"/><text>The second follows from [9, Proposition 18.1, (c)].</text></s>
+<s sid="128"><CoreSc1 advantage="None" conceptID="Obs15" novelty="None" type="Obs"/><text>For the third one, we use Lemma 2.1.</text></s>
+<s sid="129"><CoreSc1 advantage="None" conceptID="Obs16" novelty="None" type="Obs"/><text>The fourth one uses Lemmas 2.2 and 2.3.</text></s>
+<s sid="130"><CoreSc1 advantage="None" conceptID="Obs17" novelty="None" type="Obs"/><text>The last one is again (4). □</text></s>
+Integrality in arbitrary characteristic
+Proposition 3.1
+<s sid="131"><CoreSc1 advantage="None" conceptID="Obs18" novelty="None" type="Obs"/><text>Let l∈Z-{0}, X a variety, and x∈K0′(X)(d) . Thenψl(x)-l-d⋅x∈K0′(X)(d-1)⊗Z[1/l].</text></s>
+Proof
+<s sid="132"><CoreSc1 advantage="None" conceptID="Obs19" novelty="None" type="Obs"/><text>When l=p is a prime number, this is [15, Lemma 6.1].</text></s>
+<s sid="133"><CoreSc1 advantage="None" conceptID="Mod37" novelty="None" type="Mod"/><text>Actually we obtained this result using the formula θp(-d)=p-d,(d∈Z), which is true when p is an arbitrary element of Z-{0}.</text></s>
+<s sid="134"><CoreSc1 advantage="None" conceptID="Mod38" novelty="None" type="Mod"/><text>Therefore, we can obtain the proposition using the proof of [15, Lemma 6.1].</text></s>
+<s sid="135"><CoreSc1 advantage="None" conceptID="Mod39" novelty="None" type="Mod"/><text>Alternatively, one can assume that X is integral and d=dimX.</text></s>
+<s sid="136"><CoreSc1 advantage="None" conceptID="Mod40" novelty="None" type="Mod"/><text>Then we have an exact sequence 0→K0′(X)(d-1)⊗Z[1/l]→K0′(X)(d)⊗Z[1/l]→K0′(Spec(k(X)))⊗Z[1/l]→0, and the statement is a consequence of [16, Lemma 4.2]. □</text></s>
+Theorem 3.2
+<s sid="137"><CoreSc1 advantage="None" conceptID="Res28" novelty="None" type="Res"/><text>p-integrality holds in codimension ≤p(p-1)-1.</text></s>
+Proof
+<s sid="138"><CoreSc1 advantage="None" conceptID="Res29" novelty="None" type="Res"/><text>We must prove Statement 1.1 with c=p(p-1)-1.</text></s>
+<s sid="139"><CoreSc1 advantage="None" conceptID="Res30" novelty="None" type="Res"/><text>For all d, the case n=0 immediately follows from [9, Theorem 18.3, (5)].</text></s>
+<s sid="140"><CoreSc1 advantage="None" conceptID="Res31" novelty="None" type="Res"/><text>In particular, the theorem is proved when d=0.</text></s>
+<s sid="141"><CoreSc1 advantage="None" conceptID="Mod41" novelty="None" type="Mod"/><text>We can therefore proceed by induction on d, and assume that n&gt;0.</text></s>
+<s sid="142"><CoreSc1 advantage="None" conceptID="Mod42" novelty="None" type="Mod"/><text>For all i≥1, define an integer ap(i)={1 if p-1|i0 otherwiseso that we have (6)[np-1]=[n-1p-1]+ap(n).</text></s>
+<s sid="143"><CoreSc1 advantage="None" conceptID="Mod43" novelty="None" type="Mod"/><text>Since 0&lt;n&lt;p(p-1), we can use Lemma 3.3 below to choose an integer l, prime to p, such that (7)vp(ln-1)=ap(n).</text></s>
+<s sid="144"><CoreSc1 advantage="None" conceptID="Mod44" novelty="None" type="Mod"/><text>Write, in K0′(X)⊗Z[1/l], using Proposition 3.1, ψl(x)=l-d⋅x+l-d-m⋅α with α∈K0′(X)(d-1), and m≥0.</text></s>
+<s sid="145"><CoreSc1 advantage="None" conceptID="Mod45" novelty="None" type="Mod"/><text>Then applying ld+m⋅chd-n to the relation above, and using Proposition 2.4, we obtain in CHd-n(X)Qlm⋅(ln-1)⋅chd-n(x)=chd-n(α).</text></s>
+<s sid="146"><CoreSc1 advantage="None" conceptID="Mod46" novelty="None" type="Mod"/><text>Because of (7), we get vp(chd-n(x))=vp(chd-n(α))+ap(n).</text></s>
+<s sid="147"><CoreSc1 advantage="None" conceptID="Mod47" novelty="None" type="Mod"/><text>We conclude using (6) and the induction hypothesis for α∈K0′(X)(d-1). □</text></s>
+Lemma 3.3
+<s sid="148"><CoreSc1 advantage="None" conceptID="Mod48" novelty="None" type="Mod"/><text>Let p be a prime number.</text></s>
+<s sid="149"><CoreSc1 advantage="None" conceptID="Mod49" novelty="None" type="Mod"/><text>Then there exists an integer l, prime to p, with the following properties(a)</text></s>
+<s sid="150"><CoreSc1 advantage="None" conceptID="Obs20" novelty="None" type="Obs"/><text>If n is not divisible by p-1, then ln-1 is not divisible by p.</text></s>
+(b)
+<s sid="151"><CoreSc1 advantage="None" conceptID="Obs21" novelty="None" type="Obs"/><text>If n is not divisible by p(p-1), then ln-1 is not divisible by p2.</text></s>
+Proof
+<s sid="152"><CoreSc1 advantage="None" conceptID="Met4" novelty="None" type="Met"/><text>Take for l an integer whose class modulo p2 generates the cyclic group (Z/p2)×.</text></s>
+<s sid="153"><CoreSc1 advantage="None" conceptID="Met5" novelty="None" type="Met"/><text>Then one checks easily that the class of l modulo p generates the cyclic group (Z/p)×. □</text></s>
+Remark 3.4
+<s sid="154"><CoreSc1 advantage="None" conceptID="Met6" novelty="None" type="Met"/><text>In contrast with [14] where the normalization procedure was used, we do not use geometric arguments here.</text></s>
+<s sid="155"><CoreSc1 advantage="None" conceptID="Res32" novelty="None" type="Res"/><text>We only use basic relations between Adams operations, Chern character, and filtration on K-theory.</text></s>
+<s sid="156"><CoreSc1 advantage="None" conceptID="Res33" novelty="None" type="Res"/><text>Using [3, (1.5)] in place of Proposition 3.1, and [2, Theorem 5.1, (vi)] in place of Proposition 2.4, one could proceed as above to replace the assumption &quot;X is without torsion&quot; by &quot;n&lt;p(p-1)&quot; in [4, Theorem 7.1], thus giving an elementary proof of the p-primary part of [1, Theorem 1], for small n.</text></s>
+<s sid="157"><CoreSc1 advantage="None" conceptID="Con3" novelty="None" type="Con"/><text>Note also that the approach of [14] is limited by nature to schemes whose normalization morphism is of finite type, while Theorem 3.2 is valid for more general schemes (see Appendix).</text></s>
+Consequences of Gabber's Theorem
+<s sid="158"><CoreSc1 advantage="None" conceptID="Con4" novelty="None" type="Con"/><text>In this section, we use the theorem of Gabber asserting that, over a field of characteristic different from p, any integral variety X admits a regular alteration of degree prime to p.</text></s>
+<s sid="159"><CoreSc1 advantage="None" conceptID="Res34" novelty="None" type="Res"/><text>This means that there exists a projective morphism Z→X, generically finite of degree prime to p, with Z regular.</text></s>
+<s sid="160"><CoreSc1 advantage="None" conceptID="Res35" novelty="None" type="Res"/><text>Some details can be found in [10,17].</text></s>
+<s sid="161"><CoreSc1 advantage="None" conceptID="Res36" novelty="None" type="Res"/><text>If d≥0 is an integer, the d-th Todd number is (8)τd=∏p primep[d/(p-1)].</text></s>
+Proposition 4.1
+<s sid="162"><CoreSc1 advantage="None" conceptID="Res37" novelty="None" type="Res"/><text>Let X be a local complete intersection variety.</text></s>
+Then, for all nτn⋅chdimX-n[OX]∈CH(X)Z⊂Q.
+Proof
+<s sid="163"><CoreSc1 advantage="None" conceptID="Res38" novelty="None" type="Res"/><text>Let x:X→Spec(k) be the structural morphism of X.</text></s>
+<s sid="164"><CoreSc1 advantage="None" conceptID="Res39" novelty="None" type="Res"/><text>Then by [9, Theorem 18.3, (4) and (5)], ch[OX]=ch∘x∗[OSpec(k)]=Td(TX)⋅x∗∘ch[OSpec(k)]=Td(TX)⋅[X].</text></s>
+<s sid="165"><CoreSc1 advantage="None" conceptID="Res40" novelty="None" type="Res"/><text>Then the proposition follows from Lemma 6.3 below. □</text></s>
+Theorem 4.2
+<s sid="166"><CoreSc1 advantage="None" conceptID="Res41" novelty="None" type="Res"/><text>Let p be a prime different from the characteristic of the base field.</text></s>
+<s sid="167"><CoreSc1 advantage="None" conceptID="Res42" novelty="None" type="Res"/><text>Then p-integrality holds in codimension ≤c, for any c.</text></s>
+Proof
+<s sid="168"><CoreSc1 advantage="None" conceptID="Res43" novelty="None" type="Res"/><text>We must prove Statement 1.1 with c arbitrary large.</text></s>
+<s sid="169"><CoreSc1 advantage="None" conceptID="Res44" novelty="None" type="Res"/><text>We proceed by induction on d, the case d=0 being obvious.</text></s>
+<s sid="170"><CoreSc1 advantage="None" conceptID="Res45" novelty="None" type="Res"/><text>It is enough to consider the case X integral of dimension d, and x=[OX].</text></s>
+<s sid="171"><CoreSc1 advantage="None" conceptID="Res46" novelty="None" type="Res"/><text>Using Gabber's theorem, we choose f:Z→X a projective morphism, with Z a regular connected variety of dimension d, and such that [k(Z):k(X)]=λ is prime to p.</text></s>
+<s sid="172"><CoreSc1 advantage="None" conceptID="Res47" novelty="None" type="Res"/><text>Then there is an element δ∈K0′(X)(d-1) such that f∗[OZ]=λ⋅x+δ.</text></s>
+Thus vp(chd-n(x))≥min(vp(f∗chd-n[OZ]),vp(chd-n(δ)))≥min(vp(chd-n[OZ]),vp(ch(d-1)-(n-1)(δ))).
+<s sid="173"><CoreSc1 advantage="None" conceptID="Res48" novelty="None" type="Res"/><text>We conclude using Proposition 4.1 for Z, and the induction hypothesis on δ. □</text></s>
+<s sid="174"><CoreSc1 advantage="None" conceptID="Res49" novelty="None" type="Res"/><text>The combination of Theorems 3.2 and 4.2 implies the following.</text></s>
+Corollary 4.3
+<s sid="175"><CoreSc1 advantage="None" conceptID="Res50" novelty="None" type="Res"/><text>Let X be a variety over a field of characteristic p, and d be an integer.</text></s>
+<s sid="176"><CoreSc1 advantage="None" conceptID="Res51" novelty="None" type="Res"/><text>Then for all integers n such that 0≤n&lt;p(p-1), and all elements x∈K0′(X)(d), we haveτn⋅chd-n(x)∈CH(X)Z⊂Q.</text></s>
+Part 2.
+Operations on Chow groups
+Construction
+<s sid="177"><CoreSc1 advantage="None" conceptID="Res52" novelty="None" type="Res"/><text>We proceed as in [14] to derive operations from the integrality property of the Chern character stated above.</text></s>
+<s sid="178"><CoreSc1 advantage="None" conceptID="Res53" novelty="None" type="Res"/><text>This follows [4, Section 7].</text></s>
+<s sid="179"><CoreSc1 advantage="None" conceptID="Res54" novelty="None" type="Res"/><text>Let A be an abelian group.</text></s>
+<s sid="180"><CoreSc1 advantage="None" conceptID="Res55" novelty="None" type="Res"/><text>Then the natural map (9)AZ⊂Q⊗Z/p→AZ(p)⊂Q⊗Z/p, is an isomorphism.</text></s>
+<s sid="181"><CoreSc1 advantage="None" conceptID="Con5" novelty="None" type="Con"/><text>This group can also be described as A modulo p and p-primary torsion.</text></s>
+<s sid="182"><CoreSc1 advantage="None" conceptID="Con6" novelty="None" type="Con"/><text>By this we mean the quotient of A by p⋅A+T, where T is the subgroup of elements a∈A such that pn⋅a=0 for some integer n&gt;0.</text></s>
+<s sid="183"><CoreSc1 advantage="None" conceptID="Con7" novelty="None" type="Con"/><text>We assume that p-integrality holds in codimension ≤m(p-1), for some integer m.</text></s>
+<s sid="184"><CoreSc1 advantage="None" conceptID="Res56" novelty="None" type="Res"/><text>Let q&gt;0 be an integer.</text></s>
+<s sid="185"><CoreSc1 advantage="None" conceptID="Res57" novelty="None" type="Res"/><text>For every integer i such that 0&lt;i≤m, we see using Statement 1.1, for d=q and n=i(p-1), that the association x↦pi⋅chq-i(p-1)(x) induces a natural transformation of functors Proj→AbK0′(-)(q)→CHq-i(p-1)(-)Z(p)⊂Q.</text></s>
+<s sid="186"><CoreSc1 advantage="None" conceptID="Res58" novelty="None" type="Res"/><text>Let X be a variety, and x∈K0′(X)(q-1)⊂K0′(X)(q).</text></s>
+Then pi⋅chq-i(p-1)(x)=p⋅(pi-1⋅ch(q-1)-(i(p-1)-1)(x)).
+<s sid="187"><CoreSc1 advantage="None" conceptID="Res59" novelty="None" type="Res"/><text>Using Statement 1.1 for d=q-1 and n=i(p-1)-1, we see that this element belongs to p⋅CHq-i(p-1)(X)Z(p)⊂Q.</text></s>
+<s sid="188"><CoreSc1 advantage="None" conceptID="Res60" novelty="None" type="Res"/><text>This gives a natural transformation of functors Proj→AbgrqK0′(-)⊗Z/p→CHq-i(p-1)(-)Z(p)⊂Q⊗Z/p.</text></s>
+<s sid="189"><CoreSc1 advantage="None" conceptID="Res61" novelty="None" type="Res"/><text>Composing on the left with the map (2), and on the right with the inverse of the map (9) with A=CHq-i(p-1)(-), we obtain a natural transformation of functors Proj→AbTi:CHq(-)⊗Z/p→CHq-i(p-1)(-)Z⊂Q⊗Z/p.</text></s>
+<s sid="190"><CoreSc1 advantage="None" conceptID="Res62" novelty="None" type="Res"/><text>It will be convenient to agree that T0:CHq(-)⊗Z/p→CHq(-)Z⊂Q⊗Z/p is the quotient map modulo the image modulo p of p-primary torsion.</text></s>
+The inverse Todd genus
+<s sid="191"><CoreSc1 advantage="None" conceptID="Res63" novelty="None" type="Res"/><text>We consider the power series in the variable x(10)R(p)(x)=∑i=0∞(-1)i⋅xpi-1.</text></s>
+<s sid="192"><CoreSc1 advantage="None" conceptID="Res64" novelty="None" type="Res"/><text>There is a unique morphism of presheaves of abelian groups on V ar/kr(p):K0(-)→(CH(-)⊗Z/p)× such that for L a line bundle, r(p)(L)=R(p)(c1(L)).</text></s>
+<s sid="193"><CoreSc1 advantage="None" conceptID="Res65" novelty="None" type="Res"/><text>Individual components are denoted ri(p):K0(-)→CHi(p-1)(-)⊗Z/p.</text></s>
+<s sid="194"><CoreSc1 advantage="None" conceptID="Obj40" novelty="None" type="Obj"/><text>Using the terminology of [24], this class will be the inverse Todd genus of the operation T=∑iTi constructed in the previous section.</text></s>
+<s sid="195"><CoreSc1 advantage="None" conceptID="Obj41" novelty="None" type="Obj"/><text>In this section we describe a relation between the characteristic class r(p) and the Todd class.</text></s>
+Remark 6.1
+<s sid="196"><CoreSc1 advantage="None" conceptID="Res66" novelty="None" type="Res"/><text>The inverse Todd genus of the usual Steenrod operation ∑iSi is defined by the power series W(p)(x)=1+xp-1.</text></s>
+<s sid="197"><CoreSc1 advantage="None" conceptID="Con8" novelty="None" type="Con"/><text>One easily checks that x⋅R(p)(x) is the left inverse of x⋅W(p)(x) for the law given by composition of power series with coefficients in Z/p.</text></s>
+<s sid="198"><CoreSc1 advantage="None" conceptID="Obj42" novelty="None" type="Obj"/><text>We begin by stating an easy argument that we will use repeatedly below.</text></s>
+Lemma 6.2
+<s sid="199"><CoreSc1 advantage="None" conceptID="Obj43" novelty="None" type="Obj"/><text>Let A be a commutative ring, M an A-module, au∈AQ and mu∈MQ for u=0,…,i(p-1) satisfyingvp(au)≥-[up-1]andvp(mu)≥-[up-1].Then we have an equality in MZ(p)⊂Q⊗Z/p,∑u=0i(p-1)(pi⋅au⋅mi(p-1)-u)=∑j=0i(pj⋅aj(p-1))⋅(pi-j⋅m(i-j)(p-1)).</text></s>
+Proof
+<s sid="200"><CoreSc1 advantage="None" conceptID="Obj44" novelty="None" type="Obj"/><text>We compute, for all u, using (1), vp(au⋅mi(p-1)-u)≥vp(au)+vp(mi(p-1)-u)≥-[up-1]-[i(p-1)-up-1]=-[up-1]-i-[-up-1].</text></s>
+<s sid="201"><CoreSc1 advantage="None" conceptID="Con9" novelty="None" type="Con"/><text>This integer is always ≥-i; hence the elements delimited by the parentheses in the formula of the statement belong to the submodule MZ(p)⊂Q⊂MQ.</text></s>
+<s sid="202"><CoreSc1 advantage="None" conceptID="Res67" novelty="None" type="Res"/><text>Moreover, when u is not divisible by p-1, this integer is &gt;-i.</text></s>
+<s sid="203"><CoreSc1 advantage="None" conceptID="Res68" novelty="None" type="Res"/><text>This gives the requested formula modulo p. □</text></s>
+Lemma 6.3
+<s sid="204"><CoreSc1 advantage="None" conceptID="Res69" novelty="None" type="Res"/><text>We have, for all integers n, and all x∈K0(X)vp(Tdn(x))≥-[np-1].</text></s>
+Proof
+<s sid="205"><CoreSc1 advantage="None" conceptID="Res70" novelty="None" type="Res"/><text>Let X be a variety.</text></s>
+<s sid="206"><CoreSc1 advantage="None" conceptID="Res71" novelty="None" type="Res"/><text>Then the set of elements 1+y with y∈⨁n&gt;0p-[n/(p-1)]⋅CHn(X)Z(p)⊂Q is a subgroup B(X) of (CH(X)Q)×.</text></s>
+<s sid="207"><CoreSc1 advantage="None" conceptID="Res72" novelty="None" type="Res"/><text>If f:Y→X is a morphism of varieties, then f∗B(X)⊂B(Y).</text></s>
+<s sid="208"><CoreSc1 advantage="None" conceptID="Res73" novelty="None" type="Res"/><text>Thus we can define a presheaf of abelian groups C on V ar/k by C(-)=(CH(-)Q)×/B(-).</text></s>
+<s sid="209"><CoreSc1 advantage="None" conceptID="Res74" novelty="None" type="Res"/><text>We have a morphism of presheaves of abelian groups on V ar/kν:K0(-)→C(-),x↦Td(-x).</text></s>
+<s sid="210"><CoreSc1 advantage="None" conceptID="Res75" novelty="None" type="Res"/><text>When L is a line bundle, we have by definition of the Todd class, ν[L]=∑n≥0(-c1(L))n(n+1)!.</text></s>
+<s sid="211"><CoreSc1 advantage="None" conceptID="Res76" novelty="None" type="Res"/><text>Then ν vanishes on the classes of line bundles, because of Lemma 6.5 below.</text></s>
+<s sid="212"><CoreSc1 advantage="None" conceptID="Res77" novelty="None" type="Res"/><text>The splitting principle allows us to conclude.11</text></s>
+<s sid="213"><CoreSc1 advantage="None" conceptID="Con10" novelty="None" type="Con"/><text>If f:Y→X is a projective bundle, one can check that the pull-back C(X)→C(Y) is injective using the fact that f∗:CH(X)→CH(Y) is a split monomorphism.</text></s>
+□
+Proposition 6.4
+<s sid="214"><CoreSc1 advantage="None" conceptID="Res78" novelty="None" type="Res"/><text>Let j≥0 be an integer, X a variety, and x∈K0(X) .</text></s>
+<s sid="215"><CoreSc1 advantage="None" conceptID="Res79" novelty="None" type="Res"/><text>Then the elements pj⋅Tdj(p-1)(-x) and rj(p)(x) have same image inCHj(p-1)(X)Z(p)⊂Q⊗Z/p.</text></s>
+Proof
+<s sid="216"><CoreSc1 advantage="None" conceptID="Res80" novelty="None" type="Res"/><text>We consider the presheaf of commutative rings on V ar/kCH˜(-)=CH(-)Z(p)⊂Q⊗Z/p.</text></s>
+<s sid="217"><CoreSc1 advantage="None" conceptID="Res81" novelty="None" type="Res"/><text>The characteristic class r(p) induces a morphism of presheaves of abelian groups on V ar/kr(p)˜:K0(-)→CH˜(-)×.</text></s>
+<s sid="218"><CoreSc1 advantage="None" conceptID="Res82" novelty="None" type="Res"/><text>By Lemma 6.3, we can consider the association ρ:K0(-)→CH˜(-),x↦∑j≥0pj⋅Tdj(p-1)(-x).</text></s>
+<s sid="219"><CoreSc1 advantage="None" conceptID="Res83" novelty="None" type="Res"/><text>It is clearly compatible with arbitrary pull-backs.</text></s>
+<s sid="220"><CoreSc1 advantage="None" conceptID="Res84" novelty="None" type="Res"/><text>It sends sums to products because the total Todd class has the same property, and because of Lemmas 6.2 and 6.3.</text></s>
+<s sid="221"><CoreSc1 advantage="None" conceptID="Res85" novelty="None" type="Res"/><text>Let L be a line bundle.</text></s>
+<s sid="222"><CoreSc1 advantage="None" conceptID="Res86" novelty="None" type="Res"/><text>Then by definition of the Todd class, we have ρ[L]=∑j≥0pj(j(p-1)+1)!⋅(-c1(L))j(p-1).</text></s>
+<s sid="223"><CoreSc1 advantage="None" conceptID="Obs22" novelty="None" type="Obs"/><text>Using Lemma 6.5 below, we see that the j-th coefficient is an element of Z(p).</text></s>
+<s sid="224"><CoreSc1 advantage="None" conceptID="Obs23" novelty="None" type="Obs"/><text>Moreover, we see that it belongs to pZ(p) if and only if j(p-1)+1 is not a power of p.</text></s>
+<s sid="225"><CoreSc1 advantage="None" conceptID="Obs24" novelty="None" type="Obs"/><text>Otherwise, when say j(p-1)+1=pi, we see using Lemma 6.6 below, that the j-th coefficient is (-1)i modulo pZ(p).</text></s>
+<s sid="226"><CoreSc1 advantage="None" conceptID="Res87" novelty="None" type="Res"/><text>In view of (10), the characteristic class ρ coincides with r(p)˜ on the classes of line bundles, and the claim follows from the splitting principle. □</text></s>
+Lemma 6.5
+[20, p.10]
+<s sid="227"><CoreSc1 advantage="None" conceptID="Res88" novelty="None" type="Res"/><text>Let p be a prime number, and n a positive integer.</text></s>
+<s sid="228"><CoreSc1 advantage="None" conceptID="Res89" novelty="None" type="Res"/><text>Let s be the sum of the digits appearing in the expression of n in base p . Thenvp(n!)=n-sp-1.</text></s>
+Lemma 6.6
+<s sid="229"><CoreSc1 advantage="None" conceptID="Res90" novelty="None" type="Res"/><text>Let i≥0 be an integer, and p a prime number.</text></s>
+We have(pi)!⋅p-pi-1p-1=(-1)imodp.
+Proof
+<s sid="230"><CoreSc1 advantage="None" conceptID="Res91" novelty="None" type="Res"/><text>We proceed by induction on i.</text></s>
+<s sid="231"><CoreSc1 advantage="None" conceptID="Res92" novelty="None" type="Res"/><text>For i=0 this is immediate.</text></s>
+<s sid="232"><CoreSc1 advantage="None" conceptID="Res93" novelty="None" type="Res"/><text>Let i≥1 and consider the set Ui={1,2,…,pi-1,pi}.</text></s>
+<s sid="233"><CoreSc1 advantage="None" conceptID="Res94" novelty="None" type="Res"/><text>The product of all the integers sitting between two consecutive multiples of p is congruent to -1 modulo p, by Wilson's Theorem.</text></s>
+<s sid="234"><CoreSc1 advantage="None" conceptID="Obs25" novelty="None" type="Obs"/><text>Thus the product of all elements of Ui which are non-divisible by p is congruent modulo p to (-1)pi-1=-1.</text></s>
+<s sid="235"><CoreSc1 advantage="None" conceptID="Obs26" novelty="None" type="Obs"/><text>The product of the pi-1 elements of Ui which are divisible by p is ppi-1⋅(pi-1)!.</text></s>
+Hence we have (pi)!⋅p-pi-1p-1=(-1)⋅ppi-1⋅(pi-1)!⋅p-pi-1p-1=-p-pi-1-1p-1⋅(pi-1)!.
+<s sid="236"><CoreSc1 advantage="None" conceptID="Res95" novelty="None" type="Res"/><text>By the induction hypothesis, this is (-1)i, as requested. □</text></s>
+Properties
+<s sid="237"><CoreSc1 advantage="None" conceptID="Res96" novelty="None" type="Res"/><text>Let p be a prime number.</text></s>
+<s sid="238"><CoreSc1 advantage="None" conceptID="Res97" novelty="None" type="Res"/><text>In this section, we assume that integrality holds in codimension ≤m(p-1), and describe some functorial properties of the operations T0,…,Tm constructed in Section 5.</text></s>
+Proposition 7.1
+<s sid="239"><CoreSc1 advantage="None" conceptID="Res98" novelty="None" type="Res"/><text>Let f:Y→X be a local complete intersection morphism.</text></s>
+<s sid="240"><CoreSc1 advantage="None" conceptID="Res99" novelty="None" type="Res"/><text>Let i be an integer such that 0≤i≤m . Then we haveTi∘f∗=∑j=0irj(p)(-Tf)⋅f∗∘Ti-j.</text></s>
+Proof
+<s sid="241"><CoreSc1 advantage="None" conceptID="Res100" novelty="None" type="Res"/><text>We have, by [9, Theorem 18.3, (4)], chn-i(p-1)∘f∗=∑u=0i(p-1)Tdu(Tf)⋅f∗∘chn-i(p-1)+u.</text></s>
+<s sid="242"><CoreSc1 advantage="None" conceptID="Res101" novelty="None" type="Res"/><text>In view of Lemmas 6.3 and 6.2 and Theorem 3.2, we have, in the group CHn-i(p-1)(Y)Z(p)⊂Q⊗Z/p, pi⋅chn-i(p-1)∘f∗=∑j=0i(pj⋅Tdj(p-1)(Tf))⋅f∗∘(pi-j⋅chn-(i-j)(p-1)).</text></s>
+<s sid="243"><CoreSc1 advantage="None" conceptID="Res102" novelty="None" type="Res"/><text>Since the map (2) is compatible with f∗, Proposition 6.4 allows us to conclude. □</text></s>
+<s sid="244"><CoreSc1 advantage="None" conceptID="Res103" novelty="None" type="Res"/><text>Applying Proposition 7.1 to the structural morphism of a local complete intersection variety, we obtain the formula computing the effect of the operation Ti on regular cycles.</text></s>
+Corollary 7.2
+<s sid="245"><CoreSc1 advantage="None" conceptID="Res104" novelty="None" type="Res"/><text>Let X be a local complete intersection variety (e.g. a regular variety).</text></s>
+<s sid="246"><CoreSc1 advantage="None" conceptID="Res105" novelty="None" type="Res"/><text>Let i be an integer such that 0≤i≤m . ThenTi[X]=ri(p)(-TX)⋅[X].</text></s>
+Proposition 7.3
+<s sid="247"><CoreSc1 advantage="None" conceptID="Res106" novelty="None" type="Res"/><text>Let X and Y be two varieties over the same field.</text></s>
+<s sid="248"><CoreSc1 advantage="None" conceptID="Res107" novelty="None" type="Res"/><text>Then for x∈CHd(X), and y∈CHe(Y), and 0≤i≤m, we haveTi(x×y)=∑j=0iTj(x)×Ti-j(y).</text></s>
+Proof
+Let a∈K0′(X)(d) (resp.
+<s sid="249"><CoreSc1 advantage="None" conceptID="Res108" novelty="None" type="Res"/><text>b∈K0′(X)(e)) be an element such that φX(x)=amodK0′(X)(d-1) (resp.</text></s>
+<s sid="250"><CoreSc1 advantage="None" conceptID="Res109" novelty="None" type="Res"/><text>φY(y)=bmodK0′(Y)(e-1)), where φ- is the map (2).</text></s>
+<s sid="251"><CoreSc1 advantage="None" conceptID="Res110" novelty="None" type="Res"/><text>We have, by [9, Example 18.3.1] (and [9, Theorem 18.3, (5)]) chd+e-i(p-1)(a×b)=∑u=0i(p-1)chd-u(a)×che+u-i(p-1)(b).</text></s>
+<s sid="252"><CoreSc1 advantage="None" conceptID="Res111" novelty="None" type="Res"/><text>By Lemma 6.2, this gives in CHd+e-i(p-1)(X×Y)Z(p)⊂Q⊗Z/p, pi⋅chd+e-i(p-1)(a×b)=∑j=0i(pj⋅chd-j(p-1)(a))×(pi-j⋅che-(i-j)(p-1)(b)).</text></s>
+<s sid="253"><CoreSc1 advantage="None" conceptID="Res112" novelty="None" type="Res"/><text>We can conclude using the fact that φ is compatible with external products. □</text></s>
+<s sid="254"><CoreSc1 advantage="None" conceptID="Res113" novelty="None" type="Res"/><text>Assume that X is a local complete intersection variety.</text></s>
+<s sid="255"><CoreSc1 advantage="None" conceptID="Res114" novelty="None" type="Res"/><text>Define, for i≤m, the i-th cohomological operation Ti by the formula Ti=∑j=0irj(p)(TX)⋅Ti-j:CH•(X)→CH•-i(p-1)(X)Z⊂Q⊗Z/p.</text></s>
+Proposition 7.4
+<s sid="256"><CoreSc1 advantage="None" conceptID="Res115" novelty="None" type="Res"/><text>Let X and Y be local complete intersection varieties over a common field, and i an integer such that 0&lt;i≤m.(i)</text></s>
+For x∈CH(X),y∈CH(Y), we haveTi(x×y)=∑j=0iTj(x)×Ti-j(y).
+(ii)
+<s sid="257"><CoreSc1 advantage="None" conceptID="Res116" novelty="None" type="Res"/><text>When X is smooth, x,y∈CH(X), we haveTi(x⋅y)=∑j=0iTj(x)⋅Ti-j(y).</text></s>
+(iii)
+<s sid="258"><CoreSc1 advantage="None" conceptID="Res117" novelty="None" type="Res"/><text>The operation T0 is the identity.</text></s>
+(iv)
+Ti[X]=0.
+(v)
+<s sid="259"><CoreSc1 advantage="None" conceptID="Res118" novelty="None" type="Res"/><text>Assume that X is smooth, and let x∈CH1(X) .</text></s>
+<s sid="260"><CoreSc1 advantage="None" conceptID="Res119" novelty="None" type="Res"/><text>Then Ti(x)=-xp if i=1, and Ti(x)=0 otherwise.</text></s>
+(vi)
+<s sid="261"><CoreSc1 advantage="None" conceptID="Res120" novelty="None" type="Res"/><text>If f:Y→X is a local complete intersection morphism, then Ti∘f∗=f∗∘Ti.</text></s>
+(vii)
+<s sid="262"><CoreSc1 advantage="None" conceptID="Res121" novelty="None" type="Res"/><text>Let f:Y→X be a projective morphism.</text></s>
+Let Tf=TY-f∗TX∈K0(Y) . ThenTi∘f∗=f∗∘∑j=0irj(p)(-Tf)⋅Ti-j.
+Proof
+<s sid="263"><CoreSc1 advantage="None" conceptID="Res122" novelty="None" type="Res"/><text>Statement (i) follows from Proposition 7.3, statement (vi) from Proposition 7.1, and (vii) from the fact that the operations Ti are compatible with projective push-forwards.</text></s>
+<s sid="264"><CoreSc1 advantage="None" conceptID="Res123" novelty="None" type="Res"/><text>Then (ii) follows from (i) and (vi), statement (iv) from (vi) and the obvious computation for X=Spec(k).</text></s>
+<s sid="265"><CoreSc1 advantage="None" conceptID="Res124" novelty="None" type="Res"/><text>Statement (iii) is a consequence of the definition of T0.</text></s>
+We now prove (v).
+<s sid="266"><CoreSc1 advantage="None" conceptID="Res125" novelty="None" type="Res"/><text>We can assume that x=[Z] for some integral closed subvariety Z of X.</text></s>
+<s sid="267"><CoreSc1 advantage="None" conceptID="Res126" novelty="None" type="Res"/><text>Since X is locally factorial, Z is a locally principal divisor.</text></s>
+<s sid="268"><CoreSc1 advantage="None" conceptID="Res127" novelty="None" type="Res"/><text>In particular, the closed embedding f:Z↪X is regular, and Z is a local complete intersection variety.</text></s>
+<s sid="269"><CoreSc1 advantage="None" conceptID="Res128" novelty="None" type="Res"/><text>Then, using (iv) and (vii), where Tf=-f∗[OX(Z)], we obtain for i&gt;0, Ti(x)=Ti∘f∗[Z]=f∗∘Ti[Z]-f∗(c1(f∗[OX(Z)])p-1⋅Ti-1[Z])=-c1(OX(Z))p-1⋅f∗∘Ti-1[Z].</text></s>
+<s sid="270"><CoreSc1 advantage="None" conceptID="Res129" novelty="None" type="Res"/><text>This is zero when i&gt;1 by (iv).</text></s>
+<s sid="271"><CoreSc1 advantage="None" conceptID="Res130" novelty="None" type="Res"/><text>When i=1, this is, by (iii), -c1(OX(Z))p-1⋅[Z]=-c1(OX(Z))p=-xp, as requested. □</text></s>
+<s sid="272"><CoreSc1 advantage="None" conceptID="Obj45" novelty="None" type="Obj"/><text>Finally, we mention the following.</text></s>
+Proposition 7.5
+<s sid="273"><CoreSc1 advantage="None" conceptID="Res131" novelty="None" type="Res"/><text>Let L/k be a field extension.</text></s>
+<s sid="274"><CoreSc1 advantage="None" conceptID="Res132" novelty="None" type="Res"/><text>Then, for all varieties X, all x∈CH(X), and i such that 0≤i≤m, we haveTi(xL)=Ti(x)L.</text></s>
+Proof
+<s sid="275"><CoreSc1 advantage="None" conceptID="Res133" novelty="None" type="Res"/><text>This follows from [14, (2) and Theorem 3.1, (d)]. □</text></s>
+Relation with Steenrod operations
+<s sid="276"><CoreSc1 advantage="None" conceptID="Con11" novelty="None" type="Con"/><text>In this section, we compare the operations Ti with the Steenrod operations constructed by other methods.</text></s>
+<s sid="277"><CoreSc1 advantage="None" conceptID="Con12" novelty="None" type="Con"/><text>We therefore make the assumption that the characteristic of the base field is different from p.</text></s>
+<s sid="278"><CoreSc1 advantage="None" conceptID="Res134" novelty="None" type="Res"/><text>Consider the i-th homological Steenrod operation of, say, [7]Si:CH•(-)⊗Z/p→CH•-i(p-1)(-)⊗Z/p, and write S=∑iSi.</text></s>
+<s sid="279"><CoreSc1 advantage="None" conceptID="Res135" novelty="None" type="Res"/><text>Since S0=id, we have S=id+f, where for every variety X the induced endomorphism fX of CH(X)⊗Z/p is nilpotent.</text></s>
+<s sid="280"><CoreSc1 advantage="None" conceptID="Res136" novelty="None" type="Res"/><text>We write T′X for the left inverse of SX; this defines a natural transformation of functors V ar/k→Ab with components Ti′:CH•(-)⊗Z/p→CH•-i(p-1)(-)⊗Z/p.</text></s>
+<s sid="281"><CoreSc1 advantage="None" conceptID="Res137" novelty="None" type="Res"/><text>We have T0′=id and, for i&gt;0, one can express Ti′ inductively as (11)Ti′=-∑j=1iTi-j′∘Sj.</text></s>
+Proposition 8.1
+We have for i≤pTi′=(-1)i⋅Si.
+Proposition 8.2
+<s sid="282"><CoreSc1 advantage="None" conceptID="Res138" novelty="None" type="Res"/><text>Assume that X is a smooth variety. ThenT′[X]=r(p)(-TX)[X].</text></s>
+Proof
+<s sid="283"><CoreSc1 advantage="None" conceptID="Res139" novelty="None" type="Res"/><text>Proof of Propositions 8.1 and 8.2</text></s>
+<s sid="284"><CoreSc1 advantage="None" conceptID="Res140" novelty="None" type="Res"/><text>Let Z be a variety.</text></s>
+<s sid="285"><CoreSc1 advantage="None" conceptID="Res141" novelty="None" type="Res"/><text>It is proven in [22, Lemma 5.2 and Proposition 3.1] that the homological Steenrod operations S• induce an action of the Steenrod Z/p-algebra S on CH(Z)⊗Z/p.</text></s>
+<s sid="286"><CoreSc1 advantage="None" conceptID="Res142" novelty="None" type="Res"/><text>The operation Sj acts as the element Pj∈S (in case p=2 we write Pj for Sq2j).</text></s>
+<s sid="287"><CoreSc1 advantage="None" conceptID="Res143" novelty="None" type="Res"/><text>Using (11), we see that the action of Tj′ on CH(Z)⊗Z/p coincides with the action of the conjugate c(Pj) of Pj, in the sense of [23, Section 7].</text></s>
+<s sid="288"><CoreSc1 advantage="None" conceptID="Res144" novelty="None" type="Res"/><text>Let bi for i∈N-{0} be indeterminates.</text></s>
+<s sid="289"><CoreSc1 advantage="None" conceptID="Res145" novelty="None" type="Res"/><text>If R=(r1,r2,…) is a sequence of non-negative integers, we write bR for the product b1r1b2r2⋯.</text></s>
+<s sid="290"><CoreSc1 advantage="None" conceptID="Res146" novelty="None" type="Res"/><text>By [23, Corollary 6], the morphism S[[b1,b2,…]]→S[[x]],bi↦(-1)pi-1p-1⋅xpi-1=(-1)i⋅xpi-1modp sends the total Steenrod operation ∑RPR⋅bR to ∑jc(Pj)⋅xj(p-1).</text></s>
+<s sid="291"><CoreSc1 advantage="None" conceptID="Res147" novelty="None" type="Res"/><text>We obtain Proposition 8.1 by noticing that for i≤p the element Pi is the only basis element of type PR of the same dimension as c(Pi).</text></s>
+<s sid="292"><CoreSc1 advantage="None" conceptID="Res148" novelty="None" type="Res"/><text>Moreover, by [22, Proposition 5.3, (2)], we obtain T′[X]=d(-TX)[X], where d is the total Chern class ∑RcR⋅bR evaluated at bi=(-1)i.</text></s>
+<s sid="293"><CoreSc1 advantage="None" conceptID="Res149" novelty="None" type="Res"/><text>Inspection of the value of d on a line bundle reveals that d=r(p), establishing Proposition 8.2. □</text></s>
+Proposition 8.3
+<s sid="294"><CoreSc1 advantage="None" conceptID="Res150" novelty="None" type="Res"/><text>Assume that the base field is of characteristic different from p . Let i be any integer ≥0 . Then we have a commutative diagram</text></s>
+Proof
+<s sid="295"><CoreSc1 advantage="None" conceptID="Mod50" novelty="None" type="Mod"/><text>By Lemma 8.4 below and Proposition 7.5, we can assume that the base field is perfect.</text></s>
+<s sid="296"><CoreSc1 advantage="None" conceptID="Mod51" novelty="None" type="Mod"/><text>Since both operations are compatible with proper push-forwards, it will be enough to compare their values in CHd-i(p-1)(X)Z⊂Q⊗Z/p on the class [X], when X is an integral variety of dimension d.</text></s>
+<s sid="297"><CoreSc1 advantage="None" conceptID="Obs27" novelty="None" type="Obs"/><text>Using Gabber's theorem, we find a projective morphism f:Z→X, with Z smooth of dimension d, and f dominant with [k(Z):k(X)]=λ an integer prime to p.</text></s>
+<s sid="298"><CoreSc1 advantage="None" conceptID="Obs28" novelty="None" type="Obs"/><text>Let ν∈(Z/p)× be the inverse modulo p of λ.</text></s>
+<s sid="299"><CoreSc1 advantage="None" conceptID="Res151" novelty="None" type="Res"/><text>Then, using Corollary 7.2, Ti[X]=ν⋅Ti(λ⋅[X])=ν⋅Ti∘f∗[Z]=ν⋅f∗∘Ti[Z]=ν⋅f∗(ri(p)(-TZ)⋅[Z]).</text></s>
+<s sid="300"><CoreSc1 advantage="None" conceptID="Res152" novelty="None" type="Res"/><text>A similar computation, and Proposition 8.2, show that Ti′[X] has the same value, as requested.□</text></s>
+Lemma 8.4
+<s sid="301"><CoreSc1 advantage="None" conceptID="Res153" novelty="None" type="Res"/><text>Let X be a variety over a field k of characteristic ≠p . Let F/k be a perfect closure.</text></s>
+<s sid="302"><CoreSc1 advantage="None" conceptID="Res154" novelty="None" type="Res"/><text>Then scalars extension induces an injective morphismCH(X)Z⊂Q⊗Z/p→CH(XF)Z⊂Q⊗Z/p.</text></s>
+Proof
+<s sid="303"><CoreSc1 advantage="None" conceptID="Con13" novelty="None" type="Con"/><text>Let L/k be a finite field extension.</text></s>
+<s sid="304"><CoreSc1 advantage="None" conceptID="Con14" novelty="None" type="Con"/><text>A transfer argument shows that CH(X)Q→CH(XL)Q is injective, hence so is CH(X)Z⊂Q→CH(XL)Z⊂Q, and therefore so is CH(X)Z⊂Q⊗Z(p)→CH(XL)Z⊂Q⊗Z(p).</text></s>
+<s sid="305"><CoreSc1 advantage="None" conceptID="Con15" novelty="None" type="Con"/><text>When the degree of the extension L/k is prime to p, the transfer induces a splitting of this monomorphism, so that CH(X)Z⊂Q⊗Z/p→CH(XL)Z⊂Q⊗Z/p is injective.</text></s>
+<s sid="306"><CoreSc1 advantage="None" conceptID="Con16" novelty="None" type="Con"/><text>By [29, Theorem 5.20 and Proposition 5.26], the group CH(XF) is the direct limit of the groups CH(XL) with L/k a finite subextension of F/k.</text></s>
+<s sid="307"><CoreSc1 advantage="None" conceptID="Con17" novelty="None" type="Con"/><text>Such an extension L/k is of degree prime to p because it is a purely inseparable extension of a field of characteristic ≠p.</text></s>
+<s sid="308"><CoreSc1 advantage="None" conceptID="Con18" novelty="None" type="Con"/><text>Using the fact that the functor A↦AZ⊂Q⊗Z/p commutes with any exact functor commuting with tensor products, we see that the natural map colimk⊂L⊂F[L:k]&lt;∞(CH(XL)Z⊂Q⊗Z/p)→CH(XF)Z⊂Q⊗Z/p is an isomorphism.</text></s>
+The lemma follows. □
+Remark 8.5
+<s sid="309"><CoreSc1 advantage="None" conceptID="Con19" novelty="None" type="Con"/><text>Proposition 8.3 actually gives some new information about Steenrod operations modulo p in characteristic not p.</text></s>
+<s sid="310"><CoreSc1 advantage="None" conceptID="Con20" novelty="None" type="Con"/><text>Denote by μ:CH(-)⊗Z/p→CH(-)Z⊂Q⊗Z/p the natural quotient map.</text></s>
+<s sid="311"><CoreSc1 advantage="None" conceptID="Con21" novelty="None" type="Con"/><text>Let X be a variety, and (12)K(X)=ker(CH(X)→grK0′(X)).</text></s>
+<s sid="312"><CoreSc1 advantage="None" conceptID="Con22" novelty="None" type="Con"/><text>Then K(X) consists of torsion elements.</text></s>
+<s sid="313"><CoreSc1 advantage="None" conceptID="Con23" novelty="None" type="Con"/><text>Let Kp(X) be its image in CH(X)⊗Z/p.</text></s>
+<s sid="314"><CoreSc1 advantage="None" conceptID="Con24" novelty="None" type="Con"/><text>One can ask the following question: &quot;What is the set E of operations Q on Chow groups modulo p such that μ∘Q vanishes on Kp(X), for all X?&quot;</text></s>
+<s sid="315"><CoreSc1 advantage="None" conceptID="Con25" novelty="None" type="Con"/><text>By construction, we have Ti(Kp(X))=0; hence a consequence of Proposition 8.3 is that Ti′∈E, for all i.</text></s>
+<s sid="316"><CoreSc1 advantage="None" conceptID="Con26" novelty="None" type="Con"/><text>On the other hand when p=2 and j&gt;1, then the cohomological Steenrod square S2j-1 does not belong to E (see [16, Remark 8.4]).</text></s>
+<s sid="317"><CoreSc1 advantage="None" conceptID="Con27" novelty="None" type="Con"/><text>This can also be used to obtain information on grK0′(X).</text></s>
+<s sid="318"><CoreSc1 advantage="None" conceptID="Con28" novelty="None" type="Con"/><text>For example, a direct consequence of Proposition 8.3 is that gr2K0′(D) contains non-zero 3-torsion, where D is the variety of [27] (over a field of characteristic zero).</text></s>
+Remark 8.6
+<s sid="319"><CoreSc1 advantage="None" conceptID="Con29" novelty="None" type="Con"/><text>One can use the operations Ti to recover some of the results of [15].</text></s>
+<s sid="320"><CoreSc1 advantage="None" conceptID="Con30" novelty="None" type="Con"/><text>Assume that X is a variety and L/k an extension of the base field such that CH(XL) is torsion-free.</text></s>
+<s sid="321"><CoreSc1 advantage="None" conceptID="Con31" novelty="None" type="Con"/><text>Then Ti is an endomorphism of CH(XL)⊗Z/p.</text></s>
+<s sid="322"><CoreSc1 advantage="None" conceptID="Con32" novelty="None" type="Con"/><text>We set S0=id, and define inductively, for n&gt;0 and x∈CH(XL)⊗Z/p, Sn(x)=-∑i=1nTi∘Sn-i(x).</text></s>
+<s sid="323"><CoreSc1 advantage="None" conceptID="Con33" novelty="None" type="Con"/><text>Let Ch¯(X)=im(CH(X)⊗Z/p→CH(XL)⊗Z/p) be the reduced Chow group modulo p.</text></s>
+<s sid="324"><CoreSc1 advantage="None" conceptID="Con34" novelty="None" type="Con"/><text>Since the operations Ti commute with extension of the base field, they send the subgroup Ch¯(X)⊂CH(XL)⊗Z/p to itself.</text></s>
+<s sid="325"><CoreSc1 advantage="None" conceptID="Con35" novelty="None" type="Con"/><text>Therefore, the association x↦Sn(x) induces an operation of this subgroup, the n-th reduced Steenrod operation.</text></s>
+Part 3.
+Degree formula and applications.
+<s sid="326"><CoreSc1 advantage="None" conceptID="Obj46" novelty="None" type="Obj"/><text>We now describe some consequences of the results obtained above.</text></s>
+<s sid="327"><CoreSc1 advantage="None" conceptID="Obj47" novelty="None" type="Obj"/><text>In order to make unconditional statements, we restrict ourselves to applications of the fact that p-integrality holds in codimension ≤p(p-1)-1 (Theorem 3.2).</text></s>
+<s sid="328"><CoreSc1 advantage="None" conceptID="Obj48" novelty="None" type="Obj"/><text>We fix prime number p.</text></s>
+<s sid="329"><CoreSc1 advantage="None" conceptID="Obj49" novelty="None" type="Obj"/><text>When X is a projective variety, we let nX be the positive generator of the image of the degree map CH(X)→Z.</text></s>
+We also set nX(p)=pvp(nX).
+<s sid="330"><CoreSc1 advantage="None" conceptID="Obj50" novelty="None" type="Obj"/><text>Let x:X→Spec(k) be the structural morphism of X.</text></s>
+<s sid="331"><CoreSc1 advantage="None" conceptID="Obj51" novelty="None" type="Obj"/><text>We denote by χ(OX) the integer corresponding to x∗[OX] under the identification K0′(Spec(k))=Z.</text></s>
+In other words, χ(OX)=∑j≥0(-1)jdimkHj(X,OX).
+<s sid="332"><CoreSc1 advantage="None" conceptID="Res155" novelty="None" type="Res"/><text>Note that ch[OSpec(k)]=[Spec(k)], so that χ(OX)=deg∘ch0[OX].</text></s>
+Index and Euler characteristic
+<s sid="333"><CoreSc1 advantage="None" conceptID="Res156" novelty="None" type="Res"/><text>We begin by giving a restriction on the possible values of the index nX of a projective variety X, in terms of two integers which do not change under field extensions: the dimension of X and the Euler characteristic χ(OX).</text></s>
+Proposition 9.1
+<s sid="334"><CoreSc1 advantage="None" conceptID="Res157" novelty="None" type="Res"/><text>Let X be a projective variety of dimension &lt;p(p-1) . Thenvp(nX)≤[dimXp-1]+vp(χ(OX)).</text></s>
+Proof
+<s sid="335"><CoreSc1 advantage="None" conceptID="Res158" novelty="None" type="Res"/><text>We have, by Theorem 3.2, vp(ch0[OX])≥-[dimXp-1], which means that there is an integral zero-cycle x∈CH0(X), and an integer λ prime to p such that x=λ⋅p[dimX/(p-1)]⋅ch0[OX].</text></s>
+<s sid="336"><CoreSc1 advantage="None" conceptID="Res159" novelty="None" type="Res"/><text>Taking degrees, we obtain nX|λ⋅p[dimX/(p-1)]⋅χ(OX), whence the result. □</text></s>
+<s sid="337"><CoreSc1 advantage="None" conceptID="Res160" novelty="None" type="Res"/><text>Let X be an integral projective variety of dimension i(p-1), with i&gt;0.</text></s>
+We define in Z/nX(p)tp(X)=pi-1⋅χ(OX)modnX(p).
+<s sid="338"><CoreSc1 advantage="None" conceptID="Res161" novelty="None" type="Res"/><text>Then Proposition 9.1 amounts to saying that we have, when i&lt;p, p⋅tp(X)=0modnX(p).</text></s>
+<s sid="339"><CoreSc1 advantage="None" conceptID="Res162" novelty="None" type="Res"/><text>The same conclusion holds for any i&gt;0 when X is a local complete intersection variety by Proposition 4.1, or if p-integrality holds in codimension ≤i(p-1).</text></s>
+Remark 9.2
+<s sid="340"><CoreSc1 advantage="None" conceptID="Res163" novelty="None" type="Res"/><text>By [26, Corollary 1], the class tp(X) vanishes when the base field is perfect of characteristic p.</text></s>
+Remark 9.3
+Assume that i&lt;p.
+<s sid="341"><CoreSc1 advantage="None" conceptID="Res164" novelty="None" type="Res"/><text>Let up(X)∈CH0(X) be a cycle whose class modulo p and p-primary torsion is Ti[X].</text></s>
+<s sid="342"><CoreSc1 advantage="None" conceptID="Res165" novelty="None" type="Res"/><text>Then its image up¯(X) in CH0(X)Z(p)⊂Q satisfies up¯(X)=pi⋅ch0[OX]modpCH0(X)Z(p)⊂Q.</text></s>
+Hence degup¯(X)=pi⋅χ(OX)modpnXZ(p) and degup(X)p=pi-1⋅χ(OX)modnX(p).
+<s sid="343"><CoreSc1 advantage="None" conceptID="Con36" novelty="None" type="Con"/><text>Thus the class tp(X) corresponds to the Rost numbers for a certain combination of Steenrod operations (see [22, p.</text></s>
+<s sid="344"><CoreSc1 advantage="None" conceptID="Con37" novelty="None" type="Con"/><text>20]) under the map Z/nX→Z/nX(p).</text></s>
+<s sid="345"><CoreSc1 advantage="None" conceptID="Con38" novelty="None" type="Con"/><text>When f:Y→X is a morphism between varieties of the same dimension, then the integer degf is defined as the degree of the extension of function fields when f is dominant, and as zero otherwise.</text></s>
+Theorem 9.4
+Degree Formula
+<s sid="346"><CoreSc1 advantage="None" conceptID="Con39" novelty="None" type="Con"/><text>Let f:Y→X be a morphism of integral projective varieties of the same dimension i(p-1) with 0&lt;i≤p . Thentp(Y)=degf⋅tp(X)modnX(p).</text></s>
+Proof
+<s sid="347"><CoreSc1 advantage="None" conceptID="Con40" novelty="None" type="Con"/><text>We have in K0′(X)(13)f∗[OY]=degf⋅[OX]+δ with δ∈K0′(X)(i(p-1)-1).</text></s>
+<s sid="348"><CoreSc1 advantage="None" conceptID="Con41" novelty="None" type="Con"/><text>This element δ can be written as a linear combination of elements of type [OZ], for Z a closed subvariety of X, with dimZ≤i(p-1)-1.</text></s>
+<s sid="349"><CoreSc1 advantage="None" conceptID="Con42" novelty="None" type="Con"/><text>Note that nX(p)|nZ(p) for such Z.</text></s>
+<s sid="350"><CoreSc1 advantage="None" conceptID="Con43" novelty="None" type="Con"/><text>The result is obtained by projecting (13) to K0′(Spec(k)), and using Proposition 9.1.□</text></s>
+<s sid="351"><CoreSc1 advantage="None" conceptID="Con44" novelty="None" type="Con"/><text>Thus the class tp(-) is defined for varieties of dimension i(p-1) when i is arbitrary, satisfies the degree formula when i≤p, and is of p-torsion when i≤p-1.</text></s>
+Remark 9.5
+<s sid="352"><CoreSc1 advantage="None" conceptID="Con45" novelty="None" type="Con"/><text>Let X be a projective variety of dimension i(p-1), with i≤p.</text></s>
+<s sid="353"><CoreSc1 advantage="None" conceptID="Con46" novelty="None" type="Con"/><text>Assume that there is a morphism f:X→Y, for some projective variety Y, such that f∗[X]∈K(Y) (see (12)).</text></s>
+Then tp(X)=0modnY(p).
+Correspondences modulo p
+<s sid="354"><CoreSc1 advantage="None" conceptID="Con47" novelty="None" type="Con"/><text>Let X and Y be varieties, with Y projective and X integral.</text></s>
+<s sid="355"><CoreSc1 advantage="None" conceptID="Con48" novelty="None" type="Con"/><text>A correspondence α:X↝Y is an element α∈CH(X×Y).</text></s>
+<s sid="356"><CoreSc1 advantage="None" conceptID="Con49" novelty="None" type="Con"/><text>The multiplicity of α is the image of α under the composite CH(X×Y)→CH(Spec(k(X))×Y)⟶degCH(Spec(k(X)))=Z.</text></s>
+Strong p-incompressibility
+<s sid="357"><CoreSc1 advantage="None" conceptID="Con50" novelty="None" type="Con"/><text>Let p be a prime number.</text></s>
+Following [18, p.
+<s sid="358"><CoreSc1 advantage="None" conceptID="Con51" novelty="None" type="Con"/><text>150], we call an integral projective variety X strongly p-incompressible if the existence of a correspondence X↝Y of multiplicity prime to p, with Y an integral projective variety of dimension ≤dimX and such that vp(nY)≥vp(nX), implies that dimY=dimX, and that there exists a correspondence Y↝X of multiplicity prime to p.</text></s>
+Proposition 10.1
+<s sid="359"><CoreSc1 advantage="None" conceptID="Res166" novelty="None" type="Res"/><text>Let p be a prime number, and i an integer such that 0&lt;i≤p . Let X be an integral projective variety with vp(nX)≥i . Assume that χ(OX) is prime to p . Then dimX≥i(p-1) .</text></s>
+<s sid="360"><CoreSc1 advantage="None" conceptID="Res167" novelty="None" type="Res"/><text>In case of equality, X is strongly p-incompressible.</text></s>
+Proof
+Assume that dimX&lt;i(p-1).
+<s sid="361"><CoreSc1 advantage="None" conceptID="Res168" novelty="None" type="Res"/><text>Then in particular dimX&lt;p(p-1), and Proposition 9.1 gives i≤vp(nX)≤[dimXp-1]+vp(χ(OX))&lt;i, a contradiction.</text></s>
+Hence dimX≥i(p-1).
+<s sid="362"><CoreSc1 advantage="None" conceptID="Mod52" novelty="None" type="Mod"/><text>Now we assume that dimX=i(p-1).</text></s>
+<s sid="363"><CoreSc1 advantage="None" conceptID="Mod53" novelty="None" type="Mod"/><text>We proceed as in the proof of [22, Theorem 7.2] - but as we include the case i=p, we cannot use the relation p⋅tp(X)=0.</text></s>
+<s sid="364"><CoreSc1 advantage="None" conceptID="Mod54" novelty="None" type="Mod"/><text>Let Y be an integral projective variety of dimension ≤dimX, with a correspondence X↝Y of multiplicity prime to p, and such that vp(nY)≥vp(nX).</text></s>
+<s sid="365"><CoreSc1 advantage="None" conceptID="Mod55" novelty="None" type="Mod"/><text>We can assume that there is an integral variety Z with dimZ=dimX, and two projective morphisms f:Z→X and g:Z→Y↪Y′, such that degf is prime to p.</text></s>
+<s sid="366"><CoreSc1 advantage="None" conceptID="Res169" novelty="None" type="Res"/><text>Here Y′ is the product of Y with a projective space of appropriate dimension: in particular dimY′=dimX and nY′=nY.</text></s>
+<s sid="367"><CoreSc1 advantage="None" conceptID="Res170" novelty="None" type="Res"/><text>Since by Theorem 9.4 we have degf⋅tp(X)=tp(Z)modnX(p), we see that tp(Z) is non-zero modulo nX(p), hence modulo nY(p).</text></s>
+<s sid="368"><CoreSc1 advantage="None" conceptID="Res171" novelty="None" type="Res"/><text>Now by the same theorem we have degg⋅tp(Y′)=tp(Z)modnY(p), hence degg is non-zero and g is dominant, so that Y=Y′ and dimY=dimX.</text></s>
+<s sid="369"><CoreSc1 advantage="None" conceptID="Res172" novelty="None" type="Res"/><text>Then Z gives a correspondence Y↝X of multiplicity prime to p.</text></s>
+<s sid="370"><CoreSc1 advantage="None" conceptID="Res173" novelty="None" type="Res"/><text>For further reference, let us mention that we also obtain that tp(Y) is non-zero modulo nY(p). □</text></s>
+<s sid="371"><CoreSc1 advantage="None" conceptID="Res174" novelty="None" type="Res"/><text>Let X be the Severi-Brauer variety of a central division algebra of degree pn, with p a prime number.</text></s>
+<s sid="372"><CoreSc1 advantage="None" conceptID="Obs29" novelty="None" type="Obs"/><text>Then X is strongly p-incompressible when the characteristic of the base field is not p[22, Example 7.2, Theorem 7.2].</text></s>
+<s sid="373"><CoreSc1 advantage="None" conceptID="Obs30" novelty="None" type="Obs"/><text>According to [18, Example 2.3], it is unknown whether X is strongly p-incompressible when the characteristic is p.</text></s>
+<s sid="374"><CoreSc1 advantage="None" conceptID="Obs31" novelty="None" type="Obs"/><text>We can treat the case n=1 with Proposition 10.1.</text></s>
+Corollary 10.2
+<s sid="375"><CoreSc1 advantage="None" conceptID="Res175" novelty="None" type="Res"/><text>The Severi-Brauer variety of a central division algebra of prime degree p is strongly p-incompressible.</text></s>
+Index reduction formula
+<s sid="376"><CoreSc1 advantage="None" conceptID="Res176" novelty="None" type="Res"/><text>We mentioned in [13, Section 4.1] that the index reduction formula of [31, Corollary (B)] can be generalized to base fields of arbitrary characteristic.</text></s>
+<s sid="377"><CoreSc1 advantage="None" conceptID="Res177" novelty="None" type="Res"/><text>The results obtained here allow us to additionally remove all assumptions of regularity.</text></s>
+Proposition 10.3
+<s sid="378"><CoreSc1 advantage="None" conceptID="Res178" novelty="None" type="Res"/><text>Let X and Y be integral projective varieties, of dimensions ≤i(p-1) for some i≤p . Assume that vp(nY)≥vp(nX)≥i, p|χ(OY), and χ(OX) is prime to p . Then there is no correspondence X↝Y of multiplicity prime to p.</text></s>
+Proof
+<s sid="379"><CoreSc1 advantage="None" conceptID="Res179" novelty="None" type="Res"/><text>The first part of Proposition 10.1 implies that dimX=i(p-1); hence dimY≤dimX.</text></s>
+<s sid="380"><CoreSc1 advantage="None" conceptID="Con52" novelty="None" type="Con"/><text>If such a correspondence exist, the last sentence of the proof of Proposition 10.1 would imply that χ(OY) is prime to p, a contradiction. □</text></s>
+Rost's correspondences
+<s sid="381"><CoreSc1 advantage="None" conceptID="Con53" novelty="None" type="Con"/><text>The operations Ti can be used to extend the case n=1 in [25, Theorem 9.1] to arbitrary fields.</text></s>
+Theorem 10.4
+<s sid="382"><CoreSc1 advantage="None" conceptID="Con54" novelty="None" type="Con"/><text>Let X be a smooth projective variety of dimension p-1 . Assume that X has a special correspondence in the sense of [25, Definition 5.1], with b=1 . Assume moreover that X has no zero-cycle of degree prime to p . Thendeg(r(p)(-TX)⋅[X])≠0modp2.By Remark 9.3, this means that the integer χ(OX) is prime to p.</text></s>
+Proof
+<s sid="383"><CoreSc1 advantage="None" conceptID="Con55" novelty="None" type="Con"/><text>We only sketch how [25, Proof of Theorem 9.1] can be adapted.</text></s>
+<s sid="384"><CoreSc1 advantage="None" conceptID="Con56" novelty="None" type="Con"/><text>This proof only involves cycles of dimension ≤2p-3; in particular, the only Steenrod operation used is the first one.</text></s>
+<s sid="385"><CoreSc1 advantage="None" conceptID="Con57" novelty="None" type="Con"/><text>Moreover, since the degree map factors through the Chow group modulo torsion, there is no loss in using the operation with values in this group.</text></s>
+<s sid="386"><CoreSc1 advantage="None" conceptID="Con58" novelty="None" type="Con"/><text>All the properties needed are contained in Proposition 7.4. □</text></s>
+</BODY>
+<OTHER>
+Acknowledgments
+The support of EPSRC Responsive Mode grant EP/G032556/1 is gratefully acknowledged.
+I thank Alexander Vishik for his interest in this work, and for the useful suggestions that he made.
+Schemes over a regular base
+Let S be a regular connected scheme of finite Krull dimension.
+Then, as explained in [9, Section 20.1], most results of [9] for varieties over fields extend to arbitrary schemes of finite type over S. There are only two difficulties :
+- the lack of external product in general.
+- one should use relative dimension dimS instead of the usual dimension.
+In particular, the homological Chern character can be constructed in this generality.
+The purpose of this appendix is to explain how Theorem 3.2 (and thus the construction of the operations Ti, i=0,…,p-1) can be extended to this setting.
+Let VS be the category of schemes quasi-projective over S. Homological Adams operations are constructed in [28] for objects of VS.
+The results of Section 2 extend without difficulty to the category VS.
+However, both proofs of Proposition 3.1 used the fact that X contains a non-empty open regular subscheme.
+We now give a proof that works for arbitrary objects of VS, using the notations introduced in the beginning of Section 2.
+Proposition A.1
+Let l∈Z-{0}, X∈VS, and x∈K0′(X)(d) . Thenψl(x)-l-d⋅x∈K0′(X)(d-1)⊗Z[1/l].
+Proof
+As before, one can assume that X is integral and d=dimSX, and we have the exact sequence 0→K0′(X)(d-1)⊗Z[1/l]→K0′(X)(d)⊗Z[1/l]⟶u∗K0′(Spec(k(X)))⊗Z[1/l]→0.
+Choose a closed embedding X↪W, with W connected and smooth over S. Let x be the generic point of X, and write Wx for Spec(OW,x).
+Then the map u∗ in the sequence above may be identified with the map f∗:K0X(W)⊗Z[1/l]→K0{x}(Wx)⊗Z[1/l] and the composite u∗∘ψl corresponds to f∗∘(θl(-TW/S)⋅ψXl)=θl(-TW/S)⋅ψ{x}l∘f∗.
+The action of θl(-TW/S)∈K0(W) on K0{x}(Wx) factors through K0(Wx).
+Since Wx is a local scheme, the rank map K0(Wx)→Z is an isomorphism.
+The rank of θl(-TW/S) is l-rankTW/S[16, (2), p.
+6].
+Since W is flat over S, we have dimSW=tr.deg.(k(W)/k(S))=rankTW/S.
+Thus θl(-TW/S) acts on K0{x}(Wx) by multiplication by l-dimSW.
+By [12, (A4') p.
+263, see also Proof of Proposition 5.3], ψ{x}l is multiplication by lcodim(X,W).
+This gives, using [9, Lemma 20.1, (2)], u∗∘ψl=lcodim(X,W)-dimSW⋅u∗=l-dimSX⋅u∗.
+We can now conclude using the exact sequence above. □
+As a consequence, Theorem 3.2 immediately extends to the category VS.
+Finally, let X be a scheme of finite type over S (possibly non quasi-projective).
+Proceeding as in the proof of [9, Lemma 18.3, (3)], we see that there is always an envelope X′→X over S, such that X′∈VS.
+Moreover we see, using [9, Lemma 20.1, (3)], that K0′(X′)(d)→K0′(X)(d) is surjective, for any d.
+Using this remark, Theorem 3.2 is easily extended to the category of schemes of finite type over S.
+
+</OTHER>
+</PAPER>
