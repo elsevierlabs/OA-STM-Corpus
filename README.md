@@ -75,10 +75,11 @@ treebank2GateXML.pl | Convert treebank to GATE XML.
 
 ## Terminology
 
-Elseveir currently has about 12 million articles in a wide range
-of disciplines. About 100,000 of those are *Open Access articles*. The published PDF
-version of the OA articles can be freely downloaded for reading from ScienceDirect. (Instructions will be given below.) 
-Of the OA articles, about 15,000 have a *CC-BY license* which lets
+Elsevier currently has about 12 million articles in a wide range
+of disciplines. About 600,000 of those are *free to read* articles.
+The published PDF
+version of those articles can be freely downloaded from ScienceDirect for reading. (Instructions will be given below.) 
+Of those articles, about 15,000 have a *CC-BY license* which lets
 you redistribute the PDF, make commercial use of the content, and prepare
 derivative works. Just don't claim the papers as your work unless you
 are one of the authors. 
