@@ -36,6 +36,8 @@ identified 10 documents as a default test set. As new annotation types
 are added, those articles should be the first choice for manually
 reviewed and corrected test data.
 
+## Treebank
+
 To seed the process of creating manual annotations, Elsevier has
 commissioned a treebank of the ten full-text articles in the default test
 set.  We hope this corpus and treebank become a valuable resource
@@ -58,19 +60,10 @@ Directory	| Description                                        |  Count
 SourceXML	| Slightly modfied XML source for published article. |  110
 SourceText	| Readable text extract for easy text mining.        |  110
 CoreSC		| Annotations for CoreSC Discourse model.            |  110
-Treebank	| Manually created treebank for 10 articles.         |  ~5 now
+Treebank	| Manually created treebank for 10 articles.         |   10
 Stanford	| Automatic annotations from Standord Core NLP.      |  110
 GENIA		| Automatic annotions from GENIA tools.              |  110
-Wikification	| Annotations from Spotlight and similar tools.      |  ~5 now
-
-
-There is also a Utils directory intended to hold tools for finding
-and fetching articles, converting between formats, etc. It currently contains:
-
-File    	    | Description
---------------------|----------------------------------------------------
-listCCBYs.pl	    | Make list of all ScienceDirect CC-BY articles.
-treebank2GateXML.pl | Convert treebank to GATE XML.
+Wikification	| Annotations from Spotlight and similar tools.      |   10
 
 
 ## Terminology
@@ -78,11 +71,11 @@ treebank2GateXML.pl | Convert treebank to GATE XML.
 Elsevier currently has about 12 million articles in a wide range
 of disciplines. About 600,000 of those are *free to read* articles.
 The published PDF
-version of those articles can be freely downloaded from ScienceDirect for reading. (Instructions will be given below.) 
+version of those articles can be freely downloaded from ScienceDirect for reading.
 Of those articles, about 15,000 have a *CC-BY license* which lets
 you redistribute the PDF, make commercial use of the content, and prepare
 derivative works. Just don't claim the papers as your work unless you
 are one of the authors. 
-The *corpus* is 110 articles selected from those 15,000. For the corpus we
+The *corpus* is 110 articles selected from those 15,000. They come from 10 domains that are most-published. For the corpus we
 provide the XML source for the article, as well as various other versions of the text such as the SimpleText format and the various annotated versions.
 The *default test set* is 10 articles from the 110, one per domain.
