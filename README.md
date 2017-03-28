@@ -62,7 +62,7 @@ SourceText	| Readable text extract for easy text mining.        |  110
 CoreSC		| Annotations for CoreSC Discourse model.            |  110
 Treebank	| Manually created treebank for 10 articles.         |   10
 Stanford	| Automatic annotations from Standord Core NLP.      |  110
-GENIA		| Automatic annotions from GENIA tools.              |  110
+GENIA		| Automatic annotations from GENIA tools.              |  110
 Wikification	| Annotations from Spotlight and similar tools.      |   10
 
 
